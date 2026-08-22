@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7914348",
+        "url": "https://www.ticketliquidator.com/tickets/7914348/Karol-G-tickets-Sat-Aug-22-2026-Levis-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aNMPKQV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7914348"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7914348",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7914348/Karol-G-tickets-Sat-Aug-22-2026-Levis-Stadium"
   },
   {
     "id": "tm-karol-g-2026-seattle-vvg1hz_a1yzbuj",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896603",
+        "url": "https://www.ticketliquidator.com/tickets/7896603/Karol-G-tickets-Wed-Aug-26-2026-Lumen-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_a1YZbUJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896603"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896603",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896603/Karol-G-tickets-Wed-Aug-26-2026-Lumen-Field"
   },
   {
     "id": "tm-karol-g-2026-san-antonio-g5diz_ak3mivp",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896561",
+        "url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_ak3mIVP",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896561"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896561",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome"
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_an5e3ov",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7918428",
+        "url": "https://www.ticketliquidator.com/tickets/7918428/Karol-G-tickets-Sat-Sep-5-2026-Sun-Bowl-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aN5E3ov",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7918428"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7918428",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7918428/Karol-G-tickets-Sat-Sep-5-2026-Sun-Bowl-Stadium"
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_akoajis",
@@ -297,12 +329,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896567",
+        "url": "https://www.ticketliquidator.com/tickets/7896567/Karol-G-tickets-Sun-Sep-6-2026-Sun-Bowl-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aKOajIs",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896567"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896567",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896567/Karol-G-tickets-Sun-Sep-6-2026-Sun-Bowl-Stadium"
   },
   {
     "id": "tm-karol-g-2026-foxborough-vv1avzk3ogkebubpy",
@@ -358,12 +398,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896571",
+        "url": "https://www.ticketliquidator.com/tickets/7896571/Karol-G-tickets-Sat-Sep-12-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk3oGkeBuBpy",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896571"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896571",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896571/Karol-G-tickets-Sat-Sep-12-2026-Gillette-Stadium"
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_a6cy2uc",
@@ -419,12 +467,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896548",
+        "url": "https://www.ticketliquidator.com/tickets/7896548/Karol-G-tickets-Thu-Sep-17-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_a6Cy2uc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896548"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896548",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896548/Karol-G-tickets-Thu-Sep-17-2026-MetLife-Stadium"
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_anrle2y",
@@ -480,12 +536,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7913589",
+        "url": "https://www.ticketliquidator.com/tickets/7913589/Karol-G-tickets-Fri-Sep-18-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aNRle2Y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913589"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913589",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913589/Karol-G-tickets-Fri-Sep-18-2026-MetLife-Stadium"
   },
   {
     "id": "tm-karol-g-2026-atlanta-vvg1zz_ag0kdf4",
@@ -541,12 +605,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896545",
+        "url": "https://www.ticketliquidator.com/tickets/7896545/Karol-G-tickets-Thu-Sep-24-2026-Mercedes-Benz-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_aG0kdf4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896545"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896545",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896545/Karol-G-tickets-Thu-Sep-24-2026-Mercedes-Benz-Stadium"
   },
   {
     "id": "tm-karol-g-2026-houston-g5diz_akcfr2w",
@@ -602,12 +674,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896540",
+        "url": "https://www.ticketliquidator.com/tickets/7896540/Karol-G-tickets-Sun-Sep-27-2026-Reliant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_aKCFR2W",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896540"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896540",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896540/Karol-G-tickets-Sun-Sep-27-2026-Reliant-Stadium"
   },
   {
     "id": "tm-karol-g-2026-miami-vvg1vz_a38lpr5",
@@ -663,12 +743,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896542",
+        "url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_a38LpR5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896542"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896542",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium"
   },
   {
     "id": "tm-karol-g-2026-miami-vvg1vz_afezyvt",
@@ -724,12 +812,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7913597",
+        "url": "https://www.ticketliquidator.com/tickets/7913597/Karol-G-tickets-Sat-Oct-3-2026-Hard-Rock-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_afeZYVt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913597"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913597",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913597/Karol-G-tickets-Sat-Oct-3-2026-Hard-Rock-Stadium"
   },
   {
     "id": "tm-karol-g-2026-tampa-vvg1vz_aksr-m3",
@@ -785,12 +881,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896543",
+        "url": "https://www.ticketliquidator.com/tickets/7896543/Karol-G-tickets-Fri-Oct-9-2026-Raymond-James-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_aKsr-m3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896543"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896543",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896543/Karol-G-tickets-Fri-Oct-9-2026-Raymond-James-Stadium"
   },
   {
     "id": "tm-karol-g-2026-arlington-z7r9jz1a7xfrb",
@@ -846,12 +950,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896541",
+        "url": "https://www.ticketliquidator.com/tickets/7896541/Karol-G-tickets-Thu-Oct-15-2026-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfrb",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896541"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896541",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896541/Karol-G-tickets-Thu-Oct-15-2026-ATT-Stadium"
   },
   {
     "id": "tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k",
@@ -1013,12 +1125,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896500",
+        "url": "https://www.ticketliquidator.com/tickets/7896500/Karol-G-tickets-Fri-Jun-11-2027-Estadio-La-Cartuja",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kP4_vuk",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896500"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896500",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896500/Karol-G-tickets-Fri-Jun-11-2027-Estadio-La-Cartuja"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz16vvepfuz",
@@ -1074,12 +1194,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7912285",
+        "url": "https://www.ticketliquidator.com/tickets/7912285/Karol-G-tickets-Sat-Jun-12-2027-Estadio-La-Cartuja",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vvepfuZ",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7912285"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7912285",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7912285/Karol-G-tickets-Sat-Jun-12-2027-Estadio-La-Cartuja"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz16v_a-6fw",
@@ -1135,12 +1263,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921229",
+        "url": "https://www.ticketliquidator.com/tickets/7921229/Karol-G-tickets-Sun-Jun-13-2027-Estadio-La-Cartuja",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_a-6Fw",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921229"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921229",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921229/Karol-G-tickets-Sun-Jun-13-2027-Estadio-La-Cartuja"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7",
@@ -1461,12 +1597,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896506",
+        "url": "https://www.ticketliquidator.com/tickets/7896506/Karol-G-tickets-Sat-Jul-10-2027-Johan-Cruijff-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vC_bwjy",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896506"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896506",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896506/Karol-G-tickets-Sat-Jul-10-2027-Johan-Cruijff-Arena"
   },
   {
     "id": "tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs",
@@ -1522,11 +1666,19 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896509",
+        "url": "https://www.ticketliquidator.com/tickets/7896509/Karol-G-tickets-Wed-Jul-14-2027-PGE-Narodowy",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16vfa4VGS",
     "timezone": "Europe/Warsaw",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896509"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896509",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896509/Karol-G-tickets-Wed-Jul-14-2027-PGE-Narodowy"
   }
 ]

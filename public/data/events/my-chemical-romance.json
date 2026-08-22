@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424934",
+        "url": "https://www.ticketliquidator.com/tickets/7424934/My-Chemical-Romance-tickets-Mon-Aug-24-2026-Target-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvNGEGAGeom5",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424934"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424934",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424934/My-Chemical-Romance-tickets-Mon-Aug-24-2026-Target-Field"
   },
   {
     "id": "tm-my-chemical-romance-2026-denver-g5vzzbwncbsnm",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424935",
+        "url": "https://www.ticketliquidator.com/tickets/7424935/My-Chemical-Romance-tickets-Thu-Aug-27-2026-Coors-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbwNCBsnm",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424935"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424935/My-Chemical-Romance-tickets-Thu-Aug-27-2026-Coors-Field"
   },
   {
     "id": "tm-my-chemical-romance-2026-san-diego-vvg1izbwykcki4",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424936",
+        "url": "https://www.ticketliquidator.com/tickets/7424936/My-Chemical-Romance-tickets-Sun-Aug-30-2026-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbwYkcki4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424936"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424936",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424936/My-Chemical-Romance-tickets-Sun-Aug-30-2026-Petco-Park"
   },
   {
     "id": "tm-my-chemical-romance-2026-phoenix-1a_zkgygkd3ywvj",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424937",
+        "url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkGYGkd3YwVJ",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424937"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424937",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field"
   },
   {
     "id": "tm-my-chemical-romance-2026-san-antonio-g5dizbsd0c4y6",
@@ -297,12 +329,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424939",
+        "url": "https://www.ticketliquidator.com/tickets/7424939/My-Chemical-Romance-tickets-Sat-Sep-12-2026-Alamodome",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSd0c4y6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424939"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424939",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424939/My-Chemical-Romance-tickets-Sat-Sep-12-2026-Alamodome"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55mdjk",
@@ -358,12 +398,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424940",
+        "url": "https://www.ticketliquidator.com/tickets/7424940/My-Chemical-Romance-tickets-Wed-Oct-21-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55MdJK",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424940"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424940",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424940/My-Chemical-Romance-tickets-Wed-Oct-21-2026-Hollywood-Bowl"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55msjp",
@@ -419,12 +467,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424941",
+        "url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55MSJp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424941"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55znjb",
@@ -480,12 +536,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424942",
+        "url": "https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55zNJb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55ykjr",
@@ -541,12 +605,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7570185",
+        "url": "https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55yKJr",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570185"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570185",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55bdjv",
@@ -602,12 +674,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7570377",
+        "url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55BdJV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570377"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570377",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl"
   },
   {
     "id": "tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6",

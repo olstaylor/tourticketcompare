@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511940",
+        "url": "https://www.ticketliquidator.com/tickets/7511940/Foo-Fighters-tickets-Sat-Sep-12-2026-Fargodome",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkuKGkdkiFv9",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511940"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511940",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511940/Foo-Fighters-tickets-Sat-Sep-12-2026-Fargodome"
   },
   {
     "id": "tm-foo-fighters-2026-regina-1aozku4gkeb8mgg",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511941",
+        "url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkeB8MgG",
     "timezone": "America/Regina",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511941"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium"
   },
   {
     "id": "tm-foo-fighters-2026-edmonton-1k78vn4_gaujue7",
@@ -228,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511935",
+        "url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkewUExj",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium"
   },
   {
     "id": "tm-foo-fighters-2026-las-vegas-1a9zkufgkd3cmyl",
@@ -289,12 +313,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511942",
+        "url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkufGkd3CMyl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium"
   },
   {
     "id": "tm-foo-fighters-2026-uncasville-g5vvz_unjqq1q",
@@ -350,11 +382,19 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113672",
+        "url": "https://www.ticketliquidator.com/tickets/8113672/Foo-Fighters-tickets-Sun-Oct-4-2026-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_uNJqq1q",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113672"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113672",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113672/Foo-Fighters-tickets-Sun-Oct-4-2026-Mohegan-Sun-Arena-CT"
   }
 ]

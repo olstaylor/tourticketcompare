@@ -297,12 +297,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676469",
+        "url": "https://www.ticketliquidator.com/tickets/7676469/Five-Finger-Death-Punch-tickets-Fri-Sep-18-2026-FM-Bank-Amphitheater-of-Long-Beach",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_eLs87ti",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676469"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676469",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676469/Five-Finger-Death-Punch-tickets-Fri-Sep-18-2026-FM-Bank-Amphitheater-of-Long-Beach"
   },
   {
     "id": "tm-five-finger-death-punch-2026-west-valley-city-g5vzz_e9-5mgw",

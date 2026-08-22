@@ -1,0 +1,416 @@
+[
+  {
+    "id": "tm-foo-fighters-2026-fargo-vv1akzkukgkdkifv9",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "Foo Fighters: TAKE COVER TOUR 2026",
+    "city": "Fargo",
+    "country": "United States Of America",
+    "venue": "Fargodome",
+    "datetime_iso": "2026-09-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006353C6B08057",
+    "ticketmaster_url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-fargo-north-dakota-09-12-2026/event/06006353C6B08057",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-fargo-fargodome-9-12-2026--concerts-rock/production/6176481",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-fargo-north-dakota-09-12-2026/event/06006353C6B08057",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006353C6B08057",
+        "discovery_event_id": "vv1AkZkuKGkdkiFv9",
+        "url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-fargo-north-dakota-09-12-2026/event/06006353C6B08057",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6176481,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-fargo-fargodome-9-12-2026--concerts-rock/production/6176481",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511940",
+        "url": "https://www.ticketnetwork.com/en/p/7511940",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511940",
+        "url": "https://www.ticketliquidator.com/tickets/7511940/Foo-Fighters-tickets-Sat-Sep-12-2026-Fargodome",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkuKGkdkiFv9",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511940",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511940/Foo-Fighters-tickets-Sat-Sep-12-2026-Fargodome"
+  },
+  {
+    "id": "tm-foo-fighters-2026-regina-1aozku4gkeb8mgg",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "Foo Fighters: TAKE COVER TOUR 2026",
+    "city": "Regina",
+    "country": "Canada",
+    "venue": "Mosaic Stadium",
+    "datetime_iso": "2026-09-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006355BA437D4C",
+    "ticketmaster_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-regina-saskatchewan-09-15-2026/event/11006355BA437D4C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-regina-mosaic-stadium-at-taylor-field-9-15-2026--concerts-rock/production/6176483",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-regina-saskatchewan-09-15-2026/event/11006355BA437D4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006355BA437D4C",
+        "discovery_event_id": "1AoZku4GkeB8MgG",
+        "url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-regina-saskatchewan-09-15-2026/event/11006355BA437D4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6176483,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-regina-mosaic-stadium-at-taylor-field-9-15-2026--concerts-rock/production/6176483",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511941",
+        "url": "https://www.ticketnetwork.com/en/p/7511941",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511941",
+        "url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZku4GkeB8MgG",
+    "timezone": "America/Regina",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium"
+  },
+  {
+    "id": "tm-foo-fighters-2026-edmonton-1k78vn4_gaujue7",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "Foo Fighters: TAKE COVER TOUR 2026",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2026-09-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110063559D7369C4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-edmonton-alberta-09-17-2026/event/110063559D7369C4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-edmonton-alberta-09-17-2026/event/110063559D7369C4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110063559D7369C4",
+        "discovery_event_id": "1k78vN4_GAujUE7",
+        "url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-edmonton-alberta-09-17-2026/event/110063559D7369C4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vN4_GAujUE7",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foo-fighters-2026-vancouver-1aozku4gkewuexj",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "Foo Fighters: TAKE COVER TOUR 2026",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2026-09-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006355B2DA789C",
+    "ticketmaster_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-vancouver-british-columbia-09-20-2026/event/11006355B2DA789C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026--concerts-rock/production/6176492",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-vancouver-british-columbia-09-20-2026/event/11006355B2DA789C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006355B2DA789C",
+        "discovery_event_id": "1AoZku4GkewUExj",
+        "url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-vancouver-british-columbia-09-20-2026/event/11006355B2DA789C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6176492,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026--concerts-rock/production/6176492",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511935",
+        "url": "https://www.ticketnetwork.com/en/p/7511935",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511935",
+        "url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999129",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026/event/106999129",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZku4GkewUExj",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026/event/106999129"
+  },
+  {
+    "id": "tm-foo-fighters-2026-las-vegas-1a9zkufgkd3cmyl",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "Foo Fighters: TAKE COVER TOUR 2026",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2026-09-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006354D23B7E6B",
+    "ticketmaster_url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-las-vegas-nevada-09-26-2026/event/17006354D23B7E6B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-las-vegas-allegiant-stadium-9-26-2026--concerts-rock/production/6176494",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-las-vegas-nevada-09-26-2026/event/17006354D23B7E6B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006354D23B7E6B",
+        "discovery_event_id": "1A9ZkufGkd3CMyl",
+        "url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-las-vegas-nevada-09-26-2026/event/17006354D23B7E6B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6176494,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-las-vegas-allegiant-stadium-9-26-2026--concerts-rock/production/6176494",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511942",
+        "url": "https://www.ticketnetwork.com/en/p/7511942",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7511942",
+        "url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999130",
+        "url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkufGkd3CMyl",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130"
+  },
+  {
+    "id": "tm-foo-fighters-2026-uncasville-g5vvz_unjqq1q",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "FOO FIGHTERS - TAKE COVER TOUR 2026",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2026-10-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D0064D8E675D29D",
+    "ticketmaster_url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-uncasville-connecticut-10-04-2026/event/1D0064D8E675D29D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-uncasville-mohegan-sun-arena-ct-10-4-2026/production/7256653",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-uncasville-connecticut-10-04-2026/event/1D0064D8E675D29D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D0064D8E675D29D",
+        "discovery_event_id": "G5vVZ_uNJqq1q",
+        "url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-uncasville-connecticut-10-04-2026/event/1D0064D8E675D29D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7256653,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-uncasville-mohegan-sun-arena-ct-10-4-2026/production/7256653",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113672",
+        "url": "https://www.ticketnetwork.com/en/p/8113672",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113672",
+        "url": "https://www.ticketliquidator.com/tickets/8113672/Foo-Fighters-tickets-Sun-Oct-4-2026-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_uNJqq1q",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113672",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113672/Foo-Fighters-tickets-Sun-Oct-4-2026-Mohegan-Sun-Arena-CT"
+  }
+]

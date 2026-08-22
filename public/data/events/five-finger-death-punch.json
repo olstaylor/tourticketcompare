@@ -1,0 +1,1925 @@
+[
+  {
+    "id": "tm-five-finger-death-punch-2026-auburn-vvg1hz_eppsgpt",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Auburn",
+    "country": "United States Of America",
+    "venue": "White River Amphitheatre",
+    "datetime_iso": "2026-09-12T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006425A5CF55BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-auburn-washington-09-11-2026/event/0F006425A5CF55BF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-auburn-white-river-amphitheatre-9-11-2026/production/6517175",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-auburn-washington-09-11-2026/event/0F006425A5CF55BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006425A5CF55BF",
+        "discovery_event_id": "vvG1HZ_epPSgpT",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-auburn-washington-09-11-2026/event/0F006425A5CF55BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517175,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-auburn-white-river-amphitheatre-9-11-2026/production/6517175",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676465",
+        "url": "https://www.ticketnetwork.com/en/p/7676465",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_epPSgpT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676465"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-ridgefield-vvg1hz_eq8bvhx",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Ridgefield",
+    "country": "United States Of America",
+    "venue": "Cascades Amphitheater",
+    "datetime_iso": "2026-09-13T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00642690EB46FE",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-ridgefield-washington-09-12-2026/event/0F00642690EB46FE",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-ridgefield-cascades-amphitheater-9-12-2026--concerts-hard-rock/production/6517183",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-ridgefield-washington-09-12-2026/event/0F00642690EB46FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00642690EB46FE",
+        "discovery_event_id": "vvG1HZ_eQ8BVhX",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-ridgefield-washington-09-12-2026/event/0F00642690EB46FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517183,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-ridgefield-cascades-amphitheater-9-12-2026--concerts-hard-rock/production/6517183",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676466",
+        "url": "https://www.ticketnetwork.com/en/p/7676466",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_eQ8BVhX",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676466"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-wheatland-g5vyz_eps2iri",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Toyota Amphitheatre",
+    "datetime_iso": "2026-09-15T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006425B13E87A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-wheatland-california-09-14-2026/event/1C006425B13E87A8",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-wheatland-toyota-amphitheatre-9-14-2026--concerts-hard-rock/production/6517185",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-wheatland-california-09-14-2026/event/1C006425B13E87A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006425B13E87A8",
+        "discovery_event_id": "G5vYZ_eps2IrI",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-wheatland-california-09-14-2026/event/1C006425B13E87A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517185,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-wheatland-toyota-amphitheatre-9-14-2026--concerts-hard-rock/production/6517185",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676467",
+        "url": "https://www.ticketnetwork.com/en/p/7676467",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_eps2IrI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676467"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-mountain-view-g5vyz_epluiuh",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Mountain View",
+    "country": "United States Of America",
+    "venue": "Shoreline Amphitheatre",
+    "datetime_iso": "2026-09-17T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006425ABDA837C",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-mountain-view-california-09-16-2026/event/1C006425ABDA837C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-mountain-view-shoreline-amphitheatre---ca-9-16-2026--concerts-hard-rock/production/6517187",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-mountain-view-california-09-16-2026/event/1C006425ABDA837C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006425ABDA837C",
+        "discovery_event_id": "G5vYZ_eplUIuH",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-mountain-view-california-09-16-2026/event/1C006425ABDA837C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517187,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-mountain-view-shoreline-amphitheatre---ca-9-16-2026--concerts-hard-rock/production/6517187",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676468",
+        "url": "https://www.ticketnetwork.com/en/p/7676468",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076161",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_eplUIuH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676468",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-long-beach-vvg1iz_els87ti",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Long Beach",
+    "country": "United States Of America",
+    "venue": "F&M Bank Amphitheater of Long Beach",
+    "datetime_iso": "2026-09-19T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006427F1404A6C",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-long-beach-california-09-18-2026/event/0B006427F1404A6C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-long-beach-california-09-18-2026/event/0B006427F1404A6C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006427F1404A6C",
+        "discovery_event_id": "vvG1iZ_eLs87ti",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-long-beach-california-09-18-2026/event/0B006427F1404A6C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676469",
+        "url": "https://www.ticketnetwork.com/en/p/7676469",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676469",
+        "url": "https://www.ticketliquidator.com/tickets/7676469/Five-Finger-Death-Punch-tickets-Fri-Sep-18-2026-FM-Bank-Amphitheater-of-Long-Beach",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_eLs87ti",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676469",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676469/Five-Finger-Death-Punch-tickets-Fri-Sep-18-2026-FM-Bank-Amphitheater-of-Long-Beach"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-west-valley-city-g5vzz_e9-5mgw",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Utah First Credit Union Amphitheatre",
+    "datetime_iso": "2026-09-23T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006425E12F7332",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-west-valley-city-utah-09-22-2026/event/1E006425E12F7332",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-west-valley-city-utah-09-22-2026/event/1E006425E12F7332",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006425E12F7332",
+        "discovery_event_id": "G5vzZ_e9-5MGw",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-west-valley-city-utah-09-22-2026/event/1E006425E12F7332",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_e9-5MGw",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-phoenix-1kk8v0atga5offo",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2026-09-25T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064269B814211",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-phoenix-arizona-09-24-2026/event/190064269B814211",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-phoenix-talking-stick-resort-amphitheatre-9-24-2026--concerts-hard-rock/production/6517224",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-phoenix-arizona-09-24-2026/event/190064269B814211",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064269B814211",
+        "discovery_event_id": "1kk8v0atGA5OfFo",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-phoenix-arizona-09-24-2026/event/190064269B814211",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517224,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-phoenix-talking-stick-resort-amphitheatre-9-24-2026--concerts-hard-rock/production/6517224",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676472",
+        "url": "https://www.ticketnetwork.com/en/p/7676472",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164509",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8v0atGA5OfFo",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676472",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-albuquerque-g5vzz_er_rgel",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "First Financial Credit Union Amphitheater",
+    "datetime_iso": "2026-09-26T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006427997B50AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-albuquerque-new-mexico-09-25-2026/event/1E006427997B50AB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-albuquerque-new-mexico-09-25-2026/event/1E006427997B50AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006427997B50AB",
+        "discovery_event_id": "G5vzZ_er_rgel",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-albuquerque-new-mexico-09-25-2026/event/1E006427997B50AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676473",
+        "url": "https://www.ticketnetwork.com/en/p/7676473",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_er_rgel",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676473"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-the-woodlands-g5diz_eelg5kq",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "The Woodlands",
+    "country": "United States Of America",
+    "venue": "The Cynthia Woods Mitchell Pavilion sponsored by Huntsman",
+    "datetime_iso": "2026-09-27T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006429DFD4B19D",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-the-woodlands-texas-09-27-2026/event/3A006429DFD4B19D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-the-woodlands-texas-09-27-2026/event/3A006429DFD4B19D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006429DFD4B19D",
+        "discovery_event_id": "G5dIZ_eELg5kq",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-the-woodlands-texas-09-27-2026/event/3A006429DFD4B19D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_eELg5kq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-austin-g5diz_eqgevgg",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Germania Insurance Amphitheater",
+    "datetime_iso": "2026-09-28T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064268C9F4335",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-austin-texas-09-28-2026/event/3A0064268C9F4335",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-austin-germania-insurance-amphitheater-9-28-2026--concerts-hard-rock/production/6517247",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-austin-texas-09-28-2026/event/3A0064268C9F4335",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064268C9F4335",
+        "discovery_event_id": "G5dIZ_eQGEVGg",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-austin-texas-09-28-2026/event/3A0064268C9F4335",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517247,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-austin-germania-insurance-amphitheater-9-28-2026--concerts-hard-rock/production/6517247",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676476",
+        "url": "https://www.ticketnetwork.com/en/p/7676476",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164507",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-austin-tickets-9-28-2026/event/107164507",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_eQGEVGg",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676476",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-austin-tickets-9-28-2026/event/107164507"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-fort-worth-vvg1yz_ehes4-b",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "97.1 The Eagle Presents Five Finger Death Punch",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2026-09-30T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006426C2C55858",
+    "ticketmaster_url": "https://www.ticketmaster.com/971-the-eagle-presents-five-finger-fort-worth-texas-09-30-2026/event/0C006426C2C55858",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-fort-worth-dickies-arena-9-30-2026--concerts-hard-rock/production/6517251",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-five-finger-fort-worth-texas-09-30-2026/event/0C006426C2C55858",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006426C2C55858",
+        "discovery_event_id": "vvG1YZ_ehes4-b",
+        "url": "https://www.ticketmaster.com/971-the-eagle-presents-five-finger-fort-worth-texas-09-30-2026/event/0C006426C2C55858",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517251,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-fort-worth-dickies-arena-9-30-2026--concerts-hard-rock/production/6517251",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676481",
+        "url": "https://www.ticketnetwork.com/en/p/7676481",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076162",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-fort-worth-tickets-9-30-2026/event/107076162",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_ehes4-b",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676481",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-fort-worth-tickets-9-30-2026/event/107076162"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-rogers-g5viz_eq6la31",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Rogers",
+    "country": "United States Of America",
+    "venue": "Walmart AMP",
+    "datetime_iso": "2026-10-02T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00642687AC548A",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-rogers-arkansas-10-02-2026/event/1B00642687AC548A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-rogers-walmart-amp-10-2-2026/production/6517171",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-rogers-arkansas-10-02-2026/event/1B00642687AC548A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00642687AC548A",
+        "discovery_event_id": "G5viZ_eQ6lA31",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-rogers-arkansas-10-02-2026/event/1B00642687AC548A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517171,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-rogers-walmart-amp-10-2-2026/production/6517171",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676484",
+        "url": "https://www.ticketnetwork.com/en/p/7676484",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_eQ6lA31",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676484"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-kansas-city-1a-zk8pgkdxix7u",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Morton Amphitheater",
+    "datetime_iso": "2026-10-03T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006425E2B2210D",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-kansas-city-missouri-10-03-2026/event/21006425E2B2210D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-kansas-city-missouri-10-03-2026/event/21006425E2B2210D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006425E2B2210D",
+        "discovery_event_id": "1A-Zk8PGkdxix7u",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-kansas-city-missouri-10-03-2026/event/21006425E2B2210D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zk8PGkdxix7u",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-biloxi-g5viz_exc4n-g",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Biloxi",
+    "country": "United States Of America",
+    "venue": "Mississippi Coast Coliseum",
+    "datetime_iso": "2026-10-05T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006428AD56A875",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-biloxi-mississippi-10-05-2026/event/1B006428AD56A875",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-biloxi-mississippi-coast-coliseum-10-5-2026--concerts-hard-rock/production/6517269",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-biloxi-mississippi-10-05-2026/event/1B006428AD56A875",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006428AD56A875",
+        "discovery_event_id": "G5viZ_exc4n-g",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-biloxi-mississippi-10-05-2026/event/1B006428AD56A875",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517269,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-biloxi-mississippi-coast-coliseum-10-5-2026--concerts-hard-rock/production/6517269",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676507",
+        "url": "https://www.ticketnetwork.com/en/p/7676507",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_exc4n-g",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676507"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-franklin-g5viz_eqoip4h",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Franklin",
+    "country": "United States Of America",
+    "venue": "FirstBank Amphitheater",
+    "datetime_iso": "2026-10-08T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00642691B1655B",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-franklin-tennessee-10-08-2026/event/1B00642691B1655B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-franklin-firstbank-amphitheater-10-8-2026--concerts-hard-rock/production/6517276",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-franklin-tennessee-10-08-2026/event/1B00642691B1655B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00642691B1655B",
+        "discovery_event_id": "G5viZ_eQoip4h",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-franklin-tennessee-10-08-2026/event/1B00642691B1655B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517276,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-franklin-firstbank-amphitheater-10-8-2026--concerts-hard-rock/production/6517276",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676513",
+        "url": "https://www.ticketnetwork.com/en/p/7676513",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_eQoip4h",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-tampa-vvg1vz_eqhp7qi",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "MIDFLORIDA Credit Union Amphitheatre at the FL State Fairgrounds",
+    "datetime_iso": "2026-10-10T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064269B94476C",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-tampa-florida-10-10-2026/event/0D0064269B94476C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-tampa-florida-10-10-2026/event/0D0064269B94476C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064269B94476C",
+        "discovery_event_id": "vvG1VZ_eQhP7qi",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-tampa-florida-10-10-2026/event/0D0064269B94476C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676514",
+        "url": "https://www.ticketnetwork.com/en/p/7676514",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_eQhP7qi",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676514"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-west-palm-beach-vvg1vz_eqw6abn",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "West Palm Beach",
+    "country": "United States Of America",
+    "venue": "iTHINK Financial Amphitheatre",
+    "datetime_iso": "2026-10-11T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006426BD1C5EA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-west-palm-beach-florida-10-11-2026/event/0D006426BD1C5EA3",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-west-palm-beach-ithink-financial-amphitheatre-10-11-2026/production/6517271",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-west-palm-beach-florida-10-11-2026/event/0D006426BD1C5EA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006426BD1C5EA3",
+        "discovery_event_id": "vvG1VZ_eQW6ABN",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-west-palm-beach-florida-10-11-2026/event/0D006426BD1C5EA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517271,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-west-palm-beach-ithink-financial-amphitheatre-10-11-2026/production/6517271",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676515",
+        "url": "https://www.ticketnetwork.com/en/p/7676515",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076164",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_eQW6ABN",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676515",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-alpharetta-vvg1zz_eq2kn-d",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Alpharetta",
+    "country": "United States Of America",
+    "venue": "Ameris Bank Amphitheatre",
+    "datetime_iso": "2026-10-13T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064268F4E3843",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-alpharetta-georgia-10-13-2026/event/0E0064268F4E3843",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-alpharetta-ameris-bank-amphitheatre-10-13-2026/production/6517161",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-alpharetta-georgia-10-13-2026/event/0E0064268F4E3843",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064268F4E3843",
+        "discovery_event_id": "vvG1zZ_eQ2KN-d",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-alpharetta-georgia-10-13-2026/event/0E0064268F4E3843",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517161,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-alpharetta-ameris-bank-amphitheatre-10-13-2026/production/6517161",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676519",
+        "url": "https://www.ticketnetwork.com/en/p/7676519",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_eQ2KN-d",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676519"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-raleigh-g5evz_ejp-tdn",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Coastal Credit Union Music Park at Walnut Creek",
+    "datetime_iso": "2026-10-14T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006429A5869EEA",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-raleigh-north-carolina-10-14-2026/event/2D006429A5869EEA",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-14-2026/production/6517205",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-raleigh-north-carolina-10-14-2026/event/2D006429A5869EEA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006429A5869EEA",
+        "discovery_event_id": "G5eVZ_eJP-tDn",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-raleigh-north-carolina-10-14-2026/event/2D006429A5869EEA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517205,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-14-2026/production/6517205",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676524",
+        "url": "https://www.ticketnetwork.com/en/p/7676524",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_eJP-tDn",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676524"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-charlotte-g5evz_eqi_eoi",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Truliant Amphitheater",
+    "datetime_iso": "2026-10-16T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006426A8667828",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-charlotte-north-carolina-10-16-2026/event/2D006426A8667828",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-charlotte-truliant-amphitheater-10-16-2026/production/6517299",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-charlotte-north-carolina-10-16-2026/event/2D006426A8667828",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006426A8667828",
+        "discovery_event_id": "G5eVZ_eQI_EOI",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-charlotte-north-carolina-10-16-2026/event/2D006426A8667828",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517299,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-charlotte-truliant-amphitheater-10-16-2026/production/6517299",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676530",
+        "url": "https://www.ticketnetwork.com/en/p/7676530",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_eQI_EOI",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-virginia-beach-vv1k7z_eqfg7mvxk",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "Veterans United Home Loans Amphitheater at Virginia Beach",
+    "datetime_iso": "2026-10-17T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100642694BB4886",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100642694BB4886",
+        "discovery_event_id": "vv1k7Z_eQfG7mVxk",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517305,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676535",
+        "url": "https://www.ticketnetwork.com/en/p/7676535",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k7Z_eQfG7mVxk",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-greenville-g5evz_excrbbp",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2026-10-19T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006428ADBFA625",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-greenville-south-carolina-10-19-2026/event/2D006428ADBFA625",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-greenville-bon-secours-wellness-arena-10-19-2026/production/6517203",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-greenville-south-carolina-10-19-2026/event/2D006428ADBFA625",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006428ADBFA625",
+        "discovery_event_id": "G5eVZ_excRBbP",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-greenville-south-carolina-10-19-2026/event/2D006428ADBFA625",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517203,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-greenville-bon-secours-wellness-arena-10-19-2026/production/6517203",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676541",
+        "url": "https://www.ticketnetwork.com/en/p/7676541",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_excRBbP",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676541"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-columbus-vv1aazk8egkdlofxu",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2026-10-21T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006427EB448F8D",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-columbus-ohio-10-21-2026/event/05006427EB448F8D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-columbus-nationwide-arena-10-21-2026/production/6517215",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-columbus-ohio-10-21-2026/event/05006427EB448F8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006427EB448F8D",
+        "discovery_event_id": "vv1AAZk8EGkdloFXu",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-columbus-ohio-10-21-2026/event/05006427EB448F8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517215,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-columbus-nationwide-arena-10-21-2026/production/6517215",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676549",
+        "url": "https://www.ticketnetwork.com/en/p/7676549",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164508",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk8EGkdloFXu",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-bristow-1avfz_egki4tnxq",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Bristow",
+    "country": "United States Of America",
+    "venue": "Jiffy Lube Live",
+    "datetime_iso": "2026-10-23T22:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500642B15A6A89A",
+    "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-bristow-virginia-10-23-2026/event/1500642B15A6A89A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/five-finger-death-punch-bristow-virginia-10-23-2026/event/1500642B15A6A89A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500642B15A6A89A",
+        "discovery_event_id": "1AvfZ_eGki4tnxQ",
+        "url": "https://www.ticketmaster.com/five-finger-death-punch-bristow-virginia-10-23-2026/event/1500642B15A6A89A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6517189,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676550",
+        "url": "https://www.ticketnetwork.com/en/p/7676550",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_eGki4tnxQ",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676550"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch - 20th Anniversary World Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-01-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064CABC1DA554",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-20th-anniversary-manchester-16-01-2027/event/1F0064CABC1DA554",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-manchester-ao-arena-1-16-2027--concerts-hard-rock/production/6989751",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-20th-anniversary-manchester-16-01-2027/event/1F0064CABC1DA554",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064CABC1DA554",
+        "discovery_event_id": "G5vHZ_GnH6Q4f",
+        "url": "https://www.ticketmaster.co.uk/five-finger-death-punch-20th-anniversary-manchester-16-01-2027/event/1F0064CABC1DA554",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6989751,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-manchester-ao-arena-1-16-2027--concerts-hard-rock/production/6989751",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7987816",
+        "url": "https://www.ticketnetwork.com/en/p/7987816",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164485",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_GnH6Q4f",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987816",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "bp pulse LIVE",
+    "datetime_iso": "2027-01-22T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006498B41F1933",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-birmingham-22-01-2027/event/23006498B41F1933",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-1-22-2027--concerts-hard-rock/production/6989968",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-birmingham-22-01-2027/event/23006498B41F1933",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006498B41F1933",
+        "discovery_event_id": "1ANZk3bGkeV6s0S",
+        "url": "https://www.ticketmaster.co.uk/five-finger-death-punch-birmingham-22-01-2027/event/23006498B41F1933",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6989968,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-1-22-2027--concerts-hard-rock/production/6989968",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090419",
+        "url": "https://www.ticketnetwork.com/en/p/8090419",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164486",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZk3bGkeV6s0S",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090419",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6-",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-01-23T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006498EF9F61E1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-london-23-01-2027/event/35006498EF9F61E1",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-london-the-o2---london-1-23-2027--concerts-hard-rock/production/6989985",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-london-23-01-2027/event/35006498EF9F61E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006498EF9F61E1",
+        "discovery_event_id": "1AgZk3bGkdREU6-",
+        "url": "https://www.ticketmaster.co.uk/five-finger-death-punch-london-23-01-2027/event/35006498EF9F61E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6989985,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-london-the-o2---london-1-23-2027--concerts-hard-rock/production/6989985",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162584",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk3bGkdREU6-",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch | Box seat in the Ticketmaster Suite",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-01-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1143496575",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/five-finger-death-punch-%7C-box-seat-in-the-ticketmaster-suite-tickets/1143496575?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-hamburg-barclays-arena---hamburg-1-27-2027/production/7000955",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/five-finger-death-punch-%7C-box-seat-in-the-ticketmaster-suite-tickets/1143496575?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1143496575",
+        "discovery_event_id": "Z698xZC2Z16vAd3p4g",
+        "url": "https://www.ticketmaster.de/event/five-finger-death-punch-%7C-box-seat-in-the-ticketmaster-suite-tickets/1143496575?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7000955,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-hamburg-barclays-arena---hamburg-1-27-2027/production/7000955",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107164434",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-hamburg-barclays-arena-hamburg-27-1-2027/event/107164434",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vAd3p4g",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-hamburg-barclays-arena-hamburg-27-1-2027/event/107164434"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch: 20th Anniversary World Tour",
+    "city": "Łódź",
+    "country": "Poland",
+    "venue": "Atlas Arena",
+    "datetime_iso": "2027-01-29T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "851430719",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/851430719?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/851430719?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "851430719",
+        "discovery_event_id": "Z698xZQpZ1k-o8Yj_",
+        "url": "https://www.ticketmaster.pl/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/851430719?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107164435",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1k-o8Yj_",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch | Premium Seats",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "AFAS Live Loge",
+    "datetime_iso": "2027-02-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1192592955",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1192592955",
+        "discovery_event_id": "Z698xZbpZ16vk3p3P4",
+        "url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vk3p3P4",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch: 20th Anniversary World Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-02-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "33792684",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/33792684",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/33792684",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "33792684",
+        "discovery_event_id": "Z698xZG2Z1ASr3Q7",
+        "url": "https://www.ticketmaster.be/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/33792684",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1ASr3Q7",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  }
+]

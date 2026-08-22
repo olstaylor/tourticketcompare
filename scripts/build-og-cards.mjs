@@ -29,6 +29,7 @@
 // looks different. Generate on Linux to match what is committed.
 
 import fs from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -418,7 +419,39 @@ async function build({ write = true } = {}) {
 
   entries.sort((a, b) => a[0].localeCompare(b[0]));
   if (write) await fs.writeFile(MANIFEST_PATH, renderManifest(entries));
-  return entries;
+
+  // Drop cards for routes that no longer exist. A city or artist-city page
+  // stops qualifying as its dates pass, and without this its card would sit in
+  // public/og/ forever — the set only ever grew, so the dead weight would
+  // accumulate silently across every future sync.
+  //
+  // Safe to delete: nothing references an orphan (the manifest is the only way
+  // the router reaches a card), and a route that later recovers gets its card
+  // rebuilt by the next run.
+  const pruned = write ? await pruneOrphanedCards(new Set(entries.map(([, cardUrl]) => cardUrl))) : [];
+  return { entries, pruned };
+}
+
+/**
+ * Remove generated cards in `dir` that the manifest no longer references.
+ * `dir` is injectable so the self-test can exercise deletion without touching
+ * the real card set.
+ */
+export async function pruneOrphanedCards(referenced, dir = OG_DIR) {
+  let onDisk;
+  try {
+    onDisk = await fs.readdir(dir);
+  } catch {
+    return [];
+  }
+  const pruned = [];
+  for (const name of onDisk) {
+    if (!name.endsWith(".png")) continue;
+    if (referenced.has(`/og/${name}`)) continue;
+    await fs.rm(path.join(dir, name));
+    pruned.push(name);
+  }
+  return pruned.sort();
 }
 
 /**
@@ -574,6 +607,19 @@ async function selfTest() {
   await sharp(Buffer.from(ampersand)).png().toBuffer();
   assert(true, "a card containing an ampersand still rasterises");
 
+  // Pruning: a route that stops qualifying (its dates pass) must not leave its
+  // card behind, or public/og/ grows without bound across syncs.
+  const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), "og-prune-"));
+  await fs.writeFile(path.join(tmpDir, "keep-a.png"), "a");
+  await fs.writeFile(path.join(tmpDir, "keep-b.png"), "b");
+  await fs.writeFile(path.join(tmpDir, "orphan.png"), "c");
+  await fs.writeFile(path.join(tmpDir, "notes.txt"), "not a card");
+  const pruned = await pruneOrphanedCards(new Set(["/og/keep-a.png", "/og/keep-b.png"]), tmpDir);
+  assert(pruned.join(",") === "orphan.png", "an unreferenced card is pruned");
+  const left = (await fs.readdir(tmpDir)).sort();
+  assert(left.join(",") === "keep-a.png,keep-b.png,notes.txt", "referenced cards and non-card files survive pruning");
+  await fs.rm(tmpDir, { recursive: true, force: true });
+
   const manifest = renderManifest([["/artists/coldplay", "/og/artists-coldplay.png"]]);
   assert(manifest.includes("export const OG_CARDS = {"), "the manifest exports OG_CARDS");
   assert(manifest.includes("GENERATED FILE"), "the manifest is marked generated");
@@ -593,7 +639,10 @@ if (invokedDirectly) {
   } else if (mode === "--check") {
     await check();
   } else {
-    const entries = await build();
+    const { entries, pruned } = await build();
     console.log(`Wrote ${entries.length} OG card(s) to public/og/ and ${MANIFEST_REL}.`);
+    if (pruned.length) {
+      console.log(`Removed ${pruned.length} card(s) for routes that no longer exist: ${pruned.slice(0, 5).join(", ")}${pruned.length > 5 ? " …" : ""}`);
+    }
   }
 }

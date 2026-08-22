@@ -1549,11 +1549,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668632",
-        "url": "https://www.ticketliquidator.com/tickets/7668632/Bruno-Mars-tickets-Fri-Aug-21-2026-MetLife-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107071100",
@@ -1568,7 +1568,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "k7vGFbyDOLWCM",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668632/Bruno-Mars-tickets-Fri-Aug-21-2026-MetLife-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-21-2026/event/107071100"
   },
   {

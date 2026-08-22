@@ -1428,7 +1428,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZgb_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgb_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/bad-bunny-tickets/san-juan-puerto-rico-hiram-bithorn-stadium-2026-08-22-7-pm/concert/18513310",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgb_",
@@ -1444,11 +1444,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18513310,
+        "url": "https://seatgeek.com/bad-bunny-tickets/san-juan-puerto-rico-hiram-bithorn-stadium-2026-08-22-7-pm/concert/18513310",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1481,7 +1481,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZM40",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZM40",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/bad-bunny-tickets/san-juan-puerto-rico-hiram-bithorn-stadium-2026-08-23-7-pm/concert/18513312",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZM40",
@@ -1497,11 +1497,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18513312,
+        "url": "https://seatgeek.com/bad-bunny-tickets/san-juan-puerto-rico-hiram-bithorn-stadium-2026-08-23-7-pm/concert/18513312",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

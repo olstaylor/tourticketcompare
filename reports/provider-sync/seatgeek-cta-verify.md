@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-08-21T05:41:40.392Z
+Generated: 2026-08-22T05:36:43.220Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 39 (needs_recheck: 39, provenance backfill: 0, stale re-check: 25)
+- Events selected: 72 (needs_recheck: 72, provenance backfill: 0, stale re-check: 35)
 - Events skipped before API checks: 84
-- API calls made: 39
+- API calls made: 72
 - Verified provenance written: 25
-- URLs added: 0
+- URLs added: 10
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 0
-- No qualifying listing: 14
+- No qualifying listing: 37
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -65,6 +65,39 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | verify (applied) | 18257241 | https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241 | - |
 | tm-shakira-2026-madrid-z7r9jz1aazaza | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-bad-bunny-2026-san-juan-z7r9jz1aazgb_ | bad-bunny | add (applied) | 18513310 | https://seatgeek.com/bad-bunny-tickets/san-juan-puerto-rico-hiram-bithorn-stadium-2026-08-22-7-pm/concert/18513310 | - |
+| tm-bad-bunny-2026-san-juan-z7r9jz1aazm40 | bad-bunny | add (applied) | 18513312 | https://seatgeek.com/bad-bunny-tickets/san-juan-puerto-rico-hiram-bithorn-stadium-2026-08-23-7-pm/concert/18513312 | - |
+| tm-karol-g-2026-arlington-z7r9jz1a7xfrb | karol-g | add (applied) | 18166850 | https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850 | - |
+| tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-sevilla-z698xz2qz16vvepfuz | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-sevilla-z698xz2qz16v_a-6fw | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7 | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz1koujx1f | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6 | my-chemical-romance | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2026-kansas-city-z7r9jz1a70v1a | teddy-swims | add (applied) | 18185128 | https://seatgeek.com/teddy-swims-tickets/kansas-city-missouri-t-mobile-center-2026-09-22-7-pm/concert/18185128 | - |
+| tm-teddy-swims-2026-saint-paul-z7r9jz1a7xf0u | teddy-swims | add (applied) | 18185131 | https://seatgeek.com/teddy-swims-tickets/saint-paul-minnesota-grand-casino-arena-2026-09-26-7-pm/concert/18185131 | - |
+| tm-teddy-swims-2026-sunrise-z7r9jz1a70v8i | teddy-swims | add (applied) | 18175691 | https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691 | - |
+| tm-teddy-swims-2026-houston-z7r9jz1a7x4fs | teddy-swims | add (applied) | 18185160 | https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160 | - |
+| tm-teddy-swims-2026-salt-lake-city-z7r9jz1a7x_ag | teddy-swims | add (applied) | 18143695 | https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695 | - |
+| tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf- | teddy-swims | add (applied) | 18185177 | https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177 | - |
+| tm-teddy-swims-2026-las-vegas-z7r9jz1a7xpfb | teddy-swims | add (applied) | 18185180 | https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180 | - |
+| tm-teddy-swims-2027-hamburg-z698xzc2z16v7i-zc9 | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6 | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9 | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z1kf7vp3p | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_ | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 
 ## Skipped before API checks
 

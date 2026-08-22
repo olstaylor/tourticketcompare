@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0F006492B0018DA6",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-seattle-washington-08-26-2026/event/0F006492B0018DA6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-seattle-lumen-field-8-26-2026--concerts-pop/production/6929073",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-seattle-washington-08-26-2026/event/0F006492B0018DA6",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929073,
+        "url": "https://www.vividseats.com/karol-g-tickets-seattle-lumen-field-8-26-2026--concerts-pop/production/6929073",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "3A00649192BA8D25",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-san-antonio-texas-09-02-2026/event/3A00649192BA8D25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-san-antonio-alamodome-9-2-2026--concerts-pop/production/6929085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-san-antonio-texas-09-02-2026/event/3A00649192BA8D25",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929085,
+        "url": "https://www.vividseats.com/karol-g-tickets-san-antonio-alamodome-9-2-2026--concerts-pop/production/6929085",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0C006498CB9D2441",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-05-2026/event/0C006498CB9D2441",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-el-paso-sun-bowl-stadium-9-5-2026/production/6964251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-05-2026/event/0C006498CB9D2441",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6964251,
+        "url": "https://www.vividseats.com/karol-g-tickets-el-paso-sun-bowl-stadium-9-5-2026/production/6964251",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "0C006494E025CA31",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-06-2026/event/0C006494E025CA31",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-el-paso-sun-bowl-stadium-9-6-2026--concerts-pop/production/6929087",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-06-2026/event/0C006494E025CA31",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929087,
+        "url": "https://www.vividseats.com/karol-g-tickets-el-paso-sun-bowl-stadium-9-6-2026--concerts-pop/production/6929087",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "01006491BA37A5B9",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-foxborough-massachusetts-09-12-2026/event/01006491BA37A5B9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-foxborough-gillette-stadium-9-12-2026--concerts-pop/production/6929089",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-foxborough-massachusetts-09-12-2026/event/01006491BA37A5B9",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929089,
+        "url": "https://www.vividseats.com/karol-g-tickets-foxborough-gillette-stadium-9-12-2026--concerts-pop/production/6929089",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "00006491CEE4F36D",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-17-2026/event/00006491CEE4F36D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-east-rutherford-metlife-stadium-9-17-2026/production/6929069",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-17-2026/event/00006491CEE4F36D",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929069,
+        "url": "https://www.vividseats.com/karol-g-tickets-east-rutherford-metlife-stadium-9-17-2026/production/6929069",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "00006498EFAC23F0",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-18-2026/event/00006498EFAC23F0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-east-rutherford-metlife-stadium-9-18-2026--concerts-pop/production/6957352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-18-2026/event/00006498EFAC23F0",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6957352,
+        "url": "https://www.vividseats.com/karol-g-tickets-east-rutherford-metlife-stadium-9-18-2026--concerts-pop/production/6957352",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "0E00649324183515",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-atlanta-georgia-09-24-2026/event/0E00649324183515",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-atlanta-mercedes-benz-stadium-9-24-2026--concerts-pop/production/6929091",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-atlanta-georgia-09-24-2026/event/0E00649324183515",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929091,
+        "url": "https://www.vividseats.com/karol-g-tickets-atlanta-mercedes-benz-stadium-9-24-2026--concerts-pop/production/6929091",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "0D006494907D6BCB",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-02-2026/event/0D006494907D6BCB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-miami-gardens-hard-rock-stadium-10-2-2026--concerts-pop/production/6929101",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-02-2026/event/0D006494907D6BCB",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929101,
+        "url": "https://www.vividseats.com/karol-g-tickets-miami-gardens-hard-rock-stadium-10-2-2026--concerts-pop/production/6929101",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "0D00649502030D29",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-03-2026/event/0D00649502030D29",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-miami-gardens-hard-rock-stadium-10-3-2026--concerts-pop/production/6957454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-03-2026/event/0D00649502030D29",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6957454,
+        "url": "https://www.vividseats.com/karol-g-tickets-miami-gardens-hard-rock-stadium-10-3-2026--concerts-pop/production/6957454",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "0D006494F17A1B92",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-tampa-florida-10-09-2026/event/0D006494F17A1B92",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-tampa-raymond-james-stadium-10-9-2026--concerts-pop/production/6929112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-tampa-florida-10-09-2026/event/0D006494F17A1B92",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929112,
+        "url": "https://www.vividseats.com/karol-g-tickets-tampa-raymond-james-stadium-10-9-2026--concerts-pop/production/6929112",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "843841286",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-3-2027--concerts-pop/production/6929157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929157,
+        "url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-3-2027--concerts-pop/production/6929157",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "423915053",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/423915053?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-4-2027--concerts-pop/production/6956926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/423915053?language=en-us",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6956926,
+        "url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-4-2027--concerts-pop/production/6956926",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "955641346",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-11-2027--concerts-pop/production/6929163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929163,
+        "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-11-2027--concerts-pop/production/6929163",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "1042594340",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1042594340?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-12-2027--concerts-pop/production/6956928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1042594340?language=en-us",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6956928,
+        "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-12-2027--concerts-pop/production/6956928",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "1649847232",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1649847232?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-13-2027--concerts-pop/production/6969565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1649847232?language=en-us",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6969565,
+        "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-13-2027--concerts-pop/production/6969565",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "1690155204",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1690155204?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-24-2027--concerts-pop/production/6929171",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1690155204?language=en-us",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929171,
+        "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-24-2027--concerts-pop/production/6929171",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "977013223",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/977013223?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-25-2027--concerts-pop/production/6956930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/977013223?language=en-us",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6956930,
+        "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-25-2027--concerts-pop/production/6956930",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "1438881928",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1438881928?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-26-2027--concerts-pop/production/6969569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1438881928?language=en-us",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6969569,
+        "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-26-2027--concerts-pop/production/6969569",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "476722288",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/476722288?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-27-2027--concerts-pop/production/6969571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/476722288?language=en-us",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6969571,
+        "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-27-2027--concerts-pop/production/6969571",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "35006491FBEB66D4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/karol-g-viajando-por-el-mundo-london-06-07-2027/event/35006491FBEB66D4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-london-tottenham-hotspur-stadium-7-6-2027--concerts-pop/production/6929173",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/karol-g-viajando-por-el-mundo-london-06-07-2027/event/35006491FBEB66D4",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6929173,
+        "url": "https://www.vividseats.com/karol-g-tickets-london-tottenham-hotspur-stadium-7-6-2027--concerts-pop/production/6929173",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

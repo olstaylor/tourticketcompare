@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "tm-karol-g-2026-santa-clara-g5vyz_anmpkqv",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Santa Clara",
+    "country": "United States Of America",
+    "venue": "Levi's® Stadium",
+    "datetime_iso": "2026-08-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006498F79536B4",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-santa-clara-california-08-22-2026/event/1C006498F79536B4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-santa-clara-california-08-22-2026/event/1C006498F79536B4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006498F79536B4",
+        "discovery_event_id": "G5vYZ_aNMPKQV",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-santa-clara-california-08-22-2026/event/1C006498F79536B4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_aNMPKQV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-seattle-vvg1hz_a1yzbuj",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Lumen Field",
+    "datetime_iso": "2026-08-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006492B0018DA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-seattle-washington-08-26-2026/event/0F006492B0018DA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-seattle-washington-08-26-2026/event/0F006492B0018DA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006492B0018DA6",
+        "discovery_event_id": "vvG1HZ_a1YZbUJ",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-seattle-washington-08-26-2026/event/0F006492B0018DA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_a1YZbUJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-san-antonio-g5diz_ak3mivp",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Alamodome",
+    "datetime_iso": "2026-09-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00649192BA8D25",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-san-antonio-texas-09-02-2026/event/3A00649192BA8D25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-san-antonio-texas-09-02-2026/event/3A00649192BA8D25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00649192BA8D25",
+        "discovery_event_id": "G5dIZ_ak3mIVP",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-san-antonio-texas-09-02-2026/event/3A00649192BA8D25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_ak3mIVP",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-el-paso-vvg1yz_an5e3ov",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "Sun Bowl Stadium",
+    "datetime_iso": "2026-09-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006498CB9D2441",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-05-2026/event/0C006498CB9D2441",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-05-2026/event/0C006498CB9D2441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006498CB9D2441",
+        "discovery_event_id": "vvG1YZ_aN5E3ov",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-05-2026/event/0C006498CB9D2441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_aN5E3ov",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-el-paso-vvg1yz_akoajis",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "Sun Bowl Stadium",
+    "datetime_iso": "2026-09-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006494E025CA31",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-06-2026/event/0C006494E025CA31",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-06-2026/event/0C006494E025CA31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006494E025CA31",
+        "discovery_event_id": "vvG1YZ_aKOajIs",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-el-paso-texas-09-06-2026/event/0C006494E025CA31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_aKOajIs",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-foxborough-vv1avzk3ogkebubpy",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2026-09-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006491BA37A5B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-foxborough-massachusetts-09-12-2026/event/01006491BA37A5B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-foxborough-massachusetts-09-12-2026/event/01006491BA37A5B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006491BA37A5B9",
+        "discovery_event_id": "vv1AvZk3oGkeBuBpy",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-foxborough-massachusetts-09-12-2026/event/01006491BA37A5B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk3oGkeBuBpy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-east-rutherford-k7vgf_a6cy2uc",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-09-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006491CEE4F36D",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-17-2026/event/00006491CEE4F36D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-17-2026/event/00006491CEE4F36D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006491CEE4F36D",
+        "discovery_event_id": "k7vGF_a6Cy2uc",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-17-2026/event/00006491CEE4F36D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_a6Cy2uc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-east-rutherford-k7vgf_anrle2y",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-09-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006498EFAC23F0",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-18-2026/event/00006498EFAC23F0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-18-2026/event/00006498EFAC23F0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006498EFAC23F0",
+        "discovery_event_id": "k7vGF_aNRle2Y",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-east-rutherford-new-jersey-09-18-2026/event/00006498EFAC23F0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_aNRle2Y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-atlanta-vvg1zz_ag0kdf4",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Mercedes-Benz Stadium",
+    "datetime_iso": "2026-09-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00649324183515",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-atlanta-georgia-09-24-2026/event/0E00649324183515",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-atlanta-georgia-09-24-2026/event/0E00649324183515",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00649324183515",
+        "discovery_event_id": "vvG1zZ_aG0kdf4",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-atlanta-georgia-09-24-2026/event/0E00649324183515",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_aG0kdf4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-houston-g5diz_akcfr2w",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Reliant Stadium",
+    "datetime_iso": "2026-09-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006494CE22F3FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-houston-texas-09-27-2026/event/3A006494CE22F3FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-houston-texas-09-27-2026/event/3A006494CE22F3FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006494CE22F3FD",
+        "discovery_event_id": "G5dIZ_aKCFR2W",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-houston-texas-09-27-2026/event/3A006494CE22F3FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_aKCFR2W",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-miami-vvg1vz_a38lpr5",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Hard Rock Stadium",
+    "datetime_iso": "2026-10-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006494907D6BCB",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-02-2026/event/0D006494907D6BCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-02-2026/event/0D006494907D6BCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006494907D6BCB",
+        "discovery_event_id": "vvG1VZ_a38LpR5",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-02-2026/event/0D006494907D6BCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_a38LpR5",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-miami-vvg1vz_afezyvt",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Hard Rock Stadium",
+    "datetime_iso": "2026-10-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00649502030D29",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-03-2026/event/0D00649502030D29",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-03-2026/event/0D00649502030D29",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00649502030D29",
+        "discovery_event_id": "vvG1VZ_afeZYVt",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-miami-florida-10-03-2026/event/0D00649502030D29",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_afeZYVt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-tampa-vvg1vz_aksr-m3",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2026-10-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006494F17A1B92",
+    "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-tampa-florida-10-09-2026/event/0D006494F17A1B92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-tampa-florida-10-09-2026/event/0D006494F17A1B92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006494F17A1B92",
+        "discovery_event_id": "vvG1VZ_aKsr-m3",
+        "url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-tampa-florida-10-09-2026/event/0D006494F17A1B92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_aKsr-m3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-arlington-z7r9jz1a7xfrb",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2026-10-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xfrb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfrb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfrb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xfrb",
+        "discovery_event_id": "Z7r9jZ1A7xfrb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfrb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfrb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-06-03T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "843841286",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "843841286",
+        "discovery_event_id": "Z698xZ2qZ1k-d-v1k",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k-d-v1k",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-06-04T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "423915053",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/423915053?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/423915053?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "423915053",
+        "discovery_event_id": "Z698xZ2qZ1k8N04vK",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/423915053?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8N04vK",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Estadio La Cartuja de Sevilla",
+    "datetime_iso": "2027-06-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "955641346",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "955641346",
+        "discovery_event_id": "Z698xZ2qZ1kP4_vuk",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kP4_vuk",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-sevilla-z698xz2qz16vvepfuz",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Estadio La Cartuja de Sevilla",
+    "datetime_iso": "2027-06-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1042594340",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1042594340?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1042594340?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1042594340",
+        "discovery_event_id": "Z698xZ2qZ16vvepfuZ",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1042594340?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vvepfuZ",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-sevilla-z698xz2qz16v_a-6fw",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Estadio La Cartuja de Sevilla",
+    "datetime_iso": "2027-06-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1649847232",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1649847232?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1649847232?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1649847232",
+        "discovery_event_id": "Z698xZ2qZ16v_a-6Fw",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1649847232?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_a-6Fw",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2027-06-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1690155204",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1690155204?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1690155204?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1690155204",
+        "discovery_event_id": "Z698xZ2qZ16vQ8A4F7",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1690155204?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vQ8A4F7",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2027-06-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "977013223",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/977013223?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/977013223?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "977013223",
+        "discovery_event_id": "Z698xZ2qZ1kPMZKFN",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/977013223?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kPMZKFN",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2027-06-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1438881928",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1438881928?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1438881928?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1438881928",
+        "discovery_event_id": "Z698xZ2qZ16v8zxv0I",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1438881928?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v8zxv0I",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-madrid-z698xz2qz1koujx1f",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2027-06-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "476722288",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/476722288?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/476722288?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "476722288",
+        "discovery_event_id": "Z698xZ2qZ1koUjx1F",
+        "url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/476722288?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1koUjx1F",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-london-1agzk3ogkddbuhf",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-07-06T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006491FBEB66D4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/karol-g-viajando-por-el-mundo-london-06-07-2027/event/35006491FBEB66D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/karol-g-viajando-por-el-mundo-london-06-07-2027/event/35006491FBEB66D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006491FBEB66D4",
+        "discovery_event_id": "1AgZk3oGkdDBUhf",
+        "url": "https://www.ticketmaster.co.uk/karol-g-viajando-por-el-mundo-london-06-07-2027/event/35006491FBEB66D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk3oGkdDBUhf",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-07-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1399632739",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1399632739?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1399632739?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1399632739",
+        "discovery_event_id": "Z698xZbpZ16vC_bwjy",
+        "url": "https://www.ticketmaster.nl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1399632739?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vC_bwjy",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR",
+    "city": "Warsaw",
+    "country": "Poland",
+    "venue": "PGE Narodowy",
+    "datetime_iso": "2027-07-14T14:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1509574333",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1509574333?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1509574333?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1509574333",
+        "discovery_event_id": "Z698xZQpZ16vfa4VGS",
+        "url": "https://www.ticketmaster.pl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1509574333?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16vfa4VGS",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  }
+]

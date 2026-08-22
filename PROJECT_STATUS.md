@@ -10,7 +10,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 
 - `public/data/artists.json`: **40 records — 32 `indexable_with_substantial_content` + 8 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay, rush, muse, system-of-a-down, laura-pausini). The 32 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 8 shells carry `verified_providers: []` and render no CTA. 3 of the 32 indexable carry 0 events and render artist-level CTAs only — beyonce, raye, tate-mcrae, karol-g, foo-fighters, metallica, my-chemical-romance, teddy-swims, five-finger-death-punch.
 - `public/data/catalog.json`: 40 artist records; 0 tour records; **72 ticket_links rows** (40 ticketmaster + 32 seatgeek artist pages; 64 `verified` + `public_enabled`, plus 8 unverified/hidden shell ticketmaster rows for the 8 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
-- `public/data/events.json`: **742 events** — 289 `human_verified`, 372 `machine_high_confidence`, 81 `needs_recheck`. Verified event-level provider provenance: SeatGeek 198 (250 rows carry a stored `seatgeek_url`), Vivid Seats 399, TicketNetwork 367, Ticket Liquidator 319, StubHub International 319. Of the 81 `needs_recheck` rows: 25 retain a standalone SeatGeek CTA, 26 retain a standalone Vivid Seats CTA, and 41 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
+- `public/data/events.json`: **742 events** — 289 `human_verified`, 372 `machine_high_confidence`, 81 `needs_recheck`. Verified event-level provider provenance: SeatGeek 208 (260 rows carry a stored `seatgeek_url`), Vivid Seats 399, TicketNetwork 367, Ticket Liquidator 319, StubHub International 319. Of the 81 `needs_recheck` rows: 35 retain a standalone SeatGeek CTA, 26 retain a standalone Vivid Seats CTA, and 31 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **19 guide content entries** (topic guides; not per-artist). Generated from `content/guides/*.md` — do not hand-edit.
 - `content/blog/*.md`: **3 published blog posts, 1 draft, 3 tags** (2 indexable, 1 below the two-post tag gate). Source of truth for the blog; `public/data/blog-content.json` is generated from it and must never be hand-edited. Recount with `npm run blog:build`.
@@ -32,7 +32,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 | harry-styles | 2026-04-30 | 39 | 30 | 30 | 0 | Together, Together | — |
 | bts | 2026-04-30 | 25 | 18 | 11 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
 | ariana-grande | 2026-04-30 | 41 | 17 | 5 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
-| bad-bunny | 2026-08-22 | 28 | 0 | 0 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
+| bad-bunny | 2026-08-22 | 28 | 2 | 2 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
 | morgan-wallen | 2026-08-22 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 7 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | Inglewood/London rows have blank `tour_name`, owner-accepted. |
 | olivia-rodrigo | 2026-05-27 | 84 | 59 | 59 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
@@ -52,13 +52,13 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 | lady-gaga | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
 | the-weeknd | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. 0 upcoming SeatGeek events at capture. |
 | coldplay | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. |
-| karol-g | 2026-08-22 | 26 | 0 | 0 | **12** | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
+| karol-g | 2026-08-22 | 26 | 1 | 1 | **12** | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
 | foo-fighters | 2026-08-22 | 6 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
 | metallica | 2026-08-22 | 10 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
 | rush | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | muse | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | my-chemical-romance | 2026-08-22 | 11 | 0 | 0 | **1** | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
-| teddy-swims | 2026-08-22 | 45 | 0 | 0 | **14** | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
+| teddy-swims | 2026-08-22 | 45 | 7 | 7 | **14** | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
 | five-finger-death-punch | 2026-08-22 | 31 | 0 | 0 | **4** | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
 | system-of-a-down | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | laura-pausini | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |

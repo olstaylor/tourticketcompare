@@ -700,7 +700,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xfrb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfrb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfrb",
@@ -716,11 +716,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18166850,
+        "url": "https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

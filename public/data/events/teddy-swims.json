@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70v1a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v1a",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/kansas-city-missouri-t-mobile-center-2026-09-22-7-pm/concert/18185128",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v1a",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185128,
+        "url": "https://seatgeek.com/teddy-swims-tickets/kansas-city-missouri-t-mobile-center-2026-09-22-7-pm/concert/18185128",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -170,7 +170,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xF0U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xF0U",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/saint-paul-minnesota-grand-casino-arena-2026-09-26-7-pm/concert/18185131",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xF0U",
@@ -186,11 +186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185131,
+        "url": "https://seatgeek.com/teddy-swims-tickets/saint-paul-minnesota-grand-casino-arena-2026-09-26-7-pm/concert/18185131",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -859,7 +859,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70v8I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8I",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8I",
@@ -875,11 +875,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175691,
+        "url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -965,7 +965,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x4FS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4FS",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4FS",
@@ -981,11 +981,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185160,
+        "url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1177,7 +1177,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x_ag",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_ag",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_ag",
@@ -1193,11 +1193,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18143695,
+        "url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1495,7 +1495,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xpf-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpf-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpf-",
@@ -1511,11 +1511,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185177,
+        "url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1548,7 +1548,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xpfb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpfb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpfb",
@@ -1564,11 +1564,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185180,
+        "url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

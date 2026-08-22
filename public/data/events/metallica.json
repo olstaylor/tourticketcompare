@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7859974",
+        "url": "https://www.ticketnetwork.com/en/p/7859974",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_6n-zPJb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7859974"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775513",
+        "url": "https://www.ticketnetwork.com/en/p/7775513",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_kk3G7nDXr",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775513"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0yct0",
@@ -311,11 +327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785087",
+        "url": "https://www.ticketnetwork.com/en/p/7785087",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6s",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785087"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0ywtn",
@@ -417,11 +441,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785089",
+        "url": "https://www.ticketnetwork.com/en/p/7785089",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6g",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785089"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0buti",
@@ -523,10 +555,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785871",
+        "url": "https://www.ticketnetwork.com/en/p/7785871",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzXFF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785871"
   }
 ]

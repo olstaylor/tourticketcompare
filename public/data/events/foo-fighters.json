@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511940",
+        "url": "https://www.ticketnetwork.com/en/p/7511940",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkuKGkdkiFv9",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511940"
   },
   {
     "id": "tm-foo-fighters-2026-regina-1aozku4gkeb8mgg",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511941",
+        "url": "https://www.ticketnetwork.com/en/p/7511941",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkeB8MgG",
     "timezone": "America/Regina",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511941"
   },
   {
     "id": "tm-foo-fighters-2026-edmonton-1k78vn4_gaujue7",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511935",
+        "url": "https://www.ticketnetwork.com/en/p/7511935",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkewUExj",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935"
   },
   {
     "id": "tm-foo-fighters-2026-las-vegas-1a9zkufgkd3cmyl",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511942",
+        "url": "https://www.ticketnetwork.com/en/p/7511942",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkufGkd3CMyl",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511942"
   },
   {
     "id": "tm-foo-fighters-2026-uncasville-g5vvz_unjqq1q",
@@ -311,10 +343,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113672",
+        "url": "https://www.ticketnetwork.com/en/p/8113672",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_uNJqq1q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113672"
   }
 ]

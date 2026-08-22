@@ -15756,11 +15756,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668632",
-        "url": "https://www.ticketnetwork.com/en/p/7668632",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7668632",
@@ -15781,7 +15781,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "k7vGFbyDOLWCM",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668632",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668632/Bruno-Mars-tickets-Fri-Aug-21-2026-MetLife-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-21-2026/event/107071100"
   },
@@ -41179,11 +41179,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7914348",
+        "url": "https://www.ticketnetwork.com/en/p/7914348",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aNMPKQV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7914348"
   },
   {
     "id": "tm-karol-g-2026-seattle-vvg1hz_a1yzbuj",
@@ -41232,11 +41240,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896603",
+        "url": "https://www.ticketnetwork.com/en/p/7896603",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_a1YZbUJ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896603"
   },
   {
     "id": "tm-karol-g-2026-san-antonio-g5diz_ak3mivp",
@@ -41285,11 +41301,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896561",
+        "url": "https://www.ticketnetwork.com/en/p/7896561",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_ak3mIVP",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896561"
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_an5e3ov",
@@ -41338,11 +41362,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7918428",
+        "url": "https://www.ticketnetwork.com/en/p/7918428",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aN5E3ov",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7918428"
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_akoajis",
@@ -41391,11 +41423,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896567",
+        "url": "https://www.ticketnetwork.com/en/p/7896567",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aKOajIs",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896567"
   },
   {
     "id": "tm-karol-g-2026-foxborough-vv1avzk3ogkebubpy",
@@ -41444,11 +41484,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896571",
+        "url": "https://www.ticketnetwork.com/en/p/7896571",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk3oGkeBuBpy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896571"
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_a6cy2uc",
@@ -41497,11 +41545,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896548",
+        "url": "https://www.ticketnetwork.com/en/p/7896548",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_a6Cy2uc",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896548"
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_anrle2y",
@@ -41550,11 +41606,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7913589",
+        "url": "https://www.ticketnetwork.com/en/p/7913589",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aNRle2Y",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913589"
   },
   {
     "id": "tm-karol-g-2026-atlanta-vvg1zz_ag0kdf4",
@@ -41603,11 +41667,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896545",
+        "url": "https://www.ticketnetwork.com/en/p/7896545",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_aG0kdf4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896545"
   },
   {
     "id": "tm-karol-g-2026-houston-g5diz_akcfr2w",
@@ -41656,11 +41728,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896540",
+        "url": "https://www.ticketnetwork.com/en/p/7896540",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_aKCFR2W",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896540"
   },
   {
     "id": "tm-karol-g-2026-miami-vvg1vz_a38lpr5",
@@ -41709,11 +41789,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896542",
+        "url": "https://www.ticketnetwork.com/en/p/7896542",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_a38LpR5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896542"
   },
   {
     "id": "tm-karol-g-2026-miami-vvg1vz_afezyvt",
@@ -41762,11 +41850,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7913597",
+        "url": "https://www.ticketnetwork.com/en/p/7913597",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_afeZYVt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913597"
   },
   {
     "id": "tm-karol-g-2026-tampa-vvg1vz_aksr-m3",
@@ -41815,11 +41911,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896543",
+        "url": "https://www.ticketnetwork.com/en/p/7896543",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_aKsr-m3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896543"
   },
   {
     "id": "tm-karol-g-2026-arlington-z7r9jz1a7xfrb",
@@ -41868,11 +41972,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896541",
+        "url": "https://www.ticketnetwork.com/en/p/7896541",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfrb",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896541"
   },
   {
     "id": "tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k",
@@ -42027,11 +42139,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896500",
+        "url": "https://www.ticketnetwork.com/en/p/7896500",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kP4_vuk",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896500"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz16vvepfuz",
@@ -42080,11 +42200,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7912285",
+        "url": "https://www.ticketnetwork.com/en/p/7912285",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vvepfuZ",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7912285"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz16v_a-6fw",
@@ -42133,11 +42261,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921229",
+        "url": "https://www.ticketnetwork.com/en/p/7921229",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_a-6Fw",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921229"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7",
@@ -42451,11 +42587,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896506",
+        "url": "https://www.ticketnetwork.com/en/p/7896506",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vC_bwjy",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896506"
   },
   {
     "id": "tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs",
@@ -42504,11 +42648,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896509",
+        "url": "https://www.ticketnetwork.com/en/p/7896509",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16vfa4VGS",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896509"
   },
   {
     "id": "tm-foo-fighters-2026-fargo-vv1akzkukgkdkifv9",
@@ -42557,11 +42709,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511940",
+        "url": "https://www.ticketnetwork.com/en/p/7511940",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkuKGkdkiFv9",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511940"
   },
   {
     "id": "tm-foo-fighters-2026-regina-1aozku4gkeb8mgg",
@@ -42610,11 +42770,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511941",
+        "url": "https://www.ticketnetwork.com/en/p/7511941",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkeB8MgG",
     "timezone": "America/Regina",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511941"
   },
   {
     "id": "tm-foo-fighters-2026-edmonton-1k78vn4_gaujue7",
@@ -42716,11 +42884,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511935",
+        "url": "https://www.ticketnetwork.com/en/p/7511935",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkewUExj",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935"
   },
   {
     "id": "tm-foo-fighters-2026-las-vegas-1a9zkufgkd3cmyl",
@@ -42769,11 +42945,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7511942",
+        "url": "https://www.ticketnetwork.com/en/p/7511942",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkufGkd3CMyl",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511942"
   },
   {
     "id": "tm-foo-fighters-2026-uncasville-g5vvz_unjqq1q",
@@ -42822,11 +43006,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113672",
+        "url": "https://www.ticketnetwork.com/en/p/8113672",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_uNJqq1q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113672"
   },
   {
     "id": "tm-metallica-2026-uncasville-g5vvz_6nrigot",
@@ -42928,11 +43120,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7859974",
+        "url": "https://www.ticketnetwork.com/en/p/7859974",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_6n-zPJb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7859974"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk",
@@ -43034,11 +43234,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775513",
+        "url": "https://www.ticketnetwork.com/en/p/7775513",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_kk3G7nDXr",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775513"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0yct0",
@@ -43140,11 +43348,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785087",
+        "url": "https://www.ticketnetwork.com/en/p/7785087",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6s",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785087"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0ywtn",
@@ -43246,11 +43462,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785089",
+        "url": "https://www.ticketnetwork.com/en/p/7785089",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6g",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785089"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0buti",
@@ -43352,11 +43576,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785871",
+        "url": "https://www.ticketnetwork.com/en/p/7785871",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzXFF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785871"
   },
   {
     "id": "tm-my-chemical-romance-2026-minneapolis-vv1kvovngegageom5",
@@ -43405,11 +43637,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424934",
+        "url": "https://www.ticketnetwork.com/en/p/7424934",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvNGEGAGeom5",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424934"
   },
   {
     "id": "tm-my-chemical-romance-2026-denver-g5vzzbwncbsnm",
@@ -43458,11 +43698,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424935",
+        "url": "https://www.ticketnetwork.com/en/p/7424935",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbwNCBsnm",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424935"
   },
   {
     "id": "tm-my-chemical-romance-2026-san-diego-vvg1izbwykcki4",
@@ -43511,11 +43759,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424936",
+        "url": "https://www.ticketnetwork.com/en/p/7424936",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbwYkcki4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424936"
   },
   {
     "id": "tm-my-chemical-romance-2026-phoenix-1a_zkgygkd3ywvj",
@@ -43564,11 +43820,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424937",
+        "url": "https://www.ticketnetwork.com/en/p/7424937",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkGYGkd3YwVJ",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424937"
   },
   {
     "id": "tm-my-chemical-romance-2026-san-antonio-g5dizbsd0c4y6",
@@ -43617,11 +43881,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424939",
+        "url": "https://www.ticketnetwork.com/en/p/7424939",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSd0c4y6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424939"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55mdjk",
@@ -43670,11 +43942,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424940",
+        "url": "https://www.ticketnetwork.com/en/p/7424940",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55MdJK",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424940"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55msjp",
@@ -43723,11 +44003,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424941",
+        "url": "https://www.ticketnetwork.com/en/p/7424941",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55MSJp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424941"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55znjb",
@@ -43776,11 +44064,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424942",
+        "url": "https://www.ticketnetwork.com/en/p/7424942",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55zNJb",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424942"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55ykjr",
@@ -43829,11 +44125,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7570185",
+        "url": "https://www.ticketnetwork.com/en/p/7570185",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55yKJr",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570185"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55bdjv",
@@ -43882,11 +44186,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7570377",
+        "url": "https://www.ticketnetwork.com/en/p/7570377",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55BdJV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570377"
   },
   {
     "id": "tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6",
@@ -43988,11 +44300,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883090",
+        "url": "https://www.ticketnetwork.com/en/p/7883090",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70v1a",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883090"
   },
   {
     "id": "tm-teddy-swims-2026-saint-louis-vv17bz_fgkuhx1g-",
@@ -44094,11 +44414,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883092",
+        "url": "https://www.ticketnetwork.com/en/p/7883092",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_FGkUXeURm",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883092"
   },
   {
     "id": "tm-teddy-swims-2026-saint-paul-z7r9jz1a7xf0u",
@@ -44147,11 +44475,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883093",
+        "url": "https://www.ticketnetwork.com/en/p/7883093",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xF0U",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883093"
   },
   {
     "id": "tm-teddy-swims-2026-detroit-vv17oz_fgktec1td",
@@ -44200,11 +44536,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883094",
+        "url": "https://www.ticketnetwork.com/en/p/7883094",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_FGkTEC1td",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883094"
   },
   {
     "id": "tm-teddy-swims-2026-columbus-vv17fz_fgkdx0-pn",
@@ -44253,11 +44597,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883095",
+        "url": "https://www.ticketnetwork.com/en/p/7883095",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_FGkDx0-pN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883095"
   },
   {
     "id": "tm-teddy-swims-2026-brooklyn-1adzz_fgknbfkoe",
@@ -44306,11 +44658,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883096",
+        "url": "https://www.ticketnetwork.com/en/p/7883096",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_FGknbFKOe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883096"
   },
   {
     "id": "tm-teddy-swims-2026-toronto-1avzz_fgku3eucw",
@@ -44412,11 +44772,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883098",
+        "url": "https://www.ticketnetwork.com/en/p/7883098",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_FGkM9lFwl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883098"
   },
   {
     "id": "tm-teddy-swims-2026-boston-vv177z_fgktnmxtd",
@@ -44465,11 +44833,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883099",
+        "url": "https://www.ticketnetwork.com/en/p/7883099",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_FGktNMxtd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883099"
   },
   {
     "id": "tm-teddy-swims-2026-philadelphia-1adzz_fgkm5wpjt",
@@ -44518,11 +44894,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883100",
+        "url": "https://www.ticketnetwork.com/en/p/7883100",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_FGkM5WPjT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883100"
   },
   {
     "id": "tm-teddy-swims-2026-washington-16vfz_f0sg7tpdk",
@@ -44571,11 +44955,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883102",
+        "url": "https://www.ticketnetwork.com/en/p/7883102",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_F0SG7TPDk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883102"
   },
   {
     "id": "tm-teddy-swims-2026-nashville-g5viz_fxfo1dj",
@@ -44624,11 +45016,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883103",
+        "url": "https://www.ticketnetwork.com/en/p/7883103",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FXfO1dj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883103"
   },
   {
     "id": "tm-teddy-swims-2026-charlotte-g5evz_fumjscw",
@@ -44677,11 +45077,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883104",
+        "url": "https://www.ticketnetwork.com/en/p/7883104",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FUMjSCw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883104"
   },
   {
     "id": "tm-teddy-swims-2026-atlanta-vvg1zz_fuw3nll",
@@ -44730,11 +45138,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883105",
+        "url": "https://www.ticketnetwork.com/en/p/7883105",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FUW3nLL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883105"
   },
   {
     "id": "tm-teddy-swims-2026-orlando-1aefz_fgkd1sjat",
@@ -44783,11 +45199,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883107",
+        "url": "https://www.ticketnetwork.com/en/p/7883107",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkD1SJat",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883107"
   },
   {
     "id": "tm-teddy-swims-2026-sunrise-z7r9jz1a70v8i",
@@ -44836,11 +45260,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883108",
+        "url": "https://www.ticketnetwork.com/en/p/7883108",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70v8I",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883108"
   },
   {
     "id": "tm-teddy-swims-2026-tampa-vvg1vz_fdr-qk6",
@@ -44889,11 +45321,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883109",
+        "url": "https://www.ticketnetwork.com/en/p/7883109",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_FDr-qK6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883109"
   },
   {
     "id": "tm-teddy-swims-2026-houston-z7r9jz1a7x4fs",
@@ -44942,11 +45382,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7892526",
+        "url": "https://www.ticketnetwork.com/en/p/7892526",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x4FS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892526"
   },
   {
     "id": "tm-teddy-swims-2026-austin-g5diz_fxgrqaf",
@@ -44995,11 +45443,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883110",
+        "url": "https://www.ticketnetwork.com/en/p/7883110",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_FXgRQAF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883110"
   },
   {
     "id": "tm-teddy-swims-2026-fort-worth-vvg1yz_flxlbcf",
@@ -45048,11 +45504,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883111",
+        "url": "https://www.ticketnetwork.com/en/p/7883111",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_FlXlBcf",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883111"
   },
   {
     "id": "tm-teddy-swims-2026-denver-g5vzz_fuokkc4",
@@ -45101,11 +45565,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883112",
+        "url": "https://www.ticketnetwork.com/en/p/7883112",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_FUokkC4",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883112"
   },
   {
     "id": "tm-teddy-swims-2026-salt-lake-city-z7r9jz1a7x_ag",
@@ -45154,11 +45626,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883114",
+        "url": "https://www.ticketnetwork.com/en/p/7883114",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x_ag",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883114"
   },
   {
     "id": "tm-teddy-swims-2026-seattle-vvg1hz_fujpiyp",
@@ -45207,11 +45687,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883115",
+        "url": "https://www.ticketnetwork.com/en/p/7883115",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FUJPIyp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883115"
   },
   {
     "id": "tm-teddy-swims-2026-vancouver-1av7z_fgkbd-_xv",
@@ -45260,11 +45748,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883116",
+        "url": "https://www.ticketnetwork.com/en/p/7883116",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_FGkBD-_xV",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883116"
   },
   {
     "id": "tm-teddy-swims-2026-portland-vvg1hz_fbodkr9",
@@ -45313,11 +45809,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883117",
+        "url": "https://www.ticketnetwork.com/en/p/7883117",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FBoDkR9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883117"
   },
   {
     "id": "tm-teddy-swims-2026-san-francisco-g5vyz_fnhi2ez",
@@ -45366,11 +45870,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883120",
+        "url": "https://www.ticketnetwork.com/en/p/7883120",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FnHI2eZ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883120"
   },
   {
     "id": "tm-teddy-swims-2026-sacramento-g5vyz_fmsnbtg",
@@ -45419,11 +45931,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883122",
+        "url": "https://www.ticketnetwork.com/en/p/7883122",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FMsNbTG",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883122"
   },
   {
     "id": "tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf-",
@@ -45472,11 +45992,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883123",
+        "url": "https://www.ticketnetwork.com/en/p/7883123",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xpf-",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883123"
   },
   {
     "id": "tm-teddy-swims-2026-las-vegas-z7r9jz1a7xpfb",
@@ -45525,11 +46053,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883124",
+        "url": "https://www.ticketnetwork.com/en/p/7883124",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xpfb",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883124"
   },
   {
     "id": "tm-teddy-swims-2026-phoenix-1av0z_fgkbna4b9",
@@ -45578,11 +46114,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883125",
+        "url": "https://www.ticketnetwork.com/en/p/7883125",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_FGkBNa4B9",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883125"
   },
   {
     "id": "tm-teddy-swims-2026-inglewood-vv170z_fgkmxw1os",
@@ -45631,11 +46175,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883127",
+        "url": "https://www.ticketnetwork.com/en/p/7883127",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_FGkMxW1Os",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883127"
   },
   {
     "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16v7i-zc9",
@@ -45684,11 +46236,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167507",
+        "url": "https://www.ticketnetwork.com/en/p/8167507",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v7I-zC9",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507"
   },
   {
     "id": "tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d",
@@ -45737,11 +46297,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167509",
+        "url": "https://www.ticketnetwork.com/en/p/8167509",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v8g0v0d",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167509"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6",
@@ -45790,11 +46358,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8166020",
+        "url": "https://www.ticketnetwork.com/en/p/8166020",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vAJO8C6",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8166020"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz",
@@ -45843,11 +46419,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8168696",
+        "url": "https://www.ticketnetwork.com/en/p/8168696",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb300FZ",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168696"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9",
@@ -46055,11 +46639,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8163374",
+        "url": "https://www.ticketnetwork.com/en/p/8163374",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62QLsPVu",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8163374"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62pcoosz",
@@ -46108,11 +46700,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8163375",
+        "url": "https://www.ticketnetwork.com/en/p/8163375",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62pcooSz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8163375"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62m2z8vc",
@@ -46373,11 +46973,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676465",
+        "url": "https://www.ticketnetwork.com/en/p/7676465",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_epPSgpT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676465"
   },
   {
     "id": "tm-five-finger-death-punch-2026-ridgefield-vvg1hz_eq8bvhx",
@@ -46426,11 +47034,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676466",
+        "url": "https://www.ticketnetwork.com/en/p/7676466",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_eQ8BVhX",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676466"
   },
   {
     "id": "tm-five-finger-death-punch-2026-wheatland-g5vyz_eps2iri",
@@ -46479,11 +47095,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676467",
+        "url": "https://www.ticketnetwork.com/en/p/7676467",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_eps2IrI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676467"
   },
   {
     "id": "tm-five-finger-death-punch-2026-mountain-view-g5vyz_epluiuh",
@@ -46532,11 +47156,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676468",
+        "url": "https://www.ticketnetwork.com/en/p/7676468",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_eplUIuH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676468"
   },
   {
     "id": "tm-five-finger-death-punch-2026-long-beach-vvg1iz_els87ti",
@@ -46585,11 +47217,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676469",
+        "url": "https://www.ticketnetwork.com/en/p/7676469",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_eLs87ti",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676469"
   },
   {
     "id": "tm-five-finger-death-punch-2026-west-valley-city-g5vzz_e9-5mgw",
@@ -46691,11 +47331,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676472",
+        "url": "https://www.ticketnetwork.com/en/p/7676472",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8v0atGA5OfFo",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676472"
   },
   {
     "id": "tm-five-finger-death-punch-2026-albuquerque-g5vzz_er_rgel",
@@ -46744,11 +47392,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676473",
+        "url": "https://www.ticketnetwork.com/en/p/7676473",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_er_rgel",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676473"
   },
   {
     "id": "tm-five-finger-death-punch-2026-the-woodlands-g5diz_eelg5kq",
@@ -46850,11 +47506,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676476",
+        "url": "https://www.ticketnetwork.com/en/p/7676476",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_eQGEVGg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676476"
   },
   {
     "id": "tm-five-finger-death-punch-2026-fort-worth-vvg1yz_ehes4-b",
@@ -46903,11 +47567,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676481",
+        "url": "https://www.ticketnetwork.com/en/p/7676481",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_ehes4-b",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676481"
   },
   {
     "id": "tm-five-finger-death-punch-2026-rogers-g5viz_eq6la31",
@@ -46956,11 +47628,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676484",
+        "url": "https://www.ticketnetwork.com/en/p/7676484",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_eQ6lA31",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676484"
   },
   {
     "id": "tm-five-finger-death-punch-2026-kansas-city-1a-zk8pgkdxix7u",
@@ -47062,11 +47742,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676507",
+        "url": "https://www.ticketnetwork.com/en/p/7676507",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_exc4n-g",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676507"
   },
   {
     "id": "tm-five-finger-death-punch-2026-franklin-g5viz_eqoip4h",
@@ -47115,11 +47803,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676513",
+        "url": "https://www.ticketnetwork.com/en/p/7676513",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_eQoip4h",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513"
   },
   {
     "id": "tm-five-finger-death-punch-2026-tampa-vvg1vz_eqhp7qi",
@@ -47168,11 +47864,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676514",
+        "url": "https://www.ticketnetwork.com/en/p/7676514",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_eQhP7qi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676514"
   },
   {
     "id": "tm-five-finger-death-punch-2026-west-palm-beach-vvg1vz_eqw6abn",
@@ -47221,11 +47925,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676515",
+        "url": "https://www.ticketnetwork.com/en/p/7676515",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_eQW6ABN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676515"
   },
   {
     "id": "tm-five-finger-death-punch-2026-alpharetta-vvg1zz_eq2kn-d",
@@ -47274,11 +47986,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676519",
+        "url": "https://www.ticketnetwork.com/en/p/7676519",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_eQ2KN-d",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676519"
   },
   {
     "id": "tm-five-finger-death-punch-2026-raleigh-g5evz_ejp-tdn",
@@ -47327,11 +48047,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676524",
+        "url": "https://www.ticketnetwork.com/en/p/7676524",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_eJP-tDn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676524"
   },
   {
     "id": "tm-five-finger-death-punch-2026-charlotte-g5evz_eqi_eoi",
@@ -47380,11 +48108,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676530",
+        "url": "https://www.ticketnetwork.com/en/p/7676530",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_eQI_EOI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530"
   },
   {
     "id": "tm-five-finger-death-punch-2026-virginia-beach-vv1k7z_eqfg7mvxk",
@@ -47433,11 +48169,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676535",
+        "url": "https://www.ticketnetwork.com/en/p/7676535",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_eQfG7mVxk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535"
   },
   {
     "id": "tm-five-finger-death-punch-2026-greenville-g5evz_excrbbp",
@@ -47486,11 +48230,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676541",
+        "url": "https://www.ticketnetwork.com/en/p/7676541",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_excRBbP",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676541"
   },
   {
     "id": "tm-five-finger-death-punch-2026-columbus-vv1aazk8egkdlofxu",
@@ -47539,11 +48291,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676549",
+        "url": "https://www.ticketnetwork.com/en/p/7676549",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk8EGkdloFXu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549"
   },
   {
     "id": "tm-five-finger-death-punch-2026-bristow-1avfz_egki4tnxq",
@@ -47592,11 +48352,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676550",
+        "url": "https://www.ticketnetwork.com/en/p/7676550",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_eGki4tnxQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676550"
   },
   {
     "id": "tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f",
@@ -47645,11 +48413,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7987816",
+        "url": "https://www.ticketnetwork.com/en/p/7987816",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GnH6Q4f",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987816"
   },
   {
     "id": "tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s",
@@ -47698,11 +48474,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090419",
+        "url": "https://www.ticketnetwork.com/en/p/8090419",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZk3bGkeV6s0S",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090419"
   },
   {
     "id": "tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6-",

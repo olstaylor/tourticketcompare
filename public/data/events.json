@@ -15847,11 +15847,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107066186",
-        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-22-2026/event/107066186",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -15860,7 +15860,7 @@
     "ticketmaster_discovery_event_id": "k7vGFbyDO-qCD",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-22-2026/event/107066186"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
@@ -25538,11 +25538,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107028152",
-        "url": "https://www.stubhub.ie/zach-bryan-arlington-tickets-8-22-2026/event/107028152",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
@@ -25550,7 +25550,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583741",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583741/Zach-Bryan-tickets-Sat-Aug-22-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-arlington-tickets-8-22-2026/event/107028152"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",
@@ -41211,11 +41211,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107162344",
-        "url": "https://www.stubhub.ie/karol-g-santa-clara-tickets-8-22-2026/event/107162344",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aNMPKQV",
@@ -41223,7 +41223,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7914348",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7914348/Karol-G-tickets-Sat-Aug-22-2026-Levis-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-santa-clara-tickets-8-22-2026/event/107162344"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-seattle-vvg1hz_a1yzbuj",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:15:19.816Z",
+  "generated_at": "2026-08-23T18:47:44.169Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -22,8 +22,8 @@
       "indexable": 7
     },
     "guide": {
-      "rendered": 19,
-      "indexable": 19
+      "rendered": 18,
+      "indexable": 18
     },
     "blog-post": {
       "rendered": 3,
@@ -38,22 +38,22 @@
       "indexable": 32
     },
     "city": {
-      "rendered": 82,
-      "indexable": 34
+      "rendered": 108,
+      "indexable": 46
     },
     "venue": {
-      "rendered": 106,
-      "indexable": 45
+      "rendered": 154,
+      "indexable": 54
     },
     "artist-city": {
-      "rendered": 230,
-      "indexable": 83
+      "rendered": 330,
+      "indexable": 94
     }
   },
   "overall": {
-    "rendered": 496,
-    "indexable": 231,
-    "noindex": 265,
+    "rendered": 669,
+    "indexable": 262,
+    "noindex": 407,
     "baseline_indexable": 227
   },
   "exclusion_reasons": {
@@ -62,15 +62,15 @@
       "no_upcoming_shows": 8
     },
     "city": {
-      "below_show_threshold": 47,
-      "below_artist_threshold": 31
+      "below_show_threshold": 62,
+      "below_artist_threshold": 47
     },
     "venue": {
-      "below_show_threshold": 57,
-      "below_artist_threshold": 52
+      "below_show_threshold": 93,
+      "below_artist_threshold": 88
     },
     "artist-city": {
-      "below_show_threshold": 147
+      "below_show_threshold": 236
     },
     "blog-tag": {
       "editorial_or_static_route": 1
@@ -78,149 +78,177 @@
   },
   "expiring_within_warn_days": [
     {
-      "path": "/artists/ed-sheeran/tickets/toronto-canada",
-      "type": "artist-city",
-      "last_show": "2026-08-22",
-      "days_left": 2,
-      "reason": "runs_out_of_shows"
-    },
-    {
-      "path": "/artists/bts/tickets/toronto-canada",
-      "type": "artist-city",
-      "last_show": "2026-08-24",
-      "days_left": 3,
-      "reason": "runs_out_of_shows"
-    },
-    {
       "path": "/artists/bruno-mars/tickets/east-rutherford-united-states",
       "type": "artist-city",
       "last_show": "2026-08-26",
-      "days_left": 6,
+      "days_left": 3,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/bts/tickets/chicago-united-states",
       "type": "artist-city",
       "last_show": "2026-08-29",
-      "days_left": 8,
+      "days_left": 5,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/ariana-grande/tickets/london-united-kingdom",
       "type": "artist-city",
       "last_show": "2026-09-01",
-      "days_left": 11,
+      "days_left": 9,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/bruno-mars/tickets/philadelphia-united-states",
       "type": "artist-city",
       "last_show": "2026-09-02",
-      "days_left": 13,
+      "days_left": 10,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/tame-impala/tickets/seattle-united-states",
       "type": "artist-city",
       "last_show": "2026-09-03",
+      "days_left": 10,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/ed-sheeran/tickets/east-rutherford-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-05",
       "days_left": 13,
       "reason": "runs_out_of_shows"
     },
     {
+      "path": "/artists/jay-z/tickets/london-united-kingdom",
+      "type": "artist-city",
+      "last_show": "2026-09-05",
+      "days_left": 13,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/bruno-mars/tickets/foxborough-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-06",
+      "days_left": 14,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/artists/bts/tickets/inglewood-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-07",
+      "days_left": 14,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/artists/karol-g/tickets/el-paso-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-07",
+      "days_left": 14,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/artists/tame-impala/tickets/vancouver-canada",
+      "type": "artist-city",
+      "last_show": "2026-09-07",
+      "days_left": 14,
+      "reason": "falls_below_threshold"
+    },
+    {
       "path": "/cities/east-rutherford-united-states",
       "type": "city",
-      "last_show": "2026-09-05",
-      "days_left": 16,
+      "last_show": "2026-09-18",
+      "days_left": 26,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/metlife-stadium-east-rutherford",
       "type": "venue",
-      "last_show": "2026-09-05",
-      "days_left": 16,
+      "last_show": "2026-09-18",
+      "days_left": 26,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/lincoln-financial-field-philadelphia",
       "type": "venue",
       "last_show": "2026-09-19",
-      "days_left": 30,
+      "days_left": 27,
       "reason": "falls_below_threshold"
     },
     {
-      "path": "/venues/rogers-centre-toronto",
+      "path": "/venues/alamodome-san-antonio",
       "type": "venue",
-      "last_show": "2026-09-22",
-      "days_left": 33,
+      "last_show": "2026-09-24",
+      "days_left": 31,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/cities/minneapolis-united-states",
+      "type": "city",
+      "last_show": "2026-11-02",
+      "days_left": 70,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/target-center-minneapolis",
       "type": "venue",
       "last_show": "2026-11-02",
-      "days_left": 73,
+      "days_left": 70,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/cities/san-antonio-united-states",
+      "type": "city",
+      "last_show": "2026-11-07",
+      "days_left": 75,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/pittsburgh-united-states",
       "type": "city",
       "last_show": "2026-11-13",
-      "days_left": 84,
+      "days_left": 81,
       "reason": "falls_below_threshold"
     },
     {
-      "path": "/cities/detroit-united-states",
-      "type": "city",
-      "last_show": "2027-03-19",
-      "days_left": 211,
-      "reason": "falls_below_threshold"
-    },
-    {
-      "path": "/venues/nationwide-arena-columbus",
+      "path": "/venues/tottenham-hotspur-stadium-london",
       "type": "venue",
-      "last_show": "2027-03-20",
-      "days_left": 212,
+      "last_show": "2027-07-06",
+      "days_left": 317,
       "reason": "falls_below_threshold"
     }
   ],
   "orphan_indexable": [],
   "indexable_without_future_events": [
-    "/artists/bad-bunny",
     "/artists/beyonce",
-    "/artists/five-finger-death-punch",
-    "/artists/foo-fighters",
     "/artists/jelly-roll",
-    "/artists/karol-g",
-    "/artists/metallica",
     "/artists/morgan-wallen",
-    "/artists/my-chemical-romance",
     "/artists/post-malone",
     "/artists/raye",
     "/artists/rosalia",
-    "/artists/tate-mcrae",
-    "/artists/teddy-swims"
+    "/artists/tate-mcrae"
   ],
   "duplicate_titles": [],
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
-      "count": 82,
+      "count": 93,
       "share_of_indexable": 35.5
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
-      "count": 45,
-      "share_of_indexable": 19.5
+      "count": 54,
+      "share_of_indexable": 20.6
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
-      "count": 34,
-      "share_of_indexable": 14.7
+      "count": 46,
+      "share_of_indexable": 17.6
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
       "count": 31,
-      "share_of_indexable": 13.4
+      "share_of_indexable": 11.8
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -269,11 +297,6 @@
     },
     {
       "pattern": "Affiliate Disclosure | TourTicketCompare",
-      "count": 1,
-      "share_of_indexable": 0.4
-    },
-    {
-      "pattern": "How to Compare Event Ticket Prices | TourTicketCompare",
       "count": 1,
       "share_of_indexable": 0.4
     },
@@ -492,17 +515,17 @@
           "indexable": 17
         },
         "after": {
-          "rendered": 19,
-          "indexable": 19
+          "rendered": 18,
+          "indexable": 18
         },
         "at_baseline_instant": {
-          "rendered": 19,
-          "indexable": 19
+          "rendered": 18,
+          "indexable": 18
         },
         "kind": "inventory-growth",
-        "indexableDelta": 2,
+        "indexableDelta": 1,
         "clockDelta": 0,
-        "residual": 2,
+        "residual": 1,
         "tolerance": 3
       },
       {
@@ -572,17 +595,17 @@
           "indexable": 37
         },
         "after": {
-          "rendered": 82,
-          "indexable": 34
+          "rendered": 108,
+          "indexable": 46
         },
         "at_baseline_instant": {
-          "rendered": 83,
-          "indexable": 37
+          "rendered": 108,
+          "indexable": 47
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -3,
-        "clockDelta": -3,
-        "residual": 0,
+        "kind": "unexplained-growth",
+        "indexableDelta": 9,
+        "clockDelta": -1,
+        "residual": 10,
         "tolerance": 4
       },
       {
@@ -592,17 +615,17 @@
           "indexable": 45
         },
         "after": {
-          "rendered": 106,
-          "indexable": 45
+          "rendered": 154,
+          "indexable": 54
         },
         "at_baseline_instant": {
-          "rendered": 111,
-          "indexable": 46
+          "rendered": 158,
+          "indexable": 57
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
-        "clockDelta": -1,
-        "residual": 1,
+        "kind": "unexplained-growth",
+        "indexableDelta": 9,
+        "clockDelta": -3,
+        "residual": 12,
         "tolerance": 5
       },
       {
@@ -612,23 +635,26 @@
           "indexable": 92
         },
         "after": {
-          "rendered": 230,
-          "indexable": 83
+          "rendered": 330,
+          "indexable": 94
         },
         "at_baseline_instant": {
-          "rendered": 244,
-          "indexable": 92
+          "rendered": 347,
+          "indexable": 106
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -9,
-        "clockDelta": -9,
-        "residual": 0,
+        "kind": "unexplained-growth",
+        "indexableDelta": 2,
+        "clockDelta": -12,
+        "residual": 14,
         "tolerance": 10
       }
     ]
   },
   "warnings": [
-    "artist: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run."
+    "artist: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
+    "city: 10 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 4). Expected after an artist batch or a large discovery run.",
+    "venue: 12 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.",
+    "artist-city: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 10). Expected after an artist batch or a large discovery run."
   ],
   "problems": []
 }

@@ -21,6 +21,10 @@ sources:
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
     last_checked: 2026-07-13
+  - name: All In Prices
+    publisher: Ticketmaster
+    url: https://www.ticketmaster.com/welcome/all-in
+    last_checked: 2026-07-14
 howto:
   name: How to Compare Concert Ticket Prices Safely
   description: A step-by-step guide to comparing concert ticket options using verified event details, timestamped price snapshots, like-for-like ticket checks, final totals, and provider terms.
@@ -105,7 +109,13 @@ We do not claim that a snapshot is a live checkout total, compare seat quality a
 
 ## How to compare other event ticket prices
 
-The same checks work for sports, theatre, festivals, and other live events. Match the exact team or production, date, venue, session, ticket quantity, section or seat area, ticket type, delivery method, and final checkout total. A day pass, a single game, and a full festival package are not interchangeable just because they share a venue or event name. Use the provider's current order summary and terms as the final source of truth.
+The same six checks work for sports, theatre, festivals, and other live events. Match the exact event name, local date, venue, and session or game number first, then apply the ticket-level detail that matters for the format:
+
+- **Sports** — confirm the same fixture, including which side is at home, and the correct season or competition. Similar fixtures repeat across a season.
+- **Theatre** — match the performance date and time as well as the seat area. Matinee and evening performances of the same production are separate events.
+- **Festivals and multi-day events** — check whether the listing is a single-day pass, a weekend pass, or a package that bundles camping, travel, or hospitality.
+
+A day pass, a single game, and a full festival package are not interchangeable just because they share a venue or event name. Whatever the format, compare ticket quantity, section or seat area, ticket type, and delivery method, then use the provider's current order summary and terms as the final source of truth.
 
 ## FAQ
 

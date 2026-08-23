@@ -58,6 +58,10 @@ assert.deepEqual(metadata, {
   ctaLocation: "guide_provider_pair"
 });
 
+// how-to-compare-event-ticket-prices was merged into
+// how-to-compare-concert-ticket-prices, which is still on this list and still
+// carries the contextual link, so the provider-pair guide keeps its inbound
+// route from the surviving copy.
 const inboundGuideFiles = [
   "ticketmaster-vs-seatgeek-vs-vivid-seats",
   "seatgeek-vs-ticketmaster",
@@ -65,8 +69,7 @@ const inboundGuideFiles = [
   "primary-vs-resale-concert-tickets",
   "concert-ticket-fees-explained",
   "ticket-delivery-and-transfer-timing",
-  "how-to-compare-concert-ticket-prices",
-  "how-to-compare-event-ticket-prices"
+  "how-to-compare-concert-ticket-prices"
 ];
 for (const slug of inboundGuideFiles) {
   const source = fs.readFileSync(new URL(`../content/guides/${slug}.md`, import.meta.url), "utf8");

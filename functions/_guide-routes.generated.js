@@ -14,21 +14,13 @@
 // or the calendar moving can never touch it.
 
 export const GUIDE_ROUTES = {
-  "/guides/how-to-compare-event-ticket-prices": {
-    title: "How to Compare Event Ticket Prices | TourTicketCompare",
-    h1: "How to Compare Event Ticket Prices",
-    description: "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
-    fullContent: true,
-    datePublished: "2026-07-14",
-    lastmod: "2026-08-20"
-  },
   "/guides/how-to-compare-concert-ticket-prices": {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",
     description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-08-20"
+    lastmod: "2026-08-21"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery",
@@ -179,13 +171,13 @@ export const GUIDE_ROUTES = {
 // scripts/route-metadata.test.mjs asserts every field here equals the
 // GUIDE_ROUTES entry, and scripts/build-guide-content.mjs refuses to draft,
 // rename or delete the guide, so the two cannot drift.
-export const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
+export const PRICE_GUIDE_FALLBACK_PATH = "/guides/how-to-compare-concert-ticket-prices";
 
-export const EVENT_PRICE_GUIDE_FALLBACK = {
-  title: "How to Compare Event Ticket Prices | TourTicketCompare",
-  h1: "How to Compare Event Ticket Prices",
-  description: "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
+export const PRICE_GUIDE_FALLBACK = {
+  title: "How to Compare Concert Ticket Prices | TourTicketCompare",
+  h1: "How to Compare Concert Ticket Prices Safely",
+  description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
   fullContent: true,
-  datePublished: "2026-07-14",
-  lastmod: "2026-08-20"
+  datePublished: "2026-06-11",
+  lastmod: "2026-08-21"
 };

@@ -28,6 +28,8 @@ public/
     events.json              Reviewed event records
     events/                  Generated per-artist partitions
     events-index.json        Generated partition index
+  og/                        Generated per-page Open Graph cards (1200x630 PNG)
+  og-image.png               Shared Open Graph card, used where no per-page card exists
 
 functions/
   _middleware.js             Entry point for requests
@@ -82,12 +84,20 @@ migrations/                  Ordered D1 migrations and applied-state ledger
 ```text
 request
   → public/_routes.json
+      └─ excluded (/_assets/*, /og/*, /favicon.ico) → static asset, no Function
   → functions/_middleware.js
       ├─ /api/* and known assets → context.next()
       ├─ /admin                  → context.next() → functions/admin.js
       ├─ file-extension paths    → static asset handling
       └─ HTML routes            → functions/[[path]].js
 ```
+
+The `_routes.json` exclude list is pinned by `scripts/smoke-prelaunch.mjs` and
+stays minimal: an excluded path bypasses Functions entirely, losing routing and
+metadata injection. The generated OG cards are excluded because they are inert
+images needing neither, and the `/*` rules in `public/_headers` are applied by
+Pages rather than the middleware — so they keep every security header while
+costing no Function invocation.
 
 `functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, blog routes, artist routes, city routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry for fixed and guide routes; data-derived city and venue metadata is composed in the router from the shared aggregation records.
 
@@ -130,6 +140,25 @@ Two collections share one shape: a Markdown file with YAML front matter, compile
 | Generated | `public/data/blog-content.json` | `public/data/guides-content.json` and `functions/_guide-routes.generated.js` |
 | Draft gate | absent from the compiled post list | absent from `GUIDE_ROUTES`, so no route, sitemap entry or `llms.txt` line |
 | Staleness guard | `npm run blog:check` | `npm run guides:check` |
+
+### Per-page Open Graph cards
+
+Every indexable URL used to share one social card, so an artist page, a city page
+and a guide all previewed identically. `scripts/build-og-cards.mjs` renders one
+1200x630 PNG per page from the same brand template as `public/og-image.png` and
+writes `functions/_og-cards.generated.js`, which the router consults in
+`injectRoute`. A route with no manifest entry falls back to the shared card.
+
+A card carries only what is stable for the life of the URL — a name, a place, a
+title. Show counts, dates and verification stamps are deliberately excluded: they
+move whenever the calendar does, and a card carrying them would rewrite hundreds
+of binary files on every data sync. This is also why `npm run og:check` verifies
+that referenced cards exist rather than that the manifest matches the current
+indexable surface — city, venue and artist-city routes appear and disappear on
+their own, and an exact-match check would fail on any day the calendar moved.
+
+Cards are rasterised with `sharp` (a devDependency) against the DejaVu faces the
+brand template names first. Generate on Linux so committed cards match CI.
 
 `functions/_route-metadata.js` re-exports the generated `GUIDE_ROUTES` and keeps owning `TRUST_ROUTES` and `OLD_GUIDE_REDIRECTS`. Withdrawal is deliberately outside the CMS: the guide build refuses to drop a previously published path unless `OLD_GUIDE_REDIRECTS` carries an entry for it.
 
@@ -219,6 +248,7 @@ Changes to these files require explicit scope and proportionate validation:
 - `public/data/blog-content.json` (generated — edit `content/blog/*.md` instead)
 - `functions/api/admin/` OAuth handshake and the vendored `public/admin/` bundle
 - `functions/_guide-routes.generated.js` — generated; edit `content/guides/*.md` and run `npm run guides:build`
+- `functions/_og-cards.generated.js` and `public/og/` — generated; run `npm run og:build`
 - Impact/provider credentials and tracking logic
 
 ## Documentation boundaries

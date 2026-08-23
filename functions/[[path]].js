@@ -4086,8 +4086,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   // city or venue appearing as the calendar moves — degrades to the default card
   // rather than pointing at a 404. Both cards are 1200x630, so the width/height
   // and type tags in the shell stay correct either way.
-  const ogCardPath = OG_CARDS[route.path] || "/og-image.png";
-  const ogImageUrl = `${origin}${ogCardPath}`;
+  const ogCard = OG_CARDS[route.path];
+  const ogImageUrl = `${origin}${ogCard?.url || "/og-image.png"}`;
   next = next.replace(
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
@@ -4097,10 +4097,13 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
   );
   // The shell's alt text describes the default card, which is wrong once a
-  // page-specific one is in use. A card shows the page's own name, so the
-  // route title describes it.
-  if (OG_CARDS[route.path]) {
-    const ogImageAlt = `${route.h1 || route.title.replace(" | TourTicketCompare", "")} — TourTicketCompare`;
+  // page-specific one is in use. The alt comes from the manifest rather than
+  // from route.title: a title carries pipe-separated search suffixes and, on
+  // city and venue routes, a date range the card deliberately does not show.
+  if (ogCard?.alt) {
+    // Some headlines already name the site (a blog title, say), so the brand
+    // suffix is appended only when it is not already there.
+    const ogImageAlt = /tourticketcompare/i.test(ogCard.alt) ? ogCard.alt : `${ogCard.alt} — TourTicketCompare`;
     next = next.replace(
       /<meta\s+property="og:image:alt"\s+content="[^"]*"\s*\/?>/i,
       `<meta property="og:image:alt" content="${escapeAttr(ogImageAlt)}" />`

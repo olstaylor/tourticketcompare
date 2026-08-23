@@ -133,7 +133,7 @@ for (const page of rendered) {
 // publish an og:image that 404s for every crawler that fetched it.
 const { OG_CARDS } = await import(pathToFileURL(path.join(root, "functions/_og-cards.generated.js")));
 const ogCardMissingOnDisk = new Set();
-for (const cardUrl of new Set(Object.values(OG_CARDS))) {
+for (const cardUrl of new Set(Object.values(OG_CARDS).map((card) => card.url))) {
   try {
     await fs.access(path.join(root, "public", cardUrl));
   } catch {
@@ -144,11 +144,12 @@ for (const page of rendered) {
   if (page.ogTitle !== page.title) problems.push(`social: ${page.path} og:title does not match its title`);
   if (page.ogDescription !== page.description) problems.push(`social: ${page.path} og:description does not match its description`);
   if (page.ogUrl !== page.canonical) problems.push(`social: ${page.path} og:url does not match its canonical`);
-  const expectedCard = `${ORIGIN}${OG_CARDS[page.path] || "/og-image.png"}`;
+  const pageCardUrl = OG_CARDS[page.path]?.url;
+  const expectedCard = `${ORIGIN}${pageCardUrl || "/og-image.png"}`;
   if (page.ogImage !== expectedCard) {
     problems.push(`social: ${page.path} og:image is "${page.ogImage}", expected "${expectedCard}"`);
-  } else if (OG_CARDS[page.path] && ogCardMissingOnDisk.has(OG_CARDS[page.path])) {
-    problems.push(`social: ${page.path} og:image points at ${OG_CARDS[page.path]}, which is not in public/og/`);
+  } else if (pageCardUrl && ogCardMissingOnDisk.has(pageCardUrl)) {
+    problems.push(`social: ${page.path} og:image points at ${pageCardUrl}, which is not in public/og/`);
   }
   if (page.ogImageType !== "image/png") problems.push(`social: ${page.path} og:image:type should be image/png`);
   if (!page.ogImageAlt) problems.push(`social: ${page.path} is missing og:image:alt`);

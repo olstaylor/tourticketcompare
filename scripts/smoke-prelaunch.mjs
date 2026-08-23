@@ -668,7 +668,7 @@ assert(
 );
 // Every card the router can reference must fall inside an excluded prefix,
 // otherwise half the corpus quietly goes back through Functions.
-for (const cardUrl of new Set(Object.values(OG_CARDS))) {
+for (const cardUrl of new Set(Object.values(OG_CARDS).map((card) => card.url))) {
   assert(
     routesManifest.exclude.some((rule) => rule.endsWith("/*") && cardUrl.startsWith(rule.slice(0, -1))),
     `${cardUrl} should be served straight from assets via a _routes.json exclude rule`
@@ -927,7 +927,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   const ogImage = text.match(/<meta\s+property="og:image"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
   const twitterImage = text.match(/<meta\s+name="twitter:image"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
   const twitterCard = text.match(/<meta\s+name="twitter:card"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
-  const expectedOgImage = `https://tourticketcompare.com${OG_CARDS[pathname] || "/og-image.png"}`;
+  const expectedOgImage = `https://tourticketcompare.com${OG_CARDS[pathname]?.url || "/og-image.png"}`;
   assert(
     ogImage === expectedOgImage,
     `${pathname} og:image should be "${expectedOgImage}", got "${ogImage}"`

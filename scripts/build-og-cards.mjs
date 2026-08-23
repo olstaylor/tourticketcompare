@@ -340,7 +340,13 @@ async function collectCards() {
     });
   }
 
-  const postsByPath = new Map(Object.entries(blogContent?.posts || blogContent || {}).map(([key, value]) => [key, value]));
+  // blogContent.posts is an ARRAY of records carrying their own `path`. Keying
+  // it with Object.entries produced "0"/"1"/"2", so every lookup below missed
+  // and every blog post was skipped — silently, because og:check and the social
+  // assertions all derive their expectations from this same manifest.
+  const postsByPath = new Map(
+    (Array.isArray(blogContent?.posts) ? blogContent.posts : []).map((post) => [String(post?.path || ""), post])
+  );
   for (const entry of deriveIndexableBlogEntries(blogContent)) {
     if (entry.type !== "blog-post") continue;
     const post = postsByPath.get(entry.path) || {};
@@ -363,7 +369,7 @@ async function collectCards() {
 
 function renderManifest(entries) {
   const lines = entries
-    .map(([routePath, cardUrl]) => `  ${JSON.stringify(routePath)}: ${JSON.stringify(cardUrl)}`)
+    .map(([routePath, card]) => `  ${JSON.stringify(routePath)}: ${JSON.stringify(card)}`)
     .join(",\n");
   return `// GENERATED FILE — DO NOT EDIT.
 //
@@ -414,7 +420,11 @@ async function build({ write = true } = {}) {
     const name = cardNameForPath(card.path);
     const png = await sharp(Buffer.from(svg)).png({ compressionLevel: 9, effort: 10 }).toBuffer();
     if (write) await fs.writeFile(path.join(OG_DIR, `${name}.png`), png);
-    entries.push([card.path, `/og/${name}.png`]);
+    // The alt travels with the card because only this script knows what the
+    // card actually says. Deriving it in the router from route.title produced
+    // alt text carrying pipe-separated SEO suffixes and a date range the card
+    // never shows.
+    entries.push([card.path, { url: `/og/${name}.png`, alt: `${card.eyebrow}: ${headline.lines.join(" ")}` }]);
   }
 
   entries.sort((a, b) => a[0].localeCompare(b[0]));
@@ -428,7 +438,7 @@ async function build({ write = true } = {}) {
   // Safe to delete: nothing references an orphan (the manifest is the only way
   // the router reaches a card), and a route that later recovers gets its card
   // rebuilt by the next run.
-  const pruned = write ? await pruneOrphanedCards(new Set(entries.map(([, cardUrl]) => cardUrl))) : [];
+  const pruned = write ? await pruneOrphanedCards(new Set(entries.map(([, card]) => card.url))) : [];
   return { entries, pruned };
 }
 
@@ -471,12 +481,22 @@ async function check() {
     process.exitCode = 1;
     return;
   }
+  // An interrupted og:build or a renamed export leaves a module that imports
+  // cleanly but has no OG_CARDS. Without this the Object.entries below throws
+  // outside the guard above, replacing the actionable message with a stack trace.
+  if (!manifest || typeof manifest !== "object") {
+    console.error(`[og-cards] ${MANIFEST_REL} does not export an OG_CARDS object — run \`npm run og:build\`.`);
+    process.exitCode = 1;
+    return;
+  }
   const referenced = new Set();
-  for (const [routePath, cardUrl] of Object.entries(manifest)) {
-    if (!/^\/og\/[a-z0-9-]+\.png$/i.test(cardUrl)) {
+  for (const [routePath, card] of Object.entries(manifest)) {
+    const cardUrl = card?.url;
+    if (!cardUrl || !/^\/og\/[a-z0-9-]+\.png$/i.test(cardUrl)) {
       problems.push(`${routePath} -> "${cardUrl}" is not a /og/<name>.png path`);
       continue;
     }
+    if (!card?.alt) problems.push(`${routePath} -> ${cardUrl} has no alt text`);
     referenced.add(cardUrl);
     try {
       await fs.access(path.join(root, "public", cardUrl));
@@ -620,7 +640,7 @@ async function selfTest() {
   assert(left.join(",") === "keep-a.png,keep-b.png,notes.txt", "referenced cards and non-card files survive pruning");
   await fs.rm(tmpDir, { recursive: true, force: true });
 
-  const manifest = renderManifest([["/artists/coldplay", "/og/artists-coldplay.png"]]);
+  const manifest = renderManifest([["/artists/coldplay", { url: "/og/artists-coldplay.png", alt: "Tickets: Coldplay" }]]);
   assert(manifest.includes("export const OG_CARDS = {"), "the manifest exports OG_CARDS");
   assert(manifest.includes("GENERATED FILE"), "the manifest is marked generated");
 

@@ -1546,12 +1546,20 @@
         "verified": true,
         "last_verified_at": "2026-08-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676876",
+        "url": "https://www.ticketliquidator.com/tickets/7676876/BTS-tickets-Sat-Aug-22-2026-Rogers-Stadium-At-Downsview-Airport",
+        "verified": true,
+        "last_verified_at": "2026-08-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvZZ_eGkiiiDcu",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676876"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676876",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676876/BTS-tickets-Sat-Aug-22-2026-Rogers-Stadium-At-Downsview-Airport"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkicklrr",

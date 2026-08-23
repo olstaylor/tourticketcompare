@@ -516,11 +516,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107028152",
-        "url": "https://www.stubhub.ie/zach-bryan-arlington-tickets-8-22-2026/event/107028152",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
@@ -528,7 +528,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583741",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583741/Zach-Bryan-tickets-Sat-Aug-22-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-arlington-tickets-8-22-2026/event/107028152"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",

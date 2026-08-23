@@ -10,7 +10,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 
 - `public/data/artists.json`: **40 records — 32 `indexable_with_substantial_content` + 8 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay, rush, muse, system-of-a-down, laura-pausini). The 32 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 8 shells carry `verified_providers: []` and render no CTA. 3 of the 32 indexable carry 0 events and render artist-level CTAs only — beyonce, raye, tate-mcrae, karol-g, foo-fighters, metallica, my-chemical-romance, teddy-swims, five-finger-death-punch.
 - `public/data/catalog.json`: 40 artist records; 0 tour records; **72 ticket_links rows** (40 ticketmaster + 32 seatgeek artist pages; 64 `verified` + `public_enabled`, plus 8 unverified/hidden shell ticketmaster rows for the 8 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
-- `public/data/events.json`: **742 events** — 289 `human_verified`, 372 `machine_high_confidence`, 81 `needs_recheck`. Verified event-level provider provenance: SeatGeek 208 (260 rows carry a stored `seatgeek_url`), Vivid Seats 501, TicketNetwork 464, Ticket Liquidator 394, StubHub International 399. Of the 81 `needs_recheck` rows: 35 retain a standalone SeatGeek CTA, 45 retain a standalone Vivid Seats CTA, and 13 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
+- `public/data/events.json`: **742 events** — 289 `human_verified`, 372 `machine_high_confidence`, 81 `needs_recheck`. Verified event-level provider provenance: SeatGeek 203 (255 rows carry a stored `seatgeek_url`), Vivid Seats 501, TicketNetwork 464, Ticket Liquidator 394, StubHub International 399. Of the 81 `needs_recheck` rows: 33 retain a standalone SeatGeek CTA, 45 retain a standalone Vivid Seats CTA, and 13 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **19 guide content entries** (topic guides; not per-artist). Generated from `content/guides/*.md` — do not hand-edit.
 - `content/blog/*.md`: **3 published blog posts, 1 draft, 3 tags** (2 indexable, 1 below the two-post tag gate). Source of truth for the blog; `public/data/blog-content.json` is generated from it and must never be hand-edited. Recount with `npm run blog:build`.
@@ -30,14 +30,14 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 |---|---|---|---|---|---|---|---|
 | beyonce | 2026-08-23 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | harry-styles | 2026-04-30 | 39 | 30 | 30 | 0 | Together, Together | — |
-| bts | 2026-04-30 | 25 | 18 | 11 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
+| bts | 2026-04-30 | 25 | 17 | 10 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
 | ariana-grande | 2026-04-30 | 41 | 17 | 5 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
-| bad-bunny | 2026-08-22 | 28 | 2 | 2 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
+| bad-bunny | 2026-08-22 | 28 | 1 | 1 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
 | morgan-wallen | 2026-08-23 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 7 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | Inglewood/London rows have blank `tour_name`, owner-accepted. |
 | olivia-rodrigo | 2026-05-27 | 84 | 59 | 59 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
-| bruno-mars | 2026-05-28 | 56 | 30 | 30 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
-| ed-sheeran | 2026-06-12 | 27 | 26 | 21 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
+| bruno-mars | 2026-05-28 | 56 | 29 | 29 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
+| ed-sheeran | 2026-06-12 | 27 | 25 | 20 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
 | shakira | 2026-06-10 | 31 | 16 | 5 | **1** | Las Mujeres Ya No Lloran | Recheck row: the re-added "Shakira Stadium" Madrid row — CTA-suppressed. |
 | raye | 2026-08-23 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | charli-xcx | 2026-06-18 | 11 | 11 | 11 | 0 | Music, Fashion, Film Tour | — |
@@ -45,7 +45,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 | summer-walker | 2026-06-11 | 13 | 7 | 1 | 0 | Still Finally Over It | Houston 6/21 renders a plain "Check Ticketmaster" link (owner-verified). |
 | rosalia | 2026-08-23 | 6 | 1 | 0 | 0 | LUX TOUR 2026 | Houston 6/23 renders a plain "Check Ticketmaster" link (owner-verified). |
 | post-malone | 2026-08-23 | 5 | 0 | 0 | 0 | — | `tour_name` blank pending human verification. Vivid Seats covers 3 events. |
-| zach-bryan | 2026-07-15 | 15 | 4 | 4 | **4** | With Heaven On Tour | Arlington, Glendale and Dover ×2 remain recheck rows with standalone verified resale CTAs. Vivid Seats covers 10 events. |
+| zach-bryan | 2026-07-15 | 15 | 3 | 3 | **4** | With Heaven On Tour | Arlington, Glendale and Dover ×2 remain recheck rows with standalone verified resale CTAs. Vivid Seats covers 10 events. |
 | jelly-roll | 2026-08-23 | 1 | 0 | 0 | **1** | — | `tour_name` blank pending human verification. |
 | tame-impala | 2026-07-22 | 20 | 3 | 3 | **3** | The Deadbeat Tour | 3 recheck rows each publish a standalone verified SeatGeek CTA. |
 | sabrina-carpenter | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |

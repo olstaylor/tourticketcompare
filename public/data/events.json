@@ -15833,11 +15833,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668633",
-        "url": "https://www.ticketnetwork.com/en/p/7668633",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7668633",
@@ -15858,7 +15858,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "k7vGFbyDO-qCD",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668633",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668633/Bruno-Mars-tickets-Sat-Aug-22-2026-MetLife-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-22-2026/event/107066186"
   },
@@ -22931,11 +22931,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676876",
+        "url": "https://www.ticketnetwork.com/en/p/7676876",
+        "verified": true,
+        "last_verified_at": "2026-08-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvZZ_eGkiiiDcu",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676876"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkicklrr",

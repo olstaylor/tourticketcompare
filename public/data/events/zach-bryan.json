@@ -465,7 +465,7 @@
     "tour_name": "With Heaven On Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7r4vU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vU",
-    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/arlington-texas-at-t-stadium-2026-08-22-7-pm/concert/17870796",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vU",
@@ -481,11 +481,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17870796,
-        "url": "https://seatgeek.com/zach-bryan-tickets/arlington-texas-at-t-stadium-2026-08-22-7-pm/concert/17870796",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -516,11 +516,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107028152",
-        "url": "https://www.stubhub.ie/zach-bryan-arlington-tickets-8-22-2026/event/107028152",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
@@ -528,7 +528,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583741",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583741/Zach-Bryan-tickets-Sat-Aug-22-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-arlington-tickets-8-22-2026/event/107028152"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",
@@ -561,7 +561,7 @@
         "event_id": 17871645,
         "url": "https://seatgeek.com/zach-bryan-tickets/glendale-arizona-state-farm-stadium-2026-09-05-7-pm/concert/17871645",
         "verified": true,
-        "last_verified_at": "2026-08-22",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -630,7 +630,7 @@
         "event_id": 17930446,
         "url": "https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-18-4-pm/concert/17930446",
         "verified": true,
-        "last_verified_at": "2026-08-22",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -683,7 +683,7 @@
         "event_id": 17930445,
         "url": "https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-19-4-pm/concert/17930445",
         "verified": true,
-        "last_verified_at": "2026-08-22",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {

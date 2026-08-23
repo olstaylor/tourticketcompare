@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107162344",
-        "url": "https://www.stubhub.ie/karol-g-santa-clara-tickets-8-22-2026/event/107162344",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aNMPKQV",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7914348",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7914348/Karol-G-tickets-Sat-Aug-22-2026-Levis-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-santa-clara-tickets-8-22-2026/event/107162344"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-seattle-vvg1hz_a1yzbuj",
@@ -1031,7 +1031,7 @@
         "event_id": 18166850,
         "url": "https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850",
         "verified": true,
-        "last_verified_at": "2026-08-22",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {

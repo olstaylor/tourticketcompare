@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-08-22T05:35:15.438Z
+Generated: 2026-08-23T05:37:43.839Z
 
 ## Run summary
 
@@ -10,37 +10,37 @@ Generated: 2026-08-22T05:35:15.438Z
 - API access with client ID only: HTTP 200
 - Total events in data: 742
 - Ticketmaster-verified events: 306
-- Events already carrying a valid SeatGeek URL: 250
+- Events already carrying a valid SeatGeek URL: 260
 - Ticketmaster-verified events already carrying a valid SeatGeek URL: 179
 - Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 127
 - Eligible (upcoming, resolvable local date) after pre-API filtering: 49
 - Skipped before any API call: 78 (past_event: 78)
 - Events this run can check (window size): 30
-- Rotation: window 2 of 2 (key 20687)
+- Rotation: window 1 of 2 (key 20688)
 - Runs needed to check every eligible event once: 2
-- Events selected/logged by this run: 19
-- Events checked by this run: 19
-- API calls made: 95
+- Events selected/logged by this run: 30
+- Events checked by this run: 30
+- API calls made: 150
 - Rate-limit responses: 0
 - URLs added: 0
-- Events skipped: 19
-- no_candidates_returned: 18
+- Events skipped: 30
+- no_candidates_returned: 29
 - rate_limited_not_checked: 0
 - Stopped early: no
-- Next resume showId:
-- Next recommended resume command:
+- Next resume showId: tm-olivia-rodrigo-2027-london-1adfz_agkug10qr
+- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-olivia-rodrigo-2027-london-1adfz_agkug10qr'
 - Accepted venue mismatches: 0
 - Conflicts found: 0
 
 ## Skipped reasons
 
-- no_candidates_returned: 18
-- invalid_seatgeek_url: 1
+- no_candidates_returned: 29
+- city_or_metro_match_failed: 1
 
 ## Interpretation
 
 - `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 250 event(s) already carried valid SeatGeek URLs before this run, including 179 Ticketmaster-verified event(s).
+- 260 event(s) already carried valid SeatGeek URLs before this run, including 179 Ticketmaster-verified event(s).
 - This run queried only the 127 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
@@ -56,25 +56,36 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 
 | showId | artist | date | city | reason | best candidate |
 | --- | --- | --- | --- | --- | --- |
-| tm-olivia-rodrigo-2027-london-1adfz_agkug10qr | Olivia Rodrigo | 2027-04-09 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep | Olivia Rodrigo | 2027-04-12 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff | Olivia Rodrigo | 2027-04-14 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd | Olivia Rodrigo | 2027-04-15 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol | Olivia Rodrigo | 2027-04-19 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i | Olivia Rodrigo | 2027-04-20 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p | Olivia Rodrigo | 2027-05-09 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3 | Olivia Rodrigo | 2027-05-10 | London | no_candidates_returned | - |
-| tm-summer-walker-2026-bristow-17a8v0g6urtwfpk | Summer Walker | 2026-09-19 | Bristow | invalid_seatgeek_url | https://seatgeek.com/broccoli-city-festival-tickets/bristow-virginia-jiffy-lube-live-2026-09-19-5-pm/music-festival/18331559 |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e | Olivia Rodrigo | 2027-03-23 | Amsterdam | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa | Olivia Rodrigo | 2027-03-24 | Amsterdam | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za | Olivia Rodrigo | 2027-03-27 | Amsterdam | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm | Olivia Rodrigo | 2027-03-28 | Amsterdam | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao | Olivia Rodrigo | 2027-04-01 | Munich | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8 | Olivia Rodrigo | 2027-04-02 | Munich | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b | Olivia Rodrigo | 2027-05-01 | Barcelona | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6 | Olivia Rodrigo | 2027-05-02 | Barcelona | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7 | Olivia Rodrigo | 2027-05-05 | Barcelona | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_ | Olivia Rodrigo | 2027-05-06 | Barcelona | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1k7eo4av | Shakira | 2026-09-18 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vas39ay | Shakira | 2026-09-19 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vrkvz38 | Shakira | 2026-09-20 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16v_oqxoe | Shakira | 2026-09-25 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vowff-f | Shakira | 2026-09-26 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1konkpax | Shakira | 2026-09-27 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1koifuzg | Shakira | 2026-10-09 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vfpafo8 | Shakira | 2026-10-11 | Madrid | no_candidates_returned | - |
+| tm-niall-horan-2026-krakow-z698xzqpz1kq7zp-- | Niall Horan | 2026-11-03 | Krakow | no_candidates_returned | - |
+| tm-niall-horan-2026-merksem-antwerpen-z698xzg2z1k1kb9e_ | Niall Horan | 2026-11-05 | Merksem (Antwerpen) | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg | Olivia Rodrigo | 2027-03-23 | Amsterdam | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe | Olivia Rodrigo | 2027-03-24 | Amsterdam | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa | Olivia Rodrigo | 2027-03-27 | Amsterdam | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog | Olivia Rodrigo | 2027-03-28 | Amsterdam | no_candidates_returned | - |
+| tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b | Gracie Abrams | 2027-04-15 | Merksem (Antwerpen) | no_candidates_returned | - |
+| tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k4vofa4 | Gracie Abrams | 2027-04-16 | Merksem (Antwerpen) | no_candidates_returned | - |
+| tm-ariana-grande-2026-london-3500631c98a031b3 | Ariana Grande | 2026-08-23 | London | no_candidates_returned | - |
+| tm-ariana-grande-2026-london-35006324f4e94ebb | Ariana Grande | 2026-08-24 | London | no_candidates_returned | - |
+| tm-ariana-grande-2026-london-35006324f4fe4f2a | Ariana Grande | 2026-08-27 | London | no_candidates_returned | - |
+| tm-ariana-grande-2026-london-35006324f5075024 | Ariana Grande | 2026-08-28 | London | no_candidates_returned | - |
+| tm-ariana-grande-2026-london-35006324f4f54ef7 | Ariana Grande | 2026-08-31 | London | no_candidates_returned | - |
+| tm-ariana-grande-2026-london-35006324f50f50d8 | Ariana Grande | 2026-09-01 | London | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1kbi4uav | Shakira | 2026-10-02 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16v4mzjas | Shakira | 2026-10-03 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16v73axp9 | Shakira | 2026-10-04 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1koecouy | Shakira | 2026-10-10 | Madrid | no_candidates_returned | - |
+| tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev | Zach Bryan | 2026-10-10 | Auburn University | city_or_metro_match_failed | https://seatgeek.com/zach-bryan-tickets/auburn-alabama-jordan-hare-stadium-2026-10-10-7-pm/concert/17930442 |
+| tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah | Olivia Rodrigo | 2027-04-05 | London | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3 | Olivia Rodrigo | 2027-04-06 | London | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkusmfph | Olivia Rodrigo | 2027-04-08 | London | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 

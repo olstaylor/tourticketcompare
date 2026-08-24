@@ -23007,12 +23007,20 @@
         "verified": true,
         "last_verified_at": "2026-08-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676877",
+        "url": "https://www.ticketliquidator.com/tickets/7676877/BTS-tickets-Sun-Aug-23-2026-Rogers-Stadium-At-Downsview-Airport",
+        "verified": true,
+        "last_verified_at": "2026-08-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvZZ_eGkicKlRr",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676877"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676877",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676877/BTS-tickets-Sun-Aug-23-2026-Rogers-Stadium-At-Downsview-Airport"
   },
   {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7qoav",

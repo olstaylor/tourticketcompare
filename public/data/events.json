@@ -23000,11 +23000,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676877",
+        "url": "https://www.ticketnetwork.com/en/p/7676877",
+        "verified": true,
+        "last_verified_at": "2026-08-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvZZ_eGkicKlRr",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676877"
   },
   {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7qoav",

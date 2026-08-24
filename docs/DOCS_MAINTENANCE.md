@@ -39,7 +39,20 @@ Provider sync audit output is generated under `reports/provider-sync/`. The scri
 
 `npm run docs:check` deliberately does not scan `reports/`, so frozen text cannot rot into validation failures; links **to** these files from canonical documents are still existence-checked.
 
-Three more files are generated and must never be hand-edited: `public/index.html`'s inline data fallback (`npm run events:sync` after any `public/data/*.json` change), `public/data/blog-content.json` (`npm run blog:build` after any `content/blog/*.md` change), and `data/content-provenance.json` (`npm run content:provenance` after editing guide or trust-page copy). Each has a `--check` counterpart wired into `test:mvp`, so a stale commit fails CI rather than shipping.
+These artifacts are generated and must never be hand-edited:
+
+| Artifact | Regenerate with | Staleness guard |
+|---|---|---|
+| `public/data/blog-content.json` | `npm run blog:build` after any `content/blog/*.md` change | `blog:check` in `test:mvp` |
+| `public/data/guides-content.json` + `functions/_guide-routes.generated.js` | `npm run guides:build` after any `content/guides/*.md` change | `guides:check` in `test:mvp` |
+| `data/content-provenance.json` | `npm run content:provenance` after editing guide or trust-page copy | `content:provenance:check` in `test:mvp` |
+| `public/og/*.png` + `functions/_og-cards.generated.js` | `npm run og:build` after adding an artist, guide or blog post | `og:check` in `test:mvp` — partial, see below |
+| `public/index.html`'s inline data fallback | `npm run events:sync` after any `public/data/*.json` change | **none** |
+
+Two caveats worth knowing rather than discovering:
+
+- `og:check` fails only when the manifest references a card that is not committed. It deliberately does **not** fail when an indexable route has no card yet: city, venue and artist-city routes appear and disappear as dates pass, so an exact-match check would fail on any day the calendar moved. Uncovered routes fall back to the shared `/og-image.png`.
+- The `public/index.html` fallback has no `--check` counterpart, so a stale one ships silently. Regenerate it in the same change as any `public/data/*.json` edit.
 
 ## Lifecycle policy
 

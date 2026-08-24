@@ -64,14 +64,15 @@ verified date lands.
 The destination requirement is the part this policy added. "Can lead somewhere"
 means what the renderer means by it: a row whose own verification status is
 publishable, **or** one carrying an independently verified marketplace
-destination with a stored URL. That second case is not marginal — Arlington,
-Houston and Sunrise consist entirely of `needs_recheck` rows with verified
-SeatGeek links, and every one renders a working CTA. Testing the row status
-alone would have de-indexed those pages while their buttons still worked.
+destination with a stored URL. That second case is not marginal: when the
+policy was written, the Arlington, Houston and Sunrise pages consisted entirely
+of `needs_recheck` rows carrying verified SeatGeek links, and every one rendered
+a working CTA. Testing the row status alone would have de-indexed those pages
+while their buttons still worked.
 
-On current data the requirement excludes **one venue page** (AFAS Dome,
-Antwerp: three upcoming shows, no verified link from any provider) and no city
-pages.
+Which pages the requirement currently excludes moves with the calendar and is
+not recorded here — see `PROJECT_STATUS.md` for the live route surface and
+`reports/indexable-surface/` for per-route exclusion reasons.
 
 A city page must stay explicit that coverage is selective — it is not a local
 concert calendar. That disclosure is visible on the page, not only in the FAQ.

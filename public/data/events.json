@@ -44086,11 +44086,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7424934",
-        "url": "https://www.ticketliquidator.com/tickets/7424934/My-Chemical-Romance-tickets-Mon-Aug-24-2026-Target-Field",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106964083",
@@ -44104,7 +44104,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424934/My-Chemical-Romance-tickets-Mon-Aug-24-2026-Target-Field",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-minneapolis-tickets-8-24-2026/event/106964083"
   },
   {
@@ -47935,13 +47935,21 @@
         "verified": true,
         "last_verified_at": "2026-08-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8230821",
+        "url": "https://www.ticketliquidator.com/tickets/8230821/Teddy-Swims-tickets-Sat-Apr-17-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62m2z8Vc",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230821"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230821",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230821/Teddy-Swims-tickets-Sat-Apr-17-2027-Co-Op-Live"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g6253xeaz",
@@ -50103,11 +50111,19 @@
         "verified": true,
         "last_verified_at": "2026-08-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8230822",
+        "url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62mo98gp",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230822"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230822",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live"
   }
 ]

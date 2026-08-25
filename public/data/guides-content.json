@@ -1,95 +1,4 @@
 {
-  "/guides/how-to-compare-event-ticket-prices": {
-    "sections": [
-      {
-        "type": "intro",
-        "content": "Comparing event ticket prices only works when you compare the same event and a genuinely comparable ticket. The lowest number on one page may refer to a different date, section, ticket type, seller, delivery method, or fee treatment. This guide covers concerts, sports, theatre, festivals, and other live events. TourTicketCompare can provide approved, timestamped provider snapshots for some verified events; the provider's current checkout total remains the purchase decision."
-      },
-      {
-        "type": "section",
-        "title": "1. Match the exact event",
-        "content": "Check the event name, artist or team, local date, start time, venue, city, and session or game number. Festivals and multi-day events often have similarly named listings. If any of these fields differ, you are not comparing like for like."
-      },
-      {
-        "type": "section",
-        "title": "2. Match the ticket itself",
-        "content": "Compare quantity, section, row, seat or standing area, view notes, ticket type, and whether the listing is primary or resale. For sports, compare the same home or away fixture and season. For theatre, match the performance date and seat area. For festivals, check whether the listing is a day pass, weekend pass, or package."
-      },
-      {
-        "type": "section",
-        "title": "3. Compare the amount you will actually pay",
-        "content": "A headline price is only a starting point. Check the provider's order summary for mandatory fees, taxes, delivery or transfer charges, currency conversion, and optional extras you selected. Record whether each figure is per ticket or for the whole order. Use the final checkout total, not the search-card price, to decide."
-      },
-      {
-        "type": "section",
-        "title": "4. Check delivery and buyer terms",
-        "content": "A cheaper listing may arrive later or have different transfer, refund, cancellation, or replacement terms. Confirm the delivery method and expected timing, especially for travel, gifts, group entry, and events that are close to the purchase date. Read the current provider terms for the exact listing."
-      },
-      {
-        "type": "section",
-        "title": "5. Use a comparison site as a shortlist",
-        "content": "A ticket comparison site can help you find provider options faster, but it should not replace checking the source listing. TourTicketCompare's comparison hub explains how its timestamped snapshots are matched and why a snapshot is not live inventory or a guaranteed final price. Open the provider pages, confirm the exact event and ticket details, and then compare the final totals."
-      },
-      {
-        "type": "section",
-        "title": "Quick checklist",
-        "content": "- Match the event, date, venue, and session\n- Match quantity, section, row, view, and ticket type\n- Identify primary versus resale\n- Check timestamp and provider source\n- Compare mandatory fees, taxes, delivery, and currency\n- Read transfer, refund, cancellation, and buyer-protection terms\n- Confirm the final checkout total on the provider site"
-      },
-      {
-        "type": "section",
-        "title": "FAQ",
-        "content": "**What is the best way to compare event ticket prices?**\n\nMatch the exact event and comparable ticket details first, then compare the final checkout totals and terms on the provider sites.\n\n**Does a lower listed price always mean a better ticket?**\n\nNo. It may have a different seat, ticket type, delivery timeline, or fee treatment.\n\n**Can a comparison site guarantee the price or availability?**\n\nNo. Prices, inventory, fees, and terms can change on the provider site. Use a comparison as a shortlist and confirm before paying."
-      },
-      {
-        "type": "section",
-        "title": "Related guides",
-        "content": "Keep comparing with these related guides:\n\n- [Compare Ticketmaster and Vivid Seats](/guides/vivid-seats-vs-ticketmaster)\n- [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
-        "publisher": "US Federal Trade Commission",
-        "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
-        "lastChecked": "2026-07-14",
-        "linkCheckedAt": "2026-08-21"
-      },
-      {
-        "name": "All In Prices",
-        "publisher": "Ticketmaster",
-        "url": "https://www.ticketmaster.com/welcome/all-in",
-        "lastChecked": "2026-07-14"
-      }
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "HowTo",
-      "name": "How to Compare Event Ticket Prices",
-      "description": "A practical method for comparing concert, sports, theatre, festival, and other live-event ticket totals.",
-      "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Match the exact event",
-          "text": "Confirm event name, date, venue, city, and session on every listing."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Match the ticket details",
-          "text": "Compare quantity, section, row, view, ticket type, and primary or resale status."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Compare final totals",
-          "text": "Check mandatory fees, taxes, delivery, currency, and the provider's final order summary."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Check terms",
-          "text": "Read delivery, transfer, refund, cancellation, and buyer-protection terms before paying."
-        }
-      ]
-    }
-  },
   "/guides/how-to-compare-concert-ticket-prices": {
     "sections": [
       {
@@ -134,7 +43,7 @@
       {
         "type": "section",
         "title": "How to compare other event ticket prices",
-        "content": "The same checks work for sports, theatre, festivals, and other live events. Match the exact team or production, date, venue, session, ticket quantity, section or seat area, ticket type, delivery method, and final checkout total. A day pass, a single game, and a full festival package are not interchangeable just because they share a venue or event name. Use the provider's current order summary and terms as the final source of truth."
+        "content": "The same six checks work for sports, theatre, festivals, and other live events. Match the exact event name, local date, venue, and session or game number first, then apply the ticket-level detail that matters for the format:\n\n- **Sports** — confirm the same fixture, including which side is at home, and the correct season or competition. Similar fixtures repeat across a season.\n- **Theatre** — match the performance date and time as well as the seat area. Matinee and evening performances of the same production are separate events.\n- **Festivals and multi-day events** — check whether the listing is a single-day pass, a weekend pass, or a package that bundles camping, travel, or hospitality.\n\nA day pass, a single game, and a full festival package are not interchangeable just because they share a venue or event name. Whatever the format, compare ticket quantity, section or seat area, ticket type, and delivery method, then use the provider's current order summary and terms as the final source of truth."
       },
       {
         "type": "section",
@@ -158,14 +67,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -179,7 +88,13 @@
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
+      },
+      {
+        "name": "All In Prices",
+        "publisher": "Ticketmaster",
+        "url": "https://www.ticketmaster.com/welcome/all-in",
+        "lastChecked": "2026-07-14"
       }
     ],
     "schema": {
@@ -284,63 +199,63 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Are there additional fees? How are fees determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210524-are-there-additional-fees-how-are-fees-determined-",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Vivid Seats order protection terms",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "What is Electronic Transfer?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/11000005313-what-is-electronic-transfer-",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Estimated Delivery Date",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000213827-estimated-delivery-date",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Vivid Seats Rewards",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards",
         "lastChecked": "2026-08-20",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ],
     "comparisonProviders": [
@@ -411,14 +326,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -432,7 +347,7 @@
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Can I trust tickets sold on SeatGeek?",
@@ -446,7 +361,7 @@
         "publisher": "Vivid Seats",
         "url": "https://www.vividseats.com/guarantee",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "What is Deal Score?",
@@ -460,7 +375,7 @@
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ]
   },
@@ -527,28 +442,28 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How do I sell tickets?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9672915828881-How-do-I-sell-tickets",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -638,35 +553,35 @@
         "publisher": "TicketNetwork",
         "url": "https://www.ticketnetwork.com/about-us",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Policies",
         "publisher": "TicketNetwork",
         "url": "https://www.ticketnetwork.com/policies",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ]
   },
@@ -728,14 +643,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -805,7 +720,7 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2021/01/cracking-down-ticket-bots-leave-you-out-cold",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "What should I expect when buying tickets for prominent events?",
@@ -819,7 +734,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ]
   },
@@ -881,21 +796,21 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How and when will my tickets be delivered?",
         "publisher": "SeatGeek Help Center",
         "url": "https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-03"
+        "linkCheckedAt": "2026-08-23"
       }
     ]
   },
@@ -952,7 +867,7 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How to Spot Scams",
@@ -966,7 +881,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ],
     "schema": {
@@ -1039,21 +954,21 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ]
   },
@@ -1115,14 +1030,14 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ]
   },
@@ -1228,14 +1143,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -1289,7 +1204,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "What is mobile transfer ticket delivery?",
@@ -1303,7 +1218,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ]
   },
@@ -1365,14 +1280,14 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -1431,7 +1346,7 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2021/01/cracking-down-ticket-bots-leave-you-out-cold",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "What should I expect when buying tickets for prominent events?",
@@ -1495,21 +1410,21 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "What ticket delivery options does Ticketmaster offer?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "How and when will my tickets be delivered?",
         "publisher": "SeatGeek Help Center",
         "url": "https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-03"
+        "linkCheckedAt": "2026-08-23"
       }
     ]
   },
@@ -1576,21 +1491,21 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/categories/13919047702033-Event-Updates",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       },
       {
         "name": "What are the signs of a scam?",
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-21"
+        "linkCheckedAt": "2026-08-25"
       }
     ]
   }

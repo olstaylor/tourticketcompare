@@ -696,14 +696,14 @@
         "event_id": 18010321,
         "url": "https://seatgeek.com/bts-tickets/chicago-illinois-soldier-field-2026-08-27-8-pm/concert/18010321",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517083,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-chicago-soldier-field-8-27-2026--concerts-k-pop/production/6517083",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -773,14 +773,14 @@
         "event_id": 18010323,
         "url": "https://seatgeek.com/bts-tickets/chicago-illinois-soldier-field-2026-08-28-8-pm/concert/18010323",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517086,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-chicago-soldier-field-8-28-2026--concerts-k-pop/production/6517086",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -850,14 +850,14 @@
         "event_id": 18010329,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-01-8-pm/concert/18010329",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517116,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-1-2026--concerts-k-pop/production/6517116",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -927,14 +927,14 @@
         "event_id": 18010331,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-02-8-pm/concert/18010331",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517130,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-2-2026--concerts-k-pop/production/6517130",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1004,14 +1004,14 @@
         "event_id": 18010333,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-05-8-pm/concert/18010333",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517135,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-5-2026--concerts-k-pop/production/6517135",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1081,14 +1081,14 @@
         "event_id": 18010335,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-06-8-pm/concert/18010335",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517139,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-6-2026--concerts-k-pop/production/6517139",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1504,7 +1504,7 @@
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "1000642B2CB3BB4D",
     "ticketmaster_url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-22-2026/event/1000642B2CB3BB4D",
-    "seatgeek_url": "https://seatgeek.com/bts-tickets/toronto-canada-rogers-stadium-toronto-2026-08-22-8-pm/concert/18010334",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-22-2026/event/1000642B2CB3BB4D",
@@ -1520,11 +1520,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18010334,
-        "url": "https://seatgeek.com/bts-tickets/toronto-canada-rogers-stadium-toronto-2026-08-22-8-pm/concert/18010334",
-        "verified": true,
-        "last_verified_at": "2026-08-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1539,11 +1539,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676876",
+        "url": "https://www.ticketnetwork.com/en/p/7676876",
+        "verified": true,
+        "last_verified_at": "2026-08-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676876",
+        "url": "https://www.ticketliquidator.com/tickets/7676876/BTS-tickets-Sat-Aug-22-2026-Rogers-Stadium-At-Downsview-Airport",
+        "verified": true,
+        "last_verified_at": "2026-08-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvZZ_eGkiiiDcu",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676876",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676876/BTS-tickets-Sat-Aug-22-2026-Rogers-Stadium-At-Downsview-Airport"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkicklrr",
@@ -1576,7 +1592,7 @@
         "event_id": 18010336,
         "url": "https://seatgeek.com/bts-tickets/toronto-canada-rogers-stadium-toronto-2026-08-23-8-pm/concert/18010336",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1592,10 +1608,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676877",
+        "url": "https://www.ticketnetwork.com/en/p/7676877",
+        "verified": true,
+        "last_verified_at": "2026-08-24",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676877",
+        "url": "https://www.ticketliquidator.com/tickets/7676877/BTS-tickets-Sun-Aug-23-2026-Rogers-Stadium-At-Downsview-Airport",
+        "verified": true,
+        "last_verified_at": "2026-08-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvZZ_eGkicKlRr",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676877",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676877/BTS-tickets-Sun-Aug-23-2026-Rogers-Stadium-At-Downsview-Airport"
   }
 ]

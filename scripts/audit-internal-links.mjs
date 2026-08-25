@@ -26,7 +26,7 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 import {
   ORIGIN,
@@ -124,12 +124,33 @@ for (const page of rendered) {
 
 // Social metadata must mirror each route's search metadata. This catches
 // regressions on routes outside the smaller smoke-test sample (notably guides
-// and venue pages) and keeps shared-card previews complete and self-referencing.
+// and venue pages) and keeps card previews complete and self-referencing.
+//
+// og:image is per-page where scripts/build-og-cards.mjs has generated a card and
+// the shared /og-image.png everywhere else, so the expected value comes from the
+// same manifest the router reads. The referenced file is checked on disk too: a
+// manifest entry pointing at a card that was never committed would otherwise
+// publish an og:image that 404s for every crawler that fetched it.
+const { OG_CARDS } = await import(pathToFileURL(path.join(root, "functions/_og-cards.generated.js")));
+const ogCardMissingOnDisk = new Set();
+for (const cardUrl of new Set(Object.values(OG_CARDS).map((card) => card.url))) {
+  try {
+    await fs.access(path.join(root, "public", cardUrl));
+  } catch {
+    ogCardMissingOnDisk.add(cardUrl);
+  }
+}
 for (const page of rendered) {
   if (page.ogTitle !== page.title) problems.push(`social: ${page.path} og:title does not match its title`);
   if (page.ogDescription !== page.description) problems.push(`social: ${page.path} og:description does not match its description`);
   if (page.ogUrl !== page.canonical) problems.push(`social: ${page.path} og:url does not match its canonical`);
-  if (page.ogImage !== `${ORIGIN}/og-image.png`) problems.push(`social: ${page.path} has a missing or unexpected og:image`);
+  const pageCardUrl = OG_CARDS[page.path]?.url;
+  const expectedCard = `${ORIGIN}${pageCardUrl || "/og-image.png"}`;
+  if (page.ogImage !== expectedCard) {
+    problems.push(`social: ${page.path} og:image is "${page.ogImage}", expected "${expectedCard}"`);
+  } else if (pageCardUrl && ogCardMissingOnDisk.has(pageCardUrl)) {
+    problems.push(`social: ${page.path} og:image points at ${pageCardUrl}, which is not in public/og/`);
+  }
   if (page.ogImageType !== "image/png") problems.push(`social: ${page.path} og:image:type should be image/png`);
   if (!page.ogImageAlt) problems.push(`social: ${page.path} is missing og:image:alt`);
   if (page.twitterTitle !== page.title) problems.push(`social: ${page.path} twitter:title does not match its title`);

@@ -1,0 +1,3368 @@
+[
+  {
+    "id": "tm-teddy-swims-2026-kansas-city-z7r9jz1a70v1a",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims w/ Mac Ayres",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-09-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70v1a",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v1a",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/kansas-city-missouri-t-mobile-center-2026-09-22-7-pm/concert/18185128",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-kansas-city-t-mobile-center-9-22-2026--concerts-rb/production/6911942",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v1a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70v1a",
+        "discovery_event_id": "Z7r9jZ1A70v1a",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v1a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18185128,
+        "url": "https://seatgeek.com/teddy-swims-tickets/kansas-city-missouri-t-mobile-center-2026-09-22-7-pm/concert/18185128",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6911942,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-kansas-city-t-mobile-center-9-22-2026--concerts-rb/production/6911942",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883090",
+        "url": "https://www.ticketnetwork.com/en/p/7883090",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883090",
+        "url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163018",
+        "url": "https://www.stubhub.ie/teddy-swims-kansas-city-tickets-9-22-2026/event/107163018",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70v1a",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883090",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-kansas-city-tickets-9-22-2026/event/107163018"
+  },
+  {
+    "id": "tm-teddy-swims-2026-saint-louis-vv17bz_fgkuhx1g-",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2026-09-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600648DBC88A321",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-saint-louis-missouri-09-23-2026/event/0600648DBC88A321",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-saint-louis-missouri-09-23-2026/event/0600648DBC88A321",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600648DBC88A321",
+        "discovery_event_id": "vv17bZ_FGkUHx1G-",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-saint-louis-missouri-09-23-2026/event/0600648DBC88A321",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107163014",
+        "url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_FGkUHx1G-",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014"
+  },
+  {
+    "id": "tm-teddy-swims-2026-chicago-vv178z_fgkuxeurm",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2026-09-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400648DBE0B6BEE",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-chicago-illinois-09-25-2026/event/0400648DBE0B6BEE",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-chicago-united-center-9-25-2026--concerts-rb/production/6911909",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-chicago-illinois-09-25-2026/event/0400648DBE0B6BEE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400648DBE0B6BEE",
+        "discovery_event_id": "vv178Z_FGkUXeURm",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-chicago-illinois-09-25-2026/event/0400648DBE0B6BEE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911909,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-chicago-united-center-9-25-2026--concerts-rb/production/6911909",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883092",
+        "url": "https://www.ticketnetwork.com/en/p/7883092",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883092",
+        "url": "https://www.ticketliquidator.com/tickets/7883092/Teddy-Swims-tickets-Fri-Sep-25-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158266",
+        "url": "https://www.stubhub.ie/teddy-swims-chicago-tickets-9-25-2026/event/107158266",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_FGkUXeURm",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883092/Teddy-Swims-tickets-Fri-Sep-25-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-chicago-tickets-9-25-2026/event/107158266"
+  },
+  {
+    "id": "tm-teddy-swims-2026-saint-paul-z7r9jz1a7xf0u",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims w/ Freak Freely",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2026-09-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xF0U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xF0U",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/saint-paul-minnesota-grand-casino-arena-2026-09-26-7-pm/concert/18185131",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-saint-paul-grand-casino-arena-9-26-2026--concerts-rb/production/6911911",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xF0U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xF0U",
+        "discovery_event_id": "Z7r9jZ1A7xF0U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xF0U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18185131,
+        "url": "https://seatgeek.com/teddy-swims-tickets/saint-paul-minnesota-grand-casino-arena-2026-09-26-7-pm/concert/18185131",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6911911,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-saint-paul-grand-casino-arena-9-26-2026--concerts-rb/production/6911911",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883093",
+        "url": "https://www.ticketnetwork.com/en/p/7883093",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883093",
+        "url": "https://www.ticketliquidator.com/tickets/7883093/Teddy-Swims-tickets-Sat-Sep-26-2026-Grand-Casino-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168137",
+        "url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xF0U",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883093",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883093/Teddy-Swims-tickets-Sat-Sep-26-2026-Grand-Casino-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137"
+  },
+  {
+    "id": "tm-teddy-swims-2026-detroit-vv17oz_fgktec1td",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-09-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800648FE738AA43",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-detroit-michigan-09-29-2026/event/0800648FE738AA43",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-detroit-little-caesars-arena-9-29-2026--concerts-rb/production/6911914",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-detroit-michigan-09-29-2026/event/0800648FE738AA43",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800648FE738AA43",
+        "discovery_event_id": "vv17OZ_FGkTEC1td",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-detroit-michigan-09-29-2026/event/0800648FE738AA43",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911914,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-detroit-little-caesars-arena-9-29-2026--concerts-rb/production/6911914",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883094",
+        "url": "https://www.ticketnetwork.com/en/p/7883094",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883094",
+        "url": "https://www.ticketliquidator.com/tickets/7883094/Teddy-Swims-tickets-Tue-Sep-29-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163017",
+        "url": "https://www.stubhub.ie/teddy-swims-detroit-tickets-9-29-2026/event/107163017",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_FGkTEC1td",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883094",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883094/Teddy-Swims-tickets-Tue-Sep-29-2026-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-detroit-tickets-9-29-2026/event/107163017"
+  },
+  {
+    "id": "tm-teddy-swims-2026-columbus-vv17fz_fgkdx0-pn",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2026-09-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500648EE29215A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-columbus-ohio-09-30-2026/event/0500648EE29215A3",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-columbus-nationwide-arena-9-30-2026--concerts-rb/production/6911916",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-columbus-ohio-09-30-2026/event/0500648EE29215A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500648EE29215A3",
+        "discovery_event_id": "vv17fZ_FGkDx0-pN",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-columbus-ohio-09-30-2026/event/0500648EE29215A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911916,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-columbus-nationwide-arena-9-30-2026--concerts-rb/production/6911916",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883095",
+        "url": "https://www.ticketnetwork.com/en/p/7883095",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883095",
+        "url": "https://www.ticketliquidator.com/tickets/7883095/Teddy-Swims-tickets-Wed-Sep-30-2026-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163019",
+        "url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_FGkDx0-pN",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883095",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883095/Teddy-Swims-tickets-Wed-Sep-30-2026-Nationwide-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019"
+  },
+  {
+    "id": "tm-teddy-swims-2026-brooklyn-1adzz_fgknbfkoe",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-10-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000648A98213802",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-brooklyn-new-york-10-02-2026/event/3000648A98213802",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-brooklyn-barclays-center-10-2-2026--concerts-rb/production/6911918",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-brooklyn-new-york-10-02-2026/event/3000648A98213802",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000648A98213802",
+        "discovery_event_id": "1AdZZ_FGknbFKOe",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-brooklyn-new-york-10-02-2026/event/3000648A98213802",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911918,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-brooklyn-barclays-center-10-2-2026--concerts-rb/production/6911918",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883096",
+        "url": "https://www.ticketnetwork.com/en/p/7883096",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883096",
+        "url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154938",
+        "url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_FGknbFKOe",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883096",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938"
+  },
+  {
+    "id": "tm-teddy-swims-2026-toronto-1avzz_fgku3eucw",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-10-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000648D929F6B7D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-toronto-ontario-10-05-2026/event/1000648D929F6B7D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-toronto-scotiabank-arena-10-5-2026--concerts-rb/production/6911946",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-toronto-ontario-10-05-2026/event/1000648D929F6B7D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000648D929F6B7D",
+        "discovery_event_id": "1AvZZ_FGkU3EUcW",
+        "url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-toronto-ontario-10-05-2026/event/1000648D929F6B7D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911946,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-toronto-scotiabank-arena-10-5-2026--concerts-rb/production/6911946",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_FGkU3EUcW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2026-montreal-1ad7z_fgkm9lfwl",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2026-10-07T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100648DD7AC8CAB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-quebec-10-07-2026/event/3100648DD7AC8CAB",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-montreal-bell-centre-10-7-2026--concerts-rb/production/6911950",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-quebec-10-07-2026/event/3100648DD7AC8CAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100648DD7AC8CAB",
+        "discovery_event_id": "1Ad7Z_FGkM9lFwl",
+        "url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-quebec-10-07-2026/event/3100648DD7AC8CAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911950,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-montreal-bell-centre-10-7-2026--concerts-rb/production/6911950",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883098",
+        "url": "https://www.ticketnetwork.com/en/p/7883098",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883098",
+        "url": "https://www.ticketliquidator.com/tickets/7883098/Teddy-Swims-tickets-Wed-Oct-7-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_FGkM9lFwl",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883098",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883098/Teddy-Swims-tickets-Wed-Oct-7-2026-Centre-Bell"
+  },
+  {
+    "id": "tm-teddy-swims-2026-boston-vv177z_fgktnmxtd",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-10-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100648A63DE2A43",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-boston-massachusetts-10-09-2026/event/0100648A63DE2A43",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-boston-td-garden-10-9-2026--concerts-rb/production/6911924",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-boston-massachusetts-10-09-2026/event/0100648A63DE2A43",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100648A63DE2A43",
+        "discovery_event_id": "vv177Z_FGktNMxtd",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-boston-massachusetts-10-09-2026/event/0100648A63DE2A43",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911924,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-boston-td-garden-10-9-2026--concerts-rb/production/6911924",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883099",
+        "url": "https://www.ticketnetwork.com/en/p/7883099",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883099",
+        "url": "https://www.ticketliquidator.com/tickets/7883099/Teddy-Swims-tickets-Fri-Oct-9-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158269",
+        "url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_FGktNMxtd",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883099",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883099/Teddy-Swims-tickets-Fri-Oct-9-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269"
+  },
+  {
+    "id": "tm-teddy-swims-2026-philadelphia-1adzz_fgkm5wpjt",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2026-10-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000648DCBF6573F",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-philadelphia-pennsylvania-10-10-2026/event/3000648DCBF6573F",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-philadelphia-xfinity-mobile-arena-10-10-2026--concerts-rb/production/6911926",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-philadelphia-pennsylvania-10-10-2026/event/3000648DCBF6573F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000648DCBF6573F",
+        "discovery_event_id": "1AdZZ_FGkM5WPjT",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-philadelphia-pennsylvania-10-10-2026/event/3000648DCBF6573F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911926,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-philadelphia-xfinity-mobile-arena-10-10-2026--concerts-rb/production/6911926",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883100",
+        "url": "https://www.ticketnetwork.com/en/p/7883100",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883100",
+        "url": "https://www.ticketliquidator.com/tickets/7883100/Teddy-Swims-tickets-Sat-Oct-10-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163013",
+        "url": "https://www.stubhub.ie/teddy-swims-philadelphia-tickets-10-10-2026/event/107163013",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_FGkM5WPjT",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883100",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883100/Teddy-Swims-tickets-Sat-Oct-10-2026-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-philadelphia-tickets-10-10-2026/event/107163013"
+  },
+  {
+    "id": "tm-teddy-swims-2026-washington-16vfz_f0sg7tpdk",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2026-10-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500648933FE5EC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-washington-district-of-columbia-10-13-2026/event/1500648933FE5EC6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-washington-capital-one-arena-10-13-2026--concerts-rb/production/6911931",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-washington-district-of-columbia-10-13-2026/event/1500648933FE5EC6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500648933FE5EC6",
+        "discovery_event_id": "16vfZ_F0SG7TPDk",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-washington-district-of-columbia-10-13-2026/event/1500648933FE5EC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911931,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-washington-capital-one-arena-10-13-2026--concerts-rb/production/6911931",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883102",
+        "url": "https://www.ticketnetwork.com/en/p/7883102",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883102",
+        "url": "https://www.ticketliquidator.com/tickets/7883102/Teddy-Swims-tickets-Tue-Oct-13-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154939",
+        "url": "https://www.stubhub.ie/teddy-swims-washington-tickets-10-13-2026/event/107154939",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vfZ_F0SG7TPDk",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883102",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883102/Teddy-Swims-tickets-Tue-Oct-13-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-washington-tickets-10-13-2026/event/107154939"
+  },
+  {
+    "id": "tm-teddy-swims-2026-nashville-g5viz_fxfo1dj",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-10-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00648F9480A0DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-nashville-tennessee-10-16-2026/event/1B00648F9480A0DC",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-nashville-bridgestone-arena-10-16-2026--concerts-rb/production/6911935",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-nashville-tennessee-10-16-2026/event/1B00648F9480A0DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00648F9480A0DC",
+        "discovery_event_id": "G5viZ_FXfO1dj",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-nashville-tennessee-10-16-2026/event/1B00648F9480A0DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911935,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-nashville-bridgestone-arena-10-16-2026--concerts-rb/production/6911935",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883103",
+        "url": "https://www.ticketnetwork.com/en/p/7883103",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883103",
+        "url": "https://www.ticketliquidator.com/tickets/7883103/Teddy-Swims-tickets-Fri-Oct-16-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168136",
+        "url": "https://www.stubhub.ie/teddy-swims-nashville-tickets-10-16-2026/event/107168136",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_FXfO1dj",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883103",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883103/Teddy-Swims-tickets-Fri-Oct-16-2026-Bridgestone-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-nashville-tickets-10-16-2026/event/107168136"
+  },
+  {
+    "id": "tm-teddy-swims-2026-charlotte-g5evz_fumjscw",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2026-10-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00648DB77333B2",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-charlotte-north-carolina-10-18-2026/event/2D00648DB77333B2",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-charlotte-spectrum-center-10-18-2026--concerts-rb/production/6911963",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-charlotte-north-carolina-10-18-2026/event/2D00648DB77333B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00648DB77333B2",
+        "discovery_event_id": "G5eVZ_FUMjSCw",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-charlotte-north-carolina-10-18-2026/event/2D00648DB77333B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911963,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-charlotte-spectrum-center-10-18-2026--concerts-rb/production/6911963",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883104",
+        "url": "https://www.ticketnetwork.com/en/p/7883104",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883104",
+        "url": "https://www.ticketliquidator.com/tickets/7883104/Teddy-Swims-tickets-Sun-Oct-18-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168138",
+        "url": "https://www.stubhub.ie/teddy-swims-charlotte-tickets-10-18-2026/event/107168138",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_FUMjSCw",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883104",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883104/Teddy-Swims-tickets-Sun-Oct-18-2026-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-charlotte-tickets-10-18-2026/event/107168138"
+  },
+  {
+    "id": "tm-teddy-swims-2026-atlanta-vvg1zz_fuw3nll",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-10-20T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00648DBD4AA7DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-atlanta-georgia-10-20-2026/event/0E00648DBD4AA7DF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-atlanta-state-farm-arena-10-20-2026--concerts-rb/production/6911967",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-atlanta-georgia-10-20-2026/event/0E00648DBD4AA7DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00648DBD4AA7DF",
+        "discovery_event_id": "vvG1zZ_FUW3nLL",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-atlanta-georgia-10-20-2026/event/0E00648DBD4AA7DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911967,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-atlanta-state-farm-arena-10-20-2026--concerts-rb/production/6911967",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883105",
+        "url": "https://www.ticketnetwork.com/en/p/7883105",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883105",
+        "url": "https://www.ticketliquidator.com/tickets/7883105/Teddy-Swims-tickets-Tue-Oct-20-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158270",
+        "url": "https://www.stubhub.ie/teddy-swims-atlanta-tickets-10-20-2026/event/107158270",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_FUW3nLL",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883105",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883105/Teddy-Swims-tickets-Tue-Oct-20-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-atlanta-tickets-10-20-2026/event/107158270"
+  },
+  {
+    "id": "tm-teddy-swims-2026-orlando-1aefz_fgkd1sjat",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-10-22T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200648ECACE6269",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-orlando-florida-10-22-2026/event/2200648ECACE6269",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-orlando-kia-center-10-22-2026--concerts-rb/production/6911973",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-orlando-florida-10-22-2026/event/2200648ECACE6269",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200648ECACE6269",
+        "discovery_event_id": "1AeFZ_FGkD1SJat",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-orlando-florida-10-22-2026/event/2200648ECACE6269",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911973,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-orlando-kia-center-10-22-2026--concerts-rb/production/6911973",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883107",
+        "url": "https://www.ticketnetwork.com/en/p/7883107",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883107",
+        "url": "https://www.ticketliquidator.com/tickets/7883107/Teddy-Swims-tickets-Thu-Oct-22-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158271",
+        "url": "https://www.stubhub.ie/teddy-swims-orlando-tickets-10-22-2026/event/107158271",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_FGkD1SJat",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883107",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883107/Teddy-Swims-tickets-Thu-Oct-22-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-orlando-tickets-10-22-2026/event/107158271"
+  },
+  {
+    "id": "tm-teddy-swims-2026-sunrise-z7r9jz1a70v8i",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-10-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70v8I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8I",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-sunrise-amerant-bank-arena-10-23-2026--concerts-rb/production/6911975",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70v8I",
+        "discovery_event_id": "Z7r9jZ1A70v8I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18175691,
+        "url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6911975,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-sunrise-amerant-bank-arena-10-23-2026--concerts-rb/production/6911975",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883108",
+        "url": "https://www.ticketnetwork.com/en/p/7883108",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883108",
+        "url": "https://www.ticketliquidator.com/tickets/7883108/Teddy-Swims-tickets-Fri-Oct-23-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155510",
+        "url": "https://www.stubhub.ie/teddy-swims-sunrise-tickets-10-23-2026/event/107155510",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70v8I",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883108",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883108/Teddy-Swims-tickets-Fri-Oct-23-2026-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sunrise-tickets-10-23-2026/event/107155510"
+  },
+  {
+    "id": "tm-teddy-swims-2026-tampa-vvg1vz_fdr-qk6",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2026-10-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00648EDE85D4C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-tampa-benchmark-international-arena-10-25-2026--concerts-rb/production/6911979",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00648EDE85D4C7",
+        "discovery_event_id": "vvG1VZ_FDr-qK6",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911979,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-tampa-benchmark-international-arena-10-25-2026--concerts-rb/production/6911979",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883109",
+        "url": "https://www.ticketnetwork.com/en/p/7883109",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883109",
+        "url": "https://www.ticketliquidator.com/tickets/7883109/Teddy-Swims-tickets-Sun-Oct-25-2026-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158272",
+        "url": "https://www.stubhub.ie/teddy-swims-tampa-tickets-10-25-2026/event/107158272",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_FDr-qK6",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883109",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883109/Teddy-Swims-tickets-Sun-Oct-25-2026-Benchmark-International-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tampa-tickets-10-25-2026/event/107158272"
+  },
+  {
+    "id": "tm-teddy-swims-2026-houston-z7r9jz1a7x4fs",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-10-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7x4FS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4FS",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-houston-toyota-center---tx-10-27-2026--concerts-rb/production/6911983",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4FS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7x4FS",
+        "discovery_event_id": "Z7r9jZ1A7x4FS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4FS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18185160,
+        "url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6911983,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-houston-toyota-center---tx-10-27-2026--concerts-rb/production/6911983",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7892526",
+        "url": "https://www.ticketnetwork.com/en/p/7892526",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7892526",
+        "url": "https://www.ticketliquidator.com/tickets/7892526/Teddy-Swims-tickets-Tue-Oct-27-2026-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7x4FS",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892526",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892526/Teddy-Swims-tickets-Tue-Oct-27-2026-Toyota-Center-TX"
+  },
+  {
+    "id": "tm-teddy-swims-2026-austin-g5diz_fxgrqaf",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-10-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00648FB5BDA148",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-austin-texas-10-28-2026/event/3A00648FB5BDA148",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-austin-moody-center-atx-10-28-2026--concerts-rb/production/6911989",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-austin-texas-10-28-2026/event/3A00648FB5BDA148",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00648FB5BDA148",
+        "discovery_event_id": "G5dIZ_FXgRQAF",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-austin-texas-10-28-2026/event/3A00648FB5BDA148",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911989,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-austin-moody-center-atx-10-28-2026--concerts-rb/production/6911989",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883110",
+        "url": "https://www.ticketnetwork.com/en/p/7883110",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883110",
+        "url": "https://www.ticketliquidator.com/tickets/7883110/Teddy-Swims-tickets-Wed-Oct-28-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154940",
+        "url": "https://www.stubhub.ie/teddy-swims-austin-tickets-10-28-2026/event/107154940",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_FXgRQAF",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883110",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883110/Teddy-Swims-tickets-Wed-Oct-28-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-austin-tickets-10-28-2026/event/107154940"
+  },
+  {
+    "id": "tm-teddy-swims-2026-fort-worth-vvg1yz_flxlbcf",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00648AFEAFAB54",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-fort-worth-dickies-arena-10-30-2026/production/6911922",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00648AFEAFAB54",
+        "discovery_event_id": "vvG1YZ_FlXlBcf",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911922,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-fort-worth-dickies-arena-10-30-2026/production/6911922",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883111",
+        "url": "https://www.ticketnetwork.com/en/p/7883111",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883111",
+        "url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158274",
+        "url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_FlXlBcf",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274"
+  },
+  {
+    "id": "tm-teddy-swims-2026-denver-g5vzz_fuokkc4",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-11-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00648D91186395",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-denver-colorado-11-01-2026/event/1E00648D91186395",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-denver-ball-arena-11-1-2026--concerts-rb/production/6912000",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-denver-colorado-11-01-2026/event/1E00648D91186395",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00648D91186395",
+        "discovery_event_id": "G5vzZ_FUokkC4",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-denver-colorado-11-01-2026/event/1E00648D91186395",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6912000,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-denver-ball-arena-11-1-2026--concerts-rb/production/6912000",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883112",
+        "url": "https://www.ticketnetwork.com/en/p/7883112",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883112",
+        "url": "https://www.ticketliquidator.com/tickets/7883112/Teddy-Swims-tickets-Sun-Nov-1-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168139",
+        "url": "https://www.stubhub.ie/teddy-swims-denver-tickets-11-1-2026/event/107168139",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_FUokkC4",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883112",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883112/Teddy-Swims-tickets-Sun-Nov-1-2026-Ball-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-denver-tickets-11-1-2026/event/107168139"
+  },
+  {
+    "id": "tm-teddy-swims-2026-salt-lake-city-z7r9jz1a7x_ag",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims w/ Freak Freely",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-11-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7x_ag",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_ag",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-salt-lake-city-delta-center-11-3-2026--concerts-rb/production/6912126",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_ag",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7x_ag",
+        "discovery_event_id": "Z7r9jZ1A7x_ag",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_ag",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18143695,
+        "url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6912126,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-salt-lake-city-delta-center-11-3-2026--concerts-rb/production/6912126",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883114",
+        "url": "https://www.ticketnetwork.com/en/p/7883114",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883114",
+        "url": "https://www.ticketliquidator.com/tickets/7883114/Teddy-Swims-tickets-Tue-Nov-3-2026-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163016",
+        "url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7x_ag",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883114/Teddy-Swims-tickets-Tue-Nov-3-2026-Delta-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016"
+  },
+  {
+    "id": "tm-teddy-swims-2026-seattle-vvg1hz_fujpiyp",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00648DA6968E56",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-seattle-washington-11-05-2026/event/0F00648DA6968E56",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-seattle-climate-pledge-arena-11-5-2026--concerts-rb/production/6911995",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-seattle-washington-11-05-2026/event/0F00648DA6968E56",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00648DA6968E56",
+        "discovery_event_id": "vvG1HZ_FUJPIyp",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-seattle-washington-11-05-2026/event/0F00648DA6968E56",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6911995,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-seattle-climate-pledge-arena-11-5-2026--concerts-rb/production/6911995",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883115",
+        "url": "https://www.ticketnetwork.com/en/p/7883115",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883115",
+        "url": "https://www.ticketliquidator.com/tickets/7883115/Teddy-Swims-tickets-Thu-Nov-5-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158275",
+        "url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_FUJPIyp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883115",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883115/Teddy-Swims-tickets-Thu-Nov-5-2026-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275"
+  },
+  {
+    "id": "tm-teddy-swims-2026-vancouver-1av7z_fgkbd-_xv",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-11-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100648EBB8598B4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-vancouver-british-columbia-11-06-2026/event/1100648EBB8598B4",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026--concerts-rb/production/6912128",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-vancouver-british-columbia-11-06-2026/event/1100648EBB8598B4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100648EBB8598B4",
+        "discovery_event_id": "1Av7Z_FGkBD-_xV",
+        "url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-vancouver-british-columbia-11-06-2026/event/1100648EBB8598B4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6912128,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026--concerts-rb/production/6912128",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883116",
+        "url": "https://www.ticketnetwork.com/en/p/7883116",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883116",
+        "url": "https://www.ticketliquidator.com/tickets/7883116/Teddy-Swims-tickets-Fri-Nov-6-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158276",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026/event/107158276",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_FGkBD-_xV",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883116",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883116/Teddy-Swims-tickets-Fri-Nov-6-2026-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026/event/107158276"
+  },
+  {
+    "id": "tm-teddy-swims-2026-portland-vvg1hz_fbodkr9",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2026-11-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00648E91EC6BD7",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-portland-oregon-11-08-2026/event/0F00648E91EC6BD7",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-portland-moda-center-11-8-2026--concerts-rb/production/6912006",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-portland-oregon-11-08-2026/event/0F00648E91EC6BD7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00648E91EC6BD7",
+        "discovery_event_id": "vvG1HZ_FBoDkR9",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-portland-oregon-11-08-2026/event/0F00648E91EC6BD7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6912006,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-portland-moda-center-11-8-2026--concerts-rb/production/6912006",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883117",
+        "url": "https://www.ticketnetwork.com/en/p/7883117",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883117",
+        "url": "https://www.ticketliquidator.com/tickets/7883117/Teddy-Swims-tickets-Sun-Nov-8-2026-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168140",
+        "url": "https://www.stubhub.ie/teddy-swims-portland-tickets-11-8-2026/event/107168140",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_FBoDkR9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883117",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883117/Teddy-Swims-tickets-Sun-Nov-8-2026-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-portland-tickets-11-8-2026/event/107168140"
+  },
+  {
+    "id": "tm-teddy-swims-2026-san-francisco-g5vyz_fnhi2ez",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2026-11-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00648ABCA0F080",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00648ABCA0F080",
+        "discovery_event_id": "G5vYZ_FnHI2eZ",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6912010,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883120",
+        "url": "https://www.ticketnetwork.com/en/p/7883120",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883120",
+        "url": "https://www.ticketliquidator.com/tickets/7883120/Teddy-Swims-tickets-Tue-Nov-10-2026-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158277",
+        "url": "https://www.stubhub.ie/teddy-swims-san-francisco-tickets-11-10-2026/event/107158277",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_FnHI2eZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883120",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883120/Teddy-Swims-tickets-Tue-Nov-10-2026-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-san-francisco-tickets-11-10-2026/event/107158277"
+  },
+  {
+    "id": "tm-teddy-swims-2026-sacramento-g5vyz_fmsnbtg",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2026-11-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00648DF18D8FCC",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-sacramento-california-11-11-2026/event/1C00648DF18D8FCC",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-sacramento-golden-1-center-11-11-2026--concerts-rb/production/6912016",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-sacramento-california-11-11-2026/event/1C00648DF18D8FCC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00648DF18D8FCC",
+        "discovery_event_id": "G5vYZ_FMsNbTG",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-sacramento-california-11-11-2026/event/1C00648DF18D8FCC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6912016,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-sacramento-golden-1-center-11-11-2026--concerts-rb/production/6912016",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883122",
+        "url": "https://www.ticketnetwork.com/en/p/7883122",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883122",
+        "url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158278",
+        "url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_FMsNbTG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883122",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278"
+  },
+  {
+    "id": "tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf-",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Pechanga Arena San Diego",
+    "datetime_iso": "2026-11-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xpf-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpf-",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpf-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xpf-",
+        "discovery_event_id": "Z7r9jZ1A7xpf-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpf-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18185177,
+        "url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883123",
+        "url": "https://www.ticketnetwork.com/en/p/7883123",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883123",
+        "url": "https://www.ticketliquidator.com/tickets/7883123/Teddy-Swims-tickets-Fri-Nov-13-2026-Pechanga-Arena-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xpf-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883123",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883123/Teddy-Swims-tickets-Fri-Nov-13-2026-Pechanga-Arena-San-Diego"
+  },
+  {
+    "id": "tm-teddy-swims-2026-las-vegas-z7r9jz1a7xpfb",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xpfb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpfb",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-las-vegas-t-mobile-arena-11-14-2026--concerts-rb/production/6912149",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpfb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xpfb",
+        "discovery_event_id": "Z7r9jZ1A7xpfb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpfb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18185180,
+        "url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6912149,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-las-vegas-t-mobile-arena-11-14-2026--concerts-rb/production/6912149",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883124",
+        "url": "https://www.ticketnetwork.com/en/p/7883124",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883124",
+        "url": "https://www.ticketliquidator.com/tickets/7883124/Teddy-Swims-tickets-Sat-Nov-14-2026-T-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158279",
+        "url": "https://www.stubhub.ie/teddy-swims-las-vegas-tickets-11-14-2026/event/107158279",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xpfb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883124",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883124/Teddy-Swims-tickets-Sat-Nov-14-2026-T-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-las-vegas-tickets-11-14-2026/event/107158279"
+  },
+  {
+    "id": "tm-teddy-swims-2026-phoenix-1av0z_fgkbna4b9",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-11-17T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900648EA3255E97",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-phoenix-arizona-11-16-2026/event/1900648EA3255E97",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-phoenix-mortgage-matchup-center-11-16-2026--concerts-rb/production/6912020",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-phoenix-arizona-11-16-2026/event/1900648EA3255E97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900648EA3255E97",
+        "discovery_event_id": "1Av0Z_FGkBNa4B9",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-phoenix-arizona-11-16-2026/event/1900648EA3255E97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6912020,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-phoenix-mortgage-matchup-center-11-16-2026--concerts-rb/production/6912020",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883125",
+        "url": "https://www.ticketnetwork.com/en/p/7883125",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883125",
+        "url": "https://www.ticketliquidator.com/tickets/7883125/Teddy-Swims-tickets-Mon-Nov-16-2026-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158280",
+        "url": "https://www.stubhub.ie/teddy-swims-phoenix-tickets-11-16-2026/event/107158280",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_FGkBNa4B9",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883125",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883125/Teddy-Swims-tickets-Mon-Nov-16-2026-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-phoenix-tickets-11-16-2026/event/107158280"
+  },
+  {
+    "id": "tm-teddy-swims-2026-inglewood-vv170z_fgkmxw1os",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-11-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900648DE2F4A831",
+    "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-inglewood-california-11-18-2026/event/0900648DE2F4A831",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-inglewood-kia-forum-11-18-2026--concerts-rb/production/6912024",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-inglewood-california-11-18-2026/event/0900648DE2F4A831",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900648DE2F4A831",
+        "discovery_event_id": "vv170Z_FGkMxW1Os",
+        "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-inglewood-california-11-18-2026/event/0900648DE2F4A831",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6912024,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-inglewood-kia-forum-11-18-2026--concerts-rb/production/6912024",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7883127",
+        "url": "https://www.ticketnetwork.com/en/p/7883127",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7883127",
+        "url": "https://www.ticketliquidator.com/tickets/7883127/Teddy-Swims-tickets-Wed-Nov-18-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158281",
+        "url": "https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_FGkMxW1Os",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883127",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883127/Teddy-Swims-tickets-Wed-Nov-18-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281"
+  },
+  {
+    "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16v7i-zc9",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour | Box-Seat",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-03-10T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1128878397",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-%7C-box-seat-tickets/1128878397?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-%7C-box-seat-tickets/1128878397?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1128878397",
+        "discovery_event_id": "Z698xZC2Z16v7I-zC9",
+        "url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-%7C-box-seat-tickets/1128878397?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167507",
+        "url": "https://www.ticketnetwork.com/en/p/8167507",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167507",
+        "url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107458276",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v7I-zC9",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276"
+  },
+  {
+    "id": "tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-03-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1435901903",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-tickets/1435901903?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-berlin-uber-arena-3-11-2027--concerts-rb/production/7348582",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-tickets/1435901903?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1435901903",
+        "discovery_event_id": "Z698xZC2Z16v8g0v0d",
+        "url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-tickets/1435901903?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7348582,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-berlin-uber-arena-3-11-2027--concerts-rb/production/7348582",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167509",
+        "url": "https://www.ticketnetwork.com/en/p/8167509",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167509",
+        "url": "https://www.ticketliquidator.com/tickets/8167509/Teddy-Swims-tickets-Thu-Mar-11-2027-Uber-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107458277",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-berlin-uber-arena-11-3-2027/event/107458277",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v8g0v0d",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167509",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167509/Teddy-Swims-tickets-Thu-Mar-11-2027-Uber-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-berlin-uber-arena-11-3-2027/event/107458277"
+  },
+  {
+    "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-03-16T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1166810387",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1166810387?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1166810387?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1166810387",
+        "discovery_event_id": "Z698xZbpZ16vAJO8C6",
+        "url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1166810387?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8166020",
+        "url": "https://www.ticketnetwork.com/en/p/8166020",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8166020",
+        "url": "https://www.ticketliquidator.com/tickets/8166020/Teddy-Swims-tickets-Tue-Mar-16-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455905",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-16-3-2027/event/107455905",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vAJO8C6",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8166020",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8166020/Teddy-Swims-tickets-Tue-Mar-16-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-16-3-2027/event/107455905"
+  },
+  {
+    "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-03-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "612924200",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/612924200?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/612924200?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "612924200",
+        "discovery_event_id": "Z698xZbpZ1kb300FZ",
+        "url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/612924200?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8168696",
+        "url": "https://www.ticketnetwork.com/en/p/8168696",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8168696",
+        "url": "https://www.ticketliquidator.com/tickets/8168696/Teddy-Swims-tickets-Wed-Mar-17-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107460175",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-17-3-2027/event/107460175",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kb300FZ",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168696",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168696/Teddy-Swims-tickets-Wed-Mar-17-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-17-3-2027/event/107460175"
+  },
+  {
+    "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-03-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1393515857",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1393515857?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1393515857?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1393515857",
+        "discovery_event_id": "Z698xZbpZ16vCKf4-9",
+        "url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1393515857?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460176",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-18-3-2027/event/107460176",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vCKf4-9",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-18-3-2027/event/107460176"
+  },
+  {
+    "id": "tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z1kf7vp3p",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-03-26T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "204056496",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/204056496",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/204056496",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "204056496",
+        "discovery_event_id": "Z698xZG2Z1kF7vp3p",
+        "url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/204056496",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kF7vp3p",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-03-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1671029358",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/1671029358",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/1671029358",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1671029358",
+        "discovery_event_id": "Z698xZG2Z16v_sZtub",
+        "url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/1671029358",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v_sZtub",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-glasgow-17uov0g62qlspvu",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-13T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064F69FC65D0D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-13-04-2027/event/360064F69FC65D0D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-glasgow-ovo-hydro-4-13-2027/production/7347709",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-13-04-2027/event/360064F69FC65D0D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F69FC65D0D",
+        "discovery_event_id": "17uOv0G62QLsPVu",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-13-04-2027/event/360064F69FC65D0D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7347709,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-glasgow-ovo-hydro-4-13-2027/production/7347709",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8163374",
+        "url": "https://www.ticketnetwork.com/en/p/8163374",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8163374",
+        "url": "https://www.ticketliquidator.com/tickets/8163374/Teddy-Swims-tickets-Tue-Apr-13-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455913",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-glasgow-ovo-hydro-arena-glasgow-13-4-2027/event/107455913",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62QLsPVu",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8163374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8163374/Teddy-Swims-tickets-Tue-Apr-13-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-glasgow-ovo-hydro-arena-glasgow-13-4-2027/event/107455913"
+  },
+  {
+    "id": "tm-teddy-swims-2027-manchester-17uyv0g62pcoosz",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-16T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064F5AD451CF8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-16-04-2027/event/370064F5AD451CF8",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-16-2027/production/7346474",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-16-04-2027/event/370064F5AD451CF8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064F5AD451CF8",
+        "discovery_event_id": "17uYv0G62pcooSz",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-16-04-2027/event/370064F5AD451CF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7346474,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-16-2027/production/7346474",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8163375",
+        "url": "https://www.ticketnetwork.com/en/p/8163375",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8163375",
+        "url": "https://www.ticketliquidator.com/tickets/8163375/Teddy-Swims-tickets-Fri-Apr-16-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455914",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-16-4-2027/event/107455914",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G62pcooSz",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8163375",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8163375/Teddy-Swims-tickets-Fri-Apr-16-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-16-4-2027/event/107455914"
+  },
+  {
+    "id": "tm-teddy-swims-2027-manchester-17uyv0g62m2z8vc",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-17T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064FB8FE10D2D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-17-04-2027/event/370064FB8FE10D2D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-17-2027/production/7367121",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-17-04-2027/event/370064FB8FE10D2D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064FB8FE10D2D",
+        "discovery_event_id": "17uYv0G62m2z8Vc",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-17-04-2027/event/370064FB8FE10D2D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7367121,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-17-2027/production/7367121",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460174",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8230821",
+        "url": "https://www.ticketnetwork.com/en/p/8230821",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8230821",
+        "url": "https://www.ticketliquidator.com/tickets/8230821/Teddy-Swims-tickets-Sat-Apr-17-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G62m2z8Vc",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230821",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230821/Teddy-Swims-tickets-Sat-Apr-17-2027-Co-Op-Live"
+  },
+  {
+    "id": "tm-teddy-swims-2027-london-17u8v0g6253xeaz",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-21T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F2D28A7140",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-21-04-2027/event/350064F2D28A7140",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-21-2027/production/7346470",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-21-04-2027/event/350064F2D28A7140",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F2D28A7140",
+        "discovery_event_id": "17u8v0G6253xEAZ",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-21-04-2027/event/350064F2D28A7140",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7346470,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-21-2027/production/7346470",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455915",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6253xEAZ",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915"
+  },
+  {
+    "id": "tm-teddy-swims-2027-london-17u8v0g623cnnvk",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F4AD8E3046",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-22-04-2027/event/350064F4AD8E3046",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-22-2027/production/7367117",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-22-04-2027/event/350064F4AD8E3046",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F4AD8E3046",
+        "discovery_event_id": "17u8v0G623cNNvk",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-22-04-2027/event/350064F4AD8E3046",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7367117,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-22-2027/production/7367117",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460173",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G623cNNvk",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173"
+  },
+  {
+    "id": "tm-teddy-swims-2027-london-17u8v0g623yvkkm",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-24T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F4B00531B7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-24-04-2027/event/350064F4B00531B7",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-24-2027--concerts-rb/production/7393273",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-24-04-2027/event/350064F4B00531B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F4B00531B7",
+        "discovery_event_id": "17u8v0G623YvKkM",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-24-04-2027/event/350064F4B00531B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7393273,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-24-2027--concerts-rb/production/7393273",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469438",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G623YvKkM",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438"
+  },
+  {
+    "id": "tm-teddy-swims-2027-manchester-17uyv0g62mo98gp",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-18T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064FB915D0D56",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-18-04-2027/event/370064FB915D0D56",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-18-04-2027/event/370064FB915D0D56",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064FB915D0D56",
+        "discovery_event_id": "17uYv0G62mo98gp",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-18-04-2027/event/370064FB915D0D56",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8230822",
+        "url": "https://www.ticketnetwork.com/en/p/8230822",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8230822",
+        "url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482769",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G62mo98gp",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230822",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769"
+  }
+]

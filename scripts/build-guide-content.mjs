@@ -13,7 +13,7 @@
 //                                       the hand-maintained file it replaces.
 //   functions/_guide-routes.generated.js  GUIDE_ROUTES (published guides only)
 //                                       plus the router's standalone
-//                                       EVENT_PRICE_GUIDE_FALLBACK literal.
+//                                       PRICE_GUIDE_FALLBACK literal.
 //
 // INPUTS
 //   content/guides/*.md                 human-authored, editable at /admin
@@ -101,7 +101,12 @@ const MIN_PUBLISHED_WORDS = 450;
 // ordinary guide: it cannot be drafted, renamed, deleted or redirected away
 // through the CMS, and the build refuses any of those rather than emitting a
 // fallback for a page that no longer exists.
-const PROTECTED_SLUGS = new Set(["how-to-compare-event-ticket-prices"]);
+//
+// The fallback previously pointed at how-to-compare-event-ticket-prices. That
+// guide was merged into how-to-compare-concert-ticket-prices, which now carries
+// both the concert method and the other-event checks, so the fallback moved with
+// the surviving copy. The mechanism is unchanged — only its subject.
+const PROTECTED_SLUGS = new Set(["how-to-compare-concert-ticket-prices"]);
 
 // The two guides that carried a hand-authored Article JSON-LD object before this
 // pipeline existed. Inert at runtime — functions/[[path]].js emits only @type
@@ -380,7 +385,7 @@ export function validateGuide(guide, context) {
   // --- the protected guide ----------------------------------------------
   if (PROTECTED_SLUGS.has(guide.slug) && !published) {
     problems.push(
-      `${where}: /guides/${guide.slug} is referenced by the router's standalone EVENT_PRICE_GUIDE_FALLBACK and must stay published. ` +
+      `${where}: /guides/${guide.slug} is referenced by the router's standalone PRICE_GUIDE_FALLBACK and must stay published. ` +
         `It cannot be drafted, renamed or deleted through the CMS.`
     );
   }
@@ -553,7 +558,7 @@ export function validateWithdrawals(context) {
     const slug = routePath.replace(/^\/guides\//, "");
     if (PROTECTED_SLUGS.has(slug)) {
       problems.push(
-        `${routePath} has been removed, but it is referenced by the router's standalone EVENT_PRICE_GUIDE_FALLBACK and cannot be renamed or deleted. Restore content/guides/${slug}.md.`
+        `${routePath} has been removed, but it is referenced by the router's standalone PRICE_GUIDE_FALLBACK and cannot be renamed or deleted. Restore content/guides/${slug}.md.`
       );
       continue;
     }
@@ -741,9 +746,9 @@ ${routeBlocks}
 // scripts/route-metadata.test.mjs asserts every field here equals the
 // GUIDE_ROUTES entry, and scripts/build-guide-content.mjs refuses to draft,
 // rename or delete the guide, so the two cannot drift.
-export const EVENT_PRICE_GUIDE_PATH = ${JSON.stringify(fallbackPath)};
+export const PRICE_GUIDE_FALLBACK_PATH = ${JSON.stringify(fallbackPath)};
 
-export const EVENT_PRICE_GUIDE_FALLBACK = {
+export const PRICE_GUIDE_FALLBACK = {
 ${renderEntry(fallbackEntry, 2)}
 };
 `;
@@ -1043,20 +1048,25 @@ function selfTest() {
   assert(collidingRedirect.some((problem) => /collides with a published guide/.test(problem)), "a redirect source that is also a live guide fails");
 
   // --- the protected guide ----------------------------------------------
+  // Derived from PROTECTED_SLUGS rather than hardcoded: the fallback moved once
+  // already, when the event-price guide was merged into the concert guide, and
+  // these fixtures silently stopped covering it.
+  const protectedSlug = [...PROTECTED_SLUGS][0];
+  const protectedPath = `/guides/${protectedSlug}`;
   const protectedDrafted = validateGuide(
-    baseGuide({ slug: "how-to-compare-event-ticket-prices", path: "/guides/how-to-compare-event-ticket-prices", status: "draft" }),
+    baseGuide({ slug: protectedSlug, path: protectedPath, status: "draft" }),
     baseContext({ publishedPaths: new Set() })
   );
-  assert(protectedDrafted.some((problem) => /must stay published/.test(problem)), "the event-price guide cannot be drafted");
+  assert(protectedDrafted.some((problem) => /must stay published/.test(problem)), "the protected guide cannot be drafted");
 
   const protectedRemoved = validateWithdrawals(
     baseContext({
-      ledger: { "/guides/how-to-compare-event-ticket-prices": { date_published: "2026-07-14" } },
+      ledger: { [protectedPath]: { date_published: "2026-06-11" } },
       allPaths: new Set(),
       publishedPaths: new Set()
     })
   );
-  assert(protectedRemoved.some((problem) => /cannot be renamed or deleted/.test(problem)), "the event-price guide cannot be renamed or deleted");
+  assert(protectedRemoved.some((problem) => /cannot be renamed or deleted/.test(problem)), "the protected guide cannot be renamed or deleted");
 
   // --- claim exemptions --------------------------------------------------
   const exemptSentence = "A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag.";
@@ -1199,7 +1209,7 @@ function selfTest() {
     toRouteEntry(baseGuide(), "2026-07-01")
   );
   assert(/^ {2}"\/guides\/example": \{$/m.test(module), "route entries are emitted at the two-space indent the provenance parser expects");
-  assert(module.includes("export const EVENT_PRICE_GUIDE_FALLBACK = {"), "the fallback is a separate top-level binding");
+  assert(module.includes("export const PRICE_GUIDE_FALLBACK = {"), "the fallback is a separate top-level binding");
   assert(module.split("\n").filter((line) => /^\s+(title|h1|description|fullContent|datePublished|lastmod):/.test(line)).length === 12, "every property sits on its own line");
 
   if (!process.exitCode) console.log(`build-guide-content self-test passed (${passed} assertions).`);

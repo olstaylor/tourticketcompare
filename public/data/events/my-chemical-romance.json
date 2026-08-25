@@ -1,0 +1,817 @@
+[
+  {
+    "id": "tm-my-chemical-romance-2026-minneapolis-vv1kvovngegageom5",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Field",
+    "datetime_iso": "2026-08-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060063327C091B8B",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-minneapolis-minnesota-08-24-2026/event/060063327C091B8B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-minneapolis-minnesota-08-24-2026/event/060063327C091B8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060063327C091B8B",
+        "discovery_event_id": "vv1kvOvNGEGAGeom5",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-minneapolis-minnesota-08-24-2026/event/060063327C091B8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
+      },
+      "ticket-liquidator": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
+      },
+      "stubhub-international": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvNGEGAGeom5",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-denver-g5vzzbwncbsnm",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Coors Field",
+    "datetime_iso": "2026-08-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006328CEEB1AAE",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-denver-colorado-08-27-2026/event/1E006328CEEB1AAE",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-denver-coors-field-8-27-2026--concerts-rock/production/6062353",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-denver-colorado-08-27-2026/event/1E006328CEEB1AAE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006328CEEB1AAE",
+        "discovery_event_id": "G5vzZbwNCBsnm",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-denver-colorado-08-27-2026/event/1E006328CEEB1AAE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6062353,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-denver-coors-field-8-27-2026--concerts-rock/production/6062353",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424935",
+        "url": "https://www.ticketnetwork.com/en/p/7424935",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424935",
+        "url": "https://www.ticketliquidator.com/tickets/7424935/My-Chemical-Romance-tickets-Thu-Aug-27-2026-Coors-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZbwNCBsnm",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424935/My-Chemical-Romance-tickets-Thu-Aug-27-2026-Coors-Field"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-san-diego-vvg1izbwykcki4",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2026-08-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00632C06B46B15",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-san-diego-california-08-30-2026/event/0A00632C06B46B15",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-san-diego-petco-park-8-30-2026--concerts-rock/production/6062352",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-san-diego-california-08-30-2026/event/0A00632C06B46B15",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00632C06B46B15",
+        "discovery_event_id": "vvG1IZbwYkcki4",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-san-diego-california-08-30-2026/event/0A00632C06B46B15",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6062352,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-san-diego-petco-park-8-30-2026--concerts-rock/production/6062352",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424936",
+        "url": "https://www.ticketnetwork.com/en/p/7424936",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424936",
+        "url": "https://www.ticketliquidator.com/tickets/7424936/My-Chemical-Romance-tickets-Sun-Aug-30-2026-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106960285",
+        "url": "https://www.stubhub.ie/my-chemical-romance-san-diego-tickets-8-30-2026/event/106960285",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbwYkcki4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424936",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424936/My-Chemical-Romance-tickets-Sun-Aug-30-2026-Petco-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-san-diego-tickets-8-30-2026/event/106960285"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-phoenix-1a_zkgygkd3ywvj",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Chase Field",
+    "datetime_iso": "2026-09-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006330D2C32D26",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-phoenix-arizona-09-06-2026/event/19006330D2C32D26",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-phoenix-chase-field-9-6-2026--concerts-rock/production/6062329",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-phoenix-arizona-09-06-2026/event/19006330D2C32D26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006330D2C32D26",
+        "discovery_event_id": "1A_ZkGYGkd3YwVJ",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-phoenix-arizona-09-06-2026/event/19006330D2C32D26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6062329,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-phoenix-chase-field-9-6-2026--concerts-rock/production/6062329",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424937",
+        "url": "https://www.ticketnetwork.com/en/p/7424937",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424937",
+        "url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964082",
+        "url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_ZkGYGkd3YwVJ",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424937",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-san-antonio-g5dizbsd0c4y6",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Alamodome",
+    "datetime_iso": "2026-09-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006330E4B55E47",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-san-antonio-texas-09-12-2026/event/3A006330E4B55E47",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-san-antonio-alamodome-9-12-2026--concerts-rock/production/6062330",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-san-antonio-texas-09-12-2026/event/3A006330E4B55E47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006330E4B55E47",
+        "discovery_event_id": "G5dIZbSd0c4y6",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-san-antonio-texas-09-12-2026/event/3A006330E4B55E47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6062330,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-san-antonio-alamodome-9-12-2026--concerts-rock/production/6062330",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424939",
+        "url": "https://www.ticketnetwork.com/en/p/7424939",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424939",
+        "url": "https://www.ticketliquidator.com/tickets/7424939/My-Chemical-Romance-tickets-Sat-Sep-12-2026-Alamodome",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106960286",
+        "url": "https://www.stubhub.ie/my-chemical-romance-san-antonio-tickets-9-12-2026/event/106960286",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZbSd0c4y6",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424939",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424939/My-Chemical-Romance-tickets-Sat-Sep-12-2026-Alamodome",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-san-antonio-tickets-9-12-2026/event/106960286"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55mdjk",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-10-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006332CBDC3993",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-21-2026/event/0B006332CBDC3993",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-21-2026--concerts-rock/production/6062331",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-21-2026/event/0B006332CBDC3993",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006332CBDC3993",
+        "discovery_event_id": "vvG1iZbS55MdJK",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-21-2026/event/0B006332CBDC3993",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6062331,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-21-2026--concerts-rock/production/6062331",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424940",
+        "url": "https://www.ticketnetwork.com/en/p/7424940",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424940",
+        "url": "https://www.ticketliquidator.com/tickets/7424940/My-Chemical-Romance-tickets-Wed-Oct-21-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964079",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-21-2026/event/106964079",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZbS55MdJK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424940",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424940/My-Chemical-Romance-tickets-Wed-Oct-21-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-21-2026/event/106964079"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55msjp",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-10-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006332CBDF3996",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-23-2026/event/0B006332CBDF3996",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-23-2026--concerts-rock/production/6062332",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-23-2026/event/0B006332CBDF3996",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006332CBDF3996",
+        "discovery_event_id": "vvG1iZbS55MSJp",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-23-2026/event/0B006332CBDF3996",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6062332,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-23-2026--concerts-rock/production/6062332",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424941",
+        "url": "https://www.ticketnetwork.com/en/p/7424941",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424941",
+        "url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964080",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-23-2026/event/106964080",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZbS55MSJp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-23-2026/event/106964080"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55znjb",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance The Black Parade 2026",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006332CBE23998",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-24-2026/event/0B006332CBE23998",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-24-2026--concerts-rock/production/6062333",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-24-2026/event/0B006332CBE23998",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006332CBE23998",
+        "discovery_event_id": "vvG1iZbS55zNJb",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-24-2026/event/0B006332CBE23998",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6062333,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-24-2026--concerts-rock/production/6062333",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7424942",
+        "url": "https://www.ticketnetwork.com/en/p/7424942",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7424942",
+        "url": "https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964081",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-24-2026/event/106964081",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZbS55zNJb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-24-2026/event/106964081"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55ykjr",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance with Special Guest The Used",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-10-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006332CBE5399E",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-30-2026/event/0B006332CBE5399E",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-30-2026--concerts-rock/production/6314708",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-30-2026/event/0B006332CBE5399E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006332CBE5399E",
+        "discovery_event_id": "vvG1iZbS55yKJr",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-30-2026/event/0B006332CBE5399E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6314708,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-30-2026--concerts-rock/production/6314708",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7570185",
+        "url": "https://www.ticketnetwork.com/en/p/7570185",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7570185",
+        "url": "https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076168",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-30-2026/event/107076168",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZbS55yKJr",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570185",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-30-2026/event/107076168"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55bdjv",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance with Special Guest Thrice",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006332CBE839B4",
+    "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-31-2026/event/0B006332CBE839B4",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-31-2026--concerts-rock/production/6314710",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-31-2026/event/0B006332CBE839B4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006332CBE839B4",
+        "discovery_event_id": "vvG1iZbS55BdJV",
+        "url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-31-2026/event/0B006332CBE839B4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6314710,
+        "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-31-2026--concerts-rock/production/6314710",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7570377",
+        "url": "https://www.ticketnetwork.com/en/p/7570377",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7570377",
+        "url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107074158",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-31-2026/event/107074158",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZbS55BdJV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570377",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-31-2026/event/107074158"
+  },
+  {
+    "id": "tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6",
+    "artist_slug": "my-chemical-romance",
+    "artist_name": "My Chemical Romance",
+    "event_name": "My Chemical Romance",
+    "city": "Singapore",
+    "country": "Singapore",
+    "venue": "Singapore Indoor Stadium",
+    "datetime_iso": "2026-11-10T12:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OUP6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUP6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUP6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OUP6",
+        "discovery_event_id": "Z7r9jZ1A7OUP6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUP6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OUP6",
+    "timezone": "Etc/GMT",
+    "status": "on-sale"
+  }
+]

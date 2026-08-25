@@ -102,27 +102,27 @@ assert(
   "keeps a comma-qualified name while dropping the parenthetical"
 );
 
-// --- the event-price guide's render fallback -------------------------------
+// --- the compare-prices guide's render fallback ----------------------------
 // functions/[[path]].js renders this guide from a standalone literal when its
 // GUIDE_ROUTES entry is missing, so the page never 404s or loses its provenance
 // line on a stale deploy. Both objects are generated from the same Markdown by
 // scripts/build-guide-content.mjs; this asserts every field agrees, not just the
 // dates, so a drifted generator is caught here rather than in production.
-const { EVENT_PRICE_GUIDE_PATH, EVENT_PRICE_GUIDE_FALLBACK } = await import("../functions/_guide-routes.generated.js");
+const { PRICE_GUIDE_FALLBACK_PATH, PRICE_GUIDE_FALLBACK } = await import("../functions/_guide-routes.generated.js");
 
-assert(Boolean(GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]), "the inline guide fallback's route exists in GUIDE_ROUTES");
+assert(Boolean(GUIDE_ROUTES[PRICE_GUIDE_FALLBACK_PATH]), "the inline guide fallback's route exists in GUIDE_ROUTES");
 
-const canonicalGuideEntry = GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH];
+const canonicalGuideEntry = GUIDE_ROUTES[PRICE_GUIDE_FALLBACK_PATH];
 const fallbackFields = ["title", "h1", "description", "fullContent", "datePublished", "lastmod"];
 for (const field of fallbackFields) {
   assert(
-    EVENT_PRICE_GUIDE_FALLBACK[field] === canonicalGuideEntry[field],
-    `EVENT_PRICE_GUIDE_FALLBACK.${field} (${EVENT_PRICE_GUIDE_FALLBACK[field]}) matches GUIDE_ROUTES (${canonicalGuideEntry[field]})`
+    PRICE_GUIDE_FALLBACK[field] === canonicalGuideEntry[field],
+    `PRICE_GUIDE_FALLBACK.${field} (${PRICE_GUIDE_FALLBACK[field]}) matches GUIDE_ROUTES (${canonicalGuideEntry[field]})`
   );
 }
 assert(
-  Object.keys(EVENT_PRICE_GUIDE_FALLBACK).sort().join(",") === fallbackFields.slice().sort().join(","),
-  "EVENT_PRICE_GUIDE_FALLBACK carries exactly the fields GUIDE_ROUTES does"
+  Object.keys(PRICE_GUIDE_FALLBACK).sort().join(",") === fallbackFields.slice().sort().join(","),
+  "PRICE_GUIDE_FALLBACK carries exactly the fields GUIDE_ROUTES does"
 );
 
 // The fallback must stay a standalone literal. If a future generator ever
@@ -130,22 +130,22 @@ assert(
 // the fallback would fail in exactly the case it exists for.
 const guideModuleSource = readFileSync(new URL("../functions/_guide-routes.generated.js", import.meta.url), "utf8");
 assert(
-  /export const EVENT_PRICE_GUIDE_FALLBACK = \{\n\s+title:/.test(guideModuleSource),
-  "EVENT_PRICE_GUIDE_FALLBACK is emitted as its own object literal, not a lookup into GUIDE_ROUTES"
+  /export const PRICE_GUIDE_FALLBACK = \{\n\s+title:/.test(guideModuleSource),
+  "PRICE_GUIDE_FALLBACK is emitted as its own object literal, not a lookup into GUIDE_ROUTES"
 );
 assert(
-  !/EVENT_PRICE_GUIDE_FALLBACK\s*=\s*GUIDE_ROUTES/.test(guideModuleSource),
-  "EVENT_PRICE_GUIDE_FALLBACK does not alias GUIDE_ROUTES"
+  !/PRICE_GUIDE_FALLBACK\s*=\s*GUIDE_ROUTES/.test(guideModuleSource),
+  "PRICE_GUIDE_FALLBACK does not alias GUIDE_ROUTES"
 );
 
 // The router must import it rather than carry its own copy.
 const routerSource = readFileSync(new URL("../functions/[[path]].js", import.meta.url), "utf8");
 assert(
-  /import \{ EVENT_PRICE_GUIDE_PATH, EVENT_PRICE_GUIDE_FALLBACK \} from "\.\/_guide-routes\.generated\.js";/.test(routerSource),
+  /import \{ PRICE_GUIDE_FALLBACK_PATH, PRICE_GUIDE_FALLBACK \} from "\.\/_guide-routes\.generated\.js";/.test(routerSource),
   "functions/[[path]].js imports the generated fallback"
 );
 assert(
-  !/const EVENT_PRICE_GUIDE_FALLBACK = \{/.test(routerSource),
+  !/const PRICE_GUIDE_FALLBACK = \{/.test(routerSource),
   "functions/[[path]].js keeps no second copy of the fallback literal"
 );
 

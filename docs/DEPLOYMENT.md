@@ -108,7 +108,33 @@ Missing credentials must cause a safe no-op or explicit failure, never guessed d
 
 ### Repository write capability
 
-Direct-to-`main` capability exists in exactly three workflows, each narrowly gated: `nightly-data-sync.yml`, for its lossless factual updates only (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)); `daily-audit.yml`, for `last_verified_at` verification-date bumps on clean artists only, after its in-job validation (owner-approved 2026-07-28, replacing the former human-review PR flow); and `content-build.yml`, for the single generated file `public/data/blog-content.json`, recompiled from `content/blog/*.md` and committed only after `test:mvp`, `schema:validate`, the indexable-surface check and `git diff --check` pass in-job on exactly that output — it writes that file and nothing else, and a validation failure leaves `main` unchanged. `daily-audit.yml` additionally carries a documentation-only lane: its `status-figures` job recomputes the generated `PROJECT_STATUS.md` figures (per-artist table, route surface, empty-board list) and commits **that file alone**, after the same in-job validation. It touches no data record and runs whatever the audit job's outcome, because those figures move with the calendar rather than with a commit. The price-snapshot workflows (`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`) write only to D1, never to the repository. Auto-merge-capable workflows: `tm-new-shows-pr.yml`, `seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only — `impact-marketplace-provider-sync.yml`; each only after its in-run validation suite passes, and a failed merge leaves the PR open for a human. `indexnow-ping.yml` writes to neither the repository nor D1 — it only submits already-public sitemap URLs to an external endpoint, and asserts a clean working tree at the end. Note the trigger asymmetry: a merged PR's push fires it, but a workflow's own `git push origin HEAD:main` does not, so the three direct-push lanes above produce no ping and rely on the next merge or a manual dispatch. Every other workflow is report-only or opens a review-only PR that never auto-merges. Widening any of these capabilities is an owner decision, not a maintenance change.
+Direct-to-`main` capability exists in exactly three workflows, each narrowly
+gated. Everything else is report-only or opens a review-only PR that never
+auto-merges. **Widening any of these is an owner decision, not a maintenance
+change.**
+
+| Workflow | Writes to `main` | Gate |
+|---|---|---|
+| `nightly-data-sync.yml` | Lossless factual event fields only (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)) | In-job validation |
+| `daily-audit.yml` | `last_verified_at` bumps on clean artists only | In-job validation (owner-approved 2026-07-28, replacing the former human-review PR flow) |
+| `daily-audit.yml` (`status-figures` job) | `PROJECT_STATUS.md` alone — per-artist table, route surface, empty-board list | Same in-job validation. Touches no data record, and runs whatever the audit job's outcome, because those figures move with the calendar rather than with a commit |
+| `content-build.yml` | Four compiled content files: `public/data/blog-content.json`, `public/data/guides-content.json`, `functions/_guide-routes.generated.js`, `data/content-provenance.json` | `test:mvp`, `schema:validate`, the indexable-surface check and `git diff --check` all pass in-job, then `assert-diff-allowlist.sh` proves the working tree changed nothing outside those four paths. A validation failure leaves `main` unchanged |
+
+Auto-merge-capable (PR, not direct push): `tm-new-shows-pr.yml`,
+`seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only —
+`impact-marketplace-provider-sync.yml`. Each merges only after its in-run
+validation suite passes; a failed merge leaves the PR open for a human.
+
+Writes to neither the repository nor `main`: the price-snapshot workflows
+(`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`)
+write only to D1. `indexnow-ping.yml` writes to neither, submitting
+already-public sitemap URLs to an external endpoint and asserting a clean
+working tree at the end.
+
+**Trigger asymmetry worth knowing:** a merged PR's push fires `indexnow-ping.yml`,
+but a workflow's own `git push origin HEAD:main` does not — so the three
+direct-push lanes above produce no ping and rely on the next merge or a manual
+dispatch.
 
 ## Provider snapshot operations
 

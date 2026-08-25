@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-08-21T05:40:52.782Z
+Generated: 2026-08-25T05:40:09.172Z
 
 ## Run summary
 
@@ -8,15 +8,15 @@ Generated: 2026-08-21T05:40:52.782Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Total events in data: 611
+- Total events in data: 743
 - Ticketmaster-verified events: 306
-- Events already carrying a valid SeatGeek URL: 250
-- Ticketmaster-verified events already carrying a valid SeatGeek URL: 179
-- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 127
-- Eligible (upcoming, resolvable local date) after pre-API filtering: 50
-- Skipped before any API call: 77 (past_event: 77)
+- Events already carrying a valid SeatGeek URL: 254
+- Ticketmaster-verified events already carrying a valid SeatGeek URL: 177
+- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 129
+- Eligible (upcoming, resolvable local date) after pre-API filtering: 48
+- Skipped before any API call: 81 (past_event: 81)
 - Events this run can check (window size): 30
-- Rotation: window 1 of 2 (key 20686)
+- Rotation: window 1 of 2 (key 20690)
 - Runs needed to check every eligible event once: 2
 - Events selected/logged by this run: 30
 - Events checked by this run: 30
@@ -27,8 +27,8 @@ Generated: 2026-08-21T05:40:52.782Z
 - no_candidates_returned: 29
 - rate_limited_not_checked: 0
 - Stopped early: no
-- Next resume showId: tm-olivia-rodrigo-2027-london-1adfz_agkusmfph
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-olivia-rodrigo-2027-london-1adfz_agkusmfph'
+- Next resume showId: tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep
+- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep'
 - Accepted venue mismatches: 0
 - Conflicts found: 0
 
@@ -40,8 +40,8 @@ Generated: 2026-08-21T05:40:52.782Z
 ## Interpretation
 
 - `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 250 event(s) already carried valid SeatGeek URLs before this run, including 179 Ticketmaster-verified event(s).
-- This run queried only the 127 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
+- 254 event(s) already carried valid SeatGeek URLs before this run, including 177 Ticketmaster-verified event(s).
+- This run queried only the 129 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
@@ -72,8 +72,6 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog | Olivia Rodrigo | 2027-03-28 | Amsterdam | no_candidates_returned | - |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b | Gracie Abrams | 2027-04-15 | Merksem (Antwerpen) | no_candidates_returned | - |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k4vofa4 | Gracie Abrams | 2027-04-16 | Merksem (Antwerpen) | no_candidates_returned | - |
-| tm-ariana-grande-2026-london-3500631c97193144 | Ariana Grande | 2026-08-20 | London | no_candidates_returned | - |
-| tm-ariana-grande-2026-london-3500631c98a031b3 | Ariana Grande | 2026-08-23 | London | no_candidates_returned | - |
 | tm-ariana-grande-2026-london-35006324f4e94ebb | Ariana Grande | 2026-08-24 | London | no_candidates_returned | - |
 | tm-ariana-grande-2026-london-35006324f4fe4f2a | Ariana Grande | 2026-08-27 | London | no_candidates_returned | - |
 | tm-ariana-grande-2026-london-35006324f5075024 | Ariana Grande | 2026-08-28 | London | no_candidates_returned | - |
@@ -86,6 +84,8 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev | Zach Bryan | 2026-10-10 | Auburn University | city_or_metro_match_failed | https://seatgeek.com/zach-bryan-tickets/auburn-alabama-jordan-hare-stadium-2026-10-10-7-pm/concert/17930442 |
 | tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah | Olivia Rodrigo | 2027-04-05 | London | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3 | Olivia Rodrigo | 2027-04-06 | London | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkusmfph | Olivia Rodrigo | 2027-04-08 | London | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkug10qr | Olivia Rodrigo | 2027-04-09 | London | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 
@@ -128,6 +128,8 @@ Ticketmaster-verified events missing a SeatGeek URL that this run deliberately d
 | tm-ariana-grande-2026-london-3500631c8ea13055 | ariana-grande | 2026-08-15T18:30:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-ariana-grande-2026-london-3500631c937630fa | ariana-grande | 2026-08-16T17:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-ariana-grande-2026-london-3500631c950d310b | ariana-grande | 2026-08-19T18:30:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-ariana-grande-2026-london-3500631c97193144 | ariana-grande | 2026-08-20T18:30:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-ariana-grande-2026-london-3500631c98a031b3 | ariana-grande | 2026-08-23T17:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bad-bunny-2026-barcelona-653666176 | bad-bunny | 2026-05-22T20:00:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bad-bunny-2026-barcelona-1116290311 | bad-bunny | 2026-05-23T20:00:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bad-bunny-2026-madrid-417009905 | bad-bunny | 2026-05-30T20:00:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -179,8 +181,10 @@ Ticketmaster-verified events missing a SeatGeek URL that this run deliberately d
 | tm-bruno-mars-2026-london-1anzk8egkdmnywe | bruno-mars | 2026-07-24T16:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bruno-mars-2026-london-1anzk8egkdzq8wy | bruno-mars | 2026-07-25T16:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bruno-mars-2026-london-1anzk8egkdbd8xc | bruno-mars | 2026-07-28T16:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd | bruno-mars | 2026-08-22T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-munich-z698xzc2z1konbaqf | bts | 2026-07-11T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-munich-z698xzc2z1kfj7mgy | bts | 2026-07-12T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-bts-2026-toronto-1avzz_egkiiidcu | bts | 2026-08-23T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-ariana-grande-2026-sunrise-z7r9jz1a7qoav | ariana-grande | 2026-06-30T20:00:00-04:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-ariana-grande-2026-sunrise-z7r9jz1a7qoaz | ariana-grande | 2026-07-02T20:00:00-04:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-ariana-grande-2026-sunrise-z7r9jz1a7j6op | ariana-grande | 2026-07-03T20:00:00-04:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |

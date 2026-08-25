@@ -1415,5 +1415,111 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZuo",
     "status": "on-sale",
     "timezone": "Europe/Budapest"
+  },
+  {
+    "id": "tm-bad-bunny-2026-san-juan-z7r9jz1aazgb_",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "Bad Bunny",
+    "city": "San Juan",
+    "country": "United States Of America",
+    "venue": "Estadio Hiram Bithorn",
+    "datetime_iso": "2026-08-22T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZgb_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgb_",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/bad-bunny-tickets-san-juan-estadio-hiram-bithorn-8-22-2026/production/7448208",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgb_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZgb_",
+        "discovery_event_id": "Z7r9jZ1AAZgb_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgb_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "vivid-seats": {
+        "event_id": 7448208,
+        "url": "https://www.vividseats.com/bad-bunny-tickets-san-juan-estadio-hiram-bithorn-8-22-2026/production/7448208",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZgb_",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-san-juan-z7r9jz1aazm40",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "Bad Bunny",
+    "city": "San Juan",
+    "country": "United States Of America",
+    "venue": "Estadio Hiram Bithorn",
+    "datetime_iso": "2026-08-23T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZM40",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZM40",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/bad-bunny-tickets-san-juan-estadio-hiram-bithorn-8-23-2026/production/7448206",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZM40",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZM40",
+        "discovery_event_id": "Z7r9jZ1AAZM40",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZM40",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "vivid-seats": {
+        "event_id": 7448206,
+        "url": "https://www.vividseats.com/bad-bunny-tickets-san-juan-estadio-hiram-bithorn-8-23-2026/production/7448206",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZM40",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
   }
 ]

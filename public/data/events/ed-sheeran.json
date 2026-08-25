@@ -828,7 +828,7 @@
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "1000632FE9CA4361",
     "ticketmaster_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-22-2026/event/1000632FE9CA4361",
-    "seatgeek_url": "https://seatgeek.com/ed-sheeran-tickets/toronto-canada-rogers-centre-2026-08-22-5-30-pm/concert/17738478",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-toronto-rogers-centre-8-22-2026--concerts-pop/production/6049747",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-22-2026/event/1000632FE9CA4361",
@@ -843,11 +843,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17738478,
-        "url": "https://seatgeek.com/ed-sheeran-tickets/toronto-canada-rogers-centre-2026-08-22-5-30-pm/concert/17738478",
-        "verified": true,
-        "last_verified_at": "2026-08-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6049747,
@@ -899,14 +899,14 @@
         "event_id": 17738481,
         "url": "https://seatgeek.com/ed-sheeran-tickets/detroit-michigan-ford-field-2026-08-29-5-30-pm/concert/17738481",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049724,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-detroit-ford-field-8-29-2026--concerts-pop/production/6049724",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -976,14 +976,14 @@
         "event_id": 17738453,
         "url": "https://seatgeek.com/ed-sheeran-tickets/east-rutherford-new-jersey-metlife-stadium-2026-09-04-5-30-pm/concert/17738453",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049729,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-east-rutherford-metlife-stadium-9-4-2026--concerts-pop/production/6049729",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1053,14 +1053,14 @@
         "event_id": 17738455,
         "url": "https://seatgeek.com/ed-sheeran-tickets/east-rutherford-new-jersey-metlife-stadium-2026-09-05-5-30-pm/concert/17738455",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049730,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-east-rutherford-metlife-stadium-9-5-2026--concerts-pop/production/6049730",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1130,14 +1130,14 @@
         "event_id": 17738457,
         "url": "https://seatgeek.com/ed-sheeran-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-09-19-5-30-pm/concert/17738457",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049733,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-philadelphia-lincoln-financial-field-9-19-2026--concerts-pop/production/6049733",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1207,14 +1207,14 @@
         "event_id": 17738460,
         "url": "https://seatgeek.com/ed-sheeran-tickets/foxborough-massachusetts-gillette-stadium-2026-09-25-5-30-pm/concert/17738460",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049734,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-foxborough-gillette-stadium-9-25-2026--concerts-pop/production/6049734",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1284,14 +1284,14 @@
         "event_id": 17738463,
         "url": "https://seatgeek.com/ed-sheeran-tickets/foxborough-massachusetts-gillette-stadium-2026-09-26-5-30-pm/concert/17738463",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049735,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-foxborough-gillette-stadium-9-26-2026--concerts-pop/production/6049735",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1361,14 +1361,14 @@
         "event_id": 17738465,
         "url": "https://seatgeek.com/ed-sheeran-tickets/atlanta-georgia-mercedes-benz-stadium-2026-10-03-5-30-pm/concert/17738465",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049736,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-atlanta-mercedes-benz-stadium-10-3-2026--concerts-pop/production/6049736",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1438,14 +1438,14 @@
         "event_id": 17738466,
         "url": "https://seatgeek.com/ed-sheeran-tickets/indianapolis-indiana-lucas-oil-stadium-2026-10-10-5-30-pm/concert/17738466",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049737,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-indianapolis-lucas-oil-stadium-10-10-2026--concerts-pop/production/6049737",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1515,14 +1515,14 @@
         "event_id": 17738470,
         "url": "https://seatgeek.com/ed-sheeran-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-10-17-5-30-pm/concert/17738470",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049740,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-charlotte-bank-of-america-stadium-10-17-2026--concerts-pop/production/6049740",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1592,7 +1592,7 @@
         "event_id": 17729039,
         "url": "https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1669,14 +1669,14 @@
         "event_id": 17738469,
         "url": "https://seatgeek.com/ed-sheeran-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-29-8-pm/concert/17738469",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049741,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-29-2026--concerts-pop/production/6049741",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1746,14 +1746,14 @@
         "event_id": 17738471,
         "url": "https://seatgeek.com/ed-sheeran-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-30-8-pm/concert/17738471",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049743,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-30-2026--concerts-pop/production/6049743",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1823,14 +1823,14 @@
         "event_id": 17738474,
         "url": "https://seatgeek.com/ed-sheeran-tickets/tampa-florida-raymond-james-stadium-2026-11-07-5-30-pm/concert/17738474",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049744,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744",
         "verified": true,
-        "last_verified_at": "2026-08-21",
+        "last_verified_at": "2026-08-24",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-08-21T05:41:40.392Z
+Generated: 2026-08-25T05:41:32.635Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 39 (needs_recheck: 39, provenance backfill: 0, stale re-check: 25)
-- Events skipped before API checks: 84
-- API calls made: 39
-- Verified provenance written: 25
+- Events selected: 69 (needs_recheck: 69, provenance backfill: 0, stale re-check: 32)
+- Events skipped before API checks: 90
+- API calls made: 69
+- Verified provenance written: 32
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 0
-- No qualifying listing: 14
+- No qualifying listing: 37
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -33,7 +33,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | olivia-rodrigo | verify (applied) | 18211722 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | olivia-rodrigo | verify (applied) | 18211723 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 | - |
 | tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | ed-sheeran | verify (applied) | 17729039 | https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039 | - |
-| tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu | zach-bryan | verify (applied) | 17870796 | https://seatgeek.com/zach-bryan-tickets/arlington-texas-at-t-stadium-2026-08-22-7-pm/concert/17870796 | - |
 | tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt | zach-bryan | verify (applied) | 17871645 | https://seatgeek.com/zach-bryan-tickets/glendale-arizona-state-farm-stadium-2026-09-05-7-pm/concert/17871645 | - |
 | tm-zach-bryan-2026-dover-z7r9jz1a7r4vz | zach-bryan | verify (applied) | 17930446 | https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-18-4-pm/concert/17930446 | - |
 | tm-zach-bryan-2026-dover-z7r9jz1a7r4vj | zach-bryan | verify (applied) | 17930445 | https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-19-4-pm/concert/17930445 | - |
@@ -65,6 +64,37 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | verify (applied) | 18257241 | https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241 | - |
 | tm-shakira-2026-madrid-z7r9jz1aazaza | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2026-arlington-z7r9jz1a7xfrb | karol-g | verify (applied) | 18166850 | https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850 | - |
+| tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-sevilla-z698xz2qz16vvepfuz | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-sevilla-z698xz2qz16v_a-6fw | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7 | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-madrid-z698xz2qz1koujx1f | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6 | my-chemical-romance | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2026-kansas-city-z7r9jz1a70v1a | teddy-swims | verify (applied) | 18185128 | https://seatgeek.com/teddy-swims-tickets/kansas-city-missouri-t-mobile-center-2026-09-22-7-pm/concert/18185128 | - |
+| tm-teddy-swims-2026-saint-paul-z7r9jz1a7xf0u | teddy-swims | verify (applied) | 18185131 | https://seatgeek.com/teddy-swims-tickets/saint-paul-minnesota-grand-casino-arena-2026-09-26-7-pm/concert/18185131 | - |
+| tm-teddy-swims-2026-sunrise-z7r9jz1a70v8i | teddy-swims | verify (applied) | 18175691 | https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691 | - |
+| tm-teddy-swims-2026-houston-z7r9jz1a7x4fs | teddy-swims | verify (applied) | 18185160 | https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160 | - |
+| tm-teddy-swims-2026-salt-lake-city-z7r9jz1a7x_ag | teddy-swims | verify (applied) | 18143695 | https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695 | - |
+| tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf- | teddy-swims | verify (applied) | 18185177 | https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177 | - |
+| tm-teddy-swims-2026-las-vegas-z7r9jz1a7xpfb | teddy-swims | verify (applied) | 18185180 | https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180 | - |
+| tm-teddy-swims-2027-hamburg-z698xzc2z16v7i-zc9 | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6 | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9 | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z1kf7vp3p | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_ | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 
 ## Skipped before API checks
 
@@ -113,6 +143,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-ariana-grande-2026-chicago-0400631adf313481 | ariana-grande | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jay-z-2026-bronx-1d006473d9d109cb | jay-z | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jay-z-2026-bronx-1d006473db760a7f | jay-z | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm | bruno-mars | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-shakira-2026-inglewood-vv1aazkovgkdf4iwr | shakira | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-shakira-2026-inglewood-vv1aazkovgkdf_jwm | shakira | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-shakira-2026-palm-desert-vvg1iz_6abv7yw | shakira | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -139,6 +170,8 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-ed-sheeran-2026-seattle-0f00632ea04f19df | ed-sheeran | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ed-sheeran-2026-inglewood-0a006331dc273765 | ed-sheeran | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ed-sheeran-2026-minneapolis-0600632e29196b3e | ed-sheeran | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-ed-sheeran-2026-toronto-1000632fe9bb4345 | ed-sheeran | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-ed-sheeran-2026-toronto-1000632fe9c34349 | ed-sheeran | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-summer-walker-2026-dallas-vvg1yz_dphg_3m | summer-walker | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-summer-walker-2026-austin-g5diz_dpyyjel | summer-walker | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-summer-walker-2026-los-angeles-g5eyz_dpcrysi | summer-walker | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -152,5 +185,8 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-bad-bunny-2026-marseille-z7r9jz1a7baxb | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-rosalia-2026-oakland-g5vyzbumkyr1f | rosalia | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu | zach-bryan | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jelly-roll-2026-colorado-springs-z7r9jz1a7xfou | jelly-roll | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-john-summit-2026-chicago-z7r9jz1aazo4o | john-summit | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-bad-bunny-2026-san-juan-z7r9jz1aazgb_ | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-bad-bunny-2026-san-juan-z7r9jz1aazm40 | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |

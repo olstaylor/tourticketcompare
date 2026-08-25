@@ -52,6 +52,5 @@ The obsolete `IMPACT_TICKETMASTER_*` secrets are unused — delete from the dash
 
 Infrastructure/automation issues only — dated, short, actionable. Content and data-hygiene backlog items live in `BACKLOG.md`.
 
-- **Daily audit job timeout (open, 2026-08-04).** `daily-audit.yml`'s `audit` job caps at `timeout-minutes: 25`; its URL liveness check alone now takes ~22–23 minutes against 607 events, leaving too little time for the Discovery diff. Cancelled outright on 2 of the last 4 runs. Fail-closed (no bad data written on a cancellation) but the rolling issue and `last_verified_at` bumps don't land those days. Needs an owner/scoped fix: raise the timeout cap, or bound the liveness check (concurrency, sampling, or split into its own job).
 - **Migration `0008` unapplied (open, verified 2026-08-04).** `analytics_events` still lacks the commercial-funnel dimension columns; writers fall back a column tier at a time so the site is unaffected, but `npm run report:commercial-funnel` can't report those dimensions until an owner applies it (command: `migrations/README.md`).
 - **Dedup tombstone discipline (procedural, ongoing).** Deleting a duplicate row from `events.json` without adding it to `data/deleted-events.json` lets the 04:00 new-show recognizer re-propose it. Always tombstone a dedup deletion in the same change — see `docs/PROVIDER_SYNC.md`.

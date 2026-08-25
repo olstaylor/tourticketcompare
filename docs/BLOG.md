@@ -138,7 +138,7 @@ Four dates appear around a guide and only two of them are yours to type.
 
 A published guide is a live URL. Setting it back to `draft`, renaming its file, or deleting it would 404 that URL, so the build refuses all three unless `OLD_GUIDE_REDIRECTS` in `functions/_route-metadata.js` carries an entry sending the old path to a published guide. That is a deliberate code change, outside the CMS — which is also why the Guides collection has its delete button switched off.
 
-`/guides/how-to-compare-event-ticket-prices` is a further exception: the router keeps a standalone copy of its metadata as a render fallback, so it cannot be drafted, renamed or deleted at all.
+`/guides/how-to-compare-concert-ticket-prices` is a further exception: the router keeps a standalone copy of its metadata as a render fallback, so it cannot be drafted, renamed or deleted at all.
 
 ## Publishing
 

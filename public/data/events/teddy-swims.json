@@ -3349,12 +3349,20 @@
         "verified": true,
         "last_verified_at": "2026-08-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482769",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62mo98gp",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230822",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769"
   }
 ]

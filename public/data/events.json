@@ -44079,11 +44079,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7424934",
-        "url": "https://www.ticketnetwork.com/en/p/7424934",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7424934",
@@ -44103,7 +44103,7 @@
     "ticketmaster_discovery_event_id": "vv1kvOvNGEGAGeom5",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424934",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424934/My-Chemical-Romance-tickets-Mon-Aug-24-2026-Target-Field",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-minneapolis-tickets-8-24-2026/event/106964083"
   },
@@ -47928,12 +47928,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8230821",
+        "url": "https://www.ticketnetwork.com/en/p/8230821",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62m2z8Vc",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174"
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230821"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g6253xeaz",
@@ -50088,10 +50096,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8230822",
+        "url": "https://www.ticketnetwork.com/en/p/8230822",
+        "verified": true,
+        "last_verified_at": "2026-08-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62mo98gp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230822"
   }
 ]

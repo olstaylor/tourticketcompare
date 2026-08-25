@@ -1282,7 +1282,7 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   return `Next date: ${next} · ${shows.length} upcoming ${shows.length === 1 ? "date" : "dates"}`;
 }
 
-function renderArtistLinks(catalog, events = [], now = Date.now(), { collapseSecondary = false } = {}) {
+function renderArtistLinks(catalog, events = [], now = Date.now()) {
   const renderCards = (artists) => `<div class="artist-card-grid">${artists
     .map((artist) => {
       const status = artistCardStatus(catalog, artist, events, now);
@@ -1300,18 +1300,17 @@ function renderArtistLinks(catalog, events = [], now = Date.now(), { collapseSec
     })
     .join("")}</div>`;
   const { primary, secondary } = splitArtistsByUpcoming(catalog.artists, events, now);
-  // Only the homepage collapses the dateless roster, to keep the conversion
-  // path short. /artists is the directory people open precisely to browse the
-  // full roster, so it keeps the same list expanded.
-  const secondaryBody = `<div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(
-    secondary
-  )}`;
-  const secondaryHtml = !secondary.length
-    ? ""
-    : collapseSecondary
-      ? `<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${secondary.length} without dates currently listed)</summary>${secondaryBody}</details>`
-      : `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle">${secondaryBody}</section>`;
-  return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondaryHtml}`;
+  return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondary.length ? `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle"><div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(secondary)}</section>` : ""}`;
+}
+
+function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
+  const html = renderArtistLinks(catalog, events, now);
+  const marker = '<section class="artist-status-section artist-status-section--secondary"';
+  const secondaryAt = html.indexOf(marker);
+  if (secondaryAt < 0) return html;
+  const secondaryHtml = html.slice(secondaryAt);
+  const count = splitArtistsByUpcoming(catalog.artists, events, now).secondary.length;
+  return `${html.slice(0, secondaryAt)}<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${count} without dates currently listed)</summary>${secondaryHtml}</details>`;
 }
 
 function cityShowCountLabel(count) {
@@ -4040,7 +4039,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/editorial-policy") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="editorialTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">Nothing goes on this site unless we can check where it came from. These are the rules we hold ourselves to.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist pages for major tours, with summaries drawn from confirmed public sources.</li><li>Links to artist pages on official ticketing sites, once we've followed them.</li><li>Links for a specific date, where we've checked the date, the venue, and where the link lands.</li><li>Current prices from ticket sites for that same show, each labelled with the provider and the time we captured it — and we'll only call one lower when we have fresh figures for both.</li><li>Guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>Generated content and review</h2><p>Automation can prepare a draft, but it cannot publish a factual claim on its own. Every generated page needs a named editorial owner, source links for factual claims, and human review before publication. We label time-sensitive information with its last updated date where the underlying data supports one.</p></section><section class="nested-panel"><h2>What has to be true before a button appears</h2><p>The artist has to be one we've verified, the destination has to be a link we've configured and checked, and the link has to pass our outbound safety checks. For a specific date, we also need an event record with a confirmed date, venue, and artist. Where we have none of that, you get an honest empty state instead of a button.</p></section><section class="nested-panel"><h2>What we won't publish</h2><ul class="check-list"><li>Tour dates, venues, or cities we've made up.</li><li>Prices or availability we can't trace to an approved source.</li><li>Claims about partnerships or coverage we can't back up.</li><li>Fake comparison tables, placeholder prices, or a "cheaper" claim with only one side's figures.</li><li>Anything scraped off a ticket site or a competitor.</li><li>AI-generated filler, internal notes, or administrative instructions presented as public content.</li><li>Savings or discount claims we can't evidence.</li><li>Event schema on a page with no confirmed event data behind it.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a button's broken, sends you somewhere wrong, or a detail looks off, tell us on the ${anchor(
+    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">Nothing goes on this site unless we can check where it came from. These are the rules we hold ourselves to.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist pages for major tours, with summaries drawn from confirmed public sources.</li><li>Links to artist pages on official ticketing sites, once we've followed them.</li><li>Links for a specific date, where we've checked the date, the venue, and where the link lands.</li><li>Current prices from ticket sites for that same show, each labelled with the provider and the time we captured it — and we'll only call one lower when we have fresh figures for both.</li><li>Guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>Generated content and review</h2><p>Automation can prepare editorial prose as a draft, but it cannot publish that prose on its own. Every generated editorial page needs a named owner, source links for factual claims, and human review before publication. Confirmed event data may be published by our approved automated checks for artists we already track; those checks validate the source and record before the page updates. We label time-sensitive information with its last updated date where the underlying data supports one.</p></section><section class="nested-panel"><h2>What has to be true before a button appears</h2><p>The artist has to be one we've verified, the destination has to be a link we've configured and checked, and the link has to pass our outbound safety checks. For a specific date, we also need an event record with a confirmed date, venue, and artist. Where we have none of that, you get an honest empty state instead of a button.</p></section><section class="nested-panel"><h2>What we won't publish</h2><ul class="check-list"><li>Tour dates, venues, or cities we've made up.</li><li>Prices or availability we can't trace to an approved source.</li><li>Claims about partnerships or coverage we can't back up.</li><li>Fake comparison tables, placeholder prices, or a "cheaper" claim with only one side's figures.</li><li>Anything scraped off a ticket site or a competitor.</li><li>AI-generated filler, internal notes, or administrative instructions presented as public content.</li><li>Savings or discount claims we can't evidence.</li><li>Event schema on a page with no confirmed event data behind it.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a button's broken, sends you somewhere wrong, or a detail looks off, tell us on the ${anchor(
       "contact page",
       "/contact",
       "text-link"
@@ -4062,11 +4061,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Start with a search</h2><p id="searchWidgetIntro">Enter an artist, city, venue, or tour above to see matching checked dates and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid">${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
-  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
+  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderHomepageArtistLinks(
     catalog,
-    events,
-    Date.now(),
-    { collapseSecondary: true }
+    events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",

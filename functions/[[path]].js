@@ -1282,7 +1282,7 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   return `Next date: ${next} · ${shows.length} upcoming ${shows.length === 1 ? "date" : "dates"}`;
 }
 
-function renderArtistLinks(catalog, events = [], now = Date.now()) {
+function renderArtistLinks(catalog, events = [], now = Date.now(), { collapseSecondary = false } = {}) {
   const renderCards = (artists) => `<div class="artist-card-grid">${artists
     .map((artist) => {
       const status = artistCardStatus(catalog, artist, events, now);
@@ -1300,7 +1300,18 @@ function renderArtistLinks(catalog, events = [], now = Date.now()) {
     })
     .join("")}</div>`;
   const { primary, secondary } = splitArtistsByUpcoming(catalog.artists, events, now);
-  return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondary.length ? `<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${secondary.length} without dates currently listed)</summary><div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(secondary)}</details>` : ""}`;
+  // Only the homepage collapses the dateless roster, to keep the conversion
+  // path short. /artists is the directory people open precisely to browse the
+  // full roster, so it keeps the same list expanded.
+  const secondaryBody = `<div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(
+    secondary
+  )}`;
+  const secondaryHtml = !secondary.length
+    ? ""
+    : collapseSecondary
+      ? `<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${secondary.length} without dates currently listed)</summary>${secondaryBody}</details>`
+      : `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle">${secondaryBody}</section>`;
+  return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondaryHtml}`;
 }
 
 function cityShowCountLabel(count) {
@@ -4042,7 +4053,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
   ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
     catalog,
-    events
+    events,
+    Date.now(),
+    { collapseSecondary: true }
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",

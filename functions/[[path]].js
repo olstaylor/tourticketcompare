@@ -1380,14 +1380,25 @@ function renderCityLinks(cities) {
 }
 
 // Shared by the city and venue templates. It combines a correction route with
-// the latest verification date derived from the current event set, so visitors
-// can judge the freshness of a fast-changing local schedule.
+// the newest `last_verified_at` among the shows currently on the page, which
+// _cities.js and _venues.js derive from the live event set on every render — so
+// the date follows the data automatically and needs no editorial upkeep.
+//
+// It is deliberately labelled as one event record rather than as a page update.
+// Those timestamps carry mixed semantics across records and many shows have no
+// value at all (see the artist provenance note below), so "Last updated" would
+// claim a whole-schedule review that never happened. Naming the record keeps
+// the claim to exactly what the data supports, and matches the wording the
+// artist-city template already uses for the same value.
 function renderLocationProvenance(reportLabel, lastUpdated = "") {
-  const updated = formatVerificationDate(lastUpdated);
+  const checked = formatVerificationDate(lastUpdated);
   return `<section class="guide-provenance" aria-label="Editorial and data information"><p><strong>Maintained by the TourTicketCompare editorial team.</strong> ${anchor(
     "Editorial policy",
     "/editorial-policy"
-  )}${updated ? ` · Last updated ${escapeHtml(updated)}` : ""} · ${anchor(reportLabel, "/contact")}</p></section>`;
+  )}${checked ? ` · Most recently checked event record: ${escapeHtml(checked)}` : ""} · ${anchor(
+    reportLabel,
+    "/contact"
+  )}</p></section>`;
 }
 
 function artistIndexableCities(events, artistSlug) {

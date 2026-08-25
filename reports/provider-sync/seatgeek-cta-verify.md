@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-08-24T05:46:41.528Z
+Generated: 2026-08-25T05:41:32.635Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,14 +9,14 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 70 (needs_recheck: 70, provenance backfill: 0, stale re-check: 32)
-- Events skipped before API checks: 89
-- API calls made: 71
+- Events selected: 69 (needs_recheck: 69, provenance backfill: 0, stale re-check: 32)
+- Events skipped before API checks: 90
+- API calls made: 69
 - Verified provenance written: 32
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 1
+- Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 0
 - No qualifying listing: 37
 - Transient API errors (untouched, retried next run): 0
@@ -64,7 +64,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | verify (applied) | 18257241 | https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241 | - |
 | tm-shakira-2026-madrid-z7r9jz1aazaza | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-bad-bunny-2026-san-juan-z7r9jz1aazm40 | bad-bunny | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18513312 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-karol-g-2026-arlington-z7r9jz1a7xfrb | karol-g | verify (applied) | 18166850 | https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850 | - |
 | tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -190,3 +189,4 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-jelly-roll-2026-colorado-springs-z7r9jz1a7xfou | jelly-roll | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-john-summit-2026-chicago-z7r9jz1aazo4o | john-summit | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-san-juan-z7r9jz1aazgb_ | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-bad-bunny-2026-san-juan-z7r9jz1aazm40 | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |

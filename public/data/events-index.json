@@ -8898,5 +8898,17 @@
     "timezone": "Europe/Brussels",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-manchester-17uyv0g62mo98gp",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "country": "Great Britain",
+    "city": "Manchester",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-18T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

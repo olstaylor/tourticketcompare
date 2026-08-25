@@ -156,6 +156,16 @@
       var results = document.getElementById("search-widget");
       if (results) results.scrollIntoView({ behavior: "smooth", block: "start" });
     });
+    // Searching stays submit-driven, but clearing the field has to run the
+    // empty-query path on its own: renderResults() is what restores the
+    // pre-search heading, so without this the field empties while "Search
+    // results" and the previous matches stay on screen. The `search` event
+    // covers the native clear button on input[type=search].
+    var handleClear = function () {
+      if (!input.value.trim()) renderResults("");
+    };
+    input.addEventListener("input", handleClear);
+    input.addEventListener("search", handleClear);
     var query = new URLSearchParams(window.location.search).get("q");
     if (query) {
       input.value = query;

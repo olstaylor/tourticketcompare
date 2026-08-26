@@ -3301,7 +3301,7 @@
     "ticketmaster_event_id": "370064FB915D0D56",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-18-04-2027/event/370064FB915D0D56",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-18-2027--concerts-rb/production/7473826",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-18-04-2027/event/370064FB915D0D56",
     "last_verified_at": null,
@@ -3323,11 +3323,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7473826,
+        "url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-18-2027--concerts-rb/production/7473826",
+        "verified": true,
+        "last_verified_at": "2026-08-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

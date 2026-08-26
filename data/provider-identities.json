@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-26",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -359,6 +359,116 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-08-21: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "don-omar",
+      "ticketmaster_attraction_id": "K8vZ9175yK0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/don-omar-tickets/artist/1031846",
+      "seatgeek_performer_id": 8964,
+      "seatgeek_artist_url": "https://seatgeek.com/don-omar-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "luke-combs",
+      "ticketmaster_attraction_id": "K8vZ917KVr7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/luke-combs-tickets/artist/2150342",
+      "seatgeek_performer_id": 347303,
+      "seatgeek_artist_url": "https://seatgeek.com/luke-combs-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "blue-october",
+      "ticketmaster_attraction_id": "K8vZ9171wrV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/blue-october-tickets/artist/712450",
+      "seatgeek_performer_id": 330,
+      "seatgeek_artist_url": "https://seatgeek.com/blue-october-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "pentatonix",
+      "ticketmaster_attraction_id": "K8vZ9172Wtf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/pentatonix-tickets/artist/1747243",
+      "seatgeek_performer_id": 20599,
+      "seatgeek_artist_url": "https://seatgeek.com/pentatonix-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "tyla",
+      "ticketmaster_attraction_id": "K8vZ917h2v0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tyla-tickets/artist/798720",
+      "seatgeek_performer_id": 197267,
+      "seatgeek_artist_url": "https://seatgeek.com/tyla-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "nothing-but-thieves",
+      "ticketmaster_attraction_id": "K8vZ917oXa7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/nothing-but-thieves-tickets/artist/1939994",
+      "seatgeek_performer_id": 259704,
+      "seatgeek_artist_url": "https://seatgeek.com/nothing-but-thieves-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "trivium",
+      "ticketmaster_attraction_id": "K8vZ9175Ylf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/trivium-tickets/artist/962593",
+      "seatgeek_performer_id": 2706,
+      "seatgeek_artist_url": "https://seatgeek.com/trivium-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "sabaton",
+      "ticketmaster_attraction_id": "K8vZ917GNYV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/sabaton-tickets/artist/1432007",
+      "seatgeek_performer_id": 12809,
+      "seatgeek_artist_url": "https://seatgeek.com/sabaton-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "in-flames",
+      "ticketmaster_attraction_id": "K8vZ9171n_V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/in-flames-tickets/artist/781515",
+      "seatgeek_performer_id": 879,
+      "seatgeek_artist_url": "https://seatgeek.com/in-flames-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "beartooth",
+      "ticketmaster_attraction_id": "K8vZ9178zM0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/beartooth-tickets/artist/1836474",
+      "seatgeek_performer_id": 112450,
+      "seatgeek_artist_url": "https://seatgeek.com/beartooth-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
     }
   ]
 }

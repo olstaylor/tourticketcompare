@@ -4,7 +4,7 @@ Last updated: 2026-08-21 (content); facts corrected 2026-08-23. Owner-managed: a
 
 ## Active priorities (in order)
 
-All remaining active work is **operational** (owner + gated tooling), not engineering. Each item stays here until verifiably done.
+Items 1–4 are **operational** (owner + gated tooling), not engineering; item 5 is the one engineering task, added 2026-08-26 at owner request. Each item stays here until verifiably done.
 
 ### 1. Affiliate-pivot owner follow-ups (2026-07-02)
 
@@ -29,7 +29,7 @@ Run `npm run artists:onboard:propose` with target artist names (US/EU major tour
 
 **Candidate shortlist captured 2026-07-29** (manifests live in gitignored `artifacts/` and do not survive environment recycling, so names are recorded here): identity already captured cleanly via `artists:onboard:propose` for **Gracie Abrams, Niall Horan, Doja Cat, Sombr, Latto, John Summit** — all six have since been promoted (see Recently completed). Next candidates for a fresh `roster:forecast:candidates` pass: re-run against current data: the last roster-growth batch is now several weeks old and the indexable surface continues to decay as dates pass (`npm run roster:forecast`).
 
-**Batch captured 2026-08-26** (fact added by agent; manifest `artifacts/onboarding/batch-2026-08-26.json` is gitignored, so names are recorded here). Ten shells created, all `review_required`/noindex/no CTA, each captured with an exact-name match on both SeatGeek and Ticketmaster: **Don Omar, Luke Combs, Blue October, Pentatonix, Tyla, Nothing But Thieves, Trivium, Sabaton, In Flames, Beartooth**. Shortlisted from the `roster:forecast:candidates` ranking by headliner status — that ranking scores at-risk-page coverage, not tour scale, so it surfaced support acts (Avery Anna and Treaty Oak Revival share the Luke Combs package's exact market fingerprint; Initiate, Koyo and Senses Fail share another) and club-tier names, none of which were taken. **Promoted 2026-08-26** (fact updated by agent): the owner browser-checked all 20 destinations and confirmed them, and `artists:promote:batch --write` added the registry entries and both artist-level CTAs for all ten. All ten are now `indexable_with_substantial_content` with 0 event records, so they render artist-level CTAs and an empty board until the TM/SeatGeek discovery pipelines land dates — the same state beyonce, raye and tate-mcrae are in.
+**Batch captured 2026-08-26** (fact added by agent; manifest `artifacts/onboarding/batch-2026-08-26.json` is gitignored, so names are recorded here). Ten shells created, all `review_required`/noindex/no CTA, each captured with an exact-name match on both SeatGeek and Ticketmaster: **Don Omar, Luke Combs, Blue October, Pentatonix, Tyla, Nothing But Thieves, Trivium, Sabaton, In Flames, Beartooth**. Shortlisted from the `roster:forecast:candidates` ranking by headliner status — that ranking scores at-risk-page coverage, not tour scale, so it surfaced support acts (Avery Anna and Treaty Oak Revival share the Luke Combs package's exact market fingerprint; Initiate, Koyo and Senses Fail share another) and club-tier names, none of which were taken. **Promoted 2026-08-26** (fact updated by agent): the owner browser-checked all 20 destinations and confirmed them, and `artists:promote:batch --write` added the registry entries and both artist-level CTAs for all ten. All ten are now `indexable_with_substantial_content` with 0 event records. Merged as PR #774 on 2026-08-26 (which also carried the shell commit, superseding PR #771). **Fact corrected 2026-08-26:** a promoted artist with 0 events renders the empty-state watchlist board and **no CTA button** — the artist-level `VERIFIED_TICKET_LINKS` entries exist and resolve, but `emptyStateProviderCta` is `null` and `renderProviderFallback` only runs when the board has shows, so the buttons appear once dates land. Verified in production. This is the same state beyonce, raye and tate-mcrae are in; the "artist-level CTAs only" wording used for them elsewhere overstates what an empty board shows.
 
 Remaining `review_required` shells awaiting Promote: **sabrina-carpenter, lady-gaga** (held pending live dates), **the-weeknd, coldplay** (SeatGeek-first, international-domain caveat — 0/1 upcoming SeatGeek events at last capture), **system-of-a-down, laura-pausini** (2026-07-31 batch, owner browser-checked TM identities; identity captured cleanly 2026-08-21 but held back at Promote on 1 and 0 upcoming SeatGeek events respectively — promotable with `--slugs` whenever dates land). Before Promote for any of these: regenerate an API-captured SeatGeek/Ticketmaster manifest with `--allow-existing-shells`, confirm captured identities match reviewed destinations, and complete the per-artist browser checklist. **Journey**, **rush** and **muse** need manual identity resolution: SeatGeek returns no exact-name performer match for any of them, only tribute acts and unrelated names, so `artists:onboard:propose` refuses them by design.
 
@@ -42,10 +42,28 @@ The other six of that batch — **karol-g, foo-fighters, metallica, my-chemical-
 - **Tombstone dedup deletions:** when deleting a row from `events.json` that Ticketmaster still lists, add its ids and/or venue/date to `data/deleted-events.json` in the same change (see `docs/PROVIDER_SYNC.md` and `docs/OPERATIONS.md` → Known incidents).
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
+### 5. Unvalidated-PR-head guard (added 2026-08-26, agent-authored at owner request)
+
+**Problem, observed twice.** GitHub sometimes creates no `synchronize` run when a PR receives a later push, so the branch stays validated only at the commit the PR was opened on. `.github/workflows/prelaunch-validation.yml` already documents the first occurrence (2026-08-03/04) in its own comments, and that is why its `workflow_dispatch` + `ref` escape hatch exists.
+
+It recurred on 2026-08-26 during PR #774: pushing `cce8f9d` and then `3d79cc9` produced no run for the head commit, while two earlier runs (733, 734) sat permanently `queued` through an Actions incident and never started. The PR sat with only a Cloudflare Pages check for roughly 50 minutes while appearing merely "pending".
+
+**Why the existing hatch is not enough.** `workflow_dispatch` only helps once a human notices the run is missing, and nothing surfaces the gap. There is no signal distinguishing "CI still running" from "CI will never run on this commit".
+
+**Suggested shape** (not designed or approved — scope before building):
+
+- A scheduled check that lists open PRs and flags any whose head SHA has no Prelaunch Validation run, or whose newest run has been `queued` beyond a threshold.
+- Report through the existing rolling-issue pattern used by `automation:daily-audit` / `automation:data-sync` rather than a new notification channel.
+- Must fail safe: a missing run is a *warning to a human*, never an automatic merge, re-run, or approval.
+
+**Notes for whoever picks this up.** Two traps hit on 2026-08-26: `actions/checkout` resolves the workflow's `ref` input as a branch or tag, so an **abbreviated SHA does not resolve** — pass a full 40-character SHA or leave it empty; and `workflow_dispatch` runs do **not** attach a check run to the PR, so any watcher must inspect workflow runs by `head_sha`, not the PR's check runs.
+
 ## Recently completed
 
 Closed on GitHub; kept as a short audit trail only. Full detail lives in the linked PRs and git history.
 
+- Roster growth batch of ten — shells + promote with verified CTAs (2026-08-26, PR #774; supersedes #771)
+- Truthful artist link copy — links note gated on editorial status, hover-to-inspect FAQ replaced across all 50 artists (2026-08-26, PR #772)
 - Full-board price coverage + honest unavailable state (2026-08-04, PRs #646/#657)
 - Impact diagnostics security pass — `/api/impact/*` + `/api/debug-seatgeek` token-gated (2026-08-03, PR #648)
 - Content editor isolated on `admin.tourticketcompare.com` (2026-08-04, PR #652; owner DNS/OAuth setup completed 2026-08-19 — editor live)

@@ -1,6 +1,6 @@
 ---
 name: artist-onboarding
-description: Use when adding a new artist to TourTicketCompare, promoting an existing artist shell to indexable/CTA status, or adding events for an already-promoted artist. Covers the gated Proposal → Shell → Promote → Events workflow, required evidence, field-level templates, prohibited fields, CTA/no-price rules, and the validation commands each phase must pass.
+description: Use when adding a new artist to TourTicketCompare, promoting an existing artist shell to indexable/CTA status, or adding events for an already-promoted artist. Covers the gated Shell → Promote → Events workflow, required evidence, field-level templates, prohibited fields, CTA/no-price rules, and the validation commands each phase must pass.
 ---
 
 # Artist Onboarding
@@ -23,7 +23,7 @@ For multiple artists, prefer the API-captured batch workflow: `npm run artists:o
 | 4 | First `indexing_status`? | Always `review_required`. Promote to `indexable_with_substantial_content` only when `out.js` entry is confirmed — both must land in the same PR |
 | 5 | Files that change per phase? | See "Phase-by-phase workflow" |
 | 6 | Validation commands in order? | See "Validation commands" |
-| 7 | What must remain human-reviewed? | Browser URL confirmation for each provider destination; tour name from event page; rights and commercial/link model |
+| 7 | What must remain human-reviewed? | First browser URL confirmation of each provider destination (never skippable; the repeat check before Promote holds for 14 days while automated liveness is clean); tour name from event page; rights and commercial/link model |
 | 8 | Safest first batch size? | Shell phase: up to 20 shells per automated PR (no CTAs, noindex; `TM_SHELL_MAX_PER_RUN`). Promote: up to 20 artists per PR via `npm run artists:promote:batch` — every artist gets a browser spot-check tick row in the PR-body checklist, and merge is blocked until all rows are ticked (single-artist `npm run artist:promote` still works) |
 | 9 | Exact Claude prompt to propose (not implement) the next artist? | See "AI proposal prompt" |
 
@@ -65,23 +65,25 @@ Use only these sources. Do not invent, infer, or copy from competitor sites.
 ## 2. Phase-by-phase workflow
 
 ```
-[ PROPOSAL ]  →  gate 1  →  [ SHELL ]  →  gate 2  →  [ PROMOTE ]  →  gate 3  →  [ EVENTS ]
+[ SHELL ]  →  gate 1  →  [ PROMOTE ]  →  gate 2  →  [ EVENTS ]
 ```
 
 Each gate is a human checkpoint. No phase may begin until the preceding gate is fully cleared.
 
-### Phase 1 — Proposal
+### Phase 1 — Shell (evidence, then an artist page with no CTAs)
 
 **Who:** Human (or human-reviewed AI output using the prompt below).
 
-**Purpose:** Gather and record all evidence before touching any file.
+**`indexing_status: "review_required"` throughout this phase.** A shell is noindex and carries no CTAs, so nothing written here is publicly consequential — gate 1 below stands between a shell and anything a visitor can see or click. Evidence gathering and the shell record are one phase for that reason; the evidence requirements themselves are unchanged and every item below must still hold before the record is written.
+
+#### Step 1 — gather evidence before touching any file
 
 **Deliverables:**
 - Completed proposal template (below) with all fields filled
 - Accepted verification source URL for touring activity noted and dated
 - API-captured provider identity URLs identified (SeatGeek performer page for the preferred batch path, plus Ticketmaster artist page when available); none are added to production files yet
 
-**Gate 1 checklist — human must confirm all before Phase 2:**
+**All of the following must hold before writing the shell record:**
 
 - [ ] Artist name and slug are unambiguous, URL-safe, unique among existing slugs in `artists.json`
 - [ ] Touring activity confirmed from an accepted verification source (URL and date recorded)
@@ -93,9 +95,7 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 - [ ] `BACKLOG.md` does not park this specific artist
 - [ ] No other artist-addition PR is open or in progress
 
-### Phase 2 — Shell (adds artist page with no CTAs)
-
-**`indexing_status: "review_required"` throughout this phase.**
+#### Step 2 — write the shell
 
 | File | What changes |
 |------|-------------|
@@ -108,16 +108,18 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 - **`functions/api/shows.js` is never touched per-artist.** `ARTIST_LINKS_BY_PROVIDER` is derived at runtime from `VERIFIED_TICKET_LINKS` in `out.js`; the artist appears in it automatically once promoted.
 - **`functions/_route-metadata.js` is not required.** Artist routes derive title, description, H1, canonical, and breadcrumbs dynamically from `catalog.json` via `[[path]].js`.
 
-**Gate 2 checklist — human must confirm all before Phase 3:**
+**Gate 1 checklist — human must confirm all before Phase 2 (Promote):**
 
 - [ ] Shell PR merged and deployed
 - [ ] `https://tourticketcompare.com/artists/<slug>` renders a watchlist empty state — no broken CTAs, no placeholder copy
 - [ ] `npm run artist:check -- <slug>` exits 0 (WARN expected for `review_required` with no verified providers)
 - [ ] No other page broken — spot-check homepage, `/artists` index, one existing artist page
-- [ ] Every provider destination used by the planned promotion is re-confirmed live in a browser on the day Phase 3 begins
+- [ ] Every provider destination used by the planned promotion was confirmed live in a browser **within the last 14 days**, and its automated liveness check is currently clean (no TM-skip/failure and no WAF block holding the artist's `last_verified_at` bump). Re-open it in a browser if either condition fails, or if anything about the destination changed since it was checked.
 - [ ] Exact provider URLs and identity IDs for every planned `VERIFIED_TICKET_LINKS` entry are recorded
 
-### Phase 3 — Promote (adds CTA, promotes indexing status)
+> The first browser confirmation of a destination is never skippable — it is what proves the URL is a real, correct, live page for this artist. The 14-day window replaces only the *repeat* check on a destination already confirmed, and only while automated liveness is clean; a blocked or failing check means liveness is unproven, so the browser check comes back.
+
+### Phase 2 — Promote (adds CTA, promotes indexing status)
 
 **`indexing_status` moves to `"indexable_with_substantial_content"` in this phase.**
 
@@ -141,7 +143,7 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 
 The `indexing_status` promotion and the `out.js` entry must land in the **same PR**. Never set `indexable_with_substantial_content` without a corresponding `VERIFIED_TICKET_LINKS` entry.
 
-**Gate 3 checklist — human must confirm all before Phase 4:**
+**Gate 2 checklist — human must confirm all before Phase 3 (Events):**
 
 - [ ] Promote PR merged and deployed
 - [ ] `curl -sI "/api/out?artistSlug=<slug>&provider=ticketmaster"` returns 302 to the correct TM destination
@@ -150,9 +152,11 @@ The `indexing_status` promotion and the `out.js` entry must land in the **same P
 - [ ] `npm run providers:identities:validate` passes (the new registry entry is valid and `sync_enabled` gating is satisfied)
 - [ ] `npm run test:mvp` passes (includes the `validate:cta-provider-state` guard — will FAIL without the `provider-identities.json` entry)
 
-### Phase 4 — Events (optional; separate PR)
+### Phase 3 — Events (optional)
 
-**Prerequisite:** Phase 3 gate cleared. Events must be a separate PR — do not bundle with Promote.
+**Prerequisite:** the gate 2 checklist is cleared for the artist.
+
+Events may ship in their own PR or in the same PR as that artist's Promote — the per-destination evidence below is required either way, and bundling never lets an event record skip it. Keep a bundled PR to the one artist: do not fold several artists' events together, and do not fold an unrelated change in. When Promote and Events are bundled, every gate 2 item must be satisfied within that PR before it merges.
 
 **Evidence required before adding any event:**
 - `ticketmaster_event_id` obtained from the TM Discovery API response or the official TM event page URL — **not inferred from URL slug patterns**
@@ -266,13 +270,15 @@ A ticket CTA button may only appear on the page if **all three** are true:
 
 Display precedence for freshness copy: provider-level timestamp (specific provider link on an event) → event-level timestamp (event-level verification copy) → artist-level timestamp (artist-wide verification copy) → if none exists, a neutral "verification date unavailable" message (no invented date).
 
-For new records, add verification dates only when you personally completed that exact verification step: set to the date you personally opened the destination URL in a browser and confirmed it resolved; never copy a date from another record; never use a future or placeholder date; update the date whenever you re-verify an existing link. Records with `last_checked_at` older than 90 days should be re-verified before a new artist is added in the same session.
+For new records, add verification dates only when you personally completed that exact verification step: set to the date you personally opened the destination URL in a browser and confirmed it resolved; never copy a date from another record; never use a future or placeholder date; update the date whenever you re-verify an existing link.
+
+Stale records elsewhere are no longer a precondition for adding an artist: the daily audit re-checks liveness and bumps `last_verified_at` on artists that come back clean, and holds the bump when a check is skipped, fails, or is WAF-blocked. Fix a genuinely stale record when the audit flags it, not as a toll on unrelated onboarding work.
 
 ---
 
 ## 6. New artist proposal template
 
-Fill every field before writing any file. If a field cannot be filled, the proposal is incomplete — do not proceed to Phase 2.
+Fill every field before writing any file. If a field cannot be filled, the evidence is incomplete — do not write the shell record.
 
 ```
 ## Artist Proposal — <Artist Name>
@@ -438,7 +444,7 @@ Generated by the single-artist promote command for the plain Ticketmaster lane (
 
 `functions/api/shows.js` and `functions/api/signup.js` need no per-artist snippets — both are derived at runtime. A current promoted artist should also have a verified SeatGeek performer identity when the batch onboarding path is used; Vivid Seats remains event-level only.
 
-`_route-metadata.js` needs no entry for a standard artist route (see Phase 2); only add one, keyed `"/artists/<slug>"` with `title`/`description`/`h1`/`canonical`/`breadcrumb`, if the dynamic defaults must be overridden.
+`_route-metadata.js` needs no entry for a standard artist route (see Phase 1 — Shell); only add one, keyed `"/artists/<slug>"` with `title`/`description`/`h1`/`canonical`/`breadcrumb`, if the dynamic defaults must be overridden.
 
 **Replace `YYYY-MM-DD` with today's date. Replace `XXXXXXX` with the real Ticketmaster artist ID. Do not publish this example verbatim.**
 

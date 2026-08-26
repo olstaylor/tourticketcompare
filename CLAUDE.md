@@ -24,14 +24,23 @@ See [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) for the full non-negoti
 
 ## Validation
 
-Always run before committing:
+Match the check to the change. CI (`prelaunch-validation.yml`) runs the full suite on every PR regardless, so a local run is about catching a failure early, not about proving the branch.
 
 ```bash
-npm run docs:check
-npm run test:mvp
+npm run test:content      # ~1s   — edited content/blog/*.md or content/guides/*.md
+npm run test:providers    # ~1s   — touched provider registry, CTA or allowlist data
+npm run test:routes       # ~20s  — touched routing, route metadata or internal links
+npm run test:quick        # ~60s  — touched several areas, or you are unsure
+npm run test:mvp          # ~75s  — REQUIRED below
 ```
 
-Targeted commands for a specific area (routes, content, providers, a single artist, schema, funnel/analytics) live in [CONTRIBUTING.md](CONTRIBUTING.md) — use those instead of re-running the full suite when the change is scoped. Report results honestly: "checks passed" or the actual failures, never skipped.
+Full command list per area (a single artist, schema, funnel/analytics) is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+**`npm run test:mvp` is required, locally and in-job, before committing anything that touches automation, provider sync, redirect, or affiliate logic** — the sanctioned auto-publish paths in [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) are gated on the complete suite passing on exactly the proposed content, so the fast lanes never substitute for it there.
+
+`test:quick` and `test:units` together are exactly `test:mvp`, split into data/route checks and script unit tests; `npm run test:lanes` enforces that partition, so a step added to `test:mvp` can never silently drop out of the fast lane.
+
+Report results honestly: "checks passed" or the actual failures, never skipped.
 
 ## Protected Areas
 
@@ -55,7 +64,7 @@ Named-shim trap: editing `functions/artists.js` etc. has **no effect** while `_m
 ## Working Style
 
 - **Read only files relevant to the task.** Do not scan or rewrite the whole repo.
-- **Make small, isolated changes.** One task = one or a few related commits. One PR per artist for Promote/Events phases.
+- **Make small, isolated changes.** One task = one or a few related commits. Artist onboarding batches up to 20 shells or 20 promotions per PR (see the onboarding skill) — keep it to one phase per PR, and keep it out of unrelated changes.
 - **Use plan mode / confirm scope first** for multi-step work, routing changes, schema changes, or anything touching protected files.
 - **Validate before committing**, then summarise: which files changed, what changed, which checks passed, what was not touched.
 - **Never invent data** — tours, dates, venues, prices, availability, providers, URLs. If a task seems to require inventing data or touching a protected file out of scope, stop and ask.

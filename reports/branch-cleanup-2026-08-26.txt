@@ -1,6 +1,19 @@
 Branch cleanup — generated 2026-08-26
 Repo: olstaylor/tourticketcompare
 
+STATUS: NOT YET EXECUTED. Ref deletion is blocked for the agent session that
+generated this file (HTTP 403 from the egress proxy — an organization policy
+denial on delete-pushes, not a credentials problem; ordinary pushes succeed).
+
+To execute locally, from a clone with normal push rights:
+
+    grep -A400 '^== DELETED' reports/branch-cleanup-2026-08-26.txt \
+      | awk 'NF==3 && $1 ~ /^#/ {print $3}' \
+      | xargs -n 25 git push origin --delete
+
+Then enable Settings -> General -> "Automatically delete head branches" so the
+sprawl does not regrow.
+
 Restore any branch with:  git push origin <sha>:refs/heads/<branch>
 
 == DELETED (PR-backed; also restorable from the PR page) ==

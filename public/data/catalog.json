@@ -25,7 +25,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -438,7 +438,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -473,7 +473,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -508,7 +508,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -543,7 +543,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -649,7 +649,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -684,7 +684,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -719,7 +719,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -754,7 +754,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -789,7 +789,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -824,7 +824,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -859,7 +859,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -894,7 +894,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -929,7 +929,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -964,7 +964,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -999,7 +999,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1034,7 +1034,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1069,7 +1069,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1104,7 +1104,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1139,7 +1139,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1174,7 +1174,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1209,7 +1209,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1244,7 +1244,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1279,7 +1279,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1314,7 +1314,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1349,7 +1349,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1384,7 +1384,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1419,7 +1419,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1454,7 +1454,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",

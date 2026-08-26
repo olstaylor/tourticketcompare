@@ -45,4 +45,34 @@ assert(server.includes("shows.length ? `${artist.name} tickets and tour dates` :
 assert(client.includes("const shouldNoindex = isReviewRequired;"), "client does not noindex an artist only because it has no future dates");
 assert(!server.includes("function artistCardTier") && !client.includes("function artistCardTier"), "the old mixed artist tier is removed");
 
+// The "About these links" note describes provider buttons. A review_required
+// artist renders none, so the note must be gated on editorial status — not on
+// board size, which would wrongly strip it from an indexable artist that has an
+// artist-level CTA and no upcoming dates (beyonce, raye, tate-mcrae).
+assert(
+  server.includes("const linksNoteHtml = isIndexableArtist"),
+  "server gates the links note on editorial status"
+);
+assert(
+  !/const linksNoteHtml = shows\.length/.test(server),
+  "server does not gate the links note on board size"
+);
+assert(
+  client.includes('summary.className = isReviewRequired ? "split-section split-section-single" : "split-section"'),
+  "client mirrors the server's links-note gate"
+);
+assert(
+  /if \(!isReviewRequired\) \{[\s\S]{0,200}About these links/.test(client),
+  "client only appends the links note for a promoted artist"
+);
+
+// The FAQ must not promise an inspection the interface cannot deliver: every
+// CTA routes through /api/out, so hovering exposes the internal redirect rather
+// than the provider hostname.
+const catalogText = fs.readFileSync(new URL("../public/data/catalog.json", import.meta.url), "utf8");
+assert(
+  !catalogText.includes("Hover over the link to see the full URL"),
+  "no artist FAQ tells users to hover a button to inspect the provider URL"
+);
+
 console.log(`artist-presentation: ${passed} assertions passed`);

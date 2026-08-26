@@ -3653,11 +3653,18 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const commercialHtml = shows.length
       ? `${showBoardHtml}${providerPanelHtml}${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
       : showBoardHtml;
-    const supportingHtml = `<section class="split-section"><div><h2>About ${escapeHtml(
-      artist.name
-    )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>About these links</h2><p>${escapeHtml(
-      artist.ticket_buying_notes
-    )}</p></div></section>${artistExtraContentHtml}${relatedGuidesHtml}`;
+    // "About these links" describes provider buttons. A review_required artist
+    // renders none — it has no artist-level CTA, and serverShowCtaSpecs returns
+    // [] for its show cards — so the note would describe links that are not on
+    // the page. Suppress it until the artist is promoted.
+    const linksNoteHtml = isIndexableArtist
+      ? `<div><h2>About these links</h2><p>${escapeHtml(artist.ticket_buying_notes)}</p></div>`
+      : "";
+    const supportingHtml = `<section class="split-section${
+      isIndexableArtist ? "" : " split-section-single"
+    }"><div><h2>About ${escapeHtml(artist.name)}</h2><p>${escapeHtml(
+      artist.factual_summary
+    )}</p></div>${linksNoteHtml}</section>${artistExtraContentHtml}${relatedGuidesHtml}`;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${supportingHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(

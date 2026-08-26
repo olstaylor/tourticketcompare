@@ -3165,14 +3165,19 @@ function renderArtist(artist) {
   }
 
   const summary = document.createElement("section");
-  summary.className = "split-section";
+  summary.className = isReviewRequired ? "split-section split-section-single" : "split-section";
   const left = document.createElement("div");
   text(left, "h2", `About ${artist.name}`);
   text(left, "p", artist.factual_summary);
-  const right = document.createElement("div");
-  text(right, "h2", "About these links");
-  text(right, "p", artist.ticket_buying_notes);
-  summary.append(left, right);
+  summary.append(left);
+  // Mirrors the server gate: the links note describes provider buttons that a
+  // review_required artist does not render.
+  if (!isReviewRequired) {
+    const right = document.createElement("div");
+    text(right, "h2", "About these links");
+    text(right, "p", artist.ticket_buying_notes);
+    summary.append(right);
+  }
 
   let relatedGuides = null;
   const relatedGuidePages = (Array.isArray(artist.related_guides) ? artist.related_guides : [])

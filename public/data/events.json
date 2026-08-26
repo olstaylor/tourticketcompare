@@ -15910,11 +15910,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7679355",
-        "url": "https://www.ticketnetwork.com/en/p/7679355",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7679355",
@@ -15935,7 +15935,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "k7vGFbyDOxcCX",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679355",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679355/Bruno-Mars-tickets-Tue-Aug-25-2026-MetLife-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-25-2026/event/107073306"
   },
@@ -26726,11 +26726,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7735039",
-        "url": "https://www.ticketnetwork.com/en/p/7735039",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7735039",
@@ -26743,7 +26743,7 @@
     "ticketmaster_discovery_event_id": "vv1AAZk8UGkeBKhuE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735039",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735039/Tame-Impala-tickets-Tue-Aug-25-2026-Nationwide-Arena"
   },
   {

@@ -48,11 +48,13 @@ The other six of that batch — **karol-g, foo-fighters, metallica, my-chemical-
 
 It recurred on 2026-08-26 during PR #774: pushing `cce8f9d` and then `3d79cc9` produced no run for the head commit, while two earlier runs (733, 734) sat permanently `queued` through an Actions incident and never started. The PR sat with only a Cloudflare Pages check for roughly 50 minutes while appearing merely "pending".
 
+**A third occurrence, on this task's own PR (#775), exposed a worse variant.** The branch was restarted from `main` and force-pushed to `e7356af`; no validation run was created for that head. GitHub instead associated run 728 with the PR — a **`success` run from `ab6a898`**, the previous, now-orphaned head that the force-push discarded. So the PR does not merely look "pending" with a run missing; it displays a **green Prelaunch Validation tick that validated different code**. Any guard must therefore compare the run's `head_sha` against the PR's current head, because presence of a green run on the PR is not evidence the head was validated.
+
 **Why the existing hatch is not enough.** `workflow_dispatch` only helps once a human notices the run is missing, and nothing surfaces the gap. There is no signal distinguishing "CI still running" from "CI will never run on this commit".
 
 **Suggested shape** (not designed or approved — scope before building):
 
-- A scheduled check that lists open PRs and flags any whose head SHA has no Prelaunch Validation run, or whose newest run has been `queued` beyond a threshold.
+- A scheduled check that lists open PRs and flags any whose head SHA has no Prelaunch Validation run, or whose newest run has been `queued` beyond a threshold. Match on `head_sha`, never on "the PR has a green run attached" — the third occurrence showed GitHub attaching a passing run from a discarded commit.
 - Report through the existing rolling-issue pattern used by `automation:daily-audit` / `automation:data-sync` rather than a new notification channel.
 - Must fail safe: a missing run is a *warning to a human*, never an automatic merge, re-run, or approval.
 

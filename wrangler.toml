@@ -9,10 +9,6 @@ CACHE_TTL_MINUTES = "60"
 TICKETMASTER_DAILY_CAP = "1000"
 TICKETMASTER_STALE_TTL_HOURS = "168"
 CLICK_TRACKING_ENABLED = "true"
-# Impact's authorised publisher link generator exposes this as “Sub Id 1”.
-# The opaque TTC click_id is therefore safe to pass through for reconciliation.
-OUT_CLICK_ID_SUBID_ENABLED = "true"
-OUT_CLICK_ID_SUBID_PARAM = "subId1"
 TICKETMASTER_DISCOVERY_ENABLED = "true"
 TICKETMASTER_EVENTS_TTL_MINUTES = "30"
 TICKETMASTER_ARTIST_EVENTS_LIMIT = "100"

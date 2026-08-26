@@ -82,6 +82,28 @@ Withdrawing a published guide — drafting, renaming or deleting it — fails th
 build unless `OLD_GUIDE_REDIRECTS` in `functions/_route-metadata.js` carries an
 entry for the old path. Authoring reference: [docs/BLOG.md](docs/BLOG.md).
 
+### Start here: pick a lane
+
+Measured on a clean checkout — match the lane to what you changed rather than
+reaching for the full suite. CI runs `test:mvp` on every PR anyway, so a local
+run exists to catch a failure early, not to prove the branch.
+
+| Lane | Time | Use when |
+| --- | --- | --- |
+| `npm run test:content` | ~1s | edited `content/blog/*.md` or `content/guides/*.md` |
+| `npm run test:providers` | ~1s | touched provider registry, CTA or allowlist data |
+| `npm run test:routes` | ~20s | touched routing, route metadata or internal links |
+| `npm run test:quick` | ~60s | touched several areas, or unsure |
+| `npm run test:units` | ~20s | changed one of the matching/sync/report scripts |
+| `npm run test:mvp` | ~75s | **required** for automation, provider-sync, redirect or affiliate changes |
+
+`test:quick` and `test:units` are an exact partition of `test:mvp`, enforced by
+`npm run test:lanes` — a step added to `test:mvp` cannot silently drop out of
+the fast lane. `test:mvp` itself must stay the complete suite: the sanctioned
+auto-publish paths in
+[SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) are gated on it passing
+in-job on exactly the proposed content.
+
 ### Route / provider / artist validators (run the ones relevant to your change)
 
 ```bash
@@ -144,16 +166,18 @@ npm run test:homepage-proposition             # homepage/artists/how-it-works co
 
 ### Targeted subset commands (scoped changes)
 
-Prefer these over the full `test:mvp` chain when a change is scoped to one area — useful for an agent that only needs to inspect and validate the relevant page/route type:
+Prefer these over the full `test:mvp` chain when a change is scoped to one area — useful for an agent that only needs to inspect and validate the relevant page/route type. Summarised with timings under "Start here: pick a lane" above.
 
 ```bash
-npm run test:routes      # route-metadata + route-indexability units, guide-route validation,
-                         #   and the internal-links crawl — routing/metadata changes
-npm run test:content     # blog:check + guides:check + content:provenance:check + guide-route
+npm run test:routes      # ~20s — route-metadata + route-indexability units, guide-route validation,
+                         #   and the internal-links crawl (the slow part) — routing/metadata changes
+npm run test:content     # ~1s  — blog:check + guides:check + content:provenance:check + guide-route
                          #   validation — content/copy changes (guides, trust pages, blog)
-npm run test:providers   # provider-structure, artist-provider-claims, CTA-provider-state,
+npm run test:providers   # ~1s  — provider-structure, artist-provider-claims, CTA-provider-state,
                          #   provider-allowlists, and provider-identities validators —
                          #   provider/CTA changes
+npm run test:quick       # ~60s — every data/route check in test:mvp, without the script unit tests
+npm run test:units       # ~20s — only the script unit tests (the *:self-test steps)
 ```
 
 ### Tooling self-tests (before changing the matching/snapshot scripts)

@@ -23,9 +23,9 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-08-21"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
-    title: "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery",
-    h1: "Vivid Seats vs Ticketmaster (2026): fees, safety and delivery",
-    description: "Compare Vivid Seats and Ticketmaster by ticket type, all-in pricing, fees, transfers, delivery, buyer protection, cancellations and rewards.",
+    title: "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
+    h1: "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
+    description: "Are Vivid Seats and Ticketmaster the same? No. Compare their primary vs resale roles, all-in pricing, fees, delivery and buyer protection.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",

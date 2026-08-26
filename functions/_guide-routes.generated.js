@@ -40,9 +40,9 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-08-21"
   },
   "/guides/seatgeek-vs-ticketmaster": {
-    title: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
-    h1: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
-    description: "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert.",
+    title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+    h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+    description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, current prices, fees, delivery and buyer protection.",
     fullContent: true,
     datePublished: "2026-07-13",
     lastmod: "2026-08-21"

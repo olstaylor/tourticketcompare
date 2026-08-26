@@ -23,26 +23,26 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-08-21"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
-    title: "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery",
-    h1: "Vivid Seats vs Ticketmaster (2026): fees, safety and delivery",
-    description: "Compare Vivid Seats and Ticketmaster by ticket type, all-in pricing, fees, transfers, delivery, buyer protection, cancellations and rewards.",
+    title: "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
+    h1: "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
+    description: "Are Vivid Seats and Ticketmaster the same? No. Compare their primary vs resale roles, all-in pricing, fees, delivery and buyer protection.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
     lastmod: "2026-08-20"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better?",
-    h1: "Vivid Seats vs Ticketmaster vs SeatGeek: Key Differences",
+    title: "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
+    h1: "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
     description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection before choosing where to buy.",
     fullContent: true,
     datePublished: "2026-06-11",
     lastmod: "2026-08-21"
   },
   "/guides/seatgeek-vs-ticketmaster": {
-    title: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
-    h1: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
-    description: "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert.",
+    title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+    h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+    description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, current prices, fees, delivery and buyer protection.",
     fullContent: true,
     datePublished: "2026-07-13",
     lastmod: "2026-08-21"

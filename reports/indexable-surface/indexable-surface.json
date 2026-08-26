@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:18:04.562Z",
+  "generated_at": "2026-08-26T15:02:22.514Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -35,7 +35,7 @@
     },
     "artist": {
       "rendered": 50,
-      "indexable": 32
+      "indexable": 42
     },
     "city": {
       "rendered": 107,
@@ -52,14 +52,14 @@
   },
   "overall": {
     "rendered": 671,
-    "indexable": 260,
-    "noindex": 411,
+    "indexable": 270,
+    "noindex": 401,
     "baseline_indexable": 227
   },
   "exclusion_reasons": {
     "artist": {
-      "artist_not_editorially_indexable": 18,
-      "no_upcoming_shows": 18
+      "artist_not_editorially_indexable": 8,
+      "no_upcoming_shows": 8
     },
     "city": {
       "below_show_threshold": 62,
@@ -127,6 +127,13 @@
       "reason": "runs_out_of_shows"
     },
     {
+      "path": "/artists/bts/tickets/inglewood-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-07",
+      "days_left": 11,
+      "reason": "runs_out_of_shows"
+    },
+    {
       "path": "/artists/karol-g/tickets/el-paso-united-states",
       "type": "artist-city",
       "last_show": "2026-09-07",
@@ -138,13 +145,6 @@
       "type": "artist-city",
       "last_show": "2026-09-07",
       "days_left": 11,
-      "reason": "runs_out_of_shows"
-    },
-    {
-      "path": "/artists/bts/tickets/inglewood-united-states",
-      "type": "artist-city",
-      "last_show": "2026-09-07",
-      "days_left": 12,
       "reason": "runs_out_of_shows"
     },
     {
@@ -207,35 +207,45 @@
   "orphan_indexable": [],
   "indexable_without_future_events": [
     "/artists/bad-bunny",
+    "/artists/beartooth",
     "/artists/beyonce",
+    "/artists/blue-october",
+    "/artists/don-omar",
+    "/artists/in-flames",
     "/artists/jelly-roll",
+    "/artists/luke-combs",
     "/artists/morgan-wallen",
+    "/artists/nothing-but-thieves",
+    "/artists/pentatonix",
     "/artists/post-malone",
     "/artists/raye",
     "/artists/rosalia",
-    "/artists/tate-mcrae"
+    "/artists/sabaton",
+    "/artists/tate-mcrae",
+    "/artists/trivium",
+    "/artists/tyla"
   ],
   "duplicate_titles": [],
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
       "count": 92,
-      "share_of_indexable": 35.4
+      "share_of_indexable": 34.1
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
       "count": 54,
-      "share_of_indexable": 20.8
+      "share_of_indexable": 20
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
       "count": 45,
-      "share_of_indexable": 17.3
+      "share_of_indexable": 16.7
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
-      "count": 31,
-      "share_of_indexable": 11.9
+      "count": 41,
+      "share_of_indexable": 15.2
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -563,16 +573,16 @@
         },
         "after": {
           "rendered": 50,
-          "indexable": 32
+          "indexable": 42
         },
         "at_baseline_instant": {
           "rendered": 50,
-          "indexable": 32
+          "indexable": 42
         },
         "kind": "unexplained-growth",
-        "indexableDelta": 14,
+        "indexableDelta": 24,
         "clockDelta": 0,
-        "residual": 14,
+        "residual": 24,
         "tolerance": 3
       },
       {
@@ -638,7 +648,7 @@
     ]
   },
   "warnings": [
-    "artist: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
+    "artist: 24 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
     "city: 10 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 4). Expected after an artist batch or a large discovery run.",
     "venue: 12 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.",
     "artist-city: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 10). Expected after an artist batch or a large discovery run."

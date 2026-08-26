@@ -528,6 +528,146 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-five-finger-death-punch",
     redirectUrl: "https://seatgeek.com/five-finger-death-punch-tickets",
     verified: true
+  },
+  "don-omar:ticketmaster": {
+    artistSlug: "don-omar",
+    provider: "ticketmaster",
+    linkId: "tm-artist-don-omar",
+    redirectUrl: "https://www.ticketmaster.com/don-omar-tickets/artist/1031846",
+    verified: true
+  },
+  "don-omar:seatgeek": {
+    artistSlug: "don-omar",
+    provider: "seatgeek",
+    linkId: "sg-artist-don-omar",
+    redirectUrl: "https://seatgeek.com/don-omar-tickets",
+    verified: true
+  },
+  "luke-combs:ticketmaster": {
+    artistSlug: "luke-combs",
+    provider: "ticketmaster",
+    linkId: "tm-artist-luke-combs",
+    redirectUrl: "https://www.ticketmaster.com/luke-combs-tickets/artist/2150342",
+    verified: true
+  },
+  "luke-combs:seatgeek": {
+    artistSlug: "luke-combs",
+    provider: "seatgeek",
+    linkId: "sg-artist-luke-combs",
+    redirectUrl: "https://seatgeek.com/luke-combs-tickets",
+    verified: true
+  },
+  "blue-october:ticketmaster": {
+    artistSlug: "blue-october",
+    provider: "ticketmaster",
+    linkId: "tm-artist-blue-october",
+    redirectUrl: "https://www.ticketmaster.com/blue-october-tickets/artist/712450",
+    verified: true
+  },
+  "blue-october:seatgeek": {
+    artistSlug: "blue-october",
+    provider: "seatgeek",
+    linkId: "sg-artist-blue-october",
+    redirectUrl: "https://seatgeek.com/blue-october-tickets",
+    verified: true
+  },
+  "pentatonix:ticketmaster": {
+    artistSlug: "pentatonix",
+    provider: "ticketmaster",
+    linkId: "tm-artist-pentatonix",
+    redirectUrl: "https://www.ticketmaster.com/pentatonix-tickets/artist/1747243",
+    verified: true
+  },
+  "pentatonix:seatgeek": {
+    artistSlug: "pentatonix",
+    provider: "seatgeek",
+    linkId: "sg-artist-pentatonix",
+    redirectUrl: "https://seatgeek.com/pentatonix-tickets",
+    verified: true
+  },
+  "tyla:ticketmaster": {
+    artistSlug: "tyla",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tyla",
+    redirectUrl: "https://www.ticketmaster.com/tyla-tickets/artist/798720",
+    verified: true
+  },
+  "tyla:seatgeek": {
+    artistSlug: "tyla",
+    provider: "seatgeek",
+    linkId: "sg-artist-tyla",
+    redirectUrl: "https://seatgeek.com/tyla-tickets",
+    verified: true
+  },
+  "nothing-but-thieves:ticketmaster": {
+    artistSlug: "nothing-but-thieves",
+    provider: "ticketmaster",
+    linkId: "tm-artist-nothing-but-thieves",
+    redirectUrl: "https://www.ticketmaster.com/nothing-but-thieves-tickets/artist/1939994",
+    verified: true
+  },
+  "nothing-but-thieves:seatgeek": {
+    artistSlug: "nothing-but-thieves",
+    provider: "seatgeek",
+    linkId: "sg-artist-nothing-but-thieves",
+    redirectUrl: "https://seatgeek.com/nothing-but-thieves-tickets",
+    verified: true
+  },
+  "trivium:ticketmaster": {
+    artistSlug: "trivium",
+    provider: "ticketmaster",
+    linkId: "tm-artist-trivium",
+    redirectUrl: "https://www.ticketmaster.com/trivium-tickets/artist/962593",
+    verified: true
+  },
+  "trivium:seatgeek": {
+    artistSlug: "trivium",
+    provider: "seatgeek",
+    linkId: "sg-artist-trivium",
+    redirectUrl: "https://seatgeek.com/trivium-tickets",
+    verified: true
+  },
+  "sabaton:ticketmaster": {
+    artistSlug: "sabaton",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sabaton",
+    redirectUrl: "https://www.ticketmaster.com/sabaton-tickets/artist/1432007",
+    verified: true
+  },
+  "sabaton:seatgeek": {
+    artistSlug: "sabaton",
+    provider: "seatgeek",
+    linkId: "sg-artist-sabaton",
+    redirectUrl: "https://seatgeek.com/sabaton-tickets",
+    verified: true
+  },
+  "in-flames:ticketmaster": {
+    artistSlug: "in-flames",
+    provider: "ticketmaster",
+    linkId: "tm-artist-in-flames",
+    redirectUrl: "https://www.ticketmaster.com/in-flames-tickets/artist/781515",
+    verified: true
+  },
+  "in-flames:seatgeek": {
+    artistSlug: "in-flames",
+    provider: "seatgeek",
+    linkId: "sg-artist-in-flames",
+    redirectUrl: "https://seatgeek.com/in-flames-tickets",
+    verified: true
+  },
+  "beartooth:ticketmaster": {
+    artistSlug: "beartooth",
+    provider: "ticketmaster",
+    linkId: "tm-artist-beartooth",
+    redirectUrl: "https://www.ticketmaster.com/beartooth-tickets/artist/1836474",
+    verified: true
+  },
+  "beartooth:seatgeek": {
+    artistSlug: "beartooth",
+    provider: "seatgeek",
+    linkId: "sg-artist-beartooth",
+    redirectUrl: "https://seatgeek.com/beartooth-tickets",
+    verified: true
   }
 };
 

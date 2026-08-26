@@ -459,90 +459,120 @@
     "slug": "don-omar",
     "name": "Don Omar",
     "short_description": "Puerto Rican reggaeton singer and rapper.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "luke-combs",
     "name": "Luke Combs",
     "short_description": "American country singer-songwriter from North Carolina.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "blue-october",
     "name": "Blue October",
     "short_description": "American rock band from Houston, Texas.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "pentatonix",
     "name": "Pentatonix",
     "short_description": "American a cappella group from Texas.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "tyla",
     "name": "Tyla",
     "short_description": "South African singer from Johannesburg.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "nothing-but-thieves",
     "name": "Nothing But Thieves",
     "short_description": "English rock band from Essex.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "trivium",
     "name": "Trivium",
     "short_description": "American heavy metal band from Florida.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "sabaton",
     "name": "Sabaton",
     "short_description": "Swedish power metal band from Falun.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "in-flames",
     "name": "In Flames",
     "short_description": "Swedish melodic death metal band from Gothenburg.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   },
   {
     "slug": "beartooth",
     "name": "Beartooth",
     "short_description": "American rock and metalcore band from Ohio.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-26"
   }
 ]

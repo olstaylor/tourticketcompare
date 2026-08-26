@@ -1,13 +1,13 @@
 # Indexable-surface audit
 
-Generated: 2026-08-26T14:18:04.562Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-08-26T15:02:22.514Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
 - rendered routes: 671
-- indexable: 260
-- non-indexable: 411
-- stored baseline indexable: 227 (+33)
+- indexable: 270
+- non-indexable: 401
+- stored baseline indexable: 227 (+43)
 
 ## Routes by type
 
@@ -19,7 +19,7 @@ Generated: 2026-08-26T14:18:04.562Z (read-only, rendered in-process — no live 
 | guide | 18 | 18 | 0 | 100% |
 | blog-post | 3 | 3 | 0 | 100% |
 | blog-tag | 3 | 2 | 1 | 67% |
-| artist | 50 | 32 | 18 | 64% |
+| artist | 50 | 42 | 8 | 84% |
 | city | 107 | 45 | 62 | 42% |
 | venue | 151 | 54 | 97 | 36% |
 | artist-city | 326 | 93 | 233 | 29% |
@@ -28,8 +28,8 @@ Generated: 2026-08-26T14:18:04.562Z (read-only, rendered in-process — no live 
 
 | Type | Reason | Routes |
 |---|---|---|
-| artist | artist_not_editorially_indexable | 18 |
-| artist | no_upcoming_shows | 18 |
+| artist | artist_not_editorially_indexable | 8 |
+| artist | no_upcoming_shows | 8 |
 | city | below_show_threshold | 62 |
 | city | below_artist_threshold | 46 |
 | venue | below_show_threshold | 90 |
@@ -48,9 +48,9 @@ Generated: 2026-08-26T14:18:04.562Z (read-only, rendered in-process — no live 
 | /artists/ed-sheeran/tickets/east-rutherford-united-states | artist-city | 2026-09-05 | 10 | runs_out_of_shows |
 | /artists/jay-z/tickets/london-united-kingdom | artist-city | 2026-09-05 | 10 | runs_out_of_shows |
 | /artists/bruno-mars/tickets/foxborough-united-states | artist-city | 2026-09-06 | 11 | runs_out_of_shows |
+| /artists/bts/tickets/inglewood-united-states | artist-city | 2026-09-07 | 11 | runs_out_of_shows |
 | /artists/karol-g/tickets/el-paso-united-states | artist-city | 2026-09-07 | 11 | runs_out_of_shows |
 | /artists/tame-impala/tickets/vancouver-canada | artist-city | 2026-09-07 | 11 | runs_out_of_shows |
-| /artists/bts/tickets/inglewood-united-states | artist-city | 2026-09-07 | 12 | runs_out_of_shows |
 | /cities/east-rutherford-united-states | city | 2026-09-18 | 23 | falls_below_threshold |
 | /venues/metlife-stadium-east-rutherford | venue | 2026-09-18 | 23 | falls_below_threshold |
 | /venues/lincoln-financial-field-philadelphia | venue | 2026-09-19 | 24 | falls_below_threshold |
@@ -69,22 +69,32 @@ Generated: 2026-08-26T14:18:04.562Z (read-only, rendered in-process — no live 
 ## Indexable routes with no future events
 
 - /artists/bad-bunny
+- /artists/beartooth
 - /artists/beyonce
+- /artists/blue-october
+- /artists/don-omar
+- /artists/in-flames
 - /artists/jelly-roll
+- /artists/luke-combs
 - /artists/morgan-wallen
+- /artists/nothing-but-thieves
+- /artists/pentatonix
 - /artists/post-malone
 - /artists/raye
 - /artists/rosalia
+- /artists/sabaton
 - /artists/tate-mcrae
+- /artists/trivium
+- /artists/tyla
 
 ## Title patterns among indexable routes
 
 | Routes | Share | Pattern |
 |---|---|---|
-| 92 | 35.4% | `{} Tickets in {} | Compare Prices` |
-| 54 | 20.8% | `{} Concerts in {} | Tickets` |
-| 45 | 17.3% | `Concerts in {} | Upcoming Shows & Tickets` |
-| 31 | 11.9% | `{} Tickets & Tour Dates | TourTicketCompare` |
+| 92 | 34.1% | `{} Tickets in {} | Compare Prices` |
+| 54 | 20% | `{} Concerts in {} | Tickets` |
+| 45 | 16.7% | `Concerts in {} | Upcoming Shows & Tickets` |
+| 41 | 15.2% | `{} Tickets & Tour Dates | TourTicketCompare` |
 | 1 | 0.4% | `Compare Concert Tickets & Tour Dates | TourTicketCompare` |
 | 1 | 0.4% | `Compare Concert Ticket Prices by Site | TourTicketCompare` |
 | 1 | 0.4% | `Artists | TourTicketCompare` |
@@ -115,7 +125,7 @@ Baseline generated 2026-08-01T00:54:49.492Z.
 | guide | 17/17 | 18/18 | 18/18 | +0 | +1 (tol 3) | inventory-growth |
 | blog-post | 3/3 | 3/3 | 3/3 | +0 | +0 (tol 3) | unchanged |
 | blog-tag | 2/3 | 2/3 | 2/3 | +0 | +0 (tol 3) | unchanged |
-| artist | 18/40 | 32/50 | 32/50 | +0 | +14 (tol 3) | unexplained-growth |
+| artist | 18/40 | 42/50 | 42/50 | +0 | +24 (tol 3) | unexplained-growth |
 | city | 37/81 | 47/108 | 45/107 | -2 | +10 (tol 4) | unexplained-growth |
 | venue | 45/108 | 57/158 | 54/151 | -3 | +12 (tol 5) | unexplained-growth |
 | artist-city | 92/241 | 106/347 | 93/326 | -13 | +14 (tol 10) | unexplained-growth |
@@ -124,7 +134,7 @@ Baseline generated 2026-08-01T00:54:49.492Z.
 
 ## Warnings (non-blocking)
 
-- artist: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.
+- artist: 24 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.
 - city: 10 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 4). Expected after an artist batch or a large discovery run.
 - venue: 12 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.
 - artist-city: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 10). Expected after an artist batch or a large discovery run.

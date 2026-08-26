@@ -1308,7 +1308,15 @@ function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
   const marker = '<section class="artist-status-section artist-status-section--secondary"';
   const secondaryAt = html.indexOf(marker);
   if (secondaryAt < 0) return html;
-  const secondaryHtml = html.slice(secondaryAt);
+  // Unwrap the section rather than nesting it: the slice still carries its own
+  // opening tag, so wrapping it whole would emit a <section> with these same
+  // classes inside the <details>, and close the two in the wrong order. The
+  // secondary section is the last thing renderArtistLinks emits, so the slice
+  // ends at its closing tag.
+  const secondaryHtml = html
+    .slice(secondaryAt)
+    .replace(/^<section[^>]*>/, "")
+    .replace(/<\/section>$/, "");
   const count = splitArtistsByUpcoming(catalog.artists, events, now).secondary.length;
   return `${html.slice(0, secondaryAt)}<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${count} without dates currently listed)</summary>${secondaryHtml}</details>`;
 }

@@ -108,9 +108,17 @@
   async function renderResults(query) {
     var container = document.querySelector("#search-widget .search-results");
     if (!container) return;
+    var title = document.getElementById("searchSectionTitle");
+    var intro = document.getElementById("searchWidgetIntro");
     var term = fold(query.trim());
     container.replaceChildren();
-    if (!term) return;
+    if (!term) {
+      if (title) title.textContent = "Start with a search";
+      if (intro) intro.textContent = "Enter an artist, city, venue, or tour above to see matching checked dates and guides.";
+      return;
+    }
+    if (title) title.textContent = "Search results";
+    if (intro) intro.textContent = "Matches from checked artists, upcoming dates, and buying guides.";
     var loading = document.createElement("p");
     loading.className = "muted";
     loading.textContent = "Searching checked artists, shows, and guides…";
@@ -148,6 +156,16 @@
       var results = document.getElementById("search-widget");
       if (results) results.scrollIntoView({ behavior: "smooth", block: "start" });
     });
+    // Searching stays submit-driven, but clearing the field has to run the
+    // empty-query path on its own: renderResults() is what restores the
+    // pre-search heading, so without this the field empties while "Search
+    // results" and the previous matches stay on screen. The `search` event
+    // covers the native clear button on input[type=search].
+    var handleClear = function () {
+      if (!input.value.trim()) renderResults("");
+    };
+    input.addEventListener("input", handleClear);
+    input.addEventListener("search", handleClear);
     var query = new URLSearchParams(window.location.search).get("q");
     if (query) {
       input.value = query;

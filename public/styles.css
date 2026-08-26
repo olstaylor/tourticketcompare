@@ -416,6 +416,12 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+/* One-column variant for pages that suppress the second column — an artist
+   under review renders no provider buttons, so it carries no links note. */
+.split-section-single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .info-card,
 .artist-card,
 .provider-card,

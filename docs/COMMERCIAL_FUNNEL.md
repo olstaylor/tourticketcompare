@@ -227,8 +227,11 @@ API `TrackingLinks` endpoint are **not** covered.
 
 ### SubId verification procedure (owner, one-time)
 
-`OUT_CLICK_ID_SUBID_ENABLED` is off by default and must stay off until this is
-done once:
+`OUT_CLICK_ID_SUBID_ENABLED` is enabled only after this one-time procedure.
+The authorised TourTicketCompare publisher account's Impact tracking-link
+generator exposed **Sub Id 1** on 2026-08-26, so the configuration uses the
+documented `subId1` parameter. It is not operationally verified until the
+post-deploy click and reporting checks below succeed:
 
 1. Confirm with Impact that `subId1` (the default `OUT_CLICK_ID_SUBID_PARAM`)
    is the correct passthrough parameter name for these campaigns.

@@ -30,7 +30,9 @@ const ROUTE_H1 = {
   '/editorial-policy': 'Editorial policy',
   '/affiliate-disclosure': 'Affiliate disclosure',
   '/about': 'About TourTicketCompare',
-  '/contact': 'Contact us'
+  '/contact': 'Contact us',
+  '/privacy': 'Privacy policy',
+  '/terms': 'Terms of use'
 };
 
 function canonicalForPath(path) {

@@ -1738,7 +1738,7 @@
     "ticketmaster_event_id": "0000639EE08FD3C0",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/east-rutherford-new-jersey-metlife-stadium-2026-08-26-7-pm/concert/18013460",
-    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-east-rutherford-metlife-stadium-8-26-2026--concerts-pop/production/6526776",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
     "last_verified_at": "2026-07-07",
@@ -1759,11 +1759,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6526776,
-        "url": "https://www.vividseats.com/bruno-mars-tickets-east-rutherford-metlife-stadium-8-26-2026--concerts-pop/production/6526776",
-        "verified": true,
-        "last_verified_at": "2026-08-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1839,7 +1839,7 @@
         "event_id": 6501595,
         "url": "https://www.vividseats.com/bruno-mars-tickets-pittsburgh-acrisure-stadium-8-29-2026/production/6501595",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1916,7 +1916,7 @@
         "event_id": 6501604,
         "url": "https://www.vividseats.com/bruno-mars-tickets-philadelphia-lincoln-financial-field-9-1-2026/production/6501604",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1993,7 +1993,7 @@
         "event_id": 6526771,
         "url": "https://www.vividseats.com/bruno-mars-tickets-philadelphia-lincoln-financial-field-9-2-2026--concerts-pop/production/6526771",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2070,7 +2070,7 @@
         "event_id": 6501606,
         "url": "https://www.vividseats.com/bruno-mars-tickets-foxborough-gillette-stadium-9-5-2026/production/6501606",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2147,7 +2147,7 @@
         "event_id": 6524244,
         "url": "https://www.vividseats.com/bruno-mars-tickets-foxborough-gillette-stadium-9-6-2026--concerts-pop/production/6524244",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2224,7 +2224,7 @@
         "event_id": 6501608,
         "url": "https://www.vividseats.com/bruno-mars-tickets-indianapolis-lucas-oil-stadium-9-9-2026/production/6501608",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2301,7 +2301,7 @@
         "event_id": 6501614,
         "url": "https://www.vividseats.com/bruno-mars-tickets-tampa-raymond-james-stadium-9-12-2026/production/6501614",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2362,7 +2362,7 @@
         "event_id": 6524250,
         "url": "https://www.vividseats.com/bruno-mars-tickets-tampa-raymond-james-stadium-9-13-2026--concerts-pop/production/6524250",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2423,7 +2423,7 @@
         "event_id": 6501616,
         "url": "https://www.vividseats.com/bruno-mars-tickets-new-orleans-caesars-superdome-9-16-2026/production/6501616",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2577,7 +2577,7 @@
         "event_id": 6524256,
         "url": "https://www.vividseats.com/bruno-mars-tickets-miami-gardens-hard-rock-stadium-9-20-2026--concerts-pop/production/6524256",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2654,7 +2654,7 @@
         "event_id": 6501626,
         "url": "https://www.vividseats.com/bruno-mars-tickets-san-antonio-alamodome-9-23-2026/production/6501626",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2837,7 +2837,7 @@
         "event_id": 6750848,
         "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-9-30-2026/production/6750848",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2914,7 +2914,7 @@
         "event_id": 6501632,
         "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-2-2026/production/6501632",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2991,7 +2991,7 @@
         "event_id": 6501634,
         "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-3-2026/production/6501634",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3068,7 +3068,7 @@
         "event_id": 6526023,
         "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-6-2026--concerts-pop/production/6526023",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3145,7 +3145,7 @@
         "event_id": 6526778,
         "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-7-2026--concerts-pop/production/6526778",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3376,7 +3376,7 @@
         "event_id": 6501668,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/production/6501668",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3453,7 +3453,7 @@
         "event_id": 6525829,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-16-2026--concerts-pop/production/6525829",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3530,7 +3530,7 @@
         "event_id": 6526792,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026--concerts-pop/production/6526792",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3607,7 +3607,7 @@
         "event_id": 6536764,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026--concerts-pop/production/6536764",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3684,7 +3684,7 @@
         "event_id": 6750960,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/production/6750960",
         "verified": true,
-        "last_verified_at": "2026-08-24",
+        "last_verified_at": "2026-08-27",
         "availability_status": "listed"
       },
       "stubhub": {

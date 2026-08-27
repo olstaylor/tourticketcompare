@@ -1106,17 +1106,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085147",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-8-26-2026/event/107085147",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_df7vFAC",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695863",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-8-26-2026/event/107085147"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504538196",
@@ -16001,11 +16001,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107077122",
-        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-26-2026/event/107077122",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -16014,7 +16014,7 @@
     "ticketmaster_discovery_event_id": "k7vGFbyDONW2Z",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-26-2026/event/107077122"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
@@ -41304,11 +41304,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162158",
-        "url": "https://www.stubhub.ie/karol-g-seattle-tickets-8-26-2026/event/107162158",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_a1YZbUJ",
@@ -41316,7 +41316,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-seattle-tickets-8-26-2026/event/107162158"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-san-antonio-g5diz_ak3mivp",

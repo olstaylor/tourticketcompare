@@ -1787,11 +1787,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107077122",
-        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-26-2026/event/107077122",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -1800,7 +1800,7 @@
     "ticketmaster_discovery_event_id": "k7vGFbyDONW2Z",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-26-2026/event/107077122"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",

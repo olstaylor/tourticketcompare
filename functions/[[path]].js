@@ -4206,6 +4206,13 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // The final homepage DOM is server-rendered. The small route module only
     // enhances the existing search form; it never clears or rebuilds #ttc-main.
     next = next.replace('<div id="ttc-main">', '<div id="ttc-main" class="ttc ttc-home">');
+    // Start the homepage stylesheet while the shared shell CSS is loading. The
+    // stylesheet still stays render-blocking and in its original cascade order;
+    // the preload only moves discovery earlier for the homepage's critical CSS.
+    next = next.replace(
+      '<link rel="stylesheet" href="/styles.css?v=20260729b" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260821a" />\n    <link rel="stylesheet" href="/styles.css?v=20260729b" />'
+    );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260821a" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260821a" defer></script></body>');
   }

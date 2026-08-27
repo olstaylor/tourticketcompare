@@ -416,7 +416,12 @@ async function routeForPath(pathname, env) {
       type: "venue",
       path,
       indexable: venue.indexable,
-      title: `${venue.venue} Concerts${venue.city ? ` in ${venue.city}` : ""} | Tickets`,
+      title: fitTitleToBudget([
+        `${venue.venue} Concerts${venue.city ? ` in ${venue.city}` : ""} | Tickets`,
+        `${venue.venue} | Concerts${venue.city ? ` in ${venue.city}` : ""}`,
+        `${venue.venue} | ${venue.city || "Concert Venue"}`,
+        `${venue.city ? `Concerts in ${venue.city}` : "Concert Venue"} | Tickets`
+      ]),
       description: venueMetaDescription(venue),
       venue,
       events: venueEvents,

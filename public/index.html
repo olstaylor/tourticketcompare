@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- Google Tag Manager: load after the initial page render so third-party
+         work cannot compete with the page's critical rendering path. Events
+         queued in dataLayer are retained until the container starts. -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];function load(){if(load.done)return;load.done=true;w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+}if(w.addEventListener)w.addEventListener('load',load,{once:true});else w.attachEvent('onload',load);
 })(window,document,'script','dataLayer','GTM-MZ42TPMM');</script>
     <!-- End Google Tag Manager -->
     <!-- Google tag bootstrap. The production-only GTM trigger listens for this event;

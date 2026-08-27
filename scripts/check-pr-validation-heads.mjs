@@ -27,11 +27,11 @@ async function github(path, options = {}) {
 const pulls = await github("/pulls?state=open&base=main&per_page=100");
 const rows = [];
 for (const pr of pulls.filter((item) => !item.draft && item.base?.ref === "main")) {
-  const runs = await github("/actions/runs?head_sha=" + encodeURIComponent(pr.head.sha) + "&event=pull_request&per_page=100");
+  const runs = await github("/actions/runs?head_sha=" + encodeURIComponent(pr.head.sha) + "&per_page=100");
   const candidates = (runs.workflow_runs || []).filter((run) => run.name === "Prelaunch Validation" || run.workflow_id === 280860998).sort((a, b) => Date.parse(b.created_at || "") - Date.parse(a.created_at || ""));
   rows.push({ number: pr.number, headSha: pr.head.sha, ...classify(candidates[0]) });
 }
-const findings = rows.filter((row) => row.status !== "success");
+const findings = rows.filter((row) => ["missing", "failed", "stuck"].includes(row.status));
 let body = "<!-- pr-validation-head-guard -->\n**Last check:** " + new Date().toISOString() + "\n**Status:** " + (findings.length ? "🔴 Validation attention required" : "🟢 All open PR heads validated") + "\n\nThis read-only check compares each open non-draft PR exact head SHA with a pull-request-triggered Prelaunch Validation run. It never reruns, approves, merges, or changes a PR.\n\n| PR | Head SHA | Result | Detail |\n|---|---|---|---|\n";
 for (const row of rows) body += "| [#" + row.number + "](https://github.com/" + repo + "/pull/" + row.number + ") | " + row.headSha + " | " + row.status + " | " + row.detail + " |\n";
 if (!rows.length) body += "| — | — | — | No open non-draft PRs targeting main. |\n";

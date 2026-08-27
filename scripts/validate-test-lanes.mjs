@@ -67,8 +67,8 @@ if (errors.length) {
   process.exit(1);
 }
 
-const quickSteps = expand("test:quick").filter((s) => s !== GUARD_STEP).length;
+const laneSize = (name) => expand(name).filter((s) => s !== GUARD_STEP).length;
 console.log(
-  `[validate-test-lanes] OK: test:quick (${quickSteps}) + test:units (${expand("test:units").length}) ` +
+  `[validate-test-lanes] OK: test:quick (${laneSize("test:quick")}) + test:units (${laneSize("test:units")}) ` +
     `exactly partition test:mvp (${mvp.length})`,
 );

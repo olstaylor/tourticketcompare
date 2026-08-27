@@ -38,7 +38,7 @@ Full command list per area (a single artist, schema, funnel/analytics) is in [CO
 
 **`npm run test:mvp` is required, locally and in-job, before committing anything that touches automation, provider sync, redirect, or affiliate logic** — the sanctioned auto-publish paths in [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) are gated on the complete suite passing on exactly the proposed content, so the fast lanes never substitute for it there.
 
-`test:quick` and `test:units` together are exactly `test:mvp`, split into data/route checks and script unit tests; `npm run test:lanes` enforces that partition, so a step added to `test:mvp` can never silently drop out of the fast lane.
+`test:quick` and `test:units` together are exactly `test:mvp`, split into data/route checks and script unit tests; `npm run test:lanes` enforces that partition and runs first in both lanes, so a step added to `test:mvp` can never silently drop out of either. Note `providers:validate` and `providers:identities:validate` are in neither — they live only in `npm run test:providers`, so run that for any provider or identity-registry change.
 
 Report results honestly: "checks passed" or the actual failures, never skipped.
 

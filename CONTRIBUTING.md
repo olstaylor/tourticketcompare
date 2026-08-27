@@ -94,12 +94,25 @@ run exists to catch a failure early, not to prove the branch.
 | `npm run test:providers` | ~1s | touched provider registry, CTA or allowlist data |
 | `npm run test:routes` | ~20s | touched routing, route metadata or internal links |
 | `npm run test:quick` | ~60s | touched several areas, or unsure |
-| `npm run test:units` | ~20s | changed one of the matching/sync/report scripts |
+| `npm run test:units` | ~20s | changed a script that has a `*:self-test` |
 | `npm run test:mvp` | ~75s | **required** for automation, provider-sync, redirect or affiliate changes |
 
 `test:quick` and `test:units` are an exact partition of `test:mvp`, enforced by
-`npm run test:lanes` — a step added to `test:mvp` cannot silently drop out of
-the fast lane. `test:mvp` itself must stay the complete suite: the sanctioned
+`npm run test:lanes`, which both lanes run first — a step added to `test:mvp`
+cannot silently drop out of either.
+
+Two things the lanes do **not** cover, because they are not in `test:mvp` at all:
+
+- `npm run providers:validate` and `npm run providers:identities:validate` live
+  only in `test:providers`. Provider structure, review-status fields and
+  identity URL constraints are therefore checked by neither `test:quick` nor
+  CI's `test:mvp` step — run `test:providers` whenever provider configuration or
+  `data/provider-identities.json` is involved, including as part of a
+  multi-area change.
+- A script with a dedicated non-`self-test` test — `test:event-local-date` is
+  the shared venue-local date resolver — sits in `test:quick`, not `test:units`.
+  Changing `scripts/lib/event-local-date.mjs` means running `test:quick` (or
+  that one command), not `test:units` alone. `test:mvp` itself must stay the complete suite: the sanctioned
 auto-publish paths in
 [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) are gated on it passing
 in-job on exactly the proposed content.

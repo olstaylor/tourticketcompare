@@ -241,6 +241,22 @@ export const TRUST_ROUTES = {
     indexable: true,
     breadcrumb: [{ name: "Affiliate disclosure", path: "/affiliate-disclosure" }],
     lastmod: "2026-07-13"
+  },
+  "/privacy": {
+    title: "Privacy Policy | TourTicketCompare",
+    description:
+      "How TourTicketCompare handles analytics, watchlist signups, and information when you browse or follow a ticket link.",
+    indexable: true,
+    breadcrumb: [{ name: "Privacy policy", path: "/privacy" }],
+    lastmod: "2026-08-27"
+  },
+  "/terms": {
+    title: "Terms of Use | TourTicketCompare",
+    description:
+      "The ground rules for using TourTicketCompare's independent ticket-research pages and external provider links.",
+    indexable: true,
+    breadcrumb: [{ name: "Terms of use", path: "/terms" }],
+    lastmod: "2026-08-27"
   }
 };
 

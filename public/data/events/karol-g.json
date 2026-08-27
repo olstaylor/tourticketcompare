@@ -132,11 +132,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896603",
-        "url": "https://www.ticketliquidator.com/tickets/7896603/Karol-G-tickets-Wed-Aug-26-2026-Lumen-Field",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162158",
@@ -150,7 +150,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896603/Karol-G-tickets-Wed-Aug-26-2026-Lumen-Field",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-seattle-tickets-8-26-2026/event/107162158"
   },
   {

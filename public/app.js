@@ -285,6 +285,16 @@ const routeMeta = {
     title: "Affiliate Disclosure | TourTicketCompare",
     description:
       "How TourTicketCompare uses affiliate links while staying independent, unofficial, and focused on checked ticket destinations."
+  },
+  "/privacy": {
+    title: "Privacy Policy | TourTicketCompare",
+    description:
+      "How TourTicketCompare handles analytics, watchlist signups, and information when you browse or follow a ticket link."
+  },
+  "/terms": {
+    title: "Terms of Use | TourTicketCompare",
+    description:
+      "The ground rules for using TourTicketCompare's independent ticket-research pages and external provider links."
   }
 };
 
@@ -3526,7 +3536,9 @@ function renderSimplePage(type) {
     about: "aboutTitle",
     contact: "contactTitle",
     "editorial-policy": "editorialTitle",
-    "affiliate-disclosure": "affiliateTitle"
+    "affiliate-disclosure": "affiliateTitle",
+    privacy: "privacyTitle",
+    terms: "termsTitle"
   };
   // Trust pages are fully rendered by the function route. Keep that current
   // copy in place on initial load; the client renderer remains a fallback for
@@ -3536,6 +3548,33 @@ function renderSimplePage(type) {
   const section = document.createElement("section");
   section.className = "content-page";
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: routeMeta[`/${type}`].title.replace(" | TourTicketCompare", "") }]));
+
+  if (type === "privacy") {
+    text(section, "h1", "Privacy policy");
+    text(section, "p", "This page explains what information TourTicketCompare handles when you browse the site, use the watchlist, or follow a ticket link.", "lead");
+    const collection = document.createElement("section"); collection.className = "nested-panel"; text(collection, "h2", "What we collect"); collection.append(createList(["If you use a watchlist form, we receive the email address you provide, the artist you selected, and your consent to that signup.", "Our server-side measurement records page, referrer, source, provider, event, and outbound-link details needed to understand site use and link performance.", "For server measurement, the request key uses a one-way hash of the IP address and user-agent. We do not store the raw IP address in that measurement record."], "check-list"));
+    const storage = document.createElement("section"); storage.className = "nested-panel"; text(storage, "h2", "Cookies and similar storage"); text(storage, "p", "The public site uses Google Tag Manager and Google Analytics. Those services may use cookies or similar technologies under their own policies. The site does not use a first-party session cookie; some same-tab interface measurement uses browser session storage.");
+    const use = document.createElement("section"); use.className = "nested-panel"; text(use, "h2", "How we use information"); use.append(createList(["To operate pages, respond to watchlist signups, and understand which content and checked links are useful.", "To investigate broken links, incorrect event details, abuse, and technical problems.", "We do not sell tickets, process ticket payments, or receive your provider checkout details."], "check-list"));
+    const provider = document.createElement("section"); provider.className = "nested-panel"; text(provider, "h2", "When you leave for a provider"); text(provider, "p", "Ticket providers and analytics services operate under their own privacy notices and terms. Some outbound ticket links are affiliate links. The provider controls its own account, checkout, price, fees, availability, delivery, refund, and data practices.");
+    const choices = document.createElement("section"); choices.className = "nested-panel"; text(choices, "h2", "Your choices and questions"); choices.append(document.createTextNode("You can browse without joining a watchlist. You can use your browser and device controls to manage cookies and storage. For a privacy question about information you submitted through this site, email "), link("hello@tourticketcompare.com", "mailto:hello@tourticketcompare.com", "text-link"), document.createTextNode(" and include enough detail for us to identify the request."));
+    text(section, "p", "This is a plain-language site policy, not legal advice. We may update it when the site’s data practices change.", "disclosure-note");
+    const actions = document.createElement("div"); actions.className = "action-row"; actions.append(buttonLink("About TourTicketCompare", "/about", "primary"), buttonLink("Contact us", "/contact", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"));
+    section.append(collection, storage, use, provider, choices, actions); main.replaceChildren(section); return;
+  }
+
+  if (type === "terms") {
+    text(section, "h1", "Terms of use");
+    text(section, "p", "These terms describe the ground rules for using TourTicketCompare, an independent and unofficial ticket-research site.", "lead");
+    const service = document.createElement("section"); service.className = "nested-panel"; text(service, "h2", "What the site provides"); text(service, "p", "We publish checked artist and event links, timestamped listed-price snapshots where eligible, and practical buying guidance. The site is for research and general information. We do not sell or resell tickets, take payment, hold inventory, or act as a ticket agent.");
+    const prices = document.createElement("section"); prices.className = "nested-panel"; text(prices, "h2", "Prices, dates, and provider information"); text(prices, "p", "Prices and other details can change. A snapshot is not a live quote, a promise of availability, or a final checkout total. Before buying, confirm the event, seat details, final price, fees, delivery, refund, transfer, and resale terms on the provider’s site.");
+    const external = document.createElement("section"); external.className = "nested-panel"; text(external, "h2", "External links and affiliate relationships"); text(external, "p", "Links may take you to Ticketmaster or approved resale providers. Those sites have their own terms, privacy notices, accounts, payments, and customer support. Some links may earn TourTicketCompare a commission at no extra cost to you; that relationship does not change the provider’s terms or the checks we apply before showing a link.");
+    const responsible = document.createElement("section"); responsible.className = "nested-panel"; text(responsible, "h2", "Using the site responsibly"); responsible.append(createList(["Use the site lawfully and do not interfere with its operation or security.", "Do not copy, republish, overload, probe, or attempt to bypass access controls on the site or its services.", "Do not treat general guidance as financial, legal, ticketing, or travel advice for your individual circumstances."], "check-list"));
+    const content = document.createElement("section"); content.className = "nested-panel"; text(content, "h2", "Content and availability"); content.append(document.createTextNode("We work to keep information accurate and links useful, but we cannot promise that every page, link, price, date, provider, or service will always be complete, current, available, or error-free. If you spot a problem, please use the "), link("contact page", "/contact", "text-link"), document.createTextNode("."));
+    const changes = document.createElement("section"); changes.className = "nested-panel"; text(changes, "h2", "Changes and contact"); changes.append(document.createTextNode("We may change the site or these terms as the service develops. Continuing to use the site after a change means you are viewing the current version. Questions about these terms can be sent to "), link("hello@tourticketcompare.com", "mailto:hello@tourticketcompare.com", "text-link"), document.createTextNode("."));
+    text(section, "p", "This is a plain-language site policy, not legal advice. Please have the site owner review it for the jurisdictions and business arrangements that apply.", "disclosure-note");
+    const actions = document.createElement("div"); actions.className = "action-row"; actions.append(buttonLink("About TourTicketCompare", "/about", "primary"), buttonLink("Privacy policy", "/privacy", "secondary"), buttonLink("Contact us", "/contact", "secondary"));
+    section.append(service, prices, external, responsible, content, changes, actions); main.replaceChildren(section); return;
+  }
 
   if (type === "affiliate-disclosure") {
     text(section, "h1", "Affiliate disclosure");
@@ -3935,7 +3974,7 @@ async function render() {
     await hydrateComparisonHubPriceSnapshots();
   }
   else if (current.type === "how-it-works") renderHowItWorks();
-  else if (["about", "contact", "editorial-policy", "affiliate-disclosure"].includes(current.type)) renderSimplePage(current.type);
+  else if (["about", "contact", "editorial-policy", "affiliate-disclosure", "privacy", "terms"].includes(current.type)) renderSimplePage(current.type);
   else if (current.type === "server-rendered") {
     // Server-authoritative route (e.g. venue pages) with no client renderer.
     // Leave the function-rendered HTML in place instead of clobbering it.

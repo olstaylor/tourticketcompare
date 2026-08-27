@@ -98,6 +98,16 @@ A "track this price" feature: double opt-in email subscription, alerts fire only
 
 Hard constraints that must still hold if this is ever resumed: only the numeric-price lanes (Vivid Seats, TicketNetwork, StubHub International) participate; an alert may fire only on a snapshot the site would publicly display at that same moment; all copy stays snapshot-framed (no ranking, no "cheapest," no availability implication); the check runs in the scheduled GitHub Actions layer, never Cloudflare Cron.
 
+### Output-aware content-provenance fingerprints (2026-08-25, agent-authored)
+
+`scripts/sync-content-provenance.mjs` fingerprints a trust route over its **source** — the render block plus every declaration it transitively reaches — because the script has no data to render with. `normalizeRenderSource()` already strips comments and whitespace so formatting cannot advance a published date, but it cannot tell whether a source change alters what a given route actually outputs.
+
+Consequence: editing a helper shared by several routes advances the published date on all of them, including routes whose rendered HTML is byte-identical. Demonstrated on PR #739 — adding an unused parameter to `renderArtistLinks()` (shared by `/` and `/artists`) advances both, while rendering `/artists` before and after produces identical output. The route then advertises an update visitors cannot observe, and freshness consumers (sitemap `lastmod`, the IndexNow ping) treat an unchanged page as revised.
+
+Verdict (2026-08-25): **accepted as-is for now.** The behaviour is conservative in the safe direction — it over-reports freshness rather than freezing a date that should have moved — and the alternative was hand-editing `data/content-provenance.json`, which the generated-file rule forbids.
+
+A fix would fingerprint each trust route's *rendered output* against a fixed synthetic catalog/events fixture, so data churn still cannot move a date but an output-neutral refactor no longer does either. Not scoped: it is a redesign of a protected generator, it changes the freshness semantics of every tracked route at once, and it needs a migration plan for the recorded hashes in `data/content-provenance.json` (every hash changes on cutover, which would advance all 28 dates unless the existing published dates are carried across deliberately).
+
 ## Explicitly parked
 
 Intentionally not work until separately scoped and owner-approved. Unparking removes the scope freeze, not the verification rules.

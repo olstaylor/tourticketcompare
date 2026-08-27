@@ -58,11 +58,11 @@ assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)
 const appVersion = shell.match(/\/app\.js\?v=([0-9a-z]+)/)?.[1];
 const smokeVersion = smoke.match(/const APP_ASSET_VERSION = "([0-9a-z]+)"/)?.[1];
 assert.equal(appVersion, smokeVersion);
-assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260820b");
-assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260820b");
-assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260820b");
-assert.match(route, /\/artist-board\.js\?v=20260820b/);
-assert.match(route, /\/currency-converter\.js\?v=20260820b/);
+assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260821a");
+assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260821a");
+assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260821a");
+assert.match(route, /\/artist-board\.js\?v=20260821a/);
+assert.match(route, /\/currency-converter\.js\?v=20260821a/);
 
 // PR #727 split the universal application bundle into route modules. These
 // source-level invariants keep the smaller modules from silently dropping the

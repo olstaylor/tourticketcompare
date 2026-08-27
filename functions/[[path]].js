@@ -1303,6 +1303,24 @@ function renderArtistLinks(catalog, events = [], now = Date.now()) {
   return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondary.length ? `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle"><div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(secondary)}</section>` : ""}`;
 }
 
+function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
+  const html = renderArtistLinks(catalog, events, now);
+  const marker = '<section class="artist-status-section artist-status-section--secondary"';
+  const secondaryAt = html.indexOf(marker);
+  if (secondaryAt < 0) return html;
+  // Unwrap the section rather than nesting it: the slice still carries its own
+  // opening tag, so wrapping it whole would emit a <section> with these same
+  // classes inside the <details>, and close the two in the wrong order. The
+  // secondary section is the last thing renderArtistLinks emits, so the slice
+  // ends at its closing tag.
+  const secondaryHtml = html
+    .slice(secondaryAt)
+    .replace(/^<section[^>]*>/, "")
+    .replace(/<\/section>$/, "");
+  const count = splitArtistsByUpcoming(catalog.artists, events, now).secondary.length;
+  return `${html.slice(0, secondaryAt)}<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${count} without dates currently listed)</summary>${secondaryHtml}</details>`;
+}
+
 function cityShowCountLabel(count) {
   return `${count} upcoming ${count === 1 ? "show" : "shows"}`;
 }
@@ -1368,15 +1386,26 @@ function renderCityLinks(cities) {
     .join("")}</div>`;
 }
 
-// Shared by the city and venue templates. Authorship and a correction route are
-// the only provenance a visitor can act on; the per-record verification dates
-// live on the event cards, and repeating the most recent one as a page-level
-// paragraph said nothing about the date the visitor is actually looking at.
-function renderLocationProvenance(reportLabel) {
+// Shared by the city and venue templates. It combines a correction route with
+// the newest `last_verified_at` among the shows currently on the page, which
+// _cities.js and _venues.js derive from the live event set on every render — so
+// the date follows the data automatically and needs no editorial upkeep.
+//
+// It is deliberately labelled as one event record rather than as a page update.
+// Those timestamps carry mixed semantics across records and many shows have no
+// value at all (see the artist provenance note below), so "Last updated" would
+// claim a whole-schedule review that never happened. Naming the record keeps
+// the claim to exactly what the data supports, and matches the wording the
+// artist-city template already uses for the same value.
+function renderLocationProvenance(reportLabel, lastUpdated = "") {
+  const checked = formatVerificationDate(lastUpdated);
   return `<section class="guide-provenance" aria-label="Editorial and data information"><p><strong>Maintained by the TourTicketCompare editorial team.</strong> ${anchor(
     "Editorial policy",
     "/editorial-policy"
-  )} · ${anchor(reportLabel, "/contact")}</p></section>`;
+  )}${checked ? ` · Most recently checked event record: ${escapeHtml(checked)}` : ""} · ${anchor(
+    reportLabel,
+    "/contact"
+  )}</p></section>`;
 }
 
 function artistIndexableCities(events, artistSlug) {
@@ -1962,7 +1991,7 @@ export function renderCityPageBody(route, indexableVenueSlugs = new Set()) {
       route
     )}<h1 id="cityTitle">Concerts in ${escapeHtml(city.city)}${
       yearLabel ? `: ${escapeHtml(yearLabel)} dates and venues` : ""
-    }</h1>${body}${renderLocationProvenance("Report an incorrect date")}</section></main>`;
+    }</h1>${body}${renderLocationProvenance("Report an incorrect date", city.lastmod)}</section></main>`;
 
   // The router 404s a city with nothing upcoming, so this state is reached only
   // when every date has passed between derivation and render. Say that, briefly
@@ -2006,7 +2035,8 @@ export function renderVenuePageBody(route, events = [], options = {}) {
     `<main id="mainContent"><section class="content-page venue-page" aria-labelledby="venueTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="venueTitle">${escapeHtml(venue.venue)} concerts and upcoming shows</h1>${body}${renderLocationProvenance(
-      "Report an incorrect event"
+      "Report an incorrect event",
+      venue.lastmod
     )}</section></main>`;
 
   if (!venue.shows?.length) {
@@ -4024,7 +4054,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/editorial-policy") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="editorialTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">Nothing goes on this site unless we can check where it came from. These are the rules we hold ourselves to.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist pages for major tours, with summaries drawn from confirmed public sources.</li><li>Links to artist pages on official ticketing sites, once we've followed them.</li><li>Links for a specific date, where we've checked the date, the venue, and where the link lands.</li><li>Current prices from ticket sites for that same show, each labelled with the provider and the time we captured it — and we'll only call one lower when we have fresh figures for both.</li><li>Guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>What has to be true before a button appears</h2><p>The artist has to be one we've verified, the destination has to be a link we've configured and checked, and the link has to pass our outbound safety checks. For a specific date, we also need an event record with a confirmed date, venue, and artist. Where we have none of that, you get an honest empty state instead of a button.</p></section><section class="nested-panel"><h2>What we won't publish</h2><ul class="check-list"><li>Tour dates, venues, or cities we've made up.</li><li>Prices or availability we can't trace to an approved source.</li><li>Claims about partnerships or coverage we can't back up.</li><li>Fake comparison tables, placeholder prices, or a "cheaper" claim with only one side's figures.</li><li>Anything scraped off a ticket site or a competitor.</li><li>Savings or discount claims we can't evidence.</li><li>Event schema on a page with no confirmed event data behind it.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a button's broken, sends you somewhere wrong, or a detail looks off, tell us on the ${anchor(
+    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">Nothing goes on this site unless we can check where it came from. These are the rules we hold ourselves to.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist pages for major tours, with summaries drawn from confirmed public sources.</li><li>Links to artist pages on official ticketing sites, once we've followed them.</li><li>Links for a specific date, where we've checked the date, the venue, and where the link lands.</li><li>Current prices from ticket sites for that same show, each labelled with the provider and the time we captured it — and we'll only call one lower when we have fresh figures for both.</li><li>Guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>Generated content and review</h2><p>Automation can prepare editorial prose as a draft, but it cannot publish that prose on its own. Every generated editorial page needs a named owner, source links for factual claims, and human review before publication. Confirmed event data may be published by our approved automated checks for artists we already track; those checks validate the source and record before the page updates. We label time-sensitive information with its last updated date where the underlying data supports one.</p></section><section class="nested-panel"><h2>What has to be true before a button appears</h2><p>The artist has to be one we've verified, the destination has to be a link we've configured and checked, and the link has to pass our outbound safety checks. For a specific date, we also need an event record with a confirmed date, venue, and artist. Where we have none of that, you get an honest empty state instead of a button.</p></section><section class="nested-panel"><h2>What we won't publish</h2><ul class="check-list"><li>Tour dates, venues, or cities we've made up.</li><li>Prices or availability we can't trace to an approved source.</li><li>Claims about partnerships or coverage we can't back up.</li><li>Fake comparison tables, placeholder prices, or a "cheaper" claim with only one side's figures.</li><li>Anything scraped off a ticket site or a competitor.</li><li>AI-generated filler, internal notes, or administrative instructions presented as public content.</li><li>Savings or discount claims we can't evidence.</li><li>Event schema on a page with no confirmed event data behind it.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a button's broken, sends you somewhere wrong, or a detail looks off, tell us on the ${anchor(
       "contact page",
       "/contact",
       "text-link"
@@ -4043,10 +4073,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     HOME_PRIMARY_CTA_LABEL,
     HOME_PRIMARY_CTA_HREF,
     "button button-primary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search artists, shows, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid">${HOME_STEPS.map(
+  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Start with a search</h2><p id="searchWidgetIntro">Enter an artist, city, venue, or tour above to see matching checked dates and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid">${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
-  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
+  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderHomepageArtistLinks(
     catalog,
     events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
@@ -4152,21 +4182,21 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20260820b" defer></script>',
-    '<script src="/shell.js?v=20260820b" defer></script>'
+    '<script src="/app.js?v=20260821a" defer></script>',
+    '<script src="/shell.js?v=20260821a" defer></script>'
   );
   if (route.type === "artist" || route.type === "artist-city") {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260820b" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20260821a" defer></script></body>');
   }
   if (route.path === "/currency-converter") {
-    next = next.replace("</body>", '<script src="/currency-converter.js?v=20260820b" defer></script></body>');
+    next = next.replace("</body>", '<script src="/currency-converter.js?v=20260821a" defer></script></body>');
   }
   if (route.path === "/") {
     // The final homepage DOM is server-rendered. The small route module only
     // enhances the existing search form; it never clears or rebuilds #ttc-main.
     next = next.replace('<div id="ttc-main">', '<div id="ttc-main" class="ttc ttc-home">');
-    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260820b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260820b" defer></script></body>');
+    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260821a" /></head>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260821a" defer></script></body>');
   }
   return next;
 }

@@ -1138,6 +1138,24 @@ function renderSearchResultItem(type, data) {
   return li;
 }
 
+// The routed homepage module (ttc-home.js) swaps this heading pair as soon as a
+// query is entered, and back when the field is cleared. This fallback renders
+// the same widget, so it has to make the same transition — otherwise results
+// render underneath the pre-search prompt. Keep the copy in step with
+// ttc-home.js and the server-rendered homepage in functions/[[path]].js.
+const SEARCH_PANEL_PROMPT_TITLE = "Start with a search";
+const SEARCH_PANEL_PROMPT_INTRO =
+  "Enter an artist, city, venue, or tour above to see matching checked dates and guides.";
+const SEARCH_PANEL_RESULTS_TITLE = "Search results";
+const SEARCH_PANEL_RESULTS_INTRO = "Matches from checked artists, upcoming dates, and buying guides.";
+
+function setSearchPanelHeading(hasQuery) {
+  const title = document.getElementById("searchSectionTitle");
+  const intro = document.getElementById("searchWidgetIntro");
+  if (title) title.textContent = hasQuery ? SEARCH_PANEL_RESULTS_TITLE : SEARCH_PANEL_PROMPT_TITLE;
+  if (intro) intro.textContent = hasQuery ? SEARCH_PANEL_RESULTS_INTRO : SEARCH_PANEL_PROMPT_INTRO;
+}
+
 function renderSearchResults(container, results, query) {
   container.replaceChildren();
   if (!query || normalizeQuery(query).length < 2) return;
@@ -1211,6 +1229,8 @@ function attachSearchBehavior(input, resultsContainer) {
     const query = input.value;
     const normalized = normalizeQuery(query);
     const requestId = ++searchSequence;
+
+    setSearchPanelHeading(Boolean(normalized.length));
 
     if (!normalized.length) {
       resultsContainer.replaceChildren();
@@ -1304,8 +1324,8 @@ function renderSearchResultsPanel() {
 
   const header = document.createElement("div");
   header.className = "section-intro";
-  text(header, "h2", "Search results").id = "searchSectionTitle";
-  text(header, "p", "Search artists, shows, and guides.");
+  text(header, "h2", SEARCH_PANEL_PROMPT_TITLE).id = "searchSectionTitle";
+  text(header, "p", SEARCH_PANEL_PROMPT_INTRO).id = "searchWidgetIntro";
 
   const resultsContainer = document.createElement("div");
   resultsContainer.className = "search-results";
@@ -1418,8 +1438,11 @@ async function renderHome() {
   primary.append(states.primary.length ? renderGrid(states.primary) : text(primary, "p", "No future dates are currently listed.", "muted"));
   artists.append(primary);
   if (states.secondary.length) {
-    const secondary = document.createElement("section");
+    const secondary = document.createElement("details");
     secondary.className = "artist-status-section artist-status-section--secondary";
+    const summary = document.createElement("summary");
+    summary.textContent = `More artists to follow (${states.secondary.length} without dates currently listed)`;
+    secondary.append(summary);
     text(secondary, "h2", "No dates currently listed");
     text(secondary, "p", "These artist pages remain available and move back to the primary section automatically when a future date is added.");
     secondary.append(renderGrid(states.secondary));

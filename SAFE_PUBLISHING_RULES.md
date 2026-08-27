@@ -8,19 +8,29 @@ See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLIC
 
 ## Sanctioned automated writers
 
-Index of every automation permitted to write without a human merge. It is a
-map to the binding prose below, which is unchanged and remains authoritative —
-each row's full conditions live in the section named in its last column.
-Anything not listed here needs a human to merge it.
+Index of every automation permitted to write **to this repository** without a
+human merge. It is a map to the binding prose below, which is unchanged and
+remains authoritative — each row's full conditions live in the section named in
+its last column. Any other repository write needs a human to merge it.
+
+**Repository writers only.** Provider price snapshots are written straight to
+production D1 by three scheduled workflows — `seatgeek-price-snapshots.yml`,
+`vividseats-price-snapshots.yml` and
+`impact-marketplace-price-snapshots.yml` — with no merge and no commit, so they
+are outside this index by construction. Those rows can reach a public page, and
+their rules are Price Display and Provider Rights and Catalog Metadata below,
+not this table.
 
 **A. Event auto-publish paths.** These five, and only these five, may publish
 event data. They do not all land the same way: four open a PR their own run
 squash-merges, while the nightly field-sync commits straight to `main` — the
-"How it lands" column below is per-row, not a shared property. Each is gated on
-the full validation suite (`test:mvp`, the relevant event/partition validation,
-and `git diff --check`) passing in the same job on exactly the proposed content.
-Where a run auto-merges, a failed merge leaves the PR open for a human and is
-never forced.
+"How it lands" column below is per-row, not a shared property. What every path
+does share is `test:mvp` passing in the same job on exactly the content it is
+about to publish. The rest of each path's gate differs — event and partition
+validation, `git diff --check`, an apply-with-rollback — so read the per-path
+prose for the authoritative list rather than assuming a common set; two paths do
+not run `git diff --check` at all. Where a run auto-merges, a failed merge
+leaves the PR open for a human and is never forced.
 
 | Path | Workflow | May write | How it lands | Detail in |
 | --- | --- | --- | --- | --- |
@@ -30,19 +40,26 @@ never forced.
 | Vivid Seats CTA sync | `vividseats-cta-sync.yml` | event-level `vividseats_url` + `provider_links.vivid-seats` | auto-merged PR | Discovery, Enrichment, and Rendering |
 | Shared Impact marketplace sync | `impact-marketplace-provider-sync.yml` | campaign-isolated exact-event links for TicketNetwork, Ticket Liquidator, StubHub International | auto-merged PR | Discovery, Enrichment, and Rendering |
 
-**B. Machine-owned direct commits.** Not event data and not a discovery path —
-each is confined to files no human authors, and each asserts its own diff
-allowlist before committing.
+**B. Machine-owned direct commits.** Not event data and not a discovery path.
+Each asserts its own diff allowlist before committing. Ownership here is by
+**field or region, not by file**: `public/data/artists.json` and
+`PROJECT_STATUS.md` are human-authored documents that these writers touch in
+narrowly defined places — a timestamp field, a `<!-- generated:… -->` block —
+and everything else in them stays human. Treating the whole file as generated
+would put real editorial content at risk of being overwritten.
 
 | Writer | Workflow (job) | May write | Detail in |
 | --- | --- | --- | --- |
-| Verification dates + guide-source link record | `daily-audit.yml` (`verification-dates`) | one commit covering `artists.json` `last_verified_at`, `data/guide-source-link-checks.json`, the rebuilt `guides-content.json`, `public/index.html` and `PROJECT_STATUS.md` | Discovery, Enrichment, and Rendering |
-| Status figures | `daily-audit.yml` (`status-figures`) | `PROJECT_STATUS.md` only | Discovery, Enrichment, and Rendering |
+| Verification dates + guide-source link record | `daily-audit.yml` (`verification-dates`) | one commit: `last_verified_at` fields in `artists.json`, `data/guide-source-link-checks.json`, the rebuilt `guides-content.json`, `public/index.html`, and the generated blocks of `PROJECT_STATUS.md` | Discovery, Enrichment, and Rendering |
+| Status figures | `daily-audit.yml` (`status-figures`) | the generated blocks of `PROJECT_STATUS.md` only — never its human prose or notes | Discovery, Enrichment, and Rendering |
 | Generated content | `content-build.yml` | exactly four generated files, never `content/**` | Discovery, Enrichment, and Rendering |
 
 **C. Display-only exception.** `MusicEvent` `offers` behind
 `SCHEMA_OFFERS_ENABLED` is a schema/display exception, **not** an automation
-path — it publishes nothing and does not extend group A. See Schema and SEO.
+path. When the flag is on it *does* emit public JSON-LD — that is the point of
+it — but it writes no source data and publishes no record: it mirrors, at render
+time, a price the page already shows under the same gate. It does not extend
+group A. See Schema and SEO.
 
 **Not sanctioned:** `tm-data-refresh-pr.yml` is PR-only and human-merged by
 design — never a direct commit, never an auto-merge.

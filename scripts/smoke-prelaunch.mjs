@@ -11,7 +11,7 @@ const expectedH1 = new Map([
   ["/artists", "Artists we track"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster (2026): fees, safety and delivery"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
   ["/blog", "TourTicketCompare blog"],
   ["/compare-concert-ticket-prices", "Compare concert ticket prices by site"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -26,7 +26,7 @@ const expectedTitle = new Map([
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Site | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
@@ -535,11 +535,9 @@ const expectedClientMetadata = [
   homepageDescription,
   "Compare Concert Ticket Prices by Site | TourTicketCompare",
   "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
-  "How to Compare Concert Ticket Prices | TourTicketCompare",
-  "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better? | TourTicketCompare",
-  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices | TourTicketCompare",
-  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
-  "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert."
+  "How to Compare Concert Ticket Prices | TourTicketCompare"
+  // Guide title/h1/description parity is asserted field-by-field against
+  // GUIDE_ROUTES further down — see "guide client metadata parity".
 ];
 for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
@@ -686,6 +684,48 @@ const healthModule = await import(pathToFileURL(path.join(root, "functions/api/h
 const impactHealthModule = await import(pathToFileURL(path.join(root, "functions/api/impact/health.js")));
 const impactProductsModule = await import(pathToFileURL(path.join(root, "functions/api/impact/products.js")));
 const impactTrackingModule = await import(pathToFileURL(path.join(root, "functions/api/impact/tracking-links.js")));
+
+// Guide client metadata parity.
+//
+// public/app.js mirrors each guide's title/h1/description for client-side
+// navigation. A substring scan of the file cannot prove parity: where a guide's
+// title and h1 are the same string, one correct field masks the other drifting.
+// So compare the parsed fields against GUIDE_ROUTES directly.
+{
+  const { GUIDE_ROUTES } = routeMetadataModule;
+  const blockStart = clientApp.indexOf("const guidePages = [");
+  assert(blockStart !== -1, "public/app.js should declare a guidePages array");
+  const blockEnd = clientApp.indexOf("\n];", blockStart);
+  assert(blockEnd > blockStart, "public/app.js guidePages array should be terminated");
+  const block = clientApp.slice(blockStart, blockEnd);
+
+  const slugMatches = [...block.matchAll(/slug:\s*"([^"]+)"/g)];
+  // Guard the parser itself: a regex that silently matches nothing would make
+  // every assertion below vacuously true.
+  assert(slugMatches.length > 0, "guidePages parity scan should find at least one entry");
+
+  let compared = 0;
+  for (const [index, match] of slugMatches.entries()) {
+    const next = slugMatches[index + 1];
+    const entry = block.slice(match.index, next ? next.index : block.length);
+    const field = (name) => {
+      const found = entry.match(new RegExp(name + ':\\s*"((?:[^"\\\\]|\\\\.)*)"'));
+      return found ? found[1].replace(/\\"/g, '"') : null;
+    };
+    const route = GUIDE_ROUTES["/guides/" + match[1]];
+    if (!route) continue;
+    for (const name of ["title", "h1", "description"]) {
+      if (typeof route[name] !== "string") continue;
+      assert(
+        field(name) === route[name],
+        `public/app.js guidePages "${match[1]}" ${name} should match GUIDE_ROUTES exactly — app.js has ${JSON.stringify(field(name))}, SSR has ${JSON.stringify(route[name])}`
+      );
+      compared += 1;
+    }
+  }
+  assert(compared > 0, "guidePages parity scan should compare at least one field");
+  console.log(`guide client metadata parity verified (${compared} field(s) across ${slugMatches.length} entries)`);
+}
 
 const assetMap = new Map();
 for (const file of publicUiFiles) {
@@ -1070,10 +1110,10 @@ const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
 assert(
-  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
   "focused guide should expose exact pairwise decision title metadata"
 );
-assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices", "focused guide should expose the pairwise decision H1");
+assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?", "focused guide should expose the pairwise decision H1");
 for (const expectedCopy of [
   "Short answer:",
   "SeatGeek vs Ticketmaster at a glance",

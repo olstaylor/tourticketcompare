@@ -11,7 +11,7 @@ const expectedH1 = new Map([
   ["/artists", "Artists we track"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster (2026): fees, safety and delivery"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
   ["/blog", "TourTicketCompare blog"],
   ["/compare-concert-ticket-prices", "Compare concert ticket prices by site"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -26,7 +26,7 @@ const expectedTitle = new Map([
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Site | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
@@ -536,10 +536,11 @@ const expectedClientMetadata = [
   "Compare Concert Ticket Prices by Site | TourTicketCompare",
   "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
   "How to Compare Concert Ticket Prices | TourTicketCompare",
-  "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better? | TourTicketCompare",
-  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices | TourTicketCompare",
-  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
-  "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert."
+  // Both comparison guides now use the same string for title and h1, so one
+  // entry each covers both fields.
+  "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
+  "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+  "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, current prices, fees, delivery and buyer protection."
 ];
 for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
@@ -1070,10 +1071,10 @@ const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
 assert(
-  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
   "focused guide should expose exact pairwise decision title metadata"
 );
-assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices", "focused guide should expose the pairwise decision H1");
+assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?", "focused guide should expose the pairwise decision H1");
 for (const expectedCopy of [
   "Short answer:",
   "SeatGeek vs Ticketmaster at a glance",

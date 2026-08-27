@@ -113,6 +113,14 @@
     "/affiliate-disclosure": {
       "content_hash": "86790b64759606db",
       "content_updated_at": "2026-07-13"
+    },
+    "/privacy": {
+      "content_hash": "cfc99ad3983f2fb9",
+      "content_updated_at": "2026-08-27"
+    },
+    "/terms": {
+      "content_hash": "350c73ce82e6504f",
+      "content_updated_at": "2026-08-27"
     }
   },
   "guide_publication": {

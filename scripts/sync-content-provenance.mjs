@@ -120,6 +120,8 @@ const RENDER_SPECS = {
   '/how-it-works': { block: 'if (route.path === "/how-it-works") {' },
   '/currency-converter': { block: 'if (route.path === "/currency-converter") {' },
   '/affiliate-disclosure': { block: 'if (route.path === "/affiliate-disclosure") {' },
+  '/privacy': { block: 'if (route.path === "/privacy") {' },
+  '/terms': { block: 'if (route.path === "/terms") {' },
   '/contact': { block: 'if (route.path === "/contact") {' },
   '/about': { block: 'if (route.path === "/about") {' },
   '/editorial-policy': { block: 'if (route.path === "/editorial-policy") {' }

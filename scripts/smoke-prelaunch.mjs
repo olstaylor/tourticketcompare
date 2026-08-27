@@ -3,8 +3,8 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoutes = ["/", "/artists", "/cities", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
-const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
+const publicRoutes = ["/", "/artists", "/cities", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
+const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact", "/privacy", "/terms"];
 const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*", "/blog/*"];
 const expectedH1 = new Map([
   ["/", "Compare ticket prices for the show you want."],
@@ -19,7 +19,9 @@ const expectedH1 = new Map([
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact us"],
   ["/editorial-policy", "Editorial policy"],
-  ["/affiliate-disclosure", "Affiliate disclosure"]
+  ["/affiliate-disclosure", "Affiliate disclosure"],
+  ["/privacy", "Privacy policy"],
+  ["/terms", "Terms of use"]
 ]);
 const expectedTitle = new Map([
   ["/", "Compare Concert Tickets & Tour Dates | TourTicketCompare"],
@@ -34,7 +36,9 @@ const expectedTitle = new Map([
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact TourTicketCompare"],
   ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
-  ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
+  ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"],
+  ["/privacy", "Privacy Policy | TourTicketCompare"],
+  ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
 const APP_ASSET_VERSION = "20260821a";
@@ -68,7 +72,9 @@ const routeMarkers = new Map([
   ["/editorial-policy", "the link has to pass our outbound safety checks"],
   ["/affiliate-disclosure", "Whether a link pays us has nothing to do with whether we show it"],
   ["/about", "it has no say in what we publish"],
-  ["/contact", "hello@tourticketcompare.com"]
+  ["/contact", "hello@tourticketcompare.com"],
+  ["/privacy", "site does not use a first-party session cookie"],
+  ["/terms", "We publish checked artist and event links"]
 ]);
 
 function assert(condition, message) {

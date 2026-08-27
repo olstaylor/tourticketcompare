@@ -1,4 +1,5 @@
-Branch cleanup — generated 2026-08-26
+Branch cleanup — regenerated 2026-08-27 against origin/main
+
 Repo: olstaylor/tourticketcompare
 
 STATUS: NOT YET EXECUTED. Ref deletion is blocked for the agent session that
@@ -12,7 +13,8 @@ To execute locally, from a clone with normal push rights:
       | xargs -n 25 git push origin --delete
 
 Then enable Settings -> General -> "Automatically delete head branches" so the
-sprawl does not regrow.
+sprawl does not regrow. That setting is still off: the branches for PR #773 and
+#739 survived their merges on 2026-08-26.
 
 Restore any branch with:  git push origin <sha>:refs/heads/<branch>
 
@@ -308,6 +310,7 @@ PR       SHA                                        BRANCH
 #97      9b4b198a195fc9aac9a622882d5e50925bb164fc   codex/fix-seatgeek-impact-trackinglinks-404
 #94      bd50200039269aba5683ac4fec691666d225880f   codex/fix-seatgeek-url-redirect-issue
 #112     a99158d007ea1466bdc13291961a9a63818da8f4   codex/fix-smoke-test-for-time-sensitive-events
+#773     8ccf57c05060f7ea4e7d4f919dc05f33cabdcc7f   codex/gsc-impact-reconciliation-20260826
 #121     eac929855e81a3f189ec9dcfb5d0e0929a699fca   codex/guide-copy-safety
 #103     0fb8d2056a3f0a66e7a459542ce351be4c935764   codex/harden-seatgeek-cta-gate
 #411     0aa360ba3fcc6b0b584fed51ae8b0d30e23582b0   codex/impact-catalog-v15
@@ -347,6 +350,7 @@ PR       SHA                                        BRANCH
 #82      34647001784ee07d0aa69369c87c3842b9f439ee   codex/test-impact-publisher-tags-ekelx5
 #152     b7001e6f1964821e74f987a1c84af5e4373b4fd1   codex/tighten-official-wording-in-public-content
 #20      dda69d0cfcf325debfe165f3985eda634d67e045   codex/tourticketcomparecom
+#739     7d62a40f46bdf414e0dba2bfe4a1653c0754ad26   codex/trust-revenue-foundations
 #153     145d15e7f989cee3723619bf418a805429a2194b   codex/update-backlog.md-with-ux-trust-status
 #131     a1f139e47af8a639ba2d7308d0788c79f4da72fa   codex/update-documentation-to-current-standards
 #132     1923d683ec55af80e534cbb12c2a4b648112f2fd   codex/update-documentation-to-current-standards-qbex7w
@@ -373,10 +377,9 @@ PR       SHA                                        BRANCH
 #425     c16ced1562f8285f6cca25f1930a5f19cd920a62   ui/compact-show-artist-cards
 #426     fbf48368ef1a2a0c51efcc6e461a87cb705d920f   ux/scan-friendly-cards-impact-readiness
 
-== KEPT: open PRs ==
+== KEPT: active ==
   main
-  codex/gsc-impact-reconciliation-20260826   (PR #773, open draft)
-  codex/trust-revenue-foundations            (PR #739, open)
+  claude/repo-cleanup-branches-dn8yv4   (this cleanup branch)
 
 == KEPT: no associated PR — owner triage required ==
    These have no PR head ref, so deletion is NOT recoverable from a PR page.

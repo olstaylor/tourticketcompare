@@ -14,28 +14,30 @@ each row's full conditions live in the section named in its last column.
 Anything not listed here needs a human to merge it.
 
 **A. Event auto-publish paths.** These five, and only these five, may publish
-event data. Each auto-merges its own PR only after the full validation suite
-(`test:mvp`, the relevant event/partition validation, and `git diff --check`)
-passes in the same job on exactly the proposed content; a failed merge leaves
-the PR open for a human and is never forced.
+event data. They do not all land the same way: four open a PR their own run
+squash-merges, while the nightly field-sync commits straight to `main` — the
+"How it lands" column below is per-row, not a shared property. Each is gated on
+the full validation suite (`test:mvp`, the relevant event/partition validation,
+and `git diff --check`) passing in the same job on exactly the proposed content.
+Where a run auto-merges, a failed merge leaves the PR open for a human and is
+never forced.
 
-| Path | Workflow | May write | Detail in |
-| --- | --- | --- | --- |
-| New-show discovery | `tm-new-shows-pr.yml` | new shows of registry-verified, `sync_enabled` artists | Artist Page Publishing |
-| Nightly lossless field-sync | `nightly-data-sync.yml` | date/time, venue/city, `event_name`, canonical TM URL on events that already exist | Discovery, Enrichment, and Rendering |
-| SeatGeek CTA sync | `seatgeek-cta-sync.yml` | event-level `seatgeek_url` + verified `provider_links.seatgeek` provenance | Artist Page Publishing |
-| Vivid Seats CTA sync | `vividseats-cta-sync.yml` | event-level `vividseats_url` + `provider_links.vivid-seats` | Discovery, Enrichment, and Rendering |
-| Shared Impact marketplace sync | `impact-marketplace-provider-sync.yml` | campaign-isolated exact-event links for TicketNetwork, Ticket Liquidator, StubHub International | Discovery, Enrichment, and Rendering |
+| Path | Workflow | May write | How it lands | Detail in |
+| --- | --- | --- | --- | --- |
+| New-show discovery | `tm-new-shows-pr.yml` | new shows of registry-verified, `sync_enabled` artists | auto-merged PR | Artist Page Publishing |
+| Nightly lossless field-sync | `nightly-data-sync.yml` | date/time, venue/city, `event_name`, canonical TM URL on events that already exist | direct commit to `main` | Discovery, Enrichment, and Rendering |
+| SeatGeek CTA sync | `seatgeek-cta-sync.yml` | event-level `seatgeek_url` + verified `provider_links.seatgeek` provenance | auto-merged PR | Artist Page Publishing |
+| Vivid Seats CTA sync | `vividseats-cta-sync.yml` | event-level `vividseats_url` + `provider_links.vivid-seats` | auto-merged PR | Discovery, Enrichment, and Rendering |
+| Shared Impact marketplace sync | `impact-marketplace-provider-sync.yml` | campaign-isolated exact-event links for TicketNetwork, Ticket Liquidator, StubHub International | auto-merged PR | Discovery, Enrichment, and Rendering |
 
 **B. Machine-owned direct commits.** Not event data and not a discovery path —
 each is confined to files no human authors, and each asserts its own diff
 allowlist before committing.
 
-| Writer | Workflow | May write | Detail in |
+| Writer | Workflow (job) | May write | Detail in |
 | --- | --- | --- | --- |
-| Verification-date bumps | `daily-audit.yml` | `last_verified_at` in `artists.json`, for artists clean that day | Discovery, Enrichment, and Rendering |
-| Status figures | `daily-audit.yml` | `PROJECT_STATUS.md` only | Discovery, Enrichment, and Rendering |
-| Guide-source link record | `daily-audit.yml` | `data/guide-source-link-checks.json` + the rebuilt `guides-content.json` | Discovery, Enrichment, and Rendering |
+| Verification dates + guide-source link record | `daily-audit.yml` (`verification-dates`) | one commit covering `artists.json` `last_verified_at`, `data/guide-source-link-checks.json`, the rebuilt `guides-content.json`, `public/index.html` and `PROJECT_STATUS.md` | Discovery, Enrichment, and Rendering |
+| Status figures | `daily-audit.yml` (`status-figures`) | `PROJECT_STATUS.md` only | Discovery, Enrichment, and Rendering |
 | Generated content | `content-build.yml` | exactly four generated files, never `content/**` | Discovery, Enrichment, and Rendering |
 
 **C. Display-only exception.** `MusicEvent` `offers` behind

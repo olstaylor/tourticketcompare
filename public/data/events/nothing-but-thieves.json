@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090592",
+        "url": "https://www.ticketliquidator.com/tickets/8090592/Nothing-But-Thieves-tickets-Fri-Jan-15-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k4d_V4s",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090592"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090592",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090592/Nothing-But-Thieves-tickets-Fri-Jan-15-2027-Ziggo-Dome"
   },
   {
     "id": "tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k86ab8e",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090593",
+        "url": "https://www.ticketliquidator.com/tickets/8090593/Nothing-But-Thieves-tickets-Sat-Jan-16-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k86Ab8e",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090593"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090593",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090593/Nothing-But-Thieves-tickets-Sat-Jan-16-2027-Ziggo-Dome"
   },
   {
     "id": "tm-nothing-but-thieves-2027-assago-zg9rmiynyzefv7",
@@ -281,12 +297,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090588",
+        "url": "https://www.ticketliquidator.com/tickets/8090588/Nothing-But-Thieves-tickets-Thu-Feb-4-2027-Motorpoint-Arena-Nottingham",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G65hxePMR",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090588"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090588",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090588/Nothing-But-Thieves-tickets-Thu-Feb-4-2027-Motorpoint-Arena-Nottingham"
   },
   {
     "id": "tm-nothing-but-thieves-2027-london-17u8v0g65h5y7dp",
@@ -448,12 +472,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090594",
+        "url": "https://www.ticketliquidator.com/tickets/8090594/Nothing-But-Thieves-tickets-Wed-Feb-10-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65QojIIk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090594"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090594",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090594/Nothing-But-Thieves-tickets-Wed-Feb-10-2027-OVO-Hydro"
   },
   {
     "id": "tm-nothing-but-thieves-2027-manchester-17uyv0g65hofvrj",
@@ -509,12 +541,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996760",
+        "url": "https://www.ticketliquidator.com/tickets/7996760/Nothing-But-Thieves-tickets-Fri-Feb-12-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G65hOFVrJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996760/Nothing-But-Thieves-tickets-Fri-Feb-12-2027-Co-Op-Live"
   },
   {
     "id": "tm-nothing-but-thieves-2027-birmingham-17fyv0g65h43oux",
@@ -570,12 +610,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090586",
+        "url": "https://www.ticketliquidator.com/tickets/8090586/Nothing-But-Thieves-tickets-Sat-Feb-13-2027-bp-pulse-LIVE",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FYv0G65h43oUX",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090586"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090586",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090586/Nothing-But-Thieves-tickets-Sat-Feb-13-2027-bp-pulse-LIVE"
   },
   {
     "id": "tm-nothing-but-thieves-2027-vancouver-1778v0g65pb8zxj",
@@ -631,12 +679,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996252",
+        "url": "https://www.ticketliquidator.com/tickets/7996252/Nothing-But-Thieves-tickets-Tue-Mar-30-2027-Queen-Elizabeth-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G65pB8zxJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996252"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996252",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996252/Nothing-But-Thieves-tickets-Tue-Mar-30-2027-Queen-Elizabeth-Theatre-Vancouver"
   },
   {
     "id": "tm-nothing-but-thieves-2027-seattle-vvg1hz_59quyyu",
@@ -692,12 +748,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996241",
+        "url": "https://www.ticketliquidator.com/tickets/7996241/Nothing-But-Thieves-tickets-Wed-Mar-31-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_59qUYYu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996241"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996241",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996241/Nothing-But-Thieves-tickets-Wed-Mar-31-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-nothing-but-thieves-2027-portland-z7r9jz1a70gfm",
@@ -753,12 +817,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996255",
+        "url": "https://www.ticketliquidator.com/tickets/7996255/Nothing-But-Thieves-tickets-Thu-Apr-1-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gfM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996255"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996255",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996255/Nothing-But-Thieves-tickets-Thu-Apr-1-2027-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-nothing-but-thieves-2027-oakland-g5vyz_5kszteq",
@@ -814,12 +886,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996242",
+        "url": "https://www.ticketliquidator.com/tickets/7996242/Nothing-But-Thieves-tickets-Sat-Apr-3-2027-Fox-Theater-Oakland",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5KszTeQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996242"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996242",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996242/Nothing-But-Thieves-tickets-Sat-Apr-3-2027-Fox-Theater-Oakland"
   },
   {
     "id": "tm-nothing-but-thieves-2027-hollywood-vvg10z_5blnvha",
@@ -875,12 +955,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996243",
+        "url": "https://www.ticketliquidator.com/tickets/7996243/Nothing-But-Thieves-tickets-Sun-Apr-4-2027-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5bLnVha",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996243"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996243",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996243/Nothing-But-Thieves-tickets-Sun-Apr-4-2027-Hollywood-Palladium"
   },
   {
     "id": "tm-nothing-but-thieves-2027-phoenix-17k8v0g659aif3n",
@@ -936,12 +1024,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996244",
+        "url": "https://www.ticketliquidator.com/tickets/7996244/Nothing-But-Thieves-tickets-Wed-Apr-7-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G659aIF3N",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996244"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996244",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996244/Nothing-But-Thieves-tickets-Wed-Apr-7-2027-The-Van-Buren"
   },
   {
     "id": "tm-nothing-but-thieves-2027-denver-z7r9jz1a70g46",
@@ -997,12 +1093,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996257",
+        "url": "https://www.ticketliquidator.com/tickets/7996257/Nothing-But-Thieves-tickets-Fri-Apr-9-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70g46",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996257"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996257",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996257/Nothing-But-Thieves-tickets-Fri-Apr-9-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-nothing-but-thieves-2027-minneapolis-vvg1bz_5fojtcd",
@@ -1058,12 +1162,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996245",
+        "url": "https://www.ticketliquidator.com/tickets/7996245/Nothing-But-Thieves-tickets-Sun-Apr-11-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_5fojtCd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996245"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996245",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996245/Nothing-But-Thieves-tickets-Sun-Apr-11-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus"
   },
   {
     "id": "tm-nothing-but-thieves-2027-chicago-vvg18z_5oubqpe",
@@ -1172,12 +1284,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996247",
+        "url": "https://www.ticketliquidator.com/tickets/7996247/Nothing-But-Thieves-tickets-Tue-Apr-13-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_5QMe6MI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996247"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996247",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996247/Nothing-But-Thieves-tickets-Tue-Apr-13-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-nothing-but-thieves-2027-mckees-rocks-17aov0g65qrt_qd",
@@ -1286,12 +1406,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996249",
+        "url": "https://www.ticketliquidator.com/tickets/7996249/Nothing-But-Thieves-tickets-Fri-Apr-16-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5Qfmzvi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996249"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996249/Nothing-But-Thieves-tickets-Fri-Apr-16-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-nothing-but-thieves-2027-brooklyn-k7vgf_5qzhcl7",
@@ -1347,12 +1475,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996250",
+        "url": "https://www.ticketliquidator.com/tickets/7996250/Nothing-But-Thieves-tickets-Sat-Apr-17-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_5QzhcL7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996250"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996250",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996250/Nothing-But-Thieves-tickets-Sat-Apr-17-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-nothing-but-thieves-2027-boston-vvg17z_5qrro-j",
@@ -1408,12 +1544,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996251",
+        "url": "https://www.ticketliquidator.com/tickets/7996251/Nothing-But-Thieves-tickets-Mon-Apr-19-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5QRRO-j",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996251"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996251",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996251/Nothing-But-Thieves-tickets-Mon-Apr-19-2027-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-nothing-but-thieves-2027-montreal-17g8v0g65q_kpje",
@@ -1469,12 +1613,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996253",
+        "url": "https://www.ticketliquidator.com/tickets/7996253/Nothing-But-Thieves-tickets-Tue-Apr-20-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65Q_kPJe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996253"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996253",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996253/Nothing-But-Thieves-tickets-Tue-Apr-20-2027-MTelus"
   },
   {
     "id": "tm-nothing-but-thieves-2027-toronto-177zv0g65qu93gl",

@@ -212,12 +212,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996083",
+        "url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1URR0eT",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996083"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996083",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton"
   },
   {
     "id": "tm-beartooth-2026-leeds-g5dzz_1wg9kbb",
@@ -379,12 +387,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980209",
+        "url": "https://www.ticketliquidator.com/tickets/7980209/Beartooth-tickets-Wed-Nov-11-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1NJIeZR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980209"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980209",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980209/Beartooth-tickets-Wed-Nov-11-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-beartooth-2026-new-york-k7vgf_1s1uowe",
@@ -493,12 +509,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980349",
+        "url": "https://www.ticketliquidator.com/tickets/7980349/Beartooth-tickets-Fri-Nov-13-2026-Franklin-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70tke",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980349"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980349",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980349/Beartooth-tickets-Fri-Nov-13-2026-Franklin-Music-Hall"
   },
   {
     "id": "tm-beartooth-2026-national-harbor-17a8v0g61vjcef3",
@@ -554,12 +578,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980212",
+        "url": "https://www.ticketliquidator.com/tickets/7980212/Beartooth-tickets-Sun-Nov-15-2026-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61VJceF3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980212"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980212",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980212/Beartooth-tickets-Sun-Nov-15-2026-The-Theater-at-MGM-National-Harbor"
   },
   {
     "id": "tm-beartooth-2026-pittsburgh-z7r9jz1a70t36",
@@ -615,12 +647,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980350",
+        "url": "https://www.ticketliquidator.com/tickets/7980350/Beartooth-tickets-Wed-Nov-18-2026-Stage-AE",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70t36",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980350"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980350",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980350/Beartooth-tickets-Wed-Nov-18-2026-Stage-AE"
   },
   {
     "id": "tm-beartooth-2026-chicago-vvg18z_1nj0ag4",
@@ -676,12 +716,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980215",
+        "url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1NJ0Ag4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-beartooth-2026-maplewood-z7r9jz1aava89",
@@ -790,12 +838,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980217",
+        "url": "https://www.ticketliquidator.com/tickets/7980217/Beartooth-tickets-Sun-Nov-22-2026-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G61Sq6AEC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980217"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980217",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980217/Beartooth-tickets-Sun-Nov-22-2026-Steelhouse-Omaha"
   },
   {
     "id": "tm-beartooth-2026-nashville-g5viz_1sjbpcf",
@@ -851,12 +907,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980219",
+        "url": "https://www.ticketliquidator.com/tickets/7980219/Beartooth-tickets-Sat-Nov-28-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1SJbPcf",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980219"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980219",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980219/Beartooth-tickets-Sat-Nov-28-2026-The-Truth"
   },
   {
     "id": "tm-beartooth-2026-atlanta-vvg1zz_1br-um-",
@@ -912,12 +976,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980221",
+        "url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1BR-uM-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980221"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980221",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy"
   },
   {
     "id": "tm-beartooth-2026-charlotte-g5evz_1mwgsx1",
@@ -973,12 +1045,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980223",
+        "url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1mwgsX1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980223"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980223",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-beartooth-2026-saint-augustine-z7r9jz1a70igm",
@@ -1140,12 +1220,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980229",
+        "url": "https://www.ticketliquidator.com/tickets/7980229/Beartooth-tickets-Mon-Dec-7-2026-The-Fillmore-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1Lu2Gm0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980229/Beartooth-tickets-Mon-Dec-7-2026-The-Fillmore-New-Orleans"
   },
   {
     "id": "tm-beartooth-2026-dallas-vvg1yz_1mmkrmi",
@@ -1201,12 +1289,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980234",
+        "url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1MMkrmI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980234"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980234",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-beartooth-2026-denver-g5vzz_1sigr2s",
@@ -1315,12 +1411,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980237",
+        "url": "https://www.ticketliquidator.com/tickets/7980237/Beartooth-tickets-Sun-Dec-13-2026-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1w63kAm",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980237"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980237",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980237/Beartooth-tickets-Sun-Dec-13-2026-The-Union-Event-Center"
   },
   {
     "id": "tm-beartooth-2026-phoenix-17k8v0g61i5gitx",
@@ -1376,12 +1480,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980239",
+        "url": "https://www.ticketliquidator.com/tickets/7980239/Beartooth-tickets-Wed-Dec-16-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61i5GITx",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980239"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980239",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980239/Beartooth-tickets-Wed-Dec-16-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-beartooth-2026-hollywood-vvg10z_1ikgdyb",
@@ -1437,12 +1549,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980240",
+        "url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1iKGDyB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980240"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980240",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium"
   },
   {
     "id": "tm-beartooth-2026-wheatland-g5vyz_1xgdb2f",
@@ -1498,11 +1618,19 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980241",
+        "url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1xgDb2f",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980241"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980241",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento"
   }
 ]

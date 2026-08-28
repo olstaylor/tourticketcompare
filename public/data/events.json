@@ -3841,11 +3841,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676868",
-        "url": "https://www.ticketliquidator.com/tickets/7676868/BTS-tickets-Thu-Aug-27-2026-Soldier-Field",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107073221",
@@ -3858,7 +3858,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv178Z_eGkl5R4g7",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676868/BTS-tickets-Thu-Aug-27-2026-Soldier-Field",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bts-chicago-tickets-8-27-2026/event/107073221"
   },
   {
@@ -44163,18 +44163,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7424935",
-        "url": "https://www.ticketliquidator.com/tickets/7424935/My-Chemical-Romance-tickets-Thu-Aug-27-2026-Coors-Field",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbwNCBsnm",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424935/My-Chemical-Romance-tickets-Thu-Aug-27-2026-Coors-Field"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-my-chemical-romance-2026-san-diego-vvg1izbwykcki4",
@@ -50188,12 +50188,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231212",
+        "url": "https://www.ticketliquidator.com/tickets/8231212/Tame-Impala-tickets-Fri-May-28-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkf4GkeMYn8u",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231212"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231212",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231212/Tame-Impala-tickets-Fri-May-28-2027-Co-Op-Live"
   },
   {
     "id": "tm-tame-impala-2027-manchester-1amzkf_gkdr-2ec",
@@ -50249,12 +50257,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8237407",
+        "url": "https://www.ticketliquidator.com/tickets/8237407/Tame-Impala-tickets-Sat-May-29-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkf_Gkdr-2Ec",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237407"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237407",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237407/Tame-Impala-tickets-Sat-May-29-2027-Co-Op-Live"
   },
   {
     "id": "tm-tame-impala-2027-london-16dfz_ofpg7t8j2",
@@ -50681,12 +50697,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976476",
+        "url": "https://www.ticketliquidator.com/tickets/7976476/Don-Omar-tickets-Sat-Sep-26-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1wjhcnw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976476"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976476",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976476/Don-Omar-tickets-Sat-Sep-26-2026-TD-Garden"
   },
   {
     "id": "tm-don-omar-2026-hartford-z7r9jz1a70eoa",
@@ -50742,12 +50766,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976494",
+        "url": "https://www.ticketliquidator.com/tickets/7976494/Don-Omar-tickets-Sun-Sep-27-2026-PeoplesBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976494"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976494",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976494/Don-Omar-tickets-Sun-Sep-27-2026-PeoplesBank-Arena"
   },
   {
     "id": "tm-don-omar-2026-dallas-vvg1yz_1d_hllv",
@@ -50803,12 +50835,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976477",
+        "url": "https://www.ticketliquidator.com/tickets/7976477/Don-Omar-tickets-Thu-Oct-1-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1D_Hllv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976477"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976477",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976477/Don-Omar-tickets-Thu-Oct-1-2026-American-Airlines-Center"
   },
   {
     "id": "tm-don-omar-2026-orlando-17fov0g61tztiqr",
@@ -50864,12 +50904,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976478",
+        "url": "https://www.ticketliquidator.com/tickets/7976478/Don-Omar-tickets-Sat-Oct-3-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61TZTiqR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976478"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976478",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976478/Don-Omar-tickets-Sat-Oct-3-2026-Kia-Center"
   },
   {
     "id": "tm-don-omar-2026-miami-vvg1vz_1mbpqce",
@@ -50925,12 +50973,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976479",
+        "url": "https://www.ticketliquidator.com/tickets/7976479/Don-Omar-tickets-Sun-Oct-4-2026-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_1MbPqce",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976479"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976479",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976479/Don-Omar-tickets-Sun-Oct-4-2026-Kaseya-Center"
   },
   {
     "id": "tm-don-omar-2026-rosemont-vvg18z_1bhcnvf",
@@ -50986,12 +51042,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976480",
+        "url": "https://www.ticketliquidator.com/tickets/7976480/Don-Omar-tickets-Thu-Oct-8-2026-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1BHCnVF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976480"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976480",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976480/Don-Omar-tickets-Thu-Oct-8-2026-Allstate-Arena"
   },
   {
     "id": "tm-don-omar-2026-brooklyn-17gzv0g61dlian2",
@@ -51047,12 +51111,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976481",
+        "url": "https://www.ticketliquidator.com/tickets/7976481/Don-Omar-tickets-Sat-Oct-10-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61DlIaN2",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976481"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976481",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976481/Don-Omar-tickets-Sat-Oct-10-2026-Barclays-Center"
   },
   {
     "id": "tm-don-omar-2026-newark-vvg1fz_1tkglsd",
@@ -51108,12 +51180,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976482",
+        "url": "https://www.ticketliquidator.com/tickets/7976482/Don-Omar-tickets-Sun-Oct-11-2026-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1TkGLsD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976482"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976482",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976482/Don-Omar-tickets-Sun-Oct-11-2026-Prudential-Center"
   },
   {
     "id": "tm-don-omar-2026-charlotte-g5evz_1d8lhpj",
@@ -51169,12 +51249,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976483",
+        "url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1D8LHPJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976483"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976483",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center"
   },
   {
     "id": "tm-don-omar-2026-washington-17a8v0g61wbnb9b",
@@ -51230,12 +51318,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976484",
+        "url": "https://www.ticketliquidator.com/tickets/7976484/Don-Omar-tickets-Thu-Oct-15-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61wBnb9B",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976484"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976484",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976484/Don-Omar-tickets-Thu-Oct-15-2026-Capital-One-Arena"
   },
   {
     "id": "tm-don-omar-2026-atlanta-vvg1zz_1unelae",
@@ -51291,12 +51387,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976485",
+        "url": "https://www.ticketliquidator.com/tickets/7976485/Don-Omar-tickets-Sat-Oct-17-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1UneLAE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976485"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976485",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976485/Don-Omar-tickets-Sat-Oct-17-2026-State-Farm-Arena-GA"
   },
   {
     "id": "tm-don-omar-2026-san-antonio-g5diz_1dg8uln",
@@ -51352,12 +51456,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976486",
+        "url": "https://www.ticketliquidator.com/tickets/7976486/Don-Omar-tickets-Thu-Oct-22-2026-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1DG8uLn",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976486"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976486",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976486/Don-Omar-tickets-Thu-Oct-22-2026-Frost-Bank-Center"
   },
   {
     "id": "tm-don-omar-2026-houston-z7r9jz1a70e_w",
@@ -51413,12 +51525,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976497",
+        "url": "https://www.ticketliquidator.com/tickets/7976497/Don-Omar-tickets-Fri-Oct-23-2026-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70E_w",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976497"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976497",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976497/Don-Omar-tickets-Fri-Oct-23-2026-Toyota-Center-TX"
   },
   {
     "id": "tm-don-omar-2026-el-paso-vvg1yz_1hpge4r",
@@ -51474,12 +51594,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976487",
+        "url": "https://www.ticketliquidator.com/tickets/7976487/Don-Omar-tickets-Sun-Oct-25-2026-Don-Haskins-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1HPGE4r",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976487"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976487",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976487/Don-Omar-tickets-Sun-Oct-25-2026-Don-Haskins-Center"
   },
   {
     "id": "tm-don-omar-2026-ontario-vvg10z_1tpplao",
@@ -51535,12 +51663,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976488",
+        "url": "https://www.ticketliquidator.com/tickets/7976488/Don-Omar-tickets-Thu-Oct-29-2026-Toyota-Arena-Ontario",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1TPplaO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976488"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976488",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976488/Don-Omar-tickets-Thu-Oct-29-2026-Toyota-Arena-Ontario"
   },
   {
     "id": "tm-don-omar-2026-las-vegas-z7r9jz1a70eqs",
@@ -51596,12 +51732,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976499",
+        "url": "https://www.ticketliquidator.com/tickets/7976499/Don-Omar-tickets-Fri-Oct-30-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EqS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976499"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976499",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976499/Don-Omar-tickets-Fri-Oct-30-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay"
   },
   {
     "id": "tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv",
@@ -51657,12 +51801,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976501",
+        "url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Sun-Nov-1-2026-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EfV",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976501"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976501",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Sun-Nov-1-2026-Delta-Center"
   },
   {
     "id": "tm-don-omar-2026-san-jose-g5vyz_1mqembe",
@@ -51771,12 +51923,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976490",
+        "url": "https://www.ticketliquidator.com/tickets/7976490/Don-Omar-tickets-Fri-Nov-6-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_56fvyEu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976490"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976490",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976490/Don-Omar-tickets-Fri-Nov-6-2026-The-Kia-Forum"
   },
   {
     "id": "tm-don-omar-2026-phoenix-17k8v0g61tfaez1",
@@ -51832,12 +51992,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976491",
+        "url": "https://www.ticketliquidator.com/tickets/7976491/Don-Omar-tickets-Sun-Nov-8-2026-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61TFAEz1",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976491"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976491",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976491/Don-Omar-tickets-Sun-Nov-8-2026-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-don-omar-2027-denver-g5vzz_u2hqxbt",
@@ -51893,12 +52061,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071957",
+        "url": "https://www.ticketliquidator.com/tickets/8071957/Don-Omar-tickets-Wed-Feb-3-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_u2hqXBT",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071957"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071957",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071957/Don-Omar-tickets-Wed-Feb-3-2027-Ball-Arena"
   },
   {
     "id": "tm-don-omar-2027-sacramento-g5vyz_u1sfm0b",
@@ -51954,12 +52130,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071958",
+        "url": "https://www.ticketliquidator.com/tickets/8071958/Don-Omar-tickets-Fri-Feb-5-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_u1sfm0B",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071958"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071958",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071958/Don-Omar-tickets-Fri-Feb-5-2027-Golden-1-Center"
   },
   {
     "id": "tm-don-omar-2027-seattle-vvg1hz_u4jzxck",
@@ -52015,12 +52199,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071959",
+        "url": "https://www.ticketliquidator.com/tickets/8071959/Don-Omar-tickets-Sun-Feb-7-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_u4JzxCk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071959"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071959",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071959/Don-Omar-tickets-Sun-Feb-7-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-don-omar-2027-san-diego-z7r9jz1a7pggy",
@@ -52076,12 +52268,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8086304",
+        "url": "https://www.ticketliquidator.com/tickets/8086304/Don-Omar-tickets-Wed-Feb-10-2027-Pechanga-Arena-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PgGY",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086304"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086304",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086304/Don-Omar-tickets-Wed-Feb-10-2027-Pechanga-Arena-San-Diego"
   },
   {
     "id": "tm-don-omar-2027-fresno-g5vyz_u5k7ws7",
@@ -52137,12 +52337,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071960",
+        "url": "https://www.ticketliquidator.com/tickets/8071960/Don-Omar-tickets-Thu-Feb-11-2027-Save-Mart-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_u5k7wS7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071960"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071960",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071960/Don-Omar-tickets-Thu-Feb-11-2027-Save-Mart-Center"
   },
   {
     "id": "tm-don-omar-2027-inglewood-vvg10z_u2a3ul3",
@@ -52198,12 +52406,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071961",
+        "url": "https://www.ticketliquidator.com/tickets/8071961/Don-Omar-tickets-Fri-Feb-12-2027-Intuit-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_u2a3ul3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071961"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071961",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071961/Don-Omar-tickets-Fri-Feb-12-2027-Intuit-Dome"
   },
   {
     "id": "tm-don-omar-2027-toronto-177zv0g6u2fwanb",
@@ -52312,12 +52528,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071972",
+        "url": "https://www.ticketliquidator.com/tickets/8071972/Don-Omar-tickets-Sun-Feb-21-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G6uCXTIxy",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071972"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071972",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071972/Don-Omar-tickets-Sun-Feb-21-2027-Centre-Bell"
   },
   {
     "id": "tm-don-omar-2027-rosemont-vvg18z_u5mkrgh",
@@ -52373,12 +52597,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071962",
+        "url": "https://www.ticketliquidator.com/tickets/8071962/Don-Omar-tickets-Fri-Feb-26-2027-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_u5MKrgh",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071962"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071962",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071962/Don-Omar-tickets-Fri-Feb-26-2027-Allstate-Arena"
   },
   {
     "id": "tm-don-omar-2027-belmont-park-17gzv0g6u15uw7e",
@@ -52487,12 +52719,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071964",
+        "url": "https://www.ticketliquidator.com/tickets/8071964/Don-Omar-tickets-Wed-Mar-3-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_u5XkezY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071964"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071964",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071964/Don-Omar-tickets-Wed-Mar-3-2027-Prudential-Center"
   },
   {
     "id": "tm-don-omar-2027-baltimore-17a8v0g6ukar9g1",
@@ -52548,12 +52788,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071965",
+        "url": "https://www.ticketliquidator.com/tickets/8071965/Don-Omar-tickets-Thu-Mar-4-2027-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6uKar9g1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071965"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071965",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071965/Don-Omar-tickets-Thu-Mar-4-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro",
@@ -52609,12 +52857,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071966",
+        "url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_u1_oUrO",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071966"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071966",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Dickies-Arena"
   },
   {
     "id": "tm-don-omar-2027-austin-g5diz_u3mkhzt",
@@ -52670,12 +52926,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8073019",
+        "url": "https://www.ticketliquidator.com/tickets/8073019/Don-Omar-tickets-Sun-Mar-7-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_u3MKhZT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073019"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073019",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8073019/Don-Omar-tickets-Sun-Mar-7-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-don-omar-2027-tampa-vvg1vz_uc-buha",
@@ -52731,12 +52995,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071967",
+        "url": "https://www.ticketliquidator.com/tickets/8071967/Don-Omar-tickets-Wed-Mar-10-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_uC-BUha",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071967"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071967",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071967/Don-Omar-tickets-Wed-Mar-10-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-don-omar-2027-miami-vvg1vz_uk8ovtf",
@@ -52792,12 +53064,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071968",
+        "url": "https://www.ticketliquidator.com/tickets/8071968/Don-Omar-tickets-Fri-Mar-12-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_uk8OVtf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071968"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071968",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071968/Don-Omar-tickets-Fri-Mar-12-2027-Kaseya-Center"
   },
   {
     "id": "tm-don-omar-2027-orlando-17fov0g6u6m7kw6",
@@ -52853,12 +53133,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071970",
+        "url": "https://www.ticketliquidator.com/tickets/8071970/Don-Omar-tickets-Sun-Mar-14-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6u6M7kw6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071970"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071970",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071970/Don-Omar-tickets-Sun-Mar-14-2027-Kia-Center"
   },
   {
     "id": "tm-don-omar-2027-berlin-z698xzc2z16v4ogoca",
@@ -52967,12 +53255,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203740",
+        "url": "https://www.ticketliquidator.com/tickets/8203740/Luke-Combs-tickets-Sat-Apr-3-2027-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZYf6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203740"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203740",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203740/Luke-Combs-tickets-Sat-Apr-3-2027-ATT-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-detroit-vv1afzkf6gkesjjgl",
@@ -53028,12 +53324,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203726",
+        "url": "https://www.ticketliquidator.com/tickets/8203726/Luke-Combs-tickets-Sat-Apr-17-2027-Ford-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkf6GkesjJGL",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203726"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203726",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203726/Luke-Combs-tickets-Sat-Apr-17-2027-Ford-Field"
   },
   {
     "id": "tm-luke-combs-2027-philadelphia-vv17fz_8gklpk2ll",
@@ -53089,12 +53393,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203727",
+        "url": "https://www.ticketliquidator.com/tickets/8203727/Luke-Combs-tickets-Sat-Apr-24-2027-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_8GklpK2ll",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203727"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203727",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203727/Luke-Combs-tickets-Sat-Apr-24-2027-Lincoln-Financial-Field"
   },
   {
     "id": "tm-luke-combs-2027-foxborough-vv177z_8gkinn93w",
@@ -53150,12 +53462,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203728",
+        "url": "https://www.ticketliquidator.com/tickets/8203728/Luke-Combs-tickets-Sat-May-1-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_8GkINn93w",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203728"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203728",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203728/Luke-Combs-tickets-Sat-May-1-2027-Gillette-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-pittsburgh-1avbz_8gkd1oiqd",
@@ -53211,12 +53531,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203729",
+        "url": "https://www.ticketliquidator.com/tickets/8203729/Luke-Combs-tickets-Sat-May-8-2027-Acrisure-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_8GkD1oiqd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203729"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203729",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203729/Luke-Combs-tickets-Sat-May-8-2027-Acrisure-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-kansas-city-vv1akzkf6gkesjbxu",
@@ -53272,12 +53600,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203731",
+        "url": "https://www.ticketliquidator.com/tickets/8203731/Luke-Combs-tickets-Sat-May-15-2027-Arrowhead-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf6GkeSjBxu",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203731"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203731",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203731/Luke-Combs-tickets-Sat-May-15-2027-Arrowhead-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-edmonton-1av7z_8gkw3oea5",
@@ -53386,12 +53722,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203738",
+        "url": "https://www.ticketliquidator.com/tickets/8203738/Luke-Combs-tickets-Sat-Jun-5-2027-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_8Gkwig5Fh",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203738"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203738",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203738/Luke-Combs-tickets-Sat-Jun-5-2027-BC-Place-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-boise-g5vzz_8lfjx4v",
@@ -53447,12 +53791,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203732",
+        "url": "https://www.ticketliquidator.com/tickets/8203732/Luke-Combs-tickets-Sat-Jun-12-2027-Albertsons-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_8lFjX4V",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203732"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203732",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203732/Luke-Combs-tickets-Sat-Jun-12-2027-Albertsons-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-denver-g5vzz_8l39sxz",
@@ -53508,12 +53860,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203733",
+        "url": "https://www.ticketliquidator.com/tickets/8203733/Luke-Combs-tickets-Sat-Jun-19-2027-Empower-Field-At-Mile-High",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_8l39sxz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203733"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203733",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203733/Luke-Combs-tickets-Sat-Jun-19-2027-Empower-Field-At-Mile-High"
   },
   {
     "id": "tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a",
@@ -53569,12 +53929,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203734",
+        "url": "https://www.ticketliquidator.com/tickets/8203734/Luke-Combs-tickets-Sat-Jun-26-2027-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_8l9Y-6a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203734"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203734",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203734/Luke-Combs-tickets-Sat-Jun-26-2027-Petco-Park"
   },
   {
     "id": "tm-blue-october-2026-abilene-z7r9jz1a7-v0n",
@@ -53630,12 +53998,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828050",
+        "url": "https://www.ticketliquidator.com/tickets/7828050/Blue-October-tickets-Thu-Oct-22-2026-Paramount-Theatre-Abilene",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0N",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828050"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828050",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828050/Blue-October-tickets-Thu-Oct-22-2026-Paramount-Theatre-Abilene"
   },
   {
     "id": "tm-blue-october-2026-lubbock-z7r9jz1a70v8t",
@@ -53752,12 +54128,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828052",
+        "url": "https://www.ticketliquidator.com/tickets/7828052/Blue-October-tickets-Sat-Oct-24-2026-Tulsa-Theater",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828052"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828052",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828052/Blue-October-tickets-Sat-Oct-24-2026-Tulsa-Theater"
   },
   {
     "id": "tm-blue-october-2026-wichita-z7r9jz1a7-v0p",
@@ -53988,12 +54372,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827962",
+        "url": "https://www.ticketliquidator.com/tickets/7827962/Blue-October-tickets-Fri-Oct-30-2026-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_kGkMVFl46",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827962"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827962",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827962/Blue-October-tickets-Fri-Oct-30-2026-The-Fillmore-Detroit"
   },
   {
     "id": "tm-blue-october-2026-toronto-1avzz_kgkvawuqh",
@@ -54574,12 +54966,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827968",
+        "url": "https://www.ticketliquidator.com/tickets/7827968/Blue-October-tickets-Fri-Nov-13-2026-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_kGkw31n77",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827968"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827968",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827968/Blue-October-tickets-Fri-Nov-13-2026-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-blue-october-2026-wilkes-barre-vv1aezkosgkdamrl_",
@@ -54688,12 +55088,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827970",
+        "url": "https://www.ticketliquidator.com/tickets/7827970/Blue-October-tickets-Sun-Nov-15-2026-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkowGkdCmRR7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827970"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827970",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827970/Blue-October-tickets-Sun-Nov-15-2026-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-blue-october-2026-charlotte-g5evz_kng4bet",
@@ -54749,12 +55157,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827971",
+        "url": "https://www.ticketliquidator.com/tickets/7827971/Blue-October-tickets-Tue-Nov-17-2026-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_knG4bET",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827971"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827971",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827971/Blue-October-tickets-Tue-Nov-17-2026-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-blue-october-2026-jacksonville-z7r9jz1a7-v03",
@@ -54932,12 +55348,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827973",
+        "url": "https://www.ticketliquidator.com/tickets/7827973/Blue-October-tickets-Sat-Nov-21-2026-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_kGknMxMnK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827973"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827973",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827973/Blue-October-tickets-Sat-Nov-21-2026-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-blue-october-2026-atlanta-vvg1zz_6ddzdk3",
@@ -55282,12 +55706,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827978",
+        "url": "https://www.ticketliquidator.com/tickets/7827978/Blue-October-tickets-Fri-Dec-4-2026-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkowGkdjZvR0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827978"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827978",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827978/Blue-October-tickets-Fri-Dec-4-2026-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus"
   },
   {
     "id": "tm-blue-october-2026-la-vista-1aezz_kgks7afny",
@@ -56051,12 +56483,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957261",
+        "url": "https://www.ticketliquidator.com/tickets/7957261/Blue-October-tickets-Wed-Feb-3-2027-Rialto-Theatre-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61r3Fg2b",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957261"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957261",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957261/Blue-October-tickets-Wed-Feb-3-2027-Rialto-Theatre-Tucson"
   },
   {
     "id": "tm-blue-october-2027-phoenix-17k8v0g61lto1cb",
@@ -56409,12 +56849,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957273",
+        "url": "https://www.ticketliquidator.com/tickets/7957273/Blue-October-tickets-Sat-Feb-13-2027-Brooklyn-Bowl-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61pPuqbc",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957273"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957273",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957273/Blue-October-tickets-Sat-Feb-13-2027-Brooklyn-Bowl-Las-Vegas"
   },
   {
     "id": "tm-blue-october-2027-bakersfield-z7r9jz1a70_4m",
@@ -56470,12 +56918,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957494",
+        "url": "https://www.ticketliquidator.com/tickets/7957494/Blue-October-tickets-Wed-Feb-17-2027-The-Historic-Bakersfield-Fox-Theater",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_4M",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957494"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957494",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957494/Blue-October-tickets-Wed-Feb-17-2027-The-Historic-Bakersfield-Fox-Theater"
   },
   {
     "id": "tm-blue-october-2027-san-francisco-z7r9jz1a70_4z",
@@ -56775,12 +57231,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957276",
+        "url": "https://www.ticketliquidator.com/tickets/7957276/Blue-October-tickets-Wed-Feb-24-2027-Knitting-Factory-Spokane",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1RinHTu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957276"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957276",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957276/Blue-October-tickets-Wed-Feb-24-2027-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-blue-october-2027-vancouver-1778v0g61pgtl-u",
@@ -57430,12 +57894,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957282",
+        "url": "https://www.ticketliquidator.com/tickets/7957282/Blue-October-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Rockford",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17F8v0G61mnFK5G",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957282"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957282",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957282/Blue-October-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Rockford"
   },
   {
     "id": "tm-pentatonix-2026-tacoma-vvg1hz_2zdlw0j",
@@ -57491,12 +57963,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184406",
+        "url": "https://www.ticketliquidator.com/tickets/8184406/Pentatonix-tickets-Thu-Nov-5-2026-Tacoma-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2ZdLw0j",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184406"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184406",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184406/Pentatonix-tickets-Thu-Nov-5-2026-Tacoma-Dome"
   },
   {
     "id": "tm-pentatonix-2026-vancouver-1k78vpvbga1v43o",
@@ -57552,12 +58032,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184455",
+        "url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPvbGA1v43o",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184455"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184455",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena"
   },
   {
     "id": "tm-pentatonix-2026-bozeman-z7r9jz1aaz-xz",
@@ -57613,12 +58101,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194951",
+        "url": "https://www.ticketliquidator.com/tickets/8194951/Pentatonix-tickets-Mon-Nov-9-2026-Brick-Breeden-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ-xZ",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194951"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194951",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194951/Pentatonix-tickets-Mon-Nov-9-2026-Brick-Breeden-Fieldhouse"
   },
   {
     "id": "tm-pentatonix-2026-casper-g5vzz_2uvfg47",
@@ -57674,12 +58170,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184409",
+        "url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_2UVFG47",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184409"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184409",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center"
   },
   {
     "id": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",
@@ -57735,12 +58239,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184413",
+        "url": "https://www.ticketliquidator.com/tickets/8184413/Pentatonix-tickets-Thu-Nov-12-2026-Pinnacle-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf7GkdppSjY",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184413"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184413",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184413/Pentatonix-tickets-Thu-Nov-12-2026-Pinnacle-Bank-Arena"
   },
   {
     "id": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
@@ -57796,12 +58308,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184416",
+        "url": "https://www.ticketliquidator.com/tickets/8184416/Pentatonix-tickets-Sat-Nov-14-2026-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_296MPvG",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184416"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184416",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184416/Pentatonix-tickets-Sat-Nov-14-2026-Fiserv-Forum"
   },
   {
     "id": "tm-pentatonix-2026-grand-rapids-vvg1oz_2h1hwe2",
@@ -57857,12 +58377,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184418",
+        "url": "https://www.ticketliquidator.com/tickets/8184418/Pentatonix-tickets-Sun-Nov-15-2026-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_2H1Hwe2",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184418"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184418",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184418/Pentatonix-tickets-Sun-Nov-15-2026-Van-Andel-Arena"
   },
   {
     "id": "tm-pentatonix-2026-louisville-1apzkf7gker9zih",
@@ -57918,12 +58446,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184419",
+        "url": "https://www.ticketliquidator.com/tickets/8184419/Pentatonix-tickets-Mon-Nov-16-2026-KFC-Yum-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkf7GkeR9ziH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184419"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184419",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184419/Pentatonix-tickets-Mon-Nov-16-2026-KFC-Yum-Center"
   },
   {
     "id": "tm-pentatonix-2026-buffalo-k7vgf_8kru5hf",
@@ -57979,12 +58515,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184420",
+        "url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_8kru5hF",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184420"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184420",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center"
   },
   {
     "id": "tm-pentatonix-2026-cleveland-z7r9jz1aazofo",
@@ -58040,12 +58584,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184421",
+        "url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZOFo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184421"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184421",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena"
   },
   {
     "id": "tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b",
@@ -58101,12 +58653,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184422",
+        "url": "https://www.ticketliquidator.com/tickets/8184422/Pentatonix-tickets-Sat-Nov-21-2026-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfdGkdrCD8B",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184422"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184422",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184422/Pentatonix-tickets-Sat-Nov-21-2026-PPG-Paints-Arena"
   },
   {
     "id": "tm-pentatonix-2026-hamilton-1a8zkf7gkdvkv7f",
@@ -58215,12 +58775,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184423",
+        "url": "https://www.ticketliquidator.com/tickets/8184423/Pentatonix-tickets-Sat-Nov-28-2026-John-Paul-Jones-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F7Z_8uv7OZdC1C",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184423"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184423",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184423/Pentatonix-tickets-Sat-Nov-28-2026-John-Paul-Jones-Arena"
   },
   {
     "id": "tm-pentatonix-2026-albany-k7vgf_2br5dvf",
@@ -58276,12 +58844,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184424",
+        "url": "https://www.ticketliquidator.com/tickets/8184424/Pentatonix-tickets-Sun-Nov-29-2026-MVP-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_2BR5DVf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184424"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184424",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184424/Pentatonix-tickets-Sun-Nov-29-2026-MVP-Arena"
   },
   {
     "id": "tm-pentatonix-2026-baltimore-17a8v0g62urg9es",
@@ -58337,12 +58913,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184425",
+        "url": "https://www.ticketliquidator.com/tickets/8184425/Pentatonix-tickets-Thu-Dec-3-2026-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62URG9ES",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184425"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184425",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184425/Pentatonix-tickets-Thu-Dec-3-2026-CFG-Bank-Arena"
   },
   {
     "id": "tm-pentatonix-2026-columbia-g5evz_2t_yqom",
@@ -58398,12 +58982,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184426",
+        "url": "https://www.ticketliquidator.com/tickets/8184426/Pentatonix-tickets-Sat-Dec-5-2026-Colonial-Life-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2T_Yqom",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184426"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184426",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184426/Pentatonix-tickets-Sat-Dec-5-2026-Colonial-Life-Arena"
   },
   {
     "id": "tm-pentatonix-2026-greenville-g5evz_2tznjd_",
@@ -58459,12 +59051,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184428",
+        "url": "https://www.ticketliquidator.com/tickets/8184428/Pentatonix-tickets-Sun-Dec-6-2026-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2TZnJD_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184428"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184428",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184428/Pentatonix-tickets-Sun-Dec-6-2026-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-pentatonix-2026-raleigh-g5evz_2xkfyfh",
@@ -58520,12 +59120,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184430",
+        "url": "https://www.ticketliquidator.com/tickets/8184430/Pentatonix-tickets-Mon-Dec-7-2026-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2XkFyfh",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184430"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184430",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184430/Pentatonix-tickets-Mon-Dec-7-2026-Lenovo-Center"
   },
   {
     "id": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
@@ -58581,12 +59189,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184431",
+        "url": "https://www.ticketliquidator.com/tickets/8184431/Pentatonix-tickets-Wed-Dec-9-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_8pdi7WI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184431"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184431",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184431/Pentatonix-tickets-Wed-Dec-9-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r",
@@ -58642,12 +59258,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184432",
+        "url": "https://www.ticketliquidator.com/tickets/8184432/Pentatonix-tickets-Thu-Dec-10-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8pzYI3R",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184432"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184432",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184432/Pentatonix-tickets-Thu-Dec-10-2026-State-Farm-Arena-GA"
   },
   {
     "id": "tm-pentatonix-2026-north-little-rock-g5viz_2r0054y",
@@ -58703,12 +59327,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184433",
+        "url": "https://www.ticketliquidator.com/tickets/8184433/Pentatonix-tickets-Sat-Dec-12-2026-Simmons-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2r0054Y",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184433"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184433",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184433/Pentatonix-tickets-Sat-Dec-12-2026-Simmons-Bank-Arena"
   },
   {
     "id": "tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m",
@@ -58764,12 +59396,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184435",
+        "url": "https://www.ticketliquidator.com/tickets/8184435/Pentatonix-tickets-Sun-Dec-13-2026-Brookshire-Grocery-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2gYyd_m",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184435"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184435",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184435/Pentatonix-tickets-Sun-Dec-13-2026-Brookshire-Grocery-Arena"
   },
   {
     "id": "tm-pentatonix-2026-austin-g5diz_8kmjslp",
@@ -58825,12 +59465,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184790",
+        "url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8KmjslP",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184790"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-pentatonix-2026-fort-worth-vvg1yz_cn4la0m",
@@ -58886,12 +59534,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184443",
+        "url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Cn4lA0M",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184443"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184443",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Dickies-Arena"
   },
   {
     "id": "tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6",
@@ -58947,12 +59603,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8193304",
+        "url": "https://www.ticketliquidator.com/tickets/8193304/Pentatonix-tickets-Thu-Dec-17-2026-United-Supermarkets-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ-j6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193304"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193304",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193304/Pentatonix-tickets-Thu-Dec-17-2026-United-Supermarkets-Arena"
   },
   {
     "id": "tm-pentatonix-2026-glendale-16_zkfdauzauuafa",
@@ -59008,12 +59672,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184445",
+        "url": "https://www.ticketliquidator.com/tickets/8184445/Pentatonix-tickets-Sat-Dec-19-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16_ZkfdaUZAuuAFa",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184445"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184445",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184445/Pentatonix-tickets-Sat-Dec-19-2026-Desert-Diamond-Arena"
   },
   {
     "id": "tm-pentatonix-2026-san-diego-vvg1iz_2i-g3fb",
@@ -59069,12 +59741,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184448",
+        "url": "https://www.ticketliquidator.com/tickets/8184448/Pentatonix-tickets-Sun-Dec-20-2026-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_2I-g3fB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184448"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184448",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184448/Pentatonix-tickets-Sun-Dec-20-2026-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
@@ -59130,12 +59810,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184452",
+        "url": "https://www.ticketliquidator.com/tickets/8184452/Pentatonix-tickets-Tue-Dec-22-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkf7GkdI1Gsn",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184452"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184452",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184452/Pentatonix-tickets-Tue-Dec-22-2026-The-Kia-Forum"
   },
   {
     "id": "tm-tyla-2026-london-g5dzz_29jk-dk",
@@ -59191,12 +59879,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8168767",
+        "url": "https://www.ticketliquidator.com/tickets/8168767/Tyla-tickets-Thu-Oct-15-2026-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_29jK-Dk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168767/Tyla-tickets-Thu-Oct-15-2026-O2-Academy-Brixton"
   },
   {
     "id": "tm-tyla-2026-london-g5dzz_29jsxep",
@@ -59305,12 +60001,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8168768",
+        "url": "https://www.ticketliquidator.com/tickets/8168768/Tyla-tickets-Sun-Oct-18-2026-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_2ebYvNY",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168768/Tyla-tickets-Sun-Oct-18-2026-O2-Academy-Glasgow"
   },
   {
     "id": "tm-tyla-2026-manchester-17uov0g62k1nnho",
@@ -59366,12 +60070,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8168769",
+        "url": "https://www.ticketliquidator.com/tickets/8168769/Tyla-tickets-Mon-Oct-19-2026-O2-Apollo-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62K1nnhO",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168769",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168769/Tyla-tickets-Mon-Oct-19-2026-O2-Apollo-Manchester"
   },
   {
     "id": "tm-tyla-2026-forest-brussels-z698xzg2z16vrkgpa9",
@@ -59480,12 +60192,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8168764",
+        "url": "https://www.ticketliquidator.com/tickets/8168764/Tyla-tickets-Sat-Oct-24-2026-Mitsubishi-Electric-Halle",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vq4jJGN",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168764"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168764",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168764/Tyla-tickets-Sat-Oct-24-2026-Mitsubishi-Electric-Halle"
   },
   {
     "id": "tm-tyla-2026-berlin-z698xzc2z16vfognfa",
@@ -59541,12 +60261,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8168766",
+        "url": "https://www.ticketliquidator.com/tickets/8168766/Tyla-tickets-Tue-Oct-27-2026-Uber-Eats-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vFOGNfA",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168766"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168766/Tyla-tickets-Tue-Oct-27-2026-Uber-Eats-Music-Hall"
   },
   {
     "id": "tm-tyla-2026-wheatland-g5vyz_2qphiow",
@@ -59602,12 +60330,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164815",
+        "url": "https://www.ticketliquidator.com/tickets/8164815/Tyla-tickets-Thu-Nov-12-2026-Hard-Rock-Live-Sacramento",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2QphIOW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164815"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164815",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164815/Tyla-tickets-Thu-Nov-12-2026-Hard-Rock-Live-Sacramento"
   },
   {
     "id": "tm-tyla-2026-san-francisco-g5vyz_2fimqin",
@@ -59663,12 +60399,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164817",
+        "url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2fIMqin",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164817"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164817",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-tyla-2026-vancouver-1778v0g62hxtorg",
@@ -59724,12 +60468,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164819",
+        "url": "https://www.ticketliquidator.com/tickets/8164819/Tyla-tickets-Sun-Nov-15-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G62hXtorg",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164819"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164819",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164819/Tyla-tickets-Sun-Nov-15-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-tyla-2026-seattle-vvg1hz_2qgz489",
@@ -59785,12 +60537,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164824",
+        "url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-tyla-2026-denver-g5vzz_2qdtig-",
@@ -59899,12 +60659,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164826",
+        "url": "https://www.ticketliquidator.com/tickets/8164826/Tyla-tickets-Sun-Nov-22-2026-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_2o77qjU",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164826"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164826",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164826/Tyla-tickets-Sun-Nov-22-2026-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-tyla-2026-boston-vvg17z_2pblciw",
@@ -59960,12 +60728,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164827",
+        "url": "https://www.ticketliquidator.com/tickets/8164827/Tyla-tickets-Wed-Nov-25-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_2pblCIW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164827"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164827",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164827/Tyla-tickets-Wed-Nov-25-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-tyla-2026-toronto-177zv0g6294fsr8",
@@ -60074,12 +60850,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164811",
+        "url": "https://www.ticketliquidator.com/tickets/8164811/Tyla-tickets-Sat-Nov-28-2026-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_2xiQkw5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164811"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164811",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164811/Tyla-tickets-Sat-Nov-28-2026-Brooklyn-Paramount"
   },
   {
     "id": "tm-tyla-2026-brooklyn-k7vgf_2xiquwo",
@@ -60135,12 +60919,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8228565",
+        "url": "https://www.ticketliquidator.com/tickets/8228565/Tyla-tickets-Sun-Nov-29-2026-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_2xiQUwO",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8228565"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8228565",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8228565/Tyla-tickets-Sun-Nov-29-2026-Brooklyn-Paramount"
   },
   {
     "id": "tm-tyla-2026-washington-17a8v0g6267w7kc",
@@ -60196,12 +60988,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164835",
+        "url": "https://www.ticketliquidator.com/tickets/8164835/Tyla-tickets-Wed-Dec-2-2026-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6267w7kc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164835"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164835",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164835/Tyla-tickets-Wed-Dec-2-2026-The-Anthem-DC"
   },
   {
     "id": "tm-tyla-2026-tampa-vvg1vz_2xeqp5j",
@@ -60257,12 +61057,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164840",
+        "url": "https://www.ticketliquidator.com/tickets/8164840/Tyla-tickets-Sat-Dec-5-2026-The-Yuengling-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_2xEqp5J",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164840"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164840",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164840/Tyla-tickets-Sat-Dec-5-2026-The-Yuengling-Center"
   },
   {
     "id": "tm-tyla-2026-atlanta-vvg1zz_2xnv9ge",
@@ -60318,12 +61126,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164845",
+        "url": "https://www.ticketliquidator.com/tickets/8164845/Tyla-tickets-Sun-Dec-6-2026-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_2xNv9ge",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164845"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164845",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164845/Tyla-tickets-Sun-Dec-6-2026-Coca-Cola-Roxy"
   },
   {
     "id": "tm-tyla-2026-irving-vvg1yz_2hhoqxx",
@@ -60379,12 +61195,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164850",
+        "url": "https://www.ticketliquidator.com/tickets/8164850/Tyla-tickets-Wed-Dec-9-2026-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_2hhoQXX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164850"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164850",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164850/Tyla-tickets-Wed-Dec-9-2026-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-tyla-2026-houston-g5diz_2qrewdk",
@@ -60440,12 +61264,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164851",
+        "url": "https://www.ticketliquidator.com/tickets/8164851/Tyla-tickets-Thu-Dec-10-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_2QREWdK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164851"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164851",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164851/Tyla-tickets-Thu-Dec-10-2026-713-Music-Hall"
   },
   {
     "id": "tm-tyla-2026-austin-g5diz_2xjh2vb",
@@ -60501,12 +61333,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164672",
+        "url": "https://www.ticketliquidator.com/tickets/8164672/Tyla-tickets-Fri-Dec-11-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_2xJH2vB",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164672"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164672",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164672/Tyla-tickets-Fri-Dec-11-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-tyla-2026-phoenix-17k8v0g62ljff-n",
@@ -60562,12 +61402,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164852",
+        "url": "https://www.ticketliquidator.com/tickets/8164852/Tyla-tickets-Mon-Dec-14-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G62LjFF-N",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164852"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164852",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164852/Tyla-tickets-Mon-Dec-14-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-tyla-2026-san-diego-vvg1iz_cilyeb0",
@@ -60623,12 +61471,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164857",
+        "url": "https://www.ticketliquidator.com/tickets/8164857/Tyla-tickets-Tue-Dec-15-2026-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_CiLYEB0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164857"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164857",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164857/Tyla-tickets-Tue-Dec-15-2026-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-tyla-2026-inglewood-vvg1iz_cjqejmf",
@@ -60684,12 +61540,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164858",
+        "url": "https://www.ticketliquidator.com/tickets/8164858/Tyla-tickets-Wed-Dec-16-2026-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_CJqEJMF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164858"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164858",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164858/Tyla-tickets-Wed-Dec-16-2026-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-tyla-2026-las-vegas-17ayv0g629nf-rw",
@@ -60745,12 +61609,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164859",
+        "url": "https://www.ticketliquidator.com/tickets/8164859/Tyla-tickets-Sat-Dec-19-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G629nF-rw",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164859"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164859",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164859/Tyla-tickets-Sat-Dec-19-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k4d_v4s",
@@ -60806,12 +61678,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090592",
+        "url": "https://www.ticketliquidator.com/tickets/8090592/Nothing-But-Thieves-tickets-Fri-Jan-15-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k4d_V4s",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090592"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090592",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090592/Nothing-But-Thieves-tickets-Fri-Jan-15-2027-Ziggo-Dome"
   },
   {
     "id": "tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k86ab8e",
@@ -60867,12 +61747,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090593",
+        "url": "https://www.ticketliquidator.com/tickets/8090593/Nothing-But-Thieves-tickets-Sat-Jan-16-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k86Ab8e",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090593"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090593",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090593/Nothing-But-Thieves-tickets-Sat-Jan-16-2027-Ziggo-Dome"
   },
   {
     "id": "tm-nothing-but-thieves-2027-assago-zg9rmiynyzefv7",
@@ -61034,12 +61922,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090588",
+        "url": "https://www.ticketliquidator.com/tickets/8090588/Nothing-But-Thieves-tickets-Thu-Feb-4-2027-Motorpoint-Arena-Nottingham",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G65hxePMR",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090588"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090588",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090588/Nothing-But-Thieves-tickets-Thu-Feb-4-2027-Motorpoint-Arena-Nottingham"
   },
   {
     "id": "tm-nothing-but-thieves-2027-london-17u8v0g65h5y7dp",
@@ -61201,12 +62097,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090594",
+        "url": "https://www.ticketliquidator.com/tickets/8090594/Nothing-But-Thieves-tickets-Wed-Feb-10-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65QojIIk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090594"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090594",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090594/Nothing-But-Thieves-tickets-Wed-Feb-10-2027-OVO-Hydro"
   },
   {
     "id": "tm-nothing-but-thieves-2027-manchester-17uyv0g65hofvrj",
@@ -61262,12 +62166,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996760",
+        "url": "https://www.ticketliquidator.com/tickets/7996760/Nothing-But-Thieves-tickets-Fri-Feb-12-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G65hOFVrJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996760/Nothing-But-Thieves-tickets-Fri-Feb-12-2027-Co-Op-Live"
   },
   {
     "id": "tm-nothing-but-thieves-2027-birmingham-17fyv0g65h43oux",
@@ -61323,12 +62235,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090586",
+        "url": "https://www.ticketliquidator.com/tickets/8090586/Nothing-But-Thieves-tickets-Sat-Feb-13-2027-bp-pulse-LIVE",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FYv0G65h43oUX",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090586"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090586",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090586/Nothing-But-Thieves-tickets-Sat-Feb-13-2027-bp-pulse-LIVE"
   },
   {
     "id": "tm-nothing-but-thieves-2027-vancouver-1778v0g65pb8zxj",
@@ -61384,12 +62304,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996252",
+        "url": "https://www.ticketliquidator.com/tickets/7996252/Nothing-But-Thieves-tickets-Tue-Mar-30-2027-Queen-Elizabeth-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G65pB8zxJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996252"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996252",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996252/Nothing-But-Thieves-tickets-Tue-Mar-30-2027-Queen-Elizabeth-Theatre-Vancouver"
   },
   {
     "id": "tm-nothing-but-thieves-2027-seattle-vvg1hz_59quyyu",
@@ -61445,12 +62373,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996241",
+        "url": "https://www.ticketliquidator.com/tickets/7996241/Nothing-But-Thieves-tickets-Wed-Mar-31-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_59qUYYu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996241"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996241",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996241/Nothing-But-Thieves-tickets-Wed-Mar-31-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-nothing-but-thieves-2027-portland-z7r9jz1a70gfm",
@@ -61506,12 +62442,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996255",
+        "url": "https://www.ticketliquidator.com/tickets/7996255/Nothing-But-Thieves-tickets-Thu-Apr-1-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gfM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996255"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996255",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996255/Nothing-But-Thieves-tickets-Thu-Apr-1-2027-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-nothing-but-thieves-2027-oakland-g5vyz_5kszteq",
@@ -61567,12 +62511,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996242",
+        "url": "https://www.ticketliquidator.com/tickets/7996242/Nothing-But-Thieves-tickets-Sat-Apr-3-2027-Fox-Theater-Oakland",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5KszTeQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996242"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996242",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996242/Nothing-But-Thieves-tickets-Sat-Apr-3-2027-Fox-Theater-Oakland"
   },
   {
     "id": "tm-nothing-but-thieves-2027-hollywood-vvg10z_5blnvha",
@@ -61628,12 +62580,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996243",
+        "url": "https://www.ticketliquidator.com/tickets/7996243/Nothing-But-Thieves-tickets-Sun-Apr-4-2027-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5bLnVha",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996243"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996243",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996243/Nothing-But-Thieves-tickets-Sun-Apr-4-2027-Hollywood-Palladium"
   },
   {
     "id": "tm-nothing-but-thieves-2027-phoenix-17k8v0g659aif3n",
@@ -61689,12 +62649,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996244",
+        "url": "https://www.ticketliquidator.com/tickets/7996244/Nothing-But-Thieves-tickets-Wed-Apr-7-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G659aIF3N",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996244"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996244",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996244/Nothing-But-Thieves-tickets-Wed-Apr-7-2027-The-Van-Buren"
   },
   {
     "id": "tm-nothing-but-thieves-2027-denver-z7r9jz1a70g46",
@@ -61750,12 +62718,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996257",
+        "url": "https://www.ticketliquidator.com/tickets/7996257/Nothing-But-Thieves-tickets-Fri-Apr-9-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70g46",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996257"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996257",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996257/Nothing-But-Thieves-tickets-Fri-Apr-9-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-nothing-but-thieves-2027-minneapolis-vvg1bz_5fojtcd",
@@ -61811,12 +62787,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996245",
+        "url": "https://www.ticketliquidator.com/tickets/7996245/Nothing-But-Thieves-tickets-Sun-Apr-11-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_5fojtCd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996245"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996245",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996245/Nothing-But-Thieves-tickets-Sun-Apr-11-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus"
   },
   {
     "id": "tm-nothing-but-thieves-2027-chicago-vvg18z_5oubqpe",
@@ -61925,12 +62909,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996247",
+        "url": "https://www.ticketliquidator.com/tickets/7996247/Nothing-But-Thieves-tickets-Tue-Apr-13-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_5QMe6MI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996247"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996247",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996247/Nothing-But-Thieves-tickets-Tue-Apr-13-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-nothing-but-thieves-2027-mckees-rocks-17aov0g65qrt_qd",
@@ -62039,12 +63031,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996249",
+        "url": "https://www.ticketliquidator.com/tickets/7996249/Nothing-But-Thieves-tickets-Fri-Apr-16-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5Qfmzvi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996249"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996249/Nothing-But-Thieves-tickets-Fri-Apr-16-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-nothing-but-thieves-2027-brooklyn-k7vgf_5qzhcl7",
@@ -62100,12 +63100,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996250",
+        "url": "https://www.ticketliquidator.com/tickets/7996250/Nothing-But-Thieves-tickets-Sat-Apr-17-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_5QzhcL7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996250"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996250",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996250/Nothing-But-Thieves-tickets-Sat-Apr-17-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-nothing-but-thieves-2027-boston-vvg17z_5qrro-j",
@@ -62161,12 +63169,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996251",
+        "url": "https://www.ticketliquidator.com/tickets/7996251/Nothing-But-Thieves-tickets-Mon-Apr-19-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5QRRO-j",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996251"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996251",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996251/Nothing-But-Thieves-tickets-Mon-Apr-19-2027-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-nothing-but-thieves-2027-montreal-17g8v0g65q_kpje",
@@ -62222,12 +63238,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996253",
+        "url": "https://www.ticketliquidator.com/tickets/7996253/Nothing-But-Thieves-tickets-Tue-Apr-20-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65Q_kPJe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996253"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996253",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996253/Nothing-But-Thieves-tickets-Tue-Apr-20-2027-MTelus"
   },
   {
     "id": "tm-nothing-but-thieves-2027-toronto-177zv0g65qu93gl",
@@ -62336,12 +63360,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151244",
+        "url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_CBh66Cw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151244"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151244",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live"
   },
   {
     "id": "tm-trivium-2026-atlanta-z7r9jz1aazdby",
@@ -62397,12 +63429,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151274",
+        "url": "https://www.ticketliquidator.com/tickets/8151274/Trivium-tickets-Fri-Nov-6-2026-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151274"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151274",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151274/Trivium-tickets-Fri-Nov-6-2026-The-Eastern-GA"
   },
   {
     "id": "tm-trivium-2026-louisville-z7r9jz1aazdbs",
@@ -62451,11 +63491,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151275",
+        "url": "https://www.ticketliquidator.com/tickets/8151275/Trivium-tickets-Sat-Nov-7-2026-Old-Foresters-Paristown-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151275/Trivium-tickets-Sat-Nov-7-2026-Old-Foresters-Paristown-Hall"
   },
   {
     "id": "tm-trivium-2026-grand-rapids-vvg1oz_cnishwh",
@@ -62511,12 +63559,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151245",
+        "url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_CNiShWH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151245"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151245",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
@@ -62572,12 +63628,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151248",
+        "url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6Cngp9Y6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151248"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151248",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
@@ -62633,12 +63697,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151276",
+        "url": "https://www.ticketliquidator.com/tickets/8151276/Trivium-tickets-Wed-Nov-11-2026-College-Street-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151276"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151276",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151276/Trivium-tickets-Wed-Nov-11-2026-College-Street-Music-Hall"
   },
   {
     "id": "tm-trivium-2026-new-york-z7r9jz1aazdbs",
@@ -62694,12 +63766,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151277",
+        "url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151277"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151277",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5"
   },
   {
     "id": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
@@ -62755,12 +63835,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151278",
+        "url": "https://www.ticketliquidator.com/tickets/8151278/Trivium-tickets-Sat-Nov-14-2026-Franklin-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151278"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151278",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151278/Trivium-tickets-Sat-Nov-14-2026-Franklin-Music-Hall"
   },
   {
     "id": "tm-trivium-2026-worcester-z7r9jz1aazdbg",
@@ -62869,12 +63957,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151271",
+        "url": "https://www.ticketliquidator.com/tickets/8151271/Trivium-tickets-Tue-Nov-17-2026-Place-Bell",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G6CUbSShB",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151271"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151271",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151271/Trivium-tickets-Tue-Nov-17-2026-Place-Bell"
   },
   {
     "id": "tm-trivium-2026-toronto-177zv0g62er1iat",
@@ -62983,12 +64079,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151280",
+        "url": "https://www.ticketliquidator.com/tickets/8151280/Trivium-tickets-Fri-Nov-20-2026-Royal-Oak-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151280/Trivium-tickets-Fri-Nov-20-2026-Royal-Oak-Music-Theatre"
   },
   {
     "id": "tm-trivium-2026-chicago-vvg18z_cnmg_i8",
@@ -63044,12 +64148,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151249",
+        "url": "https://www.ticketliquidator.com/tickets/8151249/Trivium-tickets-Sat-Nov-21-2026-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_CNMg_I8",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151249"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151249/Trivium-tickets-Sat-Nov-21-2026-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
@@ -63105,12 +64217,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151250",
+        "url": "https://www.ticketliquidator.com/tickets/8151250/Trivium-tickets-Sun-Nov-22-2026-The-Sylvee-WI",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_CBaz-zj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151250"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151250",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151250/Trivium-tickets-Sun-Nov-22-2026-The-Sylvee-WI"
   },
   {
     "id": "tm-trivium-2026-nashville-z7r9jz1aazdbm",
@@ -63272,12 +64392,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151254",
+        "url": "https://www.ticketliquidator.com/tickets/8151254/Trivium-tickets-Sat-Nov-28-2026-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_CDFYhI_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151254"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151254",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151254/Trivium-tickets-Sat-Nov-28-2026-Bayou-Music-Center"
   },
   {
     "id": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
@@ -63333,12 +64461,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151256",
+        "url": "https://www.ticketliquidator.com/tickets/8151256/Trivium-tickets-Sun-Nov-29-2026-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_CDoXznJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151256"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151256",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151256/Trivium-tickets-Sun-Nov-29-2026-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-trivium-2026-phoenix-17k8v0g62douihb",
@@ -63394,12 +64530,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151257",
+        "url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G62dOuIHB",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151257"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151257",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
@@ -63455,12 +64599,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151261",
+        "url": "https://www.ticketliquidator.com/tickets/8151261/Trivium-tickets-Fri-Dec-4-2026-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_CEqWHij",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151261"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151261",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151261/Trivium-tickets-Fri-Dec-4-2026-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-trivium-2026-san-francisco-g5vyz_2ejmndl",
@@ -63516,12 +64668,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151262",
+        "url": "https://www.ticketliquidator.com/tickets/8151262/Trivium-tickets-Sat-Dec-5-2026-The-Masonic-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2ejmndl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151262",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151262/Trivium-tickets-Sat-Dec-5-2026-The-Masonic-San-Francisco"
   },
   {
     "id": "tm-trivium-2026-penticton-z7r9jz1aazdbz",
@@ -63577,12 +64737,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151283",
+        "url": "https://www.ticketliquidator.com/tickets/8151283/Trivium-tickets-Mon-Dec-7-2026-Penticton-Trade-Convention-Centre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151283/Trivium-tickets-Mon-Dec-7-2026-Penticton-Trade-Convention-Centre"
   },
   {
     "id": "tm-trivium-2026-vancouver-1778v0g626krqj1",
@@ -63638,12 +64806,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151273",
+        "url": "https://www.ticketliquidator.com/tickets/8151273/Trivium-tickets-Tue-Dec-8-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G626kRQJ1",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151273"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151273",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151273/Trivium-tickets-Tue-Dec-8-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-trivium-2026-seattle-vvg1hz_2dp1x5t",
@@ -63699,12 +64875,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151265",
+        "url": "https://www.ticketliquidator.com/tickets/8151265/Trivium-tickets-Wed-Dec-9-2026-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2dP1X5t",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151265"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151265",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151265/Trivium-tickets-Wed-Dec-9-2026-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-trivium-2026-reno-17ayv0g6cnaivry",
@@ -63813,12 +64997,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151286",
+        "url": "https://www.ticketliquidator.com/tickets/8151286/Trivium-tickets-Sun-Dec-13-2026-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdby",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151286"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151286",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151286/Trivium-tickets-Sun-Dec-13-2026-The-Mission-Ballroom"
   },
   {
     "id": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
@@ -63874,12 +65066,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151287",
+        "url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZd_Z",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151287"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151287",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater"
   },
   {
     "id": "tm-trivium-2026-omaha-17fzv0g6cxxpndr",
@@ -63935,12 +65135,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151268",
+        "url": "https://www.ticketliquidator.com/tickets/8151268/Trivium-tickets-Wed-Dec-16-2026-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G6CXXpNdR",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151268"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151268",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151268/Trivium-tickets-Wed-Dec-16-2026-Steelhouse-Omaha"
   },
   {
     "id": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
@@ -63996,12 +65204,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151269",
+        "url": "https://www.ticketliquidator.com/tickets/8151269/Trivium-tickets-Fri-Dec-18-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6CyMqeRK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151269"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151269",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151269/Trivium-tickets-Fri-Dec-18-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-trivium-2026-charlotte-g5evz_cufmier",
@@ -64057,12 +65273,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151270",
+        "url": "https://www.ticketliquidator.com/tickets/8151270/Trivium-tickets-Sat-Dec-19-2026-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_CUfmIER",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151270"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151270",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151270/Trivium-tickets-Sat-Dec-19-2026-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-trivium-2027-glasgow-1auzkfpgken_hpc",
@@ -64171,12 +65395,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8233453",
+        "url": "https://www.ticketliquidator.com/tickets/8233453/Trivium-tickets-Fri-Apr-2-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkffGkdkMGFP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8233453"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8233453",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233453/Trivium-tickets-Fri-Apr-2-2027-Co-Op-Live"
   },
   {
     "id": "tm-trivium-2027-london-g5vhz_o63ceuv",
@@ -64444,12 +65676,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7783797",
+        "url": "https://www.ticketliquidator.com/tickets/7783797/Sabaton-tickets-Fri-Oct-2-2026-Burton-Cummings-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkobGkelDVU-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7783797"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7783797",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7783797/Sabaton-tickets-Fri-Oct-2-2026-Burton-Cummings-Theatre"
   },
   {
     "id": "tm-sabaton-2026-vancouver-z7r9jz1a7-ojs",
@@ -64558,12 +65798,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410008",
+        "url": "https://www.ticketliquidator.com/tickets/7410008/Sabaton-tickets-Thu-Nov-12-2026-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZko4GkdZWP0R",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410008"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410008",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410008/Sabaton-tickets-Thu-Nov-12-2026-Hollywood-Palladium"
   },
   {
     "id": "tm-sabaton-2026-pittsburgh-1avbz_kgkwfjp1j",
@@ -64619,12 +65867,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808973",
+        "url": "https://www.ticketliquidator.com/tickets/7808973/Sabaton-tickets-Thu-Dec-3-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_kGkwFJP1j",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808973"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808973",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808973/Sabaton-tickets-Thu-Dec-3-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-sabaton-2026-nashville-g5viz_kmyac0s",
@@ -64680,12 +65936,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808860",
+        "url": "https://www.ticketliquidator.com/tickets/7808860/Sabaton-tickets-Wed-Dec-9-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kmYaC0s",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808860"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808860",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808860/Sabaton-tickets-Wed-Dec-9-2026-The-Truth"
   },
   {
     "id": "tm-sabaton-2026-orlando-16efz_afzg7dbn1",
@@ -64741,12 +66005,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7784220",
+        "url": "https://www.ticketliquidator.com/tickets/7784220/Sabaton-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16eFZ_AfZG7DBn1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7784220"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7784220",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7784220/Sabaton-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe",
@@ -64855,12 +66127,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8127263",
+        "url": "https://www.ticketliquidator.com/tickets/8127263/Sabaton-tickets-Fri-Apr-9-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6G3sI1v4",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127263",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127263/Sabaton-tickets-Fri-Apr-9-2027-OVO-Hydro"
   },
   {
     "id": "tm-sabaton-2027-birmingham-17fyv0g6gp8gytu",
@@ -64916,12 +66196,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8127262",
+        "url": "https://www.ticketliquidator.com/tickets/8127262/Sabaton-tickets-Sat-Apr-10-2027-bp-pulse-LIVE",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FYv0G6Gp8gYtU",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127262",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127262/Sabaton-tickets-Sat-Apr-10-2027-bp-pulse-LIVE"
   },
   {
     "id": "tm-sabaton-2027-rotterdam-z698xzbpz1k_n08z3",
@@ -65242,12 +66530,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7996083",
+        "url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1URR0eT",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996083"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996083",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton"
   },
   {
     "id": "tm-beartooth-2026-leeds-g5dzz_1wg9kbb",
@@ -65409,12 +66705,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980209",
+        "url": "https://www.ticketliquidator.com/tickets/7980209/Beartooth-tickets-Wed-Nov-11-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1NJIeZR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980209"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980209",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980209/Beartooth-tickets-Wed-Nov-11-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-beartooth-2026-new-york-k7vgf_1s1uowe",
@@ -65523,12 +66827,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980349",
+        "url": "https://www.ticketliquidator.com/tickets/7980349/Beartooth-tickets-Fri-Nov-13-2026-Franklin-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70tke",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980349"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980349",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980349/Beartooth-tickets-Fri-Nov-13-2026-Franklin-Music-Hall"
   },
   {
     "id": "tm-beartooth-2026-national-harbor-17a8v0g61vjcef3",
@@ -65584,12 +66896,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980212",
+        "url": "https://www.ticketliquidator.com/tickets/7980212/Beartooth-tickets-Sun-Nov-15-2026-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61VJceF3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980212"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980212",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980212/Beartooth-tickets-Sun-Nov-15-2026-The-Theater-at-MGM-National-Harbor"
   },
   {
     "id": "tm-beartooth-2026-pittsburgh-z7r9jz1a70t36",
@@ -65645,12 +66965,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980350",
+        "url": "https://www.ticketliquidator.com/tickets/7980350/Beartooth-tickets-Wed-Nov-18-2026-Stage-AE",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70t36",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980350"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980350",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980350/Beartooth-tickets-Wed-Nov-18-2026-Stage-AE"
   },
   {
     "id": "tm-beartooth-2026-chicago-vvg18z_1nj0ag4",
@@ -65706,12 +67034,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980215",
+        "url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1NJ0Ag4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-beartooth-2026-maplewood-z7r9jz1aava89",
@@ -65820,12 +67156,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980217",
+        "url": "https://www.ticketliquidator.com/tickets/7980217/Beartooth-tickets-Sun-Nov-22-2026-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G61Sq6AEC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980217"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980217",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980217/Beartooth-tickets-Sun-Nov-22-2026-Steelhouse-Omaha"
   },
   {
     "id": "tm-beartooth-2026-nashville-g5viz_1sjbpcf",
@@ -65881,12 +67225,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980219",
+        "url": "https://www.ticketliquidator.com/tickets/7980219/Beartooth-tickets-Sat-Nov-28-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1SJbPcf",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980219"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980219",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980219/Beartooth-tickets-Sat-Nov-28-2026-The-Truth"
   },
   {
     "id": "tm-beartooth-2026-atlanta-vvg1zz_1br-um-",
@@ -65942,12 +67294,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980221",
+        "url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1BR-uM-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980221"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980221",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy"
   },
   {
     "id": "tm-beartooth-2026-charlotte-g5evz_1mwgsx1",
@@ -66003,12 +67363,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980223",
+        "url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1mwgsX1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980223"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980223",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-beartooth-2026-saint-augustine-z7r9jz1a70igm",
@@ -66170,12 +67538,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980229",
+        "url": "https://www.ticketliquidator.com/tickets/7980229/Beartooth-tickets-Mon-Dec-7-2026-The-Fillmore-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1Lu2Gm0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980229/Beartooth-tickets-Mon-Dec-7-2026-The-Fillmore-New-Orleans"
   },
   {
     "id": "tm-beartooth-2026-dallas-vvg1yz_1mmkrmi",
@@ -66231,12 +67607,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980234",
+        "url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1MMkrmI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980234"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980234",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-beartooth-2026-denver-g5vzz_1sigr2s",
@@ -66345,12 +67729,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980237",
+        "url": "https://www.ticketliquidator.com/tickets/7980237/Beartooth-tickets-Sun-Dec-13-2026-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1w63kAm",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980237"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980237",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980237/Beartooth-tickets-Sun-Dec-13-2026-The-Union-Event-Center"
   },
   {
     "id": "tm-beartooth-2026-phoenix-17k8v0g61i5gitx",
@@ -66406,12 +67798,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980239",
+        "url": "https://www.ticketliquidator.com/tickets/7980239/Beartooth-tickets-Wed-Dec-16-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61i5GITx",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980239"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980239",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980239/Beartooth-tickets-Wed-Dec-16-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-beartooth-2026-hollywood-vvg10z_1ikgdyb",
@@ -66467,12 +67867,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980240",
+        "url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1iKGDyB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980240"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980240",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium"
   },
   {
     "id": "tm-beartooth-2026-wheatland-g5vyz_1xgdb2f",
@@ -66528,11 +67936,19 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980241",
+        "url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1xgDb2f",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980241"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980241",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento"
   }
 ]

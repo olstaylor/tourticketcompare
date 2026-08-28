@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151244",
+        "url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_CBh66Cw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151244"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151244",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live"
   },
   {
     "id": "tm-trivium-2026-atlanta-z7r9jz1aazdby",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151274",
+        "url": "https://www.ticketliquidator.com/tickets/8151274/Trivium-tickets-Fri-Nov-6-2026-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151274"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151274",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151274/Trivium-tickets-Fri-Nov-6-2026-The-Eastern-GA"
   },
   {
     "id": "tm-trivium-2026-louisville-z7r9jz1aazdbs",
@@ -168,11 +184,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151275",
+        "url": "https://www.ticketliquidator.com/tickets/8151275/Trivium-tickets-Sat-Nov-7-2026-Old-Foresters-Paristown-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151275/Trivium-tickets-Sat-Nov-7-2026-Old-Foresters-Paristown-Hall"
   },
   {
     "id": "tm-trivium-2026-grand-rapids-vvg1oz_cnishwh",
@@ -228,12 +252,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151245",
+        "url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_CNiShWH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151245"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151245",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
@@ -289,12 +321,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151248",
+        "url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6Cngp9Y6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151248"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151248",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
@@ -350,12 +390,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151276",
+        "url": "https://www.ticketliquidator.com/tickets/8151276/Trivium-tickets-Wed-Nov-11-2026-College-Street-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151276"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151276",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151276/Trivium-tickets-Wed-Nov-11-2026-College-Street-Music-Hall"
   },
   {
     "id": "tm-trivium-2026-new-york-z7r9jz1aazdbs",
@@ -411,12 +459,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151277",
+        "url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151277"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151277",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5"
   },
   {
     "id": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
@@ -472,12 +528,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151278",
+        "url": "https://www.ticketliquidator.com/tickets/8151278/Trivium-tickets-Sat-Nov-14-2026-Franklin-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151278"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151278",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151278/Trivium-tickets-Sat-Nov-14-2026-Franklin-Music-Hall"
   },
   {
     "id": "tm-trivium-2026-worcester-z7r9jz1aazdbg",
@@ -586,12 +650,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151271",
+        "url": "https://www.ticketliquidator.com/tickets/8151271/Trivium-tickets-Tue-Nov-17-2026-Place-Bell",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G6CUbSShB",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151271"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151271",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151271/Trivium-tickets-Tue-Nov-17-2026-Place-Bell"
   },
   {
     "id": "tm-trivium-2026-toronto-177zv0g62er1iat",
@@ -700,12 +772,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151280",
+        "url": "https://www.ticketliquidator.com/tickets/8151280/Trivium-tickets-Fri-Nov-20-2026-Royal-Oak-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151280/Trivium-tickets-Fri-Nov-20-2026-Royal-Oak-Music-Theatre"
   },
   {
     "id": "tm-trivium-2026-chicago-vvg18z_cnmg_i8",
@@ -761,12 +841,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151249",
+        "url": "https://www.ticketliquidator.com/tickets/8151249/Trivium-tickets-Sat-Nov-21-2026-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_CNMg_I8",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151249"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151249/Trivium-tickets-Sat-Nov-21-2026-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
@@ -822,12 +910,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151250",
+        "url": "https://www.ticketliquidator.com/tickets/8151250/Trivium-tickets-Sun-Nov-22-2026-The-Sylvee-WI",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_CBaz-zj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151250"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151250",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151250/Trivium-tickets-Sun-Nov-22-2026-The-Sylvee-WI"
   },
   {
     "id": "tm-trivium-2026-nashville-z7r9jz1aazdbm",
@@ -989,12 +1085,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151254",
+        "url": "https://www.ticketliquidator.com/tickets/8151254/Trivium-tickets-Sat-Nov-28-2026-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_CDFYhI_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151254"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151254",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151254/Trivium-tickets-Sat-Nov-28-2026-Bayou-Music-Center"
   },
   {
     "id": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
@@ -1050,12 +1154,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151256",
+        "url": "https://www.ticketliquidator.com/tickets/8151256/Trivium-tickets-Sun-Nov-29-2026-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_CDoXznJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151256"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151256",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151256/Trivium-tickets-Sun-Nov-29-2026-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-trivium-2026-phoenix-17k8v0g62douihb",
@@ -1111,12 +1223,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151257",
+        "url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G62dOuIHB",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151257"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151257",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
@@ -1172,12 +1292,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151261",
+        "url": "https://www.ticketliquidator.com/tickets/8151261/Trivium-tickets-Fri-Dec-4-2026-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_CEqWHij",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151261"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151261",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151261/Trivium-tickets-Fri-Dec-4-2026-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-trivium-2026-san-francisco-g5vyz_2ejmndl",
@@ -1233,12 +1361,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151262",
+        "url": "https://www.ticketliquidator.com/tickets/8151262/Trivium-tickets-Sat-Dec-5-2026-The-Masonic-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2ejmndl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151262",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151262/Trivium-tickets-Sat-Dec-5-2026-The-Masonic-San-Francisco"
   },
   {
     "id": "tm-trivium-2026-penticton-z7r9jz1aazdbz",
@@ -1294,12 +1430,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151283",
+        "url": "https://www.ticketliquidator.com/tickets/8151283/Trivium-tickets-Mon-Dec-7-2026-Penticton-Trade-Convention-Centre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151283/Trivium-tickets-Mon-Dec-7-2026-Penticton-Trade-Convention-Centre"
   },
   {
     "id": "tm-trivium-2026-vancouver-1778v0g626krqj1",
@@ -1355,12 +1499,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151273",
+        "url": "https://www.ticketliquidator.com/tickets/8151273/Trivium-tickets-Tue-Dec-8-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G626kRQJ1",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151273"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151273",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151273/Trivium-tickets-Tue-Dec-8-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-trivium-2026-seattle-vvg1hz_2dp1x5t",
@@ -1416,12 +1568,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151265",
+        "url": "https://www.ticketliquidator.com/tickets/8151265/Trivium-tickets-Wed-Dec-9-2026-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2dP1X5t",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151265"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151265",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151265/Trivium-tickets-Wed-Dec-9-2026-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-trivium-2026-reno-17ayv0g6cnaivry",
@@ -1530,12 +1690,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151286",
+        "url": "https://www.ticketliquidator.com/tickets/8151286/Trivium-tickets-Sun-Dec-13-2026-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdby",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151286"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151286",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151286/Trivium-tickets-Sun-Dec-13-2026-The-Mission-Ballroom"
   },
   {
     "id": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
@@ -1591,12 +1759,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151287",
+        "url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZd_Z",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151287"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151287",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater"
   },
   {
     "id": "tm-trivium-2026-omaha-17fzv0g6cxxpndr",
@@ -1652,12 +1828,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151268",
+        "url": "https://www.ticketliquidator.com/tickets/8151268/Trivium-tickets-Wed-Dec-16-2026-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G6CXXpNdR",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151268"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151268",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151268/Trivium-tickets-Wed-Dec-16-2026-Steelhouse-Omaha"
   },
   {
     "id": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
@@ -1713,12 +1897,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151269",
+        "url": "https://www.ticketliquidator.com/tickets/8151269/Trivium-tickets-Fri-Dec-18-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6CyMqeRK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151269"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151269",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151269/Trivium-tickets-Fri-Dec-18-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-trivium-2026-charlotte-g5evz_cufmier",
@@ -1774,12 +1966,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151270",
+        "url": "https://www.ticketliquidator.com/tickets/8151270/Trivium-tickets-Sat-Dec-19-2026-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_CUfmIER",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151270"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151270",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151270/Trivium-tickets-Sat-Dec-19-2026-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-trivium-2027-glasgow-1auzkfpgken_hpc",
@@ -1888,12 +2088,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8233453",
+        "url": "https://www.ticketliquidator.com/tickets/8233453/Trivium-tickets-Fri-Apr-2-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkffGkdkMGFP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8233453"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8233453",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233453/Trivium-tickets-Fri-Apr-2-2027-Co-Op-Live"
   },
   {
     "id": "tm-trivium-2027-london-g5vhz_o63ceuv",

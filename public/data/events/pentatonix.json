@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ-xZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ-xZ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/bozeman-montana-brick-breeden-fieldhouse-2026-11-09-7-pm/concert/18506093",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ-xZ",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18506093,
+        "url": "https://seatgeek.com/pentatonix-tickets/bozeman-montana-brick-breeden-fieldhouse-2026-11-09-7-pm/concert/18506093",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -488,7 +488,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZOFo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOFo",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/cleveland-ohio-rocket-arena-2026-11-19-7-pm/concert/18385717",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOFo",
@@ -504,11 +504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18385717,
+        "url": "https://seatgeek.com/pentatonix-tickets/cleveland-ohio-rocket-arena-2026-11-19-7-pm/concert/18385717",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1283,7 +1283,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ-j6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ-j6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ-j6",
@@ -1299,11 +1299,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427242,
+        "url": "https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

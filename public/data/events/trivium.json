@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-06-6-30-pm/concert/18391931",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbY",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391931,
+        "url": "https://seatgeek.com/trivium-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-06-6-30-pm/concert/18391931",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbs",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/louisville-kentucky-old-forester-s-paristown-hall-2026-11-07-6-35-pm/concert/18391935",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbs",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391935,
+        "url": "https://seatgeek.com/trivium-tickets/louisville-kentucky-old-forester-s-paristown-hall-2026-11-07-6-35-pm/concert/18391935",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -276,7 +276,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/new-haven-connecticut-college-street-music-hall-2026-11-11-6-35-pm/concert/18391936",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbw",
@@ -292,11 +292,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391936,
+        "url": "https://seatgeek.com/trivium-tickets/new-haven-connecticut-college-street-music-hall-2026-11-11-6-35-pm/concert/18391936",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -329,7 +329,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbS",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/new-york-new-york-terminal-5-2026-11-12-6-35-pm/concert/18391943",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbS",
@@ -345,11 +345,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391943,
+        "url": "https://seatgeek.com/trivium-tickets/new-york-new-york-terminal-5-2026-11-12-6-35-pm/concert/18391943",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -382,7 +382,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-14-6-35-pm/concert/18391945",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbV",
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391945,
+        "url": "https://seatgeek.com/trivium-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-14-6-35-pm/concert/18391945",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -435,7 +435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbg",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/worcester-massachusetts-the-palladium-2026-11-15-6-35-pm/concert/18391947",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbg",
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391947,
+        "url": "https://seatgeek.com/trivium-tickets/worcester-massachusetts-the-palladium-2026-11-15-6-35-pm/concert/18391947",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -594,7 +594,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbU",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/royal-oak-michigan-royal-oak-music-theatre-2026-11-20-6-35-pm/concert/18391950",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbU",
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391950,
+        "url": "https://seatgeek.com/trivium-tickets/royal-oak-michigan-royal-oak-music-theatre-2026-11-20-6-35-pm/concert/18391950",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -753,7 +753,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/nashville-tennessee-the-pinnacle-nashville-2026-11-24-6-35-pm/concert/18391959",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
@@ -769,11 +769,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391959,
+        "url": "https://seatgeek.com/trivium-tickets/nashville-tennessee-the-pinnacle-nashville-2026-11-24-6-35-pm/concert/18391959",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1124,7 +1124,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbz",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
@@ -1140,11 +1140,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391977,
+        "url": "https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1336,7 +1336,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZdby",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdby",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/denver-colorado-mission-ballroom-2026-12-13-6-35-pm/concert/18391983",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdby",
@@ -1352,11 +1352,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391983,
+        "url": "https://seatgeek.com/trivium-tickets/denver-colorado-mission-ballroom-2026-12-13-6-35-pm/concert/18391983",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1389,7 +1389,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZd_Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_Z",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/tulsa-oklahoma-tulsa-theater-2026-12-15-6-35-pm/concert/18391987",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_Z",
@@ -1405,11 +1405,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391987,
+        "url": "https://seatgeek.com/trivium-tickets/tulsa-oklahoma-tulsa-theater-2026-12-15-6-35-pm/concert/18391987",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

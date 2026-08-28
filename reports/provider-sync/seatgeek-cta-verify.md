@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-08-27T16:23:37.178Z
+Generated: 2026-08-28T17:21:17.391Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 69 (needs_recheck: 69, provenance backfill: 0, stale re-check: 32)
+- Events selected: 137 (needs_recheck: 137, provenance backfill: 0, stale re-check: 75)
 - Events skipped before API checks: 91
-- API calls made: 69
+- API calls made: 137
 - Verified provenance written: 32
-- URLs added: 0
+- URLs added: 43
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
-- Conflicts (ambiguous, untouched): 0
-- No qualifying listing: 37
+- Conflicts (ambiguous, untouched): 1
+- No qualifying listing: 61
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -95,6 +95,74 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_ | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z | tame-impala | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i | tame-impala | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tame-impala-2027-rotterdam-z698xzbpz1k3e07a0 | tame-impala | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-don-omar-2026-hartford-z7r9jz1a70eoa | don-omar | add (applied) | 18250875 | https://seatgeek.com/don-omar-tickets/hartford-connecticut-peoplesbank-arena-2026-09-27-8-pm/concert/18250875 | - |
+| tm-don-omar-2026-houston-z7r9jz1a70e_w | don-omar | add (applied) | 18257187 | https://seatgeek.com/don-omar-tickets/houston-texas-toyota-center-2026-10-23-8-pm/concert/18257187 | - |
+| tm-don-omar-2026-las-vegas-z7r9jz1a70eqs | don-omar | add (applied) | 18250878 | https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878 | - |
+| tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv | don-omar | conflict | - | - | ambiguous: 3 qualifying SeatGeek events in the window |
+| tm-don-omar-2027-san-diego-z7r9jz1a7pggy | don-omar | add (applied) | 18333383 | https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383 | - |
+| tm-don-omar-2027-berlin-z698xzc2z16v4ogoca | don-omar | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-luke-combs-2027-arlington-z7r9jz1aazyf6 | luke-combs | add (applied) | 18379496 | https://seatgeek.com/luke-combs-tickets/arlington-texas-at-t-stadium-2027-04-03-5-20-pm/concert/18379496 | - |
+| tm-blue-october-2026-abilene-z7r9jz1a7-v0n | blue-october | add (applied) | 18147861 | https://seatgeek.com/blue-october-tickets/abilene-texas-paramount-theatre-abilene-2026-10-22-7-pm/concert/18147861 | - |
+| tm-blue-october-2026-lubbock-z7r9jz1a70v8t | blue-october | add (applied) | 18147862 | https://seatgeek.com/blue-october-tickets/lubbock-texas-the-buddy-holly-hall-helen-devitt-jones-theater-2026-10-23-7-pm/concert/18147862 | - |
+| tm-blue-october-2026-tulsa-z7r9jz1a7-v0_ | blue-october | add (applied) | 18147863 | https://seatgeek.com/blue-october-tickets/tulsa-oklahoma-tulsa-theater-2026-10-24-7-pm/concert/18147863 | - |
+| tm-blue-october-2026-wichita-z7r9jz1a7-v0p | blue-october | add (applied) | 18147864 | https://seatgeek.com/blue-october-tickets/wichita-kansas-orpheum-theatre-wichita-2026-10-25-7-pm/concert/18147864 | - |
+| tm-blue-october-2026-milwaukee-z7r9jz1a7-v04 | blue-october | add (applied) | 18147865 | https://seatgeek.com/blue-october-tickets/milwaukee-wisconsin-pabst-theater-2026-10-28-7-pm/concert/18147865 | - |
+| tm-blue-october-2026-albany-z7r9jz1a7-v0o | blue-october | add (applied) | 18147866 | https://seatgeek.com/blue-october-tickets/albany-new-york-hart-theatre-at-the-egg-2026-11-06-7-pm/concert/18147866 | - |
+| tm-blue-october-2026-cleveland-z7r9jz1a7-z0p | blue-october | add (applied) | 18147873 | https://seatgeek.com/blue-october-tickets/cleveland-ohio-agora-theatre-2026-11-07-7-pm/concert/18147873 | - |
+| tm-blue-october-2026-north-tonawanda-z7r9jz1aazwby | blue-october | add (applied) | 18147874 | https://seatgeek.com/blue-october-tickets/north-tonawanda-new-york-riviera-theatre-north-tonawanda-2026-11-11-7-pm/concert/18147874 | - |
+| tm-blue-october-2026-jacksonville-z7r9jz1a7-v03 | blue-october | add (applied) | 18147875 | https://seatgeek.com/blue-october-tickets/jacksonville-florida-five-jacksonville-2026-11-19-7-pm/concert/18147875 | - |
+| tm-blue-october-2026-clearwater-z7r9jz1a7-v0f | blue-october | add (applied) | 18147876 | https://seatgeek.com/blue-october-tickets/clearwater-florida-ruth-eckerd-hall-2026-11-20-7-pm/concert/18147876 | - |
+| tm-blue-october-2026-kansas-city-z7r9jz1a7xk4- | blue-october | add (applied) | 18147878 | https://seatgeek.com/blue-october-tickets/kansas-city-missouri-the-midland-theatre-mo-2026-12-03-7-pm/concert/18147878 | - |
+| tm-blue-october-2026-oklahoma-city-z7r9jz1a7-v0b | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-blue-october-2026-austin-z7r9jz1a7-v0k | blue-october | add (applied) | 18147885 | https://seatgeek.com/blue-october-tickets/austin-texas-bass-concert-hall-2026-12-11-7-pm/concert/18147885 | - |
+| tm-blue-october-2027-midland-z7r9jz1a70pjo | blue-october | add (applied) | 18354266 | https://seatgeek.com/blue-october-tickets/midland-texas-wagner-noel-performing-arts-center-2027-01-29-8-pm/concert/18354266 | - |
+| tm-blue-october-2027-amarillo-z7r9jz1a7pxau | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-blue-october-2027-san-luis-obispo-z7r9jz1a70_f7 | blue-october | add (applied) | 18245801 | https://seatgeek.com/blue-october-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2027-02-10-8-pm/concert/18245801 | - |
+| tm-blue-october-2027-bakersfield-z7r9jz1a70_4m | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-blue-october-2027-san-francisco-z7r9jz1a70_4z | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-blue-october-2027-portland-z7r9jz1a70_-u | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-blue-october-2027-portland-z7r9jz1a70of9 | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4 | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-blue-october-2027-denver-z7r9jz1a70_-g | blue-october | add (applied) | 18262264 | https://seatgeek.com/blue-october-tickets/denver-colorado-mission-ballroom-2027-03-06-8-pm/concert/18262264 | - |
+| tm-blue-october-2027-colorado-springs-z7r9jz1a70_p7 | blue-october | add (applied) | 18306113 | https://seatgeek.com/blue-october-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-07-8-pm/concert/18306113 | - |
+| tm-blue-october-2027-chicago-z7r9jz1a70_-s | blue-october | add (applied) | 18343763 | https://seatgeek.com/blue-october-tickets/chicago-illinois-riviera-theatre-chicago-2027-03-11-8-pm/concert/18343763 | - |
+| tm-pentatonix-2026-bozeman-z7r9jz1aaz-xz | pentatonix | add (applied) | 18506093 | https://seatgeek.com/pentatonix-tickets/bozeman-montana-brick-breeden-fieldhouse-2026-11-09-7-pm/concert/18506093 | - |
+| tm-pentatonix-2026-cleveland-z7r9jz1aazofo | pentatonix | add (applied) | 18385717 | https://seatgeek.com/pentatonix-tickets/cleveland-ohio-rocket-arena-2026-11-19-7-pm/concert/18385717 | - |
+| tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6 | pentatonix | add (applied) | 18427242 | https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242 | - |
+| tm-tyla-2026-forest-brussels-z698xzg2z16vrkgpa9 | tyla | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tyla-2026-dusseldorf-z698xzc2z16vq4jjgn | tyla | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tyla-2026-berlin-z698xzc2z16vfognfa | tyla | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k4d_v4s | nothing-but-thieves | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k86ab8e | nothing-but-thieves | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-nothing-but-thieves-2027-merksem-antwerpen-z698xzg2z16v_u87zn | nothing-but-thieves | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-nothing-but-thieves-2027-portland-z7r9jz1a70gfm | nothing-but-thieves | add (applied) | 18266341 | https://seatgeek.com/nothing-but-thieves-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-01-8-pm/concert/18266341 | - |
+| tm-nothing-but-thieves-2027-denver-z7r9jz1a70g46 | nothing-but-thieves | add (applied) | 18266350 | https://seatgeek.com/nothing-but-thieves-tickets/denver-colorado-mission-ballroom-2027-04-09-8-pm/concert/18266350 | - |
+| tm-trivium-2026-atlanta-z7r9jz1aazdby | trivium | add (applied) | 18391931 | https://seatgeek.com/trivium-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-06-6-30-pm/concert/18391931 | - |
+| tm-trivium-2026-louisville-z7r9jz1aazdbs | trivium | add (applied) | 18391935 | https://seatgeek.com/trivium-tickets/louisville-kentucky-old-forester-s-paristown-hall-2026-11-07-6-35-pm/concert/18391935 | - |
+| tm-trivium-2026-new-haven-z7r9jz1aazdbw | trivium | add (applied) | 18391936 | https://seatgeek.com/trivium-tickets/new-haven-connecticut-college-street-music-hall-2026-11-11-6-35-pm/concert/18391936 | - |
+| tm-trivium-2026-new-york-z7r9jz1aazdbs | trivium | add (applied) | 18391943 | https://seatgeek.com/trivium-tickets/new-york-new-york-terminal-5-2026-11-12-6-35-pm/concert/18391943 | - |
+| tm-trivium-2026-philadelphia-z7r9jz1aazdbv | trivium | add (applied) | 18391945 | https://seatgeek.com/trivium-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-14-6-35-pm/concert/18391945 | - |
+| tm-trivium-2026-worcester-z7r9jz1aazdbg | trivium | add (applied) | 18391947 | https://seatgeek.com/trivium-tickets/worcester-massachusetts-the-palladium-2026-11-15-6-35-pm/concert/18391947 | - |
+| tm-trivium-2026-royal-oak-z7r9jz1aazdbu | trivium | add (applied) | 18391950 | https://seatgeek.com/trivium-tickets/royal-oak-michigan-royal-oak-music-theatre-2026-11-20-6-35-pm/concert/18391950 | - |
+| tm-trivium-2026-nashville-z7r9jz1aazdbm | trivium | add (applied) | 18391959 | https://seatgeek.com/trivium-tickets/nashville-tennessee-the-pinnacle-nashville-2026-11-24-6-35-pm/concert/18391959 | - |
+| tm-trivium-2026-penticton-z7r9jz1aazdbz | trivium | add (applied) | 18391977 | https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977 | - |
+| tm-trivium-2026-denver-z7r9jz1aazdby | trivium | add (applied) | 18391983 | https://seatgeek.com/trivium-tickets/denver-colorado-mission-ballroom-2026-12-13-6-35-pm/concert/18391983 | - |
+| tm-trivium-2026-tulsa-z7r9jz1aazd_z | trivium | add (applied) | 18391987 | https://seatgeek.com/trivium-tickets/tulsa-oklahoma-tulsa-theater-2026-12-15-6-35-pm/concert/18391987 | - |
+| tm-sabaton-2026-vancouver-z7r9jz1a7-ojs | sabaton | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe | sabaton | add (applied) | 17726761 | https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761 | - |
+| tm-sabaton-2027-rotterdam-z698xzbpz1k_n08z3 | sabaton | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-sabaton-2027-hamburg-z698xzc2z16vakvyjp | sabaton | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-beartooth-2026-oberhausen-z698xzc2z16v0vue-v | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-beartooth-2026-hannover-z698xzc2z16vcpokjv | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-beartooth-2026-berlin-z698xzc2z16vovkbjo | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-beartooth-2026-philadelphia-z7r9jz1a70tke | beartooth | add (applied) | 18253089 | https://seatgeek.com/beartooth-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-13-6-pm/concert/18253089 | - |
+| tm-beartooth-2026-pittsburgh-z7r9jz1a70t36 | beartooth | add (applied) | 18253081 | https://seatgeek.com/beartooth-tickets/pittsburgh-pennsylvania-stage-ae-2026-11-18-6-pm/concert/18253081 | - |
+| tm-beartooth-2026-maplewood-z7r9jz1aava89 | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-beartooth-2026-saint-augustine-z7r9jz1a70igm | beartooth | add (applied) | 18253061 | https://seatgeek.com/beartooth-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-12-04-6-pm/concert/18253061 | - |
+| tm-beartooth-2026-fort-lauderdale-z7r9jz1a70igy | beartooth | add (applied) | 18235668 | https://seatgeek.com/beartooth-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-05-6-30-pm/concert/18235668 | - |
 
 ## Skipped before API checks
 

@@ -1,9 +1,18 @@
 name: PR validation head guard
 
 on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_run:
+    workflows: ["Prelaunch Validation"]
+    types: [completed]
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+
+concurrency:
+  group: pr-validation-head-guard
+  cancel-in-progress: true
 
 permissions:
   actions: read

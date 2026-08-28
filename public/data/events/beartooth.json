@@ -219,13 +219,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169082",
+        "url": "https://www.stubhub.ie/beartooth-tickets-london-o2-academy-brixton-3-10-2026/event/107169082",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1URR0eT",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996083",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton",
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-tickets-london-o2-academy-brixton-3-10-2026/event/107169082"
   },
   {
     "id": "tm-beartooth-2026-leeds-g5dzz_1wg9kbb",
@@ -274,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107169083",
+        "url": "https://www.stubhub.ie/beartooth-tickets-leeds-o2-academy-leeds-5-10-2026/event/107169083",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1wg9Kbb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-tickets-leeds-o2-academy-leeds-5-10-2026/event/107169083"
   },
   {
     "id": "tm-beartooth-2026-glasgow-17uov0g61l4m0bs",
@@ -394,13 +410,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107446289",
+        "url": "https://www.stubhub.ie/beartooth-boston-tickets-11-11-2026/event/107446289",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1NJIeZR",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980209",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980209/Beartooth-tickets-Wed-Nov-11-2026-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980209/Beartooth-tickets-Wed-Nov-11-2026-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-boston-tickets-11-11-2026/event/107446289"
   },
   {
     "id": "tm-beartooth-2026-new-york-k7vgf_1s1uowe",
@@ -723,13 +747,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417483",
+        "url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1NJ0Ag4",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom",
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483"
   },
   {
     "id": "tm-beartooth-2026-maplewood-z7r9jz1aava89",
@@ -1296,13 +1328,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417485",
+        "url": "https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1MMkrmI",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980234",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys",
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485"
   },
   {
     "id": "tm-beartooth-2026-denver-g5vzz_1sigr2s",
@@ -1556,13 +1596,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417486",
+        "url": "https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1iKGDyB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980240",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium",
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486"
   },
   {
     "id": "tm-beartooth-2026-wheatland-g5vyz_1xgdb2f",

@@ -549,12 +549,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148355",
+        "url": "https://www.stubhub.ie/blue-october-tickets-montreal-mtelus-11-1-2026/event/107148355",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkowGke-YPTc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827988"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827988",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-tickets-montreal-mtelus-11-1-2026/event/107148355"
   },
   {
     "id": "tm-blue-october-2026-portland-vv177z_kgkuvxsds",
@@ -1028,13 +1036,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148356",
+        "url": "https://www.stubhub.ie/blue-october-boston-tickets-11-13-2026/event/107148356",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_kGkw31n77",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827968",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827968/Blue-October-tickets-Fri-Nov-13-2026-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827968/Blue-October-tickets-Fri-Nov-13-2026-Citizens-House-Of-Blues-Boston",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-boston-tickets-11-13-2026/event/107148356"
   },
   {
     "id": "tm-blue-october-2026-wilkes-barre-vv1aezkosgkdamrl_",
@@ -1219,13 +1235,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107151194",
+        "url": "https://www.stubhub.ie/blue-october-charlotte-tickets-11-17-2026/event/107151194",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_knG4bET",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827971",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827971/Blue-October-tickets-Tue-Nov-17-2026-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827971/Blue-October-tickets-Tue-Nov-17-2026-The-Fillmore-Charlotte",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-charlotte-tickets-11-17-2026/event/107151194"
   },
   {
     "id": "tm-blue-october-2026-jacksonville-z7r9jz1a7-v03",
@@ -1410,13 +1434,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107152093",
+        "url": "https://www.stubhub.ie/blue-october-orlando-tickets-11-21-2026/event/107152093",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_kGknMxMnK",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827973",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827973/Blue-October-tickets-Sat-Nov-21-2026-Hard-Rock-Live-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827973/Blue-October-tickets-Sat-Nov-21-2026-Hard-Rock-Live-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-orlando-tickets-11-21-2026/event/107152093"
   },
   {
     "id": "tm-blue-october-2026-atlanta-vvg1zz_6ddzdk3",
@@ -1579,11 +1611,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107148357",
+        "url": "https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6KCYhKx",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357"
   },
   {
     "id": "tm-blue-october-2026-irving-vvg1yz_68kdxnx",
@@ -1639,12 +1679,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107151195",
+        "url": "https://www.stubhub.ie/blue-october-irving-tickets-11-28-2026/event/107151195",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_68KDxNx",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827976"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827976",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-28-2026/event/107151195"
   },
   {
     "id": "tm-blue-october-2026-kansas-city-z7r9jz1a7xk4-",
@@ -2180,12 +2228,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148358",
+        "url": "https://www.stubhub.ie/blue-october-houston-tickets-12-18-2026/event/107148358",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_65lROHi",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827985",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-18-2026/event/107148358"
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_65lyohs",
@@ -2241,12 +2297,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107152094",
+        "url": "https://www.stubhub.ie/blue-october-houston-tickets-12-19-2026/event/107152094",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_65lYOHs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827986"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827986",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-19-2026/event/107152094"
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_1sa9wed",
@@ -2302,12 +2366,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447944",
+        "url": "https://www.stubhub.ie/blue-october-houston-tickets-12-20-2026/event/107447944",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1SA9WEd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7969786"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7969786",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-20-2026/event/107447944"
   },
   {
     "id": "tm-blue-october-2027-midland-z7r9jz1a70pjo",
@@ -2911,13 +2983,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482707",
+        "url": "https://www.stubhub.ie/blue-october-las-vegas-tickets-2-13-2027/event/107482707",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61pPuqbc",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957273",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957273/Blue-October-tickets-Sat-Feb-13-2027-Brooklyn-Bowl-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957273/Blue-October-tickets-Sat-Feb-13-2027-Brooklyn-Bowl-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-las-vegas-tickets-2-13-2027/event/107482707"
   },
   {
     "id": "tm-blue-october-2027-bakersfield-z7r9jz1a70_4m",

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1901342874",
     "ticketmaster_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1901342874?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-oberhausen-rudolf-weber-arena-9-18-2026--concerts-hard-rock/production/7052909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1901342874?language=en-us",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052909,
+        "url": "https://www.vividseats.com/beartooth-tickets-oberhausen-rudolf-weber-arena-9-18-2026--concerts-hard-rock/production/7052909",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "3E0064ADAFBE40BF",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/beartooth-pure-ecstasy-world-tour-london-03-10-2026/event/3E0064ADAFBE40BF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-london-o2-academy-brixton-10-3-2026--concerts-hard-rock/production/7052962",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beartooth-pure-ecstasy-world-tour-london-03-10-2026/event/3E0064ADAFBE40BF",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052962,
+        "url": "https://www.vividseats.com/beartooth-tickets-london-o2-academy-brixton-10-3-2026--concerts-hard-rock/production/7052962",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "3E0064ACB55D3618",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/beartooth-leeds-05-10-2026/event/3E0064ACB55D3618",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-leeds-o2-academy---leeds-10-5-2026--concerts-hard-rock/production/7052964",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beartooth-leeds-05-10-2026/event/3E0064ACB55D3618",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052964,
+        "url": "https://www.vividseats.com/beartooth-tickets-leeds-o2-academy---leeds-10-5-2026--concerts-hard-rock/production/7052964",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "010064A8E6A0202F",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-boston-mgm-music-hall-at-fenway-11-11-2026/production/7052686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052686,
+        "url": "https://www.vividseats.com/beartooth-tickets-boston-mgm-music-hall-at-fenway-11-11-2026/production/7052686",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "000064ACCA360CA7",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-york-new-york-11-12-2026/event/000064ACCA360CA7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-york-manhattan-center-hammerstein-ballroom-11-12-2026--concerts-hard-rock/production/7052732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-york-new-york-11-12-2026/event/000064ACCA360CA7",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052732,
+        "url": "https://www.vividseats.com/beartooth-tickets-new-york-manhattan-center-hammerstein-ballroom-11-12-2026--concerts-hard-rock/production/7052732",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70tke",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tke",
     "seatgeek_url": "https://seatgeek.com/beartooth-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-13-6-pm/concert/18253089",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-philadelphia-franklin-music-hall-11-13-2026/production/7052665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tke",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052665,
+        "url": "https://www.vividseats.com/beartooth-tickets-philadelphia-franklin-music-hall-11-13-2026/production/7052665",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "150064AD26B42212",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-15-2026--concerts-hard-rock/production/7052736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052736,
+        "url": "https://www.vividseats.com/beartooth-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-15-2026--concerts-hard-rock/production/7052736",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70t36",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t36",
     "seatgeek_url": "https://seatgeek.com/beartooth-tickets/pittsburgh-pennsylvania-stage-ae-2026-11-18-6-pm/concert/18253081",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-pittsburgh-stage-ae-11-18-2026/production/7053472",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t36",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7053472,
+        "url": "https://www.vividseats.com/beartooth-tickets-pittsburgh-stage-ae-11-18-2026/production/7053472",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "040064A8E6905D55",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-chicago-aragon-ballroom-11-20-2026--concerts-hard-rock/production/7052738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052738,
+        "url": "https://www.vividseats.com/beartooth-tickets-chicago-aragon-ballroom-11-20-2026--concerts-hard-rock/production/7052738",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvA89",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvA89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-maplewood-myth-11-21-2026/production/7053771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvA89",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7053771,
+        "url": "https://www.vividseats.com/beartooth-tickets-maplewood-myth-11-21-2026/production/7053771",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "1B0064ACE6625B54",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-nashville-the-truth-11-28-2026--concerts-hard-rock/production/7052753",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052753,
+        "url": "https://www.vividseats.com/beartooth-tickets-nashville-the-truth-11-28-2026--concerts-hard-rock/production/7052753",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "0E0064AEAF84DDE1",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-atlanta-coca-cola-roxy-theatre-11-29-2026--concerts-hard-rock/production/7052761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052761,
+        "url": "https://www.vividseats.com/beartooth-tickets-atlanta-coca-cola-roxy-theatre-11-29-2026--concerts-hard-rock/production/7052761",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "2D0064ABB2D71F8A",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charlotte-the-fillmore-charlotte-12-1-2026--concerts-hard-rock/production/7052767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052767,
+        "url": "https://www.vividseats.com/beartooth-tickets-charlotte-the-fillmore-charlotte-12-1-2026--concerts-hard-rock/production/7052767",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70IGy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGy",
     "seatgeek_url": "https://seatgeek.com/beartooth-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-05-6-30-pm/concert/18235668",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-fort-lauderdale-war-memorial-auditorium-fl-12-5-2026--concerts-hard-rock/production/7052870",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGy",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052870,
+        "url": "https://www.vividseats.com/beartooth-tickets-fort-lauderdale-war-memorial-auditorium-fl-12-5-2026--concerts-hard-rock/production/7052870",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "1B0064A7CD3CCBA4",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052872,
+        "url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "0C0064ADF719EBA8",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-dallas-south-side-ballroom-12-10-2026--concerts-hard-rock/production/7052880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052880,
+        "url": "https://www.vividseats.com/beartooth-tickets-dallas-south-side-ballroom-12-10-2026--concerts-hard-rock/production/7052880",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "1E0064ACE8D5E3F3",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-denver-colorado-12-12-2026/event/1E0064ACE8D5E3F3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-denver-fillmore-auditorium-denver-12-12-2026--concerts-hard-rock/production/7052882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-denver-colorado-12-12-2026/event/1E0064ACE8D5E3F3",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052882,
+        "url": "https://www.vividseats.com/beartooth-tickets-denver-fillmore-auditorium-denver-12-12-2026--concerts-hard-rock/production/7052882",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "1E0064AC8748616E",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-salt-lake-city-the-union-event-center---salt-lake-city-12-13-2026--concerts-hard-rock/production/7052886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052886,
+        "url": "https://www.vividseats.com/beartooth-tickets-salt-lake-city-the-union-event-center---salt-lake-city-12-13-2026--concerts-hard-rock/production/7052886",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "190064AB0B328FE2",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-phoenix-arizona-financial-theatre-12-16-2026/production/7052703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052703,
+        "url": "https://www.vividseats.com/beartooth-tickets-phoenix-arizona-financial-theatre-12-16-2026/production/7052703",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "090064AB1333BE7A",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-hollywood-california-12-18-2026/event/090064AB1333BE7A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-los-angeles-hollywood-palladium-12-18-2026--concerts-hard-rock/production/7052895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-hollywood-california-12-18-2026/event/090064AB1333BE7A",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052895,
+        "url": "https://www.vividseats.com/beartooth-tickets-los-angeles-hollywood-palladium-12-18-2026--concerts-hard-rock/production/7052895",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

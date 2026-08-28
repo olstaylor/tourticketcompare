@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "08006507B172631F",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-detroit-michigan-04-17-2027/event/08006507B172631F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-detroit-ford-field-4-17-2027--concerts-country-and-folk/production/7429035",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-detroit-michigan-04-17-2027/event/08006507B172631F",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429035,
+        "url": "https://www.vividseats.com/luke-combs-tickets-detroit-ford-field-4-17-2027--concerts-country-and-folk/production/7429035",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "0200650AD64CFAEB",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-philadelphia-lincoln-financial-field-4-24-2027--concerts-country-and-folk/production/7429037",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429037,
+        "url": "https://www.vividseats.com/luke-combs-tickets-philadelphia-lincoln-financial-field-4-24-2027--concerts-country-and-folk/production/7429037",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0100650A23A974B2",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-foxborough-gillette-stadium-5-1-2027--concerts-country-and-folk/production/7429039",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429039,
+        "url": "https://www.vividseats.com/luke-combs-tickets-foxborough-gillette-stadium-5-1-2027--concerts-country-and-folk/production/7429039",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "1600650ECA46C743",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-pittsburgh-pennsylvania-05-08-2027/event/1600650ECA46C743",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-pittsburgh-acrisure-stadium-5-8-2027--concerts-country-and-folk/production/7429041",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-pittsburgh-pennsylvania-05-08-2027/event/1600650ECA46C743",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429041,
+        "url": "https://www.vividseats.com/luke-combs-tickets-pittsburgh-acrisure-stadium-5-8-2027--concerts-country-and-folk/production/7429041",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "06006507B373A88D",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-kansas-city-missouri-05-15-2027/event/06006507B373A88D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-kansas-city-arrowhead-stadium-5-15-2027--concerts-country-and-folk/production/7429043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-kansas-city-missouri-05-15-2027/event/06006507B373A88D",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429043,
+        "url": "https://www.vividseats.com/luke-combs-tickets-kansas-city-arrowhead-stadium-5-15-2027--concerts-country-and-folk/production/7429043",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "1100650CACD4B21B",
     "ticketmaster_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-vancouver-british-columbia-06-05-2027/event/1100650CACD4B21B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-vancouver-bc-place-stadium-6-5-2027--concerts-country-and-folk/production/7429051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-vancouver-british-columbia-06-05-2027/event/1100650CACD4B21B",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429051,
+        "url": "https://www.vividseats.com/luke-combs-tickets-vancouver-bc-place-stadium-6-5-2027--concerts-country-and-folk/production/7429051",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "1E00650AC873E574",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-boise-idaho-06-12-2027/event/1E00650AC873E574",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-boise-albertsons-stadium-6-12-2027--concerts-country-and-folk/production/7429053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-boise-idaho-06-12-2027/event/1E00650AC873E574",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429053,
+        "url": "https://www.vividseats.com/luke-combs-tickets-boise-albertsons-stadium-6-12-2027--concerts-country-and-folk/production/7429053",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "1E00650AD25F18B8",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-denver-colorado-06-19-2027/event/1E00650AD25F18B8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-denver-empower-field-at-mile-high-6-19-2027--concerts-country-and-folk/production/7429055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-denver-colorado-06-19-2027/event/1E00650AD25F18B8",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429055,
+        "url": "https://www.vividseats.com/luke-combs-tickets-denver-empower-field-at-mile-high-6-19-2027--concerts-country-and-folk/production/7429055",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "0A00650AD7C211C9",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-san-diego-california-06-26-2027/event/0A00650AD7C211C9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-san-diego-petco-park-6-26-2027--concerts-country-and-folk/production/7429059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-san-diego-california-06-26-2027/event/0A00650AD7C211C9",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7429059,
+        "url": "https://www.vividseats.com/luke-combs-tickets-san-diego-petco-park-6-26-2027--concerts-country-and-folk/production/7429059",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "100064B5B277F62A",
     "ticketmaster_url": "https://www.ticketmaster.ca/sabaton-legends-on-tour-thunder-bay-ontario-09-29-2026/event/100064B5B277F62A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-thunder-bay-community-auditorium-thunder-bay-9-29-2026/production/7079970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sabaton-legends-on-tour-thunder-bay-ontario-09-29-2026/event/100064B5B277F62A",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079970,
+        "url": "https://www.vividseats.com/sabaton-tickets-thunder-bay-community-auditorium-thunder-bay-9-29-2026/production/7079970",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "11006458ABEF4DA1",
     "ticketmaster_url": "https://www.ticketmaster.ca/sabaton-legends-on-tour-winnipeg-manitoba-10-02-2026/event/11006458ABEF4DA1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-winnipeg-burton-cummings-theatre-10-2-2026/production/6752205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sabaton-legends-on-tour-winnipeg-manitoba-10-02-2026/event/11006458ABEF4DA1",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6752205,
+        "url": "https://www.vividseats.com/sabaton-tickets-winnipeg-burton-cummings-theatre-10-2-2026/production/6752205",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1600646C889A529C",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-pittsburgh-pennsylvania-12-03-2026/event/1600646C889A529C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-pittsburgh-pennsylvania-12-03-2026/event/1600646C889A529C",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789538,
+        "url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "1B00646BB024E931",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-nashville-tennessee-12-09-2026/event/1B00646BB024E931",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-nashville-the-truth-12-9-2026/production/6789881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-nashville-tennessee-12-09-2026/event/1B00646BB024E931",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789881,
+        "url": "https://www.vividseats.com/sabaton-tickets-nashville-the-truth-12-9-2026/production/6789881",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "2200645500EFAA8A",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-orlando-florida-12-11-2026/event/2200645500EFAA8A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-orlando-florida-12-11-2026/event/2200645500EFAA8A",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6752109,
+        "url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "360064C4B1A0A055",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sabaton-the-legendary-tour-glasgow-09-04-2027/event/360064C4B1A0A055",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-glasgow-ovo-hydro-4-9-2027/production/7137164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sabaton-the-legendary-tour-glasgow-09-04-2027/event/360064C4B1A0A055",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7137164,
+        "url": "https://www.vividseats.com/sabaton-tickets-glasgow-ovo-hydro-4-9-2027/production/7137164",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "230064C590D70A76",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sabaton-the-legendary-tour-the-legendary-birmingham-10-04-2027/event/230064C590D70A76",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-4-10-2027/production/7137162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sabaton-the-legendary-tour-the-legendary-birmingham-10-04-2027/event/230064C590D70A76",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7137162,
+        "url": "https://www.vividseats.com/sabaton-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-4-10-2027/production/7137162",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "1146079996",
     "ticketmaster_url": "https://www.ticketmaster.de/event/sabaton-the-legendary-tour-part-2-%7C-logen-seat-tickets/1146079996?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-hamburg-barclays-arena---hamburg-4-28-2027/production/7143889",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sabaton-the-legendary-tour-part-2-%7C-logen-seat-tickets/1146079996?language=en-us",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7143889,
+        "url": "https://www.vividseats.com/sabaton-tickets-hamburg-barclays-arena---hamburg-4-28-2027/production/7143889",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

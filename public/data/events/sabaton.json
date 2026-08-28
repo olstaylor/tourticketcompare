@@ -159,12 +159,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7783797",
+        "url": "https://www.ticketliquidator.com/tickets/7783797/Sabaton-tickets-Fri-Oct-2-2026-Burton-Cummings-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkobGkelDVU-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7783797"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7783797",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7783797/Sabaton-tickets-Fri-Oct-2-2026-Burton-Cummings-Theatre"
   },
   {
     "id": "tm-sabaton-2026-vancouver-z7r9jz1a7-ojs",
@@ -273,12 +281,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410008",
+        "url": "https://www.ticketliquidator.com/tickets/7410008/Sabaton-tickets-Thu-Nov-12-2026-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZko4GkdZWP0R",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410008"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410008",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410008/Sabaton-tickets-Thu-Nov-12-2026-Hollywood-Palladium"
   },
   {
     "id": "tm-sabaton-2026-pittsburgh-1avbz_kgkwfjp1j",
@@ -334,12 +350,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808973",
+        "url": "https://www.ticketliquidator.com/tickets/7808973/Sabaton-tickets-Thu-Dec-3-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_kGkwFJP1j",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808973"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808973",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808973/Sabaton-tickets-Thu-Dec-3-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-sabaton-2026-nashville-g5viz_kmyac0s",
@@ -395,12 +419,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808860",
+        "url": "https://www.ticketliquidator.com/tickets/7808860/Sabaton-tickets-Wed-Dec-9-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kmYaC0s",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808860"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808860",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808860/Sabaton-tickets-Wed-Dec-9-2026-The-Truth"
   },
   {
     "id": "tm-sabaton-2026-orlando-16efz_afzg7dbn1",
@@ -456,12 +488,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7784220",
+        "url": "https://www.ticketliquidator.com/tickets/7784220/Sabaton-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16eFZ_AfZG7DBn1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7784220"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7784220",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7784220/Sabaton-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe",
@@ -570,12 +610,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8127263",
+        "url": "https://www.ticketliquidator.com/tickets/8127263/Sabaton-tickets-Fri-Apr-9-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6G3sI1v4",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127263",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127263/Sabaton-tickets-Fri-Apr-9-2027-OVO-Hydro"
   },
   {
     "id": "tm-sabaton-2027-birmingham-17fyv0g6gp8gytu",
@@ -631,12 +679,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8127262",
+        "url": "https://www.ticketliquidator.com/tickets/8127262/Sabaton-tickets-Sat-Apr-10-2027-bp-pulse-LIVE",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FYv0G6Gp8gYtU",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127262",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127262/Sabaton-tickets-Sat-Apr-10-2027-bp-pulse-LIVE"
   },
   {
     "id": "tm-sabaton-2027-rotterdam-z698xzbpz1k_n08z3",

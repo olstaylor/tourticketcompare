@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203740",
+        "url": "https://www.ticketliquidator.com/tickets/8203740/Luke-Combs-tickets-Sat-Apr-3-2027-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZYf6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203740"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203740",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203740/Luke-Combs-tickets-Sat-Apr-3-2027-ATT-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-detroit-vv1afzkf6gkesjjgl",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203726",
+        "url": "https://www.ticketliquidator.com/tickets/8203726/Luke-Combs-tickets-Sat-Apr-17-2027-Ford-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkf6GkesjJGL",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203726"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203726",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203726/Luke-Combs-tickets-Sat-Apr-17-2027-Ford-Field"
   },
   {
     "id": "tm-luke-combs-2027-philadelphia-vv17fz_8gklpk2ll",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203727",
+        "url": "https://www.ticketliquidator.com/tickets/8203727/Luke-Combs-tickets-Sat-Apr-24-2027-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_8GklpK2ll",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203727"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203727",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203727/Luke-Combs-tickets-Sat-Apr-24-2027-Lincoln-Financial-Field"
   },
   {
     "id": "tm-luke-combs-2027-foxborough-vv177z_8gkinn93w",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203728",
+        "url": "https://www.ticketliquidator.com/tickets/8203728/Luke-Combs-tickets-Sat-May-1-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_8GkINn93w",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203728"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203728",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203728/Luke-Combs-tickets-Sat-May-1-2027-Gillette-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-pittsburgh-1avbz_8gkd1oiqd",
@@ -297,12 +329,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203729",
+        "url": "https://www.ticketliquidator.com/tickets/8203729/Luke-Combs-tickets-Sat-May-8-2027-Acrisure-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_8GkD1oiqd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203729"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203729",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203729/Luke-Combs-tickets-Sat-May-8-2027-Acrisure-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-kansas-city-vv1akzkf6gkesjbxu",
@@ -358,12 +398,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203731",
+        "url": "https://www.ticketliquidator.com/tickets/8203731/Luke-Combs-tickets-Sat-May-15-2027-Arrowhead-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf6GkeSjBxu",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203731"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203731",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203731/Luke-Combs-tickets-Sat-May-15-2027-Arrowhead-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-edmonton-1av7z_8gkw3oea5",
@@ -472,12 +520,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203738",
+        "url": "https://www.ticketliquidator.com/tickets/8203738/Luke-Combs-tickets-Sat-Jun-5-2027-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_8Gkwig5Fh",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203738"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203738",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203738/Luke-Combs-tickets-Sat-Jun-5-2027-BC-Place-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-boise-g5vzz_8lfjx4v",
@@ -533,12 +589,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203732",
+        "url": "https://www.ticketliquidator.com/tickets/8203732/Luke-Combs-tickets-Sat-Jun-12-2027-Albertsons-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_8lFjX4V",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203732"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203732",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203732/Luke-Combs-tickets-Sat-Jun-12-2027-Albertsons-Stadium"
   },
   {
     "id": "tm-luke-combs-2027-denver-g5vzz_8l39sxz",
@@ -594,12 +658,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203733",
+        "url": "https://www.ticketliquidator.com/tickets/8203733/Luke-Combs-tickets-Sat-Jun-19-2027-Empower-Field-At-Mile-High",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_8l39sxz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203733"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203733",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203733/Luke-Combs-tickets-Sat-Jun-19-2027-Empower-Field-At-Mile-High"
   },
   {
     "id": "tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a",
@@ -655,11 +727,19 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203734",
+        "url": "https://www.ticketliquidator.com/tickets/8203734/Luke-Combs-tickets-Sat-Jun-26-2027-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_8l9Y-6a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203734"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203734",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203734/Luke-Combs-tickets-Sat-Jun-26-2027-Petco-Park"
   }
 ]

@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184406",
+        "url": "https://www.ticketliquidator.com/tickets/8184406/Pentatonix-tickets-Thu-Nov-5-2026-Tacoma-Dome",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2ZdLw0j",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184406"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184406",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184406/Pentatonix-tickets-Thu-Nov-5-2026-Tacoma-Dome"
   },
   {
     "id": "tm-pentatonix-2026-vancouver-1k78vpvbga1v43o",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184455",
+        "url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPvbGA1v43o",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184455"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184455",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena"
   },
   {
     "id": "tm-pentatonix-2026-bozeman-z7r9jz1aaz-xz",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194951",
+        "url": "https://www.ticketliquidator.com/tickets/8194951/Pentatonix-tickets-Mon-Nov-9-2026-Brick-Breeden-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ-xZ",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194951"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194951",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194951/Pentatonix-tickets-Mon-Nov-9-2026-Brick-Breeden-Fieldhouse"
   },
   {
     "id": "tm-pentatonix-2026-casper-g5vzz_2uvfg47",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184409",
+        "url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_2UVFG47",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184409"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184409",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center"
   },
   {
     "id": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",
@@ -297,12 +329,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184413",
+        "url": "https://www.ticketliquidator.com/tickets/8184413/Pentatonix-tickets-Thu-Nov-12-2026-Pinnacle-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf7GkdppSjY",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184413"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184413",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184413/Pentatonix-tickets-Thu-Nov-12-2026-Pinnacle-Bank-Arena"
   },
   {
     "id": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
@@ -358,12 +398,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184416",
+        "url": "https://www.ticketliquidator.com/tickets/8184416/Pentatonix-tickets-Sat-Nov-14-2026-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_296MPvG",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184416"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184416",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184416/Pentatonix-tickets-Sat-Nov-14-2026-Fiserv-Forum"
   },
   {
     "id": "tm-pentatonix-2026-grand-rapids-vvg1oz_2h1hwe2",
@@ -419,12 +467,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184418",
+        "url": "https://www.ticketliquidator.com/tickets/8184418/Pentatonix-tickets-Sun-Nov-15-2026-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_2H1Hwe2",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184418"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184418",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184418/Pentatonix-tickets-Sun-Nov-15-2026-Van-Andel-Arena"
   },
   {
     "id": "tm-pentatonix-2026-louisville-1apzkf7gker9zih",
@@ -480,12 +536,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184419",
+        "url": "https://www.ticketliquidator.com/tickets/8184419/Pentatonix-tickets-Mon-Nov-16-2026-KFC-Yum-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkf7GkeR9ziH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184419"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184419",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184419/Pentatonix-tickets-Mon-Nov-16-2026-KFC-Yum-Center"
   },
   {
     "id": "tm-pentatonix-2026-buffalo-k7vgf_8kru5hf",
@@ -541,12 +605,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184420",
+        "url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_8kru5hF",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184420"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184420",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center"
   },
   {
     "id": "tm-pentatonix-2026-cleveland-z7r9jz1aazofo",
@@ -602,12 +674,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184421",
+        "url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZOFo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184421"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184421",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena"
   },
   {
     "id": "tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b",
@@ -663,12 +743,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184422",
+        "url": "https://www.ticketliquidator.com/tickets/8184422/Pentatonix-tickets-Sat-Nov-21-2026-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfdGkdrCD8B",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184422"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184422",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184422/Pentatonix-tickets-Sat-Nov-21-2026-PPG-Paints-Arena"
   },
   {
     "id": "tm-pentatonix-2026-hamilton-1a8zkf7gkdvkv7f",
@@ -777,12 +865,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184423",
+        "url": "https://www.ticketliquidator.com/tickets/8184423/Pentatonix-tickets-Sat-Nov-28-2026-John-Paul-Jones-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F7Z_8uv7OZdC1C",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184423"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184423",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184423/Pentatonix-tickets-Sat-Nov-28-2026-John-Paul-Jones-Arena"
   },
   {
     "id": "tm-pentatonix-2026-albany-k7vgf_2br5dvf",
@@ -838,12 +934,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184424",
+        "url": "https://www.ticketliquidator.com/tickets/8184424/Pentatonix-tickets-Sun-Nov-29-2026-MVP-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_2BR5DVf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184424"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184424",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184424/Pentatonix-tickets-Sun-Nov-29-2026-MVP-Arena"
   },
   {
     "id": "tm-pentatonix-2026-baltimore-17a8v0g62urg9es",
@@ -899,12 +1003,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184425",
+        "url": "https://www.ticketliquidator.com/tickets/8184425/Pentatonix-tickets-Thu-Dec-3-2026-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62URG9ES",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184425"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184425",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184425/Pentatonix-tickets-Thu-Dec-3-2026-CFG-Bank-Arena"
   },
   {
     "id": "tm-pentatonix-2026-columbia-g5evz_2t_yqom",
@@ -960,12 +1072,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184426",
+        "url": "https://www.ticketliquidator.com/tickets/8184426/Pentatonix-tickets-Sat-Dec-5-2026-Colonial-Life-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2T_Yqom",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184426"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184426",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184426/Pentatonix-tickets-Sat-Dec-5-2026-Colonial-Life-Arena"
   },
   {
     "id": "tm-pentatonix-2026-greenville-g5evz_2tznjd_",
@@ -1021,12 +1141,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184428",
+        "url": "https://www.ticketliquidator.com/tickets/8184428/Pentatonix-tickets-Sun-Dec-6-2026-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2TZnJD_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184428"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184428",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184428/Pentatonix-tickets-Sun-Dec-6-2026-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-pentatonix-2026-raleigh-g5evz_2xkfyfh",
@@ -1082,12 +1210,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184430",
+        "url": "https://www.ticketliquidator.com/tickets/8184430/Pentatonix-tickets-Mon-Dec-7-2026-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2XkFyfh",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184430"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184430",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184430/Pentatonix-tickets-Mon-Dec-7-2026-Lenovo-Center"
   },
   {
     "id": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
@@ -1143,12 +1279,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184431",
+        "url": "https://www.ticketliquidator.com/tickets/8184431/Pentatonix-tickets-Wed-Dec-9-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_8pdi7WI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184431"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184431",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184431/Pentatonix-tickets-Wed-Dec-9-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r",
@@ -1204,12 +1348,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184432",
+        "url": "https://www.ticketliquidator.com/tickets/8184432/Pentatonix-tickets-Thu-Dec-10-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8pzYI3R",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184432"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184432",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184432/Pentatonix-tickets-Thu-Dec-10-2026-State-Farm-Arena-GA"
   },
   {
     "id": "tm-pentatonix-2026-north-little-rock-g5viz_2r0054y",
@@ -1265,12 +1417,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184433",
+        "url": "https://www.ticketliquidator.com/tickets/8184433/Pentatonix-tickets-Sat-Dec-12-2026-Simmons-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2r0054Y",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184433"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184433",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184433/Pentatonix-tickets-Sat-Dec-12-2026-Simmons-Bank-Arena"
   },
   {
     "id": "tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m",
@@ -1326,12 +1486,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184435",
+        "url": "https://www.ticketliquidator.com/tickets/8184435/Pentatonix-tickets-Sun-Dec-13-2026-Brookshire-Grocery-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2gYyd_m",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184435"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184435",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184435/Pentatonix-tickets-Sun-Dec-13-2026-Brookshire-Grocery-Arena"
   },
   {
     "id": "tm-pentatonix-2026-austin-g5diz_8kmjslp",
@@ -1387,12 +1555,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184790",
+        "url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8KmjslP",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184790"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-pentatonix-2026-fort-worth-vvg1yz_cn4la0m",
@@ -1448,12 +1624,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184443",
+        "url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Cn4lA0M",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184443"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184443",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Dickies-Arena"
   },
   {
     "id": "tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6",
@@ -1509,12 +1693,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8193304",
+        "url": "https://www.ticketliquidator.com/tickets/8193304/Pentatonix-tickets-Thu-Dec-17-2026-United-Supermarkets-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ-j6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193304"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193304",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193304/Pentatonix-tickets-Thu-Dec-17-2026-United-Supermarkets-Arena"
   },
   {
     "id": "tm-pentatonix-2026-glendale-16_zkfdauzauuafa",
@@ -1570,12 +1762,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184445",
+        "url": "https://www.ticketliquidator.com/tickets/8184445/Pentatonix-tickets-Sat-Dec-19-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16_ZkfdaUZAuuAFa",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184445"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184445",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184445/Pentatonix-tickets-Sat-Dec-19-2026-Desert-Diamond-Arena"
   },
   {
     "id": "tm-pentatonix-2026-san-diego-vvg1iz_2i-g3fb",
@@ -1631,12 +1831,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184448",
+        "url": "https://www.ticketliquidator.com/tickets/8184448/Pentatonix-tickets-Sun-Dec-20-2026-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_2I-g3fB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184448"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184448",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184448/Pentatonix-tickets-Sun-Dec-20-2026-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
@@ -1692,11 +1900,19 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184452",
+        "url": "https://www.ticketliquidator.com/tickets/8184452/Pentatonix-tickets-Tue-Dec-22-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkf7GkdI1Gsn",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184452"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184452",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184452/Pentatonix-tickets-Tue-Dec-22-2026-The-Kia-Forum"
   }
 ]

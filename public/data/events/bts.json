@@ -728,18 +728,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073221",
-        "url": "https://www.stubhub.ie/bts-chicago-tickets-8-27-2026/event/107073221",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv178Z_eGkl5R4g7",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-chicago-tickets-8-27-2026/event/107073221"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-chicago-0400642acc7e5d9b",

@@ -125,11 +125,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7424935",
-        "url": "https://www.ticketnetwork.com/en/p/7424935",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7424935",
@@ -142,7 +142,7 @@
     "ticketmaster_discovery_event_id": "G5vzZbwNCBsnm",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424935",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424935/My-Chemical-Romance-tickets-Thu-Aug-27-2026-Coors-Field"
   },
   {

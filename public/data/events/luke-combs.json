@@ -1,0 +1,585 @@
+[
+  {
+    "id": "tm-luke-combs-2027-arlington-z7r9jz1aazyf6",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs w/ Treaty Oak Revival",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-03T22:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZYf6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYf6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYf6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZYf6",
+        "discovery_event_id": "Z7r9jZ1AAZYf6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYf6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZYf6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-detroit-vv1afzkf6gkesjjgl",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Ford Field",
+    "datetime_iso": "2027-04-17T21:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006507B172631F",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-detroit-michigan-04-17-2027/event/08006507B172631F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-detroit-michigan-04-17-2027/event/08006507B172631F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006507B172631F",
+        "discovery_event_id": "vv1AFZkf6GkesjJGL",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-detroit-michigan-04-17-2027/event/08006507B172631F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkf6GkesjJGL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-philadelphia-vv17fz_8gklpk2ll",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Lincoln Financial Field",
+    "datetime_iso": "2027-04-24T21:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200650AD64CFAEB",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200650AD64CFAEB",
+        "discovery_event_id": "vv17FZ_8GklpK2ll",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_8GklpK2ll",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-foxborough-vv177z_8gkinn93w",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-05-01T21:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100650A23A974B2",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100650A23A974B2",
+        "discovery_event_id": "vv177Z_8GkINn93w",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_8GkINn93w",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-pittsburgh-1avbz_8gkd1oiqd",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Acrisure Stadium",
+    "datetime_iso": "2027-05-08T21:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600650ECA46C743",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-pittsburgh-pennsylvania-05-08-2027/event/1600650ECA46C743",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-pittsburgh-pennsylvania-05-08-2027/event/1600650ECA46C743",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600650ECA46C743",
+        "discovery_event_id": "1AvbZ_8GkD1oiqd",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-pittsburgh-pennsylvania-05-08-2027/event/1600650ECA46C743",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_8GkD1oiqd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-kansas-city-vv1akzkf6gkesjbxu",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Arrowhead Stadium",
+    "datetime_iso": "2027-05-15T22:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006507B373A88D",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-kansas-city-missouri-05-15-2027/event/06006507B373A88D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-kansas-city-missouri-05-15-2027/event/06006507B373A88D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006507B373A88D",
+        "discovery_event_id": "vv1AkZkf6GkeSjBxu",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-kansas-city-missouri-05-15-2027/event/06006507B373A88D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkf6GkeSjBxu",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-edmonton-1av7z_8gkw3oea5",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2027-05-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100650C9282714B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-edmonton-alberta-05-29-2027/event/1100650C9282714B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-edmonton-alberta-05-29-2027/event/1100650C9282714B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100650C9282714B",
+        "discovery_event_id": "1Av7Z_8Gkw3OEA5",
+        "url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-edmonton-alberta-05-29-2027/event/1100650C9282714B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_8Gkw3OEA5",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-vancouver-1av7z_8gkwig5fh",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2027-06-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100650CACD4B21B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-vancouver-british-columbia-06-05-2027/event/1100650CACD4B21B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-vancouver-british-columbia-06-05-2027/event/1100650CACD4B21B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100650CACD4B21B",
+        "discovery_event_id": "1Av7Z_8Gkwig5Fh",
+        "url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-vancouver-british-columbia-06-05-2027/event/1100650CACD4B21B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_8Gkwig5Fh",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-boise-g5vzz_8lfjx4v",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Albertsons Stadium",
+    "datetime_iso": "2027-06-12T23:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00650AC873E574",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-boise-idaho-06-12-2027/event/1E00650AC873E574",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-boise-idaho-06-12-2027/event/1E00650AC873E574",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00650AC873E574",
+        "discovery_event_id": "G5vzZ_8lFjX4V",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-boise-idaho-06-12-2027/event/1E00650AC873E574",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_8lFjX4V",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-denver-g5vzz_8l39sxz",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Empower Field At Mile High",
+    "datetime_iso": "2027-06-19T23:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00650AD25F18B8",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-denver-colorado-06-19-2027/event/1E00650AD25F18B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-denver-colorado-06-19-2027/event/1E00650AD25F18B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00650AD25F18B8",
+        "discovery_event_id": "G5vzZ_8l39sxz",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-denver-colorado-06-19-2027/event/1E00650AD25F18B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_8l39sxz",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs - My Kinda Saturday Night Tour 2027",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2027-06-27T00:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00650AD7C211C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-san-diego-california-06-26-2027/event/0A00650AD7C211C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-san-diego-california-06-26-2027/event/0A00650AD7C211C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00650AD7C211C9",
+        "discovery_event_id": "vvG1IZ_8l9Y-6a",
+        "url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-san-diego-california-06-26-2027/event/0A00650AD7C211C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_8l9Y-6a",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

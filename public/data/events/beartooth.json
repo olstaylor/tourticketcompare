@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "tm-beartooth-2026-oberhausen-z698xzc2z16v0vue-v",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth - pure ecstasy europe + uk tour",
+    "city": "Oberhausen",
+    "country": "Germany",
+    "venue": "Rudolf Weber-ARENA",
+    "datetime_iso": "2026-09-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1901342874",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1901342874?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1901342874?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1901342874",
+        "discovery_event_id": "Z698xZC2Z16v0vue-V",
+        "url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1901342874?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v0vue-V",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-hannover-z698xzc2z16vcpokjv",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth - pure ecstasy europe + uk tour",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "Swiss Life Hall",
+    "datetime_iso": "2026-09-19T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1396446701",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1396446701?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1396446701?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1396446701",
+        "discovery_event_id": "Z698xZC2Z16vCpokjv",
+        "url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1396446701?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vCpokjv",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-berlin-z698xzc2z16vovkbjo",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth - pure ecstasy europe + uk tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Eats Music Hall",
+    "datetime_iso": "2026-09-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1801198711",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1801198711?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1801198711?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1801198711",
+        "discovery_event_id": "Z698xZC2Z16vOvkbjo",
+        "url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1801198711?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vOvkbjo",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-london-g5dzz_1urr0et",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth : Pure Ecstasy World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2026-10-03T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064ADAFBE40BF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beartooth-pure-ecstasy-world-tour-london-03-10-2026/event/3E0064ADAFBE40BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beartooth-pure-ecstasy-world-tour-london-03-10-2026/event/3E0064ADAFBE40BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064ADAFBE40BF",
+        "discovery_event_id": "G5dzZ_1URR0eT",
+        "url": "https://www.ticketmaster.co.uk/beartooth-pure-ecstasy-world-tour-london-03-10-2026/event/3E0064ADAFBE40BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1URR0eT",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-leeds-g5dzz_1wg9kbb",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "O2 Academy Leeds",
+    "datetime_iso": "2026-10-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064ACB55D3618",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beartooth-leeds-05-10-2026/event/3E0064ACB55D3618",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beartooth-leeds-05-10-2026/event/3E0064ACB55D3618",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064ACB55D3618",
+        "discovery_event_id": "G5dzZ_1wg9Kbb",
+        "url": "https://www.ticketmaster.co.uk/beartooth-leeds-05-10-2026/event/3E0064ACB55D3618",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1wg9Kbb",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-glasgow-17uov0g61l4m0bs",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Barrowland Ballroom",
+    "datetime_iso": "2026-10-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064A7D5DE4EB1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beartooth-glasgow-06-10-2026/event/360064A7D5DE4EB1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beartooth-glasgow-06-10-2026/event/360064A7D5DE4EB1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064A7D5DE4EB1",
+        "discovery_event_id": "17uOv0G61L4M0Bs",
+        "url": "https://www.ticketmaster.co.uk/beartooth-glasgow-06-10-2026/event/360064A7D5DE4EB1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G61L4M0Bs",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-boston-vvg17z_1njiezr",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-11-11T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064A8E6A0202F",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064A8E6A0202F",
+        "discovery_event_id": "vvG17Z_1NJIeZR",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_1NJIeZR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-new-york-k7vgf_1s1uowe",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Manhattan Center Hammerstein Ballroom",
+    "datetime_iso": "2026-11-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064ACCA360CA7",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-york-new-york-11-12-2026/event/000064ACCA360CA7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-york-new-york-11-12-2026/event/000064ACCA360CA7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064ACCA360CA7",
+        "discovery_event_id": "k7vGF_1S1uOwE",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-york-new-york-11-12-2026/event/000064ACCA360CA7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_1S1uOwE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-philadelphia-z7r9jz1a70tke",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth w/ Don Broco",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Franklin Music Hall",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70tke",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tke",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tke",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70tke",
+        "discovery_event_id": "Z7r9jZ1A70tke",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tke",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70tke",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-national-harbor-17a8v0g61vjcef3",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2026-11-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064AD26B42212",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064AD26B42212",
+        "discovery_event_id": "17A8v0G61VJceF3",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61VJceF3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-pittsburgh-z7r9jz1a70t36",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth w/ Don Broco",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Stage AE",
+    "datetime_iso": "2026-11-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70t36",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t36",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70t36",
+        "discovery_event_id": "Z7r9jZ1A70t36",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70t36",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-chicago-vvg18z_1nj0ag4",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2026-11-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064A8E6905D55",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064A8E6905D55",
+        "discovery_event_id": "vvG18Z_1NJ0Ag4",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_1NJ0Ag4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-maplewood-z7r9jz1aava89",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth w/ Don Broco",
+    "city": "Maplewood",
+    "country": "United States Of America",
+    "venue": "Myth",
+    "datetime_iso": "2026-11-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvA89",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvA89",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvA89",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvA89",
+        "discovery_event_id": "Z7r9jZ1AAvA89",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvA89",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvA89",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-omaha-17fzv0g61sq6aec",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Steelhouse Omaha",
+    "datetime_iso": "2026-11-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200064ACDD1C59CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-omaha-nebraska-11-22-2026/event/200064ACDD1C59CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-omaha-nebraska-11-22-2026/event/200064ACDD1C59CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200064ACDD1C59CE",
+        "discovery_event_id": "17FZv0G61Sq6AEC",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-omaha-nebraska-11-22-2026/event/200064ACDD1C59CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FZv0G61Sq6AEC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-nashville-g5viz_1sjbpcf",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-11-29T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064ACE6625B54",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064ACE6625B54",
+        "discovery_event_id": "G5viZ_1SJbPcf",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_1SJbPcf",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-atlanta-vvg1zz_1br-um-",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2026-11-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064AEAF84DDE1",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064AEAF84DDE1",
+        "discovery_event_id": "vvG1zZ_1BR-uM-",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_1BR-uM-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-charlotte-g5evz_1mwgsx1",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2026-12-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064ABB2D71F8A",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064ABB2D71F8A",
+        "discovery_event_id": "G5eVZ_1mwgsX1",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1mwgsX1",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-saint-augustine-z7r9jz1a70igm",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2026-12-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70IGM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70IGM",
+        "discovery_event_id": "Z7r9jZ1A70IGM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70IGM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-fort-lauderdale-z7r9jz1a70igy",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Fort Lauderdale",
+    "country": "United States Of America",
+    "venue": "War Memorial Auditorium-FL",
+    "datetime_iso": "2026-12-05T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70IGy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70IGy",
+        "discovery_event_id": "Z7r9jZ1A70IGy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IGy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70IGy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-new-orleans-g5viz_1lu2gm0",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "The Fillmore New Orleans",
+    "datetime_iso": "2026-12-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064A7CD3CCBA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064A7CD3CCBA4",
+        "discovery_event_id": "G5viZ_1Lu2Gm0",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_1Lu2Gm0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-dallas-vvg1yz_1mmkrmi",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2026-12-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064ADF719EBA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064ADF719EBA8",
+        "discovery_event_id": "vvG1YZ_1MMkrmI",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_1MMkrmI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-denver-g5vzz_1sigr2s",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Fillmore Auditorium (Denver)",
+    "datetime_iso": "2026-12-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064ACE8D5E3F3",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-denver-colorado-12-12-2026/event/1E0064ACE8D5E3F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-denver-colorado-12-12-2026/event/1E0064ACE8D5E3F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064ACE8D5E3F3",
+        "discovery_event_id": "G5vzZ_1SIgr2S",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-denver-colorado-12-12-2026/event/1E0064ACE8D5E3F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1SIgr2S",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-salt-lake-city-g5vzz_1w63kam",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Union",
+    "datetime_iso": "2026-12-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064AC8748616E",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064AC8748616E",
+        "discovery_event_id": "G5vzZ_1w63kAm",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1w63kAm",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-phoenix-17k8v0g61i5gitx",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-12-17T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064AB0B328FE2",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064AB0B328FE2",
+        "discovery_event_id": "17k8v0G61i5GITx",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61i5GITx",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-hollywood-vvg10z_1ikgdyb",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Palladium",
+    "datetime_iso": "2026-12-19T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064AB1333BE7A",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-hollywood-california-12-18-2026/event/090064AB1333BE7A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-hollywood-california-12-18-2026/event/090064AB1333BE7A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064AB1333BE7A",
+        "discovery_event_id": "vvG10Z_1iKGDyB",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-hollywood-california-12-18-2026/event/090064AB1333BE7A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_1iKGDyB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-wheatland-g5vyz_1xgdb2f",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Sacramento",
+    "datetime_iso": "2026-12-20T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064A8B5ED83D4",
+    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-wheatland-california-12-19-2026/event/1C0064A8B5ED83D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-wheatland-california-12-19-2026/event/1C0064A8B5ED83D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064A8B5ED83D4",
+        "discovery_event_id": "G5vYZ_1xgDb2f",
+        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-wheatland-california-12-19-2026/event/1C0064A8B5ED83D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1xgDb2f",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

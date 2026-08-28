@@ -1450,5 +1450,429 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745714",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745714/Tame-Impala-tickets-Sun-Sep-20-2026-Toyota-Center-TX"
+  },
+  {
+    "id": "tm-tame-impala-2027-manchester-1amzkf4gkemyn8u",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat EU/UK Tour 2027",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-05-28T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006515B7C2A40D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-28-05-2027/event/37006515B7C2A40D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-28-05-2027/event/37006515B7C2A40D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006515B7C2A40D",
+        "discovery_event_id": "1AMZkf4GkeMYn8u",
+        "url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-28-05-2027/event/37006515B7C2A40D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkf4GkeMYn8u",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2027-manchester-1amzkf_gkdr-2ec",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat EU/UK Tour 2027",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-05-29T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006519DE84F9ED",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-29-05-2027/event/37006519DE84F9ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-29-05-2027/event/37006519DE84F9ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006519DE84F9ED",
+        "discovery_event_id": "1AMZkf_Gkdr-2Ec",
+        "url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-29-05-2027/event/37006519DE84F9ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkf_Gkdr-2Ec",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2027-london-16dfz_ofpg7t8j2",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat EU/UK Tour 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-01T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651525FD098F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-01-06-2027/event/3500651525FD098F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-01-06-2027/event/3500651525FD098F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651525FD098F",
+        "discovery_event_id": "16dfZ_ofPG7T8J2",
+        "url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-01-06-2027/event/3500651525FD098F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZ_ofPG7T8J2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2027-london-16dfz_ofjg7iyih",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat EU/UK Tour 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651526A30A1B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-02-06-2027/event/3500651526A30A1B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-02-06-2027/event/3500651526A30A1B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651526A30A1B",
+        "discovery_event_id": "16dfZ_ofJG7IYIh",
+        "url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-02-06-2027/event/3500651526A30A1B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZ_ofJG7IYIh",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2027-london-1agzkfbgkdvvzlq",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat EU/UK Tour 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-03T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006518F4D387DA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-03-06-2027/event/35006518F4D387DA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-03-06-2027/event/35006518F4D387DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006518F4D387DA",
+        "discovery_event_id": "1AgZkfbGkdVVzLQ",
+        "url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-03-06-2027/event/35006518F4D387DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfbGkdVVzLQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat Tour",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "venue": "Rotterdam Ahoy",
+    "datetime_iso": "2027-06-07T17:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "956263480",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/956263480?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/956263480?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "956263480",
+        "discovery_event_id": "Z698xZbpZ1kPpaN3Z",
+        "url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/956263480?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kPpaN3Z",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat Tour",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "venue": "Rotterdam Ahoy",
+    "datetime_iso": "2027-06-08T17:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "670738928",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/670738928?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/670738928?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "670738928",
+        "discovery_event_id": "Z698xZbpZ1k_Yjz0I",
+        "url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/670738928?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k_Yjz0I",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k3e07a0",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - Deadbeat Tour",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "venue": "Rotterdam Ahoy",
+    "datetime_iso": "2027-06-09T17:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "482904264",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/482904264?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/482904264?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "482904264",
+        "discovery_event_id": "Z698xZbpZ1k3e07a0",
+        "url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/482904264?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k3e07a0",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
   }
 ]

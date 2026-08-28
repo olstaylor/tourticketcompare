@@ -1,0 +1,3447 @@
+[
+  {
+    "id": "tm-blue-october-2026-abilene-z7r9jz1a7-v0n",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Abilene",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre-Abilene",
+    "datetime_iso": "2026-10-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0N",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0N",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0N",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0N",
+        "discovery_event_id": "Z7r9jZ1A7-V0N",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0N",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0N",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-lubbock-z7r9jz1a70v8t",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Lubbock",
+    "country": "United States Of America",
+    "venue": "Helen DeVitt Jones Theater at The Buddy Holly Hall",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70v8t",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8t",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70v8t",
+        "discovery_event_id": "Z7r9jZ1A70v8t",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70v8t",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-tulsa-z7r9jz1a7-v0_",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Tulsa Theater",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0_",
+        "discovery_event_id": "Z7r9jZ1A7-V0_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-wichita-z7r9jz1a7-v0p",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Wichita",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre - Wichita KS",
+    "datetime_iso": "2026-10-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0p",
+        "discovery_event_id": "Z7r9jZ1A7-V0p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-milwaukee-z7r9jz1a7-v04",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Pabst Theater",
+    "datetime_iso": "2026-10-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V04",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V04",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V04",
+        "discovery_event_id": "Z7r9jZ1A7-V04",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V04",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-grand-rapids-vv1kezv0_8ga1aqp6",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October:  The Foiled 20th Anniversary World Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2026-10-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064650A25D587",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-grand-rapids-michigan-10-29-2026/event/080064650A25D587",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-grand-rapids-michigan-10-29-2026/event/080064650A25D587",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064650A25D587",
+        "discovery_event_id": "vv1keZv0_8GA1aqp6",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-grand-rapids-michigan-10-29-2026/event/080064650A25D587",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1keZv0_8GA1aqp6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-detroit-vv17oz_kgkmvfl46",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: The Foiled 20th Anniversary World Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2026-10-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800646DF422B547",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-detroit-michigan-10-30-2026/event/0800646DF422B547",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-detroit-michigan-10-30-2026/event/0800646DF422B547",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800646DF422B547",
+        "discovery_event_id": "vv17OZ_kGkMVFl46",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-detroit-michigan-10-30-2026/event/0800646DF422B547",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_kGkMVFl46",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-toronto-1avzz_kgkvawuqh",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2026-10-31T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000646D05C8D75B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-toronto-ontario-10-31-2026/event/1000646D05C8D75B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-toronto-ontario-10-31-2026/event/1000646D05C8D75B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000646D05C8D75B",
+        "discovery_event_id": "1AvZZ_kGkVAwuqh",
+        "url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-toronto-ontario-10-31-2026/event/1000646D05C8D75B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_kGkVAwuqh",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-montreal-1aszkowgke-yptc",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October  Foiled 20th Anniversary World Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2026-11-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006472A1C25FED",
+    "ticketmaster_url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-montreal-quebec-11-01-2026/event/31006472A1C25FED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-montreal-quebec-11-01-2026/event/31006472A1C25FED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006472A1C25FED",
+        "discovery_event_id": "1AsZkowGke-YPTc",
+        "url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-montreal-quebec-11-01-2026/event/31006472A1C25FED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkowGke-YPTc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-portland-vv177z_kgkuvxsds",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2026-11-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100646DB4FB3EF1",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-portland-maine-11-03-2026/event/0100646DB4FB3EF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-portland-maine-11-03-2026/event/0100646DB4FB3EF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100646DB4FB3EF1",
+        "discovery_event_id": "vv177Z_kGkUVXSDs",
+        "url": "https://www.ticketmaster.com/blue-october-portland-maine-11-03-2026/event/0100646DB4FB3EF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_kGkUVXSDs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-new-york-city-k7v17_67ag7rfqz",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October - The Foiled 20th Anniversary World Tour",
+    "city": "New York City",
+    "country": "United States Of America",
+    "venue": "Palladium Times Square",
+    "datetime_iso": "2026-11-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000647105BD4778",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-new-york-city-new-york-11-04-2026/event/0000647105BD4778",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-new-york-city-new-york-11-04-2026/event/0000647105BD4778",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000647105BD4778",
+        "discovery_event_id": "k7v17_67AG7Rfqz",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-new-york-city-new-york-11-04-2026/event/0000647105BD4778",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7v17_67AG7Rfqz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-albany-z7r9jz1a7-v0o",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "Hart Theatre at The Egg",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0O",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0O",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0O",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0O",
+        "discovery_event_id": "Z7r9jZ1A7-V0O",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0O",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0O",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-cleveland-z7r9jz1a7-z0p",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Agora Theatre",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-z0p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-z0p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-z0p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-z0p",
+        "discovery_event_id": "Z7r9jZ1A7-z0p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-z0p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-z0p",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-nashville-vv1aazkosgkezrhqm",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brown County Music Center",
+    "datetime_iso": "2026-11-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006473B879B777",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-nashville-indiana-11-08-2026/event/05006473B879B777",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-nashville-indiana-11-08-2026/event/05006473B879B777",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006473B879B777",
+        "discovery_event_id": "vv1AAZkoSGkezrhqM",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-nashville-indiana-11-08-2026/event/05006473B879B777",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkoSGkezrhqM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-north-tonawanda-z7r9jz1aazwby",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "North Tonawanda",
+    "country": "United States Of America",
+    "venue": "Riviera Theatre-NY",
+    "datetime_iso": "2026-11-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZwby",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwby",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwby",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZwby",
+        "discovery_event_id": "Z7r9jZ1AAZwby",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwby",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwby",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-red-bank-g5vvz_kudtusm",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Red Bank",
+    "country": "United States Of America",
+    "venue": "Hackensack Meridian Health Theatre at the Count Basie Center",
+    "datetime_iso": "2026-11-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D00646DBBFF6CF7",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-red-bank-new-jersey-11-12-2026/event/1D00646DBBFF6CF7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-red-bank-new-jersey-11-12-2026/event/1D00646DBBFF6CF7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D00646DBBFF6CF7",
+        "discovery_event_id": "G5vVZ_kUDTUSM",
+        "url": "https://www.ticketmaster.com/blue-october-red-bank-new-jersey-11-12-2026/event/1D00646DBBFF6CF7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_kUDTUSM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-boston-vv177z_kgkw31n77",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2026-11-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100646C922AA104",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-boston-massachusetts-11-13-2026/event/0100646C922AA104",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-boston-massachusetts-11-13-2026/event/0100646C922AA104",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100646C922AA104",
+        "discovery_event_id": "vv177Z_kGkw31n77",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-boston-massachusetts-11-13-2026/event/0100646C922AA104",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_kGkw31n77",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-wilkes-barre-vv1aezkosgkdamrl_",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October- Foiled 20th Anniversary World Tour",
+    "city": "Wilkes Barre",
+    "country": "United States Of America",
+    "venue": "F.M. Kirby Center",
+    "datetime_iso": "2026-11-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006473C5DDEAD9",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-wilkes-barre-pennsylvania-11-14-2026/event/02006473C5DDEAD9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-wilkes-barre-pennsylvania-11-14-2026/event/02006473C5DDEAD9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006473C5DDEAD9",
+        "discovery_event_id": "vv1AeZkoSGkdAMrl_",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-wilkes-barre-pennsylvania-11-14-2026/event/02006473C5DDEAD9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkoSGkdAMrl_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-philadelphia-vv1aezkowgkdcmrr7",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Alt 104.5 Presents: Blue October",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2026-11-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006472CEBAFBC4",
+    "ticketmaster_url": "https://www.ticketmaster.com/alt-1045-presents-blue-october-philadelphia-pennsylvania-11-15-2026/event/02006472CEBAFBC4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alt-1045-presents-blue-october-philadelphia-pennsylvania-11-15-2026/event/02006472CEBAFBC4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006472CEBAFBC4",
+        "discovery_event_id": "vv1AeZkowGkdCmRR7",
+        "url": "https://www.ticketmaster.com/alt-1045-presents-blue-october-philadelphia-pennsylvania-11-15-2026/event/02006472CEBAFBC4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkowGkdCmRR7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-charlotte-g5evz_kng4bet",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2026-11-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00646A8C5589FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00646A8C5589FF",
+        "discovery_event_id": "G5eVZ_knG4bET",
+        "url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_knG4bET",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-jacksonville-z7r9jz1a7-v03",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "FIVE",
+    "datetime_iso": "2026-11-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V03",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V03",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V03",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V03",
+        "discovery_event_id": "Z7r9jZ1A7-V03",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V03",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V03",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-clearwater-z7r9jz1a7-v0f",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "Ruth Eckerd Hall",
+    "datetime_iso": "2026-11-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0f",
+        "discovery_event_id": "Z7r9jZ1A7-V0f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0f",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-orlando-1aefz_kgknmxmnk",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: The Foiled 20th Anniversary World Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2026-11-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200646AB78B7A93",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-orlando-florida-11-21-2026/event/2200646AB78B7A93",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-orlando-florida-11-21-2026/event/2200646AB78B7A93",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200646AB78B7A93",
+        "discovery_event_id": "1AeFZ_kGknMxMnK",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-orlando-florida-11-21-2026/event/2200646AB78B7A93",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_kGknMxMnK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-atlanta-vvg1zz_6ddzdk3",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Tabernacle Presented by iTHINK Financial",
+    "datetime_iso": "2026-11-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006470C3E3B192",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-atlanta-georgia-11-22-2026/event/0E006470C3E3B192",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-atlanta-georgia-11-22-2026/event/0E006470C3E3B192",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006470C3E3B192",
+        "discovery_event_id": "vvG1zZ_6ddzDk3",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-atlanta-georgia-11-22-2026/event/0E006470C3E3B192",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_6ddzDk3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-nashville-g5viz_kskltsv",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-11-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00646CC67FFC74",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-nashville-tennessee-11-25-2026/event/1B00646CC67FFC74",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-nashville-tennessee-11-25-2026/event/1B00646CC67FFC74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00646CC67FFC74",
+        "discovery_event_id": "G5viZ_kSkLTsV",
+        "url": "https://www.ticketmaster.com/blue-october-nashville-tennessee-11-25-2026/event/1B00646CC67FFC74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kSkLTsV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-irving-vvg1yz_6kcyhkx",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2026-11-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006474CEC1B4E2",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-irving-texas-11-27-2026/event/0C006474CEC1B4E2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-irving-texas-11-27-2026/event/0C006474CEC1B4E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006474CEC1B4E2",
+        "discovery_event_id": "vvG1YZ_6KCYhKx",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-irving-texas-11-27-2026/event/0C006474CEC1B4E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_6KCYhKx",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-irving-vvg1yz_68kdxnx",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "2-DAY PASS: Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2026-11-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00647413EE28E2",
+    "ticketmaster_url": "https://www.ticketmaster.com/2day-pass-blue-october-foiled-20th-irving-texas-11-28-2026/event/0C00647413EE28E2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/2day-pass-blue-october-foiled-20th-irving-texas-11-28-2026/event/0C00647413EE28E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00647413EE28E2",
+        "discovery_event_id": "vvG1YZ_68KDxNx",
+        "url": "https://www.ticketmaster.com/2day-pass-blue-october-foiled-20th-irving-texas-11-28-2026/event/0C00647413EE28E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_68KDxNx",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-kansas-city-z7r9jz1a7xk4-",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2026-12-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xk4-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xk4-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xk4-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xk4-",
+        "discovery_event_id": "Z7r9jZ1A7xk4-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xk4-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xk4-",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-minneapolis-vv1akzkowgkdjzvr0",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "The Fillmore Minneapolis presented by Affinity Plus",
+    "datetime_iso": "2026-12-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006472DC001BE4",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-minneapolis-minnesota-12-04-2026/event/06006472DC001BE4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-minneapolis-minnesota-12-04-2026/event/06006472DC001BE4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006472DC001BE4",
+        "discovery_event_id": "vv1AkZkowGkdjZvR0",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-minneapolis-minnesota-12-04-2026/event/06006472DC001BE4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkowGkdjZvR0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-la-vista-1aezz_kgks7afny",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "La Vista",
+    "country": "United States Of America",
+    "venue": "The Astro Theater",
+    "datetime_iso": "2026-12-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000646CC4254AB9",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-la-vista-nebraska-12-05-2026/event/2000646CC4254AB9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-la-vista-nebraska-12-05-2026/event/2000646CC4254AB9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000646CC4254AB9",
+        "discovery_event_id": "1AeZZ_kGkS7afny",
+        "url": "https://www.ticketmaster.com/blue-october-la-vista-nebraska-12-05-2026/event/2000646CC4254AB9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_kGkS7afny",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-oklahoma-city-z7r9jz1a7-v0b",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Criterion Theater - Oklahoma City",
+    "datetime_iso": "2026-12-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0b",
+        "discovery_event_id": "Z7r9jZ1A7-V0b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0b",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-beaumont-g5diz_kmboj7t",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October The Foiled 20th Anniversary World Tour",
+    "city": "Beaumont",
+    "country": "United States Of America",
+    "venue": "Jefferson Theatre",
+    "datetime_iso": "2026-12-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00646BBA81C13F",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-beaumont-texas-12-10-2026/event/3A00646BBA81C13F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-beaumont-texas-12-10-2026/event/3A00646BBA81C13F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00646BBA81C13F",
+        "discovery_event_id": "G5dIZ_kmBOj7T",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-beaumont-texas-12-10-2026/event/3A00646BBA81C13F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_kmBOj7T",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-austin-z7r9jz1a7-v0k",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Bass Concert Hall",
+    "datetime_iso": "2026-12-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0K",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0K",
+        "discovery_event_id": "Z7r9jZ1A7-V0K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0K",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-hidalgo-g5diz_6r53fc7",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October - Foiled 20th Anniversary World Tour",
+    "city": "Hidalgo",
+    "country": "United States Of America",
+    "venue": "Payne Arena",
+    "datetime_iso": "2026-12-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064778B494B44",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-hidalgo-texas-12-13-2026/event/3A0064778B494B44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-hidalgo-texas-12-13-2026/event/3A0064778B494B44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064778B494B44",
+        "discovery_event_id": "G5dIZ_6r53fc7",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-hidalgo-texas-12-13-2026/event/3A0064778B494B44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_6r53fc7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-corpus-christi-g5diz_65ljyy0",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Corpus Christi",
+    "country": "United States Of America",
+    "venue": "Selena Auditorium",
+    "datetime_iso": "2026-12-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006472EB730E64",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-corpus-christi-texas-12-17-2026/event/3A006472EB730E64",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-corpus-christi-texas-12-17-2026/event/3A006472EB730E64",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006472EB730E64",
+        "discovery_event_id": "G5dIZ_65ljYy0",
+        "url": "https://www.ticketmaster.com/blue-october-corpus-christi-texas-12-17-2026/event/3A006472EB730E64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_65ljYy0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-houston-g5diz_65lrohi",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: The Foiled 20th Anniversary World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-12-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006472EBBE0F2C",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-18-2026/event/3A006472EBBE0F2C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-18-2026/event/3A006472EBBE0F2C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006472EBBE0F2C",
+        "discovery_event_id": "G5dIZ_65lROHi",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-18-2026/event/3A006472EBBE0F2C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_65lROHi",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-houston-g5diz_65lyohs",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: The Foiled 20th Anniversary World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-12-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006472EBC20F31",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-19-2026/event/3A006472EBC20F31",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-19-2026/event/3A006472EBC20F31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006472EBC20F31",
+        "discovery_event_id": "G5dIZ_65lYOHs",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-19-2026/event/3A006472EBC20F31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_65lYOHs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-houston-g5diz_1sa9wed",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: The Foiled 20th Anniversary World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-12-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064ACC55FD9C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-20-2026/event/3A0064ACC55FD9C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-20-2026/event/3A0064ACC55FD9C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064ACC55FD9C3",
+        "discovery_event_id": "G5dIZ_1SA9WEd",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-20-2026/event/3A0064ACC55FD9C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_1SA9WEd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-midland-z7r9jz1a70pjo",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Midland",
+    "country": "United States Of America",
+    "venue": "Wagner Noel Performing Arts Center",
+    "datetime_iso": "2027-01-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70PJo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PJo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PJo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70PJo",
+        "discovery_event_id": "Z7r9jZ1A70PJo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PJo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70PJo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-el-paso-vvg1yz_1msxe0e",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October - Foiled 20th Anniversary World Tour",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "The Plaza Theatre Performing Arts Center",
+    "datetime_iso": "2027-01-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064ABB3FA7927",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-el-paso-texas-01-30-2027/event/0C0064ABB3FA7927",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-el-paso-texas-01-30-2027/event/0C0064ABB3FA7927",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064ABB3FA7927",
+        "discovery_event_id": "vvG1YZ_1mSXE0E",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-el-paso-texas-01-30-2027/event/0C0064ABB3FA7927",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_1mSXE0E",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-amarillo-z7r9jz1a7pxau",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Amarillo",
+    "country": "United States Of America",
+    "venue": "Globe News Center for the Performing Arts",
+    "datetime_iso": "2027-02-01T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PxAU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PxAU",
+        "discovery_event_id": "Z7r9jZ1A7PxAU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxAU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-tucson-17k8v0g61r3fg2b",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October @ Rialto Theatre",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "Rialto Theatre-Tucson",
+    "datetime_iso": "2027-02-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064A7922353D8",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-rialto-theatre-tucson-arizona-02-03-2027/event/190064A7922353D8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-rialto-theatre-tucson-arizona-02-03-2027/event/190064A7922353D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064A7922353D8",
+        "discovery_event_id": "17k8v0G61r3Fg2b",
+        "url": "https://www.ticketmaster.com/blue-october-rialto-theatre-tucson-arizona-02-03-2027/event/190064A7922353D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61r3Fg2b",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-phoenix-17k8v0g61lto1cb",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-02-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064A7E944A3BA",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-05-2027/event/190064A7E944A3BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-05-2027/event/190064A7E944A3BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064A7E944A3BA",
+        "discovery_event_id": "17k8v0G61Lto1CB",
+        "url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-05-2027/event/190064A7E944A3BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61Lto1CB",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-phoenix-17k8v0g61ltk12k",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-02-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064A7E94CA3C6",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-06-2027/event/190064A7E94CA3C6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-06-2027/event/190064A7E94CA3C6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064A7E94CA3C6",
+        "discovery_event_id": "17k8v0G61LtK12k",
+        "url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-06-2027/event/190064A7E94CA3C6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61LtK12k",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-los-angeles-vvg10z_1ri5jq_",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-02-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064A7A82DC699",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-los-angeles-california-02-07-2027/event/090064A7A82DC699",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-los-angeles-california-02-07-2027/event/090064A7A82DC699",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064A7A82DC699",
+        "discovery_event_id": "vvG10Z_1rI5jQ_",
+        "url": "https://www.ticketmaster.com/blue-october-los-angeles-california-02-07-2027/event/090064A7A82DC699",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_1rI5jQ_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-san-luis-obispo-z7r9jz1a70_f7",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "San Luis Obispo",
+    "country": "United States Of America",
+    "venue": "Fremont Theater",
+    "datetime_iso": "2027-02-11T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_f7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_f7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_f7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_f7",
+        "discovery_event_id": "Z7r9jZ1A70_f7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_f7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_f7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-valley-center-vvg1iz_1qjyqty",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October - Foiled 20th Anniversary World Tour",
+    "city": "Valley Center",
+    "country": "United States Of America",
+    "venue": "Harrah's Resort SoCal - The Events Center",
+    "datetime_iso": "2027-02-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064A69CE5AFF9",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-valley-center-california-02-11-2027/event/0A0064A69CE5AFF9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-valley-center-california-02-11-2027/event/0A0064A69CE5AFF9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064A69CE5AFF9",
+        "discovery_event_id": "vvG1IZ_1QjyQTy",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-valley-center-california-02-11-2027/event/0A0064A69CE5AFF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_1QjyQTy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-las-vegas-17ayv0g61ppuqbc",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: The Foiled 20th Anniversary World Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Las Vegas",
+    "datetime_iso": "2027-02-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064A5A535D62D",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-las-vegas-nevada-02-13-2027/event/170064A5A535D62D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-las-vegas-nevada-02-13-2027/event/170064A5A535D62D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064A5A535D62D",
+        "discovery_event_id": "17AYv0G61pPuqbc",
+        "url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-las-vegas-nevada-02-13-2027/event/170064A5A535D62D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61pPuqbc",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-bakersfield-z7r9jz1a70_4m",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Bakersfield",
+    "country": "United States Of America",
+    "venue": "Bakersfield Fox Theater",
+    "datetime_iso": "2027-02-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_4M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_4M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_4M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_4M",
+        "discovery_event_id": "Z7r9jZ1A70_4M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_4M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_4M",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-san-francisco-z7r9jz1a70_4z",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Regency Ballroom",
+    "datetime_iso": "2027-02-19T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_4z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_4z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_4z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_4z",
+        "discovery_event_id": "Z7r9jZ1A70_4z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_4z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_4z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-sacramento-g5vyz_1kgjhjj",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-02-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064A4F59BC9A6",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-19-2027/event/1C0064A4F59BC9A6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-19-2027/event/1C0064A4F59BC9A6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064A4F59BC9A6",
+        "discovery_event_id": "G5vYZ_1KgJHJJ",
+        "url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-19-2027/event/1C0064A4F59BC9A6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1KgJHJJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-sacramento-g5vyz_1kvkgjw",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-02-21T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064A4F44CC732",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-20-2027/event/1C0064A4F44CC732",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-20-2027/event/1C0064A4F44CC732",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064A4F44CC732",
+        "discovery_event_id": "G5vYZ_1KVKGjw",
+        "url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-20-2027/event/1C0064A4F44CC732",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1KVKGjw",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-reno-17c8v0g61lh4py0",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Reno",
+    "country": "United States Of America",
+    "venue": "Silver Legacy Casino Reno",
+    "datetime_iso": "2027-02-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "390064A7DB556E64",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-reno-nevada-02-21-2027/event/390064A7DB556E64",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-reno-nevada-02-21-2027/event/390064A7DB556E64",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "390064A7DB556E64",
+        "discovery_event_id": "17C8v0G61Lh4py0",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-reno-nevada-02-21-2027/event/390064A7DB556E64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17C8v0G61Lh4py0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-spokane-g5vzz_1rinhtu",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Spokane",
+    "datetime_iso": "2027-02-25T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064ABECABCFCD",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-spokane-washington-02-24-2027/event/1E0064ABECABCFCD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-spokane-washington-02-24-2027/event/1E0064ABECABCFCD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064ABECABCFCD",
+        "discovery_event_id": "G5vzZ_1RinHTu",
+        "url": "https://www.ticketmaster.com/blue-october-spokane-washington-02-24-2027/event/1E0064ABECABCFCD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1RinHTu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-vancouver-1778v0g61pgtl-u",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-02-26T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064A5B5FEB876",
+    "ticketmaster_url": "https://www.ticketmaster.ca/blue-october-vancouver-british-columbia-02-25-2027/event/110064A5B5FEB876",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/blue-october-vancouver-british-columbia-02-25-2027/event/110064A5B5FEB876",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064A5B5FEB876",
+        "discovery_event_id": "1778v0G61pgTl-U",
+        "url": "https://www.ticketmaster.ca/blue-october-vancouver-british-columbia-02-25-2027/event/110064A5B5FEB876",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G61pgTl-U",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-seattle-vvg1hz_1rxwtla",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Moore Theatre",
+    "datetime_iso": "2027-02-27T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064A7A2CA97C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-seattle-washington-02-26-2027/event/0F0064A7A2CA97C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-seattle-washington-02-26-2027/event/0F0064A7A2CA97C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064A7A2CA97C9",
+        "discovery_event_id": "vvG1HZ_1rxwtLa",
+        "url": "https://www.ticketmaster.com/blue-october-seattle-washington-02-26-2027/event/0F0064A7A2CA97C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_1rxwtLa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-portland-z7r9jz1a70_-u",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Roseland Theater",
+    "datetime_iso": "2027-02-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_-U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_-U",
+        "discovery_event_id": "Z7r9jZ1A70_-U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_-U",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-portland-z7r9jz1a70of9",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Roseland Theater",
+    "datetime_iso": "2027-03-01T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70OF9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OF9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OF9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70OF9",
+        "discovery_event_id": "Z7r9jZ1A70OF9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70OF9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-boise-g5vzz_1rcvq7p",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Boise",
+    "datetime_iso": "2027-03-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064ABEDD1D125",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-boise-idaho-03-03-2027/event/1E0064ABEDD1D125",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-boise-idaho-03-03-2027/event/1E0064ABEDD1D125",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064ABEDD1D125",
+        "discovery_event_id": "G5vzZ_1RcVq7P",
+        "url": "https://www.ticketmaster.com/blue-october-boise-idaho-03-03-2027/event/1E0064ABEDD1D125",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1RcVq7P",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-03-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70te4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70te4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70te4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70te4",
+        "discovery_event_id": "Z7r9jZ1A70te4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70te4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70te4",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-denver-z7r9jz1a70_-g",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2027-03-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_-g",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-g",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-g",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_-g",
+        "discovery_event_id": "Z7r9jZ1A70_-g",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-g",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_-g",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-colorado-springs-z7r9jz1a70_p7",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Pikes Peak Center",
+    "datetime_iso": "2027-03-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_P7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_P7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_P7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_P7",
+        "discovery_event_id": "Z7r9jZ1A70_P7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_P7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_P7",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-chicago-z7r9jz1a70_-s",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October (18 and Over)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Riviera Theatre- IL",
+    "datetime_iso": "2027-03-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_-s",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-s",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-s",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_-s",
+        "discovery_event_id": "Z7r9jZ1A70_-s",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-s",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_-s",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-des-moines-vvg1bz_1xphcoz",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October: Foiled 20th Anniversary World Tour",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Hoyt Sherman Place",
+    "datetime_iso": "2027-03-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064A8A56ED838",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-des-moines-iowa-03-12-2027/event/060064A8A56ED838",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-des-moines-iowa-03-12-2027/event/060064A8A56ED838",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064A8A56ED838",
+        "discovery_event_id": "vvG1bZ_1xPhcOz",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-des-moines-iowa-03-12-2027/event/060064A8A56ED838",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_1xPhcOz",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-rockford-17f8v0g61mnfk5g",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October - Foiled 20th Anniversary World Tour",
+    "city": "Rockford",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Rockford",
+    "datetime_iso": "2027-03-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "210064ABAA2132CC",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-rockford-illinois-03-14-2027/event/210064ABAA2132CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-rockford-illinois-03-14-2027/event/210064ABAA2132CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "210064ABAA2132CC",
+        "discovery_event_id": "17F8v0G61mnFK5G",
+        "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-rockford-illinois-03-14-2027/event/210064ABAA2132CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17F8v0G61mnFK5G",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

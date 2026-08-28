@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "tm-tyla-2026-london-g5dzz_29jk-dk",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2026-10-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064F5DC4E1EC6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-15-10-2026/event/3E0064F5DC4E1EC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-15-10-2026/event/3E0064F5DC4E1EC6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064F5DC4E1EC6",
+        "discovery_event_id": "G5dzZ_29jK-Dk",
+        "url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-15-10-2026/event/3E0064F5DC4E1EC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_29jK-Dk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-london-g5dzz_29jsxep",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2026-10-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064F5E6C62096",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-16-10-2026/event/3E0064F5E6C62096",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-16-10-2026/event/3E0064F5E6C62096",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064F5E6C62096",
+        "discovery_event_id": "G5dzZ_29Jsxep",
+        "url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-16-10-2026/event/3E0064F5E6C62096",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_29Jsxep",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-glasgow-g5dzz_2ebyvny",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2026-10-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064F098C018F0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-glasgow-18-10-2026/event/3E0064F098C018F0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-glasgow-18-10-2026/event/3E0064F098C018F0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064F098C018F0",
+        "discovery_event_id": "G5dzZ_2ebYvNY",
+        "url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-glasgow-18-10-2026/event/3E0064F098C018F0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_2ebYvNY",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-manchester-17uov0g62k1nnho",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2026-10-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064F4CAAAA6E0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-manchester-19-10-2026/event/360064F4CAAAA6E0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-manchester-19-10-2026/event/360064F4CAAAA6E0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F4CAAAA6E0",
+        "discovery_event_id": "17uOv0G62K1nnhO",
+        "url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-manchester-19-10-2026/event/360064F4CAAAA6E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62K1nnhO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-forest-brussels-z698xzg2z16vrkgpa9",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2026-10-22T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1793316257",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/tyla-the-apop-world-tour-tickets/1793316257",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/tyla-the-apop-world-tour-tickets/1793316257",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1793316257",
+        "discovery_event_id": "Z698xZG2Z16vrKGpa9",
+        "url": "https://www.ticketmaster.be/event/tyla-the-apop-world-tour-tickets/1793316257",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16vrKGpa9",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-dusseldorf-z698xzc2z16vq4jjgn",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "venue": "Mitsubishi Electric HALLE",
+    "datetime_iso": "2026-10-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1755726323",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1755726323?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1755726323?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1755726323",
+        "discovery_event_id": "Z698xZC2Z16vq4jJGN",
+        "url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1755726323?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vq4jJGN",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-berlin-z698xzc2z16vfognfa",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Eats Music Hall",
+    "datetime_iso": "2026-10-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1220323505",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1220323505?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1220323505?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1220323505",
+        "discovery_event_id": "Z698xZC2Z16vFOGNfA",
+        "url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1220323505?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vFOGNfA",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-wheatland-g5vyz_2qphiow",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Sacramento",
+    "datetime_iso": "2026-11-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064F6966E883D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-wheatland-california-11-12-2026/event/1C0064F6966E883D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-wheatland-california-11-12-2026/event/1C0064F6966E883D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064F6966E883D",
+        "discovery_event_id": "G5vYZ_2QphIOW",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-wheatland-california-11-12-2026/event/1C0064F6966E883D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_2QphIOW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-san-francisco-g5vyz_2fimqin",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-11-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064F528DDDB2A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064F528DDDB2A",
+        "discovery_event_id": "G5vYZ_2fIMqin",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_2fIMqin",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-vancouver-1778v0g62hxtorg",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2026-11-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064F6FEA517B5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064F6FEA517B5",
+        "discovery_event_id": "1778v0G62hXtorg",
+        "url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G62hXtorg",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-seattle-vvg1hz_2qgz489",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2026-11-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064F74C015417",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064F74C015417",
+        "discovery_event_id": "vvG1HZ_2qGZ489",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-denver-g5vzz_2qdtig-",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Fillmore Auditorium (Denver)",
+    "datetime_iso": "2026-11-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064F6BBFECD61",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064F6BBFECD61",
+        "discovery_event_id": "G5vzZ_2QDTig-",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_2QDTig-",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-chicago-vvg18z_2o77qju",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2026-11-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064F44411D736",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064F44411D736",
+        "discovery_event_id": "vvG18Z_2o77qjU",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_2o77qjU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-boston-vvg17z_2pblciw",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-11-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064F598ACEA3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064F598ACEA3D",
+        "discovery_event_id": "vvG17Z_2pblCIW",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_2pblCIW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-toronto-177zv0g6294fsr8",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Coca-Cola Coliseum",
+    "datetime_iso": "2026-11-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064F5D5533790",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064F5D5533790",
+        "discovery_event_id": "177Zv0G6294fSr8",
+        "url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6294fSr8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-brooklyn-k7vgf_2xiqkw5",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2026-11-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064F8AC686C8B",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064F8AC686C8B",
+        "discovery_event_id": "k7vGF_2xiQkw5",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_2xiQkw5",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-brooklyn-k7vgf_2xiquwo",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2026-11-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064F8AC6B6CA0",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064F8AC6B6CA0",
+        "discovery_event_id": "k7vGF_2xiQUwO",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_2xiQUwO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-washington-17a8v0g6267w7kc",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2026-12-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064F1C4C841AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064F1C4C841AD",
+        "discovery_event_id": "17A8v0G6267w7kc",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6267w7kc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-tampa-vvg1vz_2xeqp5j",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Yuengling Center",
+    "datetime_iso": "2026-12-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064F8A77562E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-tampa-florida-12-05-2026/event/0D0064F8A77562E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-tampa-florida-12-05-2026/event/0D0064F8A77562E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064F8A77562E6",
+        "discovery_event_id": "vvG1VZ_2xEqp5J",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-tampa-florida-12-05-2026/event/0D0064F8A77562E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_2xEqp5J",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-atlanta-vvg1zz_2xnv9ge",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2026-12-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064F8A3057D42",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064F8A3057D42",
+        "discovery_event_id": "vvG1zZ_2xNv9ge",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_2xNv9ge",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-irving-vvg1yz_2hhoqxx",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2026-12-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064F6DB45AFBE",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064F6DB45AFBE",
+        "discovery_event_id": "vvG1YZ_2hhoQXX",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_2hhoQXX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-houston-g5diz_2qrewdk",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-12-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064F6AF9FD0D3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-houston-texas-12-10-2026/event/3A0064F6AF9FD0D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-houston-texas-12-10-2026/event/3A0064F6AF9FD0D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064F6AF9FD0D3",
+        "discovery_event_id": "G5dIZ_2QREWdK",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-houston-texas-12-10-2026/event/3A0064F6AF9FD0D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_2QREWdK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-austin-g5diz_2xjh2vb",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-12-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064F8A6F0F07A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064F8A6F0F07A",
+        "discovery_event_id": "G5dIZ_2xJH2vB",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_2xJH2vB",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-phoenix-17k8v0g62ljff-n",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-12-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064F7DC208863",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064F7DC208863",
+        "discovery_event_id": "17k8v0G62LjFF-N",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G62LjFF-N",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-san-diego-vvg1iz_cilyeb0",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-12-16T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064EB1FC27EA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064EB1FC27EA4",
+        "discovery_event_id": "vvG1IZ_CiLYEB0",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_CiLYEB0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-inglewood-vvg1iz_cjqejmf",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2026-12-17T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064E99D9E6DC8",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-inglewood-california-12-16-2026/event/0A0064E99D9E6DC8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-inglewood-california-12-16-2026/event/0A0064E99D9E6DC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064E99D9E6DC8",
+        "discovery_event_id": "vvG1IZ_CJqEJMF",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-inglewood-california-12-16-2026/event/0A0064E99D9E6DC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_CJqEJMF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-las-vegas-17ayv0g629nf-rw",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-12-20T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064F5EA2217B2",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064F5EA2217B2",
+        "discovery_event_id": "17AYv0G629nF-rw",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G629nF-rw",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

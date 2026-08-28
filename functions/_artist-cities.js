@@ -60,6 +60,7 @@ const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
  * @property {string} venue
  * @property {string} venue_slug
  * @property {string} datetime_iso
+ * @property {string} timezone
  * @property {number} ts
  * @property {string} tour_name
  * @property {string} event_name
@@ -122,6 +123,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       venue,
       venue_slug: venueSlug(venue, city),
       datetime_iso: iso,
+      timezone: String(event.timezone || "").trim(),
       ts,
       tour_name: String(event.tour_name || "").trim(),
       event_name: String(event.event_name || event.name || "").trim(),

@@ -1,0 +1,2069 @@
+[
+  {
+    "id": "tm-don-omar-2026-reading-vvg1fz_1dkrsjw",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Reading",
+    "country": "United States Of America",
+    "venue": "The Santander Arena",
+    "datetime_iso": "2026-09-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064AED37B1732",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-reading-pennsylvania-09-25-2026/event/020064AED37B1732",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-reading-pennsylvania-09-25-2026/event/020064AED37B1732",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064AED37B1732",
+        "discovery_event_id": "vvG1FZ_1DKrsjw",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-reading-pennsylvania-09-25-2026/event/020064AED37B1732",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_1DKrsjw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-boston-vvg17z_1wjhcnw",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-09-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064AC9C6EDAB2",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-boston-massachusetts-09-26-2026/event/010064AC9C6EDAB2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-boston-massachusetts-09-26-2026/event/010064AC9C6EDAB2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064AC9C6EDAB2",
+        "discovery_event_id": "vvG17Z_1wjhcnw",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-boston-massachusetts-09-26-2026/event/010064AC9C6EDAB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_1wjhcnw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-hartford-z7r9jz1a70eoa",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2026-09-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70EOA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70EOA",
+        "discovery_event_id": "Z7r9jZ1A70EOA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-dallas-vvg1yz_1d_hllv",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-10-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064AED9F2BAC1",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-dallas-texas-10-01-2026/event/0C0064AED9F2BAC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-dallas-texas-10-01-2026/event/0C0064AED9F2BAC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064AED9F2BAC1",
+        "discovery_event_id": "vvG1YZ_1D_Hllv",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-dallas-texas-10-01-2026/event/0C0064AED9F2BAC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_1D_Hllv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-orlando-17fov0g61tztiqr",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-10-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064AFC0FEC76F",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-10-03-2026/event/220064AFC0FEC76F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-10-03-2026/event/220064AFC0FEC76F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064AFC0FEC76F",
+        "discovery_event_id": "17FOv0G61TZTiqR",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-10-03-2026/event/220064AFC0FEC76F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G61TZTiqR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-miami-vvg1vz_1mbpqce",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2026-10-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064ADD895DB42",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-10-04-2026/event/0D0064ADD895DB42",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-10-04-2026/event/0D0064ADD895DB42",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064ADD895DB42",
+        "discovery_event_id": "vvG1VZ_1MbPqce",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-10-04-2026/event/0D0064ADD895DB42",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_1MbPqce",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-rosemont-vvg18z_1bhcnvf",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2026-10-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064AEBC3AAD08",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-10-08-2026/event/040064AEBC3AAD08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-10-08-2026/event/040064AEBC3AAD08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064AEBC3AAD08",
+        "discovery_event_id": "vvG18Z_1BHCnVF",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-10-08-2026/event/040064AEBC3AAD08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_1BHCnVF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-brooklyn-17gzv0g61dlian2",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-10-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064AEEBA098CF",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-brooklyn-new-york-10-10-2026/event/300064AEEBA098CF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-brooklyn-new-york-10-10-2026/event/300064AEEBA098CF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064AEEBA098CF",
+        "discovery_event_id": "17GZv0G61DlIaN2",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-brooklyn-new-york-10-10-2026/event/300064AEEBA098CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G61DlIaN2",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-newark-vvg1fz_1tkglsd",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-10-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064AFC631FC7B",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-10-11-2026/event/020064AFC631FC7B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-10-11-2026/event/020064AFC631FC7B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064AFC631FC7B",
+        "discovery_event_id": "vvG1FZ_1TkGLsD",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-10-11-2026/event/020064AFC631FC7B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_1TkGLsD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-charlotte-g5evz_1d8lhpj",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2026-10-15T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064AED07FC966",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064AED07FC966",
+        "discovery_event_id": "G5eVZ_1D8LHPJ",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1D8LHPJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-washington-17a8v0g61wbnb9b",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2026-10-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064ACBAA985FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-washington-district-of-columbia-10-15-2026/event/150064ACBAA985FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-washington-district-of-columbia-10-15-2026/event/150064ACBAA985FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064ACBAA985FA",
+        "discovery_event_id": "17A8v0G61wBnb9B",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-washington-district-of-columbia-10-15-2026/event/150064ACBAA985FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61wBnb9B",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-atlanta-vvg1zz_1unelae",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-10-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064ADAA09F167",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-atlanta-georgia-10-17-2026/event/0E0064ADAA09F167",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-atlanta-georgia-10-17-2026/event/0E0064ADAA09F167",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064ADAA09F167",
+        "discovery_event_id": "vvG1zZ_1UneLAE",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-atlanta-georgia-10-17-2026/event/0E0064ADAA09F167",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_1UneLAE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-san-antonio-g5diz_1dg8uln",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2026-10-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064AECC40D7EA",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064AECC40D7EA",
+        "discovery_event_id": "G5dIZ_1DG8uLn",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_1DG8uLn",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-houston-z7r9jz1a70e_w",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70E_w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_w",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70E_w",
+        "discovery_event_id": "Z7r9jZ1A70E_w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70E_w",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-el-paso-vvg1yz_1hpge4r",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "Don Haskins Center",
+    "datetime_iso": "2026-10-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064AF2532755E",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-el-paso-texas-10-25-2026/event/0C0064AF2532755E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-el-paso-texas-10-25-2026/event/0C0064AF2532755E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064AF2532755E",
+        "discovery_event_id": "vvG1YZ_1HPGE4r",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-el-paso-texas-10-25-2026/event/0C0064AF2532755E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_1HPGE4r",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-ontario-vvg10z_1tpplao",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Ontario",
+    "country": "United States Of America",
+    "venue": "Toyota Arena",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064AFE55AB260",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064AFE55AB260",
+        "discovery_event_id": "vvG10Z_1TPplaO",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_1TPplaO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-las-vegas-z7r9jz1a70eqs",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Michelob Ultra Arena",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70EqS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70EqS",
+        "discovery_event_id": "Z7r9jZ1A70EqS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70EqS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-11-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70EfV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70EfV",
+        "discovery_event_id": "Z7r9jZ1A70EfV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70EfV",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-san-jose-g5vyz_1mqembe",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2026-11-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064ADDD0AE627",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-jose-california-11-05-2026/event/1C0064ADDD0AE627",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-jose-california-11-05-2026/event/1C0064ADDD0AE627",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064ADDD0AE627",
+        "discovery_event_id": "G5vYZ_1MqembE",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-jose-california-11-05-2026/event/1C0064ADDD0AE627",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1MqembE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-inglewood-vvg10z_56fvyeu",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064B1D40799CD",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-11-06-2026/event/090064B1D40799CD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-11-06-2026/event/090064B1D40799CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064B1D40799CD",
+        "discovery_event_id": "vvG10Z_56fvyEu",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-11-06-2026/event/090064B1D40799CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_56fvyEu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2026-phoenix-17k8v0g61tfaez1",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-11-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064AFC8167E0A",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064AFC8167E0A",
+        "discovery_event_id": "17k8v0G61TFAEz1",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61TFAEz1",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-denver-g5vzz_u2hqxbt",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-02-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064D3DB77EEBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064D3DB77EEBF",
+        "discovery_event_id": "G5vzZ_u2hqXBT",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_u2hqXBT",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-sacramento-g5vyz_u1sfm0b",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-02-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064D2B152E93A",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064D2B152E93A",
+        "discovery_event_id": "G5vYZ_u1sfm0B",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_u1sfm0B",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-seattle-vvg1hz_u4jzxck",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-02-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064D566E22386",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064D566E22386",
+        "discovery_event_id": "vvG1HZ_u4JzxCk",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_u4JzxCk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-san-diego-z7r9jz1a7pggy",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar: The Last King World Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Pechanga Arena San Diego",
+    "datetime_iso": "2027-02-11T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PgGY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgGY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgGY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PgGY",
+        "discovery_event_id": "Z7r9jZ1A7PgGY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgGY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PgGY",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-fresno-g5vyz_u5k7ws7",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Fresno",
+    "country": "United States Of America",
+    "venue": "Save Mart Center",
+    "datetime_iso": "2027-02-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064D2C6132CC4",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064D2C6132CC4",
+        "discovery_event_id": "G5vYZ_u5k7wS7",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_u5k7wS7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-inglewood-vvg10z_u2a3ul3",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Intuit Dome",
+    "datetime_iso": "2027-02-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064D3C948DAD2",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064D3C948DAD2",
+        "discovery_event_id": "vvG10Z_u2a3ul3",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_u2a3ul3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-toronto-177zv0g6u2fwanb",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-02-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064D3C8F45ABA",
+    "ticketmaster_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-toronto-ontario-02-17-2027/event/100064D3C8F45ABA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-toronto-ontario-02-17-2027/event/100064D3C8F45ABA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064D3C8F45ABA",
+        "discovery_event_id": "177Zv0G6u2FWAnB",
+        "url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-toronto-ontario-02-17-2027/event/100064D3C8F45ABA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6u2FWAnB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-montreal-17g8v0g6ucxtixy",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-02-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064D3BEFE88B9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064D3BEFE88B9",
+        "discovery_event_id": "17G8v0G6uCXTIxy",
+        "url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G6uCXTIxy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-rosemont-vvg18z_u5mkrgh",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2027-02-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064D2F74DED5B",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064D2F74DED5B",
+        "discovery_event_id": "vvG18Z_u5MKrgh",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_u5MKrgh",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-belmont-park-17gzv0g6u15uw7e",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2027-03-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064D28B372102",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064D28B372102",
+        "discovery_event_id": "17GZv0G6u15uw7e",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G6u15uw7e",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-newark-vvg1fz_u5xkezy",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-03-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064D2FE182E30",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064D2FE182E30",
+        "discovery_event_id": "vvG1FZ_u5XkezY",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_u5XkezY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-baltimore-17a8v0g6ukar9g1",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2027-03-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064D4C9797D4A",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064D4C9797D4A",
+        "discovery_event_id": "17A8v0G6uKar9g1",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6uKar9g1",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-03-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064D2994767A0",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fort-worth-texas-03-06-2027/event/0C0064D2994767A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fort-worth-texas-03-06-2027/event/0C0064D2994767A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064D2994767A0",
+        "discovery_event_id": "vvG1YZ_u1_oUrO",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fort-worth-texas-03-06-2027/event/0C0064D2994767A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_u1_oUrO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-austin-g5diz_u3mkhzt",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-03-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064D4B74DB03F",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064D4B74DB03F",
+        "discovery_event_id": "G5dIZ_u3MKhZT",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_u3MKhZT",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-tampa-vvg1vz_uc-buha",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-03-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064D3A1EB66C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-tampa-florida-03-10-2027/event/0D0064D3A1EB66C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-tampa-florida-03-10-2027/event/0D0064D3A1EB66C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064D3A1EB66C9",
+        "discovery_event_id": "vvG1VZ_uC-BUha",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-tampa-florida-03-10-2027/event/0D0064D3A1EB66C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_uC-BUha",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-miami-vvg1vz_uk8ovtf",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064D190834A54",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-03-12-2027/event/0D0064D190834A54",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-03-12-2027/event/0D0064D190834A54",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064D190834A54",
+        "discovery_event_id": "vvG1VZ_uk8OVtf",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-03-12-2027/event/0D0064D190834A54",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_uk8OVtf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-orlando-17fov0g6u6m7kw6",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar \"The Last King World Tour\"",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-03-15T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064D1F7106C87",
+    "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-03-14-2027/event/220064D1F7106C87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-03-14-2027/event/220064D1F7106C87",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064D1F7106C87",
+        "discovery_event_id": "17FOv0G6u6M7kw6",
+        "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-03-14-2027/event/220064D1F7106C87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G6u6M7kw6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-don-omar-2027-berlin-z698xzc2z16v4ogoca",
+    "artist_slug": "don-omar",
+    "artist_name": "Don Omar",
+    "event_name": "Don Omar - The Last King World To | Box seat in the Ticketmaster Suite",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-06-28T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1551311385",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1551311385",
+        "discovery_event_id": "Z698xZC2Z16v4oGoCA",
+        "url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v4oGoCA",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  }
+]

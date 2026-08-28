@@ -1,0 +1,1804 @@
+[
+  {
+    "id": "tm-trivium-2026-st-petersburg-vvg1vz_cbh66cw",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "St Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2026-11-05T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064EE9B1C73B2",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-st-petersburg-florida-11-05-2026/event/0D0064EE9B1C73B2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-st-petersburg-florida-11-05-2026/event/0D0064EE9B1C73B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064EE9B1C73B2",
+        "discovery_event_id": "vvG1VZ_CBh66Cw",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-st-petersburg-florida-11-05-2026/event/0D0064EE9B1C73B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_CBh66Cw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-atlanta-z7r9jz1aazdby",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2026-11-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbY",
+        "discovery_event_id": "Z7r9jZ1AAZdbY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-louisville-z7r9jz1aazdbs",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "Old Foresters Paristown Hall",
+    "datetime_iso": "2026-11-07T23:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbs",
+        "discovery_event_id": "Z7r9jZ1AAZdbs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-grand-rapids-vvg1oz_cnishwh",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2026-11-08T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064E8ECCDBF7C",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-grand-rapids-michigan-11-08-2026/event/080064E8ECCDBF7C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-grand-rapids-michigan-11-08-2026/event/080064E8ECCDBF7C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064E8ECCDBF7C",
+        "discovery_event_id": "vvG1OZ_CNiShWH",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-grand-rapids-michigan-11-08-2026/event/080064E8ECCDBF7C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_CNiShWH",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2026-11-10T23:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064EAB5597C07",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064EAB5597C07",
+        "discovery_event_id": "17A8v0G6Cngp9Y6",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6Cngp9Y6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "New Haven",
+    "country": "United States Of America",
+    "venue": "College Street Music Hall",
+    "datetime_iso": "2026-11-11T23:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbw",
+        "discovery_event_id": "Z7r9jZ1AAZdbw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-new-york-z7r9jz1aazdbs",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Terminal 5",
+    "datetime_iso": "2026-11-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbS",
+        "discovery_event_id": "Z7r9jZ1AAZdbS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Franklin Music Hall",
+    "datetime_iso": "2026-11-14T23:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbV",
+        "discovery_event_id": "Z7r9jZ1AAZdbV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-worcester-z7r9jz1aazdbg",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Worcester",
+    "country": "United States Of America",
+    "venue": "Palladium-MA",
+    "datetime_iso": "2026-11-15T23:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbg",
+        "discovery_event_id": "Z7r9jZ1AAZdbg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-laval-17g8v0g6cubsshb",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Laval",
+    "country": "Canada",
+    "venue": "Place Bell",
+    "datetime_iso": "2026-11-17T23:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064ED98CF36FA",
+    "ticketmaster_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064ED98CF36FA",
+        "discovery_event_id": "17G8v0G6CUbSShB",
+        "url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G6CUbSShB",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-toronto-177zv0g62er1iat",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Theatre at Great Canadian Toronto",
+    "datetime_iso": "2026-11-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064F09E2A8269",
+    "ticketmaster_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064F09E2A8269",
+        "discovery_event_id": "177Zv0G62er1Iat",
+        "url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G62er1Iat",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-royal-oak-z7r9jz1aazdbu",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Royal Oak",
+    "country": "United States Of America",
+    "venue": "Royal Oak Music Theatre",
+    "datetime_iso": "2026-11-20T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbU",
+        "discovery_event_id": "Z7r9jZ1AAZdbU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-chicago-vvg18z_cnmg_i8",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2026-11-22T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064E8F7D59A10",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064E8F7D59A10",
+        "discovery_event_id": "vvG18Z_CNMg_I8",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_CNMg_I8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "The Sylvee",
+    "datetime_iso": "2026-11-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064EE89E21E1C",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064EE89E21E1C",
+        "discovery_event_id": "vvG1jZ_CBaz-zj",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_CBaz-zj",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-nashville-z7r9jz1aazdbm",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2026-11-25T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbM",
+        "discovery_event_id": "Z7r9jZ1AAZdbM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-saint-louis-17f8v0g6cy863b6",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2026-11-26T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "210064EE501D2E87",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "210064EE501D2E87",
+        "discovery_event_id": "17F8v0G6Cy863B6",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17F8v0G6Cy863B6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-houston-g5diz_cdfyhi_",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Bayou Music Center",
+    "datetime_iso": "2026-11-29T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064EEC8C1BA19",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064EEC8C1BA19",
+        "discovery_event_id": "G5dIZ_CDFYhI_",
+        "url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_CDFYhI_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2026-11-30T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064EED1FB8AA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064EED1FB8AA6",
+        "discovery_event_id": "vvG1YZ_CDoXznJ",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_CDoXznJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-phoenix-17k8v0g62douihb",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-12-03T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064F0E0368F3A",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064F0E0368F3A",
+        "discovery_event_id": "17k8v0G62dOuIHB",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G62dOuIHB",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2026-12-05T02:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064E9DDF7CB1C",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064E9DDF7CB1C",
+        "discovery_event_id": "vvG1IZ_CEqWHij",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_CEqWHij",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-san-francisco-g5vyz_2ejmndl",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2026-12-06T02:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064F09CBAA0EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-san-francisco-california-12-05-2026/event/1C0064F09CBAA0EB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-san-francisco-california-12-05-2026/event/1C0064F09CBAA0EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064F09CBAA0EB",
+        "discovery_event_id": "G5vYZ_2ejmndl",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-san-francisco-california-12-05-2026/event/1C0064F09CBAA0EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_2ejmndl",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-penticton-z7r9jz1aazdbz",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Penticton",
+    "country": "Canada",
+    "venue": "Penticton Trade and Convention Centre",
+    "datetime_iso": "2026-12-08T02:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdbz",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdbz",
+        "discovery_event_id": "Z7r9jZ1AAZdbz",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-vancouver-1778v0g626krqj1",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2026-12-09T01:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064F1C6BDA98A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-vancouver-british-columbia-12-08-2026/event/110064F1C6BDA98A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-vancouver-british-columbia-12-08-2026/event/110064F1C6BDA98A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064F1C6BDA98A",
+        "discovery_event_id": "1778v0G626kRQJ1",
+        "url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-vancouver-british-columbia-12-08-2026/event/110064F1C6BDA98A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G626kRQJ1",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-seattle-vvg1hz_2dp1x5t",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2026-12-10T02:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064F0E52BE2E9",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-seattle-washington-12-09-2026/event/0F0064F0E52BE2E9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-seattle-washington-12-09-2026/event/0F0064F0E52BE2E9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064F0E52BE2E9",
+        "discovery_event_id": "vvG1HZ_2dP1X5t",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-seattle-washington-12-09-2026/event/0F0064F0E52BE2E9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_2dP1X5t",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-reno-17ayv0g6cnaivry",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Reno",
+    "country": "United States Of America",
+    "venue": "Grand Sierra Resort and Casino",
+    "datetime_iso": "2026-12-12T02:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E8C9A01BF9",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-reno-nevada-12-11-2026/event/170064E8C9A01BF9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-reno-nevada-12-11-2026/event/170064E8C9A01BF9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E8C9A01BF9",
+        "discovery_event_id": "17AYv0G6CNaIvRy",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-reno-nevada-12-11-2026/event/170064E8C9A01BF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6CNaIvRy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-denver-z7r9jz1aazdby",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2026-12-14T01:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdby",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdby",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdby",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdby",
+        "discovery_event_id": "Z7r9jZ1AAZdby",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdby",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdby",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Tulsa Theater",
+    "datetime_iso": "2026-12-16T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZd_Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_Z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZd_Z",
+        "discovery_event_id": "Z7r9jZ1AAZd_Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZd_Z",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-omaha-17fzv0g6cxxpndr",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Steelhouse Omaha",
+    "datetime_iso": "2026-12-17T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200064EFBE5A30EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-omaha-nebraska-12-16-2026/event/200064EFBE5A30EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-omaha-nebraska-12-16-2026/event/200064EFBE5A30EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200064EFBE5A30EF",
+        "discovery_event_id": "17FZv0G6CXXpNdR",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-omaha-nebraska-12-16-2026/event/200064EFBE5A30EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FZv0G6CXXpNdR",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2026-12-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064EE77742BD3",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-pittsburgh-pennsylvania-12-18-2026/event/160064EE77742BD3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-pittsburgh-pennsylvania-12-18-2026/event/160064EE77742BD3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064EE77742BD3",
+        "discovery_event_id": "17AOv0G6CyMqeRK",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-pittsburgh-pennsylvania-12-18-2026/event/160064EE77742BD3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G6CyMqeRK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-charlotte-g5evz_cufmier",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "TRIVIUM: CROWN IN THE GRAVE WORLD TOUR",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2026-12-19T23:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064ED94BA89EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064ED94BA89EF",
+        "discovery_event_id": "G5eVZ_CUfmIER",
+        "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_CUfmIER",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2027-glasgow-1auzkfpgken_hpc",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-03-31T16:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006516A365B96D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-glasgow-31-03-2027/event/36006516A365B96D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/trivium-glasgow-31-03-2027/event/36006516A365B96D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006516A365B96D",
+        "discovery_event_id": "1AUZkfpGkeN_hPc",
+        "url": "https://www.ticketmaster.co.uk/trivium-glasgow-31-03-2027/event/36006516A365B96D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfpGkeN_hPc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2027-manchester-1amzkffgkdkmgfp",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-02T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006514C6DCC225",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-manchester-02-04-2027/event/37006514C6DCC225",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/trivium-manchester-02-04-2027/event/37006514C6DCC225",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006514C6DCC225",
+        "discovery_event_id": "1AMZkffGkdkMGFP",
+        "url": "https://www.ticketmaster.co.uk/trivium-manchester-02-04-2027/event/37006514C6DCC225",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkffGkdkMGFP",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2027-london-g5vhz_o63ceuv",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Alexandra Palace",
+    "datetime_iso": "2027-04-03T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006511D23A7DB4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-london-03-04-2027/event/1F006511D23A7DB4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/trivium-london-03-04-2027/event/1F006511D23A7DB4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006511D23A7DB4",
+        "discovery_event_id": "G5vHZ_o63CEUV",
+        "url": "https://www.ticketmaster.co.uk/trivium-london-03-04-2027/event/1F006511D23A7DB4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_o63CEUV",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2027-cardiff-1kuovpa6gacrw-h",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2027-04-04T16:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360065147E7B287C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-cardiff-04-04-2027/event/360065147E7B287C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/trivium-cardiff-04-04-2027/event/360065147E7B287C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360065147E7B287C",
+        "discovery_event_id": "1kuOvPA6GACrw-H",
+        "url": "https://www.ticketmaster.co.uk/trivium-cardiff-04-04-2027/event/360065147E7B287C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kuOvPA6GACrw-H",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

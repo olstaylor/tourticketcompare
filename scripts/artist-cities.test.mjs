@@ -76,6 +76,14 @@ function ev(overrides) {
   assert(deriveIndexableArtistCities(events, ["test-artist"], opts).length === 0, "and never enters the indexable/sitemap set");
 }
 
+// Event timezone must survive the projection used by the artist-city prose.
+// This keeps the summary in the venue's local date rather than falling back to UTC.
+{
+  const events = [ev({ id: "timezone-1", datetime_iso: "2026-08-29T01:00:00Z", timezone: "America/Chicago" })];
+  const city = deriveArtistCities(events, "test-artist", opts)[0];
+  assert(city.shows[0].timezone === "America/Chicago", "artist-city shows preserve the event timezone");
+}
+
 // --- Multiple events, same venue: multi-night run, indexable ----------------
 {
   const events = [

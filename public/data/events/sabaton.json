@@ -435,7 +435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-Oqe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Oqe",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Oqe",
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17726761,
+        "url": "https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

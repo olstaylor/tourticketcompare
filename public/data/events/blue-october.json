@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0N",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/abilene-texas-paramount-theatre-abilene-2026-10-22-7-pm/concert/18147861",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0N",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147861,
+        "url": "https://seatgeek.com/blue-october-tickets/abilene-texas-paramount-theatre-abilene-2026-10-22-7-pm/concert/18147861",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70v8t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8t",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/lubbock-texas-the-buddy-holly-hall-helen-devitt-jones-theater-2026-10-23-7-pm/concert/18147862",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8t",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147862,
+        "url": "https://seatgeek.com/blue-october-tickets/lubbock-texas-the-buddy-holly-hall-helen-devitt-jones-theater-2026-10-23-7-pm/concert/18147862",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/tulsa-oklahoma-tulsa-theater-2026-10-24-7-pm/concert/18147863",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0_",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147863,
+        "url": "https://seatgeek.com/blue-october-tickets/tulsa-oklahoma-tulsa-theater-2026-10-24-7-pm/concert/18147863",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -170,7 +170,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0p",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/wichita-kansas-orpheum-theatre-wichita-2026-10-25-7-pm/concert/18147864",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0p",
@@ -186,11 +186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147864,
+        "url": "https://seatgeek.com/blue-october-tickets/wichita-kansas-orpheum-theatre-wichita-2026-10-25-7-pm/concert/18147864",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -223,7 +223,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V04",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V04",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/milwaukee-wisconsin-pabst-theater-2026-10-28-7-pm/concert/18147865",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V04",
@@ -239,11 +239,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147865,
+        "url": "https://seatgeek.com/blue-october-tickets/milwaukee-wisconsin-pabst-theater-2026-10-28-7-pm/concert/18147865",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -594,7 +594,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0O",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/albany-new-york-hart-theatre-at-the-egg-2026-11-06-7-pm/concert/18147866",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0O",
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147866,
+        "url": "https://seatgeek.com/blue-october-tickets/albany-new-york-hart-theatre-at-the-egg-2026-11-06-7-pm/concert/18147866",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -647,7 +647,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-z0p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-z0p",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/cleveland-ohio-agora-theatre-2026-11-07-7-pm/concert/18147873",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-z0p",
@@ -663,11 +663,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147873,
+        "url": "https://seatgeek.com/blue-october-tickets/cleveland-ohio-agora-theatre-2026-11-07-7-pm/concert/18147873",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -753,7 +753,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZwby",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwby",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/north-tonawanda-new-york-riviera-theatre-north-tonawanda-2026-11-11-7-pm/concert/18147874",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwby",
@@ -769,11 +769,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147874,
+        "url": "https://seatgeek.com/blue-october-tickets/north-tonawanda-new-york-riviera-theatre-north-tonawanda-2026-11-11-7-pm/concert/18147874",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1071,7 +1071,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V03",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V03",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/jacksonville-florida-five-jacksonville-2026-11-19-7-pm/concert/18147875",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V03",
@@ -1087,11 +1087,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147875,
+        "url": "https://seatgeek.com/blue-october-tickets/jacksonville-florida-five-jacksonville-2026-11-19-7-pm/concert/18147875",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1124,7 +1124,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0f",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/clearwater-florida-ruth-eckerd-hall-2026-11-20-7-pm/concert/18147876",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0f",
@@ -1140,11 +1140,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147876,
+        "url": "https://seatgeek.com/blue-october-tickets/clearwater-florida-ruth-eckerd-hall-2026-11-20-7-pm/concert/18147876",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1442,7 +1442,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xk4-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xk4-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/kansas-city-missouri-the-midland-theatre-mo-2026-12-03-7-pm/concert/18147878",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xk4-",
@@ -1458,11 +1458,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147878,
+        "url": "https://seatgeek.com/blue-october-tickets/kansas-city-missouri-the-midland-theatre-mo-2026-12-03-7-pm/concert/18147878",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1707,7 +1707,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0K",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0K",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/austin-texas-bass-concert-hall-2026-12-11-7-pm/concert/18147885",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0K",
@@ -1723,11 +1723,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147885,
+        "url": "https://seatgeek.com/blue-october-tickets/austin-texas-bass-concert-hall-2026-12-11-7-pm/concert/18147885",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2025,7 +2025,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70PJo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PJo",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/midland-texas-wagner-noel-performing-arts-center-2027-01-29-8-pm/concert/18354266",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PJo",
@@ -2041,11 +2041,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18354266,
+        "url": "https://seatgeek.com/blue-october-tickets/midland-texas-wagner-noel-performing-arts-center-2027-01-29-8-pm/concert/18354266",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2396,7 +2396,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70_f7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_f7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2027-02-10-8-pm/concert/18245801",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_f7",
@@ -2412,11 +2412,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18245801,
+        "url": "https://seatgeek.com/blue-october-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2027-02-10-8-pm/concert/18245801",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3191,7 +3191,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70_-g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-g",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/denver-colorado-mission-ballroom-2027-03-06-8-pm/concert/18262264",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-g",
@@ -3207,11 +3207,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18262264,
+        "url": "https://seatgeek.com/blue-october-tickets/denver-colorado-mission-ballroom-2027-03-06-8-pm/concert/18262264",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3244,7 +3244,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70_P7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_P7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-07-8-pm/concert/18306113",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_P7",
@@ -3260,11 +3260,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18306113,
+        "url": "https://seatgeek.com/blue-october-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-07-8-pm/concert/18306113",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3297,7 +3297,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70_-s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-s",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/chicago-illinois-riviera-theatre-chicago-2027-03-11-8-pm/concert/18343763",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-s",
@@ -3313,11 +3313,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18343763,
+        "url": "https://seatgeek.com/blue-october-tickets/chicago-illinois-riviera-theatre-chicago-2027-03-11-8-pm/concert/18343763",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

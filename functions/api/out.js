@@ -1392,6 +1392,29 @@ function extractImpactTrackingUrl(payload) {
   );
 }
 
+function impactTrackingUrlDiagnostics(value, provider = "") {
+  const raw = clean(value, 2048);
+  const providerConfig = PROVIDERS[providerKey(provider)];
+  let parsed = null;
+  try {
+    parsed = raw ? new URL(raw) : null;
+  } catch (error) {
+    parsed = null;
+  }
+  const host = parsed?.hostname?.toLowerCase() || "";
+  return {
+    present: Boolean(raw),
+    length: raw.length,
+    protocol: parsed?.protocol || "",
+    host,
+    providerHostAllowed: Boolean(
+      host && providerConfig && hostnameAllowed(host, providerConfig.allowedDestinationHosts)
+    ),
+    affiliateHostAllowed: Boolean(host && isAffiliateTrackingHost(host)),
+    safeUrl: Boolean(safeUrl(raw))
+  };
+}
+
 async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketmaster") {
   const normalizedProvider = providerKey(provider || "ticketmaster");
   const config = impactConfig(env, normalizedProvider);
@@ -1487,6 +1510,7 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
         impactConfigPresent: config.configured,
         impactStatusCode: response.status,
         impactResponseFieldNames,
+        trackingUrlDiagnostics: impactTrackingUrlDiagnostics(rawTrackingUrl, normalizedProvider),
         endpointDiagnostics
       };
     }
@@ -1738,6 +1762,9 @@ function impactFailurePayload(provider, resolved, result, config) {
   }
   if (result.impactResponseMessage) {
     payload.impactResponseMessage = result.impactResponseMessage;
+  }
+  if (result.trackingUrlDiagnostics) {
+    payload.impactTrackingUrl = result.trackingUrlDiagnostics;
   }
   if (result.endpointDiagnostics) {
     payload.impactEndpoint = result.endpointDiagnostics;

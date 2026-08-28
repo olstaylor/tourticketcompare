@@ -164,7 +164,8 @@ export const AFFILIATE_NETWORK_HOST_SUFFIXES = Object.freeze([
   "evyy.net",
   "sjv.io",
   "impactradius.com",
-  "goto.ticketnetwork.com"
+  "goto.ticketnetwork.com",
+  "auhm.net"
 ]);
 
 export function isAffiliateTrackingHost(destinationHost) {

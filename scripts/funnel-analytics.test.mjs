@@ -850,6 +850,14 @@ await test("GA4 mirrors funnel events without high-cardinality or personal param
   );
 });
 
+await test("GA4 destination is configured before queued application events without duplicating page views", async () => {
+  const indexHtml = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  const configAt = indexHtml.indexOf("gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': false});");
+  const initAt = indexHtml.indexOf("dataLayer.push({'event': 'ttc_google_tag_init'});");
+  assert.ok(configAt > -1, "the GA4 destination must be explicit before GTM loads the queued events");
+  assert.ok(initAt > configAt, "the destination config must precede the GTM initialization event");
+});
+
 await test("CTA impressions observe every button, not just the first in the document", async () => {
   const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
   // A deep link to #show-<id> opens the page part-way down the board, where a

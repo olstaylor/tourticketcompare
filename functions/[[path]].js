@@ -120,7 +120,7 @@ const SECURITY_HEADERS = {
   // contents change (see scripts/smoke-prelaunch.mjs EXPECTED_CSP). frame-src is scoped to
   // the GTM container host for the noscript fallback frame — nothing else may be framed.
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-h4/dv8oTX8DF20ax93ks0qqz+bu667aUp4P8DLmzWiU=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
   // same-origin, not no-referrer: cross-origin requests still send nothing, so
   // no provider, analytics vendor or affiliate network ever learns which page a
   // visitor came from. What changes is that our own /api/out redirect finally

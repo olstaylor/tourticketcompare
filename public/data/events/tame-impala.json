@@ -1498,11 +1498,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8231212",
+        "url": "https://www.ticketnetwork.com/en/p/8231212",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkf4GkeMYn8u",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231212"
   },
   {
     "id": "tm-tame-impala-2027-manchester-1amzkf_gkdr-2ec",
@@ -1551,11 +1559,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8237407",
+        "url": "https://www.ticketnetwork.com/en/p/8237407",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkf_Gkdr-2Ec",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237407"
   },
   {
     "id": "tm-tame-impala-2027-london-16dfz_ofpg7t8j2",

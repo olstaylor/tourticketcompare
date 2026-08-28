@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "350064B6E20A5DEF",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-nottingham-04-02-2027/event/350064B6E20A5DEF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-nottingham-motorpoint-arena---nottingham-2-4-2027/production/7114101",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-nottingham-04-02-2027/event/350064B6E20A5DEF",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7114101,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-nottingham-motorpoint-arena---nottingham-2-4-2027/production/7114101",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "350064B6CBC04ED6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-london-05-02-2027/event/350064B6CBC04ED6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-london-the-o2---london-2-5-2027/production/7096146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-london-05-02-2027/event/350064B6CBC04ED6",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7096146,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-london-the-o2---london-2-5-2027/production/7096146",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "360064B691728A06",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-glasgow-10-02-2027/event/360064B691728A06",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-glasgow-ovo-hydro-2-10-2027/production/7096154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-glasgow-10-02-2027/event/360064B691728A06",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7096154,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-glasgow-ovo-hydro-2-10-2027/production/7096154",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "370064B6E02347A6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-manchester-12-02-2027/event/370064B6E02347A6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-manchester-co-op-live-2-12-2027--concerts-alternative/production/7079257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-manchester-12-02-2027/event/370064B6E02347A6",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079257,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-manchester-co-op-live-2-12-2027--concerts-alternative/production/7079257",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "230064B6D5491DBE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-birmingham-13-02-2027/event/230064B6D5491DBE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-2-13-2027/production/7096158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-birmingham-13-02-2027/event/230064B6D5491DBE",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7096158,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-2-13-2027/production/7096158",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "110064B5BA4388A6",
     "ticketmaster_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-vancouver-british-columbia-03-30-2027/event/110064B5BA4388A6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-30-2027/production/7078839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-vancouver-british-columbia-03-30-2027/event/110064B5BA4388A6",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078839,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-30-2027/production/7078839",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "0F0064B5DDDB0C0D",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-seattle-washington-03-31-2027/event/0F0064B5DDDB0C0D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-seattle-paramount-theatre-seattle-3-31-2027/production/7078867",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-seattle-washington-03-31-2027/event/0F0064B5DDDB0C0D",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078867,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-seattle-paramount-theatre-seattle-3-31-2027/production/7078867",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70gfM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gfM",
     "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-01-8-pm/concert/18266341",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-portland-mcmenamins-crystal-ballroom-4-1-2027/production/7079084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gfM",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079084,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-portland-mcmenamins-crystal-ballroom-4-1-2027/production/7079084",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "1C0064B4F1E3F09A",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-oakland-california-04-03-2027/event/1C0064B4F1E3F09A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-oakland-fox-theater-oakland-4-3-2027/production/7078822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-oakland-california-04-03-2027/event/1C0064B4F1E3F09A",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078822,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-oakland-fox-theater-oakland-4-3-2027/production/7078822",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "090064B61FAB46C9",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-hollywood-california-04-04-2027/event/090064B61FAB46C9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-los-angeles-hollywood-palladium-4-4-2027/production/7078830",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-hollywood-california-04-04-2027/event/090064B61FAB46C9",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078830,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-los-angeles-hollywood-palladium-4-4-2027/production/7078830",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "190064B5C9A084A3",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-phoenix-the-van-buren-4-7-2027/production/7078824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078824,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-phoenix-the-van-buren-4-7-2027/production/7078824",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70g46",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70g46",
     "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/denver-colorado-mission-ballroom-2027-04-09-8-pm/concert/18266350",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-denver-mission-ballroom-4-9-2027/production/7078869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70g46",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078869,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-denver-mission-ballroom-4-9-2027/production/7078869",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "080064B6B7087DE8",
     "ticketmaster_url": "https://www.ticketmaster.com/wdzh-presents-nothing-but-thieves-the-detroit-michigan-04-13-2027/event/080064B6B7087DE8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-detroit-the-fillmore-detroit-4-13-2027/production/7078820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wdzh-presents-nothing-but-thieves-the-detroit-michigan-04-13-2027/event/080064B6B7087DE8",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078820,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-detroit-the-fillmore-detroit-4-13-2027/production/7078820",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "020064B694BB806C",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-philadelphia-the-fillmore-philadelphia-4-16-2027/production/7078845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078845,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-philadelphia-the-fillmore-philadelphia-4-16-2027/production/7078845",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "000064B6B86ED7C4",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-brooklyn-new-york-04-17-2027/event/000064B6B86ED7C4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-brooklyn-brooklyn-paramount-4-17-2027/production/7078849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-brooklyn-new-york-04-17-2027/event/000064B6B86ED7C4",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078849,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-brooklyn-brooklyn-paramount-4-17-2027/production/7078849",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "010064B6AFBE085C",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-boston-massachusetts-04-19-2027/event/010064B6AFBE085C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-boston-citizens-house-of-blues-boston-4-19-2027/production/7078828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-boston-massachusetts-04-19-2027/event/010064B6AFBE085C",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078828,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-boston-citizens-house-of-blues-boston-4-19-2027/production/7078828",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "310064B6991A5982",
     "ticketmaster_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-montreal-quebec-04-20-2027/event/310064B6991A5982",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/production/7078855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-montreal-quebec-04-20-2027/event/310064B6991A5982",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078855,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/production/7078855",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1337,7 +1337,7 @@
     "ticketmaster_event_id": "100064B6B65D232B",
     "ticketmaster_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-toronto-ontario-04-21-2027/event/100064B6B65D232B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-toronto-massey-hall---allied-music-centre-4-21-2027/production/7078826",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-toronto-ontario-04-21-2027/event/100064B6B65D232B",
     "last_verified_at": null,
@@ -1359,11 +1359,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7078826,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-toronto-massey-hall---allied-music-centre-4-21-2027/production/7078826",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

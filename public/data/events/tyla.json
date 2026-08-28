@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3E0064F5DC4E1EC6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-15-10-2026/event/3E0064F5DC4E1EC6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-london-o2-academy-brixton-10-15-2026--concerts-pop/production/7347472",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-15-10-2026/event/3E0064F5DC4E1EC6",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347472,
+        "url": "https://www.vividseats.com/tyla-tickets-london-o2-academy-brixton-10-15-2026--concerts-pop/production/7347472",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "3E0064F5E6C62096",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-16-10-2026/event/3E0064F5E6C62096",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-london-o2-academy-brixton-10-16-2026/production/7382878",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-16-10-2026/event/3E0064F5E6C62096",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7382878,
+        "url": "https://www.vividseats.com/tyla-tickets-london-o2-academy-brixton-10-16-2026/production/7382878",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "3E0064F098C018F0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-glasgow-18-10-2026/event/3E0064F098C018F0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-glasgow-o2-academy-glasgow-10-18-2026--concerts-pop/production/7347474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-glasgow-18-10-2026/event/3E0064F098C018F0",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347474,
+        "url": "https://www.vividseats.com/tyla-tickets-glasgow-o2-academy-glasgow-10-18-2026--concerts-pop/production/7347474",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "360064F4CAAAA6E0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-manchester-19-10-2026/event/360064F4CAAAA6E0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-manchester-o2-apollo-manchester-10-19-2026--concerts-pop/production/7347476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-manchester-19-10-2026/event/360064F4CAAAA6E0",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347476,
+        "url": "https://www.vividseats.com/tyla-tickets-manchester-o2-apollo-manchester-10-19-2026--concerts-pop/production/7347476",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1755726323",
     "ticketmaster_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1755726323?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-dusseldorf-mitsubishi-electric-halle-10-24-2026--concerts-pop/production/7347482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1755726323?language=en-us",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347482,
+        "url": "https://www.vividseats.com/tyla-tickets-dusseldorf-mitsubishi-electric-halle-10-24-2026--concerts-pop/production/7347482",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "1C0064F528DDDB2A",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-san-francisco-bill-graham-civic-auditorium-11-13-2026--concerts-pop/production/7347435",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347435,
+        "url": "https://www.vividseats.com/tyla-tickets-san-francisco-bill-graham-civic-auditorium-11-13-2026--concerts-pop/production/7347435",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "110064F6FEA517B5",
     "ticketmaster_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-15-2026--concerts-pop/production/7347496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347496,
+        "url": "https://www.vividseats.com/tyla-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-15-2026--concerts-pop/production/7347496",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "0F0064F74C015417",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-seattle-wamu-theater---seattle-11-17-2026--concerts-pop/production/7347437",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347437,
+        "url": "https://www.vividseats.com/tyla-tickets-seattle-wamu-theater---seattle-11-17-2026--concerts-pop/production/7347437",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "1E0064F6BBFECD61",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-denver-fillmore-auditorium-denver-11-20-2026--concerts-pop/production/7347439",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347439,
+        "url": "https://www.vividseats.com/tyla-tickets-denver-fillmore-auditorium-denver-11-20-2026--concerts-pop/production/7347439",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "040064F44411D736",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-chicago-aragon-ballroom-11-22-2026--concerts-pop/production/7347441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347441,
+        "url": "https://www.vividseats.com/tyla-tickets-chicago-aragon-ballroom-11-22-2026--concerts-pop/production/7347441",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "010064F598ACEA3D",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-boston-mgm-music-hall-at-fenway-11-25-2026--concerts-pop/production/7347443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347443,
+        "url": "https://www.vividseats.com/tyla-tickets-boston-mgm-music-hall-at-fenway-11-25-2026--concerts-pop/production/7347443",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "100064F5D5533790",
     "ticketmaster_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-toronto-coca-cola-coliseum-11-26-2026--concerts-pop/production/7347498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347498,
+        "url": "https://www.vividseats.com/tyla-tickets-toronto-coca-cola-coliseum-11-26-2026--concerts-pop/production/7347498",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "000064F8AC686C8B",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-28-2026--concerts-pop/production/7347445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347445,
+        "url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-28-2026--concerts-pop/production/7347445",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "000064F8AC6B6CA0",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-29-2026--concerts-pop/production/7367910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7367910,
+        "url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-29-2026--concerts-pop/production/7367910",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "150064F1C4C841AD",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-washington-dc-the-anthem-12-2-2026--concerts-pop/production/7347447",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347447,
+        "url": "https://www.vividseats.com/tyla-tickets-washington-dc-the-anthem-12-2-2026--concerts-pop/production/7347447",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "0D0064F8A77562E6",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-tampa-florida-12-05-2026/event/0D0064F8A77562E6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-tampa-yuengling-center-12-5-2026--concerts-pop/production/7347449",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-tampa-florida-12-05-2026/event/0D0064F8A77562E6",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347449,
+        "url": "https://www.vividseats.com/tyla-tickets-tampa-yuengling-center-12-5-2026--concerts-pop/production/7347449",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "0E0064F8A3057D42",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-atlanta-coca-cola-roxy-theatre-12-6-2026--concerts-pop/production/7347451",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347451,
+        "url": "https://www.vividseats.com/tyla-tickets-atlanta-coca-cola-roxy-theatre-12-6-2026--concerts-pop/production/7347451",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "0C0064F6DB45AFBE",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-irving-pavilion-at-toyota-music-factory-12-9-2026--concerts-pop/production/7347453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347453,
+        "url": "https://www.vividseats.com/tyla-tickets-irving-pavilion-at-toyota-music-factory-12-9-2026--concerts-pop/production/7347453",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "3A0064F6AF9FD0D3",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-houston-texas-12-10-2026/event/3A0064F6AF9FD0D3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-houston-713-music-hall-12-10-2026--concerts-pop/production/7347456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-houston-texas-12-10-2026/event/3A0064F6AF9FD0D3",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347456,
+        "url": "https://www.vividseats.com/tyla-tickets-houston-713-music-hall-12-10-2026--concerts-pop/production/7347456",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "3A0064F8A6F0F07A",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-austin-moody-center-atx-12-11-2026--concerts-pop/production/7347458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347458,
+        "url": "https://www.vividseats.com/tyla-tickets-austin-moody-center-atx-12-11-2026--concerts-pop/production/7347458",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "190064F7DC208863",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347462,
+        "url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1337,7 +1337,7 @@
     "ticketmaster_event_id": "0A0064E99D9E6DC8",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-inglewood-california-12-16-2026/event/0A0064E99D9E6DC8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-inglewood-youtube-theater-12-16-2026--concerts-pop/production/7347466",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-inglewood-california-12-16-2026/event/0A0064E99D9E6DC8",
     "last_verified_at": null,
@@ -1359,11 +1359,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347466,
+        "url": "https://www.vividseats.com/tyla-tickets-inglewood-youtube-theater-12-16-2026--concerts-pop/production/7347466",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1390,7 +1390,7 @@
     "ticketmaster_event_id": "170064F5EA2217B2",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-las-vegas-fontainebleau-las-vegas-12-19-2026--concerts-pop/production/7347468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
     "last_verified_at": null,
@@ -1412,11 +1412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7347468,
+        "url": "https://www.vividseats.com/tyla-tickets-las-vegas-fontainebleau-las-vegas-12-19-2026--concerts-pop/production/7347468",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

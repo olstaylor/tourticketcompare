@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "020064AED37B1732",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-reading-pennsylvania-09-25-2026/event/020064AED37B1732",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-reading-santander-arena-9-25-2026/production/7047157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-reading-pennsylvania-09-25-2026/event/020064AED37B1732",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047157,
+        "url": "https://www.vividseats.com/don-omar-tickets-reading-santander-arena-9-25-2026/production/7047157",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "010064AC9C6EDAB2",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-boston-massachusetts-09-26-2026/event/010064AC9C6EDAB2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-boston-td-garden-9-26-2026/production/7047434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-boston-massachusetts-09-26-2026/event/010064AC9C6EDAB2",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047434,
+        "url": "https://www.vividseats.com/don-omar-tickets-boston-td-garden-9-26-2026/production/7047434",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70EOA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOA",
     "seatgeek_url": "https://seatgeek.com/don-omar-tickets/hartford-connecticut-peoplesbank-arena-2026-09-27-8-pm/concert/18250875",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-hartford-peoplesbank-arena-9-27-2026/production/7047707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOA",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047707,
+        "url": "https://www.vividseats.com/don-omar-tickets-hartford-peoplesbank-arena-9-27-2026/production/7047707",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0C0064AED9F2BAC1",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-dallas-texas-10-01-2026/event/0C0064AED9F2BAC1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-dallas-american-airlines-center---tx-10-1-2026/production/7047015",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-dallas-texas-10-01-2026/event/0C0064AED9F2BAC1",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047015,
+        "url": "https://www.vividseats.com/don-omar-tickets-dallas-american-airlines-center---tx-10-1-2026/production/7047015",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "220064AFC0FEC76F",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-10-03-2026/event/220064AFC0FEC76F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-orlando-kia-center-10-3-2026/production/7047021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-10-03-2026/event/220064AFC0FEC76F",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047021,
+        "url": "https://www.vividseats.com/don-omar-tickets-orlando-kia-center-10-3-2026/production/7047021",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "0D0064ADD895DB42",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-10-04-2026/event/0D0064ADD895DB42",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-miami-kaseya-center-10-4-2026/production/7047142",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-10-04-2026/event/0D0064ADD895DB42",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047142,
+        "url": "https://www.vividseats.com/don-omar-tickets-miami-kaseya-center-10-4-2026/production/7047142",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "040064AEBC3AAD08",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-10-08-2026/event/040064AEBC3AAD08",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-10-8-2026/production/7047200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-10-08-2026/event/040064AEBC3AAD08",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047200,
+        "url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-10-8-2026/production/7047200",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "300064AEEBA098CF",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-brooklyn-new-york-10-10-2026/event/300064AEEBA098CF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-brooklyn-barclays-center-10-10-2026/production/7047239",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-brooklyn-new-york-10-10-2026/event/300064AEEBA098CF",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047239,
+        "url": "https://www.vividseats.com/don-omar-tickets-brooklyn-barclays-center-10-10-2026/production/7047239",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "020064AFC631FC7B",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-10-11-2026/event/020064AFC631FC7B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-newark-prudential-center-10-11-2026/production/7047436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-10-11-2026/event/020064AFC631FC7B",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047436,
+        "url": "https://www.vividseats.com/don-omar-tickets-newark-prudential-center-10-11-2026/production/7047436",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "2D0064AED07FC966",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-charlotte-spectrum-center-10-14-2026/production/7047276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047276,
+        "url": "https://www.vividseats.com/don-omar-tickets-charlotte-spectrum-center-10-14-2026/production/7047276",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "150064ACBAA985FA",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-washington-district-of-columbia-10-15-2026/event/150064ACBAA985FA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-washington-capital-one-arena-10-15-2026/production/7047566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-washington-district-of-columbia-10-15-2026/event/150064ACBAA985FA",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047566,
+        "url": "https://www.vividseats.com/don-omar-tickets-washington-capital-one-arena-10-15-2026/production/7047566",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "0E0064ADAA09F167",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-atlanta-georgia-10-17-2026/event/0E0064ADAA09F167",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-atlanta-state-farm-arena-10-17-2026/production/7047576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-atlanta-georgia-10-17-2026/event/0E0064ADAA09F167",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047576,
+        "url": "https://www.vividseats.com/don-omar-tickets-atlanta-state-farm-arena-10-17-2026/production/7047576",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "3A0064AECC40D7EA",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-san-antonio-frost-bank-center-10-22-2026--concerts-world-music/production/7049058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049058,
+        "url": "https://www.vividseats.com/don-omar-tickets-san-antonio-frost-bank-center-10-22-2026--concerts-world-music/production/7049058",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70E_w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_w",
     "seatgeek_url": "https://seatgeek.com/don-omar-tickets/houston-texas-toyota-center-2026-10-23-8-pm/concert/18257187",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-houston-toyota-center---tx-10-23-2026/production/7048010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_w",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7048010,
+        "url": "https://www.vividseats.com/don-omar-tickets-houston-toyota-center---tx-10-23-2026/production/7048010",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "0C0064AF2532755E",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-el-paso-texas-10-25-2026/event/0C0064AF2532755E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-el-paso-don-haskins-center-10-25-2026/production/7047681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-el-paso-texas-10-25-2026/event/0C0064AF2532755E",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047681,
+        "url": "https://www.vividseats.com/don-omar-tickets-el-paso-don-haskins-center-10-25-2026/production/7047681",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "090064AFE55AB260",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-ontario-toyota-arena---ca-10-29-2026/production/7047716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047716,
+        "url": "https://www.vividseats.com/don-omar-tickets-ontario-toyota-arena---ca-10-29-2026/production/7047716",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70EqS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
     "seatgeek_url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-las-vegas-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-10-30-2026/production/7047951",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047951,
+        "url": "https://www.vividseats.com/don-omar-tickets-las-vegas-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-10-30-2026/production/7047951",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70EfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-salt-lake-city-delta-center-11-1-2026/production/7047578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047578,
+        "url": "https://www.vividseats.com/don-omar-tickets-salt-lake-city-delta-center-11-1-2026/production/7047578",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "090064B1D40799CD",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-11-06-2026/event/090064B1D40799CD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-inglewood-kia-forum-11-6-2026/production/7047724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-11-06-2026/event/090064B1D40799CD",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047724,
+        "url": "https://www.vividseats.com/don-omar-tickets-inglewood-kia-forum-11-6-2026/production/7047724",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "190064AFC8167E0A",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-phoenix-mortgage-matchup-center-11-8-2026/production/7047748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047748,
+        "url": "https://www.vividseats.com/don-omar-tickets-phoenix-mortgage-matchup-center-11-8-2026/production/7047748",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "1E0064D3DB77EEBF",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-denver-ball-arena-2-3-2027/production/7198540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198540,
+        "url": "https://www.vividseats.com/don-omar-tickets-denver-ball-arena-2-3-2027/production/7198540",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "1C0064D2B152E93A",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-sacramento-golden-1-center-2-5-2027/production/7198548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198548,
+        "url": "https://www.vividseats.com/don-omar-tickets-sacramento-golden-1-center-2-5-2027/production/7198548",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "0F0064D566E22386",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-seattle-climate-pledge-arena-2-7-2027/production/7198538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198538,
+        "url": "https://www.vividseats.com/don-omar-tickets-seattle-climate-pledge-arena-2-7-2027/production/7198538",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PgGY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgGY",
     "seatgeek_url": "https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-san-diego-pechanga-arena-2-10-2027/production/7198606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgGY",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198606,
+        "url": "https://www.vividseats.com/don-omar-tickets-san-diego-pechanga-arena-2-10-2027/production/7198606",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1337,7 +1337,7 @@
     "ticketmaster_event_id": "1C0064D2C6132CC4",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-fresno-save-mart-center-2-11-2027/production/7198544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
     "last_verified_at": null,
@@ -1359,11 +1359,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198544,
+        "url": "https://www.vividseats.com/don-omar-tickets-fresno-save-mart-center-2-11-2027/production/7198544",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1390,7 +1390,7 @@
     "ticketmaster_event_id": "090064D3C948DAD2",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-inglewood-intuit-dome-2-12-2027/production/7198550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
     "last_verified_at": null,
@@ -1412,11 +1412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198550,
+        "url": "https://www.vividseats.com/don-omar-tickets-inglewood-intuit-dome-2-12-2027/production/7198550",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1443,7 +1443,7 @@
     "ticketmaster_event_id": "100064D3C8F45ABA",
     "ticketmaster_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-toronto-ontario-02-17-2027/event/100064D3C8F45ABA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-toronto-scotiabank-arena-2-17-2027/production/7201125",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-toronto-ontario-02-17-2027/event/100064D3C8F45ABA",
     "last_verified_at": null,
@@ -1465,11 +1465,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7201125,
+        "url": "https://www.vividseats.com/don-omar-tickets-toronto-scotiabank-arena-2-17-2027/production/7201125",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1496,7 +1496,7 @@
     "ticketmaster_event_id": "310064D3BEFE88B9",
     "ticketmaster_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-montreal-bell-centre-2-21-2027/production/7198935",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9",
     "last_verified_at": null,
@@ -1518,11 +1518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198935,
+        "url": "https://www.vividseats.com/don-omar-tickets-montreal-bell-centre-2-21-2027/production/7198935",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1549,7 +1549,7 @@
     "ticketmaster_event_id": "040064D2F74DED5B",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-2-26-2027/production/7198546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
     "last_verified_at": null,
@@ -1571,11 +1571,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198546,
+        "url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-2-26-2027/production/7198546",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1602,7 +1602,7 @@
     "ticketmaster_event_id": "300064D28B372102",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-elmont-ubs-arena-2-28-2027/production/7198512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",
     "last_verified_at": null,
@@ -1624,11 +1624,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198512,
+        "url": "https://www.vividseats.com/don-omar-tickets-elmont-ubs-arena-2-28-2027/production/7198512",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1655,7 +1655,7 @@
     "ticketmaster_event_id": "020064D2FE182E30",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-newark-prudential-center-3-3-2027/production/7198530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
     "last_verified_at": null,
@@ -1677,11 +1677,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198530,
+        "url": "https://www.vividseats.com/don-omar-tickets-newark-prudential-center-3-3-2027/production/7198530",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1708,7 +1708,7 @@
     "ticketmaster_event_id": "150064D4C9797D4A",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-baltimore-cfg-bank-arena-3-4-2027/production/7198516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
     "last_verified_at": null,
@@ -1730,11 +1730,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198516,
+        "url": "https://www.vividseats.com/don-omar-tickets-baltimore-cfg-bank-arena-3-4-2027/production/7198516",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1761,7 +1761,7 @@
     "ticketmaster_event_id": "0C0064D2994767A0",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fort-worth-texas-03-06-2027/event/0C0064D2994767A0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-fort-worth-dickies-arena-3-6-2027/production/7198522",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fort-worth-texas-03-06-2027/event/0C0064D2994767A0",
     "last_verified_at": null,
@@ -1783,11 +1783,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198522,
+        "url": "https://www.vividseats.com/don-omar-tickets-fort-worth-dickies-arena-3-6-2027/production/7198522",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1814,7 +1814,7 @@
     "ticketmaster_event_id": "3A0064D4B74DB03F",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-austin-moody-center-atx-3-7-2027/production/7198526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
     "last_verified_at": null,
@@ -1836,11 +1836,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198526,
+        "url": "https://www.vividseats.com/don-omar-tickets-austin-moody-center-atx-3-7-2027/production/7198526",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1867,7 +1867,7 @@
     "ticketmaster_event_id": "0D0064D3A1EB66C9",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-tampa-florida-03-10-2027/event/0D0064D3A1EB66C9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-tampa-benchmark-international-arena-3-10-2027/production/7198528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-tampa-florida-03-10-2027/event/0D0064D3A1EB66C9",
     "last_verified_at": null,
@@ -1889,11 +1889,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198528,
+        "url": "https://www.vividseats.com/don-omar-tickets-tampa-benchmark-international-arena-3-10-2027/production/7198528",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1920,7 +1920,7 @@
     "ticketmaster_event_id": "0D0064D190834A54",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-03-12-2027/event/0D0064D190834A54",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-miami-kaseya-center-3-12-2027/production/7198520",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-03-12-2027/event/0D0064D190834A54",
     "last_verified_at": null,
@@ -1942,11 +1942,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198520,
+        "url": "https://www.vividseats.com/don-omar-tickets-miami-kaseya-center-3-12-2027/production/7198520",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1973,7 +1973,7 @@
     "ticketmaster_event_id": "220064D1F7106C87",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-03-14-2027/event/220064D1F7106C87",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-orlando-kia-center-3-14-2027/production/7198514",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-03-14-2027/event/220064D1F7106C87",
     "last_verified_at": null,
@@ -1995,11 +1995,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198514,
+        "url": "https://www.vividseats.com/don-omar-tickets-orlando-kia-center-3-14-2027/production/7198514",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2026,7 +2026,7 @@
     "ticketmaster_event_id": "1551311385",
     "ticketmaster_url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-berlin-uber-arena-6-28-2027/production/7428682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
     "last_verified_at": null,
@@ -2048,11 +2048,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7428682,
+        "url": "https://www.vividseats.com/don-omar-tickets-berlin-uber-arena-6-28-2027/production/7428682",
+        "verified": true,
+        "last_verified_at": "2026-08-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

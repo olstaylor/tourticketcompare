@@ -30,25 +30,25 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | SG verified | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|---|
-| beyonce | 2026-08-28 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| beyonce | 2026-08-29 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | harry-styles | 2026-04-30 | 39 | 30 | 30 | 0 | Together, Together | — |
 | bts | 2026-04-30 | 25 | 17 | 10 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
 | ariana-grande | 2026-04-30 | 41 | 17 | 5 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
-| bad-bunny | 2026-08-28 | 28 | 0 | 0 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
-| morgan-wallen | 2026-08-28 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
+| bad-bunny | 2026-08-29 | 28 | 0 | 0 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
+| morgan-wallen | 2026-08-29 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 7 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | Inglewood/London rows have blank `tour_name`, owner-accepted. |
 | olivia-rodrigo | 2026-05-27 | 84 | 59 | 59 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
 | bruno-mars | 2026-05-28 | 56 | 28 | 28 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
 | ed-sheeran | 2026-06-12 | 27 | 25 | 20 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
 | shakira | 2026-06-10 | 31 | 16 | 5 | **1** | Las Mujeres Ya No Lloran | Recheck row: the re-added "Shakira Stadium" Madrid row — CTA-suppressed. |
-| raye | 2026-08-28 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| raye | 2026-08-29 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | charli-xcx | 2026-06-18 | 11 | 11 | 11 | 0 | Music, Fashion, Film Tour | — |
-| tate-mcrae | 2026-08-28 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| tate-mcrae | 2026-08-29 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | summer-walker | 2026-06-11 | 13 | 7 | 1 | 0 | Still Finally Over It | Houston 6/21 renders a plain "Check Ticketmaster" link (owner-verified). |
-| rosalia | 2026-08-28 | 6 | 1 | 0 | 0 | LUX TOUR 2026 | Houston 6/23 renders a plain "Check Ticketmaster" link (owner-verified). |
-| post-malone | 2026-08-28 | 5 | 0 | 0 | 0 | — | `tour_name` blank pending human verification. Vivid Seats covers 3 events. |
+| rosalia | 2026-08-29 | 6 | 1 | 0 | 0 | LUX TOUR 2026 | Houston 6/23 renders a plain "Check Ticketmaster" link (owner-verified). |
+| post-malone | 2026-08-29 | 5 | 0 | 0 | 0 | — | `tour_name` blank pending human verification. Vivid Seats covers 3 events. |
 | zach-bryan | 2026-07-15 | 15 | 3 | 3 | **4** | With Heaven On Tour | Arlington, Glendale and Dover ×2 remain recheck rows with standalone verified resale CTAs. Vivid Seats covers 10 events. |
-| jelly-roll | 2026-08-28 | 1 | 0 | 0 | **1** | — | `tour_name` blank pending human verification. |
+| jelly-roll | 2026-08-29 | 1 | 0 | 0 | **1** | — | `tour_name` blank pending human verification. |
 | tame-impala | 2026-07-22 | 28 | 3 | 3 | **6** | The Deadbeat Tour | 3 recheck rows each publish a standalone verified SeatGeek CTA. |
 | sabrina-carpenter | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
 | lady-gaga | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
@@ -78,7 +78,7 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 | nothing-but-thieves | 2026-08-28 | 26 | 2 | 2 | **5** | — | Promoted 2026-08-26; owner browser-checked both destinations. No event records yet; artist-level CTA only. |
 | trivium | 2026-08-28 | 34 | 11 | 11 | **11** | — | Promoted 2026-08-26; owner browser-checked both destinations. No event records yet; artist-level CTA only. |
 | sabaton | 2026-08-28 | 13 | 1 | 1 | **4** | — | Promoted 2026-08-26; owner browser-checked both destinations. No event records yet; artist-level CTA only. |
-| in-flames | 2026-08-28 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-26; owner browser-checked both destinations. No event records yet; artist-level CTA only. |
+| in-flames | 2026-08-29 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-26; owner browser-checked both destinations. No event records yet; artist-level CTA only. |
 | beartooth | 2026-08-28 | 26 | 4 | 4 | **8** | — | Promoted 2026-08-26; owner browser-checked both destinations. No event records yet; artist-level CTA only. |
 
 Event CTAs publish independently per provider (`providerEventPublishable`; see `docs/ARCHITECTURE.md`). Across the 46 recheck rows, 27 publish SeatGeek, 5 publish Vivid Seats, 39 have at least one independently verified resale provider, and 7 (all past events) are fully CTA-suppressed.

@@ -755,7 +755,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0400642ACC7E5D9B",
     "ticketmaster_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
-    "seatgeek_url": "https://seatgeek.com/bts-tickets/chicago-illinois-soldier-field-2026-08-28-8-pm/concert/18010323",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bts---bangtan-boys-tickets-chicago-soldier-field-8-28-2026--concerts-k-pop/production/6517086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
@@ -770,11 +770,11 @@
         "discovery_event_id": "vv178Z_eGklGLPUh"
       },
       "seatgeek": {
-        "event_id": 18010323,
-        "url": "https://seatgeek.com/bts-tickets/chicago-illinois-soldier-field-2026-08-28-8-pm/concert/18010323",
-        "verified": true,
-        "last_verified_at": "2026-08-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6517086,
@@ -850,7 +850,7 @@
         "event_id": 18010329,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-01-8-pm/concert/18010329",
         "verified": true,
-        "last_verified_at": "2026-08-26",
+        "last_verified_at": "2026-08-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -927,7 +927,7 @@
         "event_id": 18010331,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-02-8-pm/concert/18010331",
         "verified": true,
-        "last_verified_at": "2026-08-26",
+        "last_verified_at": "2026-08-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1004,7 +1004,7 @@
         "event_id": 18010333,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-05-8-pm/concert/18010333",
         "verified": true,
-        "last_verified_at": "2026-08-26",
+        "last_verified_at": "2026-08-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1081,7 +1081,7 @@
         "event_id": 18010335,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-06-8-pm/concert/18010335",
         "verified": true,
-        "last_verified_at": "2026-08-26",
+        "last_verified_at": "2026-08-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

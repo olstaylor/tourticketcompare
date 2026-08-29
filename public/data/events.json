@@ -3918,11 +3918,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676869",
-        "url": "https://www.ticketliquidator.com/tickets/7676869/BTS-tickets-Fri-Aug-28-2026-Soldier-Field",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107073222",
@@ -3935,7 +3935,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv178Z_eGklGLPUh",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676869/BTS-tickets-Fri-Aug-28-2026-Soldier-Field",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bts-chicago-tickets-8-28-2026/event/107073222"
   },
   {
@@ -26802,11 +26802,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735040",
-        "url": "https://www.ticketliquidator.com/tickets/7735040/Tame-Impala-tickets-Fri-Aug-28-2026-Target-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107108089",
@@ -26820,7 +26820,7 @@
     "status": "on-sale",
     "timezone": "America/Chicago",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735040/Tame-Impala-tickets-Fri-Aug-28-2026-Target-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-minneapolis-tickets-8-28-2026/event/107108089"
   },
   {

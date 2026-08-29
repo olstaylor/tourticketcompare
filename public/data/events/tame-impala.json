@@ -632,7 +632,7 @@
     "tour_name": "The Deadbeat Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7-F_M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_M",
-    "seatgeek_url": "https://seatgeek.com/tame-impala-tickets/minneapolis-minnesota-target-center-2026-08-28-7-pm/concert/18070208",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-minneapolis-target-center-8-28-2026--concerts-rock/production/6652635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_M",
@@ -648,11 +648,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18070208,
-        "url": "https://seatgeek.com/tame-impala-tickets/minneapolis-minnesota-target-center-2026-08-28-7-pm/concert/18070208",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6652635,
@@ -1344,7 +1344,7 @@
         "event_id": 18070199,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-08-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1413,7 +1413,7 @@
         "event_id": 18080351,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-20-7-pm/concert/18080351",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-08-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

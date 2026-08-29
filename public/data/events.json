@@ -1175,17 +1175,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107083218",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-8-28-2026/event/107083218",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_df7fzkp",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695864",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-8-28-2026/event/107083218"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435046481aa",
@@ -3925,18 +3925,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073222",
-        "url": "https://www.stubhub.ie/bts-chicago-tickets-8-28-2026/event/107073222",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv178Z_eGklGLPUh",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-chicago-tickets-8-28-2026/event/107073222"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429ab3c5ef1",
@@ -6477,16 +6477,16 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "106954080",
-        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-28-8-2026/event/106954080",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AgZkG0GkdgvgZ0",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-28-8-2026/event/106954080"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4f54ef7",
@@ -26809,11 +26809,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107108089",
-        "url": "https://www.stubhub.ie/tame-impala-minneapolis-tickets-8-28-2026/event/107108089",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_M",
@@ -26821,7 +26821,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-minneapolis-tickets-8-28-2026/event/107108089"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6os55n",
@@ -50272,13 +50272,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554383",
+        "url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-29-5-2027/event/107554383",
+        "verified": true,
+        "last_verified_at": "2026-08-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkf_Gkdr-2Ec",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237407",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237407/Tame-Impala-tickets-Sat-May-29-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237407/Tame-Impala-tickets-Sat-May-29-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-29-5-2027/event/107554383"
   },
   {
     "id": "tm-tame-impala-2027-london-16dfz_ofpg7t8j2",
@@ -50449,11 +50457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107554382",
+        "url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-3-6-2027/event/107554382",
+        "verified": true,
+        "last_verified_at": "2026-08-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfbGkdVVzLQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-3-6-2027/event/107554382"
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z",

@@ -917,11 +917,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7418589",
-        "url": "https://www.ticketnetwork.com/en/p/7418589",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7418589",
@@ -942,7 +942,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418589",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418589/Ed-Sheeran-tickets-Sat-Aug-29-2026-Ford-Field",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-detroit-tickets-8-29-2026/event/106957092"
   },

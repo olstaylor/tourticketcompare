@@ -2002,7 +2002,7 @@
     "ticketmaster_event_id": "36006516A365B96D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-glasgow-31-03-2027/event/36006516A365B96D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trivium-tickets-glasgow-ovo-hydro-3-31-2027--concerts-rock/production/7477502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-glasgow-31-03-2027/event/36006516A365B96D",
     "last_verified_at": null,
@@ -2024,11 +2024,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477502,
+        "url": "https://www.vividseats.com/trivium-tickets-glasgow-ovo-hydro-3-31-2027--concerts-rock/production/7477502",
+        "verified": true,
+        "last_verified_at": "2026-08-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2063,7 +2063,7 @@
     "ticketmaster_event_id": "37006514C6DCC225",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-manchester-02-04-2027/event/37006514C6DCC225",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trivium-tickets-manchester-co-op-live-4-2-2027--concerts-rock/production/7477504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-manchester-02-04-2027/event/37006514C6DCC225",
     "last_verified_at": null,
@@ -2085,11 +2085,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477504,
+        "url": "https://www.vividseats.com/trivium-tickets-manchester-co-op-live-4-2-2027--concerts-rock/production/7477504",
+        "verified": true,
+        "last_verified_at": "2026-08-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2140,7 +2140,7 @@
     "ticketmaster_event_id": "1F006511D23A7DB4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-london-03-04-2027/event/1F006511D23A7DB4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trivium-tickets-london-alexandra-palace-4-3-2027--concerts-rock/production/7477506",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-london-03-04-2027/event/1F006511D23A7DB4",
     "last_verified_at": null,
@@ -2162,11 +2162,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477506,
+        "url": "https://www.vividseats.com/trivium-tickets-london-alexandra-palace-4-3-2027--concerts-rock/production/7477506",
+        "verified": true,
+        "last_verified_at": "2026-08-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2201,7 +2201,7 @@
     "ticketmaster_event_id": "360065147E7B287C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/trivium-cardiff-04-04-2027/event/360065147E7B287C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027--concerts-rock/production/7477508",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-cardiff-04-04-2027/event/360065147E7B287C",
     "last_verified_at": null,
@@ -2223,11 +2223,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477508,
+        "url": "https://www.vividseats.com/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027--concerts-rock/production/7477508",
+        "verified": true,
+        "last_verified_at": "2026-08-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

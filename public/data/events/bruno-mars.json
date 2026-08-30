@@ -1864,11 +1864,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107068178",
-        "url": "https://www.stubhub.ie/bruno-mars-pittsburgh-tickets-8-29-2026/event/107068178",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -1877,7 +1877,7 @@
     "ticketmaster_discovery_event_id": "1AvbZbyGkUHq626",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-pittsburgh-tickets-8-29-2026/event/107068178"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",

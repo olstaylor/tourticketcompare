@@ -931,11 +931,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957092",
-        "url": "https://www.stubhub.ie/ed-sheeran-detroit-tickets-8-29-2026/event/106957092",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZbwGkwNawuE",
@@ -944,7 +944,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-detroit-tickets-8-29-2026/event/106957092"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cc3a2a14",

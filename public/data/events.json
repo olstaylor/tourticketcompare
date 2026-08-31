@@ -44239,11 +44239,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106960285",
-        "url": "https://www.stubhub.ie/my-chemical-romance-san-diego-tickets-8-30-2026/event/106960285",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbwYkcki4",
@@ -44251,7 +44251,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-san-diego-tickets-8-30-2026/event/106960285"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-my-chemical-romance-2026-phoenix-1a_zkgygkd3ywvj",

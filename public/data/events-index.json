@@ -12234,5 +12234,17 @@
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2026-amsterdam-z698xzbpz1kf3e9o_",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "AFAS Live Loge",
+    "datetime_iso": "2026-10-13T18:00:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

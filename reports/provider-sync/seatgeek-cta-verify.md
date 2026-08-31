@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-08-30T10:29:15.503Z
+Generated: 2026-08-31T11:35:50.349Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 136 (needs_recheck: 136, provenance backfill: 0, stale re-check: 74)
+- Events selected: 137 (needs_recheck: 137, provenance backfill: 0, stale re-check: 74)
 - Events skipped before API checks: 95
-- API calls made: 136
+- API calls made: 137
 - Verified provenance written: 74
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 1
-- No qualifying listing: 61
+- No qualifying listing: 62
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -162,6 +162,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-beartooth-2026-maplewood-z7r9jz1aava89 | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-beartooth-2026-saint-augustine-z7r9jz1a70igm | beartooth | verify (applied) | 18253061 | https://seatgeek.com/beartooth-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-12-04-6-pm/concert/18253061 | - |
 | tm-beartooth-2026-fort-lauderdale-z7r9jz1a70igy | beartooth | verify (applied) | 18235668 | https://seatgeek.com/beartooth-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-05-6-30-pm/concert/18235668 | - |
+| tm-tyla-2026-amsterdam-z698xzbpz1kf3e9o_ | tyla | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 
 ## Skipped before API checks
 

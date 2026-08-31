@@ -68886,5 +68886,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980241",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento"
+  },
+  {
+    "id": "tm-tyla-2026-amsterdam-z698xzbpz1kf3e9o_",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "Tyla | Premium Seats",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "AFAS Live Loge",
+    "datetime_iso": "2026-10-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "212097819",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/tyla-%7C-premium-seats-tickets/212097819?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/tyla-%7C-premium-seats-tickets/212097819?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "212097819",
+        "discovery_event_id": "Z698xZbpZ1kF3e9O_",
+        "url": "https://www.ticketmaster.nl/event/tyla-%7C-premium-seats-tickets/212097819?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kF3e9O_",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
   }
 ]

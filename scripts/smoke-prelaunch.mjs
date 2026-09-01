@@ -1098,7 +1098,7 @@ const jsonLdRoutes = [
   { pathname: "/blog", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Blog"], noTypes: ["FAQPage", "Article", "BlogPosting"] },
   { pathname: "/compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
-  { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
+  { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
 ];
@@ -3153,6 +3153,27 @@ assert(
 assert(!/View Tickets|Check \w[\w ]* for tickets|showId=/i.test(beyonceShowBoard), "zero-event empty state must not include any event-level ticket CTA");
 assert(!beyonceShowBoard.includes("provider="), "zero-event empty state must not surface an outbound provider claim");
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists"), "zero-event empty state must link users to the artists index");
+assert(beyonceEmptyStatePage.text.includes("About Beyoncé"), "a promoted empty artist may keep its reviewed factual summary");
+for (const filler of ["About these links", "Related guides", "Useful links", "data-artist-faq"]) {
+  assert(!beyonceEmptyStatePage.text.includes(filler), `zero-event artist page must omit ${filler}`);
+}
+const reviewEmptyStatePage = await routeResponse("/artists/lady-gaga");
+assert(reviewEmptyStatePage.response.status === 200, "/artists/lady-gaga must remain a durable review shell");
+assert(reviewEmptyStatePage.text.includes('content="noindex,follow"'), "a review-required empty shell must remain noindex");
+for (const filler of ["Event details are shown for reference", "About Lady Gaga", "About these links", "Related guides", "Useful links", "data-artist-faq"]) {
+  assert(!reviewEmptyStatePage.text.includes(filler), `review-required empty shell must omit ${filler}`);
+}
+// Suppressed copy must not survive inside structured data. A shell that
+// deliberately withholds its biography from the page cannot publish the same
+// sentences as the artist node's description where only machines read them.
+const ladyGagaSummary = String(
+  (catalog.artists || []).find((entry) => entry.slug === "lady-gaga")?.factual_summary || ""
+).trim();
+assert(ladyGagaSummary.length > 0, "the lady-gaga fixture must carry a factual summary for this check to mean anything");
+assert(
+  !reviewEmptyStatePage.text.includes(ladyGagaSummary),
+  "a review-required empty shell must not publish its withheld summary as JSON-LD"
+);
 console.log("zero-event empty-state verification passed for beyonce");
 
 // --- Artist-page comparison UX (synthetic boards) ---------------------------
@@ -3436,6 +3457,10 @@ const emptyGraph = JSON.parse(beyonceEmptyStatePage.text.match(/<script type="ap
 assert(
   !emptyGraph["@graph"].some((node) => node["@type"] === "MusicEvent"),
   "an artist page with no verified dates must emit no MusicEvent structured data"
+);
+assert(
+  !emptyGraph["@graph"].some((node) => node["@type"] === "FAQPage"),
+  "an artist page with no visible FAQ must emit no FAQPage structured data"
 );
 
 // (7) Editorial provenance: populated boards carry the dated verification

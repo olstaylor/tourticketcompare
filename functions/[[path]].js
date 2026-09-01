@@ -627,15 +627,6 @@ function baseSchema(origin) {
   ];
 }
 
-// Artist FAQ entries come from the shared content model (see
-// artistFaqEntries in _artist-content.js): one data-grounded answer about this
-// page's own dates, then the artist's authored questions minus the ones the
-// visible page now answers directly. The visible <details> list and the
-// FAQPage JSON-LD both read this, so they cannot drift.
-function artistFaqEntriesForRoute(route, events, env) {
-  return artistBoardModel(route, events, env).content.faq;
-}
-
 // Guides author their FAQ as a visible "FAQ" section in guides-content.json:
 // bold questions followed by plain-paragraph answers. Parse that section so
 // the same content is exposed as FAQPage JSON-LD without keeping a second
@@ -692,7 +683,11 @@ function breadcrumbSchema(route, origin) {
   };
 }
 
-function artistSchema(route, origin) {
+// `describes` is false for the one page state that renders no "About" section:
+// a review-required shell with no dates. Its factual summary is deliberately
+// not published there, and structured data must not republish it invisibly —
+// the JSON-LD mirrors the visible page or it says nothing.
+function artistSchema(route, origin, describes = true) {
   const type = route.artist.schema_type === "MusicGroup" || route.artist.slug === "bts" ? "MusicGroup" : "Person";
   return {
     "@type": type,
@@ -700,7 +695,7 @@ function artistSchema(route, origin) {
     name: route.artist.name,
     url: `${origin}${route.path}`,
     sameAs: route.artist.official_website ? [route.artist.official_website] : undefined,
-    description: route.artist.factual_summary
+    description: describes ? route.artist.factual_summary : undefined
   };
 }
 
@@ -919,8 +914,14 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
   if (route.type === "artist") {
-    graph.push(artistSchema(route, origin), faqPageSchema(artistFaqEntriesForRoute(route, events, env)));
-    if (route.indexable) graph.push(...musicEventsSchema(route, origin, events, env));
+    const artistModel = artistBoardModel(route, events, env);
+    const rendersSummary =
+      artistModel.shows.length > 0 || route.artist.indexing_status === "indexable_with_substantial_content";
+    graph.push(artistSchema(route, origin, rendersSummary));
+    if (artistModel.shows.length) {
+      graph.push(faqPageSchema(artistModel.content.faq));
+      if (route.indexable) graph.push(...musicEventsSchema(route, origin, events, env));
+    }
   }
   if (route.type === "guide") {
     const guideEntry = guideContent[route.path];
@@ -3657,7 +3658,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
     const { shows, content: contentModel, pastShows } = artistBoardModel(route, events, env);
     const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist);
-    const reviewNoticeHtml = isIndexableArtist
+    const reviewNoticeHtml = isIndexableArtist || !shows.length
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;
     const artistFaqHtml = contentModel.faq
@@ -3695,35 +3696,42 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const commercialHtml = shows.length
       ? `${showBoardHtml}${providerPanelHtml}${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
       : showBoardHtml;
-    // "About these links" describes provider buttons. A review_required artist
-    // renders none — it has no artist-level CTA, and serverShowCtaSpecs returns
-    // [] for its show cards — so the note would describe links that are not on
-    // the page. Suppress it until the artist is promoted.
-    const linksNoteHtml = isIndexableArtist
+    // "About these links" and generic buying support describe a populated
+    // ticket board. Empty pages keep only their honest empty state, plus the
+    // factual artist summary when that editorial record has been promoted.
+    const linksNoteHtml = isIndexableArtist && shows.length
       ? `<div><h2>About these links</h2><p>${escapeHtml(artist.ticket_buying_notes)}</p></div>`
       : "";
-    const supportingHtml = `<section class="split-section${
-      isIndexableArtist ? "" : " split-section-single"
-    }"><div><h2>About ${escapeHtml(artist.name)}</h2><p>${escapeHtml(
-      artist.factual_summary
-    )}</p></div>${linksNoteHtml}</section>${artistExtraContentHtml}${relatedGuidesHtml}`;
+    const supportingHtml = shows.length
+      ? `<section class="split-section${
+          isIndexableArtist ? "" : " split-section-single"
+        }"><div><h2>About ${escapeHtml(artist.name)}</h2><p>${escapeHtml(
+          artist.factual_summary
+        )}</p></div>${linksNoteHtml}</section>${artistExtraContentHtml}${relatedGuidesHtml}`
+      : isIndexableArtist
+        ? `<section class="split-section split-section-single"><div><h2>About ${escapeHtml(
+            artist.name
+          )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div></section>`
+        : "";
+    const usefulLinksHtml = shows.length
+      ? `<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+          "Compare concert ticket prices",
+          "/compare-concert-ticket-prices",
+          "mini-link"
+        )}${anchor("All artists", "/artists", "mini-link")}${anchor("Ticket buying guides", "/guides", "mini-link")}${anchor(
+          "How it works",
+          "/how-it-works",
+          "mini-link"
+        )}${anchor("Affiliate disclosure", "/affiliate-disclosure", "mini-link")}</div></section>`
+      : "";
+    const faqHtml = shows.length
+      ? `<section class="nested-panel faq-panel" data-artist-faq><h2>${escapeHtml(
+          artist.name
+        )} ticket FAQ</h2>${artistFaqHtml}</section>`
+      : "";
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
-    )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${supportingHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
-      "Compare concert ticket prices",
-      "/compare-concert-ticket-prices",
-      "mini-link"
-    )}${anchor("All artists", "/artists", "mini-link")}${anchor("Ticket buying guides", "/guides", "mini-link")}${anchor(
-      "How it works",
-      "/how-it-works",
-      "mini-link"
-    )}${anchor(
-      "Affiliate disclosure",
-      "/affiliate-disclosure",
-      "mini-link"
-    )}</div></section><section class="nested-panel faq-panel" data-artist-faq><h2>${escapeHtml(
-      artist.name
-    )} ticket FAQ</h2>${artistFaqHtml}</section></section></main>`;
+    )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${supportingHtml}${usefulLinksHtml}${faqHtml}</section></main>`;
   }
 
   if (route.type === "artist-city") {

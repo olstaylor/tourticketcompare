@@ -3161,12 +3161,6 @@ function renderArtist(artist) {
   } else {
     text(section, "h1", artistPageHeading(artist, hasServerDates)).id = "artistTitle";
   }
-  if (isReviewRequired) {
-    const reviewNotice = document.createElement("section");
-    reviewNotice.className = "nested-panel review-notice";
-    text(reviewNotice, "p", "We're still checking this artist's ticket links. The dates are here for reference in the meantime.", "disclosure-note");
-    section.append(reviewNotice);
-  }
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {
       return JSON.parse(card.getAttribute("data-show-json") || "{}");
@@ -3187,6 +3181,15 @@ function renderArtist(artist) {
   // once from the shared content model; transplant, never rebuild.
   const ticketHelp = transplantServerNode("[data-artist-ticket-help]");
   const verificationPanel = transplantServerNode("[data-artist-trust]");
+  // Same gate as the server: the notice says "the dates are here for reference",
+  // so an empty board must not render it — the client renders on every artist
+  // page and would otherwise replace the clean empty state with that claim.
+  if (isReviewRequired && serverShows.length) {
+    const reviewNotice = document.createElement("section");
+    reviewNotice.className = "nested-panel review-notice";
+    text(reviewNotice, "p", "We're still checking this artist's ticket links. The dates are here for reference in the meantime.", "disclosure-note");
+    section.append(reviewNotice);
+  }
   const providerPanel = serverShows.length ? renderProviderButtons(artist, "artist_page") : null;
   // Dates and provider options first; help and provenance after them. An empty
   // board stays concise and does not surface date-specific provider or
@@ -3197,15 +3200,18 @@ function renderArtist(artist) {
     section.append(showBoard);
   }
 
-  const summary = document.createElement("section");
-  summary.className = isReviewRequired ? "split-section split-section-single" : "split-section";
-  const left = document.createElement("div");
-  text(left, "h2", `About ${artist.name}`);
-  text(left, "p", artist.factual_summary);
-  summary.append(left);
-  // Mirrors the server gate: the links note describes provider buttons that a
-  // review_required artist does not render.
-  if (!isReviewRequired) {
+  let summary = null;
+  if (serverShows.length || !isReviewRequired) {
+    summary = document.createElement("section");
+    summary.className = serverShows.length && !isReviewRequired ? "split-section" : "split-section split-section-single";
+    const left = document.createElement("div");
+    text(left, "h2", `About ${artist.name}`);
+    text(left, "p", artist.factual_summary);
+    summary.append(left);
+  }
+  // Mirrors the server gate: the links note describes a populated ticket
+  // board, so an empty or review_required artist must not render it.
+  if (serverShows.length && !isReviewRequired) {
     const right = document.createElement("div");
     text(right, "h2", "About these links");
     text(right, "p", artist.ticket_buying_notes);
@@ -3257,13 +3263,17 @@ function renderArtist(artist) {
   // and is also the FAQPage JSON-LD source, so it is transplanted from the
   // server render rather than rebuilt from a second copy of the questions.
   const serverFaq = transplantServerNode("[data-artist-faq]");
-  section.append(
-    summary,
-    ...(extraContent ? [extraContent] : []),
-    ...(relatedGuides ? [relatedGuides] : []),
-    usefulLinks,
-    ...(serverFaq ? [serverFaq] : [renderArtistFaq(artist)])
-  );
+  if (serverShows.length) {
+    section.append(
+      ...(summary ? [summary] : []),
+      ...(extraContent ? [extraContent] : []),
+      ...(relatedGuides ? [relatedGuides] : []),
+      usefulLinks,
+      ...(serverFaq ? [serverFaq] : [renderArtistFaq(artist)])
+    );
+  } else if (summary) {
+    section.append(summary);
+  }
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.

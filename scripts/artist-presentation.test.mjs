@@ -45,25 +45,31 @@ assert(server.includes("shows.length ? `${artist.name} tickets and tour dates` :
 assert(client.includes("const shouldNoindex = isReviewRequired;"), "client does not noindex an artist only because it has no future dates");
 assert(!server.includes("function artistCardTier") && !client.includes("function artistCardTier"), "the old mixed artist tier is removed");
 
-// The "About these links" note describes provider buttons. A review_required
-// artist renders none, so the note must be gated on editorial status — not on
-// board size, which would wrongly strip it from an indexable artist that has an
-// artist-level CTA and no upcoming dates (beyonce, raye, tate-mcrae).
+// The "About these links" note and generic supporting sections describe a
+// populated ticket board. Empty pages keep their honest empty state instead.
 assert(
-  server.includes("const linksNoteHtml = isIndexableArtist"),
-  "server gates the links note on editorial status"
+  server.includes("const linksNoteHtml = isIndexableArtist && shows.length"),
+  "server gates the links note on editorial status and a populated board"
 );
 assert(
-  !/const linksNoteHtml = shows\.length/.test(server),
-  "server does not gate the links note on board size"
+  server.includes("const usefulLinksHtml = shows.length") && server.includes("const faqHtml = shows.length"),
+  "server omits generic useful links and FAQ from empty boards"
 );
 assert(
-  client.includes('summary.className = isReviewRequired ? "split-section split-section-single" : "split-section"'),
-  "client mirrors the server's links-note gate"
+  client.includes("if (serverShows.length || !isReviewRequired)") &&
+    client.includes("if (serverShows.length && !isReviewRequired)"),
+  "client mirrors the server's empty-board supporting-content gates"
 );
 assert(
-  /if \(!isReviewRequired\) \{[\s\S]{0,200}About these links/.test(client),
-  "client only appends the links note for a promoted artist"
+  client.includes("if (serverShows.length)") && client.includes("else if (summary)"),
+  "client appends generic supporting sections only for populated boards"
+);
+// The notice reads "the dates are here for reference". The client renders on
+// every artist page, so an ungated notice would overwrite the server's clean
+// empty state with a claim about dates the board does not have.
+assert(
+  client.includes("if (isReviewRequired && serverShows.length) {"),
+  "client only shows the review notice when there are dates to explain"
 );
 
 // The FAQ must not promise an inspection the interface cannot deliver: every

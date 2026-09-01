@@ -66,7 +66,7 @@ const routeMarkers = new Map([
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
-  ["/blog", "what a price snapshot does and does not claim"],
+  ["/blog", "No posts are published right now"],
   ["/compare-concert-ticket-prices", "We only compare prices captured for the same event, each with the time it was taken"],
   ["/how-it-works", "A button only goes up when we can confirm where it lands"],
   ["/currency-converter", "European Central Bank daily reference rates"],
@@ -1088,8 +1088,7 @@ const jsonLdRoutes = [
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
   { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
-  { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
-  { pathname: "/blog/what-a-price-snapshot-actually-is", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "BlogPosting"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] }
+  { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
 ];
 for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
   const { text } = await routeResponse(pathname);
@@ -3886,7 +3885,20 @@ console.log("artist-city landing-page verification passed");
 
   const indexResponse = await routeResponse("/blog");
   assert(indexResponse.response.status === 200, "/blog should return 200");
-  assert(blogSitemap.has("/blog"), "/blog should be in the sitemap while it has an indexable post");
+  const indexableBlog = blogModule.blogIndexIndexable(allPosts);
+  assert(blogSitemap.has("/blog") === indexableBlog, "/blog sitemap membership must match its indexability gate");
+  assert(
+    indexResponse.text.includes('content="noindex,follow"') !== indexableBlog,
+    "/blog robots meta must match its indexability gate"
+  );
+  if (!allPosts.length) {
+    assert(indexResponse.text.includes("No posts are published right now"), "an empty blog must say plainly that no posts are published");
+    assert(!indexResponse.text.includes('/blog/rss.xml'), "an empty blog must not promote an empty RSS feed");
+    for (const pathname of ["/", "/guides"]) {
+      const page = await routeResponse(pathname);
+      assert(!page.text.includes('href="/blog"'), `${pathname} must not promote an empty blog index`);
+    }
+  }
 
   for (const post of allPosts) {
     const page = await routeResponse(post.path);

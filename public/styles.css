@@ -694,6 +694,35 @@ h3 {
   align-content: start;
 }
 
+/* Grid children otherwise keep their min-content width. A long breadcrumb,
+   heading or comparison table can then make a 320px page wider than its card
+   even though the outer shell itself is correctly constrained. */
+.content-page > * {
+  min-width: 0;
+}
+
+.guide-page table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.guide-page th,
+.guide-page td {
+  padding: 11px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.guide-page th {
+  color: var(--ink);
+  background: var(--green-soft);
+}
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -1882,9 +1911,8 @@ summary {
 
 .show-card-sub {
   margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  white-space: normal;
   font-size: 0.84rem;
 }
 
@@ -2026,6 +2054,31 @@ summary {
   color: var(--muted);
   font-size: 0.72rem;
   line-height: 1.35;
+}
+
+@media (max-width: 390px) {
+  /* At 320px the side-by-side date badge leaves too little room for event
+     names and provider values. Put the compact date on its own row so every
+     CTA label and the full event title remain readable. */
+  .show-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .show-date-badge {
+    grid-template-columns: repeat(3, auto);
+    width: fit-content;
+    min-width: 0;
+    min-height: 44px;
+    gap: 5px;
+    padding: 7px 10px;
+    align-items: baseline;
+  }
+
+  .show-card-body,
+  .show-card .provider-cta {
+    width: 100%;
+    min-width: 0;
+  }
 }
 
 /* Currency converter page (/currency-converter). Controls mirror the

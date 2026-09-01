@@ -2,8 +2,18 @@
 const repo = process.env.GITHUB_REPOSITORY;
 const token = process.env.GITHUB_TOKEN;
 const maxAge = Number(process.env.MAX_VALIDATION_AGE_MINUTES || 30);
-function classify(run, now = Date.now()) {
-  if (!run) return { status: "missing", detail: "No exact-head Prelaunch Validation run found." };
+// headPushedAt lets a head that GitHub has not registered a run for yet be told
+// apart from one it never will. The guard now fires on `synchronize`, which
+// reaches it before the run that push triggers exists, so without this every
+// push would flash the rolling issue red and close it again minutes later.
+function classify(run, now = Date.now(), headPushedAt = null) {
+  if (!run) {
+    const pushed = Date.parse(headPushedAt || "");
+    if (Number.isFinite(pushed) && (now - pushed) / 60000 <= maxAge) {
+      return { status: "pending", detail: "Exact-head validation has not been registered yet." };
+    }
+    return { status: "missing", detail: "No exact-head Prelaunch Validation run found." };
+  }
   if (run.conclusion === "success") return { status: "success", detail: "Exact-head validation passed." };
   if (run.conclusion) return { status: "failed", detail: "Exact-head validation concluded " + run.conclusion + "." };
   const started = Date.parse(run.run_started_at || run.created_at || "");
@@ -14,6 +24,7 @@ function classify(run, now = Date.now()) {
 if (process.argv.includes("--self-test")) {
   const now = Date.parse("2026-08-27T12:00:00Z");
   if (classify(null, now).status !== "missing" || classify({ conclusion: "success" }, now).status !== "success" || classify({ conclusion: "failure" }, now).status !== "failed" || classify({ status: "in_progress", created_at: "2026-08-27T11:29:00Z" }, now).status !== "stuck") process.exit(1);
+  if (classify(null, now, "2026-08-27T11:59:00Z").status !== "pending" || classify(null, now, "2026-08-27T11:00:00Z").status !== "missing") process.exit(1);
   console.log("OK: PR validation head guard self-test");
   process.exit(0);
 }
@@ -29,7 +40,12 @@ const rows = [];
 for (const pr of pulls.filter((item) => !item.draft && item.base?.ref === "main")) {
   const runs = await github("/actions/runs?head_sha=" + encodeURIComponent(pr.head.sha) + "&per_page=100");
   const candidates = (runs.workflow_runs || []).filter((run) => run.name === "Prelaunch Validation" || run.workflow_id === 280860998).sort((a, b) => Date.parse(b.created_at || "") - Date.parse(a.created_at || ""));
-  rows.push({ number: pr.number, headSha: pr.head.sha, ...classify(candidates[0]) });
+  let headPushedAt = null;
+  if (!candidates.length) {
+    const commit = await github("/commits/" + encodeURIComponent(pr.head.sha)).catch(() => null);
+    headPushedAt = commit?.commit?.committer?.date || null;
+  }
+  rows.push({ number: pr.number, headSha: pr.head.sha, ...classify(candidates[0], Date.now(), headPushedAt) });
 }
 const findings = rows.filter((row) => ["missing", "failed", "stuck"].includes(row.status));
 let body = "<!-- pr-validation-head-guard -->\n**Last check:** " + new Date().toISOString() + "\n**Status:** " + (findings.length ? "🔴 Validation attention required" : "🟢 All open PR heads validated") + "\n\nThis read-only check compares each open non-draft PR exact head SHA with a pull-request-triggered Prelaunch Validation run. It never reruns, approves, merges, or changes a PR.\n\n| PR | Head SHA | Result | Detail |\n|---|---|---|---|\n";

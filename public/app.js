@@ -4145,6 +4145,19 @@ function observeFunnelImpressions() {
 
 if (year) year.textContent = String(new Date().getFullYear());
 
+// Parity with public/shell.js. This bundle is the fallback shell — it serves
+// the static document when the router does not render a route — so the skip
+// link has to move keyboard focus here too, not just the viewport. <main> is
+// not focusable by default in every browser.
+const skipLink = document.querySelector('a[href="#mainContent"]');
+if (skipLink && main) {
+  main.setAttribute("tabindex", "-1");
+  skipLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    main.focus();
+  });
+}
+
 if (navToggle && navLinks) {
   const navOpenLabel = "Close";
   const navClosedLabel = navToggle.textContent.trim() || "Menu";

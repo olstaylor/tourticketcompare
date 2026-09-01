@@ -11,12 +11,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }if(w.addEventListener)w.addEventListener('load',load,{once:true});else w.attachEvent('onload',load);
 })(window,document,'script','dataLayer','GTM-MZ42TPMM');</script>
     <!-- End Google Tag Manager -->
-    <!-- Google tag bootstrap. The production-only GTM trigger listens for this event;
-         keeping the loader in GTM avoids sending duplicate page views. -->
+    <!-- Google tag bootstrap. Configure the GA4 destination before application
+         events enter the queue; GTM still owns the loader and page-view send.
+         Gated on the canonical host so a Cloudflare preview deployment or a
+         local dev server never registers the production property and reports
+         its own traffic as real. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      if (window.location.hostname === 'tourticketcompare.com') {
+        gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': false});
+      }
       dataLayer.push({'event': 'ttc_google_tag_init'});
     </script>
     <meta charset="UTF-8" />
@@ -60,7 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="preload" as="font" type="font/woff2" href="/fonts/hanken-grotesk.woff2" crossorigin />
     <link rel="dns-prefetch" href="https://api.tourticketcompare.com" />
 
-    <link rel="stylesheet" href="/styles.css?v=20260729b" />
+    <link rel="stylesheet" href="/styles.css?v=20260901a" />
     <link rel="stylesheet" href="/ttc-shell.css?v=20260821a" />
   </head>
   <body>
@@ -81,7 +87,7 @@ height="0" width="0"></iframe></noscript>
           <span class="ttc-brand__mark" aria-hidden="true">TTC</span>
           <span class="ttc-brand__name">Tour<b>Ticket</b>Compare</span>
         </a>
-        <nav class="ttc-nav" aria-label="Primary navigation" data-nav-links>
+        <nav class="ttc-nav" id="primaryNavigation" aria-label="Primary navigation" data-nav-links>
           <a href="/artists">Artists</a>
           <a href="/cities">Cities</a>
           <a href="/venues">Venues</a>
@@ -94,7 +100,7 @@ height="0" width="0"></iframe></noscript>
         <div class="ttc-hd__right">
           <div class="ttc-hd__search" id="ttc-hd-search"></div>
         </div>
-        <button class="ttc-hamb" type="button" aria-expanded="false" data-nav-toggle>Menu</button>
+        <button class="ttc-hamb" type="button" aria-expanded="false" aria-controls="primaryNavigation" data-nav-toggle>Menu</button>
       </div>
     </header>
 
@@ -788,6 +794,6 @@ height="0" width="0"></iframe></noscript>
     </script>
     <script src="/impact-publisher-tag.js?v=20260714a" defer></script>
     <script src="/web-vitals.js?v=20260821a" defer></script>
-    <script src="/app.js?v=20260821a" defer></script>
+    <script src="/app.js?v=20260901a" defer></script>
   </body>
 </html>

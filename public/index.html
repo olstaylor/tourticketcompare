@@ -12,12 +12,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MZ42TPMM');</script>
     <!-- End Google Tag Manager -->
     <!-- Google tag bootstrap. Configure the GA4 destination before application
-         events enter the queue; GTM still owns the loader and page-view send. -->
+         events enter the queue; GTM still owns the loader and page-view send.
+         Gated on the canonical host so a Cloudflare preview deployment or a
+         local dev server never registers the production property and reports
+         its own traffic as real. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': false});
+      if (window.location.hostname === 'tourticketcompare.com') {
+        gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': false});
+      }
       dataLayer.push({'event': 'ttc_google_tag_init'});
     </script>
     <meta charset="UTF-8" />

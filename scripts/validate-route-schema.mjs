@@ -6,8 +6,8 @@
 //   - www requests 301 to apex
 //   - guide pages emit Article (with dates/author/section) and, where the
 //     content has a FAQ section, FAQPage; the compare-prices guide emits HowTo
-//   - artist pages emit Person/MusicGroup + FAQPage, and MusicEvent nodes for
-//     exactly the publishable verified shows the visible show board renders
+//   - artist pages emit Person/MusicGroup and MusicEvent nodes for exactly the
+//     publishable verified shows; FAQPage mirrors whether a visible FAQ exists
 //   - MusicEvent nodes never carry offers, prices, or availability in the
 //     default environment (schema offers are disabled unless
 //     SCHEMA_OFFERS_ENABLED=true, which no default run sets)
@@ -230,9 +230,11 @@ function expectedMusicEventCount(artistSlug) {
     if (!graph) continue;
     const artistNode = graph.find((node) => node["@type"] === "Person" || node["@type"] === "MusicGroup");
     if (!artistNode) fail(`${pathname}: no Person/MusicGroup node`);
-    if (!graph.find((node) => node["@type"] === "FAQPage")) fail(`${pathname}: no FAQPage node`);
     const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
     const expected = expectedMusicEventCount(artist.slug);
+    const faq = graph.find((node) => node["@type"] === "FAQPage");
+    if (expected > 0 && !faq) fail(`${pathname}: visible event page has no FAQPage node`);
+    if (expected === 0 && faq) fail(`${pathname}: empty page emits FAQPage without a visible FAQ`);
     if (musicEvents.length !== expected) {
       fail(`${pathname}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable gate`);
     }

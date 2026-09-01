@@ -107,16 +107,6 @@ TourTicketCompare does not scrape ticket pages. A public comparison appears only
 
 We do not claim that a snapshot is a live checkout total, compare seat quality automatically, guarantee availability, or declare one provider universally lower-priced. If a source, match, timestamp, or provider lane fails its gate, the price or comparison stays hidden.
 
-## How to compare other event ticket prices
-
-The same six checks work for sports, theatre, festivals, and other live events. Match the exact event name, local date, venue, and session or game number first, then apply the ticket-level detail that matters for the format:
-
-- **Sports** — confirm the same fixture, including which side is at home, and the correct season or competition. Similar fixtures repeat across a season.
-- **Theatre** — match the performance date and time as well as the seat area. Matinee and evening performances of the same production are separate events.
-- **Festivals and multi-day events** — check whether the listing is a single-day pass, a weekend pass, or a package that bundles camping, travel, or hospitality.
-
-A day pass, a single game, and a full festival package are not interchangeable just because they share a venue or event name. Whatever the format, compare ticket quantity, section or seat area, ticket type, and delivery method, then use the provider's current order summary and terms as the final source of truth.
-
 ## FAQ
 
 **What is the best way to compare event ticket prices?**
@@ -142,17 +132,6 @@ The event may lack verified provider provenance, the approved feed may not have 
 **Can TourTicketCompare guarantee availability?**
 
 No. Availability changes on the provider site and is confirmed there at the time of purchase.
-
-## Quick comparison checklist
-
-If your shortlist is provider-specific, use this routine alongside [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster) rather than relying on a generic brand ranking.
-
-- Match artist, local date, venue, and event name
-- Match quantity, ticket type, section, row, and view notes
-- Check the snapshot timestamp and provider attribution
-- Open the provider pages and confirm current availability
-- Compare the final amount payable and delivery terms
-- Read buyer-protection, refund, transfer, and cancellation rules
 
 ## Related guides
 

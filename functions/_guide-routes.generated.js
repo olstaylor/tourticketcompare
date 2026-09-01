@@ -29,7 +29,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
-    lastmod: "2026-08-27"
+    lastmod: "2026-09-01"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
@@ -37,7 +37,7 @@ export const GUIDE_ROUTES = {
     description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection before choosing where to buy.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-08-27"
+    lastmod: "2026-09-01"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
@@ -45,7 +45,7 @@ export const GUIDE_ROUTES = {
     description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, current prices, fees, delivery and buyer protection.",
     fullContent: true,
     datePublished: "2026-07-13",
-    lastmod: "2026-08-27"
+    lastmod: "2026-09-01"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
@@ -53,7 +53,7 @@ export const GUIDE_ROUTES = {
     description: "Compare TicketNetwork and Ticketmaster: who sells the ticket, who sets the price, what each guarantees, delivery timing, and the complete total at checkout.",
     fullContent: true,
     datePublished: "2026-08-19",
-    lastmod: "2026-08-19"
+    lastmod: "2026-09-01"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",
@@ -61,7 +61,7 @@ export const GUIDE_ROUTES = {
     description: "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-17"
+    lastmod: "2026-09-01"
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",
@@ -69,7 +69,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to choose when to buy concert tickets by weighing certainty, seat choice, group seating, budget, delivery timing, provider terms, and risk tolerance.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-09-01"
   },
   "/guides/primary-vs-resale-concert-tickets": {
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
@@ -77,7 +77,7 @@ export const GUIDE_ROUTES = {
     description: "Decide between primary and resale concert tickets by weighing ticket type, seat choice, final total, transfer timing, provider terms, and certainty.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-08-20"
+    lastmod: "2026-09-01"
   },
   "/guides/how-to-avoid-ticket-scams": {
     title: "How to Avoid Ticket Scams | TourTicketCompare",
@@ -85,7 +85,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to spot fraudulent ticket sellers, fake platforms, counterfeit tickets, and scam tactics. Use verified platforms and protect yourself at checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-17"
+    lastmod: "2026-09-01"
   },
   "/guides/why-ticket-prices-change": {
     title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",
@@ -93,7 +93,7 @@ export const GUIDE_ROUTES = {
     description: "Learn why concert ticket totals can change because of onsale demand, provider pricing methods, resale seller decisions, fees, seat details, delivery, and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-09-01"
   },
   "/guides/ticketmaster-vs-stubhub": {
     title: "Ticketmaster vs StubHub: Compare Safely | TourTicketCompare",
@@ -101,7 +101,7 @@ export const GUIDE_ROUTES = {
     description: "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-08-20"
+    lastmod: "2026-09-01"
   },
   "/guides/seatgeek-promo-code-guide": {
     title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
@@ -109,7 +109,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-09-01"
   },
   "/guides/concert-ticket-fees-explained": {
     title: "Concert Ticket Fees Explained | TourTicketCompare",
@@ -117,7 +117,7 @@ export const GUIDE_ROUTES = {
     description: "Know which concert-ticket charges to compare, how to read the order summary, and when a lower displayed price is not the lower final total.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-08-20"
+    lastmod: "2026-09-01"
   },
   "/guides/ticket-delivery-and-transfer-timing": {
     title: "Ticket Delivery & Transfer Timing | TourTicketCompare",
@@ -125,7 +125,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to check ticket delivery methods and transfer timing so checkout terms match your travel and event plans.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-08-20"
+    lastmod: "2026-09-01"
   },
   "/guides/how-resale-ticket-pricing-works": {
     title: "How Resale Ticket Pricing Works | TourTicketCompare",
@@ -133,7 +133,7 @@ export const GUIDE_ROUTES = {
     description: "Understand resale ticket pricing by reviewing seller-set prices, fees, seat details, delivery timing, and provider terms before checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-09-01"
   },
   "/guides/how-to-prepare-for-a-ticket-onsale": {
     title: "How to Prepare for a Concert Onsale | TourTicketCompare",
@@ -141,7 +141,7 @@ export const GUIDE_ROUTES = {
     description: "Practical pre-onsale and onsale-day routine for major concert tickets, covering presales, account setup, queues, listing checks, and what to do if you miss out.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-09-01"
   },
   "/guides/how-to-read-a-ticket-listing": {
     title: "How to Read a Concert Ticket Listing | TourTicketCompare",
@@ -149,7 +149,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to read concert ticket listings by checking section, row, seat, listing notes, ticket type, delivery method, and cross-checks before checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-09-01"
   },
   "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
     title: "Concert Postponed or Cancelled | TourTicketCompare",
@@ -157,7 +157,7 @@ export const GUIDE_ROUTES = {
     description: "Learn what to check if a concert is postponed, rescheduled, or cancelled, including provider updates, refunds, transfers, resale rules, and ticket delivery.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-09-01"
   }
 };
 

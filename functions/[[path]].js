@@ -2345,15 +2345,6 @@ function comparisonHubItemListSchema(route, origin, catalog, events) {
   return [artistList, eventList].filter(Boolean);
 }
 
-function renderArtistBrowseSection(catalog) {
-  const artists = catalog.artists || [];
-  if (!artists.length) return "";
-  const items = artists
-    .map(a => `<li>${anchor(`${a.name} ticket links and buying guidance`, `/artists/${a.slug}`)}</li>`)
-    .join("");
-  return `<section class="nested-panel"><h2>Browse artist pages</h2><p>Find checked ticket links and buying guidance for these artists:</p><ul class="guide-link-list">${items}</ul></section>`;
-}
-
 // Guide bodies may only link to other guides — the narrowest pattern that has
 // always applied, kept as the default so guide output is byte-identical.
 // Guides may link to any route that the compiler validates, plus HTTPS
@@ -3807,7 +3798,6 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const contentHtml = fullContent
       ? fullContent
       : `<section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section>`;
-    const artistBrowseHtml = renderArtistBrowseSection(catalog);
     const providerPairHtml = renderGuideProviderPair(route, events, env);
     return `<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle">${renderBreadcrumbHtml(
       route
@@ -3815,7 +3805,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route.description
     )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideSources(
       guideContent[route.path]?.sources
-    )}${artistBrowseHtml}<div class="action-row">${
+    )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
         ? ""
         : anchor("How to compare ticket prices", "/guides/how-to-compare-concert-ticket-prices", "button button-primary")

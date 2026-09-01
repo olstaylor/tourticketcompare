@@ -3140,6 +3140,17 @@ assert(reviewEmptyStatePage.text.includes('content="noindex,follow"'), "a review
 for (const filler of ["Event details are shown for reference", "About Lady Gaga", "About these links", "Related guides", "Useful links", "data-artist-faq"]) {
   assert(!reviewEmptyStatePage.text.includes(filler), `review-required empty shell must omit ${filler}`);
 }
+// Suppressed copy must not survive inside structured data. A shell that
+// deliberately withholds its biography from the page cannot publish the same
+// sentences as the artist node's description where only machines read them.
+const ladyGagaSummary = String(
+  (catalog.artists || []).find((entry) => entry.slug === "lady-gaga")?.factual_summary || ""
+).trim();
+assert(ladyGagaSummary.length > 0, "the lady-gaga fixture must carry a factual summary for this check to mean anything");
+assert(
+  !reviewEmptyStatePage.text.includes(ladyGagaSummary),
+  "a review-required empty shell must not publish its withheld summary as JSON-LD"
+);
 console.log("zero-event empty-state verification passed for beyonce");
 
 // --- Artist-page comparison UX (synthetic boards) ---------------------------

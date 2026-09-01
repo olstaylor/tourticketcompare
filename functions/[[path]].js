@@ -678,7 +678,11 @@ function breadcrumbSchema(route, origin) {
   };
 }
 
-function artistSchema(route, origin) {
+// `describes` is false for the one page state that renders no "About" section:
+// a review-required shell with no dates. Its factual summary is deliberately
+// not published there, and structured data must not republish it invisibly —
+// the JSON-LD mirrors the visible page or it says nothing.
+function artistSchema(route, origin, describes = true) {
   const type = route.artist.schema_type === "MusicGroup" || route.artist.slug === "bts" ? "MusicGroup" : "Person";
   return {
     "@type": type,
@@ -686,7 +690,7 @@ function artistSchema(route, origin) {
     name: route.artist.name,
     url: `${origin}${route.path}`,
     sameAs: route.artist.official_website ? [route.artist.official_website] : undefined,
-    description: route.artist.factual_summary
+    description: describes ? route.artist.factual_summary : undefined
   };
 }
 
@@ -906,7 +910,9 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
-    graph.push(artistSchema(route, origin));
+    const rendersSummary =
+      artistModel.shows.length > 0 || route.artist.indexing_status === "indexable_with_substantial_content";
+    graph.push(artistSchema(route, origin, rendersSummary));
     if (artistModel.shows.length) {
       graph.push(faqPageSchema(artistModel.content.faq));
       if (route.indexable) graph.push(...musicEventsSchema(route, origin, events, env));

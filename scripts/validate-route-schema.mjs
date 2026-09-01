@@ -7,7 +7,7 @@
 //   - guide pages emit Article (with dates/author/section) and, where the
 //     content has a FAQ section, FAQPage; the compare-prices guide emits HowTo
 //   - artist pages emit Person/MusicGroup and MusicEvent nodes for exactly the
-//     publishable verified shows; FAQPage mirrors whether a visible FAQ exists
+//     publishable verified shows; FAQPage mirrors the page's visible FAQ
 //   - MusicEvent nodes never carry offers, prices, or availability in the
 //     default environment (schema offers are disabled unless
 //     SCHEMA_OFFERS_ENABLED=true, which no default run sets)
@@ -232,9 +232,17 @@ function expectedMusicEventCount(artistSlug) {
     if (!artistNode) fail(`${pathname}: no Person/MusicGroup node`);
     const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
     const expected = expectedMusicEventCount(artist.slug);
+    // Read the rendered page, not the publishable-event count. An artist whose
+    // upcoming records have no publishable ticket destination still renders its
+    // date cards and its FAQ, while expectedMusicEventCount() filters through
+    // eventPublishable() and returns zero — deriving the expectation from that
+    // number would fail a legitimate no-link board and block every PR once the
+    // data reaches that state. The invariant is that the FAQPage node mirrors
+    // the visible FAQ, so assert exactly that.
+    const hasVisibleFaq = html.includes("data-artist-faq");
     const faq = graph.find((node) => node["@type"] === "FAQPage");
-    if (expected > 0 && !faq) fail(`${pathname}: visible event page has no FAQPage node`);
-    if (expected === 0 && faq) fail(`${pathname}: empty page emits FAQPage without a visible FAQ`);
+    if (hasVisibleFaq && !faq) fail(`${pathname}: visible FAQ has no FAQPage node`);
+    if (!hasVisibleFaq && faq) fail(`${pathname}: FAQPage node without a visible FAQ`);
     if (musicEvents.length !== expected) {
       fail(`${pathname}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable gate`);
     }

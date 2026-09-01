@@ -64,6 +64,13 @@ assert(
   client.includes("if (serverShows.length)") && client.includes("else if (summary)"),
   "client appends generic supporting sections only for populated boards"
 );
+// The notice reads "the dates are here for reference". The client renders on
+// every artist page, so an ungated notice would overwrite the server's clean
+// empty state with a claim about dates the board does not have.
+assert(
+  client.includes("if (isReviewRequired && serverShows.length) {"),
+  "client only shows the review notice when there are dates to explain"
+);
 
 // The FAQ must not promise an inspection the interface cannot deliver: every
 // CTA routes through /api/out, so hovering exposes the internal redirect rather

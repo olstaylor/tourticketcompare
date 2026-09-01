@@ -30,7 +30,7 @@
         "event_id": 18379496,
         "url": "https://seatgeek.com/luke-combs-tickets/arlington-texas-at-t-stadium-2027-04-03-5-20-pm/concert/18379496",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -805,5 +805,66 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203734",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203734/Luke-Combs-tickets-Sat-Jun-26-2027-Petco-Park",
     "stubhub_international_url": "https://www.stubhub.ie/luke-combs-san-diego-tickets-6-26-2027/event/107495119"
+  },
+  {
+    "id": "tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs w/ Treaty Oak Revival",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "U.S. Bank Stadium",
+    "datetime_iso": "2027-04-10T22:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZgx6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
+    "seatgeek_url": "https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZgx6",
+        "discovery_event_id": "Z7r9jZ1AAZgx6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18493422,
+        "url": "https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422",
+        "verified": true,
+        "last_verified_at": "2026-09-01",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482402",
+        "url": "https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402",
+        "verified": true,
+        "last_verified_at": "2026-09-01",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZgx6",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402"
   }
 ]

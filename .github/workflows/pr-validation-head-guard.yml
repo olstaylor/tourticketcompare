@@ -2,7 +2,7 @@ name: PR validation head guard
 
 on:
   pull_request_target:
-    types: [opened, synchronize, reopened, ready_for_review, converted_to_draft, closed]
+    types: [opened, synchronize, reopened, ready_for_review, converted_to_draft, edited, closed]
   workflow_run:
     workflows: ["Prelaunch Validation"]
     types: [completed]
@@ -10,9 +10,13 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
+# One repository-wide scan at a time, but never cancel the one that is running:
+# the guard's whole output is a single rolling issue, and a cancelled scan writes
+# nothing. A burst of PR activity queues behind the active run instead of
+# starving it, which a fork author could otherwise do by pushing repeatedly.
 concurrency:
   group: pr-validation-head-guard
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   actions: read

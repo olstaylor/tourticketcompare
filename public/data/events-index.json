@@ -12246,5 +12246,17 @@
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "country": "United States Of America",
+    "city": "Minneapolis",
+    "venue": "U.S. Bank Stadium",
+    "datetime_iso": "2027-04-10T22:20:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

@@ -68939,5 +68939,58 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kF3e9O_",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "event_name": "Luke Combs w/ Treaty Oak Revival",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "U.S. Bank Stadium",
+    "datetime_iso": "2027-04-10T22:20:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZgx6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZgx6",
+        "discovery_event_id": "Z7r9jZ1AAZgx6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZgx6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

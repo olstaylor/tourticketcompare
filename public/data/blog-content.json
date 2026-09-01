@@ -70,7 +70,7 @@
       "summary": "Every ticket button on this site is a link somebody opened first. Here is the sequence a destination goes through before it becomes a button, and what happens when a link stops working.",
       "datePublished": "2026-08-01",
       "dateModified": "2026-08-01",
-      "status": "published",
+      "status": "draft",
       "author": "TourTicketCompare editorial team",
       "tags": [
         "how-we-work",
@@ -118,7 +118,7 @@
       "summary": "When a price appears on an event card here it is a snapshot: one provider's listed price, captured at a stated time, for that exact show. That is a narrower claim than it looks, and the difference matters at checkout.",
       "datePublished": "2026-08-01",
       "dateModified": "2026-08-01",
-      "status": "published",
+      "status": "draft",
       "author": "TourTicketCompare editorial team",
       "tags": [
         "how-we-work",
@@ -167,7 +167,7 @@
       "summary": "Roughly half the artist pages on this site have no upcoming dates at any given moment. That is the calendar working correctly rather than a broken page, and the page behaves differently when it happens.",
       "datePublished": "2026-08-01",
       "dateModified": "2026-08-01",
-      "status": "published",
+      "status": "draft",
       "author": "TourTicketCompare editorial team",
       "tags": [
         "how-we-work",
@@ -207,21 +207,5 @@
       ]
     }
   ],
-  "tags": [
-    {
-      "slug": "how-we-work",
-      "label": "How We Work",
-      "postCount": 3
-    },
-    {
-      "slug": "transparency",
-      "label": "Transparency",
-      "postCount": 2
-    },
-    {
-      "slug": "ticket-prices",
-      "label": "Ticket Prices",
-      "postCount": 1
-    }
-  ]
+  "tags": []
 }

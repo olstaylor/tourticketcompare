@@ -288,13 +288,18 @@ async function routeForPath(pathname, env) {
     const tags = deriveBlogTags(posts);
 
     if (path === BLOG_INDEX_PATH) {
+      // The description is the meta description, the OG/Twitter description and
+      // the Blog JSON-LD description. With nothing published it must not keep
+      // advertising the subject matter of posts the site no longer serves.
+      const hasPosts = posts.length > 0;
       return {
         type: "blog-index",
         path,
         indexable: blogIndexIndexable(posts),
         title: "Ticket Research Blog | TourTicketCompare",
-        description:
-          "Notes from an independent ticket research site: how links get verified, what a price snapshot means, and what we publish or withhold and why.",
+        description: hasPosts
+          ? "Notes from an independent ticket research site: how links get verified, what a price snapshot means, and what we publish or withhold and why."
+          : "No posts are published on the TourTicketCompare blog right now. The ticket buying guides cover the practical research questions in the meantime.",
         posts,
         tags,
         breadcrumb: [{ name: "Blog", path: BLOG_INDEX_PATH }]
@@ -2341,15 +2346,6 @@ function comparisonHubItemListSchema(route, origin, catalog, events) {
   return [artistList, eventList].filter(Boolean);
 }
 
-function renderArtistBrowseSection(catalog) {
-  const artists = catalog.artists || [];
-  if (!artists.length) return "";
-  const items = artists
-    .map(a => `<li>${anchor(`${a.name} ticket links and buying guidance`, `/artists/${a.slug}`)}</li>`)
-    .join("");
-  return `<section class="nested-panel"><h2>Browse artist pages</h2><p>Find checked ticket links and buying guidance for these artists:</p><ul class="guide-link-list">${items}</ul></section>`;
-}
-
 // Guide bodies may only link to other guides — the narrowest pattern that has
 // always applied, kept as the default so guide output is byte-identical.
 // Guides may link to any route that the compiler validates, plus HTTPS
@@ -3810,7 +3806,6 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const contentHtml = fullContent
       ? fullContent
       : `<section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section>`;
-    const artistBrowseHtml = renderArtistBrowseSection(catalog);
     const providerPairHtml = renderGuideProviderPair(route, events, env);
     return `<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle">${renderBreadcrumbHtml(
       route
@@ -3818,7 +3813,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route.description
     )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideSources(
       guideContent[route.path]?.sources
-    )}${artistBrowseHtml}<div class="action-row">${
+    )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
         ? ""
         : anchor("How to compare ticket prices", "/guides/how-to-compare-concert-ticket-prices", "button button-primary")
@@ -3836,6 +3831,19 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "blog-index") {
     const posts = Array.isArray(route.posts) ? route.posts : [];
     const [latest, ...rest] = posts;
+    if (!latest) {
+      return `<main id="mainContent"><section class="content-page" aria-labelledby="blogTitle">${renderBreadcrumbHtml(
+        route
+      )}<h1 id="blogTitle">TourTicketCompare blog</h1><p class="lead">No posts are published right now. The buying guides cover the practical ticket-research questions in the meantime.</p><section class="nested-panel"><h2>Keep researching</h2><div class="mini-link-grid">${anchor(
+        "Ticket buying guides",
+        "/guides",
+        "mini-link"
+      )}${anchor("Artists we track", "/artists", "mini-link")}${anchor(
+        "Compare concert ticket prices",
+        "/compare-concert-ticket-prices",
+        "mini-link"
+      )}${anchor("How it works", "/how-it-works", "mini-link")}${anchor("Editorial policy", "/editorial-policy", "mini-link")}</div></section></section></main>`;
+    }
     return `<main id="mainContent"><section class="content-page" aria-labelledby="blogTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="blogTitle">TourTicketCompare blog</h1><p class="lead">Notes on how this site works: what gets checked before a ticket link goes up, what a price snapshot does and does not claim, and why some pages deliberately say we have nothing. Step-by-step buying advice lives in the ${anchor(
@@ -3983,11 +3991,17 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with whatever you're stuck on: reading a listing, working out the real total, primary or resale, when to buy, or what the small print means.</p><section class="nested-panel"><h2>Read a guide, then go back to the show</h2><p>Guides tell you how to decide. Artist pages are where you apply it to an actual date. If you already know who you're going to see, start there.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}${anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary")}</div><p class="muted">The ${anchor(
-      "blog",
-      BLOG_INDEX_PATH,
-      "text-link"
-    )} covers the other half: how this site checks a ticket link, what a price snapshot claims, and what we withhold.</p></section><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>Check the artist, local date, venue, quantity, ticket type, and seat details all match.</li><li>Compare the total at checkout for that exact ticket, not the price on the search card.</li><li>Read the delivery, refund, transfer, and resale terms before you pay.</li><li>Stick to official sources or established marketplaces. Avoid social-media sellers.</li><li>Show priced in another currency? Get a rough figure from the ${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with whatever you're stuck on: reading a listing, working out the real total, primary or resale, when to buy, or what the small print means.</p><section class="nested-panel"><h2>Read a guide, then go back to the show</h2><p>Guides tell you how to decide. Artist pages are where you apply it to an actual date. If you already know who you're going to see, start there.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}${
+      route.blogPromotable ? anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary") : ""
+    }</div>${
+      route.blogPromotable
+        ? `<p class="muted">The ${anchor(
+            "blog",
+            BLOG_INDEX_PATH,
+            "text-link"
+          )} covers the other half: how this site checks a ticket link, what a price snapshot claims, and what we withhold.</p>`
+        : ""
+    }</section><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>Check the artist, local date, venue, quantity, ticket type, and seat details all match.</li><li>Compare the total at checkout for that exact ticket, not the price on the search card.</li><li>Read the delivery, refund, transfer, and resale terms before you pay.</li><li>Stick to official sources or established marketplaces. Avoid social-media sellers.</li><li>Show priced in another currency? Get a rough figure from the ${anchor(
       "currency converter",
       "/currency-converter",
       "text-link"
@@ -4107,7 +4121,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "View all guides",
     "/guides",
     "button button-secondary"
-  )}${anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary")}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">How we stay honest</h2></div><div class="nested-panel"><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
+  )}${
+    route.blogPromotable ? anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary") : ""
+  }</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">How we stay honest</h2></div><div class="nested-panel"><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
@@ -4526,7 +4542,16 @@ export async function onRequest(context) {
     });
   }
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
-  const injected = injectRoute(html, route, url.origin, catalog, renderEvents, guideContent, env);
+  // The homepage and the guides index promote /blog only while the blog has
+  // something to land on. The gate is the same blogIndexIndexable() that
+  // decides whether /blog is indexed and enters the sitemap, so republishing a
+  // post restores the links with it instead of stranding a live blog section
+  // that nothing outside /blog itself points at.
+  const promotesBlog =
+    (route.path === "/" || route.path === "/guides") &&
+    blogIndexIndexable(deriveBlogPosts(await loadBlogContent(env)));
+  const renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
+  const injected = injectRoute(html, renderRoute, url.origin, catalog, renderEvents, guideContent, env);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", "no-cache, max-age=0, must-revalidate");

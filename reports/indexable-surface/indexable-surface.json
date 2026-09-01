@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:02:22.514Z",
+  "generated_at": "2026-09-01T09:12:24.111Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -15,45 +15,37 @@
     },
     "index": {
       "rendered": 5,
-      "indexable": 5
+      "indexable": 4
     },
     "static": {
-      "rendered": 7,
-      "indexable": 7
+      "rendered": 9,
+      "indexable": 9
     },
     "guide": {
       "rendered": 18,
       "indexable": 18
-    },
-    "blog-post": {
-      "rendered": 3,
-      "indexable": 3
-    },
-    "blog-tag": {
-      "rendered": 3,
-      "indexable": 2
     },
     "artist": {
       "rendered": 50,
       "indexable": 42
     },
     "city": {
-      "rendered": 107,
-      "indexable": 45
+      "rendered": 173,
+      "indexable": 56
     },
     "venue": {
-      "rendered": 151,
-      "indexable": 54
+      "rendered": 299,
+      "indexable": 75
     },
     "artist-city": {
-      "rendered": 326,
-      "indexable": 93
+      "rendered": 576,
+      "indexable": 108
     }
   },
   "overall": {
-    "rendered": 671,
-    "indexable": 270,
-    "noindex": 401,
+    "rendered": 1131,
+    "indexable": 313,
+    "noindex": 818,
     "baseline_indexable": 227
   },
   "exclusion_reasons": {
@@ -62,380 +54,368 @@
       "no_upcoming_shows": 8
     },
     "city": {
-      "below_show_threshold": 62,
-      "below_artist_threshold": 46
+      "below_show_threshold": 117,
+      "below_artist_threshold": 83
     },
     "venue": {
-      "below_show_threshold": 90,
-      "below_artist_threshold": 85
+      "below_show_threshold": 218,
+      "below_artist_threshold": 182
     },
     "artist-city": {
-      "below_show_threshold": 233
+      "below_show_threshold": 468
     },
-    "blog-tag": {
+    "index": {
       "editorial_or_static_route": 1
     }
   },
   "expiring_within_warn_days": [
     {
-      "path": "/artists/bts/tickets/chicago-united-states",
-      "type": "artist-city",
-      "last_show": "2026-08-29",
-      "days_left": 2,
-      "reason": "runs_out_of_shows"
-    },
-    {
-      "path": "/artists/ariana-grande/tickets/london-united-kingdom",
-      "type": "artist-city",
-      "last_show": "2026-09-01",
-      "days_left": 6,
-      "reason": "runs_out_of_shows"
-    },
-    {
       "path": "/artists/bruno-mars/tickets/philadelphia-united-states",
       "type": "artist-city",
       "last_show": "2026-09-02",
-      "days_left": 7,
+      "days_left": 2,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/tame-impala/tickets/seattle-united-states",
       "type": "artist-city",
       "last_show": "2026-09-03",
-      "days_left": 7,
-      "reason": "runs_out_of_shows"
-    },
-    {
-      "path": "/artists/ed-sheeran/tickets/east-rutherford-united-states",
-      "type": "artist-city",
-      "last_show": "2026-09-05",
-      "days_left": 10,
+      "days_left": 2,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/jay-z/tickets/london-united-kingdom",
       "type": "artist-city",
       "last_show": "2026-09-05",
-      "days_left": 10,
+      "days_left": 4,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/ed-sheeran/tickets/east-rutherford-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-05",
+      "days_left": 5,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/bruno-mars/tickets/foxborough-united-states",
       "type": "artist-city",
       "last_show": "2026-09-06",
-      "days_left": 11,
+      "days_left": 6,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/bts/tickets/inglewood-united-states",
       "type": "artist-city",
       "last_show": "2026-09-07",
-      "days_left": 11,
+      "days_left": 6,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/karol-g/tickets/el-paso-united-states",
       "type": "artist-city",
       "last_show": "2026-09-07",
-      "days_left": 11,
+      "days_left": 6,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/tame-impala/tickets/vancouver-canada",
       "type": "artist-city",
       "last_show": "2026-09-07",
-      "days_left": 11,
+      "days_left": 6,
       "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/bruno-mars/tickets/tampa-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-13",
+      "days_left": 13,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/charli-xcx/tickets/brooklyn-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-15",
+      "days_left": 15,
+      "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/east-rutherford-united-states",
       "type": "city",
       "last_show": "2026-09-18",
-      "days_left": 23,
+      "days_left": 18,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/metlife-stadium-east-rutherford",
       "type": "venue",
       "last_show": "2026-09-18",
-      "days_left": 23,
-      "reason": "falls_below_threshold"
-    },
-    {
-      "path": "/venues/lincoln-financial-field-philadelphia",
-      "type": "venue",
-      "last_show": "2026-09-19",
-      "days_left": 24,
+      "days_left": 18,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/alamodome-san-antonio",
       "type": "venue",
       "last_show": "2026-09-24",
-      "days_left": 28,
-      "reason": "falls_below_threshold"
-    },
-    {
-      "path": "/venues/target-center-minneapolis",
-      "type": "venue",
-      "last_show": "2026-11-02",
-      "days_left": 67,
+      "days_left": 23,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/san-antonio-united-states",
       "type": "city",
       "last_show": "2026-11-07",
-      "days_left": 72,
+      "days_left": 67,
       "reason": "falls_below_threshold"
     },
     {
-      "path": "/cities/pittsburgh-united-states",
+      "path": "/venues/raymond-james-stadium-tampa",
+      "type": "venue",
+      "last_show": "2026-11-07",
+      "days_left": 68,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/cities/el-paso-united-states",
       "type": "city",
-      "last_show": "2026-11-13",
-      "days_left": 78,
+      "last_show": "2027-01-31",
+      "days_left": 152,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/cities/indianapolis-united-states",
+      "type": "city",
+      "last_show": "2027-03-26",
+      "days_left": 207,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/venues/lincoln-financial-field-philadelphia",
+      "type": "venue",
+      "last_show": "2027-04-24",
+      "days_left": 236,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/tottenham-hotspur-stadium-london",
       "type": "venue",
       "last_show": "2027-07-06",
-      "days_left": 314,
+      "days_left": 308,
       "reason": "falls_below_threshold"
     }
   ],
   "orphan_indexable": [],
   "indexable_without_future_events": [
     "/artists/bad-bunny",
-    "/artists/beartooth",
     "/artists/beyonce",
-    "/artists/blue-october",
-    "/artists/don-omar",
     "/artists/in-flames",
     "/artists/jelly-roll",
-    "/artists/luke-combs",
     "/artists/morgan-wallen",
-    "/artists/nothing-but-thieves",
-    "/artists/pentatonix",
     "/artists/post-malone",
     "/artists/raye",
     "/artists/rosalia",
-    "/artists/sabaton",
-    "/artists/tate-mcrae",
-    "/artists/trivium",
-    "/artists/tyla"
+    "/artists/tate-mcrae"
   ],
   "duplicate_titles": [],
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
-      "count": 92,
-      "share_of_indexable": 34.1
+      "count": 107,
+      "share_of_indexable": 34.2
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
-      "count": 54,
-      "share_of_indexable": 20
+      "count": 73,
+      "share_of_indexable": 23.3
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
-      "count": 45,
-      "share_of_indexable": 16.7
+      "count": 56,
+      "share_of_indexable": 17.9
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
       "count": 41,
-      "share_of_indexable": 15.2
+      "share_of_indexable": 13.1
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Compare Concert Ticket Prices by Site | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Artists | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Concert Ticket Buying Guides | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "How TourTicketCompare Works",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Currency Converter for Concert Tickets | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "About TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Contact TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Editorial Policy | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Affiliate Disclosure | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
+    },
+    {
+      "pattern": "Privacy Policy | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.3
+    },
+    {
+      "pattern": "Terms of Use | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "How to Compare Concert Ticket Prices | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
-      "pattern": "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery",
+      "pattern": "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
-      "pattern": "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better?",
+      "pattern": "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
-      "pattern": "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+      "pattern": "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "TicketNetwork vs Ticketmaster: Which Should You Use?",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Avoid Overpaying for Concert Tickets | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "When to Buy Concert Tickets | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Primary vs Resale Concert Tickets | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "How to Avoid Ticket Scams | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Why Do Concert Ticket Prices Change? | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Ticketmaster vs StubHub: Compare Safely | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Concert Ticket Fees Explained | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Ticket Delivery & Transfer Timing | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "How Resale Ticket Pricing Works | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "How to Prepare for a Concert Onsale | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "How to Read a Concert Ticket Listing | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Concert Postponed or Cancelled | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "{} Tickets & Dates | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Concerts by City | Upcoming Tour Dates | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "Concert Venues & Upcoming Tour Dates | TourTicketCompare",
       "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
+    },
+    {
+      "pattern": "Concerts in {} | Tickets",
+      "count": 1,
+      "share_of_indexable": 0.3
+    },
+    {
+      "pattern": "{} | Concerts in {}",
+      "count": 1,
+      "share_of_indexable": 0.3
     },
     {
       "pattern": "{} Tickets in Merksem | Compare Prices",
       "count": 1,
-      "share_of_indexable": 0.4
-    },
-    {
-      "pattern": "Ticket Research Blog | TourTicketCompare",
-      "count": 1,
-      "share_of_indexable": 0.4
-    },
-    {
-      "pattern": "How a ticket link gets published | TourTicketCompare",
-      "count": 1,
-      "share_of_indexable": 0.4
-    },
-    {
-      "pattern": "What a price snapshot actually is | TourTicketCompare",
-      "count": 1,
-      "share_of_indexable": 0.4
-    },
-    {
-      "pattern": "Why some artist pages show no dates | TourTicketCompare",
-      "count": 1,
-      "share_of_indexable": 0.4
-    },
-    {
-      "pattern": "How We Work | TourTicketCompare Blog",
-      "count": 1,
-      "share_of_indexable": 0.4
-    },
-    {
-      "pattern": "Transparency | TourTicketCompare Blog",
-      "count": 1,
-      "share_of_indexable": 0.4
+      "share_of_indexable": 0.3
     }
   ],
   "traffic": {
@@ -473,16 +453,16 @@
         },
         "after": {
           "rendered": 5,
-          "indexable": 5
+          "indexable": 4
         },
         "at_baseline_instant": {
           "rendered": 5,
-          "indexable": 5
+          "indexable": 4
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
+        "kind": "inventory-decay",
+        "indexableDelta": -1,
         "clockDelta": 0,
-        "residual": 0,
+        "residual": -1,
         "tolerance": 3
       },
       {
@@ -492,17 +472,17 @@
           "indexable": 7
         },
         "after": {
-          "rendered": 7,
-          "indexable": 7
+          "rendered": 9,
+          "indexable": 9
         },
         "at_baseline_instant": {
-          "rendered": 7,
-          "indexable": 7
+          "rendered": 9,
+          "indexable": 9
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
+        "kind": "inventory-growth",
+        "indexableDelta": 2,
         "clockDelta": 0,
-        "residual": 0,
+        "residual": 2,
         "tolerance": 3
       },
       {
@@ -532,17 +512,17 @@
           "indexable": 3
         },
         "after": {
-          "rendered": 3,
-          "indexable": 3
+          "rendered": 0,
+          "indexable": 0
         },
         "at_baseline_instant": {
-          "rendered": 3,
-          "indexable": 3
+          "rendered": 0,
+          "indexable": 0
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
+        "kind": "inventory-decay",
+        "indexableDelta": -3,
         "clockDelta": 0,
-        "residual": 0,
+        "residual": -3,
         "tolerance": 3
       },
       {
@@ -552,17 +532,17 @@
           "indexable": 2
         },
         "after": {
-          "rendered": 3,
-          "indexable": 2
+          "rendered": 0,
+          "indexable": 0
         },
         "at_baseline_instant": {
-          "rendered": 3,
-          "indexable": 2
+          "rendered": 0,
+          "indexable": 0
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
+        "kind": "inventory-decay",
+        "indexableDelta": -2,
         "clockDelta": 0,
-        "residual": 0,
+        "residual": -2,
         "tolerance": 3
       },
       {
@@ -592,17 +572,17 @@
           "indexable": 37
         },
         "after": {
-          "rendered": 107,
-          "indexable": 45
+          "rendered": 173,
+          "indexable": 56
         },
         "at_baseline_instant": {
-          "rendered": 108,
-          "indexable": 47
+          "rendered": 174,
+          "indexable": 57
         },
         "kind": "unexplained-growth",
-        "indexableDelta": 8,
-        "clockDelta": -2,
-        "residual": 10,
+        "indexableDelta": 19,
+        "clockDelta": -1,
+        "residual": 20,
         "tolerance": 4
       },
       {
@@ -612,17 +592,17 @@
           "indexable": 45
         },
         "after": {
-          "rendered": 151,
-          "indexable": 54
+          "rendered": 299,
+          "indexable": 75
         },
         "at_baseline_instant": {
-          "rendered": 158,
-          "indexable": 57
+          "rendered": 307,
+          "indexable": 79
         },
         "kind": "unexplained-growth",
-        "indexableDelta": 9,
-        "clockDelta": -3,
-        "residual": 12,
+        "indexableDelta": 30,
+        "clockDelta": -4,
+        "residual": 34,
         "tolerance": 5
       },
       {
@@ -632,26 +612,27 @@
           "indexable": 92
         },
         "after": {
-          "rendered": 326,
-          "indexable": 93
+          "rendered": 576,
+          "indexable": 108
         },
         "at_baseline_instant": {
-          "rendered": 347,
-          "indexable": 106
+          "rendered": 605,
+          "indexable": 123
         },
         "kind": "unexplained-growth",
-        "indexableDelta": 1,
-        "clockDelta": -13,
-        "residual": 14,
+        "indexableDelta": 16,
+        "clockDelta": -15,
+        "residual": 31,
         "tolerance": 10
       }
     ]
   },
   "warnings": [
     "artist: 24 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
-    "city: 10 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 4). Expected after an artist batch or a large discovery run.",
-    "venue: 12 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.",
-    "artist-city: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 10). Expected after an artist batch or a large discovery run."
+    "city: 20 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 4). Expected after an artist batch or a large discovery run.",
+    "venue: 34 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.",
+    "artist-city: 31 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 10). Expected after an artist batch or a large discovery run.",
+    "indexable surface moved +37.9% against the stored baseline (227 -> 313) with no structural change detected. Expected if a tour ended or a large batch of dates landed; investigate otherwise."
   ],
   "problems": []
 }

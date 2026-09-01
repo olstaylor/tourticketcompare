@@ -99,6 +99,11 @@ const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 // never have advanced its date. Scoping first makes the branch unambiguous.
 const RENDER_CONTAINER = 'renderMainContent';
 
+// The one branch of renderMainContent() that draws every guide page. Guides get
+// their words from content/guides/*.md, but their page furniture — sections,
+// headings, link blocks — comes from here, so it is part of every guide's copy.
+const GUIDE_RENDER_BLOCK = 'if (route.type === "guide") {';
+
 /**
  * How to find each trust route's body copy inside renderMainContent().
  *
@@ -433,6 +438,30 @@ async function buildFingerprints() {
   }
   const routes = new Map();
 
+  // Every guide is drawn by one shared branch of renderMainContent(), so an
+  // edit there changes all 18 published guides at once. Fingerprinting only the
+  // Markdown-derived content left those edits invisible: removing a whole
+  // section from every guide page would have kept each one's visible "Updated"
+  // date and sitemap lastmod pinned to copy the site no longer serves, which is
+  // the exact false-freshness this script exists to prevent. Collected the same
+  // way trust routes are, so shared helpers count too.
+  const guideBody = extractBlock(renderContainer, GUIDE_RENDER_BLOCK);
+  if (!guideBody) {
+    fail(
+      `the shared guide render block was not found inside ${RENDER_CONTAINER}() ` +
+        `(looked for ${JSON.stringify(GUIDE_RENDER_BLOCK)}). The renderer moved — update GUIDE_RENDER_BLOCK.`
+    );
+  }
+  if (!guideBody.includes('<main id="mainContent">')) {
+    fail(
+      `the matched guide render block contains no <main id="mainContent">, so it is not the page body. ` +
+        `Fix GUIDE_RENDER_BLOCK rather than fingerprinting the wrong source.`
+    );
+  }
+  const guideRender = normalizeRenderSource(
+    [guideBody, ...collectCopyDependencies(declarations, guideBody)].join('\n')
+  );
+
   for (const routePath of guides.paths) {
     const metadata = extractMetadataEntry(guides.block, routePath);
     if (!metadata) fail(`guide route ${routePath} could not be fingerprinted`);
@@ -440,7 +469,7 @@ async function buildFingerprints() {
     if (!content) fail(`guide route ${routePath} has no entry in public/data/guides-content.json`);
     routes.set(routePath, {
       kind: 'guide',
-      hash: hash(`${metadata} ${content}`),
+      hash: hash(`${metadata} ${content} ${guideRender}`),
       declared: declaredLastmod(guides.block, routePath),
       datePublished: declaredDatePublished(guides.block, routePath)
     });

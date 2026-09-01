@@ -3197,15 +3197,18 @@ function renderArtist(artist) {
     section.append(showBoard);
   }
 
-  const summary = document.createElement("section");
-  summary.className = isReviewRequired ? "split-section split-section-single" : "split-section";
-  const left = document.createElement("div");
-  text(left, "h2", `About ${artist.name}`);
-  text(left, "p", artist.factual_summary);
-  summary.append(left);
-  // Mirrors the server gate: the links note describes provider buttons that a
-  // review_required artist does not render.
-  if (!isReviewRequired) {
+  let summary = null;
+  if (serverShows.length || !isReviewRequired) {
+    summary = document.createElement("section");
+    summary.className = serverShows.length && !isReviewRequired ? "split-section" : "split-section split-section-single";
+    const left = document.createElement("div");
+    text(left, "h2", `About ${artist.name}`);
+    text(left, "p", artist.factual_summary);
+    summary.append(left);
+  }
+  // Mirrors the server gate: the links note describes a populated ticket
+  // board, so an empty or review_required artist must not render it.
+  if (serverShows.length && !isReviewRequired) {
     const right = document.createElement("div");
     text(right, "h2", "About these links");
     text(right, "p", artist.ticket_buying_notes);
@@ -3257,13 +3260,17 @@ function renderArtist(artist) {
   // and is also the FAQPage JSON-LD source, so it is transplanted from the
   // server render rather than rebuilt from a second copy of the questions.
   const serverFaq = transplantServerNode("[data-artist-faq]");
-  section.append(
-    summary,
-    ...(extraContent ? [extraContent] : []),
-    ...(relatedGuides ? [relatedGuides] : []),
-    usefulLinks,
-    ...(serverFaq ? [serverFaq] : [renderArtistFaq(artist)])
-  );
+  if (serverShows.length) {
+    section.append(
+      ...(summary ? [summary] : []),
+      ...(extraContent ? [extraContent] : []),
+      ...(relatedGuides ? [relatedGuides] : []),
+      usefulLinks,
+      ...(serverFaq ? [serverFaq] : [renderArtistFaq(artist)])
+    );
+  } else if (summary) {
+    section.append(summary);
+  }
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.

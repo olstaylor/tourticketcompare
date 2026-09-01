@@ -30,7 +30,7 @@
         "event_id": 18379496,
         "url": "https://seatgeek.com/luke-combs-tickets/arlington-texas-at-t-stadium-2027-04-03-5-20-pm/concert/18379496",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -818,7 +818,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZgx6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgx6",
@@ -834,11 +834,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18493422,
+        "url": "https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422",
+        "verified": true,
+        "last_verified_at": "2026-09-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -853,10 +853,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482402",
+        "url": "https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402",
+        "verified": true,
+        "last_verified_at": "2026-09-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZgx6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402"
   }
 ]

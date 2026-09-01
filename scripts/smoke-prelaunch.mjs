@@ -41,10 +41,11 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260821a";
+const APP_ASSET_VERSION = "20260901a";
 const TTC_HOME_ASSET_VERSION = "20260821a";
 const TTC_SHELL_ASSET_VERSION = "20260821a";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const SHELL_SCRIPT_ASSET_VERSION = "20260901b";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -914,6 +915,17 @@ assert(
   "public/styles.css must define the .gtm-noscript hiding rule"
 );
 assert(
+  /<nav[^>]*id="primaryNavigation"[^>]*data-nav-links/.test(indexHtml) &&
+    /<button[^>]*aria-controls="primaryNavigation"[^>]*data-nav-toggle/.test(indexHtml),
+  "the mobile menu button must identify the navigation it controls"
+);
+const shellJs = await read("public/shell.js");
+assert(
+  shellJs.includes('mainContent.setAttribute("tabindex", "-1")') &&
+    shellJs.includes("event.preventDefault()") && shellJs.includes("mainContent.focus()"),
+  "the skip link must move focus to the main landmark"
+);
+assert(
   EXPECTED_CSP.includes("frame-src https://www.googletagmanager.com"),
   "CSP must allow the Google Tag Manager noscript frame"
 );
@@ -1647,10 +1659,10 @@ assert(
   cacheBustedHome.text.includes(`/ttc-home.js?v=${TTC_HOME_ASSET_VERSION}`),
   "server-rendered homepage must version ttc-home.js so stale cached hydration cannot replace current search content"
 );
-assert(cacheBustedHome.text.includes(`/shell.js?v=${TTC_SHELL_ASSET_VERSION}`), "server-rendered routes must load the shared shell script");
+assert(cacheBustedHome.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "server-rendered routes must load the shared shell script");
 assert(!cacheBustedHome.text.includes(`/app.js?v=${APP_ASSET_VERSION}`), "the routed homepage must not load the universal app bundle");
 const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
-assert(lightweightGuide.text.includes(`/shell.js?v=${TTC_SHELL_ASSET_VERSION}`), "guide routes must load the shared shell");
+assert(lightweightGuide.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
 assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260821a"), "artist routes must load only the artist-board route module");
@@ -3530,6 +3542,22 @@ assert(
 assert(
   /main > \*\s*\{[^}]*min-width:\s*0/.test(artistStylesCss),
   "main's grid items must be allowed to shrink below their min-content width"
+);
+assert(
+  /\.content-page > \*\s*\{[^}]*min-width:\s*0/.test(artistStylesCss),
+  "content-page grid children must be allowed to shrink at narrow viewports"
+);
+assert(
+  /@media \(max-width: 390px\) \{[\s\S]*?\.show-card\s*\{[\s\S]*?grid-template-columns:\s*minmax\(0, 1fr\)/.test(artistStylesCss),
+  "show cards must stack the date badge above the content at 320-390px"
+);
+assert(
+  /\.guide-page table\s*\{[^}]*table-layout:\s*fixed/.test(artistStylesCss),
+  "guide comparison tables must fit narrow content cards"
+);
+assert(
+  /\.show-card-sub\s*\{[^}]*white-space:\s*normal/.test(artistStylesCss),
+  "show-card event names must wrap instead of being clipped"
 );
 assert(
   /\.watchlist-signup-row input\[type="email"\]\s*\{[^}]*\bwidth:\s*0/.test(artistStylesCss),

@@ -4198,7 +4198,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20260821a" defer></script>',
+    '<script src="/app.js?v=20260901a" defer></script>',
     '<script src="/shell.js?v=20260901b" defer></script>'
   );
   if (route.type === "artist" || route.type === "artist-city") {

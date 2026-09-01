@@ -4,7 +4,7 @@ seo_title: What a price snapshot actually is
 description: The prices on this site are timestamped listed-price snapshots from one provider at one moment, not live inventory and not a checkout total. Here is why.
 summary: When a price appears on an event card here it is a snapshot: one provider's listed price, captured at a stated time, for that exact show. That is a narrower claim than it looks, and the difference matters at checkout.
 date: 2026-08-01
-status: published
+status: draft
 tags:
   - how-we-work
   - ticket-prices

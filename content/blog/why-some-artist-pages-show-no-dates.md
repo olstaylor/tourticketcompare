@@ -4,7 +4,7 @@ seo_title: Why some artist pages show no dates
 description: An artist page with no upcoming shows is usually a finished tour, not a data gap. Here is what an empty board means and what the page does instead.
 summary: Roughly half the artist pages on this site have no upcoming dates at any given moment. That is the calendar working correctly rather than a broken page, and the page behaves differently when it happens.
 date: 2026-08-01
-status: published
+status: draft
 tags:
   - how-we-work
   - transparency

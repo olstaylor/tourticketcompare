@@ -3828,6 +3828,19 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "blog-index") {
     const posts = Array.isArray(route.posts) ? route.posts : [];
     const [latest, ...rest] = posts;
+    if (!latest) {
+      return `<main id="mainContent"><section class="content-page" aria-labelledby="blogTitle">${renderBreadcrumbHtml(
+        route
+      )}<h1 id="blogTitle">TourTicketCompare blog</h1><p class="lead">No posts are published right now. The buying guides cover the practical ticket-research questions in the meantime.</p><section class="nested-panel"><h2>Keep researching</h2><div class="mini-link-grid">${anchor(
+        "Ticket buying guides",
+        "/guides",
+        "mini-link"
+      )}${anchor("Artists we track", "/artists", "mini-link")}${anchor(
+        "Compare concert ticket prices",
+        "/compare-concert-ticket-prices",
+        "mini-link"
+      )}${anchor("How it works", "/how-it-works", "mini-link")}${anchor("Editorial policy", "/editorial-policy", "mini-link")}</div></section></section></main>`;
+    }
     return `<main id="mainContent"><section class="content-page" aria-labelledby="blogTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="blogTitle">TourTicketCompare blog</h1><p class="lead">Notes on how this site works: what gets checked before a ticket link goes up, what a price snapshot does and does not claim, and why some pages deliberately say we have nothing. Step-by-step buying advice lives in the ${anchor(
@@ -3975,11 +3988,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with whatever you're stuck on: reading a listing, working out the real total, primary or resale, when to buy, or what the small print means.</p><section class="nested-panel"><h2>Read a guide, then go back to the show</h2><p>Guides tell you how to decide. Artist pages are where you apply it to an actual date. If you already know who you're going to see, start there.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}${anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary")}</div><p class="muted">The ${anchor(
-      "blog",
-      BLOG_INDEX_PATH,
-      "text-link"
-    )} covers the other half: how this site checks a ticket link, what a price snapshot claims, and what we withhold.</p></section><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>Check the artist, local date, venue, quantity, ticket type, and seat details all match.</li><li>Compare the total at checkout for that exact ticket, not the price on the search card.</li><li>Read the delivery, refund, transfer, and resale terms before you pay.</li><li>Stick to official sources or established marketplaces. Avoid social-media sellers.</li><li>Show priced in another currency? Get a rough figure from the ${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with whatever you're stuck on: reading a listing, working out the real total, primary or resale, when to buy, or what the small print means.</p><section class="nested-panel"><h2>Read a guide, then go back to the show</h2><p>Guides tell you how to decide. Artist pages are where you apply it to an actual date. If you already know who you're going to see, start there.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}</div></section><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>Check the artist, local date, venue, quantity, ticket type, and seat details all match.</li><li>Compare the total at checkout for that exact ticket, not the price on the search card.</li><li>Read the delivery, refund, transfer, and resale terms before you pay.</li><li>Stick to official sources or established marketplaces. Avoid social-media sellers.</li><li>Show priced in another currency? Get a rough figure from the ${anchor(
       "currency converter",
       "/currency-converter",
       "text-link"
@@ -4099,7 +4108,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "View all guides",
     "/guides",
     "button button-secondary"
-  )}${anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary")}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">How we stay honest</h2></div><div class="nested-panel"><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
+  )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">How we stay honest</h2></div><div class="nested-panel"><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {

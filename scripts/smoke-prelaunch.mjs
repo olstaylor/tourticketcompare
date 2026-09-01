@@ -1057,6 +1057,12 @@ assert(
   !guideLinkSmoke.text.includes("[artist page](/artists)"),
   "guide internal links must not leak literal Markdown"
 );
+const guideWithoutCatalogDump = await routeResponse("/guides/seatgeek-vs-ticketmaster");
+assert(
+  !guideWithoutCatalogDump.text.includes("Browse artist pages") &&
+    !/href="\/artists\/[a-z0-9-]+"/.test(guideWithoutCatalogDump.text),
+  "guides must not append the full artist catalog as an automated link block"
+);
 
 // JSON-LD: verify schema exists, parses, and contains correct types per route
 function extractJsonLd(html) {

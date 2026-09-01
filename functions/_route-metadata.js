@@ -279,8 +279,8 @@ export { GUIDE_ROUTES } from "./_guide-routes.generated.js";
 
 export const OLD_GUIDE_REDIRECTS = {
   "/guides/compare-ticket-prices-safely": "/guides/how-to-compare-concert-ticket-prices",
-  // Merged into the concert guide, which now carries the other-event checks too.
-  // The two ranked for near-identical queries and split their own signal.
+  // Retired as a near-duplicate of the maintained concert comparison method;
+  // the redirect preserves the old URL without keeping a second generic page.
   "/guides/how-to-compare-event-ticket-prices": "/guides/how-to-compare-concert-ticket-prices",
   "/guides/why-ticket-prices-vary": "/guides/why-ticket-prices-change",
   "/guides/avoid-overpaying-concert-tickets": "/guides/how-to-avoid-overpaying-for-concert-tickets",

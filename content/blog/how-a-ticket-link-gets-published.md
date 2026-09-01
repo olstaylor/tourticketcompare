@@ -4,7 +4,7 @@ seo_title: How a ticket link gets published
 description: The checks a ticket destination passes before it becomes a button on this site, and why some links stay hidden until a human has opened them.
 summary: Every ticket button on this site is a link somebody opened first. Here is the sequence a destination goes through before it becomes a button, and what happens when a link stops working.
 date: 2026-08-01
-status: published
+status: draft
 tags:
   - how-we-work
   - transparency

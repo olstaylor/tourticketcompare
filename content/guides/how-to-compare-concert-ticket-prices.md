@@ -139,5 +139,6 @@ Use the next guide for the decision that remains, then return to the exact event
 
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
+- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)
 - [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)
 - [Browse checked artist pages](/artists)

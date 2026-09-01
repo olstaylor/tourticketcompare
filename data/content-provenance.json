@@ -3,7 +3,7 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "2bd233c16c7c2291",
+      "content_hash": "7271b76dc59785b8",
       "content_updated_at": "2026-09-01"
     },
     "/guides/vivid-seats-vs-ticketmaster": {

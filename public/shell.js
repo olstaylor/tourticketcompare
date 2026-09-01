@@ -5,6 +5,8 @@
   "use strict";
   var navToggle = document.querySelector("[data-nav-toggle]");
   var navLinks = document.querySelector("[data-nav-links]");
+  var skipLink = document.querySelector('a[href="#mainContent"]');
+  var mainContent = document.getElementById("mainContent");
   var year = document.getElementById("currentYear");
   var compactYear = document.getElementById("ttc-year");
   var currentYear = String(new Date().getFullYear());
@@ -20,6 +22,17 @@
     }
     navToggle.addEventListener("click", function () { setOpen(navToggle.getAttribute("aria-expanded") !== "true"); });
     document.addEventListener("keydown", function (event) { if (event.key === "Escape") setOpen(false); });
+  }
+
+  // The skip link must move keyboard focus as well as the viewport. A main
+  // landmark is not focusable by default in every browser, so make this one a
+  // programmatic target and focus it when the native fragment link activates.
+  if (skipLink && mainContent) {
+    mainContent.setAttribute("tabindex", "-1");
+    skipLink.addEventListener("click", function (event) {
+      event.preventDefault();
+      mainContent.focus();
+    });
   }
 
   var path = window.location.pathname;

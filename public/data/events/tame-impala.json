@@ -753,26 +753,26 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735041",
-        "url": "https://www.ticketliquidator.com/tickets/7735041/Tame-Impala-tickets-Tue-Sep-1-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107108090",
-        "url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-1-2026/event/107108090",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d6OS55N",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735041",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735041/Tame-Impala-tickets-Tue-Sep-1-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-1-2026/event/107108090"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6ov55i",
@@ -1344,14 +1344,14 @@
         "event_id": 18070199,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199",
         "verified": true,
-        "last_verified_at": "2026-09-01",
+        "last_verified_at": "2026-09-02",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6652541,
         "url": "https://www.vividseats.com/tame-impala-tickets-houston-toyota-center---tx-9-19-2026/production/6652541",
         "verified": true,
-        "last_verified_at": "2026-08-30",
+        "last_verified_at": "2026-09-02",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1413,14 +1413,14 @@
         "event_id": 18080351,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-20-7-pm/concert/18080351",
         "verified": true,
-        "last_verified_at": "2026-09-01",
+        "last_verified_at": "2026-09-02",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6678528,
         "url": "https://www.vividseats.com/tame-impala-tickets-houston-toyota-center---tx-9-20-2026--concerts-rock/production/6678528",
         "verified": true,
-        "last_verified_at": "2026-08-30",
+        "last_verified_at": "2026-09-02",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T08:23:02.995Z",
+  "generated_at": "2026-09-02T14:15:17.563Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -46,7 +46,7 @@
     "rendered": 1130,
     "indexable": 311,
     "noindex": 819,
-    "baseline_indexable": 227
+    "baseline_indexable": 311
   },
   "exclusion_reasons": {
     "artist": {
@@ -70,6 +70,13 @@
   },
   "expiring_within_warn_days": [
     {
+      "path": "/artists/ed-sheeran/tickets/east-rutherford-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-05",
+      "days_left": 3,
+      "reason": "runs_out_of_shows"
+    },
+    {
       "path": "/artists/jay-z/tickets/london-united-kingdom",
       "type": "artist-city",
       "last_show": "2026-09-05",
@@ -77,17 +84,24 @@
       "reason": "runs_out_of_shows"
     },
     {
-      "path": "/artists/ed-sheeran/tickets/east-rutherford-united-states",
+      "path": "/artists/bruno-mars/tickets/foxborough-united-states",
       "type": "artist-city",
-      "last_show": "2026-09-05",
+      "last_show": "2026-09-06",
       "days_left": 4,
       "reason": "runs_out_of_shows"
     },
     {
-      "path": "/artists/bruno-mars/tickets/foxborough-united-states",
+      "path": "/artists/karol-g/tickets/el-paso-united-states",
       "type": "artist-city",
-      "last_show": "2026-09-06",
-      "days_left": 5,
+      "last_show": "2026-09-07",
+      "days_left": 4,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/tame-impala/tickets/vancouver-canada",
+      "type": "artist-city",
+      "last_show": "2026-09-07",
+      "days_left": 4,
       "reason": "runs_out_of_shows"
     },
     {
@@ -98,66 +112,52 @@
       "reason": "runs_out_of_shows"
     },
     {
-      "path": "/artists/karol-g/tickets/el-paso-united-states",
-      "type": "artist-city",
-      "last_show": "2026-09-07",
-      "days_left": 5,
-      "reason": "runs_out_of_shows"
-    },
-    {
-      "path": "/artists/tame-impala/tickets/vancouver-canada",
-      "type": "artist-city",
-      "last_show": "2026-09-07",
-      "days_left": 5,
-      "reason": "runs_out_of_shows"
-    },
-    {
       "path": "/artists/bruno-mars/tickets/tampa-united-states",
       "type": "artist-city",
       "last_show": "2026-09-13",
-      "days_left": 12,
+      "days_left": 11,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/charli-xcx/tickets/brooklyn-united-states",
       "type": "artist-city",
       "last_show": "2026-09-15",
-      "days_left": 14,
+      "days_left": 13,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/cities/east-rutherford-united-states",
       "type": "city",
       "last_show": "2026-09-18",
-      "days_left": 17,
+      "days_left": 16,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/metlife-stadium-east-rutherford",
       "type": "venue",
       "last_show": "2026-09-18",
-      "days_left": 17,
+      "days_left": 16,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/alamodome-san-antonio",
       "type": "venue",
       "last_show": "2026-09-24",
-      "days_left": 22,
+      "days_left": 21,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/san-antonio-united-states",
       "type": "city",
       "last_show": "2026-11-07",
-      "days_left": 66,
+      "days_left": 65,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/raymond-james-stadium-tampa",
       "type": "venue",
       "last_show": "2026-11-07",
-      "days_left": 67,
+      "days_left": 66,
       "reason": "falls_below_threshold"
     },
     {
@@ -171,14 +171,14 @@
       "path": "/cities/indianapolis-united-states",
       "type": "city",
       "last_show": "2027-03-26",
-      "days_left": 206,
+      "days_left": 205,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/lincoln-financial-field-philadelphia",
       "type": "venue",
       "last_show": "2027-04-24",
-      "days_left": 235,
+      "days_left": 234,
       "reason": "falls_below_threshold"
     },
     {
@@ -295,7 +295,7 @@
       "share_of_indexable": 0.3
     },
     {
-      "pattern": "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
+      "pattern": "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
       "count": 1,
       "share_of_indexable": 0.3
     },
@@ -410,7 +410,7 @@
     "note": "no export at reports/analytics/route-traffic.json"
   },
   "baseline_comparison": {
-    "baseline_generated_at": "2026-08-01T00:54:49.492Z",
+    "baseline_generated_at": "2026-09-02T08:23:02.995Z",
     "changes": [
       {
         "type": "home",
@@ -436,7 +436,7 @@
         "type": "index",
         "before": {
           "rendered": 5,
-          "indexable": 5
+          "indexable": 4
         },
         "after": {
           "rendered": 5,
@@ -446,17 +446,17 @@
           "rendered": 5,
           "indexable": 4
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -1,
+        "kind": "unchanged",
+        "indexableDelta": 0,
         "clockDelta": 0,
-        "residual": -1,
+        "residual": 0,
         "tolerance": 3
       },
       {
         "type": "static",
         "before": {
-          "rendered": 7,
-          "indexable": 7
+          "rendered": 9,
+          "indexable": 9
         },
         "after": {
           "rendered": 9,
@@ -466,17 +466,17 @@
           "rendered": 9,
           "indexable": 9
         },
-        "kind": "inventory-growth",
-        "indexableDelta": 2,
+        "kind": "unchanged",
+        "indexableDelta": 0,
         "clockDelta": 0,
-        "residual": 2,
+        "residual": 0,
         "tolerance": 3
       },
       {
         "type": "guide",
         "before": {
-          "rendered": 17,
-          "indexable": 17
+          "rendered": 18,
+          "indexable": 18
         },
         "after": {
           "rendered": 18,
@@ -486,57 +486,17 @@
           "rendered": 18,
           "indexable": 18
         },
-        "kind": "inventory-growth",
-        "indexableDelta": 1,
+        "kind": "unchanged",
+        "indexableDelta": 0,
         "clockDelta": 0,
-        "residual": 1,
-        "tolerance": 3
-      },
-      {
-        "type": "blog-post",
-        "before": {
-          "rendered": 3,
-          "indexable": 3
-        },
-        "after": {
-          "rendered": 0,
-          "indexable": 0
-        },
-        "at_baseline_instant": {
-          "rendered": 0,
-          "indexable": 0
-        },
-        "kind": "inventory-decay",
-        "indexableDelta": -3,
-        "clockDelta": 0,
-        "residual": -3,
-        "tolerance": 3
-      },
-      {
-        "type": "blog-tag",
-        "before": {
-          "rendered": 3,
-          "indexable": 2
-        },
-        "after": {
-          "rendered": 0,
-          "indexable": 0
-        },
-        "at_baseline_instant": {
-          "rendered": 0,
-          "indexable": 0
-        },
-        "kind": "inventory-decay",
-        "indexableDelta": -2,
-        "clockDelta": 0,
-        "residual": -2,
+        "residual": 0,
         "tolerance": 3
       },
       {
         "type": "artist",
         "before": {
-          "rendered": 40,
-          "indexable": 18
+          "rendered": 50,
+          "indexable": 42
         },
         "after": {
           "rendered": 50,
@@ -546,80 +506,74 @@
           "rendered": 50,
           "indexable": 42
         },
-        "kind": "unexplained-growth",
-        "indexableDelta": 24,
+        "kind": "unchanged",
+        "indexableDelta": 0,
         "clockDelta": 0,
-        "residual": 24,
-        "tolerance": 3
+        "residual": 0,
+        "tolerance": 5
       },
       {
         "type": "city",
         "before": {
-          "rendered": 81,
-          "indexable": 37
+          "rendered": 173,
+          "indexable": 56
         },
         "after": {
           "rendered": 173,
           "indexable": 56
         },
         "at_baseline_instant": {
-          "rendered": 174,
-          "indexable": 57
+          "rendered": 173,
+          "indexable": 56
         },
-        "kind": "unexplained-growth",
-        "indexableDelta": 19,
-        "clockDelta": -1,
-        "residual": 20,
-        "tolerance": 4
+        "kind": "unchanged",
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 6
       },
       {
         "type": "venue",
         "before": {
-          "rendered": 108,
-          "indexable": 45
+          "rendered": 299,
+          "indexable": 75
         },
         "after": {
           "rendered": 299,
           "indexable": 75
         },
         "at_baseline_instant": {
-          "rendered": 307,
-          "indexable": 79
+          "rendered": 299,
+          "indexable": 75
         },
-        "kind": "unexplained-growth",
-        "indexableDelta": 30,
-        "clockDelta": -4,
-        "residual": 34,
-        "tolerance": 5
+        "kind": "unchanged",
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 8
       },
       {
         "type": "artist-city",
         "before": {
-          "rendered": 241,
-          "indexable": 92
+          "rendered": 575,
+          "indexable": 106
         },
         "after": {
           "rendered": 575,
           "indexable": 106
         },
         "at_baseline_instant": {
-          "rendered": 605,
-          "indexable": 123
+          "rendered": 575,
+          "indexable": 106
         },
-        "kind": "unexplained-growth",
-        "indexableDelta": 14,
-        "clockDelta": -17,
-        "residual": 31,
-        "tolerance": 10
+        "kind": "unchanged",
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 11
       }
     ]
   },
-  "warnings": [
-    "artist: 24 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
-    "city: 20 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 4). Expected after an artist batch or a large discovery run.",
-    "venue: 34 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.",
-    "artist-city: 31 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 10). Expected after an artist batch or a large discovery run.",
-    "indexable surface moved +37.0% against the stored baseline (227 -> 311) with no structural change detected. Expected if a tour ended or a large batch of dates landed; investigate otherwise."
-  ],
+  "warnings": [],
   "problems": []
 }

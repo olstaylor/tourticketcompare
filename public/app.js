@@ -89,9 +89,9 @@ const guidePages = [
   },
   {
     slug: "ticketmaster-vs-seatgeek-vs-vivid-seats",
-    title: "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
-    description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection before choosing where to buy.",
-    h1: "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
+    title: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
+    description: "Compare Ticketmaster, SeatGeek and Vivid Seats by ticket type, current total, delivery and buyer protection before choosing a provider.",
+    h1: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
     serverRendered: true
   },
   {

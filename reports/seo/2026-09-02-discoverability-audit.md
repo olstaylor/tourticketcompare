@@ -2,15 +2,15 @@
 
 **Objective:** increase qualified organic entries that lead to monetized provider clicks, while preserving the repository's publishing, provider-data, redirect and indexability controls.
 
-**Audit scope:** production `https://tourticketcompare.com`, GitHub `olstaylor/tourticketcompare` at `39dca7da633491b508816009746ffdddc4191f57` (`main`, 2026-09-02), Search Console, GA4, read-only GTM, authenticated Impact reporting UI, and read-only Cloudflare dashboard/D1 queries. No production, analytics, affiliate or Cloudflare state was changed. The one reviewable GitHub implementation PR described below was created after the audit evidence was collected.
+**Audit scope:** production `https://tourticketcompare.com`, GitHub `olstaylor/tourticketcompare` at `5c8e689` (`main`, 2026-09-02), Search Console, GA4, read-only GTM, authenticated Impact reporting UI, and read-only Cloudflare dashboard/D1 queries. No production, analytics, affiliate or Cloudflare state was changed. The reviewable GitHub implementation PRs described below were created after the audit evidence was collected.
 
 ## Executive summary
 
 - **311 of 1,130** rendered routes are indexable, and the live sitemap has the same 311 URLs; route, schema and internal-link checks pass.
-- Search generated **32 clicks from 9,061 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
+- Search generated **33 clicks from 9,384 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
 - **63 of 1,022** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **279 to 153** in the +90-day forecast without new verified dates.
 - The accessible GA4 report has **0 visible `outbound_click` events** in its 28-day event list. D1 is now readable, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
-- The production Pages project has **1,063 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, but crawl resilience still takes precedence over another discovery expansion.
+- The production Pages project has **1,063 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, and PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) removes confirmed duplicate static-data reads without claiming that it proves the CPU-error root cause.
 
 ## Capability and data status
 
@@ -29,18 +29,20 @@
 
 ### Organic demand
 
-Search Console performance export, available data 5 July–30 August 2026; Page Indexing report captured 2 September 2026 (last update 28 August):
+Search Console performance UI, available data 5 July–31 August 2026; Page Indexing report captured 2 September 2026 (last update 28 August). Full CSV/API exports remain unavailable, so this is a UI-observed baseline rather than a reproducible export:
 
 | Metric | Value |
 |---|---:|
-| Clicks | 32 |
-| Impressions | 9,061 |
+| Clicks | 33 |
+| Impressions | 9,384 |
 | CTR | 0.4% |
-| Average position | 25.4 |
+| Average position | 25.6 |
 
 The volume is small and the time window is short, so no query-level change should be treated as statistically decisive.
 
-High-impression query themes already near page-one/two include `vivid seats vs ticketmaster` (210 impressions, position 8.78, 0 clicks), `seatgeek vs ticketmaster` (149, 12.62, 0), `compare ticket prices` (87, 17.63, 1), and `compare concert ticket prices` (128, 17.57, 2). Existing guide pages receive the relevant visibility: for example, `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats` has 1,287 impressions at position 11.88 and 4 clicks, while `/guides/seatgeek-vs-ticketmaster` has 2,001 impressions at 10.02 and 2 clicks. This confirms a CTR and snippet/intent investigation opportunity; it does **not** yet identify a winning query-to-page mapping.
+High-impression query themes already near page-one/two include `vivid seats vs ticketmaster` (221 impressions, position 8.6, 0 clicks), `seatgeek vs ticketmaster` (156, 0 clicks), `compare ticket prices` (90, 1 click), and `compare concert ticket prices` (129, 2 clicks). Existing guide pages receive the relevant visibility: `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats` has 1,312 impressions and 4 clicks, while `/guides/seatgeek-vs-ticketmaster` has 2,046 impressions and 2 clicks. This confirms a CTR and snippet/intent investigation opportunity; it does **not** yet identify a winning query-to-page mapping.
+
+The available country/device UI segmentation points to the monetisable US/Canada lane but is not sufficient to prescribe country-specific content: United States is 14 clicks / 5,870 impressions; United Kingdom 14 / 454; Canada 1 / 441. India (267 impressions), Vietnam (231) and Philippines (180) have no clicks; no country-specific expansion is proposed because provider monetisation and ticket coverage have not been joined at that level. Mobile produces 18 clicks / 4,035 impressions and desktop 15 / 5,302, so the opportunity is not desktop-only.
 
 ### Served and repository surface
 
@@ -63,7 +65,7 @@ The same D1 query found 1,308 blocked Ticket Liquidator redirects with `impact_t
 
 Impact's default 14-day Performance by Brand view showed aggregate account-level activity (615 clicks, 1 action). It may include other properties or campaigns and cannot be joined to a TTC landing page or its D1 redirect rows in the present configuration. It is therefore excluded from the TTC conversion baseline.
 
-Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed total, 128 are `Blocked by robots.txt` examples under `/api/out` and are expected redirect endpoints, 47 are excluded by a `noindex` tag, and 169 are `Discovered – currently not indexed`. The discovered samples are predominantly artist-city routes, including `/artists/bruno-mars/tickets/foxborough-united-states` and other Bruno Mars/BTS/Charli XCX paths; each sample shows no last-crawled date.
+Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed total, 128 are `Blocked by robots.txt` examples under `/api/out` and are expected redirect endpoints, 47 are excluded by a `noindex` tag, and 169 are `Discovered – currently not indexed`. The discovered samples are predominantly artist-city routes, including `/artists/bruno-mars/tickets/foxborough-united-states` and other Bruno Mars/BTS/Charli XCX paths; each sample shows no last-crawled date. The submitted `https://tourticketcompare.com/sitemap.xml` is successful, was last read 2 September, and has 311 discovered pages, matching the live sitemap; this supersedes the earlier 28 August/271-page observation.
 
 ## Confirmed findings
 
@@ -123,7 +125,7 @@ A low-rate check of `/artists/bruno-mars/tickets/foxborough-united-states` retur
 
 **Update, 2 September (deployment and logs check):** PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) has merged as `main` commit `e2bf842` and Cloudflare lists its production deployment as live. A direct production fetch confirms that `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats` now serves the approved three-provider title, self-canonical and description. Cloudflare Log Explorer is not enabled for this account; its dashboard offers a paid purchase rather than historical logs. Do not purchase or enable it without a separate owner decision. This leaves route-level CPU attribution **BLOCKED** despite the existing read-only dashboard access.
 
-**Read-only code hypothesis, 2 September:** on artist and artist-city paths, `routeForPath()` loads static catalog/artist/event data to decide the route, then `onRequest()` loads the catalog again and, where not retained on the route object, the event data again to render the response. Dynamic artist, artist-city, venue and comparison-hub routes can then perform batched D1 price-cache reads for every card they render. These repeated reads and JSON parses are a plausible CPU contributor, but the dashboard has no per-route trace or timing evidence. Treat this as a profiling target only; do not deduplicate, cache, or otherwise modify protected `functions/[[path]].js` until a trace confirms the affected route mix and cost.
+**Confirmed read-path duplication, 2 September:** on artist and artist-city paths, `routeForPath()` loads static catalog/artist/event data to decide the route, then `onRequest()` reloads catalog data and (for artist pages) event data to render. PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) carries the route-resolved data forward instead. It passed the complete local `test:mvp` suite and targeted route tests. This is a small, approved reduction in repeated static reads; the dashboard still has no per-route trace or timing evidence, so it must **not** be described as the proven cause or cure for the CPU-limit error burst.
 
 ### B. Concentrated provider redirect-failure burst
 
@@ -137,11 +139,11 @@ GA4 Admin shows `outbound_click` in the current web stream but its key-event sta
 
 **Effect / confidence:** high measurement-reporting impact and **high confidence**. This does not invalidate D1's server-side redirect receipt, but GA4 key-event reports will omit the event the client actually sends and the short retention reduces later analysis. **Owner console changes (not applied by this audit):** (1) in GA4 Admin → Events, mark `outbound_click` as a key event and remove the key-event marker from `provider_click` after confirming it is not used for another intentional goal; (2) in Data retention, set Event data to 14 months; (3) review the Internal Traffic filter's defined IP scope, then activate it if that scope is current and safe. Do not change the GTM container or client code. Then validate in DebugView/Realtime with a controlled unmonetized Ticketmaster CTA click and reconcile that interval against D1.
 
-### D. Sitemap recency
+### D. Sitemap recency — resolved
 
-Search Console reports the sitemap was last read on 28 August and has 271 discovered URLs; the live sitemap now holds 311. This is a normal lag candidate, not a fault. Recheck after a valid deployment/ping cycle and compare coverage by URL class.
+Search Console now reports the sitemap was last read on 2 September, has `Success` status and 311 discovered pages — equal to the live indexable-surface count. No sitemap change is proposed.
 
-**Controlled by:** `functions/sitemap.xml.js` / shared indexability modules and Search Console's crawl schedule. **Effect / confidence:** low expected effect and low confidence that any fault exists.
+**Controlled by:** `functions/sitemap.xml.js` / shared indexability modules and Search Console's crawl schedule. **Effect / confidence:** no remaining remediation; **high confidence** in the observed alignment.
 
 ## Ranked, approval-gated remediation plan
 
@@ -150,6 +152,7 @@ Search Console reports the sitemap was last read on 28 August and has 271 discov
 | P0 | **Agent:** diagnose CPU-limit errors and D1 event-integrity segmentation before using click rates. | High / medium / low | Read-only Cloudflare observability/D1 queries; route-template sampling. Do not edit protected runtime/writer code. | Failing route mix and error cause identified; post-filter date range/fields suitable for a valid conversion baseline. | Existing Cloudflare dashboard access. |
 | P0 | **Agent:** separate concentrated retry/automation bursts from the residual Ticket Liquidator safety-failure stream. | High / medium / low | Aggregate-only D1/observability analysis; retain the redirect safety gate. | A defensible conversion denominator and a residual provider-failure rate that can be reviewed independently. | Existing Cloudflare dashboard access. |
 | P0 | **Owner:** export GSC query×page and Page Indexing/Coverage for the same property/window. | High / low / low | No code change; save using the intake-contract filenames. | Map top comparison queries to canonical pages; separate excluded, crawled-not-indexed and indexed URLs. | Search Console export/API grant. |
+| P1 | **PR #841 — reuse route-resolved static data:** avoid loading catalog/event data again after dynamic route matching. | Medium / low / low | Protected router diff was separately approved; complete local `test:mvp` plus targeted route tests passed. No redirects, CTAs, indexability gates, schema, data, CSP or Cloudflare setting changes. | Lower CPU use/error rate on comparable dynamic traffic over 4–8 weeks; dashboard-level monitoring only until route attribution exists. | Review and merge decision. |
 | P1 | **PR #831 — evidenced comparison-guide refinement:** narrow the broad three-provider guide so the dedicated Vivid Seats vs Ticketmaster guide owns exact two-provider intent. | Medium / low / low | Existing guide source plus required generated/client metadata; GitHub `test:mvp` passed. | Higher CTR and clearer query-to-page distribution over a predeclared 28-day comparison, with no ranking/cannibalisation regression. | Open review and merge decision. |
 | P1 | **PR 2 — verified roster/provider coverage:** process only validated upstream events and approved provider listings; prioritise D1-proven click demand with weak coverage. | High / high / medium | Normal verified data pipeline only; never hand-edit generated output. Validate `npm run test:providers` and `npm run test:mvp`. | More qualifying provider lanes and preserved provenance; no invented price/availability claims. | User approval; D1 report; normal data pipeline and provenance. |
 | P0 | **Owner console change:** make `outbound_click` the GA4 key event, retire the obsolete `provider_click` marker, retain events for 14 months, and activate Internal Traffic only after IP-scope review. | High / low / low | GA4 Events/Data retention/Data filters only; no GTM/container/client change. Validate DebugView/Realtime and D1 after a controlled Ticketmaster CTA click. | GA4's key-event report contains the emitted `outbound_click`; retention is maximized; known internal testing is excluded; D1 remains the authoritative successful-redirect measure. | Owner applies the described GA4 changes. |

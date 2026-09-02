@@ -10,7 +10,7 @@
 - Search generated **32 clicks from 9,061 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
 - **63 of 1,022** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **279 to 153** in the +90-day forecast without new verified dates.
 - The accessible GA4 report has **0 visible `outbound_click` events** in its 28-day event list. D1 is now readable, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
-- The production Pages project has **227 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, but crawl resilience still takes precedence over another discovery expansion.
+- The production Pages project has **228 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, but crawl resilience still takes precedence over another discovery expansion.
 
 ## Capability and data status
 
@@ -97,7 +97,7 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 ### 4. Authoritative commercial reporting is available but not decision-grade
 
-**Evidence:** read-only D1 queries for 4 June–2 September show 22,771 `outbound_click` records but only 6,144 `outbound_attempt` records, despite the documented attempt-before-terminal contract. Affiliate click rows also lack useful landing attribution at high volume. The Cloudflare Pages dashboard shows 227 production errors in the last 24 hours, all `Exceeded CPU Time Limits`, and no script-thrown exceptions.
+**Evidence:** read-only D1 queries for 4 June–2 September show 22,771 `outbound_click` records but only 6,144 `outbound_attempt` records, despite the documented attempt-before-terminal contract. Affiliate click rows also lack useful landing attribution at high volume. The Cloudflare Pages dashboard shows 228 production errors in the last 24 hours, all `Exceeded CPU Time Limits`, and no script-thrown exceptions.
 
 **Controlled by:** D1-backed `analytics_events`, `functions/api/out.js` (protected, authoritative writer), `scripts/report-commercial-funnel.mjs`, and `scripts/report-affiliate-performance.mjs`.
 
@@ -114,6 +114,8 @@ A low-rate check of `/artists/bruno-mars/tickets/foxborough-united-states` retur
 **Effect / confidence:** potentially high if persistent for crawlers or buyers; **high confidence** that the project currently has CPU-limit failures, but **low confidence** in the failing route mix/cause. **Next evidence:** collect Workers request/error observations by route template and a low-rate, cache-aware route sample; compare 5xx rate and response time with Search Console crawl/index coverage. Do not increase crawl demand or submit broad URL batches until that is understood.
 
 **Update, 2 September:** the earlier Bruno Mars/Foxborough sample now loads with self-canonical, `index,follow` metadata and ticket destinations. A fresh low-rate sample of its artist, city, venue, artist-city and comparison-guide templates likewise loaded with their expected self-canonicals, `index,follow` directives and H1s. This rules out a persistent failure of those sampled routes at the capture time; it does **not** identify the source of the project-level CPU-limit errors or prove that all routes/crawlers are unaffected.
+
+**Update, 2 September (current production check):** the live Pages project is now on `main` commit `822a37b`, distinct from this audit branch's preview deployment. Its last-24-hour metrics still show **10,764 successful requests and 228 errors**, all CPU-limit terminations: **208** occurred in one displayed interval, with 16, 1 and 3 in the other non-zero intervals. No script exception or memory-limit errors are reported. The dashboard does not attribute the terminations to a route, request class or caller, so this confirms persistence but does not support a runtime change yet.
 
 ### B. Concentrated provider redirect-failure burst
 

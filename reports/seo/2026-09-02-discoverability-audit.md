@@ -7,11 +7,10 @@
 ## Executive summary
 
 - **311 of 1,130** rendered routes are indexable, and the live sitemap has the same 311 URLs; route, schema and internal-link checks pass.
-- Search generated **32 clicks from 9,061 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked.
+- Search generated **32 clicks from 9,061 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
 - **63 of 1,022** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **279 to 153** in the +90-day forecast without new verified dates.
 - The accessible GA4 report has **0 visible `outbound_click` events** in its 28-day event list. D1 is now readable, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
-- The production Pages project has **227 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Crawl resilience therefore takes precedence over another discovery expansion.
-- PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) implements one narrow, validated guide-intent correction; it is a preview deployment only and has not been merged or promoted.
+- The production Pages project has **227 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, but crawl resilience still takes precedence over another discovery expansion.
 
 ## Capability and data status
 
@@ -60,7 +59,7 @@ GA4, 5 August–1 September 2026: 734 `page_view` events and 1 `provider_cta_vie
 
 Read-only D1 totals for 4 June–2 September are 22,771 `outbound_click`, 6,144 `outbound_attempt`, and 1,521 `outbound_blocked` events. Because the documented attempt event is the receipt preceding one terminal outcome, the click total exceeding attempts means this mixed history is not a valid funnel denominator. It also has weak landing attribution: 5,836 affiliate `outbound_click` rows have no `landing_path`, and 5,706 name `/` as the source path. These are integrity observations, not evidence that the clicks are invalid or automated. The existing self-identifying-crawler filter and the documented pre-filter historical period are plausible contributors, but neither explains the data without a route/time-based investigation.
 
-The same D1 query found 1,308 blocked Ticket Liquidator redirects with `impact_tracking_url_failed_safety_check`, materially more than every other failure category. This is a concrete provider-funnel loss signal, but the writer and its redirect safety policy are protected; no URL validation, provider configuration, or redirect logic was changed from this audit.
+The same D1 query found 1,308 blocked Ticket Liquidator redirects with `impact_tracking_url_failed_safety_check`, materially more than every other failure category. However, 1,094 occurred on 28 August; 1,089 share one anonymous request-key group, all name `/` as their source path, and 1,076 happened between 00:32 and 00:36 UTC. That concentration is inconsistent with treating the aggregate as normal user conversion demand, though it does not identify the actor or prove the tracking response was valid. The writer and redirect safety policy are protected; no URL validation, provider configuration, or redirect logic was changed.
 
 Impact's default 14-day Performance by Brand view showed aggregate account-level activity (615 clicks, 1 action). It may include other properties or campaigns and cannot be joined to a TTC landing page or its D1 redirect rows in the present configuration. It is therefore excluded from the TTC conversion baseline.
 
@@ -88,13 +87,13 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 **Effect / confidence:** likely the strongest path to both useful pages and monetised click opportunity; **high confidence** that coverage/roster freshness matters, **low confidence** on which artist/provider to prioritise until D1 data is available.
 
-### 3. The IndexNow key is not publicly reachable
+### 3. IndexNow delivery is verified
 
-**Evidence:** `scripts/indexnow-ping.mjs` stops because `https://tourticketcompare.com/9ffca7bd48067983c70d2ce6601728d3.txt` is not live.
+**Evidence:** the guarded 2 September dry run verified `https://tourticketcompare.com/9ffca7bd48067983c70d2ce6601728d3.txt` and enumerated the 311-URL live sitemap. The subsequent guarded submission returned HTTP 200 for all 311 URLs.
 
 **Controlled by:** `scripts/indexnow-ping.mjs` and `.github/workflows/indexnow-ping.yml`, plus the standard deployed public-file path.
 
-**Effect / confidence:** removes a supported-engine notification failure only; **high confidence** in the missing-key observation and **low expected effect** on the joint Google/monetised-click goal. Google does not use IndexNow.
+**Effect / confidence:** this confirms supported-engine notification is operational; **high confidence**. Google does not use IndexNow, so it is not a substitute for Search Console coverage and has low expected effect on the joint Google/monetised-click goal.
 
 ### 4. Authoritative commercial reporting is available but not decision-grade
 
@@ -116,11 +115,11 @@ A low-rate check of `/artists/bruno-mars/tickets/foxborough-united-states` retur
 
 **Update, 2 September:** the earlier Bruno Mars/Foxborough sample now loads with self-canonical, `index,follow` metadata and ticket destinations. A fresh low-rate sample of its artist, city, venue, artist-city and comparison-guide templates likewise loaded with their expected self-canonicals, `index,follow` directives and H1s. This rules out a persistent failure of those sampled routes at the capture time; it does **not** identify the source of the project-level CPU-limit errors or prove that all routes/crawlers are unaffected.
 
-### D. Provider redirect safety failures
+### B. Concentrated provider redirect-failure burst
 
-The D1 terminal-outcome breakdown identifies 1,308 blocked Ticket Liquidator redirects with `impact_tracking_url_failed_safety_check`, versus 49 or fewer in each other observed failure category. The safety check is doing its protective job; the unanswered question is whether the upstream tracking URL contract or approved provider configuration changed. **Do not bypass or weaken the safety gate.** Next evidence is a non-mutating review of the affected provider's approved URL shape, release history, and aggregate failure trend before requesting narrowly scoped authority over any protected redirect/provider code.
+The D1 terminal-outcome breakdown identifies 1,308 blocked Ticket Liquidator redirects with `impact_tracking_url_failed_safety_check`, versus 49 or fewer in each other observed failure category. Almost all of the apparent excess is one five-minute 28 August burst: 1,089 failures from one anonymous request-key group, 1,094 source-attributed to `/`, and distinct click IDs per request. The existing self-identifying-crawler filter cannot classify a stock-browser user agent, so this is compatible with retry/automation traffic but does not prove it. **Do not bypass or weaken the safety gate, and do not treat the burst as a provider-contract failure.** Next evidence is aggregate request/error telemetry around comparable bursts and a non-mutating review of the small residual daily failure stream before requesting any scoped redirect/provider authority.
 
-### B. GA4 mirror completeness
+### C. GA4 mirror completeness
 
 The accessible GA4 event list has no current `outbound_click`, while the documented design says GA4 mirrors the legacy `provider_click` intent under that name. This may reflect low volume, event configuration, consent/ad-blocking, report scope, or a true emission problem. It does not overturn D1 as the source of truth.
 
@@ -128,7 +127,7 @@ The accessible GA4 event list has no current `outbound_click`, while the documen
 
 **Effect / confidence:** high measurement impact, **medium confidence** that the mirror needs investigation; it is not yet a confirmed tracking defect. **Next evidence:** use DebugView/Realtime with a controlled CTA click and inspect the existing GTM/Google-tag event configuration read-only; then reconcile the same interval against D1 counts.
 
-### C. Sitemap recency
+### D. Sitemap recency
 
 Search Console reports the sitemap was last read on 28 August and has 271 discovered URLs; the live sitemap now holds 311. This is a normal lag candidate, not a fault. Recheck after a valid deployment/ping cycle and compare coverage by URL class.
 
@@ -139,11 +138,10 @@ Search Console reports the sitemap was last read on 28 August and has 271 discov
 | Priority | Proposed PR / owner action | Impact / effort / risk | Scope and validation | Success measure | Prerequisites |
 |---|---|---|---|
 | P0 | **Agent:** diagnose CPU-limit errors and D1 event-integrity segmentation before using click rates. | High / medium / low | Read-only Cloudflare observability/D1 queries; route-template sampling. Do not edit protected runtime/writer code. | Failing route mix and error cause identified; post-filter date range/fields suitable for a valid conversion baseline. | Existing Cloudflare dashboard access. |
-| P0 | **Owner / agent:** review Ticket Liquidator's approved Impact tracking URL contract and failure trend. | High / medium / low | Non-mutating provider/release review first; retain redirect safety gate. | Explain or eliminate the `impact_tracking_url_failed_safety_check` block class. | Provider credentials/configuration scope only if evidence identifies a change. |
+| P0 | **Agent:** separate concentrated retry/automation bursts from the residual Ticket Liquidator safety-failure stream. | High / medium / low | Aggregate-only D1/observability analysis; retain the redirect safety gate. | A defensible conversion denominator and a residual provider-failure rate that can be reviewed independently. | Existing Cloudflare dashboard access. |
 | P0 | **Owner:** export GSC query×page and Page Indexing/Coverage for the same property/window. | High / low / low | No code change; save using the intake-contract filenames. | Map top comparison queries to canonical pages; separate excluded, crawled-not-indexed and indexed URLs. | Search Console export/API grant. |
 | P1 | **PR #831 — evidenced comparison-guide refinement:** narrow the broad three-provider guide so the dedicated Vivid Seats vs Ticketmaster guide owns exact two-provider intent. | Medium / low / low | Existing guide source plus required generated/client metadata; GitHub `test:mvp` passed. | Higher CTR and clearer query-to-page distribution over a predeclared 28-day comparison, with no ranking/cannibalisation regression. | Open review and merge decision. |
 | P1 | **PR 2 — verified roster/provider coverage:** process only validated upstream events and approved provider listings; prioritise D1-proven click demand with weak coverage. | High / high / medium | Normal verified data pipeline only; never hand-edit generated output. Validate `npm run test:providers` and `npm run test:mvp`. | More qualifying provider lanes and preserved provenance; no invented price/availability claims. | User approval; D1 report; normal data pipeline and provenance. |
-| P1 | **PR 3 — IndexNow key file:** publish the exact existing verification key via the standard deployment path, then run the controlled ping. | Low / low / low | Public key file only. Validate `npm run indexnow:ping:self-test`, then key URL returns 200 and run `npm run indexnow:ping`. | Script succeeds for supported engines. | User approval; confirm intended key/material; deployment scope. |
 | P2 | **Measurement validation:** validate GA4 mirror behaviour with a controlled CTA click and compare to D1. | High / medium / low | Console configuration/read-only review first; no automatic code/console change. | Documented expected difference between intent and server redirect; root cause if event is absent. | D1 access; read-only GTM/GA4 review. |
 
 Any code PR must be independently reviewable, include the relevant route/link/schema tests, and remain outside protected redirect/routing/metadata files unless an explicit scoped approval is supplied. There is no approved change to `functions/api/out.js`, `_middleware.js`, `[[path]].js`, `_route-metadata.js`, `public/_routes.json`, generated files, content catalogue, provider integrations, CSP, or Cloudflare settings.
@@ -162,8 +160,8 @@ Any code PR must be independently reviewable, include the relevant route/link/sc
 
 1. The focused Search Console inspection established the first narrow guide PR. A full query×page export remains needed for broader cannibalisation analysis.
 2. Impact is confirmed as a mixed TTC/social affiliate account. It must not be used as a TTC conversion measure until a TTC-specific campaign/filter or verified SubId reconciliation exists; do not enable SubId passthrough without Impact confirming the parameter.
-3. Please confirm the intended Ticket Liquidator Impact tracking URL contract only if the read-only provider/release review points to an upstream/configuration change; the current safety block must remain in place.
-4. PR #831 is open and GitHub's Prelaunch Validation run #824 succeeded after the evidence report was added. Runtime, data-pipeline and IndexNow work remain contingent on their evidence/deployment prerequisites.
+3. Please confirm the intended Ticket Liquidator Impact tracking URL contract only if the residual, non-burst failure stream points to an upstream/configuration change; the current safety block must remain in place.
+4. PR #831 is open and GitHub's Prelaunch Validation run #824 succeeded after the evidence report was added. Runtime and data-pipeline work remain contingent on their evidence/deployment prerequisites; IndexNow was reverified and submitted successfully on 2 September.
 
 ## Commands and validation record
 
@@ -178,4 +176,4 @@ node scripts/report-roster-forecast.mjs
 node scripts/verify-production-route-html.mjs
 ```
 
-`indexnow-ping.mjs` intentionally stopped at the missing public key-file check. The local commercial-funnel and Web Vitals wrappers were not substituted with synthetic data because local Wrangler remains unauthenticated; equivalent manual D1 reads were SELECT-only and are recorded above. Generated local audit outputs changed only because their audit scripts were run and are not proposed production edits.
+`indexnow-ping.mjs --dry-run` verified the live key and sitemap, then `indexnow-ping.mjs` submitted all 311 sitemap URLs with an HTTP 200 response. The local commercial-funnel and Web Vitals wrappers were not substituted with synthetic data because local Wrangler remains unauthenticated; equivalent manual D1 reads were SELECT-only and are recorded above. Generated local audit outputs changed only because their audit scripts were run and are not proposed production edits.

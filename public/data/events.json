@@ -4002,18 +4002,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107075187",
-        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-1-2026/event/107075187",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJl2ADs",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676870",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-1-2026/event/107075187"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",
@@ -6599,16 +6599,16 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "106954086",
-        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-1-9-2026/event/106954086",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AgZkG0Gkdgdgdb",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-1-9-2026/event/106954086"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bad-bunny-2026-barcelona-653666176",
@@ -16155,11 +16155,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071102",
-        "url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-1-2026/event/107071102",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -16168,7 +16168,7 @@
     "ticketmaster_discovery_event_id": "vv1AeZk8PGkdj_ywf",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-1-2026/event/107071102"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
@@ -26886,11 +26886,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107108090",
-        "url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-1-2026/event/107108090",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d6OS55N",
@@ -26898,7 +26898,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735041",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-1-2026/event/107108090"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6ov55i",

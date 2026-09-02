@@ -882,18 +882,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107075187",
-        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-1-2026/event/107075187",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJl2ADs",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676870",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-1-2026/event/107075187"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",

@@ -44,16 +44,18 @@ export const GUIDE_ROUTES = {
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, current prices, fees, delivery and buyer protection.",
     fullContent: true,
+    comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
-    lastmod: "2026-09-01"
+    lastmod: "2026-09-02"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
     h1: "How should I compare TicketNetwork and Ticketmaster?",
     description: "Compare TicketNetwork and Ticketmaster: who sells the ticket, who sets the price, what each guarantees, delivery timing, and the complete total at checkout.",
     fullContent: true,
+    comparisonProviders: ["ticketmaster","ticketnetwork"],
     datePublished: "2026-08-19",
-    lastmod: "2026-09-01"
+    lastmod: "2026-09-02"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",

@@ -483,6 +483,10 @@
         "lastChecked": "2026-07-13",
         "linkCheckedAt": "2026-08-31"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "seatgeek"
     ]
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
@@ -573,6 +577,10 @@
         "lastChecked": "2026-08-19",
         "linkCheckedAt": "2026-09-02"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "ticketnetwork"
     ]
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {

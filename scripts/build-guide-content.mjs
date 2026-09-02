@@ -141,7 +141,18 @@ const ALLOWED_COMPARISON_PROVIDERS = new Set([
   "ticket-liquidator",
   "stubhub-international"
 ]);
-const SUPPORTED_COMPARISON_PROVIDER_PAIRS = new Set(["ticketmaster|vivid-seats"]);
+// Pairs the runtime can actually render. Ticketmaster is always the first
+// entry: it is the unmonetized verification link the pair compares against.
+// Keep in step with GUIDE_PAIR_SECOND_PROVIDERS in functions/[[path]].js — a
+// pair listed here with no lane there renders nothing, and a lane there with no
+// pair here fails this validation.
+const SUPPORTED_COMPARISON_PROVIDER_PAIRS = new Set([
+  "ticketmaster|seatgeek",
+  "ticketmaster|vivid-seats",
+  "ticketmaster|ticketnetwork",
+  "ticketmaster|ticket-liquidator",
+  "ticketmaster|stubhub-international"
+]);
 
 // Route shapes a guide body may link to, as complete patterns. Guides link to
 // each other, to the artist index and to the comparison hub; city and venue
@@ -344,7 +355,11 @@ export function validateGuide(guide, context) {
       !SUPPORTED_COMPARISON_PROVIDER_PAIRS.has(guide.comparisonProviders.join("|"))
     ) {
       problems.push(
-        `${where}: comparison provider pair "${guide.comparisonProviders.join(" + ")}" has no runtime renderer (supported: ticketmaster + vivid-seats)`
+        `${where}: comparison provider pair "${guide.comparisonProviders.join(" + ")}" has no runtime renderer (supported: ${[
+          ...SUPPORTED_COMPARISON_PROVIDER_PAIRS
+        ]
+          .map((pair) => pair.replace("|", " + "))
+          .join(", ")})`
       );
     }
   }
@@ -963,8 +978,11 @@ function selfTest() {
   );
   assert(validProviderPair.length === 0, "an allowlisted two-provider comparison validates clean");
 
+  // Both slugs are allowlisted, but Ticketmaster is not the first entry, so no
+  // runtime lane renders it. (ticketmaster + seatgeek was the example here until
+  // the provider-pair module stopped being hard-gated to a single pair.)
   const unsupportedProviderPair = validateGuide(
-    baseGuide({ comparisonProviders: ["ticketmaster", "seatgeek"] }),
+    baseGuide({ comparisonProviders: ["seatgeek", "vivid-seats"] }),
     baseContext()
   );
   assert(unsupportedProviderPair.some((problem) => /has no runtime renderer/.test(problem)), "an allowlisted but unsupported provider pair fails");

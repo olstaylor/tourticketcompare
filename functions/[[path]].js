@@ -3575,18 +3575,52 @@ function safeTicketmasterGuideEventUrl(event) {
   } catch (error) { return null; }
 }
 
-export function guideProviderPairEligibility(events, env = {}) {
-  if (!isVividSeatsConfigured(env)) return [];
+// The second lane in a guide's provider pair. Ticketmaster is always the first
+// and is never listed here: it is the plain, unmonetized verification link, and
+// the pair means "the same event on the primary and on one approved lane".
+//
+// Each entry adds nothing to the gates a show card already applies — it names
+// the availability test for that lane and reuses that lane's own per-event
+// publishable + safe-URL test, so no gate is re-implemented for guides and none
+// can drift from the artist board. Adding a lane here is not enough on its own:
+// SUPPORTED_COMPARISON_PROVIDER_PAIRS in scripts/build-guide-content.mjs must
+// list the pair too, or the guide fails its build validation.
+const GUIDE_PAIR_SECOND_PROVIDERS = {
+  seatgeek: {
+    name: "SeatGeek",
+    available: (env) => isSeatGeekConfigured(env),
+    eventReady: (event) => seatGeekOutAvailable(event, true)
+  },
+  "vivid-seats": {
+    name: "Vivid Seats",
+    available: (env) => isVividSeatsConfigured(env),
+    eventReady: (event) => vividSeatsOutAvailable(event, true)
+  },
+  ...Object.fromEntries(
+    IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [
+      provider.slug,
+      {
+        name: provider.name,
+        available: (env) => isImpactMarketplaceConfigured(env, provider),
+        eventReady: (event) =>
+          Boolean(
+            providerEventPublishable(event, provider.slug) &&
+              safeImpactMarketplaceTicketUrl(event?.[provider.urlField], provider)
+          )
+      }
+    ])
+  )
+};
+
+export function guideProviderPairEligibility(events, env = {}, secondProvider = "vivid-seats") {
+  const lane = GUIDE_PAIR_SECOND_PROVIDERS[secondProvider];
+  if (!lane || !lane.available(env)) return [];
   return (events || [])
     .filter((event) => {
       const date = Date.parse(String(event?.datetime_iso || event?.dateTimeISO || ""));
       if (!Number.isFinite(date) || date < Date.now()) return false;
       return Boolean(
-        event?.id &&
-          safeTicketmasterGuideEventUrl(event) &&
-          eventLinkPublishable(event) &&
-          safeVividSeatsTicketUrl(event?.vividseats_url) &&
-          providerEventPublishable(event, "vivid-seats")
+        event?.id && safeTicketmasterGuideEventUrl(event) && eventLinkPublishable(event) && lane.eventReady(event)
       );
     })
     .sort(
@@ -3604,8 +3638,11 @@ function guideProviderPairHref(event, provider, guideSlug, position) {
 
 export function renderGuideProviderPair(route, events, env = {}) {
   const pair = Array.isArray(route?.comparisonProviders) ? route.comparisonProviders : [];
-  if (pair.length !== 2 || pair[0] !== "ticketmaster" || pair[1] !== "vivid-seats") return "";
-  const eligible = guideProviderPairEligibility(events, env);
+  if (pair.length !== 2 || pair[0] !== "ticketmaster") return "";
+  const secondProvider = pair[1];
+  const lane = GUIDE_PAIR_SECOND_PROVIDERS[secondProvider];
+  if (!lane) return "";
+  const eligible = guideProviderPairEligibility(events, env, secondProvider);
   const displayed = eligible.slice(0, 8);
   const guideSlug = route.path.split("/").at(-1);
   const calculatedAt = new Date().toISOString();
@@ -3627,8 +3664,8 @@ export function renderGuideProviderPair(route, events, env = {}) {
       const date = formatShowDateServer(event.datetime_iso || event.dateTimeISO, event.timezone);
       const location = [event.venue, event.city].map((value) => String(value || "").trim()).filter(Boolean).join(" · ");
       const ticketmasterHref = guideProviderPairHref(event, "ticketmaster", guideSlug, position);
-      const vividSeatsHref = guideProviderPairHref(event, "vivid-seats", guideSlug, position);
-      if (!ticketmasterHref || !vividSeatsHref) return "";
+      const secondHref = guideProviderPairHref(event, secondProvider, guideSlug, position);
+      if (!ticketmasterHref || !secondHref) return "";
       return `<article class="info-card guide-provider-pair-card" data-event-id="${escapeAttr(event.id)}"><h3>${anchor(
         artistName,
         `/artists/${artistSlug}`,
@@ -3638,13 +3675,19 @@ export function renderGuideProviderPair(route, events, env = {}) {
       )}" target="_blank" rel="${escapeAttr(outboundCtaRel(ticketmasterHref))}" data-cta-provider="ticketmaster" data-cta-artist="${escapeAttr(
         artistSlug
       )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Ticketmaster</a><a class="button button-primary" href="${escapeAttr(
-        vividSeatsHref
-      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(vividSeatsHref))}" data-cta-provider="vivid-seats" data-cta-artist="${escapeAttr(
+        secondHref
+      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(secondHref))}" data-cta-provider="${escapeAttr(
+        secondProvider
+      )}" data-cta-artist="${escapeAttr(
         artistSlug
-      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Vivid Seats</a></div></article>`;
+      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">${escapeHtml(
+        `Check ${lane.name}`
+      )}</a></div></article>`;
     })
     .join("");
-  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>These are the next reviewed dates with a safe, event-specific link for both Ticketmaster and Vivid Seats. Open both and match the ticket details and checkout total yourself.</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
+  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>${escapeHtml(
+    `These are the next reviewed dates with a safe, event-specific link for both Ticketmaster and ${lane.name}. Open both and match the ticket details and checkout total yourself.`
+  )}</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {

@@ -1448,26 +1448,89 @@ function cityShowsByVenue(city) {
   return order.map((slug) => byVenue.get(slug));
 }
 
-function renderCityShowGroups(city, indexableArtistSlugs = new Set(), indexableVenueSlugs = new Set()) {
+// Within one venue on a city page, group that venue's shows by artist so each
+// card carries its artist attribution. The venue template groups by artist for
+// the same reason; a city page needs both levels because it mixes artists and
+// venues, and the show card itself names neither.
+function cityVenueShowsByArtist(shows) {
+  const order = [];
+  const byArtist = new Map();
+  for (const show of shows) {
+    if (!byArtist.has(show.artist_slug)) {
+      byArtist.set(show.artist_slug, { slug: show.artist_slug, name: show.artist_name || show.artist_slug, shows: [] });
+      order.push(show.artist_slug);
+    }
+    byArtist.get(show.artist_slug).shows.push(show);
+  }
+  return order.map((slug) => byArtist.get(slug));
+}
+
+// City pages render the same gated show card as the artist and venue boards.
+// Before this they rendered a date/artist list only, so a page titled "concerts
+// in X" — whose own indexability gate requires at least one show with a
+// publishable ticket destination — could not lead to that destination without a
+// second hop. Reusing renderShowCardServerHtml rather than laying out buttons
+// here is deliberate: the CTA gates, price-snapshot disclosure, /api/out
+// tracking and analytics attributes stay identical to every other board, and
+// cannot drift out of sync with them.
+function renderCityShowGroups(
+  city,
+  indexableArtistSlugs = new Set(),
+  indexableVenueSlugs = new Set(),
+  events = [],
+  { seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {} } = {}
+) {
+  const eventsById = new Map(
+    (Array.isArray(events) ? events : [])
+      .filter((event) => event && event.id)
+      .map((event) => [String(event.id), event])
+  );
   return cityShowsByVenue(city)
     .map((group) => {
       const venueHeading = indexableVenueSlugs.has(group.slug)
         ? anchor(group.name, `/venues/${group.slug}`)
         : escapeHtml(group.name);
-      const items = group.shows
-        .map((show) => {
-          const date = formatShowDateServer(show.datetime_iso, show.timezone) || "Date shown on the artist page";
-          const artistLabel = show.artist_name || show.artist_slug;
-          const artist = indexableArtistSlugs.has(show.artist_slug)
-            ? anchor(artistLabel, `/artists/${show.artist_slug}#${showAnchorId(show)}`)
-            : escapeHtml(artistLabel);
-          const eventLabel = show.event_name || show.tour_name;
-          return `<li><time datetime="${escapeAttr(show.datetime_iso)}">${escapeHtml(date)}</time> — ${artist}${
-            eventLabel ? ` <span class="muted">(${escapeHtml(eventLabel)})</span>` : ""
-          }</li>`;
+      const artistBlocks = cityVenueShowsByArtist(group.shows)
+        .map((artistGroup) => {
+          const isIndexableArtist = indexableArtistSlugs.has(artistGroup.slug);
+          const cards = artistGroup.shows
+            .map((show) => {
+              const sourceEvent = eventsById.get(String(show.id || ""));
+              const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], artistGroup.slug, 1)[0] : null;
+              if (!fullShow) {
+                // Never drop the date: the row is derived from a reviewed record,
+                // and the internal-link audit requires one dated listing per
+                // upcoming show. Fall back to the listing this template used
+                // before it rendered cards.
+                const date = formatShowDateServer(show.datetime_iso, show.timezone) || "Date shown on the artist page";
+                return `<p class="show-card-fallback"><time datetime="${escapeAttr(show.datetime_iso)}">${escapeHtml(
+                  date
+                )}</time></p>`;
+              }
+              // No venue-run index: "Night X of Y" counts one artist's stand at
+              // one venue, which is an artist-board fact. The venue template
+              // passes none that resolves either.
+              return renderShowCardServerHtml(
+                fullShow,
+                seatGeekAvailable,
+                isIndexableArtist,
+                vividSeatsAvailable,
+                artistGroup.name,
+                marketplaceAvailability,
+                artistGroup.slug
+              );
+            })
+            .join("");
+          // The heading keeps the deep link into the artist board that the list
+          // version carried on every row, anchored at this artist's first date
+          // at this venue.
+          const heading = isIndexableArtist
+            ? anchor(artistGroup.name, `/artists/${artistGroup.slug}#${showAnchorId(artistGroup.shows[0])}`)
+            : escapeHtml(artistGroup.name);
+          return `<h4 class="city-artist-heading">${heading}</h4><div class="card-grid show-card-grid venue-show-cards">${cards}</div>`;
         })
         .join("");
-      return `<article class="nested-panel"><h3>${venueHeading}</h3><ul class="guide-link-list">${items}</ul></article>`;
+      return `<article class="nested-panel"><h3>${venueHeading}</h3>${artistBlocks}</article>`;
     })
     .join("");
 }
@@ -1995,7 +2058,7 @@ function renderLocationGuideLinks() {
   return LOCATION_GUIDE_LINKS.map(([label, path]) => anchor(label, path, "button button-secondary")).join("");
 }
 
-export function renderCityPageBody(route, indexableVenueSlugs = new Set()) {
+export function renderCityPageBody(route, indexableVenueSlugs = new Set(), events = [], options = {}) {
   const city = route.city;
   const yearLabel = cityYearLabel(city);
   const indexableArtistSlugs = new Set(route.indexableArtistSlugs || []);
@@ -2029,10 +2092,12 @@ export function renderCityPageBody(route, indexableVenueSlugs = new Set()) {
     )}${yearLabel ? ` for ${escapeHtml(yearLabel)}` : ""}</h2></div>${renderCityShowGroups(
       city,
       indexableArtistSlugs,
-      indexableVenueSlugs
+      indexableVenueSlugs,
+      events,
+      options
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
       city.city
-    )} concert</h2><p>Open the artist page for a date above to reach its ticket links and any recorded prices for that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+    )} concert</h2><p>Each date above lists the ticket sites we have checked for that exact show. Open the artist page for the full board and any recorded prices. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
       "All cities",
       "/cities",
       "button button-secondary"
@@ -3947,7 +4012,13 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const indexableVenueSlugs = new Set(
       deriveVenues(events).filter((venue) => venue.indexable).map((venue) => venue.slug)
     );
-    return renderCityPageBody(route, indexableVenueSlugs);
+    return renderCityPageBody(route, indexableVenueSlugs, events, {
+      seatGeekAvailable: isSeatGeekConfigured(env),
+      vividSeatsAvailable: isVividSeatsConfigured(env),
+      marketplaceAvailability: Object.fromEntries(
+        IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
+      )
+    });
   }
 
   if (route.type === "venues-index") {

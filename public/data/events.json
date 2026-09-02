@@ -16141,11 +16141,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668635",
-        "url": "https://www.ticketnetwork.com/en/p/7668635",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7668635",
@@ -16166,7 +16166,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv1AeZk8PGkdj_ywf",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668635",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668635/Bruno-Mars-tickets-Tue-Sep-1-2026-Lincoln-Financial-Field",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-1-2026/event/107071102"
   },

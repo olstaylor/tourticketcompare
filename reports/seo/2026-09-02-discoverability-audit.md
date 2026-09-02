@@ -114,6 +114,8 @@ A low-rate check of `/artists/bruno-mars/tickets/foxborough-united-states` retur
 
 **Effect / confidence:** potentially high if persistent for crawlers or buyers; **high confidence** that the project currently has CPU-limit failures, but **low confidence** in the failing route mix/cause. **Next evidence:** collect Workers request/error observations by route template and a low-rate, cache-aware route sample; compare 5xx rate and response time with Search Console crawl/index coverage. Do not increase crawl demand or submit broad URL batches until that is understood.
 
+**Update, 2 September:** the earlier Bruno Mars/Foxborough sample now loads with self-canonical, `index,follow` metadata and ticket destinations. A fresh low-rate sample of its artist, city, venue, artist-city and comparison-guide templates likewise loaded with their expected self-canonicals, `index,follow` directives and H1s. This rules out a persistent failure of those sampled routes at the capture time; it does **not** identify the source of the project-level CPU-limit errors or prove that all routes/crawlers are unaffected.
+
 ### D. Provider redirect safety failures
 
 The D1 terminal-outcome breakdown identifies 1,308 blocked Ticket Liquidator redirects with `impact_tracking_url_failed_safety_check`, versus 49 or fewer in each other observed failure category. The safety check is doing its protective job; the unanswered question is whether the upstream tracking URL contract or approved provider configuration changed. **Do not bypass or weaken the safety gate.** Next evidence is a non-mutating review of the affected provider's approved URL shape, release history, and aggregate failure trend before requesting narrowly scoped authority over any protected redirect/provider code.
@@ -161,7 +163,7 @@ Any code PR must be independently reviewable, include the relevant route/link/sc
 1. The focused Search Console inspection established the first narrow guide PR. A full query×page export remains needed for broader cannibalisation analysis.
 2. Impact is confirmed as a mixed TTC/social affiliate account. It must not be used as a TTC conversion measure until a TTC-specific campaign/filter or verified SubId reconciliation exists; do not enable SubId passthrough without Impact confirming the parameter.
 3. Please confirm the intended Ticket Liquidator Impact tracking URL contract only if the read-only provider/release review points to an upstream/configuration change; the current safety block must remain in place.
-4. PR #831 is open with a successful full GitHub validation. Runtime, data-pipeline and IndexNow work remain contingent on their evidence/deployment prerequisites.
+4. PR #831 is open and GitHub's Prelaunch Validation run #824 succeeded after the evidence report was added. Runtime, data-pipeline and IndexNow work remain contingent on their evidence/deployment prerequisites.
 
 ## Commands and validation record
 

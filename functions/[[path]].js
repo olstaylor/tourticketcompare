@@ -473,6 +473,8 @@ async function routeForPath(pathname, env) {
           `Every upcoming ${artist.name} date we've verified, with the ticket links we've checked for each one.`
         : `No verified upcoming ${artist.name} dates are listed right now. See what we check before a date is published, and get told when new ones land.`,
       artist: enrichedArtist,
+      catalog,
+      events: artistEvents,
       breadcrumb: [
         { name: "Artists", path: "/artists" },
         { name: artist.name, path }
@@ -532,6 +534,7 @@ async function routeForPath(pathname, env) {
         description: artistCityDescription(enrichedArtist, artistCity),
         artist: enrichedArtist,
         artistCity,
+        catalog,
         events: cityEvents,
         otherCities,
         cityIndexable,
@@ -4504,7 +4507,7 @@ export async function onRequest(context) {
     return Response.redirect(new URL(route.location, url.origin).toString(), 301);
   }
 
-  const catalog = await loadCatalog(env);
+  const catalog = route.catalog || await loadCatalog(env);
   const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
   const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);

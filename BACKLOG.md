@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-08-21 (content); facts corrected 2026-08-23. Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
+Last updated: 2026-08-21 (content); facts corrected 2026-09-02. Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
 
 ## Active priorities (in order)
 
@@ -37,33 +37,36 @@ The other six of that batch — **karol-g, foo-fighters, metallica, my-chemical-
 
 ### 4. Routine data hygiene (recurring)
 
-- **`needs_recheck` provenance:** 81 events retain this historical confidence state (fact corrected 2026-08-23; was 46) (per-artist breakdown: `PROJECT_STATUS.md` → Per-artist status). It is no longer a manual CTA queue: stored destinations go through the runtime host, protocol, event-ID, and redirect checks automatically; rows without a usable destination remain suppressed.
+- **`needs_recheck` provenance:** 151 events retain this historical confidence state (fact corrected 2026-09-02; was 81 on 2026-08-23, 46 before that) (per-artist breakdown: `PROJECT_STATUS.md` → Per-artist status). It is no longer a manual CTA queue: stored destinations go through the runtime host, protocol, event-ID, and redirect checks automatically; rows without a usable destination remain suppressed. **Fact added 2026-09-02:** 22 of the 151 have no independently verified resale provider, and **15 of those are upcoming dates rendering no ticket CTA at all** (up from 6 on 2026-08-24). Nine sit on artists promoted in the 2026-08-26 batch, so resale provenance is lagging the new roster — see item 2 for the sanctioned verification path.
 - **Blank tour labels:** the remaining validator warning is expected for the JAY-Z Inglewood/London rows (owner-accepted blank), John Summit's separate Lollapalooza aftershow (deliberately unlabelled), and a handful of Bad Bunny/Jelly Roll/Post Malone rows needing event-specific human confirmation. Never infer tour names from URL slugs.
 - **Tombstone dedup deletions:** when deleting a row from `events.json` that Ticketmaster still lists, add its ids and/or venue/date to `data/deleted-events.json` in the same change (see `docs/PROVIDER_SYNC.md` and `docs/OPERATIONS.md` → Known incidents).
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
-### 5. Unvalidated-PR-head guard (added 2026-08-26, agent-authored at owner request)
+### 5. Unvalidated-PR-head guard — **done 2026-09-01** (fact updated 2026-09-02)
 
-**Problem, observed twice.** GitHub sometimes creates no `synchronize` run when a PR receives a later push, so the branch stays validated only at the commit the PR was opened on. `.github/workflows/prelaunch-validation.yml` already documents the first occurrence (2026-08-03/04) in its own comments, and that is why its `workflow_dispatch` + `ref` escape hatch exists.
+Shipped and verified; kept here only until the owner confirms, then delete this section.
 
-It recurred on 2026-08-26 during PR #774: pushing `cce8f9d` and then `3d79cc9` produced no run for the head commit, while two earlier runs (733, 734) sat permanently `queued` through an Actions incident and never started. The PR sat with only a Cloudflare Pages check for roughly 50 minutes while appearing merely "pending".
+`scripts/check-pr-validation-heads.mjs` lists open non-draft PRs targeting `main`, matches Prelaunch Validation runs
+on `head_sha` (never on "the PR has a green run attached", per the third occurrence), classifies each head as
+success / missing / failed / stuck-beyond-30-minutes, and reports through the rolling `automation:prelaunch-validation`
+issue. It never reruns, approves, merges, or changes a PR — the fail-safe the original note required.
 
-**A third occurrence, on this task's own PR (#775), exposed a worse variant.** The branch was restarted from `main` and force-pushed to `e7356af`; no validation run was created for that head. GitHub instead associated run 728 with the PR — a **`success` run from `ab6a898`**, the previous, now-orphaned head that the force-push discarded. So the PR did not merely look "pending" with a run missing; it displayed a **green Prelaunch Validation tick that had validated different code**. That state proved **transient** — a later push to `921c5f5` detached run 728, leaving the PR with no validation run at all — which makes it harder to catch, not easier: a false green appears for a window and then clears, so whether anyone sees it depends on when they look. Any guard must therefore compare a run's `head_sha` against the PR's current head, because the presence of a green run on a PR is not evidence that its head was validated.
+PR #797 (merged 2026-09-01) went beyond the suggested shape: the guard now also fires on `pull_request_target`
+lifecycle events and on every completed Prelaunch Validation run, so a missing run surfaces in minutes rather than
+waiting on a cron that had been arriving hours late. Two defects were fixed before that merged — `cancel-in-progress`
+was letting any new PR event kill the running repository-wide scan, and a `synchronize` event reached the guard before
+GitHub had registered the run it triggers, flagging every freshly pushed head as unvalidated.
 
-**Why the existing hatch is not enough.** `workflow_dispatch` only helps once a human notices the run is missing, and nothing surfaces the gap. There is no signal distinguishing "CI still running" from "CI will never run on this commit".
-
-**Suggested shape** (not designed or approved — scope before building):
-
-- A scheduled check that lists open PRs and flags any whose head SHA has no Prelaunch Validation run, or whose newest run has been `queued` beyond a threshold. Match on `head_sha`, never on "the PR has a green run attached" — the third occurrence showed GitHub attaching a passing run from a discarded commit.
-- Report through the existing rolling-issue pattern used by `automation:daily-audit` / `automation:data-sync` rather than a new notification channel.
-- Must fail safe: a missing run is a *warning to a human*, never an automatic merge, re-run, or approval.
-
-**Notes for whoever picks this up.** Two traps hit on 2026-08-26: `actions/checkout` resolves the workflow's `ref` input as a branch or tag, so an **abbreviated SHA does not resolve** — pass a full 40-character SHA or leave it empty; and `workflow_dispatch` runs do **not** attach a check run to the PR, so any watcher must inspect workflow runs by `head_sha`, not the PR's check runs.
+Both traps recorded in the original note still hold and are respected: `actions/checkout` needs a full 40-character
+SHA, and `workflow_dispatch` runs attach no check run to the PR.
 
 ## Recently completed
 
 Closed on GitHub; kept as a short audit trail only. Full detail lives in the linked PRs and git history.
 
+- Unvalidated-PR-head guard — exact-head validation check, event-driven (2026-09-01, PR #797)
+- Phase 3 quality pass — mobile/a11y, guide and blog content trim, empty artist pages (2026-09-01, PRs #821/#822/#823/#824/#828)
+- GA4 funnel destination fixed and gated to the canonical host (2026-09-01, PR #796)
 - Roster growth batch of ten — shells + promote with verified CTAs (2026-08-26, PR #774; supersedes #771)
 - Truthful artist link copy — links note gated on editorial status, hover-to-inspect FAQ replaced across all 50 artists (2026-08-26, PR #772)
 - Full-board price coverage + honest unavailable state (2026-08-04, PRs #646/#657)

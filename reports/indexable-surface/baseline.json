@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T00:54:49.492Z",
+  "generated_at": "2026-09-02T08:23:02.995Z",
   "note": "Anchor for scripts/audit-indexable-surface.mjs --check. Re-anchor deliberately (npm run audit:indexable-surface:baseline) whenever a route-usefulness policy change is intended; see docs/ROUTE_INDEXABILITY_POLICY.md.",
   "policy": {
     "city_min_shows": 4,
@@ -15,39 +15,31 @@
     },
     "index": {
       "rendered": 5,
-      "indexable": 5
+      "indexable": 4
     },
     "static": {
-      "rendered": 7,
-      "indexable": 7
+      "rendered": 9,
+      "indexable": 9
     },
     "guide": {
-      "rendered": 17,
-      "indexable": 17
-    },
-    "blog-post": {
-      "rendered": 3,
-      "indexable": 3
-    },
-    "blog-tag": {
-      "rendered": 3,
-      "indexable": 2
-    },
-    "artist": {
-      "rendered": 40,
+      "rendered": 18,
       "indexable": 18
     },
+    "artist": {
+      "rendered": 50,
+      "indexable": 42
+    },
     "city": {
-      "rendered": 81,
-      "indexable": 37
+      "rendered": 173,
+      "indexable": 56
     },
     "venue": {
-      "rendered": 108,
-      "indexable": 45
+      "rendered": 299,
+      "indexable": 75
     },
     "artist-city": {
-      "rendered": 241,
-      "indexable": 92
+      "rendered": 575,
+      "indexable": 106
     }
   }
 }

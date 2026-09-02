@@ -1493,10 +1493,21 @@ function renderCityShowGroups(
       const artistBlocks = cityVenueShowsByArtist(group.shows)
         .map((artistGroup) => {
           const isIndexableArtist = indexableArtistSlugs.has(artistGroup.slug);
-          const cards = artistGroup.shows
-            .map((show) => {
+          // "Night X of Y at this venue" counts one artist's stand at one venue,
+          // so the index is built per artist from the resolved cards — the same
+          // shape the venue template uses. Derived rows cannot be numbered
+          // directly: venueRunIndex reads `venue`, `city` and `dateTimeISO`,
+          // which only the enriched show carries.
+          const resolved = artistGroup.shows.map((show) => ({
+            show,
+            fullShow: (() => {
               const sourceEvent = eventsById.get(String(show.id || ""));
-              const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], artistGroup.slug, 1)[0] : null;
+              return sourceEvent ? futureShowsForArtist([sourceEvent], artistGroup.slug, 1)[0] : null;
+            })()
+          }));
+          const venueRuns = venueRunIndex(resolved.map((entry) => entry.fullShow).filter(Boolean));
+          const cards = resolved
+            .map(({ show, fullShow }) => {
               if (!fullShow) {
                 // Never drop the date: the row is derived from a reviewed record,
                 // and the internal-link audit requires one dated listing per
@@ -1507,9 +1518,6 @@ function renderCityShowGroups(
                   date
                 )}</time></p>`;
               }
-              // No venue-run index: "Night X of Y" counts one artist's stand at
-              // one venue, which is an artist-board fact. The venue template
-              // passes none that resolves either.
               return renderShowCardServerHtml(
                 fullShow,
                 seatGeekAvailable,
@@ -1517,7 +1525,8 @@ function renderCityShowGroups(
                 vividSeatsAvailable,
                 artistGroup.name,
                 marketplaceAvailability,
-                artistGroup.slug
+                artistGroup.slug,
+                venueRuns
               );
             })
             .join("");
@@ -1995,7 +2004,6 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
 }
 
 function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}) {
-  const venueRuns = venueRunIndex(venue.shows);
   const eventsById = new Map(
     (Array.isArray(events) ? events : [])
       .filter((event) => event && event.id)
@@ -2003,23 +2011,33 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
   );
   return venueShowsByArtist(venue)
     .map((group) => {
-      const cards = group.shows
+      // Resolve the group's cards before numbering them. venueRunIndex reads
+      // `venue` and `city` off each show and sorts on `dateTimeISO`, none of
+      // which the derived location rows carry — passing venue.shows returned an
+      // empty index, so the chip could never render on a venue page. It also
+      // has to be built per artist: the index keys on venue+city alone, so one
+      // built from every show at this venue would number three artists' dates as
+      // a single stand.
+      const groupShows = group.shows
         .map((show) => {
           const sourceEvent = eventsById.get(show.id);
-          const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], group.slug, 1)[0] : null;
-          return fullShow
-            ? renderShowCardServerHtml(
-                fullShow,
-                seatGeekAvailable,
-                indexableArtistSlugs.has(group.slug),
-                vividSeatsAvailable,
-                group.name,
-                marketplaceAvailability,
-                group.slug,
-                venueRuns
-              )
-            : "";
+          return sourceEvent ? futureShowsForArtist([sourceEvent], group.slug, 1)[0] : null;
         })
+        .filter(Boolean);
+      const venueRuns = venueRunIndex(groupShows);
+      const cards = groupShows
+        .map((fullShow) =>
+          renderShowCardServerHtml(
+            fullShow,
+            seatGeekAvailable,
+            indexableArtistSlugs.has(group.slug),
+            vividSeatsAvailable,
+            group.name,
+            marketplaceAvailability,
+            group.slug,
+            venueRuns
+          )
+        )
         .join("");
       return `<article class="nested-panel"><h3>${anchor(
         `${group.name} at ${venue.venue}`,

@@ -99,6 +99,8 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 **Evidence:** read-only D1 queries for 4 June–2 September show 22,771 `outbound_click` records but only 6,144 `outbound_attempt` records, despite the documented attempt-before-terminal contract. Affiliate click rows also lack useful landing attribution at high volume. The Cloudflare Pages dashboard shows 228 production errors in the last 24 hours, all `Exceeded CPU Time Limits`, and no script-thrown exceptions.
 
+**Update, 2 September (current D1 check):** an aggregate-only `SELECT` over the latest 24 hours returned **929** `outbound_attempt`, **899** `outbound_click`, and **30** `outbound_blocked` rows: attempts exactly equal the two terminal outcomes. The hourly aggregate likewise showed normal attempt/click pairing, apart from blocks. This confirms that the current bounded stream is internally consistent; it does not reconcile the 90-day historical mismatch, supply organic landing attribution, or make a historical conversion-rate baseline valid.
+
 **Controlled by:** D1-backed `analytics_events`, `functions/api/out.js` (protected, authoritative writer), `scripts/report-commercial-funnel.mjs`, and `scripts/report-affiliate-performance.mjs`.
 
 **Effect / confidence:** blocks conversion-rate or page-winner decisions until the event history is segmented and reconciled; **high confidence** in the inconsistency, **low confidence** in its root cause. GA4 and mixed-account Impact cannot substitute for a valid first-party denominator.

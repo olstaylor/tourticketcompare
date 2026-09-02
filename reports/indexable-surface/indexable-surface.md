@@ -1,13 +1,13 @@
 # Indexable-surface audit
 
-Generated: 2026-09-01T09:12:24.111Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-09-02T14:15:17.563Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
-- rendered routes: 1131
-- indexable: 313
-- non-indexable: 818
-- stored baseline indexable: 227 (+86)
+- rendered routes: 1130
+- indexable: 311
+- non-indexable: 819
+- stored baseline indexable: 311 (+0)
 
 ## Routes by type
 
@@ -20,7 +20,7 @@ Generated: 2026-09-01T09:12:24.111Z (read-only, rendered in-process — no live 
 | artist | 50 | 42 | 8 | 84% |
 | city | 173 | 56 | 117 | 32% |
 | venue | 299 | 75 | 224 | 25% |
-| artist-city | 576 | 108 | 468 | 19% |
+| artist-city | 575 | 106 | 469 | 18% |
 
 ## Reasons for exclusion
 
@@ -32,32 +32,30 @@ Generated: 2026-09-01T09:12:24.111Z (read-only, rendered in-process — no live 
 | city | below_artist_threshold | 83 |
 | venue | below_show_threshold | 218 |
 | venue | below_artist_threshold | 182 |
-| artist-city | below_show_threshold | 468 |
+| artist-city | below_show_threshold | 469 |
 | index | editorial_or_static_route | 1 |
 
 ## Losing indexability within 14 days
 
 | Route | Type | Last tracked show | Days left | Why |
 |---|---|---|---|---|
-| /artists/bruno-mars/tickets/philadelphia-united-states | artist-city | 2026-09-02 | 2 | runs_out_of_shows |
-| /artists/tame-impala/tickets/seattle-united-states | artist-city | 2026-09-03 | 2 | runs_out_of_shows |
-| /artists/jay-z/tickets/london-united-kingdom | artist-city | 2026-09-05 | 4 | runs_out_of_shows |
-| /artists/ed-sheeran/tickets/east-rutherford-united-states | artist-city | 2026-09-05 | 5 | runs_out_of_shows |
-| /artists/bruno-mars/tickets/foxborough-united-states | artist-city | 2026-09-06 | 6 | runs_out_of_shows |
-| /artists/bts/tickets/inglewood-united-states | artist-city | 2026-09-07 | 6 | runs_out_of_shows |
-| /artists/karol-g/tickets/el-paso-united-states | artist-city | 2026-09-07 | 6 | runs_out_of_shows |
-| /artists/tame-impala/tickets/vancouver-canada | artist-city | 2026-09-07 | 6 | runs_out_of_shows |
-| /artists/bruno-mars/tickets/tampa-united-states | artist-city | 2026-09-13 | 13 | runs_out_of_shows |
-| /artists/charli-xcx/tickets/brooklyn-united-states | artist-city | 2026-09-15 | 15 | falls_below_threshold |
-| /cities/east-rutherford-united-states | city | 2026-09-18 | 18 | falls_below_threshold |
-| /venues/metlife-stadium-east-rutherford | venue | 2026-09-18 | 18 | falls_below_threshold |
-| /venues/alamodome-san-antonio | venue | 2026-09-24 | 23 | falls_below_threshold |
-| /cities/san-antonio-united-states | city | 2026-11-07 | 67 | falls_below_threshold |
-| /venues/raymond-james-stadium-tampa | venue | 2026-11-07 | 68 | falls_below_threshold |
-| /cities/el-paso-united-states | city | 2027-01-31 | 152 | falls_below_threshold |
-| /cities/indianapolis-united-states | city | 2027-03-26 | 207 | falls_below_threshold |
-| /venues/lincoln-financial-field-philadelphia | venue | 2027-04-24 | 236 | falls_below_threshold |
-| /venues/tottenham-hotspur-stadium-london | venue | 2027-07-06 | 308 | falls_below_threshold |
+| /artists/ed-sheeran/tickets/east-rutherford-united-states | artist-city | 2026-09-05 | 3 | runs_out_of_shows |
+| /artists/jay-z/tickets/london-united-kingdom | artist-city | 2026-09-05 | 3 | runs_out_of_shows |
+| /artists/bruno-mars/tickets/foxborough-united-states | artist-city | 2026-09-06 | 4 | runs_out_of_shows |
+| /artists/karol-g/tickets/el-paso-united-states | artist-city | 2026-09-07 | 4 | runs_out_of_shows |
+| /artists/tame-impala/tickets/vancouver-canada | artist-city | 2026-09-07 | 4 | runs_out_of_shows |
+| /artists/bts/tickets/inglewood-united-states | artist-city | 2026-09-07 | 5 | runs_out_of_shows |
+| /artists/bruno-mars/tickets/tampa-united-states | artist-city | 2026-09-13 | 11 | runs_out_of_shows |
+| /artists/charli-xcx/tickets/brooklyn-united-states | artist-city | 2026-09-15 | 13 | runs_out_of_shows |
+| /cities/east-rutherford-united-states | city | 2026-09-18 | 16 | falls_below_threshold |
+| /venues/metlife-stadium-east-rutherford | venue | 2026-09-18 | 16 | falls_below_threshold |
+| /venues/alamodome-san-antonio | venue | 2026-09-24 | 21 | falls_below_threshold |
+| /cities/san-antonio-united-states | city | 2026-11-07 | 65 | falls_below_threshold |
+| /venues/raymond-james-stadium-tampa | venue | 2026-11-07 | 66 | falls_below_threshold |
+| /cities/el-paso-united-states | city | 2027-01-31 | 151 | falls_below_threshold |
+| /cities/indianapolis-united-states | city | 2027-03-26 | 205 | falls_below_threshold |
+| /venues/lincoln-financial-field-philadelphia | venue | 2027-04-24 | 234 | falls_below_threshold |
+| /venues/tottenham-hotspur-stadium-london | venue | 2027-07-06 | 307 | falls_below_threshold |
 
 `runs_out_of_shows` = the route's last tracked date passes. `falls_below_threshold` = the route keeps future dates but drops under a count gate, which is why this section re-runs the real gates at the horizon rather than looking at the last show date.
 
@@ -67,6 +65,7 @@ Generated: 2026-09-01T09:12:24.111Z (read-only, rendered in-process — no live 
 
 ## Indexable routes with no future events
 
+- /artists/ariana-grande
 - /artists/bad-bunny
 - /artists/beyonce
 - /artists/in-flames
@@ -81,10 +80,10 @@ Generated: 2026-09-01T09:12:24.111Z (read-only, rendered in-process — no live 
 
 | Routes | Share | Pattern |
 |---|---|---|
-| 107 | 34.2% | `{} Tickets in {} | Compare Prices` |
-| 73 | 23.3% | `{} Concerts in {} | Tickets` |
-| 56 | 17.9% | `Concerts in {} | Upcoming Shows & Tickets` |
-| 41 | 13.1% | `{} Tickets & Tour Dates | TourTicketCompare` |
+| 105 | 33.8% | `{} Tickets in {} | Compare Prices` |
+| 73 | 23.5% | `{} Concerts in {} | Tickets` |
+| 56 | 18% | `Concerts in {} | Upcoming Shows & Tickets` |
+| 41 | 13.2% | `{} Tickets & Tour Dates | TourTicketCompare` |
 | 1 | 0.3% | `Compare Concert Tickets & Tour Dates | TourTicketCompare` |
 | 1 | 0.3% | `Compare Concert Ticket Prices by Site | TourTicketCompare` |
 | 1 | 0.3% | `Artists | TourTicketCompare` |
@@ -105,30 +104,24 @@ Generated: 2026-09-01T09:12:24.111Z (read-only, rendered in-process — no live 
 
 ## Change against the stored baseline
 
-Baseline generated 2026-08-01T00:54:49.492Z.
+Baseline generated 2026-09-02T08:23:02.995Z.
 
 | Type | Baseline | Same gates @ baseline date | Now | Clock | Residual | Classification |
 |---|---|---|---|---|---|---|
 | home | 1/1 | 1/1 | 1/1 | +0 | +0 (tol 3) | unchanged |
-| index | 5/5 | 4/5 | 4/5 | +0 | -1 (tol 3) | inventory-decay |
-| static | 7/7 | 9/9 | 9/9 | +0 | +2 (tol 3) | inventory-growth |
-| guide | 17/17 | 18/18 | 18/18 | +0 | +1 (tol 3) | inventory-growth |
-| blog-post | 3/3 | 0/0 | 0/0 | +0 | -3 (tol 3) | inventory-decay |
-| blog-tag | 2/3 | 0/0 | 0/0 | +0 | -2 (tol 3) | inventory-decay |
-| artist | 18/40 | 42/50 | 42/50 | +0 | +24 (tol 3) | unexplained-growth |
-| city | 37/81 | 57/174 | 56/173 | -1 | +20 (tol 4) | unexplained-growth |
-| venue | 45/108 | 79/307 | 75/299 | -4 | +34 (tol 5) | unexplained-growth |
-| artist-city | 92/241 | 123/605 | 108/576 | -15 | +31 (tol 10) | unexplained-growth |
+| index | 4/5 | 4/5 | 4/5 | +0 | +0 (tol 3) | unchanged |
+| static | 9/9 | 9/9 | 9/9 | +0 | +0 (tol 3) | unchanged |
+| guide | 18/18 | 18/18 | 18/18 | +0 | +0 (tol 3) | unchanged |
+| artist | 42/50 | 42/50 | 42/50 | +0 | +0 (tol 5) | unchanged |
+| city | 56/173 | 56/173 | 56/173 | +0 | +0 (tol 6) | unchanged |
+| venue | 75/299 | 75/299 | 75/299 | +0 | +0 (tol 8) | unchanged |
+| artist-city | 106/575 | 106/575 | 106/575 | +0 | +0 (tol 11) | unchanged |
 
 **Clock** is what the calendar alone accounts for: the same gates re-run over the same event data at the baseline's timestamp versus now. **Residual** is everything left over — a code, gate, or data change. `inventory-decay` / `inventory-growth` are expected. `structural` (residual loss beyond tolerance) fails `--check`; `unexplained-growth` only warns, because an artist batch or a big discovery run produces it legitimately.
 
 ## Warnings (non-blocking)
 
-- artist: 24 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.
-- city: 20 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 4). Expected after an artist batch or a large discovery run.
-- venue: 34 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.
-- artist-city: 31 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 10). Expected after an artist batch or a large discovery run.
-- indexable surface moved +37.9% against the stored baseline (227 -> 313) with no structural change detected. Expected if a tour ended or a large batch of dates landed; investigate otherwise.
+- none
 
 ## Problems
 

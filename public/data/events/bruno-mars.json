@@ -1941,11 +1941,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071102",
-        "url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-1-2026/event/107071102",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -1954,7 +1954,7 @@
     "ticketmaster_discovery_event_id": "vv1AeZk8PGkdj_ywf",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-1-2026/event/107071102"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",

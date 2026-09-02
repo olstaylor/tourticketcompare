@@ -32,12 +32,12 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-09-01"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
-    h1: "Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences",
-    description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection before choosing where to buy.",
+    title: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
+    h1: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
+    description: "Compare Ticketmaster, SeatGeek and Vivid Seats by ticket type, current total, delivery and buyer protection before choosing a provider.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-01"
+    lastmod: "2026-09-02"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",

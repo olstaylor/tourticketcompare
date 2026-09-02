@@ -18,9 +18,9 @@
 |---|---|---|
 | Canonical repository | available | GitHub `main` cloned for audit; branch `codex/seo-discoverability-2026-09-02` and PR #831 created only for the scoped change documented below. |
 | Production crawl | partial / usable | Low-rate cURL checks and production route verifier work. A high-concurrency Node crawl produced client-side 503s and is not used as Google evidence. |
-| Google Search Console | available | Domain property and submitted sitemap visible. Export covers only 2026-07-05 to 2026-08-30 despite the wider UI selection. Query×page and coverage exports are unavailable. |
-| GA4 | available | Property event report available; no current `outbound_click` event visible in the sampled 28-day report. GA4 is only a mirror, not the authoritative click source. |
-| GTM | available, read-only | One production Google tag fires on the expected custom initialisation event and hostname condition; no change made. |
+| Google Search Console | available | Domain property and submitted sitemap visible. Export covers only 2026-07-05 to 2026-08-30 despite the wider UI selection. Query×page and coverage exports are unavailable. The same Domain property is linked to GA4. |
+| GA4 | available | Measurement ID `G-Q7R1NQY8YH`; `outbound_click` appears in the active web stream, but is not marked as a key event. The obsolete `provider_click` key event has no stream data. GA4 is only a mirror, not the authoritative click source. |
+| GTM | available, read-only | Container `GTM-MZ42TPMM`; one production Google tag fires on the expected custom initialisation event and hostname condition. The bootstrap sets `send_page_view: false`; no change made. |
 | Impact | available | Authenticated partner reporting UI available. Its aggregate report is account/program scoped, not proven TTC/page scoped, so it is not used for site prioritisation. |
 | First-party D1 funnel and Web Vitals | available, dashboard read-only | Manual `SELECT` queries against `analytics_events` are available in the Cloudflare D1 console. Local Wrangler remains unauthenticated, so repository report wrappers could not be run. The observed event history needs integrity investigation before it drives conversion decisions. |
 | Impact Actions × TTC clicks reconciliation | blocked | D1 reads are now possible, but a TTC-specific Impact filter/campaign or verified SubId reconciliation is still absent; the shared account's aggregate actions cannot be assigned to TTC. |
@@ -119,13 +119,13 @@ A low-rate check of `/artists/bruno-mars/tickets/foxborough-united-states` retur
 
 The D1 terminal-outcome breakdown identifies 1,308 blocked Ticket Liquidator redirects with `impact_tracking_url_failed_safety_check`, versus 49 or fewer in each other observed failure category. Almost all of the apparent excess is one five-minute 28 August burst: 1,089 failures from one anonymous request-key group, 1,094 source-attributed to `/`, and distinct click IDs per request. The existing self-identifying-crawler filter cannot classify a stock-browser user agent, so this is compatible with retry/automation traffic but does not prove it. **Do not bypass or weaken the safety gate, and do not treat the burst as a provider-contract failure.** Next evidence is aggregate request/error telemetry around comparable bursts and a non-mutating review of the small residual daily failure stream before requesting any scoped redirect/provider authority.
 
-### C. GA4 mirror completeness
+### C. GA4 key-event configuration mismatch
 
-The accessible GA4 event list has no current `outbound_click`, while the documented design says GA4 mirrors the legacy `provider_click` intent under that name. This may reflect low volume, event configuration, consent/ad-blocking, report scope, or a true emission problem. It does not overturn D1 as the source of truth.
+GA4 Admin shows `outbound_click` in the current web stream but its key-event star is off. `provider_click` has its key-event star on but shows no stream data in the last 28 days. The shipped client deliberately mirrors the first-party `provider_click` intent to GA4 under the name `outbound_click`; it does not emit a GA4 `provider_click` event. The GA4 property is also linked to the domain Search Console property.
 
-**Controlled by:** the client mirror in `public/app.js`, existing GTM Google-tag configuration, and GA4 custom-event/key-event configuration. D1 remains authoritative.
+**Controlled by:** the client mirror in `public/app.js`, existing GTM Google-tag configuration, and GA4 Events key-event configuration. D1 remains authoritative.
 
-**Effect / confidence:** high measurement impact, **medium confidence** that the mirror needs investigation; it is not yet a confirmed tracking defect. **Next evidence:** use DebugView/Realtime with a controlled CTA click and inspect the existing GTM/Google-tag event configuration read-only; then reconcile the same interval against D1 counts.
+**Effect / confidence:** high measurement-reporting impact and **high confidence**. This does not invalidate D1's server-side redirect receipt, but GA4 key-event reports will omit the event the client actually sends. **Owner console change (not applied by this audit):** in GA4 Admin → Events, mark `outbound_click` as a key event and remove the key-event marker from `provider_click` after confirming it is not used for another intentional goal. Do not change the GTM container or client code. Then validate in DebugView/Realtime with a controlled unmonetized Ticketmaster CTA click and reconcile that interval against D1.
 
 ### D. Sitemap recency
 
@@ -142,7 +142,7 @@ Search Console reports the sitemap was last read on 28 August and has 271 discov
 | P0 | **Owner:** export GSC query×page and Page Indexing/Coverage for the same property/window. | High / low / low | No code change; save using the intake-contract filenames. | Map top comparison queries to canonical pages; separate excluded, crawled-not-indexed and indexed URLs. | Search Console export/API grant. |
 | P1 | **PR #831 — evidenced comparison-guide refinement:** narrow the broad three-provider guide so the dedicated Vivid Seats vs Ticketmaster guide owns exact two-provider intent. | Medium / low / low | Existing guide source plus required generated/client metadata; GitHub `test:mvp` passed. | Higher CTR and clearer query-to-page distribution over a predeclared 28-day comparison, with no ranking/cannibalisation regression. | Open review and merge decision. |
 | P1 | **PR 2 — verified roster/provider coverage:** process only validated upstream events and approved provider listings; prioritise D1-proven click demand with weak coverage. | High / high / medium | Normal verified data pipeline only; never hand-edit generated output. Validate `npm run test:providers` and `npm run test:mvp`. | More qualifying provider lanes and preserved provenance; no invented price/availability claims. | User approval; D1 report; normal data pipeline and provenance. |
-| P2 | **Measurement validation:** validate GA4 mirror behaviour with a controlled CTA click and compare to D1. | High / medium / low | Console configuration/read-only review first; no automatic code/console change. | Documented expected difference between intent and server redirect; root cause if event is absent. | D1 access; read-only GTM/GA4 review. |
+| P0 | **Owner console change:** make `outbound_click` the GA4 key event and retire the obsolete `provider_click` key-event marker after a configuration review. | High / low / low | GA4 Events only; no GTM/container/client change. Validate DebugView/Realtime and D1 after a controlled Ticketmaster CTA click. | GA4's key-event report contains the emitted `outbound_click`; D1 remains the authoritative successful-redirect measure. | Owner applies the described GA4 change. |
 
 Any code PR must be independently reviewable, include the relevant route/link/schema tests, and remain outside protected redirect/routing/metadata files unless an explicit scoped approval is supplied. There is no approved change to `functions/api/out.js`, `_middleware.js`, `[[path]].js`, `_route-metadata.js`, `public/_routes.json`, generated files, content catalogue, provider integrations, CSP, or Cloudflare settings.
 
@@ -158,10 +158,11 @@ Any code PR must be independently reviewable, include the relevant route/link/sc
 
 ## Owner questions and requested inputs
 
-1. The focused Search Console inspection established the first narrow guide PR. A full query×page export remains needed for broader cannibalisation analysis.
-2. Impact is confirmed as a mixed TTC/social affiliate account. It must not be used as a TTC conversion measure until a TTC-specific campaign/filter or verified SubId reconciliation exists; do not enable SubId passthrough without Impact confirming the parameter.
-3. Please confirm the intended Ticket Liquidator Impact tracking URL contract only if the residual, non-burst failure stream points to an upstream/configuration change; the current safety block must remain in place.
-4. PR #831 is open and GitHub's Prelaunch Validation run #824 succeeded after the evidence report was added. Runtime and data-pipeline work remain contingent on their evidence/deployment prerequisites; IndexNow was reverified and submitted successfully on 2 September.
+1. Please apply the described GA4 Events-only configuration correction: mark `outbound_click` as a key event, then remove `provider_click` as a key event if it is not intentionally used elsewhere. No tag/container change is proposed.
+2. The focused Search Console inspection established the first narrow guide PR. A full query×page export remains needed for broader cannibalisation analysis.
+3. Impact is confirmed as a mixed TTC/social affiliate account. It must not be used as a TTC conversion measure until a TTC-specific campaign/filter or verified SubId reconciliation exists; do not enable SubId passthrough without Impact confirming the parameter.
+4. Please confirm the intended Ticket Liquidator Impact tracking URL contract only if the residual, non-burst failure stream points to an upstream/configuration change; the current safety block must remain in place.
+5. PR #831 is open and GitHub's Prelaunch Validation run #827 succeeded after the evidence report was added. Runtime and data-pipeline work remain contingent on their evidence/deployment prerequisites; IndexNow was reverified and submitted successfully on 2 September.
 
 ## Commands and validation record
 

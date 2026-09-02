@@ -833,7 +833,7 @@
     "ticketmaster_event_id": "0A006429AB3C5EF1",
     "ticketmaster_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-01-8-pm/concert/18010329",
-    "vividseats_url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-1-2026--concerts-k-pop/production/6517116",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
     "last_verified_at": "2026-05-07",
@@ -854,11 +854,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6517116,
-        "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-1-2026--concerts-k-pop/production/6517116",
-        "verified": true,
-        "last_verified_at": "2026-08-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -934,7 +934,7 @@
         "event_id": 6517130,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-2-2026--concerts-k-pop/production/6517130",
         "verified": true,
-        "last_verified_at": "2026-08-30",
+        "last_verified_at": "2026-09-02",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1011,7 +1011,7 @@
         "event_id": 6517135,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-5-2026--concerts-k-pop/production/6517135",
         "verified": true,
-        "last_verified_at": "2026-08-30",
+        "last_verified_at": "2026-09-02",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1088,7 +1088,7 @@
         "event_id": 6517139,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-6-2026--concerts-k-pop/production/6517139",
         "verified": true,
-        "last_verified_at": "2026-08-30",
+        "last_verified_at": "2026-09-02",
         "availability_status": "listed"
       },
       "stubhub": {

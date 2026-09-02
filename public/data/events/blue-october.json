@@ -3691,7 +3691,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70te4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70te4",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-salt-lake-city-the-complex---rockwell-3-5-2027/production/7028070",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70te4",
     "last_verified_at": null,
@@ -3713,11 +3713,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7028070,
-        "url": "https://www.vividseats.com/blue-october-tickets-salt-lake-city-the-complex---rockwell-3-5-2027/production/7028070",
-        "verified": true,
-        "last_verified_at": "2026-08-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

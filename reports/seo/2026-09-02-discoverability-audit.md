@@ -8,7 +8,7 @@
 
 - **311 of 1,130** rendered routes are indexable, and the live sitemap has the same 311 URLs; route, schema and internal-link checks pass.
 - Search generated **33 clicks from 9,384 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
-- **64 of 781** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **279 to 153** in the +90-day forecast without new verified dates.
+- **64 of 781** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **277 to 150** in the +90-day forecast without new verified dates.
 - GA4 now shows **16 `outbound_click` events in the last 7 days**; on 3 September it was made the key event and event-data retention was extended from **2 to 14 months**. D1 remains the authoritative receipt, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
 - The production Pages project has **1,063 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, and PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) removes confirmed duplicate static-data reads without claiming that it proves the CPU-error root cause.
 
@@ -55,7 +55,7 @@ The available country/device UI segmentation points to the monetisable US/Canada
 | Schema validation | passed; sampled artist, artist-city, city, venue and guide routes validate |
 | Route/schema production verifier | 10 static/trust paths returned 200 on the apex domain |
 | Event link coverage | 659 of 781 upcoming reviewed events have 3+ links; 64 have one provider link; 58 have two |
-| Dynamic indexable roster forecast | 279 current dynamic indexable routes; 153 projected at +90 days without refreshed verified events |
+| Dynamic indexable roster forecast | 277 current dynamic indexable routes; 150 projected at +90 days without refreshed verified events |
 
 GA4, 5 August–1 September 2026: 734 `page_view` events and 1 `provider_cta_view` event were visible, but no `outbound_click` event appeared in that earlier event-list capture. A fresh 3 September GA4 Home report shows 16 `outbound_click` events in the last 7 days. It is now the GA4 key event and event retention is 14 months; these settings do not backfill historical reports. In the documented architecture, GA4 mirrors client intent while server-written D1 `outbound_click` is authoritative, so GA4 cannot supply a revenue-grade outcome baseline.
 
@@ -83,7 +83,7 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 ### 2. Commercial depth and fresh verified roster data are the durable organic constraint
 
-**Evidence:** 64 of 781 reviewed upcoming events offer only one provider lane; only 153 dynamic indexable routes remain in the +90-day forecast. The refreshed link-coverage audit correctly labels 64 cases as API-cap/unprocessed, 59 as no qualifying listing, and 5 as ambiguous rather than guessing.
+**Evidence:** 64 of 781 reviewed upcoming events offer only one provider lane; the 3 September forecast has 277 dynamic indexable routes today and only 150 at +90 days if no new dates arrive. The refreshed link-coverage audit correctly labels 64 cases as API-cap/unprocessed, 59 as no qualifying listing, and 5 as ambiguous rather than guessing. Git history records the scheduled SeatGeek, Vivid Seats, and three Impact-marketplace lanes publishing their scoped changes on 2 September; this proves recent pipeline activity, not that a no-change run on 3 September failed or succeeded.
 
 **Controlled by:** the approved provider/event ingestion and verification workflow (`docs/PROVIDER_SYNC.md`, event/provider validation scripts), and indexability modules `functions/_route-indexability.js` and `functions/_artist-indexability.js`. The gates must not be relaxed without separate GSC evidence and a policy change.
 

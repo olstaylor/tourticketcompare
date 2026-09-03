@@ -830,11 +830,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7745893",
-        "url": "https://www.ticketliquidator.com/tickets/7745893/Tame-Impala-tickets-Wed-Sep-2-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107198188",
@@ -848,7 +848,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745893",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745893/Tame-Impala-tickets-Wed-Sep-2-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-2-2026/event/107198188"
   },
   {

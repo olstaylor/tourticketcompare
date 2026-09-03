@@ -209,11 +209,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896561",
-        "url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162159",
@@ -227,7 +227,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896561",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-san-antonio-tickets-9-2-2026/event/107162159"
   },
   {

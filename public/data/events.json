@@ -4072,11 +4072,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676871",
-        "url": "https://www.ticketliquidator.com/tickets/7676871/BTS-tickets-Wed-Sep-2-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107073219",
@@ -4089,7 +4089,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJsiUC0",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676871",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676871/BTS-tickets-Wed-Sep-2-2026-SoFi-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-2-2026/event/107073219"
   },
   {
@@ -16225,11 +16225,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7680369",
-        "url": "https://www.ticketliquidator.com/tickets/7680369/Bruno-Mars-tickets-Wed-Sep-2-2026-Lincoln-Financial-Field",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107077123",
@@ -16244,7 +16244,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv17FZ_eGkSsN1I0",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680369/Bruno-Mars-tickets-Wed-Sep-2-2026-Lincoln-Financial-Field",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-2-2026/event/107077123"
   },
   {
@@ -26956,11 +26956,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7745893",
-        "url": "https://www.ticketliquidator.com/tickets/7745893/Tame-Impala-tickets-Wed-Sep-2-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107198188",
@@ -26974,7 +26974,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745893",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745893/Tame-Impala-tickets-Wed-Sep-2-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-2-2026/event/107198188"
   },
   {
@@ -41374,11 +41374,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896561",
-        "url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162159",
@@ -41392,7 +41392,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896561",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-san-antonio-tickets-9-2-2026/event/107162159"
   },
   {

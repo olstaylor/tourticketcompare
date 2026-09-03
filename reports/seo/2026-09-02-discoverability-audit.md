@@ -8,7 +8,7 @@
 
 - **311 of 1,130** rendered routes are indexable, and the live sitemap has the same 311 URLs; route, schema and internal-link checks pass.
 - Search generated **33 clicks from 9,384 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
-- **63 of 1,022** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **279 to 153** in the +90-day forecast without new verified dates.
+- **64 of 781** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **279 to 153** in the +90-day forecast without new verified dates.
 - The accessible GA4 report has **0 visible `outbound_click` events** in its 28-day event list. D1 is now readable, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
 - The production Pages project has **1,063 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, and PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) removes confirmed duplicate static-data reads without claiming that it proves the CPU-error root cause.
 
@@ -54,7 +54,7 @@ The available country/device UI segmentation points to the monetisable US/Canada
 | Internal-link audit | 1,130 crawled; 0 reported problems |
 | Schema validation | passed; sampled artist, artist-city, city, venue and guide routes validate |
 | Route/schema production verifier | 10 static/trust paths returned 200 on the apex domain |
-| Event link coverage | 786 of 1,022 upcoming reviewed events have 3+ links; 63 have one provider link; 59 have two |
+| Event link coverage | 659 of 781 upcoming reviewed events have 3+ links; 64 have one provider link; 58 have two |
 | Dynamic indexable roster forecast | 279 current dynamic indexable routes; 153 projected at +90 days without refreshed verified events |
 
 GA4, 5 August–1 September 2026: 734 `page_view` events and 1 `provider_cta_view` event are visible, but no `outbound_click` event appears in the current event list. In the documented architecture, GA4 mirrors client intent while server-written D1 `outbound_click` is authoritative, so GA4 cannot supply a revenue-grade outcome baseline.
@@ -71,7 +71,7 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 ### 1. Existing comparison guides are visible but under-clicked
 
-**Evidence:** the Search Console figures above show multiple commercial-comparison queries in positions 8–18 with zero or very few clicks; guide pages already rank around positions 10–12 with very low CTR.
+**Evidence:** the Search Console figures above show commercial-comparison queries with substantial impressions and zero or very few clicks. The current UI capture directly confirms `vivid seats vs ticketmaster` at position 8.6 with 221 impressions and zero clicks; the broad three-provider and SeatGeek/Ticketmaster guides have 1,312 and 2,046 impressions respectively with only 4 and 2 clicks. This is a CTR opportunity, not evidence that every query is already in striking distance.
 
 **Controlled by:** source guides `content/guides/ticketmaster-vs-seatgeek-vs-vivid-seats.md`, `content/guides/seatgeek-vs-ticketmaster.md` and `content/guides/vivid-seats-vs-ticketmaster.md`; their generated outputs must only be produced by the documented guide build.
 
@@ -83,7 +83,7 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 ### 2. Commercial depth and fresh verified roster data are the durable organic constraint
 
-**Evidence:** 63 reviewed upcoming events offer only one provider lane; only 153 dynamic indexable routes remain in the +90-day forecast. The link-coverage audit correctly labels 63 cases as API-cap/unprocessed, 58 as no qualifying listing, and 5 as ambiguous rather than guessing.
+**Evidence:** 64 of 781 reviewed upcoming events offer only one provider lane; only 153 dynamic indexable routes remain in the +90-day forecast. The refreshed link-coverage audit correctly labels 64 cases as API-cap/unprocessed, 59 as no qualifying listing, and 5 as ambiguous rather than guessing.
 
 **Controlled by:** the approved provider/event ingestion and verification workflow (`docs/PROVIDER_SYNC.md`, event/provider validation scripts), and indexability modules `functions/_route-indexability.js` and `functions/_artist-indexability.js`. The gates must not be relaxed without separate GSC evidence and a policy change.
 
@@ -157,7 +157,7 @@ Search Console now reports the sitemap was last read on 2 September, has `Succes
 | P1 | **PR 2 — verified roster/provider coverage:** process only validated upstream events and approved provider listings; prioritise D1-proven click demand with weak coverage. | High / high / medium | Normal verified data pipeline only; never hand-edit generated output. Validate `npm run test:providers` and `npm run test:mvp`. | More qualifying provider lanes and preserved provenance; no invented price/availability claims. | User approval; D1 report; normal data pipeline and provenance. |
 | P0 | **GA4 configuration:** make `outbound_click` the GA4 key event, retain events for 14 months, and activate Internal Traffic only after IP-scope review. | High / low / low | `provider_click` was retired as a stale no-stream-data key event on 3 September; remaining work is GA4 Events/Data retention/Data filters only, with no GTM/container/client change. Validate DebugView/Realtime and D1 after a controlled Ticketmaster CTA click. | GA4's key-event report contains the emitted `outbound_click`; retention is maximized; known internal testing is excluded; D1 remains the authoritative successful-redirect measure. | Finish the remaining two safe settings; retain Internal Traffic in Testing until its IP scope is reviewed. |
 
-Any code PR must be independently reviewable, include the relevant route/link/schema tests, and remain outside protected redirect/routing/metadata files unless an explicit scoped approval is supplied. There is no approved change to `functions/api/out.js`, `_middleware.js`, `[[path]].js`, `_route-metadata.js`, `public/_routes.json`, generated files, content catalogue, provider integrations, CSP, or Cloudflare settings.
+Any code PR must be independently reviewable, include the relevant route/link/schema tests, and remain outside protected redirect/routing/metadata files unless an explicit scoped approval is supplied. PR #841 is the sole separately approved exception for its narrowly reviewed `functions/[[path]].js` read-path change. No approved change exists to `functions/api/out.js`, `_middleware.js`, `_route-metadata.js`, `public/_routes.json`, generated files, content catalogue, provider integrations, CSP, or Cloudflare settings.
 
 ## Ideas explicitly rejected
 

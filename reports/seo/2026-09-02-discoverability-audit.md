@@ -10,7 +10,7 @@
 - Search generated **33 clicks from 9,384 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
 - **64 of 781** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **277 to 150** in the +90-day forecast without new verified dates.
 - GA4 now shows **16 `outbound_click` events in the last 7 days**; on 3 September it was made the key event and event-data retention was extended from **2 to 14 months**. D1 remains the authoritative receipt, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
-- The production Pages project has **1,063 CPU-time-limit errors in the most recent 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, and PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) removes confirmed duplicate static-data reads without claiming that it proves the CPU-error root cause.
+- The production Pages project has **1,045 CPU-time-limit errors in the most recent rolling 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, and PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) removes confirmed duplicate static-data reads without claiming that it proves the CPU-error root cause.
 
 ## Capability and data status
 
@@ -196,4 +196,4 @@ node scripts/report-roster-forecast.mjs
 node scripts/verify-production-route-html.mjs
 ```
 
-`indexnow-ping.mjs --dry-run` verified the live key and sitemap, then `indexnow-ping.mjs` submitted all 311 sitemap URLs with an HTTP 200 response. The local commercial-funnel and Web Vitals wrappers were not substituted with synthetic data because local Wrangler remains unauthenticated; equivalent manual D1 reads were SELECT-only and are recorded above. Generated local audit outputs changed only because their audit scripts were run and are not proposed production edits.
+On 3 September, the low-rate production-route verifier rechecked all 10 sampled trust/static routes: each returned 200 after the `www` to apex redirect and carried its expected title, canonical, meta description and H1. `indexnow-ping.mjs --dry-run` verified the live key and sitemap, then `indexnow-ping.mjs` submitted all 311 sitemap URLs with an HTTP 200 response. The local commercial-funnel and Web Vitals wrappers were not substituted with synthetic data because no local Wrangler executable is available; equivalent manual D1 reads were SELECT-only and are recorded above. Generated local audit outputs changed only because their audit scripts were run and are not proposed production edits.

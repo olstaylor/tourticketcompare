@@ -9,7 +9,7 @@
 - At the 2 September audit capture, **311 of 1,130** rendered routes were indexable and the live sitemap had the same 311 URLs. The 3 September repository check is **309 of 1,127**, with the same 309 sitemap entries; this is calendar-driven inventory decay, not a gate or link-integrity defect.
 - Search generated **33 clicks from 9,384 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
 - **64 of 781** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **277 to 150** in the +90-day forecast without new verified dates.
-- GA4 now shows **16 `outbound_click` events in the last 7 days**; on 3 September it was made the key event and event-data retention was extended from **2 to 14 months**. D1 remains the authoritative receipt, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
+- GA4 now shows **16 `outbound_click` events in the last 7 days**; on 3 September it was made the key event and event-data retention was extended from **2 to 14 months**. D1 remains the authoritative receipt. Its "missing" landing/acquisition fields turned out to be the designed schema, not a defect, so only the 90-day click/attempt total mismatch still blocks a conversion-rate baseline — and one dated `first_seen` query resolves it.
 - The production Pages project has **1,045 CPU-time-limit errors in the most recent rolling 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, and PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) removes confirmed duplicate static-data reads without claiming that it proves the CPU-error root cause.
 
 ## Capability and data status
@@ -59,7 +59,9 @@ The available country/device UI segmentation points to the monetisable US/Canada
 
 GA4, 5 August–1 September 2026: 734 `page_view` events and 1 `provider_cta_view` event were visible, but no `outbound_click` event appeared in that earlier event-list capture. A fresh 3 September GA4 Home report shows 16 `outbound_click` events in the last 7 days. It is now the GA4 key event and event retention is 14 months; these settings do not backfill historical reports. In the documented architecture, GA4 mirrors client intent while server-written D1 `outbound_click` is authoritative, so GA4 cannot supply a revenue-grade outcome baseline.
 
-Read-only D1 totals for 4 June–2 September are 22,771 `outbound_click`, 6,144 `outbound_attempt`, and 1,521 `outbound_blocked` events. Because the documented attempt event is the receipt preceding one terminal outcome, the click total exceeding attempts means this mixed history is not a valid funnel denominator. It also has weak landing attribution: 5,836 affiliate `outbound_click` rows have no `landing_path`, and 5,706 name `/` as the source path. These are integrity observations, not evidence that the clicks are invalid or automated. The existing self-identifying-crawler filter and the documented pre-filter historical period are plausible contributors, but neither explains the data without a route/time-based investigation.
+Read-only D1 totals for 4 June–2 September are 22,771 `outbound_click`, 6,144 `outbound_attempt`, and 1,521 `outbound_blocked` events. Because the documented attempt event is the receipt preceding one terminal outcome, the click total exceeding attempts means this mixed history is not a valid funnel denominator. That is an integrity observation, not evidence that the clicks are invalid or automated; the existing self-identifying-crawler filter and the documented pre-filter historical period are plausible contributors, but neither explains the data without a time-based investigation.
+
+**Correction, 3 September:** the earlier reading that these rows show "weak landing attribution" was wrong and is withdrawn. `functions/api/out.js` writes `landing_path: null` and `acquisition_source: null` on both the `outbound_attempt` and `outbound_click` receipts, and `docs/COMMERCIAL_FUNNEL.md` records `landing_path` as client-captured on `page_view` rows only, with `acquisition_source` written solely on a session's entry row. `scripts/report-commercial-funnel.mjs` therefore derives landing pages by joining each click to the earliest `page_view` of the same visitor key on the same day. A raw click row has no landing path by design, so querying one for it will always return none; that is not missing instrumentation. The separate observation that 5,706 affiliate clicks name `/` as their `source_path` is unaffected and still worth segmenting.
 
 The same D1 query found 1,308 blocked Ticket Liquidator redirects with `impact_tracking_url_failed_safety_check`, materially more than every other failure category. However, 1,094 occurred on 28 August; 1,089 share one anonymous request-key group, all name `/` as their source path, and 1,076 happened between 00:32 and 00:36 UTC. That concentration is inconsistent with treating the aggregate as normal user conversion demand, though it does not identify the actor or prove the tracking response was valid. The writer and redirect safety policy are protected; no URL validation, provider configuration, or redirect logic was changed.
 
@@ -102,6 +104,24 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 **Evidence:** read-only D1 queries for 4 June–2 September show 22,771 `outbound_click` records but only 6,144 `outbound_attempt` records, despite the documented attempt-before-terminal contract. Affiliate click rows also lack useful landing attribution at high volume. An earlier Cloudflare Pages dashboard capture showed 228 production errors in the preceding 24 hours, all `Exceeded CPU Time Limits`, and no script-thrown exceptions.
 
 **Update, 2 September (current D1 check):** an aggregate-only `SELECT` over the latest 24 hours returned **929** `outbound_attempt`, **899** `outbound_click`, and **30** `outbound_blocked` rows: attempts exactly equal the two terminal outcomes. The hourly aggregate likewise showed normal attempt/click pairing, apart from blocks. This confirms that the current bounded stream is internally consistent; it does not reconcile the 90-day historical mismatch, supply organic landing attribution, or make a historical conversion-rate baseline valid.
+
+**Update, 3 September (repository-side resolution):** two of this finding's three components are now settled from the repository alone.
+
+1. The absent landing/acquisition fields are the designed schema, per the baseline correction above. There is no writer or schema defect, and no code change is warranted.
+2. The historical attempt/click mismatch **cannot be dated from git**: this repository's history begins at root commit `8a393b9` (2026-08-28), while the D1 series starts 4 June, so whatever code first wrote `outbound_attempt` predates every commit available here. The mismatch is confined to that pre-history period — the bounded 2 September 24-hour check had attempts exactly equal to the two terminal outcomes — which is *consistent with* `outbound_attempt` having shipped later than `outbound_click`, but does not prove it.
+3. One aggregate-only, read-only query settles it, and is the correct resume point for this finding:
+
+```sql
+SELECT event_name,
+       MIN(created_at) AS first_seen,
+       MAX(created_at) AS last_seen,
+       COUNT(*)        AS row_count
+FROM analytics_events
+WHERE event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked')
+GROUP BY event_name;
+```
+
+If `outbound_attempt` returns a materially later `first_seen`, the 90-day mismatch is explained, the valid funnel window begins at that timestamp, and this finding closes with no code change. The query returns no personal data and writes nothing.
 
 **Controlled by:** D1-backed `analytics_events`, `functions/api/out.js` (protected, authoritative writer), `scripts/report-commercial-funnel.mjs`, and `scripts/report-affiliate-performance.mjs`.
 
@@ -157,7 +177,7 @@ Search Console reports the sitemap was last read on 2 September, has `Success` s
 
 | Priority | Proposed PR / owner action | Impact / effort / risk | Scope and validation | Success measure | Prerequisites |
 |---|---|---|---|
-| P0 | **Agent:** diagnose CPU-limit errors and D1 event-integrity segmentation before using click rates. | High / medium / low | Read-only Cloudflare observability/D1 queries; route-template sampling. Do not edit protected runtime/writer code. | Failing route mix and error cause identified; post-filter date range/fields suitable for a valid conversion baseline. | Existing Cloudflare dashboard access. |
+| P0 | **Agent:** diagnose CPU-limit errors, and establish the first valid funnel window by dating `outbound_attempt` in D1. | High / medium / low | Read-only Cloudflare observability/D1 queries; route-template sampling. Do not edit protected runtime/writer code. The landing/acquisition half of this item is withdrawn — those nulls are by design (see finding 4). | Failing route mix and error cause identified; a dated start for `outbound_attempt` that defines a valid conversion denominator. | Existing Cloudflare dashboard access. |
 | P0 | **Agent:** separate concentrated retry/automation bursts from the residual Ticket Liquidator safety-failure stream. | High / medium / low | Aggregate-only D1/observability analysis; retain the redirect safety gate. | A defensible conversion denominator and a residual provider-failure rate that can be reviewed independently. | Existing Cloudflare dashboard access. |
 | P0 | **Owner:** export GSC query×page and Page Indexing/Coverage for the same property/window. | High / low / low | No code change; save using the intake-contract filenames. | Map top comparison queries to canonical pages; separate excluded, crawled-not-indexed and indexed URLs. | Search Console export/API grant. |
 | P1 | **PR #841 — reuse route-resolved static data:** avoid loading catalog/event data again after dynamic route matching. | Medium / low / low | Protected router diff was separately approved, tested, merged as `91bb6bd`, and deployed to production on 3 September. No redirects, CTAs, indexability gates, schema, data, CSP or Cloudflare setting changes. | Lower CPU use/error rate on comparable dynamic traffic over 4–8 weeks; dashboard-level monitoring only until route attribution exists. | Post-deploy observation window. |
@@ -184,6 +204,30 @@ Any code PR must be independently reviewable, include the relevant route/link/sc
 3. Impact is confirmed as a mixed TTC/social affiliate account. It must not be used as a TTC conversion measure until a TTC-specific campaign/filter or verified SubId reconciliation exists; do not enable SubId passthrough without Impact confirming the parameter.
 4. Please confirm the intended Ticket Liquidator Impact tracking URL contract only if the residual, non-burst failure stream points to an upstream/configuration change; the current safety block must remain in place.
 5. PR #831 has merged and its production deployment is live. The deployed guide serves the approved three-provider metadata; measure its query-to-page split in Search Console over 4–8 weeks. Runtime and data-pipeline work remain contingent on their evidence/deployment prerequisites; IndexNow was reverified and submitted successfully on 2 September. Route-level CPU attribution is additionally BLOCKED because Cloudflare Log Explorer is not enabled; do not purchase it without a separate owner decision.
+6. **Resume point.** The audit stalled part-way through the first-party attribution check, which needs the Cloudflare D1 console — an authenticated, browser-only surface. Two aggregate-only `SELECT`s finish it: the `first_seen` query in finding 4, which decides whether the historical attempt/click mismatch is simply a later-shipped event; and the documented landing-page join in `scripts/report-commercial-funnel.mjs`, which is the only correct way to read landing attribution and is reproduced below. Paste the results back and the conversion-weighted page ranking (goal item 7) can be completed without any further access.
+
+```sql
+SELECT COALESCE(NULLIF(TRIM(entry.landing_path), ''), '(unknown)') AS landing_path,
+       COUNT(*) AS clicks
+FROM analytics_events click
+JOIN (
+  SELECT request_key AS visitor_key,
+         substr(created_at, 1, 10) AS visit_day,
+         landing_path,
+         MIN(created_at) AS first_view
+  FROM analytics_events
+  WHERE event_name = 'page_view' AND TRIM(COALESCE(landing_path, '')) != ''
+  GROUP BY visitor_key, visit_day
+) entry
+  ON entry.visitor_key = click.request_key
+  AND entry.visit_day = substr(click.created_at, 1, 10)
+WHERE click.event_name = 'outbound_click'
+  AND click.created_at >= '2026-08-06T00:00:00Z'
+GROUP BY 1
+ORDER BY clicks DESC;
+```
+
+   This is the report's own statement with a 28-day bound added. It aggregates only, returns no `request_key` and no personal data, and writes nothing.
 
 ## Commands and validation record
 
@@ -199,3 +243,21 @@ node scripts/verify-production-route-html.mjs
 ```
 
 On 3 September, the low-rate production-route verifier rechecked all 10 sampled trust/static routes: each returned 200 after the `www` to apex redirect and carried its expected title, canonical, meta description and H1. `indexnow-ping.mjs --dry-run` verified the live key and sitemap, then `indexnow-ping.mjs` submitted all 311 sitemap URLs with an HTTP 200 response. GitHub's five most recent `IndexNow ping` workflow runs (26 August–1 September) all completed successfully; #841 does not change any workflow trigger path, so its non-trigger is expected. The local commercial-funnel and Web Vitals wrappers were not substituted with synthetic data because no local Wrangler executable is available; equivalent manual D1 reads were SELECT-only and are recorded above. Generated local audit outputs changed only because their audit scripts were run and are not proposed production edits.
+
+**Independent re-run, 3 September (clean checkout, dependencies installed from `package-lock.json`):** the repository instruments were run again and reproduce the figures recorded above.
+
+```text
+audit:indexable-surface:check  1127 routes, 309 indexable, 818 noindex (baseline 311)
+                               venue: 75 -> 73 (inventory-decay)
+                               no orphans, no empty indexable routes, no duplicate titles,
+                               no structural change
+audit:internal-links           1127 routes crawled, 0 problem(s)
+schema:validate                all checks passed (including the offer-schema reject cases)
+report:link-coverage:check     OK (with 64 warning(s)): every upcoming event leads somewhere;
+                               64 lead to a single provider
+                               causes: 64 API-cap/unprocessed, 59 no qualifying listing, 5 ambiguous
+roster:forecast                +0d 277 -> +90d 150 dynamic indexable routes
+                               BTS goes noindex 2026-09-08 (last show 2026-09-07)
+```
+
+A live fetch of `https://tourticketcompare.com/sitemap.xml` returned 309 `<loc>` entries, matching the local indexable count exactly. `npm run report:commercial-funnel` and `npm run report:web-vitals` still could not be run: this environment has no Cloudflare credentials and no authenticated Wrangler, so every D1 figure in this report remains a manual console read rather than a reproducible wrapper run.

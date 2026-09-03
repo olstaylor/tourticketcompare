@@ -40,7 +40,7 @@ Search Console performance UI, available data 5 July–31 August 2026; Page Inde
 
 The volume is small and the time window is short, so no query-level change should be treated as statistically decisive.
 
-High-impression query themes already near page-one/two include `vivid seats vs ticketmaster` (221 impressions, position 8.6, 0 clicks), `seatgeek vs ticketmaster` (156, 0 clicks), `compare ticket prices` (90, 1 click), and `compare concert ticket prices` (129, 2 clicks). Existing guide pages receive the relevant visibility: `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats` has 1,312 impressions and 4 clicks, while `/guides/seatgeek-vs-ticketmaster` has 2,046 impressions and 2 clicks. This confirms a CTR and snippet/intent investigation opportunity; it does **not** yet identify a winning query-to-page mapping.
+High-impression query themes already near page-one/two include `vivid seats vs ticketmaster` (221 impressions, position 8.6, 0 clicks), `seatgeek vs ticketmaster` (156, 0 clicks), `compare ticket prices` (90, 1 click), and `compare concert ticket prices` (129, 2 clicks). Existing guide pages receive the relevant visibility: `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats` has 1,312 impressions and 4 clicks, while `/guides/seatgeek-vs-ticketmaster` has 2,046 impressions and 2 clicks. This confirms a CTR and snippet/intent investigation opportunity; it does **not** yet identify a winning query-to-page mapping. By contrast, `tame impala tickets` has 92 impressions but position 63.7 and zero clicks; its landing page already serves 16 reviewed upcoming dates, each with at least one checked destination. It is not a justified near-term content or indexability change.
 
 The available country/device UI segmentation points to the monetisable US/Canada lane but is not sufficient to prescribe country-specific content: United States is 14 clicks / 5,870 impressions; United Kingdom 14 / 454; Canada 1 / 441. India (267 impressions), Vietnam (231) and Philippines (180) have no clicks; no country-specific expansion is proposed because provider monetisation and ticket coverage have not been joined at that level. Mobile produces 18 clicks / 4,035 impressions and desktop 15 / 5,302, so the opportunity is not desktop-only.
 
@@ -79,7 +79,7 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 **Constraint:** query×page data is missing. Do not change titles, canonicals, FAQ/schema, or create near-duplicate `vs` pages until the association is exported or API access is granted.
 
-**Update, 2 September:** focused Query → Page UI inspection provides enough evidence for one isolated change. `vivid seats vs ticketmaster` (210 impressions, position 8.8, 0 clicks) splits 140 impressions to the broad three-provider guide and 71 to the dedicated Vivid Seats vs Ticketmaster guide. PR #831 narrows only the three-provider title/H1/description; it does not create or delete pages.
+**Update, 3 September:** refreshed Query → Page UI inspection provides enough evidence for one isolated change. `vivid seats vs ticketmaster` (221 impressions, position 8.6, 0 clicks) splits 140 impressions to the broad three-provider guide and 82 to the dedicated Vivid Seats vs Ticketmaster guide. PR #831 narrows only the three-provider title/H1/description; it does not create or delete pages.
 
 ### 2. Commercial depth and fresh verified roster data are the durable organic constraint
 

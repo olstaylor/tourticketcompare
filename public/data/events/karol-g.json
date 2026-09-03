@@ -166,7 +166,7 @@
     "ticketmaster_event_id": "3A00649192BA8D25",
     "ticketmaster_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-san-antonio-texas-09-02-2026/event/3A00649192BA8D25",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/karol-g-tickets-san-antonio-alamodome-9-2-2026--concerts-pop/production/6929085",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karol-g-viajando-por-el-mundo-san-antonio-texas-09-02-2026/event/3A00649192BA8D25",
     "last_verified_at": null,
@@ -188,11 +188,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6929085,
-        "url": "https://www.vividseats.com/karol-g-tickets-san-antonio-alamodome-9-2-2026--concerts-pop/production/6929085",
-        "verified": true,
-        "last_verified_at": "2026-08-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -268,7 +268,7 @@
         "event_id": 6964251,
         "url": "https://www.vividseats.com/karol-g-tickets-el-paso-sun-bowl-stadium-9-5-2026/production/6964251",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -345,7 +345,7 @@
         "event_id": 6929087,
         "url": "https://www.vividseats.com/karol-g-tickets-el-paso-sun-bowl-stadium-9-6-2026--concerts-pop/production/6929087",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -422,7 +422,7 @@
         "event_id": 6929089,
         "url": "https://www.vividseats.com/karol-g-tickets-foxborough-gillette-stadium-9-12-2026--concerts-pop/production/6929089",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -499,7 +499,7 @@
         "event_id": 6929069,
         "url": "https://www.vividseats.com/karol-g-tickets-east-rutherford-metlife-stadium-9-17-2026/production/6929069",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -576,7 +576,7 @@
         "event_id": 6957352,
         "url": "https://www.vividseats.com/karol-g-tickets-east-rutherford-metlife-stadium-9-18-2026--concerts-pop/production/6957352",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -653,7 +653,7 @@
         "event_id": 6929091,
         "url": "https://www.vividseats.com/karol-g-tickets-atlanta-mercedes-benz-stadium-9-24-2026--concerts-pop/production/6929091",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -807,7 +807,7 @@
         "event_id": 6929101,
         "url": "https://www.vividseats.com/karol-g-tickets-miami-gardens-hard-rock-stadium-10-2-2026--concerts-pop/production/6929101",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -884,7 +884,7 @@
         "event_id": 6957454,
         "url": "https://www.vividseats.com/karol-g-tickets-miami-gardens-hard-rock-stadium-10-3-2026--concerts-pop/production/6957454",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -961,7 +961,7 @@
         "event_id": 6929112,
         "url": "https://www.vividseats.com/karol-g-tickets-tampa-raymond-james-stadium-10-9-2026--concerts-pop/production/6929112",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1115,7 +1115,7 @@
         "event_id": 6929157,
         "url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-3-2027--concerts-pop/production/6929157",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1168,7 +1168,7 @@
         "event_id": 6956926,
         "url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-4-2027--concerts-pop/production/6956926",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1221,7 +1221,7 @@
         "event_id": 6929163,
         "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-11-2027--concerts-pop/production/6929163",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1290,7 +1290,7 @@
         "event_id": 6956928,
         "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-12-2027--concerts-pop/production/6956928",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1359,7 +1359,7 @@
         "event_id": 6969565,
         "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-13-2027--concerts-pop/production/6969565",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1428,7 +1428,7 @@
         "event_id": 6929171,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-24-2027--concerts-pop/production/6929171",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1481,7 +1481,7 @@
         "event_id": 6956930,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-25-2027--concerts-pop/production/6956930",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1534,7 +1534,7 @@
         "event_id": 6969569,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-26-2027--concerts-pop/production/6969569",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1587,7 +1587,7 @@
         "event_id": 6969571,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-27-2027--concerts-pop/production/6969571",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1640,7 +1640,7 @@
         "event_id": 6929173,
         "url": "https://www.vividseats.com/karol-g-tickets-london-tottenham-hotspur-stadium-7-6-2027--concerts-pop/production/6929173",
         "verified": true,
-        "last_verified_at": "2026-08-31",
+        "last_verified_at": "2026-09-03",
         "availability_status": "listed"
       },
       "stubhub": {

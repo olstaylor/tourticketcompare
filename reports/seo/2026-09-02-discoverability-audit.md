@@ -6,7 +6,7 @@
 
 ## Executive summary
 
-- **311 of 1,130** rendered routes are indexable, and the live sitemap has the same 311 URLs; route, schema and internal-link checks pass.
+- At the 2 September audit capture, **311 of 1,130** rendered routes were indexable and the live sitemap had the same 311 URLs. The 3 September repository check is **309 of 1,127**, with the same 309 sitemap entries; this is calendar-driven inventory decay, not a gate or link-integrity defect.
 - Search generated **33 clicks from 9,384 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
 - **64 of 781** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **277 to 150** in the +90-day forecast without new verified dates.
 - GA4 now shows **16 `outbound_click` events in the last 7 days**; on 3 September it was made the key event and event-data retention was extended from **2 to 14 months**. D1 remains the authoritative receipt, but its 90-day click/attempt totals and attribution fields are inconsistent, so it is not yet safe to use as a conversion-rate baseline.
@@ -145,7 +145,7 @@ GA4 Admin previously showed `outbound_click` in the current web stream with its 
 
 ### D. Sitemap recency — resolved
 
-Search Console now reports the sitemap was last read on 2 September, has `Success` status and 311 discovered pages — equal to the live indexable-surface count. No sitemap change is proposed.
+Search Console reports the sitemap was last read on 2 September, has `Success` status and 311 discovered pages — equal to the then-live indexable-surface count. A 3 September current-data check reports 309 indexable routes and 309 sitemap entries, with no orphan, empty-indexable, duplicate-title, structural, or internal-link problem; the two-route difference is venue inventory decay. Search Console has not yet re-read that newer surface. No sitemap change is proposed.
 
 **Controlled by:** `functions/sitemap.xml.js` / shared indexability modules and Search Console's crawl schedule. **Effect / confidence:** no remaining remediation; **high confidence** in the observed alignment.
 

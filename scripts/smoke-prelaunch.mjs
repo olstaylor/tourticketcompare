@@ -66,7 +66,7 @@ const routeMarkers = new Map([
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
-  ["/blog", "No posts are published right now"],
+  ["/blog", "what a price snapshot does and does not claim"],
   ["/compare-concert-ticket-prices", "We only compare prices captured for the same event, each with the time it was taken"],
   ["/how-it-works", "A button only goes up when we can confirm where it lands"],
   ["/currency-converter", "European Central Bank daily reference rates"],
@@ -1100,7 +1100,8 @@ const jsonLdRoutes = [
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
   { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
-  { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
+  { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
+  { pathname: "/blog/what-a-price-snapshot-actually-is", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "BlogPosting"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] }
 ];
 for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
   const { text } = await routeResponse(pathname);

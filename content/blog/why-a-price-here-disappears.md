@@ -1,10 +1,11 @@
 ---
 title: Why a price on this site disappears
 seo_title: Why a price disappears
-description: A price shown here has an expiry stamped on it and several gates behind it. When any one fails the figure vanishes rather than going stale. Here is why.
+description: A price shown here has an expiry stamped on it and several gates behind it. When any one of them fails the figure vanishes rather than going stale. Here is why.
 summary: A figure that was on an event card an hour ago can be gone now. That is the price system working as designed — snapshots expire, the gates fail closed, and a blank space is the honest output.
 date: 2026-08-19
-status: draft
+updated: 2026-09-03
+status: published
 tags:
   - ticket-prices
   - how-we-work
@@ -14,36 +15,36 @@ related_guides:
   - how-resale-ticket-pricing-works
 ---
 
-<!--
-OUTLINE — replace each brief with your own prose, then set status: published.
-
-Target: 600+ words. The tag gate counts *indexable* posts, and a post under 300
-body words is itself noindex — so this needs to clear 300 words to flip
-/blog/tags/ticket-prices to index,follow. Delete this comment before publishing.
--->
-
-*Brief: open on the concrete experience — a figure was on the card, now it is not, and nothing broke. Set up the claim that absence is a deliberate output rather than a gap.*
+You opened an event card this morning and a provider button carried a figure. You have come back to book and the figure has gone — same show, same button, no number. Nothing broke. That blank is a deliberate output, and it is worth explaining what produced it, because a site that quietly left the old figure there would look more helpful while telling you less.
 
 ## A snapshot has an expiry stamped on it
 
-*Brief: a snapshot is one provider's listed price for one verified show at one recorded moment. It is stored with an expiry. When that expiry passes the figure stops rendering — it is not refreshed in place, and no last-known value is left standing in its place. Cross-link the earlier post on what a snapshot actually is.*
+A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry six hours out, and the capture lanes run every two hours — comfortably inside that window, so an ordinary run keeps the figure current. When a run cannot fetch, or the provider's feed stops carrying that event, no new observation lands, and the existing one simply ages past its expiry and stops rendering.
+
+Nothing is refreshed in place and no last-known value is left standing. The figure was true at the time printed next to it; past its expiry there is no longer any evidence for it, so it is not shown. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail.
 
 ## The gate has more than one door, and all of them fail closed
 
-*Brief: walk the conditions — display rights, exact-event mapping, a verified destination URL, the provider's flags enabled, and freshness. Any single failure hides the figure. The useful consequence: a price can vanish because the event record got re-flagged for checking, not because anything about the price changed. The figure is downstream of the event's provenance.*
+Expiry is only one of the conditions. Before any figure renders, the provider must have display rights, the row must map to that exact show rather than a nearby date, the destination URL must carry its own verified provenance, the provider's display flag must be on, and the stored figure must be a plausible number in a real currency. A single failure hides the figure. None of them degrade into a partial answer.
+
+That produces one consequence worth knowing about: a price can disappear because something changed about the *event record*, not about the price. If a show's provenance gets re-flagged for checking, or its provider link is cleared after a confirmed mismatch, the figure attached to that lane goes with it. The number is downstream of the link, and the link is downstream of the evidence.
 
 ## Some providers never show a figure at all
 
-*Brief: this is structural, not a gap in coverage. SeatGeek has no pricing lane here at all, permanently. Ticket Liquidator's feed carries no numeric listed price, so its lane stays price-disabled while the links stay live. Their absence tells you about the feed, not about the show.*
+If a provider on a card has never carried a price for you, that is structural rather than a gap in coverage. SeatGeek has no pricing lane here at all — the API returns no pricing statistics for this site's client, permanently — so it is a checked-link provider and nothing more. Ticket Liquidator's catalogue carries no numeric listed price, so its lane stays price-disabled while its links stay live. Ticketmaster is a verification and link source rather than a price lane.
 
-## What we don't do when a snapshot lapses
+Their silence tells you about the feed behind them, not about the show or its demand.
 
-*Brief: the negative space, stated plainly — no last-known value held over, no "from" estimate, no averaging across providers, no ranking one provider against another, no filling the gap with a number from a different event or a different seat. A blank beats a stale number that reads as current.*
+## What does not happen when a snapshot lapses
+
+No last-known value is held over. No "from" estimate is generated. Nothing is averaged across providers, filled in from a different date, or borrowed from another seat. No provider is promoted up the card because it still has a figure and its neighbours do not — the order is fixed and is not a ranking. A blank beats a stale number that reads as current, and it beats an invented one by a wider margin still.
 
 ## What the blank actually leaves you
 
-*Brief: the link is still there and still verified — the expiry removes the figure, not the destination. The provider's own checkout is the only place a final total is settled anyway, once fees and delivery land. Close on what to do with the empty space rather than apologising for it.*
+The link. The expiry removes the figure, not the destination: the button is still there, still checked, and still goes to that exact show. The provider's own page is the only place a current figure and a final total are settled anyway, once fees, delivery and tax are added, so a card that has lost its snapshot has lost a starting point rather than the answer.
+
+Where a card does have a current snapshot, it also carries a snapshot history — up to ninety days of what that provider's listed figure has been for that show, which is a better guide to whether today's number is unusual than any single reading, present or missing.
 
 ## The short version
 
-*Brief: two or three sentences. Prices here are timestamped observations with a shelf life, not a live feed. When the shelf life runs out the figure goes, and that is the system keeping its promise rather than breaking it.*
+Prices here are timestamped observations with a shelf life, not a live feed. When the shelf life runs out, or any of the gates behind the figure stops passing, the number goes and the checked link stays. That is the system keeping its promise rather than breaking it.

@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-02T09:29:44.774Z
+Generated: 2026-09-03T09:38:33.121Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match

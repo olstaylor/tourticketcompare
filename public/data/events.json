@@ -1313,17 +1313,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107083219",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-2-2026/event/107083219",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_df7Lz6v",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695866",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-2-2026/event/107083219"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435049481d0",
@@ -4079,18 +4079,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073219",
-        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-2-2026/event/107073219",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJsiUC0",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676871",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-2-2026/event/107073219"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b2cb6418",
@@ -16232,11 +16232,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107077123",
-        "url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-2-2026/event/107077123",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -16245,7 +16245,7 @@
     "ticketmaster_discovery_event_id": "vv17FZ_eGkSsN1I0",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-2-2026/event/107077123"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
@@ -26963,11 +26963,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198188",
-        "url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-2-2026/event/107198188",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d6OV55I",
@@ -26975,7 +26975,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745893",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-seattle-tickets-9-2-2026/event/107198188"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-vancouver-1aozkoegkd-fy4x",
@@ -41381,11 +41381,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162159",
-        "url": "https://www.stubhub.ie/karol-g-san-antonio-tickets-9-2-2026/event/107162159",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_ak3mIVP",
@@ -41393,7 +41393,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896561",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-san-antonio-tickets-9-2-2026/event/107162159"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_an5e3ov",

@@ -203,7 +203,7 @@ export const OG_CARDS = {
   "/guides/seatgeek-promo-code-guide": {"url":"/og/guides-seatgeek-promo-code-guide.png","alt":"Guide: How should I verify a SeatGeek promo code safely?"},
   "/guides/seatgeek-vs-ticketmaster": {"url":"/og/guides-seatgeek-vs-ticketmaster.png","alt":"Guide: SeatGeek vs Ticketmaster: Which Is Better or Cheaper?"},
   "/guides/ticket-delivery-and-transfer-timing": {"url":"/og/guides-ticket-delivery-and-transfer-timing.png","alt":"Guide: How do ticket delivery and transfer timing affect risk?"},
-  "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {"url":"/og/guides-ticketmaster-vs-seatgeek-vs-vivid-seats.png","alt":"Guide: Ticketmaster vs SeatGeek vs Vivid Seats: Key Differences"},
+  "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {"url":"/og/guides-ticketmaster-vs-seatgeek-vs-vivid-seats.png","alt":"Guide: Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets"},
   "/guides/ticketmaster-vs-stubhub": {"url":"/og/guides-ticketmaster-vs-stubhub.png","alt":"Guide: How should I compare Ticketmaster and StubHub?"},
   "/guides/ticketnetwork-vs-ticketmaster": {"url":"/og/guides-ticketnetwork-vs-ticketmaster.png","alt":"Guide: How should I compare TicketNetwork and Ticketmaster?"},
   "/guides/vivid-seats-vs-ticketmaster": {"url":"/og/guides-vivid-seats-vs-ticketmaster.png","alt":"Guide: Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"},

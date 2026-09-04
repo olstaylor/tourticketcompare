@@ -252,6 +252,14 @@ assert(
   cityPage.main.includes(`href="/artists/${artistA.slug}#show-`),
   "city page deep-links each show to its artist event card"
 );
+assert(
+  /href="\/api\/out\?showId=[^"]+&amp;provider=ticketmaster/.test(cityPage.main),
+  "city page surfaces the existing gated event-level ticket destination"
+);
+assert(
+  occurrences(cityPage.main, 'class="info-card show-card') === cityRecord.showCount,
+  "city page renders one event card per upcoming source show"
+);
 
 // Ticket-comparison guidance is retained.
 assert(cityText.includes(`Compare tickets for a ${CITY} concert`), "city page keeps its ticket-comparison section");

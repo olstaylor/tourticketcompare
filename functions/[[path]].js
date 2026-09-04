@@ -1456,26 +1456,41 @@ function cityShowsByVenue(city) {
   return order.map((slug) => byVenue.get(slug));
 }
 
-function renderCityShowGroups(city, indexableArtistSlugs = new Set(), indexableVenueSlugs = new Set()) {
+function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(), indexableVenueSlugs = new Set(), options = {}) {
+  const eventsById = new Map(
+    (Array.isArray(events) ? events : [])
+      .filter((event) => event && event.id)
+      .map((event) => [String(event.id), event])
+  );
+  const venueRuns = venueRunIndex(city.shows);
   return cityShowsByVenue(city)
     .map((group) => {
       const venueHeading = indexableVenueSlugs.has(group.slug)
         ? anchor(group.name, `/venues/${group.slug}`)
         : escapeHtml(group.name);
-      const items = group.shows
+      const cards = group.shows
         .map((show) => {
-          const date = formatShowDateServer(show.datetime_iso, show.timezone) || "Date shown on the artist page";
+          const sourceEvent = eventsById.get(show.id);
+          const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], show.artist_slug, 1)[0] : null;
+          if (!fullShow) return "";
+          const card = renderShowCardServerHtml(
+            fullShow,
+            options.seatGeekAvailable === true,
+            indexableArtistSlugs.has(show.artist_slug),
+            options.vividSeatsAvailable === true,
+            show.artist_name || show.artist_slug,
+            options.marketplaceAvailability || {},
+            show.artist_slug,
+            venueRuns
+          );
           const artistLabel = show.artist_name || show.artist_slug;
-          const artist = indexableArtistSlugs.has(show.artist_slug)
-            ? anchor(artistLabel, `/artists/${show.artist_slug}#${showAnchorId(show)}`)
-            : escapeHtml(artistLabel);
-          const eventLabel = show.event_name || show.tour_name;
-          return `<li><time datetime="${escapeAttr(show.datetime_iso)}">${escapeHtml(date)}</time> — ${artist}${
-            eventLabel ? ` <span class="muted">(${escapeHtml(eventLabel)})</span>` : ""
-          }</li>`;
+          const detailsLink = indexableArtistSlugs.has(show.artist_slug)
+            ? anchor(`View ${artistLabel} date details`, `/artists/${show.artist_slug}#${showAnchorId(show)}`, "text-link")
+            : "";
+          return `${card}${detailsLink}`;
         })
         .join("");
-      return `<article class="nested-panel"><h3>${venueHeading}</h3><ul class="guide-link-list">${items}</ul></article>`;
+      return `<article class="nested-panel"><h3>${venueHeading}</h3><div class="card-grid show-card-grid city-show-cards">${cards}</div></article>`;
     })
     .join("");
 }
@@ -2003,10 +2018,11 @@ function renderLocationGuideLinks() {
   return LOCATION_GUIDE_LINKS.map(([label, path]) => anchor(label, path, "button button-secondary")).join("");
 }
 
-export function renderCityPageBody(route, indexableVenueSlugs = new Set()) {
+export function renderCityPageBody(route, events = [], options = {}) {
   const city = route.city;
   const yearLabel = cityYearLabel(city);
   const indexableArtistSlugs = new Set(route.indexableArtistSlugs || []);
+  const indexableVenueSlugs = options.indexableVenueSlugs || new Set();
   const shell = (body) =>
     `<main id="mainContent"><section class="content-page city-page" aria-labelledby="cityTitle">${renderBreadcrumbHtml(
       route
@@ -2036,8 +2052,10 @@ export function renderCityPageBody(route, indexableVenueSlugs = new Set()) {
       city.city
     )}${yearLabel ? ` for ${escapeHtml(yearLabel)}` : ""}</h2></div>${renderCityShowGroups(
       city,
+      events,
       indexableArtistSlugs,
-      indexableVenueSlugs
+      indexableVenueSlugs,
+      options
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
       city.city
     )} concert</h2><p>Open the artist page for a date above to reach its ticket links and any recorded prices for that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
@@ -3955,7 +3973,14 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const indexableVenueSlugs = new Set(
       deriveVenues(events).filter((venue) => venue.indexable).map((venue) => venue.slug)
     );
-    return renderCityPageBody(route, indexableVenueSlugs);
+    return renderCityPageBody(route, events, {
+      indexableVenueSlugs,
+      seatGeekAvailable: isSeatGeekConfigured(env),
+      vividSeatsAvailable: isVividSeatsConfigured(env),
+      marketplaceAvailability: Object.fromEntries(
+        IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
+      )
+    });
   }
 
   if (route.type === "venues-index") {

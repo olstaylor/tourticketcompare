@@ -93,6 +93,16 @@ Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed to
 
 **Effect / confidence:** likely the strongest path to both useful pages and monetised click opportunity; **high confidence** that coverage/roster freshness matters, **low confidence** on which artist/provider to prioritise until D1 data is available.
 
+### 2a. Current Beyoncé ticket demand lands on an honest but zero-destination empty board
+
+**Evidence (4 September Search Console UI):** the exact-page report for [`/artists/beyonce`](https://search.google.com/search-console/performance/search-analytics?resource_id=sc-domain%3Atourticketcompare.com&page=%21https%3A%2F%2Ftourticketcompare.com%2Fartists%2Fbeyonce&start_date=20260824&end_date=20260830&compare_start_date=20260817&compare_end_date=20260823&metrics=IMPRESSIONS) reports **389 impressions**, **0 clicks**, **0% CTR**, and average position **61.3** for 24–30 August, versus 28 impressions and position 58 in the preceding week. Its 62 listed queries are predominantly ticket-led: `beyonce tickets` (43 impressions), `how to get beyonce tickets` (32), `beyoncéconcert tickets` (19), and `beyoncé tickets` (8). A contemporaneous live fetch of the page says that no verified upcoming Beyoncé dates are listed and shows no outbound provider CTA. The repository corroborates that `events.json` contains no Beyoncé event while `catalog.json` contains artist-page records for Ticketmaster and SeatGeek.
+
+**Controlled by:** the durable artist gate in `functions/_artist-indexability.js` and the empty-board branch in protected `functions/[[path]].js`. The latter intentionally passes `null` as `emptyStateProviderCta`; `scripts/smoke-prelaunch.mjs` explicitly asserts that a zero-event board must not surface a provider claim. The indexable URL remains permissible because it has a reviewed artist record, but it is not presently a monetised-click landing page.
+
+**Effect / confidence:** **high confidence** that the observed week cannot contribute an outbound provider click from this landing page; **low confidence** that the seven-day impression rise persists. This is not evidence to create a tour, date, price, CTA, or title rewrite. The watchlist signup is not a ticket destination and must not be counted as one.
+
+**Next action:** do not loosen the empty-board rule or route gate based on this spike. The only rules-compliant way to make the page conversion-capable is the normal verified event/provider workflow, after a real source record and exact event ticket link have been checked. Reassess the page after a 28-day Search Console window or after verified Beyoncé event data arrives.
+
 ### 3. IndexNow delivery is verified
 
 **Evidence:** the guarded 2 September dry run verified `https://tourticketcompare.com/9ffca7bd48067983c70d2ce6601728d3.txt` and enumerated the 311-URL live sitemap. The subsequent guarded submission returned HTTP 200 for all 311 URLs.

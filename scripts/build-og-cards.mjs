@@ -682,7 +682,17 @@ if (invokedDirectly) {
   } else if (mode === "--check") {
     await check();
   } else {
-    const paths = process.argv.slice(2).filter((value, index, values) => values[index - 1] === "--path");
+    const args = process.argv.slice(2);
+    const paths = [];
+    for (let index = 0; index < args.length; index += 1) {
+      if (args[index] !== "--path") continue;
+      const routePath = args[index + 1];
+      if (!routePath || routePath.startsWith("--")) {
+        throw new Error("--path requires a route value, for example: --path /guides/example");
+      }
+      paths.push(routePath);
+      index += 1;
+    }
     const { entries, pruned } = await build({ paths });
     console.log(`Wrote ${entries.length} OG card(s) to public/og/ and ${MANIFEST_REL}.`);
     if (pruned.length) {

@@ -398,9 +398,16 @@ async function loadSharp() {
   }
 }
 
-async function build({ write = true } = {}) {
+export function mergeCardEntries(existingEntries, replacements) {
+  const cards = new Map(existingEntries);
+  for (const [routePath, card] of replacements) cards.set(routePath, card);
+  return [...cards.entries()].sort(([left], [right]) => left.localeCompare(right));
+}
+
+async function build({ write = true, paths = [] } = {}) {
   const sharp = await loadSharp();
   const cards = await collectCards();
+  const requestedPaths = new Set(paths);
 
   const seen = new Map();
   for (const card of cards) {
@@ -412,8 +419,15 @@ async function build({ write = true } = {}) {
   const [serifBold, sans] = await Promise.all([measureAdvances(sharp, SERIF, 700), measureAdvances(sharp, SANS, 400)]);
 
   await fs.mkdir(OG_DIR, { recursive: true });
+  const selectedCards = requestedPaths.size
+    ? cards.filter((card) => requestedPaths.has(card.path))
+    : cards;
+  if (requestedPaths.size !== selectedCards.length) {
+    const knownPaths = new Set(selectedCards.map((card) => card.path));
+    throw new Error(`unknown OG-card route(s): ${[...requestedPaths].filter((routePath) => !knownPaths.has(routePath)).join(", ")}`);
+  }
   const entries = [];
-  for (const card of cards) {
+  for (const card of selectedCards) {
     const headline = fitHeadline(card.headline, { advances: serifBold });
     const sub = fitLine(card.sub, { advances: sans, sizes: [32, 28, 25, 22] });
     const svg = renderCardSvg({ eyebrow: card.eyebrow, headline, sub });
@@ -428,7 +442,10 @@ async function build({ write = true } = {}) {
   }
 
   entries.sort((a, b) => a[0].localeCompare(b[0]));
-  if (write) await fs.writeFile(MANIFEST_PATH, renderManifest(entries));
+  const manifestEntries = requestedPaths.size
+    ? mergeCardEntries(Object.entries((await import(pathToFileURL(MANIFEST_PATH))).OG_CARDS), entries)
+    : entries;
+  if (write) await fs.writeFile(MANIFEST_PATH, renderManifest(manifestEntries));
 
   // Drop cards for routes that no longer exist. A city or artist-city page
   // stops qualifying as its dates pass, and without this its card would sit in
@@ -438,8 +455,10 @@ async function build({ write = true } = {}) {
   // Safe to delete: nothing references an orphan (the manifest is the only way
   // the router reaches a card), and a route that later recovers gets its card
   // rebuilt by the next run.
-  const pruned = write ? await pruneOrphanedCards(new Set(entries.map(([, card]) => card.url))) : [];
-  return { entries, pruned };
+  const pruned = write && !requestedPaths.size
+    ? await pruneOrphanedCards(new Set(entries.map(([, card]) => card.url)))
+    : [];
+  return { entries: manifestEntries, pruned };
 }
 
 /**
@@ -643,6 +662,10 @@ async function selfTest() {
   const manifest = renderManifest([["/artists/coldplay", { url: "/og/artists-coldplay.png", alt: "Tickets: Coldplay" }]]);
   assert(manifest.includes("export const OG_CARDS = {"), "the manifest exports OG_CARDS");
   assert(manifest.includes("GENERATED FILE"), "the manifest is marked generated");
+  assert(
+    mergeCardEntries([["/artists/coldplay", { url: "/og/artists-coldplay.png", alt: "Tickets: Coldplay" }]], [["/guides/example", { url: "/og/guides-example.png", alt: "Guide: Example" }]]).length === 2,
+    "a targeted refresh retains existing manifest entries"
+  );
 
   if (!process.exitCode) console.log(`build-og-cards self-test passed (${passed} assertions).`);
 }
@@ -659,7 +682,18 @@ if (invokedDirectly) {
   } else if (mode === "--check") {
     await check();
   } else {
-    const { entries, pruned } = await build();
+    const args = process.argv.slice(2);
+    const paths = [];
+    for (let index = 0; index < args.length; index += 1) {
+      if (args[index] !== "--path") continue;
+      const routePath = args[index + 1];
+      if (!routePath || routePath.startsWith("--")) {
+        throw new Error("--path requires a route value, for example: --path /guides/example");
+      }
+      paths.push(routePath);
+      index += 1;
+    }
+    const { entries, pruned } = await build({ paths });
     console.log(`Wrote ${entries.length} OG card(s) to public/og/ and ${MANIFEST_REL}.`);
     if (pruned.length) {
       console.log(`Removed ${pruned.length} card(s) for routes that no longer exist: ${pruned.slice(0, 5).join(", ")}${pruned.length > 5 ? " …" : ""}`);

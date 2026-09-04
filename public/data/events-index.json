@@ -12258,5 +12258,89 @@
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-hamburg-z698xzc2z1k-yjfqj",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Germany",
+    "city": "Hamburg",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-05-14T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-merksem-antwerpen-z698xzg2z16v0pps8o",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Belgium",
+    "city": "Merksem (Antwerpen)",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-05-16T16:00:00Z",
+    "timezone": "Europe/Brussels",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-berlin-z698xzc2z1akrz8f",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Germany",
+    "city": "Berlin",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-05-18T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-munich-z698xzc2z1kosuv4v",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Germany",
+    "city": "Munich",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2027-05-28T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-amsterdam-z698xzbpz16ee7oboy",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-31T18:00:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-06-01T18:00:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-milano-zg9rmiynyzd611",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Italy",
+    "city": "Milano",
+    "venue": "Ippodromo SNAI San Siro",
+    "datetime_iso": "2027-07-14T14:00:00Z",
+    "timezone": "Europe/Rome",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

@@ -69000,5 +69000,376 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402"
+  },
+  {
+    "id": "tm-sombr-2027-hamburg-z698xzc2z1k-yjfqj",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Hamburg",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-05-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "879708766",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-hamburg-tickets/879708766?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-hamburg-tickets/879708766?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "879708766",
+        "discovery_event_id": "Z698xZC2Z1k-yjFqJ",
+        "url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-hamburg-tickets/879708766?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k-yjFqJ",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-merksem-antwerpen-z698xzg2z16v0pps8o",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Antwerp",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-05-16T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1916973411",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/sombr-you-are-the-reason-tour-antwerp-tickets/1916973411",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/sombr-you-are-the-reason-tour-antwerp-tickets/1916973411",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1916973411",
+        "discovery_event_id": "Z698xZG2Z16v0pPS8o",
+        "url": "https://www.ticketmaster.be/event/sombr-you-are-the-reason-tour-antwerp-tickets/1916973411",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v0pPS8o",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-berlin-z698xzc2z1akrz8f",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Berlin",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-05-18T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "6780408",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-berlin-tickets/6780408?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-berlin-tickets/6780408?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "6780408",
+        "discovery_event_id": "Z698xZC2Z1AkrZ8F",
+        "url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-berlin-tickets/6780408?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1AkrZ8F",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-munich-z698xzc2z1kosuv4v",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Munich",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2027-05-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "473374541",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-munich-tickets/473374541?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-munich-tickets/473374541?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "473374541",
+        "discovery_event_id": "Z698xZC2Z1koSuV4v",
+        "url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-munich-tickets/473374541?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1koSuV4v",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-amsterdam-z698xzbpz16ee7oboy",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Amsterdam",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-31T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2084818839",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/2084818839?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/2084818839?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2084818839",
+        "discovery_event_id": "Z698xZbpZ16ee7ObOy",
+        "url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/2084818839?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16ee7ObOy",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Amsterdam",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-06-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1932573181",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/1932573181?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/1932573181?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1932573181",
+        "discovery_event_id": "Z698xZbpZ16v0w4Skv",
+        "url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/1932573181?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v0w4Skv",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-milano-zg9rmiynyzd611",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // MILAN | I-Days Milano 2027",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Ippodromo SNAI San Siro",
+    "datetime_iso": "2027-07-14T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "lcvjpwynticf",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/sombr-you-are-the-reason-tour-milan-milano-14-07-2027/event/lcvjpwynticf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/sombr-you-are-the-reason-tour-milan-milano-14-07-2027/event/lcvjpwynticf",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "lcvjpwynticf",
+        "discovery_event_id": "ZG9rmIYnyZd611",
+        "url": "https://www.ticketmaster.it/biglietti/sombr-you-are-the-reason-tour-milan-milano-14-07-2027/event/lcvjpwynticf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZd611",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
   }
 ]

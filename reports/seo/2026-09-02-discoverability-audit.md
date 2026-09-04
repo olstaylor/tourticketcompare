@@ -7,7 +7,7 @@
 ## Executive summary
 
 - At the 2 September audit capture, **311 of 1,130** rendered routes were indexable and the live sitemap had the same 311 URLs. The 3 September repository check is **309 of 1,127**, with the same 309 sitemap entries; this is calendar-driven inventory decay, not a gate or link-integrity defect.
-- Search generated **33 clicks from 9,384 impressions** (0.4% CTR) in the only available window; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
+- The refreshed 4 September Search Console read shows **37 clicks from 9,960 impressions** (0.4% CTR; position 25.2) over 5 July–2 September; existing comparison guides are visible but under-clicked. PR [#831](https://github.com/olstaylor/tourticketcompare/pull/831) is the single validated intent correction.
 - **64 of 781** reviewed upcoming events have just one provider lane, while the dynamic indexable surface falls from **277 to 150** in the +90-day forecast without new verified dates; Search Console also lists only **7** external links, all to the homepage, with no listed deep link to the campaign guide.
 - GA4 now shows **16 `outbound_click` events in the last 7 days**; on 3 September it was made the key event and event-data retention was extended from **2 to 14 months**. D1 confirms `outbound_attempt` began on **20 August**, so the earlier 90-day mismatch is historical; however, its valid post-cutover period has **5,541** successful redirect receipts versus only **87** client CTA-intent events, so conversion-weighted page rankings remain blocked.
 - The production Pages project has **1,045 CPU-time-limit errors in the most recent rolling 24 hours**; a sampled artist-city URL also returned two 503s before one 200. Current low-rate route samples succeed, and PR [#841](https://github.com/olstaylor/tourticketcompare/pull/841) removes confirmed duplicate static-data reads without claiming that it proves the CPU-error root cause.
@@ -18,7 +18,7 @@
 |---|---|---|
 | Canonical repository | available | GitHub `main` cloned for audit; branch `codex/seo-discoverability-2026-09-02` and PR #831 created only for the scoped change documented below. |
 | Production crawl | partial / usable | Low-rate cURL checks and production route verifier work. A high-concurrency Node crawl produced client-side 503s and is not used as Google evidence. |
-| Google Search Console | available | Domain property and submitted sitemap visible. Export covers only 2026-07-05 to 2026-08-30 despite the wider UI selection. Query×page and coverage exports are unavailable. The same Domain property is linked to GA4. |
+| Google Search Console | available | Domain property and submitted sitemap visible. On 4 September the live Performance UI exposed 5 July–2 September totals and query, page, country and device breakouts. Query×page and coverage exports remain unavailable. The same Domain property is linked to GA4. |
 | GA4 | available | Measurement ID `G-Q7R1NQY8YH`; on 3 September the obsolete no-stream-data `provider_click` marker was removed, emitted `outbound_click` was marked as the key event, and event retention was set to 14 months. The Internal Traffic exclusion remains Testing pending IP-scope review. GA4 is only a mirror, not the authoritative click source. |
 | GTM | available, read-only | Container `GTM-MZ42TPMM`; one production Google tag fires on the custom initialisation event, with zero pending workspace changes. The bootstrap sets `send_page_view: false`; no change made. |
 | Impact | available | Authenticated partner reporting UI available. Its aggregate report is account/program scoped, not proven TTC/page scoped, so it is not used for site prioritisation. |
@@ -29,20 +29,20 @@
 
 ### Organic demand
 
-Search Console performance UI, available data 5 July–31 August 2026; Page Indexing report captured 2 September 2026 (last update 28 August). Full CSV/API exports remain unavailable, so this is a UI-observed baseline rather than a reproducible export:
+Search Console Performance UI, available data 5 July–2 September 2026 and captured 4 September; Page Indexing report captured 2 September 2026 (last update 28 August). Full CSV/API exports remain unavailable, so this is a UI-observed baseline rather than a reproducible export:
 
 | Metric | Value |
 |---|---:|
-| Clicks | 33 |
-| Impressions | 9,384 |
+| Clicks | 37 |
+| Impressions | 9,960 |
 | CTR | 0.4% |
-| Average position | 25.6 |
+| Average position | 25.2 |
 
 The volume is small and the time window is short, so no query-level change should be treated as statistically decisive.
 
-High-impression query themes already near page-one/two include `vivid seats vs ticketmaster` (221 impressions, position 8.6, 0 clicks), `seatgeek vs ticketmaster` (156, 0 clicks), `compare ticket prices` (90, 1 click), and `compare concert ticket prices` (129, 2 clicks). Existing guide pages receive the relevant visibility: `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats` has 1,312 impressions and 4 clicks, while `/guides/seatgeek-vs-ticketmaster` has 2,046 impressions and 2 clicks. This confirms a CTR and snippet/intent investigation opportunity; it does **not** yet identify a winning query-to-page mapping. By contrast, `tame impala tickets` has 92 impressions but position 63.7 and zero clicks; its landing page already serves 16 reviewed upcoming dates, each with at least one checked destination. It is not a justified near-term content or indexability change.
+High-impression query themes already near page-one/two include `vivid seats vs ticketmaster` (243 impressions, 0 clicks), `seatgeek vs ticketmaster` (157, 0 clicks), `compare ticket prices` (100, 3 clicks), and `compare concert ticket prices` (140, 2 clicks). Existing guide pages receive the relevant visibility: `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats` has 1,380 impressions and 4 clicks, while `/guides/seatgeek-vs-ticketmaster` has 2,131 impressions and 3 clicks. This confirms a CTR and snippet/intent investigation opportunity; it does **not** yet identify a winning query-to-page mapping. By contrast, `tame impala tickets` has 104 impressions and zero clicks; its landing page already serves verified upcoming dates and at least one checked destination. It is not a justified near-term content or indexability change.
 
-The available country/device UI segmentation points to the monetisable US/Canada lane but is not sufficient to prescribe country-specific content: United States is 14 clicks / 5,870 impressions; United Kingdom 14 / 454; Canada 1 / 441. India (267 impressions), Vietnam (231) and Philippines (180) have no clicks; no country-specific expansion is proposed because provider monetisation and ticket coverage have not been joined at that level. Mobile produces 18 clicks / 4,035 impressions and desktop 15 / 5,302, so the opportunity is not desktop-only.
+The available country/device UI segmentation is not sufficient to prescribe country-specific content: United States is 17 clicks / 6,303 impressions; United Kingdom 15 / 475; Canada 1 / 464. India (272 impressions), Vietnam (232) and Philippines (186) have no clicks; no country-specific expansion is proposed because provider monetisation and ticket coverage have not been joined at that level. Mobile produces 20 clicks / 4,271 impressions and desktop 17 / 5,636, so the opportunity is not desktop-only.
 
 ### Served and repository surface
 

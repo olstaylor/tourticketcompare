@@ -2642,11 +2642,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245510",
+        "url": "https://www.ticketnetwork.com/en/p/8245510",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k-yjFqJ",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245510"
   },
   {
     "id": "tm-sombr-2027-merksem-antwerpen-z698xzg2z16v0pps8o",
@@ -2748,11 +2756,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245511",
+        "url": "https://www.ticketnetwork.com/en/p/8245511",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1AkrZ8F",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245511"
   },
   {
     "id": "tm-sombr-2027-munich-z698xzc2z1kosuv4v",
@@ -2801,11 +2817,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245513",
+        "url": "https://www.ticketnetwork.com/en/p/8245513",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1koSuV4v",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245513"
   },
   {
     "id": "tm-sombr-2027-amsterdam-z698xzbpz16ee7oboy",
@@ -2854,11 +2878,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245523",
+        "url": "https://www.ticketnetwork.com/en/p/8245523",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16ee7ObOy",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245523"
   },
   {
     "id": "tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv",

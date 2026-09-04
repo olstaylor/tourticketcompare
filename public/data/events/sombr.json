@@ -2649,12 +2649,20 @@
         "verified": true,
         "last_verified_at": "2026-09-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245510",
+        "url": "https://www.ticketliquidator.com/tickets/8245510/sombr-tickets-Fri-May-14-2027-Barclays-Arena-Hamburg",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k-yjFqJ",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245510"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245510",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245510/sombr-tickets-Fri-May-14-2027-Barclays-Arena-Hamburg"
   },
   {
     "id": "tm-sombr-2027-merksem-antwerpen-z698xzg2z16v0pps8o",
@@ -2763,12 +2771,20 @@
         "verified": true,
         "last_verified_at": "2026-09-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245511",
+        "url": "https://www.ticketliquidator.com/tickets/8245511/sombr-tickets-Tue-May-18-2027-Uber-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1AkrZ8F",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245511"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245511",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245511/sombr-tickets-Tue-May-18-2027-Uber-Arena"
   },
   {
     "id": "tm-sombr-2027-munich-z698xzc2z1kosuv4v",
@@ -2824,12 +2840,20 @@
         "verified": true,
         "last_verified_at": "2026-09-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245513",
+        "url": "https://www.ticketliquidator.com/tickets/8245513/sombr-tickets-Fri-May-28-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1koSuV4v",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245513"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245513",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245513/sombr-tickets-Fri-May-28-2027-Kleine-Olympiahalle-Munich"
   },
   {
     "id": "tm-sombr-2027-amsterdam-z698xzbpz16ee7oboy",
@@ -2885,12 +2909,20 @@
         "verified": true,
         "last_verified_at": "2026-09-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245523",
+        "url": "https://www.ticketliquidator.com/tickets/8245523/sombr-tickets-Mon-May-31-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-09-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16ee7ObOy",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245523",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245523/sombr-tickets-Mon-May-31-2027-Ziggo-Dome"
   },
   {
     "id": "tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv",

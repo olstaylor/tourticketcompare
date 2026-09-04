@@ -253,6 +253,10 @@ assert(
   "city page deep-links each show to its artist event card"
 );
 assert(
+  new RegExp(`<article[^>]*class="info-card show-card[^>]*>[\\s\\S]*?href="/artists/${artistA.slug}#show-[^"]+"[\\s\\S]*?</article>`).test(cityPage.main),
+  "city page keeps each artist detail link inside its show card"
+);
+assert(
   /href="\/api\/out\?showId=[^"]+&amp;provider=ticketmaster/.test(cityPage.main),
   "city page surfaces the existing gated event-level ticket destination"
 );
@@ -260,9 +264,24 @@ assert(
   occurrences(cityPage.main, 'class="info-card show-card') === cityRecord.showCount,
   "city page renders one event card per upcoming source show"
 );
+assert(
+  occurrences(cityPage.main, 'class="show-card-artist muted"') === cityRecord.showCount &&
+    cityPage.main.includes(`>${artistA.name}</p>`) &&
+    cityPage.main.includes(`>${artistB.name}</p>`),
+  "city cards identify the performer even when the event name adds nothing"
+);
+assert(
+  !cityPage.main.includes('data-copy-show-link='),
+  "city cards omit copy-link controls until their client behavior is loaded on city routes"
+);
 
 // Ticket-comparison guidance is retained.
 assert(cityText.includes(`Compare tickets for a ${CITY} concert`), "city page keeps its ticket-comparison section");
+assert(
+  cityText.includes("Use the ticket button on the selected date above") &&
+    cityText.includes("Open the artist page for additional date details"),
+  "city guidance directs visitors to the direct ticket CTA and retains artist pages for details"
+);
 assert(
   cityPage.main.includes('href="/guides/how-to-compare-concert-ticket-prices"') &&
     cityPage.main.includes('href="/guides/concert-ticket-fees-explained"'),

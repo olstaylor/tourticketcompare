@@ -1473,21 +1473,25 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
           const sourceEvent = eventsById.get(show.id);
           const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], show.artist_slug, 1)[0] : null;
           if (!fullShow) return "";
-          const card = renderShowCardServerHtml(
-            fullShow,
-            options.seatGeekAvailable === true,
-            indexableArtistSlugs.has(show.artist_slug),
-            options.vividSeatsAvailable === true,
-            show.artist_name || show.artist_slug,
-            options.marketplaceAvailability || {},
-            show.artist_slug,
-            venueRuns
-          );
           const artistLabel = show.artist_name || show.artist_slug;
           const detailsLink = indexableArtistSlugs.has(show.artist_slug)
             ? anchor(`View ${artistLabel} date details`, `/artists/${show.artist_slug}#${showAnchorId(show)}`, "text-link")
             : "";
-          return `${card}${detailsLink}`;
+          return renderShowCardServerHtml(
+            fullShow,
+            options.seatGeekAvailable === true,
+            indexableArtistSlugs.has(show.artist_slug),
+            options.vividSeatsAvailable === true,
+            artistLabel,
+            options.marketplaceAvailability || {},
+            show.artist_slug,
+            venueRuns,
+            {
+              includeCopyLink: false,
+              showArtistName: true,
+              supplementalHtml: detailsLink
+            }
+          );
         })
         .join("");
       return `<article class="nested-panel"><h3>${venueHeading}</h3><div class="card-grid show-card-grid city-show-cards">${cards}</div></article>`;
@@ -2058,7 +2062,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       options
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
       city.city
-    )} concert</h2><p>Open the artist page for a date above to reach its ticket links and any recorded prices for that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+    )} concert</h2><p>Use the ticket button on the selected date above to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
       "All cities",
       "/cities",
       "button button-secondary"
@@ -3344,7 +3348,7 @@ function renderPriceHistoryPanelHtml(artistSlug, showId) {
   )}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></div></div>`;
 }
 
-function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}) {
+function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}, presentation = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
@@ -3373,7 +3377,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   }
 
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
-  const copyLinkHtml = anchorId
+  const copyLinkHtml = presentation.includeCopyLink !== false && anchorId
     ? `<a class="text-link copy-show-link" href="#${escapeAttr(anchorId)}" data-copy-show-link="${escapeAttr(anchorId)}">Copy link to this date</a>`
     : "";
   // Compact card: date badge, then city · venue as the heading (the artist
@@ -3383,6 +3387,10 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
   const eventName = String(show.event_name || "").trim();
   const title = location || eventName || titleFallback;
+  const artistHtml = presentation.showArtistName === true && artistName
+    ? `<p class="show-card-artist muted">${escapeHtml(artistName)}</p>`
+    : "";
+  const supplementalHtml = typeof presentation.supplementalHtml === "string" ? presentation.supplementalHtml : "";
   const subHtml =
     location && eventName && eventName.toLowerCase() !== String(artistName || "").trim().toLowerCase()
       ? `<p class="show-card-sub muted">${escapeHtml(eventName)}</p>`
@@ -3411,7 +3419,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const runHtml = run
     ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue</p>`
     : "";
-  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
+  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the

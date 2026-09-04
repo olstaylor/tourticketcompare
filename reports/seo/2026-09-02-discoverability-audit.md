@@ -196,6 +196,8 @@ GA4 Admin previously showed `outbound_click` in the current web stream with its 
 
 **Direct recheck, 4 September:** GA4 Admin's Key events tab now lists `outbound_click` with its key-event toggle on and the Tour Ticket Compare web stream active in the last 28 days. The other configured key event is `purchase`, which reports no stream data. GA4 Home reports 25 `provider_cta_view` events in the latest seven days. This proves the configuration and that the client CTA-view event is arriving; it does not make GA4 a conversion denominator or prove an individual outbound-click count without a controlled reconciliation against D1.
 
+**Safeguard recheck, 4 September:** GA4's sole Internal Traffic filter is an `Exclude` filter in **Testing** state, not active. Both user and event data retention are set to **14 months**. Leave the filter in Testing until its IP definition has been reviewed; the retention setting satisfies the available maximum configuration without changing the historical event gap.
+
 ### D. Sitemap recency — resolved
 
 Search Console reports the sitemap was last read on 2 September, has `Success` status and 311 discovered pages — equal to the then-live indexable-surface count. A 3 September current-data check reports 309 indexable routes and 309 sitemap entries, with no orphan, empty-indexable, duplicate-title, structural, or internal-link problem; the two-route difference is venue inventory decay. Search Console has not yet re-read that newer surface. No sitemap change is proposed.

@@ -2062,7 +2062,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       options
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
       city.city
-    )} concert</h2><p>Use the ticket button on the selected date above to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+    )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
       "All cities",
       "/cities",
       "button button-secondary"

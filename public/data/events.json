@@ -1382,17 +1382,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085149",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-4-2026/event/107085149",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_df7PF68",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695867",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-4-2026/event/107085149"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504a381d8",
@@ -20633,11 +20633,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957096",
-        "url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-4-2026/event/106957096",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGFbS6GCxIf",
@@ -20646,7 +20646,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-4-2026/event/106957096"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cecb2b77",
@@ -24667,17 +24667,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107449231",
-        "url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-4-9-2026/event/107449231",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6CksBAD4",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-4-9-2026/event/107449231"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
@@ -69537,13 +69537,21 @@
         "verified": true,
         "last_verified_at": "2026-09-05",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666406",
+        "url": "https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406",
+        "verified": true,
+        "last_verified_at": "2026-09-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfbGkeiQyO0",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245421",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245421/sombr-tickets-Sat-Jun-19-2027-Bellahouston-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245421/sombr-tickets-Sat-Jun-19-2027-Bellahouston-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwyrfux",
@@ -69592,11 +69600,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666543",
+        "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543",
+        "verified": true,
+        "last_verified_at": "2026-09-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwYrFUX",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogklwvhfa",
@@ -69645,11 +69661,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665338",
+        "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338",
+        "verified": true,
+        "last_verified_at": "2026-09-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGklwvHfa",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwskt7w",
@@ -69698,11 +69722,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666544",
+        "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544",
+        "verified": true,
+        "last_verified_at": "2026-09-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwSKt7W",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwy2ti0",
@@ -69751,11 +69783,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666748",
+        "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748",
+        "verified": true,
+        "last_verified_at": "2026-09-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwy2ti0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwwynfm",

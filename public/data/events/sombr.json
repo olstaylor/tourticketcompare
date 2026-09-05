@@ -3117,11 +3117,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245421",
+        "url": "https://www.ticketnetwork.com/en/p/8245421",
+        "verified": true,
+        "last_verified_at": "2026-09-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfbGkeiQyO0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245421"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwyrfux",

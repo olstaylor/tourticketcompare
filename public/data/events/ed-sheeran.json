@@ -994,11 +994,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7418590",
-        "url": "https://www.ticketnetwork.com/en/p/7418590",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7418590",
@@ -1019,7 +1019,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418590",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418590/Ed-Sheeran-tickets-Fri-Sep-4-2026-MetLife-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-4-2026/event/106957096"
   },

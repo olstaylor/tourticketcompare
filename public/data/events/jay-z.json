@@ -196,7 +196,7 @@
         "event_id": 7137531,
         "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531",
         "verified": true,
-        "last_verified_at": "2026-09-02",
+        "last_verified_at": "2026-09-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -248,7 +248,7 @@
     "ticketmaster_event_id": "350064E1B1E85ED5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/jayz-30-london-04-09-2026/event/350064E1B1E85ED5",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-london-tottenham-hotspur-stadium-9-4-2026--concerts-rap-hip-hop/production/7256445",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jayz-30-london-04-09-2026/event/350064E1B1E85ED5",
     "last_verified_at": null,
@@ -270,11 +270,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7256445,
-        "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-london-tottenham-hotspur-stadium-9-4-2026--concerts-rap-hip-hop/production/7256445",
-        "verified": true,
-        "last_verified_at": "2026-09-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

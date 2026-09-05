@@ -20626,11 +20626,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7418590",
-        "url": "https://www.ticketliquidator.com/tickets/7418590/Ed-Sheeran-tickets-Fri-Sep-4-2026-MetLife-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106957096",
@@ -20645,7 +20645,7 @@
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418590/Ed-Sheeran-tickets-Fri-Sep-4-2026-MetLife-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-4-2026/event/106957096"
   },
   {
@@ -69530,12 +69530,20 @@
         "verified": true,
         "last_verified_at": "2026-09-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245421",
+        "url": "https://www.ticketliquidator.com/tickets/8245421/sombr-tickets-Sat-Jun-19-2027-Bellahouston-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfbGkeiQyO0",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245421"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245421",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245421/sombr-tickets-Sat-Jun-19-2027-Bellahouston-Park"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwyrfux",

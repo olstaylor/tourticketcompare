@@ -3069,5 +3069,323 @@
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZd611",
     "timezone": "Europe/Rome",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-glasgow-1auzkfbgkeiqyo0",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "Glasgow Summer Sessions - SOMBR // You Are The Reason Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Bellahouston Park",
+    "datetime_iso": "2027-06-19T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006518AC6B9824",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-sombr-you-are-glasgow-19-06-2027/event/36006518AC6B9824",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-sombr-you-are-glasgow-19-06-2027/event/36006518AC6B9824",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006518AC6B9824",
+        "discovery_event_id": "1AUZkfbGkeiQyO0",
+        "url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-sombr-you-are-glasgow-19-06-2027/event/36006518AC6B9824",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfbGkeiQyO0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwyrfux",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-21T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651CB0788DBE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-21-06-2027/event/3500651CB0788DBE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-21-06-2027/event/3500651CB0788DBE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651CB0788DBE",
+        "discovery_event_id": "1AdfZ_oGkwYrFUX",
+        "url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-21-06-2027/event/3500651CB0788DBE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGkwYrFUX",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogklwvhfa",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651AF207C509",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-22-06-2027/event/3500651AF207C509",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-22-06-2027/event/3500651AF207C509",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651AF207C509",
+        "discovery_event_id": "1AdfZ_oGklwvHfa",
+        "url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-22-06-2027/event/3500651AF207C509",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGklwvHfa",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwskt7w",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-24T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651CB34E913D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-24-06-2027/event/3500651CB34E913D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-24-06-2027/event/3500651CB34E913D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651CB34E913D",
+        "discovery_event_id": "1AdfZ_oGkwSKt7W",
+        "url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-24-06-2027/event/3500651CB34E913D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGkwSKt7W",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwy2ti0",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-25T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651CB93E9B24",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-25-06-2027/event/3500651CB93E9B24",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-25-06-2027/event/3500651CB93E9B24",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651CB93E9B24",
+        "discovery_event_id": "1AdfZ_oGkwy2ti0",
+        "url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-25-06-2027/event/3500651CB93E9B24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGkwy2ti0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwwynfm",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-29T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651CBDE6A237",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-29-06-2027/event/3500651CBDE6A237",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-29-06-2027/event/3500651CBDE6A237",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651CBDE6A237",
+        "discovery_event_id": "1AdfZ_oGkwWynFM",
+        "url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-29-06-2027/event/3500651CBDE6A237",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGkwWynFM",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

@@ -12342,5 +12342,89 @@
     "timezone": "Europe/Rome",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-glasgow-1auzkfbgkeiqyo0",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Great Britain",
+    "city": "Glasgow",
+    "venue": "Bellahouston Park",
+    "datetime_iso": "2027-06-19T15:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwyrfux",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-21T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogklwvhfa",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-22T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwskt7w",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-24T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwy2ti0",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-25T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-london-1adfz_ogkwwynfm",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-29T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-in-flames-2026-ft-lauderdale-vvg1vz_3k_p4ju",
+    "artist_slug": "in-flames",
+    "artist_name": "In Flames",
+    "country": "United States Of America",
+    "city": "Ft Lauderdale",
+    "venue": "Culture Room",
+    "datetime_iso": "2026-11-05T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

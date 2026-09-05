@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-in-flames-2026-ft-lauderdale-vvg1vz_3k_p4ju",
+    "artist_slug": "in-flames",
+    "artist_name": "In Flames",
+    "event_name": "In Flames",
+    "city": "Ft Lauderdale",
+    "country": "United States Of America",
+    "venue": "Culture Room",
+    "datetime_iso": "2026-11-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0065219995598D",
+    "ticketmaster_url": "https://www.ticketmaster.com/in-flames-ft-lauderdale-florida-11-04-2026/event/0D0065219995598D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/in-flames-ft-lauderdale-florida-11-04-2026/event/0D0065219995598D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0065219995598D",
+        "discovery_event_id": "vvG1VZ_3k_P4Ju",
+        "url": "https://www.ticketmaster.com/in-flames-ft-lauderdale-florida-11-04-2026/event/0D0065219995598D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3k_P4Ju",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

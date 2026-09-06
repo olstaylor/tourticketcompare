@@ -1085,11 +1085,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954181",
-        "url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-5-2026/event/106954181",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGFbS6CwwcM",
@@ -1098,7 +1098,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418591",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418591/Ed-Sheeran-tickets-Sat-Sep-5-2026-MetLife-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-5-2026/event/106954181"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-philadelphia-02006331ed9c6125",

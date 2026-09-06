@@ -345,17 +345,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107460111",
-        "url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6CxpcQaN",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-jay-z-2026-inglewood-vvg1iz_gntjqqm",

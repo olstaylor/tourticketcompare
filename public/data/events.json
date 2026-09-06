@@ -1451,17 +1451,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085150",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-5-2026/event/107085150",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_df7Iz6b",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695868",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-5-2026/event/107085150"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504b581eb",
@@ -4156,18 +4156,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107075188",
-        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-5-2026/event/107075188",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJwwU8b",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676872",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676872/BTS-tickets-Sat-Sep-5-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-5-2026/event/107075188"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b353645f",
@@ -16309,11 +16309,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107071104",
-        "url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-5-2026/event/107071104",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -16322,7 +16322,7 @@
     "ticketmaster_discovery_event_id": "vv1A8vN0_GA221kN",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668636",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668636/Bruno-Mars-tickets-Sat-Sep-5-2026-Gillette-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-5-2026/event/107071104"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
@@ -20710,11 +20710,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954181",
-        "url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-5-2026/event/106954181",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGFbS6CwwcM",
@@ -20723,7 +20723,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418591",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418591/Ed-Sheeran-tickets-Sat-Sep-5-2026-MetLife-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-5-2026/event/106954181"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-philadelphia-02006331ed9c6125",
@@ -27040,11 +27040,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107108091",
-        "url": "https://www.stubhub.ie/tame-impala-tickets-vancouver-rogers-arena-9-5-2026/event/107108091",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoeGkd-Fy4X",
@@ -27052,7 +27052,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735042",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735042/Tame-Impala-tickets-Sat-Sep-5-2026-Rogers-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-vancouver-rogers-arena-9-5-2026/event/107108091"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-vancouver-1aozkoegkdlltoy",
@@ -27626,17 +27626,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107460111",
-        "url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6CxpcQaN",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-jay-z-2026-inglewood-vvg1iz_gntjqqm",
@@ -41458,11 +41458,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164251",
-        "url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-5-2026/event/107164251",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aN5E3ov",
@@ -41470,7 +41470,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7918428",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7918428/Karol-G-tickets-Sat-Sep-5-2026-Sun-Bowl-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-5-2026/event/107164251"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_akoajis",

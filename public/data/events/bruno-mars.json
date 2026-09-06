@@ -2095,11 +2095,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107071104",
-        "url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-5-2026/event/107071104",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -2108,7 +2108,7 @@
     "ticketmaster_discovery_event_id": "vv1A8vN0_GA221kN",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668636",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668636/Bruno-Mars-tickets-Sat-Sep-5-2026-Gillette-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-5-2026/event/107071104"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",

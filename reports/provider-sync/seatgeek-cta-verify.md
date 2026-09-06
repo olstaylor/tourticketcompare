@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-05T08:58:48.719Z
+Generated: 2026-09-06T09:20:46.851Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,14 +9,14 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 144 (needs_recheck: 144, provenance backfill: 0, stale re-check: 75)
+- Events selected: 144 (needs_recheck: 144, provenance backfill: 0, stale re-check: 74)
 - Events skipped before API checks: 103
-- API calls made: 144
-- Verified provenance written: 75
+- API calls made: 145
+- Verified provenance written: 74
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 0
+- Provenance un-verified: 1
 - Conflicts (ambiguous, untouched): 1
 - No qualifying listing: 68
 - Transient API errors (untouched, retried next run): 0
@@ -33,7 +33,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | olivia-rodrigo | verify (applied) | 18211722 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | olivia-rodrigo | verify (applied) | 18211723 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 | - |
 | tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | ed-sheeran | verify (applied) | 17729039 | https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039 | - |
-| tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt | zach-bryan | verify (applied) | 17871645 | https://seatgeek.com/zach-bryan-tickets/glendale-arizona-state-farm-stadium-2026-09-05-7-pm/concert/17871645 | - |
+| tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt | zach-bryan | unverify (applied) | - | - | stored URL failed: SeatGeek /events/17871645 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-zach-bryan-2026-dover-z7r9jz1a7r4vz | zach-bryan | verify (applied) | 17930446 | https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-18-4-pm/concert/17930446 | - |
 | tm-zach-bryan-2026-dover-z7r9jz1a7r4vj | zach-bryan | verify (applied) | 17930445 | https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-19-4-pm/concert/17930445 | - |
 | tm-tame-impala-2026-houston-z7r9jz1a7-f_z | tame-impala | verify (applied) | 18070199 | https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199 | - |

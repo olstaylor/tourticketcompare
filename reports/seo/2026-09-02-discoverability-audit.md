@@ -74,6 +74,12 @@ Impact's default 14-day Performance by Brand view showed aggregate account-level
 
 Page Indexing reports 76 indexed and 349 not indexed URLs. Of the non-indexed total, 128 are `Blocked by robots.txt` examples under `/api/out` and are expected redirect endpoints, 47 are excluded by a `noindex` tag, and 169 are `Discovered – currently not indexed`. The discovered samples are predominantly artist-city routes, including `/artists/bruno-mars/tickets/foxborough-united-states` and other Bruno Mars/BTS/Charli XCX paths; each sample shows no last-crawled date. The submitted `https://tourticketcompare.com/sitemap.xml` is successful, was last read 2 September, and has 311 discovered pages, matching the live sitemap; this supersedes the earlier 28 August/271-page observation.
 
+### Repository revalidation — 7 September
+
+Read-only repository checks at 09:05 UTC update the data-led constraints without changing the historical Search Console baseline above. `npm run roster:forecast` reports **270** current dynamic indexable routes and a **149**-route +90-day floor if no additional verified dates arrive. `npm run report:link-coverage -- --check` reports **779** upcoming reviewed events: **652** with three or more exact-event CTAs, **60** with two, and **67** with one (none have zero). The 67 one-link cases remain attributable to the guarded provider pipeline — **67** are unprocessed or API-cap-stopped, **62** have no qualifying checked provider listing, and **5** are ambiguous; cause counts overlap and must not be added.
+
+This reinforces finding 2: verified roster/provider coverage is the practical constraint on both qualified organic entrances and monetized click capacity. It is not evidence to weaken indexability gates, expose suppressed CTAs, infer a provider listing, or create more location pages. The next legitimate improvement remains normal source-backed provider/event verification, prioritised only when the D1-to-client measurement reconciliation is defensible.
+
 ## Confirmed findings
 
 ### 1. Existing comparison guides are visible but under-clicked

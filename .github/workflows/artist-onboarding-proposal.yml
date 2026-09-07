@@ -1,0 +1,67 @@
+name: Artist Onboarding Proposal
+
+# Captures a small, named cohort from the approved SeatGeek and Ticketmaster
+# APIs and uploads a review-only identity manifest. It cannot edit repository
+# data, open a pull request, or publish a CTA. Promotion remains gated on a
+# per-artist browser spot-check and a separate reviewed PR.
+
+on:
+  workflow_dispatch:
+    inputs:
+      artists:
+        description: 'Comma-separated artist names to evaluate (maximum 20).'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  proposal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify onboarding proposal safeguards
+        run: node scripts/propose-onboarding-batch.mjs --self-test
+
+      - name: Capture verified provider identities
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          INPUT_ARTISTS: ${{ inputs.artists }}
+        run: |
+          set -euo pipefail
+          node scripts/propose-onboarding-batch.mjs \
+            --names "$INPUT_ARTISTS" \
+            --limit 20 \
+            --output artifacts/onboarding/batch-${{ github.run_id }}.json
+
+      - name: Verify proposal did not mutate site data
+        run: |
+          if ! git diff --quiet; then
+            echo 'ERROR: a proposal-only run changed tracked files.' >&2
+            git --no-pager diff --stat
+            exit 1
+          fi
+          echo 'Confirmed: repository data unchanged.'
+
+      - name: Upload onboarding manifest
+        uses: actions/upload-artifact@v6
+        with:
+          name: artist-onboarding-proposal-${{ github.run_id }}
+          path: artifacts/onboarding/batch-${{ github.run_id }}.json
+          if-no-files-found: error
+          retention-days: 30

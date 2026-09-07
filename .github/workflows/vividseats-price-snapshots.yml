@@ -8,7 +8,7 @@ name: Vivid Seats price snapshots
 #
 # Cadence rationale (2026-07-30): measured against provider_pricing_history,
 # Vivid listed prices drift ~2.3%/hour, so widening the cron makes visitors
-# see staler prices rather than skipping redundant writes. Two hours puts the
+# see staler prices rather than merely reducing change-history volume. Two hours puts the
 # average displayed price ~1h behind the provider. Actions minutes are not the
 # budget (this repo is public, so standard runners are free); the cost is one
 # Impact catalog request per verified event, ~215 per scheduled run.
@@ -148,7 +148,7 @@ jobs:
           if (summary.zero_row_reason) console.log(`::notice::Vivid Seats zero-row reason: ${summary.zero_row_reason}`);
           NODE
 
-      # Bounded retention for the append-only history table, on apply runs
+      # Bounded retention for the change-only history table, on apply runs
       # only. Provider-scoped so it seeks the composite index; idempotent, so
       # after the first pass there is normally nothing older than the window.
       - name: Prune Vivid Seats history rows past the retention window

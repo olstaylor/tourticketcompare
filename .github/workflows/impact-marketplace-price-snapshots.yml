@@ -8,7 +8,7 @@ name: Impact marketplace price snapshots
 # Cadence rationale (2026-07-30): measured against provider_pricing_history,
 # listed prices drift ~2.3%/hour, so the per-snapshot change rate scales with
 # the interval rather than flattening — a widened cron shows visitors staler
-# prices, it does not skip redundant writes. A two-hour cron puts the average
+# prices, not merely lower change-history volume. A two-hour cron puts the average
 # displayed price ~1h behind the provider. Actions minutes are not the budget
 # here (this repo is public, so standard runners are free); the Impact request
 # volume is: one catalog request per verified event, ~400 per scheduled run
@@ -143,7 +143,7 @@ jobs:
           }
           NODE
 
-      # Bounded retention for the append-only history table. Scoped per
+      # Bounded retention for the change-only history table. Scoped per
       # provider so it seeks the composite index, and only ever on scheduled
       # apply runs — a preview dispatch must not delete anything. Idempotent:
       # after the first pass there is normally nothing older than the window.

@@ -4233,18 +4233,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107075189",
-        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-6-2026/event/107075189",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJSfUoL",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-6-2026/event/107075189"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00631913d14ad8",
@@ -16386,11 +16386,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107077124",
-        "url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-6-2026/event/107077124",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -16399,7 +16399,7 @@
     "ticketmaster_discovery_event_id": "vv1AvZk8IGkdNsGXb",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-6-2026/event/107077124"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
@@ -27117,11 +27117,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198189",
-        "url": "https://www.stubhub.ie/tame-impala-tickets-vancouver-rogers-arena-9-6-2026/event/107198189",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoeGkdLLtoY",
@@ -27129,7 +27129,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-vancouver-rogers-arena-9-6-2026/event/107198189"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-portland-vvg1hz_dmh0iyk",
@@ -41535,11 +41535,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107164252",
-        "url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-6-2026/event/107164252",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aKOajIs",
@@ -41547,7 +41547,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-6-2026/event/107164252"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-foxborough-vv1avzk3ogkebubpy",
@@ -44316,11 +44316,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106964082",
-        "url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkGYGkd3YwVJ",
@@ -44328,7 +44328,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-my-chemical-romance-2026-san-antonio-g5dizbsd0c4y6",

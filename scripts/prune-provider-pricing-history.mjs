@@ -1,16 +1,14 @@
 #!/usr/bin/env node
 // Bounded retention for provider_pricing_history (migration 0006).
 //
-// The snapshot writers are deliberately append-only — both assert in their own
-// self-tests that the SQL they generate never emits a DELETE or UPDATE against
-// this table — so retention lives here, as a separate step that is dry-run by
-// default and only ever deletes rows strictly older than a cutoff.
+// The snapshot writers append only meaningful price changes, and both assert in
+// their own self-tests that generated history SQL never emits a DELETE or
+// UPDATE against this table. Retention therefore lives here as a separate step,
+// dry-run by default, that only deletes rows strictly older than a cutoff.
 //
-// Why it exists: nothing pruned the table before. Snapshots moved to a 2h
-// cadence on 2026-07-30, which adds roughly 7.4k rows/day across the three
-// numeric lanes (TicketNetwork, StubHub International, Vivid Seats). The
-// on-site sparkline and /api/price-history read this table, so unbounded
-// growth costs D1 rows-read on every page render, not just storage.
+// Why it exists: a retained change history can still grow without bound. The
+// on-site sparkline and /api/price-history read this table, so unbounded growth
+// costs D1 rows-read on every page render, not just storage.
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
@@ -18,7 +16,7 @@ import { promisify } from "node:util";
 const execFileAsync = promisify(execFile);
 
 // Ninety days comfortably covers the sparkline's useful range while keeping
-// the table bounded at roughly 670k rows at the current cadence.
+// the table bounded independently of polling cadence.
 const DEFAULT_RETENTION_DAYS = 90;
 const MIN_RETENTION_DAYS = 30;
 const MAX_RETENTION_DAYS = 365;

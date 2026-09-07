@@ -1063,7 +1063,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0A006429B353645F",
     "ticketmaster_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
-    "seatgeek_url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-06-8-pm/concert/18010335",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-6-2026--concerts-k-pop/production/6517139",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
@@ -1078,11 +1078,11 @@
         "discovery_event_id": "vvG1IZ_eJSfUoL"
       },
       "seatgeek": {
-        "event_id": 18010335,
-        "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-06-8-pm/concert/18010335",
-        "verified": true,
-        "last_verified_at": "2026-09-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6517139,

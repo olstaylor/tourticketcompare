@@ -80,6 +80,8 @@ Read-only repository checks at 09:05 UTC update the data-led constraints without
 
 This reinforces finding 2: verified roster/provider coverage is the practical constraint on both qualified organic entrances and monetized click capacity. It is not evidence to weaken indexability gates, expose suppressed CTAs, infer a provider listing, or create more location pages. The next legitimate improvement remains normal source-backed provider/event verification, prioritised only when the D1-to-client measurement reconciliation is defensible.
 
+A separate 7 September served-HTML recheck also passed on the apex production origin. The homepage and all 10 static/trust routes returned 200 after the expected `www` to apex redirect. Representative dynamic artist, city, venue, multi-date artist-city and guide routes each returned 200 with a self-referencing apex canonical and `index,follow`; the deliberately single-date `/artists/bruno-mars/tickets/indianapolis-united-states` control also returned 200 with a self-canonical and `noindex,follow`. This is a bounded live sample, not proof of universal crawl health, but it supports retaining the current gates and investigating CPU telemetry rather than changing serving behaviour speculatively.
+
 ## Confirmed findings
 
 ### 1. Existing comparison guides are visible but under-clicked

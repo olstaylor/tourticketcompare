@@ -4226,11 +4226,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676873",
-        "url": "https://www.ticketliquidator.com/tickets/7676873/BTS-tickets-Sun-Sep-6-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107075189",
@@ -4243,7 +4243,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJSfUoL",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676873/BTS-tickets-Sun-Sep-6-2026-SoFi-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-6-2026/event/107075189"
   },
   {
@@ -16379,11 +16379,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7679360",
-        "url": "https://www.ticketliquidator.com/tickets/7679360/Bruno-Mars-tickets-Sun-Sep-6-2026-Gillette-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107077124",
@@ -16398,7 +16398,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv1AvZk8IGkdNsGXb",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679360/Bruno-Mars-tickets-Sun-Sep-6-2026-Gillette-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-6-2026/event/107077124"
   },
   {
@@ -27110,11 +27110,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7745868",
-        "url": "https://www.ticketliquidator.com/tickets/7745868/Tame-Impala-tickets-Sun-Sep-6-2026-Rogers-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107198189",
@@ -27128,7 +27128,7 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745868/Tame-Impala-tickets-Sun-Sep-6-2026-Rogers-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-vancouver-rogers-arena-9-6-2026/event/107198189"
   },
   {
@@ -41528,11 +41528,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896567",
-        "url": "https://www.ticketliquidator.com/tickets/7896567/Karol-G-tickets-Sun-Sep-6-2026-Sun-Bowl-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107164252",
@@ -41546,7 +41546,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896567/Karol-G-tickets-Sun-Sep-6-2026-Sun-Bowl-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-6-2026/event/107164252"
   },
   {
@@ -44309,11 +44309,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7424937",
-        "url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106964082",
@@ -44327,7 +44327,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082"
   },
   {

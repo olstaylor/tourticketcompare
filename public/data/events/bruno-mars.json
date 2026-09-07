@@ -2172,11 +2172,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107077124",
-        "url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-6-2026/event/107077124",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -2185,7 +2185,7 @@
     "ticketmaster_discovery_event_id": "vv1AvZk8IGkdNsGXb",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-6-2026/event/107077124"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",

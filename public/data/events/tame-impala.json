@@ -977,11 +977,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7745868",
-        "url": "https://www.ticketnetwork.com/en/p/7745868",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7745868",
@@ -1001,7 +1001,7 @@
     "ticketmaster_discovery_event_id": "1AoZkoeGkdLLtoY",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745868",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745868/Tame-Impala-tickets-Sun-Sep-6-2026-Rogers-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-vancouver-rogers-arena-9-6-2026/event/107198189"
   },

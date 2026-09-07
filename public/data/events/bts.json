@@ -1099,11 +1099,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676873",
-        "url": "https://www.ticketnetwork.com/en/p/7676873",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676873",
@@ -1122,7 +1122,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eJSfUoL",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676873",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676873/BTS-tickets-Sun-Sep-6-2026-SoFi-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-6-2026/event/107075189"
   },

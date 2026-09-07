@@ -271,11 +271,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7424937",
-        "url": "https://www.ticketnetwork.com/en/p/7424937",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7424937",
@@ -295,7 +295,7 @@
     "ticketmaster_discovery_event_id": "1A_ZkGYGkd3YwVJ",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424937",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082"
   },

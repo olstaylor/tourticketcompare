@@ -2386,12 +2386,12 @@ function renderRecentShowsList(name, pastShows) {
   return block;
 }
 
-// Zero-event board state. The primary CTA is the artist-level page of the
-// highest-ranked enabled provider (never an event-level ticket link — no
-// verified dates exist to sell). Keep in sync with
 // Keep in sync with EMPTY_BOARD_EXPLAINER_PATH in functions/[[path]].js.
 const EMPTY_BOARD_EXPLAINER_PATH = "/blog/why-some-artist-pages-show-no-dates";
 
+// Zero-event board state. The primary CTA is the artist-level page of the
+// highest-ranked enabled provider (never an event-level ticket link — no
+// verified dates exist to sell). Keep in sync with
 // renderShowBoardEmptyStateHtml in functions/[[path]].js.
 function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows = []) {
   const name = String(artistName || "").trim() || "artist";

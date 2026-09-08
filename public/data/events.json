@@ -69844,11 +69844,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666815",
+        "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815",
+        "verified": true,
+        "last_verified_at": "2026-09-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwWynFM",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815"
   },
   {
     "id": "tm-in-flames-2026-ft-lauderdale-vvg1vz_3k_p4ju",

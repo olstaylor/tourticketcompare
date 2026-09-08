@@ -1,0 +1,84 @@
+name: Price freshness check
+
+# Detects a live price blackout and turns it red.
+#
+# Added 2026-09-08 after every TicketNetwork and StubHub International price
+# disappeared from the site without a single failed job. The snapshot writers
+# had simply stopped being scheduled — GitHub drops scheduled ticks under load
+# and never replays them — so their cached rows aged past expires_at while both
+# workflows still showed green from their last successful run. The per-workflow
+# freshness audit could not catch it, because that audit only runs when the
+# snapshot workflow runs, which was the thing that had stopped.
+#
+# This job therefore watches the site rather than the writers: it asks the
+# production API for the same cache-only approved-marketplace lanes an artist
+# board renders and fails when none of them would print a price. That covers a
+# stalled cron, a failed run, an expired cache, a lost D1 binding or a flipped
+# flag with one signal, and needs no Cloudflare credentials.
+#
+# It is read-only and cheap (a single GET, no npm install), so it runs hourly at
+# :35 — after the :17 marketplace tick has had time to land.
+
+on:
+  schedule:
+    - cron: '35 * * * *'
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Origin to probe.'
+        type: string
+        default: 'https://tourticketcompare.com'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: price-freshness-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The checker imports only node builtins and uses global fetch, so it
+      # deliberately runs without `npm ci` — the monitor should not be able to
+      # fail for reasons unrelated to what it monitors.
+      - name: Probe live price freshness
+        env:
+          BASE_URL: ${{ github.event.inputs.base_url || 'https://tourticketcompare.com' }}
+        # pipefail is load-bearing here, not boilerplate: without it the
+        # pipeline reports tee's exit status, the blackout exit code is
+        # swallowed, and this monitor would report green through the exact
+        # outage it exists to catch.
+        run: |
+          set -euo pipefail
+          node scripts/check-price-snapshot-freshness.mjs --base-url "$BASE_URL" --json \
+            | tee "$RUNNER_TEMP/price-freshness.json"
+
+      - name: Summarise
+        if: always()
+        run: |
+          set -euo pipefail
+          report="$RUNNER_TEMP/price-freshness.json"
+          if [ ! -s "$report" ]; then
+            echo "The price freshness probe produced no report — treat this as unknown, not healthy." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          node --input-type=module - "$report" <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          import fs from "node:fs";
+          const r = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+          const rows = r.lanes
+            .map((l) => `| ${l.provider} | ${l.expected ? "yes" : "no"} | ${l.ok} | ${l.affiliateReady} | ${l.dark ? "**DARK**" : ""} |`)
+            .join("\n");
+          fs.writeSync(1, `## Live price freshness\n\nSampled ${r.sampled} shows — ${r.servingLaneCount}/${r.expectedLaneCount} expected lanes serving, ${r.totalFreshLanes} fresh lanes.\n\n| Provider | Expected | Fresh | Affiliate-ready | |\n| --- | ---: | ---: | ---: | --- |\n${rows}\n`);
+          if (r.blackout) fs.writeSync(1, `\n**Price blackout.** Re-run the snapshot workflows with \`apply=true\` to restore prices.\n`);
+          NODE

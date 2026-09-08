@@ -2,17 +2,24 @@ name: Impact marketplace price snapshots
 
 # Reads exact provider event IDs already stored by the event sync and writes
 # only unambiguous, timestamped D1 snapshots. The verified TicketNetwork and
-# StubHub International lanes refresh every two hours; Ticket Liquidator is
+# StubHub International lanes refresh hourly; Ticket Liquidator is
 # manual-only while its catalog has no numeric CurrentPrice.
 #
-# Cadence rationale (2026-07-30): measured against provider_pricing_history,
-# listed prices drift ~2.3%/hour, so the per-snapshot change rate scales with
-# the interval rather than flattening — a widened cron shows visitors staler
-# prices, not merely lower change-history volume. A two-hour cron puts the average
-# displayed price ~1h behind the provider. Actions minutes are not the budget
-# here (this repo is public, so standard runners are free); the Impact request
-# volume is: one catalog request per verified event, ~400 per scheduled run
-# across the two lanes.
+# Cadence rationale (2026-07-30, revised 2026-09-08): measured against
+# provider_pricing_history, listed prices drift ~2.3%/hour, so the per-snapshot
+# change rate scales with the interval rather than flattening — a widened cron
+# shows visitors staler prices, not merely lower change-history volume. Actions
+# minutes are not the budget here (this repo is public, so standard runners are
+# free); the Impact request volume is one catalog request per verified event,
+# ~400 per scheduled run across the two lanes.
+#
+# The cron is hourly rather than two-hourly because GitHub drops scheduled
+# ticks under load and never replays them. On 2026-09-08 this lane last ran at
+# 04:38Z and the next three ticks never fired, so its rows expired at 10:38Z
+# and every TicketNetwork and StubHub International price vanished from the
+# site while the workflow still showed green. Hourly gives a dropped tick room
+# to be backed up well inside the TTL; DEFAULT_FRESHNESS_HOURS in the snapshot
+# script carries the real margin.
 
 on:
   # A change to the runtime/provider contract also bootstraps fresh rows on
@@ -23,7 +30,7 @@ on:
       - '.github/workflows/impact-marketplace-price-snapshots.yml'
       - 'functions/_impact-marketplace-config.js'
   schedule:
-    - cron: '17 */2 * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       provider:

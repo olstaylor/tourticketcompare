@@ -18,7 +18,7 @@ Items 1–4 are **operational** (owner + gated tooling), not engineering; item 5
 Continuing operations following the 2026-07-13 activation:
 
 1. Monitor the nightly scheduled event-sync runs (see `docs/OPERATIONS.md` for the schedule) via their auto-merged PRs and `reports/provider-sync/`; for manual dispatch, run preview before apply, review its PR, and browser-check new sample destinations across markets.
-2. Monitor the two-hourly TicketNetwork and StubHub International exact-ID price snapshot schedule (six-hour freshness constant; each apply run ends with a 90-day history prune). Ticket Liquidator must stay price-disabled until its catalog supplies numeric `CurrentPrice`.
+2. Monitor the hourly TicketNetwork and StubHub International exact-ID price snapshot schedule (eight-hour freshness constant; each apply run ends with a 90-day history prune). Ticket Liquidator must stay price-disabled until its catalog supplies numeric `CurrentPrice`.
 3. Monitor catalog/campaign access and tracking. Set the matching public flag explicitly to `false` on a provider/API mismatch or redirect failure.
 
 StubHub International is separate from StubHub US/Canada.

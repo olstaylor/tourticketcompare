@@ -14,8 +14,9 @@ All times UTC. Direct-to-`main` write capability and the auto-merge contract for
 | `seatgeek-cta-sync.yml` | 05:00 + dispatch | High-confidence SeatGeek event-link enrichment + identity-anchored provenance verification; auto-merges after in-run validation. |
 | `vividseats-cta-sync.yml` | 05:30 + dispatch | Catalog-backed Vivid Seats event-link/provenance sync; auto-merges after in-run validation. |
 | `impact-marketplace-provider-sync.yml` | TicketNetwork 06:00, Ticket Liquidator 06:30, StubHub International 07:00 (serialized) | Unambiguous exact-event link PRs; scheduled runs auto-merge after in-run validation. Manual dispatch is preview-first; a manual apply opens a review-only PR. |
-| `impact-marketplace-price-snapshots.yml` | every 2h + dispatch | Exact-ID D1 snapshots for TicketNetwork + StubHub International, then a 90-day history prune. D1 only, never the repo. |
-| `vividseats-price-snapshots.yml` | every 2h + dispatch | Exact-event D1 snapshots + the same 90-day prune. D1 only. |
+| `impact-marketplace-price-snapshots.yml` | hourly + dispatch | Exact-ID D1 snapshots for TicketNetwork + StubHub International, then a 90-day history prune. D1 only, never the repo. |
+| `vividseats-price-snapshots.yml` | hourly + dispatch | Exact-event D1 snapshots + the same 90-day prune. D1 only. |
+| `price-freshness-check.yml` | hourly (:35) + dispatch | Read-only probe of the live `/api/shows` cache-only price lanes; fails when no expected provider lane is serving a fresh price. Watches the site, not the writers, so a snapshot cron that silently stops firing still surfaces. Writes nothing. |
 | `seatgeek-price-snapshots.yml` | dispatch-only | Inert escape hatch — SeatGeek's API returns null pricing stats (permanent, see [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)). |
 | `bootstrap-provider-pricing-schema.yml`, `tm-data-refresh-pr.yml`, `seatgeek-discovery-proposal.yml` | dispatch-only | Manual; never auto-merge. |
 | `content-build.yml` | pushes touching `content/blog/**` + dispatch | Compiles `content/blog/*.md` and auto-commits `public/data/blog-content.json` only after the full validation suite passes in-job on exactly that output. |
@@ -28,7 +29,11 @@ All times UTC. Direct-to-`main` write capability and the auto-merge contract for
 
 ### Price snapshot cadence
 
-Both numeric-price lanes (TicketNetwork/StubHub International via the shared Impact marketplace workflow, and Vivid Seats) run every 2 hours with a 6-hour freshness constant (`DEFAULT_FRESHNESS_HOURS`) — the interval must stay strictly below the constant, since the display gate hides any row past `expires_at`. Each scheduled apply run ends with a 90-day retention prune of `provider_pricing_history`. Ticket Liquidator stays price-disabled (no numeric `CurrentPrice` in its feed); SeatGeek has no numeric pricing lane at all (permanent API limitation).
+Both numeric-price lanes (TicketNetwork/StubHub International via the shared Impact marketplace workflow, and Vivid Seats) run hourly with an 8-hour freshness constant (`DEFAULT_FRESHNESS_HOURS`) — the interval must stay strictly below the constant, since the display gate hides any row past `expires_at`. Each scheduled apply run ends with a 90-day retention prune of `provider_pricing_history`. Ticket Liquidator stays price-disabled (no numeric `CurrentPrice` in its feed); SeatGeek has no numeric pricing lane at all (permanent API limitation).
+
+**Size the constant against delivered runs, not the nominal cron.** On 2026-09-08 both lanes stopped being scheduled — the marketplace lane last ran 04:38Z, Vivid 05:16Z, and the following ticks never fired. GitHub drops scheduled ticks under load and never replays them, so both workflows still showed green from their last successful run while their rows aged out: every TicketNetwork and StubHub International price left the site at 10:38Z, with Vivid due to follow at 11:16Z. Measured gaps between *actual* Vivid runs over 2026-09-06..08 were 2.2h, 2.8h, 4.5h, 3.5h, 4.9h, 7.8h, 5.8h and 6.3h against a nominal 2h — two of them already past the then-current 6h constant, so this had been blanking prices intermittently for days. The hourly cron plus 8h constant now absorbs seven consecutive missed ticks and covers the worst gap observed, at the cost of 2h more worst-case displayed age (~18% drift at the measured ~2.3%/hour, against ~14% at 6h).
+
+Because no writer failure is involved, nothing in the snapshot workflows can detect this: their freshness audit only runs when they run. `price-freshness-check.yml` covers that gap from outside, and a red run there means prices are already dark for visitors — re-run both snapshot workflows with `apply=true` to restore them immediately.
 
 ## Secrets and bindings
 

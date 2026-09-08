@@ -6,16 +6,25 @@ name: Vivid Seats price snapshots
 # exact production, and writes timestamped D1 cache rows. It never scrapes
 # Vivid Seats, changes events, or changes CTAs.
 #
-# Cadence rationale (2026-07-30): measured against provider_pricing_history,
-# Vivid listed prices drift ~2.3%/hour, so widening the cron makes visitors
-# see staler prices rather than merely reducing change-history volume. Two hours puts the
-# average displayed price ~1h behind the provider. Actions minutes are not the
-# budget (this repo is public, so standard runners are free); the cost is one
-# Impact catalog request per verified event, ~215 per scheduled run.
+# Cadence rationale (2026-07-30, revised 2026-09-08): measured against
+# provider_pricing_history, Vivid listed prices drift ~2.3%/hour, so widening
+# the cron makes visitors see staler prices rather than merely reducing
+# change-history volume. Actions minutes are not the budget (this repo is
+# public, so standard runners are free); the cost is one Impact catalog
+# request per verified event, ~215 per scheduled run.
+#
+# The cron is hourly rather than two-hourly because GitHub drops scheduled
+# ticks under load and never replays them. Actual gaps between runs over
+# 2026-09-06..08 were 2.2h, 2.8h, 4.5h, 3.5h, 4.9h, 7.8h, 5.8h and 6.3h against
+# a nominal two hours; the 7.8h and 6.3h gaps outlived the snapshot TTL, so
+# every cached Vivid price expired and the board correctly fell back to
+# "Check prices" site-wide. Hourly gives a dropped tick room to be backed up
+# well inside the TTL. It does not make delivery guaranteed — no cron does —
+# so DEFAULT_FRESHNESS_HOURS in the snapshot script carries the real margin.
 
 on:
   schedule:
-    - cron: '47 */2 * * *'
+    - cron: '47 * * * *'
   workflow_dispatch:
     inputs:
       apply:

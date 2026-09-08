@@ -3154,6 +3154,14 @@ assert(
 assert(!/View Tickets|Check \w[\w ]* for tickets|showId=/i.test(beyonceShowBoard), "zero-event empty state must not include any event-level ticket CTA");
 assert(!beyonceShowBoard.includes("provider="), "zero-event empty state must not surface an outbound provider claim");
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists"), "zero-event empty state must link users to the artists index");
+// The empty state states a fact ("no verified upcoming dates") that reads as a
+// data gap unless the reader is told otherwise. The site already explains the
+// pattern in a published post, so the state links it rather than leaving the
+// disclosure to stand alone.
+assert(
+  beyonceShowBoard.includes('href="/blog/why-some-artist-pages-show-no-dates"') && beyonceShowBoard.includes("Here&#39;s why"),
+  "zero-event empty state must link the empty-board explainer post"
+);
 assert(beyonceEmptyStatePage.text.includes("About Beyoncé"), "a promoted empty artist may keep its reviewed factual summary");
 for (const filler of ["About these links", "Related guides", "Useful links", "data-artist-faq"]) {
   assert(!beyonceEmptyStatePage.text.includes(filler), `zero-event artist page must omit ${filler}`);

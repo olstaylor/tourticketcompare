@@ -3488,6 +3488,15 @@ function renderRecentShowsHtml(safeName, pastShows) {
   return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">These dates have already been and gone — they're here for reference while we check any newly announced run.</p><ul class="recent-shows-list">${items}</ul></div>`;
 }
 
+// An empty board is a state the site deliberately publishes rather than hides,
+// and the reasoning is already written up as a published post. Linking it from
+// the state itself turns a bare disclosure into an answer the reader can
+// follow. The sentence has to hold for both kinds of empty board — a finished
+// tour and an artist this site has never carried a date for — so it says the
+// state is normal rather than naming a cause the post itself qualifies.
+// Keep in sync with EMPTY_BOARD_EXPLAINER_PATH in public/app.js.
+const EMPTY_BOARD_EXPLAINER_PATH = "/blog/why-some-artist-pages-show-no-dates";
+
 // The signup form posts to /api/signup and works without JavaScript: the button
 // is a real submit and the form carries method/action plus hidden fields, so a
 // no-JS submit sends a native form POST that /api/signup answers with an HTML
@@ -3513,7 +3522,10 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
     : "";
   return `<div class="empty-state"><h3>${escapeHtml(copy.heading)}</h3><p>${escapeHtml(copy.body)}</p><p class="muted">${escapeHtml(
     copy.next
-  )}</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
+  )}</p><p class="muted">An empty board is a normal state here, not a sign something is broken. ${anchor(
+    "Here's why",
+    EMPTY_BOARD_EXPLAINER_PATH
+  )}.</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
     "Browse artists",
     "/artists",
     "button button-secondary"

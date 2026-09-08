@@ -24,11 +24,18 @@ name: Impact marketplace price snapshots
 on:
   # A change to the runtime/provider contract also bootstraps fresh rows on
   # main, so a newly activated lane does not wait for the next cron tick.
+  #
+  # The writer counts as part of that contract: #896 changed the expiry it
+  # stamps on every row, and because this list did not watch it, the Vivid lane
+  # adopted the new window on merge while these two kept writing the old one
+  # until their next cron tick. A change to how rows are written should take
+  # effect in the same way on both lanes.
   push:
     branches: [main]
     paths:
       - '.github/workflows/impact-marketplace-price-snapshots.yml'
       - 'functions/_impact-marketplace-config.js'
+      - 'scripts/snapshot-impact-marketplace-prices.mjs'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:

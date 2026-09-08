@@ -12,6 +12,11 @@ on:
         description: 'Comma-separated artist names to evaluate (maximum 20).'
         required: true
         type: string
+      allow_existing_shells:
+        description: 'Allow verified identity recapture for existing review-required shells only.'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -42,11 +47,17 @@ jobs:
           SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           INPUT_ARTISTS: ${{ inputs.artists }}
+          INPUT_ALLOW_EXISTING_SHELLS: ${{ inputs.allow_existing_shells }}
         run: |
           set -euo pipefail
+          args=()
+          if [ "$INPUT_ALLOW_EXISTING_SHELLS" = "true" ]; then
+            args+=(--allow-existing-shells)
+          fi
           node scripts/propose-onboarding-batch.mjs \
             --names "$INPUT_ARTISTS" \
             --limit 20 \
+            "${args[@]}" \
             --output artifacts/onboarding/batch-${{ github.run_id }}.json
 
       - name: Verify proposal did not mutate site data

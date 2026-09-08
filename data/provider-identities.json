@@ -469,6 +469,17 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-08-26: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "the-weeknd",
+      "ticketmaster_attraction_id": "K8vZ9172Ln7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-weeknd-tickets/artist/1697014",
+      "seatgeek_performer_id": 13733,
+      "seatgeek_artist_url": "https://seatgeek.com/the-weeknd-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-08: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, owner browser spot-check confirmed before merge)."
     }
   ]
 }

@@ -237,10 +237,13 @@
     "slug": "the-weeknd",
     "name": "The Weeknd",
     "short_description": "Canadian singer, songwriter, and record producer.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-08"
   },
   {
     "slug": "coldplay",

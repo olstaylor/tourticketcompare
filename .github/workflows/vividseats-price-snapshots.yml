@@ -23,6 +23,18 @@ name: Vivid Seats price snapshots
 # so DEFAULT_FRESHNESS_HOURS in the snapshot script carries the real margin.
 
 on:
+  # A change to this workflow or its writer bootstraps fresh rows on main, so
+  # the lane does not have to wait for a cron tick that may never come. Added
+  # 2026-09-08 after the marketplace lane self-restored on merge (it has had
+  # this trigger since it shipped) while this one stayed dark for 7h37m: its
+  # 11:47Z and 12:47Z ticks both failed to fire even after the cron was
+  # narrowed to hourly, leaving a manual dispatch as the only way back.
+  # This is a recovery lever, not a fix for the scheduling itself.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/vividseats-price-snapshots.yml'
+      - 'scripts/snapshot-vividseats-prices.mjs'
   schedule:
     - cron: '47 * * * *'
   workflow_dispatch:
@@ -124,8 +136,10 @@ jobs:
           if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
           node scripts/snapshot-vividseats-prices.mjs --json "${args[@]}" | tee "$RUNNER_TEMP/vividseats-price-summary.json"
 
+      # Every automated run writes (schedule and the push bootstrap alike); only
+      # a workflow_dispatch left at apply=false stays a read-only preview.
       - name: Run Vivid Seats Impact price snapshot apply
-        if: github.event_name == 'schedule' || github.event.inputs.apply == 'true'
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.apply == 'true'
         env:
           IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
           IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
@@ -161,7 +175,7 @@ jobs:
       # only. Provider-scoped so it seeks the composite index; idempotent, so
       # after the first pass there is normally nothing older than the window.
       - name: Prune Vivid Seats history rows past the retention window
-        if: github.event_name == 'schedule' || github.event.inputs.apply == 'true'
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.apply == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -176,7 +190,7 @@ jobs:
           NODE
 
       - name: Audit Vivid Seats cache freshness
-        if: always() && (github.event_name == 'schedule' || github.event.inputs.apply == 'true')
+        if: always() && (github.event_name != 'workflow_dispatch' || github.event.inputs.apply == 'true')
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -786,6 +786,24 @@ h3 {
   line-height: 1.55;
 }
 
+/* The site's only photography: one venue exterior per venue page. The <img>
+   always carries width/height from the real file, so this rule scales it
+   without reintroducing the layout shift those attributes prevent. */
+.venue-photo {
+  margin: 0 0 1.5rem;
+}
+
+.venue-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.venue-photo figcaption {
+  margin-top: 0.5rem;
+}
+
 .guide-body {
   display: grid;
   gap: 14px;

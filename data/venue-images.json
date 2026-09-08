@@ -1,0 +1,148 @@
+{
+  "//": "Human-curated. Each entry is one venue photo: where it came from, who took it, the licence it carries, and the alt text written from looking at the image. Attribution here is a licence obligation, not decoration - see docs/VENUE_IMAGES.md. Never add an entry without visually confirming the photo shows that venue and shows no identifiable member of the public or artist advertising.",
+  "images": [
+    {
+      "venue_slug": "barclays-center-brooklyn",
+      "venue_name": "Barclays Center",
+      "alt": "The curved weathered-steel facade and cantilevered canopy of Barclays Center, with Brooklyn towers rising behind it.",
+      "credit": {
+        "title": "Barclays_Center_-_2026_(55268559424).jpg",
+        "author": "Ajay Suresh",
+        "licence": "CC BY 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Barclays_Center_-_2026_(55268559424).jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg"
+    },
+    {
+      "venue_slug": "capital-one-arena-washington",
+      "venue_name": "Capital One Arena",
+      "alt": "The street-corner frontage of Capital One Arena in Washington, D.C., with large advertising screens above the entrance.",
+      "credit": {
+        "title": "Capital One Arena - Washington, D.C.jpg",
+        "author": "APK",
+        "licence": "CC BY 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Capital_One_Arena_-_Washington,_D.C.jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Capital_One_Arena_-_Washington%2C_D.C.jpg"
+    },
+    {
+      "venue_slug": "intuit-dome-inglewood",
+      "venue_name": "Intuit Dome",
+      "alt": "The Intuit Dome at night, its latticework outer shell lit in blue with the venue name across the front.",
+      "credit": {
+        "title": "Intuit_Dome_Façade.jpg",
+        "author": "Haruhi8",
+        "licence": "CC BY 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Intuit_Dome_Fa%C3%A7ade.jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Intuit_Dome_Fa%C3%A7ade.jpg"
+    },
+    {
+      "venue_slug": "kia-center-orlando",
+      "venue_name": "Kia Center",
+      "alt": "The glass entrance tower of Kia Center in Orlando, framed by palm trees under a cloudy sky.",
+      "credit": {
+        "title": "Kia_Center_12-22-24.jpg",
+        "author": "Csab6482",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kia_Center_12-22-24.jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kia_Center_12-22-24.jpg"
+    },
+    {
+      "venue_slug": "kia-forum-inglewood",
+      "venue_name": "Kia Forum",
+      "alt": "The Kia Forum seen across an empty car park, showing its white colonnade and red exterior wall under a clear sky.",
+      "credit": {
+        "title": "Forum_Inglewood.JPG",
+        "author": "Ritapepaj",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Forum_Inglewood.JPG"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Forum_Inglewood.JPG"
+    },
+    {
+      "venue_slug": "madison-square-garden-new-york",
+      "venue_name": "Madison Square Garden",
+      "alt": "The circular brick and glass facade of Madison Square Garden at dusk, lit in red above the Pennsylvania Station entrance.",
+      "credit": {
+        "title": "Madison Square Garden (MSG) - Full (48124330357).jpg",
+        "author": "Ajay Suresh from New York, NY, USA",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Madison_Square_Garden_(MSG)_-_Full_(48124330357).jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg"
+    },
+    {
+      "venue_slug": "spectrum-center-charlotte",
+      "venue_name": "Spectrum Center",
+      "alt": "An elevated view of Spectrum Center in Charlotte at dusk, its curved silver roof rising above surrounding downtown blocks.",
+      "credit": {
+        "title": "Spectrum_Center_2018.jpg",
+        "author": "Matthew D. Britt from Ballston Lake, NY, U.S.A.",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Spectrum_Center_2018.jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Spectrum_Center_2018.jpg"
+    },
+    {
+      "venue_slug": "state-farm-arena-atlanta",
+      "venue_name": "State Farm Arena",
+      "alt": "The glass frontage of State Farm Arena in Atlanta, with angled white supports and the arena name mounted above the entrance.",
+      "credit": {
+        "title": "State_Farm_(Philips)_Arena,_Atlanta,_GA_(46558861525)_-_2019.jpg",
+        "author": "Warren LeMay from Cincinnati, OH, United States",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Philips)_Arena,_Atlanta,_GA_(46558861525)_-_2019.jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg"
+    },
+    {
+      "venue_slug": "td-garden-boston",
+      "venue_name": "TD Garden",
+      "alt": "TD Garden in Boston viewed from across the elevated roadway, showing its curved roof and blue glass frontage.",
+      "credit": {
+        "title": "TD_Garden_(54960947755).jpg",
+        "author": "ajay_suresh",
+        "licence": "CC BY 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:TD_Garden_(54960947755).jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/TD_Garden_%2854960947755%29.jpg"
+    },
+    {
+      "venue_slug": "united-center-chicago",
+      "venue_name": "United Center",
+      "alt": "The stone facade and main entrance of the United Center in Chicago under a clear sky.",
+      "credit": {
+        "title": "United_Center_1.jpg",
+        "author": "Alacoolwiki",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:United_Center_1.jpg"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/United_Center_1.jpg"
+    },
+    {
+      "venue_slug": "ziggo-dome-amsterdam",
+      "venue_name": "Ziggo Dome",
+      "alt": "The Ziggo Dome at night, its outer walls covered by an illuminated LED screen showing the venue name.",
+      "credit": {
+        "title": "Ziggo_Dome.JPG",
+        "author": "Shirley de Jong",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ziggo_Dome.JPG"
+      },
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ziggo_Dome.JPG"
+    }
+  ]
+}

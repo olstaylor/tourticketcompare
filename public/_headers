@@ -60,3 +60,9 @@
 # still apply, since those are applied by Pages rather than the middleware.
 /og/*
   Cache-Control: public, max-age=604800
+
+# Venue photography. Content-addressed by venue slug and replaced only by a
+# deliberate `npm run venues:images:fetch`, so it caches as long as the social
+# cards do. Excluded from Functions in _routes.json for the same reason.
+/img/venues/*
+  Cache-Control: public, max-age=604800

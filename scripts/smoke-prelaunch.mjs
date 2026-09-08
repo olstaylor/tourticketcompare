@@ -667,9 +667,13 @@ assert(
 // harmless: an image executes nothing and cannot read the editor's localStorage,
 // and /robots.txt still runs through the middleware, so that origin keeps
 // disallowing crawlers.
+//
+// /img/* is venue photography and carries exactly the same trade as /og/*:
+// inert images, no routing or metadata to inject, security headers still
+// applied by Pages, one fewer Function invocation per fetch.
 assert(
-  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/og/*", "/favicon.ico"]),
-  "_routes.json should only exclude immutable assets, generated OG cards, and favicon.ico"
+  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/img/*", "/og/*", "/favicon.ico"]),
+  "_routes.json should only exclude immutable assets, venue photography, generated OG cards, and favicon.ico"
 );
 // Every card the router can reference must fall inside an excluded prefix,
 // otherwise half the corpus quietly goes back through Functions.
@@ -3735,7 +3739,34 @@ assert(
   venueSitemap.includes(`https://tourticketcompare.com/venues/${venueDetailSlug}`),
   "/sitemap.xml should include indexable venue detail pages"
 );
-console.log("venue landing-page verification passed");
+// Venue photography: the site's only images. The credit is a licence term, so a
+// photo that renders without its attribution is a licensing failure, not a
+// cosmetic one — and the dimensions must be present or the image reintroduces
+// the layout shift the page is otherwise free of.
+const { VENUE_IMAGES: smokeVenueImages } = await import("../functions/_venue-images.generated.js");
+const photographedSlug = Object.keys(smokeVenueImages)[0];
+assert(photographedSlug, "at least one venue must carry a photo for this check to mean anything");
+const photographedVenue = await routeResponse(`/venues/${photographedSlug}`, venueEnv);
+assert(photographedVenue.response.status === 200, `/venues/${photographedSlug} should return 200`);
+const photo = smokeVenueImages[photographedSlug];
+assert(photographedVenue.text.includes(`src="${photo.src}"`), "a photographed venue page must render its image");
+assert(photographedVenue.text.includes(`alt="${photo.alt}"`), "a venue photo must carry its reviewed alt text");
+assert(
+  photographedVenue.text.includes(`width="${photo.width}"`) && photographedVenue.text.includes(`height="${photo.height}"`),
+  "a venue photo must declare width and height so the page reserves its space"
+);
+assert(photographedVenue.text.includes(photo.credit.author), "a venue photo must name its photographer");
+assert(photographedVenue.text.includes(photo.credit.licence), "a venue photo must name its licence");
+assert(photographedVenue.text.includes(photo.credit.source_url), "a venue photo must link back to its source");
+// A venue with no photo renders no empty figure and no orphan credit.
+const unphotographed = (venuesIndex.text.match(/href="\/venues\/([a-z0-9-]+)"/g) || [])
+  .map((href) => href.replace('href="/venues/', "").replace('"', ""))
+  .find((slug) => !smokeVenueImages[slug]);
+if (unphotographed) {
+  const plainVenue = await routeResponse(`/venues/${unphotographed}`, venueEnv);
+  assert(!plainVenue.text.includes("venue-photo"), "a venue with no reviewed photo must render no figure at all");
+}
+console.log(`venue landing-page verification passed (${Object.keys(smokeVenueImages).length} photographed)`);
 
 // Artist-city landing pages: /artists/<artist>/tickets/<city>. Server-rendered
 // aggregation over one artist's reviewed upcoming shows in one city, gated on

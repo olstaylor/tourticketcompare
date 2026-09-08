@@ -54,6 +54,7 @@ Do not modify without explicit task scope:
 - **`public/data/blog-content.json`** — generated. Edit `content/blog/*.md` and run `npm run blog:build`; never edit the JSON directly
 - **`public/data/guides-content.json` and `functions/_guide-routes.generated.js`** — generated. Edit `content/guides/*.md` and run `npm run guides:build`; never edit either directly
 - **`public/og/` and `functions/_og-cards.generated.js`** — generated per-page Open Graph cards. Run `npm run og:build`; never hand-edit a card or the manifest
+- **`public/img/venues/` and `functions/_venue-images.generated.js`** — generated venue photography. Edit `data/venue-images.json` and run `npm run venues:images:fetch`; never hand-edit a binary or the manifest. Attribution in the registry is a licence obligation — see `docs/VENUE_IMAGES.md`
 - **`data/content-provenance.json`** — generated. Holds each page's copy fingerprint, its derived `lastmod`, and each guide's immutable first-publication date; run `npm run content:provenance`
 - **`public/_routes.json`** — incorrect changes cause site-wide failures
 - **Impact credentials and affiliate tracking logic** (including `functions/api/impact/`)
@@ -77,6 +78,6 @@ Named-shim trap: editing `functions/artists.js` etc. has **no effect** while `_m
 
 ## Key Documentation
 
-[ARCHITECTURE](docs/ARCHITECTURE.md) · [OPERATIONS](docs/OPERATIONS.md) · [DEPLOYMENT](docs/DEPLOYMENT.md) · [CONTENT_RULES](docs/CONTENT_RULES.md) · [PROVIDER_DATA_POLICY](docs/PROVIDER_DATA_POLICY.md) · [ROUTE_INDEXABILITY_POLICY](docs/ROUTE_INDEXABILITY_POLICY.md) · [BLOG](docs/BLOG.md) · [ARTIST_ONBOARDING](.claude/skills/artist-onboarding/SKILL.md) · [ADDING_PROVIDERS](docs/ADDING_PROVIDERS.md) · [PROVIDER_SYNC](docs/PROVIDER_SYNC.md) · [SEATGEEK_DISCOVERY](docs/SEATGEEK_DISCOVERY.md) · [COMMERCIAL_FUNNEL](docs/COMMERCIAL_FUNNEL.md) · [BACKLINK_CAMPAIGN](docs/BACKLINK_CAMPAIGN.md) · [DOCS_MAINTENANCE](docs/DOCS_MAINTENANCE.md)
+[ARCHITECTURE](docs/ARCHITECTURE.md) · [OPERATIONS](docs/OPERATIONS.md) · [DEPLOYMENT](docs/DEPLOYMENT.md) · [CONTENT_RULES](docs/CONTENT_RULES.md) · [PROVIDER_DATA_POLICY](docs/PROVIDER_DATA_POLICY.md) · [ROUTE_INDEXABILITY_POLICY](docs/ROUTE_INDEXABILITY_POLICY.md) · [BLOG](docs/BLOG.md) · [ARTIST_ONBOARDING](.claude/skills/artist-onboarding/SKILL.md) · [VENUE_IMAGES](docs/VENUE_IMAGES.md) · [ADDING_PROVIDERS](docs/ADDING_PROVIDERS.md) · [PROVIDER_SYNC](docs/PROVIDER_SYNC.md) · [SEATGEEK_DISCOVERY](docs/SEATGEEK_DISCOVERY.md) · [COMMERCIAL_FUNNEL](docs/COMMERCIAL_FUNNEL.md) · [BACKLINK_CAMPAIGN](docs/BACKLINK_CAMPAIGN.md) · [DOCS_MAINTENANCE](docs/DOCS_MAINTENANCE.md)
 
 `AGENTS.md` is the concise repository-discovery entrypoint. Do not add parallel handover, archive, status, or governance documents; update the canonical file and use git history for superseded material.

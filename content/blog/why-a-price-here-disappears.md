@@ -15,13 +15,13 @@ related_guides:
   - how-resale-ticket-pricing-works
 ---
 
-You opened an event card this morning and a provider button carried a figure. You have come back to book and the figure has gone — same show, same button, no number. Nothing broke. That blank is a deliberate output, and it is worth explaining what produced it, because a site that quietly left the old figure there would look more helpful while telling you less.
+You opened an event card this morning and a provider button carried a figure. You have come back to book and the figure has gone — same show, same button, no number. Nothing broke. That blank is a deliberate output, and it is worth explaining what produced it, because a site that quietly left a stale figure there, with nothing on the card to say how old it was, would look more helpful while telling you less.
 
 ## A snapshot has an expiry stamped on it
 
-A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry eight hours out, and the capture lanes run hourly — comfortably inside that window, so an ordinary run keeps the figure current. When a run cannot fetch, or the provider's feed stops carrying that event, no new observation lands, and the existing one simply ages past its expiry and stops rendering.
+A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry 24 hours out, and the capture lanes run hourly — comfortably inside that window, so an ordinary run keeps the figure current. When a run cannot fetch, or the provider's feed stops carrying that event, no new observation lands. The figure already on the card stays, and once it is more than twelve hours old the card states how long ago it was taken. Past 24 hours the observation is too old to stand behind, and it stops rendering.
 
-Nothing is refreshed in place and no last-known value is left standing. The figure was true at the time printed next to it; past its expiry there is no longer any evidence for it, so it is not shown. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail.
+Nothing is refreshed in place, and nothing is left standing unlabelled. The figure was true at the time printed next to it; while it is recent that timestamp is the whole claim, once it ages the card states how old it is, and past its expiry there is no longer any evidence for it, so it is not shown. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail.
 
 ## The gate has more than one door, and all of them fail closed
 

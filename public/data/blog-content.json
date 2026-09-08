@@ -206,16 +206,16 @@
         "how-resale-ticket-pricing-works"
       ],
       "relatedArtists": [],
-      "wordCount": 721,
+      "wordCount": 779,
       "sections": [
         {
           "type": "intro",
-          "content": "You opened an event card this morning and a provider button carried a figure. You have come back to book and the figure has gone — same show, same button, no number. Nothing broke. That blank is a deliberate output, and it is worth explaining what produced it, because a site that quietly left the old figure there would look more helpful while telling you less."
+          "content": "You opened an event card this morning and a provider button carried a figure. You have come back to book and the figure has gone — same show, same button, no number. Nothing broke. That blank is a deliberate output, and it is worth explaining what produced it, because a site that quietly left a stale figure there, with nothing on the card to say how old it was, would look more helpful while telling you less."
         },
         {
           "type": "section",
           "title": "A snapshot has an expiry stamped on it",
-          "content": "A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry eight hours out, and the capture lanes run hourly — comfortably inside that window, so an ordinary run keeps the figure current. When a run cannot fetch, or the provider's feed stops carrying that event, no new observation lands, and the existing one simply ages past its expiry and stops rendering.\n\nNothing is refreshed in place and no last-known value is left standing. The figure was true at the time printed next to it; past its expiry there is no longer any evidence for it, so it is not shown. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail."
+          "content": "A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry 24 hours out, and the capture lanes run hourly — comfortably inside that window, so an ordinary run keeps the figure current. When a run cannot fetch, or the provider's feed stops carrying that event, no new observation lands. The figure already on the card stays, and once it is more than twelve hours old the card states how long ago it was taken. Past 24 hours the observation is too old to stand behind, and it stops rendering.\n\nNothing is refreshed in place, and nothing is left standing unlabelled. The figure was true at the time printed next to it; while it is recent that timestamp is the whole claim, once it ages the card states how old it is, and past its expiry there is no longer any evidence for it, so it is not shown. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail."
         },
         {
           "type": "section",
@@ -302,8 +302,8 @@
       "path": "/blog/what-a-price-snapshot-actually-is",
       "title": "What a price snapshot actually is (and what it is not)",
       "seoTitle": "What a price snapshot actually is | TourTicketCompare",
-      "description": "A price here is one provider's listed figure for one exact show, captured at a stated time and expiring eight hours later — not live inventory.",
-      "summary": "When a figure appears on an event card here it is a snapshot: one provider's listed price for that exact show, captured at a stated moment and expiring a few hours later. That is a narrower claim than it looks, and the difference matters at checkout.",
+      "description": "A price here is one provider's listed figure for one exact show, captured at a stated time and expiring 24 hours later — not live inventory.",
+      "summary": "When a figure appears on an event card here it is a snapshot: one provider's listed price for that exact show, captured at a stated moment and expiring within a day. That is a narrower claim than it looks, and the difference matters at checkout.",
       "datePublished": "2026-08-01",
       "dateModified": "2026-09-03",
       "status": "published",
@@ -318,7 +318,7 @@
         "how-to-compare-concert-ticket-prices"
       ],
       "relatedArtists": [],
-      "wordCount": 656,
+      "wordCount": 695,
       "sections": [
         {
           "type": "intro",
@@ -332,7 +332,7 @@
         {
           "type": "section",
           "title": "Why snapshots expire",
-          "content": "Listed prices move, and a figure with no expiry quietly becomes a claim nobody is standing behind. So each snapshot is written with a hard expiry eight hours out, and the lanes that capture them run hourly. The refresh interval is deliberately shorter than the expiry: if a capture run fails or a provider's feed goes quiet, the figure ages out and disappears rather than sitting on the card looking current.\n\nThat is also why the site prints a capture time beside a price instead of presenting it as the price. The timestamp is not a disclaimer bolted on afterwards. It is the part that makes the number honest."
+          "content": "Listed prices move, and a figure with no expiry quietly becomes a claim nobody is standing behind. So each snapshot is written with a hard expiry 24 hours out, and the lanes that capture them run hourly. The gap between those two numbers is deliberate. If a capture run fails, or a provider's feed goes quiet, the figure already on the card stays there rather than the card going blank — but once it is more than twelve hours old the card says so in as many words, next to the time it was taken. Past 24 hours there is no longer enough evidence behind it, and it stops rendering.\n\nThat is also why the site prints a capture time beside a price instead of presenting it as the price. The timestamp is not a disclaimer bolted on afterwards. It is the part that makes the number honest."
         },
         {
           "type": "section",

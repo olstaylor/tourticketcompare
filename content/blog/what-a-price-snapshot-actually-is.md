@@ -1,8 +1,8 @@
 ---
 title: What a price snapshot actually is (and what it is not)
 seo_title: What a price snapshot actually is
-description: A price here is one provider's listed figure for one exact show, captured at a stated time and expiring eight hours later — not live inventory.
-summary: When a figure appears on an event card here it is a snapshot: one provider's listed price for that exact show, captured at a stated moment and expiring a few hours later. That is a narrower claim than it looks, and the difference matters at checkout.
+description: A price here is one provider's listed figure for one exact show, captured at a stated time and expiring 24 hours later — not live inventory.
+summary: When a figure appears on an event card here it is a snapshot: one provider's listed price for that exact show, captured at a stated moment and expiring within a day. That is a narrower claim than it looks, and the difference matters at checkout.
 date: 2026-08-01
 updated: 2026-09-03
 status: published
@@ -25,7 +25,7 @@ Several conditions all have to hold before it renders at all: the provider must 
 
 ## Why snapshots expire
 
-Listed prices move, and a figure with no expiry quietly becomes a claim nobody is standing behind. So each snapshot is written with a hard expiry eight hours out, and the lanes that capture them run hourly. The refresh interval is deliberately shorter than the expiry: if a capture run fails or a provider's feed goes quiet, the figure ages out and disappears rather than sitting on the card looking current.
+Listed prices move, and a figure with no expiry quietly becomes a claim nobody is standing behind. So each snapshot is written with a hard expiry 24 hours out, and the lanes that capture them run hourly. The gap between those two numbers is deliberate. If a capture run fails, or a provider's feed goes quiet, the figure already on the card stays there rather than the card going blank — but once it is more than twelve hours old the card says so in as many words, next to the time it was taken. Past 24 hours there is no longer enough evidence behind it, and it stops rendering.
 
 That is also why the site prints a capture time beside a price instead of presenting it as the price. The timestamp is not a disclaimer bolted on afterwards. It is the part that makes the number honest.
 

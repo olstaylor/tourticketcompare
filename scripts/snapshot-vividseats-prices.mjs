@@ -21,18 +21,23 @@ const IMPACT_API_BASE = "https://api.impact.com";
 // hides any row past expires_at. It is also the cap on how stale a displayed
 // price can get, so it should not be widened beyond the resilience it buys.
 //
-// Sized against delivered runs, not the nominal cron (2026-09-08). The earlier
-// 2h-cron/6h-expiry pairing was reasoned as "absorbs two consecutive failed
-// runs", but the real failure mode is not a run that fails — it is a tick
-// GitHub never fires and never replays. Measured gaps between actual runs over
-// 2026-09-06..08 reached 7.8h and 6.3h against that nominal 2h, so the rows
-// expired and every Vivid price disappeared site-wide while the workflow still
-// showed green. The cron is now hourly (vividseats-price-snapshots.yml), so 8h
-// absorbs seven consecutive missed ticks and still covers the worst gap seen
-// during that incident, for 2h more worst-case displayed age (~18% drift at the
-// measured ~2.3%/hour, against ~14% at 6h). Widening further trades real
-// accuracy for resilience the hourly cron already provides.
-const DEFAULT_FRESHNESS_HOURS = 8;
+// Sized for graceful degradation, not just for the cron (owner-directed
+// 2026-09-08). The earlier windows were set just wide enough to bridge the gap
+// between runs, which meant any scheduling failure long enough to outlive them
+// blanked every price on the site — as happened this day, when GitHub stopped
+// firing both snapshot lanes and the board fell back to "Check prices"
+// everywhere. 24h inverts that: a whole day of missed runs leaves the last
+// known price on the card instead of an empty board, so a scheduling problem
+// degrades into slightly older prices rather than into no prices at all.
+//
+// This is only honest because the age is always shown. Every displayed price
+// already prints its capture time beside it, and past PRICE_STALE_AFTER_HOURS
+// the card adds an explicit "last checked N hours ago" (see the price notes in
+// functions/[[path]].js and public/app.js). A snapshot is never presented as a
+// live quote, so an older one is labelled rather than disguised. Widening this
+// further would start to matter: listed prices drift ~2.3%/hour, so 24h is
+// already the point where the label is doing real work.
+const DEFAULT_FRESHNESS_HOURS = 24;
 // This writer stays append-only against provider_pricing_history (asserted in
 // selfTest). Bounded retention is a separate, dry-run-by-default step:
 // scripts/prune-provider-pricing-history.mjs.

@@ -176,7 +176,7 @@ export const TRUST_ROUTES = {
       "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
-    lastmod: "2026-08-21"
+    lastmod: "2026-09-08"
   },
   "/artists": {
     title: "Artists | TourTicketCompare",

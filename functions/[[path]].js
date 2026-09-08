@@ -3202,6 +3202,35 @@ function formatServerSnapshotTime(value) {
   }
 }
 
+// A snapshot older than this is still shown, but is labelled with its age.
+//
+// The display window (DEFAULT_FRESHNESS_HOURS in the snapshot writers) is 24h
+// so that a day of missed snapshot runs leaves the last known price on the card
+// instead of blanking the board. That resilience is only honest if a visitor
+// can tell a day-old price from a fresh one, which is what this threshold marks.
+// It is deliberately well inside the 24h window: the label should appear while
+// the price is still useful, not at the moment it is about to vanish.
+// Keep in sync with PRICE_STALE_AFTER_HOURS in public/app.js.
+const PRICE_STALE_AFTER_HOURS = 12;
+
+// "last checked 14 hours ago", or "" while the snapshot is still recent.
+// Relative age is what a reader can actually judge — an absolute timestamp
+// alone makes them do the arithmetic — so it supplements, never replaces, the
+// capture time already printed beside every price.
+// Keep in sync with snapshotAgeLabel in public/app.js.
+function snapshotAgeLabel(fetchedAt, now = Date.now()) {
+  const captured = Date.parse(String(fetchedAt || ""));
+  if (!Number.isFinite(captured)) return "";
+  const hours = (now - captured) / 3600000;
+  if (!(hours >= PRICE_STALE_AFTER_HOURS)) return "";
+  if (hours < 48) {
+    const whole = Math.round(hours);
+    return `last checked ${whole} hour${whole === 1 ? "" : "s"} ago`;
+  }
+  const days = Math.round(hours / 24);
+  return `last checked ${days} day${days === 1 ? "" : "s"} ago`;
+}
+
 // One CTA button per provider: provider name on the left, the approved fresh
 // listed-price snapshot on the right when one exists (the price is the button),
 // otherwise "Check prices". The data-cta-* attributes feed the delegated
@@ -3254,7 +3283,12 @@ function renderServerPriceNotes(ctaSpecs, pricesChecked = false) {
       ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(PRICE_UNAVAILABLE_NOTE)}</p></div>`
       : "";
   }
-  const snapshotTimes = priced.map((spec) => `${spec.name} (${spec.priceAsOf})`).join(" · ");
+  const snapshotTimes = priced
+    .map((spec) => {
+      const age = snapshotAgeLabel(spec.lane?.fetchedAt);
+      return `${spec.name} (${spec.priceAsOf}${age ? `, ${age}` : ""})`;
+    })
+    .join(" · ");
   const note = `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`;
   return `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(note)}</p></div>`;
 }

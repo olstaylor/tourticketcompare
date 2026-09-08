@@ -668,6 +668,20 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-beartooth",
     redirectUrl: "https://seatgeek.com/beartooth-tickets",
     verified: true
+  },
+  "the-weeknd:ticketmaster": {
+    artistSlug: "the-weeknd",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-weeknd",
+    redirectUrl: "https://www.ticketmaster.com/the-weeknd-tickets/artist/1697014",
+    verified: true
+  },
+  "the-weeknd:seatgeek": {
+    artistSlug: "the-weeknd",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-weeknd",
+    redirectUrl: "https://seatgeek.com/the-weeknd-tickets",
+    verified: true
   }
 };
 

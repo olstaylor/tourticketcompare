@@ -19,7 +19,7 @@ You opened an event card this morning and a provider button carried a figure. Yo
 
 ## A snapshot has an expiry stamped on it
 
-A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry six hours out, and the capture lanes run every two hours — comfortably inside that window, so an ordinary run keeps the figure current. When a run cannot fetch, or the provider's feed stops carrying that event, no new observation lands, and the existing one simply ages past its expiry and stops rendering.
+A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry eight hours out, and the capture lanes run hourly — comfortably inside that window, so an ordinary run keeps the figure current. When a run cannot fetch, or the provider's feed stops carrying that event, no new observation lands, and the existing one simply ages past its expiry and stops rendering.
 
 Nothing is refreshed in place and no last-known value is left standing. The figure was true at the time printed next to it; past its expiry there is no longer any evidence for it, so it is not shown. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail.
 

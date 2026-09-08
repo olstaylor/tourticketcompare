@@ -24,7 +24,10 @@
 import process from "node:process";
 
 const DEFAULT_BASE_URL = "https://tourticketcompare.com";
-const DEFAULT_LIMIT = 200;
+// The API caps a page at 500. Sample the full page rather than a small prefix:
+// "blackout" means every expected lane came back dry, so a narrow sample is the
+// one thing that could turn a quiet corner of the board into a false alarm.
+const DEFAULT_LIMIT = 500;
 
 // A lane is expected to carry prices only when its display flag is on *and* a
 // scheduled writer actually feeds it. Keeping both conditions here stops the
@@ -124,9 +127,16 @@ export function evaluateFreshness(payload, { flags = {}, lanes = PRICE_LANES } =
       ok: counts.ok,
       affiliateReady: counts.affiliateReady,
       unavailable: counts.unavailable,
-      // Dark = we expect prices here, verified destinations exist, and yet not
-      // one lane is fresh. That is the shape of an expired or unwritten cache.
-      dark: expected && counts.ok === 0 && counts.affiliateReady > 0
+      // Dark = we expect this lane to be serving prices and not one is fresh.
+      //
+      // Deliberately not qualified by affiliateReady > 0. That looked like a
+      // sensible "verified destinations still exist" guard, but providers do
+      // not share one empty shape: TicketNetwork and StubHub International fall
+      // back to affiliate_ready, while Vivid Seats reports its price-less
+      // events as unavailable. Gating on affiliate_ready therefore made a
+      // Vivid-only outage — the single biggest lane — impossible to report,
+      // which is precisely the blind spot this checker exists to remove.
+      dark: expected && counts.ok === 0
     };
   });
 
@@ -188,7 +198,9 @@ function printReport(result, options) {
   }
   console.log(`Price snapshot freshness — sampled ${result.sampled} shows on ${options.baseUrl}`);
   for (const lane of result.lanes) {
-    const state = !lane.expected ? "not expected" : lane.ok > 0 ? `${lane.ok} fresh` : "DARK";
+    // Read the same field the JSON reports, so the console line and the
+    // machine-readable payload can never disagree about which lanes are dark.
+    const state = !lane.expected ? "not expected" : lane.dark ? "DARK" : `${lane.ok} fresh`;
     console.log(`  ${lane.provider.padEnd(22)} ${String(state).padEnd(14)} (ok=${lane.ok}, affiliate_ready=${lane.affiliateReady}, unavailable=${lane.unavailable})`);
   }
   console.log(`\n${result.servingLaneCount}/${result.expectedLaneCount} expected lanes serving, ${result.totalFreshLanes} fresh lanes total.`);
@@ -211,7 +223,10 @@ async function selfTest() {
     { flags }
   );
   assert.equal(healthy.blackout, false);
-  assert.deepEqual(healthy.darkLanes, ["TicketNetwork"]);
+  // TicketNetwork has ready destinations but no fresh price; StubHub does not
+  // appear in the sample at all. Both are expected lanes serving nothing, so
+  // both are dark — a lane missing from the payload is not a lane that is fine.
+  assert.deepEqual(healthy.darkLanes, ["TicketNetwork", "StubHub International"]);
   assert.equal(healthy.totalFreshLanes, 1);
 
   // The 2026-09-08 incident: verified destinations intact, every price expired.
@@ -230,6 +245,24 @@ async function selfTest() {
   assert.equal(blackout.blackout, true);
   assert.deepEqual(blackout.darkLanes, ["Vivid Seats", "TicketNetwork", "StubHub International"]);
 
+  // Regression, caught against the live outage on 2026-09-08: a lane whose
+  // price-less events report "unavailable" rather than "affiliate_ready" must
+  // still be reported dark. Vivid Seats behaves exactly this way, so an earlier
+  // affiliate_ready-gated rule silently exempted the largest lane on the site.
+  const unavailableShaped = evaluateFreshness(
+    {
+      shows: [
+        show([
+          { provider: "Vivid Seats", status: "unavailable" },
+          { provider: "TicketNetwork", status: "ok" }
+        ])
+      ]
+    },
+    { flags }
+  );
+  assert.deepEqual(unavailableShaped.darkLanes, ["Vivid Seats", "StubHub International"]);
+  assert.equal(unavailableShaped.blackout, false, "one serving lane still clears the blackout check");
+
   // A lane that is off by design must never be reported dark, or the check
   // becomes noise and stops being trusted.
   const byDesign = evaluateFreshness(
@@ -244,9 +277,16 @@ async function selfTest() {
     },
     { flags }
   );
-  assert.equal(byDesign.darkLanes.length, 0);
+  // The claim under test is specifically that a lane which is off by design is
+  // never dark — not that nothing else is. TicketNetwork and StubHub are absent
+  // from this payload and are correctly dark; asserting on the whole list would
+  // conflate the two and quietly stop testing the by-design exemption.
+  assert.ok(!byDesign.darkLanes.includes("Ticket Liquidator"));
+  assert.ok(!byDesign.darkLanes.includes("SeatGeek"));
   assert.equal(byDesign.lanes.find((l) => l.provider === "Ticket Liquidator").expected, false);
+  assert.equal(byDesign.lanes.find((l) => l.provider === "Ticket Liquidator").dark, false);
   assert.equal(byDesign.lanes.find((l) => l.provider === "SeatGeek").expected, false);
+  assert.equal(byDesign.lanes.find((l) => l.provider === "SeatGeek").dark, false);
 
   // SeatGeek stays unexpected even with its display flag on and a ready
   // destination, because no scheduled writer feeds it — so it can never be

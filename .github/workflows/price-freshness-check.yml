@@ -55,7 +55,14 @@ jobs:
       - name: Probe live price freshness
         env:
           BASE_URL: ${{ github.event.inputs.base_url || 'https://tourticketcompare.com' }}
-        run: node scripts/check-price-snapshot-freshness.mjs --base-url "$BASE_URL" --json | tee "$RUNNER_TEMP/price-freshness.json"
+        # pipefail is load-bearing here, not boilerplate: without it the
+        # pipeline reports tee's exit status, the blackout exit code is
+        # swallowed, and this monitor would report green through the exact
+        # outage it exists to catch.
+        run: |
+          set -euo pipefail
+          node scripts/check-price-snapshot-freshness.mjs --base-url "$BASE_URL" --json \
+            | tee "$RUNNER_TEMP/price-freshness.json"
 
       - name: Summarise
         if: always()

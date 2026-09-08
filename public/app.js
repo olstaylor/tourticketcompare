@@ -2389,6 +2389,9 @@ function renderRecentShowsList(name, pastShows) {
 // Zero-event board state. The primary CTA is the artist-level page of the
 // highest-ranked enabled provider (never an event-level ticket link — no
 // verified dates exist to sell). Keep in sync with
+// Keep in sync with EMPTY_BOARD_EXPLAINER_PATH in functions/[[path]].js.
+const EMPTY_BOARD_EXPLAINER_PATH = "/blog/why-some-artist-pages-show-no-dates";
+
 // renderShowBoardEmptyStateHtml in functions/[[path]].js.
 function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows = []) {
   const name = String(artistName || "").trim() || "artist";
@@ -2408,6 +2411,16 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     "When a date is confirmed by our source and we've followed the ticket link to that exact event, it appears on this page with the ticket sites that cover it.",
     "muted"
   );
+  // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
+  const explainer = document.createElement("p");
+  explainer.className = "muted";
+  explainer.append("An empty board is a normal state here, not a sign something is broken. ");
+  const explainerLink = document.createElement("a");
+  explainerLink.className = "text-link";
+  explainerLink.href = EMPTY_BOARD_EXPLAINER_PATH;
+  explainerLink.textContent = "Here's why";
+  explainer.append(explainerLink, ".");
+  wrap.append(explainer);
   const recent = renderRecentShowsList(name, pastShows);
   if (recent) wrap.append(recent);
   const providerLink = artistSlug

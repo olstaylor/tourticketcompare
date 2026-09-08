@@ -229,6 +229,14 @@ These apply to city, venue, and artist-city pages together.
   result, so schema on one only adds another near-duplicate copy. Visible
   content and structured data must never disagree in the other direction —
   schema is never emitted for content the page does not show.
+- **No `hreflang`, deliberately.** City and venue pages cover the UK, the
+  Netherlands, Spain, Germany, Canada and Belgium, which reads like a case for
+  language/region annotations. It is not one: `hreflang` declares alternate
+  *versions* of a page, and there are none — every route is a single
+  English-language document, and a set of self-referential annotations tells a
+  crawler nothing it cannot already see. Reconsider only when a page genuinely
+  has a second version at its own URL (a translated guide, or a market-specific
+  variant of the same city page). Country coverage alone is not that trigger.
 
 ---
 

@@ -26,15 +26,23 @@ const EVENTS_PATH = path.join(ROOT, "public", "data", "events.json");
 const ARTISTS_PATH = path.join(ROOT, "public", "data", "artists.json");
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
-// Snapshot expiry window. Must stay strictly larger than the scheduled
-// snapshot cron interval or prices blink out between runs: the display gate
+// Snapshot expiry window. Must stay strictly larger than the *actual* interval
+// between scheduled runs or prices blink out between them: the display gate
 // hides any row past expires_at. It is also the cap on how stale a displayed
 // price can get, so it should not be widened beyond the resilience it buys.
-// The scheduled writer runs every 2h (impact-marketplace-price-snapshots.yml),
-// so 6h absorbs two consecutive failed runs — more grace than either previous
-// pairing (4h cron / 6h expiry, then 8h cron / 10h expiry) while lowering the
-// worst-case displayed age from 10h to 6h.
-const DEFAULT_FRESHNESS_HOURS = 6;
+//
+// Sized against delivered runs, not the nominal cron (2026-09-08). The earlier
+// 2h-cron/6h-expiry pairing was reasoned as "absorbs two consecutive failed
+// runs", but the real failure mode is not a run that fails — it is a tick
+// GitHub never fires and never replays. This lane last ran at 04:38Z that day
+// and the next three ticks never came, so its rows expired at 10:38Z and every
+// TicketNetwork and StubHub International price vanished from the site while
+// the workflow still showed green. The cron is now hourly
+// (impact-marketplace-price-snapshots.yml), so 8h absorbs seven consecutive
+// missed ticks, for 2h more worst-case displayed age (~18% drift at the
+// measured ~2.3%/hour, against ~14% at 6h). Widening further trades real
+// accuracy for resilience the hourly cron already provides.
+const DEFAULT_FRESHNESS_HOURS = 8;
 // This writer stays append-only against provider_pricing_history (asserted in
 // selfTest). Bounded retention is a separate, dry-run-by-default step:
 // scripts/prune-provider-pricing-history.mjs.

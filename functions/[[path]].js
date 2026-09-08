@@ -205,6 +205,18 @@ async function loadEvents(env) {
   return loadJsonAsset(env, "/data/events.json", Array.isArray, []);
 }
 
+// Artist partitions are generated from the same reviewed event source as the
+// full dataset. Artist routes need only one partition; loading it avoids
+// parsing the multi-megabyte aggregate on a cold Pages Function invocation.
+// A missing or temporarily unavailable partition falls back to the existing
+// aggregate path so publishing never drops an otherwise valid show board.
+async function loadArtistEvents(env, artistSlug) {
+  const slug = slugify(artistSlug);
+  if (!slug) return loadEvents(env);
+  const partition = await loadJsonAsset(env, `/data/events/${encodeURIComponent(slug)}.json`, Array.isArray, null);
+  return partition === null ? loadEvents(env) : partition;
+}
+
 async function loadArtistsMeta(env) {
   return loadJsonAsset(env, "/data/artists.json", Array.isArray, []);
 }
@@ -462,7 +474,7 @@ async function routeForPath(pathname, env) {
     // Date availability controls presentation, not whether the durable artist
     // URL remains indexable. The empty board is explicit and the same URL fills
     // again when a future event is added.
-    const artistEvents = await loadEvents(env);
+    const artistEvents = await loadArtistEvents(env, artist.slug);
     const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
     return {
       type: "artist",

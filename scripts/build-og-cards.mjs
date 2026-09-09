@@ -404,6 +404,27 @@ export function mergeCardEntries(existingEntries, replacements) {
   return [...cards.entries()].sort(([left], [right]) => left.localeCompare(right));
 }
 
+/**
+ * Pick the cards a run should render.
+ *
+ * An untargeted run takes every card. A targeted run takes exactly the
+ * requested paths and rejects any that match no card, so a typo'd `--path`
+ * fails loudly instead of quietly producing nothing. The guard only makes
+ * sense for a targeted run: comparing the requested count against every card
+ * made an untargeted build throw `unknown OG-card route(s):` with an empty
+ * list, which meant `npm run og:build` could never succeed.
+ */
+export function selectCards(cards, requestedPaths) {
+  if (!requestedPaths.size) return cards;
+  const selected = cards.filter((card) => requestedPaths.has(card.path));
+  if (selected.length !== requestedPaths.size) {
+    const knownPaths = new Set(selected.map((card) => card.path));
+    const unknown = [...requestedPaths].filter((routePath) => !knownPaths.has(routePath));
+    throw new Error(`unknown OG-card route(s): ${unknown.join(", ")}`);
+  }
+  return selected;
+}
+
 async function build({ write = true, paths = [] } = {}) {
   const sharp = await loadSharp();
   const cards = await collectCards();
@@ -419,13 +440,7 @@ async function build({ write = true, paths = [] } = {}) {
   const [serifBold, sans] = await Promise.all([measureAdvances(sharp, SERIF, 700), measureAdvances(sharp, SANS, 400)]);
 
   await fs.mkdir(OG_DIR, { recursive: true });
-  const selectedCards = requestedPaths.size
-    ? cards.filter((card) => requestedPaths.has(card.path))
-    : cards;
-  if (requestedPaths.size !== selectedCards.length) {
-    const knownPaths = new Set(selectedCards.map((card) => card.path));
-    throw new Error(`unknown OG-card route(s): ${[...requestedPaths].filter((routePath) => !knownPaths.has(routePath)).join(", ")}`);
-  }
+  const selectedCards = selectCards(cards, requestedPaths);
   const entries = [];
   for (const card of selectedCards) {
     const headline = fitHeadline(card.headline, { advances: serifBold });
@@ -659,6 +674,31 @@ async function selfTest() {
   assert(left.join(",") === "keep-a.png,keep-b.png,notes.txt", "referenced cards and non-card files survive pruning");
   await fs.rm(tmpDir, { recursive: true, force: true });
 
+  // Card selection: the targeted guard once compared "no paths requested"
+  // against the full card list, so every untargeted `npm run og:build` threw
+  // `unknown OG-card route(s):` with an empty list and no card could ever be
+  // regenerated. Both directions are asserted so neither can regress.
+  const sampleCards = [{ path: "/artists/coldplay" }, { path: "/guides/example" }, { path: "/blog/example" }];
+  assert(
+    selectCards(sampleCards, new Set()).length === sampleCards.length,
+    "an untargeted build selects every card instead of rejecting the run"
+  );
+  assert(
+    selectCards(sampleCards, new Set(["/guides/example"])).map((card) => card.path).join(",") === "/guides/example",
+    "a targeted build selects only the requested card"
+  );
+  let selectionError = null;
+  try {
+    selectCards(sampleCards, new Set(["/guides/example", "/artists/does-not-exist"]));
+  } catch (error) {
+    selectionError = error;
+  }
+  assert(selectionError !== null, "a targeted build rejects a path that matches no card");
+  assert(
+    selectionError?.message.includes("/artists/does-not-exist") && !selectionError.message.includes("/guides/example"),
+    "the rejection names the offending path and only that path"
+  );
+
   const manifest = renderManifest([["/artists/coldplay", { url: "/og/artists-coldplay.png", alt: "Tickets: Coldplay" }]]);
   assert(manifest.includes("export const OG_CARDS = {"), "the manifest exports OG_CARDS");
   assert(manifest.includes("GENERATED FILE"), "the manifest is marked generated");
@@ -685,13 +725,23 @@ if (invokedDirectly) {
     const args = process.argv.slice(2);
     const paths = [];
     for (let index = 0; index < args.length; index += 1) {
-      if (args[index] !== "--path") continue;
-      const routePath = args[index + 1];
-      if (!routePath || routePath.startsWith("--")) {
-        throw new Error("--path requires a route value, for example: --path /guides/example");
+      const arg = args[index];
+      if (arg === "--path") {
+        const routePath = args[index + 1];
+        if (!routePath || routePath.startsWith("--")) {
+          throw new Error("--path requires a route value, for example: --path /guides/example");
+        }
+        paths.push(routePath);
+        index += 1;
+        continue;
       }
-      paths.push(routePath);
-      index += 1;
+      // A bare route reads as a targeted run. Dropping it would rebuild and
+      // prune every card instead of the one the operator actually named.
+      if (arg.startsWith("/")) {
+        paths.push(arg);
+        continue;
+      }
+      throw new Error(`unknown argument: ${arg} (expected a route path, or --path <route>)`);
     }
     const { entries, pruned } = await build({ paths });
     console.log(`Wrote ${entries.length} OG card(s) to public/og/ and ${MANIFEST_REL}.`);

@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-08T09:35:35.525Z
+Generated: 2026-09-09T09:36:09.866Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -11,14 +11,14 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 - Mode: apply
 - Events selected: 143 (needs_recheck: 143, provenance backfill: 0, stale re-check: 74)
 - Events skipped before API checks: 110
-- API calls made: 146
+- API calls made: 143
 - Verified provenance written: 74
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 3
+- Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 1
-- No qualifying listing: 65
+- No qualifying listing: 68
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -47,8 +47,8 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-niall-horan-2026-hamburg-z698xzc2z16v40up_b | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-niall-horan-2026-amsterdam-z698xzbpz1a9focb | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-niall-horan-2026-amsterdam-z698xzbpz16vxbu8jy | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-niall-horan-2026-barcelona-z698xz2qz16va-q_8k | niall-horan | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18562164 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-niall-horan-2026-munich-z698xzc2z1kaaofap | niall-horan | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18562167 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
+| tm-niall-horan-2026-barcelona-z698xz2qz16va-q_8k | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-munich-z698xzc2z1kaaofap | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-niall-horan-2027-saint-paul-z7r9jz1a704vb | niall-horan | verify (applied) | 18235523 | https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523 | - |
 | tm-niall-horan-2027-houston-z7r9jz1a709uy | niall-horan | verify (applied) | 18235544 | https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544 | - |
 | tm-doja-cat-2026-houston-z7r9jz1a7js4g | doja-cat | verify (applied) | 17769336 | https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336 | - |
@@ -61,7 +61,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-john-summit-2026-champaign-z7r9jz1a70ijb | john-summit | verify (applied) | 18257239 | https://seatgeek.com/john-summit-tickets/champaign-illinois-state-farm-center-2026-10-01-7-pm/concert/18257239 | - |
 | tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | verify (applied) | 18257241 | https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241 | - |
 | tm-shakira-2026-madrid-z7r9jz1aazaza | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa | niall-horan | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18562219 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
+| tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-karol-g-2026-arlington-z7r9jz1a7xfrb | karol-g | verify (applied) | 18166850 | https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850 | - |
 | tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |

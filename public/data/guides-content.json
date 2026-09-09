@@ -257,7 +257,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nThere is no provider that is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. TourTicketCompare can shorten that process with approved, timestamped provider price snapshots for the same verified event, but the provider page remains the source for current inventory and the final amount payable. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)."
+        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nNo provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies us with a listed price, so expect a checked link from all three and a figure from one — the section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)."
       },
       {
         "type": "section",
@@ -282,7 +282,7 @@
       {
         "type": "section",
         "title": "What TourTicketCompare compares",
-        "content": "TourTicketCompare compares only approved, provider-supplied listed-price snapshots attached to the same verified event. Each lane must pass provider-level verification, approved-source, timestamp, and expiry gates. When approved snapshots for the same event are current and use the same currency, the site can show the lower listed snapshot and the difference. Not every linked provider supplies a price snapshot — a provider can carry a verified ticket link with no displayed price.\n\nThe comparison does not claim equivalent seats, live inventory, final checkout totals, or guaranteed availability. Fees may be excluded from a snapshot even when a provider's own shopping experience displays them up front, so the provider page must be checked before buying."
+        "content": "Two of the three providers on this page never carry a price here, and it is worth knowing which before you arrive expecting a three-way price table.\n\nA displayed figure comes from a provider feed that supplies a numeric listed price under terms that allow us to show it. Vivid Seats, TicketNetwork and StubHub International do. SeatGeek does not: its API returns no pricing statistics for this site's client, permanently, so SeatGeek is a checked-link provider here and nothing more. Ticketmaster is a verification and link source rather than a price lane. So on a Ticketmaster–SeatGeek–Vivid Seats event you can expect a checked link from each and a listed price from Vivid Seats alone.\n\nWhere two lanes that do carry prices sit on the same verified event, in the same currency, and both snapshots are current, the site can name the lower one and the gap between them. Each snapshot shows when it was taken and disappears once it goes stale.\n\nNone of that claims equivalent seats, live inventory, a final checkout total, or that a ticket is still there. A snapshot may exclude fees even where the provider's own shopping experience shows them up front. It narrows your shortlist; the provider page settles what you pay."
       },
       {
         "type": "section",
@@ -910,7 +910,7 @@
       {
         "type": "section",
         "title": "A cheaper price is not always the better ticket",
-        "content": "Price is only one part of the offer. A lower total can come with terms that do not suit you, so before paying, confirm:\n\n- How the ticket is delivered, and when it becomes transferable.\n- Whether the ticket type has transfer, resale, or entry restrictions.\n- What the provider does if the show is postponed, moved, or cancelled.\n- What refund or credit terms apply to your exact order.\n\nThe provider sets all of this, not TourTicketCompare. If any term is unclear, slow down before you enter payment details."
+        "content": "Price is only one part of the offer. A lower total can come with terms that do not suit you, so before paying, confirm:\n\n- How the ticket is delivered, and when it becomes transferable.\n- Whether the ticket type has transfer, resale, or entry restrictions.\n- What the provider does if the show is postponed, moved, or cancelled.\n- What refund or credit terms apply to your exact order.\n\nIf any of those terms is unclear, slow down before you enter payment details."
       },
       {
         "type": "section",
@@ -930,7 +930,7 @@
       {
         "type": "section",
         "title": "The short version",
-        "content": "Ticket totals move because onsale demand, demand-based pricing, seller decisions, fees, seat type, delivery terms, and refund rules all differ from one event and ticket to the next. None of it is predictable from a general rule.\n\nUse TourTicketCompare to find checked links and to know what to look at, then decide only once the provider's page shows a current total and terms you are comfortable with."
+        "content": "Ticket totals move because onsale demand, demand-based pricing, seller decisions, fees, seat type, delivery terms, and refund rules all differ from one event and ticket to the next. None of it is predictable from a general rule.\n\nSo decide on what is actually in front of you: a current total and a set of terms you are comfortable with, on the provider's own page."
       },
       {
         "type": "section",
@@ -971,7 +971,7 @@
       {
         "type": "section",
         "title": "Ticketmaster: the official seller, most of the time",
-        "content": "Ticketmaster is an official primary ticketing platform for a great many concerts, venues, and festivals — and for some events it also runs an official resale flow. The key word is \"official\": for any given show, confirm that Ticketmaster is actually named as an authorised source by the artist, venue, or promoter, rather than assuming it because the name is familiar.\n\nOn a Ticketmaster event you will typically meet a published onsale date and time, a mix of face-value seats and sometimes premium or demand-priced categories, and delivery that might be instant mobile, delayed, or shipped depending on the show. Before you buy, check that it is the official source for that event, that the artist, date, venue, and seats are right, and what the final total comes to once fees and taxes are shown. The price, availability, and terms are all settled on Ticketmaster's own checkout."
+        "content": "Ticketmaster is an official primary ticketing platform for a great many concerts, venues, and festivals — and for some events it also runs an official resale flow. The key word is \"official\": for any given show, confirm that Ticketmaster is actually named as an authorised source by the artist, venue, or promoter, rather than assuming it because the name is familiar.\n\nOn a Ticketmaster event you will typically meet a published onsale date and time, a mix of face-value seats and sometimes premium or demand-priced categories, and delivery that might be instant mobile, delayed, or shipped depending on the show. Before you buy, check that it is the official source for that event, that the artist, date, venue, and seats are right, and what the final total comes to once fees and taxes are shown."
       },
       {
         "type": "section",
@@ -981,12 +981,12 @@
       {
         "type": "section",
         "title": "Side by side",
-        "content": "| | Ticketmaster | StubHub |\n| --- | --- | --- |\n| **Role** | Official primary ticketing, plus official resale on some events | Resale marketplace |\n| **Who prices it** | The event organiser, promoter, or provider | Individual sellers, within marketplace rules |\n| **How prices move** | By event, ticket type, and any demand-based category | Sellers can change or pull listings at any time |\n| **Stock** | Depends on the event and sale type | Depends on what sellers have listed |\n| **Delivery** | Instant mobile, delayed, digital, or shipped, by event | Set by the listing and marketplace rules |\n| **Terms to read** | Ticketmaster's event-specific policies | StubHub's buyer, delivery, refund, and dispute terms |\n\nRead this as a checklist of what differs, not a scoreboard. Which one suits you comes down to the specific event, seat, total, and terms in front of you — not a rule that one always wins."
+        "content": "| | Ticketmaster | StubHub |\n| --- | --- | --- |\n| **Role** | Official primary ticketing, plus official resale on some events | Resale marketplace |\n| **Who prices it** | The event organiser, promoter, or provider | Individual sellers, within marketplace rules |\n| **How prices move** | By event, ticket type, and any demand-based category | Sellers can change or pull listings at any time |\n| **Stock** | Depends on the event and sale type | Depends on what sellers have listed |\n| **Delivery** | Instant mobile, delayed, digital, or shipped, by event | Set by the listing and marketplace rules |\n| **Terms to read** | Ticketmaster's event-specific policies | StubHub's buyer, delivery, refund, and dispute terms |\n\nRead the table as a map of what differs. Which one suits you comes down to the specific event, seat, total, and terms in front of you."
       },
       {
         "type": "section",
         "title": "When each one makes sense",
-        "content": "**Start with Ticketmaster when** it is the named official source for the show, you are buying during an onsale, presale, or official resale, or you simply want to see the authorised path before looking anywhere else — and the seats, total, and terms at checkout work for you.\n\n**Turn to StubHub when** the official options are gone or do not suit, and you want to look at resale listings for a particular date or seating area. Go in knowing the listing is seller-set, that it can change before you check out, and that delivery timing needs its own look. In both cases, the final total and terms are confirmed at the provider's checkout, not before."
+        "content": "**Start with Ticketmaster when** it is the named official source for the show, you are buying during an onsale, presale, or official resale, or you simply want to see the authorised path before looking anywhere else — and the seats, total, and terms at checkout work for you.\n\n**Turn to StubHub when** the official options are gone or do not suit, and you want to look at resale listings for a particular date or seating area. Go in knowing the listing is seller-set, that it can change before you check out, and that delivery timing needs its own look."
       },
       {
         "type": "section",

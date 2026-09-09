@@ -64,7 +64,7 @@ Price is only one part of the offer. A lower total can come with terms that do n
 - What the provider does if the show is postponed, moved, or cancelled.
 - What refund or credit terms apply to your exact order.
 
-The provider sets all of this, not TourTicketCompare. If any term is unclear, slow down before you enter payment details.
+If any of those terms is unclear, slow down before you enter payment details.
 
 ## Don't let urgency do the thinking
 
@@ -110,7 +110,7 @@ On the provider site. We can point you to checked destinations, but the provider
 
 Ticket totals move because onsale demand, demand-based pricing, seller decisions, fees, seat type, delivery terms, and refund rules all differ from one event and ticket to the next. None of it is predictable from a general rule.
 
-Use TourTicketCompare to find checked links and to know what to look at, then decide only once the provider's page shows a current total and terms you are comfortable with.
+So decide on what is actually in front of you: a current total and a set of terms you are comfortable with, on the provider's own page.
 
 ## Related guides
 

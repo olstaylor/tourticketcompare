@@ -973,13 +973,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258748",
+        "url": "https://www.stubhub.ie/nothing-but-thieves-oakland-tickets-4-3-2027/event/107258748",
+        "verified": true,
+        "last_verified_at": "2026-09-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5KszTeQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996242",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996242/Nothing-But-Thieves-tickets-Sat-Apr-3-2027-Fox-Theater-Oakland"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996242/Nothing-But-Thieves-tickets-Sat-Apr-3-2027-Fox-Theater-Oakland",
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-oakland-tickets-4-3-2027/event/107258748"
   },
   {
     "id": "tm-nothing-but-thieves-2027-hollywood-vvg10z_5blnvha",

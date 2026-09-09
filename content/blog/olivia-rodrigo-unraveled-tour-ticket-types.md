@@ -28,9 +28,9 @@ sources:
 
 The ordinary ticket is the one everything else is measured against, and two of its rules are worth knowing before you buy from anyone.
 
-Ticketmaster's official help page for the tour states that the event organiser makes the scannable ticket available closer to the day of the event, estimated at around 48 hours beforehand, and that ticket transfer is available no later than three months before the event date. Read those together and a pattern falls out: for a long stretch before the show, a ticket exists as an entitlement rather than as a scannable thing, and the window in which it can be handed to someone else closes well before the day.
+Ticketmaster's official help page for the tour states that the event organiser makes the scannable ticket available closer to the day of the event, estimated at around 48 hours beforehand, and that ticket transfer is available no later than three months before the event date. Read those together and a pattern falls out: for a long stretch before the show, a ticket exists as an entitlement rather than as a scannable thing, and transfer is due to become available by the three-month point. That is an opening deadline, not a statement that transfers close three months before the show. Once transfer is enabled, Ticketmaster says it can be used from the order before the event.
 
-If you are buying from a resale marketplace, that is the mechanism behind a lot of ordinary-looking anxiety — a purchase that produces no barcode for weeks is the system working as documented, not a sign of trouble. It is also why "when does it arrive" belongs in your decision rather than after it. Our [guide to delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) goes through what to do when the two clocks do not line up.
+If you are buying from a resale marketplace, that is the mechanism behind a lot of ordinary-looking anxiety — a delayed barcode can be consistent with the organiser’s delivery schedule. It does not, by itself, verify that a resale purchase is valid or that a seller will deliver it. It is also why "when does it arrive" belongs in your decision rather than after it. Our [guide to delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) goes through what to do when the two clocks do not line up.
 
 ## VIP packages: the extras do not travel
 
@@ -40,13 +40,15 @@ The part that matters second-hand is stated on the same page: merchandise, VIP p
 
 So a resale listing that says "VIP" may be transferring the seat and none of the things that made the package a package. That is not necessarily a bad buy — a floor ticket is a floor ticket — but it is a different purchase from the one the word implies, and it should be priced in your head accordingly. Before paying a premium for the label, ask the marketplace what is actually being transferred.
 
-## Silver Star: a request window, not an on-sale
+## Silver Star: check the request status
 
-The third type does not work like a purchase at all. Ticketmaster's help page describes Silver Star Tickets as a fixed-price ticket sold only in pairs, with a limit of two per person, available for shows in a named list of countries — the United States, Canada, the United Kingdom, Spain, Germany, Sweden, the Netherlands, France and Italy. Fans submit requests through country-specific pages, and after the request window closes the tour confirms whether any requested tickets can be fulfilled and charges the card then. Some fans, the page says, may be asked to complete a quick selfie or in rare cases share a form of identification through a verification platform.
+Silver Star uses a request-and-allocation process rather than an immediate purchase. Ticketmaster’s help page states that the request window closed on 2 September 2026, with successful requests due to be confirmed by 9 September. As of this review on 9 September, that window has passed; do not assume requests are still open.
 
-Three things follow. It is a lottery-shaped process with a deadline, so it is something you enter rather than something you buy on impulse. Its identity checks mean it is not designed to be resold onward. And its window is per-tour, not permanent — check the official help page for the current deadline rather than assuming the door is open.
+Tickets were offered in pairs, with a limit of two per person. Submitting a request did not guarantee an allocation. Ticketmaster says the card is charged only when a request can be fulfilled, and unsuccessful applicants can check their request status even if they receive no further email.
 
-One caution on the number: the promoter's announcement and Ticketmaster's help page have carried different figures for the Silver Star price, so we are not repeating either here. The official help page for the tour is where to read the current price and the current deadlines.
+Use the official tour help page for the current country-specific instructions and any future release. Security checks during a request do not establish a resale or transfer policy, so do not infer that a second-hand Silver Star listing is permitted or prohibited from those checks alone. Confirm the terms attached to the actual ticket before paying.
+
+We do not repeat a Silver Star price here: it is a separate official programme, not one of the provider-listed snapshots on our date board.
 
 ## What our page shows, and what it does not
 

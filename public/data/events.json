@@ -27187,11 +27187,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735043",
-        "url": "https://www.ticketliquidator.com/tickets/7735043/Tame-Impala-tickets-Tue-Sep-8-2026-Moda-Center-at-the-Rose-Quarter",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107108092",
@@ -27205,7 +27205,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735043",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735043/Tame-Impala-tickets-Tue-Sep-8-2026-Moda-Center-at-the-Rose-Quarter",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-portland-tickets-9-8-2026/event/107108092"
   },
   {

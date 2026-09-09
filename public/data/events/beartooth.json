@@ -113,7 +113,7 @@
     "city": "Berlin",
     "country": "Germany",
     "venue": "Uber Eats Music Hall",
-    "datetime_iso": "2026-09-25T18:00:00Z",
+    "datetime_iso": "2026-09-25T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1801198711",
     "ticketmaster_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1801198711?language=en-us",
@@ -121,7 +121,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beartooth-pure-ecstasy-europe--uk-tour-tickets/1801198711?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-09",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

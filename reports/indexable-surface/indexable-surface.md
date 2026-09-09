@@ -1,13 +1,13 @@
 # Indexable-surface audit
 
-Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-09-09T15:45:17.358Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
 - rendered routes: 1151
-- indexable: 311
-- non-indexable: 840
-- stored baseline indexable: 311 (+0)
+- indexable: 326
+- non-indexable: 825
+- stored baseline indexable: 311 (+15)
 
 ## Routes by type
 
@@ -19,7 +19,7 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 | guide | 18 | 18 | 0 | 100% |
 | blog-post | 4 | 4 | 0 | 100% |
 | blog-tag | 3 | 3 | 0 | 100% |
-| artist | 65 | 43 | 22 | 66% |
+| artist | 65 | 58 | 7 | 89% |
 | city | 175 | 55 | 120 | 31% |
 | venue | 299 | 71 | 228 | 24% |
 | artist-city | 572 | 102 | 470 | 18% |
@@ -28,8 +28,8 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 
 | Type | Reason | Routes |
 |---|---|---|
-| artist | artist_not_editorially_indexable | 22 |
-| artist | no_upcoming_shows | 22 |
+| artist | artist_not_editorially_indexable | 7 |
+| artist | no_upcoming_shows | 7 |
 | city | below_show_threshold | 120 |
 | city | below_artist_threshold | 86 |
 | venue | below_show_threshold | 222 |
@@ -62,26 +62,41 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 
 ## Indexable routes with no future events
 
+- /artists/andrea-bocelli
 - /artists/ariana-grande
 - /artists/bad-bunny
 - /artists/beyonce
+- /artists/blondshell
 - /artists/bts
+- /artists/fkj
 - /artists/jelly-roll
+- /artists/michelle-branch
+- /artists/missio
+- /artists/morat
 - /artists/morgan-wallen
+- /artists/pink-martini
+- /artists/polyphia
 - /artists/post-malone
 - /artists/raye
 - /artists/rosalia
+- /artists/saint-levant
+- /artists/stella-lefty
+- /artists/sylvan-esso
 - /artists/tate-mcrae
+- /artists/the-airborne-toxic-event
 - /artists/the-weeknd
+- /artists/tobymac
+- /artists/vnv-nation
+- /artists/yuridia
 
 ## Title patterns among indexable routes
 
 | Routes | Share | Pattern |
 |---|---|---|
-| 101 | 32.5% | `{} Tickets in {} | Compare Prices` |
-| 69 | 22.2% | `{} Concerts in {} | Tickets` |
-| 55 | 17.7% | `Concerts in {} | Upcoming Shows & Tickets` |
-| 42 | 13.5% | `{} Tickets & Tour Dates | TourTicketCompare` |
+| 101 | 31% | `{} Tickets in {} | Compare Prices` |
+| 69 | 21.2% | `{} Concerts in {} | Tickets` |
+| 57 | 17.5% | `{} Tickets & Tour Dates | TourTicketCompare` |
+| 55 | 16.9% | `Concerts in {} | Upcoming Shows & Tickets` |
 | 1 | 0.3% | `Compare Concert Tickets & Tour Dates | TourTicketCompare` |
 | 1 | 0.3% | `Compare Concert Ticket Prices by Site | TourTicketCompare` |
 | 1 | 0.3% | `Artists | TourTicketCompare` |
@@ -112,7 +127,7 @@ Baseline generated 2026-09-02T08:23:02.995Z.
 | guide | 18/18 | 18/18 | 18/18 | +0 | +0 (tol 3) | unchanged |
 | blog-post | 0/0 | 4/4 | 4/4 | +0 | +4 (tol 3) | unexplained-growth |
 | blog-tag | 0/0 | 3/3 | 3/3 | +0 | +3 (tol 3) | inventory-growth |
-| artist | 42/50 | 43/65 | 43/65 | +0 | +1 (tol 5) | inventory-growth |
+| artist | 42/50 | 58/65 | 58/65 | +0 | +16 (tol 5) | unexplained-growth |
 | city | 56/173 | 57/175 | 55/175 | -2 | +1 (tol 6) | inventory-decay |
 | venue | 75/299 | 75/302 | 71/299 | -4 | +0 (tol 8) | inventory-decay |
 | artist-city | 106/575 | 108/584 | 102/572 | -6 | +2 (tol 11) | inventory-decay |
@@ -122,6 +137,7 @@ Baseline generated 2026-09-02T08:23:02.995Z.
 ## Warnings (non-blocking)
 
 - blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.
+- artist: 16 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.
 
 ## Problems
 

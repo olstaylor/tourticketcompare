@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:51:46.293Z",
+  "generated_at": "2026-09-09T15:45:17.358Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -35,7 +35,7 @@
     },
     "artist": {
       "rendered": 65,
-      "indexable": 43
+      "indexable": 58
     },
     "city": {
       "rendered": 175,
@@ -52,14 +52,14 @@
   },
   "overall": {
     "rendered": 1151,
-    "indexable": 311,
-    "noindex": 840,
+    "indexable": 326,
+    "noindex": 825,
     "baseline_indexable": 311
   },
   "exclusion_reasons": {
     "artist": {
-      "artist_not_editorially_indexable": 22,
-      "no_upcoming_shows": 22
+      "artist_not_editorially_indexable": 7,
+      "no_upcoming_shows": 7
     },
     "city": {
       "below_show_threshold": 120,
@@ -168,39 +168,54 @@
   ],
   "orphan_indexable": [],
   "indexable_without_future_events": [
+    "/artists/andrea-bocelli",
     "/artists/ariana-grande",
     "/artists/bad-bunny",
     "/artists/beyonce",
+    "/artists/blondshell",
     "/artists/bts",
+    "/artists/fkj",
     "/artists/jelly-roll",
+    "/artists/michelle-branch",
+    "/artists/missio",
+    "/artists/morat",
     "/artists/morgan-wallen",
+    "/artists/pink-martini",
+    "/artists/polyphia",
     "/artists/post-malone",
     "/artists/raye",
     "/artists/rosalia",
+    "/artists/saint-levant",
+    "/artists/stella-lefty",
+    "/artists/sylvan-esso",
     "/artists/tate-mcrae",
-    "/artists/the-weeknd"
+    "/artists/the-airborne-toxic-event",
+    "/artists/the-weeknd",
+    "/artists/tobymac",
+    "/artists/vnv-nation",
+    "/artists/yuridia"
   ],
   "duplicate_titles": [],
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
       "count": 101,
-      "share_of_indexable": 32.5
+      "share_of_indexable": 31
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
       "count": 69,
-      "share_of_indexable": 22.2
+      "share_of_indexable": 21.2
+    },
+    {
+      "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
+      "count": 57,
+      "share_of_indexable": 17.5
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
       "count": 55,
-      "share_of_indexable": 17.7
-    },
-    {
-      "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
-      "count": 42,
-      "share_of_indexable": 13.5
+      "share_of_indexable": 16.9
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -558,16 +573,16 @@
         },
         "after": {
           "rendered": 65,
-          "indexable": 43
+          "indexable": 58
         },
         "at_baseline_instant": {
           "rendered": 65,
-          "indexable": 43
+          "indexable": 58
         },
-        "kind": "inventory-growth",
-        "indexableDelta": 1,
+        "kind": "unexplained-growth",
+        "indexableDelta": 16,
         "clockDelta": 0,
-        "residual": 1,
+        "residual": 16,
         "tolerance": 5
       },
       {
@@ -633,7 +648,8 @@
     ]
   },
   "warnings": [
-    "blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run."
+    "blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
+    "artist: 16 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run."
   ],
   "problems": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-26",
+  "updated_at": "2026-09-09",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -480,6 +480,171 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-09-08: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, owner browser spot-check confirmed before merge)."
+    },
+    {
+      "slug": "polyphia",
+      "ticketmaster_attraction_id": "K8vZ9173RN0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/polyphia-tickets/artist/2026502",
+      "seatgeek_performer_id": 287878,
+      "seatgeek_artist_url": "https://seatgeek.com/polyphia-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "stella-lefty",
+      "ticketmaster_attraction_id": "K8vZ917qyp7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/stella-lefty-tickets/artist/3512399",
+      "seatgeek_performer_id": 1971726,
+      "seatgeek_artist_url": "https://seatgeek.com/stella-lefty-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "tobymac",
+      "ticketmaster_attraction_id": "K8vZ9175Av7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tobymac-tickets/artist/867069",
+      "seatgeek_performer_id": 1913,
+      "seatgeek_artist_url": "https://seatgeek.com/tobymac-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "saint-levant",
+      "ticketmaster_attraction_id": "K8vZ917hCoV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/saint-levant-tickets/artist/2984782",
+      "seatgeek_performer_id": 802681,
+      "seatgeek_artist_url": "https://seatgeek.com/saint-levant-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "the-airborne-toxic-event",
+      "ticketmaster_attraction_id": "K8vZ917G3QV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-airborne-toxic-event-tickets/artist/1228209",
+      "seatgeek_performer_id": 150,
+      "seatgeek_artist_url": "https://seatgeek.com/the-airborne-toxic-event-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "andrea-bocelli",
+      "ticketmaster_attraction_id": "K8vZ9171bQ0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/andrea-bocelli-tickets/artist/773296",
+      "seatgeek_performer_id": 5276,
+      "seatgeek_artist_url": "https://seatgeek.com/andrea-bocelli-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "morat",
+      "ticketmaster_attraction_id": "K8vZ9174edf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/morat-tickets/artist/2261438",
+      "seatgeek_performer_id": 650000,
+      "seatgeek_artist_url": "https://seatgeek.com/morat-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "missio",
+      "ticketmaster_attraction_id": "K8vZ9174637",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/missio-tickets/artist/2266598",
+      "seatgeek_performer_id": 615372,
+      "seatgeek_artist_url": "https://seatgeek.com/missio-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "vnv-nation",
+      "ticketmaster_attraction_id": "K8vZ9171El0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/vnv-nation-tickets/artist/715374",
+      "seatgeek_performer_id": 1987,
+      "seatgeek_artist_url": "https://seatgeek.com/vnv-nation-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "michelle-branch",
+      "ticketmaster_attraction_id": "K8vZ9171BM0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/michelle-branch-tickets/artist/807228",
+      "seatgeek_performer_id": 2510,
+      "seatgeek_artist_url": "https://seatgeek.com/michelle-branch-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "yuridia",
+      "ticketmaster_attraction_id": "K8vZ917Gdu7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/yuridia-tickets/artist/1169217",
+      "seatgeek_performer_id": 32076,
+      "seatgeek_artist_url": "https://seatgeek.com/yuridia-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "fkj",
+      "ticketmaster_attraction_id": "K8vZ917K9M7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/fkj-tickets/artist/2110704",
+      "seatgeek_performer_id": 308811,
+      "seatgeek_artist_url": "https://seatgeek.com/fkj-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "sylvan-esso",
+      "ticketmaster_attraction_id": "K8vZ917ofYf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/sylvan-esso-tickets/artist/1878194",
+      "seatgeek_performer_id": 152016,
+      "seatgeek_artist_url": "https://seatgeek.com/sylvan-esso-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "blondshell",
+      "ticketmaster_attraction_id": "K8vZ917QVQf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/blondshell-tickets/artist/2942885",
+      "seatgeek_performer_id": 804519,
+      "seatgeek_artist_url": "https://seatgeek.com/blondshell-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "pink-martini",
+      "ticketmaster_attraction_id": "K8vZ91752V7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/pink-martini-tickets/artist/798389",
+      "seatgeek_performer_id": 1442,
+      "seatgeek_artist_url": "https://seatgeek.com/pink-martini-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
     }
   ]
 }

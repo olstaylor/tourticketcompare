@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T16:06:49.213Z",
+  "generated_at": "2026-09-09T13:51:46.293Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -34,7 +34,7 @@
       "indexable": 3
     },
     "artist": {
-      "rendered": 50,
+      "rendered": 65,
       "indexable": 43
     },
     "city": {
@@ -46,20 +46,20 @@
       "indexable": 71
     },
     "artist-city": {
-      "rendered": 573,
+      "rendered": 572,
       "indexable": 102
     }
   },
   "overall": {
-    "rendered": 1137,
+    "rendered": 1151,
     "indexable": 311,
-    "noindex": 826,
+    "noindex": 840,
     "baseline_indexable": 311
   },
   "exclusion_reasons": {
     "artist": {
-      "artist_not_editorially_indexable": 7,
-      "no_upcoming_shows": 7
+      "artist_not_editorially_indexable": 22,
+      "no_upcoming_shows": 22
     },
     "city": {
       "below_show_threshold": 120,
@@ -70,7 +70,7 @@
       "below_artist_threshold": 184
     },
     "artist-city": {
-      "below_show_threshold": 471
+      "below_show_threshold": 470
     }
   },
   "expiring_within_warn_days": [
@@ -78,77 +78,91 @@
       "path": "/artists/bruno-mars/tickets/tampa-united-states",
       "type": "artist-city",
       "last_show": "2026-09-13",
-      "days_left": 5,
+      "days_left": 4,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/charli-xcx/tickets/brooklyn-united-states",
       "type": "artist-city",
       "last_show": "2026-09-15",
-      "days_left": 7,
+      "days_left": 6,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/karol-g/tickets/east-rutherford-united-states",
       "type": "artist-city",
       "last_show": "2026-09-18",
-      "days_left": 10,
+      "days_left": 9,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/zach-bryan/tickets/dover-united-states",
       "type": "artist-city",
       "last_show": "2026-09-19",
-      "days_left": 11,
+      "days_left": 10,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/bruno-mars/tickets/miami-united-states",
       "type": "artist-city",
       "last_show": "2026-09-20",
-      "days_left": 12,
+      "days_left": 11,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/tame-impala/tickets/houston-united-states",
       "type": "artist-city",
       "last_show": "2026-09-21",
-      "days_left": 12,
+      "days_left": 11,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/zach-bryan/tickets/toronto-canada",
       "type": "artist-city",
       "last_show": "2026-09-22",
-      "days_left": 14,
-      "reason": "falls_below_threshold"
+      "days_left": 13,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/venues/hard-rock-stadium-miami",
       "type": "venue",
       "last_show": "2026-10-03",
-      "days_left": 25,
+      "days_left": 24,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/venues/t-mobile-center-kansas-city",
+      "type": "venue",
+      "last_show": "2026-11-01",
+      "days_left": 52,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/san-antonio-united-states",
       "type": "city",
       "last_show": "2026-11-07",
-      "days_left": 59,
+      "days_left": 58,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/raymond-james-stadium-tampa",
       "type": "venue",
       "last_show": "2026-11-07",
-      "days_left": 60,
+      "days_left": 59,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/indianapolis-united-states",
       "type": "city",
       "last_show": "2027-03-26",
-      "days_left": 199,
+      "days_left": 198,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/cities/birmingham-united-kingdom",
+      "type": "city",
+      "last_show": "2027-04-10",
+      "days_left": 213,
       "reason": "falls_below_threshold"
     }
   ],
@@ -543,11 +557,11 @@
           "indexable": 42
         },
         "after": {
-          "rendered": 50,
+          "rendered": 65,
           "indexable": 43
         },
         "at_baseline_instant": {
-          "rendered": 50,
+          "rendered": 65,
           "indexable": 43
         },
         "kind": "inventory-growth",
@@ -603,7 +617,7 @@
           "indexable": 106
         },
         "after": {
-          "rendered": 573,
+          "rendered": 572,
           "indexable": 102
         },
         "at_baseline_instant": {

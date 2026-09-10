@@ -23,7 +23,7 @@ This guide is about comparing the two for a specific event without assuming eith
 
 Ticketmaster is an official primary ticketing platform for a great many concerts, venues, and festivals — and for some events it also runs an official resale flow. The key word is "official": for any given show, confirm that Ticketmaster is actually named as an authorised source by the artist, venue, or promoter, rather than assuming it because the name is familiar.
 
-On a Ticketmaster event you will typically meet a published onsale date and time, a mix of face-value seats and sometimes premium or demand-priced categories, and delivery that might be instant mobile, delayed, or shipped depending on the show. Before you buy, check that it is the official source for that event, that the artist, date, venue, and seats are right, and what the final total comes to once fees and taxes are shown. The price, availability, and terms are all settled on Ticketmaster's own checkout.
+On a Ticketmaster event you will typically meet a published onsale date and time, a mix of face-value seats and sometimes premium or demand-priced categories, and delivery that might be instant mobile, delayed, or shipped depending on the show. Before you buy, check that it is the official source for that event, that the artist, date, venue, and seats are right, and what the final total comes to once fees and taxes are shown.
 
 ## StubHub: a resale marketplace
 
@@ -42,13 +42,13 @@ That changes what you are looking at. Sellers set their own prices within StubHu
 | **Delivery** | Instant mobile, delayed, digital, or shipped, by event | Set by the listing and marketplace rules |
 | **Terms to read** | Ticketmaster's event-specific policies | StubHub's buyer, delivery, refund, and dispute terms |
 
-Read this as a checklist of what differs, not a scoreboard. Which one suits you comes down to the specific event, seat, total, and terms in front of you — not a rule that one always wins.
+Read the table as a map of what differs. Which one suits you comes down to the specific event, seat, total, and terms in front of you.
 
 ## When each one makes sense
 
 **Start with Ticketmaster when** it is the named official source for the show, you are buying during an onsale, presale, or official resale, or you simply want to see the authorised path before looking anywhere else — and the seats, total, and terms at checkout work for you.
 
-**Turn to StubHub when** the official options are gone or do not suit, and you want to look at resale listings for a particular date or seating area. Go in knowing the listing is seller-set, that it can change before you check out, and that delivery timing needs its own look. In both cases, the final total and terms are confirmed at the provider's checkout, not before.
+**Turn to StubHub when** the official options are gone or do not suit, and you want to look at resale listings for a particular date or seating area. Go in knowing the listing is seller-set, that it can change before you check out, and that delivery timing needs its own look.
 
 ## Comparing the same event fairly
 

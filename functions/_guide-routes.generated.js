@@ -37,15 +37,15 @@ export const GUIDE_ROUTES = {
     description: "Compare Ticketmaster, SeatGeek and Vivid Seats by ticket type, current total, delivery and buyer protection before choosing a provider.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-02"
+    lastmod: "2026-09-09"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
-    description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, current prices, fees, delivery and buyer protection.",
+    description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, how each prices a listing, fees, delivery and buyer protection.",
     fullContent: true,
     datePublished: "2026-07-13",
-    lastmod: "2026-09-01"
+    lastmod: "2026-09-09"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
@@ -93,7 +93,7 @@ export const GUIDE_ROUTES = {
     description: "Learn why concert ticket totals can change because of onsale demand, provider pricing methods, resale seller decisions, fees, seat details, delivery, and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-01"
+    lastmod: "2026-09-09"
   },
   "/guides/ticketmaster-vs-stubhub": {
     title: "Ticketmaster vs StubHub: Compare Safely | TourTicketCompare",
@@ -101,7 +101,7 @@ export const GUIDE_ROUTES = {
     description: "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-01"
+    lastmod: "2026-09-09"
   },
   "/guides/seatgeek-promo-code-guide": {
     title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",

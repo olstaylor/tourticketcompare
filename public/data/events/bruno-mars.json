@@ -2242,11 +2242,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668637",
-        "url": "https://www.ticketliquidator.com/tickets/7668637/Bruno-Mars-tickets-Wed-Sep-9-2026-Lucas-Oil-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107071106",
@@ -2261,7 +2261,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv17fZbyGklNuhph",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668637/Bruno-Mars-tickets-Wed-Sep-9-2026-Lucas-Oil-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-indianapolis-tickets-9-9-2026/event/107071106"
   },
   {

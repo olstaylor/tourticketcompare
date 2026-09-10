@@ -417,11 +417,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244019",
+        "url": "https://www.ticketliquidator.com/tickets/8244019/Saint-Levant-tickets-Thu-Apr-1-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_ocSz0Pi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244019/Saint-Levant-tickets-Thu-Apr-1-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-saint-levant-2027-chicago-vv1a7zkf_gkewujj1",
@@ -470,11 +478,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8133113",
+        "url": "https://www.ticketliquidator.com/tickets/8133113/Saint-Levant-tickets-Sat-Apr-3-2027-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zkf_GkeWUjJ1",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8133113/Saint-Levant-tickets-Sat-Apr-3-2027-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-saint-levant-2027-detroit-vv1koz_opyg7lxkw",
@@ -523,11 +539,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244020",
+        "url": "https://www.ticketliquidator.com/tickets/8244020/Saint-Levant-tickets-Wed-Apr-7-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_oPYG7lxkw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244020/Saint-Levant-tickets-Wed-Apr-7-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-saint-levant-2027-silver-spring-1ka8vpkbgagykaz",
@@ -576,11 +600,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244017",
+        "url": "https://www.ticketliquidator.com/tickets/8244017/Saint-Levant-tickets-Sat-Apr-10-2027-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vPkbGAGYKAz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244017/Saint-Levant-tickets-Sat-Apr-10-2027-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-saint-levant-2027-los-angeles-vv1aazkf_gkdotx7a",
@@ -629,11 +661,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244022",
+        "url": "https://www.ticketliquidator.com/tickets/8244022/Saint-Levant-tickets-Sun-May-2-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkf_GkdoTX7A",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244022/Saint-Levant-tickets-Sun-May-2-2027-The-Wiltern"
   },
   {
     "id": "tm-saint-levant-2027-seattle-vvg1hz_oejiei5",
@@ -682,11 +722,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244021",
+        "url": "https://www.ticketliquidator.com/tickets/8244021/Saint-Levant-tickets-Mon-May-10-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_oEJIEI5",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244021/Saint-Levant-tickets-Mon-May-10-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-saint-levant-2027-vancouver-1aozkfbgkd_gms9",
@@ -735,11 +783,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244014",
+        "url": "https://www.ticketliquidator.com/tickets/8244014/Saint-Levant-tickets-Wed-May-12-2027-Malkin-Bowl-Stanley-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfbGkd_gmS9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244014/Saint-Levant-tickets-Wed-May-12-2027-Malkin-Bowl-Stanley-Park"
   },
   {
     "id": "tm-saint-levant-2027-vancouver-1aozkfbgkdqarvt",
@@ -788,10 +844,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244009",
+        "url": "https://www.ticketliquidator.com/tickets/8244009/Saint-Levant-tickets-Thu-May-13-2027-Malkin-Bowl-Stanley-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfbGkdQArVt",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244009/Saint-Levant-tickets-Thu-May-13-2027-Malkin-Bowl-Stanley-Park"
   }
 ]

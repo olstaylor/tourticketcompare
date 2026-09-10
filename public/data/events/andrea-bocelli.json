@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711516",
+        "url": "https://www.ticketliquidator.com/tickets/7711516/Andrea-Bocelli-tickets-Sat-Sep-12-2026-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_d8k3dby",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711516/Andrea-Bocelli-tickets-Sat-Sep-12-2026-Golden-1-Center"
   },
   {
     "id": "tm-andrea-bocelli-2026-san-jose-g5vyz_ddjjmmd",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711518",
+        "url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_dnRPN0b",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl"
   },
   {
     "id": "tm-andrea-bocelli-2026-hollywood-vvg1iz_ds3kpkv",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711519",
+        "url": "https://www.ticketliquidator.com/tickets/7711519/Andrea-Bocelli-tickets-Wed-Sep-16-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_dS3kpkV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711519/Andrea-Bocelli-tickets-Wed-Sep-16-2026-Hollywood-Bowl"
   },
   {
     "id": "tm-andrea-bocelli-2026-phoenix-16v0z_dq6g7w0ck",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711520",
+        "url": "https://www.ticketliquidator.com/tickets/7711520/Andrea-Bocelli-tickets-Fri-Sep-18-2026-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_dQ6G7w0cK",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711520/Andrea-Bocelli-tickets-Fri-Sep-18-2026-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-andrea-bocelli-2026-morrison-z7r9jz1a7-zq4",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7710815",
+        "url": "https://www.ticketliquidator.com/tickets/7710815/Andrea-Bocelli-tickets-Sun-Sep-20-2026-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-ZQ4",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710815/Andrea-Bocelli-tickets-Sun-Sep-20-2026-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p",
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7710816",
+        "url": "https://www.ticketliquidator.com/tickets/7710816/Andrea-Bocelli-tickets-Mon-Sep-21-2026-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Oy3p",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710816/Andrea-Bocelli-tickets-Mon-Sep-21-2026-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-andrea-bocelli-2026-boston-vv1k7z_dz6g7ymm-",
@@ -417,11 +465,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711521",
+        "url": "https://www.ticketliquidator.com/tickets/7711521/Andrea-Bocelli-tickets-Thu-Dec-10-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_dZ6G7Ymm-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711521/Andrea-Bocelli-tickets-Thu-Dec-10-2026-TD-Garden"
   },
   {
     "id": "tm-andrea-bocelli-2026-buffalo-k7vgf_dlhwxlk",
@@ -470,11 +526,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711522",
+        "url": "https://www.ticketliquidator.com/tickets/7711522/Andrea-Bocelli-tickets-Fri-Dec-11-2026-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_dLHWXlk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711522/Andrea-Bocelli-tickets-Fri-Dec-11-2026-KeyBank-Center"
   },
   {
     "id": "tm-andrea-bocelli-2026-montreal-1ad7z_dgkclbvf3",
@@ -523,11 +587,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711527",
+        "url": "https://www.ticketliquidator.com/tickets/7711527/Andrea-Bocelli-tickets-Sun-Dec-13-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_dGkcLbvF3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711527/Andrea-Bocelli-tickets-Sun-Dec-13-2026-Centre-Bell"
   },
   {
     "id": "tm-andrea-bocelli-2026-new-york-g5diz_drrs_4p",
@@ -576,11 +648,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711523",
+        "url": "https://www.ticketliquidator.com/tickets/7711523/Andrea-Bocelli-tickets-Wed-Dec-16-2026-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_dRrS_4p",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711523/Andrea-Bocelli-tickets-Wed-Dec-16-2026-Madison-Square-Garden"
   },
   {
     "id": "tm-andrea-bocelli-2026-new-york-g5diz_drrgy4q",
@@ -629,11 +709,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711524",
+        "url": "https://www.ticketliquidator.com/tickets/7711524/Andrea-Bocelli-tickets-Thu-Dec-17-2026-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_dRrgy4q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711524/Andrea-Bocelli-tickets-Thu-Dec-17-2026-Madison-Square-Garden"
   },
   {
     "id": "tm-andrea-bocelli-2026-hamilton-1a8zk8vgkel0c3m",
@@ -735,11 +823,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711525",
+        "url": "https://www.ticketliquidator.com/tickets/7711525/Andrea-Bocelli-tickets-Mon-Dec-21-2026-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk8VGkdk8zer",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711525/Andrea-Bocelli-tickets-Mon-Dec-21-2026-PPG-Paints-Arena"
   },
   {
     "id": "tm-andrea-bocelli-2026-philadelphia-1ayzk8ygkdwg9ej",
@@ -788,11 +884,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7711526",
+        "url": "https://www.ticketliquidator.com/tickets/7711526/Andrea-Bocelli-tickets-Tue-Dec-22-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk8yGkdwg9ej",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711526/Andrea-Bocelli-tickets-Tue-Dec-22-2026-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-andrea-bocelli-2027-cardiff-1agzkfkgkejnxkj",
@@ -841,10 +945,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8198913",
+        "url": "https://www.ticketliquidator.com/tickets/8198913/Andrea-Bocelli-tickets-Sat-May-8-2027-Principality-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfkGkeJNxkJ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8198913/Andrea-Bocelli-tickets-Sat-May-8-2027-Principality-Stadium"
   }
 ]

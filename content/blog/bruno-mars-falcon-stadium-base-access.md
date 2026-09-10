@@ -35,7 +35,7 @@ The Academy’s general visitor page describes sponsored passes, identification 
 
 Read the Academy’s concert information and the messages attached to your booking before you travel. If they do not explain your circumstances, ask the Academy’s Pass and Registration Office to confirm. Do not use a registration link for a different event, or assume that an ordinary visitor pass covers your concert.
 
-Check for each person in your group whether advance registration is required, which original identification they need, and whether their citizenship or documents require an in-person visit. The Academy publishes separate instructions for non-U.S. citizens. Its general page currently gives inconsistent office-hours information in different sections, so confirm any necessary appointment directly rather than planning around a quoted opening time here.
+Check for each person in your group whether advance registration is required, which original identification they need, and whether their citizenship or documents require an in-person visit. The Academy publishes separate instructions for non-U.S. citizens. Its published office hours have not always agreed between one section of the site and another, so confirm any appointment you need directly with the office rather than planning around a quoted opening time.
 
 ## Match the arrival plan to your ticket
 

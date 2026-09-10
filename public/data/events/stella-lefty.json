@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976893",
+        "url": "https://www.ticketliquidator.com/tickets/7976893/Stella-Lefty-tickets-Sun-Nov-1-2026-Troubadour",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70E4E",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976893/Stella-Lefty-tickets-Sun-Nov-1-2026-Troubadour"
   },
   {
     "id": "tm-stella-lefty-2026-los-angeles-z7r9jz1a70sod",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7990417",
+        "url": "https://www.ticketliquidator.com/tickets/7990417/Stella-Lefty-tickets-Mon-Nov-2-2026-The-Fonda-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Sod",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990417/Stella-Lefty-tickets-Mon-Nov-2-2026-The-Fonda-Theatre"
   },
   {
     "id": "tm-stella-lefty-2026-phoenix-z7r9jz1a70tgw",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977189",
+        "url": "https://www.ticketliquidator.com/tickets/7977189/Stella-Lefty-tickets-Tue-Nov-3-2026-The-Crescent-Ballroom-Phoenix",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70tGw",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977189/Stella-Lefty-tickets-Tue-Nov-3-2026-The-Crescent-Ballroom-Phoenix"
   },
   {
     "id": "tm-stella-lefty-2026-dallas-vvg1yz_1xpakgv",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976584",
+        "url": "https://www.ticketliquidator.com/tickets/7976584/Stella-Lefty-tickets-Fri-Nov-6-2026-Cambridge-Room-at-House-Of-Blues-Dallas",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1XpakgV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976584/Stella-Lefty-tickets-Fri-Nov-6-2026-Cambridge-Room-at-House-Of-Blues-Dallas"
   },
   {
     "id": "tm-stella-lefty-2026-houston-g5diz_1ymrkkp",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976585",
+        "url": "https://www.ticketliquidator.com/tickets/7976585/Stella-Lefty-tickets-Sat-Nov-7-2026-Bronze-Peacock-At-The-House-Of-Blues-Houston",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1ymrKKp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976585/Stella-Lefty-tickets-Sat-Nov-7-2026-Bronze-Peacock-At-The-House-Of-Blues-Houston"
   },
   {
     "id": "tm-stella-lefty-2026-atlanta-vvg1zz_1byaqd-",
@@ -470,11 +510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7990418",
+        "url": "https://www.ticketliquidator.com/tickets/7990418/Stella-Lefty-tickets-Sun-Nov-15-2026-Webster-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pg08",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990418/Stella-Lefty-tickets-Sun-Nov-15-2026-Webster-Hall"
   },
   {
     "id": "tm-stella-lefty-2026-new-york-k7vgf_1dgeulr",
@@ -523,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976587",
+        "url": "https://www.ticketliquidator.com/tickets/7976587/Stella-Lefty-tickets-Mon-Nov-16-2026-Bowery-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1DGeULR",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976587/Stella-Lefty-tickets-Mon-Nov-16-2026-Bowery-Ballroom"
   },
   {
     "id": "tm-stella-lefty-2026-boston-z7r9jz1a70eoz",
@@ -576,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976872",
+        "url": "https://www.ticketliquidator.com/tickets/7976872/Stella-Lefty-tickets-Tue-Nov-17-2026-Royale-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976872/Stella-Lefty-tickets-Tue-Nov-17-2026-Royale-Boston"
   },
   {
     "id": "tm-stella-lefty-2026-washington-17a8v0g61ujpeyi",
@@ -629,11 +693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976588",
+        "url": "https://www.ticketliquidator.com/tickets/7976588/Stella-Lefty-tickets-Thu-Nov-19-2026-The-Atlantis",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61UJPEyi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976588/Stella-Lefty-tickets-Thu-Nov-19-2026-The-Atlantis"
   },
   {
     "id": "tm-stella-lefty-2027-detroit-vv1afzkfkgkesu99t",
@@ -682,11 +754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231213",
+        "url": "https://www.ticketliquidator.com/tickets/8231213/Stella-Lefty-tickets-Sat-Jan-9-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfKGkeSu99T",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231213/Stella-Lefty-tickets-Sat-Jan-9-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-stella-lefty-2027-columbus-z7r9jz1aav7q6",
@@ -735,11 +815,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231224",
+        "url": "https://www.ticketliquidator.com/tickets/8231224/Stella-Lefty-tickets-Sun-Jan-10-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv7Q6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231224/Stella-Lefty-tickets-Sun-Jan-10-2027-KEMBA-Live"
   },
   {
     "id": "tm-stella-lefty-2027-toronto-1a8zkf4gkddr1l2",
@@ -894,11 +982,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231124",
+        "url": "https://www.ticketliquidator.com/tickets/8231124/Stella-Lefty-tickets-Fri-Jan-15-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kG8vP7yGA51KWW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231124/Stella-Lefty-tickets-Fri-Jan-15-2027-MTelus"
   },
   {
     "id": "tm-stella-lefty-2027-boston-vv168vp7y-kz7ukua",
@@ -947,11 +1043,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231214",
+        "url": "https://www.ticketliquidator.com/tickets/8231214/Stella-Lefty-tickets-Sun-Jan-17-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv168vP7y-kZ7ukua",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231214/Stella-Lefty-tickets-Sun-Jan-17-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrjdss",
@@ -1000,11 +1104,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231219",
+        "url": "https://www.ticketliquidator.com/tickets/8231219/Stella-Lefty-tickets-Tue-Jan-19-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oCrjDsS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231219/Stella-Lefty-tickets-Tue-Jan-19-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrqdsw",
@@ -1053,11 +1165,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8237158",
+        "url": "https://www.ticketliquidator.com/tickets/8237158/Stella-Lefty-tickets-Wed-Jan-20-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oCrqDsW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237158/Stella-Lefty-tickets-Wed-Jan-20-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-stella-lefty-2027-philadelphia-vv1aezkfkgkddxsrk",
@@ -1106,11 +1226,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231140",
+        "url": "https://www.ticketliquidator.com/tickets/8231140/Stella-Lefty-tickets-Fri-Jan-22-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfKGkddXSRK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231140/Stella-Lefty-tickets-Fri-Jan-22-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-stella-lefty-2027-washington-1a4zkffgkdf8c-z",
@@ -1159,11 +1287,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231143",
+        "url": "https://www.ticketliquidator.com/tickets/8231143/Stella-Lefty-tickets-Sat-Jan-23-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkdf8c-z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231143/Stella-Lefty-tickets-Sat-Jan-23-2027-The-Anthem-DC"
   },
   {
     "id": "tm-stella-lefty-2027-charlotte-g5evz_o9kpb3z",
@@ -1212,11 +1348,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231132",
+        "url": "https://www.ticketliquidator.com/tickets/8231132/Stella-Lefty-tickets-Mon-Jan-25-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_o9kPb3z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231132/Stella-Lefty-tickets-Mon-Jan-25-2027-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-stella-lefty-2027-atlanta-vvg1zz_olg43wy",
@@ -1318,11 +1462,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231142",
+        "url": "https://www.ticketliquidator.com/tickets/8231142/Stella-Lefty-tickets-Thu-Jan-28-2027-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_o8QF6XM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231142/Stella-Lefty-tickets-Thu-Jan-28-2027-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-stella-lefty-2027-houston-g5diz_opbsxqh",
@@ -1371,11 +1523,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231123",
+        "url": "https://www.ticketliquidator.com/tickets/8231123/Stella-Lefty-tickets-Sat-Jan-30-2027-House-Of-Blues-Houston",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_opBSxqh",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231123/Stella-Lefty-tickets-Sat-Jan-30-2027-House-Of-Blues-Houston"
   },
   {
     "id": "tm-stella-lefty-2027-san-francisco-g5vyz_ok5hlnw",
@@ -1424,11 +1584,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231139",
+        "url": "https://www.ticketliquidator.com/tickets/8231139/Stella-Lefty-tickets-Tue-Feb-9-2027-The-Masonic-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_oK5HLNw",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231139/Stella-Lefty-tickets-Tue-Feb-9-2027-The-Masonic-San-Francisco"
   },
   {
     "id": "tm-stella-lefty-2027-salt-lake-city-g5vzz_okzttv5",
@@ -1477,11 +1645,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231141",
+        "url": "https://www.ticketliquidator.com/tickets/8231141/Stella-Lefty-tickets-Fri-Feb-12-2027-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_oKZTTv5",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231141/Stella-Lefty-tickets-Fri-Feb-12-2027-The-Union-Event-Center"
   },
   {
     "id": "tm-stella-lefty-2027-denver-g5vzz_o3ivhxh",
@@ -1583,11 +1759,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231138",
+        "url": "https://www.ticketliquidator.com/tickets/8231138/Stella-Lefty-tickets-Sat-Feb-20-2027-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1a7Zkf3ovC9ZeC5",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231138/Stella-Lefty-tickets-Sat-Feb-20-2027-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-stella-lefty-2027-amsterdam-z698xzbpz16vj_pxbp",

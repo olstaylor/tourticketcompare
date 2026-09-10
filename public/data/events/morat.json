@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977736",
+        "url": "https://www.ticketliquidator.com/tickets/7977736/Morat-tickets-Fri-Feb-26-2027-Intuit-Dome",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1TsIuWE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977736/Morat-tickets-Fri-Feb-26-2027-Intuit-Dome"
   },
   {
     "id": "tm-morat-2027-el-paso-vvg1yz_1xncffn",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977738",
+        "url": "https://www.ticketliquidator.com/tickets/7977738/Morat-tickets-Sun-Feb-28-2027-Don-Haskins-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1XNCFFn",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977738/Morat-tickets-Sun-Feb-28-2027-Don-Haskins-Center"
   },
   {
     "id": "tm-morat-2027-rosemont-vvg18z_1rgckw0",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977739",
+        "url": "https://www.ticketliquidator.com/tickets/7977739/Morat-tickets-Fri-Mar-5-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1rGCkw0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977739/Morat-tickets-Fri-Mar-5-2027-Rosemont-Theatre"
   },
   {
     "id": "tm-morat-2027-boston-vvg17z_1b5nnhl",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977740",
+        "url": "https://www.ticketliquidator.com/tickets/7977740/Morat-tickets-Sun-Mar-7-2027-Agganis-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1B5Nnhl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977740/Morat-tickets-Sun-Mar-7-2027-Agganis-Arena"
   },
   {
     "id": "tm-morat-2027-grand-prairie-z7r9jz1a70iu_",
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7985682",
+        "url": "https://www.ticketliquidator.com/tickets/7985682/Morat-tickets-Fri-Mar-12-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Iu_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985682/Morat-tickets-Fri-Mar-12-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
   },
   {
     "id": "tm-morat-2027-sugar-land-z7r9jz1a70iu-",
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977523",
+        "url": "https://www.ticketliquidator.com/tickets/7977523/Morat-tickets-Sun-Mar-14-2027-Payne-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1BpREwH",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977523/Morat-tickets-Sun-Mar-14-2027-Payne-Arena"
   },
   {
     "id": "tm-morat-2027-orlando-17fov0g61xg_prh",
@@ -417,11 +465,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977742",
+        "url": "https://www.ticketliquidator.com/tickets/7977742/Morat-tickets-Thu-Mar-18-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61XG_PRh",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977742/Morat-tickets-Thu-Mar-18-2027-Kia-Center"
   },
   {
     "id": "tm-morat-2027-miami-vvg1vz_1toy-p6",
@@ -470,11 +526,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977745",
+        "url": "https://www.ticketliquidator.com/tickets/7977745/Morat-tickets-Sat-Mar-20-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_1TOY-P6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977745/Morat-tickets-Sat-Mar-20-2027-Kaseya-Center"
   },
   {
     "id": "tm-morat-2027-toronto-177zv0g65ag8wpj",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7985892",
+        "url": "https://www.ticketliquidator.com/tickets/7985892/Morat-tickets-Sat-Mar-27-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65CEZfzf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985892/Morat-tickets-Sat-Mar-27-2027-MTelus"
   },
   {
     "id": "tm-morat-2027-brooklyn-17gzv0g61xr7dfv",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977746",
+        "url": "https://www.ticketliquidator.com/tickets/7977746/Morat-tickets-Thu-Apr-1-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61Xr7dfv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977746/Morat-tickets-Thu-Apr-1-2027-Barclays-Center"
   },
   {
     "id": "tm-morat-2027-fairfax-17a8v0g61boau0r",
@@ -682,10 +762,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977748",
+        "url": "https://www.ticketliquidator.com/tickets/7977748/Morat-tickets-Sat-Apr-3-2027-EagleBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61BOAU0R",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977748/Morat-tickets-Sat-Apr-3-2027-EagleBank-Arena"
   }
 ]

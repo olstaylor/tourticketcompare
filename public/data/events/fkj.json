@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012914",
+        "url": "https://www.ticketliquidator.com/tickets/8012914/FKJ-tickets-Tue-Apr-20-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdGd",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012914/FKJ-tickets-Tue-Apr-20-2027-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-fkj-2027-seattle-z7r9jz1a7pduz",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012969",
+        "url": "https://www.ticketliquidator.com/tickets/8012969/FKJ-tickets-Fri-Apr-23-2027-Showbox-SoDo",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PduZ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012969/FKJ-tickets-Fri-Apr-23-2027-Showbox-SoDo"
   },
   {
     "id": "tm-fkj-2027-vancouver-1778v0g65j57kh7",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012944",
+        "url": "https://www.ticketliquidator.com/tickets/8012944/FKJ-tickets-Sun-Apr-25-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G65J57KH7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012944/FKJ-tickets-Sun-Apr-25-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-fkj-2027-vancouver-1778v0g6g4hh0bi",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8045995",
+        "url": "https://www.ticketliquidator.com/tickets/8045995/FKJ-tickets-Mon-Apr-26-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G6G4HH0Bi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8045995/FKJ-tickets-Mon-Apr-26-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-fkj-2027-denver-z7r9jz1a7pk0s",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012973",
+        "url": "https://www.ticketliquidator.com/tickets/8012973/FKJ-tickets-Thu-Apr-29-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0S",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012973/FKJ-tickets-Thu-Apr-29-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-fkj-2027-chicago-vvg18z_5uyql9j",
@@ -523,11 +563,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012965",
+        "url": "https://www.ticketliquidator.com/tickets/8012965/FKJ-tickets-Mon-May-31-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65RqmWTy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012965/FKJ-tickets-Mon-May-31-2027-MTelus"
   },
   {
     "id": "tm-fkj-2027-boston-vvg17z_5ryet2j",
@@ -576,11 +624,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012958",
+        "url": "https://www.ticketliquidator.com/tickets/8012958/FKJ-tickets-Tue-Jun-1-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5RYEt2J",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012958/FKJ-tickets-Tue-Jun-1-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-fkj-2027-philadelphia-vvg1fz_5rrowhv",
@@ -629,11 +685,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012959",
+        "url": "https://www.ticketliquidator.com/tickets/8012959/FKJ-tickets-Thu-Jun-3-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5RRowHV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012959/FKJ-tickets-Thu-Jun-3-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-fkj-2027-brooklyn-k7vgf_5rij1fj",
@@ -682,11 +746,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012960",
+        "url": "https://www.ticketliquidator.com/tickets/8012960/FKJ-tickets-Fri-Jun-4-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_5RiJ1fJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012960/FKJ-tickets-Fri-Jun-4-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-fkj-2027-washington-17a8v0g65nnmzs3",
@@ -735,11 +807,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012945",
+        "url": "https://www.ticketliquidator.com/tickets/8012945/FKJ-tickets-Mon-Jun-7-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G65nnmzS3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012945/FKJ-tickets-Mon-Jun-7-2027-The-Anthem-DC"
   },
   {
     "id": "tm-fkj-2027-atlanta-vvg1zz_59up5bx",
@@ -841,11 +921,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012943",
+        "url": "https://www.ticketliquidator.com/tickets/8012943/FKJ-tickets-Fri-Jun-11-2027-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_5mSvufK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012943/FKJ-tickets-Fri-Jun-11-2027-Bayou-Music-Center"
   },
   {
     "id": "tm-fkj-2027-austin-z7r9jz1a7pdvn",
@@ -947,10 +1035,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012963",
+        "url": "https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_5RY7UYW",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys"
   }
 ]

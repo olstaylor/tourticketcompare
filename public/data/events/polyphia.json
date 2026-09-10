@@ -629,11 +629,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235923",
+        "url": "https://www.ticketliquidator.com/tickets/8235923/Polyphia-tickets-Fri-Feb-5-2027-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16_Zkf_OfZAG77Fu",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235923/Polyphia-tickets-Fri-Feb-5-2027-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-polyphia-2027-las-vegas-169zkfppazau15va",
@@ -682,11 +690,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235924",
+        "url": "https://www.ticketliquidator.com/tickets/8235924/Polyphia-tickets-Sat-Feb-6-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "169ZkfpPaZAu15vA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235924/Polyphia-tickets-Sat-Feb-6-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-polyphia-2027-san-diego-z7r9jz1aav67j",
@@ -735,11 +751,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235926",
+        "url": "https://www.ticketliquidator.com/tickets/8235926/Polyphia-tickets-Wed-Feb-10-2027-SOMA",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv67J",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235926/Polyphia-tickets-Wed-Feb-10-2027-SOMA"
   },
   {
     "id": "tm-polyphia-2027-seattle-vvg1hz_oxmv1cx",
@@ -788,11 +812,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235936",
+        "url": "https://www.ticketliquidator.com/tickets/8235936/Polyphia-tickets-Wed-Feb-17-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_oxmV1cx",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235936/Polyphia-tickets-Wed-Feb-17-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-polyphia-2027-salt-lake-city-g5vzz_ojsblfw",
@@ -841,11 +873,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056767",
+        "url": "https://www.ticketliquidator.com/tickets/8056767/Polyphia-tickets-Fri-Feb-19-2027-The-Depot-Salt-Lake-City",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_oJSBlfw",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056767/Polyphia-tickets-Fri-Feb-19-2027-The-Depot-Salt-Lake-City"
   },
   {
     "id": "tm-polyphia-2027-denver-g5vzz_oe6fcei",
@@ -1000,11 +1040,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235950",
+        "url": "https://www.ticketliquidator.com/tickets/8235950/Polyphia-tickets-Fri-Feb-26-2027-Egyptian-Room-At-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfbGkd_h8yq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235950/Polyphia-tickets-Fri-Feb-26-2027-Egyptian-Room-At-Old-National-Centre"
   },
   {
     "id": "tm-polyphia-2027-charlotte-g5evz_ojpf6hx",
@@ -1053,11 +1101,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235961",
+        "url": "https://www.ticketliquidator.com/tickets/8235961/Polyphia-tickets-Fri-Mar-12-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_oJpf6hx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235961/Polyphia-tickets-Fri-Mar-12-2027-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-polyphia-2027-st-petersburg-vvg1vz_oesihnv",
@@ -1106,11 +1162,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235963",
+        "url": "https://www.ticketliquidator.com/tickets/8235963/Polyphia-tickets-Sun-Mar-14-2027-Jannus-Live",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oESiHnv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235963/Polyphia-tickets-Sun-Mar-14-2027-Jannus-Live"
   },
   {
     "id": "tm-polyphia-2027-birmingham-1aozkfbgkdtjfo5",

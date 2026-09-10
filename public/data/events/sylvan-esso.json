@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042834",
+        "url": "https://www.ticketliquidator.com/tickets/8042834/Sylvan-Esso-tickets-Thu-Oct-1-2026-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-Y",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042834/Sylvan-Esso-tickets-Thu-Oct-1-2026-The-Eastern-GA"
   },
   {
     "id": "tm-sylvan-esso-2026-washington-17a8v0g6g2lzmgt",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042785",
+        "url": "https://www.ticketliquidator.com/tickets/8042785/Sylvan-Esso-tickets-Mon-Oct-5-2026-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6G2LZMGt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042785/Sylvan-Esso-tickets-Mon-Oct-5-2026-930-Club"
   },
   {
     "id": "tm-sylvan-esso-2026-washington-17a8v0g6gi4rjo9",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8219117",
+        "url": "https://www.ticketliquidator.com/tickets/8219117/Sylvan-Esso-tickets-Tue-Oct-6-2026-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6Gi4rjO9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8219117/Sylvan-Esso-tickets-Tue-Oct-6-2026-930-Club"
   },
   {
     "id": "tm-sylvan-esso-2026-durham-g5evz_1dgn5_o",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043796",
+        "url": "https://www.ticketliquidator.com/tickets/8043796/Sylvan-Esso-tickets-Mon-Oct-12-2026-Franklin-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pxvf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043796/Sylvan-Esso-tickets-Mon-Oct-12-2026-Franklin-Music-Hall"
   },
   {
     "id": "tm-sylvan-esso-2026-brooklyn-k7vgf_gpzpfnb",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042269",
+        "url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gpzpfnb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount"
   },
   {
     "id": "tm-sylvan-esso-2026-portland-vvg17z_gkbpmvl",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043105",
+        "url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GKbPMvl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME"
   },
   {
     "id": "tm-sylvan-esso-2026-boston-vvg17z_g2bjele",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042786",
+        "url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_G2bjELe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-sylvan-esso-2026-toronto-177zv0g6gkzh0vc",
@@ -682,11 +738,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043798",
+        "url": "https://www.ticketliquidator.com/tickets/8043798/Sylvan-Esso-tickets-Fri-Oct-23-2026-First-Avenue",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PfOY",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043798/Sylvan-Esso-tickets-Fri-Oct-23-2026-First-Avenue"
   },
   {
     "id": "tm-sylvan-esso-2027-seattle-vvg1hz_g92don0",
@@ -735,11 +799,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043891",
+        "url": "https://www.ticketliquidator.com/tickets/8043891/Sylvan-Esso-tickets-Fri-Feb-19-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_G92DOn0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043891/Sylvan-Esso-tickets-Fri-Feb-19-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp",
@@ -788,11 +860,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043820",
+        "url": "https://www.ticketliquidator.com/tickets/8043820/Sylvan-Esso-tickets-Sat-Feb-20-2027-Vogue-Theatre-BC",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pffp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043820/Sylvan-Esso-tickets-Sat-Feb-20-2027-Vogue-Theatre-BC"
   },
   {
     "id": "tm-sylvan-esso-2027-portland-z7r9jz1a7pf-d",
@@ -841,11 +921,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043821",
+        "url": "https://www.ticketliquidator.com/tickets/8043821/Sylvan-Esso-tickets-Mon-Feb-22-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-d",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043821/Sylvan-Esso-tickets-Mon-Feb-22-2027-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-sylvan-esso-2027-portland-z7r9jz1a7pf-7",
@@ -894,11 +982,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043822",
+        "url": "https://www.ticketliquidator.com/tickets/8043822/Sylvan-Esso-tickets-Tue-Feb-23-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043822/Sylvan-Esso-tickets-Tue-Feb-23-2027-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-sylvan-esso-2027-oakland-g5vyz_gf0ezov",
@@ -947,11 +1043,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042272",
+        "url": "https://www.ticketliquidator.com/tickets/8042272/Sylvan-Esso-tickets-Thu-Feb-25-2027-Fox-Theater-Oakland",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Gf0ezoV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042272/Sylvan-Esso-tickets-Thu-Feb-25-2027-Fox-Theater-Oakland"
   },
   {
     "id": "tm-sylvan-esso-2027-los-angeles-vvg10z_gjuyprv",
@@ -1000,11 +1104,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042270",
+        "url": "https://www.ticketliquidator.com/tickets/8042270/Sylvan-Esso-tickets-Fri-Feb-26-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GJuyPrv",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042270/Sylvan-Esso-tickets-Fri-Feb-26-2027-The-Wiltern"
   },
   {
     "id": "tm-sylvan-esso-2027-santa-ana-vvg10z_26gjjny",
@@ -1053,11 +1165,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8152338",
+        "url": "https://www.ticketliquidator.com/tickets/8152338/Sylvan-Esso-tickets-Sat-Feb-27-2027-The-Observatory-Santa-Ana",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_26gjJNy",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8152338/Sylvan-Esso-tickets-Sat-Feb-27-2027-The-Observatory-Santa-Ana"
   },
   {
     "id": "tm-sylvan-esso-2027-del-mar-vvg1iz_g9535-x",
@@ -1106,11 +1226,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042799",
+        "url": "https://www.ticketliquidator.com/tickets/8042799/Sylvan-Esso-tickets-Mon-Mar-1-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_G9535-X",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042799/Sylvan-Esso-tickets-Mon-Mar-1-2027-The-Sound-At-The-Del-Mar-Fairgrounds"
   },
   {
     "id": "tm-sylvan-esso-2027-phoenix-17k8v0g6g3yxemg",
@@ -1159,11 +1287,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042806",
+        "url": "https://www.ticketliquidator.com/tickets/8042806/Sylvan-Esso-tickets-Tue-Mar-2-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6G3yXEMG",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042806/Sylvan-Esso-tickets-Tue-Mar-2-2027-The-Van-Buren"
   },
   {
     "id": "tm-sylvan-esso-2027-denver-z7r9jz1a7pf46",
@@ -1212,11 +1348,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043797",
+        "url": "https://www.ticketliquidator.com/tickets/8043797/Sylvan-Esso-tickets-Fri-Mar-5-2027-Ogden-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf46",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043797/Sylvan-Esso-tickets-Fri-Mar-5-2027-Ogden-Theatre"
   },
   {
     "id": "tm-sylvan-esso-2027-denver-z7r9jz1a7pj-s",
@@ -1265,11 +1409,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8062806",
+        "url": "https://www.ticketliquidator.com/tickets/8062806/Sylvan-Esso-tickets-Sat-Mar-6-2027-Ogden-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PJ-S",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062806/Sylvan-Esso-tickets-Sat-Mar-6-2027-Ogden-Theatre"
   },
   {
     "id": "tm-sylvan-esso-2027-austin-z7r9jz1a7pxj7",
@@ -1371,11 +1523,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042813",
+        "url": "https://www.ticketliquidator.com/tickets/8042813/Sylvan-Esso-tickets-Tue-Mar-9-2027-House-Of-Blues-Dallas",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_G8BdfYe",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042813/Sylvan-Esso-tickets-Tue-Mar-9-2027-House-Of-Blues-Dallas"
   },
   {
     "id": "tm-sylvan-esso-2027-birmingham-17fzv0g6gpo7w2j",
@@ -1424,11 +1584,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042820",
+        "url": "https://www.ticketliquidator.com/tickets/8042820/Sylvan-Esso-tickets-Fri-Mar-12-2027-Iron-City-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G6GpO7w2J",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042820/Sylvan-Esso-tickets-Fri-Mar-12-2027-Iron-City-Birmingham"
   },
   {
     "id": "tm-sylvan-esso-2027-nashville-g5viz_g3v82ae",
@@ -1477,10 +1645,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8042832",
+        "url": "https://www.ticketliquidator.com/tickets/8042832/Sylvan-Esso-tickets-Sat-Mar-13-2027-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_G3V82aE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042832/Sylvan-Esso-tickets-Sat-Mar-13-2027-Brooklyn-Bowl-Nashville"
   }
 ]

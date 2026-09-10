@@ -45,7 +45,9 @@ for (const [index, step] of STEPS.entries()) {
       else if (!scripts[npmRun[1]]) errors.push(`${where}: npm script '${npmRun[1]}' does not exist`);
       continue;
     }
-    const file = /^(?:node|python3)\s+(\S+)/.exec(command);
+    // Only a leading path argument names a file; a flag form such as `node -e`
+    // has nothing on disk to check.
+    const file = /^(?:node|python3)\s+(?!-)(\S+)/.exec(command);
     if (file && !fs.existsSync(path.join(ROOT, file[1]))) {
       errors.push(`${where}: ${file[1]} does not exist`);
     }

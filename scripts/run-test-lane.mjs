@@ -16,7 +16,10 @@ import { LANES, stepsFor } from "./test-manifest.mjs";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const argv = process.argv.slice(2);
 
-const lane = argv.find((arg) => !arg.startsWith("--"));
+// The lane is the first bare word, skipping the value that belongs to --only so
+// `--only blog units` does not read "blog" as the lane.
+const positional = argv.filter((arg, index) => !arg.startsWith("--") && argv[index - 1] !== "--only");
+const lane = positional[0];
 if (!LANES.includes(lane)) {
   console.error(`usage: node scripts/run-test-lane.mjs <${LANES.join("|")}> [--only <substring>] [--list]`);
   process.exit(2);

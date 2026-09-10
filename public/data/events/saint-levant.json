@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455273",
+        "url": "https://www.stubhub.ie/saint-levant-tickets-utrecht-tivoli-vredenburg-13-11-2026/event/107455273",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16eZo1d8_",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-utrecht-tivoli-vredenburg-13-11-2026/event/107455273"
   },
   {
     "id": "tm-saint-levant-2026-amsterdam-z698xzbpz1kqt7gc_",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455274",
+        "url": "https://www.stubhub.ie/saint-levant-tickets-amsterdam-melkweg-14-11-2026/event/107455274",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kqt7gC_",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-amsterdam-melkweg-14-11-2026/event/107455274"
   },
   {
     "id": "tm-saint-levant-2026-stockholm-z698xzq2z16vfgv3vs",
@@ -424,12 +440,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665812",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-4-1-2027/event/107665812",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_ocSz0Pi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244019/Saint-Levant-tickets-Thu-Apr-1-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244019/Saint-Levant-tickets-Thu-Apr-1-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-4-1-2027/event/107665812"
   },
   {
     "id": "tm-saint-levant-2027-chicago-vv1a7zkf_gkewujj1",

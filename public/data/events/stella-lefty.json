@@ -1050,12 +1050,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107557106",
+        "url": "https://www.stubhub.ie/stella-lefty-boston-tickets-1-17-2027/event/107557106",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv168vP7y-kZ7ukua",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231214/Stella-Lefty-tickets-Sun-Jan-17-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231214/Stella-Lefty-tickets-Sun-Jan-17-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-boston-tickets-1-17-2027/event/107557106"
   },
   {
     "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrjdss",
@@ -1111,12 +1119,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107557107",
+        "url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-19-2027/event/107557107",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oCrjDsS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231219/Stella-Lefty-tickets-Tue-Jan-19-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231219/Stella-Lefty-tickets-Tue-Jan-19-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-19-2027/event/107557107"
   },
   {
     "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrqdsw",
@@ -1172,12 +1188,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554549",
+        "url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-20-2027/event/107554549",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oCrqDsW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237158/Stella-Lefty-tickets-Wed-Jan-20-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237158/Stella-Lefty-tickets-Wed-Jan-20-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-20-2027/event/107554549"
   },
   {
     "id": "tm-stella-lefty-2027-philadelphia-vv1aezkfkgkddxsrk",
@@ -1873,11 +1897,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666800",
+        "url": "https://www.stubhub.ie/stella-lefty-tickets-manchester-o2-ritz-manchester-19-3-2027/event/107666800",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_36UPpzK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-tickets-manchester-o2-ritz-manchester-19-3-2027/event/107666800"
   },
   {
     "id": "tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc",

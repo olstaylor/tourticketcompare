@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107446182",
+        "url": "https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kp_ozf3",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182"
   },
   {
     "id": "tm-polyphia-2026-milano-zg9rmiynyzefaa",
@@ -258,11 +266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417602",
+        "url": "https://www.stubhub.ie/polyphia-tickets-berlin-tempodrom-5-12-2026/event/107417602",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16voMPNuZ",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-berlin-tempodrom-5-12-2026/event/107417602"
   },
   {
     "id": "tm-polyphia-2026-oberhausen-z698xzc2z16vk8v9xd",
@@ -417,11 +433,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107438077",
+        "url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GSc9WJr",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077"
   },
   {
     "id": "tm-polyphia-2026-manchester-g5vhz_gr4jgl2",
@@ -470,11 +494,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107439077",
+        "url": "https://www.stubhub.ie/polyphia-tickets-manchester-manchester-academy-12-12-2026/event/107439077",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GR4JGl2",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-manchester-manchester-academy-12-12-2026/event/107439077"
   },
   {
     "id": "tm-polyphia-2026-leeds-g5dzz_gl9y_6t",
@@ -523,11 +555,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107440077",
+        "url": "https://www.stubhub.ie/polyphia-tickets-leeds-o2-academy-leeds-15-12-2026/event/107440077",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_Gl9Y_6t",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-leeds-o2-academy-leeds-15-12-2026/event/107440077"
   },
   {
     "id": "tm-polyphia-2026-london-g5dzz_gljhn6p",
@@ -576,11 +616,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107440078",
+        "url": "https://www.stubhub.ie/polyphia-tickets-london-o2-academy-brixton-16-12-2026/event/107440078",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GlJHn6P",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-london-o2-academy-brixton-16-12-2026/event/107440078"
   },
   {
     "id": "tm-polyphia-2027-phoenix-16_zkf_ofzag77fu",

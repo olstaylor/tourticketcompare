@@ -1520,17 +1520,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085151",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-9-2026/event/107085151",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_df7cb6l",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695869",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-9-2026/event/107085151"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504c881f8",
@@ -16463,11 +16463,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071106",
-        "url": "https://www.stubhub.ie/bruno-mars-indianapolis-tickets-9-9-2026/event/107071106",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -16476,7 +16476,7 @@
     "ticketmaster_discovery_event_id": "vv17fZbyGklNuhph",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-indianapolis-tickets-9-9-2026/event/107071106"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
@@ -70178,11 +70178,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107446182",
+        "url": "https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kp_ozf3",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182"
   },
   {
     "id": "tm-polyphia-2026-milano-zg9rmiynyzefaa",
@@ -70337,11 +70345,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417602",
+        "url": "https://www.stubhub.ie/polyphia-tickets-berlin-tempodrom-5-12-2026/event/107417602",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16voMPNuZ",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-berlin-tempodrom-5-12-2026/event/107417602"
   },
   {
     "id": "tm-polyphia-2026-oberhausen-z698xzc2z16vk8v9xd",
@@ -70496,11 +70512,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107438077",
+        "url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GSc9WJr",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077"
   },
   {
     "id": "tm-polyphia-2026-manchester-g5vhz_gr4jgl2",
@@ -70549,11 +70573,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107439077",
+        "url": "https://www.stubhub.ie/polyphia-tickets-manchester-manchester-academy-12-12-2026/event/107439077",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GR4JGl2",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-manchester-manchester-academy-12-12-2026/event/107439077"
   },
   {
     "id": "tm-polyphia-2026-leeds-g5dzz_gl9y_6t",
@@ -70602,11 +70634,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107440077",
+        "url": "https://www.stubhub.ie/polyphia-tickets-leeds-o2-academy-leeds-15-12-2026/event/107440077",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_Gl9Y_6t",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-leeds-o2-academy-leeds-15-12-2026/event/107440077"
   },
   {
     "id": "tm-polyphia-2026-london-g5dzz_gljhn6p",
@@ -70655,11 +70695,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107440078",
+        "url": "https://www.stubhub.ie/polyphia-tickets-london-o2-academy-brixton-16-12-2026/event/107440078",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GlJHn6P",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-london-o2-academy-brixton-16-12-2026/event/107440078"
   },
   {
     "id": "tm-polyphia-2027-phoenix-16_zkf_ofzag77fu",
@@ -72359,12 +72407,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107557106",
+        "url": "https://www.stubhub.ie/stella-lefty-boston-tickets-1-17-2027/event/107557106",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv168vP7y-kZ7ukua",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231214/Stella-Lefty-tickets-Sun-Jan-17-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231214/Stella-Lefty-tickets-Sun-Jan-17-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-boston-tickets-1-17-2027/event/107557106"
   },
   {
     "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrjdss",
@@ -72420,12 +72476,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107557107",
+        "url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-19-2027/event/107557107",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oCrjDsS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231219/Stella-Lefty-tickets-Tue-Jan-19-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231219/Stella-Lefty-tickets-Tue-Jan-19-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-19-2027/event/107557107"
   },
   {
     "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrqdsw",
@@ -72481,12 +72545,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554549",
+        "url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-20-2027/event/107554549",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oCrqDsW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237158/Stella-Lefty-tickets-Wed-Jan-20-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237158/Stella-Lefty-tickets-Wed-Jan-20-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-20-2027/event/107554549"
   },
   {
     "id": "tm-stella-lefty-2027-philadelphia-vv1aezkfkgkddxsrk",
@@ -73182,11 +73254,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666800",
+        "url": "https://www.stubhub.ie/stella-lefty-tickets-manchester-o2-ritz-manchester-19-3-2027/event/107666800",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_36UPpzK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-tickets-manchester-o2-ritz-manchester-19-3-2027/event/107666800"
   },
   {
     "id": "tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc",
@@ -73577,11 +73657,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455273",
+        "url": "https://www.stubhub.ie/saint-levant-tickets-utrecht-tivoli-vredenburg-13-11-2026/event/107455273",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16eZo1d8_",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-utrecht-tivoli-vredenburg-13-11-2026/event/107455273"
   },
   {
     "id": "tm-saint-levant-2026-amsterdam-z698xzbpz1kqt7gc_",
@@ -73630,11 +73718,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455274",
+        "url": "https://www.stubhub.ie/saint-levant-tickets-amsterdam-melkweg-14-11-2026/event/107455274",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kqt7gC_",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-amsterdam-melkweg-14-11-2026/event/107455274"
   },
   {
     "id": "tm-saint-levant-2026-stockholm-z698xzq2z16vfgv3vs",
@@ -73955,12 +74051,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665812",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-4-1-2027/event/107665812",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_ocSz0Pi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244019/Saint-Levant-tickets-Thu-Apr-1-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244019/Saint-Levant-tickets-Thu-Apr-1-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-4-1-2027/event/107665812"
   },
   {
     "id": "tm-saint-levant-2027-chicago-vv1a7zkf_gkewujj1",
@@ -74716,12 +74820,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189126",
+        "url": "https://www.stubhub.ie/andrea-bocelli-sacramento-tickets-9-12-2026/event/107189126",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_d8k3dby",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711516/Andrea-Bocelli-tickets-Sat-Sep-12-2026-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711516/Andrea-Bocelli-tickets-Sat-Sep-12-2026-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-sacramento-tickets-9-12-2026/event/107189126"
   },
   {
     "id": "tm-andrea-bocelli-2026-san-jose-g5vyz_ddjjmmd",
@@ -74830,12 +74942,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107083029",
+        "url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-15-2026/event/107083029",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_dnRPN0b",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-15-2026/event/107083029"
   },
   {
     "id": "tm-andrea-bocelli-2026-hollywood-vvg1iz_ds3kpkv",
@@ -74891,12 +75011,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107083031",
+        "url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-16-2026/event/107083031",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_dS3kpkV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711519/Andrea-Bocelli-tickets-Wed-Sep-16-2026-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711519/Andrea-Bocelli-tickets-Wed-Sep-16-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-16-2026/event/107083031"
   },
   {
     "id": "tm-andrea-bocelli-2026-phoenix-16v0z_dq6g7w0ck",
@@ -74952,12 +75080,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189124",
+        "url": "https://www.stubhub.ie/andrea-bocelli-phoenix-tickets-9-18-2026/event/107189124",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_dQ6G7w0cK",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711520/Andrea-Bocelli-tickets-Fri-Sep-18-2026-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711520/Andrea-Bocelli-tickets-Fri-Sep-18-2026-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-phoenix-tickets-9-18-2026/event/107189124"
   },
   {
     "id": "tm-andrea-bocelli-2026-morrison-z7r9jz1a7-zq4",
@@ -75013,12 +75149,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665187",
+        "url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-20-2026/event/107665187",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-ZQ4",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710815/Andrea-Bocelli-tickets-Sun-Sep-20-2026-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710815/Andrea-Bocelli-tickets-Sun-Sep-20-2026-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-20-2026/event/107665187"
   },
   {
     "id": "tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p",
@@ -75074,12 +75218,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665189",
+        "url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-21-2026/event/107665189",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Oy3p",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710816/Andrea-Bocelli-tickets-Mon-Sep-21-2026-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710816/Andrea-Bocelli-tickets-Mon-Sep-21-2026-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-21-2026/event/107665189"
   },
   {
     "id": "tm-andrea-bocelli-2026-boston-vv1k7z_dz6g7ymm-",
@@ -75135,12 +75287,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107083032",
+        "url": "https://www.stubhub.ie/andrea-bocelli-boston-tickets-12-10-2026/event/107083032",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_dZ6G7Ymm-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711521/Andrea-Bocelli-tickets-Thu-Dec-10-2026-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711521/Andrea-Bocelli-tickets-Thu-Dec-10-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-boston-tickets-12-10-2026/event/107083032"
   },
   {
     "id": "tm-andrea-bocelli-2026-buffalo-k7vgf_dlhwxlk",
@@ -75196,12 +75356,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189125",
+        "url": "https://www.stubhub.ie/andrea-bocelli-buffalo-tickets-12-11-2026/event/107189125",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_dLHWXlk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711522/Andrea-Bocelli-tickets-Fri-Dec-11-2026-KeyBank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711522/Andrea-Bocelli-tickets-Fri-Dec-11-2026-KeyBank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-buffalo-tickets-12-11-2026/event/107189125"
   },
   {
     "id": "tm-andrea-bocelli-2026-montreal-1ad7z_dgkclbvf3",
@@ -75318,12 +75486,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107083033",
+        "url": "https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-16-2026/event/107083033",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_dRrS_4p",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711523/Andrea-Bocelli-tickets-Wed-Dec-16-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711523/Andrea-Bocelli-tickets-Wed-Dec-16-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-16-2026/event/107083033"
   },
   {
     "id": "tm-andrea-bocelli-2026-new-york-g5diz_drrgy4q",
@@ -75379,12 +75555,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107092096",
+        "url": "https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-17-2026/event/107092096",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_dRrgy4q",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711524/Andrea-Bocelli-tickets-Thu-Dec-17-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711524/Andrea-Bocelli-tickets-Thu-Dec-17-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-17-2026/event/107092096"
   },
   {
     "id": "tm-andrea-bocelli-2026-hamilton-1a8zk8vgkel0c3m",
@@ -75493,12 +75677,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107083034",
+        "url": "https://www.stubhub.ie/andrea-bocelli-pittsburgh-tickets-12-21-2026/event/107083034",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk8VGkdk8zer",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711525/Andrea-Bocelli-tickets-Mon-Dec-21-2026-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711525/Andrea-Bocelli-tickets-Mon-Dec-21-2026-PPG-Paints-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-pittsburgh-tickets-12-21-2026/event/107083034"
   },
   {
     "id": "tm-andrea-bocelli-2026-philadelphia-1ayzk8ygkdwg9ej",
@@ -75554,12 +75746,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107083035",
+        "url": "https://www.stubhub.ie/andrea-bocelli-philadelphia-tickets-12-22-2026/event/107083035",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk8yGkdwg9ej",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711526/Andrea-Bocelli-tickets-Tue-Dec-22-2026-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711526/Andrea-Bocelli-tickets-Tue-Dec-22-2026-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-philadelphia-tickets-12-22-2026/event/107083035"
   },
   {
     "id": "tm-andrea-bocelli-2027-cardiff-1agzkfkgkejnxkj",
@@ -75615,12 +75815,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107476080",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-cardiff-principality-stadium-cardiff-8-5-2027/event/107476080",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfkGkeJNxkJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8198913/Andrea-Bocelli-tickets-Sat-May-8-2027-Principality-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8198913/Andrea-Bocelli-tickets-Sat-May-8-2027-Principality-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-cardiff-principality-stadium-cardiff-8-5-2027/event/107476080"
   },
   {
     "id": "tm-morat-2027-inglewood-vvg10z_1tsiuwe",
@@ -75676,12 +75884,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258452",
+        "url": "https://www.stubhub.ie/morat-inglewood-tickets-2-26-2027/event/107258452",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1TsIuWE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977736/Morat-tickets-Fri-Feb-26-2027-Intuit-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977736/Morat-tickets-Fri-Feb-26-2027-Intuit-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-inglewood-tickets-2-26-2027/event/107258452"
   },
   {
     "id": "tm-morat-2027-el-paso-vvg1yz_1xncffn",
@@ -75737,12 +75953,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202168",
+        "url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1XNCFFn",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977738/Morat-tickets-Sun-Feb-28-2027-Don-Haskins-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977738/Morat-tickets-Sun-Feb-28-2027-Don-Haskins-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168"
   },
   {
     "id": "tm-morat-2027-rosemont-vvg18z_1rgckw0",
@@ -75798,12 +76022,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258453",
+        "url": "https://www.stubhub.ie/morat-rosemont-tickets-3-5-2027/event/107258453",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1rGCkw0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977739/Morat-tickets-Fri-Mar-5-2027-Rosemont-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977739/Morat-tickets-Fri-Mar-5-2027-Rosemont-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-rosemont-tickets-3-5-2027/event/107258453"
   },
   {
     "id": "tm-morat-2027-boston-vvg17z_1b5nnhl",
@@ -75859,12 +76091,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202169",
+        "url": "https://www.stubhub.ie/morat-boston-tickets-3-7-2027/event/107202169",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1B5Nnhl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977740/Morat-tickets-Sun-Mar-7-2027-Agganis-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977740/Morat-tickets-Sun-Mar-7-2027-Agganis-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-boston-tickets-3-7-2027/event/107202169"
   },
   {
     "id": "tm-morat-2027-grand-prairie-z7r9jz1a70iu_",
@@ -76034,12 +76274,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202170",
+        "url": "https://www.stubhub.ie/morat-hidalgo-tickets-3-14-2027/event/107202170",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1BpREwH",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977523/Morat-tickets-Sun-Mar-14-2027-Payne-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977523/Morat-tickets-Sun-Mar-14-2027-Payne-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-hidalgo-tickets-3-14-2027/event/107202170"
   },
   {
     "id": "tm-morat-2027-orlando-17fov0g61xg_prh",
@@ -76095,12 +76343,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202171",
+        "url": "https://www.stubhub.ie/morat-orlando-tickets-3-18-2027/event/107202171",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61XG_PRh",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977742/Morat-tickets-Thu-Mar-18-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977742/Morat-tickets-Thu-Mar-18-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-orlando-tickets-3-18-2027/event/107202171"
   },
   {
     "id": "tm-morat-2027-miami-vvg1vz_1toy-p6",
@@ -76156,12 +76412,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198193",
+        "url": "https://www.stubhub.ie/morat-miami-tickets-3-20-2027/event/107198193",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_1TOY-P6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977745/Morat-tickets-Sat-Mar-20-2027-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977745/Morat-tickets-Sat-Mar-20-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-miami-tickets-3-20-2027/event/107198193"
   },
   {
     "id": "tm-morat-2027-toronto-177zv0g65ag8wpj",
@@ -76270,12 +76534,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107203077",
+        "url": "https://www.stubhub.ie/morat-tickets-montreal-mtelus-3-27-2027/event/107203077",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65CEZfzf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985892/Morat-tickets-Sat-Mar-27-2027-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985892/Morat-tickets-Sat-Mar-27-2027-MTelus",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-montreal-mtelus-3-27-2027/event/107203077"
   },
   {
     "id": "tm-morat-2027-brooklyn-17gzv0g61xr7dfv",
@@ -76331,12 +76603,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198194",
+        "url": "https://www.stubhub.ie/morat-brooklyn-tickets-4-1-2027/event/107198194",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61Xr7dfv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977746/Morat-tickets-Thu-Apr-1-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977746/Morat-tickets-Thu-Apr-1-2027-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-brooklyn-tickets-4-1-2027/event/107198194"
   },
   {
     "id": "tm-morat-2027-fairfax-17a8v0g61boau0r",
@@ -78988,12 +79268,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667194",
+        "url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-11-5-2026/event/107667194",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_uURkKPj",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135353/Michelle-Branch-tickets-Thu-Nov-5-2026-Beacon-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135353/Michelle-Branch-tickets-Thu-Nov-5-2026-Beacon-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-11-5-2026/event/107667194"
   },
   {
     "id": "tm-michelle-branch-2026-asbury-park-k7vgf_c7zp9vt",
@@ -79513,12 +79801,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667195",
+        "url": "https://www.stubhub.ie/michelle-branch-houston-tickets-3-7-2027/event/107667195",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8jAIG6j",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217762/Michelle-Branch-tickets-Sun-Mar-7-2027-House-Of-Blues-Houston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217762/Michelle-Branch-tickets-Sun-Mar-7-2027-House-Of-Blues-Houston",
+    "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-houston-tickets-3-7-2027/event/107667195"
   },
   {
     "id": "tm-michelle-branch-2027-tempe-1av0z_8gkntcuaa",
@@ -80054,12 +80350,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667196",
+        "url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-3-25-2027/event/107667196",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_8xXfdPf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217769/Michelle-Branch-tickets-Thu-Mar-25-2027-Beacon-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217769/Michelle-Branch-tickets-Thu-Mar-25-2027-Beacon-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-3-25-2027/event/107667196"
   },
   {
     "id": "tm-michelle-branch-2027-silver-spring-16vfz_809g7nt6o",
@@ -80465,12 +80769,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447309",
+        "url": "https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/event/107447309",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G65J57KH7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012944/FKJ-tickets-Sun-Apr-25-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012944/FKJ-tickets-Sun-Apr-25-2027-Commodore-Ballroom",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/event/107447309"
   },
   {
     "id": "tm-fkj-2027-vancouver-1778v0g6g4hh0bi",
@@ -80526,12 +80838,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447310",
+        "url": "https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-26-2027/event/107447310",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G6G4HH0Bi",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8045995/FKJ-tickets-Mon-Apr-26-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8045995/FKJ-tickets-Mon-Apr-26-2027-Commodore-Ballroom",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-26-2027/event/107447310"
   },
   {
     "id": "tm-fkj-2027-denver-z7r9jz1a7pk0s",
@@ -80754,12 +81074,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447311",
+        "url": "https://www.stubhub.ie/fkj-tickets-montreal-mtelus-5-31-2027/event/107447311",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65RqmWTy",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012965/FKJ-tickets-Mon-May-31-2027-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012965/FKJ-tickets-Mon-May-31-2027-MTelus",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-tickets-montreal-mtelus-5-31-2027/event/107447311"
   },
   {
     "id": "tm-fkj-2027-boston-vvg17z_5ryet2j",
@@ -80815,12 +81143,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447312",
+        "url": "https://www.stubhub.ie/fkj-boston-tickets-6-1-2027/event/107447312",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5RYEt2J",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012958/FKJ-tickets-Tue-Jun-1-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012958/FKJ-tickets-Tue-Jun-1-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-boston-tickets-6-1-2027/event/107447312"
   },
   {
     "id": "tm-fkj-2027-philadelphia-vvg1fz_5rrowhv",
@@ -80937,12 +81273,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417665",
+        "url": "https://www.stubhub.ie/fkj-brooklyn-tickets-6-4-2027/event/107417665",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_5RiJ1fJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012960/FKJ-tickets-Fri-Jun-4-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012960/FKJ-tickets-Fri-Jun-4-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-brooklyn-tickets-6-4-2027/event/107417665"
   },
   {
     "id": "tm-fkj-2027-washington-17a8v0g65nnmzs3",
@@ -80998,12 +81342,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447313",
+        "url": "https://www.stubhub.ie/fkj-washington-tickets-6-7-2027/event/107447313",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G65nnmzS3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012945/FKJ-tickets-Mon-Jun-7-2027-The-Anthem-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012945/FKJ-tickets-Mon-Jun-7-2027-The-Anthem-DC",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-washington-tickets-6-7-2027/event/107447313"
   },
   {
     "id": "tm-fkj-2027-atlanta-vvg1zz_59up5bx",
@@ -81112,12 +81464,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447314",
+        "url": "https://www.stubhub.ie/fkj-houston-tickets-6-11-2027/event/107447314",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_5mSvufK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012943/FKJ-tickets-Fri-Jun-11-2027-Bayou-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012943/FKJ-tickets-Fri-Jun-11-2027-Bayou-Music-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-houston-tickets-6-11-2027/event/107447314"
   },
   {
     "id": "tm-fkj-2027-austin-z7r9jz1a7pdvn",
@@ -81226,12 +81586,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447315",
+        "url": "https://www.stubhub.ie/fkj-dallas-tickets-6-14-2027/event/107447315",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_5RY7UYW",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys",
+    "stubhub_international_url": "https://www.stubhub.ie/fkj-dallas-tickets-6-14-2027/event/107447315"
   },
   {
     "id": "tm-sylvan-esso-2026-atlanta-z7r9jz1a7pf-y",
@@ -81637,12 +82005,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107452575",
+        "url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gpzpfnb",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575"
   },
   {
     "id": "tm-sylvan-esso-2026-portland-vvg17z_gkbpmvl",
@@ -81759,12 +82135,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107452020",
+        "url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_G2bjELe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston",
+    "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020"
   },
   {
     "id": "tm-sylvan-esso-2026-toronto-177zv0g6gkzh0vc",
@@ -83046,11 +83430,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107170279",
+        "url": "https://www.stubhub.ie/blondshell-tickets-manchester-o2-ritz-manchester-12-12-2026/event/107170279",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_aNeFAeD",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/blondshell-tickets-manchester-o2-ritz-manchester-12-12-2026/event/107170279"
   },
   {
     "id": "tm-blondshell-2026-glasgow-17uov0g616cnj6j",
@@ -83099,11 +83491,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107170280",
+        "url": "https://www.stubhub.ie/blondshell-tickets-glasgow-the-old-fruitmarket-13-12-2026/event/107170280",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G616CNJ6J",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/blondshell-tickets-glasgow-the-old-fruitmarket-13-12-2026/event/107170280"
   },
   {
     "id": "tm-blondshell-2026-london-g5vhz_adn7kja",
@@ -83152,11 +83552,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107170278",
+        "url": "https://www.stubhub.ie/blondshell-tickets-london-the-roundhouse-15-12-2026/event/107170278",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_aDN7kjA",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/blondshell-tickets-london-the-roundhouse-15-12-2026/event/107170278"
   },
   {
     "id": "tm-pink-martini-2026-reno-17ayv0g651b0bey",
@@ -83440,12 +83848,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478247",
+        "url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_u53h-YH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072032/Pink-Martini-All-Stars-tickets-Sun-Dec-13-2026-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072032/Pink-Martini-All-Stars-tickets-Sun-Dec-13-2026-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247"
   },
   {
     "id": "tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv",

@@ -281,12 +281,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478247",
+        "url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_u53h-YH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072032/Pink-Martini-All-Stars-tickets-Sun-Dec-13-2026-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072032/Pink-Martini-All-Stars-tickets-Sun-Dec-13-2026-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247"
   },
   {
     "id": "tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv",

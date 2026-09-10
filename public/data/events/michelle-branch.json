@@ -639,12 +639,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667194",
+        "url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-11-5-2026/event/107667194",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_uURkKPj",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135353/Michelle-Branch-tickets-Thu-Nov-5-2026-Beacon-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135353/Michelle-Branch-tickets-Thu-Nov-5-2026-Beacon-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-11-5-2026/event/107667194"
   },
   {
     "id": "tm-michelle-branch-2026-asbury-park-k7vgf_c7zp9vt",
@@ -1164,12 +1172,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667195",
+        "url": "https://www.stubhub.ie/michelle-branch-houston-tickets-3-7-2027/event/107667195",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8jAIG6j",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217762/Michelle-Branch-tickets-Sun-Mar-7-2027-House-Of-Blues-Houston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217762/Michelle-Branch-tickets-Sun-Mar-7-2027-House-Of-Blues-Houston",
+    "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-houston-tickets-3-7-2027/event/107667195"
   },
   {
     "id": "tm-michelle-branch-2027-tempe-1av0z_8gkntcuaa",
@@ -1705,12 +1721,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667196",
+        "url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-3-25-2027/event/107667196",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_8xXfdPf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217769/Michelle-Branch-tickets-Thu-Mar-25-2027-Beacon-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217769/Michelle-Branch-tickets-Thu-Mar-25-2027-Beacon-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-3-25-2027/event/107667196"
   },
   {
     "id": "tm-michelle-branch-2027-silver-spring-16vfz_809g7nt6o",

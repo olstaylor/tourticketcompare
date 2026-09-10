@@ -764,7 +764,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAv67J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv67J",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv67J",
@@ -780,11 +780,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18536015,
+        "url": "https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

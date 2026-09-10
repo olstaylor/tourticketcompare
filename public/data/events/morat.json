@@ -287,7 +287,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70Iu_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu_",
@@ -303,11 +303,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259792,
+        "url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -348,7 +348,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70Iu-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu-",
@@ -364,11 +364,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259793,
+        "url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

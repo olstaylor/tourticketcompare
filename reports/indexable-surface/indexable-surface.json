@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:26:36.864Z",
+  "generated_at": "2026-09-10T10:47:02.143Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -38,22 +38,22 @@
       "indexable": 58
     },
     "city": {
-      "rendered": 175,
-      "indexable": 54
+      "rendered": 208,
+      "indexable": 59
     },
     "venue": {
-      "rendered": 299,
-      "indexable": 71
+      "rendered": 433,
+      "indexable": 95
     },
     "artist-city": {
-      "rendered": 571,
-      "indexable": 102
+      "rendered": 791,
+      "indexable": 131
     }
   },
   "overall": {
-    "rendered": 1150,
-    "indexable": 325,
-    "noindex": 825,
+    "rendered": 1537,
+    "indexable": 383,
+    "noindex": 1154,
     "baseline_indexable": 311
   },
   "exclusion_reasons": {
@@ -62,15 +62,15 @@
       "no_upcoming_shows": 7
     },
     "city": {
-      "below_show_threshold": 121,
-      "below_artist_threshold": 86
+      "below_show_threshold": 149,
+      "below_artist_threshold": 98
     },
     "venue": {
-      "below_show_threshold": 222,
-      "below_artist_threshold": 185
+      "below_show_threshold": 333,
+      "below_artist_threshold": 282
     },
     "artist-city": {
-      "below_show_threshold": 469
+      "below_show_threshold": 660
     }
   },
   "expiring_within_warn_days": [
@@ -86,6 +86,20 @@
       "type": "artist-city",
       "last_show": "2026-09-15",
       "days_left": 6,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/andrea-bocelli/tickets/hollywood-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-17",
+      "days_left": 7,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/beartooth/tickets/oberhausen-germany",
+      "type": "artist-city",
+      "last_show": "2026-09-18",
+      "days_left": 8,
       "reason": "runs_out_of_shows"
     },
     {
@@ -117,6 +131,13 @@
       "reason": "runs_out_of_shows"
     },
     {
+      "path": "/artists/andrea-bocelli/tickets/morrison-united-states",
+      "type": "artist-city",
+      "last_show": "2026-09-22",
+      "days_left": 12,
+      "reason": "runs_out_of_shows"
+    },
+    {
       "path": "/artists/zach-bryan/tickets/toronto-canada",
       "type": "artist-city",
       "last_show": "2026-09-22",
@@ -131,6 +152,13 @@
       "reason": "falls_below_threshold"
     },
     {
+      "path": "/venues/hollywood-bowl-hollywood",
+      "type": "venue",
+      "last_show": "2026-11-01",
+      "days_left": 52,
+      "reason": "falls_below_threshold"
+    },
+    {
       "path": "/venues/t-mobile-center-kansas-city",
       "type": "venue",
       "last_show": "2026-11-01",
@@ -138,24 +166,17 @@
       "reason": "falls_below_threshold"
     },
     {
-      "path": "/cities/san-antonio-united-states",
-      "type": "city",
-      "last_show": "2026-11-07",
-      "days_left": 58,
+      "path": "/venues/sap-center-at-san-jose-san-jose",
+      "type": "venue",
+      "last_show": "2026-11-06",
+      "days_left": 57,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/raymond-james-stadium-tampa",
       "type": "venue",
       "last_show": "2026-11-07",
-      "days_left": 59,
-      "reason": "falls_below_threshold"
-    },
-    {
-      "path": "/cities/saint-louis-united-states",
-      "type": "city",
-      "last_show": "2027-03-28",
-      "days_left": 199,
+      "days_left": 58,
       "reason": "falls_below_threshold"
     },
     {
@@ -166,7 +187,7 @@
       "reason": "falls_below_threshold"
     },
     {
-      "path": "/cities/birmingham-united-kingdom",
+      "path": "/cities/san-antonio-united-states",
       "type": "city",
       "last_show": "2027-04-10",
       "days_left": 212,
@@ -175,54 +196,45 @@
   ],
   "orphan_indexable": [],
   "indexable_without_future_events": [
-    "/artists/andrea-bocelli",
     "/artists/ariana-grande",
     "/artists/bad-bunny",
     "/artists/beyonce",
-    "/artists/blondshell",
     "/artists/bts",
-    "/artists/fkj",
     "/artists/jelly-roll",
-    "/artists/michelle-branch",
-    "/artists/missio",
-    "/artists/morat",
     "/artists/morgan-wallen",
-    "/artists/pink-martini",
-    "/artists/polyphia",
     "/artists/post-malone",
     "/artists/raye",
     "/artists/rosalia",
-    "/artists/saint-levant",
-    "/artists/stella-lefty",
-    "/artists/sylvan-esso",
     "/artists/tate-mcrae",
-    "/artists/the-airborne-toxic-event",
     "/artists/the-weeknd",
-    "/artists/tobymac",
-    "/artists/vnv-nation",
     "/artists/yuridia"
   ],
   "duplicate_titles": [],
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
-      "count": 101,
-      "share_of_indexable": 31.1
+      "count": 130,
+      "share_of_indexable": 33.9
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
-      "count": 69,
-      "share_of_indexable": 21.2
+      "count": 91,
+      "share_of_indexable": 23.8
+    },
+    {
+      "pattern": "Concerts in {} | Upcoming Shows & Tickets",
+      "count": 59,
+      "share_of_indexable": 15.4
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
       "count": 56,
-      "share_of_indexable": 17.2
+      "share_of_indexable": 14.6
     },
     {
-      "pattern": "Concerts in {} | Upcoming Shows & Tickets",
-      "count": 54,
-      "share_of_indexable": 16.6
+      "pattern": "{} | Concerts in {}",
+      "count": 2,
+      "share_of_indexable": 0.5
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -395,12 +407,12 @@
       "share_of_indexable": 0.3
     },
     {
-      "pattern": "Concerts in {} | Tickets",
+      "pattern": "{} | {}",
       "count": 1,
       "share_of_indexable": 0.3
     },
     {
-      "pattern": "{} | Concerts in {}",
+      "pattern": "Concerts in {} | Tickets",
       "count": 1,
       "share_of_indexable": 0.3
     },
@@ -604,17 +616,17 @@
           "indexable": 56
         },
         "after": {
-          "rendered": 175,
-          "indexable": 54
+          "rendered": 208,
+          "indexable": 59
         },
         "at_baseline_instant": {
-          "rendered": 175,
-          "indexable": 57
+          "rendered": 208,
+          "indexable": 61
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -2,
-        "clockDelta": -3,
-        "residual": 1,
+        "kind": "inventory-growth",
+        "indexableDelta": 3,
+        "clockDelta": -2,
+        "residual": 5,
         "tolerance": 6
       },
       {
@@ -624,17 +636,17 @@
           "indexable": 75
         },
         "after": {
-          "rendered": 299,
-          "indexable": 71
+          "rendered": 433,
+          "indexable": 95
         },
         "at_baseline_instant": {
-          "rendered": 302,
-          "indexable": 75
+          "rendered": 436,
+          "indexable": 99
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -4,
+        "kind": "unexplained-growth",
+        "indexableDelta": 20,
         "clockDelta": -4,
-        "residual": 0,
+        "residual": 24,
         "tolerance": 8
       },
       {
@@ -644,24 +656,26 @@
           "indexable": 106
         },
         "after": {
-          "rendered": 571,
-          "indexable": 102
+          "rendered": 791,
+          "indexable": 131
         },
         "at_baseline_instant": {
-          "rendered": 584,
-          "indexable": 108
+          "rendered": 804,
+          "indexable": 137
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -4,
+        "kind": "unexplained-growth",
+        "indexableDelta": 25,
         "clockDelta": -6,
-        "residual": 2,
+        "residual": 31,
         "tolerance": 11
       }
     ]
   },
   "warnings": [
     "blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
-    "artist: 16 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run."
+    "artist: 16 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.",
+    "venue: 24 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 8). Expected after an artist batch or a large discovery run.",
+    "artist-city: 31 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 11). Expected after an artist batch or a large discovery run."
   ],
   "problems": []
 }

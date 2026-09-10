@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pf-Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-Y",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/atlanta-georgia-the-eastern-atlanta-2026-10-01-8-pm/concert/18299134",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-Y",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299134,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/atlanta-georgia-the-eastern-atlanta-2026-10-01-8-pm/concert/18299134",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300,7 +300,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pxvf",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxvf",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-10-12-8-pm/concert/18299136",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxvf",
@@ -316,11 +316,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299136,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-10-12-8-pm/concert/18299136",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -719,7 +719,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PfOY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-23-8-30-pm/concert/18299152",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOY",
@@ -735,11 +735,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299152,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-23-8-30-pm/concert/18299152",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -841,7 +841,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pffp",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pffp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/vancouver-canada-vogue-theatre-bc-1-2027-02-20-8-pm/concert/18299162",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pffp",
@@ -857,11 +857,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299162,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/vancouver-canada-vogue-theatre-bc-1-2027-02-20-8-pm/concert/18299162",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -902,7 +902,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pf-d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-d",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-22-8-30-pm/concert/18299165",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-d",
@@ -918,11 +918,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299165,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-22-8-30-pm/concert/18299165",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -963,7 +963,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pf-7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-23-8-30-pm/concert/18299164",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-7",
@@ -979,11 +979,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299164,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-23-8-30-pm/concert/18299164",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1329,7 +1329,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pf46",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-05-9-pm/concert/18299177",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
@@ -1345,11 +1345,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299177,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-05-9-pm/concert/18299177",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1451,7 +1451,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pxj7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxj7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-08-8-pm/concert/18299178",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxj7",
@@ -1467,11 +1467,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299178,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-08-8-pm/concert/18299178",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

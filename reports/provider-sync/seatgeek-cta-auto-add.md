@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-09-10T09:34:25.263Z
+Generated: 2026-09-10T14:02:14.429Z
 
 ## Run summary
 
@@ -8,12 +8,12 @@ Generated: 2026-09-10T09:34:25.263Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Total events in data: 1036
+- Total events in data: 1308
 - Ticketmaster-verified events: 306
-- Events already carrying a valid SeatGeek URL: 291
-- Ticketmaster-verified events already carrying a valid SeatGeek URL: 172
-- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 134
-- Eligible (upcoming, resolvable local date) after pre-API filtering: 43
+- Events already carrying a valid SeatGeek URL: 289
+- Ticketmaster-verified events already carrying a valid SeatGeek URL: 170
+- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 136
+- Eligible (upcoming, resolvable local date) after pre-API filtering: 45
 - Skipped before any API call: 91 (past_event: 91)
 - Events this run can check (window size): 30
 - Rotation: window 1 of 2 (key 20706)
@@ -27,8 +27,8 @@ Generated: 2026-09-10T09:34:25.263Z
 - no_candidates_returned: 29
 - rate_limited_not_checked: 0
 - Stopped early: no
-- Next resume showId: tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p'
+- Next resume showId: tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol
+- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol'
 - Accepted venue mismatches: 0
 - Conflicts found: 0
 
@@ -40,8 +40,8 @@ Generated: 2026-09-10T09:34:25.263Z
 ## Interpretation
 
 - `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 291 event(s) already carried valid SeatGeek URLs before this run, including 172 Ticketmaster-verified event(s).
-- This run queried only the 134 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
+- 289 event(s) already carried valid SeatGeek URLs before this run, including 170 Ticketmaster-verified event(s).
+- This run queried only the 136 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
@@ -72,10 +72,12 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog | Olivia Rodrigo | 2027-03-28 | Amsterdam | no_candidates_returned | - |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b | Gracie Abrams | 2027-04-15 | Merksem (Antwerpen) | no_candidates_returned | - |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k4vofa4 | Gracie Abrams | 2027-04-16 | Merksem (Antwerpen) | no_candidates_returned | - |
+| tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph | Bruno Mars | 2026-09-09 | Indianapolis | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz1kbi4uav | Shakira | 2026-10-02 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz16v4mzjas | Shakira | 2026-10-03 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz16v73axp9 | Shakira | 2026-10-04 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz1koecouy | Shakira | 2026-10-10 | Madrid | no_candidates_returned | - |
+| tm-harry-styles-2026-new-york-3b00643504b581eb | Harry Styles | 2026-09-09 | New York | no_candidates_returned | - |
 | tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev | Zach Bryan | 2026-10-10 | Auburn University | city_or_metro_match_failed | https://seatgeek.com/zach-bryan-tickets/auburn-alabama-jordan-hare-stadium-2026-10-10-7-pm/concert/17930442 |
 | tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah | Olivia Rodrigo | 2027-04-05 | London | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3 | Olivia Rodrigo | 2027-04-06 | London | no_candidates_returned | - |
@@ -84,8 +86,6 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep | Olivia Rodrigo | 2027-04-12 | London | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff | Olivia Rodrigo | 2027-04-14 | London | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd | Olivia Rodrigo | 2027-04-15 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol | Olivia Rodrigo | 2027-04-19 | London | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i | Olivia Rodrigo | 2027-04-20 | London | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 

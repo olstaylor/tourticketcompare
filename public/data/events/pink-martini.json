@@ -870,7 +870,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ6G7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6G7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6G7",
@@ -886,11 +886,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18396258,
+        "url": "https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1159,7 +1159,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7JoxZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JoxZ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JoxZ",
@@ -1175,11 +1175,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18500192,
+        "url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192",
+        "verified": true,
+        "last_verified_at": "2026-09-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

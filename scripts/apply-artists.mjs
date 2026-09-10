@@ -14,6 +14,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
+import { eventLocalDateIso } from "./lib/event-local-date.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -158,7 +159,11 @@ function normalizeKeyPart(value, { stripPunctuation = false } = {}) {
   return out.replace(/\s+/g, " ").trim();
 }
 
-function localDateFromIso(datetimeIso) {
+function localDateFromIso(datetimeIso, timezone) {
+  const localDate = eventLocalDateIso({ datetime_iso: datetimeIso, timezone });
+  if (localDate) return localDate;
+  // Retain the existing conservative collision check for unresolved rows.
+  // A UTC date prefix is not evidence of the venue-local date.
   const dt = clean(datetimeIso);
   if (!dt) return "";
   const m = dt.match(/^(\d{4}-\d{2}-\d{2})/);
@@ -171,7 +176,7 @@ function semanticDuplicateKey(row) {
     normalizeKeyPart(row.venue, { stripPunctuation: true }),
     normalizeKeyPart(row.city, { stripPunctuation: true }),
     normalizeKeyPart(row.country, { stripPunctuation: true }),
-    localDateFromIso(row.datetime_iso)
+    localDateFromIso(row.datetime_iso, row.timezone)
   ].join("||");
 }
 
@@ -555,6 +560,20 @@ function runSelfTest() {
   ]);
   assert("same artist/venue but different date is not duplicate", differentDatePlan.semanticDuplicateGroups.length === 0);
 
+  const chicagoRow = { ...goodRow, venue: "Pantages Theatre", city: "Minneapolis", timezone: "America/Chicago" };
+  const separateLocalDates = planMerge([], [
+    { ...chicagoRow, id: "pm-evening", datetime_iso: "2027-02-14T02:00:00Z" },
+    { ...chicagoRow, id: "pm-matinee", datetime_iso: "2027-02-14T20:00:00Z" }
+  ]);
+  assert("different venue dates sharing a UTC date are not duplicates", separateLocalDates.semanticDuplicateGroups.length === 0);
+  const sameLocalDate = planMerge([], [
+    { ...chicagoRow, id: "pm-a", datetime_iso: "2027-02-13T20:00:00Z" },
+    { ...chicagoRow, id: "pm-b", datetime_iso: "2027-02-14T02:00:00Z" }
+  ]);
+  assert("same venue date across UTC midnight still triggers duplicate protection", sameLocalDate.semanticDuplicateGroups.length === 1);
+  assert("duplicate diagnostics use the venue date", localDateFromIso("2027-02-14T02:00:00Z", "America/Chicago") === "2027-02-13");
+  assert("unresolved timezone retains the existing conservative date check", localDateFromIso("2027-02-14T02:00:00Z", "") === "2027-02-14");
+
   let failed = 0;
   for (const check of checks) {
     if (!check.pass) failed += 1;
@@ -682,7 +701,7 @@ async function main() {
       out.push(
         `      - row id=${clean(row.id)} tm_event_id=${clean(row.ticketmaster_event_id) || "(none)"} ` +
           `artist_slug=${clean(row.artist_slug)} venue=${clean(row.venue)} city=${clean(row.city)} ` +
-          `country=${clean(row.country)} date=${localDateFromIso(row.datetime_iso) || "(invalid)"} ` +
+          `country=${clean(row.country)} date=${localDateFromIso(row.datetime_iso, row.timezone) || "(invalid)"} ` +
           `ticketmaster_url=${clean(row.ticketmaster_url) || "(none)"}`
       );
     }

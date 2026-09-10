@@ -890,7 +890,7 @@ def self_test():
     check(
         "non-allowlisted host withheld",
         any("not in the out.js" in r for r in classify(
-            make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")
+            make_event(url="https://www.ticketmaster.com.br/raye/event/VV001")
         )["withheld_reasons"]),
     )
     wrapped_ok = classify(
@@ -948,7 +948,7 @@ def self_test():
     check(
         "affiliate wrapper with non-allowlisted destination withheld",
         any("not in the out.js" in r for r in classify(
-            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com.mx%2Fevent%2FVV001")
+            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com.br%2Fevent%2FVV001")
         )["withheld_reasons"]),
     )
     check(
@@ -1171,7 +1171,7 @@ def self_test():
     check(
         "codes and human reasons stay index-aligned",
         (lambda r: len(r["withheld_reason_codes"]) == len(r["withheld_reasons"]) and len(r["withheld_reasons"]) >= 2)(
-            classify(make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001",
+            classify(make_event(url="https://www.ticketmaster.com.br/raye/event/VV001",
                                 dates={"start": {"dateTime": "2027-06-01T19:00:00Z"},
                                        "status": {"code": "cancelled"}}))
         ),
@@ -1185,7 +1185,7 @@ def self_test():
     check("missing venue emits missing_venue", "missing_venue" in codes_for(no_venue))
     check("missing city emits missing_city", "missing_city" in codes_for(no_city))
     check("non-allowlisted host emits host_not_allowlisted", "host_not_allowlisted" in codes_for(
-        make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")))
+        make_event(url="https://www.ticketmaster.com.br/raye/event/VV001")))
     check("travel package emits travel_package_listing", "travel_package_listing" in codes_for(
         make_event(name="RAYE Hotel + Ticket Travel Package")))
     check("mismatched attraction emits attraction_identity_mismatch",

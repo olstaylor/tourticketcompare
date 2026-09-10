@@ -55,6 +55,8 @@ PROVIDER_URL_HOSTS = {
         "ticketmaster.it",
         "ticketmaster.com.au",
         "ticketmaster.ie",
+        "ticketmaster.com.mx",
+        "ticketmaster.co.nz",
     },
     "seatgeek": {"seatgeek.com"},
     "vividseats": {"vividseats.com"},

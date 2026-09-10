@@ -2367,7 +2367,9 @@
         "BE",
         "ES",
         "AU",
-        "IE"
+        "IE",
+        "MX",
+        "NZ"
       ],
       "allowed_destination_hosts": [
         "ticketmaster.com",
@@ -2381,7 +2383,9 @@
         "ticketmaster.be",
         "ticketmaster.it",
         "ticketmaster.com.au",
-        "ticketmaster.ie"
+        "ticketmaster.ie",
+        "ticketmaster.com.mx",
+        "ticketmaster.co.nz"
       ],
       "trusted_affiliate_hosts": [],
       "api_config": {

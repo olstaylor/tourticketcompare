@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:51:46.293Z",
+  "generated_at": "2026-09-10T07:19:25.764Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -35,42 +35,42 @@
     },
     "artist": {
       "rendered": 65,
-      "indexable": 43
+      "indexable": 57
     },
     "city": {
       "rendered": 175,
-      "indexable": 55
+      "indexable": 54
     },
     "venue": {
       "rendered": 299,
       "indexable": 71
     },
     "artist-city": {
-      "rendered": 572,
+      "rendered": 571,
       "indexable": 102
     }
   },
   "overall": {
-    "rendered": 1151,
-    "indexable": 311,
-    "noindex": 840,
+    "rendered": 1150,
+    "indexable": 324,
+    "noindex": 826,
     "baseline_indexable": 311
   },
   "exclusion_reasons": {
     "artist": {
-      "artist_not_editorially_indexable": 22,
-      "no_upcoming_shows": 22
+      "artist_not_editorially_indexable": 8,
+      "no_upcoming_shows": 8
     },
     "city": {
-      "below_show_threshold": 120,
+      "below_show_threshold": 121,
       "below_artist_threshold": 86
     },
     "venue": {
       "below_show_threshold": 222,
-      "below_artist_threshold": 184
+      "below_artist_threshold": 185
     },
     "artist-city": {
-      "below_show_threshold": 470
+      "below_show_threshold": 469
     }
   },
   "expiring_within_warn_days": [
@@ -99,7 +99,7 @@
       "path": "/artists/zach-bryan/tickets/dover-united-states",
       "type": "artist-city",
       "last_show": "2026-09-19",
-      "days_left": 10,
+      "days_left": 9,
       "reason": "runs_out_of_shows"
     },
     {
@@ -152,55 +152,81 @@
       "reason": "falls_below_threshold"
     },
     {
-      "path": "/cities/indianapolis-united-states",
+      "path": "/cities/saint-louis-united-states",
       "type": "city",
-      "last_show": "2027-03-26",
-      "days_left": 198,
+      "last_show": "2027-03-28",
+      "days_left": 199,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/venues/enterprise-center-saint-louis",
+      "type": "venue",
+      "last_show": "2027-03-28",
+      "days_left": 199,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/birmingham-united-kingdom",
       "type": "city",
       "last_show": "2027-04-10",
-      "days_left": 213,
+      "days_left": 212,
       "reason": "falls_below_threshold"
     }
   ],
   "orphan_indexable": [],
   "indexable_without_future_events": [
+    "/artists/andrea-bocelli",
     "/artists/ariana-grande",
     "/artists/bad-bunny",
     "/artists/beyonce",
+    "/artists/blondshell",
     "/artists/bts",
+    "/artists/fkj",
     "/artists/jelly-roll",
+    "/artists/michelle-branch",
+    "/artists/missio",
+    "/artists/morat",
     "/artists/morgan-wallen",
+    "/artists/pink-martini",
+    "/artists/polyphia",
     "/artists/post-malone",
     "/artists/raye",
     "/artists/rosalia",
+    "/artists/saint-levant",
+    "/artists/stella-lefty",
+    "/artists/sylvan-esso",
     "/artists/tate-mcrae",
-    "/artists/the-weeknd"
+    "/artists/the-airborne-toxic-event",
+    "/artists/the-weeknd",
+    "/artists/tobymac",
+    "/artists/vnv-nation"
   ],
   "duplicate_titles": [],
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
       "count": 101,
-      "share_of_indexable": 32.5
+      "share_of_indexable": 31.2
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
       "count": 69,
-      "share_of_indexable": 22.2
-    },
-    {
-      "pattern": "Concerts in {} | Upcoming Shows & Tickets",
-      "count": 55,
-      "share_of_indexable": 17.7
+      "share_of_indexable": 21.3
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
-      "count": 42,
-      "share_of_indexable": 13.5
+      "count": 55,
+      "share_of_indexable": 17
+    },
+    {
+      "pattern": "Concerts in {} | Upcoming Shows & Tickets",
+      "count": 54,
+      "share_of_indexable": 16.7
+    },
+    {
+      "pattern": "{} Tickets & Dates | TourTicketCompare",
+      "count": 2,
+      "share_of_indexable": 0.6
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -349,11 +375,6 @@
     },
     {
       "pattern": "Concert Postponed or Cancelled | TourTicketCompare",
-      "count": 1,
-      "share_of_indexable": 0.3
-    },
-    {
-      "pattern": "{} Tickets & Dates | TourTicketCompare",
       "count": 1,
       "share_of_indexable": 0.3
     },
@@ -558,16 +579,16 @@
         },
         "after": {
           "rendered": 65,
-          "indexable": 43
+          "indexable": 57
         },
         "at_baseline_instant": {
           "rendered": 65,
-          "indexable": 43
+          "indexable": 57
         },
-        "kind": "inventory-growth",
-        "indexableDelta": 1,
+        "kind": "unexplained-growth",
+        "indexableDelta": 15,
         "clockDelta": 0,
-        "residual": 1,
+        "residual": 15,
         "tolerance": 5
       },
       {
@@ -578,15 +599,15 @@
         },
         "after": {
           "rendered": 175,
-          "indexable": 55
+          "indexable": 54
         },
         "at_baseline_instant": {
           "rendered": 175,
           "indexable": 57
         },
         "kind": "inventory-decay",
-        "indexableDelta": -1,
-        "clockDelta": -2,
+        "indexableDelta": -2,
+        "clockDelta": -3,
         "residual": 1,
         "tolerance": 6
       },
@@ -617,7 +638,7 @@
           "indexable": 106
         },
         "after": {
-          "rendered": 572,
+          "rendered": 571,
           "indexable": 102
         },
         "at_baseline_instant": {
@@ -633,7 +654,8 @@
     ]
   },
   "warnings": [
-    "blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run."
+    "blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
+    "artist: 15 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run."
   ],
   "problems": []
 }

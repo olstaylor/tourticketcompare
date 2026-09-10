@@ -1,13 +1,13 @@
 # Indexable-surface audit
 
-Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-09-10T07:19:25.764Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
-- rendered routes: 1151
-- indexable: 311
-- non-indexable: 840
-- stored baseline indexable: 311 (+0)
+- rendered routes: 1150
+- indexable: 324
+- non-indexable: 826
+- stored baseline indexable: 311 (+13)
 
 ## Routes by type
 
@@ -19,22 +19,22 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 | guide | 18 | 18 | 0 | 100% |
 | blog-post | 4 | 4 | 0 | 100% |
 | blog-tag | 3 | 3 | 0 | 100% |
-| artist | 65 | 43 | 22 | 66% |
-| city | 175 | 55 | 120 | 31% |
+| artist | 65 | 57 | 8 | 88% |
+| city | 175 | 54 | 121 | 31% |
 | venue | 299 | 71 | 228 | 24% |
-| artist-city | 572 | 102 | 470 | 18% |
+| artist-city | 571 | 102 | 469 | 18% |
 
 ## Reasons for exclusion
 
 | Type | Reason | Routes |
 |---|---|---|
-| artist | artist_not_editorially_indexable | 22 |
-| artist | no_upcoming_shows | 22 |
-| city | below_show_threshold | 120 |
+| artist | artist_not_editorially_indexable | 8 |
+| artist | no_upcoming_shows | 8 |
+| city | below_show_threshold | 121 |
 | city | below_artist_threshold | 86 |
 | venue | below_show_threshold | 222 |
-| venue | below_artist_threshold | 184 |
-| artist-city | below_show_threshold | 470 |
+| venue | below_artist_threshold | 185 |
+| artist-city | below_show_threshold | 469 |
 
 ## Losing indexability within 14 days
 
@@ -43,7 +43,7 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 | /artists/bruno-mars/tickets/tampa-united-states | artist-city | 2026-09-13 | 4 | runs_out_of_shows |
 | /artists/charli-xcx/tickets/brooklyn-united-states | artist-city | 2026-09-15 | 6 | runs_out_of_shows |
 | /artists/karol-g/tickets/east-rutherford-united-states | artist-city | 2026-09-18 | 9 | runs_out_of_shows |
-| /artists/zach-bryan/tickets/dover-united-states | artist-city | 2026-09-19 | 10 | runs_out_of_shows |
+| /artists/zach-bryan/tickets/dover-united-states | artist-city | 2026-09-19 | 9 | runs_out_of_shows |
 | /artists/bruno-mars/tickets/miami-united-states | artist-city | 2026-09-20 | 11 | runs_out_of_shows |
 | /artists/tame-impala/tickets/houston-united-states | artist-city | 2026-09-21 | 11 | runs_out_of_shows |
 | /artists/zach-bryan/tickets/toronto-canada | artist-city | 2026-09-22 | 13 | runs_out_of_shows |
@@ -51,8 +51,9 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 | /venues/t-mobile-center-kansas-city | venue | 2026-11-01 | 52 | falls_below_threshold |
 | /cities/san-antonio-united-states | city | 2026-11-07 | 58 | falls_below_threshold |
 | /venues/raymond-james-stadium-tampa | venue | 2026-11-07 | 59 | falls_below_threshold |
-| /cities/indianapolis-united-states | city | 2027-03-26 | 198 | falls_below_threshold |
-| /cities/birmingham-united-kingdom | city | 2027-04-10 | 213 | falls_below_threshold |
+| /cities/saint-louis-united-states | city | 2027-03-28 | 199 | falls_below_threshold |
+| /venues/enterprise-center-saint-louis | venue | 2027-03-28 | 199 | falls_below_threshold |
+| /cities/birmingham-united-kingdom | city | 2027-04-10 | 212 | falls_below_threshold |
 
 `runs_out_of_shows` = the route's last tracked date passes. `falls_below_threshold` = the route keeps future dates but drops under a count gate, which is why this section re-runs the real gates at the horizon rather than looking at the last show date.
 
@@ -62,26 +63,41 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 
 ## Indexable routes with no future events
 
+- /artists/andrea-bocelli
 - /artists/ariana-grande
 - /artists/bad-bunny
 - /artists/beyonce
+- /artists/blondshell
 - /artists/bts
+- /artists/fkj
 - /artists/jelly-roll
+- /artists/michelle-branch
+- /artists/missio
+- /artists/morat
 - /artists/morgan-wallen
+- /artists/pink-martini
+- /artists/polyphia
 - /artists/post-malone
 - /artists/raye
 - /artists/rosalia
+- /artists/saint-levant
+- /artists/stella-lefty
+- /artists/sylvan-esso
 - /artists/tate-mcrae
+- /artists/the-airborne-toxic-event
 - /artists/the-weeknd
+- /artists/tobymac
+- /artists/vnv-nation
 
 ## Title patterns among indexable routes
 
 | Routes | Share | Pattern |
 |---|---|---|
-| 101 | 32.5% | `{} Tickets in {} | Compare Prices` |
-| 69 | 22.2% | `{} Concerts in {} | Tickets` |
-| 55 | 17.7% | `Concerts in {} | Upcoming Shows & Tickets` |
-| 42 | 13.5% | `{} Tickets & Tour Dates | TourTicketCompare` |
+| 101 | 31.2% | `{} Tickets in {} | Compare Prices` |
+| 69 | 21.3% | `{} Concerts in {} | Tickets` |
+| 55 | 17% | `{} Tickets & Tour Dates | TourTicketCompare` |
+| 54 | 16.7% | `Concerts in {} | Upcoming Shows & Tickets` |
+| 2 | 0.6% | `{} Tickets & Dates | TourTicketCompare` |
 | 1 | 0.3% | `Compare Concert Tickets & Tour Dates | TourTicketCompare` |
 | 1 | 0.3% | `Compare Concert Ticket Prices by Site | TourTicketCompare` |
 | 1 | 0.3% | `Artists | TourTicketCompare` |
@@ -89,7 +105,6 @@ Generated: 2026-09-09T13:51:46.293Z (read-only, rendered in-process — no live 
 | 1 | 0.3% | `How TourTicketCompare Works` |
 | 1 | 0.3% | `Currency Converter for Concert Tickets | TourTicketCompare` |
 | 1 | 0.3% | `About TourTicketCompare` |
-| 1 | 0.3% | `Contact TourTicketCompare` |
 
 ### Exact duplicate titles
 
@@ -112,16 +127,17 @@ Baseline generated 2026-09-02T08:23:02.995Z.
 | guide | 18/18 | 18/18 | 18/18 | +0 | +0 (tol 3) | unchanged |
 | blog-post | 0/0 | 4/4 | 4/4 | +0 | +4 (tol 3) | unexplained-growth |
 | blog-tag | 0/0 | 3/3 | 3/3 | +0 | +3 (tol 3) | inventory-growth |
-| artist | 42/50 | 43/65 | 43/65 | +0 | +1 (tol 5) | inventory-growth |
-| city | 56/173 | 57/175 | 55/175 | -2 | +1 (tol 6) | inventory-decay |
+| artist | 42/50 | 57/65 | 57/65 | +0 | +15 (tol 5) | unexplained-growth |
+| city | 56/173 | 57/175 | 54/175 | -3 | +1 (tol 6) | inventory-decay |
 | venue | 75/299 | 75/302 | 71/299 | -4 | +0 (tol 8) | inventory-decay |
-| artist-city | 106/575 | 108/584 | 102/572 | -6 | +2 (tol 11) | inventory-decay |
+| artist-city | 106/575 | 108/584 | 102/571 | -6 | +2 (tol 11) | inventory-decay |
 
 **Clock** is what the calendar alone accounts for: the same gates re-run over the same event data at the baseline's timestamp versus now. **Residual** is everything left over — a code, gate, or data change. `inventory-decay` / `inventory-growth` are expected. `structural` (residual loss beyond tolerance) fails `--check`; `unexplained-growth` only warns, because an artist batch or a big discovery run produces it legitimately.
 
 ## Warnings (non-blocking)
 
 - blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.
+- artist: 15 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.
 
 ## Problems
 

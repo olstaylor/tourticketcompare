@@ -682,6 +682,202 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-the-weeknd",
     redirectUrl: "https://seatgeek.com/the-weeknd-tickets",
     verified: true
+  },
+  "polyphia:ticketmaster": {
+    artistSlug: "polyphia",
+    provider: "ticketmaster",
+    linkId: "tm-artist-polyphia",
+    redirectUrl: "https://www.ticketmaster.com/polyphia-tickets/artist/2026502",
+    verified: true
+  },
+  "polyphia:seatgeek": {
+    artistSlug: "polyphia",
+    provider: "seatgeek",
+    linkId: "sg-artist-polyphia",
+    redirectUrl: "https://seatgeek.com/polyphia-tickets",
+    verified: true
+  },
+  "stella-lefty:ticketmaster": {
+    artistSlug: "stella-lefty",
+    provider: "ticketmaster",
+    linkId: "tm-artist-stella-lefty",
+    redirectUrl: "https://www.ticketmaster.com/stella-lefty-tickets/artist/3512399",
+    verified: true
+  },
+  "stella-lefty:seatgeek": {
+    artistSlug: "stella-lefty",
+    provider: "seatgeek",
+    linkId: "sg-artist-stella-lefty",
+    redirectUrl: "https://seatgeek.com/stella-lefty-tickets",
+    verified: true
+  },
+  "tobymac:ticketmaster": {
+    artistSlug: "tobymac",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tobymac",
+    redirectUrl: "https://www.ticketmaster.com/tobymac-tickets/artist/867069",
+    verified: true
+  },
+  "tobymac:seatgeek": {
+    artistSlug: "tobymac",
+    provider: "seatgeek",
+    linkId: "sg-artist-tobymac",
+    redirectUrl: "https://seatgeek.com/tobymac-tickets",
+    verified: true
+  },
+  "saint-levant:ticketmaster": {
+    artistSlug: "saint-levant",
+    provider: "ticketmaster",
+    linkId: "tm-artist-saint-levant",
+    redirectUrl: "https://www.ticketmaster.com/saint-levant-tickets/artist/2984782",
+    verified: true
+  },
+  "saint-levant:seatgeek": {
+    artistSlug: "saint-levant",
+    provider: "seatgeek",
+    linkId: "sg-artist-saint-levant",
+    redirectUrl: "https://seatgeek.com/saint-levant-tickets",
+    verified: true
+  },
+  "the-airborne-toxic-event:ticketmaster": {
+    artistSlug: "the-airborne-toxic-event",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-airborne-toxic-event",
+    redirectUrl: "https://www.ticketmaster.com/the-airborne-toxic-event-tickets/artist/1228209",
+    verified: true
+  },
+  "the-airborne-toxic-event:seatgeek": {
+    artistSlug: "the-airborne-toxic-event",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-airborne-toxic-event",
+    redirectUrl: "https://seatgeek.com/the-airborne-toxic-event-tickets",
+    verified: true
+  },
+  "andrea-bocelli:ticketmaster": {
+    artistSlug: "andrea-bocelli",
+    provider: "ticketmaster",
+    linkId: "tm-artist-andrea-bocelli",
+    redirectUrl: "https://www.ticketmaster.com/andrea-bocelli-tickets/artist/773296",
+    verified: true
+  },
+  "andrea-bocelli:seatgeek": {
+    artistSlug: "andrea-bocelli",
+    provider: "seatgeek",
+    linkId: "sg-artist-andrea-bocelli",
+    redirectUrl: "https://seatgeek.com/andrea-bocelli-tickets",
+    verified: true
+  },
+  "morat:ticketmaster": {
+    artistSlug: "morat",
+    provider: "ticketmaster",
+    linkId: "tm-artist-morat",
+    redirectUrl: "https://www.ticketmaster.com/morat-tickets/artist/2261438",
+    verified: true
+  },
+  "morat:seatgeek": {
+    artistSlug: "morat",
+    provider: "seatgeek",
+    linkId: "sg-artist-morat",
+    redirectUrl: "https://seatgeek.com/morat-tickets",
+    verified: true
+  },
+  "missio:ticketmaster": {
+    artistSlug: "missio",
+    provider: "ticketmaster",
+    linkId: "tm-artist-missio",
+    redirectUrl: "https://www.ticketmaster.com/missio-tickets/artist/2266598",
+    verified: true
+  },
+  "missio:seatgeek": {
+    artistSlug: "missio",
+    provider: "seatgeek",
+    linkId: "sg-artist-missio",
+    redirectUrl: "https://seatgeek.com/missio-tickets",
+    verified: true
+  },
+  "vnv-nation:ticketmaster": {
+    artistSlug: "vnv-nation",
+    provider: "ticketmaster",
+    linkId: "tm-artist-vnv-nation",
+    redirectUrl: "https://www.ticketmaster.com/vnv-nation-tickets/artist/715374",
+    verified: true
+  },
+  "vnv-nation:seatgeek": {
+    artistSlug: "vnv-nation",
+    provider: "seatgeek",
+    linkId: "sg-artist-vnv-nation",
+    redirectUrl: "https://seatgeek.com/vnv-nation-tickets",
+    verified: true
+  },
+  "michelle-branch:ticketmaster": {
+    artistSlug: "michelle-branch",
+    provider: "ticketmaster",
+    linkId: "tm-artist-michelle-branch",
+    redirectUrl: "https://www.ticketmaster.com/michelle-branch-tickets/artist/807228",
+    verified: true
+  },
+  "michelle-branch:seatgeek": {
+    artistSlug: "michelle-branch",
+    provider: "seatgeek",
+    linkId: "sg-artist-michelle-branch",
+    redirectUrl: "https://seatgeek.com/michelle-branch-tickets",
+    verified: true
+  },
+  "fkj:ticketmaster": {
+    artistSlug: "fkj",
+    provider: "ticketmaster",
+    linkId: "tm-artist-fkj",
+    redirectUrl: "https://www.ticketmaster.com/fkj-tickets/artist/2110704",
+    verified: true
+  },
+  "fkj:seatgeek": {
+    artistSlug: "fkj",
+    provider: "seatgeek",
+    linkId: "sg-artist-fkj",
+    redirectUrl: "https://seatgeek.com/fkj-tickets",
+    verified: true
+  },
+  "sylvan-esso:ticketmaster": {
+    artistSlug: "sylvan-esso",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sylvan-esso",
+    redirectUrl: "https://www.ticketmaster.com/sylvan-esso-tickets/artist/1878194",
+    verified: true
+  },
+  "sylvan-esso:seatgeek": {
+    artistSlug: "sylvan-esso",
+    provider: "seatgeek",
+    linkId: "sg-artist-sylvan-esso",
+    redirectUrl: "https://seatgeek.com/sylvan-esso-tickets",
+    verified: true
+  },
+  "blondshell:ticketmaster": {
+    artistSlug: "blondshell",
+    provider: "ticketmaster",
+    linkId: "tm-artist-blondshell",
+    redirectUrl: "https://www.ticketmaster.com/blondshell-tickets/artist/2942885",
+    verified: true
+  },
+  "blondshell:seatgeek": {
+    artistSlug: "blondshell",
+    provider: "seatgeek",
+    linkId: "sg-artist-blondshell",
+    redirectUrl: "https://seatgeek.com/blondshell-tickets",
+    verified: true
+  },
+  "pink-martini:ticketmaster": {
+    artistSlug: "pink-martini",
+    provider: "ticketmaster",
+    linkId: "tm-artist-pink-martini",
+    redirectUrl: "https://www.ticketmaster.com/pink-martini-tickets/artist/798389",
+    verified: true
+  },
+  "pink-martini:seatgeek": {
+    artistSlug: "pink-martini",
+    provider: "seatgeek",
+    linkId: "sg-artist-pink-martini",
+    redirectUrl: "https://seatgeek.com/pink-martini-tickets",
+    verified: true
   }
 };
 

@@ -42,7 +42,7 @@ So a resale listing that says "VIP" may be transferring the seat and none of the
 
 ## Silver Star: check the request status
 
-Silver Star uses a request-and-allocation process rather than an immediate purchase. Ticketmaster’s help page states that the request window closed on 2 September 2026, with successful requests due to be confirmed by 9 September. As of this review on 9 September, that window has passed; do not assume requests are still open.
+Silver Star uses a request-and-allocation process rather than an immediate purchase, and its windows are short. Ticketmaster’s help page gave the request window as closing on 2 September 2026, with successful requests confirmed by 9 September. Both of those dates are behind us, so treat the process below as an explanation of how Silver Star works rather than a route that is open today, and check the official tour help page for any later release.
 
 Tickets were offered in pairs, with a limit of two per person. Submitting a request did not guarantee an allocation. Ticketmaster says the card is charged only when a request can be fulfilled, and unsuccessful applicants can check their request status even if they receive no further email.
 

@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tm-vnv-nation-2027-tampa-z7r9jz1a7jv8s",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre - Tampa",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Jv8S",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8S",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8S",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Jv8S",
+        "discovery_event_id": "Z7r9jZ1A7Jv8S",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8S",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jv8S",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-atlanta-z7r9jz1a7jvoo",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Variety Playhouse",
+    "datetime_iso": "2027-03-15T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JvOo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JvOo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JvOo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JvOo",
+        "discovery_event_id": "Z7r9jZ1A7JvOo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JvOo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JvOo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-salt-lake-city-z7r9jz1a7pmzg",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-03-27T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PMZg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PMZg",
+        "discovery_event_id": "Z7r9jZ1A7PMZg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PMZg",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-st-paul-z7r9jz1a7jzvu",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - Ages 18+",
+    "city": "St. Paul",
+    "country": "United States Of America",
+    "venue": "Amsterdam Bar & Hall",
+    "datetime_iso": "2027-03-31T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JZvU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZvU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZvU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JZvU",
+        "discovery_event_id": "Z7r9jZ1A7JZvU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZvU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JZvU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-chicago-z7r9jz1a7pupm",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation (18 and Over)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Metro",
+    "datetime_iso": "2027-04-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PUPM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUPM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUPM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PUPM",
+        "discovery_event_id": "Z7r9jZ1A7PUPM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUPM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PUPM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

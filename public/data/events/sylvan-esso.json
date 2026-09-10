@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "tm-sylvan-esso-2026-atlanta-z7r9jz1a7pf-y",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2026-10-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pf-Y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-Y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-Y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pf-Y",
+        "discovery_event_id": "Z7r9jZ1A7Pf-Y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-Y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-Y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-washington-17a8v0g6g2lzmgt",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2026-10-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064C3DF037329",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-washington-district-of-columbia-10-05-2026/event/150064C3DF037329",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-washington-district-of-columbia-10-05-2026/event/150064C3DF037329",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064C3DF037329",
+        "discovery_event_id": "17A8v0G6G2LZMGt",
+        "url": "https://www.ticketmaster.com/sylvan-esso-washington-district-of-columbia-10-05-2026/event/150064C3DF037329",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6G2LZMGt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-washington-17a8v0g6gi4rjo9",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2026-10-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064CB1579C817",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-washington-district-of-columbia-10-06-2026/event/150064CB1579C817",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-washington-district-of-columbia-10-06-2026/event/150064CB1579C817",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064CB1579C817",
+        "discovery_event_id": "17A8v0G6Gi4rjO9",
+        "url": "https://www.ticketmaster.com/sylvan-esso-washington-district-of-columbia-10-06-2026/event/150064CB1579C817",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6Gi4rjO9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-durham-g5evz_1dgn5_o",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "GOOD MOON Presents Sylvan Esso",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "DPAC",
+    "datetime_iso": "2026-10-08T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064AECC8CB651",
+    "ticketmaster_url": "https://www.ticketmaster.com/good-moon-presents-sylvan-esso-durham-north-carolina-10-08-2026/event/2D0064AECC8CB651",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/good-moon-presents-sylvan-esso-durham-north-carolina-10-08-2026/event/2D0064AECC8CB651",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064AECC8CB651",
+        "discovery_event_id": "G5eVZ_1DGN5_o",
+        "url": "https://www.ticketmaster.com/good-moon-presents-sylvan-esso-durham-north-carolina-10-08-2026/event/2D0064AECC8CB651",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1DGN5_o",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-durham-g5evz_1dgp5h6",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "GOOD MOON Presents Sylvan Esso",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "DPAC",
+    "datetime_iso": "2026-10-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064AECC94B6C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/good-moon-presents-sylvan-esso-durham-north-carolina-10-10-2026/event/2D0064AECC94B6C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/good-moon-presents-sylvan-esso-durham-north-carolina-10-10-2026/event/2D0064AECC94B6C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064AECC94B6C7",
+        "discovery_event_id": "G5eVZ_1DGP5h6",
+        "url": "https://www.ticketmaster.com/good-moon-presents-sylvan-esso-durham-north-carolina-10-10-2026/event/2D0064AECC94B6C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1DGP5h6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-philadelphia-z7r9jz1a7pxvf",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Franklin Music Hall",
+    "datetime_iso": "2026-10-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pxvf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxvf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxvf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pxvf",
+        "discovery_event_id": "Z7r9jZ1A7Pxvf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxvf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pxvf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-brooklyn-k7vgf_gpzpfnb",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2026-10-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064C5B8594A98",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064C5B8594A98",
+        "discovery_event_id": "k7vGF_Gpzpfnb",
+        "url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_Gpzpfnb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-portland-vvg17z_gkbpmvl",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2026-10-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064C4D897706B",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064C4D897706B",
+        "discovery_event_id": "vvG17Z_GKbPMvl",
+        "url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GKbPMvl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-boston-vvg17z_g2bjele",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2026-10-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064C3D87277C2",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-boston-massachusetts-10-17-2026/event/010064C3D87277C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-boston-massachusetts-10-17-2026/event/010064C3D87277C2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064C3D87277C2",
+        "discovery_event_id": "vvG17Z_G2bjELe",
+        "url": "https://www.ticketmaster.com/sylvan-esso-boston-massachusetts-10-17-2026/event/010064C3D87277C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_G2bjELe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-toronto-177zv0g6gkzh0vc",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2026-10-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064C4C06E4D0E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sylvan-esso-toronto-ontario-10-19-2026/event/100064C4C06E4D0E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sylvan-esso-toronto-ontario-10-19-2026/event/100064C4C06E4D0E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064C4C06E4D0E",
+        "discovery_event_id": "177Zv0G6GKZh0VC",
+        "url": "https://www.ticketmaster.ca/sylvan-esso-toronto-ontario-10-19-2026/event/100064C4C06E4D0E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6GKZh0VC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-milwaukee-z7r9jz1a7pfos",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Riverside Theatre - WI",
+    "datetime_iso": "2026-10-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PfOs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PfOs",
+        "discovery_event_id": "Z7r9jZ1A7PfOs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PfOs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-chicago-vv178z_agksv90pf",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso presented by Jack Daniel's",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2026-10-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400649CF45E4588",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-presented-by-jack-daniels-chicago-illinois-10-22-2026/event/0400649CF45E4588",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-presented-by-jack-daniels-chicago-illinois-10-22-2026/event/0400649CF45E4588",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400649CF45E4588",
+        "discovery_event_id": "vv178Z_aGkSV90pF",
+        "url": "https://www.ticketmaster.com/sylvan-esso-presented-by-jack-daniels-chicago-illinois-10-22-2026/event/0400649CF45E4588",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_aGkSV90pF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-minneapolis-z7r9jz1a7pfoy",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso (18 and Over with Valid Government ID)",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2026-10-24T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PfOY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PfOY",
+        "discovery_event_id": "Z7r9jZ1A7PfOY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PfOY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-seattle-vvg1hz_g92don0",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-02-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064C5CFEE0AA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-seattle-washington-02-19-2027/event/0F0064C5CFEE0AA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-seattle-washington-02-19-2027/event/0F0064C5CFEE0AA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064C5CFEE0AA4",
+        "discovery_event_id": "vvG1HZ_G92DOn0",
+        "url": "https://www.ticketmaster.com/sylvan-esso-seattle-washington-02-19-2027/event/0F0064C5CFEE0AA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_G92DOn0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Vogue Theatre-BC",
+    "datetime_iso": "2027-02-21T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pffp",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pffp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pffp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pffp",
+        "discovery_event_id": "Z7r9jZ1A7Pffp",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pffp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pffp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-portland-z7r9jz1a7pf-d",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "McMenamins Crystal Ballroom",
+    "datetime_iso": "2027-02-23T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pf-d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pf-d",
+        "discovery_event_id": "Z7r9jZ1A7Pf-d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-d",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-portland-z7r9jz1a7pf-7",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "McMenamins Crystal Ballroom",
+    "datetime_iso": "2027-02-24T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pf-7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pf-7",
+        "discovery_event_id": "Z7r9jZ1A7Pf-7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-oakland-g5vyz_gf0ezov",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "An Evening with Sylvan Esso",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Fox Theater - Oakland",
+    "datetime_iso": "2027-02-26T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064C5240B8474",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-sylvan-esso-oakland-california-02-25-2027/event/1C0064C5240B8474",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-sylvan-esso-oakland-california-02-25-2027/event/1C0064C5240B8474",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064C5240B8474",
+        "discovery_event_id": "G5vYZ_Gf0ezoV",
+        "url": "https://www.ticketmaster.com/an-evening-with-sylvan-esso-oakland-california-02-25-2027/event/1C0064C5240B8474",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_Gf0ezoV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-los-angeles-vvg10z_gjuyprv",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-02-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064C98DE65781",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-los-angeles-california-02-26-2027/event/090064C98DE65781",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-los-angeles-california-02-26-2027/event/090064C98DE65781",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064C98DE65781",
+        "discovery_event_id": "vvG10Z_GJuyPrv",
+        "url": "https://www.ticketmaster.com/sylvan-esso-los-angeles-california-02-26-2027/event/090064C98DE65781",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GJuyPrv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-santa-ana-vvg10z_26gjjny",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Santa Ana",
+    "country": "United States Of America",
+    "venue": "The Observatory",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064F1F57268F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-santa-ana-california-02-27-2027/event/090064F1F57268F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-santa-ana-california-02-27-2027/event/090064F1F57268F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064F1F57268F9",
+        "discovery_event_id": "vvG10Z_26gjJNy",
+        "url": "https://www.ticketmaster.com/sylvan-esso-santa-ana-california-02-27-2027/event/090064F1F57268F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_26gjJNy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-del-mar-vvg1iz_g9535-x",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Del Mar",
+    "country": "United States Of America",
+    "venue": "The Sound",
+    "datetime_iso": "2027-03-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064C5CB48B87E",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-del-mar-california-03-01-2027/event/0A0064C5CB48B87E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-del-mar-california-03-01-2027/event/0A0064C5CB48B87E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064C5CB48B87E",
+        "discovery_event_id": "vvG1IZ_G9535-X",
+        "url": "https://www.ticketmaster.com/sylvan-esso-del-mar-california-03-01-2027/event/0A0064C5CB48B87E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_G9535-X",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-phoenix-17k8v0g6g3yxemg",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-03-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064C4B9FA7DCC",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-phoenix-arizona-03-02-2027/event/190064C4B9FA7DCC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-phoenix-arizona-03-02-2027/event/190064C4B9FA7DCC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064C4B9FA7DCC",
+        "discovery_event_id": "17k8v0G6G3yXEMG",
+        "url": "https://www.ticketmaster.com/sylvan-esso-phoenix-arizona-03-02-2027/event/190064C4B9FA7DCC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G6G3yXEMG",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-denver-z7r9jz1a7pf46",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ogden Theatre",
+    "datetime_iso": "2027-03-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pf46",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pf46",
+        "discovery_event_id": "Z7r9jZ1A7Pf46",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf46",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-denver-z7r9jz1a7pj-s",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ogden Theatre",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PJ-S",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PJ-S",
+        "discovery_event_id": "Z7r9jZ1A7PJ-S",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PJ-S",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-austin-z7r9jz1a7pxj7",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-03-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pxj7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxj7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxj7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pxj7",
+        "discovery_event_id": "Z7r9jZ1A7Pxj7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxj7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pxj7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-dallas-vvg1yz_g8bdfye",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "KXT Presents: Sylvan Esso",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "House of Blues Dallas",
+    "datetime_iso": "2027-03-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064C43A0D4C02",
+    "ticketmaster_url": "https://www.ticketmaster.com/kxt-presents-sylvan-esso-dallas-texas-03-09-2027/event/0C0064C43A0D4C02",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kxt-presents-sylvan-esso-dallas-texas-03-09-2027/event/0C0064C43A0D4C02",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064C43A0D4C02",
+        "discovery_event_id": "vvG1YZ_G8BdfYe",
+        "url": "https://www.ticketmaster.com/kxt-presents-sylvan-esso-dallas-texas-03-09-2027/event/0C0064C43A0D4C02",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_G8BdfYe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-birmingham-17fzv0g6gpo7w2j",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Iron City",
+    "datetime_iso": "2027-03-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200064C5A01323E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200064C5A01323E6",
+        "discovery_event_id": "17FZv0G6GpO7w2J",
+        "url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FZv0G6GpO7w2J",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-nashville-g5viz_g3v82ae",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Nashville",
+    "datetime_iso": "2027-03-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064C4B440F267",
+    "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064C4B440F267",
+        "discovery_event_id": "G5viZ_G3V82aE",
+        "url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_G3V82aE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

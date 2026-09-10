@@ -1,0 +1,1751 @@
+[
+  {
+    "id": "tm-stella-lefty-2026-san-francisco-z7r9jz1a70epk",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty w/ Grace Enger",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bimbo's 365 Club",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70Epk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Epk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Epk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70Epk",
+        "discovery_event_id": "Z7r9jZ1A70Epk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Epk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70Epk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-west-hollywood-z7r9jz1a70e4e",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "West Hollywood",
+    "country": "United States Of America",
+    "venue": "Troubadour",
+    "datetime_iso": "2026-11-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70E4E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70E4E",
+        "discovery_event_id": "Z7r9jZ1A70E4E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70E4E",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-los-angeles-z7r9jz1a70sod",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Fonda Theatre",
+    "datetime_iso": "2026-11-03T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70Sod",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Sod",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Sod",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70Sod",
+        "discovery_event_id": "Z7r9jZ1A70Sod",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Sod",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70Sod",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-phoenix-z7r9jz1a70tgw",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Crescent Ballroom",
+    "datetime_iso": "2026-11-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70tGw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tGw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tGw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70tGw",
+        "discovery_event_id": "Z7r9jZ1A70tGw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tGw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70tGw",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-dallas-vvg1yz_1xpakgv",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Lefty Live",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Cambridge Room at House Of Blues",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064AF96246D74",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-dallas-texas-11-06-2026/event/0C0064AF96246D74",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-dallas-texas-11-06-2026/event/0C0064AF96246D74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064AF96246D74",
+        "discovery_event_id": "vvG1YZ_1XpakgV",
+        "url": "https://www.ticketmaster.com/stella-lefty-lefty-live-dallas-texas-11-06-2026/event/0C0064AF96246D74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_1XpakgV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-houston-g5diz_1ymrkkp",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Lefty Live",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "The Bronze Peacock at House of Blues Houston",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064AE6E7934D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-houston-texas-11-07-2026/event/3A0064AE6E7934D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-houston-texas-11-07-2026/event/3A0064AE6E7934D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064AE6E7934D6",
+        "discovery_event_id": "G5dIZ_1ymrKKp",
+        "url": "https://www.ticketmaster.com/stella-lefty-lefty-live-houston-texas-11-07-2026/event/3A0064AE6E7934D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_1ymrKKp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-atlanta-vvg1zz_1byaqd-",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Lefty Live",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Masquerade - Hell",
+    "datetime_iso": "2026-11-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064AEB015DEE1",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-atlanta-georgia-11-10-2026/event/0E0064AEB015DEE1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-atlanta-georgia-11-10-2026/event/0E0064AEB015DEE1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064AEB015DEE1",
+        "discovery_event_id": "vvG1zZ_1BYAqD-",
+        "url": "https://www.ticketmaster.com/stella-lefty-lefty-live-atlanta-georgia-11-10-2026/event/0E0064AEB015DEE1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_1BYAqD-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-toronto-177zv0g61mkytjo",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty - Lefty Live",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Opera House",
+    "datetime_iso": "2026-11-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064ADC6E7F9A0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-lefty-live-toronto-ontario-11-12-2026/event/100064ADC6E7F9A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/stella-lefty-lefty-live-toronto-ontario-11-12-2026/event/100064ADC6E7F9A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064ADC6E7F9A0",
+        "discovery_event_id": "177Zv0G61MkyTJO",
+        "url": "https://www.ticketmaster.ca/stella-lefty-lefty-live-toronto-ontario-11-12-2026/event/100064ADC6E7F9A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G61MkyTJO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-new-york-z7r9jz1a7pg08",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty - All Ages (under 16 with adult)",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Webster Hall",
+    "datetime_iso": "2026-11-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pg08",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg08",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pg08",
+        "discovery_event_id": "Z7r9jZ1A7Pg08",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pg08",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-new-york-k7vgf_1dgeulr",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Bowery Ballroom",
+    "datetime_iso": "2026-11-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064AECC0B67EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-new-york-new-york-11-16-2026/event/000064AECC0B67EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-new-york-new-york-11-16-2026/event/000064AECC0B67EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064AECC0B67EF",
+        "discovery_event_id": "k7vGF_1DGeULR",
+        "url": "https://www.ticketmaster.com/stella-lefty-new-york-new-york-11-16-2026/event/000064AECC0B67EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_1DGeULR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-boston-z7r9jz1a70eoz",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Royale Boston",
+    "datetime_iso": "2026-11-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70EOZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70EOZ",
+        "discovery_event_id": "Z7r9jZ1A70EOZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-washington-17a8v0g61ujpeyi",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Lefty Live",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Atlantis",
+    "datetime_iso": "2026-11-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064ADA6967E6C",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-washington-district-of-columbia-11-19-2026/event/150064ADA6967E6C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-washington-district-of-columbia-11-19-2026/event/150064ADA6967E6C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064ADA6967E6C",
+        "discovery_event_id": "17A8v0G61UJPEyi",
+        "url": "https://www.ticketmaster.com/stella-lefty-lefty-live-washington-district-of-columbia-11-19-2026/event/150064ADA6967E6C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61UJPEyi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-detroit-vv1afzkfkgkesu99t",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-01-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006513B33575FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-detroit-michigan-01-09-2027/event/08006513B33575FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-detroit-michigan-01-09-2027/event/08006513B33575FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006513B33575FF",
+        "discovery_event_id": "vv1AFZkfKGkeSu99T",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-detroit-michigan-01-09-2027/event/08006513B33575FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfKGkeSu99T",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-columbus-z7r9jz1aav7q6",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-01-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv7Q6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7Q6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7Q6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv7Q6",
+        "discovery_event_id": "Z7r9jZ1AAv7Q6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7Q6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv7Q6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-toronto-1a8zkf4gkddr1l2",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-01-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006515C378AACF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-12-2027/event/10006515C378AACF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-12-2027/event/10006515C378AACF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006515C378AACF",
+        "discovery_event_id": "1A8Zkf4Gkddr1l2",
+        "url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-12-2027/event/10006515C378AACF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zkf4Gkddr1l2",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-toronto-1avzz_ogklpe4bz",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-01-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000651AD6095EB8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-13-2027/event/1000651AD6095EB8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-13-2027/event/1000651AD6095EB8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000651AD6095EB8",
+        "discovery_event_id": "1AvZZ_oGklpe4Bz",
+        "url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-13-2027/event/1000651AD6095EB8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_oGklpe4Bz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-montreal-1kg8vp7yga51kww",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-01-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310065139B293F7D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-montreal-quebec-01-15-2027/event/310065139B293F7D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-montreal-quebec-01-15-2027/event/310065139B293F7D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310065139B293F7D",
+        "discovery_event_id": "1kG8vP7yGA51KWW",
+        "url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-montreal-quebec-01-15-2027/event/310065139B293F7D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kG8vP7yGA51KWW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-boston-vv168vp7y-kz7ukua",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-01-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065139846C5C8",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-boston-massachusetts-01-17-2027/event/010065139846C5C8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-boston-massachusetts-01-17-2027/event/010065139846C5C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065139846C5C8",
+        "discovery_event_id": "vv168vP7y-kZ7ukua",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-boston-massachusetts-01-17-2027/event/010065139846C5C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv168vP7y-kZ7ukua",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrjdss",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-01-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000065139E73BC73",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-19-2027/event/000065139E73BC73",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-19-2027/event/000065139E73BC73",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000065139E73BC73",
+        "discovery_event_id": "k7vGF_oCrjDsS",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-19-2027/event/000065139E73BC73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_oCrjDsS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-brooklyn-k7vgf_ocrqdsw",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-01-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000065139E77BC7D",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-20-2027/event/000065139E77BC7D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-20-2027/event/000065139E77BC7D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000065139E77BC7D",
+        "discovery_event_id": "k7vGF_oCrqDsW",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-20-2027/event/000065139E77BC7D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_oCrqDsW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-philadelphia-vv1aezkfkgkddxsrk",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2027-01-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006513C3FB3BD3",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-philadelphia-pennsylvania-01-22-2027/event/02006513C3FB3BD3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-philadelphia-pennsylvania-01-22-2027/event/02006513C3FB3BD3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006513C3FB3BD3",
+        "discovery_event_id": "vv1AeZkfKGkddXSRK",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-philadelphia-pennsylvania-01-22-2027/event/02006513C3FB3BD3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfKGkddXSRK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-washington-1a4zkffgkdf8c-z",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-01-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006514D442D878",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-washington-district-of-columbia-01-23-2027/event/15006514D442D878",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-washington-district-of-columbia-01-23-2027/event/15006514D442D878",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006514D442D878",
+        "discovery_event_id": "1A4ZkffGkdf8c-z",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-washington-district-of-columbia-01-23-2027/event/15006514D442D878",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkffGkdf8c-z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-charlotte-g5evz_o9kpb3z",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-01-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006515C69584B8",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-charlotte-north-carolina-01-25-2027/event/2D006515C69584B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-charlotte-north-carolina-01-25-2027/event/2D006515C69584B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006515C69584B8",
+        "discovery_event_id": "G5eVZ_o9kPb3z",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-charlotte-north-carolina-01-25-2027/event/2D006515C69584B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_o9kPb3z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-atlanta-vvg1zz_olg43wy",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Tabernacle Presented by iTHINK Financial",
+    "datetime_iso": "2027-01-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00651ACC552F70",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-atlanta-georgia-01-26-2027/event/0E00651ACC552F70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-atlanta-georgia-01-26-2027/event/0E00651ACC552F70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00651ACC552F70",
+        "discovery_event_id": "vvG1zZ_olG43WY",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-atlanta-georgia-01-26-2027/event/0E00651ACC552F70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_olG43WY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-dallas-vvg1yz_o8qf6xm",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2027-01-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0065141A207FB7",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-dallas-texas-01-28-2027/event/0C0065141A207FB7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-dallas-texas-01-28-2027/event/0C0065141A207FB7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065141A207FB7",
+        "discovery_event_id": "vvG1YZ_o8QF6XM",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-dallas-texas-01-28-2027/event/0C0065141A207FB7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_o8QF6XM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-houston-g5diz_opbsxqh",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "House of Blues Houston",
+    "datetime_iso": "2027-01-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006515BACE275B",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-houston-texas-01-30-2027/event/3A006515BACE275B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-houston-texas-01-30-2027/event/3A006515BACE275B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006515BACE275B",
+        "discovery_event_id": "G5dIZ_opBSxqh",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-houston-texas-01-30-2027/event/3A006515BACE275B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_opBSxqh",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-san-francisco-g5vyz_ok5hlnw",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2027-02-10T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006514CBF1F8F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-san-francisco-california-02-09-2027/event/1C006514CBF1F8F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-san-francisco-california-02-09-2027/event/1C006514CBF1F8F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006514CBF1F8F2",
+        "discovery_event_id": "G5vYZ_oK5HLNw",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-san-francisco-california-02-09-2027/event/1C006514CBF1F8F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_oK5HLNw",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-salt-lake-city-g5vzz_okzttv5",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Union",
+    "datetime_iso": "2027-02-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006514C0FFF04B",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-salt-lake-city-utah-02-12-2027/event/1E006514C0FFF04B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-salt-lake-city-utah-02-12-2027/event/1E006514C0FFF04B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006514C0FFF04B",
+        "discovery_event_id": "G5vzZ_oKZTTv5",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-salt-lake-city-utah-02-12-2027/event/1E006514C0FFF04B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_oKZTTv5",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-denver-g5vzz_o3ivhxh",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Fillmore Auditorium (Denver)",
+    "datetime_iso": "2027-02-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006514ACD1BFBC",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-denver-colorado-02-13-2027/event/1E006514ACD1BFBC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-denver-colorado-02-13-2027/event/1E006514ACD1BFBC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006514ACD1BFBC",
+        "discovery_event_id": "G5vzZ_o3iVhXH",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-denver-colorado-02-13-2027/event/1E006514ACD1BFBC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_o3iVhXH",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-chicago-vv1a7zkf3ovc9zec5",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2027-02-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006512441397DA",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-chicago-illinois-02-20-2027/event/04006512441397DA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-chicago-illinois-02-20-2027/event/04006512441397DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006512441397DA",
+        "discovery_event_id": "vv1a7Zkf3ovC9ZeC5",
+        "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-chicago-illinois-02-20-2027/event/04006512441397DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1a7Zkf3ovC9ZeC5",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-amsterdam-z698xzbpz16vj_pxbp",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "datetime_iso": "2027-03-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1719962625",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/stella-lefty-tickets/1719962625?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/stella-lefty-tickets/1719962625?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1719962625",
+        "discovery_event_id": "Z698xZbpZ16vj_PxbP",
+        "url": "https://www.ticketmaster.nl/event/stella-lefty-tickets/1719962625?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vj_PxbP",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-manchester-g5dzz_36uppzk",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Ritz Manchester",
+    "datetime_iso": "2027-03-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006521F6956E13",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/stella-lefty-manchester-19-03-2027/event/3E006521F6956E13",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/stella-lefty-manchester-19-03-2027/event/3E006521F6956E13",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006521F6956E13",
+        "discovery_event_id": "G5dzZ_36UPpzK",
+        "url": "https://www.ticketmaster.co.uk/stella-lefty-manchester-19-03-2027/event/3E006521F6956E13",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_36UPpzK",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Institute Birmingham",
+    "datetime_iso": "2027-03-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006512AA1016ED",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006512AA1016ED",
+        "discovery_event_id": "G5dzZ_o1n7vhc",
+        "url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_o1n7vhc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

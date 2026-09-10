@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tm-the-airborne-toxic-event-2026-glenside-z7r9jz1a70_pw",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event- All Ages (under 16 with adult)",
+    "city": "Glenside",
+    "country": "United States Of America",
+    "venue": "Keswick Theatre",
+    "datetime_iso": "2026-10-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_Pw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Pw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Pw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_Pw",
+        "discovery_event_id": "Z7r9jZ1A70_Pw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Pw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_Pw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2026-chicago-z7r9jz1a70iqs",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Vic Theatre",
+    "datetime_iso": "2026-10-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70IqS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IqS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IqS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70IqS",
+        "discovery_event_id": "Z7r9jZ1A70IqS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IqS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70IqS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Vic Theatre",
+    "datetime_iso": "2027-05-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZbfJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZbfJ",
+        "discovery_event_id": "Z7r9jZ1AAZbfJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZbfJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "(16 and Over)",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2027-06-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZgov",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgov",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgov",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZgov",
+        "discovery_event_id": "Z7r9jZ1AAZgov",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgov",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZgov",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-portland-z7r9jz1aazfzx",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Revolution Hall - Portland",
+    "datetime_iso": "2027-06-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZfZx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfZx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfZx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZfZx",
+        "discovery_event_id": "Z7r9jZ1AAZfZx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfZx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZfZx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

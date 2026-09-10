@@ -3364,5 +3364,111 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8230822",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769"
+  },
+  {
+    "id": "tm-teddy-swims-2027-greenwich-z7r9jz1aav0v4",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims",
+    "city": "Greenwich",
+    "country": "United Kingdom",
+    "venue": "O2 Arena - London",
+    "datetime_iso": "2027-04-21T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv0v4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0v4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0v4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv0v4",
+        "discovery_event_id": "Z7r9jZ1AAv0v4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0v4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0v4",
+    "timezone": "Etc/GMT",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-greenwich-z7r9jz1aav0vp",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims",
+    "city": "Greenwich",
+    "country": "United Kingdom",
+    "venue": "O2 Arena - London",
+    "datetime_iso": "2027-04-22T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv0vp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv0vp",
+        "discovery_event_id": "Z7r9jZ1AAv0vp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vp",
+    "timezone": "Etc/GMT",
+    "status": "on-sale"
   }
 ]

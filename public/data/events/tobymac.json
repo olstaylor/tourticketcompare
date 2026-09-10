@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tm-tobymac-2026-waite-park-vv1akzk3pgkdplazc",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "Celebrate Minnesota - TOBYMAC & KB",
+    "city": "Waite Park",
+    "country": "United States Of America",
+    "venue": "The Ledge Amphitheater",
+    "datetime_iso": "2026-09-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006496E5AC900E",
+    "ticketmaster_url": "https://www.ticketmaster.com/celebrate-minnesota-tobymac-kb-waite-park-minnesota-09-19-2026/event/06006496E5AC900E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/celebrate-minnesota-tobymac-kb-waite-park-minnesota-09-19-2026/event/06006496E5AC900E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006496E5AC900E",
+        "discovery_event_id": "vv1AkZk3pGkdPlaZC",
+        "url": "https://www.ticketmaster.com/celebrate-minnesota-tobymac-kb-waite-park-minnesota-09-19-2026/event/06006496E5AC900E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk3pGkdPlaZC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2026-columbia-vvg1bz_1xth3vu",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC, THIRD DAY, CHRIS TOMLIN",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Mizzou Arena",
+    "datetime_iso": "2026-11-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064A8BF6D2D36",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064A8BF6D2D36",
+        "discovery_event_id": "vvG1bZ_1xTh3VU",
+        "url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_1xTh3VU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2026-evansville-vvg1fz_1ipflre",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC, THIRD DAY, CHRIS TOMLIN",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064AA2551F782",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064AA2551F782",
+        "discovery_event_id": "vvG1fZ_1IPfLre",
+        "url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_1IPfLre",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2026-cleveland-vvg1fz_1raogqa",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC, THIRD DAY, CHRIS TOMLIN",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Wolstein Center at CSU",
+    "datetime_iso": "2026-11-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064ABC980C685",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064ABC980C685",
+        "discovery_event_id": "vvG1fZ_1RaOGQA",
+        "url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_1RaOGQA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2026-greensboro-g5evz_1nayk4t",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC, THIRD DAY, CHRIS TOMLIN",
+    "city": "Greensboro",
+    "country": "United States Of America",
+    "venue": "First Horizon Coliseum",
+    "datetime_iso": "2026-11-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064A8C9C06569",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064A8C9C06569",
+        "discovery_event_id": "G5eVZ_1NaYk4t",
+        "url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1NaYk4t",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

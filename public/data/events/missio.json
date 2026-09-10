@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "tm-missio-2026-phoenix-z7r9jz1aaziv4",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio (21+ Event)",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Rebel Lounge",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIv4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIv4",
+        "discovery_event_id": "Z7r9jZ1AAZIv4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIv4",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-san-diego-vvg1iz_8m2p9ef",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Voodoo Room at the House of Blues San Diego",
+    "datetime_iso": "2026-10-31T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00650B8F9579D4",
+    "ticketmaster_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00650B8F9579D4",
+        "discovery_event_id": "vvG1IZ_8m2P9Ef",
+        "url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_8m2P9Ef",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-los-angeles-vv170z_8gkie-eov",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Sean Healy Presents: MISSIO - Love & Heartbreak Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Teragram Ballroom",
+    "datetime_iso": "2026-11-02T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900650B02842801",
+    "ticketmaster_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900650B02842801",
+        "discovery_event_id": "vv170Z_8Gkie-eOv",
+        "url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_8Gkie-eOv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-salt-lake-city-z7r9jz1aazivp",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio (21+ Event)",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Urban Lounge-UT",
+    "datetime_iso": "2026-11-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvp",
+        "discovery_event_id": "Z7r9jZ1AAZIvp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvp",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-denver-g5vzz_8l-vdn4",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Marquis",
+    "datetime_iso": "2026-11-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00650AE1043A95",
+    "ticketmaster_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00650AE1043A95",
+        "discovery_event_id": "G5vzZ_8l-vdn4",
+        "url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_8l-vdn4",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-detroit-z7r9jz1aaziv8",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "TSDMAAC CRYPT",
+    "datetime_iso": "2026-11-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIv8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIv8",
+        "discovery_event_id": "Z7r9jZ1AAZIv8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIv8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-toronto-1avzz_8gklvsj7l",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Garrison",
+    "datetime_iso": "2026-11-20T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000650AF4CE612B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000650AF4CE612B",
+        "discovery_event_id": "1AvZZ_8GklVSJ7l",
+        "url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_8GklVSJ7l",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-boston-vv177z_8gklypyp_",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio (18+)",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Brighton Music Hall presented by Citizens",
+    "datetime_iso": "2026-11-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100650AF0979959",
+    "ticketmaster_url": "https://www.ticketmaster.com/missio-18-boston-massachusetts-11-22-2026/event/0100650AF0979959",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/missio-18-boston-massachusetts-11-22-2026/event/0100650AF0979959",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100650AF0979959",
+        "discovery_event_id": "vv177Z_8GklYPyP_",
+        "url": "https://www.ticketmaster.com/missio-18-boston-massachusetts-11-22-2026/event/0100650AF0979959",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_8GklYPyP_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-portland-z7r9jz1aazivo",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Star Theater",
+    "datetime_iso": "2026-12-11T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvo",
+        "discovery_event_id": "Z7r9jZ1AAZIvo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-seattle-z7r9jz1aaziv3",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Funhouse",
+    "datetime_iso": "2026-12-12T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIv3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIv3",
+        "discovery_event_id": "Z7r9jZ1AAZIv3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIv3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-vancouver-z7r9jz1aaziv9",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio (19+ Event)",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "The Pearl",
+    "datetime_iso": "2026-12-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIv9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZIv9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZIv9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIv9",
+        "discovery_event_id": "Z7r9jZ1AAZIv9",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZIv9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIv9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-spokane-z7r9jz1aazivk",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "The District Bar",
+    "datetime_iso": "2026-12-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvK",
+        "discovery_event_id": "Z7r9jZ1AAZIvK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-boise-z7r9jz1aazivf",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Knitting Factory Concert House - Boise",
+    "datetime_iso": "2026-12-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvf",
+        "discovery_event_id": "Z7r9jZ1AAZIvf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvf",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-chicago-z7r9jz1aazivb",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio (17+ Event)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Beat Kitchen",
+    "datetime_iso": "2027-01-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvb",
+        "discovery_event_id": "Z7r9jZ1AAZIvb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-cudahy-z7r9jz1aaziv_",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Cudahy",
+    "country": "United States Of America",
+    "venue": "X-Ray Arcade",
+    "datetime_iso": "2027-01-15T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIv_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIv_",
+        "discovery_event_id": "Z7r9jZ1AAZIv_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIv_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-minneapolis-z7r9jz1aazivo",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio (18+ Event)",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Fine Line Music Cafe",
+    "datetime_iso": "2027-01-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvO",
+        "discovery_event_id": "Z7r9jZ1AAZIvO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-cleveland-z7r9jz1aaztf7",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "House of Blues Cleveland",
+    "datetime_iso": "2027-01-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZtF7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZtF7",
+        "discovery_event_id": "Z7r9jZ1AAZtF7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZtF7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-cleveland-vv17fz_8gkl63cwa",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "The Cambridge Room at House of Blues Cleveland",
+    "datetime_iso": "2027-01-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500650AC74ADF45",
+    "ticketmaster_url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500650AC74ADF45",
+        "discovery_event_id": "vv17fZ_8Gkl63cWA",
+        "url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_8Gkl63cWA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-washington-z7r9jz1aaziv-",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Union Stage",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIv-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIv-",
+        "discovery_event_id": "Z7r9jZ1AAZIv-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIv-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-brooklyn-z7r9jz1aazivx",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Market Hotel",
+    "datetime_iso": "2027-02-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvx",
+        "discovery_event_id": "Z7r9jZ1AAZIvx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-philadelphia-vv17fz_8gkn83pvw",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Foundry",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200650A90496D32",
+    "ticketmaster_url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200650A90496D32",
+        "discovery_event_id": "vv17FZ_8Gkn83pVw",
+        "url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_8Gkn83pVw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-carrboro-z7r9jz1aazivn",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio w/ Fifteen0eight",
+    "city": "Carrboro",
+    "country": "United States Of America",
+    "venue": "Cat's Cradle",
+    "datetime_iso": "2027-03-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvN",
+        "discovery_event_id": "Z7r9jZ1AAZIvN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-atlanta-vvg1zz_8mbtifq",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Loft",
+    "datetime_iso": "2027-03-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00650BBAA6C51D",
+    "ticketmaster_url": "https://www.ticketmaster.com/missio-atlanta-georgia-03-11-2027/event/0E00650BBAA6C51D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/missio-atlanta-georgia-03-11-2027/event/0E00650BBAA6C51D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00650BBAA6C51D",
+        "discovery_event_id": "vvG1zZ_8mBtifq",
+        "url": "https://www.ticketmaster.com/missio-atlanta-georgia-03-11-2027/event/0E00650BBAA6C51D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_8mBtifq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-birmingham-z7r9jz1aazivp",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Workplay Soundstage",
+    "datetime_iso": "2027-03-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvP",
+        "discovery_event_id": "Z7r9jZ1AAZIvP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvP",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-nashville-z7r9jz1aazivj",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The End - Nashville",
+    "datetime_iso": "2027-03-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvJ",
+        "discovery_event_id": "Z7r9jZ1AAZIvJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-dallas-z7r9jz1aazive",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Puzzles Deep Ellum",
+    "datetime_iso": "2027-04-08T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvE",
+        "discovery_event_id": "Z7r9jZ1AAZIvE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-san-antonio-z7r9jz1aazivi",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "The Rock Box",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvI",
+        "discovery_event_id": "Z7r9jZ1AAZIvI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2027-austin-z7r9jz1aazivt",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Come and Take It Live",
+    "datetime_iso": "2027-04-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZIvt",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvt",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvt",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZIvt",
+        "discovery_event_id": "Z7r9jZ1AAZIvt",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvt",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvt",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

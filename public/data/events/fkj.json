@@ -1,0 +1,956 @@
+[
+  {
+    "id": "tm-fkj-2026-london-g5vhz_g13mdtb",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Exhibition White City",
+    "datetime_iso": "2026-10-29T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C292DC3FD8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fkj-london-29-10-2026/event/1F0064C292DC3FD8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fkj-london-29-10-2026/event/1F0064C292DC3FD8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C292DC3FD8",
+        "discovery_event_id": "G5vHZ_G13MdTb",
+        "url": "https://www.ticketmaster.co.uk/fkj-london-29-10-2026/event/1F0064C292DC3FD8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_G13MdTb",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2026-london-g5vhz_g1bafoo",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Exhibition White City",
+    "datetime_iso": "2026-10-30T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C298154811",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fkj-london-30-10-2026/event/1F0064C298154811",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fkj-london-30-10-2026/event/1F0064C298154811",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C298154811",
+        "discovery_event_id": "G5vHZ_G1bAfOo",
+        "url": "https://www.ticketmaster.co.uk/fkj-london-30-10-2026/event/1F0064C298154811",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_G1bAfOo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-portland-z7r9jz1a7pdgd",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "McMenamins Crystal Ballroom",
+    "datetime_iso": "2027-04-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PdGd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdGd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdGd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PdGd",
+        "discovery_event_id": "Z7r9jZ1A7PdGd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdGd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdGd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-seattle-z7r9jz1a7pduz",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Showbox SODO",
+    "datetime_iso": "2027-04-24T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PduZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PduZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PduZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PduZ",
+        "discovery_event_id": "Z7r9jZ1A7PduZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PduZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PduZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-vancouver-1778v0g65j57kh7",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-04-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064B98B113F04",
+    "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064B98B113F04",
+        "discovery_event_id": "1778v0G65J57KH7",
+        "url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G65J57KH7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-vancouver-1778v0g6g4hh0bi",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-04-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064C57CF24EAC",
+    "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064C57CF24EAC",
+        "discovery_event_id": "1778v0G6G4HH0Bi",
+        "url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G6G4HH0Bi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-denver-z7r9jz1a7pk0s",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2027-04-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PK0S",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0S",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0S",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PK0S",
+        "discovery_event_id": "Z7r9jZ1A7PK0S",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0S",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0S",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-chicago-vvg18z_5uyql9j",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Outdoors (Fairgrounds)",
+    "datetime_iso": "2027-05-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064BDB06AB5DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-chicago-illinois-05-27-2027/event/040064BDB06AB5DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-chicago-illinois-05-27-2027/event/040064BDB06AB5DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064BDB06AB5DC",
+        "discovery_event_id": "vvG18Z_5UYQl9j",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-chicago-illinois-05-27-2027/event/040064BDB06AB5DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_5UYQl9j",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-toronto-177zv0g65u2nyx_",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-05-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064BD8F8F9F99",
+    "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-toronto-ontario-05-28-2027/event/100064BD8F8F9F99",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-toronto-ontario-05-28-2027/event/100064BD8F8F9F99",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064BD8F8F9F99",
+        "discovery_event_id": "177Zv0G65U2NyX_",
+        "url": "https://www.ticketmaster.ca/fkj-tyber-tour-toronto-ontario-05-28-2027/event/100064BD8F8F9F99",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G65U2NyX_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-montreal-17g8v0g65rqmwty",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-06-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064BBDDBBDFF9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-montreal-quebec-05-31-2027/event/310064BBDDBBDFF9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-montreal-quebec-05-31-2027/event/310064BBDDBBDFF9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064BBDDBBDFF9",
+        "discovery_event_id": "17G8v0G65RqmWTy",
+        "url": "https://www.ticketmaster.ca/fkj-tyber-tour-montreal-quebec-05-31-2027/event/310064BBDDBBDFF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G65RqmWTy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-boston-vvg17z_5ryet2j",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-06-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064BBF09E93E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-boston-massachusetts-06-01-2027/event/010064BBF09E93E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-boston-massachusetts-06-01-2027/event/010064BBF09E93E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064BBF09E93E6",
+        "discovery_event_id": "vvG17Z_5RYEt2J",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-boston-massachusetts-06-01-2027/event/010064BBF09E93E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_5RYEt2J",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-philadelphia-vvg1fz_5rrowhv",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2027-06-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064BBEF472F34",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064BBEF472F34",
+        "discovery_event_id": "vvG1FZ_5RRowHV",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_5RRowHV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-brooklyn-k7vgf_5rij1fj",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-06-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064BBEC98A526",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-brooklyn-new-york-06-04-2027/event/000064BBEC98A526",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-brooklyn-new-york-06-04-2027/event/000064BBEC98A526",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064BBEC98A526",
+        "discovery_event_id": "k7vGF_5RiJ1fJ",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-brooklyn-new-york-06-04-2027/event/000064BBEC98A526",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_5RiJ1fJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-washington-17a8v0g65nnmzs3",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-06-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064BAAABB8CD2",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-washington-district-of-columbia-06-07-2027/event/150064BAAABB8CD2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-washington-district-of-columbia-06-07-2027/event/150064BAAABB8CD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064BAAABB8CD2",
+        "discovery_event_id": "17A8v0G65nnmzS3",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-washington-district-of-columbia-06-07-2027/event/150064BAAABB8CD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G65nnmzS3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-atlanta-vvg1zz_59up5bx",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Tabernacle Presented by iTHINK Financial",
+    "datetime_iso": "2027-06-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064B5F658B622",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-atlanta-georgia-06-09-2027/event/0E0064B5F658B622",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-atlanta-georgia-06-09-2027/event/0E0064B5F658B622",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064B5F658B622",
+        "discovery_event_id": "vvG1zZ_59Up5bx",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-atlanta-georgia-06-09-2027/event/0E0064B5F658B622",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_59Up5bx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-houston-g5diz_5msvufk",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Bayou Music Center",
+    "datetime_iso": "2027-06-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064BBB304D513",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-houston-texas-06-11-2027/event/3A0064BBB304D513",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-houston-texas-06-11-2027/event/3A0064BBB304D513",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064BBB304D513",
+        "discovery_event_id": "G5dIZ_5mSvufK",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-houston-texas-06-11-2027/event/3A0064BBB304D513",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_5mSvufK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-austin-z7r9jz1a7pdvn",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-06-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PdvN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdvN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdvN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PdvN",
+        "discovery_event_id": "Z7r9jZ1A7PdvN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdvN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdvN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-dallas-vvg1yz_5ry7uyw",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ - TYBER TOUR",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2027-06-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064BBF0136C3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-dallas-texas-06-14-2027/event/0C0064BBF0136C3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-dallas-texas-06-14-2027/event/0C0064BBF0136C3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064BBF0136C3D",
+        "discovery_event_id": "vvG1YZ_5RY7UYW",
+        "url": "https://www.ticketmaster.com/fkj-tyber-tour-dallas-texas-06-14-2027/event/0C0064BBF0136C3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_5RY7UYW",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

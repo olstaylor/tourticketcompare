@@ -3,8 +3,8 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "6d21bc26e83da5f6",
-      "content_updated_at": "2026-09-01"
+      "content_hash": "ddbab89100a1d7ca",
+      "content_updated_at": "2026-09-10"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
       "content_hash": "82a28e66f7c35897",
@@ -23,12 +23,12 @@
       "content_updated_at": "2026-09-01"
     },
     "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-      "content_hash": "032ca5600c055ec8",
-      "content_updated_at": "2026-09-01"
+      "content_hash": "e39a56abb59d174b",
+      "content_updated_at": "2026-09-10"
     },
     "/guides/when-is-the-best-time-to-buy-concert-tickets": {
-      "content_hash": "c0ab8b546108106b",
-      "content_updated_at": "2026-09-01"
+      "content_hash": "b7852d514f661a44",
+      "content_updated_at": "2026-09-10"
     },
     "/guides/primary-vs-resale-concert-tickets": {
       "content_hash": "7d9c1e2f26681a92",
@@ -47,8 +47,8 @@
       "content_updated_at": "2026-09-09"
     },
     "/guides/seatgeek-promo-code-guide": {
-      "content_hash": "b2cd94467a388c1e",
-      "content_updated_at": "2026-09-01"
+      "content_hash": "97726d01cc19033c",
+      "content_updated_at": "2026-09-10"
     },
     "/guides/concert-ticket-fees-explained": {
       "content_hash": "44040f3c510fadb2",
@@ -63,16 +63,16 @@
       "content_updated_at": "2026-09-01"
     },
     "/guides/how-to-prepare-for-a-ticket-onsale": {
-      "content_hash": "52e7450f276189cf",
-      "content_updated_at": "2026-09-01"
+      "content_hash": "d3d7b9617513b839",
+      "content_updated_at": "2026-09-10"
     },
     "/guides/how-to-read-a-ticket-listing": {
-      "content_hash": "ed00ca8d84baae16",
-      "content_updated_at": "2026-09-01"
+      "content_hash": "b0fbc542c8035ea3",
+      "content_updated_at": "2026-09-10"
     },
     "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
-      "content_hash": "63f0b22d8581f6f1",
-      "content_updated_at": "2026-09-01"
+      "content_hash": "ffb1b16c2e9422b3",
+      "content_updated_at": "2026-09-10"
     },
     "/": {
       "content_hash": "ed7a7be913737774",

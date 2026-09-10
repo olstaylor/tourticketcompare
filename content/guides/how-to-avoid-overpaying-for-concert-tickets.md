@@ -126,21 +126,9 @@ Waiting can sometimes produce different options, but it can also result in fewer
 
 ## How TourTicketCompare can help with research
 
-TourTicketCompare is built to help with the research step, not to replace the provider checkout.
+We handle the research step, not the checkout. That means artist pages with ticket links whose destination we have followed, guides and checklists like this one, and an explicit empty state when we have nothing confirmed for a show, so you can tell the difference between no dates and no coverage.
 
-We can provide:
-
-- Published artist pages with verified ticket links where the destination has been checked
-- Buying guides and practical checklists like this one
-- A clear empty state when no verified link is available, so you can see what is and is not confirmed
-
-We cannot provide:
-
-- Current prices or a comparison of provider checkout totals
-- Confirmation that a specific seat or ticket type is still available
-- A judgement that one provider is cheaper or better for a given event
-
-Once you click through to a ticket provider, that provider sets the current prices, fees, inventory, delivery options, refund terms, and checkout conditions. Confirm all of those on the provider site before buying.
+Where a provider feed supplies one, a date also carries a listed price stamped with the time we captured it. Treat that as a shortlist: it is not live inventory, not your checkout total, and not proof a seat is still there. Once you click through, the provider sets the price, fees, inventory, delivery options and refund terms, and those are what you should confirm before buying.
 
 ## FAQ
 

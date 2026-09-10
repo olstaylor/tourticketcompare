@@ -51,9 +51,9 @@ The closer you buy to the date, the less room there is to fix anything that goes
 
 Before a late purchase, confirm how and when the ticket is delivered, whether any transfer restrictions apply, and what support exists if delivery fails. A great-looking ticket that cannot reach you in time is no use at all.
 
-## The provider settles the details
+## What to confirm before you commit
 
-Whenever you buy, the live transaction happens on the provider's page, so confirm these there before committing:
+Whenever you decide to buy, check these on the provider's page:
 
 - The final total, after fees, taxes, delivery, and any currency conversion.
 - Current availability for the exact event and seats.

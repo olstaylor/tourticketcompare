@@ -65,8 +65,6 @@ Whether or not a code applies, run the same final checks:
 - SeatGeek's current refund, cancellation, and buyer terms cover your order.
 - You have saved the confirmation and support links once the order goes through.
 
-TourTicketCompare is an independent research site. We do not control promo availability, the size of any reduction, inventory, or the checkout total — SeatGeek sets those when you order.
-
 ## FAQ
 
 **How do I use a SeatGeek promo code?**

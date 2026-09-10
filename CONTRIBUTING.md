@@ -97,9 +97,21 @@ run exists to catch a failure early, not to prove the branch.
 | `npm run test:units` | ~20s | changed a script that has a `*:self-test` |
 | `npm run test:mvp` | ~75s | **required** for automation, provider-sync, redirect or affiliate changes |
 
-`test:quick` and `test:units` are an exact partition of `test:mvp`, enforced by
-`npm run test:lanes`, which both lanes run first — a step added to `test:mvp`
-cannot silently drop out of either.
+All three lanes are read from `scripts/test-manifest.mjs`, which lists every
+step once with the lane it belongs to. `test:mvp` runs the whole list;
+`test:quick` and `test:units` run it filtered, so they cannot drift out of the
+full suite and a new step cannot fall out of the pre-commit loop. Add a step by
+adding a manifest line. `npm run test:lanes` checks the manifest is coherent —
+lanes valid, ids unique, every command resolving — and both split lanes run it
+first.
+
+Each lane prints per-step timings and, on a failure, the command to re-run that
+one step:
+
+```bash
+npm run test:units -- --only blog     # just the blog self-test
+npm run test:mvp -- --list            # print the suite without running it
+```
 
 Two things the lanes do **not** cover, because they are not in `test:mvp` at all:
 

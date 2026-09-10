@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:45:17.358Z",
+  "generated_at": "2026-09-10T08:26:36.864Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -39,20 +39,20 @@
     },
     "city": {
       "rendered": 175,
-      "indexable": 55
+      "indexable": 54
     },
     "venue": {
       "rendered": 299,
       "indexable": 71
     },
     "artist-city": {
-      "rendered": 572,
+      "rendered": 571,
       "indexable": 102
     }
   },
   "overall": {
-    "rendered": 1151,
-    "indexable": 326,
+    "rendered": 1150,
+    "indexable": 325,
     "noindex": 825,
     "baseline_indexable": 311
   },
@@ -62,15 +62,15 @@
       "no_upcoming_shows": 7
     },
     "city": {
-      "below_show_threshold": 120,
+      "below_show_threshold": 121,
       "below_artist_threshold": 86
     },
     "venue": {
       "below_show_threshold": 222,
-      "below_artist_threshold": 184
+      "below_artist_threshold": 185
     },
     "artist-city": {
-      "below_show_threshold": 470
+      "below_show_threshold": 469
     }
   },
   "expiring_within_warn_days": [
@@ -99,7 +99,7 @@
       "path": "/artists/zach-bryan/tickets/dover-united-states",
       "type": "artist-city",
       "last_show": "2026-09-19",
-      "days_left": 10,
+      "days_left": 9,
       "reason": "runs_out_of_shows"
     },
     {
@@ -152,17 +152,24 @@
       "reason": "falls_below_threshold"
     },
     {
-      "path": "/cities/indianapolis-united-states",
+      "path": "/cities/saint-louis-united-states",
       "type": "city",
-      "last_show": "2027-03-26",
-      "days_left": 198,
+      "last_show": "2027-03-28",
+      "days_left": 199,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/venues/enterprise-center-saint-louis",
+      "type": "venue",
+      "last_show": "2027-03-28",
+      "days_left": 199,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/birmingham-united-kingdom",
       "type": "city",
       "last_show": "2027-04-10",
-      "days_left": 213,
+      "days_left": 212,
       "reason": "falls_below_threshold"
     }
   ],
@@ -200,7 +207,7 @@
     {
       "pattern": "{} Tickets in {} | Compare Prices",
       "count": 101,
-      "share_of_indexable": 31
+      "share_of_indexable": 31.1
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
@@ -209,13 +216,13 @@
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
-      "count": 57,
-      "share_of_indexable": 17.5
+      "count": 56,
+      "share_of_indexable": 17.2
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
-      "count": 55,
-      "share_of_indexable": 16.9
+      "count": 54,
+      "share_of_indexable": 16.6
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -369,6 +376,11 @@
     },
     {
       "pattern": "{} Tickets & Dates | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.3
+    },
+    {
+      "pattern": "{} Tickets | TourTicketCompare",
       "count": 1,
       "share_of_indexable": 0.3
     },
@@ -593,15 +605,15 @@
         },
         "after": {
           "rendered": 175,
-          "indexable": 55
+          "indexable": 54
         },
         "at_baseline_instant": {
           "rendered": 175,
           "indexable": 57
         },
         "kind": "inventory-decay",
-        "indexableDelta": -1,
-        "clockDelta": -2,
+        "indexableDelta": -2,
+        "clockDelta": -3,
         "residual": 1,
         "tolerance": 6
       },
@@ -632,7 +644,7 @@
           "indexable": 106
         },
         "after": {
-          "rendered": 572,
+          "rendered": 571,
           "indexable": 102
         },
         "at_baseline_instant": {

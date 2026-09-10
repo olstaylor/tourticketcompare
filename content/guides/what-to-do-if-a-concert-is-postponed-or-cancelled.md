@@ -59,7 +59,7 @@ Do not assume your ticket's status. Confirm it against the provider's official u
 
 ## Read the refund, transfer, and delivery rules
 
-Refund, transfer, resale, and delivery rules are provider-specific and event-specific. TourTicketCompare cannot tell you the outcome for your order.
+Refund, transfer, resale, and delivery rules are specific to both the provider and the event, so the answer for someone else's order tells you nothing about yours.
 
 When you read the provider's update and terms, look for:
 - Whether any action is required from you, and by when.

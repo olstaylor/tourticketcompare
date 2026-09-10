@@ -103,9 +103,11 @@ For resale, read the marketplace's current buyer-protection terms and exclusions
 
 ## How TourTicketCompare produces a comparison
 
-TourTicketCompare does not scrape ticket pages. A public comparison appears only when an event has verified provider-level provenance and the approved provider feed supplies a valid, timestamped listed-price observation that has not expired. When two approved observations describe the same verified event and use the same currency, the site can show the lower listed snapshot and the numerical difference.
+Nothing here is scraped. A figure appears only when a provider feed supplies a numeric listed price under terms that allow us to show it, attached to an event whose provenance we have already verified.
 
-We do not claim that a snapshot is a live checkout total, compare seat quality automatically, guarantee availability, or declare one provider universally lower-priced. If a source, match, timestamp, or provider lane fails its gate, the price or comparison stays hidden.
+That is why some checked links carry a price and others never do. Vivid Seats, TicketNetwork and StubHub International supply one. SeatGeek does not, permanently — its API returns no pricing statistics for this site's client — so it stays a checked-link provider. Ticketmaster is a verification and link source rather than a price lane.
+
+If a source, match, timestamp or provider lane fails its gate, the price stays hidden rather than being estimated. We never compare seat quality automatically, and we never call a provider universally lower-priced.
 
 ## FAQ
 

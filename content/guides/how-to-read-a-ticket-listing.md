@@ -48,9 +48,9 @@ Common delivery indicators include mobile transfer, instant download, delayed de
 - The full checkout total, including all fees, is within your budget.
 - The provider's terms for this exact order, including refund and transfer rules, are readable before payment.
 
-## Important limits
+## If a detail doesn't add up
 
-TourTicketCompare does not control listing details, seat map data, ticket-type labels, fees, or delivery rules. Final order details are confirmed on the provider site. If a listing detail is unclear, treat that as a reason to slow down, not a reason to buy.
+Providers each label listings their own way, and the order screen is where the details are finally settled. So an unclear listing note, an unexplained ticket type, or a delivery method you cannot pin down is a reason to slow down, not a reason to buy.
 
 ## FAQ
 

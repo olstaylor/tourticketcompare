@@ -44,10 +44,6 @@ Presales can include artist fan-club, credit-card holder, venue, radio, and Veri
 
 Missing the initial onsale is common. Official resale on the original provider often opens later, sometimes at the original price. Verified resale marketplaces may list tickets too, but listing details and the final checkout total should be checked carefully. Avoid sellers on social media or messaging apps who ask for direct payment outside a verified platform.
 
-## Important limits
-
-TourTicketCompare does not control onsale timing, presale eligibility, queue order, inventory, prices, or fees. Provider terms and venue rules apply at checkout and at entry. Confirm everything on the provider's current pages before you commit to a purchase.
-
 ## FAQ
 
 **What should I do before a concert ticket onsale?**

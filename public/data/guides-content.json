@@ -38,7 +38,7 @@
       {
         "type": "section",
         "title": "How TourTicketCompare produces a comparison",
-        "content": "TourTicketCompare does not scrape ticket pages. A public comparison appears only when an event has verified provider-level provenance and the approved provider feed supplies a valid, timestamped listed-price observation that has not expired. When two approved observations describe the same verified event and use the same currency, the site can show the lower listed snapshot and the numerical difference.\n\nWe do not claim that a snapshot is a live checkout total, compare seat quality automatically, guarantee availability, or declare one provider universally lower-priced. If a source, match, timestamp, or provider lane fails its gate, the price or comparison stays hidden."
+        "content": "Nothing here is scraped. A figure appears only when a provider feed supplies a numeric listed price under terms that allow us to show it, attached to an event whose provenance we have already verified.\n\nThat is why some checked links carry a price and others never do. Vivid Seats, TicketNetwork and StubHub International supply one. SeatGeek does not, permanently — its API returns no pricing statistics for this site's client — so it stays a checked-link provider. Ticketmaster is a verification and link source rather than a price lane.\n\nIf a source, match, timestamp or provider lane fails its gate, the price stays hidden rather than being estimated. We never compare seat quality automatically, and we never call a provider universally lower-priced."
       },
       {
         "type": "section",
@@ -614,7 +614,7 @@
       {
         "type": "section",
         "title": "How TourTicketCompare can help with research",
-        "content": "TourTicketCompare is built to help with the research step, not to replace the provider checkout.\n\nWe can provide:\n\n- Published artist pages with verified ticket links where the destination has been checked\n- Buying guides and practical checklists like this one\n- A clear empty state when no verified link is available, so you can see what is and is not confirmed\n\nWe cannot provide:\n\n- Current prices or a comparison of provider checkout totals\n- Confirmation that a specific seat or ticket type is still available\n- A judgement that one provider is cheaper or better for a given event\n\nOnce you click through to a ticket provider, that provider sets the current prices, fees, inventory, delivery options, refund terms, and checkout conditions. Confirm all of those on the provider site before buying."
+        "content": "We handle the research step, not the checkout. That means artist pages with ticket links whose destination we have followed, guides and checklists like this one, and an explicit empty state when we have nothing confirmed for a show, so you can tell the difference between no dates and no coverage.\n\nWhere a provider feed supplies one, a date also carries a listed price stamped with the time we captured it. Treat that as a shortlist: it is not live inventory, not your checkout total, and not proof a seat is still there. Once you click through, the provider sets the price, fees, inventory, delivery options and refund terms, and those are what you should confirm before buying."
       },
       {
         "type": "section",
@@ -685,8 +685,8 @@
       },
       {
         "type": "section",
-        "title": "The provider settles the details",
-        "content": "Whenever you buy, the live transaction happens on the provider's page, so confirm these there before committing:\n\n- The final total, after fees, taxes, delivery, and any currency conversion.\n- Current availability for the exact event and seats.\n- Seat section, row, view notes, and whether the seats are together.\n- Ticket type, delivery method, transfer timing, and any mobile-entry requirement.\n- Refund, cancellation, postponement, resale, and support terms.\n\nIf any of it is unclear, pause before you pay."
+        "title": "What to confirm before you commit",
+        "content": "Whenever you decide to buy, check these on the provider's page:\n\n- The final total, after fees, taxes, delivery, and any currency conversion.\n- Current availability for the exact event and seats.\n- Seat section, row, view notes, and whether the seats are together.\n- Ticket type, delivery method, transfer timing, and any mobile-entry requirement.\n- Refund, cancellation, postponement, resale, and support terms.\n\nIf any of it is unclear, pause before you pay."
       },
       {
         "type": "section",
@@ -1055,7 +1055,7 @@
       {
         "type": "section",
         "title": "What to confirm before you buy",
-        "content": "Whether or not a code applies, run the same final checks:\n\n- Artist, date, venue, and city match the show you want.\n- Section, row, or listing details are clear for the seats you are buying.\n- The final total — after any code and all fees — is one you are happy with.\n- Delivery timing and transfer method suit your plans.\n- SeatGeek's current refund, cancellation, and buyer terms cover your order.\n- You have saved the confirmation and support links once the order goes through.\n\nTourTicketCompare is an independent research site. We do not control promo availability, the size of any reduction, inventory, or the checkout total — SeatGeek sets those when you order."
+        "content": "Whether or not a code applies, run the same final checks:\n\n- Artist, date, venue, and city match the show you want.\n- Section, row, or listing details are clear for the seats you are buying.\n- The final total — after any code and all fees — is one you are happy with.\n- Delivery timing and transfer method suit your plans.\n- SeatGeek's current refund, cancellation, and buyer terms cover your order.\n- You have saved the confirmation and support links once the order goes through."
       },
       {
         "type": "section",
@@ -1316,11 +1316,6 @@
       },
       {
         "type": "section",
-        "title": "Important limits",
-        "content": "TourTicketCompare does not control onsale timing, presale eligibility, queue order, inventory, prices, or fees. Provider terms and venue rules apply at checkout and at entry. Confirm everything on the provider's current pages before you commit to a purchase."
-      },
-      {
-        "type": "section",
         "title": "FAQ",
         "content": "**What should I do before a concert ticket onsale?**\n\nConfirm the official seller and start time, create and verify your account, save an accepted payment method, know your seat and budget limits, and keep any legitimate access code ready.\n\n**Does joining a waiting room early guarantee a better queue position?**\n\nNo. Queue processes differ and an early arrival does not guarantee first place or a completed purchase. Follow the instructions on the official event page.\n\n**Is a presale code the same as a promo code?**\n\nNo. A presale or access code unlocks ticket inventory during a defined sale window; a promo code reduces an eligible order total. Each has separate terms.\n\n**What if tickets sell out during the onsale?**\n\nDo not rush to an unverified seller. Recheck the official source for later releases or added dates, and evaluate any resale listing by its exact seat, final total, delivery, and protection terms."
       },
@@ -1380,8 +1375,8 @@
       },
       {
         "type": "section",
-        "title": "Important limits",
-        "content": "TourTicketCompare does not control listing details, seat map data, ticket-type labels, fees, or delivery rules. Final order details are confirmed on the provider site. If a listing detail is unclear, treat that as a reason to slow down, not a reason to buy."
+        "title": "If a detail doesn't add up",
+        "content": "Providers each label listings their own way, and the order screen is where the details are finally settled. So an unclear listing note, an unexplained ticket type, or a delivery method you cannot pin down is a reason to slow down, not a reason to buy."
       },
       {
         "type": "section",
@@ -1442,7 +1437,7 @@
       {
         "type": "section",
         "title": "Read the refund, transfer, and delivery rules",
-        "content": "Refund, transfer, resale, and delivery rules are provider-specific and event-specific. TourTicketCompare cannot tell you the outcome for your order.\n\nWhen you read the provider's update and terms, look for:\n- Whether any action is required from you, and by when.\n- Whether refunds, credits, or exchanges are being offered for your event, and how they are requested.\n- Whether tickets already delivered remain valid, or whether new tickets will be issued.\n- How transferred tickets are handled if you sent or received a ticket from someone else.\n- Any deadline for responding, since some options are time-limited.\n\nIf the terms are unclear, contact the provider's official support channel rather than relying on second-hand summaries. For a wider view of checking totals and terms before any purchase, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
+        "content": "Refund, transfer, resale, and delivery rules are specific to both the provider and the event, so the answer for someone else's order tells you nothing about yours.\n\nWhen you read the provider's update and terms, look for:\n- Whether any action is required from you, and by when.\n- Whether refunds, credits, or exchanges are being offered for your event, and how they are requested.\n- Whether tickets already delivered remain valid, or whether new tickets will be issued.\n- How transferred tickets are handled if you sent or received a ticket from someone else.\n- Any deadline for responding, since some options are time-limited.\n\nIf the terms are unclear, contact the provider's official support channel rather than relying on second-hand summaries. For a wider view of checking totals and terms before any purchase, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
       },
       {
         "type": "section",

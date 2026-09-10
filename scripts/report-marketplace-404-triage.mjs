@@ -3,8 +3,9 @@
  * report-marketplace-404-triage.mjs — one-off triage report for the 2026-07-17
  * revenue-leakage review (READ-ONLY).
  *
- * The 2026-07-17 review (reports/status-history/2026-07-17-audit-reconciliation.md;
- * daily-audit rolling issue #457) lists 10 marketplace destinations that
+ * The 2026-07-17 revenue-leakage review (daily-audit rolling issue #457; its
+ * narrative is in git history, removed from the working tree once the review
+ * concluded) lists 10 marketplace destinations that
  * return 404 but remain published
  * because their provider catalog state still says `listed`, across 4 events:
  * Ariana Grande Brooklyn 13 July, Bad Bunny Warsaw, Shakira Newark, and
@@ -55,9 +56,8 @@ const DEFAULT_EVENTS_PATH = join(ROOT, "public", "data", "events.json");
 
 // ---------------------------------------------------------------------------
 // Review scope — the 10 audit-404 marketplace destinations of the 2026-07-17
-// review (reports/status-history/2026-07-17-audit-reconciliation.md; daily-audit
-// issue #457 URL-liveness table). One-off: this is the fixed triage scope, not
-// a live liveness check.
+// review (daily-audit issue #457 URL-liveness table). One-off: this is the
+// fixed triage scope, not a live liveness check.
 // ---------------------------------------------------------------------------
 const REVIEW_SCOPE = [
   {

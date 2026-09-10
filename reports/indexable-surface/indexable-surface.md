@@ -1,6 +1,6 @@
 # Indexable-surface audit
 
-Generated: 2026-09-10T12:36:41.993Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-09-10T13:43:17.399Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 

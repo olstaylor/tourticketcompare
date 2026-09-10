@@ -2545,5 +2545,1118 @@
     "ticketmaster_discovery_event_id": "1AeGZ_eGkM4csFW",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-docklands-1apzk8ugkd2sm8u",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2026-11-27T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006436CFC6E40D",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-27-11-2026/event/25006436CFC6E40D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-27-11-2026/event/25006436CFC6E40D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006436CFC6E40D",
+        "discovery_event_id": "1APZk8UGkd2sm8u",
+        "url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-27-11-2026/event/25006436CFC6E40D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk8UGkd2sm8u",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-docklands-16efz_dckg7slsc",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2026-11-28T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500643393CDFCCE",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-28-11-2026/event/2500643393CDFCCE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-28-11-2026/event/2500643393CDFCCE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500643393CDFCCE",
+        "discovery_event_id": "16efZ_dCKG7SLSC",
+        "url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-28-11-2026/event/2500643393CDFCCE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16efZ_dCKG7SLSC",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-docklands-1apzk8ugkd2mxoc",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2026-12-02T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006436CFDFE44E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-02-12-2026/event/25006436CFDFE44E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-02-12-2026/event/25006436CFDFE44E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006436CFDFE44E",
+        "discovery_event_id": "1APZk8UGkd2MXoC",
+        "url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-02-12-2026/event/25006436CFDFE44E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk8UGkd2MXoC",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-docklands-1apzk8ugkd2broi",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2026-12-04T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006436CFE9E468",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-04-12-2026/event/25006436CFE9E468",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-04-12-2026/event/25006436CFE9E468",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006436CFE9E468",
+        "discovery_event_id": "1APZk8UGkd2BroI",
+        "url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-04-12-2026/event/25006436CFE9E468",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk8UGkd2BroI",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-sydney-olympic-park-1ka8v0ukgagf72c",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2026-12-12T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064346C5043CE",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-12-12-2026/event/250064346C5043CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-12-12-2026/event/250064346C5043CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064346C5043CE",
+        "discovery_event_id": "1ka8v0ukGAGf72C",
+        "url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-12-12-2026/event/250064346C5043CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ka8v0ukGAGf72C",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-sydney-olympic-park-1apzk8ugkdafgq9",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2026-12-13T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006436C550C697",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-13-12-2026/event/25006436C550C697",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-13-12-2026/event/25006436C550C697",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006436C550C697",
+        "discovery_event_id": "1APZk8UGkdAfGQ9",
+        "url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-13-12-2026/event/25006436C550C697",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk8UGkdAfGQ9",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-pasadena-vvg1iz_3npi4df",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Pasadena",
+    "country": "United States Of America",
+    "venue": "Rose Bowl",
+    "datetime_iso": "2027-04-24T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006528E5B15ED4",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-23-2027/event/0B006528E5B15ED4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-23-2027/event/0B006528E5B15ED4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006528E5B15ED4",
+        "discovery_event_id": "vvG1iZ_3NPi4Df",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-23-2027/event/0B006528E5B15ED4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_3NPi4Df",
+    "timezone": "America/Los_Angeles",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Pasadena",
+    "country": "United States Of America",
+    "venue": "Rose Bowl",
+    "datetime_iso": "2027-04-25T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006528E9AB6118",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-24-2027/event/0B006528E9AB6118",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-24-2027/event/0B006528E9AB6118",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006528E9AB6118",
+        "discovery_event_id": "vvG1iZ_3NtnU7b",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-24-2027/event/0B006528E9AB6118",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_3NtnU7b",
+    "timezone": "America/Los_Angeles",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-toronto-1a8zkftgkdpce50",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-05-07T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006529D6B422E4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-07-2027/event/10006529D6B422E4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-07-2027/event/10006529D6B422E4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006529D6B422E4",
+        "discovery_event_id": "1A8ZkftGkdpce50",
+        "url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-07-2027/event/10006529D6B422E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkftGkdpce50",
+    "timezone": "America/Toronto",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-toronto-1a8zkftanayze5g",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-05-08T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006529263279AB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-08-2027/event/10006529263279AB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-08-2027/event/10006529263279AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006529263279AB",
+        "discovery_event_id": "1a8ZkftaNayZe5G",
+        "url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-08-2027/event/10006529263279AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1a8ZkftaNayZe5G",
+    "timezone": "America/Toronto",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-atlanta-vvg1zz_3nnlppu",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Mercedes-Benz Stadium",
+    "datetime_iso": "2027-05-21T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006528EA7D694D",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-21-2027/event/0E006528EA7D694D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-21-2027/event/0E006528EA7D694D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006528EA7D694D",
+        "discovery_event_id": "vvG1zZ_3NnLpPu",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-21-2027/event/0E006528EA7D694D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3NnLpPu",
+    "timezone": "America/New_York",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-atlanta-vvg1zz_3ef8eqn",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Mercedes-Benz Stadium",
+    "datetime_iso": "2027-05-22T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006529D44026AA",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-22-2027/event/0E006529D44026AA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-22-2027/event/0E006529D44026AA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006529D44026AA",
+        "discovery_event_id": "vvG1zZ_3Ef8eQn",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-22-2027/event/0E006529D44026AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3Ef8eQn",
+    "timezone": "America/New_York",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdrmtch",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-05-29T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006529DEBBFB7C",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-28-2027/event/04006529DEBBFB7C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-28-2027/event/04006529DEBBFB7C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006529DEBBFB7C",
+        "discovery_event_id": "vv1A7ZkftGkdrmTcH",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-28-2027/event/04006529DEBBFB7C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkftGkdrmTcH",
+    "timezone": "America/Chicago",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdgsgdj",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-05-30T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006529F5CF50DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-29-2027/event/04006529F5CF50DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-29-2027/event/04006529F5CF50DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006529F5CF50DC",
+        "discovery_event_id": "vv1A7ZkftGkdgSgdj",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-29-2027/event/04006529F5CF50DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkftGkdgSgdj",
+    "timezone": "America/Chicago",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-madrid-z698xz2qz16v0sptae",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2027-07-30T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1933969167",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1933969167?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1933969167?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1933969167",
+        "discovery_event_id": "Z698xZ2qZ16v0SPtAE",
+        "url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1933969167?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0SPtAE",
+    "timezone": "Europe/Madrid",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-madrid-z698xz2qz16v8zj448",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2027-07-31T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400995550",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1400995550?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1400995550?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400995550",
+        "discovery_event_id": "Z698xZ2qZ16v8ZJ448",
+        "url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1400995550?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v8ZJ448",
+    "timezone": "Europe/Madrid",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-dublin-1abzkftgkexalp_",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Croke Park",
+    "datetime_iso": "2027-08-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006529A226B959",
+    "ticketmaster_url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-18-08-2027/event/18006529A226B959",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-18-08-2027/event/18006529A226B959",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006529A226B959",
+        "discovery_event_id": "1AbZkftGkexalP_",
+        "url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-18-08-2027/event/18006529A226B959",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkftGkexalP_",
+    "timezone": "Europe/London",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-dublin-1avoz_3gkn1nb3y",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Croke Park",
+    "datetime_iso": "2027-08-20T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800652A8AA984B9",
+    "ticketmaster_url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-20-08-2027/event/1800652A8AA984B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-20-08-2027/event/1800652A8AA984B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800652A8AA984B9",
+        "discovery_event_id": "1AvOZ_3Gkn1nb3y",
+        "url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-20-08-2027/event/1800652A8AA984B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_3Gkn1nb3y",
+    "timezone": "Europe/London",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-london-1aegz_8gkdalwdz",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-08-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300650EC5AF20F8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300650EC5AF20F8",
+        "discovery_event_id": "1AeGZ_8GkDAlwdz",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_8GkDAlwdz",
+    "timezone": "Europe/London",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-london-1anzkfigkew9djd",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-08-27T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006528B25C373B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006528B25C373B",
+        "discovery_event_id": "1ANZkfIGkew9djD",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkfIGkew9djD",
+    "timezone": "Europe/London",
+    "status": "announced"
+  },
+  {
+    "id": "tm-harry-styles-2027-london-1anzkfigkeycdjb",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-08-28T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006528B9383998",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006528B9383998",
+        "discovery_event_id": "1ANZkfIGkeyCdJb",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkfIGkeyCdJb",
+    "timezone": "Europe/London",
+    "status": "announced"
   }
 ]

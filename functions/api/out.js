@@ -34,7 +34,9 @@ const PROVIDERS = {
       "ticketmaster.se",
       "ticketmaster.pl",
       "ticketmaster.be",
-      "ticketmaster.it"
+      "ticketmaster.it",
+      "ticketmaster.com.au",
+      "ticketmaster.ie"
     ],
     trustedAffiliateHosts: []
   },

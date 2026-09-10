@@ -158,9 +158,39 @@ function normalizeKeyPart(value, { stripPunctuation = false } = {}) {
   return out.replace(/\s+/g, " ").trim();
 }
 
-function localDateFromIso(datetimeIso) {
+// Venue-local calendar date (YYYY-MM-DD) for a candidate row. Mirrors
+// event_local_date() in scripts/sync-ticketmaster-events.py, deliberately
+// including its fallback: naive datetimes are legacy rows already storing
+// venue-local time, and a UTC/offset datetime without an IANA zone falls back
+// to the UTC date because nothing better is available.
+//
+// The conversion is not cosmetic. An evening show in the Americas lands on the
+// next UTC date, so a Wednesday-evening show and the Thursday matinee that
+// follows it at the same venue both read as Thursday on a plain slice, and
+// planMerge() flags two genuinely distinct shows as a semantic duplicate —
+// which hard-blocks the whole write. Observed on the two Pink Martini shows at
+// the Pantages Theatre, Minneapolis on 2027-02-13 and 2027-02-14.
+function localDateFromIso(datetimeIso, timezone = "") {
   const dt = clean(datetimeIso);
   if (!dt) return "";
+  const tz = clean(timezone);
+  const hasOffset = /Z$/.test(dt) || /[+-]\d{2}:\d{2}$/.test(dt);
+  if (hasOffset && tz.includes("/")) {
+    const parsed = new Date(dt);
+    if (!Number.isNaN(parsed.getTime())) {
+      try {
+        // en-CA renders as YYYY-MM-DD, which is the format stored everywhere else.
+        return new Intl.DateTimeFormat("en-CA", {
+          timeZone: tz,
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit"
+        }).format(parsed);
+      } catch {
+        // Unknown/unsupported zone — fall through to the UTC date below.
+      }
+    }
+  }
   const m = dt.match(/^(\d{4}-\d{2}-\d{2})/);
   return m ? m[1] : "";
 }
@@ -171,7 +201,7 @@ function semanticDuplicateKey(row) {
     normalizeKeyPart(row.venue, { stripPunctuation: true }),
     normalizeKeyPart(row.city, { stripPunctuation: true }),
     normalizeKeyPart(row.country, { stripPunctuation: true }),
-    localDateFromIso(row.datetime_iso)
+    localDateFromIso(row.datetime_iso, row.timezone)
   ].join("||");
 }
 
@@ -554,6 +584,23 @@ function runSelfTest() {
     { ...goodRow, id: "c2", venue: "The O2", city: "London", country: "GB", datetime_iso: "2026-06-02T19:00:00+01:00" }
   ]);
   assert("same artist/venue but different date is not duplicate", differentDatePlan.semanticDuplicateGroups.length === 0);
+  // An evening show in the Americas rolls past midnight UTC, so it shares a UTC
+  // date with the next day's matinee at the same venue. With the venue timezone
+  // these are two distinct local dates and must not be flagged. Regression for
+  // the two Pink Martini shows at the Pantages Theatre, Minneapolis.
+  const eveningThenMatineePlan = planMerge([], [
+    { ...goodRow, id: "d1", venue: "Pantages Theatre", city: "Minneapolis", country: "United States Of America", timezone: "America/Chicago", datetime_iso: "2027-02-14T02:00:00Z" },
+    { ...goodRow, id: "d2", venue: "Pantages Theatre", city: "Minneapolis", country: "United States Of America", timezone: "America/Chicago", datetime_iso: "2027-02-14T20:00:00Z" }
+  ]);
+  assert("evening show and next-day matinee are not duplicates once the venue timezone is applied", eveningThenMatineePlan.semanticDuplicateGroups.length === 0);
+  const sameLocalDatePlan = planMerge([], [
+    { ...goodRow, id: "e1", venue: "Pantages Theatre", city: "Minneapolis", country: "United States Of America", timezone: "America/Chicago", datetime_iso: "2027-02-14T20:00:00Z" },
+    { ...goodRow, id: "e2", venue: "Pantages Theatre", city: "Minneapolis", country: "United States Of America", timezone: "America/Chicago", datetime_iso: "2027-02-15T01:00:00Z" }
+  ]);
+  assert("two shows on the same venue-local date are still flagged as duplicates", sameLocalDatePlan.semanticDuplicateGroups.length === 1);
+  assert("a UTC datetime with no venue timezone still falls back to the UTC date", localDateFromIso("2027-02-14T02:00:00Z") === "2027-02-14");
+  assert("an unknown timezone falls back to the UTC date rather than throwing", localDateFromIso("2027-02-14T02:00:00Z", "Not/AZone") === "2027-02-14");
+  assert("a naive legacy datetime keeps its stored date", localDateFromIso("2027-02-13T20:00:00", "America/Chicago") === "2027-02-13");
 
   let failed = 0;
   for (const check of checks) {
@@ -682,7 +729,7 @@ async function main() {
       out.push(
         `      - row id=${clean(row.id)} tm_event_id=${clean(row.ticketmaster_event_id) || "(none)"} ` +
           `artist_slug=${clean(row.artist_slug)} venue=${clean(row.venue)} city=${clean(row.city)} ` +
-          `country=${clean(row.country)} date=${localDateFromIso(row.datetime_iso) || "(invalid)"} ` +
+          `country=${clean(row.country)} date=${localDateFromIso(row.datetime_iso, row.timezone) || "(invalid)"} ` +
           `ticketmaster_url=${clean(row.ticketmaster_url) || "(none)"}`
       );
     }

@@ -281,19 +281,16 @@ jobs:
           node scripts/validate-status-counts.mjs --write
           npm run status:surface:write
           # The command above also refreshes the human-readable and JSON
-          # evidence reports. They are intentionally not committed by this
-          # job: their generated_at timestamp would create daily churn. Restore
-          # those two evidence files before the allowlist check; the status
-          # figures remain the only persisted output of this job.
-          git restore --source=HEAD -- reports/indexable-surface/indexable-surface.json reports/indexable-surface/indexable-surface.md
+          # evidence reports. Those are gitignored — their generated_at stamp
+          # would create daily churn — so they neither reach the commit nor show
+          # up in the allowlist check below. The status figures remain the only
+          # persisted output of this job.
 
       - name: Check for changes
         id: diff
         run: |
           # PROJECT_STATUS.md only. The regenerated reports/indexable-surface/
-          # files carry a generated_at stamp that changes every run, so
-          # committing them daily would be pure churn; they are evidence,
-          # regenerated on demand, not state.
+          # files are gitignored evidence, regenerated on demand, not state.
           if git diff --quiet -- PROJECT_STATUS.md; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else

@@ -4,6 +4,16 @@ node_modules/
 .env
 .DS_Store
 
+# Generated audit evidence. Each audit writes these only on a full run; the
+# `--check` mode that CI and test:mvp use exits before writing. Their
+# generated_at stamp changes every run, so committing them is pure churn — they
+# are evidence, regenerated on demand, not state. baseline.json alongside them is
+# deliberately NOT ignored: it is the drift anchor `--check` reads.
+reports/indexable-surface/indexable-surface.json
+reports/indexable-surface/indexable-surface.md
+reports/internal-links/internal-links-audit.json
+reports/internal-links/internal-links-audit.md
+
 # Generated SeatGeek proposal output (dry-run candidates; uploaded separately, not committed)
 reports/seatgeek-url-candidates.json
 reports/seatgeek-*.json

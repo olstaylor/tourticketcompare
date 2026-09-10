@@ -74,7 +74,6 @@ scripts/                     Validation, sync, reporting, and automation tools
   lib/artist-filter.mjs      Shared exact `--artist` filter semantics
 .github/workflows/           Scheduled and manual automation
 reports/provider-sync/       Latest generated provider-sync audit output
-reports/status-history/      Dated frozen status narratives moved out of PROJECT_STATUS.md
 docs/                        Stable policies and runbooks
 migrations/                  Ordered D1 migrations and applied-state ledger
 ```

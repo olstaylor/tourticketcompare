@@ -31,7 +31,7 @@
 //   npm run report:link-coverage              (human report)
 //   npm run report:link-coverage -- --json    (machine-readable)
 //   npm run report:link-coverage:check        (fails on zero-link upcoming events)
-//   npm run report:link-coverage:self-test
+//   node scripts/report-link-coverage.mjs --self-test  (runs in test:units via the manifest)
 
 import fs from "node:fs/promises";
 import path from "node:path";

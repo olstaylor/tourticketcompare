@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T10:47:02.143Z",
+  "generated_at": "2026-09-10T13:43:17.399Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -38,22 +38,22 @@
       "indexable": 58
     },
     "city": {
-      "rendered": 208,
+      "rendered": 212,
       "indexable": 59
     },
     "venue": {
-      "rendered": 433,
-      "indexable": 95
+      "rendered": 440,
+      "indexable": 97
     },
     "artist-city": {
-      "rendered": 791,
-      "indexable": 131
+      "rendered": 800,
+      "indexable": 140
     }
   },
   "overall": {
-    "rendered": 1537,
-    "indexable": 383,
-    "noindex": 1154,
+    "rendered": 1557,
+    "indexable": 394,
+    "noindex": 1163,
     "baseline_indexable": 311
   },
   "exclusion_reasons": {
@@ -62,12 +62,12 @@
       "no_upcoming_shows": 7
     },
     "city": {
-      "below_show_threshold": 149,
-      "below_artist_threshold": 98
+      "below_show_threshold": 152,
+      "below_artist_threshold": 102
     },
     "venue": {
-      "below_show_threshold": 333,
-      "below_artist_threshold": 282
+      "below_show_threshold": 337,
+      "below_artist_threshold": 288
     },
     "artist-city": {
       "below_show_threshold": 660
@@ -78,14 +78,14 @@
       "path": "/artists/bruno-mars/tickets/tampa-united-states",
       "type": "artist-city",
       "last_show": "2026-09-13",
-      "days_left": 4,
+      "days_left": 3,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/charli-xcx/tickets/brooklyn-united-states",
       "type": "artist-city",
       "last_show": "2026-09-15",
-      "days_left": 6,
+      "days_left": 5,
       "reason": "runs_out_of_shows"
     },
     {
@@ -106,7 +106,7 @@
       "path": "/artists/karol-g/tickets/east-rutherford-united-states",
       "type": "artist-city",
       "last_show": "2026-09-18",
-      "days_left": 9,
+      "days_left": 8,
       "reason": "runs_out_of_shows"
     },
     {
@@ -120,14 +120,14 @@
       "path": "/artists/bruno-mars/tickets/miami-united-states",
       "type": "artist-city",
       "last_show": "2026-09-20",
-      "days_left": 11,
+      "days_left": 10,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/tame-impala/tickets/houston-united-states",
       "type": "artist-city",
       "last_show": "2026-09-21",
-      "days_left": 11,
+      "days_left": 10,
       "reason": "runs_out_of_shows"
     },
     {
@@ -141,25 +141,25 @@
       "path": "/artists/zach-bryan/tickets/toronto-canada",
       "type": "artist-city",
       "last_show": "2026-09-22",
-      "days_left": 13,
+      "days_left": 12,
       "reason": "runs_out_of_shows"
     },
     {
       "path": "/venues/hard-rock-stadium-miami",
       "type": "venue",
       "last_show": "2026-10-03",
-      "days_left": 24,
-      "reason": "falls_below_threshold"
-    },
-    {
-      "path": "/venues/hollywood-bowl-hollywood",
-      "type": "venue",
-      "last_show": "2026-11-01",
-      "days_left": 52,
+      "days_left": 23,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/venues/t-mobile-center-kansas-city",
+      "type": "venue",
+      "last_show": "2026-11-01",
+      "days_left": 51,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/venues/hollywood-bowl-hollywood",
       "type": "venue",
       "last_show": "2026-11-01",
       "days_left": 52,
@@ -183,14 +183,14 @@
       "path": "/venues/enterprise-center-saint-louis",
       "type": "venue",
       "last_show": "2027-03-28",
-      "days_left": 199,
+      "days_left": 198,
       "reason": "falls_below_threshold"
     },
     {
       "path": "/cities/san-antonio-united-states",
       "type": "city",
       "last_show": "2027-04-10",
-      "days_left": 212,
+      "days_left": 211,
       "reason": "falls_below_threshold"
     }
   ],
@@ -213,28 +213,28 @@
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
-      "count": 130,
-      "share_of_indexable": 33.9
+      "count": 139,
+      "share_of_indexable": 35.3
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
-      "count": 91,
-      "share_of_indexable": 23.8
+      "count": 92,
+      "share_of_indexable": 23.4
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
       "count": 59,
-      "share_of_indexable": 15.4
+      "share_of_indexable": 15
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
       "count": 56,
-      "share_of_indexable": 14.6
+      "share_of_indexable": 14.2
     },
     {
       "pattern": "{} | Concerts in {}",
-      "count": 2,
-      "share_of_indexable": 0.5
+      "count": 3,
+      "share_of_indexable": 0.8
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -616,11 +616,11 @@
           "indexable": 56
         },
         "after": {
-          "rendered": 208,
+          "rendered": 212,
           "indexable": 59
         },
         "at_baseline_instant": {
-          "rendered": 208,
+          "rendered": 212,
           "indexable": 61
         },
         "kind": "inventory-growth",
@@ -636,17 +636,17 @@
           "indexable": 75
         },
         "after": {
-          "rendered": 433,
-          "indexable": 95
+          "rendered": 440,
+          "indexable": 97
         },
         "at_baseline_instant": {
-          "rendered": 436,
-          "indexable": 99
+          "rendered": 443,
+          "indexable": 101
         },
         "kind": "unexplained-growth",
-        "indexableDelta": 20,
+        "indexableDelta": 22,
         "clockDelta": -4,
-        "residual": 24,
+        "residual": 26,
         "tolerance": 8
       },
       {
@@ -656,17 +656,17 @@
           "indexable": 106
         },
         "after": {
-          "rendered": 791,
-          "indexable": 131
+          "rendered": 800,
+          "indexable": 140
         },
         "at_baseline_instant": {
-          "rendered": 804,
-          "indexable": 137
+          "rendered": 813,
+          "indexable": 146
         },
         "kind": "unexplained-growth",
-        "indexableDelta": 25,
+        "indexableDelta": 34,
         "clockDelta": -6,
-        "residual": 31,
+        "residual": 40,
         "tolerance": 11
       }
     ]
@@ -674,8 +674,9 @@
   "warnings": [
     "blog-post: 4 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.",
     "artist: 16 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 5). Expected after an artist batch or a large discovery run.",
-    "venue: 24 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 8). Expected after an artist batch or a large discovery run.",
-    "artist-city: 31 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 11). Expected after an artist batch or a large discovery run."
+    "venue: 26 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 8). Expected after an artist batch or a large discovery run.",
+    "artist-city: 40 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 11). Expected after an artist batch or a large discovery run.",
+    "indexable surface moved +26.7% against the stored baseline (311 -> 394) with no structural change detected. Expected if a tour ended or a large batch of dates landed; investigate otherwise."
   ],
   "problems": []
 }

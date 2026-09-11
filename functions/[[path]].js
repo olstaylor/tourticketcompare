@@ -55,11 +55,10 @@ const PUBLIC_HTML_ROUTES = new Set([
 // `author` references it rather than repeating the name.
 const AUTHOR_NAME = "Ollie Taylor";
 const AUTHOR_PATH = "/about/ollie-taylor";
-const AUTHOR_SAME_AS = [
-  "https://www.linkedin.com/in/ollie-taylor-014a28182/",
-  "https://x.com/olstaylor",
-  "https://www.instagram.com/olstaylor"
-];
+const AUTHOR_LINKEDIN_URL = "https://www.linkedin.com/in/ollie-taylor-014a28182/";
+const AUTHOR_X_URL = "https://x.com/olstaylor";
+const AUTHOR_INSTAGRAM_URL = "https://www.instagram.com/olstaylor";
+const AUTHOR_SAME_AS = [AUTHOR_LINKEDIN_URL, AUTHOR_X_URL, AUTHOR_INSTAGRAM_URL];
 // The site's own accounts, owner-confirmed — separate from AUTHOR_SAME_AS
 // (Ollie's personal accounts) and from the artist-tour handles on /contact.
 const SITE_X_URL = "https://x.com/tourticketcomp";
@@ -4330,15 +4329,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "text-link"
     )} and I'll fix it. Send the artist, the date, the venue or city, and the page you were on — that's usually enough to reproduce it.</p></section><section class="nested-panel"><h2>Find me elsewhere</h2><p>I'm on ${anchor(
       "LinkedIn",
-      AUTHOR_SAME_AS[0],
+      AUTHOR_LINKEDIN_URL,
       "text-link"
     )} for the marketing side of things, and on ${anchor(
       "X",
-      AUTHOR_SAME_AS[1],
+      AUTHOR_X_URL,
       "text-link"
     )} and ${anchor(
       "Instagram",
-      AUTHOR_SAME_AS[2],
+      AUTHOR_INSTAGRAM_URL,
       "text-link"
     )} as @olstaylor for everything else — mostly Beyoncé, festivals, and whatever tour I'm currently trying to get tickets for. Tour Ticket Compare's own updates are on ${anchor(
       "X",

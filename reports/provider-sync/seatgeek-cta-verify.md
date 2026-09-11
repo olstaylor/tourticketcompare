@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-10T14:07:05.718Z
+Generated: 2026-09-11T09:34:50.579Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,11 +9,11 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 241 (needs_recheck: 241, provenance backfill: 0, stale re-check: 114)
+- Events selected: 247 (needs_recheck: 247, provenance backfill: 0, stale re-check: 120)
 - Events skipped before API checks: 110
-- API calls made: 241
-- Verified provenance written: 74
-- URLs added: 40
+- API calls made: 247
+- Verified provenance written: 114
+- URLs added: 6
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
@@ -178,14 +178,14 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-polyphia-2026-berlin-z698xzc2z16vompnuz | polyphia | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-polyphia-2026-oberhausen-z698xzc2z16vk8v9xd | polyphia | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-polyphia-2026-amsterdam-z698xzbpz16v49fppe | polyphia | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-polyphia-2027-san-diego-z7r9jz1aav67j | polyphia | add (applied) | 18536015 | https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015 | - |
-| tm-stella-lefty-2026-san-francisco-z7r9jz1a70epk | stella-lefty | add (applied) | 18253661 | https://seatgeek.com/stella-lefty-tickets/san-francisco-california-bimbos-365-club-2026-10-30-8-pm/concert/18253661 | - |
-| tm-stella-lefty-2026-west-hollywood-z7r9jz1a70e4e | stella-lefty | add (applied) | 18253662 | https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662 | - |
-| tm-stella-lefty-2026-los-angeles-z7r9jz1a70sod | stella-lefty | add (applied) | 18291327 | https://seatgeek.com/stella-lefty-tickets/los-angeles-california-the-fonda-theatre-2026-11-02-8-pm/concert/18291327 | - |
-| tm-stella-lefty-2026-phoenix-z7r9jz1a70tgw | stella-lefty | add (applied) | 18253664 | https://seatgeek.com/stella-lefty-tickets/phoenix-arizona-crescent-ballroom-2026-11-03-8-pm/concert/18253664 | - |
-| tm-stella-lefty-2026-new-york-z7r9jz1a7pg08 | stella-lefty | add (applied) | 18269141 | https://seatgeek.com/stella-lefty-tickets/new-york-new-york-webster-hall-2026-11-15-8-pm/concert/18269141 | - |
-| tm-stella-lefty-2026-boston-z7r9jz1a70eoz | stella-lefty | add (applied) | 18253466 | https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-royale-boston-2026-11-17-8-pm/concert/18253466 | - |
-| tm-stella-lefty-2027-columbus-z7r9jz1aav7q6 | stella-lefty | add (applied) | 18527907 | https://seatgeek.com/stella-lefty-tickets/columbus-ohio-kemba-live-2027-01-10-8-pm/concert/18527907 | - |
+| tm-polyphia-2027-san-diego-z7r9jz1aav67j | polyphia | verify (applied) | 18536015 | https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015 | - |
+| tm-stella-lefty-2026-san-francisco-z7r9jz1a70epk | stella-lefty | verify (applied) | 18253661 | https://seatgeek.com/stella-lefty-tickets/san-francisco-california-bimbos-365-club-2026-10-30-8-pm/concert/18253661 | - |
+| tm-stella-lefty-2026-west-hollywood-z7r9jz1a70e4e | stella-lefty | verify (applied) | 18253662 | https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662 | - |
+| tm-stella-lefty-2026-los-angeles-z7r9jz1a70sod | stella-lefty | verify (applied) | 18291327 | https://seatgeek.com/stella-lefty-tickets/los-angeles-california-the-fonda-theatre-2026-11-02-8-pm/concert/18291327 | - |
+| tm-stella-lefty-2026-phoenix-z7r9jz1a70tgw | stella-lefty | verify (applied) | 18253664 | https://seatgeek.com/stella-lefty-tickets/phoenix-arizona-crescent-ballroom-2026-11-03-8-pm/concert/18253664 | - |
+| tm-stella-lefty-2026-new-york-z7r9jz1a7pg08 | stella-lefty | verify (applied) | 18269141 | https://seatgeek.com/stella-lefty-tickets/new-york-new-york-webster-hall-2026-11-15-8-pm/concert/18269141 | - |
+| tm-stella-lefty-2026-boston-z7r9jz1a70eoz | stella-lefty | verify (applied) | 18253466 | https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-royale-boston-2026-11-17-8-pm/concert/18253466 | - |
+| tm-stella-lefty-2027-columbus-z7r9jz1aav7q6 | stella-lefty | verify (applied) | 18527907 | https://seatgeek.com/stella-lefty-tickets/columbus-ohio-kemba-live-2027-01-10-8-pm/concert/18527907 | - |
 | tm-stella-lefty-2027-amsterdam-z698xzbpz16vj_pxbp | stella-lefty | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-saint-levant-2026-utrecht-z698xzbpz16ezo1d8_ | saint-levant | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-saint-levant-2026-amsterdam-z698xzbpz1kqt7gc_ | saint-levant | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -193,12 +193,12 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-the-airborne-toxic-event-2026-glenside-z7r9jz1a70_pw | the-airborne-toxic-event | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-the-airborne-toxic-event-2026-chicago-z7r9jz1a70iqs | the-airborne-toxic-event | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj | the-airborne-toxic-event | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov | the-airborne-toxic-event | add (applied) | 18415996 | https://seatgeek.com/the-airborne-toxic-event-tickets/englewood-colorado-gothic-theatre-2027-06-08-8-pm/concert/18415996 | - |
+| tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov | the-airborne-toxic-event | verify (applied) | 18415996 | https://seatgeek.com/the-airborne-toxic-event-tickets/englewood-colorado-gothic-theatre-2027-06-08-8-pm/concert/18415996 | - |
 | tm-the-airborne-toxic-event-2027-portland-z7r9jz1aazfzx | the-airborne-toxic-event | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-andrea-bocelli-2026-morrison-z7r9jz1a7-zq4 | andrea-bocelli | add (applied) | 18039204 | https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-20-8-pm/concert/18039204 | - |
-| tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p | andrea-bocelli | add (applied) | 18039206 | https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-21-8-pm/concert/18039206 | - |
-| tm-morat-2027-grand-prairie-z7r9jz1a70iu_ | morat | add (applied) | 18259792 | https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792 | - |
-| tm-morat-2027-sugar-land-z7r9jz1a70iu- | morat | add (applied) | 18259793 | https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793 | - |
+| tm-andrea-bocelli-2026-morrison-z7r9jz1a7-zq4 | andrea-bocelli | verify (applied) | 18039204 | https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-20-8-pm/concert/18039204 | - |
+| tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p | andrea-bocelli | verify (applied) | 18039206 | https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-21-8-pm/concert/18039206 | - |
+| tm-morat-2027-grand-prairie-z7r9jz1a70iu_ | morat | verify (applied) | 18259792 | https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792 | - |
+| tm-morat-2027-sugar-land-z7r9jz1a70iu- | morat | verify (applied) | 18259793 | https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793 | - |
 | tm-missio-2026-phoenix-z7r9jz1aaziv4 | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2026-salt-lake-city-z7r9jz1aazivp | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2026-detroit-z7r9jz1aaziv8 | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -210,7 +210,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-missio-2027-chicago-z7r9jz1aazivb | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-cudahy-z7r9jz1aaziv_ | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-minneapolis-z7r9jz1aazivo | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-missio-2027-cleveland-z7r9jz1aaztf7 | missio | add (applied) | 18492738 | https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738 | - |
+| tm-missio-2027-cleveland-z7r9jz1aaztf7 | missio | verify (applied) | 18492738 | https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738 | - |
 | tm-missio-2027-washington-z7r9jz1aaziv- | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-brooklyn-z7r9jz1aazivx | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-carrboro-z7r9jz1aazivn | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -220,36 +220,36 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-missio-2027-san-antonio-z7r9jz1aazivi | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-austin-z7r9jz1aazivt | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-vnv-nation-2027-tampa-z7r9jz1a7jv8s | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-vnv-nation-2027-atlanta-z7r9jz1a7jvoo | vnv-nation | add (applied) | 17912521 | https://seatgeek.com/vnv-nation-tickets/atlanta-georgia-variety-playhouse-2027-03-14-8-pm/concert/17912521 | - |
+| tm-vnv-nation-2027-atlanta-z7r9jz1a7jvoo | vnv-nation | verify (applied) | 17912521 | https://seatgeek.com/vnv-nation-tickets/atlanta-georgia-variety-playhouse-2027-03-14-8-pm/concert/17912521 | - |
 | tm-vnv-nation-2027-salt-lake-city-z7r9jz1a7pmzg | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-vnv-nation-2027-st-paul-z7r9jz1a7jzvu | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-vnv-nation-2027-chicago-z7r9jz1a7pupm | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-michelle-branch-2026-seattle-z7r9jz1a7jfoo | michelle-branch | add (applied) | 18373481 | https://seatgeek.com/michelle-branch-tickets/seattle-washington-the-showbox-2026-09-27-8-pm/concert/18373481 | - |
-| tm-michelle-branch-2026-portland-z7r9jz1a7jfov | michelle-branch | add (applied) | 18373482 | https://seatgeek.com/michelle-branch-tickets/portland-oregon-mcmenamins-crystal-ballroom-2026-09-29-8-pm/concert/18373482 | - |
-| tm-michelle-branch-2026-san-luis-obispo-z7r9jz1a7jfbx | michelle-branch | add (applied) | 18373486 | https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486 | - |
-| tm-michelle-branch-2026-aspen-z7r9jz1a7jfoj | michelle-branch | add (applied) | 18373495 | https://seatgeek.com/michelle-branch-tickets/aspen-colorado-belly-up-aspen-2026-10-10-8-pm/concert/18373495 | - |
-| tm-michelle-branch-2026-boulder-z7r9jz1a7jffk | michelle-branch | add (applied) | 18373496 | https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496 | - |
-| tm-michelle-branch-2026-boston-z7r9jz1a7j4zs | michelle-branch | add (applied) | 18373497 | https://seatgeek.com/michelle-branch-tickets/boston-massachusetts-roadrunner-boston-2026-11-04-8-pm/concert/18373497 | - |
-| tm-michelle-branch-2026-minneapolis-z7r9jz1a7j3xd | michelle-branch | add (applied) | 18373510 | https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510 | - |
-| tm-michelle-branch-2026-milwaukee-z7r9jz1aazyfa | michelle-branch | add (applied) | 18373511 | https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511 | - |
+| tm-michelle-branch-2026-seattle-z7r9jz1a7jfoo | michelle-branch | verify (applied) | 18373481 | https://seatgeek.com/michelle-branch-tickets/seattle-washington-the-showbox-2026-09-27-8-pm/concert/18373481 | - |
+| tm-michelle-branch-2026-portland-z7r9jz1a7jfov | michelle-branch | verify (applied) | 18373482 | https://seatgeek.com/michelle-branch-tickets/portland-oregon-mcmenamins-crystal-ballroom-2026-09-29-8-pm/concert/18373482 | - |
+| tm-michelle-branch-2026-san-luis-obispo-z7r9jz1a7jfbx | michelle-branch | verify (applied) | 18373486 | https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486 | - |
+| tm-michelle-branch-2026-aspen-z7r9jz1a7jfoj | michelle-branch | verify (applied) | 18373495 | https://seatgeek.com/michelle-branch-tickets/aspen-colorado-belly-up-aspen-2026-10-10-8-pm/concert/18373495 | - |
+| tm-michelle-branch-2026-boulder-z7r9jz1a7jffk | michelle-branch | verify (applied) | 18373496 | https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496 | - |
+| tm-michelle-branch-2026-boston-z7r9jz1a7j4zs | michelle-branch | verify (applied) | 18373497 | https://seatgeek.com/michelle-branch-tickets/boston-massachusetts-roadrunner-boston-2026-11-04-8-pm/concert/18373497 | - |
+| tm-michelle-branch-2026-minneapolis-z7r9jz1a7j3xd | michelle-branch | verify (applied) | 18373510 | https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510 | - |
+| tm-michelle-branch-2026-milwaukee-z7r9jz1aazyfa | michelle-branch | verify (applied) | 18373511 | https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511 | - |
 | tm-michelle-branch-2027-denver-z7r9jz1aavkbw | michelle-branch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-michelle-branch-2027-columbus-z7r9jz1aazmzz | michelle-branch | add (applied) | 18508844 | https://seatgeek.com/michelle-branch-tickets/columbus-ohio-kemba-live-2027-03-20-8-pm/concert/18508844 | - |
-| tm-michelle-branch-2027-royal-oak-z7r9jz1aazmje | michelle-branch | add (applied) | 18508847 | https://seatgeek.com/michelle-branch-tickets/royal-oak-michigan-royal-oak-music-theatre-2027-03-21-7-pm/concert/18508847 | - |
-| tm-michelle-branch-2027-philadelphia-z7r9jz1aazyqb | michelle-branch | add (applied) | 18508855 | https://seatgeek.com/michelle-branch-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-03-27-8-30-pm/concert/18508855 | - |
-| tm-fkj-2027-portland-z7r9jz1a7pdgd | fkj | add (applied) | 18282296 | https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296 | - |
-| tm-fkj-2027-seattle-z7r9jz1a7pduz | fkj | add (applied) | 18282297 | https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297 | - |
-| tm-fkj-2027-denver-z7r9jz1a7pk0s | fkj | add (applied) | 18282299 | https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299 | - |
-| tm-fkj-2027-austin-z7r9jz1a7pdvn | fkj | add (applied) | 18282301 | https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301 | - |
-| tm-sylvan-esso-2026-atlanta-z7r9jz1a7pf-y | sylvan-esso | add (applied) | 18299134 | https://seatgeek.com/sylvan-esso-tickets/atlanta-georgia-the-eastern-atlanta-2026-10-01-8-pm/concert/18299134 | - |
-| tm-sylvan-esso-2026-philadelphia-z7r9jz1a7pxvf | sylvan-esso | add (applied) | 18299136 | https://seatgeek.com/sylvan-esso-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-10-12-8-pm/concert/18299136 | - |
+| tm-michelle-branch-2027-columbus-z7r9jz1aazmzz | michelle-branch | verify (applied) | 18508844 | https://seatgeek.com/michelle-branch-tickets/columbus-ohio-kemba-live-2027-03-20-8-pm/concert/18508844 | - |
+| tm-michelle-branch-2027-royal-oak-z7r9jz1aazmje | michelle-branch | verify (applied) | 18508847 | https://seatgeek.com/michelle-branch-tickets/royal-oak-michigan-royal-oak-music-theatre-2027-03-21-7-pm/concert/18508847 | - |
+| tm-michelle-branch-2027-philadelphia-z7r9jz1aazyqb | michelle-branch | verify (applied) | 18508855 | https://seatgeek.com/michelle-branch-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-03-27-8-30-pm/concert/18508855 | - |
+| tm-fkj-2027-portland-z7r9jz1a7pdgd | fkj | verify (applied) | 18282296 | https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296 | - |
+| tm-fkj-2027-seattle-z7r9jz1a7pduz | fkj | verify (applied) | 18282297 | https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297 | - |
+| tm-fkj-2027-denver-z7r9jz1a7pk0s | fkj | verify (applied) | 18282299 | https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299 | - |
+| tm-fkj-2027-austin-z7r9jz1a7pdvn | fkj | verify (applied) | 18282301 | https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301 | - |
+| tm-sylvan-esso-2026-atlanta-z7r9jz1a7pf-y | sylvan-esso | verify (applied) | 18299134 | https://seatgeek.com/sylvan-esso-tickets/atlanta-georgia-the-eastern-atlanta-2026-10-01-8-pm/concert/18299134 | - |
+| tm-sylvan-esso-2026-philadelphia-z7r9jz1a7pxvf | sylvan-esso | verify (applied) | 18299136 | https://seatgeek.com/sylvan-esso-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-10-12-8-pm/concert/18299136 | - |
 | tm-sylvan-esso-2026-milwaukee-z7r9jz1a7pfos | sylvan-esso | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-sylvan-esso-2026-minneapolis-z7r9jz1a7pfoy | sylvan-esso | add (applied) | 18299152 | https://seatgeek.com/sylvan-esso-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-23-8-30-pm/concert/18299152 | - |
-| tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp | sylvan-esso | add (applied) | 18299162 | https://seatgeek.com/sylvan-esso-tickets/vancouver-canada-vogue-theatre-bc-1-2027-02-20-8-pm/concert/18299162 | - |
-| tm-sylvan-esso-2027-portland-z7r9jz1a7pf-d | sylvan-esso | add (applied) | 18299165 | https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-22-8-30-pm/concert/18299165 | - |
-| tm-sylvan-esso-2027-portland-z7r9jz1a7pf-7 | sylvan-esso | add (applied) | 18299164 | https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-23-8-30-pm/concert/18299164 | - |
-| tm-sylvan-esso-2027-denver-z7r9jz1a7pf46 | sylvan-esso | add (applied) | 18299177 | https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-05-9-pm/concert/18299177 | - |
+| tm-sylvan-esso-2026-minneapolis-z7r9jz1a7pfoy | sylvan-esso | verify (applied) | 18299152 | https://seatgeek.com/sylvan-esso-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-23-8-30-pm/concert/18299152 | - |
+| tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp | sylvan-esso | verify (applied) | 18299162 | https://seatgeek.com/sylvan-esso-tickets/vancouver-canada-vogue-theatre-bc-1-2027-02-20-8-pm/concert/18299162 | - |
+| tm-sylvan-esso-2027-portland-z7r9jz1a7pf-d | sylvan-esso | verify (applied) | 18299165 | https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-22-8-30-pm/concert/18299165 | - |
+| tm-sylvan-esso-2027-portland-z7r9jz1a7pf-7 | sylvan-esso | verify (applied) | 18299164 | https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-23-8-30-pm/concert/18299164 | - |
+| tm-sylvan-esso-2027-denver-z7r9jz1a7pf46 | sylvan-esso | verify (applied) | 18299177 | https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-05-9-pm/concert/18299177 | - |
 | tm-sylvan-esso-2027-denver-z7r9jz1a7pj-s | sylvan-esso | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-sylvan-esso-2027-austin-z7r9jz1a7pxj7 | sylvan-esso | add (applied) | 18299178 | https://seatgeek.com/sylvan-esso-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-08-8-pm/concert/18299178 | - |
+| tm-sylvan-esso-2027-austin-z7r9jz1a7pxj7 | sylvan-esso | verify (applied) | 18299178 | https://seatgeek.com/sylvan-esso-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-08-8-pm/concert/18299178 | - |
 | tm-blondshell-2026-portland-z7r9jz1a70e_4 | blondshell | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-blondshell-2026-amsterdam-z698xzbpz16evuaf-z | blondshell | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-pink-martini-2026-redding-z7r9jz1a7ps3o | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -262,11 +262,17 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-pink-martini-2027-athens-z7r9jz1a7pv8_ | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-pink-martini-2027-bellingham-z7r9jz1aazp-s | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-pink-martini-2027-cincinnati-z7r9jz1a7pp4b | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-pink-martini-2027-chicago-z7r9jz1aaz6g7 | pink-martini | add (applied) | 18396258 | https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258 | - |
+| tm-pink-martini-2027-chicago-z7r9jz1aaz6g7 | pink-martini | verify (applied) | 18396258 | https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258 | - |
 | tm-pink-martini-2027-colorado-springs-z7r9jz1aaztzk | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-pink-martini-2027-colorado-springs-z7r9jz1a7joxz | pink-martini | add (applied) | 18500192 | https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192 | - |
+| tm-pink-martini-2027-colorado-springs-z7r9jz1a7joxz | pink-martini | verify (applied) | 18500192 | https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192 | - |
 | tm-harry-styles-2027-madrid-z698xz2qz16v0sptae | harry-styles | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-harry-styles-2027-madrid-z698xz2qz16v8zj448 | harry-styles | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tobymac-2027-sunrise-z7r9jz1aav8xe | tobymac | add (applied) | 18527954 | https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954 | - |
+| tm-tobymac-2027-sugar-land-z7r9jz1aav8op | tobymac | add (applied) | 18548802 | https://seatgeek.com/tobymac-tickets/sugar-land-texas-smart-financial-centre-2027-02-12-7-pm/concert/18548802 | - |
+| tm-tobymac-2027-grand-prairie-z7r9jz1aav8of | tobymac | add (applied) | 18548804 | https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804 | - |
+| tm-tobymac-2027-norfolk-z7r9jz1aav8r3 | tobymac | add (applied) | 18548806 | https://seatgeek.com/tobymac-tickets/norfolk-virginia-chartway-arena-2027-02-21-6-30-pm/concert/18548806 | - |
+| tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f | tobymac | add (applied) | 18548872 | https://seatgeek.com/tobymac-tickets/cape-girardeau-missouri-show-me-center-2027-03-06-7-pm/concert/18548872 | - |
+| tm-tobymac-2027-lubbock-z7r9jz1aav8o_ | tobymac | add (applied) | 18548874 | https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874 | - |
 
 ## Skipped before API checks
 

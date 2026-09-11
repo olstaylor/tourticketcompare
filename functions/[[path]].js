@@ -55,7 +55,14 @@ const PUBLIC_HTML_ROUTES = new Set([
 // `author` references it rather than repeating the name.
 const AUTHOR_NAME = "Ollie Taylor";
 const AUTHOR_PATH = "/about/ollie-taylor";
-const AUTHOR_SAME_AS = ["https://www.linkedin.com/in/ollie-taylor-014a28182/"];
+const AUTHOR_LINKEDIN_URL = "https://www.linkedin.com/in/ollie-taylor-014a28182/";
+const AUTHOR_X_URL = "https://x.com/olstaylor";
+const AUTHOR_INSTAGRAM_URL = "https://www.instagram.com/olstaylor";
+const AUTHOR_SAME_AS = [AUTHOR_LINKEDIN_URL, AUTHOR_X_URL, AUTHOR_INSTAGRAM_URL];
+// The site's own accounts, owner-confirmed — separate from AUTHOR_SAME_AS
+// (Ollie's personal accounts) and from the artist-tour handles on /contact.
+const SITE_X_URL = "https://x.com/tourticketcomp";
+const SITE_INSTAGRAM_URL = "https://www.instagram.com/tourticketcompare";
 // Owner-supplied copy, used as given.
 //
 // The second sentence is held on ONE source line on purpose. The public-copy
@@ -67,6 +74,7 @@ const AUTHOR_BIO = [
   "Ollie Taylor is a diehard Beyoncé fan and the creator of Tour Ticket Compare.",
   "He built the site after getting tired of checking resale sites one by one to compare prices across sites to find the cheapest tickets.",
   "Based in Brighton, UK, he works full time in marketing and runs Tour Ticket Compare in his spare time, driven by his love of finding a good deal, music, festivals and live events.",
+  "He keeps it going because he's been stung by confusing resale prices and buried fees as a fan himself, and wanted somewhere that's upfront with other fans about what a ticket actually costs before they click through.",
   "Tour Ticket Compare is fan-first — it exists to make ticket prices easier to compare, not to sell tickets."
 ].join(" ");
 const AUTHOR_KNOWS_ABOUT = [
@@ -704,7 +712,7 @@ function baseSchema(origin) {
       // The accounts that represent the site itself, owner-confirmed. The two
       // artist-tour handles named on /contact are deliberately NOT here: they
       // are not the site's own identity.
-      sameAs: ["https://x.com/tourticketcomp", "https://www.instagram.com/tourticketcompare"]
+      sameAs: [SITE_X_URL, SITE_INSTAGRAM_URL]
     },
     {
       "@type": "WebSite",
@@ -4319,7 +4327,27 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "contact page",
       "/contact",
       "text-link"
-    )} and I'll fix it. Send the artist, the date, the venue or city, and the page you were on — that's usually enough to reproduce it.</p></section><div class="action-row">${anchor(
+    )} and I'll fix it. Send the artist, the date, the venue or city, and the page you were on — that's usually enough to reproduce it.</p></section><section class="nested-panel"><h2>Find me elsewhere</h2><p>I'm on ${anchor(
+      "LinkedIn",
+      AUTHOR_LINKEDIN_URL,
+      "text-link"
+    )} for the marketing side of things, and on ${anchor(
+      "X",
+      AUTHOR_X_URL,
+      "text-link"
+    )} and ${anchor(
+      "Instagram",
+      AUTHOR_INSTAGRAM_URL,
+      "text-link"
+    )} as @olstaylor for everything else — mostly Beyoncé, festivals, and whatever tour I'm currently trying to get tickets for. Tour Ticket Compare's own updates are on ${anchor(
+      "X",
+      SITE_X_URL,
+      "text-link"
+    )} and ${anchor(
+      "Instagram",
+      SITE_INSTAGRAM_URL,
+      "text-link"
+    )}.</p></section><div class="action-row">${anchor(
       "About TourTicketCompare",
       "/about",
       "button button-primary"
@@ -4333,7 +4361,23 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/about") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">We're an independent site for working out where to buy tickets to a big tour — and what you'll actually pay.</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Pull together ticket links for major artists so you're not opening ten tabs.</li><li>Only publish a link for a specific date once we've checked the artist, date, venue, and where it goes.</li><li>Show the prices we have from each ticket site for that same show, with the time we got them.</li><li>Write plain guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>What we don't do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Pretend a price we captured earlier is live stock or your final total.</li><li>Crown one ticket site as always the better buy, because it never works out that way.</li><li>Make up tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>About the affiliate links</h2><p>Some links earn us a commission when you buy. That's how the site pays for itself — and it has no say in what we publish. A link goes up once we've checked where it lands, whether or not it makes us anything.</p></section><div class="action-row">${anchor(
+    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">We're an independent site for working out where to buy tickets to a big tour — and what you'll actually pay.</p><section class="nested-panel"><h2>Why this exists</h2><p>Tour Ticket Compare was started by one fan, ${anchor(
+      AUTHOR_NAME,
+      AUTHOR_PATH,
+      "text-link"
+    )}, after one too many nights spent flicking between resale sites in different tabs trying to work out where a ticket was actually cheaper. It's still run that way — independently, in spare time, by someone who buys tickets for the same tours you do.</p></section><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Pull together ticket links for major artists so you're not opening ten tabs.</li><li>Only publish a link for a specific date once we've checked the artist, date, venue, and where it goes.</li><li>Show the prices we have from each ticket site for that same show, with the time we got them.</li><li>Write plain guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>What we don't do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Pretend a price we captured earlier is live stock or your final total.</li><li>Crown one ticket site as always the better buy, because it never works out that way.</li><li>Make up tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>About the affiliate links</h2><p>Some links earn us a commission when you buy. That's how the site pays for itself — and it has no say in what we publish. A link goes up once we've checked where it lands, whether or not it makes us anything.</p></section><section class="nested-panel"><h2>Follow along</h2><p>We post new artist pages and the odd deal we spot on ${anchor(
+      "X",
+      SITE_X_URL,
+      "text-link"
+    )} and ${anchor(
+      "Instagram",
+      SITE_INSTAGRAM_URL,
+      "text-link"
+    )}. Ollie's personal accounts are on his ${anchor(
+      `${AUTHOR_NAME} page`,
+      AUTHOR_PATH,
+      "text-link"
+    )}.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"

@@ -33,3 +33,7 @@ artifacts/
 # Python bytecode caches (from scripts/ tooling and its --self-test runs)
 __pycache__/
 *.pyc
+
+# Written by automation-health.yml so the work queue can read structured
+# findings; regenerated every run, never committed.
+automation-health-findings.json

@@ -287,7 +287,8 @@ assert(
     cityPage.main.includes('href="/guides/concert-ticket-fees-explained"'),
   "city page links the buying guides rather than restating them"
 );
-assert(cityText.includes("Maintained by the TourTicketCompare editorial team."), "city page keeps its editorial byline");
+assert(cityText.includes("By Ollie Taylor"), "city page keeps its named byline");
+assert(cityPage.main.includes('href="/about/ollie-taylor"'), "city page byline links the author page");
 
 for (const marker of FILLER_MARKERS) {
   assert(!cityPage.main.includes(marker), `city page no longer renders template filler: "${marker}"`);
@@ -387,7 +388,8 @@ assert(
   "venue page links the buying guides"
 );
 assert(venuePage.main.includes(`href="/cities/${CITY_SLUG}"`), "venue page links back to its city page");
-assert(venueText.includes("Maintained by the TourTicketCompare editorial team."), "venue page keeps its editorial byline");
+assert(venueText.includes("By Ollie Taylor"), "venue page keeps its named byline");
+assert(venuePage.main.includes('href="/about/ollie-taylor"'), "venue page byline links the author page");
 
 for (const marker of FILLER_MARKERS) {
   assert(!venuePage.main.includes(marker), `venue page no longer renders template filler: "${marker}"`);

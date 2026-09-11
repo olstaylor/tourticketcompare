@@ -3723,5 +3723,641 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7791089",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7791089/Bruno-Mars-tickets-Wed-Oct-21-2026-BC-Place-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/event/107133086"
+  },
+  {
+    "id": "tm-bruno-mars-2027-burswood-1apzkfbgkdn2ves",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Burswood",
+    "country": "Australia",
+    "venue": "Optus Stadium",
+    "datetime_iso": "2027-02-13T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006518EA3F49F3",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006518EA3F49F3",
+        "discovery_event_id": "1APZkfbGkdn2VES",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZkfbGkdn2VES",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Burswood",
+    "country": "Australia",
+    "venue": "Optus Stadium",
+    "datetime_iso": "2027-02-14T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ADE595D36",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ADE595D36",
+        "discovery_event_id": "1AefZ_oGklrp4VU",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGklrp4VU",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_o37vvzdckk",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-19T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651484041D55",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651484041D55",
+        "discovery_event_id": "1aefZ_o37vvZdCkk",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aefZ_o37vvZdCkk",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_ogknww0xk",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-20T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ABDF64886",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ABDF64886",
+        "discovery_event_id": "1AefZ_oGknWW0xk",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknWW0xk",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-23T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ABDF8488B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ABDF8488B",
+        "discovery_event_id": "1AefZ_oGknWX7x5",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknWX7x5",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-24T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ABDFA488F",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ABDFA488F",
+        "discovery_event_id": "1AefZ_oGknWX0x2",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknWX0x2",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-milton-1akzkf3gkdacg5v",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Milton",
+    "country": "Australia",
+    "venue": "Suncorp Stadium",
+    "datetime_iso": "2027-02-28T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006512C5B752F4",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006512C5B752F4",
+        "discovery_event_id": "1AKZkf3GkdAcg5V",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkf3GkdAcg5V",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-milton-1avgz_ogklamkhm",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Milton",
+    "country": "Australia",
+    "venue": "Suncorp Stadium",
+    "datetime_iso": "2027-03-01T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300651AC9B86F2E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300651AC9B86F2E",
+        "discovery_event_id": "1AvGZ_oGklamkHm",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_oGklamkHm",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_o3ezszduv6",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-04T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651482031C06",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651482031C06",
+        "discovery_event_id": "1aefZ_o3eZsZduv6",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aefZ_o3eZsZduv6",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-05T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651A89041AC3",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651A89041AC3",
+        "discovery_event_id": "1AefZ_oGknavvld",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknavvld",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-08T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651A89881B04",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651A89881B04",
+        "discovery_event_id": "1AefZ_oGknaxvi7",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknaxvi7",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-09T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651A89891B06",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651A89891B06",
+        "discovery_event_id": "1AefZ_oGknaxoik",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknaxoik",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
   }
 ]

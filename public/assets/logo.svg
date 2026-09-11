@@ -1,0 +1,35 @@
+<!--
+  Square brand mark, the source for public/logo.png, which the Organization
+  JSON-LD in functions/[[path]].js references as `logo`.
+
+  Derived from public/assets/og-image.svg: the same palette, the same TTC
+  circle mark and the same accent rule, re-laid out square because a logo in
+  structured data must not be the 1200x630 social card. Google wants a square
+  image of at least 112x112; this renders at 512x512.
+
+  To regenerate after editing:
+    node -e "const s=require('sharp'),f=require('fs');s(f.readFileSync('public/assets/logo.svg')).png({compressionLevel:9,effort:10}).toFile('public/logo.png')"
+
+  Fonts: the DejaVu stack, matching og-image.svg. Rasterise on Linux or the
+  substituted face will change the metrics.
+-->
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TourTicketCompare">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="0.5" stop-color="#f5f1e8"/>
+      <stop offset="1" stop-color="#ebe2d1"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101411"/>
+      <stop offset="1" stop-color="#24483a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="64" fill="#fffdf7" fill-opacity="0.78" stroke="#d8d0c0" stroke-width="4"/>
+  <circle cx="256" cy="214" r="126" fill="url(#mark)"/>
+  <text x="256" y="242" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="8" fill="#ffffff" text-anchor="middle">TTC</text>
+  <text x="256" y="404" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1" fill="#101411" text-anchor="middle">Tour Ticket</text>
+  <text x="256" y="452" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1" fill="#101411" text-anchor="middle">Compare</text>
+  <rect x="196" y="470" width="120" height="8" rx="4" fill="#d75b2f"/>
+</svg>

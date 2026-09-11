@@ -24,7 +24,6 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { slugify } from './lib/slugify.mjs';
 
@@ -391,12 +390,7 @@ async function main() {
   await fs.mkdir(path.dirname(checklistPath), { recursive: true });
   await fs.writeFile(checklistPath, checklistMarkdown(plans, path.relative(root, manifestPath), today));
 
-  console.log('\nEdits applied. Running events:sync (required by stale-sync-guard)…');
-  const sync = spawnSync('npm', ['run', 'events:sync'], { stdio: 'inherit', cwd: root });
-  if (sync.status !== 0) {
-    console.error('events:sync failed — fix before committing (stale-sync-guard will reject the PR)');
-    process.exit(1);
-  }
+  console.log('\nEdits applied.');
 
   console.log(`\nChecklist written: ${path.relative(root, checklistPath)} — paste it into the PR body.`);
   console.log('Before opening the PR, run:');

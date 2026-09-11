@@ -1921,5 +1921,58 @@
     "ticketmaster_discovery_event_id": "Z698xZG2Z1ASr3Q7",
     "timezone": "Europe/Brussels",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-dublin-1avoz_fgkbmo2st",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch + Lamb of God + Bleed From Within",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-01-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800648EAE80FCFF",
+    "ticketmaster_url": "https://www.ticketmaster.ie/five-finger-death-punch-lamb-of-dublin-19-01-2027/event/1800648EAE80FCFF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/five-finger-death-punch-lamb-of-dublin-19-01-2027/event/1800648EAE80FCFF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800648EAE80FCFF",
+        "discovery_event_id": "1AvOZ_FGkBmO2ST",
+        "url": "https://www.ticketmaster.ie/five-finger-death-punch-lamb-of-dublin-19-01-2027/event/1800648EAE80FCFF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_FGkBmO2ST",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

@@ -87494,5 +87494,3238 @@
     "timezone": "Europe/London",
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257657"
+  },
+  {
+    "id": "tm-bts-2027-docklands-17a8v0g65r_eq8g",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-10T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064BBD99DD435",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064BBD99DD435",
+        "discovery_event_id": "17a8v0G65R_Eq8g",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65R_Eq8g",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-docklands-17a8v0g659_gumr",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-12T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064B5D9D76DEF",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064B5D9D76DEF",
+        "discovery_event_id": "17a8v0G659_gUMR",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G659_gUMR",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-docklands-17a8v0g65r_ew8m",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-13T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064BBD99FD437",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064BBD99FD437",
+        "discovery_event_id": "17a8v0G65R_EW8M",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65R_EW8M",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfkdo_",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN SYDNEY",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-02-20T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064B6884C3819",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064B6884C3819",
+        "discovery_event_id": "17a8v0G65QFKdO_",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65QFKdO_",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfik-s",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN SYDNEY",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-02-21T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064B688A13871",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064B688A13871",
+        "discovery_event_id": "17a8v0G65QFIK-s",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65QFIK-s",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-burswood-1apzkfbgkdn2ves",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Burswood",
+    "country": "Australia",
+    "venue": "Optus Stadium",
+    "datetime_iso": "2027-02-13T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006518EA3F49F3",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006518EA3F49F3",
+        "discovery_event_id": "1APZkfbGkdn2VES",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZkfbGkdn2VES",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Burswood",
+    "country": "Australia",
+    "venue": "Optus Stadium",
+    "datetime_iso": "2027-02-14T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ADE595D36",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ADE595D36",
+        "discovery_event_id": "1AefZ_oGklrp4VU",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGklrp4VU",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_o37vvzdckk",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-19T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651484041D55",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651484041D55",
+        "discovery_event_id": "1aefZ_o37vvZdCkk",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aefZ_o37vvZdCkk",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_ogknww0xk",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-20T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ABDF64886",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ABDF64886",
+        "discovery_event_id": "1AefZ_oGknWW0xk",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknWW0xk",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-23T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ABDF8488B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ABDF8488B",
+        "discovery_event_id": "1AefZ_oGknWX7x5",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknWX7x5",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-24T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651ABDFA488F",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651ABDFA488F",
+        "discovery_event_id": "1AefZ_oGknWX0x2",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknWX0x2",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-milton-1akzkf3gkdacg5v",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Milton",
+    "country": "Australia",
+    "venue": "Suncorp Stadium",
+    "datetime_iso": "2027-02-28T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006512C5B752F4",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006512C5B752F4",
+        "discovery_event_id": "1AKZkf3GkdAcg5V",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkf3GkdAcg5V",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-milton-1avgz_ogklamkhm",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Milton",
+    "country": "Australia",
+    "venue": "Suncorp Stadium",
+    "datetime_iso": "2027-03-01T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300651AC9B86F2E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300651AC9B86F2E",
+        "discovery_event_id": "1AvGZ_oGklamkHm",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_oGklamkHm",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_o3ezszduv6",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-04T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651482031C06",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651482031C06",
+        "discovery_event_id": "1aefZ_o3eZsZduv6",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aefZ_o3eZsZduv6",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-05T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651A89041AC3",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651A89041AC3",
+        "discovery_event_id": "1AefZ_oGknavvld",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknavvld",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-08T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651A89881B04",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651A89881B04",
+        "discovery_event_id": "1AefZ_oGknaxvi7",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknaxvi7",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-03-09T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500651A89891B06",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500651A89891B06",
+        "discovery_event_id": "1AefZ_oGknaxoik",
+        "url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_oGknaxoik",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-dublin-17kzv0g65nd0zys",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-19T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064BA83938C33",
+    "ticketmaster_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-19-04-2027/event/180064BA83938C33",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-19-04-2027/event/180064BA83938C33",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064BA83938C33",
+        "discovery_event_id": "17kZv0G65nd0zYS",
+        "url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-19-04-2027/event/180064BA83938C33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G65nd0zYS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-dublin-17kzv0g65ndpfyh",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-20T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064BA83948C3C",
+    "ticketmaster_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-20-04-2027/event/180064BA83948C3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-20-04-2027/event/180064BA83948C3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064BA83948C3C",
+        "discovery_event_id": "17kZv0G65ndPFYH",
+        "url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-20-04-2027/event/180064BA83948C3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G65ndPFYH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-12T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800647791216A12",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-12-11-2026/event/1800647791216A12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-12-11-2026/event/1800647791216A12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800647791216A12",
+        "discovery_event_id": "1avOZ_6roFpZd5ed",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-12-11-2026/event/1800647791216A12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avOZ_6roFpZd5ed",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-dublin-1avoz_6rofjzd576",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800647791226A36",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-13-11-2026/event/1800647791226A36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-13-11-2026/event/1800647791226A36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800647791226A36",
+        "discovery_event_id": "1avOZ_6roFJZd576",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-13-11-2026/event/1800647791226A36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avOZ_6roFJZd576",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-co-dublin-1abzkf4gkd83jcw",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Dublin",
+    "city": "Co. Dublin",
+    "country": "Ireland",
+    "venue": "Malahide Castle",
+    "datetime_iso": "2027-06-15T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006515D049CB72",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-co-dublin-15-06-2027/event/18006515D049CB72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-co-dublin-15-06-2027/event/18006515D049CB72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006515D049CB72",
+        "discovery_event_id": "1AbZkf4Gkd83jcw",
+        "url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-co-dublin-15-06-2027/event/18006515D049CB72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkf4Gkd83jcw",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-belfast-16doz_oxfg7tv55",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Belfast",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ormeau Park",
+    "datetime_iso": "2027-06-17T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800651894A412CB",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800651894A412CB",
+        "discovery_event_id": "16dOZ_oxfG7tv55",
+        "url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dOZ_oxfG7tv55",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-dublin-17kzv0g626ngihj",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064F1E3D686DC",
+    "ticketmaster_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-08-04-2027/event/180064F1E3D686DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-08-04-2027/event/180064F1E3D686DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064F1E3D686DC",
+        "discovery_event_id": "17kZv0G626NgIhj",
+        "url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-08-04-2027/event/180064F1E3D686DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G626NgIhj",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-dublin-1avoz_fgkbmo2st",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch + Lamb of God + Bleed From Within",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-01-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800648EAE80FCFF",
+    "ticketmaster_url": "https://www.ticketmaster.ie/five-finger-death-punch-lamb-of-dublin-19-01-2027/event/1800648EAE80FCFF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/five-finger-death-punch-lamb-of-dublin-19-01-2027/event/1800648EAE80FCFF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800648EAE80FCFF",
+        "discovery_event_id": "1AvOZ_FGkBmO2ST",
+        "url": "https://www.ticketmaster.ie/five-finger-death-punch-lamb-of-dublin-19-01-2027/event/1800648EAE80FCFF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_FGkBmO2ST",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nothing-but-thieves-2027-dublin-17kzv0g654xs6b3",
+    "artist_slug": "nothing-but-thieves",
+    "artist_name": "Nothing But Thieves",
+    "event_name": "Nothing But Thieves - The Stray Dogs World Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-02-02T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064B57EC47E92",
+    "ticketmaster_url": "https://www.ticketmaster.ie/nothing-but-thieves-the-stray-dogs-dublin-02-02-2027/event/180064B57EC47E92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/nothing-but-thieves-the-stray-dogs-dublin-02-02-2027/event/180064B57EC47E92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064B57EC47E92",
+        "discovery_event_id": "17kZv0G654Xs6B3",
+        "url": "https://www.ticketmaster.ie/nothing-but-thieves-the-stray-dogs-dublin-02-02-2027/event/180064B57EC47E92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G654Xs6B3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2027-dublin-1abzkffgkdvsqon",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium + In Flames + Paleface Swiss + Vola",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-03-29T17:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006514C1CDA46A",
+    "ticketmaster_url": "https://www.ticketmaster.ie/trivium-in-flames-paleface-swiss-vola-dublin-29-03-2027/event/18006514C1CDA46A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/trivium-in-flames-paleface-swiss-vola-dublin-29-03-2027/event/18006514C1CDA46A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006514C1CDA46A",
+        "discovery_event_id": "1AbZkffGkdvSQon",
+        "url": "https://www.ticketmaster.ie/trivium-in-flames-paleface-swiss-vola-dublin-29-03-2027/event/18006514C1CDA46A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkffGkdvSQon",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2027-dublin-17kzv0g6g1kowuo",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton - the Legendary Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-07T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064C29383D360",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sabaton-the-legendary-tour-dublin-07-04-2027/event/180064C29383D360",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sabaton-the-legendary-tour-dublin-07-04-2027/event/180064C29383D360",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064C29383D360",
+        "discovery_event_id": "17kZv0G6G1KOWuO",
+        "url": "https://www.ticketmaster.ie/sabaton-the-legendary-tour-dublin-07-04-2027/event/180064C29383D360",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6G1KOWuO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2027-torrensville-177yv0g61te6f3g",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - Australia",
+    "city": "Torrensville",
+    "country": "Australia",
+    "venue": "Thebarton Theatre",
+    "datetime_iso": "2027-01-26T08:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064AFC21C848C",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-torrensville-26-01-2027/event/130064AFC21C848C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-torrensville-26-01-2027/event/130064AFC21C848C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064AFC21C848C",
+        "discovery_event_id": "177Yv0G61Te6F3G",
+        "url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-torrensville-26-01-2027/event/130064AFC21C848C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G61Te6F3G",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2027-west-melbourne-177yv0g61tqsnpg",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - Australia",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2027-01-28T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064AFDDC6A94C",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-west-melbourne-28-01-2027/event/130064AFDDC6A94C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-west-melbourne-28-01-2027/event/130064AFDDC6A94C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064AFDDC6A94C",
+        "discovery_event_id": "177Yv0G61TqsnPG",
+        "url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-west-melbourne-28-01-2027/event/130064AFDDC6A94C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G61TqsnPG",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2027-brisbane-177yv0g61drwqfa",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - Australia",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-01-31T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064AEEFC9D209",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-brisbane-31-01-2027/event/130064AEEFC9D209",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-brisbane-31-01-2027/event/130064AEEFC9D209",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064AEEFC9D209",
+        "discovery_event_id": "177Yv0G61DRwqFa",
+        "url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-brisbane-31-01-2027/event/130064AEEFC9D209",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G61DRwqFa",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-dublin-1avoz_8gkr5muwq",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2027-03-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800650BCBDCDF5D",
+    "ticketmaster_url": "https://www.ticketmaster.ie/stella-lefty-dublin-26-03-2027/event/1800650BCBDCDF5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/stella-lefty-dublin-26-03-2027/event/1800650BCBDCDF5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800650BCBDCDF5D",
+        "discovery_event_id": "1AvOZ_8GkR5MuWq",
+        "url": "https://www.ticketmaster.ie/stella-lefty-dublin-26-03-2027/event/1800650BCBDCDF5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_8GkR5MuWq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-dublin-1avoz_8gkr5mcw-",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2027-03-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800650BCBDEDF61",
+    "ticketmaster_url": "https://www.ticketmaster.ie/stella-lefty-dublin-27-03-2027/event/1800650BCBDEDF61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/stella-lefty-dublin-27-03-2027/event/1800650BCBDEDF61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800650BCBDEDF61",
+        "discovery_event_id": "1AvOZ_8GkR5McW-",
+        "url": "https://www.ticketmaster.ie/stella-lefty-dublin-27-03-2027/event/1800650BCBDEDF61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_8GkR5McW-",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fayetteville-g5evz_ojlfi-_",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Fayetteville",
+    "country": "United States Of America",
+    "venue": "Crown Coliseum",
+    "datetime_iso": "2027-01-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065199F228859",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065199F228859",
+        "discovery_event_id": "G5eVZ_oJLFI-_",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_oJLFI-_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-lexington-1apzkfbgker-a4j",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2027-01-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006518AF849566",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006518AF849566",
+        "discovery_event_id": "1ApZkfbGkeR-a4J",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfbGkeR-a4J",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-huntsville-1aozkfbgkdezfqd",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Huntsville",
+    "country": "United States Of America",
+    "venue": "Von Braun Center Propst Arena",
+    "datetime_iso": "2027-01-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006518E7E1477B",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006518E7E1477B",
+        "discovery_event_id": "1AOZkfbGkdEzfqD",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkfbGkdEzfqD",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-lafayette-g5viz_2bfz904",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Lafayette",
+    "country": "United States Of America",
+    "venue": "Lafayette Cajundome",
+    "datetime_iso": "2027-02-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064FE94017915",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lafayette-louisiana-01-31-2027/event/1B0064FE94017915",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lafayette-louisiana-01-31-2027/event/1B0064FE94017915",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064FE94017915",
+        "discovery_event_id": "G5viZ_2BfZ904",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lafayette-louisiana-01-31-2027/event/1B0064FE94017915",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_2BfZ904",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-tampa-vvg1vz_oe_5n5h",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-02-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006519D92EA2FC",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006519D92EA2FC",
+        "discovery_event_id": "vvG1VZ_oE_5n5H",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_oE_5n5H",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-sunrise-z7r9jz1aav8xe",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter & Katy Nichole: Hits Deep Tour",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-02-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8xe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8xe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8xe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8xe",
+        "discovery_event_id": "Z7r9jZ1AAv8xe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8xe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8xe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-orlando-1axzkf_gkdtkgpv",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp & Seph Schlueter: Hits Deep Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-02-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006519E94F5941",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006519E94F5941",
+        "discovery_event_id": "1AxZkf_GkdtKgPv",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkf_GkdtKgPv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-estero-vvg1vz_onusnh8",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Estero",
+    "country": "United States Of America",
+    "venue": "Hertz Arena",
+    "datetime_iso": "2027-02-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006518CDC6A6D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006518CDC6A6D0",
+        "discovery_event_id": "vvG1VZ_oNusnh8",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_oNusnh8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-pensacola-g5viz_o9zokbz",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Pensacola",
+    "country": "United States Of America",
+    "venue": "Pensacola Bay Center",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006515C0806638",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-pensacola-florida-02-11-2027/event/1B006515C0806638",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-pensacola-florida-02-11-2027/event/1B006515C0806638",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006515C0806638",
+        "discovery_event_id": "G5viZ_o9ZOkbz",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-pensacola-florida-02-11-2027/event/1B006515C0806638",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_o9ZOkbz",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-sugar-land-z7r9jz1aav8op",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TobyMac",
+    "city": "Sugar Land",
+    "country": "United States Of America",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8Op",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Op",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Op",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8Op",
+        "discovery_event_id": "Z7r9jZ1AAv8Op",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Op",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Op",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-grand-prairie-z7r9jz1aav8of",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Grand Prairie",
+    "country": "United States Of America",
+    "venue": "Texas Trust CU Theatre",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8Of",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Of",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Of",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8Of",
+        "discovery_event_id": "Z7r9jZ1AAv8Of",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Of",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Of",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-columbus-vv1aazkfbgkdjr-4o",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2027-02-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006518DC7A1551",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006518DC7A1551",
+        "discovery_event_id": "vv1AAZkfbGkdjr-4o",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkfbGkdjr-4o",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-norfolk-z7r9jz1aav8r3",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Norfolk",
+    "country": "United States Of America",
+    "venue": "Chartway Arena at Ted Constant Convocation Center",
+    "datetime_iso": "2027-02-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8r3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8r3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8r3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8r3",
+        "discovery_event_id": "Z7r9jZ1AAv8r3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8r3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8r3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-jacksonville-1axzkf_gkdts4j7",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "VyStar Veterans Memorial Arena",
+    "datetime_iso": "2027-02-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006519E9C55984",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006519E9C55984",
+        "discovery_event_id": "1AxZkf_Gkdts4J7",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkf_Gkdts4J7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-nashville-g5viz_oeqedtw",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-02-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006519DD083A72",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006519DD083A72",
+        "discovery_event_id": "G5viZ_oEqedtw",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_oEqedtw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-duluth-vvg1zz_oxyi5ps",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-02-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006518B0A0B5B3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006518B0A0B5B3",
+        "discovery_event_id": "vvG1zZ_oxYI5pS",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_oxYI5pS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-knoxville-g5viz_oeoyvqw",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Food City Center",
+    "datetime_iso": "2027-02-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006519D1C0177D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006519D1C0177D",
+        "discovery_event_id": "G5viZ_oEoYvqW",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_oEoYvqW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-toledo-vv1afzkf_gkeg66aj",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp,Seph Schlueter & Katy Nichole: Hits Deep Tour",
+    "city": "Toledo",
+    "country": "United States Of America",
+    "venue": "Huntington Center",
+    "datetime_iso": "2027-03-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006519B51C715C",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006519B51C715C",
+        "discovery_event_id": "vv1AFZkf_Gkeg66Aj",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkf_Gkeg66Aj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fishers-vv1aazkf4gkdkqmmm",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Fishers",
+    "country": "United States Of America",
+    "venue": "Fishers Event Center",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006515C676EDEE",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006515C676EDEE",
+        "discovery_event_id": "vv1AAZkf4GkdkqmMm",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkf4GkdkqmMm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Cape Girardeau",
+    "country": "United States Of America",
+    "venue": "Show Me Center",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8-F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8-F",
+        "discovery_event_id": "Z7r9jZ1AAv8-F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8-F",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-grand-rapids-vv1afzkfbgkdx_n_v",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2027-03-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006518E266A674",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-grand-rapids-michigan-03-07-2027/event/08006518E266A674",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-grand-rapids-michigan-03-07-2027/event/08006518E266A674",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006518E266A674",
+        "discovery_event_id": "vv1AFZkfbGkdx_n_V",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-grand-rapids-michigan-03-07-2027/event/08006518E266A674",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfbGkdx_n_V",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-austin-g5diz_oelxrxd",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-03-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006519DF89EF83",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006519DF89EF83",
+        "discovery_event_id": "G5dIZ_oELxrXd",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_oELxrXd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-lubbock-z7r9jz1aav8o_",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Lubbock",
+    "country": "United States Of America",
+    "venue": "United Supermarkets Arena",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8O_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8O_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8O_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8O_",
+        "discovery_event_id": "Z7r9jZ1AAv8O_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8O_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8O_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-rockford-vv1a7zkfpgkdtiktq",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Rockford",
+    "country": "United States Of America",
+    "venue": "BMO Center",
+    "datetime_iso": "2027-03-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006516FFA13A5D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006516FFA13A5D",
+        "discovery_event_id": "vv1A7ZkfpGkdTIKtq",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfpGkdTIKtq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-saint-louis-vv1akzkf_gkdu8agp",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006519CD409316",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-saint-louis-missouri-03-20-2027/event/06006519CD409316",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-saint-louis-missouri-03-20-2027/event/06006519CD409316",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006519CD409316",
+        "discovery_event_id": "vv1AkZkf_Gkdu8aGp",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-saint-louis-missouri-03-20-2027/event/06006519CD409316",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkf_Gkdu8aGp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-saint-levant-2026-dublin-17kzv0g6c1fpluo",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "National Stadium",
+    "datetime_iso": "2026-10-29T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064E29459FD91",
+    "ticketmaster_url": "https://www.ticketmaster.ie/saint-levant-afandi-world-tour-dublin-29-10-2026/event/180064E29459FD91",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/saint-levant-afandi-world-tour-dublin-29-10-2026/event/180064E29459FD91",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064E29459FD91",
+        "discovery_event_id": "17kZv0G6C1fpLUo",
+        "url": "https://www.ticketmaster.ie/saint-levant-afandi-world-tour-dublin-29-10-2026/event/180064E29459FD91",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6C1fpLUo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-brisbane-177yv0g6ckieecd",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ Tyber Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-02-23T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064E1A80A73BB",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/fkj-tyber-tour-brisbane-23-02-2027/event/130064E1A80A73BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/fkj-tyber-tour-brisbane-23-02-2027/event/130064E1A80A73BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064E1A80A73BB",
+        "discovery_event_id": "177Yv0G6CkIeECD",
+        "url": "https://www.ticketmaster.com.au/fkj-tyber-tour-brisbane-23-02-2027/event/130064E1A80A73BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6CkIeECD",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2026-dublin-1avoz_agkwt8mru",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2026-12-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800649CA942EBCD",
+    "ticketmaster_url": "https://www.ticketmaster.ie/blondshell-dublin-17-12-2026/event/1800649CA942EBCD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/blondshell-dublin-17-12-2026/event/1800649CA942EBCD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800649CA942EBCD",
+        "discovery_event_id": "1AvOZ_aGkwt8mRu",
+        "url": "https://www.ticketmaster.ie/blondshell-dublin-17-12-2026/event/1800649CA942EBCD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_aGkwt8mRu",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

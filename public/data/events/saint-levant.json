@@ -945,5 +945,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244009/Saint-Levant-tickets-Thu-May-13-2027-Malkin-Bowl-Stanley-Park",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244009"
+  },
+  {
+    "id": "tm-saint-levant-2026-dublin-17kzv0g6c1fpluo",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "National Stadium",
+    "datetime_iso": "2026-10-29T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064E29459FD91",
+    "ticketmaster_url": "https://www.ticketmaster.ie/saint-levant-afandi-world-tour-dublin-29-10-2026/event/180064E29459FD91",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/saint-levant-afandi-world-tour-dublin-29-10-2026/event/180064E29459FD91",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064E29459FD91",
+        "discovery_event_id": "17kZv0G6C1fpLUo",
+        "url": "https://www.ticketmaster.ie/saint-levant-afandi-world-tour-dublin-29-10-2026/event/180064E29459FD91",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6C1fpLUo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

@@ -1733,5 +1733,164 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16voYJ3up",
     "timezone": "Europe/Berlin",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2027-torrensville-177yv0g61te6f3g",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - Australia",
+    "city": "Torrensville",
+    "country": "Australia",
+    "venue": "Thebarton Theatre",
+    "datetime_iso": "2027-01-26T08:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064AFC21C848C",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-torrensville-26-01-2027/event/130064AFC21C848C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-torrensville-26-01-2027/event/130064AFC21C848C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064AFC21C848C",
+        "discovery_event_id": "177Yv0G61Te6F3G",
+        "url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-torrensville-26-01-2027/event/130064AFC21C848C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G61Te6F3G",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2027-west-melbourne-177yv0g61tqsnpg",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - Australia",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2027-01-28T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064AFDDC6A94C",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-west-melbourne-28-01-2027/event/130064AFDDC6A94C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-west-melbourne-28-01-2027/event/130064AFDDC6A94C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064AFDDC6A94C",
+        "discovery_event_id": "177Yv0G61TqsnPG",
+        "url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-west-melbourne-28-01-2027/event/130064AFDDC6A94C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G61TqsnPG",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2027-brisbane-177yv0g61drwqfa",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - Australia",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-01-31T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064AEEFC9D209",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-brisbane-31-01-2027/event/130064AEEFC9D209",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-brisbane-31-01-2027/event/130064AEEFC9D209",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064AEEFC9D209",
+        "discovery_event_id": "177Yv0G61DRwqFa",
+        "url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-brisbane-31-01-2027/event/130064AEEFC9D209",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G61DRwqFa",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
   }
 ]

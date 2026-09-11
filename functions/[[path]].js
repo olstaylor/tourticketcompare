@@ -668,12 +668,16 @@ function baseSchema(origin) {
         email: "hello@tourticketcompare.com",
         url: `${origin}/contact`
       },
+      // The square brand mark, not the social card. /og-image.png is 1200x630,
+      // which is a valid og:image but a poor logo: Google wants a square image
+      // of at least 112x112 for an Organization. Source: public/assets/logo.svg.
       logo: {
         "@type": "ImageObject",
-        url: `${origin}/og-image.png`,
-        width: 1200,
-        height: 630
-      }
+        url: `${origin}/logo.png`,
+        width: 512,
+        height: 512
+      },
+      founder: { "@id": authorId(origin) }
     },
     {
       "@type": "WebSite",

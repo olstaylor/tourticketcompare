@@ -9,6 +9,7 @@
 // Usage:
 //   node scripts/materialize-work-queue.mjs --health .queue/health.json --dry-run
 //   node scripts/materialize-work-queue.mjs --links .audit/links.json
+//   node scripts/materialize-work-queue.mjs --generated .queue/generated.json
 //   node scripts/materialize-work-queue.mjs --self-test
 //
 // `--dry-run` prints the plan and every rendered issue body and performs no
@@ -23,6 +24,7 @@ import {
   RED_SURFACES,
   buildPayload,
   classify,
+  extractGeneratedFreshnessFindings,
   extractHealthFindings,
   extractLinkFindings,
   fingerprintFor,
@@ -49,7 +51,7 @@ async function readJsonIfPresent(path) {
   }
 }
 
-export async function collectFindings({ healthPath, linksPath }) {
+export async function collectFindings({ healthPath, linksPath, generatedPath }) {
   const findings = [];
   const sources = [];
   const health = await readJsonIfPresent(healthPath);
@@ -63,6 +65,12 @@ export async function collectFindings({ healthPath, linksPath }) {
     const extracted = extractLinkFindings(links);
     findings.push(...extracted);
     sources.push({ source: "daily-audit", path: linksPath, findings: extracted.length });
+  }
+  const generated = await readJsonIfPresent(generatedPath);
+  if (generated) {
+    const extracted = extractGeneratedFreshnessFindings(generated);
+    findings.push(...extracted);
+    sources.push({ source: "generated-freshness", path: generatedPath, findings: extracted.length });
   }
   return { findings, sources };
 }
@@ -144,6 +152,134 @@ if (SELF_TEST) {
   for (const status of [404, 410]) {
     assert.equal(extractLinkFindings({ failures: [linkFailure({ status })] }).length, 1, String(status));
   }
+
+  // --- generated-freshness: the only agent-ready class ----------------------
+  //
+  // The fixture is the real 2026-09-11 incident. PR #935 changed the /about and
+  // /about/ollie-taylor copy without re-running the generator, so
+  // `content:provenance:check` failed on `main` from 10:37Z to 13:29Z and every
+  // sanctioned writer stopped. The check output below is copied from that run's
+  // job log; the repair that actually landed was commit 56b4107, a two-line
+  // regeneration of exactly this file.
+  const septemberEleventh = {
+    artefacts: [
+      {
+        id: "content-provenance",
+        label: "Content provenance",
+        source: "the render blocks and trust-page copy the fingerprints cover",
+        artifacts: ["data/content-provenance.json"],
+        validation: ["npm run test:content", "npm run test:mvp"],
+        state: "stale",
+        reason: "The check failed, regeneration changed the declared artefacts, and the same check then passed. The repair is proved.",
+        evidence: {
+          check_command: "npm run content:provenance:check",
+          check_exit: 1,
+          check_output:
+            "CONTENT PROVENANCE CHECK FAILED\n\n  - 2 route(s) have edited copy with a stale published date:\n    /about  (published 2026-09-11)\n    /about/ollie-taylor  (published 2026-09-11)\n\n  Fix: npm run content:provenance   (then commit the result)",
+          regenerate_command: "npm run content:provenance",
+          regenerate_exit: 0,
+          changed_files: ["data/content-provenance.json"],
+          recheck_exit: 0
+        }
+      }
+    ]
+  };
+
+  const staleFindings = extractGeneratedFreshnessFindings(septemberEleventh);
+  assert.equal(staleFindings.length, 1);
+  const staleVerdict = classify(staleFindings[0]);
+  assert.equal(staleVerdict.execution, "agent:ready", "the historical incident must produce agent-ready work");
+  assert.equal(staleVerdict.risk, "amber");
+  assert.equal(staleVerdict.priority, "P1");
+
+  // The issue must carry everything a future session needs so it never has to
+  // re-audit the repository: the failing validator, the generated file, the
+  // authoritative source, the exact regeneration command, and the validator's
+  // own output.
+  const stalePayload = buildPayload(staleFindings[0]);
+  for (const needle of [
+    "npm run content:provenance:check",
+    "data/content-provenance.json",
+    "npm run content:provenance",
+    "the render blocks and trust-page copy the fingerprints cover",
+    "CONTENT PROVENANCE CHECK FAILED",
+    "/about/ollie-taylor",
+    "npm run test:mvp",
+    "A human still approves the merge."
+  ]) {
+    assert.ok(stalePayload.body.includes(needle), `historical replay payload missing: ${needle}`);
+  }
+  assert.ok(stalePayload.labels.includes("agent:ready"));
+  assert.ok(stalePayload.labels.includes("risk:amber"));
+  assert.ok(stalePayload.labels.includes("source:generated-freshness"));
+  // The acceptance criteria must tell a worker when to stop rather than widen.
+  assert.match(stalePayload.body, /report BLOCKED/);
+  assert.match(stalePayload.body, /report NEEDS HUMAN/);
+  assert.match(stalePayload.body, /Do not hand-edit the generated file/);
+
+  // Identity is the artefact group, so a second run with different drifted files
+  // and different validator output updates the same issue.
+  const sameAgain = extractGeneratedFreshnessFindings({
+    artefacts: [
+      {
+        ...septemberEleventh.artefacts[0],
+        evidence: { ...septemberEleventh.artefacts[0].evidence, check_output: "different prose entirely", changed_files: ["data/content-provenance.json", "x"] }
+      }
+    ]
+  })[0];
+  assert.equal(fingerprintFor(staleFindings[0]), fingerprintFor(sameAgain));
+
+  // A different artefact group is a different work item.
+  const otherArtefact = extractGeneratedFreshnessFindings({
+    artefacts: [{ ...septemberEleventh.artefacts[0], id: "guides-content" }]
+  })[0];
+  assert.notEqual(fingerprintFor(staleFindings[0]), fingerprintFor(otherArtefact));
+
+  // --- what can never enter the agent-ready class ---------------------------
+  //
+  // Only `stale` is promoted, and `stale` is only ever set by the sensor after
+  // it has proved regeneration is the repair. Every other verdict is dropped.
+  for (const state of ["fresh", "generator_failed", "check_failed_not_stale", "unknown", undefined]) {
+    assert.equal(
+      extractGeneratedFreshnessFindings({ artefacts: [{ ...septemberEleventh.artefacts[0], state }] }).length,
+      0,
+      `state ${state} must not be materialised`
+    );
+  }
+  assert.equal(extractGeneratedFreshnessFindings({}).length, 0);
+  assert.equal(extractGeneratedFreshnessFindings({ artefacts: [] }).length, 0);
+
+  // A generic red test cannot reach this class: the sensor only ever reports
+  // artefacts on its own fixed allowlist, and that list is asserted separately
+  // in check-generated-freshness.mjs --self-test. Here, prove the queue side:
+  // a finding naming a protected or provider file still classifies purely by its
+  // type, and no type outside the allowlist exists to carry it.
+  const { GENERATED_ARTEFACTS } = await import("./check-generated-freshness.mjs");
+  const allowlisted = new Set(GENERATED_ARTEFACTS.map((entry) => entry.id));
+  assert.deepEqual([...allowlisted].sort(), ["blog-content", "content-provenance", "guides-content", "og-cards"]);
+  for (const entry of GENERATED_ARTEFACTS) {
+    for (const artefact of entry.artifacts) {
+      // Nothing on the allowlist may be event, artist, catalog or affiliate data,
+      // or the redirect. Those are the surfaces an agent must never regenerate
+      // its way into.
+      assert.ok(
+        !/^public\/data\/(events|artists|catalog)|functions\/api\/out\.js|functions\/_middleware\.js|migrations\//.test(artefact),
+        `${entry.id}: ${artefact} is a protected commercial or provider surface and must not be in the regeneration allowlist`
+      );
+    }
+  }
+
+  // The class declares no red surface, which is what lets it be agent-ready.
+  // If anyone ever adds one, classify must strip agent-ready — already asserted
+  // by the lying-row fixture further down, and re-asserted here for this type.
+  assert.deepEqual(FINDING_TYPES.generated_artifact_stale.touches, []);
+  assert.equal(FINDING_TYPES.generated_artifact_stale.execution, "agent:ready");
+  const forcedRed = classify(staleFindings[0], {
+    ...FINDING_TYPES,
+    generated_artifact_stale: { ...FINDING_TYPES.generated_artifact_stale, touches: ["provider-rights"] }
+  });
+  assert.equal(forcedRed.risk, "red");
+  assert.equal(forcedRed.execution, "human-required", "adding a red surface must strip agent-ready from this class too");
 
   // --- fingerprint stability -------------------------------------------------
   const a = extractHealthFindings({ lanes: [lane()] })[0];
@@ -319,9 +455,13 @@ const isEntryPoint = Boolean(process.argv[1]) && pathToFileURL(process.argv[1]).
 if (isEntryPoint) await main();
 
 async function main() {
-  const { findings, sources } = await collectFindings({ healthPath: flag("--health"), linksPath: flag("--links") });
+  const { findings, sources } = await collectFindings({
+    healthPath: flag("--health"),
+    linksPath: flag("--links"),
+    generatedPath: flag("--generated")
+  });
   if (!sources.length) {
-    console.error("Nothing to read. Pass --health <path> and/or --links <path>.");
+    console.error("Nothing to read. Pass --health, --links and/or --generated <path>.");
     process.exit(2);
   }
 

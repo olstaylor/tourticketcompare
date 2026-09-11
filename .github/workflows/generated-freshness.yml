@@ -1,0 +1,87 @@
+name: Generated freshness
+
+# Catches a committed generated artefact that has drifted from its source —
+# the defect that took `main` red on 2026-09-11, when /about copy merged without
+# a re-run of `npm run content:provenance` and every sanctioned writer stopped
+# for three hours.
+#
+# The push trigger is the point: this runs within a minute of the merge that
+# breaks it, rather than waiting for the next nightly lane to fail. The daily
+# schedule is a backstop for a push that never fired.
+#
+# It runs the repository's own `--check` guards over a fixed allowlist, and only
+# reports an artefact once it has proved in the same run that regenerating is
+# the repair. It never commits: `contents: read`, and the probe restores every
+# file it touched.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'functions/**'
+      - 'public/**'
+      - 'data/**'
+      - 'scripts/build-*.mjs'
+      - 'scripts/sync-content-provenance.mjs'
+  schedule:
+    - cron: '40 4 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: generated-freshness
+  cancel-in-progress: true
+
+# Read-only over the repository. `issues: write` maintains the work queue and
+# nothing else; `pull-requests: read` is the recovery check that stops a queue
+# item being closed while an open pull request still references it. No
+# `contents: write`, no `actions: write`, no `pull-requests: write`.
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # Unlike the automation-health sensor, this one genuinely needs the
+      # dependencies: it may run the generators, and the OG card builder
+      # rasterises through sharp.
+      - run: npm ci
+
+      - name: Self-test
+        run: |
+          node scripts/check-generated-freshness.mjs --self-test
+          node scripts/materialize-work-queue.mjs --self-test
+
+      - name: Check generated artefacts against their sources
+        run: node scripts/check-generated-freshness.mjs --json generated-freshness-findings.json
+
+      # Fails the run if the workspace is not exactly as checked out. The probe
+      # restores everything it regenerates, and a leak would mean a later step
+      # or a future change could commit a generated file nobody reviewed.
+      - name: Assert the probe left the tree untouched
+        run: |
+          if [ -n "$(git status --porcelain -- . ':!generated-freshness-findings.json')" ]; then
+            echo "::error::the freshness probe modified the working tree"
+            git --no-pager status --porcelain
+            exit 1
+          fi
+          echo "Working tree unchanged."
+
+      - name: Materialise discrete work items
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/materialize-work-queue.mjs --generated generated-freshness-findings.json

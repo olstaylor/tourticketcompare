@@ -3529,7 +3529,22 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     }
   }
 
-  const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
+  // The board's progressive enhancement (public/artist-board.js) filters and
+  // sorts these cards from this payload alone — it never refetches event data —
+  // so every field its search, its country/city selects and its date sort read
+  // has to be here. Every one of them is already published on this page, so
+  // nothing new is exposed. Keep in sync with public/artist-board.js.
+  const showJson = escapeAttr(
+    JSON.stringify({
+      last_verified_at: show.last_verified_at || "",
+      dateTimeISO: show.dateTimeISO || "",
+      city: show.city || "",
+      country: show.country || "",
+      venue: show.venue || "",
+      event_name: show.event_name || "",
+      tour_name: show.tour_name || ""
+    })
+  );
   const copyLinkHtml = presentation.includeCopyLink !== false && anchorId
     ? `<a class="text-link copy-show-link" href="#${escapeAttr(anchorId)}" data-copy-show-link="${escapeAttr(anchorId)}">Copy link to this date</a>`
     : "";
@@ -4479,8 +4494,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260901a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260821a" />\n    <link rel="stylesheet" href="/styles.css?v=20260901a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20260911a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260821a" />\n    <link rel="stylesheet" href="/styles.css?v=20260911a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260821a" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260821a" defer></script></body>');

@@ -3903,5 +3903,111 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018169",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-28-5-2027/event/107242082",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018169/Gracie-Abrams-tickets-Fri-May-28-2027-Palau-Sant-Jordi"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-dublin-17kzv0g65nd0zys",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-19T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064BA83938C33",
+    "ticketmaster_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-19-04-2027/event/180064BA83938C33",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-19-04-2027/event/180064BA83938C33",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064BA83938C33",
+        "discovery_event_id": "17kZv0G65nd0zYS",
+        "url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-19-04-2027/event/180064BA83938C33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G65nd0zYS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-dublin-17kzv0g65ndpfyh",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-20T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064BA83948C3C",
+    "ticketmaster_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-20-04-2027/event/180064BA83948C3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-20-04-2027/event/180064BA83948C3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064BA83948C3C",
+        "discovery_event_id": "17kZv0G65ndPFYH",
+        "url": "https://www.ticketmaster.ie/gracie-abrams-the-look-at-my-dublin-20-04-2027/event/180064BA83948C3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G65ndPFYH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

@@ -139,6 +139,8 @@
     "prices:history:prune:self-test": "node scripts/prune-provider-pricing-history.mjs --self-test",
     "prices:freshness:check": "node scripts/check-price-snapshot-freshness.mjs",
     "automation:health": "node scripts/check-automation-health.mjs",
+    "generated:freshness": "node scripts/check-generated-freshness.mjs",
+    "generated:freshness:self-test": "node scripts/check-generated-freshness.mjs --self-test",
     "queue:materialize": "node scripts/materialize-work-queue.mjs",
     "queue:materialize:dry-run": "node scripts/materialize-work-queue.mjs --dry-run",
     "queue:materialize:self-test": "node scripts/materialize-work-queue.mjs --self-test",

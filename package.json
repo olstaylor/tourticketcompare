@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "wrangler pages dev public --compatibility-date=2025-01-01 --port 3000",
     "build": "npm run test:mvp",
-    "deploy": "wrangler pages deploy public",
     "deploy:pages": "wrangler pages deploy public",
     "deploy:pages:safe": "npm run test:mvp && wrangler pages deploy public",
     "test:mvp": "node scripts/run-test-lane.mjs mvp",
@@ -34,7 +33,6 @@
     "validate:artist-providers": "node scripts/validate-artist-provider-claims.mjs",
     "validate:cta-provider-state": "node scripts/validate-cta-provider-state.mjs",
     "validate:cta-provider-state:self-test": "node scripts/validate-cta-provider-state.mjs --self-test",
-    "test:prelaunch": "npm run test:mvp",
     "demand:migrate": "wrangler d1 execute tourticketcompare-demand --remote --file migrations/0001_demand.sql",
     "demand:export": "wrangler d1 execute tourticketcompare-demand --remote --command \"SELECT * FROM email_subscribers\"",
     "events:partition": "python3 scripts/partition-events.py",

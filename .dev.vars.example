@@ -62,8 +62,5 @@ IMPACT_SEATGEEK_AUTH_TOKEN=your_seatgeek_auth_token_here
 # without this token they all return 404. Use a long random value.
 DEBUG_API_TOKEN=your_debug_token_here
 
-PUBLIC_SITE_PHASE=pages_mvp_market_watch
-ENABLE_PUBLIC_TICKET_LISTINGS=false
-
 # D1 binding, configured in wrangler.toml / Cloudflare Pages dashboard rather than as text:
 # DEMAND_DB=tourticketcompare-demand

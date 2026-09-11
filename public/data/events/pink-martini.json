@@ -159,12 +159,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8166331",
+        "url": "https://www.ticketnetwork.com/en/p/8166331",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZojt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8166331/Pink-Martini-All-Stars-tickets-Thu-Dec-10-2026-George-Mason-Center-For-The-Arts-Concert-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8166331/Pink-Martini-All-Stars-tickets-Thu-Dec-10-2026-George-Mason-Center-For-The-Arts-Concert-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8166331"
   },
   {
     "id": "tm-pink-martini-2026-lebanon-z7r9jz1a7pwba",
@@ -220,12 +228,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8087921",
+        "url": "https://www.ticketnetwork.com/en/p/8087921",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pwba",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8087921/Pink-Martini-All-Stars-tickets-Sat-Dec-12-2026-Lebanon-Opera-House"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8087921/Pink-Martini-All-Stars-tickets-Sat-Dec-12-2026-Lebanon-Opera-House",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8087921"
   },
   {
     "id": "tm-pink-martini-2026-brooklyn-k7vgf_u53h-yh",
@@ -288,13 +304,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8072032",
+        "url": "https://www.ticketnetwork.com/en/p/8072032",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_u53h-YH",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072032/Pink-Martini-All-Stars-tickets-Sun-Dec-13-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247"
+    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072032"
   },
   {
     "id": "tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv",
@@ -403,12 +427,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8072011",
+        "url": "https://www.ticketnetwork.com/en/p/8072011",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_GNt3jAu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072011/Pink-Martini-All-Stars-tickets-Wed-Dec-16-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072011/Pink-Martini-All-Stars-tickets-Wed-Dec-16-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072011"
   },
   {
     "id": "tm-pink-martini-2026-boston-z7r9jz1a7psqp",
@@ -517,12 +549,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7950714",
+        "url": "https://www.ticketnetwork.com/en/p/7950714",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P6-Z",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7950714/Pink-Martini-tickets-Fri-Jan-8-2027-Bass-Performance-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7950714/Pink-Martini-tickets-Fri-Jan-8-2027-Bass-Performance-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7950714"
   },
   {
     "id": "tm-pink-martini-2027-jacksonville-z7r9jz1aazepf",
@@ -737,12 +777,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8043631",
+        "url": "https://www.ticketnetwork.com/en/p/8043631",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZP-S",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043631/Pink-Martini-tickets-Sun-Jan-24-2027-Mount-Baker-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043631/Pink-Martini-tickets-Sun-Jan-24-2027-Mount-Baker-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043631"
   },
   {
     "id": "tm-pink-martini-2027-cleveland-vvg1fz_uzuo2ng",
@@ -798,12 +846,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8121295",
+        "url": "https://www.ticketnetwork.com/en/p/8121295",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_uzuo2NG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121295/Pink-Martini-tickets-Wed-Feb-10-2027-Cleveland-Museum-of-Art-Gartner-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121295/Pink-Martini-tickets-Wed-Feb-10-2027-Cleveland-Museum-of-Art-Gartner-Auditorium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121295"
   },
   {
     "id": "tm-pink-martini-2027-cincinnati-z7r9jz1a7pp4b",
@@ -965,12 +1021,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8194294",
+        "url": "https://www.ticketnetwork.com/en/p/8194294",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfAGkes0iRs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194294/Pink-Martini-tickets-Sat-Feb-13-2027-Pantages-Theatre-MN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194294/Pink-Martini-tickets-Sat-Feb-13-2027-Pantages-Theatre-MN",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194294"
   },
   {
     "id": "tm-pink-martini-2027-minneapolis-vv1akzkfagkesphrg",
@@ -1026,12 +1090,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8194295",
+        "url": "https://www.ticketnetwork.com/en/p/8194295",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfAGkesPHRg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194295/Pink-Martini-tickets-Sun-Feb-14-2027-Pantages-Theatre-MN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194295/Pink-Martini-tickets-Sun-Feb-14-2027-Pantages-Theatre-MN",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194295"
   },
   {
     "id": "tm-pink-martini-2027-madison-vv1a6zkfagkec5a4v",
@@ -1140,12 +1212,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8193669",
+        "url": "https://www.ticketnetwork.com/en/p/8193669",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZtZk",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193669/Pink-Martini-tickets-Fri-Mar-5-2027-Pikes-Peak-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193669/Pink-Martini-tickets-Fri-Mar-5-2027-Pikes-Peak-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193669"
   },
   {
     "id": "tm-pink-martini-2027-colorado-springs-z7r9jz1a7joxz",
@@ -1201,12 +1281,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8193668",
+        "url": "https://www.ticketnetwork.com/en/p/8193668",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JoxZ",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193668/Pink-Martini-tickets-Sat-Mar-6-2027-Pikes-Peak-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193668/Pink-Martini-tickets-Sat-Mar-6-2027-Pikes-Peak-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193668"
   },
   {
     "id": "tm-pink-martini-2027-toronto-177zv0g65s2z1n6",
@@ -1315,12 +1403,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8173902",
+        "url": "https://www.ticketnetwork.com/en/p/8173902",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61iHH8Sg",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173902/Pink-Martini-tickets-Thu-Mar-18-2027-Le-Theatre-Capitole"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173902/Pink-Martini-tickets-Thu-Mar-18-2027-Le-Theatre-Capitole",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173902"
   },
   {
     "id": "tm-pink-martini-2027-houston-g5diz_8uc2ajn",
@@ -1376,11 +1472,19 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8223615",
+        "url": "https://www.ticketnetwork.com/en/p/8223615",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8Uc2aJN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223615/Pink-Martini-All-Stars-tickets-Thu-Mar-25-2027-Sarofim-Hall-Hobby-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223615/Pink-Martini-All-Stars-tickets-Thu-Mar-25-2027-Sarofim-Hall-Hobby-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8223615"
   }
 ]

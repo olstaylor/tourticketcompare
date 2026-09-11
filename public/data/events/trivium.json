@@ -2248,5 +2248,58 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027/event/107532092"
+  },
+  {
+    "id": "tm-trivium-2027-dublin-1abzkffgkdvsqon",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium + In Flames + Paleface Swiss + Vola",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-03-29T17:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006514C1CDA46A",
+    "ticketmaster_url": "https://www.ticketmaster.ie/trivium-in-flames-paleface-swiss-vola-dublin-29-03-2027/event/18006514C1CDA46A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/trivium-in-flames-paleface-swiss-vola-dublin-29-03-2027/event/18006514C1CDA46A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006514C1CDA46A",
+        "discovery_event_id": "1AbZkffGkdvSQon",
+        "url": "https://www.ticketmaster.ie/trivium-in-flames-paleface-swiss-vola-dublin-29-03-2027/event/18006514C1CDA46A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkffGkdvSQon",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

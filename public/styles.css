@@ -1227,6 +1227,15 @@ summary {
   box-shadow: none;
 }
 
+/* The board filter hides a card that falls out of the current country, city or
+   search by setting `hidden` on it. Every .show-card rule here sets a display,
+   and an author display declaration beats the user agent's
+   [hidden] { display: none } — so without this the filter changed the count
+   line and the order while leaving every card on screen. */
+.show-card[hidden] {
+  display: none;
+}
+
 .artist-page .show-card-grid {
   grid-template-columns: 1fr;
   gap: 12px;

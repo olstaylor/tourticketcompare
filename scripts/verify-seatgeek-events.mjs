@@ -784,7 +784,7 @@ async function main() {
   if (options.apply && changedIds.size > 0 && !authFailure) {
     await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
     const partitionFiles = await syncPartitions(events, changedIds);
-    console.error(`Wrote ${changedIds.size} event update(s) to events.json and ${partitionFiles.length} partition file(s). Run \`npm run events:update\` to refresh the inline fallback.`);
+    console.error(`Wrote ${changedIds.size} event update(s) to events.json and ${partitionFiles.length} partition file(s).`);
   } else if (authFailure && changedIds.size > 0) {
     console.error(`Auth/config failure mid-run — discarding ${changedIds.size} in-memory update(s); nothing written.`);
   }

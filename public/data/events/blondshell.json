@@ -287,5 +287,58 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/blondshell-tickets-london-the-roundhouse-15-12-2026/event/107170278"
+  },
+  {
+    "id": "tm-blondshell-2026-dublin-1avoz_agkwt8mru",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2026-12-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800649CA942EBCD",
+    "ticketmaster_url": "https://www.ticketmaster.ie/blondshell-dublin-17-12-2026/event/1800649CA942EBCD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/blondshell-dublin-17-12-2026/event/1800649CA942EBCD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800649CA942EBCD",
+        "discovery_event_id": "1AvOZ_aGkwt8mRu",
+        "url": "https://www.ticketmaster.ie/blondshell-dublin-17-12-2026/event/1800649CA942EBCD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_aGkwt8mRu",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

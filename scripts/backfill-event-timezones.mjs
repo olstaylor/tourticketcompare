@@ -523,7 +523,7 @@ async function main() {
     for (const row of results) {
       console.log(`  ${row.showId} [${row.artist}] ${row.action}${row.applied ? " (applied)" : ""}${row.timezone ? ` ${row.timezone}` : ""} — ${row.reason}`);
     }
-    if (summary.written) console.log(`\nWrote ${summary.written} timezone(s) and ${summary.partition_files_written} partition file(s). Run \`npm run events:sync\` to refresh the inline fallback, then re-run the provider syncs.`);
+    if (summary.written) console.log(`\nWrote ${summary.written} timezone(s) and ${summary.partition_files_written} partition file(s). Re-run the provider syncs next.`);
     else if (!options.apply && summary.would_write) console.log(`\nDry run — re-run with --apply to write ${summary.would_write} timezone(s).`);
   }
   return 0;

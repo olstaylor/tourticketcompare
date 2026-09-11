@@ -1963,5 +1963,111 @@
     "ticketmaster_discovery_event_id": "G5dzZ_o1n7vhc",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-dublin-1avoz_8gkr5muwq",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2027-03-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800650BCBDCDF5D",
+    "ticketmaster_url": "https://www.ticketmaster.ie/stella-lefty-dublin-26-03-2027/event/1800650BCBDCDF5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/stella-lefty-dublin-26-03-2027/event/1800650BCBDCDF5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800650BCBDCDF5D",
+        "discovery_event_id": "1AvOZ_8GkR5MuWq",
+        "url": "https://www.ticketmaster.ie/stella-lefty-dublin-26-03-2027/event/1800650BCBDCDF5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_8GkR5MuWq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-dublin-1avoz_8gkr5mcw-",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2027-03-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800650BCBDEDF61",
+    "ticketmaster_url": "https://www.ticketmaster.ie/stella-lefty-dublin-27-03-2027/event/1800650BCBDEDF61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/stella-lefty-dublin-27-03-2027/event/1800650BCBDEDF61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800650BCBDEDF61",
+        "discovery_event_id": "1AvOZ_8GkR5McW-",
+        "url": "https://www.ticketmaster.ie/stella-lefty-dublin-27-03-2027/event/1800650BCBDEDF61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_8GkR5McW-",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

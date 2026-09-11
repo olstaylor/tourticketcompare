@@ -830,12 +830,11 @@ async function performWrite(existingEvents, newRows, confidenceBySlug) {
 
   await fs.writeFile(EVENTS_JSON_PATH, `${JSON.stringify(merged, null, 2)}\n`, "utf8");
 
-  // partition-events.py and sync-events-data.py are Python scripts; they are
-  // invoked with python3 (the package.json events:* aliases do the same).
+  // partition-events.py is a Python script; it is invoked with python3 (the
+  // package.json events:* aliases do the same).
   const pipeline = [
     ["validate events (pre-pipeline)", "python3", ["scripts/validate-events.py", "--for-production"]],
     ["partition events", "python3", ["scripts/partition-events.py"]],
-    ["sync events data", "python3", ["scripts/sync-events-data.py"]],
     ["validate events (post-pipeline)", "python3", ["scripts/validate-events.py", "--for-production"]]
   ];
   for (const [label, command, args] of pipeline) {

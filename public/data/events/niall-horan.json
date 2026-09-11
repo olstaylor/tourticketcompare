@@ -2952,5 +2952,111 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175"
+  },
+  {
+    "id": "tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-12T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800647791216A12",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-12-11-2026/event/1800647791216A12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-12-11-2026/event/1800647791216A12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800647791216A12",
+        "discovery_event_id": "1avOZ_6roFpZd5ed",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-12-11-2026/event/1800647791216A12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avOZ_6roFpZd5ed",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-dublin-1avoz_6rofjzd576",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800647791226A36",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-13-11-2026/event/1800647791226A36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-13-11-2026/event/1800647791226A36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800647791226A36",
+        "discovery_event_id": "1avOZ_6roFJZd576",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-13-11-2026/event/1800647791226A36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avOZ_6roFJZd576",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

@@ -3451,5 +3451,111 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815"
+  },
+  {
+    "id": "tm-sombr-2027-co-dublin-1abzkf4gkd83jcw",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Dublin",
+    "city": "Co. Dublin",
+    "country": "Ireland",
+    "venue": "Malahide Castle",
+    "datetime_iso": "2027-06-15T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006515D049CB72",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-co-dublin-15-06-2027/event/18006515D049CB72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-co-dublin-15-06-2027/event/18006515D049CB72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006515D049CB72",
+        "discovery_event_id": "1AbZkf4Gkd83jcw",
+        "url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-co-dublin-15-06-2027/event/18006515D049CB72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkf4Gkd83jcw",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-belfast-16doz_oxfg7tv55",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Belfast",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ormeau Park",
+    "datetime_iso": "2027-06-17T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800651894A412CB",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800651894A412CB",
+        "discovery_event_id": "16dOZ_oxfG7tv55",
+        "url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dOZ_oxfG7tv55",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

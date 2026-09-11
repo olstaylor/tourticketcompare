@@ -287,11 +287,10 @@ Events land via the Ticketmaster Discovery pipeline (`docs/PROVIDER_SYNC.md`) an
 ```bash
 npm run events:validate  # Validate events.json against production rules
 npm run events:partition # Partition events by artist
-npm run events:sync      # Sync event data and update public/index.html inline fallback
-npm run events:update    # validate → partition → sync
+npm run events:update    # validate → partition
 ```
 
-`npm run events:sync` is required after any JSON edits to `public/data/`. The `stale-sync-guard` CI job fails the PR if `public/index.html` is out of sync with the data files.
+`npm run events:partition` is required after any JSON edits to `public/data/events.json`, so the per-artist partitions stay in step with the source file.
 
 ### SeatGeek event-URL discovery
 
@@ -303,8 +302,8 @@ npm run seatgeek:enrich:apply # Apply high-confidence seatgeek_url matches
 ```
 
 Requires `SEATGEEK_CLIENT_ID` (and optional `SEATGEEK_CLIENT_SECRET`). Event-level
-only; never invents URLs. After `seatgeek:enrich:apply`, run `events:sync` and the
-validators, then open a PR. Full runbook: [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md).
+only; never invents URLs. After `seatgeek:enrich:apply`, run `events:partition` and
+the validators, then open a PR. Full runbook: [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md).
 
 ---
 
@@ -348,7 +347,7 @@ Batch onboarding (preferred): `npm run artists:onboard:propose` → review the i
 
 - [ ] Relevant syntax checks pass (`node --check`)
 - [ ] Event data validated (`npm run events:validate`) if `events.json` was touched
-- [ ] `npm run events:sync` run if any data files changed
+- [ ] `npm run events:partition` run if `events.json` changed
 - [ ] `npm run blog:build` run if any `content/blog/*.md` was changed
 - [ ] `npm run guides:build` run if any `content/guides/*.md` was changed
 - [ ] `npm run content:provenance` run if any guide or trust-page copy was changed

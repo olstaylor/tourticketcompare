@@ -1112,5 +1112,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-dallas-tickets-6-14-2027/event/107447315"
+  },
+  {
+    "id": "tm-fkj-2027-brisbane-177yv0g6ckieecd",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ Tyber Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-02-23T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064E1A80A73BB",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/fkj-tyber-tour-brisbane-23-02-2027/event/130064E1A80A73BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/fkj-tyber-tour-brisbane-23-02-2027/event/130064E1A80A73BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064E1A80A73BB",
+        "discovery_event_id": "177Yv0G6CkIeECD",
+        "url": "https://www.ticketmaster.com.au/fkj-tyber-tour-brisbane-23-02-2027/event/130064E1A80A73BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6CkIeECD",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
   }
 ]

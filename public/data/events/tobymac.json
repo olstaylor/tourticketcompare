@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "06006496E5AC900E",
     "ticketmaster_url": "https://www.ticketmaster.com/celebrate-minnesota-tobymac-kb-waite-park-minnesota-09-19-2026/event/06006496E5AC900E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-waite-park-the-ledge-waite-park-amphitheater-9-19-2026/production/6950006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/celebrate-minnesota-tobymac-kb-waite-park-minnesota-09-19-2026/event/06006496E5AC900E",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6950006,
+        "url": "https://www.vividseats.com/tobymac-tickets-waite-park-the-ledge-waite-park-amphitheater-9-19-2026/production/6950006",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "060064A8BF6D2D36",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbia-mizzou-arena-11-5-2026--concerts-adult-contemporary/production/7024059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7024059,
+        "url": "https://www.vividseats.com/tobymac-tickets-columbia-mizzou-arena-11-5-2026--concerts-adult-contemporary/production/7024059",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -134,7 +134,7 @@
     "ticketmaster_event_id": "050064AA2551F782",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-evansville-ford-center-evansville-11-6-2026--concerts-adult-contemporary/production/7024067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
     "last_verified_at": null,
@@ -156,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7024067,
+        "url": "https://www.vividseats.com/tobymac-tickets-evansville-ford-center-evansville-11-6-2026--concerts-adult-contemporary/production/7024067",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -203,7 +203,7 @@
     "ticketmaster_event_id": "050064ABC980C685",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-cleveland-wolstein-center-at-csu-11-7-2026/production/7024282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
     "last_verified_at": null,
@@ -225,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7024282,
+        "url": "https://www.vividseats.com/tobymac-tickets-cleveland-wolstein-center-at-csu-11-7-2026/production/7024282",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -256,7 +256,7 @@
     "ticketmaster_event_id": "2D0064A8C9C06569",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-11-8-2026--concerts-adult-contemporary/production/7024078",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
     "last_verified_at": null,
@@ -278,11 +278,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7024078,
+        "url": "https://www.vividseats.com/tobymac-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-11-8-2026--concerts-adult-contemporary/production/7024078",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

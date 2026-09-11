@@ -325,7 +325,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pxvf",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxvf",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-10-12-8-pm/concert/18299136",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-philadelphia-franklin-music-hall-10-12-2026/production/7144169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxvf",
     "last_verified_at": null,
@@ -347,11 +347,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144169,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-philadelphia-franklin-music-hall-10-12-2026/production/7144169",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -394,7 +394,7 @@
     "ticketmaster_event_id": "000064C5B8594A98",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-brooklyn-brooklyn-paramount-10-14-2026--concerts-dance-electronica/production/7144060",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
     "last_verified_at": null,
@@ -416,11 +416,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144060,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-brooklyn-brooklyn-paramount-10-14-2026--concerts-dance-electronica/production/7144060",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -471,7 +471,7 @@
     "ticketmaster_event_id": "010064C4D897706B",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-portland-state-theatre-portland-10-16-2026--concerts-dance-electronica/production/7144100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
     "last_verified_at": null,
@@ -493,11 +493,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144100,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-portland-state-theatre-portland-10-16-2026--concerts-dance-electronica/production/7144100",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -540,7 +540,7 @@
     "ticketmaster_event_id": "010064C3D87277C2",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-boston-massachusetts-10-17-2026/event/010064C3D87277C2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-boston-citizens-house-of-blues-boston-10-17-2026--concerts-dance-electronica/production/7144106",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-boston-massachusetts-10-17-2026/event/010064C3D87277C2",
     "last_verified_at": null,
@@ -562,11 +562,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144106,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-boston-citizens-house-of-blues-boston-10-17-2026--concerts-dance-electronica/production/7144106",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -617,7 +617,7 @@
     "ticketmaster_event_id": "100064C4C06E4D0E",
     "ticketmaster_url": "https://www.ticketmaster.ca/sylvan-esso-toronto-ontario-10-19-2026/event/100064C4C06E4D0E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-toronto-history-toronto-10-19-2026--concerts-dance-electronica/production/7144154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sylvan-esso-toronto-ontario-10-19-2026/event/100064C4C06E4D0E",
     "last_verified_at": null,
@@ -639,11 +639,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144154,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-toronto-history-toronto-10-19-2026--concerts-dance-electronica/production/7144154",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -776,7 +776,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PfOY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOY",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-23-8-30-pm/concert/18299152",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-minneapolis-first-avenue-10-23-2026--concerts-dance-electronica/production/7144180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOY",
     "last_verified_at": null,
@@ -798,11 +798,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144180,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-minneapolis-first-avenue-10-23-2026--concerts-dance-electronica/production/7144180",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -845,7 +845,7 @@
     "ticketmaster_event_id": "0F0064C5CFEE0AA4",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-seattle-washington-02-19-2027/event/0F0064C5CFEE0AA4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-seattle-paramount-theatre-seattle-2-19-2027--concerts-dance-electronica/production/7144222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-seattle-washington-02-19-2027/event/0F0064C5CFEE0AA4",
     "last_verified_at": null,
@@ -867,11 +867,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144222,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-seattle-paramount-theatre-seattle-2-19-2027--concerts-dance-electronica/production/7144222",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -914,7 +914,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pffp",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pffp",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/vancouver-canada-vogue-theatre-bc-1-2027-02-20-8-pm/concert/18299162",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-vancouver-vogue-theatre---bc-2-20-2027--concerts-dance-electronica/production/7144230",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pffp",
     "last_verified_at": null,
@@ -936,11 +936,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144230,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-vancouver-vogue-theatre---bc-2-20-2027--concerts-dance-electronica/production/7144230",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -983,7 +983,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pf-d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-d",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-22-8-30-pm/concert/18299165",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-portland-mcmenamins-crystal-ballroom-2-22-2027--concerts-dance-electronica/production/7144322",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-d",
     "last_verified_at": null,
@@ -1005,11 +1005,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144322,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-portland-mcmenamins-crystal-ballroom-2-22-2027--concerts-dance-electronica/production/7144322",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1052,7 +1052,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pf-7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-7",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-23-8-30-pm/concert/18299164",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-portland-mcmenamins-crystal-ballroom-2-23-2027--concerts-dance-electronica/production/7144324",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf-7",
     "last_verified_at": null,
@@ -1074,11 +1074,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144324,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-portland-mcmenamins-crystal-ballroom-2-23-2027--concerts-dance-electronica/production/7144324",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1121,7 +1121,7 @@
     "ticketmaster_event_id": "1C0064C5240B8474",
     "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-sylvan-esso-oakland-california-02-25-2027/event/1C0064C5240B8474",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-oakland-fox-theater-oakland-2-25-2027--concerts-dance-electronica/production/7144122",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-sylvan-esso-oakland-california-02-25-2027/event/1C0064C5240B8474",
     "last_verified_at": null,
@@ -1143,11 +1143,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144122,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-oakland-fox-theater-oakland-2-25-2027--concerts-dance-electronica/production/7144122",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1190,7 +1190,7 @@
     "ticketmaster_event_id": "090064C98DE65781",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-los-angeles-california-02-26-2027/event/090064C98DE65781",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-los-angeles-the-wiltern-2-26-2027--concerts-dance-electronica/production/7144130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-los-angeles-california-02-26-2027/event/090064C98DE65781",
     "last_verified_at": null,
@@ -1212,11 +1212,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144130,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-los-angeles-the-wiltern-2-26-2027--concerts-dance-electronica/production/7144130",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1259,7 +1259,7 @@
     "ticketmaster_event_id": "090064F1F57268F9",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-santa-ana-california-02-27-2027/event/090064F1F57268F9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-santa-ana-the-observatory-santa-ana-2-27-2027/production/7327236",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-santa-ana-california-02-27-2027/event/090064F1F57268F9",
     "last_verified_at": null,
@@ -1281,11 +1281,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7327236,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-santa-ana-the-observatory-santa-ana-2-27-2027/production/7327236",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1328,7 +1328,7 @@
     "ticketmaster_event_id": "0A0064C5CB48B87E",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-del-mar-california-03-01-2027/event/0A0064C5CB48B87E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-del-mar-the-sound---del-mar-3-1-2027--concerts-dance-electronica/production/7144132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-del-mar-california-03-01-2027/event/0A0064C5CB48B87E",
     "last_verified_at": null,
@@ -1350,11 +1350,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144132,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-del-mar-the-sound---del-mar-3-1-2027--concerts-dance-electronica/production/7144132",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1397,7 +1397,7 @@
     "ticketmaster_event_id": "190064C4B9FA7DCC",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-phoenix-arizona-03-02-2027/event/190064C4B9FA7DCC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-phoenix-the-van-buren-3-2-2027--concerts-dance-electronica/production/7144134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-phoenix-arizona-03-02-2027/event/190064C4B9FA7DCC",
     "last_verified_at": null,
@@ -1419,11 +1419,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144134,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-phoenix-the-van-buren-3-2-2027--concerts-dance-electronica/production/7144134",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1466,7 +1466,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pf46",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-05-9-pm/concert/18299177",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-5-2027--concerts-dance-electronica/production/7144191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
     "last_verified_at": null,
@@ -1488,11 +1488,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144191,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-5-2027--concerts-dance-electronica/production/7144191",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1604,7 +1604,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pxj7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxj7",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-08-8-pm/concert/18299178",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-8-2027--concerts-dance-electronica/production/7144194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxj7",
     "last_verified_at": null,
@@ -1626,11 +1626,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144194,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-8-2027--concerts-dance-electronica/production/7144194",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1665,7 +1665,7 @@
     "ticketmaster_event_id": "0C0064C43A0D4C02",
     "ticketmaster_url": "https://www.ticketmaster.com/kxt-presents-sylvan-esso-dallas-texas-03-09-2027/event/0C0064C43A0D4C02",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-dallas-house-of-blues-dallas-3-9-2027--concerts-dance-electronica/production/7144136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kxt-presents-sylvan-esso-dallas-texas-03-09-2027/event/0C0064C43A0D4C02",
     "last_verified_at": null,
@@ -1687,11 +1687,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144136,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-dallas-house-of-blues-dallas-3-9-2027--concerts-dance-electronica/production/7144136",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1734,7 +1734,7 @@
     "ticketmaster_event_id": "200064C5A01323E6",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-birmingham-iron-city-birmingham-3-12-2027--concerts-dance-electronica/production/7144150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
     "last_verified_at": null,
@@ -1756,11 +1756,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144150,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-birmingham-iron-city-birmingham-3-12-2027--concerts-dance-electronica/production/7144150",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1803,7 +1803,7 @@
     "ticketmaster_event_id": "1B0064C4B440F267",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-nashville-brooklyn-bowl---nashville-3-13-2027--concerts-dance-electronica/production/7144326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
     "last_verified_at": null,
@@ -1825,11 +1825,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144326,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-nashville-brooklyn-bowl---nashville-3-13-2027--concerts-dance-electronica/production/7144326",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -240,7 +240,7 @@
     "ticketmaster_event_id": "31006519E82D8383",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-ottawa-ontario-03-19-2027/event/31006519E82D8383",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-ottawa-history-ottawa-3-19-2027--concerts-pop/production/7505760",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-ottawa-ontario-03-19-2027/event/31006519E82D8383",
     "last_verified_at": null,
@@ -262,11 +262,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505760,
+        "url": "https://www.vividseats.com/saint-levant-tickets-ottawa-history-ottawa-3-19-2027--concerts-pop/production/7505760",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -293,7 +293,7 @@
     "ticketmaster_event_id": "1000651A6D5B2732",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-london-ontario-03-20-2027/event/1000651A6D5B2732",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-london-london-music-hall---ontario-3-20-2027--concerts-pop/production/7505762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-london-ontario-03-20-2027/event/1000651A6D5B2732",
     "last_verified_at": null,
@@ -315,11 +315,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505762,
+        "url": "https://www.vividseats.com/saint-levant-tickets-london-london-music-hall---ontario-3-20-2027--concerts-pop/production/7505762",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -346,7 +346,7 @@
     "ticketmaster_event_id": "10006519F08E9E4C",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-25-2027/event/10006519F08E9E4C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-toronto-history-toronto-3-25-2027--concerts-pop/production/7505840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-25-2027/event/10006519F08E9E4C",
     "last_verified_at": null,
@@ -368,11 +368,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505840,
+        "url": "https://www.vividseats.com/saint-levant-tickets-toronto-history-toronto-3-25-2027--concerts-pop/production/7505840",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -399,7 +399,7 @@
     "ticketmaster_event_id": "0000651B73E2496C",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-04-01-2027/event/0000651B73E2496C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-brooklyn-brooklyn-paramount-4-1-2027--concerts-pop/production/7505633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-04-01-2027/event/0000651B73E2496C",
     "last_verified_at": null,
@@ -421,11 +421,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505633,
+        "url": "https://www.vividseats.com/saint-levant-tickets-brooklyn-brooklyn-paramount-4-1-2027--concerts-pop/production/7505633",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -476,7 +476,7 @@
     "ticketmaster_event_id": "04006519BDD9C98A",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-chicago-illinois-04-03-2027/event/04006519BDD9C98A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-chicago-aragon-ballroom-4-3-2027--concerts-pop/production/7506246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-chicago-illinois-04-03-2027/event/04006519BDD9C98A",
     "last_verified_at": null,
@@ -498,11 +498,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7506246,
+        "url": "https://www.vividseats.com/saint-levant-tickets-chicago-aragon-ballroom-4-3-2027--concerts-pop/production/7506246",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -545,7 +545,7 @@
     "ticketmaster_event_id": "0800651970AE21B2",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-07-2027/event/0800651970AE21B2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-detroit-the-fillmore-detroit-4-7-2027--concerts-pop/production/7505714",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-07-2027/event/0800651970AE21B2",
     "last_verified_at": null,
@@ -567,11 +567,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505714,
+        "url": "https://www.vividseats.com/saint-levant-tickets-detroit-the-fillmore-detroit-4-7-2027--concerts-pop/production/7505714",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -614,7 +614,7 @@
     "ticketmaster_event_id": "150065198CC13178",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-10-2027/event/150065198CC13178",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-silver-spring-the-fillmore-silver-spring-4-10-2027--concerts-pop/production/7505732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-10-2027/event/150065198CC13178",
     "last_verified_at": null,
@@ -636,11 +636,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505732,
+        "url": "https://www.vividseats.com/saint-levant-tickets-silver-spring-the-fillmore-silver-spring-4-10-2027--concerts-pop/production/7505732",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -683,7 +683,7 @@
     "ticketmaster_event_id": "09006519D1FFE105",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-02-2027/event/09006519D1FFE105",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-los-angeles-the-wiltern-5-2-2027--concerts-pop/production/7505676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-02-2027/event/09006519D1FFE105",
     "last_verified_at": null,
@@ -705,11 +705,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505676,
+        "url": "https://www.vividseats.com/saint-levant-tickets-los-angeles-the-wiltern-5-2-2027--concerts-pop/production/7505676",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -752,7 +752,7 @@
     "ticketmaster_event_id": "0F006519E6A27A0B",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-seattle-washington-05-10-2027/event/0F006519E6A27A0B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-seattle-paramount-theatre-seattle-5-10-2027--concerts-pop/production/7505754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-seattle-washington-05-10-2027/event/0F006519E6A27A0B",
     "last_verified_at": null,
@@ -774,11 +774,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505754,
+        "url": "https://www.vividseats.com/saint-levant-tickets-seattle-paramount-theatre-seattle-5-10-2027--concerts-pop/production/7505754",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -890,7 +890,7 @@
     "ticketmaster_event_id": "11006518DA15ED29",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-vancouver-british-columbia-05-13-2027/event/11006518DA15ED29",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-vancouver-malkin-bowl---stanley-park-5-13-2027--concerts-pop/production/7505910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-vancouver-british-columbia-05-13-2027/event/11006518DA15ED29",
     "last_verified_at": null,
@@ -912,11 +912,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505910,
+        "url": "https://www.vividseats.com/saint-levant-tickets-vancouver-malkin-bowl---stanley-park-5-13-2027--concerts-pop/production/7505910",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

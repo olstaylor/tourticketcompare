@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JvOo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JvOo",
     "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/atlanta-georgia-variety-playhouse-2027-03-14-8-pm/concert/17912521",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-atlanta-variety-playhouse-3-14-2027--concerts-rock/production/7235026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JvOo",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7235026,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-atlanta-variety-playhouse-3-14-2027--concerts-rock/production/7235026",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

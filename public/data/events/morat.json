@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "090064AFF1A0DF67",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047204,
+        "url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -89,7 +89,7 @@
     "ticketmaster_event_id": "0C0064AFA338822A",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
     "last_verified_at": null,
@@ -111,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047161,
+        "url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243,7 +243,7 @@
     "ticketmaster_event_id": "010064AE8B8EA6EB",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-boston-massachusetts-03-07-2027/event/010064AE8B8EA6EB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-boston-agganis-arena-3-7-2027/production/7047171",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-boston-massachusetts-03-07-2027/event/010064AE8B8EA6EB",
     "last_verified_at": null,
@@ -265,11 +265,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047171,
+        "url": "https://www.vividseats.com/morat-tickets-boston-agganis-arena-3-7-2027/production/7047171",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -320,7 +320,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70Iu_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu_",
     "seatgeek_url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-3-12-2027/production/7049584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu_",
     "last_verified_at": null,
@@ -342,11 +342,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049584,
+        "url": "https://www.vividseats.com/morat-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-3-12-2027/production/7049584",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -389,7 +389,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70Iu-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu-",
     "seatgeek_url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-sugar-land-smart-financial-centre-3-13-2027/production/7049495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Iu-",
     "last_verified_at": null,
@@ -411,11 +411,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049495,
+        "url": "https://www.vividseats.com/morat-tickets-sugar-land-smart-financial-centre-3-13-2027/production/7049495",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -450,7 +450,7 @@
     "ticketmaster_event_id": "3A0064AE96BE7CBC",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-hidalgo-texas-03-14-2027/event/3A0064AE96BE7CBC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-hidalgo-texas-03-14-2027/event/3A0064AE96BE7CBC",
     "last_verified_at": null,
@@ -472,11 +472,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047159,
+        "url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -527,7 +527,7 @@
     "ticketmaster_event_id": "220064AF8C665BDB",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
     "last_verified_at": null,
@@ -549,11 +549,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047153,
+        "url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -604,7 +604,7 @@
     "ticketmaster_event_id": "0D0064AFE0C21947",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-miami-florida-03-20-2027/event/0D0064AFE0C21947",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-miami-kaseya-center-3-20-2027/production/7047163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-miami-florida-03-20-2027/event/0D0064AFE0C21947",
     "last_verified_at": null,
@@ -626,11 +626,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047163,
+        "url": "https://www.vividseats.com/morat-tickets-miami-kaseya-center-3-20-2027/production/7047163",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -681,7 +681,7 @@
     "ticketmaster_event_id": "100064B27543259C",
     "ticketmaster_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-toronto-ontario-03-26-2027/event/100064B27543259C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-toronto-history-toronto-3-26-2027--concerts-pop/production/7048962",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-toronto-ontario-03-26-2027/event/100064B27543259C",
     "last_verified_at": null,
@@ -703,11 +703,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7048962,
+        "url": "https://www.vividseats.com/morat-tickets-toronto-history-toronto-3-26-2027--concerts-pop/production/7048962",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -734,7 +734,7 @@
     "ticketmaster_event_id": "310064B3A7014E14",
     "ticketmaster_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-montreal-quebec-03-27-2027/event/310064B3A7014E14",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-montreal-mtelus-3-27-2027/production/7061569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-montreal-quebec-03-27-2027/event/310064B3A7014E14",
     "last_verified_at": null,
@@ -756,11 +756,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7061569,
+        "url": "https://www.vividseats.com/morat-tickets-montreal-mtelus-3-27-2027/production/7061569",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -811,7 +811,7 @@
     "ticketmaster_event_id": "300064AF9E103501",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-brooklyn-new-york-04-01-2027/event/300064AF9E103501",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-brooklyn-barclays-center-4-1-2027/production/7047077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-brooklyn-new-york-04-01-2027/event/300064AF9E103501",
     "last_verified_at": null,
@@ -833,11 +833,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047077,
+        "url": "https://www.vividseats.com/morat-tickets-brooklyn-barclays-center-4-1-2027/production/7047077",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -888,7 +888,7 @@
     "ticketmaster_event_id": "150064AEA017692F",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-fairfax-virginia-04-03-2027/event/150064AEA017692F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-fairfax-virginia-04-03-2027/event/150064AEA017692F",
     "last_verified_at": null,
@@ -910,11 +910,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047151,
+        "url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

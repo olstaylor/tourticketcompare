@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064B2BA93A0B9",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-reno-nevada-12-03-2026/event/170064B2BA93A0B9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-reno-grand-theatre-at-grand-sierra-resort-12-3-2026/production/7080936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-reno-nevada-12-03-2026/event/170064B2BA93A0B9",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7080936,
+        "url": "https://www.vividseats.com/pink-martini-tickets-reno-grand-theatre-at-grand-sierra-resort-12-3-2026/production/7080936",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZojt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZojt",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-fairfax-george-mason-center-for-the-arts-12-10-2026/production/7352900",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZojt",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7352900,
+        "url": "https://www.vividseats.com/pink-martini-tickets-fairfax-george-mason-center-for-the-arts-12-10-2026/production/7352900",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187,7 +187,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pwba",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwba",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-lebanon-lebanon-opera-house-12-12-2026--concerts-blues-and-jazz/production/7216577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwba",
     "last_verified_at": null,
@@ -209,11 +209,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7216577,
+        "url": "https://www.vividseats.com/pink-martini-tickets-lebanon-lebanon-opera-house-12-12-2026--concerts-blues-and-jazz/production/7216577",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -256,7 +256,7 @@
     "ticketmaster_event_id": "000064D2D26E1C3C",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-brooklyn-new-york-12-13-2026/event/000064D2D26E1C3C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-brooklyn-brooklyn-paramount-12-13-2026/production/7210428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-brooklyn-new-york-12-13-2026/event/000064D2D26E1C3C",
     "last_verified_at": null,
@@ -278,11 +278,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7210428,
+        "url": "https://www.vividseats.com/pink-martini-tickets-brooklyn-brooklyn-paramount-12-13-2026/production/7210428",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -333,7 +333,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70PPv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PPv",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-philadelphia-kimmel-center---marian-anderson-hall-12-14-2026/production/7041615",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PPv",
     "last_verified_at": null,
@@ -355,11 +355,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7041615,
+        "url": "https://www.vividseats.com/pink-martini-tickets-philadelphia-kimmel-center---marian-anderson-hall-12-14-2026/production/7041615",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -386,7 +386,7 @@
     "ticketmaster_event_id": "1D0064C8E949C14D",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-red-bank-new-jersey-12-16-2026/event/1D0064C8E949C14D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-12-16-2026/production/7200482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-red-bank-new-jersey-12-16-2026/event/1D0064C8E949C14D",
     "last_verified_at": null,
@@ -408,11 +408,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7200482,
+        "url": "https://www.vividseats.com/pink-martini-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-12-16-2026/production/7200482",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -455,7 +455,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PSqp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSqp",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-boston-berklee-performing-arts-center---berk-recital-hall-12-18-2026/production/7257250",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSqp",
     "last_verified_at": null,
@@ -477,11 +477,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7257250,
+        "url": "https://www.vividseats.com/pink-martini-tickets-boston-berklee-performing-arts-center---berk-recital-hall-12-18-2026/production/7257250",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -508,7 +508,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P6-Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6-Z",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-fort-worth-bass-performance-hall-1-8-2027/production/7119551",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6-Z",
     "last_verified_at": null,
@@ -530,11 +530,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7119551,
+        "url": "https://www.vividseats.com/pink-martini-tickets-fort-worth-bass-performance-hall-1-8-2027/production/7119551",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -927,7 +927,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZ6G7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6G7",
     "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-chicago-chicago-symphony-center-2-12-2027/production/6782207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6G7",
     "last_verified_at": null,
@@ -949,11 +949,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6782207,
+        "url": "https://www.vividseats.com/pink-martini-tickets-chicago-chicago-symphony-center-2-12-2027/production/6782207",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -980,7 +980,7 @@
     "ticketmaster_event_id": "06006505B192CBF1",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-minneapolis-minnesota-02-13-2027/event/06006505B192CBF1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-minneapolis-pantages-theatre---mn-2-13-2027/production/7411457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-minneapolis-minnesota-02-13-2027/event/06006505B192CBF1",
     "last_verified_at": null,
@@ -1002,11 +1002,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411457,
+        "url": "https://www.vividseats.com/pink-martini-tickets-minneapolis-pantages-theatre---mn-2-13-2027/production/7411457",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1049,7 +1049,7 @@
     "ticketmaster_event_id": "06006505B197CBF5",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-minneapolis-minnesota-02-14-2027/event/06006505B197CBF5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-minneapolis-pantages-theatre---mn-2-14-2027/production/7411461",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-minneapolis-minnesota-02-14-2027/event/06006505B197CBF5",
     "last_verified_at": null,
@@ -1071,11 +1071,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411461,
+        "url": "https://www.vividseats.com/pink-martini-tickets-minneapolis-pantages-theatre---mn-2-14-2027/production/7411461",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1171,7 +1171,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZtZk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtZk",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-colorado-springs-pikes-peak-center-3-5-2027/production/7286670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtZk",
     "last_verified_at": null,
@@ -1193,11 +1193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7286670,
+        "url": "https://www.vividseats.com/pink-martini-tickets-colorado-springs-pikes-peak-center-3-5-2027/production/7286670",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1240,7 +1240,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JoxZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JoxZ",
     "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-colorado-springs-pikes-peak-center-3-6-2027/production/7286665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JoxZ",
     "last_verified_at": null,
@@ -1262,11 +1262,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7286665,
+        "url": "https://www.vividseats.com/pink-martini-tickets-colorado-springs-pikes-peak-center-3-6-2027/production/7286665",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1309,7 +1309,7 @@
     "ticketmaster_event_id": "100064BCCF00AA87",
     "ticketmaster_url": "https://www.ticketmaster.ca/pink-martini-toronto-ontario-03-16-2027/event/100064BCCF00AA87",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-toronto-roy-thomson-hall-3-16-2027/production/7120368",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pink-martini-toronto-ontario-03-16-2027/event/100064BCCF00AA87",
     "last_verified_at": null,
@@ -1331,11 +1331,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7120368,
+        "url": "https://www.vividseats.com/pink-martini-tickets-toronto-roy-thomson-hall-3-16-2027/production/7120368",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1362,7 +1362,7 @@
     "ticketmaster_event_id": "310064AB3CF10CF5",
     "ticketmaster_url": "https://www.ticketmaster.ca/pink-martini-quebec-quebec-03-18-2027/event/310064AB3CF10CF5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-quebec-city-capitole-theatre-3-18-2027/production/7023392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pink-martini-quebec-quebec-03-18-2027/event/310064AB3CF10CF5",
     "last_verified_at": null,
@@ -1384,11 +1384,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7023392,
+        "url": "https://www.vividseats.com/pink-martini-tickets-quebec-city-capitole-theatre-3-18-2027/production/7023392",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1431,7 +1431,7 @@
     "ticketmaster_event_id": "3A00650DAD3C99A3",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-allstars-houston-texas-03-25-2027/event/3A00650DAD3C99A3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-houston-sarofim-hall---hobby-center-3-25-2027/production/7457827",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-houston-texas-03-25-2027/event/3A00650DAD3C99A3",
     "last_verified_at": null,
@@ -1453,11 +1453,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7457827,
+        "url": "https://www.vividseats.com/pink-martini-tickets-houston-sarofim-hall---hobby-center-3-25-2027/production/7457827",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

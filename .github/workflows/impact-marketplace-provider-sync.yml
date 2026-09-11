@@ -125,7 +125,6 @@ jobs:
           if [ "$MODE" = "apply" ]; then
             node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"
             npm run events:partition
-            npm run events:sync
             node scripts/validate-status-counts.mjs --write
           else
             node scripts/sync-impact-marketplace-events.mjs "${args[@]}"

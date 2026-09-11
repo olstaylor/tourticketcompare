@@ -124,7 +124,7 @@ Artist-city landing pages (`/artists/<artist>/tickets/<city>`) target local inte
 
 ## Blog and content authoring layer
 
-Blog posts are authored as Markdown with YAML front matter in `content/blog/`, which is the source of truth. `scripts/build-blog-content.mjs` compiles them into the single generated asset `public/data/blog-content.json`; the runtime reads only that file. The compile step exists because Cloudflare Pages serves `public/` with no build and Pages Functions cannot list a directory, so the runtime has no way to discover Markdown files. `.github/workflows/content-build.yml` runs the compile on pushes touching `content/blog/`, gates it behind the full validation suite, and commits the result — that commit is what deploys a post. `npm run blog:check` fails CI when the generated file drifts from its source, mirroring the `stale-sync-guard` contract for event data.
+Blog posts are authored as Markdown with YAML front matter in `content/blog/`, which is the source of truth. `scripts/build-blog-content.mjs` compiles them into the single generated asset `public/data/blog-content.json`; the runtime reads only that file. The compile step exists because Cloudflare Pages serves `public/` with no build and Pages Functions cannot list a directory, so the runtime has no way to discover Markdown files. `.github/workflows/content-build.yml` runs the compile on pushes touching `content/blog/`, gates it behind the full validation suite, and commits the result — that commit is what deploys a post. `npm run blog:check` fails CI when the generated file drifts from its source, mirroring the partition-validation contract for event data.
 
 `functions/_blog.js` is the single derivation shared by the router, sitemap, `llms.txt`, the RSS feed at `/blog/rss.xml`, and both site audits, so the blog's indexable URL set cannot drift between them. A `draft` post has no route at all (404). A published post renders at `/blog/<slug>` and is indexable at 300+ body words; a tag page renders at `/blog/tags/<tag>` and is indexable once two or more indexable posts share the tag. Below either threshold the page still returns 200 with a self-referencing canonical and stays internally linked, `noindex,follow` — the same treatment single-date artist-city pages receive (`docs/ROUTE_INDEXABILITY_POLICY.md`). Post pages emit `BlogPosting`; index and tag pages emit `Blog`/`CollectionPage` with a nested `ItemList`. The blog carries no provider, CTA, price, or event logic of its own.
 
@@ -173,11 +173,10 @@ The browser editor is served from a **separate origin**, `admin.tourticketcompar
 
 1. Reviewed source records live in `public/data/artists.json`, `catalog.json`, and `events.json`.
 2. `npm run events:partition` creates per-artist event files and `events-index.json`.
-3. `npm run events:sync` refreshes partitions and the inline fallback in `public/index.html`.
-4. Server rendering and `/api/shows` read the reviewed data and apply the same provider publishability rules.
-5. `public/app.js` progressively enhances the server-rendered page; it must not loosen server-side URL, provenance, or price gates.
+3. Server rendering and `/api/shows` read the reviewed data and apply the same provider publishability rules.
+4. `public/app.js` progressively enhances the server-rendered page; it must not loosen server-side URL, provenance, or price gates.
 
-The `stale-sync-guard` workflow check prevents public JSON and the inline fallback from drifting.
+`npm run events:validate:partitions` prevents the per-artist partitions and `events.json` from drifting.
 
 ## Provider and redirect contract
 

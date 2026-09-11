@@ -72,7 +72,6 @@ jobs:
             node scripts/backfill-discovery-ids.mjs --apply
             node scripts/apply-tm-updates.mjs --json .audit/tm-refresh.json
             npm run events:partition
-            npm run events:sync
             node scripts/validate-status-counts.mjs --write
           else
             echo "DRY RUN — previewing changes only, no writes."

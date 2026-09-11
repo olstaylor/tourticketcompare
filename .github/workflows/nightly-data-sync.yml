@@ -4,7 +4,7 @@ name: Nightly data sync
 #
 # Auto-commits lossless date/time + venue/city changes pulled from the
 # Ticketmaster Discovery API for events that already exist in events.json, then
-# regenerates the inline fallback and partitions and pushes to main (Cloudflare
+# regenerates the partitions and pushes to main (Cloudflare
 # Pages auto-deploys). Anything that needs human judgement — brand-new shows,
 # deletions, cancellations, tour names — is NOT auto-published; it is surfaced
 # in the rolling "automation:data-sync" issue / handled by the discovery PR flow.
@@ -123,10 +123,9 @@ jobs:
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
         run: npm run events:validate:prod
 
-      - name: Regenerate inline fallback and partitions
+      - name: Regenerate partitions
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
         run: |
-          npm run events:sync
           npm run events:partition
           npm run events:validate:partitions
           # Self-heal PROJECT_STATUS.md counts so this direct-to-main commit

@@ -132,7 +132,7 @@ verified provenance whose CTA would not redirect.
 
 Since 2026-07-08 (owner-approved) `.github/workflows/seatgeek-cta-sync.yml`
 runs both halves nightly at 05:00 UTC — `seatgeek:enrich` in apply mode, then
-`seatgeek:verify:apply` — regenerates partitions and the inline fallback, runs
+`seatgeek:verify:apply` — regenerates partitions, runs
 the full validation suite in-job, and opens an auto-merged PR
 (`automation:seatgeek-cta` label) with both committed reports. This is the
 third narrow auto-publish exception in `SAFE_PUBLISHING_RULES.md`. Manual
@@ -153,7 +153,7 @@ no-ops. The manual workflow below remains valid for targeted runs.
    refreshes `reports/provider-sync/seatgeek-cta-auto-add.md`.
 4. **Sync + validate.** Run:
    ```
-   npm run events:sync
+   npm run events:partition
    python3 scripts/validate-events.py --for-production
    node scripts/validate-partitions.mjs
    node scripts/smoke-prelaunch.mjs

@@ -179,10 +179,15 @@ const SCALAR_ASSERTIONS = [
   { keys: ["events.human_verified"], re: /(\d+) `human_verified`/ },
   { keys: ["events.machine_high_confidence"], re: /(\d+) `machine_high_confidence`/ },
   { keys: ["events.needs_recheck"], re: /(\d+) `needs_recheck`\. Verified event-level/ },
-  // One provider per line, each anchored to its own line start. Provider sync
-  // lanes run nightly and land on overlapping schedules; while these figures
-  // shared a line, any two lanes that opened a PR the same night collided on
-  // it and neither could auto-merge. Keep one figure per line.
+  // One provider per line, blank-line separated, each anchored to its own line
+  // start. Provider sync lanes run nightly on overlapping schedules; while
+  // these figures shared a line, any two lanes that opened a PR the same night
+  // collided on it and neither could auto-merge. The blank lines matter: git
+  // merges two edits as separate hunks only when an unchanged line sits
+  // between them, so adjacent provider bullets conflict just as a shared line
+  // did. The trailing no-resale figure is cross-provider and every lane
+  // rewrites it, so two same-night lanes still conflict there; that one is a
+  // genuine disagreement in value, not a layout problem.
   {
     keys: ["provenance.seatgeek", "events.seatgeek_url_rows", "recheck.seatgeek_cta"],
     re: /^ {2}- SeatGeek (\d+) \((\d+) rows carry a stored `seatgeek_url`\); (\d+) `needs_recheck` rows retain a standalone SeatGeek CTA\./m,

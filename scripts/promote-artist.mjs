@@ -23,7 +23,6 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -232,13 +231,7 @@ async function main() {
   await fs.writeFile(PATHS.artists, newArtistsJson);
   await fs.writeFile(PATHS.catalog, newCatalogJson);
   await fs.writeFile(PATHS.out, newOutSource);
-  console.log('\nEdits applied. Running events:sync (required by stale-sync-guard)…');
-
-  const sync = spawnSync('npm', ['run', 'events:sync'], { stdio: 'inherit', cwd: root });
-  if (sync.status !== 0) {
-    console.error('events:sync failed — fix before committing (stale-sync-guard will reject the PR)');
-    process.exit(1);
-  }
+  console.log('\nEdits applied.');
 
   console.log('\nDone. Before opening the promote PR, run:');
   console.log(`  npm run artist:check -- ${slug}   (must PASS, no WARN)`);

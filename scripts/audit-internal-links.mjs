@@ -237,8 +237,10 @@ for (const city of cities) {
   // and an accountable author. Nothing here asks for a section whose content is
   // the same on every city page — that filler was removed deliberately, and a
   // marker demanding it back would reinstate it.
+  // Matched against mainHtml, so the byline marker is the anchor itself: "By "
+  // and the name are separated by the opening tag in the raw HTML.
   const requiredCopy = [
-    "Maintained by the TourTicketCompare editorial team.",
+    ">Ollie Taylor</a>",
     `Selected tour dates we have verified — not a complete ${city.city} events calendar.`,
     `Upcoming concerts in ${city.city}`,
     `Compare tickets for a ${city.city} concert`
@@ -295,7 +297,7 @@ for (const venue of venues) {
 
   // Same contract as the city loop above.
   for (const marker of [
-    "Maintained by the TourTicketCompare editorial team.",
+    ">Ollie Taylor</a>",
     `Selected tour dates we have verified — not the full ${venue.venue} calendar.`,
     `Upcoming shows at ${venue.venue}`,
     `Getting tickets at ${venue.venue}`

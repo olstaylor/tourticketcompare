@@ -217,7 +217,21 @@ export const TRUST_ROUTES = {
       "TourTicketCompare is an independent, unofficial ticket research site for major live music tours and verified links where available.",
     indexable: true,
     breadcrumb: [{ name: "About", path: "/about" }],
-    lastmod: "2026-07-13"
+    lastmod: "2026-09-11"
+  },
+  // The named author behind the site's editorial output. Guide, blog, artist,
+  // city and venue bylines point here, and the page carries the Person node
+  // those bylines' Article/BlogPosting `author` fields reference by @id.
+  "/about/ollie-taylor": {
+    title: "About Ollie Taylor | TourTicketCompare",
+    description:
+      "Ollie Taylor created TourTicketCompare, an independent ticket research site for major live music tours. Based in Brighton, UK.",
+    indexable: true,
+    breadcrumb: [
+      { name: "About", path: "/about" },
+      { name: "Ollie Taylor", path: "/about/ollie-taylor" }
+    ],
+    lastmod: "2026-09-11"
   },
   "/contact": {
     title: "Contact TourTicketCompare",

@@ -43,8 +43,72 @@ const PUBLIC_HTML_ROUTES = new Set([
   "/terms",
   "/editorial-policy",
   "/about",
+  "/about/ollie-taylor",
   "/contact"
 ]);
+
+// The site's named author. One copy of the bio serves the visible page and the
+// Person node's `description`, so the two can never disagree.
+//
+// AUTHOR_ID is deliberately a fragment on the author page's own URL: it stays
+// stable if the page's copy or title changes, and every Article/BlogPosting
+// `author` references it rather than repeating the name.
+const AUTHOR_NAME = "Ollie Taylor";
+const AUTHOR_PATH = "/about/ollie-taylor";
+const AUTHOR_SAME_AS = ["https://www.linkedin.com/in/ollie-taylor-014a28182/"];
+// Owner-supplied copy, used as given.
+//
+// The second sentence is held on ONE source line on purpose. The public-copy
+// guards in scripts/smoke-prelaunch.mjs scan line by line, and the owner-scoped
+// exemption there pins itself to this exact string. Reflowing this line drops
+// that exemption and the build fails, which is the intended failure mode: the
+// exemption must never widen by accident.
+const AUTHOR_BIO = [
+  "Ollie Taylor is a diehard Beyoncé fan and the creator of Tour Ticket Compare.",
+  "He built the site after getting tired of checking resale sites one by one to compare prices across sites to find the cheapest tickets.",
+  "Based in Brighton, UK, he works full time in marketing and runs Tour Ticket Compare in his spare time, driven by his love of finding a good deal, music, festivals and live events.",
+  "Tour Ticket Compare is fan-first — it exists to make ticket prices easier to compare, not to sell tickets."
+].join(" ");
+const AUTHOR_KNOWS_ABOUT = [
+  "Concert ticket pricing",
+  "Ticket resale marketplaces",
+  "Live music tours",
+  "Ticket fees and checkout totals",
+  "Music festivals"
+];
+
+function authorId(origin) {
+  return `${origin}${AUTHOR_PATH}#ollie-taylor`;
+}
+
+// The full Person node. Emitted once, on the author page.
+function personSchema(origin) {
+  return {
+    "@type": "Person",
+    "@id": authorId(origin),
+    name: AUTHOR_NAME,
+    url: `${origin}${AUTHOR_PATH}`,
+    description: AUTHOR_BIO,
+    knowsAbout: AUTHOR_KNOWS_ABOUT,
+    sameAs: AUTHOR_SAME_AS
+  };
+}
+
+// The compact Person node carried on every other page.
+//
+// Organization.founder and every Article/BlogPosting/HowTo `author` reference
+// the author by @id. An @id that resolves to nothing inside the document it
+// appears in is a dangling reference, so each page carries enough of the node
+// to resolve it — name and url, not the whole bio, which belongs to the author
+// page alone.
+function personRefSchema(origin) {
+  return {
+    "@type": "Person",
+    "@id": authorId(origin),
+    name: AUTHOR_NAME,
+    url: `${origin}${AUTHOR_PATH}`
+  };
+}
 
 // The homepage proposition has three renderers: this server template, the
 // hydrated homepage (public/ttc-home.js), and the client fallback that runs when
@@ -627,12 +691,20 @@ function baseSchema(origin) {
         email: "hello@tourticketcompare.com",
         url: `${origin}/contact`
       },
+      // The square brand mark, not the social card. /og-image.png is 1200x630,
+      // which is a valid og:image but a poor logo: Google wants a square image
+      // of at least 112x112 for an Organization. Source: public/assets/logo.svg.
       logo: {
         "@type": "ImageObject",
-        url: `${origin}/og-image.png`,
-        width: 1200,
-        height: 630
-      }
+        url: `${origin}/logo.png`,
+        width: 512,
+        height: 512
+      },
+      founder: { "@id": authorId(origin) },
+      // The accounts that represent the site itself, owner-confirmed. The two
+      // artist-tour handles named on /contact are deliberately NOT here: they
+      // are not the site's own identity.
+      sameAs: ["https://x.com/tourticketcomp", "https://www.instagram.com/tourticketcompare"]
     },
     {
       "@type": "WebSite",
@@ -643,7 +715,8 @@ function baseSchema(origin) {
       publisher: { "@id": organizationId },
       inLanguage: "en",
       description: "Independent ticket research for major live music tours with verified ticket links where available."
-    }
+    },
+    personRefSchema(origin)
   ];
 }
 
@@ -881,12 +954,10 @@ function articleSchema(route, origin, guideEntry = {}) {
     mainEntityOfPage: `${origin}${route.path}`,
     url: `${origin}${route.path}`,
     image: `${origin}/og-image.png`,
-    author: {
-      "@type": "Organization",
-      "@id": organizationId,
-      name: "TourTicketCompare editorial team",
-      url: `${origin}/about`
-    },
+    // A named person, not the organisation. The publisher stays the
+    // organisation: those are two different claims and search engines read
+    // them as such.
+    author: { "@id": authorId(origin) },
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
     inLanguage: "en",
@@ -913,12 +984,13 @@ function blogPostingSchema(route, origin) {
     mainEntityOfPage: `${origin}${route.path}`,
     url: `${origin}${route.path}`,
     image: `${origin}/og-image.png`,
-    author: {
-      "@type": "Organization",
-      "@id": organizationId,
-      name: post.author,
-      url: `${origin}/about`
-    },
+    // `author` in a post's front matter is a documented override. The site's
+    // own byline resolves to the Person node by @id; anyone else named there is
+    // emitted as their own Person, never pinned to someone else's identity.
+    author:
+      post.author === AUTHOR_NAME
+        ? { "@id": authorId(origin) }
+        : { "@type": "Person", name: post.author },
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
     inLanguage: "en",
@@ -933,6 +1005,13 @@ function blogPostingSchema(route, origin) {
 function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}, env = {}) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
+  // The author page is the one route that carries the full Person node. Every
+  // other page keeps the compact reference baseSchema already added, so the
+  // bio and knowsAbout list exist in exactly one place on the site.
+  if (route.path === AUTHOR_PATH) {
+    const index = graph.findIndex((node) => node["@id"] === authorId(origin));
+    graph[index] = personSchema(origin);
+  }
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
     const rendersSummary =
@@ -953,7 +1032,10 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     const authored = guideEntry?.schema;
     if (authored && typeof authored === "object" && authored["@type"] === "HowTo") {
       const { "@context": _context, ...howTo } = authored;
-      graph.push(howTo);
+      // The authored JSON carries no author — the byline is the site's, not the
+      // Markdown's, so it is attached here rather than duplicated in every
+      // guide's front matter. An authored `author`, if one ever appears, wins.
+      graph.push({ author: { "@id": authorId(origin) }, ...howTo });
     }
   }
   if (route.type === "blog-post") {
@@ -1430,15 +1512,23 @@ function renderCityLinks(cities) {
 // claim a whole-schedule review that never happened. Naming the record keeps
 // the claim to exactly what the data supports, and matches the wording the
 // artist-city template already uses for the same value.
+//
+// Re-asked by the owner on 2026-09-11, when the byline was added: should these
+// pages carry a page-level "Last updated"? Answer unchanged, and the reasoning
+// is the byline's own. The repository holds no whole-page review timestamp for
+// a city or venue, so the only candidate is this same event-record date under a
+// label that overstates it. Putting a named person's byline beside an inflated
+// freshness claim makes it worse, not better: the name is now accountable for
+// it. The date stays labelled as the record it actually is.
 function renderLocationProvenance(reportLabel, lastUpdated = "") {
   const checked = formatVerificationDate(lastUpdated);
-  return `<section class="guide-provenance" aria-label="Editorial and data information"><p><strong>Maintained by the TourTicketCompare editorial team.</strong> ${anchor(
-    "Editorial policy",
-    "/editorial-policy"
-  )}${checked ? ` · Most recently checked event record: ${escapeHtml(checked)}` : ""} · ${anchor(
-    reportLabel,
-    "/contact"
-  )}</p></section>`;
+  return `<section class="guide-provenance" aria-label="Editorial and data information"><p>By ${anchor(
+    AUTHOR_NAME,
+    AUTHOR_PATH,
+    "text-link"
+  )} · ${anchor("Editorial policy", "/editorial-policy")}${
+    checked ? ` · Most recently checked event record: ${escapeHtml(checked)}` : ""
+  } · ${anchor(reportLabel, "/contact")}</p></section>`;
 }
 
 function artistIndexableCities(events, artistSlug) {
@@ -2464,8 +2554,8 @@ function renderGuideProvenance(route) {
     updated ? `Updated ${updated}` : ""
   ].filter(Boolean);
   return `<div class="guide-provenance"><p>By ${anchor(
-    "TourTicketCompare editorial team",
-    "/about",
+    AUTHOR_NAME,
+    AUTHOR_PATH,
     "text-link"
   )}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Our guides are reviewed against primary provider and regulator sources. See the ${anchor(
     "editorial policy",
@@ -2562,7 +2652,7 @@ function renderBlogProvenance(post) {
   const dates = [published ? `Published ${published}` : "", updated ? `Updated ${updated}` : ""].filter(Boolean);
   // anchor() escapes its own label — do not pre-escape, or an author name
   // containing & or an apostrophe renders double-escaped.
-  return `<div class="guide-provenance"><p>By ${anchor(post.author, "/about", "text-link")}${
+  return `<div class="guide-provenance"><p>By ${anchor(post.author, AUTHOR_PATH, "text-link")}${
     dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""
   }</p><p class="disclosure-note">TourTicketCompare is an independent, unofficial site and does not sell tickets. Some outbound ticket links earn a commission, which never changes what gets published — see the ${anchor(
     "affiliate disclosure",
@@ -2736,20 +2826,37 @@ function formatVerificationDate(value) {
 // span. The repository holds no human-review timestamp for an artist page, so
 // none is claimed here, and no generic "checks run daily" filler renders when
 // there's no real date to report.
-function renderVerificationDisclosure(artist) {
-  const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
+// `hasShows` false is an empty board: the artist is tracked but has no
+// confirmed upcoming date, so the page renders no date cards and no provider
+// panel. Those pages used to carry no byline at all, because the whole block
+// was gated on having shows — which left twelve indexable pages anonymous. The
+// byline, the independence statement and the check date are true either way, so
+// they always render; only the two paragraphs that describe date cards and
+// ticket buttons are swapped for one that does not claim furniture the page
+// has not drawn.
+function renderVerificationDisclosure(artist, hasShows = true) {
+  // The dated claim is withheld on an empty board. `last_verified_at` is a
+  // link-check date, and an empty page renders no date cards and no provider
+  // buttons — so there is nothing on screen for the date to be about, and
+  // printing it would be a freshness claim attached to nothing.
+  const artistVerifiedDate = hasShows ? formatVerificationDate(artist.last_verified_at) : null;
   const checkedLine = artistVerifiedDate
     ? `<p><strong>Data checked:</strong> artist links ${escapeHtml(
         artistVerifiedDate
       )}. That's the most recent date our automated link checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, and we don't print one we haven't done.</p>`
     : "";
-  return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How we check this page</h2><p>Published by the ${anchor(
-    "TourTicketCompare editorial team",
-    "/about",
+  const verificationLines = hasShows
+    ? `<p><strong>What we verify:</strong> that each date comes from a reviewed source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What we don't verify:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p>`
+    : `<p><strong>What we verify:</strong> we have no confirmed upcoming ${escapeHtml(
+        artist.name
+      )} date right now, so this page lists none. When one is confirmed it goes up only with a date, venue and city from a reviewed source record, and a ticket button appears only once its destination resolves to that exact event. We would rather show you an empty page than a date we cannot stand behind.</p>`;
+  return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How we check this page</h2><p>By ${anchor(
+    AUTHOR_NAME,
+    AUTHOR_PATH,
     "text-link"
   )}, independent and unofficial — we are not affiliated with ${escapeHtml(
     artist.name
-  )}, any promoter, or any ticket site.</p>${checkedLine}<p><strong>What we verify:</strong> that each date comes from a reviewed source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What we don't verify:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p><p class="disclosure-note">Some outbound links earn us a commission, which never changes what you pay — see our ${anchor(
+  )}, any promoter, or any ticket site.</p>${checkedLine}${verificationLines}<p class="disclosure-note">Some outbound links earn us a commission, which never changes what you pay — see our ${anchor(
     "affiliate disclosure",
     "/affiliate-disclosure",
     "text-link"
@@ -3795,14 +3902,16 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const providerPanelHtml = shows.length
       ? renderProviderFallback(catalog, artist, "artist_page", providerAvailability)
       : "";
-    const trustHtml = shows.length ? renderVerificationDisclosure(artist) : "";
+    const trustHtml = renderVerificationDisclosure(artist, shows.length > 0);
     // Page order: dates and provider options first, then the compact shared
     // price/fee help, then provenance, and only then supporting editorial. An
     // empty board skips the help component entirely — there is nothing to
     // compare, and a page with no dates is not the place for a buying course.
+    // It keeps the provenance block: the byline and the check date are the
+    // page's accountability, and an empty page needs those most.
     const commercialHtml = shows.length
       ? `${showBoardHtml}${providerPanelHtml}${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
-      : showBoardHtml;
+      : `${showBoardHtml}${trustHtml}`;
     // "About these links" and generic buying support describe a populated
     // ticket board. Empty pages keep only their honest empty state, plus the
     // factual artist summary when that editorial record has been promoted.
@@ -4193,6 +4302,34 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
+  if (route.path === AUTHOR_PATH) {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="authorTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="authorTitle">${escapeHtml(AUTHOR_NAME)}</h1><p class="lead">${escapeHtml(
+      AUTHOR_BIO
+    )}</p><section class="nested-panel"><h2>What I'm accountable for</h2><p>Every guide, blog post, artist page, city page and venue page on this site carries my byline. That is not decoration: if a date is wrong, a ticket button lands somewhere unexpected, or a guide describes a provider's terms incorrectly, it is mine to fix.</p><p>The site publishes nothing it cannot trace to a source. What that means in practice — which sources count, what has to be true before a ticket button appears, and what never gets published — is set out in the ${anchor(
+      "editorial policy",
+      "/editorial-policy",
+      "text-link"
+    )}.</p></section><section class="nested-panel"><h2>How the site pays for itself</h2><p>Some outbound ticket links earn a commission, which never changes what you pay and never decides which links appear. A button goes up once the destination has been checked, paid or not. The full position is on the ${anchor(
+      "affiliate disclosure",
+      "/affiliate-disclosure",
+      "text-link"
+    )} page.</p></section><section class="nested-panel"><h2>Corrections</h2><p>Spotted something wrong? Tell me on the ${anchor(
+      "contact page",
+      "/contact",
+      "text-link"
+    )} and I'll fix it. Send the artist, the date, the venue or city, and the page you were on — that's usually enough to reproduce it.</p></section><div class="action-row">${anchor(
+      "About TourTicketCompare",
+      "/about",
+      "button button-primary"
+    )}${anchor("Editorial policy", "/editorial-policy", "button button-secondary")}${anchor(
+      "Contact",
+      "/contact",
+      "button button-secondary"
+    )}</div></section></main>`;
+  }
+
   if (route.path === "/about") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
       route
@@ -4200,7 +4337,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
-    )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor(
+      `About ${AUTHOR_NAME}`,
+      AUTHOR_PATH,
+      "button button-secondary"
+    )}</div></section></main>`;
   }
 
   if (route.path === "/editorial-policy") {

@@ -38,6 +38,7 @@ export const PAGE_TYPES = Object.freeze([
 const TRUST_PATHS = new Set([
   "/how-it-works",
   "/about",
+  "/about/ollie-taylor",
   "/contact",
   "/editorial-policy",
   "/affiliate-disclosure",

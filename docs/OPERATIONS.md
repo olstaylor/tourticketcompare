@@ -21,7 +21,7 @@ All times UTC. Direct-to-`main` write capability and the auto-merge contract for
 | `bootstrap-provider-pricing-schema.yml`, `tm-data-refresh-pr.yml`, `seatgeek-discovery-proposal.yml` | dispatch-only | Manual; never auto-merge. |
 | `content-build.yml` | pushes touching `content/blog/**` + dispatch | Compiles `content/blog/*.md` and auto-commits `public/data/blog-content.json` only after the full validation suite passes in-job on exactly that output. |
 | `indexnow-ping.yml` | pushes touching indexable-route data/code + dispatch | Submits the live sitemap URL list to IndexNow after the deploy lands. Writes nothing to the repo or D1. |
-| `prelaunch-validation.yml` | PRs + dispatch | Validation suite, including the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`. |
+| `prelaunch-validation.yml` | PRs + dispatch | Validation suite (`npm run test:mvp` plus the patch-whitespace check). |
 | `pr-validation-head-guard.yml` | PR opened/synchronized/reopened/edited/draft-toggled/closed, completed `Prelaunch Validation` run, every 15 minutes + dispatch | Read-only exact-head check for open non-draft PRs targeting `main`; updates the rolling `automation:prelaunch-validation` issue only for missing, failed, or over-30-minute validation. It never reruns, approves, merges, or changes a PR. |
 | `tm-data-refresh-pr.yml` | dispatch | Manual PR-based refresh of existing events. |
 

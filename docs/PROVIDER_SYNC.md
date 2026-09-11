@@ -93,7 +93,7 @@ Reason codes are attached where each rule actually fires: the recogniser owns `W
 
 The recogniser also consults a tombstone registry, `data/deleted-events.json`. When an owner deletes a row from `events.json` that Ticketmaster still lists (a de-duplicated or dead-storefront copy), adding that row's ids and/or venue/date to the registry stops the next run from re-proposing it. Matching mirrors the live dedup keys (Ticketmaster id **or** normalized venue/date), tombstoned candidates are withheld with a distinct reason, and the registry can only ever withhold more — never widen what gets proposed. A missing or malformed file fails open (no tombstones).
 
-The nightly field-sync (`nightly-data-sync.yml`, via `scripts/apply-tm-updates.mjs`) updates only lossless factual fields on existing events — date/time, venue/city, the official listing title `event_name`, and the refreshed canonical TM URL — pulled per event id from the Discovery API when the Discovery identity is exact and that row has no review blockers of its own. It then regenerates the inline fallback and partitions. Manual runs default to `dry_run: true`; a dry-run writes `.audit/tm-sync.json` as an uploaded artifact and cannot commit or push. The auto-commit is blocked by any error, missing report, dry-run input, validation failure, smoke-test failure, or absent `events.json` diff; review items and blocked updates on other events go to the rolling `automation:data-sync` issue (via `scripts/report-tm-sync-review.mjs`) without vetoing clean updates on unrelated events. Findings tied exclusively to past events remain in the run artifact but are omitted from the current-action list; an unknown or malformed date stays actionable, and a past local row whose Ticketmaster response moves into the future stays actionable. Deletions (404/410), cancelled/postponed status, new shows, and `tour_name` are never auto-applied. Without `TICKETMASTER_API_KEY` the run writes a skipped report and no-ops safely.
+The nightly field-sync (`nightly-data-sync.yml`, via `scripts/apply-tm-updates.mjs`) updates only lossless factual fields on existing events — date/time, venue/city, the official listing title `event_name`, and the refreshed canonical TM URL — pulled per event id from the Discovery API when the Discovery identity is exact and that row has no review blockers of its own. It then regenerates the partitions. Manual runs default to `dry_run: true`; a dry-run writes `.audit/tm-sync.json` as an uploaded artifact and cannot commit or push. The auto-commit is blocked by any error, missing report, dry-run input, validation failure, smoke-test failure, or absent `events.json` diff; review items and blocked updates on other events go to the rolling `automation:data-sync` issue (via `scripts/report-tm-sync-review.mjs`) without vetoing clean updates on unrelated events. Findings tied exclusively to past events remain in the run artifact but are omitted from the current-action list; an unknown or malformed date stays actionable, and a past local row whose Ticketmaster response moves into the future stays actionable. Deletions (404/410), cancelled/postponed status, new shows, and `tour_name` are never auto-applied. Without `TICKETMASTER_API_KEY` the run writes a skipped report and no-ops safely.
 
 ## Daily Ticketmaster audit
 
@@ -181,9 +181,8 @@ Any event-data write must regenerate:
 
 - `public/data/events/<artist>.json`
 - `public/data/events-index.json`
-- the inline fallback in `public/index.html`
 
-Run `npm run events:sync`. Generated provider reports live in `reports/provider-sync/` and are operational evidence, not policy or current-state authority.
+Run `npm run events:partition`. Generated provider reports live in `reports/provider-sync/` and are operational evidence, not policy or current-state authority.
 
 ## Link-coverage reporting
 

@@ -183,8 +183,45 @@ function seatGeekEventPublishable(event) {
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
+// OWNER-SCOPED EXEMPTION — the single sentence of the author bio that carries
+// the word "cheapest" (owner instruction, 2026-09-11).
+//
+// Three separate guards below ban "cheapest" from public copy, and they are
+// right to: the site must never claim it finds the cheapest ticket. This
+// sentence is a different claim. It is the author describing, in his own bio,
+// the chore that made him build the site — not a promise the site delivers a
+// cheapest price. The owner supplied the wording and asked for it verbatim.
+//
+// The exemption is pinned to this exact string, not to a pattern, so it cannot
+// widen. Any other use of the word anywhere in public copy still fails, and
+// assertBioExemptionStillApplies() below fails the build if this sentence ever
+// stops matching the source — a reflow or a reword must not silently turn the
+// guard off.
+//
+// To retire it: change the bio in functions/[[path]].js so it no longer says
+// "cheapest", then delete this constant and the four references to it.
+const AUTHOR_BIO_CHEAPEST_SENTENCE =
+  "He built the site after getting tired of checking resale sites one by one to compare prices across sites to find the cheapest tickets.";
+
+function withoutAuthorBioExemption(text) {
+  return String(text).split(AUTHOR_BIO_CHEAPEST_SENTENCE).join(" ");
+}
+
+// The exemption must describe copy that actually exists. If the bio is reworded
+// or reflowed the constant goes stale, and a stale exemption is a hole: it would
+// sit there permitting nothing while everyone assumes it still covers the bio.
+async function assertBioExemptionStillApplies() {
+  const source = await read("functions/[[path]].js");
+  const occurrences = source.split(AUTHOR_BIO_CHEAPEST_SENTENCE).length - 1;
+  assert(
+    occurrences === 1,
+    `the author-bio "cheapest" exemption matched ${occurrences} time(s) in functions/[[path]].js, expected exactly 1. ` +
+      "The bio was reworded or reflowed: update AUTHOR_BIO_CHEAPEST_SENTENCE to match, or delete the exemption if the word is gone."
+  );
+}
+
 function assertAbsent(haystack, terms, label) {
-  const lower = haystack.toLowerCase();
+  const lower = withoutAuthorBioExemption(haystack).toLowerCase();
   const found = terms.filter((term) => lower.includes(term.toLowerCase()));
   assert(found.length === 0, `${label} contains blocked term(s): ${found.join(", ")}`);
 }
@@ -195,9 +232,12 @@ async function assertLineRulesAbsent(files, rules, label) {
   for (const file of files) {
     const lines = (await read(file)).split(/\r?\n/);
     lines.forEach((line, index) => {
+      // See AUTHOR_BIO_CHEAPEST_SENTENCE for why this one sentence is removed
+      // before the rules run. The rest of the line is still checked.
+      const scanned = withoutAuthorBioExemption(line);
       for (const rule of rules) {
-        if (!rule.pattern.test(line)) continue;
-        if (rule.allowedContext?.test(line)) continue;
+        if (!rule.pattern.test(scanned)) continue;
+        if (rule.allowedContext?.test(scanned)) continue;
         violations.push(`${file}:${index + 1} ${rule.label}: ${line.trim()}`);
       }
     });
@@ -245,9 +285,13 @@ async function assertPublicCopySafe(files) {
   for (const file of files) {
     const lines = (await read(file)).split(/\r?\n/);
     lines.forEach((line, index) => {
+      // See AUTHOR_BIO_CHEAPEST_SENTENCE: the owner-scoped bio exemption is
+      // removed from the line before the rules run, so the rest of the line is
+      // still checked normally.
+      const scanned = withoutAuthorBioExemption(line);
       for (const rule of rules) {
-        if (!rule.pattern.test(line)) continue;
-        if (rule.allowedContext?.test(line)) continue;
+        if (!rule.pattern.test(scanned)) continue;
+        if (rule.allowedContext?.test(scanned)) continue;
         violations.push(`${file}:${index + 1} ${rule.label}: ${line.trim()}`);
       }
     });
@@ -566,6 +610,9 @@ for (const staleTitle of [
 ]) {
   assert(!clientApp.includes(staleTitle), `public/app.js should not restore stale title "${staleTitle}" after hydration`);
 }
+// Runs before the copy guards: a stale exemption must fail loudly, not quietly
+// permit nothing while the guards below assume it is still covering the bio.
+await assertBioExemptionStillApplies();
 await assertPublicCopySafe(publicCopyFiles);
 await assertPublicCopyRegressionGuardrails(publicCopyRegressionFiles);
 await assertNoStaticSeatGeekPriceClaims([...publicCopyRegressionFiles, "functions/llms.txt.js"]);
@@ -1123,7 +1170,10 @@ for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
 }
 
 const seoGuide = await routeResponse("/guides/how-to-compare-concert-ticket-prices");
-assert(seoGuide.text.includes("TourTicketCompare editorial team"), "guide raw HTML should expose a visible editorial byline");
+assert(
+  seoGuide.text.includes(`>Ollie Taylor</a>`) && seoGuide.text.includes('href="/about/ollie-taylor"'),
+  "guide raw HTML should expose a visible named byline linking the author page"
+);
 assert(seoGuide.text.includes("<h2>Sources</h2>"), "guide raw HTML should expose primary sources");
 const seoGuideLd = extractJsonLd(seoGuide.text);
 const seoGuideArticle = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
@@ -1132,7 +1182,27 @@ assert(
   "guide Article schema should expose the current modification date"
 );
 assert(Array.isArray(seoGuideArticle?.citation) && seoGuideArticle.citation.length >= 4, "guide Article schema should cite its visible primary sources");
-assert(seoGuideArticle?.author?.url === "https://tourticketcompare.com/about", "guide Article schema author should resolve to the About page");
+const AUTHOR_PERSON_ID = "https://tourticketcompare.com/about/ollie-taylor#ollie-taylor";
+assert(
+  seoGuideArticle?.author?.["@id"] === AUTHOR_PERSON_ID,
+  "guide Article schema author should reference the named Person by @id"
+);
+// An @id is only worth emitting if it resolves inside the same document.
+const seoGuidePerson = seoGuideLd?.["@graph"]?.find((node) => node?.["@id"] === AUTHOR_PERSON_ID);
+assert(
+  seoGuidePerson?.["@id"] === AUTHOR_PERSON_ID && seoGuidePerson?.name === "Ollie Taylor",
+  "guide page should carry the Person node its author @id points at"
+);
+assert(
+  seoGuidePerson?.url === "https://tourticketcompare.com/about/ollie-taylor",
+  "the Person node should point at the author page"
+);
+// The bio and knowsAbout belong to the author page alone, so the compact node
+// carried by every other page must not duplicate them.
+assert(
+  seoGuidePerson?.description === undefined && seoGuidePerson?.knowsAbout === undefined,
+  "a non-author page should carry the compact Person node, not the full bio"
+);
 const seoOrganization = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Organization");
 assert(seoOrganization?.["@id"] === "https://tourticketcompare.com/#organization", "Organization schema should expose a stable @id");
 
@@ -3521,12 +3591,35 @@ for (const [label, page] of [["many", manyBoard.html]]) {
   assert(page.includes("<strong>What we don't verify:</strong>"), `artist page (${label}) provenance should state what is not verified`);
   assert(page.includes('href="/affiliate-disclosure"'), `artist page (${label}) provenance should link the affiliate disclosure`);
   assert(page.includes('href="/contact"'), `artist page (${label}) provenance should link a corrections route`);
-  assert(page.includes("TourTicketCompare editorial team"), `artist page (${label}) should name its publisher`);
+  assert(
+    page.includes(`>Ollie Taylor</a>`) && page.includes('href="/about/ollie-taylor"'),
+    `artist page (${label}) should carry the named byline linking the author page`
+  );
   // Automated verification must never be presented as a human editorial review.
   assert(!/reviewed by (a|our) (human|editor)/i.test(page), `artist page (${label}) must not claim a human review it cannot evidence`);
   assert(!/Page reviewed:/i.test(page), `artist page (${label}) must not print a human review timestamp`);
 }
-assert(!beyonceEmptyStatePage.text.includes("data-artist-trust"), "empty artist pages should omit dated provenance claims");
+// An empty board now carries the provenance block too — it is where the named
+// byline and the corrections route live, and an anonymous page is exactly what
+// the byline work set out to remove. The original rule still holds inside it:
+// no dated link-check claim on a page that shows no dates.
+assert(
+  beyonceEmptyStatePage.text.includes("data-artist-trust"),
+  "empty artist pages should still carry the provenance block"
+);
+assert(
+  beyonceEmptyStatePage.text.includes(`>Ollie Taylor</a>`) &&
+    beyonceEmptyStatePage.text.includes('href="/about/ollie-taylor"'),
+  "empty artist pages should carry the named byline linking the author page"
+);
+assert(
+  !beyonceEmptyStatePage.text.includes("<strong>Data checked:</strong>"),
+  "empty artist pages should omit dated provenance claims"
+);
+assert(
+  !beyonceEmptyStatePage.text.includes("<strong>What we don't verify:</strong>"),
+  "empty artist pages should not describe date-card checks they render no cards for"
+);
 assert(!beyonceEmptyStatePage.text.includes("Data checked:"), "empty artist pages should omit last-checked claims");
 assert(
   manyBoard.html.includes("no separate human editorial review date"),
@@ -3556,7 +3649,10 @@ assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artis
 {
   const noVerifiedDatePage = await routeResponse("/artists/sabrina-carpenter");
   assert(noVerifiedDatePage.response.status === 200, "an artist with no verified-link date should still render its page");
-  assert(!noVerifiedDatePage.text.includes("data-artist-trust"), "an empty artist page should omit dated provenance claims");
+  assert(
+    noVerifiedDatePage.text.includes("data-artist-trust"),
+    "an empty artist page should still carry the provenance block for its byline"
+  );
   assert(
     !noVerifiedDatePage.text.includes("<strong>Data checked:</strong>"),
     "an empty artist page must not render a generic 'Data checked' filler line"
@@ -3766,7 +3862,10 @@ assert(venueDetail.response.status === 200, `/venues/${venueDetailSlug} should r
 assert(venueDetail.text.includes('"@type":"MusicVenue"'), "venue detail page should emit MusicVenue structured data");
 assert(!venueDetail.text.includes('"@type":"FAQPage"'), "venue detail page should not emit FAQPage structured data without a visible FAQ");
 assert(!venueDetail.text.includes("<details>"), "venue detail page should not render a templated FAQ");
-assert(venueDetail.text.includes("Maintained by the TourTicketCompare editorial team."), "venue detail page should show editorial provenance");
+assert(
+  venueDetail.text.includes(`>Ollie Taylor</a>`) && venueDetail.text.includes('href="/about/ollie-taylor"'),
+  "venue detail page should show the named byline linking the author page"
+);
 assert(/href="\/artists\/[a-z0-9-]+"/.test(venueDetail.text), "venue detail page should link out to artist pages");
 assert(/href="\/api\/out\?showId=[^\"]+&amp;provider=/.test(venueDetail.text), "venue detail page should surface a gated event-level provider CTA");
 assert(

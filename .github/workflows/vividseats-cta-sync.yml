@@ -111,7 +111,6 @@ jobs:
           if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_MODE:-preview}" = "apply" ]; then
             node scripts/sync-vividseats-events.mjs --apply "${SYNC_ARGS[@]}"
             npm run events:partition
-            npm run events:sync
             node scripts/validate-status-counts.mjs --write
           else
             echo "PREVIEW — dry-run only, no writes."

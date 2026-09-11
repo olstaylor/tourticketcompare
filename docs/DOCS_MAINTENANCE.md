@@ -39,7 +39,6 @@ These artifacts are generated and must never be hand-edited:
 | `public/data/guides-content.json` + `functions/_guide-routes.generated.js` | `npm run guides:build` after any `content/guides/*.md` change | `guides:check` in `test:mvp` |
 | `data/content-provenance.json` | `npm run content:provenance` after editing guide or trust-page copy | `content:provenance:check` in `test:mvp` |
 | `public/og/*.png` + `functions/_og-cards.generated.js` | `npm run og:build` after adding an artist, guide or blog post | `og:check` in `test:mvp` — partial, see below |
-| `public/index.html`'s inline data fallback | `npm run events:sync` after any `public/data/*.json` change | **none** |
 
 Two caveats worth knowing rather than discovering:
 

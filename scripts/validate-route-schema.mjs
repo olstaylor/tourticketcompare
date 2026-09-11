@@ -228,8 +228,16 @@ function expectedMusicEventCount(artistSlug) {
     assertApexHead(html, pathname);
     const graph = extractGraph(html, pathname);
     if (!graph) continue;
-    const artistNode = graph.find((node) => node["@type"] === "Person" || node["@type"] === "MusicGroup");
-    if (!artistNode) fail(`${pathname}: no Person/MusicGroup node`);
+    // Selected by @id, not by type. Since the site gained a named author, every
+    // page carries a Person node for the byline, so "the first Person in the
+    // graph" is no longer the artist — it silently matched the author instead,
+    // and every performer @id check downstream compared against the wrong node.
+    const artistId = `https://tourticketcompare.com${pathname}#artist`;
+    const artistNode = graph.find((node) => node["@id"] === artistId);
+    if (!artistNode) fail(`${pathname}: no Person/MusicGroup node at ${artistId}`);
+    else if (artistNode["@type"] !== "Person" && artistNode["@type"] !== "MusicGroup") {
+      fail(`${pathname}: artist node is "${artistNode["@type"]}", expected Person or MusicGroup`);
+    }
     const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
     const expected = expectedMusicEventCount(artist.slug);
     // Read the rendered page, not the publishable-event count. An artist whose

@@ -107,7 +107,6 @@ jobs:
             node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --delay-ms 1000
             node scripts/verify-seatgeek-events.mjs --apply "${VERIFY_ARGS[@]}"
             npm run events:partition
-            npm run events:sync
             node scripts/validate-status-counts.mjs --write
           else
             echo "PREVIEW — dry-run only, no writes."

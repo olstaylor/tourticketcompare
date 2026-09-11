@@ -3607,6 +3607,15 @@ assert(
 // (8) Mobile rendering of the comparison UI: the styles that keep the date
 // cards, fact strip, and provider buttons usable on a narrow screen.
 const artistStylesCss = await read("public/styles.css");
+// The board filter hides a filtered-out date by setting `hidden` on its card.
+// Every .show-card rule sets a display, and an author display declaration beats
+// the user agent's [hidden] { display: none } — so without an explicit rule the
+// filter updates its count and reorders the board while leaving every card on
+// screen, which reads as a filter that does nothing.
+assert(
+  /\.show-card\[hidden\]\s*\{[^}]*display:\s*none/.test(artistStylesCss),
+  "styles.css must hide filtered-out date cards: .show-card[hidden] needs display: none"
+);
 const narrowBlocks = [...artistStylesCss.matchAll(/@media \(max-width: 6\d\dpx\) \{[\s\S]*?\n\}\n/g)].map((match) => match[0]);
 assert(narrowBlocks.length, "styles.css should carry a narrow-screen block for the show board");
 const narrowBlock = [narrowBlocks.find((block) => block.includes(".artist-fact-strip")) || ""];

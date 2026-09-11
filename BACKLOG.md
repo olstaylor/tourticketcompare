@@ -1,10 +1,10 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-08-21 (content); facts corrected 2026-09-09. Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
+Last updated: 2026-09-11 (maintenance-loop stages 1 and 2 shipped; completed items moved out of the active list). Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
 
 ## Active priorities (in order)
 
-Items 1–4 are **operational** (owner + gated tooling), not engineering; item 5 is the one engineering task, added 2026-08-26 at owner request. Each item stays here until verifiably done.
+Items 1–4 are **operational** (owner + gated tooling), not engineering. The engineering track is the maintenance loop below. Each item stays here until verifiably done.
 
 ### 1. Affiliate-pivot owner follow-ups (2026-07-02)
 
@@ -45,30 +45,54 @@ The other six of that batch — **karol-g, foo-fighters, metallica, my-chemical-
 - **Guide source re-verification (fact added 2026-09-10, human-only):** all 18 guides in `content/guides/` cite sources with a `last_checked` date, and none has been re-checked since the 2026-09-09/10 editorial pass — 3 sit at 2026-07-13, 13 at 2026-07-22, 2 in August. The pass corrected the guides' claims about this site against `PROJECT_STATUS.md`, but did **not** re-open the cited pages: the source domains (FTC, Ticketmaster, SeatGeek, Vivid Seats help centres) are unreachable from the agent environment, which returns 403 through its proxy. So the guides' `lastmod` dates have advanced while their source checks have not, and the two must not be read as the same thing. Needs a human or a runner with outbound access; `npm run guides:sources:check` covers link reachability, not whether a claim still matches the page. Never bump a `last_checked` date without actually opening the page.
 - **Blank tour labels:** the remaining validator warning is expected for the JAY-Z Inglewood/London rows (owner-accepted blank), John Summit's separate Lollapalooza aftershow (deliberately unlabelled), and a handful of Bad Bunny/Jelly Roll/Post Malone rows needing event-specific human confirmation. Never infer tour names from URL slugs.
 - **Tombstone dedup deletions:** when deleting a row from `events.json` that Ticketmaster still lists, add its ids and/or venue/date to `data/deleted-events.json` in the same change (see `docs/PROVIDER_SYNC.md` and `docs/OPERATIONS.md` → Known incidents).
-- Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
+- Review the rolling automation dashboards (`automation:daily-audit`, `automation:data-sync`, `automation:tm-discovery`, `automation:health`, `automation:prelaunch-validation`) and any withheld rows from the new-show PRs. Discrete `work-queue` issues are a separate, bounded queue — see the engineering track below.
 
-### 5. Unvalidated-PR-head guard — **done 2026-09-01** (fact updated 2026-09-02)
+## Engineering track — the always-on maintenance loop
 
-Shipped and verified; kept here only until the owner confirms, then delete this section.
+Goal: grow from ~1,400 events to tens of thousands without human review scaling with the dataset. Staged smallest-first. **Stages 1 and 2 are shipped and live on `main`; Stage 3 is the next milestone and is not built.** Full mechanism lives in `docs/OPERATIONS.md`; this section is state and direction only.
 
-`scripts/check-pr-validation-heads.mjs` lists open non-draft PRs targeting `main`, matches Prelaunch Validation runs
-on `head_sha` (never on "the PR has a green run attached", per the third occurrence), classifies each head as
-success / missing / failed / stuck-beyond-30-minutes, and reports through the rolling `automation:prelaunch-validation`
-issue. It never reruns, approves, merges, or changes a PR — the fail-safe the original note required.
+### Stage 1 — reliability foundation (shipped 2026-09-11)
 
-PR #797 (merged 2026-09-01) went beyond the suggested shape: the guard now also fires on `pull_request_target`
-lifecycle events and on every completed Prelaunch Validation run, so a missing run surfaces in minutes rather than
-waiting on a cron that had been arriving hours late. Two defects were fixed before that merged — `cancel-in-progress`
-was letting any new PR event kill the running repository-wide scan, and a `synchronize` event reached the guard before
-GitHub had registered the run it triggers, flagging every freshly pushed head as unvalidated.
+- **`test-mvp` is a required status check on `main`** (repository ruleset, owner-applied). A red head can no longer be merged. Its absence is what allowed the 2026-09-11 red-`main` incident.
+- **`automation-health.yml`** (#941) watches the nine scheduled lanes from outside and reports three states no lane can see about itself: `failing`, `stale` (GitHub stopped invoking it) and `stalled` (still invoked, no longer reaching a pass/fail verdict — what a `timeout-minutes` breach looks like, since that ends as `cancelled`). Two or more lanes failing together is reported as a **likely shared cause, usually a red `main`**, rather than several provider defects.
+- **The daily outbound-link audit was restructured** (#942) from a strictly serial loop to bounded per-host concurrency. The cap is per host, not global, so a burst never lands on one storefront and degrades its evidence into WAF blocks.
+- **Still open:** the daily-audit runtime incident. The offline benchmark projects 2.9 minutes against the previous ~40, but a projection is not a run. It closes only when the first real scheduled `audit` job proves it inside the existing 40-minute cap — see `docs/OPERATIONS.md` → Known incidents for the five conditions. `timeout-minutes` was deliberately left at 40 so that run is a genuine test.
 
-Both traps recorded in the original note still hold and are respected: `actions/checkout` needs a full 40-character
-SHA, and `workflow_dispatch` runs attach no check run to the PR.
+### Stage 2 — the work queue (shipped 2026-09-11)
+
+- **Rolling `automation:*` issues remain operator dashboards** and are untouched by this layer. Discrete issues are the work queue; the dashboards are the complete view.
+- Selected **machine-readable** findings become discrete issues labelled `work-queue`, `source:<sensor>`, `priority:P0`–`P3`, `risk:green|amber|red`, and one of `agent:ready` / `human-required`. No prose is parsed anywhere. Queue items never carry an `automation:*` label, which would collide with the dashboard writers.
+- Fingerprints, deduplication, lifecycle (including holding an issue open while a pull request still references it), and two storm caps all exist and are asserted (#943).
+- **Unsafe or ambiguous findings fail closed.** A red surface forces `risk:red` and strips `agent:ready`; an unknown finding type is not materialised at all; a link timeout or WAF response is never read as a dead URL.
+- **`generated_artifact_stale` is the first and only production `agent:ready` type** (#944): P1, `risk:amber`, and raised **only** once the sensor has deterministically proved in the same run that regenerating fixes the failing freshness check. A red check on its own is never a finding.
+- **No Stage 3 worker exists.** Nothing in the repository consumes an `agent:ready` issue.
+
+### Stage 3 — bounded agent worker (next milestone, not built)
+
+Intended contract, one run:
+
+> take ONE supported `agent:ready` issue → revalidate it still holds → perform the bounded repair → run its required validation → open ONE pull request → stop.
+
+Initially supports **`generated_artifact_stale` only**. Outcomes are explicit and terminal: FIXED (pull request opened), BLOCKED (names the missing evidence or dependency), NEEDS HUMAN (names the decision required), NO SAFE WORK (does nothing).
+
+Stage 3 must **not**: merge, or enable auto-merge; touch anything labelled `risk:red`; handle finding types beyond those explicitly supported; broaden scope beyond the issue it took; invent or infer data; or modify protected commercial or provider surfaces (`functions/api/out.js`, affiliate logic, provider rights and allowlists, credentials, Cloudflare configuration, migrations, or records in `public/data/{events,artists,catalog}.json`).
+
+This is a milestone, not a design. Scope it before building it.
+
+### Stage 4 — narrow auto-merge (conditional, last)
+
+Only after Stage 3 has a real track record, and only for change classes that are deterministically verifiable against a file allowlist. Not scoped. No AI-authored change merges without human review until then.
+
+Constraints at every stage: the worker may not weaken a validator or a lane to make its own job easier; the five group-A auto-publish paths in `SAFE_PUBLISHING_RULES.md` stay exactly as they are; and no stage adds a governance document — findings live in issues, schedules and incidents in `docs/OPERATIONS.md`, priorities here.
 
 ## Recently completed
 
 Closed on GitHub; kept as a short audit trail only. Full detail lives in the linked PRs and git history.
 
+- Maintenance loop Stage 2 — first `agent:ready` type, stale generated output (2026-09-11, PR #944)
+- Maintenance loop Stage 2 — work queue: classified discrete issues from sensor findings (2026-09-11, PR #943)
+- Maintenance loop Stage 1 — daily-audit outbound links moved to per-host concurrency (2026-09-11, PR #942)
+- Maintenance loop Stage 1 — automation-health sensor over the scheduled lanes (2026-09-11, PR #941)
 - Unvalidated-PR-head guard — exact-head validation check, event-driven (2026-09-01, PR #797)
 - Phase 3 quality pass — mobile/a11y, guide and blog content trim, empty artist pages (2026-09-01, PRs #821/#822/#823/#824/#828)
 - GA4 funnel destination fixed and gated to the canonical host (2026-09-01, PR #796)
@@ -105,17 +129,6 @@ A "track this price" feature: double opt-in email subscription, alerts fire only
 **Verdict (2026-07-22, reconfirmed 2026-08-04): do not build the email stack — demand isn't there.** Phase 0 (recording `provider_pricing_history`) and Phase 1 (on-site price history + a demand-interest instrument, no email ever sent) are both already implemented and live. The demand gate is **100–200 distinct `price_alert_interest` signups within a quarter**; the counter stands at **2 total** as of 2026-08-04, with `email_subscribers` at 10 rows (3 in the last 30 days). Nothing changes until that gate is met.
 
 Hard constraints that must still hold if this is ever resumed: only the numeric-price lanes (Vivid Seats, TicketNetwork, StubHub International) participate; an alert may fire only on a snapshot the site would publicly display at that same moment; all copy stays snapshot-framed (no ranking, no "cheapest," no availability implication); the check runs in the scheduled GitHub Actions layer, never Cloudflare Cron.
-
-### Always-on maintenance loop (2026-09-11, agent-authored)
-
-Owner goal: grow from ~1,400 events to tens of thousands without human review scaling with the dataset. The automation layer is already large and mostly sound — the gap is not detection, it is that findings need a human to notice, interpret and dispatch them. Staged smallest-first, each stage independently useful, each gated on the previous one earning its keep. **Stages 1 and 2 are shipped; stages 3–4 need owner approval before any build.**
-
-- **Stage 1 — reliability foundation (shipped 2026-09-11; owner half in progress).** Two halves, both about making a stalled fleet impossible to miss. **Code:** `automation-health.yml` reports a lane that failed, a lane GitHub has stopped invoking, and a lane still invoked but no longer reaching a verdict. Read-only, one rolling `automation:health` issue, self-closing once findings clear. This was the missing sensor — lanes report to their rolling issues only on success, so a failed or unscheduled lane was visible only in the Actions tab. **Owner:** require `Prelaunch Validation` as a status check on `main`. `pr-validation-head-guard.yml` detects an unvalidated head but is fail-safe by design and cannot block a merge; nothing else did either, which is how the 2026-09-11 red-`main` incident happened (see `docs/OPERATIONS.md` → Known incidents). Both halves come before any further automation: a loop whose queue can be poisoned by a red `main` spends its budget on the same failure repeatedly.
-- **Stage 2 — discrete issues from findings that are already discrete (shipped 2026-09-11).** The rolling issues are the right shape for a human skimming state and the wrong shape for a worker selecting a task: five sensors each rewrite one long body, so nothing has an identity, a priority, or an acceptance criterion. Promote to their own labelled issue **only** findings that can state a deterministic pass condition — a failing scheduled lane, a dead outbound URL, a stale generated file, a broken internal link. Leave every judgement-bearing finding (blank `tour_name`, provider identity, an ambiguous event match) in the rolling issue where a human reads it. Labels: `agent` / `human-required`, `priority/P1|P2|P3`, `risk/amber|red`. Attach the evidence the sensor already holds, so a worker does not re-derive it. **Shipped as `scripts/lib/work-queue.mjs` plus `scripts/materialize-work-queue.mjs`, wired into `automation-health.yml`; see `docs/OPERATIONS.md` → The work queue.** Two sources are integrated, both chosen because they already emit structured JSON: automation-health lane findings, and confirmed-dead provider URLs from the daily audit's `links.json`. A third source, `generated-freshness`, carries the one **`agent:ready`** class: a committed generated artefact that has drifted from its source, which is the defect that took `main` red on 2026-09-11. It is agent-ready because the repair is a fixed command rather than a judgement, and the sensor proves in the same run that running it makes the failing check pass. Everything else stays `human-required`: a failing lane needs diagnosis, and a dead provider URL edits `public/data/events.json`, a protected file, while withdrawing an affiliate lane. Internal-link defects remain the natural next agent-ready class, and need `audit-internal-links.mjs` to emit structured problems instead of a flat list of prose strings — currently zero problems, so it buys nothing yet.
-- **Stage 3 — one worker, one issue, one PR.** A scheduled job picks the highest-priority open `agent` issue, works only inside its acceptance criteria, runs the lane `CONTRIBUTING.md` prescribes for the files it touched, opens one PR, and stops. Outcomes are explicit and terminal: FIXED (PR opened), BLOCKED (names the missing evidence, credential or dependency), NEEDS HUMAN (names the decision required), NO SAFE WORK (does nothing). No retry loop, no inventing work because a schedule fired, no second task in the same run. For a repeated defect the worker fixes the cause and adds the regression step to `scripts/test-manifest.mjs` rather than patching the symptom again.
-- **Stage 4 — narrow auto-merge, conditional and last.** Only after stage 3 has a real track record, and only for change classes that are deterministically verifiable against a file allowlist. Not scoped here; no AI-authored change merges without human review until then.
-
-Constraints that hold at every stage: the worker may not touch anything in "What AI Agents May Not Change Without an Explicit Scoped Issue" above; it may not weaken a validator or a lane to make its own job easier; the five group-A auto-publish paths stay exactly as they are; and no stage adds a governance document — findings live in issues, schedules and incidents in `docs/OPERATIONS.md`, priorities here.
 
 ### Output-aware content-provenance fingerprints (2026-08-25, agent-authored)
 

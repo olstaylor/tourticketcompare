@@ -380,6 +380,18 @@ if (args.has('--self-test')) {
   assert.ok(skewedLimits.peakGlobal <= 8, `global concurrency exceeded: ${skewedLimits.peakGlobal}`);
   assert.ok(skewedLimits.peakGlobal > 1, 'scheduler ran serially; the timeout regression is back');
 
+  // The dominant host must actually reach its per-host budget. Peak *global*
+  // concurrency above 1 is too weak a guard on its own: one lane per host across
+  // several hosts satisfies it while leaving the busiest host serial, and the
+  // busiest host is precisely what bounds the step — 961 Ticketmaster URLs at
+  // one lane is 8 minutes, at three it is under three. A mutation collapsing the
+  // per-host limit to 1 passes the global check and fails this one.
+  assert.equal(
+    skewedLimits.perHostPeak.get('big.example'),
+    3,
+    `the dominant host never reached its per-host budget: ${skewedLimits.perHostPeak.get('big.example')}`
+  );
+
   // The global cap must bind even when the per-host budgets would allow more:
   // 10 hosts x 3 per host is 30 lanes, held to 5.
   const wide = buildItems(Array.from({ length: 10 }, (_, i) => [`host${i}.example`, 4]));

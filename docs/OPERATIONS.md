@@ -26,6 +26,21 @@ All times UTC. Direct-to-`main` write capability and the auto-merge contract for
 | `automation-health.yml` | completed scheduled run of the six daily lanes, every 6 hours (:17) + dispatch | Read-only outside observer for the nine scheduled lanes, reporting three things none of them can detect about itself: a lane whose recent scheduled runs **failed**, a lane GitHub has **stopped invoking** (`stale`), and a lane still being invoked but no longer reaching a pass/fail verdict (`stalled` — what a job breaching `timeout-minutes` looks like, since that ends as `cancelled` rather than `failure`). Two or more lanes failing together is called out as a likely red `main` rather than several provider defects. A single failure on an hourly lane is recorded as `flaky` context and not raised unless another lane corroborates it. Updates the rolling `automation:health` issue and closes it once every finding clears. Writes nothing to the repository and never reruns, dispatches, or merges. |
 | `tm-data-refresh-pr.yml` | dispatch | Manual PR-based refresh of existing events. |
 
+### The work queue
+
+The rolling `automation:*` issues are **dashboards**: one per sensor, rewritten in full each run, and the complete operator view. They stay that way.
+
+Alongside them, `scripts/materialize-work-queue.mjs` promotes the small subset of findings worth tracking as **individual units of work** into discrete issues carrying the `work-queue` label. It runs inside `automation-health.yml` after that workflow has written its own dashboard, and reads the sensor's structured JSON rather than the prose it renders for humans. It writes issues and nothing else — no branch, no commit, no pull request, no model call.
+
+A finding is promoted only when it has a stable identity, confirmed evidence, bounded scope and acceptance criteria that can be stated in advance. Classification is a fixed table in `scripts/lib/work-queue.mjs`, never a judgement made per finding: each type declares the surfaces it touches, anything touching a surface in `RED_SURFACES` is forced to `risk:red`, and `risk:red` can never carry `agent:ready`. An unrecognised finding type is not materialised at all rather than defaulting to anything.
+
+Labels are `work-queue`, `source:<sensor>`, `priority:P0`–`P3`, `risk:green|amber|red`, and one of `agent:ready` or `human-required`. **A queue item must never carry an `automation:*` label.** Three rolling writers — `daily-audit-report.mjs`, `report-tm-sync-review.mjs` and `report-tm-discovery-coverage.mjs` — select their dashboard as "the first open issue carrying the label" with no title filter, so a queue item wearing one would be found and overwritten with a dashboard body on the next run. The self-test asserts no queue label starts with `automation:`.
+
+Identity is a fingerprint over `source + type + identity tuple`, recorded in an HTML comment at the top of the issue body. Evidence, ordering and prose are excluded from it, so a re-run updates the same issue rather than opening a second one. Recovery closes an issue when its finding clears, **except** while an open pull request references it — remediation in flight is exactly when closing the task would lose the context its author is working from.
+
+Storm protection is two fixed caps: at most 5 new issues per run and at most 25 open queue items. A run wanting more than that is far more likely to be a broken sensor than a real emergency. Nothing is hidden by refusing — every finding already sits in its sensor's rolling issue, which this layer never touches, and the withheld set is printed in the run log. The cap withholds a *task*, never evidence.
+
+
 **Cron times are request times, not start times.** GitHub can run these queues significantly late; the relative order the schedule encodes holds even when absolute times drift. Missing credentials make every scheduled lane no-op safely (no rows, no PR); auth/config failures in the SeatGeek lane abort with no writes.
 
 ### The whole fleet shares one dependency: a green `main`

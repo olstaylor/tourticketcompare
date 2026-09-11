@@ -53,10 +53,16 @@ concurrency:
   group: automation-health
   cancel-in-progress: true
 
+# `pull-requests: read` is the only addition the Stage 2 work queue needs, and it
+# is read-only: the materialiser checks whether an open pull request already
+# references a queue issue before closing it on recovery, so remediation in
+# flight is never silently discarded. It gains no write of any kind beyond the
+# `issues: write` this workflow already held.
 permissions:
   actions: read
   contents: read
   issues: write
+  pull-requests: read
 
 jobs:
   check:
@@ -80,4 +86,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node scripts/check-automation-health.mjs
+        run: node scripts/check-automation-health.mjs --json automation-health-findings.json
+
+      # Stage 2 work queue. The rolling issue above stays the operator
+      # dashboard and is untouched by this step; this promotes the small subset
+      # of findings that are worth tracking as individual units of work, reading
+      # the same structured output the step above just wrote rather than parsing
+      # its prose. It writes issues carrying the `work-queue` label and nothing
+      # else: no branch, no commit, no pull request, no model call.
+      - name: Materialise discrete work items
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/materialize-work-queue.mjs --health automation-health-findings.json

@@ -60,4 +60,3 @@ jobs:
 
       - name: Check patch whitespace
         run: git diff --check
-

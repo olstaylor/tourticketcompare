@@ -441,7 +441,7 @@ function createList(items, className) {
 // from the request path; this is the same rule expressed client-side so the two
 // agree. Keep in sync with classifyPageType in functions/_funnel.js
 // (scripts/funnel-analytics.test.mjs asserts the two never diverge).
-const TRUST_PAGE_PATHS = ["/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
+const TRUST_PAGE_PATHS = ["/how-it-works", "/about", "/about/ollie-taylor", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
 
 function clientPageType(pathname) {
   let path = String(pathname || "/").split("?")[0].split("#")[0];
@@ -759,6 +759,14 @@ function getRoute() {
   if (parts.length === 1) {
     const legacyArtist = findArtist(parts[0]);
     if (legacyArtist) return { type: "client-redirect", to: `/artists/${legacyArtist.slug}` };
+  }
+
+  // The author page is fully rendered by the function route and holds the one
+  // copy of the bio. Preserve the server HTML rather than rebuilding it here —
+  // a second copy of that prose in this file is exactly the drift the byline
+  // work is meant to remove.
+  if (parts.length === 2 && parts[0] === "about" && parts[1] === "ollie-taylor") {
+    return { type: "server-rendered" };
   }
 
   const legacyTicketMatch = window.location.pathname.match(/^\/([a-z0-9-]+)-tickets(?:-[a-z0-9-]+)?\/?$/i);

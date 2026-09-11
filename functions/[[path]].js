@@ -43,8 +43,49 @@ const PUBLIC_HTML_ROUTES = new Set([
   "/terms",
   "/editorial-policy",
   "/about",
+  "/about/ollie-taylor",
   "/contact"
 ]);
+
+// The site's named author. One copy of the bio serves the visible page and the
+// Person node's `description`, so the two can never disagree.
+//
+// AUTHOR_ID is deliberately a fragment on the author page's own URL: it stays
+// stable if the page's copy or title changes, and every Article/BlogPosting
+// `author` references it rather than repeating the name. `sameAs` is absent
+// until the owner supplies profile URLs — an unverified profile link is an
+// identity claim, so none is guessed.
+const AUTHOR_NAME = "Ollie Taylor";
+const AUTHOR_PATH = "/about/ollie-taylor";
+const AUTHOR_BIO =
+  "Ollie Taylor is a diehard Beyoncé fan and the creator of Tour Ticket Compare. " +
+  "He built the site after getting tired of checking resale sites one by one to find " +
+  "the cheapest tickets. Based in Brighton, UK, he works full time in marketing and " +
+  "runs Tour Ticket Compare in his spare time, driven by his love of finding a good " +
+  "deal, music, festivals and live events. Tour Ticket Compare is fan-first — it " +
+  "exists to make ticket prices easier to compare, not to sell tickets.";
+const AUTHOR_KNOWS_ABOUT = [
+  "Concert ticket pricing",
+  "Ticket resale marketplaces",
+  "Live music tours",
+  "Ticket fees and checkout totals",
+  "Music festivals"
+];
+
+function authorId(origin) {
+  return `${origin}${AUTHOR_PATH}#ollie-taylor`;
+}
+
+function personSchema(origin) {
+  return {
+    "@type": "Person",
+    "@id": authorId(origin),
+    name: AUTHOR_NAME,
+    url: `${origin}${AUTHOR_PATH}`,
+    description: AUTHOR_BIO,
+    knowsAbout: AUTHOR_KNOWS_ABOUT
+  };
+}
 
 // The homepage proposition has three renderers: this server template, the
 // hydrated homepage (public/ttc-home.js), and the client fallback that runs when
@@ -933,6 +974,9 @@ function blogPostingSchema(route, origin) {
 function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}, env = {}) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
+  // The author page is the one route that defines the Person node. Every other
+  // page references it by @id, so the full node is emitted exactly once.
+  if (route.path === AUTHOR_PATH) graph.push(personSchema(origin));
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
     const rendersSummary =
@@ -4178,6 +4222,34 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
+  if (route.path === AUTHOR_PATH) {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="authorTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="authorTitle">${escapeHtml(AUTHOR_NAME)}</h1><p class="lead">${escapeHtml(
+      AUTHOR_BIO
+    )}</p><section class="nested-panel"><h2>What I'm accountable for</h2><p>Every guide, blog post, artist page, city page and venue page on this site carries my byline. That is not decoration: if a date is wrong, a ticket button lands somewhere unexpected, or a guide describes a provider's terms incorrectly, it is mine to fix.</p><p>The site publishes nothing it cannot trace to a source. What that means in practice — which sources count, what has to be true before a ticket button appears, and what never gets published — is set out in the ${anchor(
+      "editorial policy",
+      "/editorial-policy",
+      "text-link"
+    )}.</p></section><section class="nested-panel"><h2>How the site pays for itself</h2><p>Some outbound ticket links earn a commission, which never changes what you pay and never decides which links appear. A button goes up once the destination has been checked, paid or not. The full position is on the ${anchor(
+      "affiliate disclosure",
+      "/affiliate-disclosure",
+      "text-link"
+    )} page.</p></section><section class="nested-panel"><h2>Corrections</h2><p>Spotted something wrong? Tell me on the ${anchor(
+      "contact page",
+      "/contact",
+      "text-link"
+    )} and I'll fix it. Send the artist, the date, the venue or city, and the page you were on — that's usually enough to reproduce it.</p></section><div class="action-row">${anchor(
+      "About TourTicketCompare",
+      "/about",
+      "button button-primary"
+    )}${anchor("Editorial policy", "/editorial-policy", "button button-secondary")}${anchor(
+      "Contact",
+      "/contact",
+      "button button-secondary"
+    )}</div></section></main>`;
+  }
+
   if (route.path === "/about") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
       route
@@ -4185,7 +4257,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
-    )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor(
+      `About ${AUTHOR_NAME}`,
+      AUTHOR_PATH,
+      "button button-secondary"
+    )}</div></section></main>`;
   }
 
   if (route.path === "/editorial-policy") {

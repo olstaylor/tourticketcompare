@@ -129,6 +129,10 @@ const RENDER_SPECS = {
   '/terms': { block: 'if (route.path === "/terms") {' },
   '/contact': { block: 'if (route.path === "/contact") {' },
   '/about': { block: 'if (route.path === "/about") {' },
+  // Keyed on the AUTHOR_PATH constant, not the literal, because that is how the
+  // branch is written. collectCopyDependencies follows the constant, so an edit
+  // to AUTHOR_BIO still advances this page's date.
+  '/about/ollie-taylor': { block: 'if (route.path === AUTHOR_PATH) {' },
   '/editorial-policy': { block: 'if (route.path === "/editorial-policy") {' }
 };
 

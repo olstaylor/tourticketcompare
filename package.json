@@ -138,6 +138,9 @@
     "prices:history:prune": "node scripts/prune-provider-pricing-history.mjs",
     "prices:history:prune:self-test": "node scripts/prune-provider-pricing-history.mjs --self-test",
     "prices:freshness:check": "node scripts/check-price-snapshot-freshness.mjs",
+    "automation:health": "node scripts/check-automation-health.mjs",
+    "automation:health:dry-run": "node scripts/check-automation-health.mjs --dry-run",
+    "automation:health:self-test": "node scripts/check-automation-health.mjs --self-test",
     "docs:check": "node scripts/validate-docs.mjs",
     "test:remediation-review": "node scripts/remediation-review-self-test.mjs"
   },

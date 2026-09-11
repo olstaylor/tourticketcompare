@@ -3253,6 +3253,46 @@ assert(manyBoard.html.includes('class="show-board-jump"'), "a long board should 
 const firstJumpAnchor = manyBoard.html.match(/<nav class="show-board-jump"[\s\S]*?href="#(show-[a-z0-9-]+)"/);
 assert(firstJumpAnchor, "the month jump list should link to a show anchor");
 assert(manyBoard.html.includes(`id="${firstJumpAnchor[1]}"`), "every month jump target must exist on the page");
+// The search box, the country/city selects and the date sort in
+// public/artist-board.js run entirely off each card's data-show-json payload —
+// the script never refetches event data. A payload missing a field it reads
+// leaves the selects empty, makes every search term match nothing and turns the
+// sort into a no-op, and it fails silently: no error, just controls that do
+// nothing. So check the served payload against the fields the script actually
+// reads, scanned from its source rather than from a list kept by hand here.
+// The fixture populates every field, so a field missing below is the renderer
+// dropping it, not a source record that never carried it.
+{
+  const boardScript = await read("public/artist-board.js");
+  const readFields = [...new Set([...boardScript.matchAll(/\bshow\.([A-Za-z_]+)/g)].map((match) => match[1]))];
+  assert(readFields.length > 0, "the artist-board.js payload-field scan should find the fields it filters and sorts on");
+  const unescapeAttr = (value) =>
+    value.replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+  const filterPayloads = [...manyBoard.html.matchAll(/data-show-json="([^"]*)"/g)].map((match) => JSON.parse(unescapeAttr(match[1])));
+  assert(filterPayloads.length === manyShows.length, "every rendered date card should carry a parsable filter payload");
+  for (const field of readFields) {
+    // The script reads either spelling of the date; the server emits dateTimeISO.
+    if (field === "datetime_iso" && readFields.includes("dateTimeISO")) continue;
+    assert(
+      filterPayloads.every((payload) => String(payload[field] || "").trim()),
+      `data-show-json must carry "${field}" on every card — public/artist-board.js filters or sorts on it`
+    );
+  }
+  // The selects are built from the payloads, so their option lists are only as
+  // complete as the payload spread: one country per country actually on the board.
+  assert(
+    new Set(filterPayloads.map((payload) => payload.country)).size === 5,
+    "the payloads must offer every country on the board to the country filter"
+  );
+  assert(
+    new Set(filterPayloads.map((payload) => payload.city)).size === 7,
+    "the payloads must offer every city on the board to the city filter"
+  );
+  assert(
+    filterPayloads.every((payload) => Number.isFinite(Date.parse(payload.dateTimeISO))),
+    "the payload date must parse, or the board's soonest/latest sort silently stops reordering"
+  );
+}
 // Dates come before generic help in the source order.
 assert(
   manyBoard.html.indexOf('class="section-grid show-board"') < manyBoard.html.indexOf("How prices and links work here"),
@@ -3567,6 +3607,15 @@ assert(
 // (8) Mobile rendering of the comparison UI: the styles that keep the date
 // cards, fact strip, and provider buttons usable on a narrow screen.
 const artistStylesCss = await read("public/styles.css");
+// The board filter hides a filtered-out date by setting `hidden` on its card.
+// Every .show-card rule sets a display, and an author display declaration beats
+// the user agent's [hidden] { display: none } — so without an explicit rule the
+// filter updates its count and reorders the board while leaving every card on
+// screen, which reads as a filter that does nothing.
+assert(
+  /\.show-card\[hidden\]\s*\{[^}]*display:\s*none/.test(artistStylesCss),
+  "styles.css must hide filtered-out date cards: .show-card[hidden] needs display: none"
+);
 const narrowBlocks = [...artistStylesCss.matchAll(/@media \(max-width: 6\d\dpx\) \{[\s\S]*?\n\}\n/g)].map((match) => match[0]);
 assert(narrowBlocks.length, "styles.css should carry a narrow-screen block for the show board");
 const narrowBlock = [narrowBlocks.find((block) => block.includes(".artist-fact-strip")) || ""];

@@ -1629,5 +1629,270 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676877",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676877/BTS-tickets-Sun-Aug-23-2026-Rogers-Stadium-At-Downsview-Airport"
+  },
+  {
+    "id": "tm-bts-2027-docklands-17a8v0g65r_eq8g",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-10T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064BBD99DD435",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064BBD99DD435",
+        "discovery_event_id": "17a8v0G65R_Eq8g",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65R_Eq8g",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-docklands-17a8v0g659_gumr",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-12T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064B5D9D76DEF",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064B5D9D76DEF",
+        "discovery_event_id": "17a8v0G659_gUMR",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G659_gUMR",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-docklands-17a8v0g65r_ew8m",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-02-13T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064BBD99FD437",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064BBD99FD437",
+        "discovery_event_id": "17a8v0G65R_EW8M",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65R_EW8M",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfkdo_",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN SYDNEY",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-02-20T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064B6884C3819",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064B6884C3819",
+        "discovery_event_id": "17a8v0G65QFKdO_",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65QFKdO_",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfik-s",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "BTS WORLD TOUR 'ARIRANG' IN SYDNEY",
+    "city": "Sydney Olympic Park",
+    "country": "Australia",
+    "venue": "Accor Stadium",
+    "datetime_iso": "2027-02-21T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064B688A13871",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064B688A13871",
+        "discovery_event_id": "17a8v0G65QFIK-s",
+        "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G65QFIK-s",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
   }
 ]

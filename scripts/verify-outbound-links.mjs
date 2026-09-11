@@ -23,6 +23,117 @@ const BLOCKED_STATUSES = new Set([401, 403, 429]);
 // Confirm every negative HEAD status with a small GET before classifying it.
 const HEAD_RETRY_STATUSES = new Set([404, 405, 410, 501, ...BLOCKED_STATUSES]);
 
+// Checking was strictly serial: one URL, awaited, then the next. At the measured
+// ~0.51s per URL that put the step at 4676 x 0.51s = 39.7 minutes against the
+// job's 40-minute cap, which is exactly where it died on 2026-09-10 and
+// 2026-09-11 (see docs/OPERATIONS.md -> Known incidents). The cost is linear in
+// unique URLs, which is linear in events: this dataset carries 3.42 URLs per
+// event across 18 hosts, so the wall reached itself as ingestion landed 272 new
+// events, and no timeout-minutes value survives the roster growing another order
+// of magnitude.
+//
+// The limit is per host rather than global on purpose. The URLs arrive grouped
+// by artist and therefore by storefront, so a single global pool would fire its
+// whole width at one provider in bursts. Anti-bot layers answer a burst with
+// 401/403/429, which this script correctly refuses to read as a dead link — so
+// the damage would not be a false failure but something subtler and worse: a run
+// whose evidence quietly degrades into "blocked" and stops telling us anything.
+// Per host, the concurrency is spent across providers instead of at one.
+//
+// Both are env-tunable because the busiest host is now the bound on the whole
+// step: the critical path is (URLs on the busiest host / PER_HOST) x per-URL
+// latency, currently 961 / 3 x 0.51s, about 2.7 minutes.
+const PER_HOST_CONCURRENCY = Math.max(1, Number.parseInt(process.env.LINK_CHECK_PER_HOST_CONCURRENCY || '3', 10));
+const GLOBAL_CONCURRENCY = Math.max(1, Number.parseInt(process.env.LINK_CHECK_CONCURRENCY || '24', 10));
+
+export function hostKeyFor(value) {
+  try {
+    return new URL(value).hostname.toLowerCase().replace(/^www\./, '');
+  } catch {
+    // Unparseable URLs share one queue. collectLinks already filters to
+    // http(s), so this is a guard rather than an expected path.
+    return 'invalid';
+  }
+}
+
+function createSemaphore(max) {
+  let active = 0;
+  const waiting = [];
+  return {
+    async acquire() {
+      if (active < max) {
+        active += 1;
+        return;
+      }
+      await new Promise((resolve) => waiting.push(resolve));
+      // No increment here. `release` hands this lane its slot without giving the
+      // count back, so the slot is already ours. Decrementing on release and
+      // re-incrementing here would open a window between the waiter being
+      // resolved and its continuation running, in which a fresh `acquire` sees a
+      // free slot and takes it too — which overshoots the cap by one per wake.
+    },
+    release() {
+      const next = waiting.shift();
+      if (next) next();
+      else active -= 1;
+    }
+  };
+}
+
+/**
+ * Run `worker` over `items` with at most `perHost` in flight against any one
+ * host and at most `global` in flight overall.
+ *
+ * Results are written by index, so the returned array is in input order no
+ * matter what order the network answers in. Everything downstream — the entry
+ * arrays, the log lines, the JSON artefact — therefore stays byte-identical to
+ * the serial version for the same inputs, which is what makes this a scheduling
+ * change and not a behaviour change.
+ *
+ * A worker that throws rejects the whole run rather than being recorded as a
+ * result. `checkUrl` catches everything and returns a result object, so a throw
+ * here means a defect in this script; failing the audit loudly is correct, and
+ * far better than turning a bug into a page full of phantom dead links.
+ */
+export async function mapWithHostLimits(items, { perHost, global: globalLimit }, worker) {
+  const results = new Array(items.length);
+  const queues = new Map();
+  items.forEach((item, index) => {
+    const key = hostKeyFor(item.url);
+    if (!queues.has(key)) queues.set(key, []);
+    queues.get(key).push(index);
+  });
+
+  const gate = createSemaphore(globalLimit);
+  const lanes = [];
+
+  for (const indices of queues.values()) {
+    let cursor = 0;
+    // One lane per concurrent slot this host is allowed, each pulling from the
+    // host's own queue. Taking the cursor is atomic: there is no await between
+    // the read and the increment.
+    for (let lane = 0; lane < Math.min(perHost, indices.length); lane += 1) {
+      lanes.push(
+        (async () => {
+          while (cursor < indices.length) {
+            const index = indices[cursor];
+            cursor += 1;
+            await gate.acquire();
+            try {
+              results[index] = await worker(items[index], index);
+            } finally {
+              gate.release();
+            }
+          }
+        })()
+      );
+    }
+  }
+
+  await Promise.all(lanes);
+  return results;
+}
+
 function asUrl(value) {
   if (typeof value !== 'string') return null;
   const trimmed = value.trim();
@@ -213,10 +324,111 @@ if (args.has('--self-test')) {
   assert.equal(reviewScopeForEventIds(['past-a', 'unknown'], events, now), 'unknown');
   assert.equal(reviewScopeForEventIds(['missing'], events, now), 'unknown');
 
+  // --- scheduling ------------------------------------------------------------
+  //
+  // The step died at its timeout because this was a serial loop. These pin the
+  // three properties that make concurrency safe to keep: the caps are honoured,
+  // the output does not depend on completion order, and the work really is
+  // overlapped rather than quietly serial again.
+  assert.equal(hostKeyFor('https://www.ticketmaster.com/x'), 'ticketmaster.com');
+  assert.equal(hostKeyFor('HTTPS://WWW.SeatGeek.com/y'), 'seatgeek.com');
+  assert.equal(hostKeyFor('not a url'), 'invalid');
+
+  const buildItems = (spec) => spec.flatMap(([host, count]) =>
+    Array.from({ length: count }, (_, i) => ({ url: `https://${host}/path/${i}` }))
+  );
+
+  // Completion order is deliberately the reverse of input order, and staggered
+  // across hosts, so an implementation that returned results in the order the
+  // network answered would fail this outright.
+  const ordered = buildItems([['a.example', 4], ['b.example', 4]]);
+  const orderedResults = await mapWithHostLimits(ordered, { perHost: 2, global: 4 }, async (item, index) => {
+    await new Promise((resolve) => setTimeout(resolve, (ordered.length - index) * 2));
+    return { url: item.url, index };
+  });
+  assert.deepEqual(orderedResults.map((r) => r.index), ordered.map((_, i) => i));
+  assert.deepEqual(orderedResults.map((r) => r.url), ordered.map((item) => item.url));
+
+  const observeLimits = async (items, limits) => {
+    let inFlight = 0;
+    let peakGlobal = 0;
+    const perHostActive = new Map();
+    const perHostPeak = new Map();
+    await mapWithHostLimits(items, limits, async (item) => {
+      const host = hostKeyFor(item.url);
+      inFlight += 1;
+      perHostActive.set(host, (perHostActive.get(host) || 0) + 1);
+      peakGlobal = Math.max(peakGlobal, inFlight);
+      perHostPeak.set(host, Math.max(perHostPeak.get(host) || 0, perHostActive.get(host)));
+      await new Promise((resolve) => setTimeout(resolve, 5));
+      inFlight -= 1;
+      perHostActive.set(host, perHostActive.get(host) - 1);
+      return { ok: true };
+    });
+    return { peakGlobal, perHostPeak };
+  };
+
+  // Skewed on purpose: one dominant host plus a tail, which is the real shape —
+  // ticketmaster.com alone is 961 of 4676 URLs.
+  const skewed = buildItems([['big.example', 20], ['mid.example', 6], ['small.example', 2]]);
+  const skewedLimits = await observeLimits(skewed, { perHost: 3, global: 24 });
+  for (const [host, peak] of skewedLimits.perHostPeak) {
+    assert.ok(peak <= 3, `per-host concurrency exceeded on ${host}: ${peak}`);
+  }
+  // Three hosts capped at 3 each cannot exceed 8 in flight (the smallest host
+  // only has 2 items), and must reach more than one or the pool is serial.
+  assert.ok(skewedLimits.peakGlobal <= 8, `global concurrency exceeded: ${skewedLimits.peakGlobal}`);
+  assert.ok(skewedLimits.peakGlobal > 1, 'scheduler ran serially; the timeout regression is back');
+
+  // The global cap must bind even when the per-host budgets would allow more:
+  // 10 hosts x 3 per host is 30 lanes, held to 5.
+  const wide = buildItems(Array.from({ length: 10 }, (_, i) => [`host${i}.example`, 4]));
+  const wideLimits = await observeLimits(wide, { perHost: 3, global: 5 });
+  assert.ok(wideLimits.peakGlobal <= 5, `global cap not enforced: ${wideLimits.peakGlobal}`);
+  assert.ok(wideLimits.peakGlobal > 1, 'global cap collapsed the pool to serial');
+
+  // A single host with perHost 1 is the serial case, and must still complete in
+  // order rather than deadlock on the semaphore.
+  const single = buildItems([['only.example', 5]]);
+  const singleResults = await mapWithHostLimits(single, { perHost: 1, global: 24 }, async (item) => item.url);
+  assert.deepEqual(singleResults, single.map((item) => item.url));
+
+  assert.deepEqual(await mapWithHostLimits([], { perHost: 3, global: 24 }, async () => 'x'), []);
+
+  // Every index must be filled. A hole would pair link[i] with a missing result
+  // and crash classification on `result.blocked` — loudly, which is right, but
+  // the scheduler should never produce one in the first place.
+  const dense = await mapWithHostLimits(skewed, { perHost: 3, global: 24 }, async (item) => item.url);
+  assert.equal(dense.length, skewed.length);
+  assert.equal(dense.filter((value) => value === undefined).length, 0);
+  assert.equal(new Set(dense).size, skewed.length);
+
+  // A throwing worker must reject rather than record a phantom result: a defect
+  // in this script must never reach the report as a dead link.
+  await assert.rejects(
+    () => mapWithHostLimits(buildItems([['boom.example', 3]]), { perHost: 2, global: 4 }, async () => {
+      throw new Error('worker defect');
+    }),
+    /worker defect/
+  );
+
   console.log('verify-outbound-links self-test passed');
   process.exit(0);
 }
 
+// Importing this file must not start a 40-minute network audit. The pure
+// helpers above are exported so a test can exercise them; without this guard a
+// bare `import` would run the whole check against every provider as a side
+// effect, which is exactly what happened while benchmarking this change.
+//
+// `main` keeps its body at the original indentation deliberately: re-indenting
+// would bury a three-line behaviour change in a hundred lines of whitespace, on
+// a script whose classification rules a reviewer needs to see are untouched.
+const { pathToFileURL } = await import('node:url');
+const isEntryPoint = Boolean(process.argv[1]) && pathToFileURL(process.argv[1]).href === import.meta.url;
+if (isEntryPoint) await main();
+
+async function main() {
 const raw = await fs.readFile(EVENTS_PATH, 'utf8');
 const events = JSON.parse(raw);
 const links = collectLinks(events);
@@ -243,9 +455,21 @@ const passEntries = [];
 const redirectEntries = [];
 const blockedEntries = [];
 
-console.log(`Checking ${links.length} unique outbound links from public/data/events.json ...`);
-for (const item of links) {
-  const result = await checkUrl(item.url, timeoutMs);
+console.log(
+  `Checking ${links.length} unique outbound links from public/data/events.json ` +
+    `(<=${PER_HOST_CONCURRENCY}/host, <=${GLOBAL_CONCURRENCY} overall) ...`
+);
+
+// Phase one is the network, run concurrently. Phase two replays the results in
+// input order, so classification, logging and the artefact are unchanged.
+const results = await mapWithHostLimits(
+  links,
+  { perHost: PER_HOST_CONCURRENCY, global: GLOBAL_CONCURRENCY },
+  (item) => checkUrl(item.url, timeoutMs)
+);
+
+for (const [index, item] of links.entries()) {
+  const result = results[index];
   const refs = item.refs.slice(0, 2).join(', ');
   const eventIds = [...new Set(item.refs.map((ref) => ref.split(':')[0]))];
   const artistSlugs = [...new Set(eventIds.map((id) => eventIndex.get(id)?.artist_slug).filter(Boolean))];
@@ -348,3 +572,4 @@ if (emitJson) {
 }
 
 if (failures > 0) process.exit(1);
+} // end main

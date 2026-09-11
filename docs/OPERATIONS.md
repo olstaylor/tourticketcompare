@@ -46,6 +46,18 @@ Because no writer failure is involved, nothing in the snapshot workflows can det
 
 **The hourly cron did not, on its own, revive the Vivid lane.** After it shipped at 11:24Z that day the marketplace lane resumed normally, but Vivid's 11:47Z and 12:47Z ticks both failed to fire — 7h37m with no run, while its sibling ran on schedule from the same repository. So this is not general scheduler load: GitHub was simply not running that one workflow, and no cron interval can fix a workflow that is never invoked. What restored the marketplace lanes was its `push` trigger firing on merge, which Vivid lacked. Vivid now carries the same trigger on its own workflow file and `scripts/snapshot-vividseats-prices.mjs`, so any change to either bootstraps fresh rows on `main`. Treat that as a recovery lever, not a fix: it makes a stalled lane restorable by a commit rather than only by a manual dispatch, and it does nothing to make the schedule itself reliable. If ticks keep going missing, move the writers to a Cloudflare Cron Trigger and take GitHub's scheduler out of the critical path.
 
+### Daily audit runtime budget
+
+The `audit` job's cost is dominated by the URL liveness check, and that cost is linear in **unique outbound URLs**, not in artists or providers. At 1,369 events the dataset carries 4,676 unique URLs across 18 hosts — 3.42 URLs per event, since each event can hold a Ticketmaster, SeatGeek, Vivid Seats and `source_url` destination plus `provider_links` entries for TicketNetwork, Ticket Liquidator and StubHub International. Measured per-URL latency is ~0.51s, HEAD plus the confirming ranged GET included.
+
+That check ran serially until 2026-09-11, which put it at 4,676 × 0.51s ≈ 40 minutes against the job's `timeout-minutes: 40`. It is now scheduled with bounded concurrency, **capped per host** rather than globally: `LINK_CHECK_PER_HOST_CONCURRENCY` (default 3) and `LINK_CHECK_CONCURRENCY` (default 24), both env-tunable on the workflow. Per host is the important half — the URL list arrives grouped by artist and therefore by storefront, so a global-only pool would fire its full width at one provider in bursts, and an anti-bot layer answers a burst with 401/403/429. Those are correctly recorded as "blocked, not dead", so the damage would not be a false failure but a run whose evidence quietly degrades into inconclusive.
+
+**What bounds the step now is the busiest host**, not the total: `(URLs on that host ÷ per-host limit) × per-URL latency`. Ticketmaster is currently 961 of the 4,676, so 961 ÷ 3 × 0.51s ≈ 2.9 minutes. Watch that ratio rather than the event count when sizing future growth — if one provider comes to dominate the dataset, raising `LINK_CHECK_PER_HOST_CONCURRENCY` is the lever, and it should be raised deliberately rather than reflexively, since it is also the politeness setting.
+
+`timeout-minutes` is deliberately **not** raised. It was never the constraint, and leaving it at 40 keeps it as the alarm that caught this: a step that has gone from 2.9 minutes back to 40 has regressed structurally, and should fail rather than be absorbed.
+
+Two costs were left in place on purpose. Every URL is re-checked daily including the 553 (11.8%) referenced only by past events, which the script already classifies as non-actionable *after* fetching them; skipping those would be a coverage reduction, and the archive-only share will grow, so it is the next thing to look at if the budget tightens. The Ticketmaster Discovery diff is a separate ~6.8 minutes and scales with artists, not events.
+
 ## Secrets and bindings
 
 Full setup steps: [DEPLOYMENT.md](DEPLOYMENT.md). Reference of the actual credential names in use:

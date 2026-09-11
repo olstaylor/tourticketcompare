@@ -2858,11 +2858,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7695900",
+        "url": "https://www.ticketnetwork.com/en/p/7695900",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZk8UGkdAfGQ9",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695900"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3npi4df",
@@ -2911,11 +2919,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257680",
+        "url": "https://www.ticketnetwork.com/en/p/8257680",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3NPi4Df",
     "timezone": "America/Los_Angeles",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257680"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b",
@@ -2964,11 +2980,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257681",
+        "url": "https://www.ticketnetwork.com/en/p/8257681",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3NtnU7b",
     "timezone": "America/Los_Angeles",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257681"
   },
   {
     "id": "tm-harry-styles-2027-toronto-1a8zkftgkdpce50",
@@ -3123,11 +3147,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257684",
+        "url": "https://www.ticketnetwork.com/en/p/8257684",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3NnLpPu",
     "timezone": "America/New_York",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257684"
   },
   {
     "id": "tm-harry-styles-2027-atlanta-vvg1zz_3ef8eqn",
@@ -3176,11 +3208,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257685",
+        "url": "https://www.ticketnetwork.com/en/p/8257685",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Ef8eQn",
     "timezone": "America/New_York",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257685"
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdrmtch",
@@ -3229,11 +3269,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257686",
+        "url": "https://www.ticketnetwork.com/en/p/8257686",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdrmTcH",
     "timezone": "America/Chicago",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257686"
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdgsgdj",
@@ -3282,11 +3330,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257687",
+        "url": "https://www.ticketnetwork.com/en/p/8257687",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdgSgdj",
     "timezone": "America/Chicago",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257687"
   },
   {
     "id": "tm-harry-styles-2027-madrid-z698xz2qz16v0sptae",
@@ -3547,11 +3603,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257655",
+        "url": "https://www.ticketnetwork.com/en/p/8257655",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_8GkDAlwdz",
     "timezone": "Europe/London",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257655"
   },
   {
     "id": "tm-harry-styles-2027-london-1anzkfigkew9djd",
@@ -3600,11 +3664,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257656",
+        "url": "https://www.ticketnetwork.com/en/p/8257656",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfIGkew9djD",
     "timezone": "Europe/London",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257656"
   },
   {
     "id": "tm-harry-styles-2027-london-1anzkfigkeycdjb",
@@ -3653,10 +3725,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257657",
+        "url": "https://www.ticketnetwork.com/en/p/8257657",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfIGkeyCdJb",
     "timezone": "Europe/London",
-    "status": "announced"
+    "status": "announced",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257657"
   }
 ]

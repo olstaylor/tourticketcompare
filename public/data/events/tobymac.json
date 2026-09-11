@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7957524",
+        "url": "https://www.ticketnetwork.com/en/p/7957524",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1xTh3VU",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957524/TobyMac-tickets-Thu-Nov-5-2026-Mizzou-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957524/TobyMac-tickets-Thu-Nov-5-2026-Mizzou-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957524"
   },
   {
     "id": "tm-tobymac-2026-evansville-vvg1fz_1ipflre",
@@ -167,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7957526",
+        "url": "https://www.ticketnetwork.com/en/p/7957526",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1IPfLre",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957526/TobyMac-tickets-Fri-Nov-6-2026-Ford-Center-IN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957526/TobyMac-tickets-Fri-Nov-6-2026-Ford-Center-IN",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957526"
   },
   {
     "id": "tm-tobymac-2026-cleveland-vvg1fz_1raogqa",
@@ -281,12 +297,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7957529",
+        "url": "https://www.ticketnetwork.com/en/p/7957529",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1NaYk4t",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957529/TobyMac-tickets-Sun-Nov-8-2026-First-Horizon-Coliseum-At-Greensboro-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957529/TobyMac-tickets-Sun-Nov-8-2026-First-Horizon-Coliseum-At-Greensboro-Complex",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957529"
   },
   {
     "id": "tm-tobymac-2027-fayetteville-g5evz_ojlfi-_",

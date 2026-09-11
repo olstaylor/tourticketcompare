@@ -60,13 +60,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977736",
+        "url": "https://www.ticketnetwork.com/en/p/7977736",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1TsIuWE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977736/Morat-tickets-Fri-Feb-26-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-inglewood-tickets-2-26-2027/event/107258452"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-inglewood-tickets-2-26-2027/event/107258452",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977736"
   },
   {
     "id": "tm-morat-2027-el-paso-vvg1yz_1xncffn",
@@ -129,13 +137,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977738",
+        "url": "https://www.ticketnetwork.com/en/p/7977738",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1XNCFFn",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977738/Morat-tickets-Sun-Feb-28-2027-Don-Haskins-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977738"
   },
   {
     "id": "tm-morat-2027-rosemont-vvg18z_1rgckw0",
@@ -198,13 +214,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977739",
+        "url": "https://www.ticketnetwork.com/en/p/7977739",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1rGCkw0",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977739/Morat-tickets-Fri-Mar-5-2027-Rosemont-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-rosemont-tickets-3-5-2027/event/107258453"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-rosemont-tickets-3-5-2027/event/107258453",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977739"
   },
   {
     "id": "tm-morat-2027-boston-vvg17z_1b5nnhl",
@@ -267,13 +291,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977740",
+        "url": "https://www.ticketnetwork.com/en/p/7977740",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1B5Nnhl",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977740/Morat-tickets-Sun-Mar-7-2027-Agganis-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-boston-tickets-3-7-2027/event/107202169"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-boston-tickets-3-7-2027/event/107202169",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977740"
   },
   {
     "id": "tm-morat-2027-grand-prairie-z7r9jz1a70iu_",
@@ -329,12 +361,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7985682",
+        "url": "https://www.ticketnetwork.com/en/p/7985682",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Iu_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985682/Morat-tickets-Fri-Mar-12-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985682/Morat-tickets-Fri-Mar-12-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7985682"
   },
   {
     "id": "tm-morat-2027-sugar-land-z7r9jz1a70iu-",
@@ -383,11 +423,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7983752",
+        "url": "https://www.ticketnetwork.com/en/p/7983752",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Iu-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983752"
   },
   {
     "id": "tm-morat-2027-hidalgo-g5diz_1bprewh",
@@ -450,13 +498,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977523",
+        "url": "https://www.ticketnetwork.com/en/p/7977523",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1BpREwH",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977523/Morat-tickets-Sun-Mar-14-2027-Payne-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-hidalgo-tickets-3-14-2027/event/107202170"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-hidalgo-tickets-3-14-2027/event/107202170",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977523"
   },
   {
     "id": "tm-morat-2027-orlando-17fov0g61xg_prh",
@@ -519,13 +575,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977742",
+        "url": "https://www.ticketnetwork.com/en/p/7977742",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61XG_PRh",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977742/Morat-tickets-Thu-Mar-18-2027-Kia-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-orlando-tickets-3-18-2027/event/107202171"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-orlando-tickets-3-18-2027/event/107202171",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977742"
   },
   {
     "id": "tm-morat-2027-miami-vvg1vz_1toy-p6",
@@ -588,13 +652,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977745",
+        "url": "https://www.ticketnetwork.com/en/p/7977745",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_1TOY-P6",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977745/Morat-tickets-Sat-Mar-20-2027-Kaseya-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-miami-tickets-3-20-2027/event/107198193"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-miami-tickets-3-20-2027/event/107198193",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977745"
   },
   {
     "id": "tm-morat-2027-toronto-177zv0g65ag8wpj",
@@ -710,13 +782,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7985892",
+        "url": "https://www.ticketnetwork.com/en/p/7985892",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65CEZfzf",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985892/Morat-tickets-Sat-Mar-27-2027-MTelus",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-montreal-mtelus-3-27-2027/event/107203077"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-montreal-mtelus-3-27-2027/event/107203077",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7985892"
   },
   {
     "id": "tm-morat-2027-brooklyn-17gzv0g61xr7dfv",
@@ -779,13 +859,21 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977746",
+        "url": "https://www.ticketnetwork.com/en/p/7977746",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61Xr7dfv",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977746/Morat-tickets-Thu-Apr-1-2027-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-brooklyn-tickets-4-1-2027/event/107198194"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-brooklyn-tickets-4-1-2027/event/107198194",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977746"
   },
   {
     "id": "tm-morat-2027-fairfax-17a8v0g61boau0r",
@@ -841,11 +929,19 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977748",
+        "url": "https://www.ticketnetwork.com/en/p/7977748",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61BOAU0R",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977748/Morat-tickets-Sat-Apr-3-2027-EagleBank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977748/Morat-tickets-Sat-Apr-3-2027-EagleBank-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977748"
   }
 ]

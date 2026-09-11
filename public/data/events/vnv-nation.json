@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8099561",
+        "url": "https://www.ticketnetwork.com/en/p/8099561",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JvOo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099561/VNV-Nation-tickets-Sun-Mar-14-2027-Variety-Playhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099561/VNV-Nation-tickets-Sun-Mar-14-2027-Variety-Playhouse",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099561"
   },
   {
     "id": "tm-vnv-nation-2027-salt-lake-city-z7r9jz1a7pmzg",
@@ -273,11 +281,19 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7495772",
+        "url": "https://www.ticketnetwork.com/en/p/7495772",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PUPM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7495772/VNV-Nation-tickets-Thu-Apr-1-2027-Metro-Chicago"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7495772/VNV-Nation-tickets-Thu-Apr-1-2027-Metro-Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7495772"
   }
 ]

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70E_4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-portland-mcmenamins-crystal-ballroom-10-19-2026--concerts-alternative/production/7047997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_4",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047997,
+        "url": "https://www.vividseats.com/blondshell-tickets-portland-mcmenamins-crystal-ballroom-10-19-2026--concerts-alternative/production/7047997",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -240,7 +240,7 @@
     "ticketmaster_event_id": "1F00649EE3106705",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/blondshell-london-15-12-2026/event/1F00649EE3106705",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-london-the-roundhouse-london-12-15-2026--concerts-alternative/production/7047949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/blondshell-london-15-12-2026/event/1F00649EE3106705",
     "last_verified_at": null,
@@ -262,11 +262,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047949,
+        "url": "https://www.vividseats.com/blondshell-tickets-london-the-roundhouse-london-12-15-2026--concerts-alternative/production/7047949",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

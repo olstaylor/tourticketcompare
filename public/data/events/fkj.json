@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PdGd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdGd",
     "seatgeek_url": "https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-portland-mcmenamins-crystal-ballroom-4-20-2027/production/7106441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdGd",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7106441,
+        "url": "https://www.vividseats.com/fkj-tickets-portland-mcmenamins-crystal-ballroom-4-20-2027/production/7106441",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -179,7 +179,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PduZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PduZ",
     "seatgeek_url": "https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-seattle-showbox-sodo-4-23-2027/production/7106312",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PduZ",
     "last_verified_at": null,
@@ -201,11 +201,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7106312,
+        "url": "https://www.vividseats.com/fkj-tickets-seattle-showbox-sodo-4-23-2027/production/7106312",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -240,7 +240,7 @@
     "ticketmaster_event_id": "110064B98B113F04",
     "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/production/7092911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
     "last_verified_at": null,
@@ -262,11 +262,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7092911,
+        "url": "https://www.vividseats.com/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/production/7092911",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -378,7 +378,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PK0S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0S",
     "seatgeek_url": "https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-denver-mission-ballroom-4-29-2027--concerts-pop/production/7105426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0S",
     "last_verified_at": null,
@@ -400,11 +400,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105426,
+        "url": "https://www.vividseats.com/fkj-tickets-denver-mission-ballroom-4-29-2027--concerts-pop/production/7105426",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -439,7 +439,7 @@
     "ticketmaster_event_id": "040064BDB06AB5DC",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-chicago-illinois-05-27-2027/event/040064BDB06AB5DC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-chicago-salt-shed---outdoor-fairgrounds-5-27-2027/production/7105295",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-chicago-illinois-05-27-2027/event/040064BDB06AB5DC",
     "last_verified_at": null,
@@ -461,11 +461,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105295,
+        "url": "https://www.vividseats.com/fkj-tickets-chicago-salt-shed---outdoor-fairgrounds-5-27-2027/production/7105295",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -492,7 +492,7 @@
     "ticketmaster_event_id": "100064BD8F8F9F99",
     "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-toronto-ontario-05-28-2027/event/100064BD8F8F9F99",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-toronto-history-toronto-5-28-2027--concerts-pop/production/7105596",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-toronto-ontario-05-28-2027/event/100064BD8F8F9F99",
     "last_verified_at": null,
@@ -514,11 +514,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105596,
+        "url": "https://www.vividseats.com/fkj-tickets-toronto-history-toronto-5-28-2027--concerts-pop/production/7105596",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -545,7 +545,7 @@
     "ticketmaster_event_id": "310064BBDDBBDFF9",
     "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-montreal-quebec-05-31-2027/event/310064BBDDBBDFF9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-montreal-mtelus-5-31-2027--concerts-pop/production/7105592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-montreal-quebec-05-31-2027/event/310064BBDDBBDFF9",
     "last_verified_at": null,
@@ -567,11 +567,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105592,
+        "url": "https://www.vividseats.com/fkj-tickets-montreal-mtelus-5-31-2027--concerts-pop/production/7105592",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -614,7 +614,7 @@
     "ticketmaster_event_id": "010064BBF09E93E6",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-boston-massachusetts-06-01-2027/event/010064BBF09E93E6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-boston-mgm-music-hall-at-fenway-6-1-2027--concerts-pop/production/7105233",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-boston-massachusetts-06-01-2027/event/010064BBF09E93E6",
     "last_verified_at": null,
@@ -636,11 +636,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105233,
+        "url": "https://www.vividseats.com/fkj-tickets-boston-mgm-music-hall-at-fenway-6-1-2027--concerts-pop/production/7105233",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -683,7 +683,7 @@
     "ticketmaster_event_id": "020064BBEF472F34",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-philadelphia-the-fillmore-philadelphia-6-3-2027/production/7105319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
     "last_verified_at": null,
@@ -705,11 +705,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105319,
+        "url": "https://www.vividseats.com/fkj-tickets-philadelphia-the-fillmore-philadelphia-6-3-2027/production/7105319",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -744,7 +744,7 @@
     "ticketmaster_event_id": "000064BBEC98A526",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-brooklyn-new-york-06-04-2027/event/000064BBEC98A526",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-brooklyn-brooklyn-paramount-6-4-2027/production/7105323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-brooklyn-new-york-06-04-2027/event/000064BBEC98A526",
     "last_verified_at": null,
@@ -766,11 +766,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105323,
+        "url": "https://www.vividseats.com/fkj-tickets-brooklyn-brooklyn-paramount-6-4-2027/production/7105323",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -813,7 +813,7 @@
     "ticketmaster_event_id": "150064BAAABB8CD2",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-washington-district-of-columbia-06-07-2027/event/150064BAAABB8CD2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-washington-dc-the-anthem-6-7-2027/production/7105325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-washington-district-of-columbia-06-07-2027/event/150064BAAABB8CD2",
     "last_verified_at": null,
@@ -835,11 +835,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105325,
+        "url": "https://www.vividseats.com/fkj-tickets-washington-dc-the-anthem-6-7-2027/production/7105325",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -935,7 +935,7 @@
     "ticketmaster_event_id": "3A0064BBB304D513",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-houston-texas-06-11-2027/event/3A0064BBB304D513",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-houston-bayou-music-center-6-11-2027/production/7105334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-houston-texas-06-11-2027/event/3A0064BBB304D513",
     "last_verified_at": null,
@@ -957,11 +957,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105334,
+        "url": "https://www.vividseats.com/fkj-tickets-houston-bayou-music-center-6-11-2027/production/7105334",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1004,7 +1004,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PdvN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdvN",
     "seatgeek_url": "https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-austin-austin-city-limits-live-at-the-moody-theater-6-12-2027/production/7105819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdvN",
     "last_verified_at": null,
@@ -1026,11 +1026,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105819,
+        "url": "https://www.vividseats.com/fkj-tickets-austin-austin-city-limits-live-at-the-moody-theater-6-12-2027/production/7105819",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1057,7 +1057,7 @@
     "ticketmaster_event_id": "0C0064BBF0136C3D",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-dallas-texas-06-14-2027/event/0C0064BBF0136C3D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-dallas-south-side-ballroom-6-14-2027/production/7105336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-dallas-texas-06-14-2027/event/0C0064BBF0136C3D",
     "last_verified_at": null,
@@ -1079,11 +1079,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105336,
+        "url": "https://www.vividseats.com/fkj-tickets-dallas-south-side-ballroom-6-14-2027/production/7105336",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

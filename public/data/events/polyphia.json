@@ -582,7 +582,7 @@
     "ticketmaster_event_id": "3E0064CAE6F2A1E5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/polyphia-be-not-afraid-world-tour-london-16-12-2026/event/3E0064CAE6F2A1E5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-london-o2-academy-brixton-12-16-2026--concerts-hard-rock/production/7169277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/polyphia-be-not-afraid-world-tour-london-16-12-2026/event/3E0064CAE6F2A1E5",
     "last_verified_at": null,
@@ -604,11 +604,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7169277,
+        "url": "https://www.vividseats.com/polyphia-tickets-london-o2-academy-brixton-12-16-2026--concerts-hard-rock/production/7169277",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -643,7 +643,7 @@
     "ticketmaster_event_id": "19006519814B337C",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
     "last_verified_at": null,
@@ -665,11 +665,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7484783,
+        "url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -704,7 +704,7 @@
     "ticketmaster_event_id": "17006516949C9A04",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-las-vegas-nevada-02-06-2027/event/17006516949C9A04",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-las-vegas-house-of-blues-las-vegas-2-6-2027/production/7483184",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-las-vegas-nevada-02-06-2027/event/17006516949C9A04",
     "last_verified_at": null,
@@ -726,11 +726,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7483184,
+        "url": "https://www.vividseats.com/polyphia-tickets-las-vegas-house-of-blues-las-vegas-2-6-2027/production/7483184",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -765,7 +765,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv67J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv67J",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-san-diego-soma-2-10-2027--concerts-hard-rock/production/7485019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv67J",
     "last_verified_at": null,
@@ -787,11 +787,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7485019,
+        "url": "https://www.vividseats.com/polyphia-tickets-san-diego-soma-2-10-2027--concerts-hard-rock/production/7485019",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -826,7 +826,7 @@
     "ticketmaster_event_id": "0F006518AED0AB62",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-seattle-washington-02-17-2027/event/0F006518AED0AB62",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-seattle-paramount-theatre-seattle-2-17-2027/production/7484847",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-seattle-washington-02-17-2027/event/0F006518AED0AB62",
     "last_verified_at": null,
@@ -848,11 +848,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7484847,
+        "url": "https://www.vividseats.com/polyphia-tickets-seattle-paramount-theatre-seattle-2-17-2027/production/7484847",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -887,7 +887,7 @@
     "ticketmaster_event_id": "1E006519B3EAB532",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-salt-lake-city-utah-02-19-2027/event/1E006519B3EAB532",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-salt-lake-city-the-depot---ut-2-19-2027--concerts-hard-rock/production/7485681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-salt-lake-city-utah-02-19-2027/event/1E006519B3EAB532",
     "last_verified_at": null,
@@ -909,11 +909,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7485681,
+        "url": "https://www.vividseats.com/polyphia-tickets-salt-lake-city-the-depot---ut-2-19-2027--concerts-hard-rock/production/7485681",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1001,7 +1001,7 @@
     "ticketmaster_event_id": "06006518505DBA0F",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-minneapolis-minnesota-02-23-2027/event/06006518505DBA0F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-minneapolis-uptown-theater-minneapolis-2-23-2027/production/7484734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-minneapolis-minnesota-02-23-2027/event/06006518505DBA0F",
     "last_verified_at": null,
@@ -1023,11 +1023,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7484734,
+        "url": "https://www.vividseats.com/polyphia-tickets-minneapolis-uptown-theater-minneapolis-2-23-2027/production/7484734",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1054,7 +1054,7 @@
     "ticketmaster_event_id": "05006518D96D0E5D",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-indianapolis-indiana-02-26-2027/event/05006518D96D0E5D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-26-2027/production/7485007",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-indianapolis-indiana-02-26-2027/event/05006518D96D0E5D",
     "last_verified_at": null,
@@ -1076,11 +1076,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7485007,
+        "url": "https://www.vividseats.com/polyphia-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-26-2027/production/7485007",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1115,7 +1115,7 @@
     "ticketmaster_event_id": "2D006519965076E2",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-charlotte-north-carolina-03-12-2027/event/2D006519965076E2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-charlotte-the-fillmore-charlotte-3-12-2027/production/7484736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-charlotte-north-carolina-03-12-2027/event/2D006519965076E2",
     "last_verified_at": null,
@@ -1137,11 +1137,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7484736,
+        "url": "https://www.vividseats.com/polyphia-tickets-charlotte-the-fillmore-charlotte-3-12-2027/production/7484736",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1237,7 +1237,7 @@
     "ticketmaster_event_id": "20006518E971480B",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-birmingham-alabama-03-17-2027/event/20006518E971480B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-birmingham-avondale-brewing-company-3-17-2027/production/7484740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-birmingham-alabama-03-17-2027/event/20006518E971480B",
     "last_verified_at": null,
@@ -1259,11 +1259,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7484740,
+        "url": "https://www.vividseats.com/polyphia-tickets-birmingham-avondale-brewing-company-3-17-2027/production/7484740",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

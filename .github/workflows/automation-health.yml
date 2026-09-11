@@ -1,14 +1,29 @@
 name: Automation health
 
-# Outside observer for the scheduled write lanes. Two things no lane can see
+# Outside observer for the scheduled write lanes. Three things no lane can see
 # about itself: a run that failed (nothing in the repository reported it — the
-# lanes write their rolling issues only on success), and a scheduled tick GitHub
+# lanes write their rolling issues only on success), a scheduled tick GitHub
 # never delivered (docs/OPERATIONS.md -> Price snapshot cadence records a lane
-# going 7h37m unscheduled while still showing green from its last run).
+# going 7h37m unscheduled while still showing green from its last run), and a
+# lane still being invoked but no longer reaching a verdict, which is what a job
+# breaching its `timeout-minutes` cap looks like.
 #
-# Read-only by construction: `contents: read`, no repository write, no dispatch,
-# no rerun. Its entire output is one rolling `automation:health` issue, which it
-# closes again when every lane is healthy.
+# Read-only by construction. The token below can read the Actions API and write
+# issues, and nothing else; the script uses that to maintain exactly one rolling
+# `automation:health` issue, closing it again once every finding clears.
+#
+# What it therefore CANNOT do, enforced by the permission block rather than by
+# convention:
+#   - write repository content, commit, push, or open a branch (`contents: read`)
+#   - merge, approve, or change any pull request (no `pull-requests` scope)
+#   - rerun, cancel, or dispatch any workflow (`actions: read`, not write)
+#   - remediate anything: the script issues no repair, no retry, and no
+#     `workflow_dispatch` of a fix job
+#
+# `issues: write` is the narrowest scope GitHub offers for maintaining an issue;
+# it is not restricted to one issue at the token level, so the script is what
+# keeps the write to a single title+label pair, and its self-test asserts the
+# whole payload is one title, one body, one label and one state.
 
 on:
   # The six daily data lanes, so a failure that costs an ingestion window

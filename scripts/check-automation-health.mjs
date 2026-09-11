@@ -54,21 +54,36 @@ const ROLLING_ISSUE_LABEL = "automation:health";
 // they guard — prices going dark — is already probed from outside by
 // `price-freshness-check.yml`. The 6-hourly poll covers them, well inside the
 // 24h display window.
+//
+// `failuresBeforeIncident` is the false-positive guard, and it is set by what a
+// single failure actually costs rather than by taste. A daily lane that fails
+// once has lost a whole ingestion window — dates, provenance or timestamps that
+// will not be landed until tomorrow — so one failure is worth surfacing even
+// though its cause may well be an upstream blip. An hourly price lane that
+// fails once has spent one hour of a 24h display budget, which is absorbed
+// silently by design, so it takes two consecutive failures before that is a
+// finding. Either way the sensor reports only what the run concluded: it never
+// attributes a failure to a provider, a rate limit or a WAF, because the run
+// list is not evidence of any of those.
 export const WATCHED_LANES = [
-  { file: "daily-audit.yml", name: "Daily data audit", cadence: "daily 03:00", maxAgeHours: 30, eventDriven: true },
-  { file: "nightly-data-sync.yml", name: "Nightly data sync", cadence: "daily 03:30", maxAgeHours: 30, eventDriven: true },
-  { file: "tm-new-shows-pr.yml", name: "Ticketmaster new shows PR", cadence: "daily 04:00", maxAgeHours: 30, eventDriven: true },
-  { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 05:00", maxAgeHours: 30, eventDriven: true },
-  { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: true },
-  { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true },
-  { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false },
-  { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false },
-  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 6, eventDriven: false }
+  { file: "daily-audit.yml", name: "Daily data audit", cadence: "daily 03:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
+  { file: "nightly-data-sync.yml", name: "Nightly data sync", cadence: "daily 03:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
+  { file: "tm-new-shows-pr.yml", name: "Ticketmaster new shows PR", cadence: "daily 04:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
+  { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 05:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
+  { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
+  { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
+  { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 },
+  { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 },
+  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 }
 ];
 
-// A cancelled run is usually the concurrency group doing its job, not a defect,
-// so it is neither a failure nor proof of health — it is skipped when looking
-// for the lane's last real verdict.
+// A cancelled or skipped run is not a failure, but it is not proof of health
+// either: it means that tick produced no verdict at all. One of them among fresh
+// successes is a concurrency group doing its job. A run of them is a lane that
+// has stopped completing — a job creeping past its `timeout-minutes` cap
+// concludes `cancelled`, not `failure`, so treating neutrals as merely "skip and
+// look further back" would report a lane that has not finished for days as
+// healthy on the strength of an old success. `stalled` is that case.
 const FAILING_CONCLUSIONS = new Set(["failure", "timed_out"]);
 const NEUTRAL_CONCLUSIONS = new Set(["cancelled", "skipped"]);
 
@@ -81,7 +96,7 @@ const NEUTRAL_CONCLUSIONS = new Set(["cancelled", "skipped"]);
  *
  * Pure and offline so the self-test can pin every branch without the network.
  */
-export function classifyLane(runs, { now, maxAgeHours }) {
+export function classifyLane(runs, { now, maxAgeHours, failuresBeforeIncident = 1 }) {
   const completed = runs
     .filter((run) => run.status === "completed")
     .slice()
@@ -101,9 +116,26 @@ export function classifyLane(runs, { now, maxAgeHours }) {
     return { status: "stale", detail: ageDetail, consecutiveFailures: 0, latest };
   }
 
+  // A verdict is a run that actually concluded pass or fail. Neutrals are not
+  // verdicts, so the lane's health is judged on the age of the last real one.
   const verdicts = completed.filter((run) => !NEUTRAL_CONCLUSIONS.has(run.conclusion));
   if (verdicts.length === 0) {
-    return { status: "ok", detail: "Recent runs were cancelled or skipped; no failing verdict.", consecutiveFailures: 0, latest };
+    return {
+      status: "stalled",
+      detail: "Every recent scheduled run was cancelled or skipped; the lane has produced no pass/fail verdict.",
+      consecutiveFailures: 0,
+      latest
+    };
+  }
+
+  const verdictAgeHours = (now - Date.parse(verdicts[0].created_at)) / 3_600_000;
+  if (verdictAgeHours > maxAgeHours) {
+    return {
+      status: "stalled",
+      detail: `Runs are still being scheduled, but the last one to reach a pass/fail verdict was ${verdictAgeHours.toFixed(1)}h ago (expected within ${maxAgeHours}h); the ticks since were cancelled or skipped. A job passing its timeout-minutes cap ends this way.`,
+      consecutiveFailures: 0,
+      latest: verdicts[0]
+    };
   }
 
   let consecutiveFailures = 0;
@@ -119,37 +151,80 @@ export function classifyLane(runs, { now, maxAgeHours }) {
   // The repeat count is the evidence that separates a flake from a defect, and
   // it is what a downstream worker needs in order not to re-derive it.
   const plural = consecutiveFailures === 1 ? "run" : "runs in a row";
-  return {
-    status: "failing",
-    detail: `Last ${consecutiveFailures} scheduled ${plural} concluded ${verdicts[0].conclusion}.`,
-    consecutiveFailures,
-    latest: verdicts[0]
-  };
+  const detail = `Last ${consecutiveFailures} scheduled ${plural} concluded ${verdicts[0].conclusion}.`;
+
+  // Below the lane's threshold this is recorded as context, not raised as a
+  // finding: one failure on a lane that runs again within the hour is not yet
+  // evidence of anything, and a sensor that opens an incident on it trains the
+  // reader to ignore the label. `applyCorrelation` can still promote it, on the
+  // evidence of another lane failing in the same window.
+  if (consecutiveFailures < failuresBeforeIncident) {
+    return {
+      status: "flaky",
+      detail: `${detail} Below this lane's ${failuresBeforeIncident}-failure threshold, so recorded but not raised.`,
+      consecutiveFailures,
+      latest: verdicts[0]
+    };
+  }
+
+  return { status: "failing", detail, consecutiveFailures, latest: verdicts[0] };
 }
 
 /**
- * Several lanes failing inside the same window is the signature of a red tip of
- * main rather than of several independent provider defects, because every lane
- * gates its own write on `test:mvp` passing against that tree. Saying so here
- * saves the next reader the deduction; it is stated as a likelihood, never as a
- * verified fact, since this sensor does not run the suite.
+ * Two lanes failing in the same window is itself the evidence a single failure
+ * lacks. Independent providers do not break together by chance, and every lane
+ * gates its own write on `test:mvp` passing against the tip of `main`, so the
+ * shared cause is usually one red check there rather than several provider
+ * defects. On that evidence a sub-threshold `flaky` lane is promoted to a
+ * finding — the corroboration is what the threshold was waiting for.
+ *
+ * Stated as a likelihood with a verification step, never as a verified cause:
+ * this sensor reads the run list and does not run the suite.
  */
-export function correlatedMainFailure(findings) {
-  const failing = findings.filter((row) => row.status === "failing");
-  return failing.length >= 2;
+export function applyCorrelation(rows) {
+  const failingNow = rows.filter((row) => row.status === "failing" || row.status === "flaky");
+  if (failingNow.length < 2) return rows;
+  return rows.map((row) =>
+    row.status === "flaky"
+      ? { ...row, status: "failing", detail: `${row.detail.split(" Below this lane's")[0]} Raised because ${failingNow.length - 1} other lane(s) are failing in the same window.` }
+      : row
+  );
 }
 
+/**
+ * Whether the board should tell its reader to check `main` before investigating
+ * any provider. Call it on rows that have already been through
+ * `applyCorrelation`, where every corroborated lane is `failing`.
+ */
+export function correlatedMainFailure(rows) {
+  return rows.filter((row) => row.status === "failing").length >= 2;
+}
+
+// `flaky` is deliberately not a finding. It is printed on the board as context
+// so a reader can see a lane wobbled, and it neither opens the rolling issue nor
+// keeps it open — which is also what makes recovery work: once the failures stop
+// the lane returns to `ok`, the finding set empties, and the issue closes.
+const FINDING_STATUSES = new Set(["failing", "stalled", "stale", "never"]);
+export const findingsOf = (rows) => rows.filter((row) => FINDING_STATUSES.has(row.status));
+
 export function renderBody(rows, { repo, now }) {
-  const findings = rows.filter((row) => row.status !== "ok");
+  const findings = findingsOf(rows);
+  const flaky = rows.filter((row) => row.status === "flaky");
   const header = findings.length
     ? `🔴 ${findings.length} of ${rows.length} scheduled lanes need attention`
     : `🟢 All ${rows.length} scheduled lanes healthy`;
 
   let body = "<!-- automation-health -->\n";
   body += `**Last check:** ${new Date(now).toISOString()}\n`;
-  body += `**Status:** ${header}\n\n`;
+  body += `**Status:** ${header}`;
+  if (!findings.length && flaky.length) {
+    body += ` (${flaky.length} recorded a single failure, below threshold)`;
+  }
+  body += "\n\n";
   body += "Read-only sensor over the scheduled write lanes. It never reruns, dispatches, merges, or changes a workflow. ";
-  body += "`stale` means GitHub has not invoked the workflow recently enough, which no workflow can detect about itself.\n\n";
+  body += "`stale` means GitHub has not invoked the workflow recently enough, which no workflow can detect about itself; ";
+  body += "`stalled` means it is being invoked but no longer reaching a pass/fail verdict. ";
+  body += "`flaky` is a single failure on a lane that absorbs one — recorded as context, not raised, and not a reason this issue stays open.\n\n";
 
   if (correlatedMainFailure(rows)) {
     body += "> **Check the tip of `main` first.** Two or more lanes are failing at once. ";
@@ -189,6 +264,24 @@ export function renderBody(rows, { repo, now }) {
   return body;
 }
 
+/**
+ * The complete rolling-issue write, as data. Everything the sensor is permitted
+ * to change lives in this object and nowhere else, which is what keeps "it only
+ * maintains one issue" a property you can test rather than a claim in a comment.
+ *
+ * `state` is the recovery path: the moment the last finding clears, the same
+ * upsert that raised the issue closes it, so a fixed lane cannot leave a stale
+ * finding sitting open and permanently actionable.
+ */
+export function buildIssuePayload(rows, { repo, now }) {
+  return {
+    title: ROLLING_ISSUE_TITLE,
+    body: renderBody(rows, { repo, now }),
+    labels: [ROLLING_ISSUE_LABEL],
+    state: findingsOf(rows).length ? "open" : "closed"
+  };
+}
+
 if (SELF_TEST) {
   const { default: assert } = await import("node:assert/strict");
   const now = Date.parse("2026-09-11T12:00:00Z");
@@ -213,12 +306,39 @@ if (SELF_TEST) {
   assert.equal(failing.status, "failing");
   assert.equal(failing.consecutiveFailures, 2);
 
-  // A cancelled run is the concurrency group working, so it neither counts as a
-  // failure nor breaks the failure streak behind it.
+  // One cancelled run among fresh verdicts is the concurrency group working: it
+  // neither counts as a failure nor breaks the failure streak behind it.
   const cancelled = classifyLane([run({ conclusion: "cancelled" }), run({ conclusion: "failure", created_at: "2026-09-11T10:00:00Z" })], { now, maxAgeHours: 30 });
   assert.equal(cancelled.status, "failing");
   assert.equal(cancelled.consecutiveFailures, 1);
-  assert.equal(classifyLane([run({ conclusion: "cancelled" })], { now, maxAgeHours: 30 }).status, "ok");
+  assert.equal(classifyLane([run({ conclusion: "cancelled" }), run({ conclusion: "success", created_at: "2026-09-11T10:00:00Z" })], { now, maxAgeHours: 30 }).status, "ok");
+
+  // --- stalled: invoked, but no longer finishing -----------------------------
+  //
+  // Drawn from the real case this caught. `daily-audit.yml` concluded
+  // `cancelled` on two consecutive days by running 42 minutes against a
+  // 40-minute `timeout-minutes` cap, with its last success two days back. A cap
+  // breach ends as `cancelled`, not `failure`, so skipping neutrals and reading
+  // the older success would have called a lane that had not completed for two
+  // days healthy.
+  assert.equal(classifyLane([run({ conclusion: "cancelled" })], { now, maxAgeHours: 30 }).status, "stalled");
+  const stalled = classifyLane(
+    [
+      run({ conclusion: "cancelled", created_at: "2026-09-11T07:33:00Z" }),
+      run({ conclusion: "cancelled", created_at: "2026-09-10T07:35:00Z" }),
+      run({ conclusion: "success", created_at: "2026-09-09T07:38:00Z" })
+    ],
+    { now: Date.parse("2026-09-11T12:30:00Z"), maxAgeHours: 30 }
+  );
+  assert.equal(stalled.status, "stalled");
+  assert.match(stalled.detail, /last one to reach a pass\/fail verdict was 52\.9h ago/);
+  assert.equal(findingsOf([stalled]).length, 1);
+
+  // A cancelled tick with a verdict still inside the window is not stalled.
+  assert.equal(
+    classifyLane([run({ conclusion: "cancelled" }), run({ conclusion: "success", created_at: "2026-09-10T11:00:00Z" })], { now, maxAgeHours: 30 }).status,
+    "ok"
+  );
 
   // A dropped schedule outranks a historical failure: the actionable fact is
   // that the lane is not running, not what its last run concluded.
@@ -231,6 +351,70 @@ if (SELF_TEST) {
 
   assert.equal(correlatedMainFailure([{ status: "failing" }, { status: "failing" }]), true);
   assert.equal(correlatedMainFailure([{ status: "failing" }, { status: "stale" }]), false);
+
+  // --- false-positive guard -------------------------------------------------
+  //
+  // One failure on an hourly lane is recorded, not raised: it costs an hour of a
+  // 24h display budget, and the lane runs again within the hour. Two in a row is
+  // a finding, because that is no longer a wobble.
+  const oneHourlyFailure = classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 6, failuresBeforeIncident: 2 });
+  assert.equal(oneHourlyFailure.status, "flaky");
+  assert.match(oneHourlyFailure.detail, /recorded but not raised/);
+  assert.equal(findingsOf([oneHourlyFailure]).length, 0);
+  assert.equal(
+    classifyLane([run({ conclusion: "failure" }), run({ conclusion: "failure", created_at: "2026-09-11T10:00:00Z" })], { now, maxAgeHours: 6, failuresBeforeIncident: 2 }).status,
+    "failing"
+  );
+
+  // A daily lane does not absorb a failure: one lost run is a lost ingestion
+  // window, so its threshold is 1 and the same single failure is a finding.
+  assert.equal(classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 30, failuresBeforeIncident: 1 }).status, "failing");
+
+  // --- correlation ----------------------------------------------------------
+  //
+  // A lone sub-threshold failure stays context. Corroboration from a second lane
+  // in the same window is the evidence the threshold was waiting for, so both
+  // become findings and the board tells the reader to check main first.
+  const loneFlake = applyCorrelation([{ ...oneHourlyFailure, file: "a.yml" }, { status: "ok", file: "b.yml" }]);
+  assert.equal(loneFlake[0].status, "flaky");
+  assert.equal(correlatedMainFailure(loneFlake), false);
+
+  const corroborated = applyCorrelation([
+    { ...oneHourlyFailure, file: "a.yml" },
+    { ...oneHourlyFailure, file: "b.yml" },
+    { status: "ok", file: "c.yml" }
+  ]);
+  assert.equal(corroborated[0].status, "failing");
+  assert.equal(corroborated[1].status, "failing");
+  assert.match(corroborated[0].detail, /other lane\(s\) are failing in the same window/);
+  assert.doesNotMatch(corroborated[0].detail, /recorded but not raised/);
+  assert.equal(corroborated[2].status, "ok");
+  assert.equal(correlatedMainFailure(corroborated), true);
+
+  // --- recovery -------------------------------------------------------------
+  //
+  // The finding must not outlive the problem. Once a lane's failures stop it
+  // returns to `ok`, the finding set empties, and the same upsert that raised
+  // the rolling issue closes it — so a fixed lane cannot leave a stale finding
+  // sitting open and permanently actionable.
+  const brokenBoard = [{ file: "a.yml", name: "A", cadence: "daily", ...classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 30, failuresBeforeIncident: 1 }) }];
+  assert.equal(buildIssuePayload(brokenBoard, { repo: "o/r", now }).state, "open");
+
+  const recoveredBoard = [{ file: "a.yml", name: "A", cadence: "daily", ...classifyLane([run({ conclusion: "success" }), run({ conclusion: "failure", created_at: "2026-09-11T10:00:00Z" })], { now, maxAgeHours: 30, failuresBeforeIncident: 1 }) }];
+  assert.equal(recoveredBoard[0].status, "ok");
+  assert.equal(buildIssuePayload(recoveredBoard, { repo: "o/r", now }).state, "closed");
+  assert.match(buildIssuePayload(recoveredBoard, { repo: "o/r", now }).body, /All 1 scheduled lanes healthy/);
+
+  // A lane that recovers but is still wobbling closes the issue too: `flaky` is
+  // context, never a reason to keep a finding open.
+  const wobblingBoard = [{ file: "a.yml", name: "A", cadence: "hourly", ...oneHourlyFailure }];
+  assert.equal(buildIssuePayload(wobblingBoard, { repo: "o/r", now }).state, "closed");
+  assert.match(buildIssuePayload(wobblingBoard, { repo: "o/r", now }).body, /below threshold/);
+
+  // Every write this sensor is permitted to make is in that payload: one title,
+  // one body, one label, one state. Nothing addresses another issue or the repo.
+  assert.deepEqual(Object.keys(buildIssuePayload(recoveredBoard, { repo: "o/r", now })).sort(), ["body", "labels", "state", "title"]);
+  assert.deepEqual(buildIssuePayload(recoveredBoard, { repo: "o/r", now }).labels, [ROLLING_ISSUE_LABEL]);
 
   const body = renderBody(
     [
@@ -245,6 +429,15 @@ if (SELF_TEST) {
   assert.doesNotMatch(body, /"lane": "b\.yml"/);
 
   assert.ok(WATCHED_LANES.every((lane) => lane.file && lane.name && lane.maxAgeHours > 0));
+  // A lane that absorbs a single failure must be one that runs again soon. Tying
+  // the threshold to the staleness window stops the two drifting apart into a
+  // daily lane that quietly swallows a whole lost day.
+  for (const lane of WATCHED_LANES) {
+    assert.ok(lane.failuresBeforeIncident >= 1, `${lane.file} needs a failuresBeforeIncident of at least 1`);
+    if (lane.maxAgeHours > 6) {
+      assert.equal(lane.failuresBeforeIncident, 1, `${lane.file} runs at most daily, so one failure is already a lost window`);
+    }
+  }
 
   // A renamed or deleted workflow would otherwise make this sensor report
   // "never" forever against a file that no longer exists — a watcher quietly
@@ -342,40 +535,41 @@ for (const lane of WATCHED_LANES) {
     if (!/GitHub API 404/.test(String(error))) throw error;
   }
 
-  const verdict = classifyLane(runs, { now, maxAgeHours: lane.maxAgeHours });
-  const row = { ...lane, ...verdict };
-
-  // Name the failing jobs only for lanes that are actually failing, so the cost
-  // stays proportional to the findings rather than to the number of lanes.
-  if (verdict.status === "failing" && verdict.latest?.id) {
-    const jobs = await github(`/actions/runs/${verdict.latest.id}/jobs?per_page=50`).catch(() => null);
-    row.failingJobs = (jobs?.jobs ?? [])
-      .filter((job) => FAILING_CONCLUSIONS.has(job.conclusion))
-      .map((job) => job.name);
-  }
-
-  rows.push(row);
+  const verdict = classifyLane(runs, {
+    now,
+    maxAgeHours: lane.maxAgeHours,
+    failuresBeforeIncident: lane.failuresBeforeIncident
+  });
+  rows.push({ ...lane, ...verdict });
 }
 
-const findings = rows.filter((row) => row.status !== "ok");
-const body = renderBody(rows, { repo, now });
+// Corroboration across lanes is evidence a single lane cannot supply, so it is
+// applied once the whole board is known rather than per lane.
+const correlated = applyCorrelation(rows);
+const findings = findingsOf(correlated);
+
+// Name the failing jobs only for lanes that ended up as findings, so the API
+// cost stays proportional to what is wrong rather than to how many lanes exist.
+for (const row of correlated) {
+  if (row.status !== "failing" || !row.latest?.id) continue;
+  const jobs = await github(`/actions/runs/${row.latest.id}/jobs?per_page=50`).catch(() => null);
+  row.failingJobs = (jobs?.jobs ?? [])
+    .filter((job) => FAILING_CONCLUSIONS.has(job.conclusion))
+    .map((job) => job.name);
+}
+
+const payload = buildIssuePayload(correlated, { repo, now });
 
 if (JSON_OUT) {
   const { writeFile } = await import("node:fs/promises");
-  await writeFile(JSON_OUT, JSON.stringify({ checked_at: new Date(now).toISOString(), lanes: rows }, null, 2));
+  await writeFile(JSON_OUT, JSON.stringify({ checked_at: new Date(now).toISOString(), lanes: correlated }, null, 2));
 }
 
 if (DRY_RUN) {
-  console.log(body);
+  console.log(payload.body);
 } else {
   const issues = await github(`/issues?state=open&labels=${encodeURIComponent(ROLLING_ISSUE_LABEL)}&per_page=100`);
   const existing = issues.find((issue) => !issue.pull_request && issue.title === ROLLING_ISSUE_TITLE);
-  const payload = {
-    title: ROLLING_ISSUE_TITLE,
-    body,
-    labels: [ROLLING_ISSUE_LABEL],
-    state: findings.length ? "open" : "closed"
-  };
   if (existing) {
     await github(`/issues/${existing.number}`, {
       method: "PATCH",
@@ -395,8 +589,8 @@ if (DRY_RUN) {
 
 console.log(
   JSON.stringify({
-    checked: rows.length,
-    likely_main_failure: correlatedMainFailure(rows),
+    checked: correlated.length,
+    likely_main_failure: correlatedMainFailure(correlated),
     findings: findings.map(({ file, status, consecutiveFailures }) => ({ lane: file, status, consecutiveFailures }))
   })
 );

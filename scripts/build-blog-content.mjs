@@ -76,7 +76,9 @@ const ALLOWED_KEYS = new Set([
 ]);
 const REQUIRED_KEYS = ["title", "description", "summary", "date"];
 const ALLOWED_STATUS = new Set(["published", "draft"]);
-const DEFAULT_AUTHOR = "TourTicketCompare editorial team";
+// The site's named author. A post may override this in its front matter; the
+// renderer only resolves the byline to the Person node when the name matches.
+const DEFAULT_AUTHOR = "Ollie Taylor";
 
 // Route shapes a post body may link to, as complete patterns rather than
 // prefixes. A prefix test accepts /artists/harry-styles/bogus and

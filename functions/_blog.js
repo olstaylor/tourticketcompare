@@ -69,7 +69,7 @@ function normalizePost(raw) {
     datePublished,
     dateModified,
     status: text(raw.status) || "published",
-    author: text(raw.author) || "TourTicketCompare editorial team",
+    author: text(raw.author) || "Ollie Taylor",
     tags: slugList(raw.tags),
     relatedGuides: slugList(raw.relatedGuides),
     relatedArtists: slugList(raw.relatedArtists),

@@ -3470,5 +3470,58 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vp",
     "timezone": "Etc/GMT",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-dublin-17kzv0g626ngihj",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064F1E3D686DC",
+    "ticketmaster_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-08-04-2027/event/180064F1E3D686DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-08-04-2027/event/180064F1E3D686DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064F1E3D686DC",
+        "discovery_event_id": "17kZv0G626NgIhj",
+        "url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-08-04-2027/event/180064F1E3D686DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G626NgIhj",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

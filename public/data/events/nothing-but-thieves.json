@@ -1816,5 +1816,58 @@
     "ticketmaster_discovery_event_id": "177Zv0G65QU93Gl",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-nothing-but-thieves-2027-dublin-17kzv0g654xs6b3",
+    "artist_slug": "nothing-but-thieves",
+    "artist_name": "Nothing But Thieves",
+    "event_name": "Nothing But Thieves - The Stray Dogs World Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-02-02T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064B57EC47E92",
+    "ticketmaster_url": "https://www.ticketmaster.ie/nothing-but-thieves-the-stray-dogs-dublin-02-02-2027/event/180064B57EC47E92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/nothing-but-thieves-the-stray-dogs-dublin-02-02-2027/event/180064B57EC47E92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064B57EC47E92",
+        "discovery_event_id": "17kZv0G654Xs6B3",
+        "url": "https://www.ticketmaster.ie/nothing-but-thieves-the-stray-dogs-dublin-02-02-2027/event/180064B57EC47E92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G654Xs6B3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

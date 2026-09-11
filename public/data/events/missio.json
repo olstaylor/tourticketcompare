@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIv4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-phoenix-the-rebel-lounge-10-29-2026/production/7438483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv4",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7438483,
+        "url": "https://www.vividseats.com/missio-tickets-phoenix-the-rebel-lounge-10-29-2026/production/7438483",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -73,7 +73,7 @@
     "ticketmaster_event_id": "0A00650B8F9579D4",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-san-diego-voodoo-room-at-the-house-of-blues-san-diego-10-30-2026/production/7424701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
     "last_verified_at": null,
@@ -95,11 +95,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7424701,
+        "url": "https://www.vividseats.com/missio-tickets-san-diego-voodoo-room-at-the-house-of-blues-san-diego-10-30-2026/production/7424701",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -134,7 +134,7 @@
     "ticketmaster_event_id": "0900650B02842801",
     "ticketmaster_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
     "last_verified_at": null,
@@ -156,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425741,
+        "url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -195,7 +195,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvp",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-salt-lake-city-the-urban-lounge---ut-11-10-2026/production/7425216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvp",
     "last_verified_at": null,
@@ -217,11 +217,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425216,
+        "url": "https://www.vividseats.com/missio-tickets-salt-lake-city-the-urban-lounge---ut-11-10-2026/production/7425216",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -248,7 +248,7 @@
     "ticketmaster_event_id": "1E00650AE1043A95",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-denver-marquis-theater---co-11-11-2026/production/7424526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
     "last_verified_at": null,
@@ -270,11 +270,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7424526,
+        "url": "https://www.vividseats.com/missio-tickets-denver-marquis-theater---co-11-11-2026/production/7424526",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -651,7 +651,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-spokane-the-district-bar---wa-12-13-2026--concerts-dance-electronica/production/7425935",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
     "last_verified_at": null,
@@ -673,11 +673,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425935,
+        "url": "https://www.vividseats.com/missio-tickets-spokane-the-district-bar---wa-12-13-2026--concerts-dance-electronica/production/7425935",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -712,7 +712,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvf",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvf",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-boise-knitting-factory-concert-house-boise-12-15-2026--concerts-dance-electronica/production/7425939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvf",
     "last_verified_at": null,
@@ -734,11 +734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425939,
+        "url": "https://www.vividseats.com/missio-tickets-boise-knitting-factory-concert-house-boise-12-15-2026--concerts-dance-electronica/production/7425939",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -773,7 +773,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvb",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-chicago-beat-kitchen-1-13-2027/production/7425065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvb",
     "last_verified_at": null,
@@ -795,11 +795,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425065,
+        "url": "https://www.vividseats.com/missio-tickets-chicago-beat-kitchen-1-13-2027/production/7425065",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -895,7 +895,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-minneapolis-fine-line-1-15-2027/production/7425043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
     "last_verified_at": null,
@@ -917,11 +917,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425043,
+        "url": "https://www.vividseats.com/missio-tickets-minneapolis-fine-line-1-15-2027/production/7425043",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1078,7 +1078,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIv-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-washington-dc-union-stage-2-11-2027/production/7425057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
     "last_verified_at": null,
@@ -1100,11 +1100,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425057,
+        "url": "https://www.vividseats.com/missio-tickets-washington-dc-union-stage-2-11-2027/production/7425057",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1200,7 +1200,7 @@
     "ticketmaster_event_id": "0200650A90496D32",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-philadelphia-the-foundry-philadelphia-2-13-2027/production/7424474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
     "last_verified_at": null,
@@ -1222,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7424474,
+        "url": "https://www.vividseats.com/missio-tickets-philadelphia-the-foundry-philadelphia-2-13-2027/production/7424474",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1322,7 +1322,7 @@
     "ticketmaster_event_id": "0E00650BBAA6C51D",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-atlanta-georgia-03-11-2027/event/0E00650BBAA6C51D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-atlanta-the-loft-at-center-stage-3-11-2027/production/7424852",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-atlanta-georgia-03-11-2027/event/0E00650BBAA6C51D",
     "last_verified_at": null,
@@ -1344,11 +1344,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7424852,
+        "url": "https://www.vividseats.com/missio-tickets-atlanta-the-loft-at-center-stage-3-11-2027/production/7424852",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1436,7 +1436,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-nashville-the-end-3-14-2027/production/7425220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
     "last_verified_at": null,
@@ -1458,11 +1458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425220,
+        "url": "https://www.vividseats.com/missio-tickets-nashville-the-end-3-14-2027/production/7425220",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1497,7 +1497,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvE",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-dallas-puzzles-deep-ellum-4-8-2027/production/7425236",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvE",
     "last_verified_at": null,
@@ -1519,11 +1519,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425236,
+        "url": "https://www.vividseats.com/missio-tickets-dallas-puzzles-deep-ellum-4-8-2027/production/7425236",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1558,7 +1558,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-san-antonio-the-rock-box-4-9-2027/production/7425518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
     "last_verified_at": null,
@@ -1580,11 +1580,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425518,
+        "url": "https://www.vividseats.com/missio-tickets-san-antonio-the-rock-box-4-9-2027/production/7425518",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1619,7 +1619,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIvt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvt",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-austin-come-and-take-it-live-4-10-2027/production/7425234",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvt",
     "last_verified_at": null,
@@ -1641,11 +1641,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425234,
+        "url": "https://www.vividseats.com/missio-tickets-austin-come-and-take-it-live-4-10-2027/production/7425234",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

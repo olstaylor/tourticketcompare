@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1C00643406483639",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-sacramento-california-09-12-2026/event/1C00643406483639",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-sacramento-golden-1-center-9-12-2026--theater-opera/production/6594316",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-sacramento-california-09-12-2026/event/1C00643406483639",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594316,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-sacramento-golden-1-center-9-12-2026--theater-opera/production/6594316",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -134,7 +134,7 @@
     "ticketmaster_event_id": "0B00643AAF963918",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-california-09-15-2026/event/0B00643AAF963918",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-los-angeles-hollywood-bowl-9-15-2026--theater-opera/production/6594328",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-california-09-15-2026/event/0B00643AAF963918",
     "last_verified_at": null,
@@ -156,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594328,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-los-angeles-hollywood-bowl-9-15-2026--theater-opera/production/6594328",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -203,7 +203,7 @@
     "ticketmaster_event_id": "0B00643CD21961B4",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-california-09-16-2026/event/0B00643CD21961B4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-los-angeles-hollywood-bowl-9-16-2026--theater-opera/production/6594332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-california-09-16-2026/event/0B00643CD21961B4",
     "last_verified_at": null,
@@ -225,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594332,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-los-angeles-hollywood-bowl-9-16-2026--theater-opera/production/6594332",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -272,7 +272,7 @@
     "ticketmaster_event_id": "1900643687CA4B53",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-phoenix-arizona-09-18-2026/event/1900643687CA4B53",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-phoenix-mortgage-matchup-center-9-18-2026--theater-opera/production/6594338",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-phoenix-arizona-09-18-2026/event/1900643687CA4B53",
     "last_verified_at": null,
@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594338,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-phoenix-mortgage-matchup-center-9-18-2026--theater-opera/production/6594338",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -341,7 +341,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-ZQ4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-ZQ4",
     "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-20-8-pm/concert/18039204",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-morrison-red-rocks-amphitheatre-9-20-2026--theater-opera/production/6594206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-ZQ4",
     "last_verified_at": null,
@@ -363,11 +363,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594206,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-morrison-red-rocks-amphitheatre-9-20-2026--theater-opera/production/6594206",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -410,7 +410,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Oy3p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oy3p",
     "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-21-8-pm/concert/18039206",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-morrison-red-rocks-amphitheatre-9-21-2026--theater-opera/production/6594209",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oy3p",
     "last_verified_at": null,
@@ -432,11 +432,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594209,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-morrison-red-rocks-amphitheatre-9-21-2026--theater-opera/production/6594209",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -479,7 +479,7 @@
     "ticketmaster_event_id": "0100643007C2EBA1",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-boston-massachusetts-12-10-2026/event/0100643007C2EBA1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-boston-td-garden-12-10-2026--theater-opera/production/6594344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-boston-massachusetts-12-10-2026/event/0100643007C2EBA1",
     "last_verified_at": null,
@@ -501,11 +501,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594344,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-boston-td-garden-12-10-2026--theater-opera/production/6594344",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -548,7 +548,7 @@
     "ticketmaster_event_id": "00006437FCF7EAC6",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-buffalo-new-york-12-11-2026/event/00006437FCF7EAC6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-buffalo-keybank-center-12-11-2026--theater-opera/production/6594348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-buffalo-new-york-12-11-2026/event/00006437FCF7EAC6",
     "last_verified_at": null,
@@ -570,11 +570,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594348,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-buffalo-keybank-center-12-11-2026--theater-opera/production/6594348",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -678,7 +678,7 @@
     "ticketmaster_event_id": "3B00643BDECD9556",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-16-2026/event/3B00643BDECD9556",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-16-2026--theater-opera/production/6594354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-16-2026/event/3B00643BDECD9556",
     "last_verified_at": null,
@@ -700,11 +700,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594354,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-16-2026--theater-opera/production/6594354",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -747,7 +747,7 @@
     "ticketmaster_event_id": "3B00643BDED7955D",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-17-2026/event/3B00643BDED7955D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-17-2026/production/6594488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-17-2026/event/3B00643BDED7955D",
     "last_verified_at": null,
@@ -769,11 +769,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594488,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-17-2026/production/6594488",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -816,7 +816,7 @@
     "ticketmaster_event_id": "10006434AB92D4B7",
     "ticketmaster_url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-hamilton-ontario-12-19-2026/event/10006434AB92D4B7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hamilton-td-coliseum-12-19-2026--theater-opera/production/6594386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-hamilton-ontario-12-19-2026/event/10006434AB92D4B7",
     "last_verified_at": null,
@@ -838,11 +838,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594386,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-hamilton-td-coliseum-12-19-2026--theater-opera/production/6594386",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -869,7 +869,7 @@
     "ticketmaster_event_id": "16006434C643809E",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-pittsburgh-pennsylvania-12-21-2026/event/16006434C643809E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-pittsburgh-ppg-paints-arena-12-21-2026--theater-opera/production/6594362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-pittsburgh-pennsylvania-12-21-2026/event/16006434C643809E",
     "last_verified_at": null,
@@ -891,11 +891,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594362,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-pittsburgh-ppg-paints-arena-12-21-2026--theater-opera/production/6594362",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -938,7 +938,7 @@
     "ticketmaster_event_id": "30006439F2D5709C",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-philadelphia-pennsylvania-12-22-2026/event/30006439F2D5709C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-philadelphia-xfinity-mobile-arena-12-22-2026--theater-opera/production/6594366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-philadelphia-pennsylvania-12-22-2026/event/30006439F2D5709C",
     "last_verified_at": null,
@@ -960,11 +960,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6594366,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-philadelphia-xfinity-mobile-arena-12-22-2026--theater-opera/production/6594366",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1007,7 +1007,7 @@
     "ticketmaster_event_id": "35006506A68E21A6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-ft-welsh-national-opera-cardiff-08-05-2027/event/35006506A68E21A6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-cardiff-principality-stadium---cardiff-5-8-2027/production/7422761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-ft-welsh-national-opera-cardiff-08-05-2027/event/35006506A68E21A6",
     "last_verified_at": null,
@@ -1029,11 +1029,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7422761,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-cardiff-principality-stadium---cardiff-5-8-2027/production/7422761",
+        "verified": true,
+        "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

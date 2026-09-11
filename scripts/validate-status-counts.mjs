@@ -179,15 +179,27 @@ const SCALAR_ASSERTIONS = [
   { keys: ["events.human_verified"], re: /(\d+) `human_verified`/ },
   { keys: ["events.machine_high_confidence"], re: /(\d+) `machine_high_confidence`/ },
   { keys: ["events.needs_recheck"], re: /(\d+) `needs_recheck`\. Verified event-level/ },
-  { keys: ["provenance.seatgeek", "events.seatgeek_url_rows"], re: /SeatGeek (\d+) \((\d+) rows carry a stored `seatgeek_url`\)/ },
-  { keys: ["provenance.vividseats"], re: /Vivid Seats (\d+), TicketNetwork/ },
-  { keys: ["provenance.ticketnetwork"], re: /TicketNetwork (\d+), Ticket Liquidator/ },
-  { keys: ["provenance.ticketliquidator"], re: /Ticket Liquidator (\d+), StubHub International/ },
-  { keys: ["provenance.stubhub_international"], re: /StubHub International (\d+)\. Of the/ },
+  // One provider per line, blank-line separated, each anchored to its own line
+  // start. Provider sync lanes run nightly on overlapping schedules; while
+  // these figures shared a line, any two lanes that opened a PR the same night
+  // collided on it and neither could auto-merge. The blank lines matter: git
+  // merges two edits as separate hunks only when an unchanged line sits
+  // between them, so adjacent provider bullets conflict just as a shared line
+  // did. The trailing no-resale figure is cross-provider and every lane
+  // rewrites it, so two same-night lanes still conflict there; that one is a
+  // genuine disagreement in value, not a layout problem.
   {
-    keys: ["events.needs_recheck", "recheck.seatgeek_cta", "recheck.vividseats_cta", "recheck.no_resale"],
-    re: /Of the (\d+) `needs_recheck` rows: (\d+) retain a standalone SeatGeek CTA, (\d+) retain a standalone Vivid Seats CTA, and (\d+) have no independently/,
+    keys: ["provenance.seatgeek", "events.seatgeek_url_rows", "recheck.seatgeek_cta"],
+    re: /^ {2}- SeatGeek (\d+) \((\d+) rows carry a stored `seatgeek_url`\); (\d+) `needs_recheck` rows retain a standalone SeatGeek CTA\./m,
   },
+  {
+    keys: ["provenance.vividseats", "recheck.vividseats_cta"],
+    re: /^ {2}- Vivid Seats (\d+); (\d+) `needs_recheck` rows retain a standalone Vivid Seats CTA\./m,
+  },
+  { keys: ["provenance.ticketnetwork"], re: /^ {2}- TicketNetwork (\d+)\./m },
+  { keys: ["provenance.ticketliquidator"], re: /^ {2}- Ticket Liquidator (\d+)\./m },
+  { keys: ["provenance.stubhub_international"], re: /^ {2}- StubHub International (\d+)\./m },
+  { keys: ["recheck.no_resale"], re: /^ {2}- Across all lanes, (\d+) `needs_recheck` rows have no independently/m },
   {
     keys: ["artists.total", "artists.indexable", "artists.shells"],
     re: /\*\*(\d+) records — (\d+) `indexable_with_substantial_content` \+ (\d+) `review_required` shells/,

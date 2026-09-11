@@ -1,0 +1,83 @@
+name: Automation health
+
+# Outside observer for the scheduled write lanes. Three things no lane can see
+# about itself: a run that failed (nothing in the repository reported it — the
+# lanes write their rolling issues only on success), a scheduled tick GitHub
+# never delivered (docs/OPERATIONS.md -> Price snapshot cadence records a lane
+# going 7h37m unscheduled while still showing green from its last run), and a
+# lane still being invoked but no longer reaching a verdict, which is what a job
+# breaching its `timeout-minutes` cap looks like.
+#
+# Read-only by construction. The token below can read the Actions API and write
+# issues, and nothing else; the script uses that to maintain exactly one rolling
+# `automation:health` issue, closing it again once every finding clears.
+#
+# What it therefore CANNOT do, enforced by the permission block rather than by
+# convention:
+#   - write repository content, commit, push, or open a branch (`contents: read`)
+#   - merge, approve, or change any pull request (no `pull-requests` scope)
+#   - rerun, cancel, or dispatch any workflow (`actions: read`, not write)
+#   - remediate anything: the script issues no repair, no retry, and no
+#     `workflow_dispatch` of a fix job
+#
+# `issues: write` is the narrowest scope GitHub offers for maintaining an issue;
+# it is not restricted to one issue at the token level, so the script is what
+# keeps the write to a single title+label pair, and its self-test asserts the
+# whole payload is one title, one body, one label and one state.
+
+on:
+  # The six daily data lanes, so a failure that costs an ingestion window
+  # surfaces in minutes rather than at the next poll. The three hourly price
+  # lanes are deliberately absent: subscribing to them would fire this sensor
+  # another seventy-odd times a day for a symptom `price-freshness-check.yml`
+  # already probes from outside. The list must stay in step with the
+  # `eventDriven` lanes in scripts/check-automation-health.mjs, which its
+  # self-test asserts.
+  workflow_run:
+    workflows:
+      - Daily data audit
+      - Nightly data sync
+      - Ticketmaster new shows PR
+      - SeatGeek CTA sync
+      - Vivid Seats CTA sync
+      - Impact marketplace provider sync
+    types: [completed]
+  # The poll is what catches a lane that has stopped being invoked at all, which
+  # by definition fires no workflow_run event. Four times a day is enough for a
+  # 6h staleness threshold and costs nine API reads per run.
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: automation-health
+  cancel-in-progress: true
+
+permissions:
+  actions: read
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # No `npm ci`: the sensor uses only Node builtins and fetch. Installing
+      # dependencies here would cost more minutes than the check itself.
+      - name: Self-test
+        run: node scripts/check-automation-health.mjs --self-test
+
+      - name: Report scheduled lane health
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/check-automation-health.mjs

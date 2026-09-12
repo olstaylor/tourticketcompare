@@ -18,6 +18,12 @@ on:
         type: string
         default: ''
 
+# Proposal-only: check out, query the provider APIs, upload a review artifact.
+# Nothing here writes to the repository, so the token stays read-only — the same
+# declaration artist-onboarding-proposal.yml carries.
+permissions:
+  contents: read
+
 jobs:
   proposal:
     runs-on: ubuntu-latest

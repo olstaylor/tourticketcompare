@@ -45,6 +45,7 @@ const HEAD_RETRY_STATUSES = new Set([404, 405, 410, 501, ...BLOCKED_STATUSES]);
 // latency, currently 961 / 3 x 0.51s, about 2.7 minutes.
 const PER_HOST_CONCURRENCY = Math.max(1, Number.parseInt(process.env.LINK_CHECK_PER_HOST_CONCURRENCY || '3', 10));
 const GLOBAL_CONCURRENCY = Math.max(1, Number.parseInt(process.env.LINK_CHECK_CONCURRENCY || '24', 10));
+const INCLUDE_EXPIRED = process.env.LINK_CHECK_INCLUDE_EXPIRED === '1';
 
 export function hostKeyFor(value) {
   try {
@@ -199,6 +200,35 @@ function reviewScopeForEventIds(eventIds, eventIndex, now = Date.now()) {
   return sawValidPastDate && !sawUnknownDate ? "expired" : "unknown";
 }
 
+/**
+ * Split the link set into what is worth checking tonight and what is not.
+ *
+ * A URL referenced only by events that have already happened produces findings
+ * the audit itself marks `actionable: false` and files under "historical" — the
+ * report tells nobody to act on them, and nobody does. Today that is 570 of
+ * 4,790 unique URLs, and the share only grows as the archive does, so it is
+ * ~12% of the nightly request budget spent on nothing. Expired-only URLs are
+ * skipped by default, and counted so the skip is visible rather than silent.
+ *
+ * Anything else stays in: a URL is dropped only when every referencing event
+ * has a valid past date. One unknown or one upcoming date keeps it, which is
+ * the same fail-open rule `reviewScopeForEventIds` already applies.
+ *
+ * `LINK_CHECK_INCLUDE_EXPIRED=1` restores the full sweep for an archive audit.
+ *
+ * Pure, so the self-test can pin the boundary without the network.
+ */
+export function partitionByReviewScope(links, eventIndex, { now = Date.now(), includeExpired = false } = {}) {
+  if (includeExpired) return { checked: links, skipped: [] };
+  const checked = [];
+  const skipped = [];
+  for (const item of links) {
+    const eventIds = [...new Set(item.refs.map((ref) => ref.split(':')[0]))];
+    (reviewScopeForEventIds(eventIds, eventIndex, now) === 'expired' ? skipped : checked).push(item);
+  }
+  return { checked, skipped };
+}
+
 function collectLinks(events) {
   const found = new Map();
   for (const event of events) {
@@ -324,6 +354,51 @@ if (args.has('--self-test')) {
   assert.equal(reviewScopeForEventIds(['past-a', 'unknown'], events, now), 'unknown');
   assert.equal(reviewScopeForEventIds(['missing'], events, now), 'unknown');
 
+  // --- skipping the archive --------------------------------------------------
+  //
+  // A URL referenced only by past events is dropped before the network, because
+  // its failures are the ones the report already files as non-actionable
+  // history. Everything else is kept, and the fail-open cases are kept
+  // deliberately: one unknown date, or one upcoming event, and the URL stays in.
+  const link = (url, ids) => ({ url, refs: ids.map((id) => `${id}:ticketmaster_url`) });
+  const scoped = partitionByReviewScope(
+    [
+      link('https://example.invalid/past', ['past-a', 'past-b']),
+      link('https://example.invalid/mixed', ['past-a', 'future']),
+      link('https://example.invalid/future', ['future']),
+      link('https://example.invalid/unknown-date', ['past-a', 'unknown']),
+      link('https://example.invalid/missing-event', ['missing']),
+      link('https://example.invalid/today', ['today-date-only'])
+    ],
+    events,
+    { now }
+  );
+  assert.deepEqual(scoped.skipped.map((item) => item.url), ['https://example.invalid/past']);
+  assert.deepEqual(
+    scoped.checked.map((item) => item.url),
+    [
+      'https://example.invalid/mixed',
+      'https://example.invalid/future',
+      'https://example.invalid/unknown-date',
+      'https://example.invalid/missing-event',
+      'https://example.invalid/today'
+    ]
+  );
+
+  // The opt-out is what makes an archive sweep still possible, so it must skip
+  // nothing at all rather than merely widen the window.
+  const fullSweep = partitionByReviewScope(
+    [link('https://example.invalid/past', ['past-a'])],
+    events,
+    { now, includeExpired: true }
+  );
+  assert.equal(fullSweep.skipped.length, 0);
+  assert.equal(fullSweep.checked.length, 1);
+
+  // An empty input must not report a skip, or the "all links are historical"
+  // message would fire on a dataset that simply has no links.
+  assert.deepEqual(partitionByReviewScope([], events, { now }), { checked: [], skipped: [] });
+
   // --- scheduling ------------------------------------------------------------
   //
   // The step died at its timeout because this was a serial loop. These pin the
@@ -443,7 +518,7 @@ if (isEntryPoint) await main();
 async function main() {
 const raw = await fs.readFile(EVENTS_PATH, 'utf8');
 const events = JSON.parse(raw);
-const links = collectLinks(events);
+const collected = collectLinks(events);
 
 const eventIndex = new Map();
 for (const event of events) {
@@ -451,10 +526,27 @@ for (const event of events) {
   if (id) eventIndex.set(id, event);
 }
 
+// Drop URLs referenced only by past events before spending a request on them.
+// The audit already classes their failures as non-actionable history, so this
+// removes work rather than coverage. See partitionByReviewScope.
+const { checked: links, skipped: skippedExpired } = partitionByReviewScope(collected, eventIndex, {
+  includeExpired: INCLUDE_EXPIRED
+});
+if (skippedExpired.length) {
+  console.log(
+    `Skipping ${skippedExpired.length} of ${collected.length} URLs referenced only by past events ` +
+      `(set LINK_CHECK_INCLUDE_EXPIRED=1 to sweep the archive too).`
+  );
+}
+
 if (!links.length) {
-  console.log('No outbound links found in events dataset.');
+  console.log(
+    skippedExpired.length
+      ? `No outbound links to check: all ${skippedExpired.length} are referenced only by past events.`
+      : 'No outbound links found in events dataset.'
+  );
   if (emitJson) {
-    const summary = { checked: 0, failures: [], expired_failures: [], blocked: [], passes: [], redirects: [], provider_summary: {} };
+    const summary = { checked: 0, failures: [], expired_failures: [], blocked: [], passes: [], redirects: [], provider_summary: {}, skipped_expired: skippedExpired.length };
     if (jsonOutPath) await fs.writeFile(jsonOutPath, JSON.stringify(summary, null, 2));
     else console.log(JSON.stringify(summary, null, 2));
   }
@@ -562,12 +654,15 @@ const providerSummary = summarizeProviders([
   ...blockedEntries
 ]);
 
-console.log(`\nSummary: ${links.length} checked, ${failures} current failures, ${expiredFailures} historical failures, ${blocked} blocked (anti-bot), ${redirects} redirects.`);
+console.log(`\nSummary: ${links.length} checked, ${skippedExpired.length} skipped (past events only), ${failures} current failures, ${expiredFailures} historical failures, ${blocked} blocked (anti-bot), ${redirects} redirects.`);
 
 if (emitJson) {
   const summary = {
     checked_at: new Date().toISOString(),
     checked: links.length,
+    // Non-zero once past-event URLs stop being checked; `expired_failures` is
+    // then empty by construction rather than by luck.
+    skipped_expired: skippedExpired.length,
     failures: failureEntries,
     expired_failures: expiredFailureEntries,
     blocked: blockedEntries,

@@ -109,7 +109,13 @@ export const WATCHED_LANES = [
   // evidence.
   { file: "automation-health.yml", name: "Automation health", cadence: "every 6h (:17) + lane completions", maxAgeHours: 20, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   { file: "generated-freshness.yml", name: "Generated freshness", cadence: "daily 04:40 + push to main", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
-  { file: "pr-validation-head-guard.yml", name: "PR validation head guard", cadence: "every 15m (delivered every 2-5h) + PR events", maxAgeHours: 12, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
+  { file: "pr-validation-head-guard.yml", name: "PR validation head guard", cadence: "every 15m (delivered every 2-5h) + PR events", maxAgeHours: 12, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // The Stage 3 repair worker is not a sensor: it runs `test:mvp` against the
+  // tip of `main` before it will open anything, so a red check there fails it
+  // for exactly the reason it fails every writer. It therefore `sharesMainGate`
+  // and counts towards the correlated-failure call. Not `eventDriven`: it runs
+  // once a day and most runs end on NO SAFE WORK in seconds.
+  { file: "work-queue-repair.yml", name: "Work queue repair", cadence: "daily 04:50", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true }
 ];
 
 // A cancelled or skipped run is not a failure, but it is not proof of health

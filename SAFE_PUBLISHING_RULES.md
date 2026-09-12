@@ -73,7 +73,14 @@ time, a price the page already shows under the same gate. It does not extend
 group A. See Schema and SEO.
 
 **Not sanctioned:** `tm-data-refresh-pr.yml` is PR-only and human-merged by
-design — never a direct commit, never an auto-merge.
+design — never a direct commit, never an auto-merge. So is
+`work-queue-repair.yml`, the maintenance loop's Stage 3 worker: it may push one
+branch and open one pull request regenerating an artefact already on the
+machine-owned list in group B, and it stops there. It holds no merge call at
+all, so it is not a writer this index governs — the human who merges its pull
+request is. Widening it into an auto-merge path is Stage 4 in
+[BACKLOG.md](BACKLOG.md), which is unbuilt and needs owner approval and a row in
+group B before any of it lands.
 
 ---
 

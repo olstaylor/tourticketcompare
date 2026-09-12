@@ -1,0 +1,154 @@
+name: Work queue repair
+
+# Stage 3 of the maintenance loop: the bounded worker that consumes the work
+# queue Stage 2 materialises.
+#
+# One run, one item, one pull request:
+#
+#   take ONE supported `agent:ready` work-queue issue -> revalidate that the
+#   finding still holds -> perform the one bounded repair its type permits ->
+#   run the required validation -> open ONE pull request -> stop.
+#
+# v1 supports exactly one finding type, `generated_artifact_stale`, and its
+# repair is one command looked up in the fixed `GENERATED_ARTEFACTS` allowlist in
+# scripts/check-generated-freshness.mjs — the same list the sensor itself runs.
+# Nothing in an issue can name a command, a path or a repair; the worker only
+# ever compares the issue's copies of those against the trusted entry and stops
+# on a disagreement. See scripts/lib/work-queue-repair.mjs.
+#
+# **This workflow does not merge, and must not be changed to.** It opens a pull
+# request a human reviews; narrow auto-merge is Stage 4, a separate milestone
+# that is not built and is conditional on Stage 3 having a real track record
+# (BACKLOG.md -> Engineering track).
+#
+# Timing. `generated-freshness.yml` runs at 04:40 and materialises the queue
+# item; this runs ten minutes later so the item exists when the worker looks.
+# Most runs find nothing eligible and end in seconds on NO SAFE WORK.
+
+on:
+  schedule:
+    - cron: '50 4 * * *'
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: 'Only consider this work-queue issue number (optional)'
+        required: false
+        type: string
+      dry_run:
+        description: 'Decide and repair locally, write nothing'
+        type: boolean
+        default: false
+
+# One worker at a time. Two runs repairing the same item would race on the same
+# derived branch; `cancel-in-progress: false` because a run that is mid-repair
+# has a modified working tree and a pushed branch, and killing it there is worse
+# than making the next run wait.
+concurrency:
+  group: work-queue-repair
+  cancel-in-progress: false
+
+# The minimum the contract above needs, and nothing beyond it:
+#   contents: write        push ONE branch (never to `main` — no writer here
+#                          commits to the default branch)
+#   pull-requests: write   open ONE pull request. No merge call exists in the
+#                          worker at all, and its self-test asserts that.
+#   issues: write          one deduplicated outcome comment on the originating
+#                          work-queue issue. The worker never closes it.
+#   actions: write         dispatch Prelaunch Validation against the pushed
+#                          branch so `test-mvp` lands on the exact head a human
+#                          would merge. A pull request opened with the Actions
+#                          token raises no `pull_request` run of its own
+#                          (docs/OPERATIONS.md -> Known incidents), so without
+#                          this the reviewer would be looking at an unvalidated
+#                          head. The worker waits for that verdict before it
+#                          reports FIXED, so the outcome never claims success
+#                          for a head that came back red.
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    # The repair runs the artefact's own check twice, its generator, and the
+    # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
+    # verdict on the pushed head (capped at 25 minutes by the helper).
+    timeout-minutes: 50
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # The finding was proved against `main`, and the repair's pull request
+      # targets `main`. A dispatch from any other ref would branch the repair
+      # from that ref's tip, so the pull request would carry every commit on it
+      # that `main` does not have — and the bounded-diff check would not see
+      # them, because it reads the working tree, not the history. Refuse rather
+      # than publish that.
+      #
+      # A dry run is allowed from any ref: it writes nothing, and dispatching
+      # from a branch is how a change to this worker gets rehearsed.
+      - name: Refuse to publish a repair from a ref other than main
+        if: github.ref != 'refs/heads/main' && inputs.dry_run != true
+        env:
+          CURRENT_REF: ${{ github.ref }}
+        run: |
+          echo "::error::work-queue-repair publishes only from main; this run is on ${CURRENT_REF}. Re-dispatch from main, or tick dry_run to rehearse from this branch."
+          exit 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # The worker may run any generator on the allowlist, and the OG card
+      # builder rasterises through sharp, so the dependencies are genuinely
+      # needed rather than incidental.
+      - run: npm ci
+
+      # The eligibility contract, the diff boundary, the command allowlist and
+      # the terminal-outcome machine are all pure and proved here before the
+      # worker is allowed to look at a real issue.
+      - name: Self-test
+        run: |
+          node scripts/check-generated-freshness.mjs --self-test
+          node scripts/materialize-work-queue.mjs --self-test
+          node scripts/run-work-queue-repair.mjs --self-test
+
+      - name: Identify the runner as the automation bot
+        run: |
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+
+      # Dispatch inputs reach the worker through the environment and an argument
+      # array, never through string interpolation into a shell line: an input is
+      # a value, not a fragment of the command. The worker itself refuses an
+      # `--issue` that is not an integer.
+      - name: Repair one work item
+        id: repair
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          REQUESTED_ISSUE: ${{ inputs.issue }}
+          REQUESTED_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          args=()
+          if [ -n "${REQUESTED_ISSUE:-}" ]; then args+=(--issue "$REQUESTED_ISSUE"); fi
+          if [ "${REQUESTED_DRY_RUN:-false}" = "true" ]; then args+=(--dry-run); fi
+          node scripts/run-work-queue-repair.mjs ${args[@]+"${args[@]}"}
+
+      - name: Report
+        if: always()
+        env:
+          OUTCOME: ${{ steps.repair.outputs.outcome }}
+          ISSUE: ${{ steps.repair.outputs.issue }}
+          BRANCH: ${{ steps.repair.outputs.branch }}
+          PR_URL: ${{ steps.repair.outputs.pr_url }}
+        run: |
+          echo "outcome:      ${OUTCOME:-none}"
+          echo "issue:        ${ISSUE:-none}"
+          echo "branch:       ${BRANCH:-none}"
+          echo "pull request: ${PR_URL:-none} (never merged by this workflow)"

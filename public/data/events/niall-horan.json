@@ -3053,10 +3053,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7902927",
+        "url": "https://www.ticketnetwork.com/en/p/7902927",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avOZ_6roFJZd576",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902927"
   }
 ]

@@ -150,7 +150,7 @@
     "test:remediation-review": "node scripts/remediation-review-self-test.mjs"
   },
   "devDependencies": {
-    "sharp": "^0.35.0",
+    "sharp": "^0.35.4",
     "wrangler": "^4.106.0",
     "yaml": "2.9.0"
   },
@@ -158,6 +158,6 @@
     "esbuild": "0.28.1",
     "undici": "7.29.0",
     "ws": "8.21.0",
-    "sharp": "^0.35.0"
+    "sharp": "^0.35.4"
   }
 }

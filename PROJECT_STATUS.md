@@ -21,7 +21,7 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 
   - Ticket Liquidator 745.
 
-  - StubHub International 535.
+  - StubHub International 548.
 
   - Across all lanes, 53 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
 

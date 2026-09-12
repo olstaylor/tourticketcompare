@@ -1677,11 +1677,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107258449",
+        "url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-10-2-2027/event/107258449",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65R_Eq8g",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-10-2-2027/event/107258449"
   },
   {
     "id": "tm-bts-2027-docklands-17a8v0g659_gumr",
@@ -1783,11 +1791,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107258451",
+        "url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-13-2-2027/event/107258451",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65R_EW8M",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-13-2-2027/event/107258451"
   },
   {
     "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfkdo_",

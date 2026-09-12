@@ -3778,12 +3778,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245500",
+        "url": "https://www.ticketliquidator.com/tickets/8245500/Bruno-Mars-tickets-Sat-Feb-13-2027-Optus-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZkfbGkdn2VES",
     "timezone": "Australia/Perth",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245500"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245500",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245500/Bruno-Mars-tickets-Sat-Feb-13-2027-Optus-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu",

@@ -3525,11 +3525,19 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167532",
+        "url": "https://www.ticketliquidator.com/tickets/8167532/Teddy-Swims-tickets-Thu-Apr-8-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G626NgIhj",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167532"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167532",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167532/Teddy-Swims-tickets-Thu-Apr-8-2027-3Arena-Dublin"
   }
 ]

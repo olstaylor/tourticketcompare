@@ -3958,12 +3958,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018182",
+        "url": "https://www.ticketliquidator.com/tickets/8018182/Gracie-Abrams-tickets-Mon-Apr-19-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65nd0zYS",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018182"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018182",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018182/Gracie-Abrams-tickets-Mon-Apr-19-2027-3Arena-Dublin"
   },
   {
     "id": "tm-gracie-abrams-2027-dublin-17kzv0g65ndpfyh",
@@ -4019,11 +4027,19 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018183",
+        "url": "https://www.ticketliquidator.com/tickets/8018183/Gracie-Abrams-tickets-Tue-Apr-20-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65ndPFYH",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018183"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018183",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018183/Gracie-Abrams-tickets-Tue-Apr-20-2027-3Arena-Dublin"
   }
 ]

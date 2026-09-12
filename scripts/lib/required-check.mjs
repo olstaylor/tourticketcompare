@@ -43,8 +43,19 @@ export const DEFAULT_POLL_MS = 15000;
 export function classifyCheck(runs, { elapsedMs = 0, timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
   const completed = (runs || []).filter((run) => run?.status === "completed");
   if (completed.length > 0) {
-    // Newest completion wins: a re-dispatch supersedes an earlier verdict.
-    const latest = completed[completed.length - 1];
+    // Newest completion wins: a re-dispatch supersedes an earlier verdict, and
+    // a stale green must never outrank the red that followed it. GitHub does
+    // not return these in completion order — a commit re-validated on
+    // 2026-08-26 came back with the later failure first — so read the
+    // timestamps rather than trusting the array, and fall back to the API's
+    // own newest-first order when a run carries no timestamp.
+    const latest = completed.reduce((best, run) => {
+      const at = Date.parse(run.completed_at || run.started_at || "");
+      const bestAt = Date.parse(best.completed_at || best.started_at || "");
+      if (!Number.isFinite(at)) return best;
+      if (!Number.isFinite(bestAt)) return run;
+      return at > bestAt ? run : best;
+    }, completed[0]);
     if (latest.conclusion === "success") {
       return { state: "passed", detail: `${DEFAULT_CHECK_NAME} passed`, url: latest.html_url || "" };
     }

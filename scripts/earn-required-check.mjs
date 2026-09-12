@@ -26,14 +26,33 @@ if (process.argv.includes("--self-test")) {
   check("failure fails", classifyCheck([{ status: "completed", conclusion: "failure" }]).state, "failed");
   check("cancelled fails", classifyCheck([{ status: "completed", conclusion: "cancelled" }]).state, "failed");
   // A red verdict must never be rescued by an older green one, and a green
-  // re-dispatch must supersede an older red one. Newest completion wins.
+  // re-dispatch must supersede an older red one. Newest completion wins, read
+  // from the timestamps: GitHub returns these newest-started first, so the
+  // later verdict is not the last element.
   check(
-    "newest completion wins",
+    "the later failure beats the earlier success",
+    classifyCheck([
+      { status: "completed", conclusion: "failure", completed_at: "2026-08-26T15:57:05Z" },
+      { status: "completed", conclusion: "success", completed_at: "2026-08-26T15:56:59Z" },
+    ]).state,
+    "failed"
+  );
+  check(
+    "the later success beats the earlier failure",
+    classifyCheck([
+      { status: "completed", conclusion: "success", completed_at: "2026-08-26T16:10:00Z" },
+      { status: "completed", conclusion: "failure", completed_at: "2026-08-26T15:57:05Z" },
+    ]).state,
+    "passed"
+  );
+  // With no timestamps at all, keep the API's newest-first order.
+  check(
+    "untimed runs fall back to the first entry",
     classifyCheck([
       { status: "completed", conclusion: "failure" },
       { status: "completed", conclusion: "success" },
     ]).state,
-    "passed"
+    "failed"
   );
   check("timed out while running", classifyCheck([{ status: "in_progress" }], { elapsedMs: 10, timeoutMs: 5 }).state, "timeout");
   check("timed out never started", classifyCheck([], { elapsedMs: 10, timeoutMs: 5 }).state, "timeout");
@@ -169,7 +188,9 @@ async function request(method, path, payload) {
 }
 
 if (!sha) {
-  const ref = await request("GET", `/repos/${repo}/git/ref/heads/${encodeURIComponent(branch)}`);
+  // The slashes in an automation branch name are path separators here, so
+  // the ref is not URL-encoded.
+  const ref = await request("GET", `/repos/${repo}/git/ref/heads/${branch}`);
   sha = ref?.object?.sha || "";
 }
 if (!sha) {

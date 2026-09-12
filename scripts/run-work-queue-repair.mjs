@@ -33,6 +33,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 import { GENERATED_ARTEFACTS } from "./check-generated-freshness.mjs";
+import { DEFAULT_POLL_MS, DEFAULT_TIMEOUT_MS, earnRequiredCheck } from "./lib/required-check.mjs";
 import {
   ALLOWED_RISKS,
   FAILING_OUTCOMES,
@@ -100,11 +101,22 @@ const changedPathsUnder = (paths) =>
 
 const workingTreeDirty = () => git(["status", "--porcelain", "--untracked-files=all"]).stdout.trim();
 
-// Scoped to the artefacts the entry declares, so it can never touch anything the
-// allowlist did not name. `git clean` picks up files a generator adds.
-function restore(paths) {
-  git(["checkout", "--", ...paths]);
-  git(["clean", "-fdq", "--", ...paths]);
+// Undo everything this run produced.
+//
+// Deliberately the whole tree rather than the declared artefacts. The worker
+// refuses to start unless the tree is clean, so anything modified or added
+// after that point was written by this run and is ours to undo — and a
+// terminal failure is exactly the case where a generator may have written
+// somewhere it never declared. Restoring only the declared paths would leave
+// those behind, which is harmless on a throwaway runner but not for
+// `npm run queue:repair:dry-run`, which is advertised for local use and must
+// leave no source or protected file modified.
+//
+// No `-x`: ignored paths (node_modules, gitignored reports) are not this
+// worker's to delete, and the clean-tree precondition never counted them.
+function restoreWorkspace() {
+  git(["checkout", "--", "."]);
+  git(["clean", "-fdq"]);
 }
 
 // ─── Reporting ──────────────────────────────────────────────────────────────
@@ -421,6 +433,17 @@ if (SELF_TEST) {
   // unbuilt milestone, and this worker must not be the thing that quietly
   // becomes it. The needles are assembled rather than written literally so this
   // assertion cannot match its own text.
+  // A terminal failure must leave nothing behind. Restoring only the declared
+  // artefacts would let a generator that wrote outside them leave source or
+  // protected files modified — harmless on a throwaway runner, not harmless for
+  // the advertised local `queue:repair:dry-run`.
+  assert.ok(/function restoreWorkspace\(\)/.test(source), "terminal failures must restore the whole tree");
+  assert.equal(/restore\(plan\.expectedPaths\)/.test(source), false, "a scoped restore leaves undeclared changes behind");
+  // FIXED must mean the pushed head is green, so the exact-head verdict is
+  // earned inside the worker rather than by a later workflow step that could
+  // only fail after the outcome had already been reported.
+  assert.ok(/await earnRequiredCheck\(/.test(source), "the worker must earn the required check before it reports");
+
   const mergeCall = ["/", "merge"].join("");
   const autoMergeField = ["auto", "merge"].join("_");
   assert.equal(source.includes(mergeCall), false, "Stage 3 must contain no merge call");
@@ -465,8 +488,11 @@ async function main() {
     process.exit(2);
   }
 
-  const github = async (method, apiPath, body) => {
-    const response = await fetch(`https://api.github.com/repos/${repo}${apiPath}`, {
+  // Two wrappers over one call. `request` takes an absolute API path because
+  // that is what the shared required-check helper expects; `github` is the
+  // repository-scoped form everything else here uses.
+  const request = async (method, apiPath, body) => {
+    const response = await fetch(`https://api.github.com${apiPath}`, {
       method,
       headers: {
         Accept: "application/vnd.github+json",
@@ -480,6 +506,7 @@ async function main() {
     if (!response.ok) throw new Error(`GitHub API ${method} ${apiPath} ${response.status}: ${await response.text()}`);
     return response.status === 204 ? null : response.json();
   };
+  const github = (method, apiPath, body) => request(method, `/repos/${repo}${apiPath}`, body);
 
   // ── select ────────────────────────────────────────────────────────────────
   // Both labels are required by the API call itself, so an item that is not
@@ -565,7 +592,7 @@ async function main() {
     // observation is in and publishing continues below. Everything else is
     // terminal, and the tree is restored before the run reports it.
     if (verdict.outcome === "pending" || verdict.outcome === OUTCOMES.FIXED) return;
-    restore(plan.expectedPaths);
+    restoreWorkspace();
     await report(verdict.outcome, `${verdict.reason} (at: ${label}).`);
   };
 
@@ -632,7 +659,7 @@ async function main() {
   if (DRY_RUN) {
     say("");
     say("Dry run: nothing pushed, no pull request opened, no comment written. Restoring the working tree.");
-    restore(plan.expectedPaths);
+    restoreWorkspace();
     say(`Would have opened: ${title}`);
     finish({ outcome: OUTCOMES.FIXED, reason: "dry run — the repair validated cleanly and would have opened one pull request.", plan });
   }
@@ -671,9 +698,34 @@ async function main() {
   say(`Opened pull request #${pullRequest.number}: ${pullRequest.html_url}`);
   say("It is NOT merged and must not be auto-merged. A human reviews and merges it.");
 
+  // The exact-head gate, and the reason it lives here rather than in a later
+  // workflow step: a pull request opened with the Actions token raises no
+  // `pull_request` run, so without this the head a human would merge carries no
+  // verdict at all — and a step that ran *after* the outcome was reported would
+  // leave the issue and the job summary claiming FIXED for a head that had
+  // gone red. Earning it before the report is what makes the terminal outcome
+  // honest: FIXED means the pushed head is green.
+  const verdict = await earnRequiredCheck({
+    request,
+    repo,
+    branch: plan.branch,
+    sha: pullRequest.head.sha,
+    timeoutMs: Number(process.env.REQUIRED_CHECK_TIMEOUT_MS || DEFAULT_TIMEOUT_MS),
+    pollMs: Number(process.env.REQUIRED_CHECK_POLL_MS || DEFAULT_POLL_MS),
+    log: say
+  });
+  if (!verdict.ok) {
+    await report(
+      OUTCOMES.NEEDS_HUMAN,
+      `the repair validated in-job and is pushed to \`${plan.branch}\` as pull request #${pullRequest.number}, but Prelaunch Validation did not come back green on that exact head: ${verdict.detail}${verdict.url ? ` (${verdict.url})` : ""}. The pull request is open and must not be merged until that is resolved.`,
+      pullRequest
+    );
+  }
+  say(`Prelaunch Validation passed on ${pullRequest.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
+
   await report(
     OUTCOMES.FIXED,
-    `\`${plan.regenerate}\` cleared \`${plan.check}\`, every required validation passed on exactly this content, and one pull request is open for review.`,
+    `\`${plan.regenerate}\` cleared \`${plan.check}\`, every required validation passed on exactly this content, Prelaunch Validation passed on the pushed head, and one pull request is open for review.`,
     pullRequest
   );
 }

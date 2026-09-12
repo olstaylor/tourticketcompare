@@ -60,7 +60,9 @@ concurrency:
 #                          token raises no `pull_request` run of its own
 #                          (docs/OPERATIONS.md -> Known incidents), so without
 #                          this the reviewer would be looking at an unvalidated
-#                          head.
+#                          head. The worker waits for that verdict before it
+#                          reports FIXED, so the outcome never claims success
+#                          for a head that came back red.
 permissions:
   contents: write
   pull-requests: write
@@ -77,6 +79,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # The finding was proved against `main`, and the repair's pull request
+      # targets `main`. A dispatch from any other ref would branch the repair
+      # from that ref's tip, so the pull request would carry every commit on it
+      # that `main` does not have — and the bounded-diff check would not see
+      # them, because it reads the working tree, not the history. Refuse rather
+      # than publish that.
+      #
+      # A dry run is allowed from any ref: it writes nothing, and dispatching
+      # from a branch is how a change to this worker gets rehearsed.
+      - name: Refuse to publish a repair from a ref other than main
+        if: github.ref != 'refs/heads/main' && inputs.dry_run != true
+        env:
+          CURRENT_REF: ${{ github.ref }}
+        run: |
+          echo "::error::work-queue-repair publishes only from main; this run is on ${CURRENT_REF}. Re-dispatch from main, or tick dry_run to rehearse from this branch."
+          exit 1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -120,19 +139,6 @@ jobs:
           if [ -n "${REQUESTED_ISSUE:-}" ]; then args+=(--issue "$REQUESTED_ISSUE"); fi
           if [ "${REQUESTED_DRY_RUN:-false}" = "true" ]; then args+=(--dry-run); fi
           node scripts/run-work-queue-repair.mjs ${args[@]+"${args[@]}"}
-
-      # A pull request opened with the Actions token gets no `pull_request` run,
-      # so `test-mvp` would never appear on its head and a reviewer would have
-      # nothing to read. Dispatch the real validation workflow against the
-      # branch and wait for its verdict on that exact SHA. This earns evidence;
-      # it does not merge anything.
-      - name: Earn validation on the pushed head
-        if: steps.repair.outputs.outcome == 'FIXED' && steps.repair.outputs.branch != ''
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          BRANCH: ${{ steps.repair.outputs.branch }}
-        run: node scripts/earn-required-check.mjs --branch "$BRANCH"
 
       - name: Report
         if: always()

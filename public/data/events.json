@@ -87754,11 +87754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090607",
+        "url": "https://www.ticketnetwork.com/en/p/8090607",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65QFIK-s",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090607"
   },
   {
     "id": "tm-bruno-mars-2027-burswood-1apzkfbgkdn2ves",
@@ -87807,11 +87815,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245500",
+        "url": "https://www.ticketnetwork.com/en/p/8245500",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZkfbGkdn2VES",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245500"
   },
   {
     "id": "tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu",
@@ -88443,11 +88459,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018182",
+        "url": "https://www.ticketnetwork.com/en/p/8018182",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65nd0zYS",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018182"
   },
   {
     "id": "tm-gracie-abrams-2027-dublin-17kzv0g65ndpfyh",
@@ -88496,11 +88520,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018183",
+        "url": "https://www.ticketnetwork.com/en/p/8018183",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65ndPFYH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018183"
   },
   {
     "id": "tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed",
@@ -88602,11 +88634,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7902927",
+        "url": "https://www.ticketnetwork.com/en/p/7902927",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avOZ_6roFJZd576",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902927"
   },
   {
     "id": "tm-sombr-2027-co-dublin-1abzkf4gkd83jcw",
@@ -88761,11 +88801,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167532",
+        "url": "https://www.ticketnetwork.com/en/p/8167532",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G626NgIhj",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167532"
   },
   {
     "id": "tm-five-finger-death-punch-2027-dublin-1avoz_fgkbmo2st",
@@ -89291,11 +89339,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239058",
+        "url": "https://www.ticketnetwork.com/en/p/8239058",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_oJLFI-_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239058"
   },
   {
     "id": "tm-tobymac-2027-lexington-1apzkfbgker-a4j",
@@ -89344,11 +89400,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239059",
+        "url": "https://www.ticketnetwork.com/en/p/8239059",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfbGkeR-a4J",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239059"
   },
   {
     "id": "tm-tobymac-2027-huntsville-1aozkfbgkdezfqd",
@@ -89503,11 +89567,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239062",
+        "url": "https://www.ticketnetwork.com/en/p/8239062",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oE_5n5H",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239062"
   },
   {
     "id": "tm-tobymac-2027-sunrise-z7r9jz1aav8xe",
@@ -89556,11 +89628,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239108",
+        "url": "https://www.ticketnetwork.com/en/p/8239108",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8xe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239108"
   },
   {
     "id": "tm-tobymac-2027-orlando-1axzkf_gkdtkgpv",
@@ -89609,11 +89689,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239066",
+        "url": "https://www.ticketnetwork.com/en/p/8239066",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkf_GkdtKgPv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239066"
   },
   {
     "id": "tm-tobymac-2027-estero-vvg1vz_onusnh8",
@@ -89662,11 +89750,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239067",
+        "url": "https://www.ticketnetwork.com/en/p/8239067",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oNusnh8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239067"
   },
   {
     "id": "tm-tobymac-2027-pensacola-g5viz_o9zokbz",
@@ -89715,11 +89811,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239087",
+        "url": "https://www.ticketnetwork.com/en/p/8239087",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_o9ZOkbz",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239087"
   },
   {
     "id": "tm-tobymac-2027-sugar-land-z7r9jz1aav8op",
@@ -89821,11 +89925,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239110",
+        "url": "https://www.ticketnetwork.com/en/p/8239110",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Of",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239110"
   },
   {
     "id": "tm-tobymac-2027-columbus-vv1aazkfbgkdjr-4o",
@@ -89874,11 +89986,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239088",
+        "url": "https://www.ticketnetwork.com/en/p/8239088",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfbGkdjr-4o",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239088"
   },
   {
     "id": "tm-tobymac-2027-norfolk-z7r9jz1aav8r3",
@@ -89927,11 +90047,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239111",
+        "url": "https://www.ticketnetwork.com/en/p/8239111",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8r3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239111"
   },
   {
     "id": "tm-tobymac-2027-jacksonville-1axzkf_gkdts4j7",
@@ -89980,11 +90108,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239091",
+        "url": "https://www.ticketnetwork.com/en/p/8239091",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkf_Gkdts4J7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239091"
   },
   {
     "id": "tm-tobymac-2027-nashville-g5viz_oeqedtw",
@@ -90033,11 +90169,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239092",
+        "url": "https://www.ticketnetwork.com/en/p/8239092",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oEqedtw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239092"
   },
   {
     "id": "tm-tobymac-2027-duluth-vvg1zz_oxyi5ps",
@@ -90086,11 +90230,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239093",
+        "url": "https://www.ticketnetwork.com/en/p/8239093",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_oxYI5pS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239093"
   },
   {
     "id": "tm-tobymac-2027-knoxville-g5viz_oeoyvqw",
@@ -90139,11 +90291,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239094",
+        "url": "https://www.ticketnetwork.com/en/p/8239094",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oEoYvqW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239094"
   },
   {
     "id": "tm-tobymac-2027-toledo-vv1afzkf_gkeg66aj",
@@ -90192,11 +90352,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239097",
+        "url": "https://www.ticketnetwork.com/en/p/8239097",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkf_Gkeg66Aj",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239097"
   },
   {
     "id": "tm-tobymac-2027-fishers-vv1aazkf4gkdkqmmm",
@@ -90245,11 +90413,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239099",
+        "url": "https://www.ticketnetwork.com/en/p/8239099",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkf4GkdkqmMm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239099"
   },
   {
     "id": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",
@@ -90298,11 +90474,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239112",
+        "url": "https://www.ticketnetwork.com/en/p/8239112",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8-F",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239112"
   },
   {
     "id": "tm-tobymac-2027-grand-rapids-vv1afzkfbgkdx_n_v",
@@ -90351,11 +90535,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239100",
+        "url": "https://www.ticketnetwork.com/en/p/8239100",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfbGkdx_n_V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239100"
   },
   {
     "id": "tm-tobymac-2027-austin-g5diz_oelxrxd",
@@ -90404,11 +90596,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239102",
+        "url": "https://www.ticketnetwork.com/en/p/8239102",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_oELxrXd",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239102"
   },
   {
     "id": "tm-tobymac-2027-lubbock-z7r9jz1aav8o_",
@@ -90457,11 +90657,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239113",
+        "url": "https://www.ticketnetwork.com/en/p/8239113",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8O_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239113"
   },
   {
     "id": "tm-tobymac-2027-rockford-vv1a7zkfpgkdtiktq",
@@ -90510,11 +90718,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238872",
+        "url": "https://www.ticketnetwork.com/en/p/8238872",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfpGkdTIKtq",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238872"
   },
   {
     "id": "tm-tobymac-2027-saint-louis-vv1akzkf_gkdu8agp",

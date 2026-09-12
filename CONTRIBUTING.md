@@ -225,7 +225,18 @@ npm run providers:sync:tm:write-pr:self-test  # new-shows write-to-PR partitioni
 npm run test:tm-ingestion-outcomes            # per-candidate ingestion accounting: added / existing
                                               #   duplicate / withheld, totals, capped samples
                                               #   (in test:mvp)
+npm run queue:materialize:self-test           # work-queue classification, fingerprints and lifecycle
+                                              #   (in test:mvp)
+npm run queue:repair:self-test                # Stage 3 worker: eligibility contract, command and path
+                                              #   allowlists, bounded diff, terminal outcomes
+                                              #   (in test:mvp)
 ```
+
+The two queue self-tests are the guard on the maintenance loop's safety
+boundary: run both before changing `scripts/lib/work-queue.mjs`,
+`scripts/lib/work-queue-repair.mjs`, `scripts/check-generated-freshness.mjs` or
+either queue workflow. `npm run queue:repair:dry-run` decides and performs a
+repair locally and writes nothing — no branch, no pull request, no comment.
 
 ### Exact-event link coverage (before changing CTA gates or provider matchers)
 

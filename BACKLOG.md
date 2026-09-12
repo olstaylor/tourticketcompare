@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-09-11 (maintenance-loop stages 1 and 2 shipped; completed items moved out of the active list). Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
+Last updated: 2026-09-12 (maintenance-loop Stage 3 shipped — fact recorded by agent; stages 1 and 2 shipped 2026-09-11; completed items moved out of the active list). Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
 
 ## Active priorities (in order)
 
@@ -53,7 +53,7 @@ The other six of that batch — **karol-g, foo-fighters, metallica, my-chemical-
 
 ## Engineering track — the always-on maintenance loop
 
-Goal: grow from ~1,400 events to tens of thousands without human review scaling with the dataset. Staged smallest-first. **Stages 1 and 2 are shipped and live on `main`; Stage 3 is the next milestone and is not built.** Full mechanism lives in `docs/OPERATIONS.md`; this section is state and direction only.
+Goal: grow from ~1,400 events to tens of thousands without human review scaling with the dataset. Staged smallest-first. **Stages 1, 2 and 3 are shipped and live on `main`; Stage 4 is the next milestone and is not built** (fact updated 2026-09-12 by agent on shipping Stage 3 v1). Full mechanism lives in `docs/OPERATIONS.md`; this section is state and direction only.
 
 ### Stage 1 — reliability foundation (shipped 2026-09-11)
 
@@ -69,19 +69,23 @@ Goal: grow from ~1,400 events to tens of thousands without human review scaling 
 - Fingerprints, deduplication, lifecycle (including holding an issue open while a pull request still references it), and two storm caps all exist and are asserted (#943).
 - **Unsafe or ambiguous findings fail closed.** A red surface forces `risk:red` and strips `agent:ready`; an unknown finding type is not materialised at all; a link timeout or WAF response is never read as a dead URL.
 - **`generated_artifact_stale` is the first and only production `agent:ready` type** (#944): P1, `risk:amber`, and raised **only** once the sensor has deterministically proved in the same run that regenerating fixes the failing freshness check. A red check on its own is never a finding.
-- **No Stage 3 worker exists.** Nothing in the repository consumes an `agent:ready` issue.
+- **`work-queue-repair.yml` is the only consumer of an `agent:ready` issue** (fact updated 2026-09-12; nothing consumed the queue until Stage 3 shipped). Stage 2 itself still writes issues and nothing else — no branch, no commit, no pull request, no model call.
 
-### Stage 3 — bounded agent worker (next milestone, not built)
+### Stage 3 — bounded agent worker (v1 shipped 2026-09-12)
 
-Intended contract, one run:
+The contract, one run, unchanged from how it was scoped:
 
 > take ONE supported `agent:ready` issue → revalidate it still holds → perform the bounded repair → run its required validation → open ONE pull request → stop.
 
-Initially supports **`generated_artifact_stale` only**. Outcomes are explicit and terminal: FIXED (pull request opened), BLOCKED (names the missing evidence or dependency), NEEDS HUMAN (names the decision required), NO SAFE WORK (does nothing).
+`work-queue-repair.yml` (daily 04:50 + dispatch) does exactly that, and **supports `generated_artifact_stale` only**. Outcomes are explicit and terminal: FIXED (pull request opened), BLOCKED (names the missing evidence or dependency), NEEDS HUMAN (names the decision required), NO SAFE WORK (does nothing). Each is printed in the run log and posted once — deduplicated by fingerprint and outcome — to the originating issue, which the worker never closes.
 
-Stage 3 must **not**: merge, or enable auto-merge; touch anything labelled `risk:red`; handle finding types beyond those explicitly supported; broaden scope beyond the issue it took; invent or infer data; or modify protected commercial or provider surfaces (`functions/api/out.js`, affiliate logic, provider rights and allowlists, credentials, Cloudflare configuration, migrations, or records in `public/data/{events,artists,catalog}.json`).
+Stage 3 must **not**, and v1 does not: merge, or enable auto-merge; touch anything labelled `risk:red`; handle finding types beyond those explicitly supported; broaden scope beyond the issue it took; invent or infer data; or modify protected commercial or provider surfaces (`functions/api/out.js`, affiliate logic, provider rights and allowlists, credentials, Cloudflare configuration, migrations, or records in `public/data/{events,artists,catalog}.json`).
 
-This is a milestone, not a design. Scope it before building it.
+**Every pull request it opens needs a human review and a human merge.** That is the deliberate v1 boundary, not a temporary gap: the worker holds no merge call at all, and its self-test asserts that absence so the capability cannot arrive by accident.
+
+What makes the repair safe rather than merely bounded: the operation is looked up in the sensor's own fixed `GENERATED_ARTEFACTS` allowlist by artefact id, so no command, path or repair can enter through issue text; the issue's own copies of those strings are compared to the trusted entry and a disagreement stops the item; the whole working tree — not just the expected paths — is checked against the declared artefacts before anything is committed; and `npm run test:mvp` plus the artefact's own check must pass on exactly the proposed content first. Full mechanism: `docs/OPERATIONS.md` → Stage 3.
+
+**Still open after v1, in order:** a real run against a real finding (the queue has carried no `agent:ready` item since the worker shipped, so the loop is proved by its self-test and an offline end-to-end rehearsal, not yet by production); then a decision on whether a second finding type is worth supporting, which is a new scope, not an extension of this one.
 
 ### Stage 4 — narrow auto-merge (conditional, last)
 
@@ -93,6 +97,7 @@ Constraints at every stage: the worker may not weaken a validator or a lane to m
 
 Closed on GitHub; kept as a short audit trail only. Full detail lives in the linked PRs and git history.
 
+- Maintenance loop Stage 3 v1 — bounded repair worker for `generated_artifact_stale`, PR-only, human-merged (2026-09-12)
 - Maintenance loop Stage 2 — first `agent:ready` type, stale generated output (2026-09-11, PR #944)
 - Maintenance loop Stage 2 — work queue: classified discrete issues from sensor findings (2026-09-11, PR #943)
 - Maintenance loop Stage 1 — daily-audit outbound links moved to per-host concurrency (2026-09-11, PR #942)

@@ -1,0 +1,903 @@
+[
+  {
+    "id": "tm-yuridia-2027-seattle-vvg1hz_36ea3aq",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-02-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006521E725215D",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006521E725215D",
+        "discovery_event_id": "vvG1HZ_36Ea3Aq",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_36Ea3Aq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-reno-1a9zkf0gkdps324",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Reno",
+    "country": "United States Of America",
+    "venue": "Grand Sierra Resort and Casino",
+    "datetime_iso": "2027-02-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006524E5C523D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-reno-nevada-02-06-2027/event/17006524E5C523D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-reno-nevada-02-06-2027/event/17006524E5C523D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006524E5C523D5",
+        "discovery_event_id": "1A9Zkf0GkdPs324",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-reno-nevada-02-06-2027/event/17006524E5C523D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zkf0GkdPs324",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-san-jose-g5vyz_oxvxyml",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2027-02-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00651FB4FB0B9F",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-jose-california-02-07-2027/event/1C00651FB4FB0B9F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-jose-california-02-07-2027/event/1C00651FB4FB0B9F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00651FB4FB0B9F",
+        "discovery_event_id": "G5vYZ_oXVXYmL",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-jose-california-02-07-2027/event/1C00651FB4FB0B9F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_oXVXYmL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-palm-desert-vvg1iz_35qkx8b",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Palm Desert",
+    "country": "United States Of America",
+    "venue": "Acrisure Arena at Greater Palm Springs",
+    "datetime_iso": "2027-02-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006522DD1BE418",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-palm-desert-california-02-11-2027/event/0A006522DD1BE418",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-palm-desert-california-02-11-2027/event/0A006522DD1BE418",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006522DD1BE418",
+        "discovery_event_id": "vvG1IZ_35qkX8b",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-palm-desert-california-02-11-2027/event/0A006522DD1BE418",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_35qkX8b",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-phoenix-1a_zkfxgkecvpec",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2027-02-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006522AD0560AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006522AD0560AD",
+        "discovery_event_id": "1A_ZkfxGkecvpec",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_ZkfxGkecvpec",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-highland-z7r9jz1aav-j_",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-02-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-j_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-j_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-j_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-j_",
+        "discovery_event_id": "Z7r9jZ1AAv-j_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-j_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-j_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-las-vegas-1ayzkfngkdql5vb",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "PH Live at Planet Hollywood",
+    "datetime_iso": "2027-02-19T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "39006523DDACBD18",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "39006523DDACBD18",
+        "discovery_event_id": "1AyZkfNGkdql5Vb",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AyZkfNGkdql5Vb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-inglewood-vvg1iz_3kmopkh",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2027-02-21T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006521AE4654FC",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006521AE4654FC",
+        "discovery_event_id": "vvG1IZ_3kmoPKH",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3kmoPKH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-inglewood-vvg1iz_33c4njl",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2027-02-22T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006524AD56A71F",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006524AD56A71F",
+        "discovery_event_id": "vvG1IZ_33c4njL",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_33c4njL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-fresno-g5vyz_35vhmjx",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Fresno",
+    "country": "United States Of America",
+    "venue": "Save Mart Center",
+    "datetime_iso": "2027-02-26T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006522C16EE722",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006522C16EE722",
+        "discovery_event_id": "G5vYZ_35vhmjx",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_35vhmjx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-wheatland-g5vyz_32kawxi",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Sacramento",
+    "datetime_iso": "2027-02-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006523D3272FAC",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-wheatland-california-02-27-2027/event/1C006523D3272FAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-wheatland-california-02-27-2027/event/1C006523D3272FAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006523D3272FAC",
+        "discovery_event_id": "G5vYZ_32KawXi",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-wheatland-california-02-27-2027/event/1C006523D3272FAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_32KawXi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-san-diego-vvg1iz_3fqrwdv",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-03-01T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065221D7BDEF4",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-diego-california-02-28-2027/event/0A0065221D7BDEF4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-diego-california-02-28-2027/event/0A0065221D7BDEF4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065221D7BDEF4",
+        "discovery_event_id": "vvG1IZ_3FqrWDV",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-diego-california-02-28-2027/event/0A0065221D7BDEF4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3FqrWDV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-dallas-vvg1yz_32hm5d6",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Dos Equis Pavilion",
+    "datetime_iso": "2027-03-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006523DBDCBEC7",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006523DBDCBEC7",
+        "discovery_event_id": "vvG1YZ_32hM5D6",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_32hM5D6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-el-paso-vvg1yz_3ggzxqt",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "Don Haskins Center",
+    "datetime_iso": "2027-03-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0065230CE22769",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065230CE22769",
+        "discovery_event_id": "vvG1YZ_3GGzxqt",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3GGzxqt",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-laredo-g5diz_3f66dhn",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Laredo",
+    "country": "United States Of America",
+    "venue": "Sames Auto Arena",
+    "datetime_iso": "2027-03-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006522071FB6E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006522071FB6E3",
+        "discovery_event_id": "G5dIZ_3F66DhN",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3F66DhN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkenyiy-",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Las Cartas sobre la Mesa Tour",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Rosemont Theatre",
+    "datetime_iso": "2027-03-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006524AAE6CC21",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006524AAE6CC21",
+        "discovery_event_id": "vv1A7Zkf0GkenyiY-",
+        "url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zkf0GkenyiY-",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-national-harbor-1a4zkfxgkelii5v",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2027-03-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006522ABA282F4",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006522ABA282F4",
+        "discovery_event_id": "1A4ZkfxGkelII5V",
+        "url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfxGkelII5V",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

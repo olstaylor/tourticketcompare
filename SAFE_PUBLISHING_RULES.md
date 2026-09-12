@@ -23,12 +23,16 @@ not this table.
 
 **A. Event auto-publish paths.** These five, and only these five, may publish
 event data. Since 2026-09-11 they all land the same way — a branch and a PR the
-run squash-merges itself — because `main` now requires the `test-mvp` status
-check on whatever commit is published, and a commit built on a runner carries
-none (see [DEPLOYMENT.md → Repository write capability](docs/DEPLOYMENT.md#repository-write-capability)).
+run squash-merges itself. That shape came from a repository ruleset requiring
+the `test-mvp` status check on whatever commit is published, which a commit
+built on a runner carries none of; the ruleset is disabled as of 2026-09-12 but
+the shape stays, because it is what makes the merge conditional on a verdict
+GitHub can read (see [DEPLOYMENT.md → Repository write capability](docs/DEPLOYMENT.md#repository-write-capability)).
 What every path shares is `test:mvp` passing in the same job on exactly the
-content it is about to publish, and then again as the required check on the PR
-head before the merge. The rest of each path's gate differs — event and
+content it is about to publish, and then again as a `test-mvp` check earned on
+that exact PR head before the merge. **Both are mandatory regardless of what
+the branch itself enforces.** A lane may not publish on the strength of branch
+enforcement, and may not skip either gate because enforcement is off. The rest of each path's gate differs — event and
 partition validation, `git diff --check`, an apply-with-rollback — so read the
 per-path prose for the authoritative list rather than assuming a common set; two
 paths do not run `git diff --check` at all. A failed or withheld merge leaves
@@ -45,9 +49,10 @@ the PR open for a human, fails the run, and is never forced.
 **B. Machine-owned generated writes.** Not event data and not a discovery path.
 Each asserts its own diff allowlist before committing, and each publishes the
 same way group A does: a branch, a PR, and a squash-merge that only happens once
-the required `test-mvp` check has been earned on that PR head. These were direct
-commits to `main` until the ruleset of 2026-09-11 made that impossible; the
-scope of what each may write did not change. Ownership here is by
+the `test-mvp` check has been earned on that PR head. These were direct commits
+to `main` until the ruleset of 2026-09-11 made that impossible, and they stay
+PR-based now that it is disabled; the scope of what each may write did not
+change. Ownership here is by
 **field or region, not by file**: `public/data/artists.json` and
 `PROJECT_STATUS.md` are human-authored documents that these writers touch in
 narrowly defined places — a timestamp field, a `<!-- generated:… -->` block —

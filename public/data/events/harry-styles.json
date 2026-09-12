@@ -3569,7 +3569,7 @@
     "ticketmaster_event_id": "2300650EC5AF20F8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-25-2027--concerts-pop/production/7539918",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8",
     "last_verified_at": null,
@@ -3591,11 +3591,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7539918,
+        "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-25-2027--concerts-pop/production/7539918",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3630,7 +3630,7 @@
     "ticketmaster_event_id": "23006528B25C373B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-27-2027--concerts-pop/production/7539920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B",
     "last_verified_at": null,
@@ -3652,11 +3652,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7539920,
+        "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-27-2027--concerts-pop/production/7539920",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3691,7 +3691,7 @@
     "ticketmaster_event_id": "23006528B9383998",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-28-2027--concerts-pop/production/7539922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998",
     "last_verified_at": null,
@@ -3713,11 +3713,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7539922,
+        "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-28-2027--concerts-pop/production/7539922",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

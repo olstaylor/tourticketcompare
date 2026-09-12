@@ -3518,7 +3518,7 @@
     "ticketmaster_event_id": "3800651894A412CB",
     "ticketmaster_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-belfast-ormeau-park-6-17-2027--concerts-alternative/production/7505313",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
     "last_verified_at": null,
@@ -3540,11 +3540,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505313,
+        "url": "https://www.vividseats.com/sombr-tickets-belfast-ormeau-park-6-17-2027--concerts-alternative/production/7505313",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

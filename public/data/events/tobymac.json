@@ -325,7 +325,7 @@
     "ticketmaster_event_id": "2D0065199F228859",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fayetteville-crown-complex---crown-coliseum-1-28-2027/production/7491901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
     "last_verified_at": null,
@@ -347,11 +347,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491901,
+        "url": "https://www.vividseats.com/tobymac-tickets-fayetteville-crown-complex---crown-coliseum-1-28-2027/production/7491901",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -378,7 +378,7 @@
     "ticketmaster_event_id": "16006518AF849566",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
     "last_verified_at": null,
@@ -400,11 +400,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491831,
+        "url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431,7 +431,7 @@
     "ticketmaster_event_id": "20006518E7E1477B",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-huntsville-propst-arena-at-the-von-braun-center-1-30-2027/production/7491903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
     "last_verified_at": null,
@@ -453,11 +453,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491903,
+        "url": "https://www.vividseats.com/tobymac-tickets-huntsville-propst-arena-at-the-von-braun-center-1-30-2027/production/7491903",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -537,7 +537,7 @@
     "ticketmaster_event_id": "0D006519D92EA2FC",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tampa-benchmark-international-arena-2-4-2027/production/7491804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
     "last_verified_at": null,
@@ -559,11 +559,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491804,
+        "url": "https://www.vividseats.com/tobymac-tickets-tampa-benchmark-international-arena-2-4-2027/production/7491804",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -590,7 +590,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv8xe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8xe",
     "seatgeek_url": "https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-sunrise-amerant-bank-arena-2-5-2027--concerts-adult-contemporary/production/7492544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8xe",
     "last_verified_at": null,
@@ -612,11 +612,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492544,
+        "url": "https://www.vividseats.com/tobymac-tickets-sunrise-amerant-bank-arena-2-5-2027--concerts-adult-contemporary/production/7492544",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -643,7 +643,7 @@
     "ticketmaster_event_id": "22006519E94F5941",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-orlando-kia-center-2-6-2027--concerts-adult-contemporary/production/7492512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
     "last_verified_at": null,
@@ -665,11 +665,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492512,
+        "url": "https://www.vividseats.com/tobymac-tickets-orlando-kia-center-2-6-2027--concerts-adult-contemporary/production/7492512",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -696,7 +696,7 @@
     "ticketmaster_event_id": "0D006518CDC6A6D0",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-estero-hertz-arena-2-7-2027/production/7491829",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
     "last_verified_at": null,
@@ -718,11 +718,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491829,
+        "url": "https://www.vividseats.com/tobymac-tickets-estero-hertz-arena-2-7-2027/production/7491829",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -749,7 +749,7 @@
     "ticketmaster_event_id": "1B006515C0806638",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-pensacola-florida-02-11-2027/event/1B006515C0806638",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-pensacola-pensacola-bay-center-2-11-2027--concerts-adult-contemporary/production/7492515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-pensacola-florida-02-11-2027/event/1B006515C0806638",
     "last_verified_at": null,
@@ -771,11 +771,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492515,
+        "url": "https://www.vividseats.com/tobymac-tickets-pensacola-pensacola-bay-center-2-11-2027--concerts-adult-contemporary/production/7492515",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -855,7 +855,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv8Of",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Of",
     "seatgeek_url": "https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-2-13-2027--concerts-adult-contemporary/production/7492554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Of",
     "last_verified_at": null,
@@ -877,11 +877,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492554,
+        "url": "https://www.vividseats.com/tobymac-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-2-13-2027--concerts-adult-contemporary/production/7492554",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -908,7 +908,7 @@
     "ticketmaster_event_id": "05006518DC7A1551",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbus-nationwide-arena-2-18-2027/production/7491821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
     "last_verified_at": null,
@@ -930,11 +930,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491821,
+        "url": "https://www.vividseats.com/tobymac-tickets-columbus-nationwide-arena-2-18-2027/production/7491821",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1014,7 +1014,7 @@
     "ticketmaster_event_id": "22006519E9C55984",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-jacksonville-vystar-veterans-memorial-arena-2-25-2027/production/7491823",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
     "last_verified_at": null,
@@ -1036,11 +1036,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491823,
+        "url": "https://www.vividseats.com/tobymac-tickets-jacksonville-vystar-veterans-memorial-arena-2-25-2027/production/7491823",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1067,7 +1067,7 @@
     "ticketmaster_event_id": "1B006519DD083A72",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-nashville-bridgestone-arena-2-26-2027/production/7491819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
     "last_verified_at": null,
@@ -1089,11 +1089,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491819,
+        "url": "https://www.vividseats.com/tobymac-tickets-nashville-bridgestone-arena-2-26-2027/production/7491819",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1120,7 +1120,7 @@
     "ticketmaster_event_id": "0E006518B0A0B5B3",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-duluth-gas-south-arena-2-27-2027/production/7491815",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
     "last_verified_at": null,
@@ -1142,11 +1142,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491815,
+        "url": "https://www.vividseats.com/tobymac-tickets-duluth-gas-south-arena-2-27-2027/production/7491815",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1173,7 +1173,7 @@
     "ticketmaster_event_id": "1B006519D1C0177D",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-28-2027--concerts-adult-contemporary/production/7492562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
     "last_verified_at": null,
@@ -1195,11 +1195,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492562,
+        "url": "https://www.vividseats.com/tobymac-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-28-2027--concerts-adult-contemporary/production/7492562",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1226,7 +1226,7 @@
     "ticketmaster_event_id": "08006519B51C715C",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-toledo-huntington-center-3-4-2027/production/7491810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
     "last_verified_at": null,
@@ -1248,11 +1248,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491810,
+        "url": "https://www.vividseats.com/tobymac-tickets-toledo-huntington-center-3-4-2027/production/7491810",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1279,7 +1279,7 @@
     "ticketmaster_event_id": "05006515C676EDEE",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
     "last_verified_at": null,
@@ -1301,11 +1301,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492523,
+        "url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1332,7 +1332,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv8-F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-F",
     "seatgeek_url": "https://seatgeek.com/tobymac-tickets/cape-girardeau-missouri-show-me-center-2027-03-06-7-pm/concert/18548872",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-cape-girardeau-show-me-center-3-6-2027--concerts-adult-contemporary/production/7492564",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-F",
     "last_verified_at": null,
@@ -1354,11 +1354,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492564,
+        "url": "https://www.vividseats.com/tobymac-tickets-cape-girardeau-show-me-center-3-6-2027--concerts-adult-contemporary/production/7492564",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1385,7 +1385,7 @@
     "ticketmaster_event_id": "08006518E266A674",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-grand-rapids-michigan-03-07-2027/event/08006518E266A674",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-grand-rapids-van-andel-arena-3-7-2027--concerts-adult-contemporary/production/7492525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-grand-rapids-michigan-03-07-2027/event/08006518E266A674",
     "last_verified_at": null,
@@ -1407,11 +1407,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492525,
+        "url": "https://www.vividseats.com/tobymac-tickets-grand-rapids-van-andel-arena-3-7-2027--concerts-adult-contemporary/production/7492525",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1438,7 +1438,7 @@
     "ticketmaster_event_id": "3A006519DF89EF83",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-austin-moody-center-atx-3-11-2027/production/7491794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
     "last_verified_at": null,
@@ -1460,11 +1460,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491794,
+        "url": "https://www.vividseats.com/tobymac-tickets-austin-moody-center-atx-3-11-2027/production/7491794",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1491,7 +1491,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv8O_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8O_",
     "seatgeek_url": "https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lubbock-united-supermarkets-arena-3-13-2027--concerts-adult-contemporary/production/7492566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8O_",
     "last_verified_at": null,
@@ -1513,11 +1513,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492566,
+        "url": "https://www.vividseats.com/tobymac-tickets-lubbock-united-supermarkets-arena-3-13-2027--concerts-adult-contemporary/production/7492566",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1544,7 +1544,7 @@
     "ticketmaster_event_id": "04006516FFA13A5D",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-rockford-bmo-center-3-19-2027/production/7491873",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
     "last_verified_at": null,
@@ -1566,11 +1566,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491873,
+        "url": "https://www.vividseats.com/tobymac-tickets-rockford-bmo-center-3-19-2027/production/7491873",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

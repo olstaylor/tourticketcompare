@@ -15,7 +15,7 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 - `public/data/events.json`: **1369 events** — 289 `human_verified`, 819 `machine_high_confidence`, 261 `needs_recheck`. Verified event-level provider provenance is pinned one provider per line below, each separated by a blank line. Keep both properties: git needs an unchanged line between two edits to merge them as separate hunks, so without the blank lines two lanes editing adjacent providers still conflict. This makes any two provider lanes merge cleanly, except on the shared no-resale figure at the end of the list.
   - SeatGeek 283 (335 rows carry a stored `seatgeek_url`); 120 `needs_recheck` rows retain a standalone SeatGeek CTA.
 
-  - Vivid Seats 891; 140 `needs_recheck` rows retain a standalone Vivid Seats CTA.
+  - Vivid Seats 914; 144 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
   - TicketNetwork 845.
 

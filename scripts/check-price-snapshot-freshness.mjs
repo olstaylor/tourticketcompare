@@ -32,17 +32,56 @@ const DEFAULT_LIMIT = 500;
 // A lane is expected to carry prices only when its display flag is on *and* a
 // scheduled writer actually feeds it. Keeping both conditions here stops the
 // check from alarming forever on a lane that is off by design.
+//
+// `writer` names the workflow that would feed the lane on a schedule, and the
+// provider slug it runs under. It is not decoration: the self-test reads those
+// workflows and asserts `snapshotsScheduled` matches what their cron actually
+// runs, so a provider added to or dropped from a scheduled matrix cannot leave
+// this table asserting a writer that does not exist.
 const PRICE_LANES = [
-  { provider: "Vivid Seats", flag: "VIVIDSEATS_PRICE_DISPLAY_ENABLED", snapshotsScheduled: true },
-  { provider: "TicketNetwork", flag: "TICKETNETWORK_PRICE_DISPLAY_ENABLED", snapshotsScheduled: true },
-  { provider: "StubHub International", flag: "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED", snapshotsScheduled: true },
-  { provider: "Ticket Liquidator", flag: "TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED", snapshotsScheduled: true },
+  { provider: "Vivid Seats", flag: "VIVIDSEATS_PRICE_DISPLAY_ENABLED", snapshotsScheduled: true, writer: { file: "vividseats-price-snapshots.yml", slug: "vivid-seats" } },
+  { provider: "TicketNetwork", flag: "TICKETNETWORK_PRICE_DISPLAY_ENABLED", snapshotsScheduled: true, writer: { file: "impact-marketplace-price-snapshots.yml", slug: "ticketnetwork" } },
+  { provider: "StubHub International", flag: "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED", snapshotsScheduled: true, writer: { file: "impact-marketplace-price-snapshots.yml", slug: "stubhub-international" } },
+  // Ticket Liquidator is a workflow_dispatch-only provider on the marketplace
+  // lane: its cron matrix runs ticketnetwork and stubhub-international only.
+  // This read `true` until 2026-09-12, which was masked solely by its display
+  // flag being off — flip that flag on and the probe would have expected a lane
+  // no cron feeds and reported a permanent blackout, the exact false alarm the
+  // SeatGeek note below exists to prevent.
+  { provider: "Ticket Liquidator", flag: "TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED", snapshotsScheduled: false, writer: { file: "impact-marketplace-price-snapshots.yml", slug: "ticket-liquidator" } },
   // SeatGeek's scheduled snapshots were disabled 2026-07-15: the API returns
   // null lowest/average/highest price for every eligible event under this
   // client's entitlement. Its display flag stays on, but no writer feeds it, so
   // an empty SeatGeek lane is the documented steady state, not a regression.
-  { provider: "SeatGeek", flag: "SEATGEEK_PRICE_DISPLAY_ENABLED", snapshotsScheduled: false }
+  { provider: "SeatGeek", flag: "SEATGEEK_PRICE_DISPLAY_ENABLED", snapshotsScheduled: false, writer: { file: "seatgeek-price-snapshots.yml", slug: "seatgeek" } }
 ];
+
+/**
+ * The provider slugs a snapshot workflow runs on its own schedule.
+ *
+ * `null` means "this file is a single-provider lane and it is scheduled" — the
+ * Vivid workflow takes no provider input. An empty set means nothing scheduled
+ * runs there at all, which is how a dispatch-only or unscheduled writer reads.
+ *
+ * Pure so the self-test can pin it against the real workflow files.
+ */
+export function scheduledSlugsIn(source) {
+  if (!/^[ \t]*schedule:[ \t]*$/m.test(source)) return new Set();
+  // The matrix line holds two quoted arrays: `format('["{0}"]', ...)` for the
+  // `workflow_dispatch` half, and a literal list for the cron half. Only the
+  // latter is a real provider set, so the interpolation placeholder is dropped
+  // rather than parsed — matching up to the first `}` would stop inside it.
+  // The matrix entry, not the `workflow_dispatch` input of the same name: only
+  // the former interpolates an expression, and picking the first `provider:`
+  // line would read the input declaration and find no list at all.
+  const line = source.match(/^[ \t]*provider:.*\$\{\{.*$/m);
+  if (!line) return null;
+  const literals = [...line[0].matchAll(/'(\[[^']*\])'/g)]
+    .map((match) => match[1])
+    .filter((text) => !text.includes("{"));
+  if (literals.length === 0) return null;
+  return new Set(JSON.parse(literals[literals.length - 1]));
+}
 
 function usage() {
   return `Usage: node scripts/check-price-snapshot-freshness.mjs [options]
@@ -327,6 +366,34 @@ async function selfTest() {
       `wrangler.toml [vars] is missing ${lane.flag}, which this check reads to decide whether ${lane.provider} should be serving prices`
     );
   }
+
+  // Every lane's `snapshotsScheduled` has to match what the workflows really
+  // run on a cron. Ticket Liquidator claimed a scheduled writer it never had,
+  // and only its display flag being off kept that from becoming a permanent
+  // false blackout — so this is asserted against the workflow files rather
+  // than trusted in the table.
+  const { readFile: readWorkflow } = await import("node:fs/promises");
+  const workflows = new URL("../.github/workflows/", import.meta.url);
+  for (const lane of PRICE_LANES) {
+    assert.ok(lane.writer, `${lane.provider} must name the workflow that would feed it`);
+    const source = await readWorkflow(new URL(lane.writer.file, workflows), "utf8");
+    const slugs = scheduledSlugsIn(source);
+    const scheduled = slugs === null ? true : slugs.has(lane.writer.slug);
+    assert.equal(
+      lane.snapshotsScheduled,
+      scheduled,
+      `${lane.provider}: ${lane.writer.file} ${scheduled ? "does" : "does not"} run "${lane.writer.slug}" on a schedule, but PRICE_LANES says snapshotsScheduled=${lane.snapshotsScheduled}`
+    );
+  }
+
+  // The parse itself, pinned on the two shapes that exist: a matrix lane whose
+  // cron half lists its providers, and a workflow with no schedule at all.
+  assert.deepEqual(
+    [...scheduledSlugsIn(await readWorkflow(new URL("impact-marketplace-price-snapshots.yml", workflows), "utf8"))].sort(),
+    ["stubhub-international", "ticketnetwork"]
+  );
+  assert.equal(scheduledSlugsIn("on:\n  workflow_dispatch:\n").size, 0);
+  assert.equal(scheduledSlugsIn("on:\n  schedule:\n    - cron: '0 * * * *'\n"), null);
 
   console.log("price snapshot freshness self-test passed");
   return 0;

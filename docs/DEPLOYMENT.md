@@ -108,19 +108,34 @@ Missing credentials must cause a safe no-op or explicit failure, never guessed d
 
 ### Repository write capability
 
-No workflow pushes to `main`. Since 2026-09-11 a repository ruleset requires
-the `test-mvp` status check on whatever commit is published, by push or by
-merge, so every write-capable lane publishes the same way: commit to a branch,
-push it, open a PR, earn the check on that PR head, squash-merge. **Widening
-what any of these may write is an owner decision, not a maintenance change.**
+No workflow pushes to `main`. Every write-capable lane publishes the same way:
+commit to a branch, push it, open a PR, earn the `test-mvp` check on that PR
+head, squash-merge. **Widening what any of these may write is an owner
+decision, not a maintenance change.**
 
 How the check is earned matters, because a PR opened with the Actions token
-raises no `pull_request` run of its own. Each lane dispatches the real
-Prelaunch Validation workflow against its pushed branch and waits for the
-verdict on that exact SHA (`scripts/lib/required-check.mjs`, reachable by hand
-as `npm run required-check:earn -- --branch <branch>`). The merge happens only
-on green. Publishing a hand-made check run of that name would satisfy the
-ruleset without running anything, and is deliberately not implemented.
+gets no usable `pull_request` run of its own: GitHub records the run and then
+concludes it `failure` with no jobs, no billable time and no check run on the
+head, so the red entry in the Actions tab for a bot-opened PR is that, not a
+validation failure. Each lane therefore dispatches the real Prelaunch
+Validation workflow against its pushed branch and waits for the verdict on that
+exact SHA (`scripts/lib/required-check.mjs`, reachable by hand as
+`npm run required-check:earn -- --branch <branch>`). The merge happens only on
+green. Publishing a hand-made check run of that name would satisfy a required
+check without running anything, and is deliberately not implemented.
+
+**Branch enforcement is currently off, and the publish path does not depend on
+it.** The owner-applied ruleset that made `test-mvp` a required check on
+2026-09-11 is set to `disabled` as of 2026-09-12 11:05 BST, because as
+configured it refused every automated merge even with `test-mvp` green on the
+PR head (see the incident in [OPERATIONS.md](OPERATIONS.md)). Nothing in the
+lanes changed with it: the real gate has always been `npm run test:mvp` running
+in-job on exactly the content being published, and the dispatch-and-wait step
+above still runs and still blocks the merge on red. What is missing while
+enforcement is off is the outside guard on **human** merges — a red PR can be
+merged by hand again, which is what caused the 2026-09-11 red-`main` incident.
+Re-enabling it needs a bypass actor for the GitHub Actions app; that is an
+owner decision.
 
 Write-capable lanes and what each may put on `main`:
 

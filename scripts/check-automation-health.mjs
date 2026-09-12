@@ -66,15 +66,50 @@ const ROLLING_ISSUE_LABEL = "automation:health";
 // attributes a failure to a provider, a rate limit or a WAF, because the run
 // list is not evidence of any of those.
 export const WATCHED_LANES = [
-  { file: "daily-audit.yml", name: "Daily data audit", cadence: "daily 03:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
-  { file: "nightly-data-sync.yml", name: "Nightly data sync", cadence: "daily 03:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
-  { file: "tm-new-shows-pr.yml", name: "Ticketmaster new shows PR", cadence: "daily 04:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
-  { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 05:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
-  { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
-  { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
-  { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 },
-  { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 },
-  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 }
+  { file: "daily-audit.yml", name: "Daily data audit", cadence: "daily 03:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "nightly-data-sync.yml", name: "Nightly data sync", cadence: "daily 03:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "tm-new-shows-pr.yml", name: "Ticketmaster new shows PR", cadence: "daily 04:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 05:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
+  { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
+  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
+  // The three sensors, this one included. Watching them was missing when this
+  // shipped, and a watcher nobody watches is the gap that hides every other
+  // gap: if this workflow stops running, the board it writes simply stops
+  // changing, and a stale green board reads exactly like a healthy fleet.
+  //
+  // Self-watching is partial by construction and worth saying plainly: a run
+  // that dies cannot report itself. What it does catch is the case that
+  // actually happens — a sensor that has stopped being invoked, or that failed
+  // on an earlier tick and is seen by a later one.
+  //
+  // The windows are set from measured delivery, not from the cron. GitHub
+  // throttles frequent schedules hard: the `*/15` guard really arrives every
+  // 2-5 hours (measured 2026-09-11/12: gaps of 3h41, 4h57, 4h37), and this
+  // workflow's own 6-hourly poll landed 2h44 to 4h37 late on each of its first
+  // three ticks. The window has to cover one dropped tick PLUS that lateness on
+  // the run either side of it, and for the 6-hourly poll that is 6 + 4h37 +
+  // 2h44 ~ 13h20 in the worst case already observed, so 12h would have raised a
+  // false `stale` on the very run that recovered — which also excludes itself,
+  // being still in progress. 20h leaves real margin and still catches a
+  // schedule that has stopped. The guard's 12h is 2.4x its worst observed gap.
+  //
+  // None carry `eventDriven`: subscribing this workflow to its own completion
+  // would recurse, and the freshness lane is push-driven on main, where a
+  // dropped tick is already covered by its daily backstop.
+  //
+  // None `sharesMainGate` either. Correlation exists because every sanctioned
+  // writer gates its commit on `test:mvp` against the tip of `main`, so two of
+  // them failing together is evidence of one red check there. These three gate
+  // nothing and publish nothing, so counting them as corroboration would point
+  // an operator at `main` on the strength of two sensors wobbling, and would
+  // promote an unrelated single price failure into a finding on that same false
+  // evidence.
+  { file: "automation-health.yml", name: "Automation health", cadence: "every 6h (:17) + lane completions", maxAgeHours: 20, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  { file: "generated-freshness.yml", name: "Generated freshness", cadence: "daily 04:40 + push to main", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  { file: "pr-validation-head-guard.yml", name: "PR validation head guard", cadence: "every 15m (delivered every 2-5h) + PR events", maxAgeHours: 12, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
 ];
 
 // A cancelled or skipped run is not a failure, but it is not proof of health
@@ -84,6 +119,11 @@ export const WATCHED_LANES = [
 // concludes `cancelled`, not `failure`, so treating neutrals as merely "skip and
 // look further back" would report a lane that has not finished for days as
 // healthy on the strength of an old success. `stalled` is that case.
+// Both extensions GitHub accepts. Scanning only `.yml` would let a scheduled
+// `.yaml` workflow pass the coverage assertion below while going unwatched —
+// exactly the gap that assertion exists to close.
+export const WORKFLOW_FILE = /\.ya?ml$/;
+
 const FAILING_CONCLUSIONS = new Set(["failure", "timed_out"]);
 const NEUTRAL_CONCLUSIONS = new Set(["cancelled", "skipped"]);
 
@@ -182,10 +222,14 @@ export function classifyLane(runs, { now, maxAgeHours, failuresBeforeIncident = 
  * this sensor reads the run list and does not run the suite.
  */
 export function applyCorrelation(rows) {
-  const failingNow = rows.filter((row) => row.status === "failing" || row.status === "flaky");
+  // Only lanes that actually share the gate can corroborate each other, or be
+  // promoted on the strength of it. The sensors gate nothing and publish
+  // nothing: two of them wobbling together says nothing whatever about `main`.
+  const gated = (row) => row.sharesMainGate !== false;
+  const failingNow = rows.filter((row) => gated(row) && (row.status === "failing" || row.status === "flaky"));
   if (failingNow.length < 2) return rows;
   return rows.map((row) =>
-    row.status === "flaky"
+    gated(row) && row.status === "flaky"
       ? { ...row, status: "failing", detail: `${row.detail.split(" Below this lane's")[0]} Raised because ${failingNow.length - 1} other lane(s) are failing in the same window.` }
       : row
   );
@@ -197,7 +241,7 @@ export function applyCorrelation(rows) {
  * `applyCorrelation`, where every corroborated lane is `failing`.
  */
 export function correlatedMainFailure(rows) {
-  return rows.filter((row) => row.status === "failing").length >= 2;
+  return rows.filter((row) => row.sharesMainGate !== false && row.status === "failing").length >= 2;
 }
 
 // `flaky` is deliberately not a finding. It is printed on the board as context
@@ -391,6 +435,30 @@ if (SELF_TEST) {
   assert.equal(corroborated[2].status, "ok");
   assert.equal(correlatedMainFailure(corroborated), true);
 
+  // The sensors are not part of that evidence. Correlation says "check main"
+  // because every sanctioned writer gates its commit on `test:mvp` there; the
+  // sensors gate nothing, so two of them failing together is not evidence of
+  // anything about main, and must not promote an unrelated price wobble either.
+  const sensorsFailing = applyCorrelation([
+    { file: "automation-health.yml", sharesMainGate: false, ...classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 20, failuresBeforeIncident: 1 }) },
+    { file: "pr-validation-head-guard.yml", sharesMainGate: false, ...classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 12, failuresBeforeIncident: 1 }) },
+    { ...oneHourlyFailure, file: "prices.yml", sharesMainGate: true }
+  ]);
+  assert.equal(correlatedMainFailure(sensorsFailing), false, "two failing sensors must not be read as a red main");
+  assert.equal(sensorsFailing[2].status, "flaky", "a sensor failure must not promote a sub-threshold writer failure");
+  // A sensor failure is still reported on its own terms — excluded from the
+  // correlation, not from the board.
+  assert.equal(findingsOf(sensorsFailing).length, 2);
+
+  // One real writer failure plus two sensor failures is still one writer
+  // failure: the corroboration threshold is counted among gated lanes only.
+  const oneWriterTwoSensors = applyCorrelation([
+    { file: "a.yml", sharesMainGate: true, ...classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 30, failuresBeforeIncident: 1 }) },
+    { file: "automation-health.yml", sharesMainGate: false, ...classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 20, failuresBeforeIncident: 1 }) },
+    { file: "generated-freshness.yml", sharesMainGate: false, ...classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 30, failuresBeforeIncident: 1 }) }
+  ]);
+  assert.equal(correlatedMainFailure(oneWriterTwoSensors), false);
+
   // --- recovery -------------------------------------------------------------
   //
   // The finding must not outlive the problem. Once a lane's failures stop it
@@ -429,6 +497,22 @@ if (SELF_TEST) {
   assert.doesNotMatch(body, /"lane": "b\.yml"/);
 
   assert.ok(WATCHED_LANES.every((lane) => lane.file && lane.name && lane.maxAgeHours > 0));
+  // Declared explicitly on every lane rather than defaulted, so adding a lane
+  // forces the question "does this one gate a write on main?" to be answered.
+  assert.ok(
+    WATCHED_LANES.every((lane) => typeof lane.sharesMainGate === "boolean"),
+    "every lane must declare sharesMainGate"
+  );
+  assert.deepEqual(
+    WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
+    ["automation-health.yml", "generated-freshness.yml", "pr-validation-head-guard.yml"],
+    "the sensors, and only the sensors, are excluded from writer correlation"
+  );
+  // GitHub accepts either extension for a workflow file, so the coverage scan
+  // below must recognise both or a scheduled `.yaml` lane slips past it.
+  assert.ok(WORKFLOW_FILE.test("scheduled-lane.yaml"));
+  assert.ok(WORKFLOW_FILE.test("scheduled-lane.yml"));
+  assert.equal(WORKFLOW_FILE.test("notes.md"), false);
   // A lane that absorbs a single failure must be one that runs again soon. Tying
   // the threshold to the staleness window stops the two drifting apart into a
   // daily lane that quietly swallows a whole lost day.
@@ -448,6 +532,22 @@ if (SELF_TEST) {
   const present = new Set(await readdir(workflowDir));
   const missing = WATCHED_LANES.map((lane) => lane.file).filter((file) => !present.has(file));
   assert.deepEqual(missing, [], `WATCHED_LANES names workflow files that do not exist: ${missing.join(", ")}`);
+
+  // The converse, which is the gap this sensor shipped with: a scheduled
+  // workflow nobody watches. Coverage was a list maintained by hand, so the two
+  // sensors added the day after this one — and this one itself — were simply
+  // never added to it, and the board read as full coverage while three lanes
+  // ran unobserved. Every workflow carrying a `schedule:` trigger must appear
+  // in WATCHED_LANES; there is deliberately no exclusion list, so adding a
+  // scheduled workflow fails here until it is either watched or unscheduled.
+  const scheduledFiles = [];
+  for (const file of [...present].filter((name) => WORKFLOW_FILE.test(name)).sort()) {
+    const source = await readFile(new URL(file, workflowDir), "utf8");
+    if (/^[ \t]*schedule:[ \t]*$/m.test(source)) scheduledFiles.push(file);
+  }
+  const watchedFiles = new Set(WATCHED_LANES.map((lane) => lane.file));
+  const unwatched = scheduledFiles.filter((file) => !watchedFiles.has(file));
+  assert.deepEqual(unwatched, [], `scheduled workflows missing from WATCHED_LANES: ${unwatched.join(", ")}`);
 
   // The display names are what this sensor's own workflow_run trigger matches
   // on, and GitHub matches them by string with no error when one is wrong. Pin
@@ -527,7 +627,13 @@ for (const lane of WATCHED_LANES) {
   // which is the thing this sensor exists to see.
   let runs = [];
   try {
-    const response = await github(`/actions/workflows/${encodeURIComponent(lane.file)}/runs?event=schedule&per_page=10`);
+    // 50, not 10. `stalled` is judged on the age of the last pass/fail verdict,
+    // so the page has to reach back past every neutral run inside the lane's
+    // window. Ten runs is 2.5h of a `*/15` schedule delivered on time, well
+    // short of a 12h window, and a lane whose last ten ticks were cancelled
+    // would read as stalled while a success sat just off the end of the page.
+    // One request either way; only the payload grows.
+    const response = await github(`/actions/workflows/${encodeURIComponent(lane.file)}/runs?event=schedule&per_page=50`);
     runs = response.workflow_runs ?? [];
   } catch (error) {
     // A workflow file that has never run returns 404. That is a real finding

@@ -164,7 +164,7 @@ export const FINDING_TYPES = {
 
 /** Stable identity for a finding. Order-insensitive and evidence-insensitive. */
 export function fingerprintFor(finding) {
-  const identity = [finding.source, finding.type, ...[...finding.identity].sort()].join(" ");
+  const identity = [finding.source, finding.type, ...[...finding.identity].sort()].join("\u0000");
   return createHash("sha256").update(identity).digest("hex").slice(0, 16);
 }
 
@@ -172,6 +172,19 @@ export const markerFor = (fingerprint) => `${QUEUE_MARKER_PREFIX}${fingerprint} 
 
 export function fingerprintFromBody(body) {
   const match = String(body || "").match(/<!-- work-queue:v1 fingerprint=([0-9a-f]{16}) -->/);
+  return match ? match[1] : null;
+}
+
+/**
+ * Which sensor an existing issue came from, read back out of the
+ * machine-readable block its payload wrote.
+ *
+ * Needed because recovery has to be scoped to the sources a run actually read.
+ * An issue whose source cannot be determined returns null and is then left
+ * alone entirely — never closed on a guess.
+ */
+export function sourceFromBody(body) {
+  const match = String(body || "").match(/"source":\s*"([a-z0-9-]+)"/);
   return match ? match[1] : null;
 }
 
@@ -453,7 +466,8 @@ export function planQueue({
   existingIssues = [],
   openPullRequestBodies = [],
   limits = DEFAULT_LIMITS,
-  registry = FINDING_TYPES
+  registry = FINDING_TYPES,
+  activeSources = null
 }) {
   const plan = { create: [], update: [], reopen: [], close: [], hold: [], overflow: [], unclassified: [] };
 
@@ -491,10 +505,25 @@ export function planQueue({
     created += 1;
   }
 
+  // Recovery is scoped to the sources this run actually read, and that scoping is
+  // the whole point rather than a refinement.
+  //
+  // The materialiser is invoked from more than one workflow, each passing only
+  // its own sensor's output. Without this, a run reading `generated-freshness`
+  // alone sees no automation-health findings and reads every automation-health
+  // issue as cleared, closing live work items for lanes that are still failing.
+  // That happened on 2026-09-12: the 08:47Z freshness run closed #948, #949 and
+  // #950 while all three lanes were down, so the queue reported nothing wrong
+  // while ingestion was stopped. Silently hiding a real failure is the worst
+  // thing this layer can do, so an issue from an unread source is untouched.
+  const scoped = activeSources ? new Set(activeSources) : null;
   for (const issue of existingIssues) {
     if (issue.state !== "open") continue;
     const fingerprint = fingerprintFromBody(issue.body);
     if (!fingerprint || seen.has(fingerprint)) continue;
+    const source = sourceFromBody(issue.body);
+    // Unknown source, or a source this run did not read: not ours to judge.
+    if (scoped && (!source || !scoped.has(source))) continue;
     const referencedByOpenPr = openPullRequestBodies.some((body) =>
       new RegExp(`#${issue.number}\\b`).test(String(body || ""))
     );

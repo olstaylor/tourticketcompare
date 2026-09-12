@@ -1858,5 +1858,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042832/Sylvan-Esso-tickets-Sat-Mar-13-2027-Brooklyn-Bowl-Nashville",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042832"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-salt-lake-city-z7r9jz1a7pxjk",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-03-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pxjk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxjk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxjk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pxjk",
+        "discovery_event_id": "Z7r9jZ1A7Pxjk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxjk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pxjk",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

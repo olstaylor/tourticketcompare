@@ -1269,5 +1269,58 @@
     "ticketmaster_discovery_event_id": "177Yv0G6CkIeECD",
     "timezone": "Australia/Brisbane",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-salt-lake-city-z7r9jz1a7pk0m",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-04-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PK0M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PK0M",
+        "discovery_event_id": "Z7r9jZ1A7PK0M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK0M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0M",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

@@ -2646,11 +2646,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107082956",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-28-11-2026/event/107082956",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16efZ_dCKG7SLSC",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-28-11-2026/event/107082956"
   },
   {
     "id": "tm-harry-styles-2026-docklands-1apzk8ugkd2mxoc",
@@ -2699,11 +2707,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107082957",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-2-12-2026/event/107082957",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZk8UGkd2MXoC",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-2-12-2026/event/107082957"
   },
   {
     "id": "tm-harry-styles-2026-docklands-1apzk8ugkd2broi",
@@ -2752,11 +2768,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107495125",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-4-12-2026/event/107495125",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZk8UGkd2BroI",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-4-12-2026/event/107495125"
   },
   {
     "id": "tm-harry-styles-2026-sydney-olympic-park-1ka8v0ukgagf72c",

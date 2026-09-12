@@ -3552,10 +3552,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666405",
+        "url": "https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dOZ_oxfG7tv55",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405"
   }
 ]

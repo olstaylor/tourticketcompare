@@ -57,6 +57,9 @@ permissions:
   contents: write
   pull-requests: write
   issues: write
+  # Earning the `test-mvp` required status check on the PR head means
+  # dispatching Prelaunch Validation against the pushed branch.
+  actions: write
 
 # Never overlap with another run (a previous run may still hold the automation
 # branch / be opening a PR). Queue rather than cancel so a scheduled run is not
@@ -68,7 +71,7 @@ concurrency:
 jobs:
   new-shows:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v5

@@ -50,6 +50,11 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
+  # Publishing goes through an auto-merged PR whose head must carry the
+  # `test-mvp` required status check; earning it means dispatching Prelaunch
+  # Validation against the pushed branch.
+  actions: write
 
 concurrency:
   group: content-build
@@ -61,7 +66,7 @@ jobs:
     # The retry path below re-runs the whole validation suite against the new
     # base rather than pushing an unvalidated rebuild, so the budget has to
     # cover more than one pass.
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -142,20 +147,34 @@ jobs:
           functions/_guide-routes.generated.js
           data/content-provenance.json
 
-      # --- commit (no writer runs after this point) ---------------------
+      # --- publish (no writer runs after this point) --------------------
       # The validation suite above takes minutes, and the scheduled sync lanes
-      # (daily-audit, nightly-data-sync, the provider syncs) push to main
-      # independently. A plain `git push origin HEAD:main` is rejected as
-      # non-fast-forward if any of them lands first, and nothing would rebuild
-      # that Markdown afterwards — an /admin save could sit unpublished
-      # indefinitely. On rejection, reset onto the new main, re-run the whole
-      # writer + validation pipeline against the content main now carries, and
-      # retry. Re-validating is the point: another lane may have changed the
-      # artist data a guide's links resolve against.
-      - name: Commit the compiled content
+      # (daily-audit, nightly-data-sync, the provider syncs) publish to main
+      # independently, so the tree this job validated is rarely still the tip.
+      #
+      # Publishing through a squash-merged PR absorbs that: GitHub merges onto
+      # whatever main now carries, and `main`'s required `test-mvp` check —
+      # which a runner-built commit cannot satisfy on a direct push — is earned
+      # by dispatching the real validation workflow against the pushed branch
+      # (scripts/open-automation-pr.mjs).
+      #
+      # A merge can still be withheld, most plausibly on a genuine conflict in
+      # public/data/guides-content.json, which the daily audit also writes. On
+      # that, reset onto the new main, re-run the whole writer + validation
+      # pipeline against the content main now carries, and retry once —
+      # re-validating is the point, since another lane may have changed the
+      # artist data a guide's links resolve against. Nothing would otherwise
+      # rebuild that Markdown, and an /admin save could sit unpublished
+      # indefinitely.
+      - name: Publish the compiled content
         if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/content-build-${TODAY}"
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
 
@@ -167,14 +186,22 @@ jobs:
             git commit -m "content: rebuild blog and guide content from content/"
           }
 
+          git checkout -B "$BRANCH"
           stage_and_commit
 
-          for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
-              echo "Pushed the rebuilt content (attempt ${attempt})."
+          for attempt in 1 2; do
+            git push -u origin "$BRANCH" --force-with-lease
+            if BRANCH="$BRANCH" \
+               PR_TITLE="content: rebuild blog and guide content from content/" \
+               PR_LABEL="automation:content-build" \
+               PR_AUTO_MERGE=true \
+               PR_BODY=$'## What this PR does\n- Recompiles `content/blog/*.md` and `content/guides/*.md` into the four generated files the live site reads: `public/data/blog-content.json`, `public/data/guides-content.json`, `functions/_guide-routes.generated.js` and `data/content-provenance.json`.\n- This is what makes a post or a guide actually appear: Cloudflare Pages serves `public/` with no build step.\n\n## Explicit non-changes\n- Never writes `content/**` — the Markdown is human-authored.\n- No event, artist, catalog, provider, pricing, redirect or affiliate data.\n\n## Validation\n- `npm run test:mvp`, `npm run schema:validate`, `npm run audit:indexable-surface:check`, `git diff --check` and the diff allowlist all passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
+               node scripts/open-automation-pr.mjs; then
+              echo "Published the rebuilt content (attempt ${attempt})."
               exit 0
             fi
-            echo "::warning::push rejected on attempt ${attempt}; reconciling with the current main tip."
+
+            echo "::warning::publish withheld on attempt ${attempt}; rebuilding against the current main tip."
             sleep $((attempt * 5))
             git fetch origin main
             git reset --hard origin/main
@@ -189,7 +216,7 @@ jobs:
               public/data/guides-content.json \
               functions/_guide-routes.generated.js \
               data/content-provenance.json; then
-              echo "::notice::main already carries an equivalent rebuild; nothing left to push."
+              echo "::notice::main already carries an equivalent rebuild; nothing left to publish."
               exit 0
             fi
 
@@ -206,7 +233,7 @@ jobs:
             stage_and_commit
           done
 
-          echo "::error::Could not push the rebuilt content after 3 attempts. Re-run this workflow to publish."
+          echo "::error::Could not publish the rebuilt content after 2 attempts. The PR is open for a human; re-run this workflow to retry."
           exit 1
 
       - name: Report dry run

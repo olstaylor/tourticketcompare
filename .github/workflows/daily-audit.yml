@@ -14,6 +14,10 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  # Both writers publish through a gated, auto-merged PR, and earning the
+  # `test-mvp` required status check on its head means dispatching Prelaunch
+  # Validation against the pushed branch.
+  actions: write
 
 jobs:
   audit:
@@ -95,7 +99,10 @@ jobs:
   verification-dates:
     runs-on: ubuntu-latest
     needs: audit
-    timeout-minutes: 15
+    # Covers the wait for the dispatched Prelaunch Validation run on the pushed
+    # branch (~5 minutes warm, capped at 25 in the helper) on top of this job's
+    # own work.
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -176,13 +183,18 @@ jobs:
 
       # --- validation (no writer runs after this point) -------------------
       #
-      # Validation gates the commit: if any check fails, nothing is pushed.
+      # Validation gates the commit: if any check fails, nothing is published.
       # last_verified_at is bumped ONLY for artists whose URL liveness + TM
       # Discovery diff came back clean, so this is a lossless freshness-timestamp
-      # write — committed straight to main under the same in-job-validation model
-      # as the nightly field-sync (SAFE_PUBLISHING_RULES.md, owner-approved
-      # 2026-07-28). The old daily human-review PR flow is retired: no
-      # automation/verified-dates-* branch or PR is opened.
+      # write, published without human review under the in-job-validation model
+      # (SAFE_PUBLISHING_RULES.md, owner-approved 2026-07-28).
+      #
+      # It reaches main through a branch and an auto-merged PR rather than a
+      # direct push: since 2026-09-11 `main` requires the `test-mvp` status
+      # check on whatever commit is published, and a commit built on this runner
+      # carries no checks at all. The publish step below earns that check by
+      # dispatching the real validation workflow against the pushed branch. The
+      # suite here is still the pre-push gate — a branch is never pushed on red.
       - name: Validate before commit
         if: steps.diff.outputs.changed == 'true'
         run: |
@@ -212,15 +224,27 @@ jobs:
           public/data/guides-content.json
           PROJECT_STATUS.md
 
-      - name: Commit and push to main
+      - name: Publish through a validated, auto-merged PR
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
+          set -euo pipefail
           TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/verified-dates-${TODAY}"
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
           git add public/data/artists.json data/guide-source-link-checks.json public/data/guides-content.json PROJECT_STATUS.md
           git commit -m "Bump verification timestamps (${TODAY})"
-          git push origin HEAD:main
+          git push -u origin "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" \
+          PR_TITLE="Bump verification timestamps (${TODAY})" \
+          PR_LABEL="automation:verified-dates" \
+          PR_AUTO_MERGE=true \
+          PR_BODY=$'## What this PR does\n- Moves `last_verified_at` forward in `public/data/artists.json` for artists whose URL liveness check and Ticketmaster Discovery diff both came back clean in this run. Nothing else in the record is touched.\n- Records the day each guide\'s cited source URL was last confirmed to resolve (`data/guide-source-link-checks.json`) and rebuilds `public/data/guides-content.json` from it. 401/403/429 counts as blocked, not verified.\n- Refreshes the generated per-artist table in `PROJECT_STATUS.md` so it keeps step with the timestamps above.\n\n## Explicit non-changes\n- No event, provider, price or affiliate data. No `content/**`.\n- No published or updated date moves: the run asserts `functions/_guide-routes.generated.js` and `data/content-provenance.json` are untouched before this PR is opened.\n\n## Validation\n- `npm run test:mvp` and `git diff --check` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
+          node scripts/open-automation-pr.mjs
 
   # The generated PROJECT_STATUS.md figures — route surface and empty-board list
   # — move with the calendar, not with a data edit: a date passing is enough to
@@ -237,7 +261,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [audit, verification-dates]
     if: always() && inputs.dry_run != true
-    timeout-minutes: 15
+    # As above: room for the dispatched Prelaunch Validation run this job waits
+    # on before its PR can merge.
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -253,16 +279,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # verification-dates may have pushed to main minutes ago in this same run.
+      # verification-dates may have merged its PR minutes ago in this same run.
       # This job checked out the run's original SHA, so regenerating from that
       # tree would recompute the per-artist table from PRE-bump artists.json and
-      # push a commit that undoes the bump's own record of itself. Starting from
-      # the tip removes that race entirely — and removes the need to rebase a
-      # commit built on a stale base.
+      # publish a commit that undoes the bump's own record of itself. Starting
+      # from the tip removes that race entirely — and keeps this job's PR
+      # conflict-free with the one that just merged.
       - name: Sync to the tip of main
         run: |
+          TODAY=$(date -u +%Y-%m-%d)
           git fetch origin main
-          git checkout -B status-figures origin/main
+          git checkout -B "automation/status-figures-${TODAY}" origin/main
 
       - name: Refresh generated figures
         run: |
@@ -288,8 +315,8 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Same in-job-validation model as every other direct-to-main write here:
-      # if anything fails, nothing is pushed.
+      # Same in-job-validation model as every other automated write here: if
+      # anything fails, no branch is pushed and no PR is opened.
       - name: Validate before commit
         if: steps.diff.outputs.changed == 'true'
         run: |
@@ -300,16 +327,32 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         run: ./.github/workflows/scripts/assert-diff-allowlist.sh PROJECT_STATUS.md
 
-      - name: Commit and push to main
+      # Published as an auto-merged PR rather than a direct push: `main` requires
+      # the `test-mvp` check on the published commit, which only a real workflow
+      # run against this branch can produce. The squash-merge also absorbs any
+      # commit that landed on main while this job was validating, so there is no
+      # fast-forward race left to lose.
+      - name: Publish through a validated, auto-merged PR
         if: steps.diff.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
+          set -euo pipefail
           TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/status-figures-${TODAY}"
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          # Named again rather than assumed: the sync step above named the
+          # branch from its own clock, and a run straddling midnight UTC would
+          # otherwise push a ref that does not exist.
+          git checkout -B "$BRANCH"
           git add PROJECT_STATUS.md
           git commit -m "Refresh generated status figures (${TODAY})"
-          # HEAD is origin/main plus this one commit (see "Sync to the tip"), so
-          # this is a fast-forward. If someone pushed in between it is rejected
-          # rather than forced — the writers are idempotent, so the next run
-          # simply redoes the work.
-          git push origin HEAD:main
+          git push -u origin "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" \
+          PR_TITLE="Refresh generated status figures (${TODAY})" \
+          PR_LABEL="automation:status-figures" \
+          PR_AUTO_MERGE=true \
+          PR_BODY=$'## What this PR does\n- Regenerates the machine-owned figures in `PROJECT_STATUS.md`: the data-derived counts, the calendar-derived indexable route surface, and the empty-board list. These move with the calendar, so they drift on days nothing else changes.\n\n## Explicit non-changes\n- `PROJECT_STATUS.md` only. No data, content, routing or provider files.\n- The regenerated evidence reports under `reports/indexable-surface/` are gitignored and are not part of this diff.\n\n## Validation\n- `npm run test:mvp` and `git diff --check` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
+          node scripts/open-automation-pr.mjs

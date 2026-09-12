@@ -108,22 +108,34 @@ Missing credentials must cause a safe no-op or explicit failure, never guessed d
 
 ### Repository write capability
 
-Direct-to-`main` capability exists in exactly three workflows, each narrowly
-gated. Everything else is report-only or opens a review-only PR that never
-auto-merges. **Widening any of these is an owner decision, not a maintenance
-change.**
+No workflow pushes to `main`. Since 2026-09-11 a repository ruleset requires
+the `test-mvp` status check on whatever commit is published, by push or by
+merge, so every write-capable lane publishes the same way: commit to a branch,
+push it, open a PR, earn the check on that PR head, squash-merge. **Widening
+what any of these may write is an owner decision, not a maintenance change.**
 
-| Workflow | Writes to `main` | Gate |
+How the check is earned matters, because a PR opened with the Actions token
+raises no `pull_request` run of its own. Each lane dispatches the real
+Prelaunch Validation workflow against its pushed branch and waits for the
+verdict on that exact SHA (`scripts/lib/required-check.mjs`, reachable by hand
+as `npm run required-check:earn -- --branch <branch>`). The merge happens only
+on green. Publishing a hand-made check run of that name would satisfy the
+ruleset without running anything, and is deliberately not implemented.
+
+Write-capable lanes and what each may put on `main`:
+
+| Workflow | Writes | Gate |
 |---|---|---|
-| `nightly-data-sync.yml` | Lossless factual event fields only (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)) | In-job validation |
-| `daily-audit.yml` | `last_verified_at` bumps on clean artists only | In-job validation (owner-approved 2026-07-28, replacing the former human-review PR flow) |
+| `nightly-data-sync.yml` | Lossless factual event fields only (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)) | In-job validation, then the required check on the PR head |
+| `daily-audit.yml` (`verification-dates` job) | `last_verified_at` bumps on clean artists, the guide-source link record and the `guides-content.json` rebuilt from it | In-job validation (owner-approved 2026-07-28, replacing the former human-review PR flow), then the required check |
 | `daily-audit.yml` (`status-figures` job) | `PROJECT_STATUS.md` alone — per-artist table, route surface, empty-board list | Same in-job validation. Touches no data record, and runs whatever the audit job's outcome, because those figures move with the calendar rather than with a commit |
 | `content-build.yml` | Four compiled content files: `public/data/blog-content.json`, `public/data/guides-content.json`, `functions/_guide-routes.generated.js`, `data/content-provenance.json` | `test:mvp`, `schema:validate`, the indexable-surface check and `git diff --check` all pass in-job, then `assert-diff-allowlist.sh` proves the working tree changed nothing outside those four paths. A validation failure leaves `main` unchanged |
+| `tm-new-shows-pr.yml`, `seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, `impact-marketplace-provider-sync.yml` (scheduled runs only) | Their own documented event and provider-link scopes | Each lane's in-run suite, then the required check |
 
-Auto-merge-capable (PR, not direct push): `tm-new-shows-pr.yml`,
-`seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only —
-`impact-marketplace-provider-sync.yml`. Each merges only after its in-run
-validation suite passes; a failed merge leaves the PR open for a human.
+A withheld merge — a red or missing check, a conflict, a rejected merge —
+leaves the PR open for a human, comments the reason on it, and fails the run.
+It is never forced, and it is never silent: a lane that cannot publish goes
+red, which is how `automation-health.yml` sees it.
 
 Writes to neither the repository nor `main`: the price-snapshot workflows
 (`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`)
@@ -131,10 +143,12 @@ write only to D1. `indexnow-ping.yml` writes to neither, submitting
 already-public sitemap URLs to an external endpoint and asserting a clean
 working tree at the end.
 
-**Trigger asymmetry worth knowing:** a merged PR's push fires `indexnow-ping.yml`,
-but a workflow's own `git push origin HEAD:main` does not — so the three
-direct-push lanes above produce no ping and rely on the next merge or a manual
-dispatch.
+**Trigger asymmetry worth knowing:** `indexnow-ping.yml` fires on a push to
+`main` made by a person. Anything the Actions token does — including a lane
+squash-merging its own PR — raises no further workflow runs, so the automated
+lanes still produce no ping and rely on the next human merge or a manual
+dispatch. That same rule is why the lanes must dispatch their own validation
+run: it is one of the two events the token is still allowed to raise.
 
 ## Provider snapshot operations
 

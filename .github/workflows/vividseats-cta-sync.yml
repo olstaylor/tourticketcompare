@@ -59,6 +59,9 @@ permissions:
   contents: write
   pull-requests: write
   issues: write
+  # Earning the `test-mvp` required status check on the PR head means
+  # dispatching Prelaunch Validation against the pushed branch.
+  actions: write
 
 concurrency:
   group: vividseats-cta-sync
@@ -67,7 +70,7 @@ concurrency:
 jobs:
   vividseats-cta-sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4

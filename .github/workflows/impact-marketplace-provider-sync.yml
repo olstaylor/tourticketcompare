@@ -36,6 +36,9 @@ permissions:
   contents: write
   pull-requests: write
   issues: write
+  # Earning the `test-mvp` required status check on the PR head means
+  # dispatching Prelaunch Validation against the pushed branch.
+  actions: write
 
 concurrency:
   group: impact-marketplace-provider-sync
@@ -44,7 +47,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     env:
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.

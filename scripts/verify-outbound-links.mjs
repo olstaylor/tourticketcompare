@@ -42,7 +42,8 @@ const HEAD_RETRY_STATUSES = new Set([404, 405, 410, 501, ...BLOCKED_STATUSES]);
 //
 // Both are env-tunable because the busiest host is now the bound on the whole
 // step: the critical path is (URLs on the busiest host / PER_HOST) x per-URL
-// latency, currently 961 / 3 x 0.51s, about 2.7 minutes.
+// latency, currently 1,120 / 3 x 0.51s, about 3.2 minutes — the Ticketmaster
+// URLs still in scope once past-event ones are skipped (1,297 before that).
 const PER_HOST_CONCURRENCY = Math.max(1, Number.parseInt(process.env.LINK_CHECK_PER_HOST_CONCURRENCY || '3', 10));
 const GLOBAL_CONCURRENCY = Math.max(1, Number.parseInt(process.env.LINK_CHECK_CONCURRENCY || '24', 10));
 const INCLUDE_EXPIRED = process.env.LINK_CHECK_INCLUDE_EXPIRED === '1';

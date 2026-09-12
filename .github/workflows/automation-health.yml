@@ -1,6 +1,8 @@
 name: Automation health
 
-# Outside observer for the scheduled write lanes. Three things no lane can see
+# Outside observer for every scheduled lane — the write and price lanes, and the
+# three sensors, this one included: a watcher nobody watches leaves a board that
+# simply stops changing, which reads as a healthy fleet. Three things no lane can see
 # about itself: a run that failed (nothing in the repository reported it — the
 # lanes write their rolling issues only on success), a scheduled tick GitHub
 # never delivered (docs/OPERATIONS.md -> Price snapshot cadence records a lane
@@ -44,7 +46,7 @@ on:
     types: [completed]
   # The poll is what catches a lane that has stopped being invoked at all, which
   # by definition fires no workflow_run event. Four times a day is enough for a
-  # 6h staleness threshold and costs nine API reads per run.
+  # 6h staleness threshold and costs twelve API reads per run.
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:

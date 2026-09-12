@@ -74,7 +74,30 @@ export const WATCHED_LANES = [
   { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1 },
   { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 },
   { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 },
-  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 }
+  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2 },
+  // The three sensors, this one included. Watching them was missing when this
+  // shipped, and a watcher nobody watches is the gap that hides every other
+  // gap: if this workflow stops running, the board it writes simply stops
+  // changing, and a stale green board reads exactly like a healthy fleet.
+  //
+  // Self-watching is partial by construction and worth saying plainly: a run
+  // that dies cannot report itself. What it does catch is the case that
+  // actually happens — a sensor that has stopped being invoked, or that failed
+  // on an earlier tick and is seen by a later one.
+  //
+  // The windows are set from measured delivery, not from the cron. GitHub
+  // throttles frequent schedules hard: the `*/15` guard really arrives every
+  // 2-5 hours (measured 2026-09-11/12: gaps of 3h41, 4h57, 4h37), and this
+  // workflow's own `*/6h` poll landed 2h44 to 4h37 late on each of its first
+  // three ticks. 12h therefore absorbs one dropped tick plus ordinary lateness
+  // for both, while still catching a schedule that has genuinely stopped.
+  //
+  // None carry `eventDriven`: subscribing this workflow to its own completion
+  // would recurse, and the freshness lane is push-driven on main, where a
+  // dropped tick is already covered by its daily backstop.
+  { file: "automation-health.yml", name: "Automation health", cadence: "every 6h (:17) + lane completions", maxAgeHours: 12, eventDriven: false, failuresBeforeIncident: 1 },
+  { file: "generated-freshness.yml", name: "Generated freshness", cadence: "daily 04:40 + push to main", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1 },
+  { file: "pr-validation-head-guard.yml", name: "PR validation head guard", cadence: "every 15m (delivered every 2-5h) + PR events", maxAgeHours: 12, eventDriven: false, failuresBeforeIncident: 1 }
 ];
 
 // A cancelled or skipped run is not a failure, but it is not proof of health
@@ -448,6 +471,22 @@ if (SELF_TEST) {
   const present = new Set(await readdir(workflowDir));
   const missing = WATCHED_LANES.map((lane) => lane.file).filter((file) => !present.has(file));
   assert.deepEqual(missing, [], `WATCHED_LANES names workflow files that do not exist: ${missing.join(", ")}`);
+
+  // The converse, which is the gap this sensor shipped with: a scheduled
+  // workflow nobody watches. Coverage was a list maintained by hand, so the two
+  // sensors added the day after this one — and this one itself — were simply
+  // never added to it, and the board read as full coverage while three lanes
+  // ran unobserved. Every workflow carrying a `schedule:` trigger must appear
+  // in WATCHED_LANES; there is deliberately no exclusion list, so adding a
+  // scheduled workflow fails here until it is either watched or unscheduled.
+  const scheduledFiles = [];
+  for (const file of [...present].filter((name) => name.endsWith(".yml")).sort()) {
+    const source = await readFile(new URL(file, workflowDir), "utf8");
+    if (/^[ \t]*schedule:[ \t]*$/m.test(source)) scheduledFiles.push(file);
+  }
+  const watchedFiles = new Set(WATCHED_LANES.map((lane) => lane.file));
+  const unwatched = scheduledFiles.filter((file) => !watchedFiles.has(file));
+  assert.deepEqual(unwatched, [], `scheduled workflows missing from WATCHED_LANES: ${unwatched.join(", ")}`);
 
   // The display names are what this sensor's own workflow_run trigger matches
   // on, and GitHub matches them by string with no error when one is wrong. Pin

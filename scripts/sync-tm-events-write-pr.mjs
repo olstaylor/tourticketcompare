@@ -28,11 +28,14 @@
 //      job summary and the PR body). Diagnostics only: they are derived from
 //      the run and change nothing about what is published.
 //   4. Runs the full validation suite, then opens a branch + PR.
-//      With --auto-merge the PR is
-//      squash-merged immediately (owner-approved 2026-07-07): validation
-//      already ran in-process on exactly this content, and bot-opened PRs do
-//      not trigger pull_request CI. A failed merge leaves the PR open for a
-//      human — never forced.
+//      With --auto-merge the PR is squash-merged once the `test-mvp` required
+//      status check has been earned on its head (owner-approved 2026-07-07 for
+//      the merge itself): validation already ran in-process on exactly this
+//      content, and because a bot-opened PR triggers no pull_request CI, the
+//      real Prelaunch Validation workflow is dispatched against the branch and
+//      waited on (scripts/lib/required-check.mjs) so `main`'s ruleset has a
+//      verdict to read. A red or missing verdict, or a failed merge, leaves the
+//      PR open for a human and fails the run — never forced, never silent.
 //
 // Default mode is PREVIEW: it emits the batch and runs apply-artists in
 // preview (no --write), touching no tracked data and creating no PR. Only
@@ -65,6 +68,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { slugify } from "./lib/slugify.mjs";
+import { earnRequiredCheck } from "./lib/required-check.mjs";
 import {
   buildOutcomesArtifact,
   buildOutcomesMarkdown,
@@ -736,9 +740,37 @@ async function main() {
     // Owner-approved narrow auto-publish exception (2026-07-07, see
     // SAFE_PUBLISHING_RULES.md): new shows of registry-verified, sync-enabled
     // artists may merge without a human once the full validation suite has
-    // passed in this same process on exactly this content. Bot-opened PRs do
-    // not trigger pull_request CI, so the in-run suite above IS the check.
+    // passed in this same process on exactly this content.
     // Withheld rows were never written; tour_name stays human-gated.
+    //
+    // `main` additionally requires the `test-mvp` check on the commit being
+    // published, and a bot-opened PR raises no pull_request run to produce it,
+    // so the real validation workflow is dispatched against this branch and
+    // waited on before the merge is attempted.
+    const leaveForHuman = async (reason) => {
+      coverage.pr.merged = false;
+      await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
+      console.error(`PR #${pr.number} was not merged: ${reason}`);
+      await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/comments`, {
+        method: "POST",
+        body: { body: `Auto-merge withheld (\`${String(reason).slice(0, 300)}\`). The in-run validation suite passed, but this PR now needs a human to resolve and merge it.` },
+      }).catch((commentErr) => {
+        console.warn(`Could not comment on PR #${pr.number}: ${commentErr.message}`);
+      });
+      return 1;
+    };
+
+    const verdict = await earnRequiredCheck({
+      request: (method, pathname, body) => githubApi(pathname, { method, body }),
+      repo: `${owner}/${name}`,
+      branch,
+      sha: pr.head.sha,
+    });
+    if (!verdict.ok) {
+      return leaveForHuman(`${verdict.detail}${verdict.url ? ` (${verdict.url})` : ""}`);
+    }
+    console.log(`Required check earned on ${pr.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
+
     try {
       await githubApi(`/repos/${owner}/${name}/pulls/${pr.number}/merge`, {
         method: "PUT",
@@ -751,16 +783,9 @@ async function main() {
         console.warn(`Could not delete merged branch ${branch}: ${err.message}`);
       });
     } catch (err) {
-      // Fallback path: never force it. Leave the PR open for a human and say why.
-      coverage.pr.merged = false;
-      await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
-      console.warn(`Auto-merge of PR #${pr.number} failed: ${err.message}`);
-      await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/comments`, {
-        method: "POST",
-        body: { body: `Auto-merge failed (\`${String(err.message || err).slice(0, 300)}\`). The in-run validation suite passed, but this PR now needs a human to resolve and merge it.` },
-      }).catch((commentErr) => {
-        console.warn(`Could not comment on PR #${pr.number}: ${commentErr.message}`);
-      });
+      // Fallback path: never force it. Leave the PR open for a human, say why,
+      // and fail the run so a stuck PR is reported instead of sitting unseen.
+      return leaveForHuman(err.message || String(err));
     }
   }
   return 0;

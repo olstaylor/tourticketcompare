@@ -4,8 +4,9 @@ name: Nightly data sync
 #
 # Auto-commits lossless date/time + venue/city changes pulled from the
 # Ticketmaster Discovery API for events that already exist in events.json, then
-# regenerates the partitions and pushes to main (Cloudflare
-# Pages auto-deploys). Anything that needs human judgement — brand-new shows,
+# regenerates the partitions and publishes to main through an auto-merged PR
+# whose head has passed the required validation check (Cloudflare Pages
+# auto-deploys on merge). Anything that needs human judgement — brand-new shows,
 # deletions, cancellations, tour names — is NOT auto-published; it is surfaced
 # in the rolling "automation:data-sync" issue / handled by the discovery PR flow.
 #
@@ -31,6 +32,10 @@ on:
 permissions:
   contents: write
   issues: write
+  pull-requests: write
+  # Earning the `test-mvp` required status check means dispatching Prelaunch
+  # Validation against the pushed branch.
+  actions: write
 
 concurrency:
   group: nightly-data-sync
@@ -39,7 +44,8 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # Room for the dispatched Prelaunch Validation run the publish step waits on.
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -136,15 +142,32 @@ jobs:
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
         run: npm run test:mvp
 
-      - name: Commit and push to main
+      # Published as an auto-merged PR, not a direct push: since 2026-09-11 `main`
+      # requires the `test-mvp` status check on the commit being published, and a
+      # commit built on this runner carries none. The helper dispatches the real
+      # validation workflow against the pushed branch, waits for its verdict, and
+      # merges only on green — the in-job suite above stays the pre-push gate.
+      - name: Publish through a validated, auto-merged PR
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true' && inputs.dry_run != true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
+          set -euo pipefail
           TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/nightly-data-sync-${TODAY}"
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
           git add public/data/events.json public/data/events public/index.html PROJECT_STATUS.md
           git commit -m "Nightly data sync: refresh tracked event dates/venues (${TODAY})"
-          git push origin HEAD:main
+          git push -u origin "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" \
+          PR_TITLE="Nightly data sync: refresh tracked event dates/venues (${TODAY})" \
+          PR_LABEL="automation:data-sync" \
+          PR_AUTO_MERGE=true \
+          PR_BODY=$'## What this PR does\n- Applies lossless date/time and venue/city corrections from the Ticketmaster Discovery API to events that are already tracked in `public/data/events.json`, then regenerates the partitions and the homepage fallback.\n- Only events with zero review blockers of their own are updated; blocked and review-only rows are surfaced in the rolling `automation:data-sync` issue and left untouched here.\n\n## Explicit non-changes\n- No new shows, deletions, cancellations or `tour_name` edits — those stay human-gated.\n- No provider, price, redirect or affiliate logic.\n\n## Validation\n- `events:validate:prod`, `events:validate:partitions` and `npm run test:mvp` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
+          node scripts/open-automation-pr.mjs
 
       - name: Post review issue (review-only blockers)
         if: always() && inputs.dry_run != true

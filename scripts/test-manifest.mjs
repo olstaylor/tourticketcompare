@@ -47,6 +47,7 @@ export const STEPS = [
   { id: "pr-validation-heads:self-test",          lane: "units",  run: "node scripts/check-pr-validation-heads.mjs --self-test" },
   { id: "generated:freshness:self-test",         lane: "units",  run: "npm run generated:freshness:self-test" },
   { id: "queue:materialize:self-test",           lane: "units",  run: "npm run queue:materialize:self-test" },
+  { id: "required-check:self-test",              lane: "units",  run: "npm run required-check:self-test" },
   { id: "validate:artist-providers",              lane: "quick",  run: "npm run validate:artist-providers" },
   { id: "validate:cta-provider-state",            lane: "quick",  run: "npm run validate:cta-provider-state" },
   { id: "validate:provider-allowlists",           lane: "quick",  run: "npm run validate:provider-allowlists" },

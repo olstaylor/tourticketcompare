@@ -23,9 +23,17 @@ TICKETLIQUIDATOR_PUBLIC_ENABLED=false
 TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED=false
 STUBHUB_INTERNATIONAL_PUBLIC_ENABLED=false
 STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED=false
-# The SeatGeek publisher AccountSID/AuthToken are the only approved Impact
-# credentials for every active affiliate provider. Retired Ticketmaster
-# IMPACT_ACCOUNT_SID / IMPACT_AUTH_TOKEN values are deliberately ignored.
+# The SeatGeek publisher AccountSID/AuthToken below are the ONLY credentials
+# /api/out will use, for every affiliate lane: SeatGeek, Vivid Seats and each
+# marketplace provider all read IMPACT_SEATGEEK_ACCOUNT_SID /
+# IMPACT_SEATGEEK_AUTH_TOKEN (with their own campaign/program id), and
+# impactConfig() deliberately never falls back to IMPACT_ACCOUNT_SID /
+# IMPACT_AUTH_TOKEN. Set this pair, or every outbound affiliate redirect stays
+# unmonetized. Ticketmaster has no Impact program at all.
+# IMPACT_ACCOUNT_SID / IMPACT_AUTH_TOKEN are a separate, narrower thing: read
+# only by /api/shows and /api/health config detection and by the Vivid Seats
+# price-snapshot tooling. They monetize nothing and do not substitute for the
+# pair above. The retired pair is IMPACT_TICKETMASTER_*.
 IMPACT_SEATGEEK_ACCOUNT_SID=your_seatgeek_account_sid_here
 IMPACT_SEATGEEK_AUTH_TOKEN=your_seatgeek_auth_token_here
 # Provider routes use their own campaign/program id or pxf.io base URL.

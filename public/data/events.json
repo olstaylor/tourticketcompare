@@ -86682,12 +86682,20 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8257680",
+        "url": "https://www.ticketliquidator.com/tickets/8257680/Harry-Styles-tickets-Fri-Apr-23-2027-Rose-Bowl-Stadium-Pasadena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3NPi4Df",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257680"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257680",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257680/Harry-Styles-tickets-Fri-Apr-23-2027-Rose-Bowl-Stadium-Pasadena"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b",
@@ -86743,12 +86751,20 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8257681",
+        "url": "https://www.ticketliquidator.com/tickets/8257681/Harry-Styles-tickets-Sat-Apr-24-2027-Rose-Bowl-Stadium-Pasadena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3NtnU7b",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257681"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257681",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257681/Harry-Styles-tickets-Sat-Apr-24-2027-Rose-Bowl-Stadium-Pasadena"
   },
   {
     "id": "tm-harry-styles-2027-toronto-1a8zkftgkdpce50",
@@ -87761,12 +87777,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090607",
+        "url": "https://www.ticketliquidator.com/tickets/8090607/BTS-tickets-Sun-Feb-21-2027-Accor-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65QFIK-s",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090607"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090607",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090607/BTS-tickets-Sun-Feb-21-2027-Accor-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-burswood-1apzkfbgkdn2ves",
@@ -87822,12 +87846,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245500",
+        "url": "https://www.ticketliquidator.com/tickets/8245500/Bruno-Mars-tickets-Sat-Feb-13-2027-Optus-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZkfbGkdn2VES",
     "timezone": "Australia/Perth",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245500"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245500",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245500/Bruno-Mars-tickets-Sat-Feb-13-2027-Optus-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu",
@@ -88466,12 +88498,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018182",
+        "url": "https://www.ticketliquidator.com/tickets/8018182/Gracie-Abrams-tickets-Mon-Apr-19-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65nd0zYS",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018182"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018182",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018182/Gracie-Abrams-tickets-Mon-Apr-19-2027-3Arena-Dublin"
   },
   {
     "id": "tm-gracie-abrams-2027-dublin-17kzv0g65ndpfyh",
@@ -88527,12 +88567,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018183",
+        "url": "https://www.ticketliquidator.com/tickets/8018183/Gracie-Abrams-tickets-Tue-Apr-20-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65ndPFYH",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018183"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018183",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018183/Gracie-Abrams-tickets-Tue-Apr-20-2027-3Arena-Dublin"
   },
   {
     "id": "tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed",
@@ -88641,12 +88689,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7902927",
+        "url": "https://www.ticketliquidator.com/tickets/7902927/Niall-Horan-tickets-Fri-Nov-13-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avOZ_6roFJZd576",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902927"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902927",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7902927/Niall-Horan-tickets-Fri-Nov-13-2026-3Arena-Dublin"
   },
   {
     "id": "tm-sombr-2027-co-dublin-1abzkf4gkd83jcw",
@@ -88808,12 +88864,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167532",
+        "url": "https://www.ticketliquidator.com/tickets/8167532/Teddy-Swims-tickets-Thu-Apr-8-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G626NgIhj",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167532"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167532",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167532/Teddy-Swims-tickets-Thu-Apr-8-2027-3Arena-Dublin"
   },
   {
     "id": "tm-five-finger-death-punch-2027-dublin-1avoz_fgkbmo2st",
@@ -89346,12 +89410,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239058",
+        "url": "https://www.ticketliquidator.com/tickets/8239058/TobyMac-tickets-Thu-Jan-28-2027-Crown-Coliseum-The-Crown-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_oJLFI-_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239058"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239058",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239058/TobyMac-tickets-Thu-Jan-28-2027-Crown-Coliseum-The-Crown-Center"
   },
   {
     "id": "tm-tobymac-2027-lexington-1apzkfbgker-a4j",
@@ -89407,12 +89479,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239059",
+        "url": "https://www.ticketliquidator.com/tickets/8239059/TobyMac-tickets-Fri-Jan-29-2027-Rupp-Arena-At-Central-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfbGkeR-a4J",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239059"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239059",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239059/TobyMac-tickets-Fri-Jan-29-2027-Rupp-Arena-At-Central-Bank-Center"
   },
   {
     "id": "tm-tobymac-2027-huntsville-1aozkfbgkdezfqd",
@@ -89574,12 +89654,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239062",
+        "url": "https://www.ticketliquidator.com/tickets/8239062/TobyMac-tickets-Thu-Feb-4-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oE_5n5H",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239062"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239062",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239062/TobyMac-tickets-Thu-Feb-4-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-tobymac-2027-sunrise-z7r9jz1aav8xe",
@@ -89635,12 +89723,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239108",
+        "url": "https://www.ticketliquidator.com/tickets/8239108/TobyMac-tickets-Fri-Feb-5-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8xe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239108"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239108",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239108/TobyMac-tickets-Fri-Feb-5-2027-Amerant-Bank-Arena"
   },
   {
     "id": "tm-tobymac-2027-orlando-1axzkf_gkdtkgpv",
@@ -89696,12 +89792,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239066",
+        "url": "https://www.ticketliquidator.com/tickets/8239066/TobyMac-tickets-Sat-Feb-6-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkf_GkdtKgPv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239066"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239066",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239066/TobyMac-tickets-Sat-Feb-6-2027-Kia-Center"
   },
   {
     "id": "tm-tobymac-2027-estero-vvg1vz_onusnh8",
@@ -89757,12 +89861,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239067",
+        "url": "https://www.ticketliquidator.com/tickets/8239067/TobyMac-tickets-Sun-Feb-7-2027-Hertz-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oNusnh8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239067"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239067",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239067/TobyMac-tickets-Sun-Feb-7-2027-Hertz-Arena"
   },
   {
     "id": "tm-tobymac-2027-pensacola-g5viz_o9zokbz",
@@ -89818,12 +89930,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239087",
+        "url": "https://www.ticketliquidator.com/tickets/8239087/TobyMac-tickets-Thu-Feb-11-2027-Pensacola-Bay-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_o9ZOkbz",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239087"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239087",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239087/TobyMac-tickets-Thu-Feb-11-2027-Pensacola-Bay-Center"
   },
   {
     "id": "tm-tobymac-2027-sugar-land-z7r9jz1aav8op",
@@ -89932,12 +90052,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239110",
+        "url": "https://www.ticketliquidator.com/tickets/8239110/TobyMac-tickets-Sat-Feb-13-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Of",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239110"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239110",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239110/TobyMac-tickets-Sat-Feb-13-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
   },
   {
     "id": "tm-tobymac-2027-columbus-vv1aazkfbgkdjr-4o",
@@ -89993,12 +90121,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239088",
+        "url": "https://www.ticketliquidator.com/tickets/8239088/TobyMac-tickets-Thu-Feb-18-2027-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfbGkdjr-4o",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239088"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239088",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239088/TobyMac-tickets-Thu-Feb-18-2027-Nationwide-Arena"
   },
   {
     "id": "tm-tobymac-2027-norfolk-z7r9jz1aav8r3",
@@ -90054,12 +90190,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239111",
+        "url": "https://www.ticketliquidator.com/tickets/8239111/TobyMac-tickets-Sun-Feb-21-2027-Chartway-Arena-at-Ted-Constant-Convocation-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8r3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239111"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239111/TobyMac-tickets-Sun-Feb-21-2027-Chartway-Arena-at-Ted-Constant-Convocation-Center"
   },
   {
     "id": "tm-tobymac-2027-jacksonville-1axzkf_gkdts4j7",
@@ -90115,12 +90259,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239091",
+        "url": "https://www.ticketliquidator.com/tickets/8239091/TobyMac-tickets-Thu-Feb-25-2027-VyStar-Veterans-Memorial-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkf_Gkdts4J7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239091"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239091",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239091/TobyMac-tickets-Thu-Feb-25-2027-VyStar-Veterans-Memorial-Arena"
   },
   {
     "id": "tm-tobymac-2027-nashville-g5viz_oeqedtw",
@@ -90176,12 +90328,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239092",
+        "url": "https://www.ticketliquidator.com/tickets/8239092/TobyMac-tickets-Fri-Feb-26-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oEqedtw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239092"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239092/TobyMac-tickets-Fri-Feb-26-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-tobymac-2027-duluth-vvg1zz_oxyi5ps",
@@ -90237,12 +90397,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239093",
+        "url": "https://www.ticketliquidator.com/tickets/8239093/TobyMac-tickets-Sat-Feb-27-2027-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_oxYI5pS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239093"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239093",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239093/TobyMac-tickets-Sat-Feb-27-2027-Gas-South-Arena"
   },
   {
     "id": "tm-tobymac-2027-knoxville-g5viz_oeoyvqw",
@@ -90298,12 +90466,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239094",
+        "url": "https://www.ticketliquidator.com/tickets/8239094/TobyMac-tickets-Sun-Feb-28-2027-Thompson-Boling-Arena-at-Food-City-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oEoYvqW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239094"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239094",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239094/TobyMac-tickets-Sun-Feb-28-2027-Thompson-Boling-Arena-at-Food-City-Center"
   },
   {
     "id": "tm-tobymac-2027-toledo-vv1afzkf_gkeg66aj",
@@ -90359,12 +90535,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239097",
+        "url": "https://www.ticketliquidator.com/tickets/8239097/TobyMac-tickets-Thu-Mar-4-2027-Huntington-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkf_Gkeg66Aj",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239097"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239097",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239097/TobyMac-tickets-Thu-Mar-4-2027-Huntington-Center"
   },
   {
     "id": "tm-tobymac-2027-fishers-vv1aazkf4gkdkqmmm",
@@ -90420,12 +90604,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239099",
+        "url": "https://www.ticketliquidator.com/tickets/8239099/TobyMac-tickets-Fri-Mar-5-2027-Fishers-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkf4GkdkqmMm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239099"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239099",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239099/TobyMac-tickets-Fri-Mar-5-2027-Fishers-Event-Center"
   },
   {
     "id": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",
@@ -90481,12 +90673,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239112",
+        "url": "https://www.ticketliquidator.com/tickets/8239112/TobyMac-tickets-Sat-Mar-6-2027-Show-Me-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8-F",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239112"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239112",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239112/TobyMac-tickets-Sat-Mar-6-2027-Show-Me-Center"
   },
   {
     "id": "tm-tobymac-2027-grand-rapids-vv1afzkfbgkdx_n_v",
@@ -90542,12 +90742,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239100",
+        "url": "https://www.ticketliquidator.com/tickets/8239100/TobyMac-tickets-Sun-Mar-7-2027-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfbGkdx_n_V",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239100"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239100",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239100/TobyMac-tickets-Sun-Mar-7-2027-Van-Andel-Arena"
   },
   {
     "id": "tm-tobymac-2027-austin-g5diz_oelxrxd",
@@ -90603,12 +90811,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239102",
+        "url": "https://www.ticketliquidator.com/tickets/8239102/TobyMac-tickets-Thu-Mar-11-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_oELxrXd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239102"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239102",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239102/TobyMac-tickets-Thu-Mar-11-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-tobymac-2027-lubbock-z7r9jz1aav8o_",
@@ -90664,12 +90880,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239113",
+        "url": "https://www.ticketliquidator.com/tickets/8239113/TobyMac-tickets-Sat-Mar-13-2027-United-Supermarkets-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8O_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239113"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239113",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239113/TobyMac-tickets-Sat-Mar-13-2027-United-Supermarkets-Arena"
   },
   {
     "id": "tm-tobymac-2027-rockford-vv1a7zkfpgkdtiktq",
@@ -90725,12 +90949,20 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238872",
+        "url": "https://www.ticketliquidator.com/tickets/8238872/TobyMac-tickets-Fri-Mar-19-2027-BMO-Center-Rockford",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfpGkdTIKtq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238872"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238872",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238872/TobyMac-tickets-Fri-Mar-19-2027-BMO-Center-Rockford"
   },
   {
     "id": "tm-tobymac-2027-saint-louis-vv1akzkf_gkdu8agp",

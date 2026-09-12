@@ -3060,11 +3060,19 @@
         "verified": true,
         "last_verified_at": "2026-09-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7902927",
+        "url": "https://www.ticketliquidator.com/tickets/7902927/Niall-Horan-tickets-Fri-Nov-13-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-09-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avOZ_6roFJZd576",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902927"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902927",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7902927/Niall-Horan-tickets-Fri-Nov-13-2026-3Arena-Dublin"
   }
 ]

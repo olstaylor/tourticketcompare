@@ -30,6 +30,7 @@ import {
   fingerprintFor,
   fingerprintFromBody,
   markerFor,
+  sourceFromBody,
   planQueue
 } from "./lib/work-queue.mjs";
 
@@ -391,6 +392,44 @@ if (SELF_TEST) {
   plan = planQueue({ findings: [a, b], existingIssues: [] });
   assert.equal(plan.create.length, 1);
 
+  // --- recovery is scoped to the sources actually read -----------------------
+  //
+  // The regression this pins: on 2026-09-12 the freshness workflow ran the
+  // materialiser with only --generated, saw no findings, and closed #948, #949
+  // and #950 — three live automation-health items for lanes that were still
+  // failing. The queue then reported nothing wrong while ingestion was stopped.
+  const healthIssue = { number: 948, state: "open", body: buildPayload(a).body };
+  assert.equal(sourceFromBody(healthIssue.body), "automation-health");
+
+  // A run that read only generated-freshness must not touch it.
+  let scopedPlan = planQueue({ findings: [], existingIssues: [healthIssue], activeSources: ["generated-freshness"] });
+  assert.equal(scopedPlan.close.length, 0, "a run must never close another source's issue");
+  assert.equal(scopedPlan.hold.length, 0, "and must not hold it either — it is simply not this run's business");
+
+  // The run that does read that source still closes it when it has cleared.
+  scopedPlan = planQueue({ findings: [], existingIssues: [healthIssue], activeSources: ["automation-health"] });
+  assert.equal(scopedPlan.close.length, 1);
+
+  // Several sources in one run scope to all of them.
+  const freshIssue = { number: 960, state: "open", body: buildPayload(staleFindings[0]).body };
+  assert.equal(sourceFromBody(freshIssue.body), "generated-freshness");
+  scopedPlan = planQueue({
+    findings: [],
+    existingIssues: [healthIssue, freshIssue],
+    activeSources: ["automation-health", "generated-freshness"]
+  });
+  assert.equal(scopedPlan.close.length, 2);
+
+  // An issue whose source cannot be read is left alone rather than closed on a
+  // guess, even when its source would otherwise be in scope.
+  const sourceless = { number: 961, state: "open", body: `${markerFor("aaaaaaaaaaaaaaaa")}\nno machine-readable block` };
+  assert.equal(sourceFromBody(sourceless.body), null);
+  assert.equal(planQueue({ findings: [], existingIssues: [sourceless], activeSources: ["automation-health"] }).close.length, 0);
+
+  // Scoping must not affect create, update or reopen — only closure.
+  assert.equal(planQueue({ findings: [a], existingIssues: [], activeSources: ["generated-freshness"] }).create.length, 1);
+  assert.equal(planQueue({ findings: [a], existingIssues: [healthIssue], activeSources: ["generated-freshness"] }).update.length, 1);
+
   // Recovery: the finding cleared, nothing in flight -> close.
   plan = planQueue({ findings: [], existingIssues: [issueFor(a)] });
   assert.equal(plan.close.length, 1);
@@ -471,7 +510,12 @@ async function main() {
   if (DRY_RUN) {
     // Everything above this point is pure, so the plan can be shown in full
     // without a token and without touching GitHub.
-    const plan = planQueue({ findings, existingIssues: [], openPullRequestBodies: [] });
+    const plan = planQueue({
+      findings,
+      existingIssues: [],
+      openPullRequestBodies: [],
+      activeSources: sources.map((s) => s.source)
+    });
     console.log(renderPlan(plan, sources));
     for (const entry of plan.create) {
       console.log(`\n${"=".repeat(72)}\nTITLE: ${entry.payload.title}\nLABELS: ${entry.payload.labels.join(", ")}\n${"-".repeat(72)}\n${entry.payload.body}`);
@@ -508,7 +552,14 @@ async function main() {
   // One call, used only to avoid closing a task somebody is mid-way through.
   const openPullRequestBodies = (await github("GET", "/pulls?state=open&per_page=100")).map((pr) => pr.body);
 
-  const plan = planQueue({ findings, existingIssues, openPullRequestBodies });
+  // Only the sources this run read may have their issues closed. Passing this is
+  // what stops one workflow's materialise step closing another's work items.
+  const plan = planQueue({
+    findings,
+    existingIssues,
+    openPullRequestBodies,
+    activeSources: sources.map((s) => s.source)
+  });
   console.log(renderPlan(plan, sources));
 
   for (const entry of plan.create) {

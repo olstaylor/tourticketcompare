@@ -13,12 +13,17 @@
 // Auto-merge first earns the `test-mvp` required status check on the PR head by
 // dispatching the real Prelaunch Validation workflow against the branch and
 // waiting for its verdict (scripts/lib/required-check.mjs). A PR opened with
-// the Actions token raises no `pull_request` run of its own, so without that
-// dispatch the required check never exists and the merge is rejected — which is
-// exactly how every lane silently stalled on 2026-09-12. The wait is also the
-// gate: a red verdict is never merged.
+// the Actions token raises no `pull_request` run that can ever reach a verdict,
+// so without that dispatch the required check never exists and the merge is
+// rejected — which is exactly how every lane silently stalled on 2026-09-12.
+// The wait is also the gate: a red verdict is never merged.
 
-import { earnRequiredCheck, DEFAULT_TIMEOUT_MS, DEFAULT_POLL_MS } from "./lib/required-check.mjs";
+import {
+  cancelStrandedPrValidation,
+  earnRequiredCheck,
+  DEFAULT_TIMEOUT_MS,
+  DEFAULT_POLL_MS,
+} from "./lib/required-check.mjs";
 
 const token = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
@@ -49,7 +54,10 @@ async function gh(method, path, payload) {
     body: payload ? JSON.stringify(payload) : undefined,
   });
   if (!res.ok) throw new Error(`GitHub API ${method} ${path} ${res.status}: ${await res.text()}`);
-  return res.status === 204 ? null : res.json();
+  // 202 Accepted (the run-cancel endpoint) answers with an empty body, which
+  // res.json() cannot parse. Read the text first and treat empty as no content.
+  const text = await res.text();
+  return text ? JSON.parse(text) : null;
 }
 
 const head = encodeURIComponent(`${owner}:${branch}`);
@@ -117,6 +125,7 @@ if (autoMerge) {
       commit_title: `${title} (#${pr.number})`,
     });
     console.log(`Auto-merged PR #${pr.number} (squash).`);
+    await cancelStrandedPrValidation({ request: gh, repo, sha: pr.head.sha });
     await gh("DELETE", `/repos/${repo}/git/refs/heads/${branch}`).catch((err) =>
       console.warn(`Could not delete merged branch ${branch}: ${err.message}`)
     );

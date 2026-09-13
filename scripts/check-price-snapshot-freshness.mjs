@@ -197,20 +197,66 @@ export function evaluateFreshness(payload, { flags = {}, lanes = PRICE_LANES } =
   };
 }
 
-async function probe(options) {
+// A 5xx, a 429 or a dropped connection is the origin declining to answer right
+// now; it is not evidence about price freshness. Production has an open
+// intermittent Pages CPU-limit incident (docs/OPERATIONS.md -> Known incidents)
+// and this probe asks for the expensive shape — every show, with prices — so it
+// is exactly the request that trips it: one 503 turned the 2026-09-13 05:19 run
+// red while the runs either side of it passed.
+//
+// Retrying a refusal is not weakening the check. A deterministic answer, 4xx or
+// a served body the check dislikes, is still a verdict on the first attempt,
+// and exhausting the attempts still fails the run.
+export const PROBE_ATTEMPTS = 3;
+export const PROBE_BACKOFF_MS = 5000;
+
+export function isRetriableProbeStatus(status) {
+  return status === 429 || (status >= 500 && status <= 599);
+}
+
+async function probe(options, deps = {}) {
+  const {
+    fetchImpl = fetch,
+    attempts = PROBE_ATTEMPTS,
+    backoffMs = PROBE_BACKOFF_MS,
+    sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)),
+    warn = console.warn
+  } = deps;
   const params = new URLSearchParams({
     includePrices: "true",
     priceProviders: "approved-marketplaces",
     limit: String(options.limit)
   });
   const url = `${options.baseUrl}/api/shows?${params.toString()}`;
-  const response = await fetch(url, { headers: { Accept: "application/json" } });
-  if (!response.ok) throw new Error(`price probe failed: HTTP ${response.status} from ${url}`);
-  const payload = await response.json();
-  if (payload?.includePrices !== true) {
-    throw new Error("price probe returned includePrices=false — the API refused the cache-only price request");
+
+  let lastError = null;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    let response;
+    try {
+      response = await fetchImpl(url, { headers: { Accept: "application/json" } });
+    } catch (err) {
+      // A transport failure is the same class of non-answer as a 503.
+      lastError = new Error(`price probe failed: ${err.message} from ${url}`);
+      if (attempt === attempts) break;
+      warn(`${lastError.message} — attempt ${attempt}/${attempts}, retrying.`);
+      await sleep(backoffMs * attempt);
+      continue;
+    }
+    if (!response.ok) {
+      lastError = new Error(`price probe failed: HTTP ${response.status} from ${url}`);
+      if (!isRetriableProbeStatus(response.status)) throw lastError;
+      if (attempt === attempts) break;
+      warn(`${lastError.message} — attempt ${attempt}/${attempts}, retrying.`);
+      await sleep(backoffMs * attempt);
+      continue;
+    }
+    const payload = await response.json();
+    if (payload?.includePrices !== true) {
+      throw new Error("price probe returned includePrices=false — the API refused the cache-only price request");
+    }
+    return payload;
   }
-  return payload;
+  throw lastError;
 }
 
 // The deployed flag values live in wrangler.toml [vars] (non-secret, repo
@@ -394,6 +440,76 @@ async function selfTest() {
   );
   assert.equal(scheduledSlugsIn("on:\n  workflow_dispatch:\n").size, 0);
   assert.equal(scheduledSlugsIn("on:\n  schedule:\n    - cron: '0 * * * *'\n"), null);
+
+  // The probe's retry contract. A refusal is retried and can still succeed; a
+  // deterministic answer is a verdict at once; exhausting the attempts fails.
+  const body = (payload) => ({ ok: true, status: 200, json: async () => payload });
+  const priced = { includePrices: true, shows: [] };
+
+  let calls = 0;
+  const recovered = await probe(
+    { baseUrl: "https://example.test", limit: 1 },
+    {
+      fetchImpl: async () => {
+        calls += 1;
+        return calls < 3 ? { ok: false, status: 503 } : body(priced);
+      },
+      sleep: async () => {},
+      warn: () => {}
+    }
+  );
+  assert.deepEqual(recovered, priced, "a 503 that clears must be retried, not reported as a failure");
+  assert.equal(calls, 3, "the probe must retry until it gets an answer");
+
+  let transportCalls = 0;
+  await assert.rejects(
+    probe(
+      { baseUrl: "https://example.test", limit: 1 },
+      {
+        fetchImpl: async () => {
+          transportCalls += 1;
+          throw new Error("socket hang up");
+        },
+        sleep: async () => {},
+        warn: () => {}
+      }
+    ),
+    /socket hang up/,
+    "a transport failure that never clears must still fail the run"
+  );
+  assert.equal(transportCalls, PROBE_ATTEMPTS, "a transport failure is retried to the cap");
+
+  let notFoundCalls = 0;
+  await assert.rejects(
+    probe(
+      { baseUrl: "https://example.test", limit: 1 },
+      {
+        fetchImpl: async () => {
+          notFoundCalls += 1;
+          return { ok: false, status: 404 };
+        },
+        sleep: async () => {},
+        warn: () => {}
+      }
+    ),
+    /HTTP 404/,
+    "a deterministic 4xx is a verdict, not a refusal"
+  );
+  assert.equal(notFoundCalls, 1, "a 4xx must not be retried");
+
+  await assert.rejects(
+    probe(
+      { baseUrl: "https://example.test", limit: 1 },
+      { fetchImpl: async () => body({ includePrices: false }), sleep: async () => {}, warn: () => {} }
+    ),
+    /includePrices=false/,
+    "a served body the check rejects must not be retried away"
+  );
+
+  assert.equal(isRetriableProbeStatus(503), true);
+  assert.equal(isRetriableProbeStatus(429), true);
+  assert.equal(isRetriableProbeStatus(404), false);
+  assert.equal(isRetriableProbeStatus(200), false);
 
   console.log("price snapshot freshness self-test passed");
   return 0;

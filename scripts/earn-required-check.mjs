@@ -12,7 +12,13 @@
 //
 // Exits 0 only when the check passed on the resolved SHA.
 
-import { earnRequiredCheck, classifyCheck, DEFAULT_TIMEOUT_MS, DEFAULT_POLL_MS } from "./lib/required-check.mjs";
+import {
+  cancelStrandedPrValidation,
+  earnRequiredCheck,
+  classifyCheck,
+  DEFAULT_TIMEOUT_MS,
+  DEFAULT_POLL_MS,
+} from "./lib/required-check.mjs";
 
 if (process.argv.includes("--self-test")) {
   const failures = [];
@@ -148,6 +154,59 @@ if (process.argv.includes("--self-test")) {
   });
   check("a stalled check times out", stalled.state, "timeout");
   check("a stalled check is not ok", stalled.ok, false);
+
+  // cancelStrandedPrValidation: it must cancel exactly the un-runnable
+  // `pull_request` validation runs and nothing else — never the dispatched run
+  // that carries the verdict, never another workflow, never one already done.
+  const prelaunch = ".github/workflows/prelaunch-validation.yml";
+  const strandedRuns = {
+    workflow_runs: [
+      { id: 1, event: "pull_request", status: "action_required", path: prelaunch },
+      { id: 2, event: "workflow_dispatch", status: "completed", path: prelaunch },
+      { id: 3, event: "pull_request", status: "completed", path: prelaunch },
+      { id: 4, event: "pull_request", status: "queued", path: ".github/workflows/daily-audit.yml" },
+      { id: 5, event: "pull_request", status: "queued", path: prelaunch },
+    ],
+  };
+  const cancelled = [];
+  const cancelledCount = await cancelStrandedPrValidation({
+    request: async (method, pathname) => {
+      if (method === "GET") return strandedRuns;
+      const match = pathname.match(/\/actions\/runs\/(\d+)\/cancel$/);
+      if (!match) throw new Error(`unexpected call ${method} ${pathname}`);
+      cancelled.push(Number(match[1]));
+      return null;
+    },
+    repo: "o/r",
+    sha: "0123456789abcdef",
+    log: quiet,
+    warn: quiet,
+  });
+  check("cancels only the stranded pull_request runs", cancelled.join(","), "1,5");
+  check("reports how many it cancelled", cancelledCount, 2);
+
+  // A read or cancel that fails must never propagate: this runs after the
+  // merge, and a published commit must not become a failed lane.
+  const swallowed = await cancelStrandedPrValidation({
+    request: async () => {
+      throw new Error("boom");
+    },
+    repo: "o/r",
+    sha: "0123456789abcdef",
+    log: quiet,
+    warn: quiet,
+  });
+  check("an API failure is swallowed", swallowed, 0);
+
+  // Misuse must not throw either: the call sites treat a throw as a withheld
+  // merge, and by this point the commit is already published.
+  let threw = false;
+  const misused = await cancelStrandedPrValidation({ repo: "o/r", log: quiet, warn: quiet }).catch(() => {
+    threw = true;
+    return -1;
+  });
+  check("misuse does not throw", threw, false);
+  check("misuse cancels nothing", misused, 0);
 
   if (failures.length > 0) {
     for (const failure of failures) console.error(`FAIL ${failure}`);

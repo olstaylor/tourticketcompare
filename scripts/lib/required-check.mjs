@@ -8,10 +8,12 @@
 //
 //   * the direct-to-main writers pushed a commit built on the runner, so the
 //     SHA carried no checks at all and the push was rejected outright;
-//   * the PR lanes open their PR with the Actions token, and a PR opened by
-//     GITHUB_TOKEN deliberately does not trigger `pull_request` workflows, so
-//     `test-mvp` never appeared on the head and the squash-merge was rejected
-//     with a 405 (PR #951, 2026-09-12).
+//   * the PR lanes open their PR with the Actions token, and the `pull_request`
+//     run that raises is held at `action_required` awaiting an approval no
+//     automation can give, so `test-mvp` never appeared on the head and the
+//     squash-merge was rejected with a 405 (PR #951, 2026-09-12). Measured
+//     2026-09-13 over the preceding twelve days: 0 of 36 such runs ever
+//     reached a verdict. `cancelStrandedPrValidation` below clears them up.
 //
 // Neither is a validation gap: both run the full suite in-job before pushing.
 // What was missing was *evidence GitHub can see*. So earn it, honestly: the
@@ -135,5 +137,56 @@ export async function earnRequiredCheck({
     const verdict = classifyCheck(runs, { elapsedMs: now() - startedAt, timeoutMs });
     if (verdict.state === "pending") continue;
     return { ok: verdict.state === "passed", ...verdict };
+  }
+}
+
+// Cancels the `pull_request` validation run that opening an automation PR
+// strands on the same SHA.
+//
+// That run can never reach a verdict. Raised by the Actions token, it is held
+// at `action_required` waiting for an approval no automation can give, so it
+// sits with zero jobs beside the run the lane dispatches. Deleting the merged
+// branch underneath it then resolves it as `failure`: between 2026-09-01 and
+// 2026-09-13 that produced 27 red runs and 9 left pending, against zero
+// successes — a standing false red indistinguishable, on the Actions tab, from
+// a validation failure that matters.
+//
+// Cancelling before the ref goes away leaves `cancelled` (deliberate) instead.
+// Strictly best-effort, and only ever called after the merge: the gate has
+// been earned and honoured by then, and nothing here may turn a published
+// commit into a failed lane. The dispatched run is filtered out by event, so
+// the verdict of record is never touched.
+export async function cancelStrandedPrValidation({
+  request,
+  repo,
+  sha,
+  workflowFile = DEFAULT_WORKFLOW_FILE,
+  log = console.log,
+  warn = console.warn,
+} = {}) {
+  // Never throws, by contract: both call sites sit inside the try whose catch
+  // reports an auto-merge as withheld, so a throw here would report a lane that
+  // had already published as failed. Misuse warns and does nothing.
+  if (!request || !repo || !sha) {
+    warn("cancelStrandedPrValidation requires request, repo and sha; skipping.");
+    return 0;
+  }
+  try {
+    const body = await request("GET", `/repos/${repo}/actions/runs?head_sha=${encodeURIComponent(sha)}&per_page=100`);
+    const stranded = (body?.workflow_runs || []).filter(
+      (run) =>
+        run?.event === "pull_request" &&
+        run?.status !== "completed" &&
+        String(run?.path || "").endsWith(`/${workflowFile}`)
+    );
+    for (const run of stranded) {
+      await request("POST", `/repos/${repo}/actions/runs/${run.id}/cancel`);
+      log(`Cancelled the un-runnable pull_request validation run ${run.id} on ${sha.slice(0, 7)}.`);
+    }
+    if (!stranded.length) log(`No stranded pull_request validation run on ${sha.slice(0, 7)}.`);
+    return stranded.length;
+  } catch (err) {
+    warn(`Could not cancel the stranded pull_request validation run: ${err.message}`);
+    return 0;
   }
 }

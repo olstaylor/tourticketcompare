@@ -2116,7 +2116,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZMa_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMa_",
     "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-27-8-pm/concert/18508824",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-27-2027/production/7453135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMa_",
     "last_verified_at": null,
@@ -2138,11 +2138,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7453135,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-27-2027/production/7453135",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2169,7 +2169,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZyfg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZyfg",
     "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-28-8-pm/concert/18517279",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-28-2027/production/7459457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZyfg",
     "last_verified_at": null,
@@ -2191,11 +2191,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7459457,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-28-2027/production/7459457",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

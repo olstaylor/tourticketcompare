@@ -142,12 +142,31 @@ const NEUTRAL_CONCLUSIONS = new Set(["cancelled", "skipped"]);
  *
  * Pure and offline so the self-test can pin every branch without the network.
  */
-export function classifyLane(runs, { now, maxAgeHours, failuresBeforeIncident = 1 }) {
+export function classifyLane(runs, { now, maxAgeHours, failuresBeforeIncident = 1, workflowAgeHours = null }) {
   const completed = runs
     .filter((run) => run.status === "completed")
     .slice()
     .sort((a, b) => Date.parse(b.created_at ?? "") - Date.parse(a.created_at ?? ""));
   if (completed.length === 0) {
+    // A lane that has not run yet because it only just shipped is not a lane
+    // that has stopped running, and calling it `never` raises a P1 against
+    // whoever added it. On 2026-09-13 that is exactly what happened: the
+    // work-queue repair worker merged at 22:05Z and this sensor opened #966
+    // against it at 04:55Z, before its first tick could plausibly arrive —
+    // GitHub delivers the daily crons here three to five hours late.
+    //
+    // The grace period is the lane's own staleness window, so it needs no
+    // second constant to keep in step: until a lane has existed longer than
+    // the window in which a missing run would be a finding, its absence is
+    // simply not evidence yet.
+    if (workflowAgeHours !== null && workflowAgeHours < maxAgeHours) {
+      return {
+        status: "pending",
+        detail: `Workflow was added ${workflowAgeHours.toFixed(1)}h ago and has no completed scheduled run yet (a first run is not expected to be late until ${maxAgeHours}h).`,
+        consecutiveFailures: 0,
+        latest: null
+      };
+    }
     return { status: "never", detail: "No completed scheduled run found.", consecutiveFailures: 0, latest: null };
   }
 
@@ -217,6 +236,34 @@ export function classifyLane(runs, { now, maxAgeHours, failuresBeforeIncident = 
 }
 
 /**
+ * Whether this lane needs its workflow metadata read to be classified fairly.
+ *
+ * Completed, not merely present: `classifyLane` judges on completed runs, so a
+ * lane whose first scheduled run is still queued or in progress has runs but no
+ * verdict, and skipping the lookup there would classify it `never` for exactly
+ * as long as that first run takes.
+ */
+export const needsWorkflowAge = (runs) => !runs.some((run) => run.status === "completed");
+
+/**
+ * How long the lane has plausibly been scheduled, from the workflow record.
+ *
+ * `updated_at` in preference to `created_at`, because the case `created_at`
+ * gets wrong is a long-standing manual workflow given a `schedule:` for the
+ * first time: the workflow record is old while the scheduled lane is new.
+ * Editing the file moves `updated_at`, so it tracks when the schedule could
+ * have appeared. `needsWorkflowAge` keeps this to lanes with no completed run,
+ * so an unrelated edit cannot grant grace to a lane that is running normally.
+ *
+ * Returns null when neither timestamp parses, which classifies as `never` —
+ * the fail-closed side.
+ */
+export function workflowAgeHoursFrom(meta, now) {
+  const changed = Date.parse(meta?.updated_at ?? meta?.created_at ?? "");
+  return Number.isFinite(changed) ? (now - changed) / 3_600_000 : null;
+}
+
+/**
  * Two lanes failing in the same window is itself the evidence a single failure
  * lacks. Independent providers do not break together by chance, and every lane
  * gates its own write on `test:mvp` passing against the tip of `main`, so the
@@ -254,6 +301,10 @@ export function correlatedMainFailure(rows) {
 // so a reader can see a lane wobbled, and it neither opens the rolling issue nor
 // keeps it open — which is also what makes recovery work: once the failures stop
 // the lane returns to `ok`, the finding set empties, and the issue closes.
+//
+// `pending` is not a finding either, for the same reason: a lane too new to have
+// run is not a lane that has stopped. It ages into `never` on its own once the
+// staleness window passes, so nothing has to remember to re-check it.
 const FINDING_STATUSES = new Set(["failing", "stalled", "stale", "never"]);
 export const findingsOf = (rows) => rows.filter((row) => FINDING_STATUSES.has(row.status));
 
@@ -274,7 +325,8 @@ export function renderBody(rows, { repo, now }) {
   body += "Read-only sensor over the scheduled write lanes. It never reruns, dispatches, merges, or changes a workflow. ";
   body += "`stale` means GitHub has not invoked the workflow recently enough, which no workflow can detect about itself; ";
   body += "`stalled` means it is being invoked but no longer reaching a pass/fail verdict. ";
-  body += "`flaky` is a single failure on a lane that absorbs one — recorded as context, not raised, and not a reason this issue stays open.\n\n";
+  body += "`flaky` is a single failure on a lane that absorbs one — recorded as context, not raised, and not a reason this issue stays open. ";
+  body += "`pending` is a lane added too recently for a missing first run to mean anything yet.\n\n";
 
   if (correlatedMainFailure(rows)) {
     body += "> **Check the tip of `main` first.** Two or more lanes are failing at once. ";
@@ -344,6 +396,60 @@ if (SELF_TEST) {
   });
 
   assert.equal(classifyLane([], { now, maxAgeHours: 30 }).status, "never");
+
+  // --- pending: added too recently to have run --------------------------------
+  //
+  // Drawn from #966. The work-queue repair worker merged at 22:05Z on
+  // 2026-09-12 with a 04:50 cron, and this sensor opened a P1 against it at
+  // 04:55Z the next morning — before its first tick could plausibly land, since
+  // the daily crons here are delivered three to five hours late. A lane that
+  // has not run yet because it is new is not a lane that has stopped.
+  const brandNew = classifyLane([], { now, maxAgeHours: 30, workflowAgeHours: 6.8 });
+  assert.equal(brandNew.status, "pending");
+  assert.match(brandNew.detail, /added 6\.8h ago/);
+  assert.equal(findingsOf([brandNew]).length, 0, "a lane too new to have run must not be a finding");
+
+  // It ages into a finding on its own once the staleness window passes, so
+  // nothing has to remember to come back and re-check it.
+  assert.equal(classifyLane([], { now, maxAgeHours: 30, workflowAgeHours: 30.1 }).status, "never");
+  assert.equal(classifyLane([], { now, maxAgeHours: 6, workflowAgeHours: 6.1 }).status, "never");
+
+  // The lookup has to survive a first run that is still going. A queued or
+  // in-progress run is a run, but not a verdict, so keying the lookup on "no
+  // runs at all" would skip it and classify the lane `never` for exactly as
+  // long as its first run takes — the same false incident, just narrower.
+  assert.equal(needsWorkflowAge([]), true);
+  assert.equal(needsWorkflowAge([{ status: "queued" }]), true);
+  assert.equal(needsWorkflowAge([{ status: "in_progress" }]), true);
+  assert.equal(needsWorkflowAge([{ status: "completed", conclusion: "success" }]), false);
+  assert.equal(needsWorkflowAge([{ status: "queued" }, { status: "completed", conclusion: "failure" }]), false);
+
+  // Age comes from `updated_at`, because the case `created_at` gets wrong is an
+  // old manual workflow given a schedule for the first time: old record, new
+  // scheduled lane. Here the record is 400 days old and the file changed 2h
+  // ago, and the lane must read as new.
+  const day = 24 * 3_600_000;
+  assert.equal(
+    Math.round(workflowAgeHoursFrom({ created_at: new Date(now - 400 * day).toISOString(), updated_at: new Date(now - 2 * 3_600_000).toISOString() }, now)),
+    2
+  );
+  // With no `updated_at` at all it falls back to creation rather than failing.
+  assert.equal(Math.round(workflowAgeHoursFrom({ created_at: new Date(now - 5 * 3_600_000).toISOString() }, now)), 5);
+  assert.equal(workflowAgeHoursFrom({}, now), null);
+  assert.equal(workflowAgeHoursFrom({ updated_at: "not a date" }, now), null);
+  // A null age is the fail-closed side, and classifies as `never`.
+  assert.equal(classifyLane([], { now, maxAgeHours: 30, workflowAgeHours: workflowAgeHoursFrom({}, now) }).status, "never");
+
+  // Unknown age stays `never`: a lane that really has stopped must still be
+  // reported when the workflow read fails.
+  assert.equal(classifyLane([], { now, maxAgeHours: 30, workflowAgeHours: null }).status, "never");
+
+  // The grace covers only a lane with no runs at all. One completed run and the
+  // age is irrelevant — a new lane that ran once and then stopped is a finding.
+  assert.equal(
+    classifyLane([run({ conclusion: "failure" })], { now, maxAgeHours: 30, workflowAgeHours: 1, failuresBeforeIncident: 1 }).status,
+    "failing"
+  );
   assert.equal(classifyLane([run({})], { now, maxAgeHours: 30 }).status, "ok");
 
   // A queued run is not a verdict, and must not be mistaken for a fresh one.
@@ -647,8 +753,29 @@ for (const lane of WATCHED_LANES) {
     if (!/GitHub API 404/.test(String(error))) throw error;
   }
 
+  // Only when a lane has no COMPLETED run, and only then: one extra read that
+  // separates "added last night" from "stopped running". Every other lane costs
+  // exactly what it did before.
+  //
+  // Completed, not merely present: `classifyLane` judges on completed runs, so
+  // a queued or in-progress first run would otherwise skip this lookup and be
+  // classified `never` — reinstating the false incident for exactly as long as
+  // that first run takes.
+  //
+  let workflowAgeHours = null;
+  if (needsWorkflowAge(runs)) {
+    try {
+      workflowAgeHours = workflowAgeHoursFrom(await github(`/actions/workflows/${encodeURIComponent(lane.file)}`), now);
+    } catch (error) {
+      // Unknown age falls through as `never`, which is the fail-closed side:
+      // a lane that really has stopped still gets reported.
+      if (!/GitHub API 404/.test(String(error))) throw error;
+    }
+  }
+
   const verdict = classifyLane(runs, {
     now,
+    workflowAgeHours,
     maxAgeHours: lane.maxAgeHours,
     failuresBeforeIncident: lane.failuresBeforeIncident
   });

@@ -2157,12 +2157,20 @@
         "verified": true,
         "last_verified_at": "2026-09-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8220717",
+        "url": "https://www.ticketliquidator.com/tickets/8220717/Michelle-Branch-tickets-Sat-Feb-27-2027-Ryman-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZMa_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220717"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220717",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220717/Michelle-Branch-tickets-Sat-Feb-27-2027-Ryman-Auditorium"
   },
   {
     "id": "tm-michelle-branch-2027-nashville-z7r9jz1aazyfg",
@@ -2218,11 +2226,19 @@
         "verified": true,
         "last_verified_at": "2026-09-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8225387",
+        "url": "https://www.ticketliquidator.com/tickets/8225387/Michelle-Branch-tickets-Sun-Feb-28-2027-Ryman-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZyfg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8225387"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8225387",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225387/Michelle-Branch-tickets-Sun-Feb-28-2027-Ryman-Auditorium"
   }
 ]

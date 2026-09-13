@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0F006521E725215D",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-seattle-paramount-theatre-seattle-2-4-2027/production/7530975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7530975,
+        "url": "https://www.vividseats.com/yuridia-tickets-seattle-paramount-theatre-seattle-2-4-2027/production/7530975",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "17006524E5C523D5",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-reno-nevada-02-06-2027/event/17006524E5C523D5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-reno-grand-theatre-at-grand-sierra-resort-2-6-2027/production/7531082",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-reno-nevada-02-06-2027/event/17006524E5C523D5",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531082,
+        "url": "https://www.vividseats.com/yuridia-tickets-reno-grand-theatre-at-grand-sierra-resort-2-6-2027/production/7531082",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "1C00651FB4FB0B9F",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-jose-california-02-07-2027/event/1C00651FB4FB0B9F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-san-jose-sap-center-2-7-2027/production/7531054",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-jose-california-02-07-2027/event/1C00651FB4FB0B9F",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531054,
+        "url": "https://www.vividseats.com/yuridia-tickets-san-jose-sap-center-2-7-2027/production/7531054",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "19006522AD0560AD",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-phoenix-arizona-financial-theatre-2-13-2027/production/7531084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531084,
+        "url": "https://www.vividseats.com/yuridia-tickets-phoenix-arizona-financial-theatre-2-13-2027/production/7531084",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -276,7 +276,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAv-j_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-j_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-j_",
@@ -292,11 +292,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570387,
+        "url": "https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "39006523DDACBD18",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-las-vegas-ph-live-at-planet-hollywood-2-18-2027/production/7531056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531056,
+        "url": "https://www.vividseats.com/yuridia-tickets-las-vegas-ph-live-at-planet-hollywood-2-18-2027/production/7531056",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "0A006521AE4654FC",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-20-2027/production/7531076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531076,
+        "url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-20-2027/production/7531076",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "0A006524AD56A71F",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-21-2027/production/7545945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7545945,
+        "url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-21-2027/production/7545945",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "1C006522C16EE722",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-fresno-save-mart-center-2-25-2027/production/7531046",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531046,
+        "url": "https://www.vividseats.com/yuridia-tickets-fresno-save-mart-center-2-25-2027/production/7531046",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "1C006523D3272FAC",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-wheatland-california-02-27-2027/event/1C006523D3272FAC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-wheatland-sacramento-hard-rock-hotel-and-casino-2-27-2027/production/7531094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-wheatland-california-02-27-2027/event/1C006523D3272FAC",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531094,
+        "url": "https://www.vividseats.com/yuridia-tickets-wheatland-sacramento-hard-rock-hotel-and-casino-2-27-2027/production/7531094",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "0C006523DBDCBEC7",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-dallas-dos-equis-pavilion-3-12-2027/production/7531070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531070,
+        "url": "https://www.vividseats.com/yuridia-tickets-dallas-dos-equis-pavilion-3-12-2027/production/7531070",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "0C0065230CE22769",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-el-paso-don-haskins-center-3-14-2027/production/7531086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531086,
+        "url": "https://www.vividseats.com/yuridia-tickets-el-paso-don-haskins-center-3-14-2027/production/7531086",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "3A006522071FB6E3",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-laredo-sames-auto-arena-3-18-2027/production/7531062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531062,
+        "url": "https://www.vividseats.com/yuridia-tickets-laredo-sames-auto-arena-3-18-2027/production/7531062",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "04006524AAE6CC21",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-25-2027/production/7531765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531765,
+        "url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-25-2027/production/7531765",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "15006522ABA282F4",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-oxon-hill-the-theater-at-mgm-national-harbor-3-28-2027/production/7531066",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531066,
+        "url": "https://www.vividseats.com/yuridia-tickets-oxon-hill-the-theater-at-mgm-national-harbor-3-28-2027/production/7531066",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

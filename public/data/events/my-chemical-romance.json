@@ -348,11 +348,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7424939",
-        "url": "https://www.ticketnetwork.com/en/p/7424939",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7424939",
@@ -372,7 +372,7 @@
     "ticketmaster_discovery_event_id": "G5dIZbSd0c4y6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424939",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424939/My-Chemical-Romance-tickets-Sat-Sep-12-2026-Alamodome",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-san-antonio-tickets-9-12-2026/event/106960286"
   },

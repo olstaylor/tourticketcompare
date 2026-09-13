@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252886",
+        "url": "https://www.ticketnetwork.com/en/p/8252886",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_36Ea3Aq",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252886"
   },
   {
     "id": "tm-yuridia-2027-reno-1a9zkf0gkdps324",
@@ -258,11 +266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252897",
+        "url": "https://www.ticketnetwork.com/en/p/8252897",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfxGkecvpec",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252897"
   },
   {
     "id": "tm-yuridia-2027-highland-z7r9jz1aav-j_",
@@ -311,11 +327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255474",
+        "url": "https://www.ticketnetwork.com/en/p/8255474",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-j_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255474"
   },
   {
     "id": "tm-yuridia-2027-las-vegas-1ayzkfngkdql5vb",
@@ -364,11 +388,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252899",
+        "url": "https://www.ticketnetwork.com/en/p/8252899",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkfNGkdql5Vb",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252899"
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_3kmopkh",
@@ -417,11 +449,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252903",
+        "url": "https://www.ticketnetwork.com/en/p/8252903",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3kmoPKH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252903"
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_33c4njl",
@@ -470,11 +510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259518",
+        "url": "https://www.ticketnetwork.com/en/p/8259518",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_33c4njL",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259518"
   },
   {
     "id": "tm-yuridia-2027-fresno-g5vyz_35vhmjx",
@@ -523,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252904",
+        "url": "https://www.ticketnetwork.com/en/p/8252904",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_35vhmjx",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252904"
   },
   {
     "id": "tm-yuridia-2027-wheatland-g5vyz_32kawxi",
@@ -576,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252906",
+        "url": "https://www.ticketnetwork.com/en/p/8252906",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_32KawXi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252906"
   },
   {
     "id": "tm-yuridia-2027-san-diego-vvg1iz_3fqrwdv",
@@ -629,11 +693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252908",
+        "url": "https://www.ticketnetwork.com/en/p/8252908",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3FqrWDV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252908"
   },
   {
     "id": "tm-yuridia-2027-dallas-vvg1yz_32hm5d6",
@@ -682,11 +754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252911",
+        "url": "https://www.ticketnetwork.com/en/p/8252911",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_32hM5D6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252911"
   },
   {
     "id": "tm-yuridia-2027-el-paso-vvg1yz_3ggzxqt",
@@ -735,11 +815,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252912",
+        "url": "https://www.ticketnetwork.com/en/p/8252912",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3GGzxqt",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252912"
   },
   {
     "id": "tm-yuridia-2027-laredo-g5diz_3f66dhn",
@@ -788,11 +876,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252914",
+        "url": "https://www.ticketnetwork.com/en/p/8252914",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3F66DhN",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252914"
   },
   {
     "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkenyiy-",
@@ -841,11 +937,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259597",
+        "url": "https://www.ticketnetwork.com/en/p/8259597",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zkf0GkenyiY-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259597"
   },
   {
     "id": "tm-yuridia-2027-national-harbor-1a4zkfxgkelii5v",
@@ -894,10 +998,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252920",
+        "url": "https://www.ticketnetwork.com/en/p/8252920",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfxGkelII5V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252920"
   }
 ]

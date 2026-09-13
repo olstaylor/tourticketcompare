@@ -68,7 +68,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { slugify } from "./lib/slugify.mjs";
-import { earnRequiredCheck } from "./lib/required-check.mjs";
+import { cancelStrandedPrValidation, earnRequiredCheck } from "./lib/required-check.mjs";
 import {
   buildOutcomesArtifact,
   buildOutcomesMarkdown,
@@ -382,7 +382,10 @@ async function githubApi(pathname, { method = "GET", body } = {}) {
     const text = await res.text();
     throw new Error(`GitHub API ${method} ${pathname} failed: ${res.status} ${text.slice(0, 400)}`);
   }
-  return res.status === 204 ? null : res.json();
+  // 202 Accepted (the run-cancel endpoint) answers with an empty body, which
+  // res.json() cannot parse. Read the text first and treat empty as no content.
+  const text = await res.text();
+  return text ? JSON.parse(text) : null;
 }
 
 function parseArgs(argv) {
@@ -779,6 +782,11 @@ async function main() {
       coverage.pr.merged = true;
       await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
       console.log(`Auto-merged PR #${pr.number} (squash).`);
+      await cancelStrandedPrValidation({
+        request: (method, pathname, body) => githubApi(pathname, { method, body }),
+        repo: `${owner}/${name}`,
+        sha: pr.head.sha,
+      });
       await githubApi(`/repos/${owner}/${name}/git/refs/heads/${branch}`, { method: "DELETE" }).catch((err) => {
         console.warn(`Could not delete merged branch ${branch}: ${err.message}`);
       });

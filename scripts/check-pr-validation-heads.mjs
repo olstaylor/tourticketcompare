@@ -6,6 +6,29 @@ const maxAge = Number(process.env.MAX_VALIDATION_AGE_MINUTES || 30);
 // apart from one it never will. The guard now fires on `synchronize`, which
 // reaches it before the run that push triggers exists, so without this every
 // push would flash the rolling issue red and close it again minutes later.
+//
+// A run only carries a verdict if it actually ran to one. `cancelled`,
+// `skipped`, `stale` and `neutral` say nothing about the head's content, and
+// since 2026-09-13 the lanes deliberately cancel the un-runnable `pull_request`
+// run GitHub strands on every automation head (scripts/lib/required-check.mjs).
+// That cancelled run is created *after* the dispatched one, so a plain
+// newest-first pick would let a non-verdict outrank the real green beside it.
+const VERDICT_CONCLUSIONS = new Set(["success", "failure", "timed_out"]);
+
+// Newest-first among runs that reached a verdict; failing that, whatever is
+// still in flight (so "pending" and "stuck" keep working); failing that, the
+// non-verdict runs, which classify as a finding because the head then has no
+// validation behind it. A newer red still outranks an older green, which is
+// the property that matters.
+export function selectCandidate(candidates = []) {
+  const byNewest = [...candidates].sort((a, b) => Date.parse(b?.created_at || "") - Date.parse(a?.created_at || ""));
+  return (
+    byNewest.find((run) => run?.conclusion && VERDICT_CONCLUSIONS.has(run.conclusion)) ||
+    byNewest.find((run) => !run?.conclusion) ||
+    byNewest[0]
+  );
+}
+
 function classify(run, now = Date.now(), headPushedAt = null) {
   if (!run) {
     const pushed = Date.parse(headPushedAt || "");
@@ -25,6 +48,20 @@ if (process.argv.includes("--self-test")) {
   const now = Date.parse("2026-08-27T12:00:00Z");
   if (classify(null, now).status !== "missing" || classify({ conclusion: "success" }, now).status !== "success" || classify({ conclusion: "failure" }, now).status !== "failed" || classify({ status: "in_progress", created_at: "2026-08-27T11:29:00Z" }, now).status !== "stuck") process.exit(1);
   if (classify(null, now, "2026-08-27T11:59:00Z").status !== "pending" || classify(null, now, "2026-08-27T11:00:00Z").status !== "missing") process.exit(1);
+  // selectCandidate: the cancelled phantom is created after the dispatched run
+  // that actually passed, and must not be mistaken for its verdict.
+  const dispatched = { conclusion: "success", created_at: "2026-09-13T10:27:24Z" };
+  const phantom = { conclusion: "cancelled", created_at: "2026-09-13T10:27:25Z" };
+  if (selectCandidate([phantom, dispatched]) !== dispatched) process.exit(1);
+  // A genuine newer red still outranks an older green.
+  const red = { conclusion: "failure", created_at: "2026-09-13T11:00:00Z" };
+  if (selectCandidate([dispatched, red]) !== red) process.exit(1);
+  // Nothing but non-verdicts is not validation, and must still be a finding.
+  if (classify(selectCandidate([phantom]), now).status !== "failed") process.exit(1);
+  // An in-flight run is preferred over a non-verdict, so "pending" survives.
+  const running = { status: "in_progress", created_at: "2026-09-13T10:27:20Z" };
+  if (selectCandidate([phantom, running]) !== running) process.exit(1);
+  if (selectCandidate([]) !== undefined) process.exit(1);
   console.log("OK: PR validation head guard self-test");
   process.exit(0);
 }
@@ -45,10 +82,10 @@ for (const pr of pulls.filter((item) => !item.draft && item.base?.ref === "main"
     const commit = await github("/commits/" + encodeURIComponent(pr.head.sha)).catch(() => null);
     headPushedAt = commit?.commit?.committer?.date || null;
   }
-  rows.push({ number: pr.number, headSha: pr.head.sha, ...classify(candidates[0], Date.now(), headPushedAt) });
+  rows.push({ number: pr.number, headSha: pr.head.sha, ...classify(selectCandidate(candidates), Date.now(), headPushedAt) });
 }
 const findings = rows.filter((row) => ["missing", "failed", "stuck"].includes(row.status));
-let body = "<!-- pr-validation-head-guard -->\n**Last check:** " + new Date().toISOString() + "\n**Status:** " + (findings.length ? "🔴 Validation attention required" : "🟢 All open PR heads validated") + "\n\nThis read-only check compares each open non-draft PR exact head SHA with a Prelaunch Validation run on that same SHA, whether the run was triggered by the pull request or dispatched against its branch. It never reruns, approves, merges, or changes a PR.\n\n| PR | Head SHA | Result | Detail |\n|---|---|---|---|\n";
+let body = "<!-- pr-validation-head-guard -->\n**Last check:** " + new Date().toISOString() + "\n**Status:** " + (findings.length ? "🔴 Validation attention required" : "🟢 All open PR heads validated") + "\n\nThis read-only check compares each open non-draft PR exact head SHA with a Prelaunch Validation run on that same SHA, whether the run was triggered by the pull request or dispatched against its branch. Runs that reached no verdict (cancelled, skipped, stale) are not read as one; a newer red still outranks an older green. It never reruns, approves, merges, or changes a PR.\n\n| PR | Head SHA | Result | Detail |\n|---|---|---|---|\n";
 for (const row of rows) body += "| [#" + row.number + "](https://github.com/" + repo + "/pull/" + row.number + ") | " + row.headSha + " | " + row.status + " | " + row.detail + " |\n";
 if (!rows.length) body += "| — | — | — | No open non-draft PRs targeting main. |\n";
 body += "\n_Generated by scripts/check-pr-validation-heads.mjs._";

@@ -48,25 +48,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7511940",
-        "url": "https://www.ticketnetwork.com/en/p/7511940",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7511940",
-        "url": "https://www.ticketliquidator.com/tickets/7511940/Foo-Fighters-tickets-Sat-Sep-12-2026-Fargodome",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkuKGkdkiFv9",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511940",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511940/Foo-Fighters-tickets-Sat-Sep-12-2026-Fargodome"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-foo-fighters-2026-regina-1aozku4gkeb8mgg",

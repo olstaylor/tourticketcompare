@@ -46,11 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252886",
+        "url": "https://www.ticketnetwork.com/en/p/8252886",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252886",
+        "url": "https://www.ticketliquidator.com/tickets/8252886/Yuridia-tickets-Thu-Feb-4-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_36Ea3Aq",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252886",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252886/Yuridia-tickets-Thu-Feb-4-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-yuridia-2027-reno-1a9zkf0gkdps324",
@@ -258,11 +274,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252897",
+        "url": "https://www.ticketnetwork.com/en/p/8252897",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252897",
+        "url": "https://www.ticketliquidator.com/tickets/8252897/Yuridia-tickets-Sat-Feb-13-2027-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfxGkecvpec",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252897",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252897/Yuridia-tickets-Sat-Feb-13-2027-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-yuridia-2027-highland-z7r9jz1aav-j_",
@@ -311,11 +343,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255474",
+        "url": "https://www.ticketnetwork.com/en/p/8255474",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255474",
+        "url": "https://www.ticketliquidator.com/tickets/8255474/Yuridia-tickets-Wed-Feb-17-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-j_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255474",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255474/Yuridia-tickets-Wed-Feb-17-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-yuridia-2027-las-vegas-1ayzkfngkdql5vb",
@@ -364,11 +412,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252899",
+        "url": "https://www.ticketnetwork.com/en/p/8252899",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252899",
+        "url": "https://www.ticketliquidator.com/tickets/8252899/Yuridia-tickets-Thu-Feb-18-2027-PH-Live-At-Planet-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkfNGkdql5Vb",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252899",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252899/Yuridia-tickets-Thu-Feb-18-2027-PH-Live-At-Planet-Hollywood"
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_3kmopkh",
@@ -417,11 +481,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252903",
+        "url": "https://www.ticketnetwork.com/en/p/8252903",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252903",
+        "url": "https://www.ticketliquidator.com/tickets/8252903/Yuridia-tickets-Sat-Feb-20-2027-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3kmoPKH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252903",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252903/Yuridia-tickets-Sat-Feb-20-2027-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_33c4njl",
@@ -470,11 +550,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259518",
+        "url": "https://www.ticketnetwork.com/en/p/8259518",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8259518",
+        "url": "https://www.ticketliquidator.com/tickets/8259518/Yuridia-tickets-Sun-Feb-21-2027-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_33c4njL",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259518",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259518/Yuridia-tickets-Sun-Feb-21-2027-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-yuridia-2027-fresno-g5vyz_35vhmjx",
@@ -523,11 +619,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252904",
+        "url": "https://www.ticketnetwork.com/en/p/8252904",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252904",
+        "url": "https://www.ticketliquidator.com/tickets/8252904/Yuridia-tickets-Thu-Feb-25-2027-Save-Mart-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_35vhmjx",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252904",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252904/Yuridia-tickets-Thu-Feb-25-2027-Save-Mart-Center"
   },
   {
     "id": "tm-yuridia-2027-wheatland-g5vyz_32kawxi",
@@ -576,11 +688,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252906",
+        "url": "https://www.ticketnetwork.com/en/p/8252906",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252906",
+        "url": "https://www.ticketliquidator.com/tickets/8252906/Yuridia-tickets-Sat-Feb-27-2027-Hard-Rock-Live-Sacramento",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_32KawXi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252906",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252906/Yuridia-tickets-Sat-Feb-27-2027-Hard-Rock-Live-Sacramento"
   },
   {
     "id": "tm-yuridia-2027-san-diego-vvg1iz_3fqrwdv",
@@ -629,11 +757,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252908",
+        "url": "https://www.ticketnetwork.com/en/p/8252908",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252908",
+        "url": "https://www.ticketliquidator.com/tickets/8252908/Yuridia-tickets-Sun-Feb-28-2027-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3FqrWDV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252908",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252908/Yuridia-tickets-Sun-Feb-28-2027-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-yuridia-2027-dallas-vvg1yz_32hm5d6",
@@ -682,11 +826,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252911",
+        "url": "https://www.ticketnetwork.com/en/p/8252911",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252911",
+        "url": "https://www.ticketliquidator.com/tickets/8252911/Yuridia-tickets-Fri-Mar-12-2027-Dos-Equis-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_32hM5D6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252911",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252911/Yuridia-tickets-Fri-Mar-12-2027-Dos-Equis-Pavilion"
   },
   {
     "id": "tm-yuridia-2027-el-paso-vvg1yz_3ggzxqt",
@@ -735,11 +895,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252912",
+        "url": "https://www.ticketnetwork.com/en/p/8252912",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252912",
+        "url": "https://www.ticketliquidator.com/tickets/8252912/Yuridia-tickets-Sun-Mar-14-2027-Don-Haskins-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3GGzxqt",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252912",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252912/Yuridia-tickets-Sun-Mar-14-2027-Don-Haskins-Center"
   },
   {
     "id": "tm-yuridia-2027-laredo-g5diz_3f66dhn",
@@ -788,11 +964,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252914",
+        "url": "https://www.ticketnetwork.com/en/p/8252914",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252914",
+        "url": "https://www.ticketliquidator.com/tickets/8252914/Yuridia-tickets-Thu-Mar-18-2027-Sames-Auto-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3F66DhN",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252914",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252914/Yuridia-tickets-Thu-Mar-18-2027-Sames-Auto-Arena"
   },
   {
     "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkenyiy-",
@@ -841,11 +1033,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259597",
+        "url": "https://www.ticketnetwork.com/en/p/8259597",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8259597",
+        "url": "https://www.ticketliquidator.com/tickets/8259597/Yuridia-tickets-Thu-Mar-25-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zkf0GkenyiY-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259597",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259597/Yuridia-tickets-Thu-Mar-25-2027-Rosemont-Theatre"
   },
   {
     "id": "tm-yuridia-2027-national-harbor-1a4zkfxgkelii5v",
@@ -894,10 +1102,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252920",
+        "url": "https://www.ticketnetwork.com/en/p/8252920",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252920",
+        "url": "https://www.ticketliquidator.com/tickets/8252920/Yuridia-tickets-Sun-Mar-28-2027-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-09-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfxGkelII5V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252920",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252920/Yuridia-tickets-Sun-Mar-28-2027-The-Theater-at-MGM-National-Harbor"
   }
 ]

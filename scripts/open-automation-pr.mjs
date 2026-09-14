@@ -119,13 +119,18 @@ if (autoMerge) {
   }
   console.log(`Required check earned on ${pr.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
 
+  // Before the merge, not after: closing the PR is what resolves the held
+  // validation run, and a run already `completed` can no longer be cancelled.
+  // Safe here because the gate above has passed, and it never throws, so it
+  // sits outside the try that reports a withheld merge.
+  await cancelStrandedPrValidation({ request: gh, repo, sha: pr.head.sha });
+
   try {
     await gh("PUT", `/repos/${repo}/pulls/${pr.number}/merge`, {
       merge_method: "squash",
       commit_title: `${title} (#${pr.number})`,
     });
     console.log(`Auto-merged PR #${pr.number} (squash).`);
-    await cancelStrandedPrValidation({ request: gh, repo, sha: pr.head.sha });
     await gh("DELETE", `/repos/${repo}/git/refs/heads/${branch}`).catch((err) =>
       console.warn(`Could not delete merged branch ${branch}: ${err.message}`)
     );

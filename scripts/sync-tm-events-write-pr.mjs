@@ -774,6 +774,16 @@ async function main() {
     }
     console.log(`Required check earned on ${pr.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
 
+    // Before the merge, not after: closing the PR is what resolves the held
+    // validation run, and a run already `completed` can no longer be cancelled.
+    // Safe here because the gate above has passed, and it never throws, so it
+    // sits outside the try that reports a withheld merge.
+    await cancelStrandedPrValidation({
+      request: (method, pathname, body) => githubApi(pathname, { method, body }),
+      repo: `${owner}/${name}`,
+      sha: pr.head.sha,
+    });
+
     try {
       await githubApi(`/repos/${owner}/${name}/pulls/${pr.number}/merge`, {
         method: "PUT",
@@ -782,11 +792,6 @@ async function main() {
       coverage.pr.merged = true;
       await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
       console.log(`Auto-merged PR #${pr.number} (squash).`);
-      await cancelStrandedPrValidation({
-        request: (method, pathname, body) => githubApi(pathname, { method, body }),
-        repo: `${owner}/${name}`,
-        sha: pr.head.sha,
-      });
       await githubApi(`/repos/${owner}/${name}/git/refs/heads/${branch}`, { method: "DELETE" }).catch((err) => {
         console.warn(`Could not delete merged branch ${branch}: ${err.message}`);
       });

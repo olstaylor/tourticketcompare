@@ -89,6 +89,27 @@ Both numeric-price lanes (TicketNetwork/StubHub International via the shared Imp
 
 Because no writer failure is involved, nothing in the snapshot workflows can detect this: their freshness audit only runs when they run. `price-freshness-check.yml` covers that gap from outside, and a red run there means prices are already dark for visitors — re-run both snapshot workflows with `apply=true` to restore them immediately.
 
+### Daily price rollup (`provider_pricing_daily`)
+
+The 90-day prune above bounds `provider_pricing_history`, which is right for the sparkline and wrong for anything longitudinal — the rows that age out are the ones that can never be re-collected. `scripts/rollup-provider-pricing-daily.mjs` (migration 0010) summarises history into the never-pruned `provider_pricing_daily`: one row per event × provider × source × currency × UTC day, carrying min/max/first/last of `low_price` and the observation count behind them. It reads history and writes only the rollup.
+
+Backfill and steady-state are the same command; it is idempotent per UTC day. Dry-run by default.
+
+```bash
+npm run prices:rollup:daily -- --since 2026-06-01          # preview a full backfill
+npm run prices:rollup:daily -- --since 2026-06-01 --apply  # one-off backfill
+npm run prices:rollup:daily:apply                          # steady state: today + yesterday
+```
+
+Two rules make a re-run safe and are the reason this can be run at any time, in any order:
+
+- A day is only replaced by a summary built from **at least as many observations**, so re-running over a window whose raw rows have since been pruned is a no-op rather than silent data loss.
+- A known `event_date` is never overwritten with NULL, so days that predate the writers carrying the column pick it up from any later row that has it.
+
+Rows below `MIN_PLAUSIBLE_LISTED_PRICE` are excluded, matching the public read path — the same floor `/api/price-history` applies on read, so the rollup never records an observation the site would refuse to display.
+
+**Not yet scheduled.** Until a scheduled caller exists the rollup only advances when someone runs it, so a stale rollup is expected rather than a fault. Run the backfill before the prune reaches the oldest observations.
+
 **The hourly cron did not, on its own, revive the Vivid lane.** After it shipped at 11:24Z that day the marketplace lane resumed normally, but Vivid's 11:47Z and 12:47Z ticks both failed to fire — 7h37m with no run, while its sibling ran on schedule from the same repository. So this is not general scheduler load: GitHub was simply not running that one workflow, and no cron interval can fix a workflow that is never invoked. What restored the marketplace lanes was its `push` trigger firing on merge, which Vivid lacked. Vivid now carries the same trigger on its own workflow file and `scripts/snapshot-vividseats-prices.mjs`, so any change to either bootstraps fresh rows on `main`. Treat that as a recovery lever, not a fix: it makes a stalled lane restorable by a commit rather than only by a manual dispatch, and it does nothing to make the schedule itself reliable. If ticks keep going missing, move the writers to a Cloudflare Cron Trigger and take GitHub's scheduler out of the critical path.
 
 ### Daily audit runtime budget

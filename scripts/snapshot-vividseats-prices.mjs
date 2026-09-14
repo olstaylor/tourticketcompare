@@ -222,7 +222,13 @@ function buildSnapshotRow(item, price, now, freshnessHours) {
     id: `${PROVIDER}:${eventId}`, artist_slug: artistSlug, event_id: eventId, provider: PROVIDER,
     low_price: price.lowPrice, avg_price: null, high_price: null, currency: price.currency,
     inventory_count: price.inventoryCount, verified_at: verifiedAt,
-    expires_at: new Date(now.getTime() + freshnessHours * 3600000).toISOString(), source: APPROVED_SOURCE
+    expires_at: new Date(now.getTime() + freshnessHours * 3600000).toISOString(), source: APPROVED_SOURCE,
+    // Venue-local event datetime, denormalised onto the history row (migration
+    // 0010). Write time is the only moment it is reliably known: history rows
+    // outlive the events.json records they point at, and once that record is
+    // gone the observation cannot be placed against its own concert date.
+    // Null when the event carries no date — never guessed.
+    event_date: clean(item?.event?.datetime_iso, 64) || null
   }};
 }
 function sqlLiteral(value) { if (value == null) return "NULL"; if (typeof value === "number") return Number.isFinite(value) ? String(value) : "NULL"; return `'${String(value).replaceAll("'", "''")}'`; }
@@ -236,14 +242,19 @@ function buildHistoryInsertSql(row) {
     row.currency,
     row.inventory_count,
     row.source,
-    row.verified_at
+    row.verified_at,
+    row.event_date
   ].map(sqlLiteral);
-  const [id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt] = values;
+  const [id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt, eventDate] = values;
   // History is for changes, not polling cadence. Keep the latest price cache
   // fresh on every verified run, but append only when the latest history row
   // for this exact event/provider/source has a different stored tuple.
-  return `INSERT INTO provider_pricing_history (id, event_id, artist_slug, provider, low_price, currency, inventory_count, source, observed_at)
-SELECT ${[id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt].join(", ")}
+  //
+  // event_date is deliberately outside that tuple: it describes the concert,
+  // not the observation, so a corrected or rescheduled date must not manufacture
+  // a price-change row.
+  return `INSERT INTO provider_pricing_history (id, event_id, artist_slug, provider, low_price, currency, inventory_count, source, observed_at, event_date)
+SELECT ${[id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt, eventDate].join(", ")}
 WHERE COALESCE((
   SELECT low_price IS ${lowPrice} AND currency IS ${currency} AND inventory_count IS ${inventoryCount}
   FROM provider_pricing_history
@@ -341,10 +352,22 @@ async function selfTest() {
   assert.equal(pricesForProduction([{ CurrentPrice: "", Currency: "USD", Offers: [{ Sku: "123" }] }], "123").ok, false);
   assert.equal(pricesForProduction([{ CurrentPrice: 1, Currency: "USD", Offers: [{ Sku: "123" }] }, { CurrentPrice: 2, Currency: "USD", Offers: [{ Sku: "123" }] }], "123").ok, false);
   const now = new Date("2026-07-10T00:00:00Z");
-  const item = { localId: "event-1", productionId: "123", artistName: "RAYE", event: { artist_slug: "raye" } };
+  const item = { localId: "event-1", productionId: "123", artistName: "RAYE", event: { artist_slug: "raye", datetime_iso: "2026-08-01T20:00:00" } };
   const built = buildSnapshotRow(item, priced.price, now, 6);
   assert.equal(built.ok, true); assert.equal(built.row.source, APPROVED_SOURCE);
+  assert.equal(built.row.event_date, "2026-08-01T20:00:00");
+  // A dateless event stores NULL rather than a guess, and the cache upsert
+  // never carries the column — provider_pricing_cache has no event_date.
+  const dateless = buildSnapshotRow({ ...item, event: { artist_slug: "raye" } }, priced.price, now, 6);
+  assert.equal(dateless.row.event_date, null);
+  assert.match(buildUpsertSql([dateless.row]), /source, observed_at, event_date\)\nSELECT .*, NULL\n/);
   const sql = buildUpsertSql([built.row]);
+  assert.match(sql, /INSERT INTO provider_pricing_history \(id, event_id, artist_slug, provider, low_price, currency, inventory_count, source, observed_at, event_date\)/);
+  assert.match(sql, /'2026-08-01T20:00:00'/);
+  // event_date must stay out of the change-detection tuple, or a corrected
+  // event date would manufacture a price-change row.
+  assert.doesNotMatch(sql, /SELECT low_price IS[^\n]*event_date/);
+  assert.doesNotMatch(sql, /INSERT INTO provider_pricing_cache[^;]*event_date/);
   assert.doesNotMatch(sql, /BEGIN TRANSACTION|COMMIT/);
   assert.match(sql, /INSERT INTO provider_pricing_history/);
   assert.match(sql, /WHERE COALESCE\(/);

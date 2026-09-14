@@ -43,6 +43,7 @@ export const STEPS = [
   { id: "events:backfill-timezones:self-test",    lane: "units",  run: "npm run events:backfill-timezones:self-test" },
   { id: "impact-providers:prices:self-test",      lane: "units",  run: "npm run impact-providers:prices:self-test" },
   { id: "prices:history:prune:self-test",         lane: "units",  run: "npm run prices:history:prune:self-test" },
+  { id: "prices:rollup:daily:self-test",          lane: "units",  run: "npm run prices:rollup:daily:self-test" },
   { id: "prices:freshness:self-test",             lane: "units",  run: "node scripts/check-price-snapshot-freshness.mjs --self-test" },
   { id: "automation:health:self-test",            lane: "units",  run: "npm run automation:health:self-test" },
   { id: "pr-validation-heads:self-test",          lane: "units",  run: "node scripts/check-pr-validation-heads.mjs --self-test" },

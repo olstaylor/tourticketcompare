@@ -185,7 +185,13 @@ function buildRow(config, item, price, now, freshnessHours) {
     inventory_count: price.inventoryCount,
     verified_at: now.toISOString(),
     expires_at: new Date(now.getTime() + freshnessHours * 3600000).toISOString(),
-    source: config.priceSource
+    source: config.priceSource,
+    // Venue-local event datetime, denormalised onto the history row (migration
+    // 0010). Write time is the only moment it is reliably known: history rows
+    // outlive the events.json records they point at, and once that record is
+    // gone the observation cannot be placed against its own concert date.
+    // Null when the event carries no date — never guessed.
+    event_date: clean(item.event?.datetime_iso, 64) || null
   };
 }
 
@@ -205,14 +211,19 @@ function buildHistoryInsertSql(row) {
     row.currency,
     row.inventory_count,
     row.source,
-    row.verified_at
+    row.verified_at,
+    row.event_date
   ].map(sqlLiteral);
-  const [id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt] = values;
+  const [id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt, eventDate] = values;
   // Preserve every observed price change, but do not turn unchanged polling
   // into a new history row. The cache upsert above still refreshes on every
   // verified run, so visitor-facing price freshness is unchanged.
-  return `INSERT INTO provider_pricing_history (id, event_id, artist_slug, provider, low_price, currency, inventory_count, source, observed_at)
-SELECT ${[id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt].join(", ")}
+  //
+  // event_date is deliberately outside that tuple: it describes the concert,
+  // not the observation, so a corrected or rescheduled date must not manufacture
+  // a price-change row.
+  return `INSERT INTO provider_pricing_history (id, event_id, artist_slug, provider, low_price, currency, inventory_count, source, observed_at, event_date)
+SELECT ${[id, eventId, artistSlug, provider, lowPrice, currency, inventoryCount, source, observedAt, eventDate].join(", ")}
 WHERE COALESCE((
   SELECT low_price IS ${lowPrice} AND currency IS ${currency} AND inventory_count IS ${inventoryCount}
   FROM provider_pricing_history
@@ -296,14 +307,25 @@ async function selfTest() {
   });
   assert.equal(summary.usable, 1);
   assert.equal(summary.proposed_rows[0].source, config.priceSource);
-  const sql = buildSql([{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource }]);
+  assert.equal(summary.proposed_rows[0].event_date, "2027-07-09T19:00:00Z");
+  const sql = buildSql([{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource, event_date: "2027-07-09T19:00:00Z" }]);
   assert.match(sql, /ON CONFLICT\(event_id, provider\)/);
   assert.match(sql, /INSERT INTO provider_pricing_history/);
   assert.match(sql, /WHERE COALESCE\(/);
   assert.match(sql, /ORDER BY observed_at DESC/);
   assert.match(sql, new RegExp(`'${config.slug}:e1:2026-07-13T00:00:00\\.000Z'`));
   assert.doesNotMatch(sql, /(DELETE|UPDATE)[^;]*provider_pricing_history/i);
-  return 16;
+  assert.match(sql, /INSERT INTO provider_pricing_history \(id, event_id, artist_slug, provider, low_price, currency, inventory_count, source, observed_at, event_date\)/);
+  assert.match(sql, /'2027-07-09T19:00:00Z'/);
+  // event_date must stay out of the change-detection tuple, or a corrected
+  // event date would manufacture a price-change row. The cache table has no
+  // such column, so the upsert must not carry it either.
+  assert.doesNotMatch(sql, /SELECT low_price IS[^\n]*event_date/);
+  assert.doesNotMatch(sql, /INSERT INTO provider_pricing_cache[^;]*event_date/);
+  // A dateless event stores NULL rather than a guess.
+  const dateless = buildSql([{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource, event_date: null }]);
+  assert.match(dateless, /source, observed_at, event_date\)\nSELECT .*, NULL\n/);
+  return 23;
 }
 
 async function main() {

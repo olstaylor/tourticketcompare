@@ -9,7 +9,7 @@ TourTicketCompare is a static-first Cloudflare Pages application with Pages Func
 | `public/` | Static HTML shell, client JavaScript, CSS, and public JSON data |
 | `functions/` | Cloudflare Pages middleware, server-rendered route adaptation, APIs, redirects, and sitemap |
 | Cloudflare Pages | Production hosting and Git-integrated deployment |
-| Cloudflare D1 (`DEMAND_DB`) | Signups, analytics, rate caps, provider pricing cache, and pricing history |
+| Cloudflare D1 (`DEMAND_DB`) | Signups, analytics, rate caps, provider pricing cache, pricing history, and the never-pruned daily price rollup |
 
 Cloudflare Pages + Pages Functions is the only production path. Vercel and the former standalone Worker are not deployment targets; do not reintroduce either without an explicit architecture decision.
 

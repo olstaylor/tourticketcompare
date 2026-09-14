@@ -221,6 +221,68 @@ function applySecurityHeaders(headers) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Shared-cache policy for rendered HTML.
+//
+// The browser directives never change: `max-age=0` keeps every returning
+// visitor revalidating, so a deploy that bumps a versioned asset URL in the
+// shell (`/shell.js?v=...`, `/artist-board.js?v=...`) still reaches them on
+// their next request. smoke-prelaunch.mjs asserts that intent per route.
+//
+// Only *shared* caches get a TTL, and only for routes whose HTML is derived
+// from committed content alone. Everything event-derived keeps the original
+// header: the homepage, /artists, /cities, /venues, and every artist, city,
+// venue, artist-city and comparison-hub page renders either an approved price
+// snapshot or an upcoming-date set filtered against Date.now(), and a stale
+// shared copy would keep showing a price or a date that the freshness gates
+// have already withdrawn. Provider-pair guides are excluded for the same
+// reason in miniature: renderGuideProviderPair stamps a per-render
+// `calculatedAt` into its visible methodology note.
+//
+// `must-revalidate` is deliberately dropped from the cacheable variant rather
+// than carried across. It binds shared caches as well as browsers, forbidding
+// them from serving anything stale, which would cancel `stale-while-revalidate`
+// outright. `max-age=0` on its own already forces the browser revalidation
+// that directive was there to guarantee.
+//
+// This is inert until a Cloudflare Cache Rule marks these routes eligible.
+// Pages Functions responses are ruled non-cacheable at request time — that is
+// what `cf-cache-status: DYNAMIC` reports — and no response header can
+// override a request-time decision. Until that rule exists the only behaviour
+// change is that shared caches other than Cloudflare's may hold these pages.
+const EDGE_CACHE_SHARED_MAX_AGE_SECONDS = 600;
+const EDGE_CACHE_STALE_WHILE_REVALIDATE_SECONDS = 3600;
+const HTML_CACHE_CONTROL = "no-cache, max-age=0, must-revalidate";
+const EDGE_CACHEABLE_HTML_CACHE_CONTROL = `public, max-age=0, s-maxage=${EDGE_CACHE_SHARED_MAX_AGE_SECONDS}, stale-while-revalidate=${EDGE_CACHE_STALE_WHILE_REVALIDATE_SECONDS}`;
+
+// Static trust pages that render no event data. "/" and "/artists" are also
+// `type: "static"` and are deliberately absent: both load events.
+const EDGE_CACHEABLE_STATIC_PATHS = new Set([
+  "/guides",
+  "/how-it-works",
+  "/currency-converter",
+  "/affiliate-disclosure",
+  "/privacy",
+  "/terms",
+  "/editorial-policy",
+  "/about",
+  "/about/ollie-taylor",
+  "/contact"
+]);
+
+function edgeCacheableRoute(route) {
+  if (!route) return false;
+  if (route.type === "guide") {
+    return !(Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2);
+  }
+  if (route.type === "blog-index" || route.type === "blog-post" || route.type === "blog-tag") return true;
+  return route.type === "static" && EDGE_CACHEABLE_STATIC_PATHS.has(route.path);
+}
+
+function htmlCacheControl(route) {
+  return edgeCacheableRoute(route) ? EDGE_CACHEABLE_HTML_CACHE_CONTROL : HTML_CACHE_CONTROL;
+}
+
 function escapeAttr(value) {
   return String(value || "")
     .replace(/&/g, "&amp;")
@@ -4853,7 +4915,7 @@ export async function onRequest(context) {
   const injected = injectRoute(html, renderRoute, url.origin, catalog, renderEvents, guideContent, env);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
-  headers.set("Cache-Control", "no-cache, max-age=0, must-revalidate");
+  headers.set("Cache-Control", htmlCacheControl(route));
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }

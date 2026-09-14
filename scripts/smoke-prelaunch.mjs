@@ -6,6 +6,28 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoutes = ["/", "/artists", "/cities", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
 const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact", "/privacy", "/terms"];
 const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*", "/blog/*"];
+
+// Cache-Control on rendered HTML. Every route revalidates in the browser; only
+// content-only routes additionally offer shared caches a TTL. Keep these two
+// strings and the route set in step with htmlCacheControl() in
+// functions/[[path]].js — the assertions below compare them verbatim.
+const EXPECTED_HTML_CACHE_CONTROL = "no-cache, max-age=0, must-revalidate";
+const EXPECTED_EDGE_CACHEABLE_CACHE_CONTROL = "public, max-age=0, s-maxage=600, stale-while-revalidate=3600";
+// "/" and "/artists" are absent on purpose: both render event-derived data.
+// So is /guides/vivid-seats-vs-ticketmaster, the one provider-pair guide, which
+// stamps a per-render calculatedAt into its visible methodology note.
+const EDGE_CACHEABLE_ROUTES = new Set([
+  "/guides",
+  "/blog",
+  "/how-it-works",
+  "/currency-converter",
+  "/about",
+  "/contact",
+  "/editorial-policy",
+  "/affiliate-disclosure",
+  "/privacy",
+  "/terms"
+]);
 const expectedH1 = new Map([
   ["/", "Compare ticket prices for the show you want."],
   ["/artists", "Artists we track"],
@@ -995,10 +1017,27 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
   assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow the account Publisher Tag loader`);
   assert(text.includes('/impact-publisher-tag.js?v=20260714a'), `${pathname} must load the account Publisher Tag loader`);
+  // Every rendered route keeps the browser revalidating, so a deploy that bumps
+  // a versioned asset URL in the shell reaches returning visitors immediately.
+  // Content-only routes additionally offer shared caches a TTL; event-derived
+  // routes must not, because a stale shared copy would keep serving a price
+  // snapshot or an upcoming date the freshness gates have already withdrawn.
+  const cacheControl = response.headers.get("Cache-Control");
   assert(
-    response.headers.get("Cache-Control") === "no-cache, max-age=0, must-revalidate",
-    `${pathname} must revalidate rendered HTML so new client asset versions reach returning visitors immediately`
+    /(^|,\s)max-age=0(,|$)/.test(cacheControl || ""),
+    `${pathname} must revalidate rendered HTML in the browser so new client asset versions reach returning visitors immediately, got: ${cacheControl}`
   );
+  const sharedCacheable = EDGE_CACHEABLE_ROUTES.has(pathname);
+  assert(
+    cacheControl === (sharedCacheable ? EXPECTED_EDGE_CACHEABLE_CACHE_CONTROL : EXPECTED_HTML_CACHE_CONTROL),
+    `${pathname} should send the ${sharedCacheable ? "shared-cacheable" : "revalidate-only"} Cache-Control, got: ${cacheControl}`
+  );
+  if (!sharedCacheable) {
+    assert(
+      !/s-maxage|stale-while-revalidate/.test(cacheControl || ""),
+      `${pathname} renders event-derived data and must not offer shared caches a TTL, got: ${cacheControl}`
+    );
+  }
 
   // Google tag: every rendered page keeps the shell's GTM activation event and does
   // not also load gtag.js directly (which would duplicate the GTM-managed page view).

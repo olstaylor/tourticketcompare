@@ -5,18 +5,38 @@
  * Verifies that every per-artist partition file under public/data/events/<slug>.json
  * is an exact subset match of public/data/events.json for that artist slug.
  *
+ * Also verifies public/data/events-index.json — the flat search index the same
+ * generator writes — against events.json. Both public/app.js and
+ * public/ttc-home.js load that index to power search, so drift there hides a
+ * newly added date from search or keeps a removed one listed, and a stale field
+ * value shows the wrong venue or time in a search result. Nothing compared the
+ * two until this check: validate-partitions covered the per-artist partitions
+ * only, and the smoke suite asserts the file exists and is fetched, not its
+ * contents.
+ *
  * Exit 1 (FAIL) on:
  *   - missing partition file for a slug present in events.json
  *   - extra IDs in a partition (not in master subset)
  *   - missing IDs in a partition (in master but absent from partition)
  *   - event count mismatch
  *   - invalid JSON in a partition file
+ *   - events-index.json missing, unparseable, or not a JSON array
+ *   - IDs present in events.json but absent from the index, or vice versa
+ *   - an ID carried a different number of times in the two files
+ *   - an indexed field whose value has drifted from events.json, or a row
+ *     carrying a field the master event does not have (or missing one it does)
  *
  * Exit 0 (PASS) with warnings on:
  *   - artist with indexing_status "indexable_with_substantial_content" having zero events
  *   - orphan partition file (partition exists but slug has no events in events.json)
+ *   - the index holding the right rows in a different order — both consumers map
+ *     over the whole array, so order changes nothing a visitor sees, but it does
+ *     mean the file did not come from the generator
  *
  * Artists with indexing_status "review_required" are excluded from zero-event warnings.
+ *
+ * Every failure here is fixed the same way, by regenerating rather than editing:
+ *   npm run events:partition
  */
 
 import { readFileSync, readdirSync, existsSync } from "fs";
@@ -29,6 +49,236 @@ const ROOT = resolve(__dirname, "..");
 const EVENTS_PATH = join(ROOT, "public/data/events.json");
 const ARTISTS_PATH = join(ROOT, "public/data/artists.json");
 const PARTITIONS_DIR = join(ROOT, "public/data/events");
+const INDEX_PATH = join(ROOT, "public/data/events-index.json");
+
+// ── The index contract ────────────────────────────────────────────────────────
+//
+// A mirror of INDEX_FIELDS in scripts/partition-events.py, which is what writes
+// the file. The two must move together: adding a field there without adding it
+// here leaves the new field unchecked, and adding it here first fails every run
+// until the generator catches up. The projection is deliberately the same shape
+// as the generator's dict comprehension — a field absent from the event is
+// absent from the row, rather than present and null — so a row that carries a
+// key the master event does not have is drift, not a formatting difference.
+
+const INDEX_FIELDS = [
+  "id",
+  "artist_slug",
+  "artist_name",
+  "country",
+  "city",
+  "venue",
+  "datetime_iso",
+  "timezone",
+  "tour_name",
+  "status",
+];
+
+function indexRowFor(event) {
+  const row = {};
+  for (const field of INDEX_FIELDS) {
+    if (field in event) row[field] = event[field];
+  }
+  return row;
+}
+
+const show = (value) => (value === undefined ? "—" : JSON.stringify(value));
+
+function rowDifferences(expected, actual) {
+  const diffs = [];
+  for (const field of INDEX_FIELDS) {
+    const inExpected = field in expected;
+    const inActual = field in actual;
+    if (inExpected !== inActual) {
+      diffs.push(inExpected ? `${field} missing from index row` : `${field} present in index but not in the event`);
+      continue;
+    }
+    if (!inExpected) continue;
+    if (JSON.stringify(expected[field]) !== JSON.stringify(actual[field])) {
+      diffs.push(`${field}: master=${show(expected[field])} index=${show(actual[field])}`);
+    }
+  }
+  for (const key of Object.keys(actual)) {
+    if (!INDEX_FIELDS.includes(key)) diffs.push(`unknown field ${key}`);
+  }
+  return diffs;
+}
+
+const sample = (items, limit = 3) => {
+  const head = items.slice(0, limit).join(", ");
+  return items.length > limit ? `${head} … (+${items.length - limit} more)` : head;
+};
+
+const countById = (rows) => {
+  const counts = new Map();
+  for (const row of rows) {
+    const id = row && row.id;
+    counts.set(id, (counts.get(id) || 0) + 1);
+  }
+  return counts;
+};
+
+/**
+ * Compare public/data/events-index.json against events.json.
+ *
+ * Pure so the self-test can exercise it without touching the repository's data:
+ * takes both arrays, returns what is wrong with them.
+ *
+ * @param {unknown} events  parsed events.json
+ * @param {unknown} index   parsed events-index.json
+ * @returns {{ failures: string[], warnings: string[] }}
+ */
+export function compareEventsIndex(events, index) {
+  const failures = [];
+  const warnings = [];
+
+  if (!Array.isArray(index)) {
+    failures.push("does not contain a JSON array");
+    return { failures, warnings };
+  }
+
+  if (events.length !== index.length) {
+    failures.push(`count mismatch: events.json=${events.length} events-index.json=${index.length}`);
+  }
+
+  // Multisets, not sets: a duplicated row is drift even when both files name the
+  // same IDs, and it would make the row-by-row comparison below ambiguous.
+  const masterCounts = countById(events);
+  const indexCounts = countById(index);
+
+  const missing = [...masterCounts.keys()].filter((id) => !indexCounts.has(id));
+  const extra = [...indexCounts.keys()].filter((id) => !masterCounts.has(id));
+  const duplicated = [...indexCounts.entries()]
+    .filter(([id, count]) => masterCounts.has(id) && count !== masterCounts.get(id))
+    .map(([id, count]) => `${id} (events.json ${masterCounts.get(id)}×, index ${count}×)`);
+
+  if (missing.length) failures.push(`missing from the index: ${sample(missing)}`);
+  if (extra.length) failures.push(`present in the index but not in events.json: ${sample(extra)}`);
+  if (duplicated.length) failures.push(`carried a different number of times: ${sample(duplicated)}`);
+
+  // Field drift, for the IDs both files agree on. Keyed by ID rather than by
+  // position so a reordered file reports only its ordering, not every row.
+  const indexById = new Map();
+  for (const row of index) {
+    if (row && typeof row === "object" && !indexById.has(row.id)) indexById.set(row.id, row);
+  }
+
+  const drifted = [];
+  for (const event of events) {
+    const row = indexById.get(event.id);
+    if (!row) continue;
+    const diffs = rowDifferences(indexRowFor(event), row);
+    if (diffs.length) drifted.push(`${event.id} — ${diffs.join("; ")}`);
+  }
+  if (drifted.length) {
+    failures.push(`stale field value(s): ${sample(drifted, 2)}`);
+  }
+
+  // Order is cosmetic to both consumers (public/app.js and public/ttc-home.js
+  // each map over the whole array), so it warns rather than fails — but a file
+  // the generator did not write is still worth naming.
+  if (!failures.length) {
+    const masterOrder = events.map((event) => event.id);
+    const indexOrder = index.map((row) => row.id);
+    const firstDivergence = masterOrder.findIndex((id, i) => id !== indexOrder[i]);
+    if (firstDivergence !== -1) {
+      warnings.push(
+        `events-index.json holds the right rows in a different order (first at position ${firstDivergence + 1}: ` +
+          `events.json has ${masterOrder[firstDivergence]}, index has ${indexOrder[firstDivergence]})`,
+      );
+    }
+  }
+
+  return { failures, warnings };
+}
+
+// ── Self-test ─────────────────────────────────────────────────────────────────
+//
+// Runs before any repository data is read, so it exercises the comparison on
+// fixtures alone and cannot be made to pass or fail by the current contents of
+// public/data/.
+
+function selfTest() {
+  const failures = [];
+  const check = (name, condition) => {
+    if (!condition) failures.push(name);
+  };
+
+  const event = (id, overrides = {}) => ({
+    id,
+    artist_slug: "test-artist",
+    artist_name: "Test Artist",
+    country: "United States",
+    city: "Austin",
+    venue: "Moody Center",
+    datetime_iso: "2026-11-02T02:00:00Z",
+    timezone: "America/Chicago",
+    status: "announced",
+    // Not an indexed field: present on the event, never expected in a row.
+    verification_status: "human_verified",
+    ...overrides,
+  });
+
+  const events = [event("evt-1"), event("evt-2", { city: "Dallas" })];
+  const cleanIndex = events.map(indexRowFor);
+
+  const clean = compareEventsIndex(events, cleanIndex);
+  check("a matching index passes", clean.failures.length === 0 && clean.warnings.length === 0);
+  check(
+    "the projection drops fields the index does not carry",
+    !("verification_status" in cleanIndex[0]),
+  );
+
+  const missing = compareEventsIndex(events, [cleanIndex[0]]);
+  check("a row missing from the index fails", missing.failures.some((f) => f.includes("missing from the index")));
+  check("a short index reports the count", missing.failures.some((f) => f.includes("count mismatch")));
+
+  const extra = compareEventsIndex(events, [...cleanIndex, indexRowFor(event("evt-3"))]);
+  check("a row the master does not have fails", extra.failures.some((f) => f.includes("but not in events.json")));
+
+  const duplicated = compareEventsIndex(events, [...cleanIndex, cleanIndex[0]]);
+  check(
+    "a duplicated row fails",
+    duplicated.failures.some((f) => f.includes("carried a different number of times")),
+  );
+
+  const staleValue = compareEventsIndex(events, [{ ...cleanIndex[0], venue: "Old Venue" }, cleanIndex[1]]);
+  check("a stale field value fails", staleValue.failures.some((f) => f.includes("venue:")));
+
+  const addedKey = compareEventsIndex(events, [{ ...cleanIndex[0], tour_name: "Invented Tour" }, cleanIndex[1]]);
+  check(
+    "a field the event does not have fails",
+    addedKey.failures.some((f) => f.includes("present in index but not in the event")),
+  );
+
+  const droppedKey = compareEventsIndex(events, [(({ venue, ...rest }) => rest)(cleanIndex[0]), cleanIndex[1]]);
+  check(
+    "a field dropped from the row fails",
+    droppedKey.failures.some((f) => f.includes("missing from index row")),
+  );
+
+  const unknownKey = compareEventsIndex(events, [{ ...cleanIndex[0], price_from: 42 }, cleanIndex[1]]);
+  check("an unknown field fails", unknownKey.failures.some((f) => f.includes("unknown field price_from")));
+
+  const notArray = compareEventsIndex(events, { rows: cleanIndex });
+  check("a non-array index fails", notArray.failures.some((f) => f.includes("does not contain a JSON array")));
+
+  const reordered = compareEventsIndex(events, [cleanIndex[1], cleanIndex[0]]);
+  check("a reordered index does not fail", reordered.failures.length === 0);
+  check("a reordered index warns", reordered.warnings.some((w) => w.includes("different order")));
+
+  if (failures.length) {
+    console.error(`[validate-partitions] self-test: ${failures.length} failure(s)`);
+    for (const failure of failures) console.error(`  - ${failure}`);
+    return 1;
+  }
+  console.log("[validate-partitions] self-test: all assertions passed");
+  return 0;
+}
+
+if (process.argv.includes("--self-test")) {
+  process.exit(selfTest());
+}
 
 // ── Load source files ──────────────────────────────────────────────────────────
 
@@ -149,6 +399,30 @@ for (const artist of artists) {
   }
 }
 
+// ── Validate the flat search index ────────────────────────────────────────────
+
+const indexFailures = [];
+const indexWarnings = [];
+
+if (!existsSync(INDEX_PATH)) {
+  indexFailures.push("the file is missing");
+} else {
+  let indexRows;
+  try {
+    indexRows = JSON.parse(readFileSync(INDEX_PATH, "utf8"));
+  } catch (err) {
+    indexFailures.push(`invalid JSON — ${err.message}`);
+  }
+  if (indexRows !== undefined) {
+    const result = compareEventsIndex(events, indexRows);
+    indexFailures.push(...result.failures);
+    indexWarnings.push(...result.warnings);
+  }
+}
+
+failures.push(...indexFailures.map((f) => `events-index.json — ${f}`));
+warnings.push(...indexWarnings);
+
 // ── Render output ──────────────────────────────────────────────────────────────
 
 const PASS = "PASS";
@@ -183,6 +457,17 @@ if (zeroEventWarnings.length > 0) {
   console.log(
     "  These are informational. Run the partition script after verified events are added.",
   );
+}
+
+console.log("\n=== Events Index Validation ===\n");
+if (indexFailures.length === 0 && indexWarnings.length === 0) {
+  console.log(`  ${label(PASS)} events-index.json  (${events.length} rows match events.json)`);
+} else {
+  for (const f of indexFailures) console.log(`  ${label(FAIL)} ${f}`);
+  for (const w of indexWarnings) console.log(`  ${label(WARN)} ${w}`);
+  if (indexFailures.length > 0) {
+    console.log("\n  Regenerate rather than editing the file: npm run events:partition");
+  }
 }
 
 if (failures.length > 0 || warnings.length > 0) {

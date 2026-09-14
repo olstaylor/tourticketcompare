@@ -176,7 +176,7 @@ The browser editor is served from a **separate origin**, `admin.tourticketcompar
 3. Server rendering and `/api/shows` read the reviewed data and apply the same provider publishability rules.
 4. `public/app.js` progressively enhances the server-rendered page; it must not loosen server-side URL, provenance, or price gates.
 
-`npm run events:validate:partitions` prevents the per-artist partitions and `events.json` from drifting.
+`npm run events:validate:partitions` prevents the per-artist partitions and `events.json` from drifting, and since 2026-09-14 also holds `public/data/events-index.json` — the flat search index — to the same source, by ID multiset and by indexed field value. It runs in `test:mvp`.
 
 ## Provider and redirect contract
 

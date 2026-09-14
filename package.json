@@ -39,6 +39,7 @@
     "events:validate": "python3 scripts/validate-events.py",
     "events:validate:prod": "python3 scripts/validate-events.py --for-production",
     "events:validate:partitions": "node scripts/validate-partitions.mjs",
+    "events:validate:partitions:self-test": "node scripts/validate-partitions.mjs --self-test",
     "events:backfill-timezones": "node scripts/backfill-event-timezones.mjs",
     "events:backfill-timezones:apply": "node scripts/backfill-event-timezones.mjs --apply",
     "events:backfill-timezones:self-test": "node scripts/backfill-event-timezones.mjs --self-test",

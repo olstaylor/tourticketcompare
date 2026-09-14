@@ -30,10 +30,12 @@ If you modified a named route shim, `node --check` it too (`functions/artists.js
 
 ```bash
 python3 scripts/validate-events.py --for-production
-node scripts/validate-partitions.mjs          # if partitions touched
+node scripts/validate-partitions.mjs          # if events.json, a partition or the search index moved
 ```
 
 `validate-events.py --for-production` hard-errors on a missing `tour_name` key and warns on a blank `tour_name` for indexed artists.
+
+`validate-partitions.mjs` covers both generated views of `events.json`: the per-artist partitions and `public/data/events-index.json`. Both come from `npm run events:partition`, which is also the fix for anything it reports — neither file is ever edited by hand.
 
 ### Blog / content
 

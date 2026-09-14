@@ -42,11 +42,13 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { eventMatchesArtistFilter } from "./lib/artist-filter.mjs";
+import { serializeEventsIndex } from "./lib/events-index.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
 const EVENTS_PARTITIONS_DIR = path.join(REPO_ROOT, "public", "data", "events");
+const EVENTS_INDEX_PATH = path.join(REPO_ROOT, "public", "data", "events-index.json");
 const DEFAULT_BASE = "https://app.ticketmaster.com/discovery/v2";
 const DEFAULT_DELAY_MS = 250;
 const REQUEST_TIMEOUT_MS = 20000;
@@ -500,6 +502,12 @@ async function main() {
   if (options.apply && changedIds.size > 0) {
     await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
     partitionFiles = await syncPartitions(events, changedIds);
+    // events.json has two generated views, not one. Writing the partitions but
+    // not the flat search index leaves `timezone` stale in the index — which
+    // validate-partitions.mjs now fails on, and which the homepage would show.
+    // Rebuilt in full rather than patched row by row, so the result is exactly
+    // what `npm run events:partition` would have written.
+    await fs.writeFile(EVENTS_INDEX_PATH, serializeEventsIndex(events));
   }
 
   const summary = {
@@ -523,7 +531,7 @@ async function main() {
     for (const row of results) {
       console.log(`  ${row.showId} [${row.artist}] ${row.action}${row.applied ? " (applied)" : ""}${row.timezone ? ` ${row.timezone}` : ""} — ${row.reason}`);
     }
-    if (summary.written) console.log(`\nWrote ${summary.written} timezone(s) and ${summary.partition_files_written} partition file(s). Re-run the provider syncs next.`);
+    if (summary.written) console.log(`\nWrote ${summary.written} timezone(s), ${summary.partition_files_written} partition file(s) and the search index. Re-run the provider syncs next.`);
     else if (!options.apply && summary.would_write) console.log(`\nDry run — re-run with --apply to write ${summary.would_write} timezone(s).`);
   }
   return 0;

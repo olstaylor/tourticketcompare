@@ -177,11 +177,15 @@ if (process.argv.includes("--self-test")) {
     request: async (method, pathname) => {
       if (method === "GET") {
         reads += 1;
-        // The first read is the one that finds them; by the confirmation read
-        // GitHub has acted on the cancels, so only the untouchable rows remain.
-        return reads === 1
-          ? strandedRuns()
-          : { workflow_runs: strandedRuns().workflow_runs.filter((r) => ![1, 5].includes(r.id)) };
+        // The first read finds them; by the confirmation read GitHub has acted
+        // on the cancels, so the two submitted runs report a real `cancelled`
+        // conclusion rather than merely dropping out of the listing.
+        if (reads === 1) return strandedRuns();
+        return {
+          workflow_runs: strandedRuns().workflow_runs.map((r) =>
+            [1, 5].includes(r.id) ? { ...r, status: "completed", conclusion: "cancelled" } : r
+          ),
+        };
       }
       const match = pathname.match(/\/actions\/runs\/(\d+)\/cancel$/);
       if (!match) throw new Error(`unexpected call ${method} ${pathname}`);
@@ -198,6 +202,50 @@ if (process.argv.includes("--self-test")) {
   check("cancels only the stranded pull_request runs", cancelled.join(","), "1,5");
   check("reports how many it cancelled", cancelledCount, 2);
   check("confirms the cancel actually settled", reads, 2);
+
+  // Confirmation must track the submitted run IDs, not "is it still in a
+  // cancellable state?". A run that slips to `in_progress` would vanish from
+  // that filtered view and be called settled while still executing, and one
+  // that resolves to `failure` — the standing false red this exists to stop —
+  // would read as a success. Both must keep the wait alive and be named.
+  let slipReads = 0;
+  const slipWarnings = [];
+  let slipTicks = 0;
+  await cancelStrandedPrValidation({
+    request: async (method) => {
+      if (method !== "GET") return null;
+      slipReads += 1;
+      if (slipReads === 1) return strandedRuns();
+      // 1 starts running instead of cancelling; 5 resolves red on its own.
+      return {
+        workflow_runs: strandedRuns().workflow_runs.map((r) => {
+          if (r.id === 1) return { ...r, status: "in_progress" };
+          if (r.id === 5) return { ...r, status: "completed", conclusion: "failure" };
+          return r;
+        }),
+      };
+    },
+    repo: "o/r",
+    sha: "0123456789abcdef",
+    confirmMs: 30,
+    pollMs: 0,
+    sleep: async () => {
+      slipTicks += 1;
+    },
+    now: () => slipTicks * 10,
+    log: quiet,
+    warn: (msg) => slipWarnings.push(String(msg)),
+  });
+  check(
+    "a run that resolved red rather than cancelled is named",
+    slipWarnings.some((m) => m.includes("5") && m.includes("failure")),
+    true
+  );
+  check(
+    "a run that slipped to in_progress is not called settled",
+    slipWarnings.some((m) => m.includes("had not reached") && m.includes("1")),
+    true
+  );
 
   // The confirmation is what stops the merge racing an accepted-but-unapplied
   // cancel — the race that made the post-merge call useless. It must be

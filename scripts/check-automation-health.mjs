@@ -56,10 +56,26 @@ const ROLLING_ISSUE_LABEL = "automation:health";
 // -> "Size the constant against delivered runs, not the nominal cron."
 //
 // 14h is that measurement applied: the worst delivered gap (10.10h) plus about
-// one more mean-length gap of lateness on top of it. It still leaves 10h of the
-// 24h DEFAULT_FRESHNESS_HOURS budget, so a schedule that has genuinely stopped
-// is a finding well before a visitor could see a price disappear — which is the
-// only thing this window has to beat.
+// one more mean-length gap of lateness on top of it.
+//
+// What this window does NOT do is guarantee the 24h display budget, and it is
+// worth being exact rather than reassuring about that. This sensor only sees
+// these lanes on its own 6-hourly poll, and that poll is throttled too — worst
+// delivered gap ~13h20. A lane that stops just after a poll saw it at 13.9h is
+// next observed at ~27h, past the 24h expiry. Nor is that fixable by lowering
+// the number: staying under 24h needs a window below 10.67h, and avoiding the
+// false positives above needs one over 10.10h, so the whole viable band is 34
+// minutes wide and would break on one unlucky gap either side. The constraints
+// are incompatible with a 6-hourly observer, and no single value reconciles
+// them.
+//
+// It does not have to. The 24h visitor-facing line is held by
+// `price-freshness-check.yml`, which probes the live site for the symptom
+// itself rather than inferring it from schedules — the design already recorded
+// two paragraphs down, and untouched by this window. What the window is for is
+// the other half: catching a schedule that has genuinely stopped, without
+// crying wolf often enough to be ignored. Widening it costs later detection of
+// a stopped lane and nothing else.
 //
 // `eventDriven` buys minutes-level detection for one CI run per lane run, so it
 // is spent only where it pays. The six daily lanes carry it: each is a data

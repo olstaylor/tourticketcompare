@@ -787,7 +787,14 @@ async function main() {
     try {
       await githubApi(`/repos/${owner}/${name}/pulls/${pr.number}/merge`, {
         method: "PUT",
-        body: { merge_method: "squash", commit_title: `${prTitle} (#${pr.number})` },
+        // `sha` binds the merge to the head the verdict was earned on: time
+        // passes between `earnRequiredCheck` and here, and without it GitHub
+        // would merge whatever the branch points at now, publishing a commit
+        // no check ever ran against. SAFE_PUBLISHING_RULES.md requires the
+        // check on *that exact PR head*. A moved head returns 409 ("Head
+        // branch was modified") and lands in the withheld-merge path below,
+        // which is the right answer: the verdict no longer describes it.
+        body: { merge_method: "squash", commit_title: `${prTitle} (#${pr.number})`, sha: pr.head.sha },
       });
       coverage.pr.merged = true;
       await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");

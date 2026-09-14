@@ -209,17 +209,14 @@ export async function cancelStrandedPrValidation({
     warn("cancelStrandedPrValidation requires request, repo and sha; skipping.");
     return 0;
   }
-  const readStranded = async () => {
+  const isOurValidationRun = (run) =>
+    run?.event === "pull_request" && String(run?.path || "").endsWith(`/${workflowFile}`);
+  const readRunsOnSha = async () => {
     const body = await request("GET", `/repos/${repo}/actions/runs?head_sha=${encodeURIComponent(sha)}&per_page=100`);
-    return (body?.workflow_runs || []).filter(
-      (run) =>
-        run?.event === "pull_request" &&
-        isCancellableStrandedStatus(run?.status) &&
-        String(run?.path || "").endsWith(`/${workflowFile}`)
-    );
+    return (body?.workflow_runs || []).filter(isOurValidationRun);
   };
   try {
-    const stranded = await readStranded();
+    const stranded = (await readRunsOnSha()).filter((run) => isCancellableStrandedStatus(run?.status));
     for (const run of stranded) {
       await request("POST", `/repos/${repo}/actions/runs/${run.id}/cancel`);
       log(`Cancelled the un-runnable pull_request validation run ${run.id} on ${sha.slice(0, 7)}.`);
@@ -228,25 +225,41 @@ export async function cancelStrandedPrValidation({
       log(`No stranded pull_request validation run on ${sha.slice(0, 7)}.`);
       return 0;
     }
+    // Confirm by ID and by conclusion, never by absence from a filtered list.
+    // Re-reading "is it still cancellable?" would call a run that had moved on
+    // to `in_progress` settled, and would read one that resolved to `failure`
+    // — the very outcome being prevented — as a success. Track the exact runs
+    // submitted and require each to have actually reached `cancelled`.
+    const awaiting = new Map(stranded.map((run) => [run.id, run]));
     const deadline = now() + confirmMs;
     for (;;) {
       if (now() >= deadline) {
         warn(
-          `Stranded validation run(s) on ${sha.slice(0, 7)} had not settled after ${Math.round(confirmMs / 1000)}s; continuing to the merge.`
+          `Validation run(s) ${[...awaiting.keys()].join(", ")} on ${sha.slice(0, 7)} had not reached \`cancelled\` after ${Math.round(confirmMs / 1000)}s; continuing to the merge.`
         );
         break;
       }
       await sleep(pollMs);
-      let pending;
+      let current;
       try {
-        pending = await readStranded();
+        current = new Map((await readRunsOnSha()).map((run) => [run.id, run]));
       } catch (err) {
         // A transient read failure is not a reason to hold the merge.
         warn(`Could not confirm the cancel on ${sha.slice(0, 7)}: ${err.message}`);
         break;
       }
-      if (!pending.length) {
-        log(`Stranded validation run(s) on ${sha.slice(0, 7)} settled as cancelled.`);
+      for (const id of [...awaiting.keys()]) {
+        const run = current.get(id);
+        if (!run || run.status !== "completed") continue;
+        if (run.conclusion !== "cancelled") {
+          // Worth saying out loud: the run resolved on its own before the
+          // cancel landed, which is the standing false red this exists to stop.
+          warn(`Validation run ${id} on ${sha.slice(0, 7)} completed as \`${run.conclusion}\` rather than \`cancelled\`.`);
+        }
+        awaiting.delete(id);
+      }
+      if (awaiting.size === 0) {
+        log(`Validation run(s) on ${sha.slice(0, 7)} settled.`);
         break;
       }
     }

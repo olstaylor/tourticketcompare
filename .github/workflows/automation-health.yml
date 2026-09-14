@@ -45,8 +45,15 @@ on:
       - Impact marketplace provider sync
     types: [completed]
   # The poll is what catches a lane that has stopped being invoked at all, which
-  # by definition fires no workflow_run event. Four times a day is enough for a
-  # 6h staleness threshold and costs twelve API reads per run.
+  # by definition fires no workflow_run event. Four times a day costs twelve API
+  # reads per run.
+  #
+  # Note this cadence bounds how fast any staleness threshold can be observed,
+  # and GitHub throttles this schedule as hard as the ones it watches (worst
+  # delivered gap ~13h20). So the poll interval, not the threshold, is the floor
+  # on detection latency — see WATCHED_LANES in scripts/check-automation-health.mjs
+  # for why that is sized against catching a stopped schedule rather than against
+  # the 24h price-display budget, which `price-freshness-check.yml` holds instead.
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:

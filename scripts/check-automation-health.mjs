@@ -41,10 +41,41 @@ const ROLLING_ISSUE_LABEL = "automation:health";
 // `maxAgeHours` is deliberately far looser than the nominal cron. GitHub runs
 // these queues late as a matter of course, and a sensor that cries wolf on
 // ordinary lateness gets ignored — which costs more than the miss it prevents.
-// Daily lanes get 30h (a full extra cycle plus 6h of slack). The hourly price
-// lanes get 6h, comfortably inside the 24h DEFAULT_FRESHNESS_HOURS display
-// constant, so a finding still arrives well before a visitor could see a price
-// disappear.
+// Daily lanes get 30h (a full extra cycle plus 6h of slack).
+//
+// The hourly lanes get 14h, raised from 6h on 2026-09-14. 6h was reasoned down
+// from the 24h display budget rather than measured against delivered runs, and
+// GitHub never delivered these hourly. Every scheduled run of all three lanes
+// over 2026-09-05..14 (148 runs, 147 gaps) came in at a mean of ~4h, and the
+// worst gap on each lane was already past the window: 7.85h on the marketplace
+// snapshots, 10.10h on Vivid, and a 6.5h gap still open on the freshness probe
+// when it was sampled. So the sensor raised `stale` on healthy lanes roughly
+// every other day — issues #970 and #984 were both filed at P1 human-required
+// against lanes whose every run had succeeded. This is the failure mode the
+// paragraph above warns about, and it is the same lesson as docs/OPERATIONS.md
+// -> "Size the constant against delivered runs, not the nominal cron."
+//
+// 14h is that measurement applied: the worst delivered gap (10.10h) plus about
+// one more mean-length gap of lateness on top of it.
+//
+// What this window does NOT do is guarantee the 24h display budget, and it is
+// worth being exact rather than reassuring about that. This sensor only sees
+// these lanes on its own 6-hourly poll, and that poll is throttled too — worst
+// delivered gap ~13h20. A lane that stops just after a poll saw it at 13.9h is
+// next observed at ~27h, past the 24h expiry. Nor is that fixable by lowering
+// the number: staying under 24h needs a window below 10.67h, and avoiding the
+// false positives above needs one over 10.10h, so the whole viable band is 34
+// minutes wide and would break on one unlucky gap either side. The constraints
+// are incompatible with a 6-hourly observer, and no single value reconciles
+// them.
+//
+// It does not have to. The 24h visitor-facing line is held by
+// `price-freshness-check.yml`, which probes the live site for the symptom
+// itself rather than inferring it from schedules — the design already recorded
+// two paragraphs down, and untouched by this window. What the window is for is
+// the other half: catching a schedule that has genuinely stopped, without
+// crying wolf often enough to be ignored. Widening it costs later detection of
+// a stopped lane and nothing else.
 //
 // `eventDriven` buys minutes-level detection for one CI run per lane run, so it
 // is spent only where it pays. The six daily lanes carry it: each is a data
@@ -72,9 +103,9 @@ export const WATCHED_LANES = [
   { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 05:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
-  { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
-  { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
-  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 6, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
+  { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
+  { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
+  { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
   // The three sensors, this one included. Watching them was missing when this
   // shipped, and a watcher nobody watches is the gap that hides every other
   // gap: if this workflow stops running, the board it writes simply stops
@@ -117,6 +148,16 @@ export const WATCHED_LANES = [
   // once a day and most runs end on NO SAFE WORK in seconds.
   { file: "work-queue-repair.yml", name: "Work queue repair", cadence: "daily 04:50", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true }
 ];
+
+// Whether a lane runs often enough that one failure is absorbed rather than
+// lost — the precondition for a `failuresBeforeIncident` above 1.
+//
+// Read from the declared cadence, never from `maxAgeHours`: the window is sized
+// from GitHub's delivered lateness, so a lane can carry a 14h window and still
+// run every hour. Conflating the two is what let the invariant below drift.
+export function runsAgainSoon(cadence) {
+  return /^hourly\b/.test(String(cadence || ""));
+}
 
 // A cancelled or skipped run is not a failure, but it is not proof of health
 // either: it means that tick produced no verdict at all. One of them among fresh
@@ -625,12 +666,22 @@ if (SELF_TEST) {
   assert.ok(WORKFLOW_FILE.test("scheduled-lane.yaml"));
   assert.ok(WORKFLOW_FILE.test("scheduled-lane.yml"));
   assert.equal(WORKFLOW_FILE.test("notes.md"), false);
-  // A lane that absorbs a single failure must be one that runs again soon. Tying
-  // the threshold to the staleness window stops the two drifting apart into a
-  // daily lane that quietly swallows a whole lost day.
+  // A lane that absorbs a single failure must be one that runs again soon,
+  // otherwise the threshold quietly swallows a whole lost ingestion window.
+  //
+  // This read `maxAgeHours > 6` until 2026-09-14, using the staleness window as
+  // a stand-in for the cadence. The two are not the same thing and came apart
+  // the moment the hourly windows were resized from measured delivery: those
+  // lanes still run every hour, so they may still absorb, but a window-based
+  // test called them daily. Read the cadence itself.
+  assert.equal(runsAgainSoon("hourly"), true);
+  assert.equal(runsAgainSoon("hourly :35"), true);
+  assert.equal(runsAgainSoon("daily 03:00"), false);
+  assert.equal(runsAgainSoon("every 6h (:17) + lane completions"), false);
+  assert.equal(runsAgainSoon(""), false);
   for (const lane of WATCHED_LANES) {
     assert.ok(lane.failuresBeforeIncident >= 1, `${lane.file} needs a failuresBeforeIncident of at least 1`);
-    if (lane.maxAgeHours > 6) {
+    if (!runsAgainSoon(lane.cadence)) {
       assert.equal(lane.failuresBeforeIncident, 1, `${lane.file} runs at most daily, so one failure is already a lost window`);
     }
   }

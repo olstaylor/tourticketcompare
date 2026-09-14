@@ -8,12 +8,27 @@
 //
 //   * the direct-to-main writers pushed a commit built on the runner, so the
 //     SHA carried no checks at all and the push was rejected outright;
-//   * the PR lanes open their PR with the Actions token, and the `pull_request`
-//     run that raises is held at `action_required` awaiting an approval no
-//     automation can give, so `test-mvp` never appeared on the head and the
-//     squash-merge was rejected with a 405 (PR #951, 2026-09-12). Measured
-//     2026-09-13 over the preceding twelve days: 0 of 36 such runs ever
-//     reached a verdict. `cancelStrandedPrValidation` below clears them up.
+//     the squash-merge was rejected with a 405 (PR #951, 2026-09-12).
+//     `cancelStrandedPrValidation` below clears the stranded runs up.
+//
+//     The "0 of 36 such runs ever reached a verdict" figure recorded here on
+//     2026-09-13 was wrong, and the correction matters because it changes what
+//     the fix is. Counted over all 100 `pull_request` Prelaunch runs on
+//     2026-09-14: on `automation/*` heads, 23 `failure`, 5 still sitting at
+//     `action_required` — and 9 `success`. The successes are real, and all
+//     fall on 2026-09-10/11, when a human was approving these runs by hand
+//     during the ruleset incident. None since 2026-09-11 09:22.
+//
+//     So the gate is an approval requirement that a human CAN clear, not an
+//     absolute block: `action_required` as a literal conclusion rules out the
+//     other candidate (GitHub's GITHUB_TOKEN recursion suppression, which
+//     raises no run at all). `github-actions[bot]` is not a repository
+//     collaborator, which is why an in-repo branch is still treated as
+//     outside-contributor work. Clearing it at source is a repository setting
+//     or a non-GITHUB_TOKEN credential for opening the PR — an owner decision,
+//     recorded in docs/OPERATIONS.md, and the reason this dispatch exists
+//     rather than a defect in any lane. Do that and this whole module becomes
+//     unnecessary; until then it is what keeps the lanes publishing.
 //
 // Neither is a validation gap: both run the full suite in-job before pushing.
 // What was missing was *evidence GitHub can see*. So earn it, honestly: the

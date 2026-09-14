@@ -162,15 +162,28 @@ export async function earnRequiredCheck({
 
 // The statuses a stranded validation run can be cancelled from safely.
 //
-// `action_required` is where a bot-opened PR's run actually sits; the other
-// pre-start states are included because they are the same condition — a run no
-// job of which has begun. `in_progress` is deliberately absent, and matters now
-// that this runs before the merge: cancelling a run whose jobs are executing
-// publishes a `cancelled` `test-mvp` check run on the very SHA about to be
-// published, which would turn the required check red at exactly the wrong
-// moment. A run in that state is not stranded anyway — it is reaching a verdict.
+// Strictly the two held-for-approval states, and nothing else. "Stranded" is
+// not "has not started yet" — it is "is waiting for a human approval that no
+// automation can give", which is a run that will never reach a verdict no
+// matter how long anyone waits. Only `action_required` and `waiting` mean that.
+//
+// `queued`, `pending` and `requested` were included until 2026-09-14 on the
+// reasoning that a run with no job started publishes no check run to turn red.
+// That is true today only because the approval gate means these runs never
+// start. Clear the gate — which is the recommended fix, see docs/OPERATIONS.md
+// — and the `pull_request` run becomes a real one that momentarily sits in
+// `queued` on its way to running. Cancelling that would kill the honest
+// validation run this repository wants, and could leave a `cancelled`
+// `test-mvp` on the SHA after the dispatched run's success: harmless while the
+// ruleset is disabled, merge-blocking the day it is re-enabled. The narrower
+// predicate makes removing the gate safe to do without touching this code.
+//
+// `in_progress` is excluded for the same reason and more obviously: cancelling
+// a run whose jobs are executing publishes a `cancelled` check on the very SHA
+// about to be published. A run in that state is not stranded — it is reaching a
+// verdict, which is the outcome we want.
 export function isCancellableStrandedStatus(status) {
-  return ["action_required", "waiting", "requested", "pending", "queued"].includes(String(status || ""));
+  return ["action_required", "waiting"].includes(String(status || ""));
 }
 
 // Cancels the `pull_request` validation run that opening an automation PR

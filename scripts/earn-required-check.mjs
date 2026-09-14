@@ -14,6 +14,7 @@
 
 import {
   cancelStrandedPrValidation,
+  isCancellableStrandedStatus,
   earnRequiredCheck,
   classifyCheck,
   DEFAULT_TIMEOUT_MS,
@@ -167,8 +168,12 @@ if (process.argv.includes("--self-test")) {
       { id: 2, event: "workflow_dispatch", status: "completed", path: prelaunch },
       { id: 3, event: "pull_request", status: "completed", path: prelaunch },
       { id: 4, event: "pull_request", status: "queued", path: ".github/workflows/daily-audit.yml" },
-      { id: 5, event: "pull_request", status: "queued", path: prelaunch },
+      { id: 5, event: "pull_request", status: "waiting", path: prelaunch },
       { id: 6, event: "pull_request", status: "in_progress", path: prelaunch },
+      // The run that must survive: a real `pull_request` validation run on its
+      // way to running, which is what every one of these becomes once the
+      // approval gate is lifted. Cancelling it would kill the honest check.
+      { id: 7, event: "pull_request", status: "queued", path: prelaunch },
     ],
   });
   const cancelled = [];
@@ -200,6 +205,19 @@ if (process.argv.includes("--self-test")) {
     warn: quiet,
   });
   check("cancels only the stranded pull_request runs", cancelled.join(","), "1,5");
+  // The guarantee that makes lifting the approval gate safe: a `queued` run is
+  // a real validation run starting up, not a stranded one, and must survive.
+  check("a queued validation run is never cancelled", cancelled.includes(7), false);
+  check("an in_progress validation run is never cancelled", cancelled.includes(6), false);
+  check("only the two held-for-approval states are cancellable", [
+    isCancellableStrandedStatus("action_required"),
+    isCancellableStrandedStatus("waiting"),
+    isCancellableStrandedStatus("queued"),
+    isCancellableStrandedStatus("pending"),
+    isCancellableStrandedStatus("requested"),
+    isCancellableStrandedStatus("in_progress"),
+    isCancellableStrandedStatus("completed"),
+  ].join(","), "true,true,false,false,false,false,false");
   check("reports how many it cancelled", cancelledCount, 2);
   check("confirms the cancel actually settled", reads, 2);
 

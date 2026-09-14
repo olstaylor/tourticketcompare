@@ -25,13 +25,14 @@
  *   - an ID carried a different number of times in the two files
  *   - an indexed field whose value has drifted from events.json, or a row
  *     carrying a field the master event does not have (or missing one it does)
+ *   - the index holding the right rows in a different order. public/app.js sorts
+ *     before truncating, but public/ttc-home.js filters and then takes
+ *     `.slice(0, 12)` in file order, so the order of this file decides which
+ *     matching shows the homepage puts in front of a visitor
  *
  * Exit 0 (PASS) with warnings on:
  *   - artist with indexing_status "indexable_with_substantial_content" having zero events
  *   - orphan partition file (partition exists but slug has no events in events.json)
- *   - the index holding the right rows in a different order — both consumers map
- *     over the whole array, so order changes nothing a visitor sees, but it does
- *     mean the file did not come from the generator
  *
  * Artists with indexing_status "review_required" are excluded from zero-event warnings.
  *
@@ -42,6 +43,7 @@
 import { readFileSync, readdirSync, existsSync } from "fs";
 import { resolve, dirname, join } from "path";
 import { fileURLToPath } from "url";
+import { INDEX_FIELDS, indexRowFor } from "./lib/events-index.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -53,34 +55,10 @@ const INDEX_PATH = join(ROOT, "public/data/events-index.json");
 
 // ── The index contract ────────────────────────────────────────────────────────
 //
-// A mirror of INDEX_FIELDS in scripts/partition-events.py, which is what writes
-// the file. The two must move together: adding a field there without adding it
-// here leaves the new field unchecked, and adding it here first fails every run
-// until the generator catches up. The projection is deliberately the same shape
-// as the generator's dict comprehension — a field absent from the event is
-// absent from the row, rather than present and null — so a row that carries a
-// key the master event does not have is drift, not a formatting difference.
-
-const INDEX_FIELDS = [
-  "id",
-  "artist_slug",
-  "artist_name",
-  "country",
-  "city",
-  "venue",
-  "datetime_iso",
-  "timezone",
-  "tour_name",
-  "status",
-];
-
-function indexRowFor(event) {
-  const row = {};
-  for (const field of INDEX_FIELDS) {
-    if (field in event) row[field] = event[field];
-  }
-  return row;
-}
+// INDEX_FIELDS and the row projection live in scripts/lib/events-index.mjs, so
+// this checker and the timezone backfill that also writes the file cannot
+// disagree about its shape. That module documents why the list is mirrored from
+// scripts/partition-events.py rather than inferred.
 
 const show = (value) => (value === undefined ? "—" : JSON.stringify(value));
 
@@ -174,16 +152,19 @@ export function compareEventsIndex(events, index) {
     failures.push(`stale field value(s): ${sample(drifted, 2)}`);
   }
 
-  // Order is cosmetic to both consumers (public/app.js and public/ttc-home.js
-  // each map over the whole array), so it warns rather than fails — but a file
-  // the generator did not write is still worth naming.
+  // Order is part of the contract, not a presentation detail. public/app.js
+  // sorts the index before truncating (sortEventsForSearch), but
+  // public/ttc-home.js does not: it filters and then takes `.slice(0, 12)` in
+  // file order, so the order of this file decides which matching shows the
+  // homepage puts in front of a visitor. A file in the wrong order is one the
+  // generator did not write, and it changes what people see.
   if (!failures.length) {
     const masterOrder = events.map((event) => event.id);
     const indexOrder = index.map((row) => row.id);
     const firstDivergence = masterOrder.findIndex((id, i) => id !== indexOrder[i]);
     if (firstDivergence !== -1) {
-      warnings.push(
-        `events-index.json holds the right rows in a different order (first at position ${firstDivergence + 1}: ` +
+      failures.push(
+        `rows are in a different order from events.json (first at position ${firstDivergence + 1}: ` +
           `events.json has ${masterOrder[firstDivergence]}, index has ${indexOrder[firstDivergence]})`,
       );
     }
@@ -264,8 +245,7 @@ function selfTest() {
   check("a non-array index fails", notArray.failures.some((f) => f.includes("does not contain a JSON array")));
 
   const reordered = compareEventsIndex(events, [cleanIndex[1], cleanIndex[0]]);
-  check("a reordered index does not fail", reordered.failures.length === 0);
-  check("a reordered index warns", reordered.warnings.some((w) => w.includes("different order")));
+  check("a reordered index fails", reordered.failures.some((f) => f.includes("different order")));
 
   if (failures.length) {
     console.error(`[validate-partitions] self-test: ${failures.length} failure(s)`);

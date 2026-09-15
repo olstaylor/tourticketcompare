@@ -30,11 +30,19 @@ Notes:
   `0007` deliberately does *not* add `event_date` to its `provider_pricing_history`
   `CREATE TABLE`, so that `0010`'s `ALTER` stays valid against a freshly bootstrapped
   database. Run them in number order.
-  It creates shape only: `provider_pricing_daily` stays empty and `event_date` stays NULL
-  until the snapshot writers are separately scoped to populate them, and no reader requires
-  either, so the migration can land before or after any code change. The 90-day retention
-  prune in `scripts/prune-provider-pricing-history.mjs` names `provider_pricing_history`
-  explicitly and cannot reach the rollup.
+  **Order against the code does not matter, in either direction.** Both snapshot writers
+  probe the live schema once per run (`scripts/lib/pricing-schema.mjs`) and emit the column
+  set the database actually has, exactly as the analytics writers do for the `0008` columns.
+  Against a database without this migration they write the previous column set and
+  `event_date` is simply not recorded; the rollup reports
+  `provider_pricing_daily does not exist — apply migration 0010` and exits clean. The probe
+  fails closed to the previous column set, because the cost of wrongly omitting `event_date`
+  is one run of history rows missing an optional field, while the cost of wrongly including
+  it is a failed write — and a failed history insert takes the cache upsert down with it,
+  which with the 24h freshness window blanks every price on the site.
+  No reader requires either the column or the table. The 90-day retention prune in
+  `scripts/prune-provider-pricing-history.mjs` names `provider_pricing_history` explicitly
+  and cannot reach the rollup.
 - `0008` is purely additive (`ADD COLUMN` / `CREATE INDEX IF NOT EXISTS`). The analytics
   writers in `functions/api/analytics.js`, `functions/api/out.js` and `functions/api/signup.js`
   fall back to the previous column set when the new columns are absent, so the code is safe to

@@ -19,6 +19,7 @@ import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { MIN_PLAUSIBLE_LISTED_PRICE } from "../functions/api/shows.js";
+import { dailyRollupExists } from "./lib/pricing-schema.mjs";
 
 const execFileAsync = promisify(execFile);
 
@@ -267,6 +268,15 @@ async function run(options, deps = {}) {
     // is never mistaken for a broken one.
     zero_row_reason: null
   };
+
+  // Migration 0010 is applied by hand, so this can legitimately run against a
+  // database that has no rollup table yet. That is a "nothing to do", not a
+  // failure: say so plainly and exit clean, rather than throwing an unknown-table
+  // error into a workflow step that exists to be quiet when healthy.
+  if (!(await (deps.rollupExists || dailyRollupExists)(options, deps.runner))) {
+    summary.zero_row_reason = "provider_pricing_daily does not exist — apply migration 0010";
+    return summary;
+  }
 
   for (const day of days) {
     try {

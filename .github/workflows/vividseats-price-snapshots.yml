@@ -191,13 +191,22 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
           node scripts/rollup-provider-pricing-daily.mjs --provider vivid-seats --database "${D1_DATABASE_NAME}" --apply --json \
-            | tee "$RUNNER_TEMP/vividseats-pricing-rollup.json"
+            > "$RUNNER_TEMP/vividseats-pricing-rollup.json" 2>"$RUNNER_TEMP/vividseats-pricing-rollup.err" \
+            || echo "ROLLUP FAILED: $(tail -n 3 "$RUNNER_TEMP/vividseats-pricing-rollup.err")"
+          cat "$RUNNER_TEMP/vividseats-pricing-rollup.json" || true
+          # continue-on-error hides a thrown step completely, so the summary has
+          # to be written even when the rollup failed — otherwise a rollup that
+          # silently stopped looks exactly like one that had nothing to do.
           node --input-type=module - "$RUNNER_TEMP/vividseats-pricing-rollup.json" <<'NODE'
           import fs from "node:fs";
-          const s = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
-          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n### Daily price rollup\n\n| Days | Eligible | Written | Zero-row reason |\n| ---: | ---: | ---: | --- |\n| ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.zero_row_reason || "—"} |\n`);
+          let row = "| — | — | **step failed** | rollup did not report; prices are unaffected |";
+          try {
+            const s = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+            row = `| ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.zero_row_reason || "—"} |`;
+          } catch {}
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n### Daily price rollup\n\n| Days | Eligible | Written | Zero-row reason |\n| ---: | ---: | ---: | --- |\n${row}\n`);
           NODE
 
       # Bounded retention for the change-only history table, on apply runs

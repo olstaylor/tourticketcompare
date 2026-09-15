@@ -175,16 +175,26 @@ jobs:
           set -uo pipefail
           for PROVIDER in $PROVIDERS_TO_RUN; do
             node scripts/rollup-provider-pricing-daily.mjs --provider "$PROVIDER" --database "$DATABASE" --apply --json \
-              | tee "$RUNNER_TEMP/pricing-rollup-${PROVIDER}.json"
+              > "$RUNNER_TEMP/pricing-rollup-${PROVIDER}.json" 2>"$RUNNER_TEMP/pricing-rollup-${PROVIDER}.err" \
+              || echo "ROLLUP FAILED for ${PROVIDER}: $(tail -n 3 "$RUNNER_TEMP/pricing-rollup-${PROVIDER}.err")"
+            cat "$RUNNER_TEMP/pricing-rollup-${PROVIDER}.json" || true
           done
-          node --input-type=module - "$RUNNER_TEMP" <<'NODE'
+          # continue-on-error hides a thrown step completely, so the summary has
+          # to be written even when a lane failed — otherwise a rollup that
+          # silently stopped looks exactly like one that had nothing to do, and
+          # the staleness is undetectable until someone queries the table.
+          node --input-type=module - "$RUNNER_TEMP" "$PROVIDERS_TO_RUN" <<'NODE'
           import fs from "node:fs";
           import path from "node:path";
-          const dir = process.argv[2];
-          const files = fs.readdirSync(dir).filter((f) => f.startsWith("pricing-rollup-") && f.endsWith(".json"));
-          if (!files.length) process.exit(0);
-          const rows = files.map((file) => JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")))
-            .map((s) => `| ${s.provider} | ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.zero_row_reason || "—"} |`).join("\n");
+          const [dir, providers] = process.argv.slice(2);
+          const rows = providers.split(/\s+/).filter(Boolean).map((provider) => {
+            try {
+              const s = JSON.parse(fs.readFileSync(path.join(dir, `pricing-rollup-${provider}.json`), "utf8"));
+              return `| ${provider} | ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.zero_row_reason || "—"} |`;
+            } catch {
+              return `| ${provider} | — | — | **step failed** | rollup did not report; prices are unaffected |`;
+            }
+          }).join("\n");
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Daily price rollup\n\n| Provider | Days | Eligible | Written | Zero-row reason |\n| --- | ---: | ---: | ---: | --- |\n${rows}\n`);
           NODE
 

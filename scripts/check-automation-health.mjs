@@ -41,7 +41,16 @@ const ROLLING_ISSUE_LABEL = "automation:health";
 // `maxAgeHours` is deliberately far looser than the nominal cron. GitHub runs
 // these queues late as a matter of course, and a sensor that cries wolf on
 // ordinary lateness gets ignored — which costs more than the miss it prevents.
-// Daily lanes get 30h (a full extra cycle plus 6h of slack).
+// Daily lanes get 30h (a full extra cycle plus 6h of slack). Measured
+// 2026-09-15 over every scheduled run since 2026-09-01, in the same
+// `event=schedule` view this sensor queries: the six daily writers are
+// delivered at a 24.01-24.05h mean against a 24h nominal, worst gap 25.00h, so
+// 30h leaves 5h of margin against a worst observed lateness of 1.0h.
+// `generated-freshness` (24.90h worst) and `work-queue-repair` (24.37h) sit the
+// same way, and the two sensor windows below have ~2.2x. No window needed
+// changing. Read those ratios within a cadence class only: a daily lane's 24h
+// baseline is cadence, not lateness, so window-over-worst-gap is not comparable
+// across the two groups.
 //
 // The hourly lanes get 14h, raised from 6h on 2026-09-14. 6h was reasoned down
 // from the 24h display budget rather than measured against delivered runs, and
@@ -215,16 +224,26 @@ export function classifyLane(runs, { now, maxAgeHours, failuresBeforeIncident = 
   const ageHours = (now - Date.parse(latest.created_at)) / 3_600_000;
   const ageDetail = `Last scheduled run was ${ageHours.toFixed(1)}h ago (expected within ${maxAgeHours}h).`;
 
-  // A dropped schedule is reported ahead of a failing run: if the lane is not
-  // being invoked at all, "the last run failed" describes history, not the
-  // problem the operator has to act on.
-  if (ageHours > maxAgeHours) {
-    return { status: "stale", detail: ageDetail, consecutiveFailures: 0, latest };
-  }
-
   // A verdict is a run that actually concluded pass or fail. Neutrals are not
   // verdicts, so the lane's health is judged on the age of the last real one.
   const verdicts = completed.filter((run) => !NEUTRAL_CONCLUSIONS.has(run.conclusion));
+
+  // A dropped schedule is reported ahead of a failing run: if the lane is not
+  // being invoked at all, "the last run failed" describes history, not the
+  // problem the operator has to act on.
+  //
+  // `lastVerdict` rides along because `latest` alone cannot answer what the
+  // lane was doing before it stopped. `latest` is the newest COMPLETED run,
+  // which may be a neutral — a concurrency-group cancel, or a job that passed
+  // its `timeout-minutes` cap — so a lane that failed, had its next tick
+  // cancelled, and then stopped being scheduled presents a `cancelled` latest
+  // and reads as though nothing had gone wrong. Downstream has no way to
+  // recover that from the row, so it is carried rather than re-derived. Null
+  // when no completed run ever reached a verdict.
+  if (ageHours > maxAgeHours) {
+    return { status: "stale", detail: ageDetail, consecutiveFailures: 0, latest, lastVerdict: verdicts[0] ?? null };
+  }
+
   if (verdicts.length === 0) {
     return {
       status: "stalled",
@@ -364,7 +383,9 @@ export function renderBody(rows, { repo, now }) {
   }
   body += "\n\n";
   body += "Read-only sensor over the scheduled write lanes. It never reruns, dispatches, merges, or changes a workflow. ";
-  body += "`stale` means GitHub has not invoked the workflow recently enough, which no workflow can detect about itself; ";
+  body += "`stale` means GitHub has not invoked the workflow recently enough, which no workflow can detect about itself — ";
+  body += "reported here but not raised as a work item while the lane's last pass/fail verdict was a pass, because no pull request can invoke a workflow and the next delivered tick clears it; ";
+  body += "a stale lane whose last verdict was a failure is still raised, since staleness is reported ahead of that verdict rather than instead of it; ";
   body += "`stalled` means it is being invoked but no longer reaching a pass/fail verdict. ";
   body += "`flaky` is a single failure on a lane that absorbs one — recorded as context, not raised, and not a reason this issue stays open. ";
   body += "`pending` is a lane added too recently for a missing first run to mean anything yet.\n\n";
@@ -542,6 +563,26 @@ if (SELF_TEST) {
   const stale = classifyLane([run({ conclusion: "failure", created_at: "2026-09-10T11:00:00Z" })], { now, maxAgeHours: 6 });
   assert.equal(stale.status, "stale");
   assert.equal(stale.consecutiveFailures, 0);
+  // Outranking it is not the same as discarding it. The verdict rides along so
+  // a reader downstream can tell a lane that stopped after a pass from one that
+  // stopped after a failure — `latest` alone cannot, because it is the newest
+  // COMPLETED run and a neutral can sit on top of the failure.
+  assert.equal(stale.lastVerdict?.conclusion, "failure");
+  const staleOverNeutral = classifyLane(
+    [
+      run({ conclusion: "cancelled", created_at: "2026-09-10T12:00:00Z" }),
+      run({ conclusion: "failure", created_at: "2026-09-10T11:00:00Z" })
+    ],
+    { now, maxAgeHours: 6 }
+  );
+  assert.equal(staleOverNeutral.status, "stale");
+  assert.equal(staleOverNeutral.latest.conclusion, "cancelled", "latest is the newest completed run");
+  assert.equal(staleOverNeutral.lastVerdict?.conclusion, "failure", "and the failure under it must survive");
+  // No verdict at all is null rather than a guess.
+  assert.equal(
+    classifyLane([run({ conclusion: "cancelled", created_at: "2026-09-10T11:00:00Z" })], { now, maxAgeHours: 6 }).lastVerdict,
+    null
+  );
   assert.equal(classifyLane([run({ created_at: "2026-09-11T05:00:00Z" })], { now, maxAgeHours: 6 }).status, "stale");
   assert.equal(classifyLane([run({ created_at: "2026-09-11T07:00:00Z" })], { now, maxAgeHours: 6 }).status, "ok");
   assert.equal(classifyLane([run({ conclusion: "timed_out" })], { now, maxAgeHours: 30 }).status, "failing");

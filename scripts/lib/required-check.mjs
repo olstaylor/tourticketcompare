@@ -174,8 +174,20 @@ export async function earnRequiredCheck({
 //
 // `action_required` is the run as born; it flips to `failure` when the PR
 // closes, which is the red that shows on the Actions tab.
-export function isStrandedValidationRun(run) {
-  return run?.status === "completed" && ["action_required", "failure"].includes(String(run?.conclusion || ""));
+//
+// `failure` alone is NOT sufficient, and `jobCount` is what separates the two
+// cases. A real `pull_request` run does happen on these heads — 9 of the 37
+// above concluded `success`, so a genuine red is possible too, and it would
+// carry jobs and a real test failure. Calling that stranded would attach "no
+// jobs, recursion-guard noise" to an actual validation failure: the same kind
+// of false reassurance this whole change exists to remove. So a `failure` is
+// only stranded once its job count is known to be zero; pass `null` when it
+// has not been looked up and the answer is no.
+export function isStrandedValidationRun(run, jobCount = null) {
+  if (run?.status !== "completed") return false;
+  if (String(run?.conclusion || "") === "action_required") return true;
+  if (String(run?.conclusion || "") === "failure") return jobCount === 0;
+  return false;
 }
 
 // Reports the `pull_request` validation run that opening an automation PR
@@ -215,12 +227,31 @@ export async function reportStrandedPrValidation({
   }
   try {
     const body = await request("GET", `/repos/${repo}/actions/runs?head_sha=${encodeURIComponent(sha)}&per_page=100`);
-    const stranded = (body?.workflow_runs || []).filter(
-      (run) =>
-        run?.event === "pull_request" &&
-        String(run?.path || "").endsWith(`/${workflowFile}`) &&
-        isStrandedValidationRun(run)
+    const candidates = (body?.workflow_runs || []).filter(
+      (run) => run?.event === "pull_request" && String(run?.path || "").endsWith(`/${workflowFile}`)
     );
+    const stranded = [];
+    for (const run of candidates) {
+      // A `failure` has to prove it never ran before it may be called stranded.
+      // The runs listing does not carry a job count, so look it up — only for
+      // the one conclusion that is ambiguous, and only for runs on this SHA, so
+      // this stays a call or two per lane.
+      let jobCount = null;
+      if (String(run?.conclusion || "") === "failure") {
+        const jobs = await request("GET", `/repos/${repo}/actions/runs/${run.id}/jobs?per_page=1`);
+        jobCount = Number.isFinite(jobs?.total_count) ? jobs.total_count : null;
+      }
+      if (isStrandedValidationRun(run, jobCount)) {
+        stranded.push(run);
+      } else if (String(run?.conclusion || "") === "failure") {
+        // Not ours to explain away: a run that executed jobs and went red is a
+        // real validation failure, whatever else is true of this SHA.
+        warn(
+          `pull_request validation run ${run.id} on ${sha.slice(0, 7)} failed with ` +
+            `${jobCount === null ? "an unknown number of" : jobCount} job(s) — that is a real failure, not the recursion guard.`
+        );
+      }
+    }
     if (!stranded.length) {
       log(`No stranded pull_request validation run on ${sha.slice(0, 7)}.`);
       return 0;

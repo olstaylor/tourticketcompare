@@ -180,13 +180,22 @@ if (process.argv.includes("--self-test")) {
       { id: 4, event: "pull_request", status: "completed", conclusion: "failure", path: ".github/workflows/daily-audit.yml" },
       // A real run still going. Not stranded, and nothing may act on it.
       { id: 6, event: "pull_request", status: "in_progress", conclusion: null, path: prelaunch },
+      // A GENUINE red: it executed jobs and a test failed. Identical to id 5 in
+      // the runs listing, and the whole reason `failure` alone cannot decide.
+      // Calling this recursion-guard noise would bury a real failure.
+      { id: 8, event: "pull_request", status: "completed", conclusion: "failure", path: prelaunch },
     ],
   };
+  // Job counts as the jobs endpoint reports them: the stranded run never ran,
+  // the genuine red ran three.
+  const jobCounts = { 5: 0, 8: 3, 4: 2 };
   const named = [];
   let writes = 0;
   const strandedCount = await reportStrandedPrValidation({
-    request: async (method) => {
+    request: async (method, pathname) => {
       if (method !== "GET") { writes += 1; return null; }
+      const m = pathname.match(/\/actions\/runs\/(\d+)\/jobs/);
+      if (m) return { total_count: jobCounts[Number(m[1])] ?? 0 };
       return runsOnSha;
     },
     repo: "o/r",
@@ -195,19 +204,25 @@ if (process.argv.includes("--self-test")) {
     warn: (msg) => named.push(String(msg)),
   });
   check("counts exactly the stranded runs", strandedCount, 2);
-  check("names the as-born action_required run", named.some((m) => m.includes(" 1 ")), true);
-  check("names the flipped failure run", named.some((m) => m.includes(" 5 ")), true);
-  check("never names the dispatched verdict run", named.some((m) => m.includes(" 2 ")), false);
-  check("never names a passing pull_request run", named.some((m) => m.includes(" 3 ")), false);
-  check("never names another workflow", named.some((m) => m.includes(" 4 ")), false);
-  check("never names a run still in progress", named.some((m) => m.includes(" 6 ")), false);
+  check("names the as-born action_required run", named.some((m) => m.includes("run 1 on")), true);
+  check("names the flipped failure run", named.some((m) => m.includes("run 5 on")), true);
+  check("never names the dispatched verdict run", named.some((m) => m.includes("run 2 on")), false);
+  check("never names a passing pull_request run", named.some((m) => m.includes("run 3 on")), false);
+  check("never names another workflow", named.some((m) => m.includes("run 4 on")), false);
+  check("never names a run still in progress", named.some((m) => m.includes("run 6 on")), false);
+  // The distinction Codex flagged on #996: a failed run that actually executed
+  // jobs is a real failure, and must never be labelled recursion-guard noise.
+  check("never calls a run with jobs stranded", named.some((m) => m.includes("run 8 on") && m.includes("Stranded")), false);
+  check("names a genuine red as a real failure", named.some((m) => m.includes("run 8 on") && m.includes("real failure")), true);
   // It must stay read-only. Cancelling is impossible on a completed run, and a
   // write here would be a silent no-op at best.
   check("issues no writes at all", writes, 0);
 
   // The predicate, asserted directly in the field GitHub actually uses.
   check("stranded: completed/action_required", isStrandedValidationRun({ status: "completed", conclusion: "action_required" }), true);
-  check("stranded: completed/failure", isStrandedValidationRun({ status: "completed", conclusion: "failure" }), true);
+  check("stranded: completed/failure with zero jobs", isStrandedValidationRun({ status: "completed", conclusion: "failure" }, 0), true);
+  check("NOT stranded: completed/failure that ran jobs", isStrandedValidationRun({ status: "completed", conclusion: "failure" }, 3), false);
+  check("NOT stranded: completed/failure, job count unknown", isStrandedValidationRun({ status: "completed", conclusion: "failure" }, null), false);
   check("not stranded: completed/success", isStrandedValidationRun({ status: "completed", conclusion: "success" }), false);
   check("not stranded: in_progress", isStrandedValidationRun({ status: "in_progress", conclusion: null }), false);
   check("not stranded: a bare status string", isStrandedValidationRun({ status: "action_required" }), false);

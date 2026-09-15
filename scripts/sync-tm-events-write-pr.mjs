@@ -68,7 +68,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { slugify } from "./lib/slugify.mjs";
-import { cancelStrandedPrValidation, earnRequiredCheck } from "./lib/required-check.mjs";
+import { reportStrandedPrValidation, earnRequiredCheck } from "./lib/required-check.mjs";
 import {
   buildOutcomesArtifact,
   buildOutcomesMarkdown,
@@ -774,11 +774,11 @@ async function main() {
     }
     console.log(`Required check earned on ${pr.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
 
-    // Before the merge, not after: closing the PR is what resolves the held
-    // validation run, and a run already `completed` can no longer be cancelled.
-    // Safe here because the gate above has passed, and it never throws, so it
-    // sits outside the try that reports a withheld merge.
-    await cancelStrandedPrValidation({
+    // Read-only: names the validation run GitHub stranded on this SHA so the red
+    // on the Actions tab has an explanation beside it. It cannot be cancelled —
+    // see reportStrandedPrValidation. Never throws, so it sits outside the try
+    // that reports a withheld merge.
+    await reportStrandedPrValidation({
       request: (method, pathname, body) => githubApi(pathname, { method, body }),
       repo: `${owner}/${name}`,
       sha: pr.head.sha,

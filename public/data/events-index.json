@@ -16686,5 +16686,17 @@
     "timezone": "America/Denver",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-dublin-1avoz_3gklibgmq",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "country": "Ireland",
+    "city": "Dublin",
+    "venue": "Croke Park",
+    "datetime_iso": "2027-08-21T16:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

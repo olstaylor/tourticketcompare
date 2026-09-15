@@ -1172,7 +1172,7 @@
     "ticketmaster_event_id": "19006435EC24902A",
     "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-phoenix-arizona-09-14-2026/event/19006435EC24902A",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-phoenix-mortgage-matchup-center-9-14-2026--concerts-rock/production/6652609",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-phoenix-arizona-09-14-2026/event/19006435EC24902A",
     "last_verified_at": null,
@@ -1194,11 +1194,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6652609,
-        "url": "https://www.vividseats.com/tame-impala-tickets-phoenix-mortgage-matchup-center-9-14-2026--concerts-rock/production/6652609",
-        "verified": true,
-        "last_verified_at": "2026-09-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1215,11 +1215,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735045",
-        "url": "https://www.ticketliquidator.com/tickets/7735045/Tame-Impala-tickets-Mon-Sep-14-2026-Mortgage-Matchup-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107198190",
@@ -1233,7 +1233,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735045",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735045/Tame-Impala-tickets-Mon-Sep-14-2026-Mortgage-Matchup-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-phoenix-tickets-9-14-2026/event/107198190"
   },
   {
@@ -1274,7 +1274,7 @@
         "event_id": 6652605,
         "url": "https://www.vividseats.com/tame-impala-tickets-dallas-american-airlines-center---tx-9-17-2026/production/6652605",
         "verified": true,
-        "last_verified_at": "2026-09-12",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1344,7 +1344,7 @@
         "event_id": 18070199,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1413,7 +1413,7 @@
         "event_id": 18080351,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-20-7-pm/concert/18080351",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1489,7 +1489,7 @@
         "event_id": 7474475,
         "url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-28-2027--concerts-rock/production/7474475",
         "verified": true,
-        "last_verified_at": "2026-09-12",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1566,7 +1566,7 @@
         "event_id": 7488553,
         "url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-29-2027--concerts-rock/production/7488553",
         "verified": true,
-        "last_verified_at": "2026-09-12",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1643,7 +1643,7 @@
         "event_id": 7474478,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-1-2027--concerts-rock/production/7474478",
         "verified": true,
-        "last_verified_at": "2026-09-12",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1704,7 +1704,7 @@
         "event_id": 7474490,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-2-2027--concerts-rock/production/7474490",
         "verified": true,
-        "last_verified_at": "2026-09-12",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1765,7 +1765,7 @@
         "event_id": 7489978,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-3-2027/production/7489978",
         "verified": true,
-        "last_verified_at": "2026-09-12",
+        "last_verified_at": "2026-09-15",
         "availability_status": "listed"
       },
       "stubhub": {

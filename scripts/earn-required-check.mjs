@@ -13,8 +13,8 @@
 // Exits 0 only when the check passed on the resolved SHA.
 
 import {
-  cancelStrandedPrValidation,
-  isCancellableStrandedStatus,
+  reportStrandedPrValidation,
+  isStrandedValidationRun,
   earnRequiredCheck,
   classifyCheck,
   DEFAULT_TIMEOUT_MS,
@@ -156,143 +156,81 @@ if (process.argv.includes("--self-test")) {
   check("a stalled check times out", stalled.state, "timeout");
   check("a stalled check is not ok", stalled.ok, false);
 
-  // cancelStrandedPrValidation: it must cancel exactly the un-runnable
-  // `pull_request` validation runs and nothing else — never the dispatched run
-  // that carries the verdict, never another workflow, never one already done,
-  // and never one whose jobs are running, which would publish a `cancelled`
-  // test-mvp on the SHA this lane is about to merge.
+  // reportStrandedPrValidation: it must recognise exactly the runs GitHub
+  // stranded, reading the CONCLUSION rather than the status.
+  //
+  // This is the correction that matters. GitHub creates these runs already
+  // `completed` with `conclusion: "action_required"` — never in a pending
+  // status — so both earlier predicates (`status !== "completed"`, then
+  // `["action_required","waiting"].includes(status)`) matched nothing at all,
+  // and the lanes logged a clean result while every red accumulated. Assert the
+  // real shape, in the real field.
   const prelaunch = ".github/workflows/prelaunch-validation.yml";
-  const strandedRuns = () => ({
+  const runsOnSha = {
     workflow_runs: [
-      { id: 1, event: "pull_request", status: "action_required", path: prelaunch },
-      { id: 2, event: "workflow_dispatch", status: "completed", path: prelaunch },
-      { id: 3, event: "pull_request", status: "completed", path: prelaunch },
-      { id: 4, event: "pull_request", status: "queued", path: ".github/workflows/daily-audit.yml" },
-      { id: 5, event: "pull_request", status: "waiting", path: prelaunch },
-      { id: 6, event: "pull_request", status: "in_progress", path: prelaunch },
-      // The run that must survive: a real `pull_request` validation run on its
-      // way to running, which is what every one of these becomes once the
-      // approval gate is lifted. Cancelling it would kill the honest check.
-      { id: 7, event: "pull_request", status: "queued", path: prelaunch },
+      // Stranded as GitHub actually reports it, in both of its guises: as born,
+      // and after the PR close flips it.
+      { id: 1, event: "pull_request", status: "completed", conclusion: "action_required", path: prelaunch },
+      { id: 5, event: "pull_request", status: "completed", conclusion: "failure", path: prelaunch },
+      // The dispatched run that carries the verdict — never ours to touch.
+      { id: 2, event: "workflow_dispatch", status: "completed", conclusion: "success", path: prelaunch },
+      // A genuine pull_request validation run that passed. Not stranded.
+      { id: 3, event: "pull_request", status: "completed", conclusion: "success", path: prelaunch },
+      // Another workflow entirely.
+      { id: 4, event: "pull_request", status: "completed", conclusion: "failure", path: ".github/workflows/daily-audit.yml" },
+      // A real run still going. Not stranded, and nothing may act on it.
+      { id: 6, event: "pull_request", status: "in_progress", conclusion: null, path: prelaunch },
+      // A GENUINE red: it executed jobs and a test failed. Identical to id 5 in
+      // the runs listing, and the whole reason `failure` alone cannot decide.
+      // Calling this recursion-guard noise would bury a real failure.
+      { id: 8, event: "pull_request", status: "completed", conclusion: "failure", path: prelaunch },
     ],
-  });
-  const cancelled = [];
-  let reads = 0;
-  const cancelledCount = await cancelStrandedPrValidation({
+  };
+  // Job counts as the jobs endpoint reports them: the stranded run never ran,
+  // the genuine red ran three.
+  const jobCounts = { 5: 0, 8: 3, 4: 2 };
+  const named = [];
+  let writes = 0;
+  const strandedCount = await reportStrandedPrValidation({
     request: async (method, pathname) => {
-      if (method === "GET") {
-        reads += 1;
-        // The first read finds them; by the confirmation read GitHub has acted
-        // on the cancels, so the two submitted runs report a real `cancelled`
-        // conclusion rather than merely dropping out of the listing.
-        if (reads === 1) return strandedRuns();
-        return {
-          workflow_runs: strandedRuns().workflow_runs.map((r) =>
-            [1, 5].includes(r.id) ? { ...r, status: "completed", conclusion: "cancelled" } : r
-          ),
-        };
-      }
-      const match = pathname.match(/\/actions\/runs\/(\d+)\/cancel$/);
-      if (!match) throw new Error(`unexpected call ${method} ${pathname}`);
-      cancelled.push(Number(match[1]));
-      return null;
+      if (method !== "GET") { writes += 1; return null; }
+      const m = pathname.match(/\/actions\/runs\/(\d+)\/jobs/);
+      if (m) return { total_count: jobCounts[Number(m[1])] ?? 0 };
+      return runsOnSha;
     },
     repo: "o/r",
     sha: "0123456789abcdef",
-    pollMs: 0,
-    sleep: async () => {},
     log: quiet,
-    warn: quiet,
+    warn: (msg) => named.push(String(msg)),
   });
-  check("cancels only the stranded pull_request runs", cancelled.join(","), "1,5");
-  // The guarantee that makes lifting the approval gate safe: a `queued` run is
-  // a real validation run starting up, not a stranded one, and must survive.
-  check("a queued validation run is never cancelled", cancelled.includes(7), false);
-  check("an in_progress validation run is never cancelled", cancelled.includes(6), false);
-  check("only the two held-for-approval states are cancellable", [
-    isCancellableStrandedStatus("action_required"),
-    isCancellableStrandedStatus("waiting"),
-    isCancellableStrandedStatus("queued"),
-    isCancellableStrandedStatus("pending"),
-    isCancellableStrandedStatus("requested"),
-    isCancellableStrandedStatus("in_progress"),
-    isCancellableStrandedStatus("completed"),
-  ].join(","), "true,true,false,false,false,false,false");
-  check("reports how many it cancelled", cancelledCount, 2);
-  check("confirms the cancel actually settled", reads, 2);
+  check("counts exactly the stranded runs", strandedCount, 2);
+  check("names the as-born action_required run", named.some((m) => m.includes("run 1 on")), true);
+  check("names the flipped failure run", named.some((m) => m.includes("run 5 on")), true);
+  check("never names the dispatched verdict run", named.some((m) => m.includes("run 2 on")), false);
+  check("never names a passing pull_request run", named.some((m) => m.includes("run 3 on")), false);
+  check("never names another workflow", named.some((m) => m.includes("run 4 on")), false);
+  check("never names a run still in progress", named.some((m) => m.includes("run 6 on")), false);
+  // The distinction Codex flagged on #996: a failed run that actually executed
+  // jobs is a real failure, and must never be labelled recursion-guard noise.
+  check("never calls a run with jobs stranded", named.some((m) => m.includes("run 8 on") && m.includes("Stranded")), false);
+  check("names a genuine red as a real failure", named.some((m) => m.includes("run 8 on") && m.includes("real failure")), true);
+  // It must stay read-only. Cancelling is impossible on a completed run, and a
+  // write here would be a silent no-op at best.
+  check("issues no writes at all", writes, 0);
 
-  // Confirmation must track the submitted run IDs, not "is it still in a
-  // cancellable state?". A run that slips to `in_progress` would vanish from
-  // that filtered view and be called settled while still executing, and one
-  // that resolves to `failure` — the standing false red this exists to stop —
-  // would read as a success. Both must keep the wait alive and be named.
-  let slipReads = 0;
-  const slipWarnings = [];
-  let slipTicks = 0;
-  await cancelStrandedPrValidation({
-    request: async (method) => {
-      if (method !== "GET") return null;
-      slipReads += 1;
-      if (slipReads === 1) return strandedRuns();
-      // 1 starts running instead of cancelling; 5 resolves red on its own.
-      return {
-        workflow_runs: strandedRuns().workflow_runs.map((r) => {
-          if (r.id === 1) return { ...r, status: "in_progress" };
-          if (r.id === 5) return { ...r, status: "completed", conclusion: "failure" };
-          return r;
-        }),
-      };
-    },
-    repo: "o/r",
-    sha: "0123456789abcdef",
-    confirmMs: 30,
-    pollMs: 0,
-    sleep: async () => {
-      slipTicks += 1;
-    },
-    now: () => slipTicks * 10,
-    log: quiet,
-    warn: (msg) => slipWarnings.push(String(msg)),
-  });
-  check(
-    "a run that resolved red rather than cancelled is named",
-    slipWarnings.some((m) => m.includes("5") && m.includes("failure")),
-    true
-  );
-  check(
-    "a run that slipped to in_progress is not called settled",
-    slipWarnings.some((m) => m.includes("had not reached") && m.includes("1")),
-    true
-  );
+  // The predicate, asserted directly in the field GitHub actually uses.
+  check("stranded: completed/action_required", isStrandedValidationRun({ status: "completed", conclusion: "action_required" }), true);
+  check("stranded: completed/failure with zero jobs", isStrandedValidationRun({ status: "completed", conclusion: "failure" }, 0), true);
+  check("NOT stranded: completed/failure that ran jobs", isStrandedValidationRun({ status: "completed", conclusion: "failure" }, 3), false);
+  check("NOT stranded: completed/failure, job count unknown", isStrandedValidationRun({ status: "completed", conclusion: "failure" }, null), false);
+  check("not stranded: completed/success", isStrandedValidationRun({ status: "completed", conclusion: "success" }), false);
+  check("not stranded: in_progress", isStrandedValidationRun({ status: "in_progress", conclusion: null }), false);
+  check("not stranded: a bare status string", isStrandedValidationRun({ status: "action_required" }), false);
 
-  // The confirmation is what stops the merge racing an accepted-but-unapplied
-  // cancel — the race that made the post-merge call useless. It must be
-  // bounded all the same: a run that never settles delays the publish by the
-  // cap and no longer, because a published commit outranks a tidy Actions tab.
-  let confirmTicks = 0;
-  const neverSettles = await cancelStrandedPrValidation({
-    request: async (method) => (method === "GET" ? strandedRuns() : null),
-    repo: "o/r",
-    sha: "0123456789abcdef",
-    confirmMs: 30,
-    pollMs: 0,
-    sleep: async () => {
-      confirmTicks += 1;
-    },
-    now: () => confirmTicks * 10,
-    log: quiet,
-    warn: quiet,
-  });
-  check("an unsettled cancel still returns", neverSettles, 2);
-  check("the confirmation wait is bounded", confirmTicks <= 4, true);
-
-  // A read or cancel that fails must never propagate: the caller sites this
-  // outside the try that reports a withheld merge, and no tidy-up may decide a
-  // lane's verdict.
-  const swallowed = await cancelStrandedPrValidation({
-    request: async () => {
-      throw new Error("boom");
-    },
+  // A read that fails must never propagate: the call sites site this outside
+  // the try that reports a withheld merge, and no diagnostic may fail a lane.
+  const swallowed = await reportStrandedPrValidation({
+    request: async () => { throw new Error("boom"); },
     repo: "o/r",
     sha: "0123456789abcdef",
     log: quiet,
@@ -300,15 +238,14 @@ if (process.argv.includes("--self-test")) {
   });
   check("an API failure is swallowed", swallowed, 0);
 
-  // Misuse must not throw either: the call sites treat a throw as a withheld
-  // merge, and by this point the commit is already published.
+  // Misuse must not throw either.
   let threw = false;
-  const misused = await cancelStrandedPrValidation({ repo: "o/r", log: quiet, warn: quiet }).catch(() => {
+  const misused = await reportStrandedPrValidation({ repo: "o/r", log: quiet, warn: quiet }).catch(() => {
     threw = true;
     return -1;
   });
   check("misuse does not throw", threw, false);
-  check("misuse cancels nothing", misused, 0);
+  check("misuse reports nothing", misused, 0);
 
   if (failures.length > 0) {
     for (const failure of failures) console.error(`FAIL ${failure}`);

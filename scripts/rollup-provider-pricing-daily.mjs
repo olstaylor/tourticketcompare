@@ -23,6 +23,12 @@ import { MIN_PLAUSIBLE_LISTED_PRICE } from "../functions/api/shows.js";
 const execFileAsync = promisify(execFile);
 
 const DEFAULT_D1_DATABASE = "tourticketcompare-demand";
+// Same lane list as the retention prune. A scheduled caller scopes to its own
+// provider so that concurrent snapshot jobs never contend on the same rollup
+// rows, and so the statement seeks the history table's composite index
+// idx_provider_pricing_history_provider_observed(provider, observed_at) rather
+// than scanning a day across every lane. A backfill normally leaves it unset.
+const KNOWN_PROVIDERS = ["ticketnetwork", "stubhub-international", "ticket-liquidator", "vivid-seats", "seatgeek"];
 // Steady-state default. Today's UTC day is still accumulating observations and
 // yesterday's may have been closed out after the last run, so both are
 // recomputed. Re-running a day is safe by construction (see the conflict rule).
@@ -43,6 +49,7 @@ Options:
   --days <n>           Roll up the last n UTC days including today (default: ${DEFAULT_DAYS})
   --since <YYYY-MM-DD> First UTC day to roll up, inclusive. Overrides --days
   --until <YYYY-MM-DD> Day to stop before, exclusive (default: tomorrow)
+  --provider <slug>    Roll up one lane only: ${KNOWN_PROVIDERS.join(", ")}
   --database <name>    D1 database name (default: ${DEFAULT_D1_DATABASE})
   --local              Run against the local D1 replica instead of --remote
   --apply              Write the rollup rows (default is a counting dry run)
@@ -70,6 +77,7 @@ function parseArgs(argv, today = new Date().toISOString().slice(0, 10)) {
     days: DEFAULT_DAYS,
     since: "",
     until: "",
+    provider: "",
     database: DEFAULT_D1_DATABASE,
     remote: true,
     apply: false,
@@ -84,11 +92,17 @@ function parseArgs(argv, today = new Date().toISOString().slice(0, 10)) {
     else if (arg === "--local") options.remote = false;
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "--help" || arg === "-h") options.help = true;
-    else if (["--days", "--since", "--until", "--database"].includes(arg)) {
+    else if (["--days", "--since", "--until", "--provider", "--database"].includes(arg)) {
       const value = argv[index + 1];
       index += 1;
       if (value == null) throw new Error(`${arg} requires a value`);
       if (arg === "--database") options.database = String(value);
+      if (arg === "--provider") {
+        if (!KNOWN_PROVIDERS.includes(String(value))) {
+          throw new Error(`--provider must be one of: ${KNOWN_PROVIDERS.join(", ")}`);
+        }
+        options.provider = String(value);
+      }
       if (arg === "--since" || arg === "--until") {
         if (!isDay(value)) throw new Error(`${arg} must be a YYYY-MM-DD date`);
         options[arg.slice(2)] = String(value);
@@ -146,7 +160,11 @@ function daysInWindow(since, until) {
 // MAX() rather than FIRST_VALUE() for artist_slug and event_date because MAX
 // skips NULLs: rows written before the writers carried event_date sit beside
 // newer rows that do, and the day should keep the known value.
-function rollupSql(day) {
+function providerClause(provider) {
+  return provider ? `\n    AND provider = '${sqlText(provider)}'` : "";
+}
+
+function rollupSql(day, provider = "") {
   const since = sqlText(`${day}T00:00:00`);
   const until = sqlText(`${addDays(day, 1)}T00:00:00`);
   return `INSERT INTO provider_pricing_daily
@@ -175,7 +193,7 @@ FROM (
     ROW_NUMBER() OVER w AS rn
   FROM provider_pricing_history
   WHERE observed_at >= '${since}' AND observed_at < '${until}'
-    AND low_price IS NOT NULL AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}
+    AND low_price IS NOT NULL AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}${providerClause(provider)}
   WINDOW w AS (
     PARTITION BY event_id, provider, source, COALESCE(currency, 'USD'), substr(observed_at, 1, 10)
     ORDER BY observed_at
@@ -205,13 +223,13 @@ WHERE excluded.observations >= provider_pricing_daily.observations;`;
 // COALESCE on event_date is the same instinct: a known date is never replaced
 // by NULL.
 
-function previewSql(day) {
+function previewSql(day, provider = "") {
   const since = sqlText(`${day}T00:00:00`);
   const until = sqlText(`${addDays(day, 1)}T00:00:00`);
   return `SELECT COUNT(*) AS rollup_rows, COALESCE(SUM(n), 0) AS observations FROM (
   SELECT COUNT(*) AS n FROM provider_pricing_history
   WHERE observed_at >= '${since}' AND observed_at < '${until}'
-    AND low_price IS NOT NULL AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}
+    AND low_price IS NOT NULL AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}${providerClause(provider)}
   GROUP BY event_id, provider, source, COALESCE(currency, 'USD')
 );`;
 }
@@ -236,6 +254,7 @@ async function run(options, deps = {}) {
   const days = daysInWindow(options.since, options.until);
   const summary = {
     mode: options.apply ? "apply" : "dry-run",
+    provider: options.provider || "all",
     since: options.since,
     until: options.until,
     days: days.length,
@@ -251,11 +270,11 @@ async function run(options, deps = {}) {
 
   for (const day of days) {
     try {
-      const preview = firstRow(await d1(previewSql(day), options, deps.runner));
+      const preview = firstRow(await d1(previewSql(day, options.provider), options, deps.runner));
       summary.eligible_rollup_rows += Number(preview.rollup_rows ?? 0);
       summary.observations_summarised += Number(preview.observations ?? 0);
       if (options.apply && Number(preview.rollup_rows ?? 0) > 0) {
-        summary.written += changes(await d1(rollupSql(day), options, deps.runner));
+        summary.written += changes(await d1(rollupSql(day, options.provider), options, deps.runner));
       }
     } catch (error) {
       summary.failed += 1;
@@ -288,6 +307,9 @@ function selfTest() {
   expect(() => assert.throws(() => parseArgs(["--since", "2026-09-14", "--until", "2026-09-14"]), /earlier than/));
   expect(() => assert.throws(() => parseArgs(["--since", "2020-01-01", "--until", "2026-09-14"]), /more than the/));
   expect(() => assert.throws(() => parseArgs(["--nope"]), /Unknown argument/));
+  expect(() => assert.equal(parseArgs([], "2026-09-14").provider, "", "unscoped is the default"));
+  expect(() => assert.equal(parseArgs(["--provider", "vivid-seats"], "2026-09-14").provider, "vivid-seats"));
+  expect(() => assert.throws(() => parseArgs(["--provider", "not-a-provider"]), /--provider must be one of/));
 
   expect(() => assert.deepEqual(daysInWindow("2026-09-12", "2026-09-15"), ["2026-09-12", "2026-09-13", "2026-09-14"]));
 
@@ -312,6 +334,14 @@ function selfTest() {
   expect(() => assert.match(sql, /event_date = COALESCE\(excluded\.event_date, provider_pricing_daily\.event_date\)/));
   expect(() => assert.doesNotMatch(previewSql("2026-09-13"), /INSERT|UPDATE|DELETE/i));
 
+  // Provider scoping narrows the read and nothing else: it must not reach the
+  // partition key, or one lane's run would collapse rows belonging to another.
+  const scoped = rollupSql("2026-09-13", "vivid-seats");
+  expect(() => assert.match(scoped, /AND provider = 'vivid-seats'\n  WINDOW w AS/));
+  expect(() => assert.match(scoped, /PARTITION BY event_id, provider, source/));
+  expect(() => assert.match(previewSql("2026-09-13", "vivid-seats"), /AND provider = 'vivid-seats'/));
+  expect(() => assert.doesNotMatch(rollupSql("2026-09-13"), /AND provider = '/));
+
   return checks;
 }
 
@@ -321,7 +351,7 @@ async function main() {
   if (options.selfTest) return console.log(`Provider pricing daily rollup self-test passed (${selfTest()} checks).`);
   const summary = await run(options);
   if (options.json) return console.log(JSON.stringify(summary, null, 2));
-  console.log(`[pricing-rollup] ${summary.mode} ${summary.since} -> ${summary.until} (${summary.days} day(s))`);
+  console.log(`[pricing-rollup] ${summary.mode} ${summary.provider} ${summary.since} -> ${summary.until} (${summary.days} day(s))`);
   console.log(`[pricing-rollup] eligible rollup rows: ${summary.eligible_rollup_rows} from ${summary.observations_summarised} observations`);
   console.log(`[pricing-rollup] written: ${summary.written}${summary.failed ? `, failed days: ${summary.days_failed.join(", ")}` : ""}`);
   if (summary.zero_row_reason) console.log(`[pricing-rollup] zero rows written — ${summary.zero_row_reason}`);

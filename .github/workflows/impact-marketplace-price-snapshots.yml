@@ -123,6 +123,7 @@ jobs:
       - run: npm ci
       - run: npm run impact-providers:prices:self-test
       - run: npm run prices:history:prune:self-test
+      - run: npm run prices:rollup:daily:self-test
 
       - name: Snapshot exact verified event prices
         run: |
@@ -155,6 +156,36 @@ jobs:
               throw new Error(`Unhealthy ${summary.provider} snapshot: usable=${summary.usable}, written=${summary.written}, failed=${summary.failed}`);
             }
           }
+          NODE
+
+      # Summarise the day into the never-pruned rollup BEFORE the prune runs,
+      # so observations about to age out are captured rather than lost. Scoped
+      # per provider so the three concurrent snapshot jobs never contend on the
+      # same rollup rows. Idempotent per UTC day, and it only ever replaces a
+      # day with a summary built from at least as many observations, so a
+      # re-run after a prune is a no-op rather than data loss.
+      #
+      # continue-on-error: this job's contract is writing prices. A rollup
+      # failure must leave the lane green and the prices written; the gap shows
+      # up as a stale rollup, not as a dark price badge.
+      - name: Roll the day up into provider_pricing_daily
+        if: github.event_name != 'workflow_dispatch'
+        continue-on-error: true
+        run: |
+          set -uo pipefail
+          for PROVIDER in $PROVIDERS_TO_RUN; do
+            node scripts/rollup-provider-pricing-daily.mjs --provider "$PROVIDER" --database "$DATABASE" --apply --json \
+              | tee "$RUNNER_TEMP/pricing-rollup-${PROVIDER}.json"
+          done
+          node --input-type=module - "$RUNNER_TEMP" <<'NODE'
+          import fs from "node:fs";
+          import path from "node:path";
+          const dir = process.argv[2];
+          const files = fs.readdirSync(dir).filter((f) => f.startsWith("pricing-rollup-") && f.endsWith(".json"));
+          if (!files.length) process.exit(0);
+          const rows = files.map((file) => JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")))
+            .map((s) => `| ${s.provider} | ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.zero_row_reason || "—"} |`).join("\n");
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Daily price rollup\n\n| Provider | Days | Eligible | Written | Zero-row reason |\n| --- | ---: | ---: | ---: | --- |\n${rows}\n`);
           NODE
 
       # Bounded retention for the change-only history table. Scoped per

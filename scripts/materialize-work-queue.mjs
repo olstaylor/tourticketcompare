@@ -160,6 +160,21 @@ if (SELF_TEST) {
     const row = extractHealthFindings({ lanes: [lane({ status: "stale", latest: { conclusion } })] })[0];
     assert.equal(row.promote, false, `stale over ${conclusion} must stay suppressed`);
   }
+
+  // `latest` is the newest COMPLETED run, not the newest verdict, so a lane
+  // that failed, had its next tick cancelled, and then stopped being scheduled
+  // presents a neutral `latest` over a real failure. The sensor carries
+  // `lastVerdict` for that, and the failure underneath must still be raised.
+  const hiddenFailure = extractHealthFindings({
+    lanes: [lane({ status: "stale", latest: { conclusion: "cancelled" }, lastVerdict: { conclusion: "failure" } })]
+  })[0];
+  assert.notEqual(hiddenFailure.promote, false, "a failure hidden behind a neutral run must still be raised");
+  assert.ok(hiddenFailure.evidence.some((line) => line.includes("concluded `failure`")));
+  // And the converse: a neutral over a pass is still a pass.
+  assert.equal(
+    extractHealthFindings({ lanes: [lane({ status: "stale", latest: { conclusion: "cancelled" }, lastVerdict: { conclusion: "success" } })] })[0].promote,
+    false
+  );
   for (const status of ["failing", "stalled", "never"]) {
     const rows = extractHealthFindings({ lanes: [lane({ status })] });
     assert.equal(rows.length, 1, status);
@@ -492,6 +507,29 @@ if (SELF_TEST) {
   plan = planQueue({ findings: [staleFinding], existingIssues: [issueFor(other)] });
   assert.equal(plan.close.length, 1);
   assert.equal(plan.hold.length, 0);
+
+  // The hold is for ambiguity, not for every stale lane. Once the lane's last
+  // verdict is a PASS, the failure its issue was opened for has genuinely
+  // cleared, and holding would strand a resolved failure as a P1 for as long
+  // as the schedule stays stopped — which on the hourly lanes, with no
+  // `workflow_run` trigger, no later poll is guaranteed to end.
+  const staleRecovered = extractHealthFindings({
+    lanes: [lane({ status: "stale", latest: { conclusion: "success" }, lastVerdict: { conclusion: "success" } })]
+  })[0];
+  assert.equal(staleRecovered.retain, false);
+  plan = planQueue({ findings: [staleRecovered], existingIssues: [issueFor(failingFinding)] });
+  assert.equal(plan.close.length, 1, "a recovered failure must close even though the lane is now stale");
+  assert.equal(plan.hold.length, 0);
+  assert.equal(plan.create.length, 0, "and must still open nothing");
+
+  // Ambiguous stale — no verdict either way — still holds.
+  const staleAmbiguous = extractHealthFindings({
+    lanes: [lane({ status: "stale", latest: { conclusion: "cancelled" }, lastVerdict: null })]
+  })[0];
+  assert.notEqual(staleAmbiguous.retain, false);
+  plan = planQueue({ findings: [staleAmbiguous], existingIssues: [issueFor(failingFinding)] });
+  assert.equal(plan.hold.length, 1);
+  assert.equal(plan.close.length, 0);
 
   // A finding that returns after its issue was closed reopens that issue rather
   // than opening a second one.

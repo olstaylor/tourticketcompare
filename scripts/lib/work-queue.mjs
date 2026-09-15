@@ -348,11 +348,21 @@ export function buildPayload(finding, registry = FINDING_TYPES) {
  * through to claim its fingerprint and hold the issue open instead.
  */
 
-// GitHub's own conclusion values for a run that reached a verdict against the
-// lane. These are platform constants rather than a local convention, so
-// mirroring the sensor's set here cannot drift away from it.
+// GitHub's own conclusion values. These are platform constants rather than a
+// local convention, so mirroring the sensor's sets here cannot drift from it.
 const FAILED_RUN_CONCLUSIONS = new Set(["failure", "timed_out"]);
-const lastRunFailed = (lane) => FAILED_RUN_CONCLUSIONS.has(lane?.latest?.conclusion);
+
+// The verdict the lane reached before it went quiet, which is not the same as
+// its newest completed run. `classifyLane` sets `latest` to the newest
+// COMPLETED run, and that can be a neutral — a concurrency-group cancel, or a
+// job that passed its `timeout-minutes` cap. A lane that failed, had its next
+// tick cancelled, and then stopped being scheduled therefore presents a
+// `cancelled` latest, and reading that would hide the failure underneath it.
+// The sensor carries `lastVerdict` on stale rows for exactly this; the fallback
+// covers a row written before it did.
+const lastVerdictConclusion = (lane) => lane?.lastVerdict?.conclusion ?? lane?.latest?.conclusion;
+const lastVerdictFailed = (lane) => FAILED_RUN_CONCLUSIONS.has(lastVerdictConclusion(lane));
+const lastVerdictPassed = (lane) => lastVerdictConclusion(lane) === "success";
 export function extractHealthFindings(report) {
   const lanes = Array.isArray(report?.lanes) ? report.lanes : [];
   return lanes
@@ -361,7 +371,14 @@ export function extractHealthFindings(report) {
       // Dashboard state, not a unit of work: never opens or updates an issue.
       // Only a stale lane last seen healthy — a failing verdict underneath the
       // staleness is still a task, and the only one nothing else would raise.
-      promote: lane.status !== "stale" || lastRunFailed(lane),
+      promote: lane.status !== "stale" || lastVerdictFailed(lane),
+      // Whether an issue already open for this lane should survive the recovery
+      // sweep. A stale lane is ambiguous — the failure it was opened for may or
+      // may not still stand — so by default it is held rather than closed. But
+      // a lane whose last verdict was a PASS has genuinely cleared what that
+      // issue was opened for, and holding there would strand a resolved failure
+      // as a P1 for as long as the schedule stays stopped. That one closes.
+      retain: !(lane.status === "stale" && lastVerdictPassed(lane)),
       source: "automation-health",
       type: "workflow_unhealthy",
       // Identity is the lane, not its current status: a lane going from failing
@@ -381,8 +398,8 @@ export function extractHealthFindings(report) {
         // buries the thing to act on: staleness is reported ahead of the
         // verdict, so the count is 0 because it was never counted, not because
         // the run passed.
-        lane.status === "stale" && lastRunFailed(lane)
-          ? `The last completed run concluded \`${lane.latest.conclusion}\` and no run has been scheduled since — read the failure first; the staleness is reported ahead of it.`
+        lane.status === "stale" && lastVerdictFailed(lane)
+          ? `The last pass/fail verdict concluded \`${lastVerdictConclusion(lane)}\` and no run has been scheduled since — read the failure first; the staleness is reported ahead of it.`
           : null,
         `Consecutive failures: ${lane.consecutiveFailures ?? 0}`,
         `Cadence: ${lane.cadence}`,
@@ -547,20 +564,26 @@ export function planQueue({
     }
     // A sensor reporting the same identity twice in one run is one unit of work.
     if (seen.has(payload.fingerprint)) continue;
-    seen.add(payload.fingerprint);
 
     const existing = byFingerprint.get(payload.fingerprint);
 
     // Evidence the sensor stands behind but that is not a task to hand anyone.
-    // It opens nothing and rewrites nothing; claiming the fingerprint above is
-    // the entire point, because that is what keeps the recovery sweep below
-    // from reading the absence of a finding as a lane that got better.
+    // It opens nothing and rewrites nothing. What it does decide is whether an
+    // issue already open for this identity survives the recovery sweep below,
+    // and `retain` carries that: claiming the fingerprint is what stops the
+    // sweep reading the absence of a finding as a lane that got better, so a
+    // row that has NOT cleared claims it and holds, while one that has clears
+    // out of the way and lets the issue close.
     if (finding.promote === false) {
+      if (finding.retain === false) continue;
+      seen.add(payload.fingerprint);
       if (existing && existing.state === "open") {
         plan.hold.push({ issue: existing, fingerprint: payload.fingerprint });
       }
       continue;
     }
+
+    seen.add(payload.fingerprint);
 
     if (existing) {
       (existing.state === "open" ? plan.update : plan.reopen).push({ issue: existing, payload, finding });

@@ -135,8 +135,17 @@ if (SELF_TEST) {
   // `flaky` is the health sensor deliberately withholding a single sub-threshold
   // failure. Promoting it here would undo that judgement.
   assert.equal(extractHealthFindings({ lanes: [lane({ status: "flaky" })] }).length, 0);
-  for (const status of ["failing", "stalled", "stale", "never"]) {
-    assert.equal(extractHealthFindings({ lanes: [lane({ status })] }).length, 1, status);
+  // `stale` means GitHub did not invoke the workflow, which no pull request can
+  // repair and which the next delivered tick clears on its own. #970 and #984
+  // were both opened P1 human-required against lanes whose every run had
+  // succeeded. It is carried through as evidence but never promoted.
+  const staleRow = extractHealthFindings({ lanes: [lane({ status: "stale" })] });
+  assert.equal(staleRow.length, 1);
+  assert.equal(staleRow[0].promote, false, "a stale lane must never become a task");
+  for (const status of ["failing", "stalled", "never"]) {
+    const rows = extractHealthFindings({ lanes: [lane({ status })] });
+    assert.equal(rows.length, 1, status);
+    assert.notEqual(rows[0].promote, false, `${status} must stay promotable`);
   }
   assert.equal(extractHealthFindings({}).length, 0);
 
@@ -443,6 +452,28 @@ if (SELF_TEST) {
   // A near-miss number must not count as a reference.
   plan = planQueue({ findings: [], existingIssues: [issueFor(a, { number: 4 })], openPullRequestBodies: ["see #42"] });
   assert.equal(plan.close.length, 1);
+
+  // An unpromotable row opens nothing — this is the #970/#984 case, where a
+  // lane GitHub simply had not invoked yet became a P1 addressed to a person.
+  const staleFinding = extractHealthFindings({ lanes: [lane({ status: "stale" })] })[0];
+  plan = planQueue({ findings: [staleFinding], existingIssues: [] });
+  assert.equal(plan.create.length, 0, "a stale lane must not open an issue");
+  assert.equal(plan.update.length, 0);
+  assert.equal(plan.reopen.length, 0);
+
+  // But it must not read as recovery either. `classifyLane` reports staleness
+  // ahead of a failing verdict, so a lane that was failing and has now stopped
+  // being invoked arrives here as `stale`; closing its P1 on that would be the
+  // silent drop the recovery sweep exists to prevent.
+  const failingFinding = extractHealthFindings({ lanes: [lane({ status: "failing" })] })[0];
+  plan = planQueue({ findings: [staleFinding], existingIssues: [issueFor(failingFinding)] });
+  assert.equal(plan.close.length, 0, "a stale lane must not close its own open issue");
+  assert.equal(plan.hold.length, 1);
+  assert.equal(plan.update.length, 0, "and must not rewrite it with non-actionable evidence");
+  // The hold is specific to that lane: another lane's cleared issue still closes.
+  plan = planQueue({ findings: [staleFinding], existingIssues: [issueFor(other)] });
+  assert.equal(plan.close.length, 1);
+  assert.equal(plan.hold.length, 0);
 
   // A finding that returns after its issue was closed reopens that issue rather
   // than opening a second one.

@@ -305,12 +305,45 @@ export function buildPayload(finding, registry = FINDING_TYPES) {
  * classification. Only findings are promoted; `ok` and `flaky` are dashboard
  * state, and `flaky` in particular is the sensor deliberately withholding a
  * single failure below its threshold — promoting it here would undo that.
+ *
+ * `stale` is dashboard state too, and for a reason specific to what it means.
+ * It says GitHub has not invoked the workflow recently enough — not that the
+ * lane failed, and not that anything in this repository is wrong. Nothing in a
+ * pull request can repair it, which is why `workflow_unhealthy` has no
+ * acceptance criterion for it beyond "the lane runs again", and a lane runs
+ * again by itself. Every stale issue this queue has ever opened closed exactly
+ * that way: #970 and #984 were both filed P1 human-required against lanes whose
+ * every run had succeeded, sat unread, and were closed by this materialiser
+ * once the next tick landed. No human acted on either, because there was
+ * nothing to act on.
+ *
+ * So a late lane stays visible on the rolling board, where it is one row a
+ * reader can weigh against the others, and stops becoming a P1 ticket
+ * addressed to a person. A schedule that has genuinely stopped does not go
+ * unreported: it is still on the board, `price-freshness-check.yml` holds the
+ * visitor-facing 24h line by probing the live site for the symptom itself, and
+ * `never` — no completed scheduled run at all — is still promoted here.
+ *
+ * `failing`, `stalled` and `never` remain findings. Each of those is a lane
+ * that will not fix itself.
+ *
+ * A stale lane is still returned, carrying `promote: false`. It is not a task,
+ * but it is not evidence of recovery either, and the two are different claims.
+ * Because `classifyLane` reports staleness ahead of a failing verdict, a lane
+ * that fails and then stops being invoked altogether reads `stale` — the worst
+ * state a lane can be in — and dropping it from this list entirely would let
+ * the recovery sweep in `planQueue` close its open P1 as though it had
+ * recovered. That is the one thing this layer must never do (see the 2026-09-12
+ * incident recorded there), so the row is carried through to claim its
+ * fingerprint and hold the issue open instead.
  */
 export function extractHealthFindings(report) {
   const lanes = Array.isArray(report?.lanes) ? report.lanes : [];
   return lanes
-    .filter((lane) => ["failing", "stalled", "stale", "never"].includes(lane.status))
+    .filter((lane) => ["failing", "stalled", "never", "stale"].includes(lane.status))
     .map((lane) => ({
+      // Dashboard state, not a unit of work: never opens or updates an issue.
+      promote: lane.status !== "stale",
       source: "automation-health",
       type: "workflow_unhealthy",
       // Identity is the lane, not its current status: a lane going from failing
@@ -492,6 +525,18 @@ export function planQueue({
     seen.add(payload.fingerprint);
 
     const existing = byFingerprint.get(payload.fingerprint);
+
+    // Evidence the sensor stands behind but that is not a task to hand anyone.
+    // It opens nothing and rewrites nothing; claiming the fingerprint above is
+    // the entire point, because that is what keeps the recovery sweep below
+    // from reading the absence of a finding as a lane that got better.
+    if (finding.promote === false) {
+      if (existing && existing.state === "open") {
+        plan.hold.push({ issue: existing, fingerprint: payload.fingerprint });
+      }
+      continue;
+    }
+
     if (existing) {
       (existing.state === "open" ? plan.update : plan.reopen).push({ issue: existing, payload, finding });
       continue;

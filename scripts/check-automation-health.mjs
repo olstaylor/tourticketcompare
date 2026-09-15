@@ -41,7 +41,16 @@ const ROLLING_ISSUE_LABEL = "automation:health";
 // `maxAgeHours` is deliberately far looser than the nominal cron. GitHub runs
 // these queues late as a matter of course, and a sensor that cries wolf on
 // ordinary lateness gets ignored — which costs more than the miss it prevents.
-// Daily lanes get 30h (a full extra cycle plus 6h of slack).
+// Daily lanes get 30h (a full extra cycle plus 6h of slack). Measured
+// 2026-09-15 over every scheduled run since 2026-09-01, in the same
+// `event=schedule` view this sensor queries: the six daily writers are
+// delivered at a 24.01-24.05h mean against a 24h nominal, worst gap 25.00h, so
+// 30h leaves 5h of margin against a worst observed lateness of 1.0h.
+// `generated-freshness` (24.90h worst) and `work-queue-repair` (24.37h) sit the
+// same way, and the two sensor windows below have ~2.2x. No window needed
+// changing. Read those ratios within a cadence class only: a daily lane's 24h
+// baseline is cadence, not lateness, so window-over-worst-gap is not comparable
+// across the two groups.
 //
 // The hourly lanes get 14h, raised from 6h on 2026-09-14. 6h was reasoned down
 // from the 24h display budget rather than measured against delivered runs, and
@@ -364,7 +373,8 @@ export function renderBody(rows, { repo, now }) {
   }
   body += "\n\n";
   body += "Read-only sensor over the scheduled write lanes. It never reruns, dispatches, merges, or changes a workflow. ";
-  body += "`stale` means GitHub has not invoked the workflow recently enough, which no workflow can detect about itself; ";
+  body += "`stale` means GitHub has not invoked the workflow recently enough, which no workflow can detect about itself — ";
+  body += "reported here but never raised as a work item, because no pull request can invoke a workflow and the next delivered tick clears it; ";
   body += "`stalled` means it is being invoked but no longer reaching a pass/fail verdict. ";
   body += "`flaky` is a single failure on a lane that absorbs one — recorded as context, not raised, and not a reason this issue stays open. ";
   body += "`pending` is a lane added too recently for a missing first run to mean anything yet.\n\n";

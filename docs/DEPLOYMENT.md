@@ -94,6 +94,25 @@ Provider credential families currently used by code include network-level Impact
 
 `wrangler.toml` is useful for local/CLI defaults but does not replace Cloudflare Pages dashboard configuration for Git-integrated production deployments.
 
+### Optional: shared-cache rule for content-only routes
+
+`htmlCacheControl()` in `functions/[[path]].js` sends two different `Cache-Control` values on rendered HTML:
+
+| Routes | Header |
+|---|---|
+| Content-only: guides (except the provider-pair guide), blog, and the static trust pages | `public, max-age=0, s-maxage=600, stale-while-revalidate=3600` |
+| Everything event-derived: `/`, `/artists`, `/cities`, `/venues`, and every artist, city, venue, artist-city and comparison-hub page | `no-cache, max-age=0, must-revalidate` |
+
+Both keep `max-age=0`, so a browser always revalidates and a deploy that bumps a versioned asset URL still reaches returning visitors on their next request.
+
+The `s-maxage` half is **inert without a dashboard Cache Rule**. Pages Functions responses are ruled non-cacheable at request time — `cf-cache-status: DYNAMIC` — and no response header overrides a request-time decision. To activate it, add a Cache Rule that marks *only* the content-only paths eligible for cache and leaves the edge TTL to the origin header, so the two never disagree:
+
+- match `/guides`, `/guides/*`, `/blog`, `/blog/*`, `/how-it-works`, `/currency-converter`, `/affiliate-disclosure`, `/privacy`, `/terms`, `/editorial-policy`, `/about`, `/about/*`, `/contact`;
+- exclude `/guides/vivid-seats-vs-ticketmaster`, which stamps a per-render `calculatedAt` into its visible methodology note;
+- set *Eligible for cache*, and leave edge TTL on "Use cache-control header if present".
+
+Never widen the match to an event-derived route. Those render approved price snapshots and upcoming-date sets filtered against the current time; a stale shared copy would keep serving a price or a date the freshness gates have already withdrawn, which the provider display rules in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md) do not permit. `scripts/smoke-prelaunch.mjs` asserts the split per route, so the repo side fails loudly if the two lists drift apart; the dashboard side has no such guard.
+
 ## GitHub Actions configuration
 
 Automation may require:

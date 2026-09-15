@@ -4227,11 +4227,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264032",
+        "url": "https://www.ticketnetwork.com/en/p/8264032",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o3eZsZduv6",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld",
@@ -4280,11 +4288,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264032",
+        "url": "https://www.ticketnetwork.com/en/p/8264032",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknavvld",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7",
@@ -4333,11 +4349,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264033",
+        "url": "https://www.ticketnetwork.com/en/p/8264033",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknaxvi7",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik",
@@ -4386,10 +4410,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264033",
+        "url": "https://www.ticketnetwork.com/en/p/8264033",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknaxoik",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033"
   }
 ]

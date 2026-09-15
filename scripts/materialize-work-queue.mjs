@@ -139,9 +139,27 @@ if (SELF_TEST) {
   // repair and which the next delivered tick clears on its own. #970 and #984
   // were both opened P1 human-required against lanes whose every run had
   // succeeded. It is carried through as evidence but never promoted.
-  const staleRow = extractHealthFindings({ lanes: [lane({ status: "stale" })] });
+  const staleRow = extractHealthFindings({ lanes: [lane({ status: "stale", latest: { conclusion: "success", html_url: "https://example.invalid/run/1" } })] });
   assert.equal(staleRow.length, 1);
-  assert.equal(staleRow[0].promote, false, "a stale lane must never become a task");
+  assert.equal(staleRow[0].promote, false, "a lane GitHub merely ran late must never become a task");
+
+  // But staleness is reported ahead of the verdict, so `stale` also covers a
+  // lane whose last run FAILED and which then stopped being scheduled. Nothing
+  // else raises that one: no earlier poll opened an issue to hold, and the
+  // three hourly lanes are seen only on this sensor's own 6-hourly poll.
+  for (const conclusion of ["failure", "timed_out"]) {
+    const row = extractHealthFindings({ lanes: [lane({ status: "stale", latest: { conclusion, html_url: "https://example.invalid/run/2" } })] })[0];
+    assert.notEqual(row.promote, false, `stale over a ${conclusion} verdict must stay promotable`);
+    assert.ok(
+      row.evidence.some((line) => line.includes(`concluded \`${conclusion}\``)),
+      "the promoted ticket must say the run failed, not just that the lane is stale"
+    );
+  }
+  // A neutral or unknown conclusion is not a verdict against the lane.
+  for (const conclusion of ["cancelled", "skipped", undefined]) {
+    const row = extractHealthFindings({ lanes: [lane({ status: "stale", latest: { conclusion } })] })[0];
+    assert.equal(row.promote, false, `stale over ${conclusion} must stay suppressed`);
+  }
   for (const status of ["failing", "stalled", "never"]) {
     const rows = extractHealthFindings({ lanes: [lane({ status })] });
     assert.equal(rows.length, 1, status);

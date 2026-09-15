@@ -327,23 +327,41 @@ export function buildPayload(finding, registry = FINDING_TYPES) {
  * `failing`, `stalled` and `never` remain findings. Each of those is a lane
  * that will not fix itself.
  *
- * A stale lane is still returned, carrying `promote: false`. It is not a task,
- * but it is not evidence of recovery either, and the two are different claims.
- * Because `classifyLane` reports staleness ahead of a failing verdict, a lane
- * that fails and then stops being invoked altogether reads `stale` — the worst
- * state a lane can be in — and dropping it from this list entirely would let
- * the recovery sweep in `planQueue` close its open P1 as though it had
- * recovered. That is the one thing this layer must never do (see the 2026-09-12
- * incident recorded there), so the row is carried through to claim its
- * fingerprint and hold the issue open instead.
+ * That suppression is conditional on the lane's last run, and the condition is
+ * the whole safety of it. `classifyLane` reports staleness *ahead of* examining
+ * any conclusion, so `stale` covers two different lanes: one GitHub merely ran
+ * late, and one whose last run FAILED and which then stopped being scheduled —
+ * the worst state a lane can be in. Suppressing both would mean a lane that
+ * failed and died never raises anything at all. It is reachable on exactly the
+ * three hourly lanes, which carry no `workflow_run` trigger and so are seen
+ * only on this sensor's own 6-hourly poll: a run fails, the schedule stops, and
+ * the next poll lands past the 14h window, by which time the failure reads as
+ * staleness and no earlier poll ever opened an issue to hold. So a stale lane
+ * whose last completed run reached a failing verdict stays promotable.
+ *
+ * A stale lane that was last seen healthy is still returned, carrying
+ * `promote: false`. It is not a task, but it is not evidence of recovery
+ * either, and the two are different claims: dropping it from this list
+ * entirely would let the recovery sweep in `planQueue` close an open P1 as
+ * though the lane had recovered. That is the one thing this layer must never
+ * do (see the 2026-09-12 incident recorded there), so the row is carried
+ * through to claim its fingerprint and hold the issue open instead.
  */
+
+// GitHub's own conclusion values for a run that reached a verdict against the
+// lane. These are platform constants rather than a local convention, so
+// mirroring the sensor's set here cannot drift away from it.
+const FAILED_RUN_CONCLUSIONS = new Set(["failure", "timed_out"]);
+const lastRunFailed = (lane) => FAILED_RUN_CONCLUSIONS.has(lane?.latest?.conclusion);
 export function extractHealthFindings(report) {
   const lanes = Array.isArray(report?.lanes) ? report.lanes : [];
   return lanes
     .filter((lane) => ["failing", "stalled", "never", "stale"].includes(lane.status))
     .map((lane) => ({
       // Dashboard state, not a unit of work: never opens or updates an issue.
-      promote: lane.status !== "stale",
+      // Only a stale lane last seen healthy — a failing verdict underneath the
+      // staleness is still a task, and the only one nothing else would raise.
+      promote: lane.status !== "stale" || lastRunFailed(lane),
       source: "automation-health",
       type: "workflow_unhealthy",
       // Identity is the lane, not its current status: a lane going from failing
@@ -359,6 +377,13 @@ export function extractHealthFindings(report) {
       evidence: [
         `Status: \`${lane.status}\``,
         `Detail: ${lane.detail}`,
+        // Without this the ticket reads `stale` / 0 consecutive failures and
+        // buries the thing to act on: staleness is reported ahead of the
+        // verdict, so the count is 0 because it was never counted, not because
+        // the run passed.
+        lane.status === "stale" && lastRunFailed(lane)
+          ? `The last completed run concluded \`${lane.latest.conclusion}\` and no run has been scheduled since — read the failure first; the staleness is reported ahead of it.`
+          : null,
         `Consecutive failures: ${lane.consecutiveFailures ?? 0}`,
         `Cadence: ${lane.cadence}`,
         lane.latest?.html_url ? `Most recent relevant run: ${lane.latest.html_url}` : null,

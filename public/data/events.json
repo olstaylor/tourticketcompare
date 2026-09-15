@@ -23436,11 +23436,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034398",
-        "url": "https://www.ticketnetwork.com/en/p/8034398",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034398",
@@ -23460,7 +23460,7 @@
     "ticketmaster_discovery_event_id": "17GZv0G6G9LBBzT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034398",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034398/Charli-XCX-tickets-Mon-Sep-14-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-14-2026/event/107325080"
   },
@@ -88335,11 +88335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264032",
+        "url": "https://www.ticketnetwork.com/en/p/8264032",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o3eZsZduv6",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld",
@@ -88388,11 +88396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264032",
+        "url": "https://www.ticketnetwork.com/en/p/8264032",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknavvld",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7",
@@ -88441,11 +88457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264033",
+        "url": "https://www.ticketnetwork.com/en/p/8264033",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknaxvi7",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik",
@@ -88494,11 +88518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264033",
+        "url": "https://www.ticketnetwork.com/en/p/8264033",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknaxoik",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033"
   },
   {
     "id": "tm-gracie-abrams-2027-dublin-17kzv0g65nd0zys",

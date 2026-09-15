@@ -23443,11 +23443,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034398",
-        "url": "https://www.ticketliquidator.com/tickets/8034398/Charli-XCX-tickets-Mon-Sep-14-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325080",
@@ -23461,7 +23461,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034398/Charli-XCX-tickets-Mon-Sep-14-2026-Barclays-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-14-2026/event/107325080"
   },
   {
@@ -27341,11 +27341,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735045",
-        "url": "https://www.ticketliquidator.com/tickets/7735045/Tame-Impala-tickets-Mon-Sep-14-2026-Mortgage-Matchup-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107198190",
@@ -27359,7 +27359,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735045",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735045/Tame-Impala-tickets-Mon-Sep-14-2026-Mortgage-Matchup-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-phoenix-tickets-9-14-2026/event/107198190"
   },
   {
@@ -88342,12 +88342,20 @@
         "verified": true,
         "last_verified_at": "2026-09-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264032",
+        "url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o3eZsZduv6",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld",
@@ -88403,12 +88411,20 @@
         "verified": true,
         "last_verified_at": "2026-09-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264032",
+        "url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknavvld",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7",
@@ -88464,12 +88480,20 @@
         "verified": true,
         "last_verified_at": "2026-09-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264033",
+        "url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknaxvi7",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik",
@@ -88525,12 +88549,20 @@
         "verified": true,
         "last_verified_at": "2026-09-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264033",
+        "url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknaxoik",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium"
   },
   {
     "id": "tm-gracie-abrams-2027-dublin-17kzv0g65nd0zys",

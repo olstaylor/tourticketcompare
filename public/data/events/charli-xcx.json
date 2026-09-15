@@ -132,11 +132,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034398",
-        "url": "https://www.ticketliquidator.com/tickets/8034398/Charli-XCX-tickets-Mon-Sep-14-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325080",
@@ -150,7 +150,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034398/Charli-XCX-tickets-Mon-Sep-14-2026-Barclays-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-14-2026/event/107325080"
   },
   {

@@ -25,10 +25,10 @@
  *   - an ID carried a different number of times in the two files
  *   - an indexed field whose value has drifted from events.json, or a row
  *     carrying a field the master event does not have (or missing one it does)
- *   - the index holding the right rows in a different order. public/app.js sorts
- *     before truncating, but public/ttc-home.js filters and then takes
- *     `.slice(0, 12)` in file order, so the order of this file decides which
- *     matching shows the homepage puts in front of a visitor
+ *   - the index holding the right rows in a different order. Both search
+ *     consumers sort the records themselves, so order no longer reaches a
+ *     visitor; what a divergence proves is that this generated file was not
+ *     written by its generator, which is the same staleness a wrong value is
  *
  * Exit 0 (PASS) with warnings on:
  *   - artist with indexing_status "indexable_with_substantial_content" having zero events
@@ -152,12 +152,12 @@ export function compareEventsIndex(events, index) {
     failures.push(`stale field value(s): ${sample(drifted, 2)}`);
   }
 
-  // Order is part of the contract, not a presentation detail. public/app.js
-  // sorts the index before truncating (sortEventsForSearch), but
-  // public/ttc-home.js does not: it filters and then takes `.slice(0, 12)` in
-  // file order, so the order of this file decides which matching shows the
-  // homepage puts in front of a visitor. A file in the wrong order is one the
-  // generator did not write, and it changes what people see.
+  // Order is part of the contract. It used to be load-bearing for what a
+  // visitor saw — public/ttc-home.js truncated in file order — and that was
+  // fixed at the source on 2026-09-14 by sorting there, as public/app.js
+  // already did. The check stays a failure on different grounds: this file is
+  // generated, so rows in an order the generator would not produce mean
+  // something else wrote it, exactly as a stale value would.
   if (!failures.length) {
     const masterOrder = events.map((event) => event.id);
     const indexOrder = index.map((row) => row.id);

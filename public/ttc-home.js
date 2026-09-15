@@ -79,6 +79,24 @@
     } catch (error) { return ""; }
   }
 
+  // Search results are truncated to a fixed count after filtering, so whatever
+  // order this array is in decides which matching dates a visitor is shown.
+  // Left unsorted that was the order of events-index.json — a generated file
+  // whose order is an artefact of how events.json happens to be arranged, not a
+  // judgement about what is most useful. Soonest first is that judgement, and it
+  // matches what public/app.js already does for the same records
+  // (sortEventsForSearch). Past dates are filtered out above, so ascending time
+  // is "upcoming, soonest first" with no further cases to handle.
+  //
+  // The id tiebreak matters: several artists commonly play the same night, and
+  // without it those rows would fall back to file order and reintroduce exactly
+  // the dependency this removes.
+  function compareByDateThenId(a, b) {
+    if (a.when !== b.when) return a.when - b.when;
+    if (a.id === b.id) return 0;
+    return a.id < b.id ? -1 : 1;
+  }
+
   function loadEventIndex() {
     if (eventIndexPromise) return eventIndexPromise;
     eventIndexPromise = fetch("/data/events-index.json", { cache: "force-cache" })
@@ -94,8 +112,8 @@
           var place = [record.city, record.venue].map(function (value) { return String(value || "").trim(); }).filter(Boolean).join(" · ");
           var label = [artist, place, eventDate(record)].filter(Boolean).join(" — ");
           var search = [artist, record.event_name, record.tour_name, record.city, record.country, record.venue, eventDate(record)].join(" ");
-          return { href: "/artists/" + encodeURIComponent(slug) + "#show-" + encodeURIComponent(id), label: label, search: fold(search) };
-        }).filter(Boolean);
+          return { href: "/artists/" + encodeURIComponent(slug) + "#show-" + encodeURIComponent(id), label: label, search: fold(search), when: dateValue, id: id };
+        }).filter(Boolean).sort(compareByDateThenId);
       })
       .catch(function () { return []; });
     return eventIndexPromise;

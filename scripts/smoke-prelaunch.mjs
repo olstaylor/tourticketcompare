@@ -1453,6 +1453,34 @@ assert(ttcHomeJs.includes('document.querySelectorAll("#ttc-main a[href]")'), "ho
 assert(ttcHomeJs.includes('fetch("/data/events-index.json"'), "homepage search should lazy-load the purpose-built lightweight event index");
 assert(!ttcHomeJs.includes('fetch("/data/events.json"') && !ttcHomeJs.includes('fetch("/data/catalog.json"'), "homepage enhancement must not request the full event or catalogue payload");
 assert(ttcHomeJs.includes("record.city") && ttcHomeJs.includes("record.venue"), "homepage event search should preserve city and venue matching");
+
+// Search results are truncated after filtering, so the index order decides which
+// matching dates a visitor is shown. Left unsorted that was the order of the
+// generated events-index.json. These assertions cover both halves: that the
+// comparator is applied to the index, and that it still means "soonest first,
+// ties broken by id". The second is checked by running the shipped function
+// rather than matching its text, so a reversed or truncated comparator fails
+// here — this file cannot be imported (a classic browser script, no build step),
+// so lifting the source out is the only way to execute it.
+assert(
+  ttcHomeJs.includes(".filter(Boolean).sort(compareByDateThenId)"),
+  "homepage event index should be sorted before search results are truncated",
+);
+const compareSource = ttcHomeJs.match(/function compareByDateThenId[\s\S]*?\n {2}\}/);
+assert(compareSource, "homepage search comparator should be a named function this test can execute");
+const compareByDateThenId = new Function(`return (${compareSource[0]})`)();
+const searchRows = [
+  { id: "c", when: 300 },
+  { id: "a2", when: 100 },
+  { id: "b", when: 200 },
+  { id: "a1", when: 100 },
+];
+const sortedRows = [...searchRows].sort(compareByDateThenId).map((row) => row.id).join(",");
+assert(sortedRows === "a1,a2,b,c", `homepage search should order dates soonest first, ties by id (got ${sortedRows})`);
+assert(
+  [...searchRows].reverse().sort(compareByDateThenId).map((row) => row.id).join(",") === sortedRows,
+  "homepage search order must not depend on the order events-index.json happens to be in",
+);
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
 assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
 assert(ttcHomeJs.includes("then check the final total with the provider."), "homepage should tell fans where the final total is confirmed");

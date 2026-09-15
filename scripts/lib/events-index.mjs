@@ -45,9 +45,13 @@ export function indexRowFor(event) {
 /**
  * Build the whole index, in events.json order.
  *
- * Order is part of the contract, not a detail: public/ttc-home.js filters the
- * index and then truncates with `.slice(0, 12)` without sorting first, so the
- * file's order decides which matching shows a visitor is shown.
+ * Order is part of the contract, not a detail. Both search consumers now sort
+ * the records themselves — public/app.js by sortEventsForSearch, and
+ * public/ttc-home.js by date since 2026-09-14 — so file order no longer reaches
+ * a visitor. What it still proves is provenance: this file is generated, and a
+ * divergence in order means it was not produced by the generator. That is the
+ * same class of staleness as a wrong field value, and the writer at fault is
+ * usually a script that edited events.json without regenerating its two views.
  */
 export function buildEventsIndex(events) {
   return events.map((event) => indexRowFor(event));

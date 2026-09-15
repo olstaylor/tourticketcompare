@@ -14,6 +14,7 @@
 
 import {
   cancelStrandedPrValidation,
+  isCancellableStrandedStatus,
   earnRequiredCheck,
   classifyCheck,
   DEFAULT_TIMEOUT_MS,
@@ -157,21 +158,40 @@ if (process.argv.includes("--self-test")) {
 
   // cancelStrandedPrValidation: it must cancel exactly the un-runnable
   // `pull_request` validation runs and nothing else — never the dispatched run
-  // that carries the verdict, never another workflow, never one already done.
+  // that carries the verdict, never another workflow, never one already done,
+  // and never one whose jobs are running, which would publish a `cancelled`
+  // test-mvp on the SHA this lane is about to merge.
   const prelaunch = ".github/workflows/prelaunch-validation.yml";
-  const strandedRuns = {
+  const strandedRuns = () => ({
     workflow_runs: [
       { id: 1, event: "pull_request", status: "action_required", path: prelaunch },
       { id: 2, event: "workflow_dispatch", status: "completed", path: prelaunch },
       { id: 3, event: "pull_request", status: "completed", path: prelaunch },
       { id: 4, event: "pull_request", status: "queued", path: ".github/workflows/daily-audit.yml" },
-      { id: 5, event: "pull_request", status: "queued", path: prelaunch },
+      { id: 5, event: "pull_request", status: "waiting", path: prelaunch },
+      { id: 6, event: "pull_request", status: "in_progress", path: prelaunch },
+      // The run that must survive: a real `pull_request` validation run on its
+      // way to running, which is what every one of these becomes once the
+      // approval gate is lifted. Cancelling it would kill the honest check.
+      { id: 7, event: "pull_request", status: "queued", path: prelaunch },
     ],
-  };
+  });
   const cancelled = [];
+  let reads = 0;
   const cancelledCount = await cancelStrandedPrValidation({
     request: async (method, pathname) => {
-      if (method === "GET") return strandedRuns;
+      if (method === "GET") {
+        reads += 1;
+        // The first read finds them; by the confirmation read GitHub has acted
+        // on the cancels, so the two submitted runs report a real `cancelled`
+        // conclusion rather than merely dropping out of the listing.
+        if (reads === 1) return strandedRuns();
+        return {
+          workflow_runs: strandedRuns().workflow_runs.map((r) =>
+            [1, 5].includes(r.id) ? { ...r, status: "completed", conclusion: "cancelled" } : r
+          ),
+        };
+      }
       const match = pathname.match(/\/actions\/runs\/(\d+)\/cancel$/);
       if (!match) throw new Error(`unexpected call ${method} ${pathname}`);
       cancelled.push(Number(match[1]));
@@ -179,14 +199,96 @@ if (process.argv.includes("--self-test")) {
     },
     repo: "o/r",
     sha: "0123456789abcdef",
+    pollMs: 0,
+    sleep: async () => {},
     log: quiet,
     warn: quiet,
   });
   check("cancels only the stranded pull_request runs", cancelled.join(","), "1,5");
+  // The guarantee that makes lifting the approval gate safe: a `queued` run is
+  // a real validation run starting up, not a stranded one, and must survive.
+  check("a queued validation run is never cancelled", cancelled.includes(7), false);
+  check("an in_progress validation run is never cancelled", cancelled.includes(6), false);
+  check("only the two held-for-approval states are cancellable", [
+    isCancellableStrandedStatus("action_required"),
+    isCancellableStrandedStatus("waiting"),
+    isCancellableStrandedStatus("queued"),
+    isCancellableStrandedStatus("pending"),
+    isCancellableStrandedStatus("requested"),
+    isCancellableStrandedStatus("in_progress"),
+    isCancellableStrandedStatus("completed"),
+  ].join(","), "true,true,false,false,false,false,false");
   check("reports how many it cancelled", cancelledCount, 2);
+  check("confirms the cancel actually settled", reads, 2);
 
-  // A read or cancel that fails must never propagate: this runs after the
-  // merge, and a published commit must not become a failed lane.
+  // Confirmation must track the submitted run IDs, not "is it still in a
+  // cancellable state?". A run that slips to `in_progress` would vanish from
+  // that filtered view and be called settled while still executing, and one
+  // that resolves to `failure` — the standing false red this exists to stop —
+  // would read as a success. Both must keep the wait alive and be named.
+  let slipReads = 0;
+  const slipWarnings = [];
+  let slipTicks = 0;
+  await cancelStrandedPrValidation({
+    request: async (method) => {
+      if (method !== "GET") return null;
+      slipReads += 1;
+      if (slipReads === 1) return strandedRuns();
+      // 1 starts running instead of cancelling; 5 resolves red on its own.
+      return {
+        workflow_runs: strandedRuns().workflow_runs.map((r) => {
+          if (r.id === 1) return { ...r, status: "in_progress" };
+          if (r.id === 5) return { ...r, status: "completed", conclusion: "failure" };
+          return r;
+        }),
+      };
+    },
+    repo: "o/r",
+    sha: "0123456789abcdef",
+    confirmMs: 30,
+    pollMs: 0,
+    sleep: async () => {
+      slipTicks += 1;
+    },
+    now: () => slipTicks * 10,
+    log: quiet,
+    warn: (msg) => slipWarnings.push(String(msg)),
+  });
+  check(
+    "a run that resolved red rather than cancelled is named",
+    slipWarnings.some((m) => m.includes("5") && m.includes("failure")),
+    true
+  );
+  check(
+    "a run that slipped to in_progress is not called settled",
+    slipWarnings.some((m) => m.includes("had not reached") && m.includes("1")),
+    true
+  );
+
+  // The confirmation is what stops the merge racing an accepted-but-unapplied
+  // cancel — the race that made the post-merge call useless. It must be
+  // bounded all the same: a run that never settles delays the publish by the
+  // cap and no longer, because a published commit outranks a tidy Actions tab.
+  let confirmTicks = 0;
+  const neverSettles = await cancelStrandedPrValidation({
+    request: async (method) => (method === "GET" ? strandedRuns() : null),
+    repo: "o/r",
+    sha: "0123456789abcdef",
+    confirmMs: 30,
+    pollMs: 0,
+    sleep: async () => {
+      confirmTicks += 1;
+    },
+    now: () => confirmTicks * 10,
+    log: quiet,
+    warn: quiet,
+  });
+  check("an unsettled cancel still returns", neverSettles, 2);
+  check("the confirmation wait is bounded", confirmTicks <= 4, true);
+
+  // A read or cancel that fails must never propagate: the caller sites this
+  // outside the try that reports a withheld merge, and no tidy-up may decide a
+  // lane's verdict.
   const swallowed = await cancelStrandedPrValidation({
     request: async () => {
       throw new Error("boom");

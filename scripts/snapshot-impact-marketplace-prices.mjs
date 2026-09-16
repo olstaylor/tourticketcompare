@@ -58,21 +58,55 @@ const DEFAULT_FRESHNESS_HOURS = 24;
 // seconds, not minutes.
 const REQUEST_TIMEOUT_MS = 15000;
 const MAX_ATTEMPTS = 3;
+const RETRY_BACKOFF_MS = 500;
 
-async function fetchWithTimeout(url, init = {}, fetchImpl = globalThis.fetch) {
+// A 429 or a 5xx is the origin declining to answer right now. That is the same
+// class of non-answer as a dropped connection or a timeout, so it belongs on
+// the same retry path — but until 2026-09-16 only a *thrown* error reached it.
+// A refusal arrives as a resolved response, so it returned on the first
+// attempt and MAX_ATTEMPTS never applied to it.
+//
+// These requests go through the production Pages Function named by
+// IMPACT_CATALOG_PROXY_URL, and production has an open intermittent CPU-limit
+// incident (docs/OPERATIONS.md -> Known incidents) that answers 503. One such
+// 503, on one event out of the roster, was counted as a failed fetch, and
+// `failed > 0` fails the whole lane: the 2026-09-16 00:22Z run wrote 30 good
+// stubhub-international rows, priced every other event it asked about, and
+// still went red on a single refusal. The sibling probe in
+// scripts/check-price-snapshot-freshness.mjs was hardened against the same
+// incident on 2026-09-13; this is that contract, applied per event.
+//
+// Retrying a refusal does not weaken the gate. A deterministic status is still
+// a verdict on the first attempt — including the token-gated 404 that
+// isCatalogProxyRejection reports — and a refusal that survives every attempt
+// is returned as it stands, so it still counts as a failure and still reds the
+// run. What changes is only that a blip no longer speaks for the lane.
+function isRetriableCatalogStatus(status) {
+  return status === 429 || (status >= 500 && status <= 599);
+}
+
+async function fetchWithTimeout(url, init = {}, fetchImpl = globalThis.fetch, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))) {
   let lastError;
+  let lastResponse;
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     try {
-      return await fetchImpl(url, { ...init, signal: controller.signal });
+      const response = await fetchImpl(url, { ...init, signal: controller.signal });
+      if (response.ok || !isRetriableCatalogStatus(response.status)) return response;
+      lastResponse = response;
+      lastError = null;
     } catch (error) {
+      lastResponse = null;
       lastError = error?.name === "AbortError" ? new Error(`request timed out after ${REQUEST_TIMEOUT_MS}ms`) : error;
-      if (attempt < MAX_ATTEMPTS) await new Promise((resolve) => setTimeout(resolve, 500 * attempt));
     } finally {
       clearTimeout(timer);
     }
+    if (attempt < MAX_ATTEMPTS) await sleep(RETRY_BACKOFF_MS * attempt);
   }
+  // A refusal that never cleared is reported as the refusal it was, so the
+  // caller still names the real status rather than a synthetic transport error.
+  if (lastResponse) return lastResponse;
   throw lastError;
 }
 
@@ -115,7 +149,7 @@ function selectEligible(events, artists, config, options, now = new Date()) {
   return rows;
 }
 
-async function fetchArtistCatalog(config, artistName, env = process.env, fetchImpl = globalThis.fetch) {
+async function fetchArtistCatalog(config, artistName, env = process.env, fetchImpl = globalThis.fetch, sleep) {
   const { accountSid, authToken, programId } = impactCredentials(config, env);
   const authorization = accountSid && authToken
     ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
@@ -129,7 +163,7 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
           ...(authorization ? { Authorization: authorization } : {}),
           ...catalogProxyHeaders(env)
         }
-      }, fetchImpl);
+      }, fetchImpl, sleep);
       // Every failed fetch here already sets a non-zero exit via summary.failed,
       // so this only has to name the cause rather than change the outcome.
       if (!response.ok) {
@@ -255,7 +289,7 @@ async function run(options, deps = {}) {
     // broad artist-keyword pagination (for example, "Harry Styles").
     const catalog = deps.fetchArtistCatalog
       ? await deps.fetchArtistCatalog(config, item.externalId)
-      : await fetchArtistCatalog(config, item.externalId, deps.env, deps.fetchImpl);
+      : await fetchArtistCatalog(config, item.externalId, deps.env, deps.fetchImpl, deps.sleep);
     if (!catalog.ok) {
       errors.push({ event_id: item.id, reason: catalog.reason });
       continue;
@@ -295,6 +329,56 @@ async function selfTest() {
     async fetchArtistCatalog() { return { ok: true, candidates: [candidate] }; }
   });
   assert.equal(summary.usable, 1);
+
+  // The retry contract for an origin refusal. A 503 that clears must not be
+  // allowed to speak for the lane; a deterministic status must still be a
+  // verdict on the first attempt, so the token-gated 404 keeps its own
+  // reporting path; and a refusal that never clears must still fail.
+  assert.equal(isRetriableCatalogStatus(503), true);
+  assert.equal(isRetriableCatalogStatus(429), true);
+  assert.equal(isRetriableCatalogStatus(404), false);
+  assert.equal(isRetriableCatalogStatus(200), false);
+
+  const noSleep = async () => {};
+  let refusals = 0;
+  const cleared = await fetchWithTimeout("https://example.test", {}, async () => {
+    refusals += 1;
+    return refusals < 3 ? { ok: false, status: 503 } : { ok: true, status: 200 };
+  }, noSleep);
+  assert.equal(cleared.status, 200, "a 503 that clears must be retried, not reported as a failure");
+  assert.equal(refusals, 3, "the request must retry until the origin answers");
+
+  let deterministic = 0;
+  const notFound = await fetchWithTimeout("https://example.test", {}, async () => {
+    deterministic += 1;
+    return { ok: false, status: 404 };
+  }, noSleep);
+  assert.equal(notFound.status, 404);
+  assert.equal(deterministic, 1, "a deterministic 4xx is a verdict, not a refusal");
+
+  let exhausted = 0;
+  const stillDown = await fetchWithTimeout("https://example.test", {}, async () => {
+    exhausted += 1;
+    return { ok: false, status: 503 };
+  }, noSleep);
+  assert.equal(stillDown.status, 503, "an unrelenting refusal keeps its real status");
+  assert.equal(exhausted, MAX_ATTEMPTS, "a refusal is retried to the cap");
+
+  // End to end: the same blip must leave no mark on the summary the health
+  // gate reads, because a retried refusal is not a failed event.
+  let flaky = 0;
+  const recoveredSummary = await run({ provider: "ticket-liquidator", apply: false, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
+    data: [events, []], now: new Date("2026-07-13T00:00:00Z"), sleep: noSleep,
+    env: { IMPACT_CATALOG_PROXY_URL: "https://example.test/api/impact/products", IMPACT_CATALOG_PROXY_TOKEN: "t" },
+    async fetchImpl() {
+      flaky += 1;
+      return flaky === 1
+        ? { ok: false, status: 503 }
+        : { ok: true, status: 200, async json() { return { Items: [], "@total": 0 }; } };
+    }
+  });
+  assert.equal(recoveredSummary.failed, 0, "a retried 503 must not count as a failed event");
+  assert.equal(recoveredSummary.errors.length, 0);
   assert.equal(summary.proposed_rows[0].source, config.priceSource);
   const sql = buildSql([{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource }]);
   assert.match(sql, /ON CONFLICT\(event_id, provider\)/);
@@ -303,7 +387,7 @@ async function selfTest() {
   assert.match(sql, /ORDER BY observed_at DESC/);
   assert.match(sql, new RegExp(`'${config.slug}:e1:2026-07-13T00:00:00\\.000Z'`));
   assert.doesNotMatch(sql, /(DELETE|UPDATE)[^;]*provider_pricing_history/i);
-  return 16;
+  return 30;
 }
 
 async function main() {
@@ -318,4 +402,4 @@ async function main() {
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });
 
-export { buildHistoryInsertSql, buildRow, buildSql, exactPrice, parseArgs, run, selectEligible };
+export { buildHistoryInsertSql, buildRow, buildSql, exactPrice, fetchWithTimeout, isRetriableCatalogStatus, parseArgs, run, selectEligible };

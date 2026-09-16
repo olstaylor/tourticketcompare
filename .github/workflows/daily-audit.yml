@@ -224,10 +224,20 @@ jobs:
           public/data/guides-content.json
           PROJECT_STATUS.md
 
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Publish through a validated, auto-merged PR
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
@@ -332,10 +342,20 @@ jobs:
       # run against this branch can produce. The squash-merge also absorbs any
       # commit that landed on main while this job was validating, so there is no
       # fast-forward race left to lose.
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.diff.outputs.changed == 'true'
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Publish through a validated, auto-merged PR
         if: steps.diff.outputs.changed == 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail

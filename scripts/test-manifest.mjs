@@ -16,6 +16,7 @@
 //   npm run test:units -- --only blog
 
 export const STEPS = [
+  { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },
   { id: "blog:self-test",                         lane: "units",  run: "npm run blog:self-test" },
   { id: "blog:check",                             lane: "quick",  run: "npm run blog:check" },

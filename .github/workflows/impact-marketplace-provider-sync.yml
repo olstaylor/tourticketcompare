@@ -149,12 +149,22 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.config.outputs.mode == 'apply' && steps.diff.outputs.changed == 'true'
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Open validated provider PR
         if: steps.config.outputs.mode == 'apply' && steps.diff.outputs.changed == 'true'
         env:
           PROVIDER: ${{ steps.config.outputs.provider }}
           PR_AUTO_MERGE: ${{ steps.config.outputs.auto_merge }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail

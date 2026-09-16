@@ -166,10 +166,20 @@ jobs:
       # artist data a guide's links resolve against. Nothing would otherwise
       # rebuild that Markdown, and an /admin save could sit unpublished
       # indefinitely.
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Publish the compiled content
         if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail

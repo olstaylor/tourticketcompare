@@ -3063,7 +3063,7 @@
     "ticketmaster_event_id": "10006529D6B422E4",
     "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-07-2027/event/10006529D6B422E4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-7-2027--concerts-pop/production/7539896",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-07-2027/event/10006529D6B422E4",
     "last_verified_at": null,
@@ -3085,11 +3085,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7539896,
+        "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-7-2027--concerts-pop/production/7539896",
+        "verified": true,
+        "last_verified_at": "2026-09-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3116,7 +3116,7 @@
     "ticketmaster_event_id": "10006529263279AB",
     "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-08-2027/event/10006529263279AB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-8-2027--concerts-pop/production/7539898",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-08-2027/event/10006529263279AB",
     "last_verified_at": null,
@@ -3138,11 +3138,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7539898,
+        "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-8-2027--concerts-pop/production/7539898",
+        "verified": true,
+        "last_verified_at": "2026-09-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3445,7 +3445,7 @@
     "ticketmaster_event_id": "1933969167",
     "ticketmaster_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1933969167?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-7-30-2027--concerts-pop/production/7539904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1933969167?language=en-us",
     "last_verified_at": null,
@@ -3467,11 +3467,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7539904,
+        "url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-7-30-2027--concerts-pop/production/7539904",
+        "verified": true,
+        "last_verified_at": "2026-09-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

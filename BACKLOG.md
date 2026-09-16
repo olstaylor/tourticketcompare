@@ -1,10 +1,10 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-09-14 (`events-index.json` consistency check shipped — fact recorded by agent; `needs_recheck` total recounted from source 2026-09-13 by agent; maintenance-loop Stage 3 shipped 2026-09-12 — fact recorded by agent; stages 1 and 2 shipped 2026-09-11; completed items moved out of the active list). Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
+Last updated: 2026-09-16 (engineering roadmap reorganised with owner authorisation; `events-index.json` consistency check shipped — fact recorded by agent; `needs_recheck` total recounted from source 2026-09-13 by agent; maintenance-loop Stage 3 shipped 2026-09-12 — fact recorded by agent; stages 1 and 2 shipped 2026-09-11; completed items moved out of the active list). Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
 
 ## Active priorities (in order)
 
-Items 1–4 are **operational** (owner + gated tooling), not engineering. The engineering track is the maintenance loop below. Each item stays here until verifiably done.
+Items 1–4 are **operational** (owner + gated tooling), not engineering. The engineering track is the five-milestone scale roadmap below; the maintenance loop is retained as shipped capability with separate evidence gates. Each item stays here until verifiably done.
 
 ### 1. Affiliate-pivot owner follow-ups (2026-07-02)
 
@@ -51,16 +51,59 @@ The other six of that batch — **karol-g, foo-fighters, metallica, my-chemical-
 - **Tombstone dedup deletions:** when deleting a row from `events.json` that Ticketmaster still lists, add its ids and/or venue/date to `data/deleted-events.json` in the same change (see `docs/PROVIDER_SYNC.md` and `docs/OPERATIONS.md` → Known incidents).
 - Review the rolling automation dashboards (`automation:daily-audit`, `automation:data-sync`, `automation:tm-discovery`, `automation:health`, `automation:prelaunch-validation`) and any withheld rows from the new-show PRs. Discrete `work-queue` issues are a separate, bounded queue — see the engineering track below.
 
-## Engineering track — the always-on maintenance loop
+## Engineering track — scale roadmap (owner-approved 2026-09-16)
 
-Goal: grow from ~1,400 events to tens of thousands without human review scaling with the dataset. Staged smallest-first. **Stages 1, 2 and 3 are shipped and live on `main`; Stage 4 is the next milestone and is not built** (fact updated 2026-09-12 by agent on shipping Stage 3 v1). Full mechanism lives in `docs/OPERATIONS.md`; this section is state and direction only.
+Goal: grow useful, commercially viable event inventory without owner workload growing proportionally. Optimise **useful inventory × qualified traffic × outbound conversion × affiliate value, with minimal owner intervention**.
+
+Operating model: legitimate event discovered → safely ingested → provider coverage established → purpose-built runtime/read artefacts generated → worthwhile pages published/indexed → inventory maintained → commercial outcomes measured → owner intervention only for ambiguous, unsafe or commercially consequential cases.
+
+### Architectural assumptions
+
+Git remains the canonical, reviewable source of event data for the foreseeable scaling horizon. The intended pattern is **Git-reviewed canonical data → deterministic generation → validation → purpose-built deployable runtime read artefacts**. D1/KV are not the chosen canonical replacement. Revisit these assumptions only when measured evidence materially changes the case.
+
+The runtime must stop depending on one monolithic `public/data/events.json`. Cloudflare Pages' 25 MiB individual static-asset limit is a hard constraint. The earlier review measured approximately 3.73 MB for 1,391 records (an approximate crossing near 9.7k events at that density, not a capacity guarantee). CPU/memory attribution remains unproven until Milestone 2 measures it. Ordinary lifecycle/provider messiness should increasingly be retried, reconciled, safely degraded, suppressed or deterministically repaired.
+
+### Milestone 1 — CI identity and human merge protection (next engineering task)
+
+Resolve the automation identity / `action_required` problem and restore protection against humans merging a red head without breaking automated publishing. Investigate a GitHub App installation token or the safest equivalent supported by the existing architecture. Do not simply re-enable the previously broken ruleset. Keep in-job validation and checks on the exact proposed head; prove an automated publish under protection and a failing human PR being blocked before declaring this complete.
+
+### Milestone 2 — Scalable runtime event data plane
+
+Preserve Git canonical truth while replacing full-dataset runtime consumption with bounded, access-pattern-specific generated read models. Cover `/api/out`, `/api/shows`, city, venue and artist-city routes, `/api/health`, and other hot request paths discovered during implementation.
+
+Do not replace `events.json` with another monolithic full-event lookup: `events-index.json` is useful at current scale but repeats the same whole-dataset scaling pattern. Include a CPU/runtime tier check, baseline measurements, before/after benchmarks, deployed artefact size budgets enforced by validation, and eventual removal of `public/data/events.json` from the deployed runtime surface after all consumers migrate.
+
+### Milestone 3 — Static/generated discovery artefacts
+
+Generate a static sitemap index and sitemap files, generated `llms.txt`, and bounded browser search data. Retire the per-event/full-dataset browser search fallback. Keep this separate from Milestone 2 so discovery work cannot delay runtime/deployment constraints.
+
+### Milestone 4 — Commercial measurement and provider value
+
+Reconcile clicks/SubIds and measure landing/page → outbound → affiliate conversion/commission where supported. Analyse Search Console query × page data; attribute provider/artist/page value only where defensible. Do not invent attribution or treat raw server requests as visitor conversion rates. Preserve the operational owner inputs above and the contract in `docs/COMMERCIAL_FUNNEL.md`.
+
+Investigate Ticket Liquidator pricing/feed readiness using the dry-run-first order in `docs/PROVIDER_DATA_POLICY.md`; this may run alongside other milestones when it touches disjoint surfaces. Rights alone do not establish numeric feed availability.
+
+### Milestone 5 — Scale ingestion and exception handling
+
+Reduce owner work that grows with inventory: lifecycle classification, safe cancellation/postponement handling, deterministic provider/event reconciliation, ordinary expiry/off-sale handling, ambiguous-match escalation, fewer false-positive owner issues, and sensors aimed at real scale constraints. Preserve human review for ambiguity and commercial safety.
+
+### Scale checkpoints
+
+- **~5k events:** measure runtime and generation costs; keep deployed artefacts bounded and test the access patterns above.
+- **~10k events:** the current monolithic asset approaches its projected limit; complete the runtime/discovery migrations before reaching it.
+- **~20k events:** use measured ingestion, generation and exception rates to identify the next constraint.
+- **~100k events:** a future reassessment checkpoint, not a design target for this implementation. Do not design for 100k now.
+
+## Maintenance loop — shipped capability and evidence gates
+
+**Stages 1–3 are shipped on `main`. Stage 3 is implemented but not yet operationally proven through genuine production repairs.** Full mechanism lives in `docs/OPERATIONS.md`. Stage 4 is outside the five milestones and deferred.
 
 ### Stage 1 — reliability foundation (shipped 2026-09-11)
 
-- **`test-mvp` is earned on every automated publish** — each lane dispatches Prelaunch Validation against its own pushed branch and merges only on green. It was also an owner-applied required status check on `main` from 2026-09-11, but that ruleset refused every automated merge even with the check green on the PR head, and is `disabled` as of 2026-09-12. So a human can again merge a red head, which is what allowed the 2026-09-11 red-`main` incident; restoring the rule needs a bypass actor for the GitHub Actions app (owner decision, see `docs/OPERATIONS.md`).
+- **`test-mvp` is earned on every automated publish** — each lane dispatches Prelaunch Validation against its own pushed branch and merges only on green. It was also an owner-applied required status check on `main` from 2026-09-11, but that ruleset refused every automated merge even with the check green on the PR head, and is `disabled` as of 2026-09-12. So a human can again merge a red head, which is what allowed the 2026-09-11 red-`main` incident; Milestone 1 must verify the new credential under protection before restoring the rule (see `docs/OPERATIONS.md`).
 - **`automation-health.yml`** (#941) watches all twelve scheduled lanes from outside, the three sensors included and reports three states no lane can see about itself: `failing`, `stale` (GitHub stopped invoking it) and `stalled` (still invoked, no longer reaching a pass/fail verdict — what a `timeout-minutes` breach looks like, since that ends as `cancelled`). Two or more lanes failing together is reported as a **likely shared cause, usually a red `main`**, rather than several provider defects.
 - **The daily outbound-link audit was restructured** (#942) from a strictly serial loop to bounded per-host concurrency. The cap is per host, not global, so a burst never lands on one storefront and degrades its evidence into WAF blocks.
-- **Still open:** the daily-audit runtime incident. The offline benchmark projects 2.9 minutes against the previous ~40, but a projection is not a run. It closes only when the first real scheduled `audit` job proves it inside the existing 40-minute cap — see `docs/OPERATIONS.md` → Known incidents for the five conditions. `timeout-minutes` was deliberately left at 40 so that run is a genuine test.
+- **Daily-audit runtime incident closed (fact corrected by agent 2026-09-16):** the 2026-09-13 scheduled run met all five conditions, completing the audit in 14m07s and both dependent publishing jobs successfully. Production evidence and the remaining Discovery-diff scaling concern live in `docs/OPERATIONS.md` → Known incidents.
 
 ### Stage 2 — the work queue (shipped 2026-09-11)
 
@@ -87,9 +130,11 @@ What makes the repair safe rather than merely bounded: the operation is looked u
 
 **Still open after v1, in order:** a real run against a real finding (the queue has carried no `agent:ready` item since the worker shipped, so the loop is proved by its self-test and an offline end-to-end rehearsal, not yet by production); then a decision on whether a second finding type is worth supporting, which is a new scope, not an extension of this one.
 
-### Stage 4 — narrow auto-merge (conditional, last)
+### Stage 4 — narrow auto-merge (deferred, outside the five milestones)
 
-Only after Stage 3 has a real track record, and only for change classes that are deterministically verifiable against a file allowlist. Not scoped. No AI-authored change merges without human review until then.
+Before scoping this, require Milestones 2 and 3 shipped, meaningful genuine Stage 3 production evidence, a measured acceptable false-positive rate, proven rollback, and a demonstrated business/owner bottleneck removed.
+
+Even if these gates are met, Stage 4 remains limited to change classes that are deterministically verifiable against a fixed file allowlist. No AI-authored change outside an explicitly sanctioned auto-publish class may merge without human review. After Stage 3 has genuine production evidence, separately decide whether supporting a second finding type is worthwhile; it is new scope, not an automatic extension of Stage 3.
 
 Constraints at every stage: the worker may not weaken a validator or a lane to make its own job easier; the five group-A auto-publish paths in `SAFE_PUBLISHING_RULES.md` stay exactly as they are; and no stage adds a governance document — findings live in issues, schedules and incidents in `docs/OPERATIONS.md`, priorities here.
 

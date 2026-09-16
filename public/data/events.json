@@ -23513,11 +23513,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034399",
-        "url": "https://www.ticketnetwork.com/en/p/8034399",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034399",
@@ -23537,7 +23537,7 @@
     "ticketmaster_discovery_event_id": "17GZv0G6G9LHQy5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034399",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034399/Charli-XCX-tickets-Tue-Sep-15-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-15-2026/event/107258881"
   },
@@ -43100,11 +43100,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7511941",
-        "url": "https://www.ticketnetwork.com/en/p/7511941",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7511941",
@@ -43117,7 +43117,7 @@
     "ticketmaster_discovery_event_id": "1AoZku4GkeB8MgG",
     "timezone": "America/Regina",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511941",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium"
   },
   {
@@ -70527,12 +70527,20 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8265862",
+        "url": "https://www.ticketnetwork.com/en/p/8265862",
+        "verified": true,
+        "last_verified_at": "2026-09-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GSc9WJr",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077"
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265862"
   },
   {
     "id": "tm-polyphia-2026-manchester-g5vhz_gr4jgl2",

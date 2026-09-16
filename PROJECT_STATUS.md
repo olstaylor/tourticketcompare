@@ -19,7 +19,7 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 
   - TicketNetwork 886.
 
-  - Ticket Liquidator 759.
+  - Ticket Liquidator 757.
 
   - StubHub International 562.
 

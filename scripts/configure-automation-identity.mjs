@@ -29,8 +29,9 @@ export function configureIdentity(env, { git, mask, output }) {
   if (!token || /[\r\n]/.test(token)) throw new Error('Publishing token is missing or malformed');
   mask(token);
   if (enabled) {
-    const auth = `AUTHORIZATION: basic ${Buffer.from(`x-access-token:${token}`).toString('base64')}`;
-    mask(auth);
+    const encoded = Buffer.from(`x-access-token:${token}`).toString('base64');
+    mask(encoded);
+    const auth = `AUTHORIZATION: basic ${encoded}`;
     // Replace checkout's local GITHUB_TOKEN header so branch updates and PR
     // creation use the same App. No credential enters the remote URL or tree.
     git(['config', '--local', '--replace-all', 'http.https://github.com/.extraheader', auth]);
@@ -47,7 +48,7 @@ function selfTest() {
   assert.equal(calls.at(-1)[1], 'test-app');
   const header = calls.find(c => c[0] === 'git')[1].at(-1);
   assert.equal(Buffer.from(header.split(' ').at(-1), 'base64').toString(), 'x-access-token:test-app');
-  assert(calls.findIndex(c => c[0] === 'mask' && c[1] === header) < calls.findIndex(c => c[0] === 'git'));
+  assert(calls.findIndex(c => c[0] === 'mask' && c[1] === header.split(' ').at(-1)) < calls.findIndex(c => c[0] === 'git'));
   calls.length = 0;
   assert.equal(configureIdentity({ ...base, AUTOMATION_APP_ENABLED: '' }, deps), 'github-token');
   assert(!calls.some(c => c[0] === 'git'));

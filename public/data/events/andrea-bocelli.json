@@ -178,11 +178,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7711518",
-        "url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107083029",
@@ -202,7 +202,7 @@
     "ticketmaster_discovery_event_id": "vvG1iZ_dnRPN0b",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-15-2026/event/107083029",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711518"
   },

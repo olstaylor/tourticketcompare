@@ -447,13 +447,21 @@
         "verified": true,
         "last_verified_at": "2026-09-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265862",
+        "url": "https://www.ticketliquidator.com/tickets/8265862/Polyphia-tickets-Fri-Dec-11-2026-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GSc9WJr",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265862"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265862",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265862/Polyphia-tickets-Fri-Dec-11-2026-O2-Academy-Birmingham"
   },
   {
     "id": "tm-polyphia-2026-manchester-g5vhz_gr4jgl2",

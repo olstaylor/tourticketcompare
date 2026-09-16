@@ -23520,11 +23520,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034399",
-        "url": "https://www.ticketliquidator.com/tickets/8034399/Charli-XCX-tickets-Tue-Sep-15-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107258881",
@@ -23538,7 +23538,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034399/Charli-XCX-tickets-Tue-Sep-15-2026-Barclays-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-15-2026/event/107258881"
   },
   {
@@ -43107,18 +43107,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7511941",
-        "url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkeB8MgG",
     "timezone": "America/Regina",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-foo-fighters-2026-edmonton-1k78vn4_gaujue7",
@@ -70534,13 +70534,21 @@
         "verified": true,
         "last_verified_at": "2026-09-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265862",
+        "url": "https://www.ticketliquidator.com/tickets/8265862/Polyphia-tickets-Fri-Dec-11-2026-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GSc9WJr",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265862"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265862",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265862/Polyphia-tickets-Fri-Dec-11-2026-O2-Academy-Birmingham"
   },
   {
     "id": "tm-polyphia-2026-manchester-g5vhz_gr4jgl2",
@@ -75321,11 +75329,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7711518",
-        "url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107083029",
@@ -75345,7 +75353,7 @@
     "ticketmaster_discovery_event_id": "vvG1iZ_dnRPN0b",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711518/Andrea-Bocelli-tickets-Tue-Sep-15-2026-Hollywood-Bowl",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-15-2026/event/107083029",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711518"
   },

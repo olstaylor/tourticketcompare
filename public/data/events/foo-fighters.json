@@ -124,18 +124,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7511941",
-        "url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkeB8MgG",
     "timezone": "America/Regina",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511941/Foo-Fighters-tickets-Tue-Sep-15-2026-Mosaic-Stadium"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-foo-fighters-2026-edmonton-1k78vn4_gaujue7",

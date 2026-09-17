@@ -635,7 +635,7 @@
     "ticketmaster_event_id": "3B00643504E38212",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-16-2026/event/3B00643504E38212",
     "seatgeek_url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-09-16-8-pm/concert/18027104",
-    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-16-2026--concerts-pop/production/6564602",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-16-2026/event/3B00643504E38212",
     "last_verified_at": "2026-05-07",
@@ -656,11 +656,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6564602,
-        "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-16-2026--concerts-pop/production/6564602",
-        "verified": true,
-        "last_verified_at": "2026-09-14",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -728,7 +728,7 @@
         "event_id": 6564610,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-18-2026--concerts-pop/production/6564610",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -797,7 +797,7 @@
         "event_id": 6564614,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-19-2026--concerts-pop/production/6564614",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -866,7 +866,7 @@
         "event_id": 6564617,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-23-2026--concerts-pop/production/6564617",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -935,7 +935,7 @@
         "event_id": 6564623,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-25-2026--concerts-pop/production/6564623",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1004,7 +1004,7 @@
         "event_id": 6564629,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-26-2026--concerts-pop/production/6564629",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1073,7 +1073,7 @@
         "event_id": 6564639,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-9-30-2026--concerts-pop/production/6564639",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1142,7 +1142,7 @@
         "event_id": 6564648,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-2-2026--concerts-pop/production/6564648",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1211,7 +1211,7 @@
         "event_id": 6564656,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-3-2026--concerts-pop/production/6564656",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1280,7 +1280,7 @@
         "event_id": 6564668,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-7-2026--concerts-pop/production/6564668",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1349,7 +1349,7 @@
         "event_id": 6564676,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-9-2026--concerts-pop/production/6564676",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1418,7 +1418,7 @@
         "event_id": 6564684,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-10-2026--concerts-pop/production/6564684",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1487,7 +1487,7 @@
         "event_id": 6564686,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-14-2026--concerts-pop/production/6564686",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1556,7 +1556,7 @@
         "event_id": 6564688,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-16-2026--concerts-pop/production/6564688",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1625,7 +1625,7 @@
         "event_id": 6564691,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-17-2026--concerts-pop/production/6564691",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1694,7 +1694,7 @@
         "event_id": 6564694,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-21-2026--concerts-pop/production/6564694",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1763,7 +1763,7 @@
         "event_id": 6564699,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-23-2026--concerts-pop/production/6564699",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1832,7 +1832,7 @@
         "event_id": 6564701,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-24-2026--concerts-pop/production/6564701",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1901,7 +1901,7 @@
         "event_id": 6564706,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-28-2026--concerts-pop/production/6564706",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1970,7 +1970,7 @@
         "event_id": 6564711,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-30-2026--concerts-pop/production/6564711",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2039,7 +2039,7 @@
         "event_id": 6564719,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-31-2026--concerts-pop/production/6564719",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2934,7 +2934,7 @@
         "event_id": 7539880,
         "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-23-2027--concerts-pop/production/7539880",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3011,7 +3011,7 @@
         "event_id": 7539882,
         "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-24-2027--concerts-pop/production/7539882",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3194,7 +3194,7 @@
         "event_id": 7539884,
         "url": "https://www.vividseats.com/harry-styles-tickets-atlanta-mercedes-benz-stadium-5-21-2027--concerts-pop/production/7539884",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3263,7 +3263,7 @@
         "event_id": 7539886,
         "url": "https://www.vividseats.com/harry-styles-tickets-atlanta-mercedes-benz-stadium-5-22-2027--concerts-pop/production/7539886",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3332,7 +3332,7 @@
         "event_id": 7539892,
         "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-28-2027--concerts-pop/production/7539892",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3401,7 +3401,7 @@
         "event_id": 7539894,
         "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-29-2027--concerts-pop/production/7539894",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3523,7 +3523,7 @@
         "event_id": 7539908,
         "url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-7-31-2027--concerts-pop/production/7539908",
         "verified": true,
-        "last_verified_at": "2026-09-14",
+        "last_verified_at": "2026-09-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4076,7 +4076,7 @@
     "ticketmaster_event_id": "0B00652EB5754AEC",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-30-2027/production/7559045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
     "last_verified_at": null,
@@ -4098,11 +4098,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7559045,
+        "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-30-2027/production/7559045",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4129,7 +4129,7 @@
     "ticketmaster_event_id": "0B00652EB5864AF8",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-5-1-2027/production/7559041",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
     "last_verified_at": null,
@@ -4151,11 +4151,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7559041,
+        "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-5-1-2027/production/7559041",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4182,7 +4182,7 @@
     "ticketmaster_event_id": "1000652E1DE1B292",
     "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-14-2027/event/1000652E1DE1B292",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-14-2027--concerts-pop/production/7557449",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-14-2027/event/1000652E1DE1B292",
     "last_verified_at": null,
@@ -4204,11 +4204,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7557449,
+        "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-14-2027--concerts-pop/production/7557449",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4235,7 +4235,7 @@
     "ticketmaster_event_id": "1000652E1DEAB2C3",
     "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-15-2027/event/1000652E1DEAB2C3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-15-2027--concerts-pop/production/7557455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-15-2027/event/1000652E1DEAB2C3",
     "last_verified_at": null,
@@ -4257,11 +4257,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7557455,
+        "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-15-2027--concerts-pop/production/7557455",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4288,7 +4288,7 @@
     "ticketmaster_event_id": "04006529FA896470",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-04-2027/event/04006529FA896470",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-4-2027--concerts-pop/production/7558050",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-04-2027/event/04006529FA896470",
     "last_verified_at": null,
@@ -4310,11 +4310,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7558050,
+        "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-4-2027--concerts-pop/production/7558050",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4341,7 +4341,7 @@
     "ticketmaster_event_id": "04006529FD0A6D72",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-05-2027/event/04006529FD0A6D72",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-5-2027--concerts-pop/production/7558044",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-05-2027/event/04006529FD0A6D72",
     "last_verified_at": null,
@@ -4363,11 +4363,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7558044,
+        "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-5-2027--concerts-pop/production/7558044",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4394,7 +4394,7 @@
     "ticketmaster_event_id": "455456550",
     "ticketmaster_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/455456550?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-8-2-2027/production/7556405",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/455456550?language=en-us",
     "last_verified_at": null,
@@ -4416,11 +4416,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7556405,
+        "url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-8-2-2027/production/7556405",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

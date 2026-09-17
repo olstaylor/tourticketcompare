@@ -3951,11 +3951,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257671",
+        "url": "https://www.ticketnetwork.com/en/p/8257671",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP49",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257671"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavp4p",
@@ -4004,11 +4012,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8257672",
+        "url": "https://www.ticketnetwork.com/en/p/8257672",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4p",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257672"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavsoa",
@@ -4057,11 +4073,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266038",
+        "url": "https://www.ticketnetwork.com/en/p/8266038",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsoa",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266038"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bgqfli",
@@ -4110,11 +4134,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266437",
+        "url": "https://www.ticketnetwork.com/en/p/8266437",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3Bgqfli",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266437"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bg-0lz",
@@ -4163,11 +4195,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266438",
+        "url": "https://www.ticketnetwork.com/en/p/8266438",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3Bg-0lz",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266438"
   },
   {
     "id": "tm-harry-styles-2027-toronto-1avzz_3gkzqzh13",
@@ -4322,11 +4362,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265970",
+        "url": "https://www.ticketnetwork.com/en/p/8265970",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdBxpoY",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265970"
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdwejgw",
@@ -4375,11 +4423,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265969",
+        "url": "https://www.ticketnetwork.com/en/p/8265969",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdWeJgw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265969"
   },
   {
     "id": "tm-harry-styles-2027-madrid-z698xz2qz1ko4op48",

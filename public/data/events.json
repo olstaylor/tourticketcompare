@@ -1727,17 +1727,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085154",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-16-2026/event/107085154",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_df7zzF3",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695873",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-16-2026/event/107085154"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505018228",
@@ -16662,11 +16662,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071107",
-        "url": "https://www.stubhub.ie/bruno-mars-new-orleans-tickets-9-16-2026/event/107071107",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Chicago",
@@ -16675,7 +16675,7 @@
     "ticketmaster_discovery_event_id": "G5viZbye_a_hw",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668639",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-new-orleans-tickets-9-16-2026/event/107071107"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
@@ -48381,18 +48381,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107076161",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_eplUIuH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676468",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-long-beach-vvg1iz_els87ti",
@@ -75413,11 +75413,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107083031",
-        "url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-16-2026/event/107083031",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7711519",
@@ -75431,7 +75431,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-16-2026/event/107083031",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711519"
   },
   {
@@ -92220,13 +92220,21 @@
         "verified": true,
         "last_verified_at": "2026-09-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668406",
+        "url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_33c4njL",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259518",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259518/Yuridia-tickets-Sun-Feb-21-2027-YouTube-Theater-at-Hollywood-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259518/Yuridia-tickets-Sun-Feb-21-2027-YouTube-Theater-at-Hollywood-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406"
   },
   {
     "id": "tm-yuridia-2027-fresno-g5vyz_35vhmjx",
@@ -93017,12 +93025,20 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666028",
+        "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-9-2027/event/107666028",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP49",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257671"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257671",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-9-2027/event/107666028"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavp4p",
@@ -93078,12 +93094,20 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667647",
+        "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-10-2027/event/107667647",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4p",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257672"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257672",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-10-2027/event/107667647"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavsoa",
@@ -93139,12 +93163,20 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668117",
+        "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-16-2027/event/107668117",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsoa",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266038"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266038",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-16-2027/event/107668117"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bgqfli",
@@ -93207,13 +93239,21 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668108",
+        "url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-30-2027/event/107668108",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3Bgqfli",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266437",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266437/Harry-Styles-tickets-Fri-Apr-30-2027-Rose-Bowl-Stadium-Pasadena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266437/Harry-Styles-tickets-Fri-Apr-30-2027-Rose-Bowl-Stadium-Pasadena",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-30-2027/event/107668108"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bg-0lz",
@@ -93276,13 +93316,21 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668109",
+        "url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-5-1-2027/event/107668109",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3Bg-0lz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266438",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266438/Harry-Styles-tickets-Sat-May-1-2027-Rose-Bowl-Stadium-Pasadena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266438/Harry-Styles-tickets-Sat-May-1-2027-Rose-Bowl-Stadium-Pasadena",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-5-1-2027/event/107668109"
   },
   {
     "id": "tm-harry-styles-2027-toronto-1avzz_3gkzqzh13",
@@ -93444,12 +93492,20 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668112",
+        "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-4-2027/event/107668112",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdBxpoY",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265970"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265970",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-4-2027/event/107668112"
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdwejgw",
@@ -93505,12 +93561,20 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668113",
+        "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-5-2027/event/107668113",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdWeJgw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265969"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265969",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-5-2027/event/107668113"
   },
   {
     "id": "tm-harry-styles-2027-madrid-z698xz2qz1ko4op48",

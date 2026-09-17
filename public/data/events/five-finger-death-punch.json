@@ -238,18 +238,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107076161",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_eplUIuH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676468",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-long-beach-vvg1iz_els87ti",

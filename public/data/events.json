@@ -92962,5 +92962,535 @@
     "ticketmaster_discovery_event_id": "1AvOZ_3GkliBGmQ",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-arlington-z7r9jz1aavp49",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles w/ CA7RIEL / PACO AMOROSO",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-10T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvP49",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP49",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP49",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvP49",
+        "discovery_event_id": "Z7r9jZ1AAvP49",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP49",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP49",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-arlington-z7r9jz1aavp4p",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles w/ CA7RIEL / PACO AMOROSO",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-11T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvP4p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvP4p",
+        "discovery_event_id": "Z7r9jZ1AAvP4p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-arlington-z7r9jz1aavsoa",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles w/ CA7RIEL / PACO AMOROSO",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-17T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvsoa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvsoa",
+        "discovery_event_id": "Z7r9jZ1AAvsoa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsoa",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bgqfli",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Pasadena",
+    "country": "United States Of America",
+    "venue": "Rose Bowl",
+    "datetime_iso": "2027-05-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00652EB5754AEC",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00652EB5754AEC",
+        "discovery_event_id": "vvG1iZ_3Bgqfli",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_3Bgqfli",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bg-0lz",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Pasadena",
+    "country": "United States Of America",
+    "venue": "Rose Bowl",
+    "datetime_iso": "2027-05-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00652EB5864AF8",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00652EB5864AF8",
+        "discovery_event_id": "vvG1iZ_3Bg-0lz",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_3Bg-0lz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-toronto-1avzz_3gkzqzh13",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-05-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652E1DE1B292",
+    "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-14-2027/event/1000652E1DE1B292",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-14-2027/event/1000652E1DE1B292",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652E1DE1B292",
+        "discovery_event_id": "1AvZZ_3Gkzqzh13",
+        "url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-14-2027/event/1000652E1DE1B292",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3Gkzqzh13",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-toronto-1avzz_3gkzqbl5d",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-05-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652E1DEAB2C3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-15-2027/event/1000652E1DEAB2C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-15-2027/event/1000652E1DEAB2C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652E1DEAB2C3",
+        "discovery_event_id": "1AvZZ_3GkzqBl5d",
+        "url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-15-2027/event/1000652E1DEAB2C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkzqBl5d",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdbxpoy",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-05T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006529FA896470",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-04-2027/event/04006529FA896470",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-04-2027/event/04006529FA896470",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006529FA896470",
+        "discovery_event_id": "vv1A7ZkftGkdBxpoY",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-04-2027/event/04006529FA896470",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkftGkdBxpoY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdwejgw",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-06T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006529FD0A6D72",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-05-2027/event/04006529FD0A6D72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-05-2027/event/04006529FD0A6D72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006529FD0A6D72",
+        "discovery_event_id": "vv1A7ZkftGkdWeJgw",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-05-2027/event/04006529FD0A6D72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkftGkdWeJgw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-madrid-z698xz2qz1ko4op48",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2027-08-02T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "455456550",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/455456550?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/455456550?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "455456550",
+        "discovery_event_id": "Z698xZ2qZ1ko4op48",
+        "url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/455456550?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1ko4op48",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
   }
 ]

@@ -4141,12 +4141,20 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266437",
+        "url": "https://www.ticketliquidator.com/tickets/8266437/Harry-Styles-tickets-Fri-Apr-30-2027-Rose-Bowl-Stadium-Pasadena",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3Bgqfli",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266437"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266437",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266437/Harry-Styles-tickets-Fri-Apr-30-2027-Rose-Bowl-Stadium-Pasadena"
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bg-0lz",
@@ -4202,12 +4210,20 @@
         "verified": true,
         "last_verified_at": "2026-09-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266438",
+        "url": "https://www.ticketliquidator.com/tickets/8266438/Harry-Styles-tickets-Sat-May-1-2027-Rose-Bowl-Stadium-Pasadena",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_3Bg-0lz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266438"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266438",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266438/Harry-Styles-tickets-Sat-May-1-2027-Rose-Bowl-Stadium-Pasadena"
   },
   {
     "id": "tm-harry-styles-2027-toronto-1avzz_3gkzqzh13",

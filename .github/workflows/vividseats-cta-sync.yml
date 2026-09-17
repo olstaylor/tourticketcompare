@@ -136,10 +136,20 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.diff.outputs.changed == 'true' && (github.event_name == 'schedule' || github.event.inputs.mode == 'apply')
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Open Vivid Seats CTA sync PR
         if: steps.diff.outputs.changed == 'true' && (github.event_name == 'schedule' || github.event.inputs.mode == 'apply')
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           EVENT_NAME: ${{ github.event_name }}
           INPUT_AUTO_MERGE: ${{ github.event.inputs.auto_merge }}

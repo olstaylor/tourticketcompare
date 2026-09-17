@@ -126,10 +126,19 @@ jobs:
       # array, never through string interpolation into a shell line: an input is
       # a value, not a fragment of the command. The worker itself refuses an
       # `--issue` that is not an integer.
+      - name: Prepare publishing identity
+        id: publishing-identity
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Repair one work item
         id: repair
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           REQUESTED_ISSUE: ${{ inputs.issue }}
           REQUESTED_DRY_RUN: ${{ inputs.dry_run }}

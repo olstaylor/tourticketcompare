@@ -1,46 +1,14 @@
 // Earns the `test-mvp` required status check for a pushed automation branch.
 //
-// Why this exists. On 2026-09-11 a repository ruleset made `test-mvp` a
-// required status check on `main`. Required checks are evaluated on the commit
-// being published, whether it arrives by push or by merge, and every
-// automation lane here publishes commits that no `pull_request` run has ever
-// touched:
+// GitHub documents that pull_request events created or updated with
+// GITHUB_TOKEN produce approval-required runs. App installation tokens allow
+// those PR runs to execute normally:
+// https://docs.github.com/en/actions/concepts/security/github_token
 //
-//   * the direct-to-main writers pushed a commit built on the runner, so the
-//     SHA carried no checks at all and the push was rejected outright;
-//     the squash-merge was rejected with a 405 (PR #951, 2026-09-12).
-//     `reportStrandedPrValidation` below names them; it cannot clear them.
-//
-//     The "0 of 36 such runs ever reached a verdict" figure recorded here on
-//     2026-09-13 was wrong, and the correction matters because it changes what
-//     the fix is. Counted over all 100 `pull_request` Prelaunch runs on
-//     2026-09-14: on `automation/*` heads, 23 `failure`, 5 still sitting at
-//     `action_required` — and 9 `success`. The successes are real, and all
-//     fall on 2026-09-10/11, when a human was approving these runs by hand
-//     during the ruleset incident. None since 2026-09-11 09:22.
-//
-//     So the gate is an approval requirement that a human CAN clear, not an
-//     absolute block: `action_required` as a literal conclusion rules out the
-//     other candidate (GitHub's GITHUB_TOKEN recursion suppression, which
-//     raises no run at all). `github-actions[bot]` is not a repository
-//     collaborator, which is why an in-repo branch is still treated as
-//     outside-contributor work. Clearing it at source is a repository setting
-//     or a non-GITHUB_TOKEN credential for opening the PR — an owner decision,
-//     recorded in docs/OPERATIONS.md, and the reason this dispatch exists
-//     rather than a defect in any lane. Do that and this whole module becomes
-//     unnecessary; until then it is what keeps the lanes publishing.
-//
-// Neither is a validation gap: both run the full suite in-job before pushing.
-// What was missing was *evidence GitHub can see*. So earn it, honestly: the
-// branch already exists, and `workflow_dispatch` is one of the two events the
-// Actions token is still allowed to raise, so dispatch the real Prelaunch
-// Validation workflow against that branch and wait for its verdict on the
-// exact SHA about to be published.
-//
-// The alternative — publishing a hand-made check run named `test-mvp` — would
-// have satisfied the ruleset without running anything. It is not implemented
-// here and must not be: a required check that automation can fabricate is not
-// a check.
+// Keep this explicit dispatch during the App-identity rollout. It supplies a
+// real check on the exact pushed head, independently of the rollout flag; it
+// never fabricates a check or replaces the mandatory in-job validation.
+// GitHub's ruleset remains a separate gate, including merge-commit validation.
 //
 // Pure except for the injected `request`, so the polling logic is provable
 // offline (see scripts/earn-required-check.mjs --self-test).
@@ -179,7 +147,7 @@ export async function earnRequiredCheck({
 // cases. A real `pull_request` run does happen on these heads — 9 of the 37
 // above concluded `success`, so a genuine red is possible too, and it would
 // carry jobs and a real test failure. Calling that stranded would attach "no
-// jobs, recursion-guard noise" to an actual validation failure: the same kind
+// jobs, approval-required noise" to an actual validation failure: the same kind
 // of false reassurance this whole change exists to remove. So a `failure` is
 // only stranded once its job count is known to be zero; pass `null` when it
 // has not been looked up and the answer is no.
@@ -201,14 +169,9 @@ export function isStrandedValidationRun(run, jobCount = null) {
 // Saying nothing true is worse than doing nothing, so this now names what it
 // found and stays out of the way.
 //
-// The root cause is the credential, not a repository setting. The lane opens
-// its PR with the Actions token, and GitHub will not run a `pull_request`
-// workflow for an event raised that way — the recursion guard, which no
-// Actions setting overrides. Confirmed on 2026-09-15: the owner moved the
-// fork-PR approval control to "first-time contributors" and the next five
-// lanes still produced zero-job runs. Opening the PR with a GitHub App
-// installation token (or a PAT) is the fix, and it removes the run rather than
-// tidying it. See docs/OPERATIONS.md.
+// App installation tokens avoid this approval-required path. The reporter
+// remains useful while the opt-in rollout is disabled or old runs are inspected.
+// A completed run cannot be cancelled. See docs/OPERATIONS.md.
 //
 // Strictly best-effort and never throws, so the caller may site it outside the
 // try whose catch reports a withheld merge: this must not be able to fail a
@@ -248,7 +211,7 @@ export async function reportStrandedPrValidation({
         // real validation failure, whatever else is true of this SHA.
         warn(
           `pull_request validation run ${run.id} on ${sha.slice(0, 7)} failed with ` +
-            `${jobCount === null ? "an unknown number of" : jobCount} job(s) — that is a real failure, not the recursion guard.`
+            `${jobCount === null ? "an unknown number of" : jobCount} job(s) — that is a real failure, not an approval-only run.`
         );
       }
     }
@@ -259,8 +222,8 @@ export async function reportStrandedPrValidation({
     for (const run of stranded) {
       warn(
         `Stranded pull_request validation run ${run.id} on ${sha.slice(0, 7)} (${run.conclusion}, no jobs). ` +
-          `It cannot be cancelled — GitHub created it already completed. This lane published correctly; ` +
-          `the red is the Actions-token recursion guard. Fix: open automation PRs with an App installation token.`
+          `It cannot be cancelled — GitHub created it already completed. The explicit validation dispatch is the separate gate; ` +
+          `the PR run needs approval because it used GITHUB_TOKEN. Fix: open automation PRs with an App installation token.`
       );
     }
     return stranded.length;

@@ -1,0 +1,53 @@
+name: Automation publishing identity
+description: Opt-in repository-scoped App identity for existing publishing lanes
+inputs:
+  enabled:
+    description: Explicit rollout flag (true, false, or empty)
+    default: ''
+  client-id:
+    description: Automation GitHub App client ID
+    default: ''
+  private-key:
+    description: Automation GitHub App private key
+    default: ''
+  github-token:
+    description: Existing workflow token for the disabled rollout path
+    required: true
+outputs:
+  token:
+    description: Token for both Git and the publishing API calls
+    value: ${{ steps.configure.outputs.token }}
+runs:
+  using: composite
+  steps:
+    - name: Check rollout configuration
+      shell: bash
+      env:
+        AUTOMATION_APP_ENABLED: ${{ inputs.enabled }}
+        AUTOMATION_APP_CLIENT_ID: ${{ inputs.client-id }}
+        AUTOMATION_APP_PRIVATE_KEY: ${{ inputs.private-key }}
+      run: node "$GITHUB_ACTION_PATH/../../../scripts/configure-automation-identity.mjs" --preflight
+    - name: Mint repository-scoped installation token
+      if: inputs.enabled == 'true'
+      id: app
+      uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
+      with:
+        client-id: ${{ inputs.client-id }}
+        private-key: ${{ inputs.private-key }}
+        owner: ${{ github.repository_owner }}
+        repositories: ${{ github.event.repository.name }}
+        permission-contents: write
+        permission-pull-requests: write
+        permission-issues: write
+        permission-actions: write
+        permission-checks: read
+    - name: Configure Git and API identity
+      id: configure
+      shell: bash
+      env:
+        AUTOMATION_APP_ENABLED: ${{ inputs.enabled }}
+        AUTOMATION_APP_CLIENT_ID: ${{ inputs.client-id }}
+        AUTOMATION_APP_PRIVATE_KEY: ${{ inputs.private-key }}
+        AUTOMATION_APP_TOKEN: ${{ steps.app.outputs.token }}
+        EXISTING_GITHUB_TOKEN: ${{ inputs.github-token }}
+      run: node "$GITHUB_ACTION_PATH/../../../scripts/configure-automation-identity.mjs"

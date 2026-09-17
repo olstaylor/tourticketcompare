@@ -147,10 +147,20 @@ jobs:
       # commit built on this runner carries none. The helper dispatches the real
       # validation workflow against the pushed branch, waits for its verdict, and
       # merges only on green — the in-job suite above stays the pre-push gate.
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true' && inputs.dry_run != true
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Publish through a validated, auto-merged PR
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true' && inputs.dry_run != true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail

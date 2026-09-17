@@ -2448,11 +2448,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071107",
-        "url": "https://www.stubhub.ie/bruno-mars-new-orleans-tickets-9-16-2026/event/107071107",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Chicago",
@@ -2461,7 +2461,7 @@
     "ticketmaster_discovery_event_id": "G5viZbye_a_hw",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668639",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-new-orleans-tickets-9-16-2026/event/107071107"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",

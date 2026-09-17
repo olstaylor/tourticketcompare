@@ -262,11 +262,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107083031",
-        "url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-16-2026/event/107083031",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7711519",
@@ -280,7 +280,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-9-16-2026/event/107083031",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711519"
   },
   {

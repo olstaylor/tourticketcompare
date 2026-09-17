@@ -588,13 +588,21 @@
         "verified": true,
         "last_verified_at": "2026-09-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668406",
+        "url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406",
+        "verified": true,
+        "last_verified_at": "2026-09-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_33c4njL",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259518",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259518/Yuridia-tickets-Sun-Feb-21-2027-YouTube-Theater-at-Hollywood-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259518/Yuridia-tickets-Sun-Feb-21-2027-YouTube-Theater-at-Hollywood-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406"
   },
   {
     "id": "tm-yuridia-2027-fresno-g5vyz_35vhmjx",

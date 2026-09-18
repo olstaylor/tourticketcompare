@@ -921,12 +921,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267812",
+        "url": "https://www.ticketliquidator.com/tickets/8267812/Brandi-Carlile-tickets-Mon-Feb-15-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkftGkez7Jxt",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267812"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267812",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267812/Brandi-Carlile-tickets-Mon-Feb-15-2027-OVO-Hydro"
   },
   {
     "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
@@ -982,12 +990,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8259353",
+        "url": "https://www.ticketliquidator.com/tickets/8259353/Brandi-Carlile-tickets-Wed-Feb-17-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfEGkdf5AsP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259353"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259353",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259353/Brandi-Carlile-tickets-Wed-Feb-17-2027-Co-Op-Live"
   },
   {
     "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
@@ -1149,11 +1165,19 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267859",
+        "url": "https://www.ticketliquidator.com/tickets/8267859/Brandi-Carlile-tickets-Mon-Feb-22-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kqN76oF",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267859"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267859",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267859/Brandi-Carlile-tickets-Mon-Feb-22-2027-Ziggo-Dome"
   }
 ]

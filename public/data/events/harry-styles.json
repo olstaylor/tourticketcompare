@@ -3935,7 +3935,7 @@
         "event_id": 18516103,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-09-7-45-pm/concert/18516103",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4004,7 +4004,7 @@
         "event_id": 18577780,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-10-7-45-pm/concert/18577780",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4073,7 +4073,7 @@
         "event_id": 18584157,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-16-7-45-pm/concert/18584157",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4574,7 +4574,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvSZI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSZI",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-14-7-45-pm/concert/18584154",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSZI",
@@ -4590,11 +4590,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18584154,
+        "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-14-7-45-pm/concert/18584154",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4627,7 +4627,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvw00",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw00",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-17-7-45-pm/concert/18584160",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw00",
@@ -4643,11 +4643,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18584160,
+        "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-17-7-45-pm/concert/18584160",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

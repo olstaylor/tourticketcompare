@@ -524,11 +524,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162164",
-        "url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-17-2026/event/107162164",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_a6Cy2uc",
@@ -536,7 +536,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-17-2026/event/107162164"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_anrle2y",

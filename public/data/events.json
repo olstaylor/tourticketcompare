@@ -27425,11 +27425,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107108094",
-        "url": "https://www.stubhub.ie/tame-impala-dallas-tickets-9-17-2026/event/107108094",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dKFcyvg",
@@ -27437,7 +27437,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735046",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-dallas-tickets-9-17-2026/event/107108094"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-f_z",
@@ -41697,11 +41697,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162164",
-        "url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-17-2026/event/107162164",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_a6Cy2uc",
@@ -41709,7 +41709,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-17-2026/event/107162164"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_anrle2y",
@@ -93683,12 +93683,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668149",
+        "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-14-2027/event/107668149",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSZI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268342"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268342",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-14-2027/event/107668149"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavw00",
@@ -93744,12 +93752,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668118",
+        "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-17-2027/event/107668118",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw00",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267109"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267109",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-17-2027/event/107668118"
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdxye23",
@@ -93805,12 +93821,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668111",
+        "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdXYE23",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267110"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267110",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111"
   },
   {
     "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",
@@ -93926,13 +93950,21 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668440",
+        "url": "https://www.stubhub.ie/charli-xcx-tickets-glasgow-ovo-hydro-arena-glasgow-15-2-2027/event/107668440",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkftGkez7Jxt",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267812",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267812/Brandi-Carlile-tickets-Mon-Feb-15-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267812/Brandi-Carlile-tickets-Mon-Feb-15-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-glasgow-ovo-hydro-arena-glasgow-15-2-2027/event/107668440"
   },
   {
     "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
@@ -93995,13 +94027,21 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668439",
+        "url": "https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfEGkdf5AsP",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259353",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259353/Brandi-Carlile-tickets-Wed-Feb-17-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259353/Brandi-Carlile-tickets-Wed-Feb-17-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439"
   },
   {
     "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
@@ -94050,11 +94090,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668441",
+        "url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfIGkenre1t",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441"
   },
   {
     "id": "tm-charli-xcx-2027-london-1adfz_3gknni7-u",
@@ -94103,11 +94151,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669390",
+        "url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3GknNI7-U",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390"
   },
   {
     "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of",
@@ -94170,12 +94226,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666206",
+        "url": "https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kqN76oF",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267859",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267859/Brandi-Carlile-tickets-Mon-Feb-22-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267859/Brandi-Carlile-tickets-Mon-Feb-22-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206"
   }
 ]

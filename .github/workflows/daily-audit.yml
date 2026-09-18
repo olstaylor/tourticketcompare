@@ -29,14 +29,28 @@ permissions:
 # the later tick waits.
 #
 # Deliberately just these TWO lanes, not every Discovery API caller. GitHub
-# keeps only ONE run pending per group and evicts any earlier pending one, so a
-# third scheduled member would be actively harmful: tm-new-shows-pr runs at
-# 04:00, and if this 03:00 audit overran past it, the 03:30 nightly sync sitting
-# pending would be evicted and its lossless updates silently skipped — the exact
-# failure this whole change exists to stop. With two scheduled members the queue
-# never holds more than one pending run, so nothing can be evicted. The other
-# Discovery lanes rely on the per-request throttle retry in
-# scripts/apply-tm-updates.mjs instead, which degrades rather than drops work.
+# keeps only ONE run pending per group and evicts any earlier pending one, so
+# membership is a cost as well as a protection: a third member makes it possible
+# for a pending nightly sync to be dropped, and a silently skipped publication is
+# the exact failure this change exists to stop. tm-new-shows-pr (04:00) was the
+# concrete case — an overrunning audit would let it evict the pending 03:30 sync
+# — so it keeps its own group and relies on the per-request throttle retry in
+# scripts/apply-tm-updates.mjs, which degrades to reported errors rather than
+# dropping queued work.
+#
+# Two scheduled members means the schedule alone can never fill the pending slot
+# twice. A manual dispatch of either lane still can, since both carry
+# workflow_dispatch: audit running, sync pending, second dispatch evicts the
+# sync. That is deliberate and visible rather than silent —
+# check-automation-health.mjs reads a cancelled run as a finding, not as health —
+# but it is a real edge, so prefer letting the schedule run over dispatching a
+# lane while the other is active.
+#
+# This also delays the sync whenever the audit is still running at 03:30, since
+# the group is workflow-level and spans all three audit jobs. Measured 2026-09-18
+# the full audit was 22 minutes, so the sync normally starts on time; only an
+# audit past 30 minutes pushes it, and docs/OPERATIONS.md records the audit's own
+# 40-minute cap as the alarm for that.
 concurrency:
   group: ticketmaster-api
   cancel-in-progress: false

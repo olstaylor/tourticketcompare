@@ -71,8 +71,15 @@ const artistsPath = arg('--artists')
   ? new URL(`file://${path.resolve(arg('--artists'))}`)
   : DEFAULT_ARTISTS_PATH;
 
+function positiveIntFromEnv(name, fallback) {
+  const parsed = Number.parseInt(process.env[name] ?? '', 10);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : fallback;
+}
+
 const requestDelayMs = Number.parseInt(process.env.TM_REQUEST_DELAY_MS || '300', 10);
-const requestTimeoutMs = Number.parseInt(process.env.TM_REQUEST_TIMEOUT_MS || '15000', 10);
+// Hardened alongside the retry budget below, which reserves against it: a NaN
+// timeout would poison every reservation the same way a NaN budget does.
+const requestTimeoutMs = positiveIntFromEnv('TM_REQUEST_TIMEOUT_MS', 15000);
 
 function clean(value) {
   return String(value ?? '').trim();
@@ -267,9 +274,15 @@ async function loadIndexedArtistSlugs() {
 // breach the job's `timeout-minutes`, turning a throttle into a lost run. One
 // budget across the whole sweep absorbs a transient burst, then degrades to the
 // old behaviour — errors, reported honestly — instead of grinding the job dead.
-const TM_MAX_ATTEMPTS = Number.parseInt(process.env.TM_MAX_ATTEMPTS || '3', 10);
-const TM_RETRY_BACKOFF_MS = Number.parseInt(process.env.TM_RETRY_BACKOFF_MS || '1000', 10);
-const TM_RETRY_BUDGET_MS = Number.parseInt(process.env.TM_RETRY_BUDGET_MS || '180000', 10);
+// These are env-tunable, so a typo must not quietly remove the bound they exist
+// to enforce. `TM_MAX_ATTEMPTS=0` skipped the request loop entirely and returned
+// null to a caller that dereferences it, and a non-numeric budget parsed to NaN,
+// which made every `remaining < ms` comparison false and so granted every
+// reservation — the job-cap protection silently gone. An unusable value falls
+// back to the default rather than being trusted.
+const TM_MAX_ATTEMPTS = positiveIntFromEnv('TM_MAX_ATTEMPTS', 3);
+const TM_RETRY_BACKOFF_MS = positiveIntFromEnv('TM_RETRY_BACKOFF_MS', 1000);
+const TM_RETRY_BUDGET_MS = positiveIntFromEnv('TM_RETRY_BUDGET_MS', 180000);
 
 function isRetriableTmStatus(status) {
   return status === 429 || (status >= 500 && status <= 599);
@@ -713,8 +726,13 @@ async function runSelfTest() {
   // costs requestTimeoutMs; charging only the backoff would let ~60 such events
   // add half an hour of request time to the sweep while the budget still read as
   // barely touched — the job-cap breach this is meant to prevent.
+  // Sized relative to the live constants, never hard-coded: these are all
+  // env-tunable, and a test pinned to their defaults would red the whole
+  // required suite the moment anyone set TM_REQUEST_TIMEOUT_MS to tune a run.
+  // This allowance funds exactly one retry and no more.
   let stalledClock = 0;
-  const stalledBudget = createRetryBudget(20000);
+  const stalledAllowance = requestTimeoutMs + TM_RETRY_BACKOFF_MS + 1;
+  const stalledBudget = createRetryBudget(stalledAllowance);
   let stalledCalls = 0;
   await fetchEvent('k', 'https://tm.test', 'X', {
     sleep: noSleep,
@@ -723,13 +741,14 @@ async function runSelfTest() {
     fetch: async () => { stalledCalls += 1; stalledClock += requestTimeoutMs; return { ok: false, status: 429 }; }
   });
   assert('a timing-out retry is charged its real elapsed time',
-    stalledBudget.remaining <= 20000 - requestTimeoutMs);
+    stalledBudget.remaining <= stalledAllowance - requestTimeoutMs);
   assert('an elapsed-time budget stops the sweep retrying early', stalledCalls < TM_MAX_ATTEMPTS);
 
   // The other side of the same contract: a fast refusal must refund nearly all
   // of its reservation, or one slow lane would starve the whole roster.
   let fastClock = 0;
-  const fastBudget = createRetryBudget(TM_RETRY_BUDGET_MS);
+  const fastAllowance = (TM_RETRY_BACKOFF_MS * 3) + (requestTimeoutMs * 2) + 1000;
+  const fastBudget = createRetryBudget(fastAllowance);
   let fastCalls = 0;
   await fetchEvent('k', 'https://tm.test', 'X', {
     sleep: noSleep,
@@ -739,7 +758,22 @@ async function runSelfTest() {
   });
   assert('a fast refusal still retries to the cap', fastCalls === TM_MAX_ATTEMPTS);
   assert('a fast refusal is charged only its backoff plus real request time',
-    TM_RETRY_BUDGET_MS - fastBudget.remaining === (TM_RETRY_BACKOFF_MS * 3) + 100);
+    fastAllowance - fastBudget.remaining === (TM_RETRY_BACKOFF_MS * 3) + 100);
+
+  // The env guard itself: an unusable tuning value must fall back, not disable
+  // the bound. NaN made `remaining < ms` false and granted every reservation.
+  assert('a non-numeric env value falls back to its default',
+    positiveIntFromEnv('TM_NO_SUCH_VAR_FOR_TEST', 4242) === 4242);
+  process.env.TM_NO_SUCH_VAR_FOR_TEST = 'abc';
+  assert('a garbage env value falls back rather than parsing to NaN',
+    positiveIntFromEnv('TM_NO_SUCH_VAR_FOR_TEST', 4242) === 4242);
+  process.env.TM_NO_SUCH_VAR_FOR_TEST = '0';
+  assert('a zero env value falls back rather than skipping the request loop',
+    positiveIntFromEnv('TM_NO_SUCH_VAR_FOR_TEST', 4242) === 4242);
+  process.env.TM_NO_SUCH_VAR_FOR_TEST = '7';
+  assert('a usable env value is honoured',
+    positiveIntFromEnv('TM_NO_SUCH_VAR_FOR_TEST', 4242) === 7);
+  delete process.env.TM_NO_SUCH_VAR_FOR_TEST;
 
   let transient = 0;
   const recovered = await fetchEvent('k', 'https://tm.test', 'X', {

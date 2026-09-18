@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-17T10:00:54.210Z
+Generated: 2026-09-18T09:41:03.817Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 257 (needs_recheck: 257, provenance backfill: 0, stale re-check: 129)
+- Events selected: 260 (needs_recheck: 260, provenance backfill: 0, stale re-check: 131)
 - Events skipped before API checks: 114
-- API calls made: 257
-- Verified provenance written: 126
-- URLs added: 3
+- API calls made: 260
+- Verified provenance written: 129
+- URLs added: 2
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 1
-- No qualifying listing: 127
+- No qualifying listing: 128
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -279,10 +279,13 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-yuridia-2027-highland-z7r9jz1aav-j_ | yuridia | verify (applied) | 18570387 | https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387 | - |
 | tm-fkj-2027-salt-lake-city-z7r9jz1a7pk0m | fkj | verify (applied) | 18282298 | https://seatgeek.com/fkj-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-04-28-8-pm/concert/18282298 | - |
 | tm-sylvan-esso-2027-salt-lake-city-z7r9jz1a7pxjk | sylvan-esso | verify (applied) | 18299176 | https://seatgeek.com/sylvan-esso-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-04-8-pm/concert/18299176 | - |
-| tm-harry-styles-2027-arlington-z7r9jz1aavp49 | harry-styles | add (applied) | 18516103 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-09-7-45-pm/concert/18516103 | - |
-| tm-harry-styles-2027-arlington-z7r9jz1aavp4p | harry-styles | add (applied) | 18577780 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-10-7-45-pm/concert/18577780 | - |
-| tm-harry-styles-2027-arlington-z7r9jz1aavsoa | harry-styles | add (applied) | 18584157 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-16-7-45-pm/concert/18584157 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavp49 | harry-styles | verify (applied) | 18516103 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-09-7-45-pm/concert/18516103 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavp4p | harry-styles | verify (applied) | 18577780 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-10-7-45-pm/concert/18577780 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavsoa | harry-styles | verify (applied) | 18584157 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-16-7-45-pm/concert/18584157 | - |
 | tm-harry-styles-2027-madrid-z698xz2qz1ko4op48 | harry-styles | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-harry-styles-2027-arlington-z7r9jz1aavszi | harry-styles | add (applied) | 18584154 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-14-7-45-pm/concert/18584154 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavw00 | harry-styles | add (applied) | 18584160 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-17-7-45-pm/concert/18584160 | - |
+| tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of | charli-xcx | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 
 ## Skipped before API checks
 

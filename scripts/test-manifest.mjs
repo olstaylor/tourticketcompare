@@ -77,6 +77,7 @@ export const STEPS = [
   { id: "providers:sync:tm:coverage:self-test",   lane: "units",  run: "node scripts/report-tm-discovery-coverage.mjs --self-test" },
   { id: "providers:sync:tm:self-test",            lane: "units",  run: "npm run providers:sync:tm:self-test" },
   { id: "providers:sync:tm:write-pr:self-test",   lane: "units",  run: "npm run providers:sync:tm:write-pr:self-test" },
+  { id: "data:sync-tm:self-test",                 lane: "units",  run: "npm run data:sync-tm:self-test" },
   { id: "test:tm-ingestion-outcomes",             lane: "quick",  run: "npm run test:tm-ingestion-outcomes" },
   { id: "remediation-review-self-test",           lane: "units",  run: "node scripts/remediation-review-self-test.mjs" },
   { id: "smoke-prelaunch",                        lane: "quick",  run: "node scripts/smoke-prelaunch.mjs" },

@@ -251,32 +251,86 @@ async function loadIndexedArtistSlugs() {
   );
 }
 
-async function fetchEvent(apiKey, base, eventId) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
+// Ticketmaster throttles a full-roster sweep as a burst, and until now a 429
+// became a hard per-event error on the first try. On 2026-09-18 a sweep that
+// overlapped the daily audit turned 654 of 1363 events into errors, and because
+// the commit gate vetoes on any error at all, the whole night published nothing
+// while the run still reported success.
+//
+// A throttle is the origin declining to answer right now, not a verdict about
+// the event, so it belongs on a retry path — the same contract the marketplace
+// price lane adopted for 503s. 404/410 are never retried: those are real
+// answers about a deleted show.
+//
+// The shared budget is what keeps this bounded. Retrying every event to the cap
+// during a sustained outage would add over an hour to a 1363-event sweep and
+// breach the job's `timeout-minutes`, turning a throttle into a lost run. One
+// budget across the whole sweep absorbs a transient burst, then degrades to the
+// old behaviour — errors, reported honestly — instead of grinding the job dead.
+const TM_MAX_ATTEMPTS = Number.parseInt(process.env.TM_MAX_ATTEMPTS || '3', 10);
+const TM_RETRY_BACKOFF_MS = Number.parseInt(process.env.TM_RETRY_BACKOFF_MS || '1000', 10);
+const TM_RETRY_BUDGET_MS = Number.parseInt(process.env.TM_RETRY_BUDGET_MS || '180000', 10);
+
+function isRetriableTmStatus(status) {
+  return status === 429 || (status >= 500 && status <= 599);
+}
+
+// Hands out backoff waits until the sweep-wide allowance runs out, then zero.
+function createRetryBudget(totalMs = TM_RETRY_BUDGET_MS) {
+  let remaining = totalMs;
+  return {
+    get remaining() { return remaining; },
+    take(ms) {
+      if (ms <= 0 || remaining < ms) return 0;
+      remaining -= ms;
+      return ms;
+    }
+  };
+}
+
+async function fetchEvent(apiKey, base, eventId, deps = {}) {
+  const fetchImpl = deps.fetch || fetch;
+  const wait = deps.sleep || sleep;
+  const budget = deps.budget || null;
   const url = `${base}/events/${encodeURIComponent(eventId)}.json?apikey=${encodeURIComponent(apiKey)}`;
-  try {
-    const response = await fetch(url, {
-      method: 'GET',
-      redirect: 'follow',
-      signal: controller.signal,
-      headers: { 'user-agent': 'TourTicketCompareSync/1.0 (+https://tourticketcompare.com)' }
-    });
-    const status = response.status;
-    if (status === 404 || status === 410) return { status, exists: false, data: null };
-    if (!response.ok) return { status, exists: null, error: `HTTP ${status}`, data: null };
-    const data = await response.json().catch(() => null);
-    return { status, exists: true, data };
-  } catch (error) {
-    return {
-      status: null,
-      exists: null,
-      error: error?.name === 'AbortError' ? `timeout after ${requestTimeoutMs}ms` : String(error?.message || error),
-      data: null
-    };
-  } finally {
-    clearTimeout(timeout);
+  let last = null;
+  for (let attempt = 1; attempt <= TM_MAX_ATTEMPTS; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
+    try {
+      const response = await fetchImpl(url, {
+        method: 'GET',
+        redirect: 'follow',
+        signal: controller.signal,
+        headers: { 'user-agent': 'TourTicketCompareSync/1.0 (+https://tourticketcompare.com)' }
+      });
+      const status = response.status;
+      if (status === 404 || status === 410) return { status, exists: false, data: null };
+      if (response.ok) {
+        const data = await response.json().catch(() => null);
+        return { status, exists: true, data };
+      }
+      last = { status, exists: null, error: `HTTP ${status}`, data: null };
+      // A deterministic refusal (401, 403, 400…) is a verdict, not a blip.
+      if (!isRetriableTmStatus(status)) return last;
+    } catch (error) {
+      last = {
+        status: null,
+        exists: null,
+        error: error?.name === 'AbortError' ? `timeout after ${requestTimeoutMs}ms` : String(error?.message || error),
+        data: null
+      };
+    } finally {
+      clearTimeout(timeout);
+    }
+    if (attempt >= TM_MAX_ATTEMPTS) break;
+    const backoff = TM_RETRY_BACKOFF_MS * attempt;
+    const granted = budget ? budget.take(backoff) : backoff;
+    // Budget spent: stop retrying and report what the origin last said.
+    if (!granted) break;
+    await wait(granted);
   }
+  return last;
 }
 
 // Build the lossless field updates that would be written for one event from
@@ -507,7 +561,7 @@ function stampVerified(event) {
 // Offline regression test for the representation-aware comparison logic, so a
 // future edit cannot silently reintroduce cosmetic diff churn or query the
 // Discovery API with storefront-only event identifiers.
-function runSelfTest() {
+async function runSelfTest() {
   const checks = [];
   const assert = (label, pass) => checks.push({ label, pass: !!pass });
   const ev = (o) => ({ datetime_iso: '', timezone: '', venue: '', city: '', country: '', ticketmaster_event_id: 'X', ticketmaster_url: '', ...o });
@@ -571,6 +625,82 @@ function runSelfTest() {
   assert('no timezone anywhere yields no change, never a guess',
     !fieldsOf(ev({ timezone: '' }), remote({ dates: { start: {} } })).includes('timezone'));
 
+  // Throttle contract: a burst of 429s must not become a roster of hard errors
+  // that vetoes the whole night's clean updates, while a deterministic answer
+  // stays a verdict on the first attempt and a sustained outage stays bounded.
+  assert('429 is retriable', isRetriableTmStatus(429));
+  assert('503 is retriable', isRetriableTmStatus(503));
+  assert('404 is not retriable', !isRetriableTmStatus(404));
+  assert('401 is not retriable', !isRetriableTmStatus(401));
+  assert('200 is not retriable', !isRetriableTmStatus(200));
+
+  const noSleep = async () => {};
+  const okResponse = { ok: true, status: 200, json: async () => ({ id: 'X' }) };
+
+  let throttled = 0;
+  const cleared = await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    budget: createRetryBudget(),
+    fetch: async () => { throttled += 1; return throttled < 3 ? { ok: false, status: 429 } : okResponse; }
+  });
+  assert('a 429 that clears is retried, not recorded as an error', cleared.exists === true && !cleared.error);
+  assert('the throttled request retries until the origin answers', throttled === 3);
+
+  let deleted = 0;
+  const gone = await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    budget: createRetryBudget(),
+    fetch: async () => { deleted += 1; return { ok: false, status: 404 }; }
+  });
+  assert('404 stays a deleted-event verdict', gone.exists === false && gone.status === 404);
+  assert('404 is answered on the first attempt', deleted === 1);
+
+  let denied = 0;
+  const unauthorised = await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    budget: createRetryBudget(),
+    fetch: async () => { denied += 1; return { ok: false, status: 401 }; }
+  });
+  assert('401 is reported as the error it is', unauthorised.error === 'HTTP 401');
+  assert('401 is not retried', denied === 1);
+
+  let unrelenting = 0;
+  const stillThrottled = await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    budget: createRetryBudget(),
+    fetch: async () => { unrelenting += 1; return { ok: false, status: 429 }; }
+  });
+  assert('a throttle that never clears keeps its real status', stillThrottled.error === 'HTTP 429');
+  assert('a throttle is retried to the cap', unrelenting === TM_MAX_ATTEMPTS);
+
+  // The bound that protects the job timeout: once the sweep-wide allowance is
+  // gone, later events stop retrying instead of grinding to the cap each time.
+  const spent = createRetryBudget(0);
+  let unbudgeted = 0;
+  const noRetries = await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    budget: spent,
+    fetch: async () => { unbudgeted += 1; return { ok: false, status: 429 }; }
+  });
+  assert('an exhausted retry budget stops the retries', unbudgeted === 1);
+  assert('an exhausted budget still reports the throttle', noRetries.error === 'HTTP 429');
+
+  const budget = createRetryBudget(TM_RETRY_BACKOFF_MS);
+  assert('the budget grants a wait it can cover', budget.take(TM_RETRY_BACKOFF_MS) === TM_RETRY_BACKOFF_MS);
+  assert('the budget refuses a wait it cannot cover', budget.take(TM_RETRY_BACKOFF_MS) === 0);
+
+  let transient = 0;
+  const recovered = await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    budget: createRetryBudget(),
+    fetch: async () => {
+      transient += 1;
+      if (transient === 1) throw Object.assign(new Error('socket hang up'), { name: 'FetchError' });
+      return okResponse;
+    }
+  });
+  assert('a dropped connection is retried like a throttle', recovered.exists === true && transient === 2);
+
   let failed = 0;
   for (const c of checks) {
     if (!c.pass) failed += 1;
@@ -582,7 +712,7 @@ function runSelfTest() {
 
 async function main() {
   if (argv.includes('--self-test')) {
-    process.exit(runSelfTest());
+    process.exit(await runSelfTest());
   }
   const apiKey = clean(process.env.TICKETMASTER_API_KEY);
   if (!apiKey) {
@@ -620,10 +750,12 @@ async function main() {
   const errors = [];
   const blockedUpdateIds = [];
   let checked = 0;
+  // One allowance for the whole sweep — see TM_RETRY_BUDGET_MS.
+  const retryBudget = createRetryBudget();
 
   for (const event of targets) {
     const id = ticketmasterDiscoveryEventId(event);
-    const result = await fetchEvent(apiKey, base, id);
+    const result = await fetchEvent(apiKey, base, id, { budget: retryBudget });
     checked += 1;
 
     if (result.exists === false) {

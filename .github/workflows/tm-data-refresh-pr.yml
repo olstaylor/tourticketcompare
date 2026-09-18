@@ -32,8 +32,12 @@ permissions:
   pull-requests: write
   issues: write
 
+# Shared across every lane that sweeps the Ticketmaster Discovery API so they
+# queue instead of colliding and throttling each other into 429s. See the note
+# on the same group in daily-audit.yml for why, and for the pending-eviction
+# trade-off `cancel-in-progress: false` accepts.
 concurrency:
-  group: tm-data-refresh-pr
+  group: ticketmaster-api
   cancel-in-progress: false
 
 jobs:

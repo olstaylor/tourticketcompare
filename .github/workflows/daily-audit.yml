@@ -19,6 +19,24 @@ permissions:
   # Validation against the pushed branch.
   actions: write
 
+# Shared with every lane that sweeps the Ticketmaster Discovery API, so they
+# queue instead of colliding. The 30-minute cron offset between this lane and
+# nightly-data-sync was the only thing keeping them apart, and it is convention
+# only: a dispatch ignores it entirely. On 2026-09-18 both were dispatched 24
+# seconds apart and Ticketmaster threw 429 at 654 of the sync's 1363 events, so
+# it published nothing for the day.
+#
+# `cancel-in-progress: false` because a half-finished sweep is worth nothing;
+# the later tick waits. GitHub keeps only ONE run pending per group and evicts
+# any earlier pending one, which is survivable here: only this lane and
+# nightly-data-sync are scheduled (the two tm-*-pr lanes are dispatch-only), so
+# a third concurrent run takes a deliberate manual dispatch. An eviction is also
+# visible rather than silent — check-automation-health.mjs reads a cancelled run
+# as a finding, not as health.
+concurrency:
+  group: ticketmaster-api
+  cancel-in-progress: false
+
 jobs:
   audit:
     runs-on: ubuntu-latest

@@ -108,6 +108,7 @@
     "test:bump-guard": "node scripts/test-bump-verified-dates-guard.mjs",
     "data:sync-tm": "node scripts/apply-tm-updates.mjs",
     "data:sync-tm:dry-run": "node scripts/apply-tm-updates.mjs --dry-run",
+    "data:sync-tm:self-test": "node scripts/apply-tm-updates.mjs --self-test",
     "data:sync-review": "node scripts/report-tm-sync-review.mjs",
     "seatgeek:self-test": "node scripts/propose-seatgeek-urls.mjs --self-test",
     "seatgeek:propose": "node scripts/propose-seatgeek-urls.mjs",

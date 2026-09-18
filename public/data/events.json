@@ -41683,11 +41683,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7896548",
-        "url": "https://www.ticketnetwork.com/en/p/7896548",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7896548",
@@ -41707,7 +41707,7 @@
     "ticketmaster_discovery_event_id": "k7vGF_a6Cy2uc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896548",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896548/Karol-G-tickets-Thu-Sep-17-2026-MetLife-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-17-2026/event/107162164"
   },
@@ -93676,11 +93676,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268342",
+        "url": "https://www.ticketnetwork.com/en/p/8268342",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSZI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268342"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavw00",
@@ -93729,11 +93737,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267109",
+        "url": "https://www.ticketnetwork.com/en/p/8267109",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw00",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267109"
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdxye23",
@@ -93782,11 +93798,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267110",
+        "url": "https://www.ticketnetwork.com/en/p/8267110",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdXYE23",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267110"
   },
   {
     "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",
@@ -93888,11 +93912,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267812",
+        "url": "https://www.ticketnetwork.com/en/p/8267812",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkftGkez7Jxt",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267812"
   },
   {
     "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
@@ -93941,11 +93973,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259353",
+        "url": "https://www.ticketnetwork.com/en/p/8259353",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfEGkdf5AsP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259353"
   },
   {
     "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
@@ -94100,10 +94140,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267859",
+        "url": "https://www.ticketnetwork.com/en/p/8267859",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kqN76oF",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267859"
   }
 ]

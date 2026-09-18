@@ -914,11 +914,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267812",
+        "url": "https://www.ticketnetwork.com/en/p/8267812",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkftGkez7Jxt",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267812"
   },
   {
     "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
@@ -967,11 +975,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259353",
+        "url": "https://www.ticketnetwork.com/en/p/8259353",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfEGkdf5AsP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259353"
   },
   {
     "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
@@ -1126,10 +1142,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267859",
+        "url": "https://www.ticketnetwork.com/en/p/8267859",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kqN76oF",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267859"
   }
 ]

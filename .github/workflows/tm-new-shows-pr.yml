@@ -64,12 +64,8 @@ permissions:
 # Never overlap with another run (a previous run may still hold the automation
 # branch / be opening a PR). Queue rather than cancel so a scheduled run is not
 # dropped mid-write.
-# Shared across every lane that sweeps the Ticketmaster Discovery API so they
-# queue instead of colliding and throttling each other into 429s. See the note
-# on the same group in daily-audit.yml for why, and for the pending-eviction
-# trade-off `cancel-in-progress: false` accepts.
 concurrency:
-  group: ticketmaster-api
+  group: tm-new-shows-pr
   cancel-in-progress: false
 
 jobs:

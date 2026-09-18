@@ -275,15 +275,28 @@ function isRetriableTmStatus(status) {
   return status === 429 || (status >= 500 && status <= 599);
 }
 
-// Hands out backoff waits until the sweep-wide allowance runs out, then zero.
+// The allowance is on elapsed time, not on sleeps. A retry costs its backoff
+// AND its request, and a request that times out costs requestTimeoutMs — so
+// charging only the backoff would let ~60 timing-out events add half an hour of
+// request time to the sweep while the budget still read as barely touched,
+// breaching the job cap this exists to protect.
+//
+// Each retry therefore reserves its worst case up front (backoff + a full
+// request timeout) and refunds whatever the request did not use. A fast refusal
+// gives nearly all of it back, so a throttle burst still gets many retries; a
+// stalled origin gives nothing back and the sweep stops retrying early. Either
+// way total retry time is bounded by the budget.
 function createRetryBudget(totalMs = TM_RETRY_BUDGET_MS) {
   let remaining = totalMs;
   return {
     get remaining() { return remaining; },
-    take(ms) {
-      if (ms <= 0 || remaining < ms) return 0;
+    reserve(ms) {
+      if (ms <= 0 || remaining < ms) return false;
       remaining -= ms;
-      return ms;
+      return true;
+    },
+    refund(ms) {
+      if (ms > 0) remaining += ms;
     }
   };
 }
@@ -291,12 +304,14 @@ function createRetryBudget(totalMs = TM_RETRY_BUDGET_MS) {
 async function fetchEvent(apiKey, base, eventId, deps = {}) {
   const fetchImpl = deps.fetch || fetch;
   const wait = deps.sleep || sleep;
+  const now = deps.now || (() => Date.now());
   const budget = deps.budget || null;
   const url = `${base}/events/${encodeURIComponent(eventId)}.json?apikey=${encodeURIComponent(apiKey)}`;
   let last = null;
   for (let attempt = 1; attempt <= TM_MAX_ATTEMPTS; attempt += 1) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
+    const startedAt = now();
     try {
       const response = await fetchImpl(url, {
         method: 'GET',
@@ -322,13 +337,16 @@ async function fetchEvent(apiKey, base, eventId, deps = {}) {
       };
     } finally {
       clearTimeout(timeout);
+      // Hand back the slice of the reserved request timeout this attempt did
+      // not spend. Only retries were reserved; the first attempt is free.
+      if (budget && attempt > 1) budget.refund(requestTimeoutMs - (now() - startedAt));
     }
     if (attempt >= TM_MAX_ATTEMPTS) break;
     const backoff = TM_RETRY_BACKOFF_MS * attempt;
-    const granted = budget ? budget.take(backoff) : backoff;
+    // Hold the worst case one more retry can cost before committing to it.
     // Budget spent: stop retrying and report what the origin last said.
-    if (!granted) break;
-    await wait(granted);
+    if (budget && !budget.reserve(backoff + requestTimeoutMs)) break;
+    await wait(backoff);
   }
   return last;
 }
@@ -686,8 +704,42 @@ async function runSelfTest() {
   assert('an exhausted budget still reports the throttle', noRetries.error === 'HTTP 429');
 
   const budget = createRetryBudget(TM_RETRY_BACKOFF_MS);
-  assert('the budget grants a wait it can cover', budget.take(TM_RETRY_BACKOFF_MS) === TM_RETRY_BACKOFF_MS);
-  assert('the budget refuses a wait it cannot cover', budget.take(TM_RETRY_BACKOFF_MS) === 0);
+  assert('the budget grants a reservation it can cover', budget.reserve(TM_RETRY_BACKOFF_MS) === true);
+  assert('the budget refuses a reservation it cannot cover', budget.reserve(TM_RETRY_BACKOFF_MS) === false);
+  budget.refund(TM_RETRY_BACKOFF_MS);
+  assert('a refund restores the allowance', budget.reserve(TM_RETRY_BACKOFF_MS) === true);
+
+  // The budget bounds ELAPSED time, not sleeps. A retry whose request times out
+  // costs requestTimeoutMs; charging only the backoff would let ~60 such events
+  // add half an hour of request time to the sweep while the budget still read as
+  // barely touched — the job-cap breach this is meant to prevent.
+  let stalledClock = 0;
+  const stalledBudget = createRetryBudget(20000);
+  let stalledCalls = 0;
+  await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    now: () => stalledClock,
+    budget: stalledBudget,
+    fetch: async () => { stalledCalls += 1; stalledClock += requestTimeoutMs; return { ok: false, status: 429 }; }
+  });
+  assert('a timing-out retry is charged its real elapsed time',
+    stalledBudget.remaining <= 20000 - requestTimeoutMs);
+  assert('an elapsed-time budget stops the sweep retrying early', stalledCalls < TM_MAX_ATTEMPTS);
+
+  // The other side of the same contract: a fast refusal must refund nearly all
+  // of its reservation, or one slow lane would starve the whole roster.
+  let fastClock = 0;
+  const fastBudget = createRetryBudget(TM_RETRY_BUDGET_MS);
+  let fastCalls = 0;
+  await fetchEvent('k', 'https://tm.test', 'X', {
+    sleep: noSleep,
+    now: () => fastClock,
+    budget: fastBudget,
+    fetch: async () => { fastCalls += 1; fastClock += 50; return { ok: false, status: 429 }; }
+  });
+  assert('a fast refusal still retries to the cap', fastCalls === TM_MAX_ATTEMPTS);
+  assert('a fast refusal is charged only its backoff plus real request time',
+    TM_RETRY_BUDGET_MS - fastBudget.remaining === (TM_RETRY_BACKOFF_MS * 3) + 100);
 
   let transient = 0;
   const recovered = await fetchEvent('k', 'https://tm.test', 'X', {

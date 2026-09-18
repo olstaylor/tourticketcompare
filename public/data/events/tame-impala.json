@@ -1249,7 +1249,7 @@
     "ticketmaster_event_id": "0C006434C8B79075",
     "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-dallas-texas-09-17-2026/event/0C006434C8B79075",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-dallas-american-airlines-center---tx-9-17-2026/production/6652605",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-dallas-texas-09-17-2026/event/0C006434C8B79075",
     "last_verified_at": null,
@@ -1271,11 +1271,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6652605,
-        "url": "https://www.vividseats.com/tame-impala-tickets-dallas-american-airlines-center---tx-9-17-2026/production/6652605",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1489,7 +1489,7 @@
         "event_id": 7474475,
         "url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-28-2027--concerts-rock/production/7474475",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1566,7 +1566,7 @@
         "event_id": 7488553,
         "url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-29-2027--concerts-rock/production/7488553",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1643,7 +1643,7 @@
         "event_id": 7474478,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-1-2027--concerts-rock/production/7474478",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1704,7 +1704,7 @@
         "event_id": 7474490,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-2-2027--concerts-rock/production/7474490",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1765,7 +1765,7 @@
         "event_id": 7489978,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-3-2027/production/7489978",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {

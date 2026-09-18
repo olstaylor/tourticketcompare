@@ -813,5 +813,323 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034406",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034406/Charli-XCX-tickets-Wed-Oct-21-2026-Desert-Diamond-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085"
+  },
+  {
+    "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Charli xcx - Music, Fashion, Film Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-02-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800652981CD3494",
+    "ticketmaster_url": "https://www.ticketmaster.ie/charli-xcx-music-fashion-film-tour-dublin-13-02-2027/event/1800652981CD3494",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/charli-xcx-music-fashion-film-tour-dublin-13-02-2027/event/1800652981CD3494",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800652981CD3494",
+        "discovery_event_id": "16vOZ_3JvG7SK3f",
+        "url": "https://www.ticketmaster.ie/charli-xcx-music-fashion-film-tour-dublin-13-02-2027/event/1800652981CD3494",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vOZ_3JvG7SK3f",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Venue Premium - Charli xcx - Music, Fashion, Film Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-02-15T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006529B81268A9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/venue-premium-charli-xcx-music-fashion-glasgow-15-02-2027/event/36006529B81268A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/venue-premium-charli-xcx-music-fashion-glasgow-15-02-2027/event/36006529B81268A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006529B81268A9",
+        "discovery_event_id": "1AUZkftGkez7Jxt",
+        "url": "https://www.ticketmaster.co.uk/venue-premium-charli-xcx-music-fashion-glasgow-15-02-2027/event/36006529B81268A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkftGkez7Jxt",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Charli xcx - Music, Fashion, Film Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-02-17T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006527D42C5C65",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-manchester-17-02-2027/event/37006527D42C5C65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-manchester-17-02-2027/event/37006527D42C5C65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006527D42C5C65",
+        "discovery_event_id": "1AMZkfEGkdf5AsP",
+        "url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-manchester-17-02-2027/event/37006527D42C5C65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfEGkdf5AsP",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Charli xcx - Music, Fashion, Film Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-02-19T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006528AA7822A9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-19-02-2027/event/35006528AA7822A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-19-02-2027/event/35006528AA7822A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006528AA7822A9",
+        "discovery_event_id": "1AgZkfIGkenre1t",
+        "url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-19-02-2027/event/35006528AA7822A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfIGkenre1t",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-london-1adfz_3gknni7-u",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Charli xcx - Music, Fashion, Film Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-02-20T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652AA3A04876",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-20-02-2027/event/3500652AA3A04876",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-20-02-2027/event/3500652AA3A04876",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652AA3A04876",
+        "discovery_event_id": "1AdfZ_3GknNI7-U",
+        "url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-20-02-2027/event/3500652AA3A04876",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_3GknNI7-U",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Charli xcx - Music, Fashion, Film Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-02-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "763107448",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/charli-xcx-music-fashion-film-tour-tickets/763107448?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/charli-xcx-music-fashion-film-tour-tickets/763107448?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "763107448",
+        "discovery_event_id": "Z698xZbpZ1kqN76oF",
+        "url": "https://www.ticketmaster.nl/event/charli-xcx-music-fashion-film-tour-tickets/763107448?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kqN76oF",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
   }
 ]

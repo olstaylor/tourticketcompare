@@ -16818,5 +16818,113 @@
     "timezone": "Europe/Madrid",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-arlington-z7r9jz1aavszi",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "country": "United States Of America",
+    "city": "Arlington",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-15T00:45:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-arlington-z7r9jz1aavw00",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "country": "United States Of America",
+    "city": "Arlington",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-18T00:45:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdxye23",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-01T00:45:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "country": "Ireland",
+    "city": "Dublin",
+    "venue": "3Arena",
+    "datetime_iso": "2027-02-13T18:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "country": "Great Britain",
+    "city": "Glasgow",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-02-15T18:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "country": "Great Britain",
+    "city": "Manchester",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-02-17T19:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-02-19T18:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-london-1adfz_3gknni7-u",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-02-20T18:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-02-22T19:00:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

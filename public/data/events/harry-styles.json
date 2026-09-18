@@ -4561,5 +4561,164 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1ko4op48",
     "timezone": "Europe/Madrid",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-arlington-z7r9jz1aavszi",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-15T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSZI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSZI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSZI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSZI",
+        "discovery_event_id": "Z7r9jZ1AAvSZI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSZI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSZI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-arlington-z7r9jz1aavw00",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-04-18T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvw00",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw00",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw00",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvw00",
+        "discovery_event_id": "Z7r9jZ1AAvw00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw00",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdxye23",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles: Together, Together",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-01T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006529FEC273D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-31-2027/event/04006529FEC273D2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-31-2027/event/04006529FEC273D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006529FEC273D2",
+        "discovery_event_id": "vv1A7ZkftGkdXYE23",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-31-2027/event/04006529FEC273D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkftGkdXYE23",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

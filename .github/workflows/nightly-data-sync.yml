@@ -169,7 +169,7 @@ jobs:
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events public/index.html PROJECT_STATUS.md
+          git add public/data/events.json public/data/events public/data/events-index.json public/index.html PROJECT_STATUS.md
           git commit -m "Nightly data sync: refresh tracked event dates/venues (${TODAY})"
           git push -u origin "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

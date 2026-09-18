@@ -79,6 +79,11 @@ jobs:
     # the first provider slowed down, and left too little headroom for roster
     # growth. A failure remains isolated while fail-fast:false lets the other
     # approved lane finish and report its own outcome.
+    #
+    # Both lanes write to the same D1 database, which admits one import at a
+    # time, so running them together means one can meet a contended write. That
+    # is waited out inside the snapshot script (D1_MAX_ATTEMPTS) rather than by
+    # serialising here, which would give back the isolation above.
     timeout-minutes: 10
     strategy:
       fail-fast: false

@@ -60,6 +60,23 @@ const REQUEST_TIMEOUT_MS = 15000;
 const MAX_ATTEMPTS = 3;
 const RETRY_BACKOFF_MS = 500;
 
+// Every lane in the scheduled matrix writes to the same D1 database, and D1
+// admits one import at a time: the second lane to reach `d1 execute --file` is
+// refused outright with "Currently processing a long-running import". On
+// 2026-09-18 the 11:17Z tick lost that race and the ticketnetwork lane went red
+// having priced its whole roster correctly.
+//
+// The refusal is pure contention, and D1 declines to *start* the import, so
+// nothing was applied and re-running the identical file is not a partial
+// double-write. The backoff is seconds rather than the sub-second one a flaky
+// HTTP request wants, because what it waits out is a sibling lane's import.
+const D1_MAX_ATTEMPTS = 5;
+const D1_RETRY_BACKOFF_MS = 3000;
+
+function isRetriableD1WriteError(error) {
+  return /processing a long-running import/i.test(`${error?.message || ""}\n${error?.stderr || ""}\n${error?.stdout || ""}`);
+}
+
 // A 429 or a 5xx is the origin declining to answer right now. That is the same
 // class of non-answer as a dropped connection or a timeout, so it belongs on
 // the same retry path — but until 2026-09-16 only a *thrown* error reached it.
@@ -263,14 +280,26 @@ ON CONFLICT(event_id, provider) DO UPDATE SET artist_slug=excluded.artist_slug, 
   ...rows.map(buildHistoryInsertSql), ""].join("\n");
 }
 
-async function writeRows(rows, options) {
+async function writeRows(rows, options, deps = {}) {
   if (!rows.length) return 0;
+  const exec = deps.execFile || execFileAsync;
+  const sleep = deps.sleep || ((ms) => new Promise((resolve) => setTimeout(resolve, ms)));
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "ttc-impact-marketplace-"));
   const file = path.join(dir, "upsert.sql");
   try {
     await fs.writeFile(file, buildSql(rows));
-    await execFileAsync("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024 });
-    return rows.length;
+    for (let attempt = 1; ; attempt += 1) {
+      try {
+        await exec("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024 });
+        return rows.length;
+      } catch (error) {
+        // Contention is the only retriable write failure. A rejected schema, a
+        // bad credential or malformed SQL is a real verdict on the first
+        // attempt and still reds the lane.
+        if (attempt >= D1_MAX_ATTEMPTS || !isRetriableD1WriteError(error)) throw error;
+        await sleep(D1_RETRY_BACKOFF_MS * attempt);
+      }
+    }
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
 }
 
@@ -298,7 +327,7 @@ async function run(options, deps = {}) {
     const price = exactPrice(catalog.candidates, item.externalId);
     if (price) rows.push(buildRow(config, item, price, now, options.freshnessHours));
   }
-  const written = options.apply ? await (deps.writer ? deps.writer(rows, options) : writeRows(rows, options)) : 0;
+  const written = options.apply ? await (deps.writer ? deps.writer(rows, options) : writeRows(rows, options, deps)) : 0;
   return {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", eligible: selected.length,
     fetched, usable: rows.length, written, skipped: selected.length - rows.length, failed: errors.length,
@@ -387,7 +416,40 @@ async function selfTest() {
   assert.match(sql, /ORDER BY observed_at DESC/);
   assert.match(sql, new RegExp(`'${config.slug}:e1:2026-07-13T00:00:00\\.000Z'`));
   assert.doesNotMatch(sql, /(DELETE|UPDATE)[^;]*provider_pricing_history/i);
-  return 30;
+
+  // The D1 write contract. Two scheduled lanes share one database and D1 admits
+  // one import at a time, so a contended write must be waited out rather than
+  // redding a lane that priced its roster correctly — while a real write error
+  // stays a verdict on the first attempt.
+  const contention = { message: "Command failed: npx wrangler d1 execute", stderr: "✘ [ERROR] Currently processing a long-running import. Cannot start another import until that completes or times out." };
+  assert.equal(isRetriableD1WriteError(contention), true);
+  assert.equal(isRetriableD1WriteError({ message: "Command failed", stderr: "✘ [ERROR] no such table: provider_pricing_cache" }), false);
+
+  const writeOptions = { database: "x", remote: true };
+  const writeRow = [{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource }];
+
+  let contended = 0;
+  const clearedWrite = await writeRows(writeRow, writeOptions, {
+    sleep: noSleep,
+    async execFile() { contended += 1; if (contended < 3) throw Object.assign(new Error(contention.message), { stderr: contention.stderr }); }
+  });
+  assert.equal(clearedWrite, 1, "a contended D1 import must be retried, not counted as an unwritten lane");
+  assert.equal(contended, 3, "the write must retry until the sibling import clears");
+
+  let fatal = 0;
+  await assert.rejects(writeRows(writeRow, writeOptions, {
+    sleep: noSleep,
+    async execFile() { fatal += 1; throw Object.assign(new Error("Command failed"), { stderr: "no such table: provider_pricing_cache" }); }
+  }), "a real write error must still fail the lane");
+  assert.equal(fatal, 1, "a deterministic write error is a verdict, not contention");
+
+  let unrelenting = 0;
+  await assert.rejects(writeRows(writeRow, writeOptions, {
+    sleep: noSleep,
+    async execFile() { unrelenting += 1; throw Object.assign(new Error(contention.message), { stderr: contention.stderr }); }
+  }), "contention that never clears must still fail the lane");
+  assert.equal(unrelenting, D1_MAX_ATTEMPTS, "a contended import is retried to the cap");
+  return 38;
 }
 
 async function main() {

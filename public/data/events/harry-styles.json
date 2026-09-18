@@ -4616,12 +4616,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668149",
+        "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-14-2027/event/107668149",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSZI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268342"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268342",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-14-2027/event/107668149"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavw00",
@@ -4677,12 +4685,20 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668118",
+        "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-17-2027/event/107668118",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw00",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267109"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267109",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-17-2027/event/107668118"
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdxye23",
@@ -4738,11 +4754,19 @@
         "verified": true,
         "last_verified_at": "2026-09-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668111",
+        "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkftGkdXYE23",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267110"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267110",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111"
   }
 ]

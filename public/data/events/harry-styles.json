@@ -3682,7 +3682,7 @@
         "event_id": 7539918,
         "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-25-2027--concerts-pop/production/7539918",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3751,7 +3751,7 @@
         "event_id": 7539920,
         "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-27-2027--concerts-pop/production/7539920",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3820,7 +3820,7 @@
         "event_id": 7539922,
         "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-28-2027--concerts-pop/production/7539922",
         "verified": true,
-        "last_verified_at": "2026-09-15",
+        "last_verified_at": "2026-09-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4681,7 +4681,7 @@
     "ticketmaster_event_id": "04006529FEC273D2",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-31-2027/event/04006529FEC273D2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-31-2027--concerts-pop/production/7561430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-31-2027/event/04006529FEC273D2",
     "last_verified_at": null,
@@ -4703,11 +4703,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561430,
+        "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-31-2027--concerts-pop/production/7561430",
+        "verified": true,
+        "last_verified_at": "2026-09-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -339,11 +339,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107189124",
-        "url": "https://www.stubhub.ie/andrea-bocelli-phoenix-tickets-9-18-2026/event/107189124",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7711520",
@@ -357,7 +357,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-phoenix-tickets-9-18-2026/event/107189124",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711520"
   },
   {
@@ -1443,13 +1443,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667778",
+        "url": "https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3kPl_-E",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258127",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258127/Andrea-Bocelli-tickets-Thu-Feb-4-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258127/Andrea-Bocelli-tickets-Thu-Feb-4-2027-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778"
   },
   {
     "id": "tm-andrea-bocelli-2027-dallas-vvg1yz_33_tj3c",
@@ -1650,13 +1658,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667788",
+        "url": "https://www.stubhub.ie/andrea-bocelli-orlando-tickets-2-10-2027/event/107667788",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfIGkdrSgPW",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258129",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258129/Andrea-Bocelli-tickets-Wed-Feb-10-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258129/Andrea-Bocelli-tickets-Wed-Feb-10-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-orlando-tickets-2-10-2027/event/107667788"
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3nv0vjm",

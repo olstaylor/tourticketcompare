@@ -463,7 +463,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JfoJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfoJ",
     "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/aspen-colorado-belly-up-aspen-2026-10-10-8-pm/concert/18373495",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-aspen-belly-up-aspen-10-10-2026/production/7291689",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfoJ",
     "last_verified_at": null,
@@ -485,11 +485,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7291689,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-aspen-belly-up-aspen-10-10-2026/production/7291689",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2141,7 +2141,7 @@
         "event_id": 7453135,
         "url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-27-2027/production/7453135",
         "verified": true,
-        "last_verified_at": "2026-09-16",
+        "last_verified_at": "2026-09-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2210,7 +2210,7 @@
         "event_id": 7459457,
         "url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-28-2027/production/7459457",
         "verified": true,
-        "last_verified_at": "2026-09-16",
+        "last_verified_at": "2026-09-19",
         "availability_status": "listed"
       },
       "stubhub": {

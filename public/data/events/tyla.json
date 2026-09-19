@@ -89,7 +89,7 @@
     "ticketmaster_event_id": "3E0064F5E6C62096",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-16-10-2026/event/3E0064F5E6C62096",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tyla-tickets-london-o2-academy-brixton-10-16-2026/production/7382878",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tyla-the-apop-world-tour-london-16-10-2026/event/3E0064F5E6C62096",
     "last_verified_at": null,
@@ -111,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7382878,
+        "url": "https://www.vividseats.com/tyla-tickets-london-o2-academy-brixton-10-16-2026/production/7382878",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -232,7 +232,7 @@
     "ticketmaster_event_id": "1477963340",
     "ticketmaster_url": "https://www.ticketmaster.de/event/polyphia-be-not-afraid-world-tour-tickets/1477963340?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-berlin-tempodrom-12-5-2026--concerts-hard-rock/production/7169257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/polyphia-be-not-afraid-world-tour-tickets/1477963340?language=en-us",
     "last_verified_at": null,
@@ -254,11 +254,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7169257,
+        "url": "https://www.vividseats.com/polyphia-tickets-berlin-tempodrom-12-5-2026--concerts-hard-rock/production/7169257",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

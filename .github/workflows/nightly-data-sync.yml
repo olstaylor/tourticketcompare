@@ -37,8 +37,11 @@ permissions:
   # Validation against the pushed branch.
   actions: write
 
+# Shared with daily-audit.yml so the two adjacent Discovery API sweeps queue
+# instead of throttling each other into 429s. See the note on the same group
+# there for why membership is deliberately limited to these two lanes.
 concurrency:
-  group: nightly-data-sync
+  group: ticketmaster-api
   cancel-in-progress: false
 
 jobs:

@@ -19,6 +19,42 @@ permissions:
   # Validation against the pushed branch.
   actions: write
 
+# Shared with nightly-data-sync so the two adjacent Discovery API sweeps queue
+# instead of colliding. The 30-minute cron offset between them was the only
+# thing keeping them apart, and it is convention only: a dispatch ignores it
+# entirely. On 2026-09-18 both were dispatched 24 seconds apart and Ticketmaster
+# threw 429 at 654 of the sync's 1363 events, so it published nothing that day.
+#
+# `cancel-in-progress: false` because a half-finished sweep is worth nothing;
+# the later tick waits.
+#
+# Deliberately just these TWO lanes, not every Discovery API caller. GitHub
+# keeps only ONE run pending per group and evicts any earlier pending one, so
+# membership is a cost as well as a protection: a third member makes it possible
+# for a pending nightly sync to be dropped, and a silently skipped publication is
+# the exact failure this change exists to stop. tm-new-shows-pr (04:00) was the
+# concrete case — an overrunning audit would let it evict the pending 03:30 sync
+# — so it keeps its own group and relies on the per-request throttle retry in
+# scripts/apply-tm-updates.mjs, which degrades to reported errors rather than
+# dropping queued work.
+#
+# Two scheduled members means the schedule alone can never fill the pending slot
+# twice. A manual dispatch of either lane still can, since both carry
+# workflow_dispatch: audit running, sync pending, second dispatch evicts the
+# sync. That is deliberate and visible rather than silent —
+# check-automation-health.mjs reads a cancelled run as a finding, not as health —
+# but it is a real edge, so prefer letting the schedule run over dispatching a
+# lane while the other is active.
+#
+# This also delays the sync whenever the audit is still running at 03:30, since
+# the group is workflow-level and spans all three audit jobs. Measured 2026-09-18
+# the full audit was 22 minutes, so the sync normally starts on time; only an
+# audit past 30 minutes pushes it, and docs/OPERATIONS.md records the audit's own
+# 40-minute cap as the alarm for that.
+concurrency:
+  group: ticketmaster-api
+  cancel-in-progress: false
+
 jobs:
   audit:
     runs-on: ubuntu-latest

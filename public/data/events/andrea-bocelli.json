@@ -1222,11 +1222,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258124",
+        "url": "https://www.ticketnetwork.com/en/p/8258124",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8muTUYo",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258124"
   },
   {
     "id": "tm-andrea-bocelli-2027-baltimore-1a4zkffgkepsf12",
@@ -1275,11 +1283,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258125",
+        "url": "https://www.ticketnetwork.com/en/p/8258125",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkePSF12",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258125"
   },
   {
     "id": "tm-andrea-bocelli-2027-atlanta-vvg1zz_36bbobm",
@@ -1328,11 +1344,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258126",
+        "url": "https://www.ticketnetwork.com/en/p/8258126",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_36bbobM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258126"
   },
   {
     "id": "tm-andrea-bocelli-2027-austin-g5diz_3kpl_-e",
@@ -1381,11 +1405,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258127",
+        "url": "https://www.ticketnetwork.com/en/p/8258127",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3kPl_-E",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258127"
   },
   {
     "id": "tm-andrea-bocelli-2027-dallas-vvg1yz_33_tj3c",
@@ -1434,11 +1466,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258128",
+        "url": "https://www.ticketnetwork.com/en/p/8258128",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_33_TJ3C",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258128"
   },
   {
     "id": "tm-andrea-bocelli-2027-houston-z7r9jz1aavs_v",
@@ -1487,11 +1527,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265103",
+        "url": "https://www.ticketnetwork.com/en/p/8265103",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvs_v",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265103"
   },
   {
     "id": "tm-andrea-bocelli-2027-orlando-1axzkfigkdrsgpw",
@@ -1540,11 +1588,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258129",
+        "url": "https://www.ticketnetwork.com/en/p/8258129",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfIGkdrSgPW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258129"
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3nv0vjm",
@@ -1593,11 +1649,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258130",
+        "url": "https://www.ticketnetwork.com/en/p/8258130",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3NV0vjm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258130"
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3ervkx7",
@@ -1646,10 +1710,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258131",
+        "url": "https://www.ticketnetwork.com/en/p/8258131",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3ERvKx7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258131"
   }
 ]

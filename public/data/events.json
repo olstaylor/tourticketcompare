@@ -20733,7 +20733,7 @@
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Lincoln Financial Field",
-    "datetime_iso": "2026-09-19T21:30:00Z",
+    "datetime_iso": "2026-09-20T00:00:00Z",
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "02006331ED9C6125",
     "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-philadelphia-pennsylvania-09-19-2026/event/02006331ED9C6125",
@@ -20741,7 +20741,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-philadelphia-lincoln-financial-field-9-19-2026--concerts-pop/production/6049733",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-philadelphia-pennsylvania-09-19-2026/event/02006331ED9C6125",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-09-19",
     "provider_links": {
       "ticketmaster": {
         "event_id": "02006331ED9C6125",

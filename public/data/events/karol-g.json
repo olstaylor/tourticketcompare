@@ -594,11 +594,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7913589",
-        "url": "https://www.ticketliquidator.com/tickets/7913589/Karol-G-tickets-Fri-Sep-18-2026-MetLife-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162345",
@@ -612,7 +612,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913589/Karol-G-tickets-Fri-Sep-18-2026-MetLife-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-18-2026/event/107162345"
   },
   {

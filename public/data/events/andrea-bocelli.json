@@ -332,11 +332,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7711520",
-        "url": "https://www.ticketliquidator.com/tickets/7711520/Andrea-Bocelli-tickets-Fri-Sep-18-2026-Mortgage-Matchup-Center",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107189124",
@@ -356,7 +356,7 @@
     "ticketmaster_discovery_event_id": "16v0Z_dQ6G7w0cK",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711520/Andrea-Bocelli-tickets-Fri-Sep-18-2026-Mortgage-Matchup-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-phoenix-tickets-9-18-2026/event/107189124",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711520"
   },
@@ -1229,12 +1229,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258124",
+        "url": "https://www.ticketliquidator.com/tickets/8258124/Andrea-Bocelli-tickets-Fri-Jan-29-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8muTUYo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258124"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258124",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258124/Andrea-Bocelli-tickets-Fri-Jan-29-2027-Spectrum-Center"
   },
   {
     "id": "tm-andrea-bocelli-2027-baltimore-1a4zkffgkepsf12",
@@ -1290,12 +1298,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258125",
+        "url": "https://www.ticketliquidator.com/tickets/8258125/Andrea-Bocelli-tickets-Sun-Jan-31-2027-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkePSF12",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258125"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258125",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258125/Andrea-Bocelli-tickets-Sun-Jan-31-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-andrea-bocelli-2027-atlanta-vvg1zz_36bbobm",
@@ -1351,12 +1367,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258126",
+        "url": "https://www.ticketliquidator.com/tickets/8258126/Andrea-Bocelli-tickets-Tue-Feb-2-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_36bbobM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258126"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258126",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258126/Andrea-Bocelli-tickets-Tue-Feb-2-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-andrea-bocelli-2027-austin-g5diz_3kpl_-e",
@@ -1412,12 +1436,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258127",
+        "url": "https://www.ticketliquidator.com/tickets/8258127/Andrea-Bocelli-tickets-Thu-Feb-4-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3kPl_-E",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258127"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258127",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258127/Andrea-Bocelli-tickets-Thu-Feb-4-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-andrea-bocelli-2027-dallas-vvg1yz_33_tj3c",
@@ -1473,12 +1505,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258128",
+        "url": "https://www.ticketliquidator.com/tickets/8258128/Andrea-Bocelli-tickets-Fri-Feb-5-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_33_TJ3C",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258128"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258128",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258128/Andrea-Bocelli-tickets-Fri-Feb-5-2027-American-Airlines-Center"
   },
   {
     "id": "tm-andrea-bocelli-2027-houston-z7r9jz1aavs_v",
@@ -1534,12 +1574,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265103",
+        "url": "https://www.ticketliquidator.com/tickets/8265103/Andrea-Bocelli-tickets-Sun-Feb-7-2027-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvs_v",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265103"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265103",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265103/Andrea-Bocelli-tickets-Sun-Feb-7-2027-Toyota-Center-TX"
   },
   {
     "id": "tm-andrea-bocelli-2027-orlando-1axzkfigkdrsgpw",
@@ -1595,12 +1643,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258129",
+        "url": "https://www.ticketliquidator.com/tickets/8258129/Andrea-Bocelli-tickets-Wed-Feb-10-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfIGkdrSgPW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258129"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258129",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258129/Andrea-Bocelli-tickets-Wed-Feb-10-2027-Kia-Center"
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3nv0vjm",
@@ -1656,12 +1712,20 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258130",
+        "url": "https://www.ticketliquidator.com/tickets/8258130/Andrea-Bocelli-tickets-Fri-Feb-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3NV0vjm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258130"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258130",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258130/Andrea-Bocelli-tickets-Fri-Feb-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3ervkx7",
@@ -1717,11 +1781,19 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258131",
+        "url": "https://www.ticketliquidator.com/tickets/8258131/Andrea-Bocelli-tickets-Sat-Feb-13-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-09-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3ERvKx7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258131"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258131",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258131/Andrea-Bocelli-tickets-Sat-Feb-13-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   }
 ]

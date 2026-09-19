@@ -2253,5 +2253,58 @@
     "ticketmaster_discovery_event_id": "1AvOZ_8GkR5McW-",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2026-saint-louis-1a-zkfxgkegfvfo",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2026-12-19T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006522B5234211",
+    "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-saint-louis-missouri-12-18-2026/event/21006522B5234211",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stella-lefty-saint-louis-missouri-12-18-2026/event/21006522B5234211",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006522B5234211",
+        "discovery_event_id": "1A-ZkfxGkegFVFo",
+        "url": "https://www.ticketmaster.com/stella-lefty-saint-louis-missouri-12-18-2026/event/21006522B5234211",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-ZkfxGkegFVFo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

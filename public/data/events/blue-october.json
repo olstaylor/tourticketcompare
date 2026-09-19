@@ -4043,5 +4043,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957282",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957282/Blue-October-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Rockford"
+  },
+  {
+    "id": "tm-blue-october-2027-saint-louis-1ae7z_3gkiei5ox",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2027-03-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100652A02B0B47E",
+    "ticketmaster_url": "https://www.ticketmaster.com/blue-october-saint-louis-missouri-03-13-2027/event/2100652A02B0B47E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blue-october-saint-louis-missouri-03-13-2027/event/2100652A02B0B47E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100652A02B0B47E",
+        "discovery_event_id": "1Ae7Z_3GkIei5oX",
+        "url": "https://www.ticketmaster.com/blue-october-saint-louis-missouri-03-13-2027/event/2100652A02B0B47E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_3GkIei5oX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

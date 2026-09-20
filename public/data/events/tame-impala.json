@@ -1369,18 +1369,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735047",
-        "url": "https://www.ticketliquidator.com/tickets/7735047/Tame-Impala-tickets-Sat-Sep-19-2026-Toyota-Center-TX",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_z",
     "status": "on-sale",
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735047",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735047/Tame-Impala-tickets-Sat-Sep-19-2026-Toyota-Center-TX"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-a4m",

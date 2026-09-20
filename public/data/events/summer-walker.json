@@ -654,18 +654,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8080726",
-        "url": "https://www.ticketliquidator.com/tickets/8080726/Broccoli-City-Festival-tickets-Sat-Sep-19-2026-Jiffy-Lube-Live",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6urTWFPK",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8080726/Broccoli-City-Festival-tickets-Sat-Sep-19-2026-Jiffy-Lube-Live"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",

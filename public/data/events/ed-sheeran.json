@@ -1162,11 +1162,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957097",
-        "url": "https://www.stubhub.ie/ed-sheeran-philadelphia-tickets-9-19-2026/event/106957097",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkGsGkdcEk7P",
@@ -1175,7 +1175,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418592",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-philadelphia-tickets-9-19-2026/event/106957097"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-0100632fcae52e03",

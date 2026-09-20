@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "06006496E5AC900E",
     "ticketmaster_url": "https://www.ticketmaster.com/celebrate-minnesota-tobymac-kb-waite-park-minnesota-09-19-2026/event/06006496E5AC900E",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/tobymac-tickets-waite-park-the-ledge-waite-park-amphitheater-9-19-2026/production/6950006",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/celebrate-minnesota-tobymac-kb-waite-park-minnesota-09-19-2026/event/06006496E5AC900E",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6950006,
-        "url": "https://www.vividseats.com/tobymac-tickets-waite-park-the-ledge-waite-park-amphitheater-9-19-2026/production/6950006",
-        "verified": true,
-        "last_verified_at": "2026-09-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -90,7 +90,7 @@
         "event_id": 7024059,
         "url": "https://www.vividseats.com/tobymac-tickets-columbia-mizzou-arena-11-5-2026--concerts-adult-contemporary/production/7024059",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -159,7 +159,7 @@
         "event_id": 7024067,
         "url": "https://www.vividseats.com/tobymac-tickets-evansville-ford-center-evansville-11-6-2026--concerts-adult-contemporary/production/7024067",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -228,7 +228,7 @@
         "event_id": 7024282,
         "url": "https://www.vividseats.com/tobymac-tickets-cleveland-wolstein-center-at-csu-11-7-2026/production/7024282",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -281,7 +281,7 @@
         "event_id": 7024078,
         "url": "https://www.vividseats.com/tobymac-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-11-8-2026--concerts-adult-contemporary/production/7024078",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-20",
         "availability_status": "listed"
       },
       "stubhub": {

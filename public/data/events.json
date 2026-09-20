@@ -1865,17 +1865,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085156",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-19-2026/event/107085156",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAAzFs",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695875",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-19-2026/event/107085156"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350525823a",
@@ -16739,11 +16739,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071105",
-        "url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-19-2026/event/107071105",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -16752,7 +16752,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_ekC64hS",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-19-2026/event/107071105"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
@@ -20787,11 +20787,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957097",
-        "url": "https://www.stubhub.ie/ed-sheeran-philadelphia-tickets-9-19-2026/event/106957097",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkGsGkdcEk7P",
@@ -20800,7 +20800,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418592",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-philadelphia-tickets-9-19-2026/event/106957097"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-0100632fcae52e03",

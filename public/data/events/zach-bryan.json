@@ -664,7 +664,7 @@
     "tour_name": "With Heaven On Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7r4vJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vJ",
-    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-19-4-pm/concert/17930445",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vJ",
@@ -680,11 +680,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17930445,
-        "url": "https://seatgeek.com/zach-bryan-tickets/dover-delaware-the-woodlands-of-dover-international-speedway-2026-09-19-4-pm/concert/17930445",
-        "verified": true,
-        "last_verified_at": "2026-09-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

@@ -1325,7 +1325,7 @@
     "tour_name": "The Deadbeat Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7-F_z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_z",
-    "seatgeek_url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-houston-toyota-center---tx-9-19-2026/production/6652541",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_z",
@@ -1341,11 +1341,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18070199,
-        "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199",
-        "verified": true,
-        "last_verified_at": "2026-09-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6652541,
@@ -1413,7 +1413,7 @@
         "event_id": 18080351,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-20-7-pm/concert/18080351",
         "verified": true,
-        "last_verified_at": "2026-09-19",
+        "last_verified_at": "2026-09-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

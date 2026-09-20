@@ -16732,11 +16732,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668640",
-        "url": "https://www.ticketliquidator.com/tickets/7668640/Bruno-Mars-tickets-Sat-Sep-19-2026-Hard-Rock-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107071105",
@@ -16751,7 +16751,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1VZ_ekC64hS",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668640/Bruno-Mars-tickets-Sat-Sep-19-2026-Hard-Rock-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-19-2026/event/107071105"
   },
   {
@@ -20780,11 +20780,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7418592",
-        "url": "https://www.ticketliquidator.com/tickets/7418592/Ed-Sheeran-tickets-Sat-Sep-19-2026-Lincoln-Financial-Field",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106957097",
@@ -20799,7 +20799,7 @@
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418592",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418592/Ed-Sheeran-tickets-Sat-Sep-19-2026-Lincoln-Financial-Field",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-philadelphia-tickets-9-19-2026/event/106957097"
   },
   {
@@ -24552,18 +24552,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8080726",
-        "url": "https://www.ticketliquidator.com/tickets/8080726/Broccoli-City-Festival-tickets-Sat-Sep-19-2026-Jiffy-Lube-Live",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6urTWFPK",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8080726/Broccoli-City-Festival-tickets-Sat-Sep-19-2026-Jiffy-Lube-Live"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",
@@ -27495,18 +27495,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735047",
-        "url": "https://www.ticketliquidator.com/tickets/7735047/Tame-Impala-tickets-Sat-Sep-19-2026-Toyota-Center-TX",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_z",
     "status": "on-sale",
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735047",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735047/Tame-Impala-tickets-Sat-Sep-19-2026-Toyota-Center-TX"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-a4m",

@@ -611,7 +611,7 @@
     "ticketmaster_event_id": "150064D7BFF48953",
     "ticketmaster_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/broccoli-city-festival-tickets-bristow-jiffy-lube-live-9-19-2026/production/7210953",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
     "last_verified_at": "2026-07-06",
@@ -633,11 +633,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7210953,
-        "url": "https://www.vividseats.com/broccoli-city-festival-tickets-bristow-jiffy-lube-live-9-19-2026/production/7210953",
-        "verified": true,
-        "last_verified_at": "2026-09-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -705,7 +705,7 @@
         "event_id": 7208420,
         "url": "https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-20",
         "availability_status": "listed"
       },
       "stubhub": {

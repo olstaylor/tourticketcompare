@@ -1326,7 +1326,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-F_z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_z",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-houston-toyota-center---tx-9-19-2026/production/6652541",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_z",
     "last_verified_at": null,
@@ -1348,11 +1348,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6652541,
-        "url": "https://www.vividseats.com/tame-impala-tickets-houston-toyota-center---tx-9-19-2026/production/6652541",
-        "verified": true,
-        "last_verified_at": "2026-09-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1420,7 +1420,7 @@
         "event_id": 6678528,
         "url": "https://www.vividseats.com/tame-impala-tickets-houston-toyota-center---tx-9-20-2026--concerts-rock/production/6678528",
         "verified": true,
-        "last_verified_at": "2026-09-17",
+        "last_verified_at": "2026-09-20",
         "availability_status": "listed"
       },
       "stubhub": {

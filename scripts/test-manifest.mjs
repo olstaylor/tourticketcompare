@@ -69,6 +69,7 @@ export const STEPS = [
   { id: "test:event-local-date",                  lane: "quick",  run: "npm run test:event-local-date" },
   { id: "test:funnel-analytics",                  lane: "quick",  run: "npm run test:funnel-analytics" },
   { id: "report:commercial-funnel:self-test",     lane: "units",  run: "npm run report:commercial-funnel:self-test" },
+  { id: "test:affiliate-attribution", lane: "units", run: "npm run test:affiliate-attribution" },
   { id: "report:affiliate-performance:self-test", lane: "units",  run: "npm run report:affiliate-performance:self-test" },
   { id: "report:link-coverage:self-test",         lane: "units",  run: "node scripts/report-link-coverage.mjs --self-test" },
   { id: "report:link-coverage:check",             lane: "quick",  run: "npm run report:link-coverage:check" },

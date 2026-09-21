@@ -33,6 +33,7 @@
 // Every network call in this script is a GET against Impact's own account
 // data, and every D1 statement is a SELECT. Nothing is written anywhere.
 import assert from "node:assert/strict";
+import { isValidClickId } from "../functions/_funnel.js";
 import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import os from "node:os";
@@ -354,28 +355,42 @@ export function assertReadOnlySql(sql) {
   return body;
 }
 
-// click_id is opaque random hex (see docs/COMMERCIAL_FUNNEL.md), not personal
-// data, so it may be selected directly — that is what lets this report join a
-// TTC outbound_click row to an Impact Action's SubId1 once
-// OUT_CLICK_ID_SUBID_ENABLED is turned on.
+// Provider totals stay in the requested activity window. Exact attribution is
+// looked up by returned SubId1 across retained history: bookings can lag clicks.
 export function buildD1Statements(window) {
   const since = windowClause(window, "created_at");
-  return [
-    {
-      key: "clicksByProvider",
-      sql: `SELECT COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COUNT(*) AS clicks
+  return [{
+    key: "clicksByProvider",
+    sql: `SELECT COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COUNT(*) AS clicks,
+SUM(CASE WHEN impact_reconciliation_eligible = 1 THEN 1 ELSE 0 END) AS eligible_clicks
 FROM analytics_events
 WHERE event_name = 'outbound_click'${since}
 GROUP BY 1`
-    },
-    {
-      key: "clickIdRows",
-      sql: `SELECT click_id, COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, artist_slug, event_id
+  }];
+}
+
+export function buildAttributionStatements(actions) {
+  const ids = [...new Set(actions.map(action => action.subId1).filter(isValidClickId))];
+  const statements = [];
+  // Strict random-hex validation makes interpolation safe. Bounded batches use
+  // the existing click_id index without silently truncating the result set.
+  for (let offset = 0; offset < ids.length; offset += 100) {
+    statements.push({
+      key: `clickIds${offset / 100}`,
+      sql: `SELECT click_id, provider, artist_slug, event_id, created_at, source_path, cta_location,
+impact_reconciliation_eligible
 FROM analytics_events
-WHERE event_name = 'outbound_click' AND click_id IS NOT NULL AND TRIM(click_id) != ''${since}
-LIMIT 5000`
-    }
-  ];
+WHERE event_name = 'outbound_click' AND click_id IN (${ids.slice(offset, offset + 100).map(id => `'${id}'`).join(", ")})`
+    });
+  }
+  return statements;
+}
+
+// Reject ambiguous duplicate IDs instead of arbitrarily crediting a row.
+export function indexClickRows(rows) {
+  const index = new Map();
+  for (const row of rows) index.set(row.click_id, index.has(row.click_id) ? null : row);
+  return index;
 }
 
 export function parseWranglerJson(stdout, statements) {
@@ -419,9 +434,7 @@ async function runD1Statements(statements, options) {
 
 // ── Report assembly ──────────────────────────────────────────────────────────
 
-const OUT_CLICK_ID_SUBID_ENABLED_KEY = "OUT_CLICK_ID_SUBID_ENABLED";
-
-export function buildReport({ actionsAggregate, d1, window, options, subIdEnabled, subIdMatches = 0, subIdCandidates = 0 }) {
+export function buildReport({ actionsAggregate, d1, window, options, subIdMatches = 0, subIdCandidates = 0, attributionCoverage = {} }) {
   const ttcClicksByProvider = new Map();
   for (const row of d1.clicksByProvider) ttcClicksByProvider.set(String(row.provider), Number(row.clicks) || 0);
 
@@ -443,6 +456,7 @@ export function buildReport({ actionsAggregate, d1, window, options, subIdEnable
     byProvider.push({
       provider,
       ttc_outbound_clicks: ttcClicks,
+      ttc_reconcilable_clicks: Number(d1.clicksByProvider.find(row => row.provider === provider)?.eligible_clicks) || 0,
       impact_actions_total: totalActions,
       impact_actions_approved: approved.count,
       impact_actions_pending: pending.count,
@@ -451,6 +465,7 @@ export function buildReport({ actionsAggregate, d1, window, options, subIdEnable
       commission_earned_approved: commissionEarned,
       commission_pending: commissionPending,
       currency: impact?.currency || null,
+      ratio_basis: "same-window activity, not an attributed click cohort",
       conversion_rate: rate(totalActions - reversed.count, ttcClicks, options.minClicks),
       earnings_per_click: ttcClicks > 0 ? commissionEarned / ttcClicks : null,
       trend_by_day: impact ? Array.from(impact.byDay.entries()).sort(([a], [b]) => a.localeCompare(b)) : []
@@ -467,7 +482,9 @@ export function buildReport({ actionsAggregate, d1, window, options, subIdEnable
       min_clicks_for_rate: options.minClicks
     },
     sub_id_attribution: {
-      flag_enabled: subIdEnabled,
+      field: "SubId1",
+      basis: "recorded eligibility and matching provider campaign; retained click history",
+      coverage: attributionCoverage,
       matches: subIdMatches,
       candidates: subIdCandidates
     },
@@ -481,32 +498,32 @@ export function buildReport({ actionsAggregate, d1, window, options, subIdEnable
   };
 }
 
-// SubId1 on an Impact action is only meaningful once OUT_CLICK_ID_SUBID_ENABLED
-// is turned on (functions/api/out.js), because that is the only code path that
-// ever puts TTC's click_id on an outbound tracking URL. This join is therefore
-// harmless and inert while the flag is off (it will simply find 0 candidates)
-// and becomes real per-order attribution to artist/event/page the moment the
-// owner enables it and Impact starts returning matching SubId1 values.
-export function matchSubIdAttribution(actions, clickIdIndex) {
+// The local shell's current flag cannot describe a historical production click.
+// Trust evidence recorded with that click, and the action's mapped campaign.
+export function matchSubIdAttribution(actions, clickIdIndex, campaignToProvider) {
   const matched = [];
+  const coverage = { no_sub_id: 0, invalid_sub_id: 0, click_not_found: 0, ambiguous_click_id: 0,
+    not_eligible: 0, campaign_unmapped: 0, provider_mismatch: 0 };
   let candidates = 0;
   for (const action of actions) {
-    if (!action.subId1) continue;
-    candidates += 1;
+    if (!action.subId1) { coverage.no_sub_id++; continue; }
+    candidates++;
+    if (!isValidClickId(action.subId1)) { coverage.invalid_sub_id++; continue; }
+    if (!clickIdIndex.has(action.subId1)) { coverage.click_not_found++; continue; }
     const click = clickIdIndex.get(action.subId1);
-    if (click) {
-      matched.push({
-        actionId: action.id,
-        state: action.state,
-        payout: action.payout,
-        clickId: action.subId1,
-        artistSlug: click.artist_slug || null,
-        eventId: click.event_id || null,
-        provider: click.provider || null
-      });
-    }
+    if (!click) { coverage.ambiguous_click_id++; continue; }
+    if (Number(click.impact_reconciliation_eligible) !== 1) { coverage.not_eligible++; continue; }
+    const provider = campaignToProvider.get(action.campaignId);
+    if (!provider) { coverage.campaign_unmapped++; continue; }
+    if (provider !== click.provider) { coverage.provider_mismatch++; continue; }
+    matched.push({
+      actionId: action.id, state: action.state, payout: action.payout, currency: action.currency,
+      clickId: action.subId1, artistSlug: click.artist_slug || null, eventId: click.event_id || null,
+      provider, clickedAt: click.created_at || null, sourcePath: click.source_path || null,
+      ctaLocation: click.cta_location || null
+    });
   }
-  return { matched, candidates };
+  return { matched, candidates, coverage };
 }
 
 function renderTable(headers, rows) {
@@ -528,15 +545,17 @@ export function renderReport(report) {
   lines.push(`Database: ${report.window.database} (${report.window.remote ? "remote" : "local"}) · Window: ${windowLabel}`);
   lines.push("Click counts are TTC's own outbound_click rows (authoritative, see docs/COMMERCIAL_FUNNEL.md).");
   lines.push("Actions, state and commission are Impact's own account data (Mediapartners Actions API), read-only.");
+  lines.push("Provider ratios are same-window activity ratios, not attributed booking conversion rates; actions can follow earlier clicks.");
   lines.push(`Rates need >= ${report.window.min_clicks_for_rate} outbound clicks in the window.`);
   lines.push("");
 
   lines.push("-- By provider --");
   lines.push(renderTable(
-    ["provider", "ttc_clicks", "actions", "approved", "pending", "reversed", "commission_earned", "commission_pending", "conv_rate", "epc"],
+    ["provider", "ttc_clicks", "eligible_ids", "actions", "approved", "pending", "reversed", "commission_earned", "commission_pending", "actions/click", "payout/click"],
     report.by_provider.map((row) => [
       row.provider,
       row.ttc_outbound_clicks,
+      row.ttc_reconcilable_clicks,
       row.impact_actions_total,
       row.impact_actions_approved,
       row.impact_actions_pending,
@@ -559,13 +578,10 @@ export function renderReport(report) {
   }
 
   lines.push("-- SubId1 / click_id attribution (per-order artist/event) --");
-  lines.push(`OUT_CLICK_ID_SUBID_ENABLED: ${report.sub_id_attribution.flag_enabled ? "true" : "false"}`);
-  if (!report.sub_id_attribution.flag_enabled) {
-    lines.push("Flag is off: no Impact action can carry a click_id SubId1 yet, so per-order artist/event");
-    lines.push("attribution is not possible. See 'SubId verification procedure' in docs/COMMERCIAL_FUNNEL.md.");
-  } else {
-    lines.push(`Actions carrying a SubId1: ${report.sub_id_attribution.candidates} · matched to a TTC outbound_click row: ${report.sub_id_attribution.matches}`);
-  }
+  lines.push(`Actions carrying SubId1: ${report.sub_id_attribution.candidates} · verified matches: ${report.sub_id_attribution.matches}`);
+  lines.push("Matches require stored passthrough eligibility and provider/campaign agreement; the local flag is not production evidence.");
+  lines.push(`Unmatched coverage: ${JSON.stringify(report.sub_id_attribution.coverage)}`);
+  lines.push("Only SubId1 is joined. Other configured tracking fields require network verification and report support.");
   lines.push("");
 
   lines.push("-- What this report cannot show --");
@@ -619,12 +635,12 @@ function selfTest() {
   check(() => {
     const action = normalizeAction({
       Id: "42", CampaignId: "1111", State: "approved", Payout: "3.50", Currency: "USD",
-      EventDate: "2026-08-01T10:00:00Z", SubId1: "abc123"
+      EventDate: "2026-08-01T10:00:00Z", SubId1: "0123456789abcdef01234567"
     });
     assert.equal(action.state, "APPROVED");
     assert.equal(action.payout, 3.5);
     assert.equal(action.day, "2026-08-01");
-    assert.equal(action.subId1, "abc123");
+    assert.equal(action.subId1, "0123456789abcdef01234567");
   });
 
   check(() => {
@@ -660,13 +676,13 @@ function selfTest() {
   });
 
   check(() => {
-    const clickIdIndex = new Map([["abc123", { artist_slug: "beyonce", event_id: "evt-1", provider: "seatgeek" }]]);
+    const clickIdIndex = new Map([["0123456789abcdef01234567", { artist_slug: "beyonce", event_id: "evt-1", provider: "seatgeek", impact_reconciliation_eligible: 1 }]]);
     const actions = [
-      normalizeAction({ Id: "1", CampaignId: "1111", State: "APPROVED", Payout: "10", SubId1: "abc123" }),
+      normalizeAction({ Id: "1", CampaignId: "1111", State: "APPROVED", Payout: "10", SubId1: "0123456789abcdef01234567" }),
       normalizeAction({ Id: "2", CampaignId: "1111", State: "APPROVED", Payout: "5", SubId1: "no-match" }),
       normalizeAction({ Id: "3", CampaignId: "1111", State: "APPROVED", Payout: "1" })
     ];
-    const { matched, candidates } = matchSubIdAttribution(actions, clickIdIndex);
+    const { matched, candidates } = matchSubIdAttribution(actions, clickIdIndex, new Map([["1111", "seatgeek"]]));
     assert.equal(candidates, 2); // two actions carry a SubId1 at all
     assert.equal(matched.length, 1);
     assert.equal(matched[0].artistSlug, "beyonce");
@@ -683,7 +699,7 @@ function selfTest() {
     const statements = buildD1Statements({ since: "", until: "" });
     const stdout = JSON.stringify(statements.map((statement, index) => ({ success: true, results: [{ marker: index }], meta: {} })));
     const parsed = parseWranglerJson(stdout, statements);
-    assert.equal(parsed.clickIdRows[0].marker, statements.length - 1);
+    assert.equal(parsed.clicksByProvider[0].marker, statements.length - 1);
     assert.throws(() => parseWranglerJson("not json", statements), /did not return JSON/);
   });
 
@@ -693,13 +709,13 @@ function selfTest() {
     const actionsAggregate = aggregateActionsByProvider(actions, campaignToProvider);
     const report = buildReport({
       actionsAggregate,
-      d1: { clicksByProvider: [{ provider: "seatgeek", clicks: 200 }], clickIdRows: [] },
+      d1: { clicksByProvider: [{ provider: "seatgeek", clicks: 200, eligible_clicks: 12 }] },
       window: { since: "2026-08-01T00:00:00.000Z", until: "2026-08-08T00:00:00.000Z" },
-      options: { database: DEFAULT_D1_DATABASE, remote: true, minClicks: 30 },
-      subIdEnabled: false
+      options: { database: DEFAULT_D1_DATABASE, remote: true, minClicks: 30 }
     });
     const seatgeek = report.by_provider.find((row) => row.provider === "seatgeek");
     assert.equal(seatgeek.ttc_outbound_clicks, 200);
+    assert.equal(seatgeek.ttc_reconcilable_clicks, 12);
     assert.equal(seatgeek.commission_earned_approved, 10);
     assert.equal(seatgeek.conversion_rate, 1 / 200);
     const rendered = renderReport(report);
@@ -750,17 +766,19 @@ async function main() {
   ]);
 
   const actionsAggregate = aggregateActionsByProvider(actions, campaignToProvider);
-  const subIdEnabled = String(process.env[OUT_CLICK_ID_SUBID_ENABLED_KEY] || "").trim().toLowerCase() === "true";
-  const clickIdIndex = new Map();
-  for (const row of d1.clickIdRows) clickIdIndex.set(String(row.click_id), row);
-  const { matched, candidates } = matchSubIdAttribution(actions, clickIdIndex);
+  const clickRows = [];
+  for (const statement of buildAttributionStatements(actions)) {
+    const result = await runD1Statements([statement], options);
+    clickRows.push(...result[statement.key]);
+  }
+  const { matched, candidates, coverage } = matchSubIdAttribution(actions, indexClickRows(clickRows), campaignToProvider);
 
   const report = buildReport({
-    actionsAggregate, d1, window, options, subIdEnabled,
+    actionsAggregate, d1, window, options, attributionCoverage: coverage,
     subIdMatches: matched.length,
     subIdCandidates: candidates
   });
-  if (matched.length) report.sub_id_attribution.matched_orders = matched;
+  report.sub_id_attribution.matched_orders = matched;
 
   console.log(options.json ? JSON.stringify(report, null, 2) : renderReport(report));
 }

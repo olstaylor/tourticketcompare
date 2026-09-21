@@ -272,10 +272,13 @@ tracking link and never writes anything, in Impact or in D1.
 
 What it reports per provider: TTC outbound clicks, Impact actions split by
 state (approved/pending/reversed), commission earned (approved `Payout` only —
-pending payout is shown separately and is not yet earned), a conversion rate
-and earnings-per-click both computed against **our own** `outbound_click`
-count (never a fabricated Impact click total), and a daily trend of actions
-and payout. Ticketmaster is never queried — it has no Impact program.
+pending payout is shown separately and is not yet earned), same-window
+actions/click and approved-payout/click ratios against **our own**
+`outbound_click` count, eligible click IDs, and a daily trend of actions and
+payout. These are activity ratios, **not an attributed booking conversion
+rate**: actions can follow clicks from an earlier window or another source.
+The JSON keys `conversion_rate` and `earnings_per_click` remain for compatibility;
+`ratio_basis` makes that limitation explicit. Ticketmaster is never queried — it has no Impact program.
 
 **What it still cannot show, and why:** an aggregate Impact-side click count.
 The Impact Partner API's `Clicks` resource retrieves one click by its own ID
@@ -285,10 +288,43 @@ either the Impact dashboard UI or Impact's asynchronous `ReportExport` job
 flow, both out of scope for this script. Use the manual reconciliation
 procedure above (*Reconciling with affiliate dashboards*) for that number.
 
-Per-order artist/event attribution (`sub_id_attribution.matched_orders`) is
-only populated once `OUT_CLICK_ID_SUBID_ENABLED` is turned on and verified —
-see the procedure above. With the flag off, this section always reports zero
-candidates; that is expected, not a bug.
+Per-order attribution (`sub_id_attribution.matched_orders`, in `--json`) now
+requires a valid TTC `SubId1`, exactly one retained server `outbound_click`,
+`impact_reconciliation_eligible = 1`, and agreement between the action's
+mapped campaign and the click's provider. Matching rows include artist, local
+event ID, click timestamp, source page, CTA placement, action state, payout and
+currency. Pending/reversed actions retain their state and are not promoted to
+earned commission.
+
+The lookup uses the existing `click_id` index in batches of 100 IDs from the
+returned Impact actions. It searches retained click history rather than only
+the action-report window, with no 5,000-click cutoff. Provider click totals
+still use the requested reporting window. Duplicate stored IDs are ambiguous
+and are never arbitrarily assigned.
+
+Coverage is explicit: `coverage` counts missing or invalid SubId1, missing or
+ambiguous click rows, unverified passthrough, unmapped campaigns and provider
+mismatches. `ttc_reconcilable_clicks` counts recorded passthrough in the click
+window; it does not prove arrival at Impact. No-match counts do not mean zero
+bookings. The report no longer claims a local shell flag describes production:
+a historical verified match remains valid after passthrough is switched off.
+Historical NULL eligibility is not backfilled or inferred.
+
+**Remaining dependency:** the owner must confirm campaign-specific SubId1
+support, enable the existing default-off passthrough, and verify the emitted
+ID in Impact using the procedure above. Supply the correct campaign IDs when
+running this report, especially SeatGeek and Vivid Seats (no defaults).
+The report currently joins **SubId1 only**; other configurable fields such as
+SubId2 or SharedId and the API-generated TrackingLinks path are not covered.
+This change does not enable tracking, alter marketplace URLs, add a migration,
+or introduce an import/store of booking data. Results describe actions returned
+by the existing Impact Actions reader; no live booking was verified by the
+local fixture tests.
+
+Run `npm run test:affiliate-attribution` for the redirect-to-SQLite-to-action
+fixture checks (including fail-closed destinations and default-off tracking),
+and `npm run test:funnel-analytics` for the broader existing click contract.
+Both are in `test:mvp`.
 
 ## What cannot be measured
 

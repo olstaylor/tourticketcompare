@@ -253,6 +253,7 @@ npm run report:link-coverage:check            # fails on any zero-link upcoming 
 ### Analytics / commercial funnel (before changing measurement code)
 
 ```bash
+npm run test:affiliate-attribution # redirect → stored click → eligible Impact action (local fixtures)
 npm run test:funnel-analytics                 # event validation, duplicate prevention, redirect
                                               #   tracking, dimension classification, schema
                                               #   tolerance (in test:mvp)

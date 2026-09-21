@@ -2012,5 +2012,270 @@
     "ticketmaster_discovery_event_id": "vv1AkZkf_Gkdu8aGp",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Fairfax",
+    "country": "United States Of America",
+    "venue": "EagleBank Arena",
+    "datetime_iso": "2027-02-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006519C4EF7714",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-19-2027/event/15006519C4EF7714",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-19-2027/event/15006519C4EF7714",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006519C4EF7714",
+        "discovery_event_id": "1A4Zkf_Gkd7DMjf",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-19-2027/event/15006519C4EF7714",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zkf_Gkd7DMjf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fairfax-1a4zkf_gkdgvwvn",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Fairfax",
+    "country": "United States Of America",
+    "venue": "EagleBank Arena",
+    "datetime_iso": "2027-02-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006519F5D3DD2A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-20-2027/event/15006519F5D3DD2A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-20-2027/event/15006519F5D3DD2A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006519F5D3DD2A",
+        "discovery_event_id": "1A4Zkf_GkdgVWVn",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-20-2027/event/15006519F5D3DD2A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zkf_GkdgVWVn",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-san-antonio-g5diz_olf8jri",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Freeman Coliseum",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00651AC841CBE8",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-san-antonio-texas-03-12-2027/event/3A00651AC841CBE8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-san-antonio-texas-03-12-2027/event/3A00651AC841CBE8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00651AC841CBE8",
+        "discovery_event_id": "G5dIZ_olF8jRI",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-san-antonio-texas-03-12-2027/event/3A00651AC841CBE8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_olF8jRI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo-",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Fargo",
+    "country": "United States Of America",
+    "venue": "Fargodome",
+    "datetime_iso": "2027-03-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006519D0D39821",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fargo-north-dakota-03-17-2027/event/06006519D0D39821",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fargo-north-dakota-03-17-2027/event/06006519D0D39821",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006519D0D39821",
+        "discovery_event_id": "vv1AkZkf_Gkd8VyO-",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fargo-north-dakota-03-17-2027/event/06006519D0D39821",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkf_Gkd8VyO-",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-tulsa-1aozkf_gkdn-dht",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-03-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006519E3843F3F",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tulsa-oklahoma-03-21-2027/event/20006519E3843F3F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tulsa-oklahoma-03-21-2027/event/20006519E3843F3F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006519E3843F3F",
+        "discovery_event_id": "1AOZkf_GkdN-dHT",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tulsa-oklahoma-03-21-2027/event/20006519E3843F3F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkf_GkdN-dHT",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

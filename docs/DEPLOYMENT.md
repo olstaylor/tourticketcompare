@@ -132,16 +132,26 @@ commit to a branch, push it, open a PR, earn the `test-mvp` check on that PR
 head, squash-merge. **Widening what any of these may write is an owner
 decision, not a maintenance change.**
 
-How the check is earned matters, because a PR opened with the Actions token
-gets no usable `pull_request` run of its own: GitHub records the run and then
-concludes it `failure` with no jobs, no billable time and no check run on the
-head, so the red entry in the Actions tab for a bot-opened PR is that, not a
-validation failure. Each lane therefore dispatches the real Prelaunch
-Validation workflow against its pushed branch and waits for the verdict on that
-exact SHA (`scripts/lib/required-check.mjs`, reachable by hand as
+How the check is earned matters. A PR opened with the **Actions token** gets no
+usable `pull_request` run of its own: GitHub records the run and then concludes
+it `failure` with no jobs, no billable time and no check run on the head, so the
+red entry in the Actions tab for such a PR is that, not a validation failure.
+Each lane therefore dispatches the real Prelaunch Validation workflow against
+its pushed branch and waits for the verdict on that exact SHA
+(`scripts/lib/required-check.mjs`, reachable by hand as
 `npm run required-check:earn -- --branch <branch>`). The merge happens only on
 green. Publishing a hand-made check run of that name would satisfy a required
 check without running anything, and is deliberately not implemented.
+
+**Under the App identity that condition no longer holds, and the dispatch stays
+anyway.** With `AUTOMATION_APP_ENABLED=true` the lanes publish as
+`tourticketcompare-automation[bot]`, and the natural `pull_request` run executes
+normally — jobs, billable time, a real check run on the head. Four App-authored
+PRs on 2026-09-21 (#1056, #1057, #1059, #1064) each carried **two** green
+`test-mvp` check runs of roughly two minutes each: the natural run and the
+dispatched one. The dispatch is kept regardless, because it is what binds a
+verdict to the exact SHA the merge is bound to; the natural run is corroboration,
+never a substitute for it or for the in-job suite.
 
 **Branch enforcement is currently off, and the publish path does not depend on
 it.** The owner-applied ruleset that made `test-mvp` a required check on
@@ -153,8 +163,16 @@ in-job on exactly the content being published, and the dispatch-and-wait step
 above still runs and still blocks the merge on red. What is missing while
 enforcement is off is the outside guard on **human** merges — a red PR can be
 merged by hand again, which is what caused the 2026-09-11 red-`main` incident.
-Re-enabling it needs a bypass actor for the GitHub Actions app; that is an
-owner decision.
+
+**Restoring it does not need a bypass actor** (this paragraph said it did until
+2026-09-21; that recommendation came from the 2026-09-11 incident and was
+superseded by the App identity rollout on 2026-09-16). A bypass actor was only
+ever needed because the automation could not produce a `test-mvp` check on its
+own PR head. It now does — see the four App-authored PRs above — so the lanes
+can satisfy the same rule as everyone else. The remaining step is the owner
+activating ruleset `20115269` with no bypass actor and proving both directions,
+per `docs/OPERATIONS.md` → Automation App identity rollout. Until that happens
+a human can still merge a red head.
 
 Write-capable lanes and what each may put on `main`:
 

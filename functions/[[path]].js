@@ -1887,14 +1887,23 @@ function renderArtistTicketHelpHtml(help) {
 // docs/PROVIDER_DATA_POLICY.md both scope a comparison to the same local
 // event). Naming the date keeps the figure attached to the event it describes,
 // and cities are never compared with each other.
+//
+// The capture time is part of the figure, not decoration. docs/PROVIDER_DATA_POLICY.md
+// § Where a price may be rendered admits a price outside a CTA badge only when it
+// carries "its own event, provider, currency and capture time", and the event
+// date is not that: a date in 2027 says nothing about when the snapshot behind
+// it was taken. So an unreadable `fetchedAt` drops the price from the row
+// rather than printing an unattributed figure — the row keeps its date count
+// and its link, which is exactly what an unpriced city already renders.
 function artistCityNextDatePriceLabel(city, lowestByShowId) {
   const next = (city?.shows || [])[0];
   const lane = next && lowestByShowId ? lowestByShowId.get(String(next.id || "")) : null;
   if (!lane) return "";
   const amount = formatServerPrice(lane.price, lane.currency);
   const date = formatShowDateServer(next.datetime_iso, next.timezone);
-  if (!amount || !date) return "";
-  return ` · ${date}: ${amount}, ${lane.name}`;
+  const asOf = formatServerSnapshotTime(lane.fetchedAt);
+  if (!amount || !date || !asOf) return "";
+  return ` · ${date}: ${amount}, ${lane.name} (snapshot ${asOf})`;
 }
 
 function renderArtistTicketCitiesHtml(events, artist, lowestByShowId = new Map()) {
@@ -2061,13 +2070,24 @@ function artistCityDescription(artist, artistCity) {
   );
 }
 
-function artistCityIntroSentence(artist, artistCity) {
+// `datesTabled` is true when the per-date price answer rendered directly below
+// this lead. That table lists every tracked date in calendar order and names
+// the venue — once in its own lead where the run is single-venue, per row
+// where it is not — so repeating the venue and the date range here prints the
+// same two facts twice inside one screen. That is the duplication "Say each
+// fact once" exists to stop (docs/ROUTE_INDEXABILITY_POLICY.md), and it is at
+// its worst on a single-date page, where the lead, the table, the at-a-glance
+// panel and the show card otherwise carry four copies of one date.
+//
+// The count stays either way: it is the orientation a lead is for, and it is
+// the one fact the table below states only by being N rows long.
+function artistCityIntroSentence(artist, artistCity, { datesTabled = false } = {}) {
   const count = cityShowCountLabel(artistCity.showCount);
   const range = cityDateRangeLabel(artistCity);
   const venueLabel = artistCityVenueLabel(artistCity);
   const pieces = [`We track ${count} for ${artist.name} in ${artistCity.city}, ${artistCity.country}`];
-  if (venueLabel) pieces.push(`at ${venueLabel}`);
-  if (range) pieces.push(range);
+  if (!datesTabled && venueLabel) pieces.push(`at ${venueLabel}`);
+  if (!datesTabled && range) pieces.push(range);
   return `${pieces.join(", ")}. Match the date you want, then compare checked ticket options before you buy.`;
 }
 
@@ -2171,12 +2191,20 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer) {
       } else {
         priceCell = cardAnchor ? anchor("See ticket options", `#${cardAnchor}`, "text-link") : "";
       }
+      // data-label carries each cell's column name for the narrow-screen
+      // layout, where the table stacks into one block per date and the header
+      // row is no longer beside the value (see .price-answer-table in
+      // public/styles.css). The price cell is exempt: its button already names
+      // the provider and prints the figure, so a "Lowest listed price:" prefix
+      // in front of it would label what is self-evidently labelled.
       const venueCell = singleVenue
         ? ""
-        : `<td>${escapeHtml(row.venue || "Venue confirmed on the date")}</td>`;
+        : `<td data-label="Venue">${escapeHtml(row.venue || "Venue confirmed on the date")}</td>`;
       return `<tr><th scope="row">${escapeHtml(
         dateLabel
-      )}</th>${venueCell}<td>${priceCell}</td><td>${row.lowest ? String(row.comparedCount) : "—"}</td></tr>`;
+      )}</th>${venueCell}<td class="price-answer-price">${priceCell}</td><td data-label="Sites compared">${
+        row.lowest ? String(row.comparedCount) : "—"
+      }</td></tr>`;
     })
     .join("");
 
@@ -2199,7 +2227,27 @@ function artistCityShowIdSet(artistCity) {
   return new Set((artistCity.shows || []).map((show) => String(show.id || "")).filter(Boolean));
 }
 
-function renderArtistCityAnswerSummary(artist, artistCity) {
+// The at-a-glance panel, in two variants.
+//
+// Unabridged, it is the only structured statement of this city's dates, range
+// and venues, and the four cards are what the page has instead of a table.
+//
+// Compressed (`datesTabled`), the per-date price answer above it has already
+// listed every tracked date in calendar order with its venue, which makes three
+// of those four cards a second printing of the table: "Next tracked date" is
+// its first row, "Tracked date range" is its first and last, and "Venues" is
+// its venue column or its lead. Only verification recency survives, because a
+// price capture time and an event-record verification date are different facts
+// — so the grid is dropped and that one fact is folded into the short answer
+// rather than left as a lone card in a three-column grid.
+//
+// The heading and the "Short answer:" lead-in are load-bearing in both
+// variants: scripts/audit-internal-links.mjs requires both on every
+// artist-city page, so this compresses the panel and never removes it. (The
+// audits build their offline env with no DEMAND_DB binding, so they only ever
+// render the unabridged variant; the compressed one is covered by
+// scripts/artist-city-prices.test.mjs.)
+function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false } = {}) {
   const next = artistCity.shows[0];
   const range = cityDateRangeLabel(artistCity);
   const checked = formatVerificationDate(artistCity.lastmod);
@@ -2207,9 +2255,26 @@ function renderArtistCityAnswerSummary(artist, artistCity) {
   const runNote = artistCity.multiNightSameVenue
     ? ` This is a multi-night run at the same venue.`
     : "";
-  return `<section class="nested-panel" aria-labelledby="artistCityAnswerTitle"><h2 id="artistCityAnswerTitle">At a glance: ${escapeHtml(
+  const heading = `<h2 id="artistCityAnswerTitle">At a glance: ${escapeHtml(
     artist.name
-  )} in ${escapeHtml(artistCity.city)}</h2><p><strong>Short answer:</strong> TourTicketCompare tracks ${escapeHtml(
+  )} in ${escapeHtml(artistCity.city)}</h2>`;
+
+  if (datesTabled) {
+    // Two dates are in play and a reader will conflate them if we let them:
+    // when the *event record* was last verified, and when each *price* was
+    // captured. The clarifier is only meaningful when there is a verification
+    // date to clarify, so it is tied to it rather than always appended.
+    const recency = checked
+      ? `The most recent event record on this page was checked ${checked} — that is when the event itself was last verified, not when a price was captured; each figure above carries its own capture time.`
+      : `Each date above carries its own verification record, separate from the capture time shown with its price.`;
+    return `<section class="nested-panel" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong>${escapeHtml(
+      runNote
+    )} ${escapeHtml(
+      recency
+    )} Ticket options for each date are on its card below.</p></section>`;
+  }
+
+  return `<section class="nested-panel" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong> TourTicketCompare tracks ${escapeHtml(
     cityShowCountLabel(artistCity.showCount)
   )} for ${escapeHtml(artist.name)} in ${escapeHtml(artistCity.city)}, ${escapeHtml(
     artistCity.country
@@ -4185,6 +4250,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       wasChecked: pricesWereChecked
     });
     const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer);
+    // What the table states, the lead and the at-a-glance panel stop restating.
+    // Both fall back to their full form when the table renders nothing, so a
+    // page with no eligible price is unchanged in body copy as well as layout.
+    const datesTabled = Boolean(priceAnswerHtml);
     // A single-date page is noindex,follow: it renders the one show card, the
     // at-a-glance facts, and the crawl paths, and stops there. The FAQ block
     // would restate that same card four times, which is the filler this policy
@@ -4209,10 +4278,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}<h1 id="artistCityTitle">${escapeHtml(artist.name)} Tickets in ${escapeHtml(
       artistCity.label
     )}</h1><p class="lead">${escapeHtml(
-      artistCityIntroSentence(artist, artistCity)
+      artistCityIntroSentence(artist, artistCity, { datesTabled })
     )}</p><p class="disclosure-note">Prices and availability are set by the provider and can change. Any figure shown is a timestamped listed-price snapshot for a verified event, not a final checkout total. This is a selective list of reviewed dates, not a complete local calendar.</p>${priceAnswerHtml}${renderArtistCityAnswerSummary(
       artist,
-      artistCity
+      artistCity,
+      { datesTabled }
     )}${renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,

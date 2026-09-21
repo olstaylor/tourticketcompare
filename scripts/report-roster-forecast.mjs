@@ -6,19 +6,24 @@
 //
 // Why this exists
 // ---------------
-// Every indexable surface on the site is gated on *upcoming* shows:
+// Every *location* surface on the site is gated on upcoming shows:
 //
-//   artist page      indexable_with_substantial_content AND >=1 upcoming show
 //   city page        >=4 upcoming shows across >=2 artists
 //   venue page       >=3 upcoming shows across >=2 artists
-//   artist-city page artist indexable AND >=1 upcoming publishable show
+//   artist-city page artist indexable AND >=2 upcoming publishable shows
 //
-// Those gates self-heal in both directions, which is correct — but it means the
-// indexable route set shrinks on its own as tour dates pass, and nothing in the
-// repo measured the rate. This reporter projects the four shared gate modules
-// forward so the roster can be refilled *before* pages fall out of the index
-// rather than after (a page that leaves the index and returns loses the
-// authority it had accumulated).
+// Artist pages are the deliberate exception: artistPageIndexable() reads the
+// editorial status alone, so an artist whose tour has ended keeps an indexable
+// page with an empty-state board (docs/ROUTE_INDEXABILITY_POLICY.md § Artist).
+// This reporter still tracks when each artist goes dateless, because that is
+// what drains the three location gates above.
+//
+// Those location gates self-heal in both directions, which is correct — but it
+// means the indexable route set shrinks on its own as tour dates pass, and
+// nothing in the repo measured the rate. This reporter projects the four
+// shared gate modules forward so the roster can be refilled *before* pages fall
+// out of the index rather than after (a page that leaves the index and returns
+// loses the authority it had accumulated).
 //
 // Two parts:
 //
@@ -609,11 +614,11 @@ export function renderReport(report) {
   const soon = dropouts.filter((d) => d.live && d.daysLeft <= warnDays);
   const later = dropouts.filter((d) => d.live && d.daysLeft > warnDays);
 
-  lines.push(`## Artist pages dropping out within ${warnDays} days`, "");
+  lines.push(`## Artists going dateless within ${warnDays} days`, "");
   if (soon.length === 0) {
     lines.push("_None._", "");
   } else {
-    lines.push("| Artist | Last show | Goes noindex | Days left | Upcoming |");
+    lines.push("| Artist | Last show | Goes dateless | Days left | Upcoming |");
     lines.push("|---|---|---|---|---|");
     for (const d of soon) {
       lines.push(`| ${d.name} | ${d.lastShow} | **${d.dropsOn}** | ${d.daysLeft} | ${d.upcoming} |`);
@@ -622,13 +627,13 @@ export function renderReport(report) {
   }
 
   if (dark.length) {
-    lines.push(`## Already noindex (no upcoming shows) — ${dark.length}`, "");
+    lines.push(`## Already dateless (empty board, still indexable) — ${dark.length}`, "");
     lines.push(dark.map((d) => `- ${d.name} (\`${d.slug}\`)`).join("\n"), "");
   }
 
   if (later.length) {
     lines.push("## Later", "");
-    lines.push("| Artist | Goes noindex | Days left |");
+    lines.push("| Artist | Goes dateless | Days left |");
     lines.push("|---|---|---|");
     for (const d of later) lines.push(`| ${d.name} | ${d.dropsOn} | ${d.daysLeft} |`);
     lines.push("");

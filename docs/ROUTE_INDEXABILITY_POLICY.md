@@ -42,14 +42,32 @@ way it is:
 
 ### Artist — `/artists/<slug>`
 
-**Indexable when** the editorial record is `indexable_with_substantial_content`
-**and** the artist has at least one upcoming show.
+**Indexable when** the editorial record is `indexable_with_substantial_content`.
+Upcoming shows are **not** part of this gate.
 
 Unchanged by this policy. Gate lives in
-[`functions/_artist-indexability.js`](../functions/_artist-indexability.js). An
-empty board is a "tickets and tour dates" page with no dates and no ticket
-links, so it drops to `noindex,follow` and leaves the sitemap until a new
-verified date lands.
+[`functions/_artist-indexability.js`](../functions/_artist-indexability.js),
+whose `artistPageIndexable()` reads the editorial status and nothing else — the
+events argument is accepted only so callers can pass it uniformly alongside the
+location gates. `functions/sitemap.xml.js` filters on the same status, so an
+artist page's sitemap membership matches its robots meta.
+
+An artist URL is a durable destination. Future-date availability is
+presentation state, not a reason to noindex: the same URL fills again when a
+new verified date lands, and dropping it out of the index in the gap would
+discard the authority it had accumulated for a query
+("<artist> tickets") that does not stop being asked between tours. An artist
+with no upcoming shows renders an explicit empty-state board — no dates, no CTA
+buttons — and stays `index,follow`, in the sitemap.
+
+This is the one route type the calendar does not decay, and it is deliberate.
+The location gates below all count upcoming inventory, because a city or venue
+page with nothing on is genuinely answerless; an artist page is not.
+
+`artistHasUpcomingShow()` in the same module is a **presentation** helper, not
+an indexability gate. It drives the page title wording and the
+upcoming/dormant split in artist listings. Do not reach for it when deciding
+robots meta.
 
 ### City — `/cities/<city-country>`
 

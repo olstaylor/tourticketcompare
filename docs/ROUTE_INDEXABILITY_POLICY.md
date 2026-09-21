@@ -219,6 +219,24 @@ These apply to city, venue, and artist-city pages together.
   between a date passing and the derivation seeing it. The template says so in
   one sentence and offers a way onward; it never renders a heading stack around
   no content. Covered by `scripts/location-pages.test.mjs`.
+- **The artist-city price answer is not an indexability signal.** Artist-city
+  pages render a per-date table answering "How much are \<artist\> tickets in
+  \<city\>?" whenever at least one tracked date has an eligible listed-price
+  snapshot. It is deliberately **not** gated on `route.indexable`, and it does
+  not feed any gate: a single-date page stays `noindex,follow` and out of the
+  sitemap while still showing its price, because whether a URL earns a listing
+  and whether a visitor standing on it should be told the price are different
+  questions. `ARTIST_CITY_MIN_SHOWS` and `artistCityGate` are untouched by it,
+  and `scripts/artist-city-prices.test.mjs` asserts that a priced single-date
+  page is still excluded from `deriveIndexableArtistCities`.
+  The block renders nothing at all when no date has an eligible lane — no
+  heading, no empty table — so a page with no price data is byte-identical to
+  what it rendered before. Every figure is the same gated snapshot the date's
+  own CTA button prints, carries its provider and capture time, and is a
+  same-event comparison only; the table is ordered by date and its rows are
+  never ranked against each other (see `docs/PROVIDER_DATA_POLICY.md`).
+  Where every tracked date shares one venue the venue is named once in the lead
+  and its column is dropped, per "Say each fact once" above.
 - **No templated buying checklist.** The "How to buy \<artist\> tickets in
   \<city\>" five-step list was byte-identical across every artist-city page and
   duplicated both the artist page's own buying guide and

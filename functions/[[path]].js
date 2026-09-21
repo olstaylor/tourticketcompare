@@ -19,6 +19,7 @@ import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js"
 import { deriveVenues, findVenue } from "./_venues.js";
 import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
 import { deriveArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
+import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import {
@@ -1879,7 +1880,24 @@ function renderArtistTicketHelpHtml(help) {
 // see the noindex rather than being left to guess), just not given the same
 // prominence as the pages that can rank. This mirrors the treatment empty-board
 // artists already get on the homepage and /artists listings.
-function renderArtistTicketCitiesHtml(events, artist) {
+// The next tracked date's own lowest listed snapshot, for one city's row in the
+// by-city list. Deliberately one named date and not "from <price>": a "from"
+// across a city's dates would be a minimum taken over different local events,
+// which no provider grant covers (SAFE_PUBLISHING_RULES.md § Price Display and
+// docs/PROVIDER_DATA_POLICY.md both scope a comparison to the same local
+// event). Naming the date keeps the figure attached to the event it describes,
+// and cities are never compared with each other.
+function artistCityNextDatePriceLabel(city, lowestByShowId) {
+  const next = (city?.shows || [])[0];
+  const lane = next && lowestByShowId ? lowestByShowId.get(String(next.id || "")) : null;
+  if (!lane) return "";
+  const amount = formatServerPrice(lane.price, lane.currency);
+  const date = formatShowDateServer(next.datetime_iso, next.timezone);
+  if (!amount || !date) return "";
+  return ` · ${date}: ${amount}, ${lane.name}`;
+}
+
+function renderArtistTicketCitiesHtml(events, artist, lowestByShowId = new Map()) {
   if (artist?.indexing_status !== "indexable_with_substantial_content") return "";
   const cities = deriveArtistCities(events, artist.slug).filter((city) => city.hasPublishable);
   if (!cities.length) return "";
@@ -1900,7 +1918,9 @@ function renderArtistTicketCitiesHtml(events, artist) {
             `<li>${anchor(
               `${artist.name} tickets in ${city.label}`,
               `/artists/${artist.slug}/tickets/${city.slug}`
-            )} — ${escapeHtml(cityShowCountLabel(city.showCount))}</li>`
+            )} — ${escapeHtml(cityShowCountLabel(city.showCount))}${escapeHtml(
+              artistCityNextDatePriceLabel(city, lowestByShowId)
+            )}</li>`
         )
         .join("")}</ul>`
     : "";
@@ -1922,12 +1942,12 @@ function renderArtistTicketCitiesHtml(events, artist) {
 // A group supplies either `items` (<li> strings, wrapped in a list here) or
 // pre-composed `html`, which is what the artist-city group needs to keep its
 // runs/singles split.
-function renderArtistLocationLinksHtml(events, artist) {
+function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
   const groups = [
     {
       heading: "Dates by city",
       note: "Straight to one city's dates, venues, and ticket links.",
-      html: renderArtistTicketCitiesHtml(events, artist)
+      html: renderArtistTicketCitiesHtml(events, artist, lowestByShowId)
     },
     {
       heading: "Cities on this run",
@@ -1956,10 +1976,10 @@ function renderArtistLocationLinksHtml(events, artist) {
 // [data-artist-extra-content] container so public/app.js can transplant the
 // server-rendered markup unchanged during hydration (guaranteeing parity)
 // instead of rebuilding it client-side.
-function renderArtistExtraContentHtml(model, events, artist) {
+function renderArtistExtraContentHtml(model, events, artist, lowestByShowId) {
   const inner = [
     renderArtistTourSummariesHtml(model.tours, artist),
-    renderArtistLocationLinksHtml(events, artist)
+    renderArtistLocationLinksHtml(events, artist, lowestByShowId)
   ].join("");
   return `<div data-artist-extra-content>${inner}</div>`;
 }
@@ -1967,9 +1987,22 @@ function renderArtistExtraContentHtml(model, events, artist) {
 // ---- Artist-city landing pages (functions/_artist-cities.js) ---------------
 // Metadata, FAQ, and section builders for /artists/<artist>/tickets/<city>.
 // Every string is composed from already-verified event data (artist name, city,
-// country, venue, date, show count) — no invented local facts, no price or
-// availability claims, and no lowest-price ranking language (the show board's
-// gated snapshot badges are the only place a price can ever appear).
+// country, venue, date, show count) — no invented local facts and no
+// availability claims.
+//
+// Prices. A price may appear outside a CTA badge only where it is the same
+// gated snapshot, attributed to its own event, provider, currency and capture
+// time. The per-date answer table below satisfies that by deriving every figure
+// from serverShowCtaSpecs — the function that decides what the button prints —
+// so a price can never reach the table that the badge would withhold.
+//
+// Ranking stays same-event. Identifying the lower listed snapshot across
+// providers for one event is explicitly approved (docs/PROVIDER_DATA_POLICY.md
+// lines 71 and 165). A minimum across different dates is approved nowhere:
+// SAFE_PUBLISHING_RULES.md § Price Display and docs/CONTENT_RULES.md § Price
+// Data both scope a comparison to "the same local event and currency". So no
+// city-wide "from <price>" is composed here, and functions/_artist-city-prices.js
+// deliberately exposes no cross-row minimum for one to be built from.
 
 function artistCityVenueLabel(artistCity) {
   const venues = artistCity.venues || [];
@@ -1985,8 +2018,17 @@ function artistCityVenueLabel(artistCity) {
 function artistCityTitle(artist, artistCity) {
   const label = artistCity.label;
   const shortLabel = withoutParentheticalQualifier(label);
+  // "Prices & Dates" leads because it is the one tail that matches both halves
+  // of what these pages are searched for — "<artist> <city> ticket prices" and
+  // "<artist> <city> tickets" — in a string that never changes. A live figure
+  // is deliberately absent: metadata is composed here, before any price is
+  // fetched, and route.description is emitted verbatim as the CollectionPage
+  // JSON-LD description (see routeSchema), which is not gated on indexability.
+  // A price there would be machine-readable redistribution outside the
+  // SCHEMA_OFFERS_ENABLED exception and invisible to validate-route-schema.mjs.
   return fitTitleToBudget([
-    `${artist.name} Tickets in ${label} | Compare Prices`,
+    `${artist.name} Tickets in ${label} | Prices & Dates`,
+    `${artist.name} Tickets in ${shortLabel} | Prices & Dates`,
     `${artist.name} Tickets in ${shortLabel} | Compare Prices`,
     `${artist.name} Tickets in ${shortLabel} | Tickets`,
     `${artist.name} Tickets in ${shortLabel}`
@@ -1997,10 +2039,15 @@ function artistCityDescription(artist, artistCity) {
   const count = cityShowCountLabel(artistCity.showCount);
   const range = cityDateRangeLabel(artistCity);
   const venueLabel = artistCityVenueLabel(artistCity);
-  const lead = `Compare tickets for ${artist.name} in ${artistCity.label}. View ${count}`;
+  // States what the page does, never what a ticket costs. The numeric answer is
+  // server-rendered in the body instead: a listed-price snapshot moves faster
+  // than a search snippet is refreshed, so a figure here would be wrong in the
+  // SERP most of the time — and this string is also the CollectionPage JSON-LD
+  // description, where a price would escape every schema-offers control.
+  const lead = `Compare current listed ticket prices for ${artist.name} in ${artistCity.label} across checked ticket sites. View ${count}`;
   const wherePart = venueLabel ? ` at ${venueLabel}` : "";
   const whenPart = range ? ` (${range})` : "";
-  const tail = "then check dates and provider terms before you buy.";
+  const tail = "with the date and venue for each.";
   // Fallback ladder: both clauses, then venue only, then date range only, then
   // neither. The venue is the distinguishing local fact on an artist-city page
   // (same reasoning as keeping the city on a venue page), so it outranks the
@@ -2061,6 +2108,91 @@ function artistCityFaqEntries(artist, artistCity) {
     ]
   ];
   return entries;
+}
+
+// The page-level answer to the question these pages are actually searched for.
+// One row per tracked date, each carrying that date's own lowest eligible
+// listed-price snapshot, the provider offering it, and when it was captured.
+//
+// Three properties are load-bearing and should not be "tidied" away:
+//
+//   * Every figure comes from deriveCityDatePrices, which reads the same
+//     serverShowCtaSpecs output the CTA buttons are built from. There is no
+//     second price gate, so the table can never print a price the button below
+//     it withholds.
+//   * Rows are ordered by date and are never ranked against each other. The
+//     lowest in a row is a same-event, cross-provider comparison, which
+//     docs/PROVIDER_DATA_POLICY.md approves; ranking one date below another is
+//     approved nowhere and is not composed here or anywhere else.
+//   * Nothing renders when no date has an eligible lane. Not a heading, not an
+//     empty table — the page falls back to exactly what it rendered before.
+//
+// Indexability is not consulted. A single-date page is noindex because it adds
+// nothing an artist page cannot already rank for, which is a routing judgement,
+// not a reason to withhold the price from the visitor who is standing on it.
+function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer) {
+  const rows = priceAnswer?.rows || [];
+  if (!priceAnswer?.pricedRowCount || !rows.length) return "";
+
+  // Most cities on the site are a single-venue run, and repeating that venue
+  // down every row of the table is the "say each fact once" rule broken once
+  // per date. Name it in the lead instead and drop the column; keep the column
+  // only where the dates genuinely differ.
+  const venues = [...new Set(rows.map((row) => row.venue).filter(Boolean))];
+  const singleVenue = venues.length === 1 ? venues[0] : "";
+
+  const body = rows
+    .map((row) => {
+      const dateLabel = formatShowDateServer(row.datetimeISO, row.timezone) || "Date to be confirmed";
+      const cardAnchor = showAnchorId({ id: row.showId });
+      let priceCell;
+      if (row.lowest) {
+        const amount = formatServerPrice(row.lowest.price, row.lowest.currency);
+        const asOf = formatServerSnapshotTime(row.lowest.fetchedAt);
+        const age = snapshotAgeLabel(row.lowest.fetchedAt);
+        // The figure is the button: the same tracked /api/out destination, the
+        // same analytics attributes, a distinct cta_location so this surface's
+        // contribution is measurable on its own.
+        const button = renderProviderCtaButtonHtml(row.lowest.name, row.lowest.href, amount, {
+          provider: row.lowest.provider,
+          artistSlug: artist.slug,
+          showId: row.showId,
+          ctaLocation: "artist_city_answer"
+        });
+        priceCell = `${button}<span class="price-answer-asof muted">${escapeHtml(
+          age ? `${asOf}, ${age}` : asOf
+        )}</span>`;
+      } else if (row.checked) {
+        // Checked and nothing eligible came back. Saying so is honest; saying it
+        // about a row the server never queried would not be.
+        priceCell = `<span class="muted">No listed-price snapshot right now.</span>${
+          cardAnchor ? ` ${anchor("See ticket options", `#${cardAnchor}`, "text-link")}` : ""
+        }`;
+      } else {
+        priceCell = cardAnchor ? anchor("See ticket options", `#${cardAnchor}`, "text-link") : "";
+      }
+      const venueCell = singleVenue
+        ? ""
+        : `<td>${escapeHtml(row.venue || "Venue confirmed on the date")}</td>`;
+      return `<tr><th scope="row">${escapeHtml(
+        dateLabel
+      )}</th>${venueCell}<td>${priceCell}</td><td>${row.lowest ? String(row.comparedCount) : "—"}</td></tr>`;
+    })
+    .join("");
+
+  return `<section class="nested-panel artist-city-price-answer" aria-labelledby="artistCityPriceTitle"><h2 id="artistCityPriceTitle">How much are ${escapeHtml(
+    artist.name
+  )} tickets in ${escapeHtml(
+    artistCity.city
+  )}?</h2><p>The lowest listed price we currently hold for each tracked date${escapeHtml(
+    singleVenue ? `, all at ${singleVenue}` : ""
+  )}, and the ticket site offering it. "Sites compared" counts the ticket sites with an eligible listed-price snapshot for that exact date.</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest current listed price by date for ${escapeHtml(
+    artist.name
+  )} in ${escapeHtml(
+    artistCity.city
+  )}</caption><thead><tr><th scope="col">Date</th>${
+    singleVenue ? "" : '<th scope="col">Venue</th>'
+  }<th scope="col">Lowest listed price</th><th scope="col">Sites compared</th></tr></thead><tbody>${body}</tbody></table></div><p class="disclosure-note">Each figure is a provider-supplied listed-price snapshot for that exact date, captured at the time shown — not live inventory, not availability, and not a final checkout total. Fees, taxes, delivery and the final total are settled at the provider's checkout. Dates are listed in calendar order and are not ranked against each other.</p></section>`;
 }
 
 function artistCityShowIdSet(artistCity) {
@@ -3941,7 +4073,19 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       : "";
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
     const { shows, content: contentModel, pastShows } = artistBoardModel(route, events, env);
-    const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist);
+    // Same-event lowest per date, reusing the artist-city derivation over the
+    // whole board. onRequest already priced every one of these shows, so this
+    // costs no extra query; the by-city link list uses it to name the next
+    // date's price without ranking one city against another.
+    const artistLowestByShowId = new Map(
+      deriveCityDatePrices(shows, {
+        ctaSpecsFor: (show) =>
+          serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability })
+      }).rows
+        .filter((row) => row.lowest)
+        .map((row) => [row.showId, row.lowest])
+    );
+    const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist, artistLowestByShowId);
     const reviewNoticeHtml = isIndexableArtist || !shows.length
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;
@@ -4031,6 +4175,16 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // to exactly the reviewed shows in this city.
     const cityShowIds = artistCityShowIdSet(artistCity);
     const shows = futureShowsForArtist(events, artist.slug).filter((show) => cityShowIds.has(String(show.id || "")));
+    // The page-level price answer reads the same CTA specs the board below is
+    // built from, so it needs no query of its own and cannot disagree with the
+    // buttons. onRequest has already attached D1 cache rows to exactly these
+    // shows, so every row here was genuinely checked.
+    const priceAnswer = deriveCityDatePrices(shows, {
+      ctaSpecsFor: (show) =>
+        serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }),
+      wasChecked: pricesWereChecked
+    });
+    const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer);
     // A single-date page is noindex,follow: it renders the one show card, the
     // at-a-glance facts, and the crawl paths, and stops there. The FAQ block
     // would restate that same card four times, which is the filler this policy
@@ -4056,7 +4210,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artistCity.label
     )}</h1><p class="lead">${escapeHtml(
       artistCityIntroSentence(artist, artistCity)
-    )}</p><p class="disclosure-note">Prices and availability are set by the provider and can change. Any figure shown is a timestamped listed-price snapshot for a verified event, not a final checkout total. This is a selective list of reviewed dates, not a complete local calendar.</p>${renderArtistCityAnswerSummary(
+    )}</p><p class="disclosure-note">Prices and availability are set by the provider and can change. Any figure shown is a timestamped listed-price snapshot for a verified event, not a final checkout total. This is a selective list of reviewed dates, not a complete local calendar.</p>${priceAnswerHtml}${renderArtistCityAnswerSummary(
       artist,
       artistCity
     )}${renderShowBoardServerHtml(

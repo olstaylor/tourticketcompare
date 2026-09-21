@@ -92,6 +92,7 @@ either the request or the reviewed event record — never from a client claim:
 | Event id / date / city / venue | `event_id`, `event_date`, `event_city`, `event_venue` | the reviewed `events.json` record |
 | Provider | `provider` | validated provider slug |
 | CTA component | `cta_location` | `ctaLocation` on the tracked URL, allowlisted |
+| ↳ *allowed values* | `CTA_LOCATIONS` in `functions/_funnel.js` | `event_card`, `artist_provider_panel`, `artist_page`, `empty_state`, `comparison_hub`, `guide_provider_pair`, `venue_card`, `city_card`, `artist_city_answer`. Anything else is discarded rather than stored — the value arrives on a query string and is attacker-controllable, so the column stays low-cardinality by construction. `artist_city_answer` is the per-date price answer at the top of an artist-city page; it is its own surface rather than `event_card` so its contribution to marketplace clicks can be read separately from the show board underneath it. |
 | Destination category | `destination_category` | the host actually redirected to |
 | Affiliate status | `is_affiliate` | the host actually redirected to, not the provider's lane — a tracking response that resolves to a direct provider URL is genuinely unmonetized and is recorded as 0. A blocked click has no destination, so it falls back to the lane the visitor was trying to use |
 | Referrer / acquisition | `referrer`, `acquisition_source` | external referrer origin, **session entry row only**; `NULL` on every later event in the visit |

@@ -15,6 +15,7 @@
     "test:artist-content": "node scripts/artist-content.test.mjs",
     "test:artist-presentation": "node scripts/artist-presentation.test.mjs",
     "test:artist-cities": "node scripts/artist-cities.test.mjs",
+    "test:artist-city-prices": "node scripts/artist-city-prices.test.mjs",
     "test:route-indexability": "node scripts/route-indexability.test.mjs",
     "test:route-metadata": "node scripts/route-metadata.test.mjs",
     "test:homepage-proposition": "node scripts/homepage-proposition.test.mjs",

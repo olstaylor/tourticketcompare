@@ -17058,5 +17058,65 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "country": "United States Of America",
+    "city": "Fairfax",
+    "venue": "EagleBank Arena",
+    "datetime_iso": "2027-02-20T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fairfax-1a4zkf_gkdgvwvn",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "country": "United States Of America",
+    "city": "Fairfax",
+    "venue": "EagleBank Arena",
+    "datetime_iso": "2027-02-21T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-san-antonio-g5diz_olf8jri",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "country": "United States Of America",
+    "city": "San Antonio",
+    "venue": "Freeman Coliseum",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo-",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "country": "United States Of America",
+    "city": "Fargo",
+    "venue": "Fargodome",
+    "datetime_iso": "2027-03-18T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tobymac-2027-tulsa-1aozkf_gkdn-dht",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "country": "United States Of America",
+    "city": "Tulsa",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-03-21T23:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

@@ -241,7 +241,11 @@ These apply to city, venue, and artist-city pages together.
   the table is ordered by date and its rows are never ranked against each other
   (see `docs/PROVIDER_DATA_POLICY.md`).
   Where every tracked date shares one venue the venue is named once in the lead
-  and its column is dropped, per "Say each fact once" above. The same rule
+  and its column is dropped, per "Say each fact once" above. A priced row may
+  also carry the lowest price recorded for **that same event** over a trailing
+  30 days (`functions/_event-price-low.js`); it renders inside this block, feeds
+  no gate, and changes no route's indexability — the rules governing the figure
+  itself are in `docs/PROVIDER_DATA_POLICY.md`. The same rule
   governs the rest of the page when the table renders: the table states every
   tracked date and its venue, so the page lead drops the date range and venue
   it would otherwise repeat, and the at-a-glance panel drops the three cards

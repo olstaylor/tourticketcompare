@@ -2227,11 +2227,21 @@ summary {
 
 /* Overrides the .muted clamp(), which sizes body copy and is far too large for
    a timestamp sitting under a button inside a table cell. */
-.price-answer-table .price-answer-asof {
+.price-answer-table .price-answer-asof,
+.price-answer-table .price-answer-low {
   display: block;
   margin-top: 5px;
   font-size: 0.74rem;
   line-height: 1.35;
+}
+
+/* The trailing recorded low. Same size as the capture time above it but not
+   the same weight: it is a second figure in a cell that already has one, and
+   the eye needs to be able to tell them apart without reading. */
+.price-answer-table .price-answer-low {
+  margin-top: 3px;
+  font-weight: 800;
+  color: var(--ink);
 }
 
 @media (max-width: 620px) {

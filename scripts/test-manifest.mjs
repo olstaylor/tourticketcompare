@@ -62,6 +62,7 @@ export const STEPS = [
   { id: "test:artist-presentation",               lane: "quick",  run: "npm run test:artist-presentation" },
   { id: "test:artist-cities",                     lane: "quick",  run: "npm run test:artist-cities" },
   { id: "test:artist-city-prices",                lane: "quick",  run: "npm run test:artist-city-prices" },
+  { id: "test:event-price-low",                   lane: "units",  run: "npm run test:event-price-low" },
   { id: "test:location-pages",                    lane: "quick",  run: "npm run test:location-pages" },
   { id: "test:route-indexability",                lane: "quick",  run: "npm run test:route-indexability" },
   { id: "test:route-metadata",                    lane: "quick",  run: "npm run test:route-metadata" },

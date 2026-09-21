@@ -2060,11 +2060,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239089",
+        "url": "https://www.ticketnetwork.com/en/p/8239089",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zkf_Gkd7DMjf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239089"
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkdgvwvn",
@@ -2113,11 +2121,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239090",
+        "url": "https://www.ticketnetwork.com/en/p/8239090",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zkf_GkdgVWVn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239090"
   },
   {
     "id": "tm-tobymac-2027-san-antonio-g5diz_olf8jri",
@@ -2166,11 +2182,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239103",
+        "url": "https://www.ticketnetwork.com/en/p/8239103",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_olF8jRI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239103"
   },
   {
     "id": "tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo-",
@@ -2219,11 +2243,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239104",
+        "url": "https://www.ticketnetwork.com/en/p/8239104",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf_Gkd8VyO-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239104"
   },
   {
     "id": "tm-tobymac-2027-tulsa-1aozkf_gkdn-dht",
@@ -2272,10 +2304,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239106",
+        "url": "https://www.ticketnetwork.com/en/p/8239106",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkf_GkdN-dHT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239106"
   }
 ]

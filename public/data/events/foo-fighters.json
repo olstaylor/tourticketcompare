@@ -239,11 +239,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7511935",
-        "url": "https://www.ticketnetwork.com/en/p/7511935",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7511935",
@@ -263,7 +263,7 @@
     "ticketmaster_discovery_event_id": "1AoZku4GkewUExj",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026/event/106999129"
   },

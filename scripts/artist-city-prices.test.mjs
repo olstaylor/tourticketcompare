@@ -296,6 +296,8 @@ const text = (html) =>
     .replace(/\s+/g, " ")
     .trim();
 
+const occurrences = (haystack, needle) => haystack.split(needle).length - 1;
+
 const RUN_PATH = `/artists/${ARTIST.slug}/tickets/${RUN_CITY_SLUG}`;
 const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 
@@ -356,8 +358,41 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!/Ticket Liquidator\s*\$/.test(body), "a price-display-disabled lane never reaches the table");
   assert(!/SeatGeek\s*\$\d/.test(body), "SeatGeek never carries a price");
 
-  // The panel the internal-link audit depends on is untouched.
-  assert(body.includes("At a glance:") && body.includes("Short answer:"), "the existing at-a-glance panel is preserved");
+  // The panel the internal-link audit depends on keeps its two required
+  // markers. It is compressed, never removed: audit-internal-links.mjs fails an
+  // artist-city page that is missing either string.
+  assert(body.includes("At a glance:") && body.includes("Short answer:"), "the at-a-glance panel keeps the markers the internal-link audit requires");
+
+  // Say each fact once. The table above lists every tracked date and names the
+  // venue, so the three cards that restate it are gone and the lead no longer
+  // repeats the venue or the date range.
+  for (const card of ["Next tracked date", "Tracked date range", "Venues"]) {
+    assert(!body.includes(card), `"${card}" is not reprinted as a card beside the table that already states it`);
+  }
+  assert(
+    body.includes("most recent event record on this page was checked"),
+    "the one fact the table does not carry \u2014 event-record verification \u2014 survives the compression"
+  );
+  assert(
+    /not when a price was captured/.test(body),
+    "the panel distinguishes event-record verification from price capture time"
+  );
+  const lead = text((page.main.match(/<p class="lead">([\s\S]*?)<\/p>/) || [])[1] || "");
+  assert(lead.includes(`We track 2 upcoming shows for ${ARTIST.name} in ${RUN_CITY}`), "the lead still states the count, which the table only implies");
+  assert(!lead.includes("Fixture Arena"), "the lead drops the venue the table names in its own lead");
+  assert(!/Sep 10, 2026 to/.test(lead), "the lead drops the date range the table states row by row");
+  // Each show card naming its own venue is not duplication \u2014 a card is the one
+  // place that fact belongs. What the compression removes is the copies in the
+  // lead and the panel, so the priced page must state the venue strictly fewer
+  // times than the same page with no table on it.
+  const unpricedBody = text((await render(RUN_PATH, { withDb: false })).main);
+  assert(
+    occurrences(body, "Fixture Arena") < occurrences(unpricedBody, "Fixture Arena"),
+    `adding the table must reduce, not add to, the venue's repetitions (priced ${occurrences(
+      body,
+      "Fixture Arena"
+    )}, unpriced ${occurrences(unpricedBody, "Fixture Arena")})`
+  );
 }
 
 // ── metadata stays free of live numbers ─────────────────────────────────────
@@ -415,6 +450,15 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!body.includes("Sites compared"), "with no eligible lane the table is not rendered");
   assert(!/price-answer-table/.test(page.main), "with no eligible lane no empty table frame is left behind");
   assert(body.includes("At a glance:"), "the page falls back to exactly what it rendered before");
+  // The compression is tied to the table, so with no table every card returns.
+  for (const card of ["Next tracked date", "Tracked date range", "Venues", "Verification recency"]) {
+    assert(body.includes(card), `"${card}" returns when there is no table to restate`);
+  }
+  const unpricedLead = text((page.main.match(/<p class="lead">([\s\S]*?)<\/p>/) || [])[1] || "");
+  assert(
+    unpricedLead.includes("Fixture Arena") && /Sep 10, 2026 to/.test(unpricedLead),
+    "the lead keeps the venue and date range when no table states them"
+  );
   assert(!/[$£€]\s?\d/.test(body), "no figure is invented when the lanes were not readable");
 }
 
@@ -445,6 +489,88 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(/Sep .*: \$182, Vivid Seats/.test(body), "a city row names the next date and that date's own lowest price");
   assert(!/\bfrom \$\d/i.test(body), "the artist page makes no 'from <price>' claim for a city");
   assert(!/cheapest city|lowest city/i.test(body), "cities are never ranked against each other");
+
+  // Freshness travels with the figure. docs/PROVIDER_DATA_POLICY.md admits a
+  // price outside a CTA badge only when it carries its own event, provider,
+  // currency AND capture time; the event date is not the capture time, so a
+  // row showing "Nov 4, 2026: $310" and nothing else would be unattributed.
+  assert(
+    /: \$182, Vivid Seats \(snapshot 9 Aug 2026, 09:00 UTC\)/.test(body),
+    "a city row carries the snapshot capture time beside the price, not just the event date"
+  );
+  // Counted rather than pattern-matched per row: what must hold is that the
+  // list contains no priced row without a capture time, so the two counts are
+  // the assertion.
+  const cityList = body.slice(body.indexOf("Dates by city"), body.indexOf("Related guides"));
+  const priced = [...cityList.matchAll(/: \$[\d.,]+, /g)].length;
+  const stamped = [...cityList.matchAll(/\(snapshot [^)]*UTC\)/g)].length;
+  assert(priced >= 2, `more than one city row carries a price (was ${priced})`);
+  assert(priced === stamped, `every priced city row carries a capture time (${priced} priced, ${stamped} stamped)`);
+}
+
+// ── the page never contradicts itself about what it compares ──────────────
+{
+  // The answer table names the lower listed figure for a date. The shared help
+  // component sits on the same page and used to say "We don't rank the sites
+  // or claim one is lower", which the table directly falsified. The two must
+  // describe the same behaviour: a same-event comparison, never a cross-date
+  // one and never a verdict on a site.
+  const helpSource = await read("functions/_artist-content.js");
+  assert(
+    !/don'?t rank the sites or claim one is lower/.test(helpSource),
+    "the help copy no longer denies the comparison the answer table performs"
+  );
+
+  const page = await render(RUN_PATH);
+  const body = text(page.main);
+  assert(body.includes("Lowest listed price"), "the table still labels its figure");
+  assert(
+    /lower listed figure/.test(body) && /never across different dates/.test(body),
+    "the help copy states the comparison's real scope: same date, both directions bounded"
+  );
+  assert(
+    /never a claim that a site is cheaper overall/.test(body),
+    "the help copy still refuses the site-level verdict the policy forbids"
+  );
+  assert(!/\bcheapest\b|\bbest price\b/i.test(body), "no banned ranking copy reaches the page");
+}
+
+// ── the widest component on the site fits a 320px viewport ──────────────
+{
+  // `main` is a grid, so a grid item's automatic minimum size is its
+  // min-content: one cell that cannot shrink scrolls the whole document
+  // sideways rather than clipping locally. The price cell is exactly that
+  // shape — a pill CTA whose min-content is a long provider name plus a
+  // nowrap figure, above a timestamp that .muted would otherwise size as body
+  // copy. These are the rules that hold it inside the card.
+  const css = await read("public/styles.css");
+  assert(/\.price-answer-table \{[^}]*table-layout: fixed/.test(css), "the table must not size itself from its content");
+  assert(/\.price-answer-table \{[^}]*width: 100%/.test(css), "the table must not exceed its wrapper");
+  assert(
+    /\.price-answer-table \.provider-cta \{[^}]*flex-wrap: wrap/.test(css),
+    "the CTA inside a cell must wrap rather than force the column wider than the provider name"
+  );
+  assert(
+    /\.price-answer-table \.price-answer-asof \{[^}]*font-size:/.test(css),
+    "the capture time needs its own size: .muted sizes body copy and is too large inside a cell"
+  );
+
+  const stacked = (css.match(/@media \(max-width: 620px\) \{[\s\S]*?\n\}\n/g) || []).find((block) =>
+    block.includes(".price-answer-table")
+  );
+  assert(stacked, "styles.css must carry a narrow-screen block for the price answer table");
+  assert(/\.price-answer-table tr,/.test(stacked), "rows become blocks on a narrow screen");
+  assert(/td\[data-label\]::before/.test(stacked), "stacked cells carry their column name from data-label");
+  assert(/\.price-answer-table thead \{[^}]*clip:/.test(stacked), "the header row is hidden visually, not removed from the table");
+
+  // The CSS above is inert unless the markup supplies the labels it reads.
+  const page = await render(RUN_PATH);
+  const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
+  assert(/<td data-label="Sites compared">/.test(section), "the count cell carries its column name for the stacked layout");
+  assert(/<td class="price-answer-price">/.test(section), "the price cell is addressable so it is not double-labelled");
+  const multi = await render(`/artists/${ARTIST.slug}/tickets/${MULTI_CITY_SLUG}`);
+  const multiSection = (multi.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
+  assert(/<td data-label="Venue">/.test(multiSection), "the venue cell carries its column name where the column exists");
 }
 
 console.log(`artist-city-prices: ${passed} checks passed`);

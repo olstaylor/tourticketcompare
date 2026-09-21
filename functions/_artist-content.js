@@ -350,7 +350,7 @@ export function artistTicketHelp() {
     points: [
       "A button on a date card opens that ticket site's page for that exact date. The buttons under \"Where to buy\" are different: they open the artist's page on a ticket site, not a specific date.",
       "A price on a button is a snapshot: one site's listed price for that one date, captured at the time shown next to it. Not live stock, and not your final total.",
-      "Each site's price stands alone, with its own timestamp. We don't rank the sites or claim one is lower.",
+      "Where more than one site has a snapshot for the same date, we name the lower listed figure and the site offering it. That compares two timestamped snapshots for one date — never across different dates, and never a claim that a site is cheaper overall.",
       "Fees, delivery and tax are added at the provider's checkout — compare the total there, not the first number you see.",
       "A date-card button only appears once we've followed the link to that exact event. Where we haven't, the date is listed with no button rather than a guess."
     ]

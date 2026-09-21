@@ -11,39 +11,39 @@ sources:
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: Are there additional fees? How are fees determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210524-are-there-additional-fees-how-are-fees-determined-
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: Vivid Seats order protection terms
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: What is Electronic Transfer?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/11000005313-what-is-electronic-transfer-
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: Estimated Delivery Date
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000213827-estimated-delivery-date
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
   - name: Vivid Seats Rewards
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards
-    last_checked: 2026-08-20
+    last_checked: 2026-09-21
 ---
 
 **Short verdict:** Ticketmaster is often the authorised primary seller for a concert and also carries clearly labelled resale tickets. Vivid Seats is a resale marketplace where independent resellers list tickets. Neither role makes one provider the right choice for every order. Start with the seller named by the artist, venue, or promoter for an official onsale. When you compare resale options, match the exact event, ticket type, quantity, section or standing area, delivery method, and complete checkout total.

@@ -8,15 +8,15 @@ sources:
   - name: Event Updates
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/categories/13919047702033-Event-Updates
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: What are the signs of a scam?
     publisher: US Federal Trade Commission
     url: https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 When a concert is postponed, rescheduled, cancelled, or moved, it can throw your plans into doubt, especially if you have already paid or booked travel. The most useful first move is to slow down, confirm what has actually happened, and read the terms that apply to your specific ticket.

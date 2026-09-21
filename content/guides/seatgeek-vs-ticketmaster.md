@@ -8,35 +8,35 @@ sources:
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: How do I sell tickets?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9672915828881-How-do-I-sell-tickets
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: Does SeatGeek charge a fee to buy tickets?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: What is the secondary ticket market?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360012945394-What-is-the-secondary-ticket-market-
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: Can I trust tickets sold on SeatGeek?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: What is Deal Score?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360007200954-What-is-Deal-Score
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
 ---
 
 **Short answer:** SeatGeek and Ticketmaster are separate companies, and neither is always cheaper or better. Ticketmaster is the primary ticketing provider for many events and also displays labelled resale inventory. SeatGeek is a primary ticketing provider for some partners and a secondary marketplace where fans and other sellers can list eligible tickets. The right starting point depends on who the artist, venue, team, or promoter names for the exact event.

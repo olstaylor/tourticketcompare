@@ -8,15 +8,15 @@ sources:
   - name: What are the signs of a scam?
     publisher: US Federal Trade Commission
     url: https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How to Spot Scams
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/28222417389843-How-to-Spot-Scams
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: What ticket delivery options does Ticketmaster offer?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 legacy_article_headline: How to Avoid Ticket Scams
 legacy_article_description: Practical guidance on distinguishing ticket scams from resale risk, checking platforms and sellers before paying, and what to do if something goes wrong.
 ---

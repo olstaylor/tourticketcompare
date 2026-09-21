@@ -8,15 +8,15 @@ sources:
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 You check a ticket in the morning, come back in the afternoon, and the number has moved. That is normal, and it usually has a concrete cause: a fee that only loads at checkout, a seller who has relisted, a provider that prices certain seats by demand, or simply different stock than was there earlier. None of it means you have done something wrong, and none of it can be predicted reliably for one specific show.

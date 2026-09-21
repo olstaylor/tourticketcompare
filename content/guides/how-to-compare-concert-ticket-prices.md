@@ -8,23 +8,23 @@ sources:
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: Does SeatGeek charge a fee to buy tickets?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: All In Prices
     publisher: Ticketmaster
     url: https://www.ticketmaster.com/welcome/all-in
-    last_checked: 2026-07-14
+    last_checked: 2026-09-21
 howto:
   name: How to Compare Concert Ticket Prices Safely
   description: A step-by-step guide to comparing concert ticket options using verified event details, timestamped price snapshots, like-for-like ticket checks, final totals, and provider terms.

@@ -8,11 +8,11 @@ sources:
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 Ticketmaster and StubHub can turn up in the same ticket search, but they usually mean different buying paths. Ticketmaster handles a lot of official primary ticketing, along with some official resale. StubHub is a resale marketplace, where sellers list tickets under the marketplace's rules.

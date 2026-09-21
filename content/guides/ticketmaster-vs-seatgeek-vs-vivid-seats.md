@@ -8,35 +8,35 @@ sources:
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: Does SeatGeek charge a fee to buy tickets?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: Can I trust tickets sold on SeatGeek?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: Vivid Seats order-protection terms
     publisher: Vivid Seats
     url: https://www.vividseats.com/guarantee
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: What is Deal Score?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360007200954-What-is-Deal-Score
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
   - name: Vivid Seats Rewards
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards
-    last_checked: 2026-07-13
+    last_checked: 2026-09-21
 ---
 
 Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.

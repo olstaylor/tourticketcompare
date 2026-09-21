@@ -8,15 +8,15 @@ sources:
   - name: Cracking down on ticket bots that leave you out in the cold
     publisher: US Federal Trade Commission
     url: https://consumer.ftc.gov/consumer-alerts/2021/01/cracking-down-ticket-bots-leave-you-out-cold
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: What should I expect when buying tickets for prominent events?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/11181317039891
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 "Buy early" and "wait for prices to drop" are both offered as the answer, and neither holds for every show. There is no single best moment to buy, because the right moment depends on what you are optimising for — getting in at all, a particular seat, sitting with your group, sticking to a budget, or keeping your options open.

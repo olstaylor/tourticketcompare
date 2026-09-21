@@ -8,15 +8,15 @@ sources:
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: What ticket delivery options does Ticketmaster offer?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How and when will my tickets be delivered?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 Ticket listings on different sites can look alike while using slightly different labels for seating, ticket type, delivery, and listing notes. Reading one closely before checkout saves you from surprises that are hard to undo once you have paid.

@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-20T09:49:16.606Z
+Generated: 2026-09-21T10:40:31.957Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 258 (needs_recheck: 258, provenance backfill: 0, stale re-check: 129)
-- Events skipped before API checks: 119
-- API calls made: 260
-- Verified provenance written: 129
+- Events selected: 255 (needs_recheck: 255, provenance backfill: 0, stale re-check: 127)
+- Events skipped before API checks: 122
+- API calls made: 257
+- Verified provenance written: 127
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 2
 - Conflicts (ambiguous, untouched): 1
-- No qualifying listing: 126
+- No qualifying listing: 125
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -33,9 +33,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | olivia-rodrigo | verify (applied) | 18211722 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | olivia-rodrigo | verify (applied) | 18211723 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 | - |
 | tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | ed-sheeran | verify (applied) | 17729039 | https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039 | - |
-| tm-zach-bryan-2026-dover-z7r9jz1a7r4vj | zach-bryan | unverify (applied) | - | - | stored URL failed: SeatGeek /events/17930445 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-tame-impala-2026-houston-z7r9jz1a7-f_z | tame-impala | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18070199 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-tame-impala-2026-houston-z7r9jz1a7-a4m | tame-impala | verify (applied) | 18080351 | https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-20-7-pm/concert/18080351 | - |
+| tm-tame-impala-2026-houston-z7r9jz1a7-a4m | tame-impala | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18080351 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-gracie-abrams-2027-amsterdam-z698xzbpz16vpdafzk | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -152,7 +150,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe | sabaton | verify (applied) | 17726761 | https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761 | - |
 | tm-sabaton-2027-rotterdam-z698xzbpz1k_n08z3 | sabaton | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-sabaton-2027-hamburg-z698xzc2z16vakvyjp | sabaton | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-beartooth-2026-hannover-z698xzc2z16vcpokjv | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-beartooth-2026-berlin-z698xzc2z16vovkbjo | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-beartooth-2026-philadelphia-z7r9jz1a70tke | beartooth | verify (applied) | 18253089 | https://seatgeek.com/beartooth-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-13-6-pm/concert/18253089 | - |
 | tm-beartooth-2026-pittsburgh-z7r9jz1a70t36 | beartooth | verify (applied) | 18253081 | https://seatgeek.com/beartooth-tickets/pittsburgh-pennsylvania-stage-ae-2026-11-18-6-pm/concert/18253081 | - |
@@ -192,7 +189,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj | the-airborne-toxic-event | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov | the-airborne-toxic-event | verify (applied) | 18415996 | https://seatgeek.com/the-airborne-toxic-event-tickets/englewood-colorado-gothic-theatre-2027-06-08-8-pm/concert/18415996 | - |
 | tm-the-airborne-toxic-event-2027-portland-z7r9jz1aazfzx | the-airborne-toxic-event | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-andrea-bocelli-2026-morrison-z7r9jz1a7-zq4 | andrea-bocelli | verify (applied) | 18039204 | https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-20-8-pm/concert/18039204 | - |
+| tm-andrea-bocelli-2026-morrison-z7r9jz1a7-zq4 | andrea-bocelli | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18039204 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p | andrea-bocelli | verify (applied) | 18039206 | https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-21-8-pm/concert/18039206 | - |
 | tm-morat-2027-grand-prairie-z7r9jz1a70iu_ | morat | verify (applied) | 18259792 | https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792 | - |
 | tm-morat-2027-sugar-land-z7r9jz1a70iu- | morat | verify (applied) | 18259793 | https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793 | - |
@@ -401,10 +398,13 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu | zach-bryan | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt | zach-bryan | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-zach-bryan-2026-dover-z7r9jz1a7r4vz | zach-bryan | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-zach-bryan-2026-dover-z7r9jz1a7r4vj | zach-bryan | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jelly-roll-2026-colorado-springs-z7r9jz1a7xfou | jelly-roll | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tame-impala-2026-minneapolis-z7r9jz1a7-f_m | tame-impala | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-tame-impala-2026-houston-z7r9jz1a7-f_z | tame-impala | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-john-summit-2026-chicago-z7r9jz1aazo4o | john-summit | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-san-juan-z7r9jz1aazgb_ | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-san-juan-z7r9jz1aazm40 | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-beartooth-2026-oberhausen-z698xzc2z16v0vue-v | beartooth | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-beartooth-2026-hannover-z698xzc2z16vcpokjv | beartooth | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-beartooth-2026-oberhausen-z698xzc2z16voyj3up | beartooth | event is in the past — SeatGeek delists finished shows; nothing to maintain |

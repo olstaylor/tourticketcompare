@@ -409,11 +409,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7710815",
-        "url": "https://www.ticketliquidator.com/tickets/7710815/Andrea-Bocelli-tickets-Sun-Sep-20-2026-Red-Rocks-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107665187",
@@ -433,7 +433,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-ZQ4",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710815/Andrea-Bocelli-tickets-Sun-Sep-20-2026-Red-Rocks-Amphitheatre",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-20-2026/event/107665187",
     "ticketnetwork_url": ""
   },

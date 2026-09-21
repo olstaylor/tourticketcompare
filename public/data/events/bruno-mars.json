@@ -2595,11 +2595,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7679362",
-        "url": "https://www.ticketliquidator.com/tickets/7679362/Bruno-Mars-tickets-Sun-Sep-20-2026-Hard-Rock-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107077121",
@@ -2614,7 +2614,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1VZ_e-DkwJ_",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679362/Bruno-Mars-tickets-Sun-Sep-20-2026-Hard-Rock-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-20-2026/event/107077121"
   },
   {

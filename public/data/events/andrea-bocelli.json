@@ -416,11 +416,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107665187",
-        "url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-20-2026/event/107665187",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -434,7 +434,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-20-2026/event/107665187",
+    "stubhub_international_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -1520,13 +1520,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669463",
+        "url": "https://www.stubhub.ie/andrea-bocelli-dallas-tickets-2-5-2027/event/107669463",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_33_TJ3C",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258128",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258128/Andrea-Bocelli-tickets-Fri-Feb-5-2027-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258128/Andrea-Bocelli-tickets-Fri-Feb-5-2027-American-Airlines-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-dallas-tickets-2-5-2027/event/107669463"
   },
   {
     "id": "tm-andrea-bocelli-2027-houston-z7r9jz1aavs_v",

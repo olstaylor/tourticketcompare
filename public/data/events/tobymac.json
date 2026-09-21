@@ -2067,12 +2067,20 @@
         "verified": true,
         "last_verified_at": "2026-09-21",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239089",
+        "url": "https://www.ticketliquidator.com/tickets/8239089/TobyMac-tickets-Fri-Feb-19-2027-EagleBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zkf_Gkd7DMjf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239089"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239089",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239089/TobyMac-tickets-Fri-Feb-19-2027-EagleBank-Arena"
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkdgvwvn",
@@ -2128,12 +2136,20 @@
         "verified": true,
         "last_verified_at": "2026-09-21",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239090",
+        "url": "https://www.ticketliquidator.com/tickets/8239090/TobyMac-tickets-Sat-Feb-20-2027-EagleBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zkf_GkdgVWVn",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239090"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239090",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239090/TobyMac-tickets-Sat-Feb-20-2027-EagleBank-Arena"
   },
   {
     "id": "tm-tobymac-2027-san-antonio-g5diz_olf8jri",
@@ -2189,12 +2205,20 @@
         "verified": true,
         "last_verified_at": "2026-09-21",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239103",
+        "url": "https://www.ticketliquidator.com/tickets/8239103/TobyMac-tickets-Fri-Mar-12-2027-Freeman-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_olF8jRI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239103"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239103",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239103/TobyMac-tickets-Fri-Mar-12-2027-Freeman-Coliseum"
   },
   {
     "id": "tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo-",
@@ -2250,12 +2274,20 @@
         "verified": true,
         "last_verified_at": "2026-09-21",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239104",
+        "url": "https://www.ticketliquidator.com/tickets/8239104/TobyMac-tickets-Wed-Mar-17-2027-Fargodome",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf_Gkd8VyO-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239104"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239104",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239104/TobyMac-tickets-Wed-Mar-17-2027-Fargodome"
   },
   {
     "id": "tm-tobymac-2027-tulsa-1aozkf_gkdn-dht",
@@ -2311,11 +2343,19 @@
         "verified": true,
         "last_verified_at": "2026-09-21",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239106",
+        "url": "https://www.ticketliquidator.com/tickets/8239106/TobyMac-tickets-Sun-Mar-21-2027-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkf_GkdN-dHT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239106"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239106",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239106/TobyMac-tickets-Sun-Mar-21-2027-BOK-Center"
   }
 ]

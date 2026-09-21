@@ -8,15 +8,15 @@ sources:
   - name: What ticket delivery options does Ticketmaster offer?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: What is mobile transfer ticket delivery?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360018039394-What-are-mobile-transfer-tickets-and-how-are-they-delivered
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 Two tickets for the same show can be worth very different amounts to you depending on one thing the price never shows: when the ticket actually reaches you. Some arrive the moment you pay. Others sit with the seller or the provider until days before the show, sometimes hours. If you are travelling in, meeting friends at the door, or buying as a gift, that timing is not a detail — it shapes the whole decision.

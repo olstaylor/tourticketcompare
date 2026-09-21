@@ -8,23 +8,23 @@ sources:
   - name: About Us
     publisher: TicketNetwork
     url: https://www.ticketnetwork.com/about-us
-    last_checked: 2026-08-19
+    last_checked: 2026-09-21
   - name: Policies
     publisher: TicketNetwork
     url: https://www.ticketnetwork.com/policies
-    last_checked: 2026-08-19
+    last_checked: 2026-09-21
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-08-19
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-08-19
+    last_checked: 2026-09-21
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-08-19
+    last_checked: 2026-09-21
 ---
 
 **Short answer:** they are not the same kind of seller, so "which is cheaper" is rarely the useful question. Ticketmaster is the official primary ticketing provider for a great many events, and also lists labelled third-party resale. TicketNetwork is a resale marketplace: it does not issue the tickets itself, it hosts listings from professional ticket-selling companies and other trusted sellers.

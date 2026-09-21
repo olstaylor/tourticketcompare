@@ -8,15 +8,15 @@ sources:
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: Does SeatGeek charge a fee to buy tickets?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 A lower displayed price is useful only if it leads to a lower total for the same ticket. Fees, tax, delivery choices, currency conversion and extras can change that answer at checkout — so a fee comparison should end at the order summary, not a search result.

@@ -8,15 +8,15 @@ sources:
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How and when will my tickets be delivered?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 Primary, official resale and marketplace resale can appear beside each other for the same concert, but they answer different buying needs. The useful question is not which label is universally better; it is whether the exact ticket, total, delivery timing and provider terms fit your plans.

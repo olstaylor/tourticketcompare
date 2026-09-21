@@ -8,11 +8,11 @@ sources:
   - name: How do I use a SeatGeek promo code?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360024576754-How-do-I-use-my-Promo-code-
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: Can I move or transfer a promo code to another SeatGeek account?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360007288553-Can-I-move-my-promo-code-to-another-account
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 ---
 
 Search for a SeatGeek promo code and you will find plenty of them listed across coupon sites and social posts. The harder question is whether any given code will actually do anything for your order, because that depends on your account, the event, your order total, where you are, and SeatGeek's own terms at the moment you check out. A code can be perfectly real and still apply nothing to your basket.

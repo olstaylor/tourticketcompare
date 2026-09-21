@@ -8,15 +8,15 @@ sources:
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: How are ticket prices and fees determined?
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
   - name: Does SeatGeek charge a fee to buy tickets?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets
-    last_checked: 2026-07-22
+    last_checked: 2026-09-21
 legacy_article_headline: How to Avoid Overpaying for Concert Tickets
 legacy_article_description: Practical guidance on understanding concert ticket pricing, comparing final checkout totals, avoiding pressure decisions, and confirming provider terms before you buy.
 ---

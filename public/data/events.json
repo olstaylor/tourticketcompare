@@ -16802,11 +16802,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7679362",
-        "url": "https://www.ticketnetwork.com/en/p/7679362",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7679362",
@@ -16827,7 +16827,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1VZ_e-DkwJ_",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679362",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679362/Bruno-Mars-tickets-Sun-Sep-20-2026-Hard-Rock-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-20-2026/event/107077121"
   },
@@ -27557,11 +27557,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7745714",
-        "url": "https://www.ticketnetwork.com/en/p/7745714",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7745714",
@@ -27574,7 +27574,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-a4M",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745714",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745714/Tame-Impala-tickets-Sun-Sep-20-2026-Toyota-Center-TX"
   },
   {
@@ -43222,11 +43222,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7511935",
-        "url": "https://www.ticketnetwork.com/en/p/7511935",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7511935",
@@ -43246,7 +43246,7 @@
     "ticketmaster_discovery_event_id": "1AoZku4GkewUExj",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026/event/106999129"
   },
@@ -75574,11 +75574,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7710815",
-        "url": "https://www.ticketnetwork.com/en/p/7710815",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-ZQ4",
@@ -75586,7 +75586,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710815/Andrea-Bocelli-tickets-Sun-Sep-20-2026-Red-Rocks-Amphitheatre",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-20-2026/event/107665187",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7710815"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p",
@@ -95032,11 +95032,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239089",
+        "url": "https://www.ticketnetwork.com/en/p/8239089",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zkf_Gkd7DMjf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239089"
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkdgvwvn",
@@ -95085,11 +95093,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239090",
+        "url": "https://www.ticketnetwork.com/en/p/8239090",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zkf_GkdgVWVn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239090"
   },
   {
     "id": "tm-tobymac-2027-san-antonio-g5diz_olf8jri",
@@ -95138,11 +95154,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239103",
+        "url": "https://www.ticketnetwork.com/en/p/8239103",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_olF8jRI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239103"
   },
   {
     "id": "tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo-",
@@ -95191,11 +95215,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239104",
+        "url": "https://www.ticketnetwork.com/en/p/8239104",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf_Gkd8VyO-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239104"
   },
   {
     "id": "tm-tobymac-2027-tulsa-1aozkf_gkdn-dht",
@@ -95244,10 +95276,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239106",
+        "url": "https://www.ticketnetwork.com/en/p/8239106",
+        "verified": true,
+        "last_verified_at": "2026-09-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkf_GkdN-dHT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239106"
   }
 ]

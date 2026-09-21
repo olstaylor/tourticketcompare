@@ -203,7 +203,7 @@
     "ticketmaster_event_id": "11006355B2DA789C",
     "ticketmaster_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-vancouver-british-columbia-09-20-2026/event/11006355B2DA789C",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026--concerts-rock/production/6176492",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/foo-fighters-take-cover-tour-2026-vancouver-british-columbia-09-20-2026/event/11006355B2DA789C",
     "last_verified_at": null,
@@ -225,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6176492,
-        "url": "https://www.vividseats.com/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026--concerts-rock/production/6176492",
-        "verified": true,
-        "last_verified_at": "2026-09-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -305,7 +305,7 @@
         "event_id": 6176494,
         "url": "https://www.vividseats.com/foo-fighters-tickets-las-vegas-allegiant-stadium-9-26-2026--concerts-rock/production/6176494",
         "verified": true,
-        "last_verified_at": "2026-09-18",
+        "last_verified_at": "2026-09-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -382,7 +382,7 @@
         "event_id": 7256653,
         "url": "https://www.vividseats.com/foo-fighters-tickets-uncasville-mohegan-sun-arena-ct-10-4-2026/production/7256653",
         "verified": true,
-        "last_verified_at": "2026-09-18",
+        "last_verified_at": "2026-09-21",
         "availability_status": "listed"
       },
       "stubhub": {

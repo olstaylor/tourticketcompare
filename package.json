@@ -150,7 +150,8 @@
     "automation:health:dry-run": "node scripts/check-automation-health.mjs --dry-run",
     "automation:health:self-test": "node scripts/check-automation-health.mjs --self-test",
     "docs:check": "node scripts/validate-docs.mjs",
-    "test:remediation-review": "node scripts/remediation-review-self-test.mjs"
+    "test:remediation-review": "node scripts/remediation-review-self-test.mjs",
+    "test:affiliate-attribution": "node scripts/affiliate-attribution.test.mjs"
   },
   "devDependencies": {
     "sharp": "^0.35.4",

@@ -207,16 +207,64 @@ const PRICE_ROWS = [
   { event_id: MULTI_B.id, provider: "ticketnetwork", low_price: 99, currency: "USD", verified_at: "2026-08-01T09:00:00Z", expires_at: "2026-08-02T09:00:00Z", source: "ticketnetwork_impact_marketplace_api" }
 ];
 
-function fakeDb(rows) {
+// Recorded observations behind the 30-day low. The pinned clock is
+// 2026-08-09T12:00:00Z, so the window opens 2026-07-10T12:00:00Z.
+const HISTORY_ROWS = [
+  // RUN_A: the carry-in case. One row, 2026-07-01 — BEFORE the window opens, so
+  // a naive `observed_at >= windowStart` query returns nothing for this series
+  // even though $150 was the standing observation throughout.
+  { event_id: RUN_A.id, provider: "vivid-seats", currency: "USD", low_price: 150, observed_at: "2026-07-01T09:00:00Z" },
+  // RUN_B: an ordinary in-window low, cheaper than either current lane.
+  { event_id: RUN_B.id, provider: "ticketnetwork", currency: "USD", low_price: 175, observed_at: "2026-07-20T09:00:00Z" },
+  // RUN_B again, implausible: must be floored out rather than become the low.
+  { event_id: RUN_B.id, provider: "vivid-seats", currency: "USD", low_price: 1, observed_at: "2026-07-22T09:00:00Z" }
+  // SOLO deliberately has no rows at all: the page must not claim to have
+  // watched it for 30 days.
+];
+
+function fakeDb(rows, historyRows = []) {
+  const knownIds = new Set(historyRows.map((row) => String(row.event_id)));
+  const knownProviders = new Set(historyRows.map((row) => String(row.provider)));
   return {
     prepare(sql) {
       return {
-        bind(...ids) {
+        bind(...bindings) {
           return {
             async all() {
-              if (!/provider_pricing_cache/.test(sql)) return { results: [] };
-              const wanted = new Set(ids.map(String));
-              return { results: rows.filter((row) => wanted.has(String(row.event_id))) };
+              if (/provider_pricing_cache/.test(sql)) {
+                const wanted = new Set(bindings.map(String));
+                return { results: rows.filter((row) => wanted.has(String(row.event_id))) };
+              }
+              if (!/provider_pricing_history/.test(sql)) return { results: [] };
+              // Emulates the documented SQLite rule the real query relies on:
+              // with exactly one min()/max() aggregate, bare columns come from
+              // the row that produced the extreme.
+              const windowStart = String(bindings.at(-1));
+              const ids = new Set(bindings.filter((b) => knownIds.has(String(b))).map(String));
+              const providers = new Set(bindings.filter((b) => knownProviders.has(String(b))).map(String));
+              const inWindow = /MIN\(low_price\)/.test(sql);
+              const scoped = historyRows.filter(
+                (row) =>
+                  ids.has(String(row.event_id)) &&
+                  providers.has(String(row.provider)) &&
+                  (inWindow
+                    ? String(row.observed_at) >= windowStart
+                    : String(row.observed_at) < windowStart)
+              );
+              const groups = new Map();
+              for (const row of scoped) {
+                const key = `${row.event_id}|${row.provider}|${row.currency}`;
+                const held = groups.get(key);
+                if (!held) {
+                  groups.set(key, row);
+                  continue;
+                }
+                const wins = inWindow
+                  ? Number(row.low_price) < Number(held.low_price)
+                  : String(row.observed_at) > String(held.observed_at);
+                if (wins) groups.set(key, row);
+              }
+              return { results: [...groups.values()] };
             }
           };
         }
@@ -260,7 +308,7 @@ function env({ withDb }) {
     TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED: "false",
     STUBHUB_INTERNATIONAL_PUBLIC_ENABLED: "true",
     STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED: "true",
-    ...(withDb ? { DEMAND_DB: fakeDb(PRICE_ROWS) } : {}),
+    ...(withDb ? { DEMAND_DB: fakeDb(PRICE_ROWS, HISTORY_ROWS) } : {}),
     ASSETS: {
       async fetch(request) {
         const body = assets.get(new URL(request.url).pathname);
@@ -508,6 +556,57 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(priced === stamped, `every priced city row carries a capture time (${priced} priced, ${stamped} stamped)`);
 }
 
+// ── the 30-day recorded low, rendered ───────────────────────────
+{
+  const page = await render(RUN_PATH);
+  const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
+  const body = text(section);
+
+  // THE case. RUN_A's only recorded row is 2026-07-01, before the window opens
+  // on 2026-07-10 — so a `WHERE observed_at >= windowStart` query returns
+  // nothing for it. If this assertion ever fails while the rest pass, the
+  // carry-in has been dropped and the feature is silently reporting "no
+  // history" for prices that have simply been stable.
+  assert(
+    /30-day low \$150 · Vivid Seats, 1 Jul 2026/.test(body),
+    "a low observed before the window opened is still reported, with its true observation date"
+  );
+  assert(
+    /30-day low \$175 · TicketNetwork, 20 Jul 2026/.test(body),
+    "an in-window low is reported and attributed to the provider that recorded it"
+  );
+  // A $1 row sits in RUN_B's history. The floor is applied on read because
+  // history is immutable and carries rows written before the floor existed.
+  assert(!/30-day low \$1\b/.test(body), "an implausible historical row never becomes the low");
+
+  // The invariant that keeps the cell coherent: every reported low is at or
+  // below the current figure printed directly above it.
+  const pairs = [...section.matchAll(/provider-cta-value[^>]*>\$([\d.,]+)<[\s\S]*?30-day low \$([\d.,]+)/g)];
+  assert(pairs.length >= 2, `both priced dates render a current figure and a low (was ${pairs.length})`);
+  for (const [, current, low] of pairs) {
+    assert(
+      Number(low.replace(/,/g, "")) <= Number(current.replace(/,/g, "")),
+      `the recorded low never exceeds the current price beside it (${low} vs ${current})`
+    );
+  }
+}
+{
+  // SOLO holds no recorded observations. Saying "lowest we have recorded in 30
+  // days" there would claim a month of watching that never happened.
+  const page = await render(SOLO_PATH);
+  const body = text(page.main);
+  assert(!/30-day low/.test(body), "an event with no history reports no low");
+  assert(!/Lowest we have recorded/.test(body), "and makes no claim to have watched it");
+  assert(/\$145/.test(body), "while still showing its current price as before");
+}
+{
+  // With no database bound there is no history read and no low.
+  const page = await render(RUN_PATH, { withDb: false });
+  const body = text(page.main);
+  assert(!/30-day low|Lowest we have recorded/.test(body), "no pricing database means no recorded low");
+}
+
+
 // ── the page never contradicts itself about what it compares ──────────────
 {
   // The answer table names the lower listed figure for a date. The shared help
@@ -551,8 +650,17 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     "the CTA inside a cell must wrap rather than force the column wider than the provider name"
   );
   assert(
-    /\.price-answer-table \.price-answer-asof \{[^}]*font-size:/.test(css),
+    // Tolerates the selector being grouped with a sibling, which it now is.
+    /\.price-answer-table \.price-answer-asof[^{]*\{[^}]*font-size:/.test(css),
     "the capture time needs its own size: .muted sizes body copy and is too large inside a cell"
+  );
+  assert(
+    /\.price-answer-table \.price-answer-low[^{]*\{[^}]*font-size:/.test(css),
+    "the recorded-low line needs its own size for the same reason"
+  );
+  assert(
+    /\.price-answer-table \.price-answer-low \{[^}]*font-weight:/.test(css),
+    "and its own weight, so two figures in one cell are distinguishable without reading"
   );
 
   const stacked = (css.match(/@media \(max-width: 620px\) \{[\s\S]*?\n\}\n/g) || []).find((block) =>

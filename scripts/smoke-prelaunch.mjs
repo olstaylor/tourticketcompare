@@ -3982,7 +3982,27 @@ assert(
   "artist-city canonical should be self-referencing"
 );
 assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page should render the '[Artist] Tickets in [City]' H1");
-assert(extractTitle(artistCityPage.text).endsWith("| Compare Prices"), "artist-city title should follow the '| Compare Prices' pattern");
+// The title leads with "| Prices & Dates" because it matches both halves of
+// what these pages are searched for ("<artist> <city> ticket prices" and
+// "<artist> <city> tickets") in one string that never changes. A long
+// artist/city pair can still fall through fitTitleToBudget's ladder, so the
+// whole ladder is accepted rather than only its head.
+const artistCityTitle = extractTitle(artistCityPage.text);
+assert(
+  /\| Prices & Dates$|\| Compare Prices$|\| Tickets$|Tickets in [^|]+$/.test(artistCityTitle),
+  `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
+);
+// A listed price moves faster than a search snippet refreshes, and route
+// metadata is also the CollectionPage JSON-LD description, so no live figure
+// may appear in either. The numeric answer is server-rendered in the body.
+assert(
+  !/[£$€]\s?\d/.test(artistCityTitle),
+  `artist-city title must carry no live price (was "${artistCityTitle}")`
+);
+assert(
+  !/[£$€]\s?\d/.test(extractDescription(artistCityPage.text)),
+  "artist-city meta description must carry no live price"
+);
 assert(artistCityPage.text.includes('"@type":"Place"'), "artist-city page should emit Place structured data");
 assert(artistCityPage.text.includes('"@type":"CollectionPage"'), "artist-city page should emit CollectionPage structured data");
 assert(artistCityPage.text.includes('"@type":"FAQPage"'), "artist-city page should emit FAQPage structured data matching visible answers");

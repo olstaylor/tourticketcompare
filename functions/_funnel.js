@@ -207,7 +207,12 @@ export const CTA_LOCATIONS = Object.freeze([
   "comparison_hub",
   "guide_provider_pair",
   "venue_card",
-  "city_card"
+  "city_card",
+  // The per-date price answer at the top of an artist-city page. It is its own
+  // location rather than event_card because it is a distinct surface with a
+  // distinct job — answering "how much" before the board is read — and the
+  // point of adding it is to be able to report on that separately.
+  "artist_city_answer"
 ]);
 
 const CTA_LOCATION_SET = new Set(CTA_LOCATIONS);

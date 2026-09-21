@@ -34,10 +34,17 @@
 //
 //   2. Candidates (--candidates, needs TICKETMASTER_API_KEY). Asks the
 //      Ticketmaster Discovery API which artists are playing the markets the
-//      site already covers, drops anything already on the roster, and ranks
-//      what is left by how many at-risk city/venue pages that artist would
-//      hold above their gate. Output is a review list of *names* — the input
-//      the existing onboarding pipeline lacks.
+//      site already covers, drops anything already on the roster or billed
+//      below the headline (--min-primary-rate), and ranks what is left by how
+//      many at-risk city/venue pages that artist would hold above their gate.
+//      Output is a review list of *names* — the input the existing onboarding
+//      pipeline lacks.
+//
+// The forecast half also reports net surface change as a per-30-day rate and
+// the break-even a roster batch has to clear, and — with --candidates — what
+// the top 20 would actually be worth at the horizon. Those three numbers are
+// the point: roster cadence was previously a judgement call with no figure
+// attached to it.
 //
 // The forecast is a floor, not a prediction: it assumes no new dates are ever
 // announced for artists already tracked. Real decay is slower whenever the
@@ -74,6 +81,12 @@
 //   --max-cities <n>      Cap tracked cities scanned (default 0 = all)
 //   --min-upcoming-total <n>  Min upcoming Ticketmaster events site-wide for a
 //                             candidate to count as a touring act (default 8)
+//   --min-primary-rate <r>    Min share of a candidate's tracked-market dates
+//                             that must bill it first, 0..1 (default 0.4). The
+//                             same test the Ticketmaster sync applies when it
+//                             withholds a row as `not_primary_attraction`;
+//                             screens out support acts, which Discovery credits
+//                             with the headliner's entire routing.
 //   --enrich-limit <n>    Max attractions to scale-check via the attraction
 //                         endpoint, one request each (default 60)
 //   --json <path>         Also write the full report as JSON
@@ -98,6 +111,9 @@ const DAY_MS = 86_400_000;
 const DISCOVERY_BASE = "https://app.ticketmaster.com/discovery/v2";
 const DISCOVERY_PAGE_SIZE = 200;
 const DEFAULT_HORIZONS = [0, 14, 30, 60, 90, 120, 180, 365];
+// Artist onboarding batches up to 20 promotions per PR (see the onboarding
+// skill), so that is the unit a cadence decision is actually made in.
+const BATCH_SIZE_FOR_CONTRIBUTION = 20;
 
 // Ticketmaster requires an ISO country code on city-scoped queries. Keys are
 // the canonical labels normalizeCountry() emits; anything absent is skipped
@@ -198,6 +214,12 @@ function intArg(name, fallback) {
   const n = Number.parseInt(raw, 10);
   return Number.isFinite(n) ? n : fallback;
 }
+function floatArg(name, fallback) {
+  const raw = arg(name);
+  if (raw === null) return fallback;
+  const n = Number.parseFloat(raw);
+  return Number.isFinite(n) ? n : fallback;
+}
 
 const clean = (v) => String(v ?? "").trim();
 
@@ -244,6 +266,140 @@ export function projectSurface(events, artists, baseNow, horizons = DEFAULT_HORI
     const s = surfaceAt(events, artists, now);
     return { days, date: isoDate(now), ...s };
   });
+}
+
+// Default windows for the net-change table. 30d is the roster batch cadence
+// worth comparing against; 90d is long enough that a single large ingestion run
+// does not dominate the rate.
+export const NET_CHANGE_WINDOWS = [30, 90];
+
+/**
+ * Net indexable-surface change over each window, and the same figure expressed
+ * as a per-30-day rate.
+ *
+ * The projection table above already shows the surface at each horizon, but a
+ * column of absolute totals does not answer the question the roster cadence
+ * actually turns on: *is a batch of this size, at this interval, gaining or
+ * losing ground?* Decay is continuous and roster batches are episodic, so the
+ * two are only comparable once decay is expressed as a rate.
+ *
+ * `perThirtyDays` is the number to hold against a batch's contribution. A batch
+ * that adds fewer indexable pages than this per 30 days is net negative however
+ * many artists it onboards.
+ *
+ * @param {Array<{days:number,date:string,total:number}>} projection
+ * @param {number[]} [windows]
+ * @returns {Array<object>}
+ */
+export function netSurfaceChange(projection, windows = NET_CHANGE_WINDOWS) {
+  const byDay = new Map((projection || []).map((row) => [row.days, row]));
+  const start = byDay.get(0);
+  if (!start) return [];
+  return windows
+    .filter((days) => days > 0 && byDay.has(days))
+    .map((days) => {
+      const end = byDay.get(days);
+      const net = end.total - start.total;
+      return {
+        days,
+        date: end.date,
+        from: start.total,
+        to: end.total,
+        net,
+        perThirtyDays: Math.round((net / days) * 30),
+        retainedPct: start.total > 0 ? Math.round((end.total / start.total) * 100) : null
+      };
+    });
+}
+
+/**
+ * Indexable pages a batch must add per 30 days to hold the surface flat.
+ *
+ * Read off the longest window available, because the short window is the
+ * noisiest: a single cluster of tour-end dates inside the next 30 days can make
+ * the 30d rate look like a cliff that the 90d rate shows to be a step.
+ *
+ * @param {Array<object>} netChange  Output of netSurfaceChange().
+ * @returns {number} Positive = pages/30d that must be replaced. 0 = not losing.
+ */
+export function breakEvenPerThirtyDays(netChange) {
+  const longest = (netChange || []).reduce((a, b) => (b.days > (a?.days || 0) ? b : a), null);
+  if (!longest) return 0;
+  return Math.max(0, -longest.perThirtyDays);
+}
+
+/**
+ * What a candidate batch is actually worth: the indexable surface at the
+ * horizon with the top `batchSize` candidates' upcoming shows merged in,
+ * against the same horizon with nothing added.
+ *
+ * This is the half of the cadence question the decay rate cannot answer on its
+ * own. `coverageScore` ranks candidates against each other but is not in units
+ * of pages — it counts at-risk pages an artist *touches*, and both location
+ * gates need a second artist, so touching is not holding. Re-running the real
+ * gate modules over the merged set is the only honest way to say whether a
+ * batch clears the break-even rate, because it lets the batch's own members
+ * satisfy each other's >=2-artist requirement exactly as they would in
+ * production.
+ *
+ * Candidates are projected as promoted artists (`INDEXABLE_ARTIST_STATUS`)
+ * because that is the state being costed: an unpromoted shell contributes no
+ * indexable page of any type. Projected events are in-memory only and carry the
+ * `projected: true` marker from projectionRecord() — they are never persisted.
+ *
+ * This is a FLOOR, in two directions at once. Discovery dates are unverified,
+ * so some will not survive onboarding (pushing the real figure down); and
+ * projected rows are not publishable (see projectionRecord()), so a candidate
+ * gets no credit for a city or venue page in a market where nothing publishable
+ * exists yet (pushing it up). Read it as "at least this many", and never as a
+ * forecast of what a batch will deliver.
+ *
+ * @returns {{batchSize:number, horizonDays:number, baseline:object, withBatch:object,
+ *            added:number, perThirtyDays:number, beatsDecay:boolean|null}}
+ */
+export function batchSurfaceContribution(events, artists, scored, baseNow, horizonDays, batchSize, breakEvenRate = null) {
+  const batch = (scored || []).slice(0, batchSize);
+  const at = baseNow + horizonDays * DAY_MS;
+
+  const projectedEvents = [];
+  const projectedArtists = [];
+  for (const candidate of batch) {
+    for (const event of candidate.events || []) {
+      projectedEvents.push(projectionRecord(candidate.slug, event));
+    }
+    projectedArtists.push({
+      slug: candidate.slug,
+      name: candidate.name,
+      indexing_status: INDEXABLE_ARTIST_STATUS
+    });
+  }
+
+  const baseline = surfaceAt(events, artists, at);
+  const withBatch = surfaceAt(events.concat(projectedEvents), (artists || []).concat(projectedArtists), at);
+  const added = withBatch.total - baseline.total;
+  const perThirtyDays = Math.round((added / horizonDays) * 30);
+
+  return {
+    batchSize: batch.length,
+    horizonDays,
+    baseline: {
+      total: baseline.total,
+      artists: baseline.artists,
+      cities: baseline.cities,
+      venues: baseline.venues,
+      artistCities: baseline.artistCities
+    },
+    withBatch: {
+      total: withBatch.total,
+      artists: withBatch.artists,
+      cities: withBatch.cities,
+      venues: withBatch.venues,
+      artistCities: withBatch.artistCities
+    },
+    added,
+    perThirtyDays,
+    beatsDecay: breakEvenRate === null ? null : perThirtyDays >= breakEvenRate
+  };
 }
 
 /**
@@ -325,12 +481,22 @@ export function projectionRecord(candidateSlug, discoveryEvent) {
     country: discoveryEvent.country,
     venue: discoveryEvent.venue,
     datetime_iso: discoveryEvent.datetime_iso,
-    // The city and venue gates require at least one upcoming show with a
-    // publishable ticket destination (functions/_route-indexability.js), so a
-    // projection has to state what it assumes about this hypothetical row or it
-    // would score every candidate at zero. `machine_high_confidence` is what
-    // these rows genuinely are — recognised Ticketmaster Discovery events — and
-    // it is the status the ingestion lane would give them on onboarding.
+    // What the ingestion lane would give these rows on onboarding. NOTE: this
+    // field no longer affects the gates. eventStatusPublishable() was changed
+    // to test for a destination URL (ticketmaster_url / source_url, or verified
+    // Ticketmaster provenance) rather than a verification status, so a
+    // projection — which carries neither — is NOT publishable, and the city and
+    // venue gates' ">=1 show with a publishable destination" requirement is
+    // never satisfied by projected rows alone.
+    //
+    // That is left as-is deliberately. The alternative is fabricating a
+    // destination or a `verified: true` for a link nobody has checked, which
+    // SAFE_PUBLISHING_RULES.md forbids, and readDiscoveryEvent() cannot supply
+    // a clean one because the URL on an event response is Impact-wrapped for
+    // this account. The consequence is a conservative under-count: a candidate
+    // is credited with holding open a page that already has a publishable show,
+    // and credited with nothing in a market that has none. Under-counting a
+    // review list is the safe direction.
     verification_status: "machine_high_confidence",
     // Marker so a projection is identifiable if one ever escapes this
     // report-only script. Projections are never written to events.json, and
@@ -338,6 +504,43 @@ export function projectionRecord(candidateSlug, discoveryEvent) {
     // checked, and fabricating one is forbidden.
     projected: true
   };
+}
+
+// Minimum share of an attraction's tracked-market events on which it is the
+// FIRST embedded attraction, for it to count as a headliner.
+//
+// Not a tuned parameter — it reproduces a screen a human already ran. BACKLOG
+// item 3 records the outcome of re-screening the 2026-09-09 candidate ranking
+// by hand: the support acts it had surfaced measured 0% primary (RJ Pasin,
+// Ladrones, Jeremy Camp, Katy Nichole, Treaty Oak Revival, Wyatt McCubbin, Don
+// Broco, Magnolia Park), then Avery Anna at 8% and Shenandoah at 14%, while the
+// genuine headliners held back only because the sync withholds their
+// second-billed dates measured 70% (Whitechapel), 55% (Insomnium) and 45%
+// (Amorphis). Any cut between 0.15 and 0.45 separates those two groups; 0.4
+// sits inside that band and keeps all three co-headliners.
+//
+// Raise it to demand cleaner headline status, lower it to review co-headline
+// acts the sync would partly withhold. The screen is reported, never silent.
+export const DEFAULT_MIN_PRIMARY_RATE = 0.4;
+
+/**
+ * Share of a discovered attraction's tracked-market events where it is billed
+ * first.
+ *
+ * Discovery credits every attraction on an event, so a support act inherits the
+ * headliner's whole routing and scores an identical coverageScore. That is the
+ * documented reason the last two candidate rankings had to be re-screened by
+ * hand (BACKLOG item 3). Worse, onboarding one would add almost nothing:
+ * sync-ticketmaster-events.py withholds exactly these rows as
+ * `not_primary_attraction`, so the dates that earned the ranking never land.
+ *
+ * @param {{events: Array, primaryCount: number}} record
+ * @returns {number} 0..1; 0 when the attraction has no events.
+ */
+export function primaryAttractionRate(record) {
+  const total = record?.events?.length || 0;
+  if (total === 0) return 0;
+  return (record.primaryCount || 0) / total;
 }
 
 /**
@@ -563,7 +766,8 @@ async function discoverCandidates({ markets, apiKey, pagesPerCity, delayMs, scan
               slug: slugify(attraction.name),
               events: [],
               eventKeys: new Set(),
-              markets: new Set()
+              markets: new Set(),
+              primaryCount: 0
             });
           }
           const record = byAttraction.get(attraction.id);
@@ -572,6 +776,13 @@ async function discoverCandidates({ markets, apiKey, pagesPerCity, delayMs, scan
           record.eventKeys.add(key);
           record.events.push(event);
           record.markets.add(citySlug(event.city, event.country));
+          // Same test sync-ticketmaster-events.py applies when it withholds a
+          // row as `not_primary_attraction`: the registry attraction must be
+          // the event's FIRST embedded attraction. A support act is credited
+          // with the headliner's event here (it really is playing that room on
+          // that night), so without this counter it inherits the headliner's
+          // entire routing and scores identically on coverage.
+          if (event.attractions[0]?.id === attraction.id) record.primaryCount += 1;
         }
       }
       if (res.page && page + 1 >= (res.page.totalPages || 0)) break;
@@ -594,6 +805,8 @@ function pad(v, w, right = true) {
 export function renderReport(report) {
   const lines = [];
   const { baseDate, projection, dropouts, atRisk, horizonDays, warnDays, candidates } = report;
+  const netChange = report.netChange || [];
+  const breakEven = report.breakEvenPerThirtyDays || 0;
 
   lines.push(`# Roster forecast — ${baseDate}`, "");
   lines.push(
@@ -609,6 +822,35 @@ export function renderReport(report) {
     );
   }
   lines.push("");
+
+  if (netChange && netChange.length) {
+    lines.push("## Net surface change", "");
+    lines.push(
+      "The table above is a stock; this one is the flow. Roster batches are episodic and decay is",
+      "continuous, so the two are only comparable once decay is a rate.",
+      ""
+    );
+    lines.push("| Window | Surface | Net | Per 30d | Retained |");
+    lines.push("|---|---|---|---|---|");
+    for (const row of netChange) {
+      const sign = row.net > 0 ? "+" : "";
+      lines.push(
+        `| 0 → +${row.days}d | ${row.from} → ${row.to} | ${sign}${row.net} | ${sign}${row.perThirtyDays} | ${row.retainedPct}% |`
+      );
+    }
+    lines.push("");
+    if (breakEven > 0) {
+      lines.push(
+        `**Break-even: ${breakEven} indexable pages per 30 days.** A roster batch that adds fewer than`,
+        "this is net negative however many artists it onboards. Artist pages are excluded from the",
+        "decay — they never fall out — so every page in this figure is a city, venue or artist-city",
+        "page, and refilling it means upcoming dates in markets that already have some.",
+        ""
+      );
+    } else {
+      lines.push("**The surface is not currently shrinking over the measured windows.**", "");
+    }
+  }
 
   const dark = dropouts.filter((d) => !d.live);
   const soon = dropouts.filter((d) => d.live && d.daysLeft <= warnDays);
@@ -653,23 +895,62 @@ export function renderReport(report) {
       `at-risk city/venue pages they would add upcoming shows to past +${horizonDays}d.`,
       "Both location gates need >=2 artists, so coverage composes across a batch — two artists in the",
       "same market clear a gate neither clears alone. \"Solo flips\" counts pages one artist restores unaided.",
-      `Filtered to acts with >=${candidates.minUpcomingTotal} upcoming Ticketmaster events site-wide.`,
+      `Filtered to acts with >=${candidates.minUpcomingTotal} upcoming Ticketmaster events site-wide, and to`,
+      `headliners: >=${Math.round((candidates.minPrimaryRate ?? 0) * 100)}% of an act\u2019s tracked-market dates must bill it first`,
+      `(the same test the Ticketmaster sync applies when it withholds a row as \`not_primary_attraction\`).`,
+      candidates.screenedOutAsSupport
+        ? `That screen removed ${candidates.screenedOutAsSupport} support/festival-billing attraction(s) before ranking.`
+        : "That screen removed no attractions on this run.",
       "**Every row needs human verification** — this is a review list, not an approval.",
       ""
     );
     if (candidates.rows.length === 0) {
       lines.push("_No candidates met the thresholds._", "");
     } else {
-      lines.push("| # | Artist | Genre | At-risk pages covered | Solo flips | Tracked markets | Upcoming (all TM) | Ticketmaster |");
-      lines.push("|---|---|---|---|---|---|---|---|");
+      lines.push("| # | Artist | Genre | At-risk pages covered | Solo flips | Tracked markets | Headline rate | Upcoming (all TM) | Ticketmaster |");
+      lines.push("|---|---|---|---|---|---|---|---|---|");
       candidates.rows.forEach((row, i) => {
         const url = row.ticketmaster_artist_url ? `[artist page](${row.ticketmaster_artist_url})` : "—";
         const covered = [...row.coveredCities, ...row.coveredVenues].slice(0, 3).join(", ");
         lines.push(
-          `| ${i + 1} | ${row.name} | ${row.genre || "—"} | **${row.coverageScore}**${covered ? ` (${covered}${row.coverageScore > 3 ? ", …" : ""})` : ""} | ${row.flipScore} | ${row.marketCount} (${row.upcoming_shows_in_tracked_markets} shows) | ${row.upcomingTotal} | ${url} |`
+          `| ${i + 1} | ${row.name} | ${row.genre || "—"} | **${row.coverageScore}**${covered ? ` (${covered}${row.coverageScore > 3 ? ", …" : ""})` : ""} | ${row.flipScore} | ${row.marketCount} (${row.upcoming_shows_in_tracked_markets} shows) | ${Math.round((row.primaryRate ?? 0) * 100)}% | ${row.upcomingTotal} | ${url} |`
         );
       });
       lines.push("");
+      const bc = candidates.batchContribution;
+      if (bc && bc.batchSize > 0) {
+        const verdict =
+          bc.beatsDecay === null
+            ? ""
+            : bc.beatsDecay
+              ? " — clears the break-even rate."
+              : " — does not clear the break-even rate on its own.";
+        lines.push(`### What the top ${bc.batchSize} would be worth`, "");
+        lines.push(
+          `Re-running the real gate modules at +${bc.horizonDays}d with these ${bc.batchSize} artists promoted and`,
+          "their discovered dates merged in, against the same horizon with nothing added. The batch's own",
+          "members satisfy each other's >=2-artist gates here exactly as they would in production, which is",
+          "why this is worth computing rather than summing the coverage column.",
+          ""
+        );
+        lines.push("| | Artists | Cities | Venues | Artist-cities | Total |");
+        lines.push("|---|---|---|---|---|---|");
+        lines.push(
+          `| Nothing added | ${bc.baseline.artists} | ${bc.baseline.cities} | ${bc.baseline.venues} | ${bc.baseline.artistCities} | ${bc.baseline.total} |`
+        );
+        lines.push(
+          `| Top ${bc.batchSize} promoted | ${bc.withBatch.artists} | ${bc.withBatch.cities} | ${bc.withBatch.venues} | ${bc.withBatch.artistCities} | ${bc.withBatch.total} |`
+        );
+        lines.push("");
+        lines.push(
+          `**+${bc.added} indexable pages at +${bc.horizonDays}d, or ${bc.perThirtyDays} per 30 days${verdict}**`,
+          "",
+          "A floor, not a forecast. Discovery dates are unverified and some will not survive onboarding;",
+          "and a projected row carries no checked destination, so the batch gets no credit for a city or",
+          "venue page in a market where nothing publishable exists yet. Read it as \"at least this many\".",
+          ""
+        );
+      }
       lines.push("Feed the shortlist into the existing gated onboarding flow:", "");
       lines.push("```bash");
       lines.push(
@@ -889,6 +1170,104 @@ function runSelfTest() {
   );
   assert("missing upcomingEvents scores zero", readAttractionRecord({}).upcomingTotal === 0);
 
+  // ── Net surface change ────────────────────────────────────────────────────
+  const shrinking = [
+    { days: 0, date: "2026-01-01", total: 400 },
+    { days: 30, date: "2026-01-31", total: 350 },
+    { days: 90, date: "2026-04-01", total: 250 }
+  ];
+  const net = netSurfaceChange(shrinking);
+  assert("net change covers both default windows", net.length === 2);
+  assert("net change reports the absolute loss", net[0].net === -50 && net[1].net === -150);
+  assert("net change normalises to a 30-day rate", net[1].perThirtyDays === -50);
+  assert("net change reports retention", net[0].retainedPct === 88 && net[1].retainedPct === 63);
+  assert("break-even reads the longest window", breakEvenPerThirtyDays(net) === 50);
+  assert(
+    "break-even is zero when the surface is growing",
+    breakEvenPerThirtyDays(
+      netSurfaceChange([
+        { days: 0, date: "2026-01-01", total: 100 },
+        { days: 90, date: "2026-04-01", total: 200 }
+      ])
+    ) === 0
+  );
+  assert("net change is empty without a day-0 row", netSurfaceChange([{ days: 30, total: 10 }]).length === 0);
+  assert("net change skips windows the projection lacks", netSurfaceChange(shrinking, [30, 45]).length === 1);
+
+  // ── Primary-attraction screen ─────────────────────────────────────────────
+  assert(
+    "a support act billed second everywhere rates zero",
+    primaryAttractionRate({ events: [1, 2, 3, 4], primaryCount: 0 }) === 0
+  );
+  assert(
+    "a headliner billed first everywhere rates one",
+    primaryAttractionRate({ events: [1, 2, 3, 4], primaryCount: 4 }) === 1
+  );
+  assert(
+    "a co-headliner rates between and clears the default screen",
+    primaryAttractionRate({ events: [1, 2, 3, 4], primaryCount: 2 }) === 0.5 &&
+      0.5 >= DEFAULT_MIN_PRIMARY_RATE
+  );
+  assert(
+    "the recorded support-act rates fall below the default screen",
+    [0, 0.08, 0.14].every((rate) => rate < DEFAULT_MIN_PRIMARY_RATE)
+  );
+  assert(
+    "the recorded co-headliner rates clear the default screen",
+    [0.45, 0.55, 0.7].every((rate) => rate >= DEFAULT_MIN_PRIMARY_RATE)
+  );
+  assert("an attraction with no events rates zero, not NaN", primaryAttractionRate({ events: [], primaryCount: 0 }) === 0);
+
+  // ── Batch contribution ────────────────────────────────────────────────────
+  // Two candidates each playing the same venue twice past the horizon. Neither
+  // clears the venue gate alone (>=3 shows AND >=2 artists); together they do.
+  // That is the composition the coverage column cannot express, so it is the
+  // case worth pinning.
+  const batchAt = Date.parse("2026-07-01T00:00:00Z");
+  const mkEvent = (n) => ({
+    city: "Testville",
+    country: "United States",
+    venue: "Test Arena",
+    datetime_iso: new Date(batchAt + n * DAY_MS).toISOString()
+  });
+  const batchPair = [
+    { slug: "delta", name: "Delta", events: [mkEvent(1), mkEvent(2)] },
+    { slug: "epsilon", name: "Epsilon", events: [mkEvent(3), mkEvent(4)] }
+  ];
+  // One existing show in the room with a real destination. The venue gate needs
+  // >=3 shows, >=2 artists AND >=1 publishable show; projections satisfy the
+  // first two and only this row satisfies the third.
+  const seeded = [
+    {
+      artist_slug: "incumbent",
+      city: "Testville",
+      country: "United States",
+      venue: "Test Arena",
+      datetime_iso: new Date(batchAt).toISOString(),
+      ticketmaster_url: "https://www.ticketmaster.com/event/TESTSEED"
+    }
+  ];
+  const contribution = batchSurfaceContribution(seeded, [], batchPair, base, 180, 2, 10);
+  assert("batch contribution reports the batch size it costed", contribution.batchSize === 2);
+  assert("one lone show clears no location gate on its own", contribution.baseline.total === 0);
+  assert("two candidates compose to clear the venue gate", contribution.withBatch.venues === 1);
+  assert("batch contribution counts promoted artist pages too", contribution.added === contribution.withBatch.total);
+  assert("batch contribution normalises to a 30-day rate", contribution.perThirtyDays === Math.round((contribution.added / 180) * 30));
+  assert("batch contribution judges against break-even when given one", contribution.beatsDecay === false);
+
+  // Pin the conservative under-count documented in projectionRecord(): with no
+  // publishable show already in the market, the same two candidates hold open
+  // no city or venue page at all. If someone later makes projections
+  // publishable, this assertion should fail and force the call to be made
+  // deliberately rather than as a side effect.
+  const unseeded = batchSurfaceContribution([], [], batchPair, base, 180, 2, 10);
+  assert("projections alone never satisfy the publishable-destination gate", unseeded.withBatch.venues === 0 && unseeded.withBatch.cities === 0);
+  assert("promoted artist pages still count without any publishable show", unseeded.withBatch.artists === 2);
+  assert(
+    "batch contribution withholds a verdict without a break-even rate",
+    batchSurfaceContribution([], [], [], base, 90, 0).beatsDecay === null
+  );
+
   const md = renderReport({
     baseDate: "2026-01-01",
     projection,
@@ -899,6 +1278,33 @@ function runSelfTest() {
     candidates: null
   });
   assert("report renders a projection table", md.includes("| Horizon | Date |"));
+  const mdNet = renderReport({
+    baseDate: "2026-01-01",
+    projection,
+    dropouts: drops,
+    atRisk: risk,
+    horizonDays: horizon,
+    warnDays: 30,
+    candidates: null,
+    netChange: net,
+    breakEvenPerThirtyDays: breakEvenPerThirtyDays(net)
+  });
+  assert("report renders the net-change section", mdNet.includes("## Net surface change"));
+  assert("report states the break-even rate", mdNet.includes("**Break-even: 50 indexable pages per 30 days.**"));
+  assert(
+    "report says the surface is not shrinking when it is not",
+    renderReport({
+      baseDate: "2026-01-01",
+      projection,
+      dropouts: drops,
+      atRisk: risk,
+      horizonDays: horizon,
+      warnDays: 30,
+      candidates: null,
+      netChange: [{ days: 90, date: "2026-04-01", from: 100, to: 200, net: 100, perThirtyDays: 33, retainedPct: 200 }],
+      breakEvenPerThirtyDays: 0
+    }).includes("not currently shrinking")
+  );
   assert("report states the floor caveat", md.includes("floor, not a prediction"));
 }
 
@@ -923,6 +1329,7 @@ async function main() {
   const delayMs = intArg("--delay-ms", 250);
   const maxCities = intArg("--max-cities", 0);
   const minUpcomingTotal = intArg("--min-upcoming-total", 8);
+  const minPrimaryRate = floatArg("--min-primary-rate", DEFAULT_MIN_PRIMARY_RATE);
   const enrichLimit = intArg("--enrich-limit", 60);
 
   const events = await readJson("public/data/events.json");
@@ -938,6 +1345,8 @@ async function main() {
     atRisk: atRiskLocations(events, baseNow, horizonDays),
     candidates: null
   };
+  report.netChange = netSurfaceChange(report.projection);
+  report.breakEvenPerThirtyDays = breakEvenPerThirtyDays(report.netChange);
 
   if (argv.includes("--candidates")) {
     const apiKey = clean(process.env.TICKETMASTER_API_KEY);
@@ -962,16 +1371,29 @@ async function main() {
       });
 
       const eligible = [];
+      let screenedOutAsSupport = 0;
       for (const record of byAttraction.values()) {
         if (record.events.length < minShows) continue;
         if (isExcludedCandidate(record.name, record.attractionId, exclusions)) continue;
+        const primaryRate = primaryAttractionRate(record);
+        if (primaryRate < minPrimaryRate) {
+          screenedOutAsSupport += 1;
+          continue;
+        }
         eligible.push({
           name: record.name,
           slug: record.slug,
           attractionId: record.attractionId,
           events: record.events,
-          marketCount: record.markets.size
+          marketCount: record.markets.size,
+          primaryCount: record.primaryCount,
+          primaryRate
         });
+      }
+      if (screenedOutAsSupport) {
+        console.error(
+          `Primary-attraction screen dropped ${screenedOutAsSupport} attraction(s) below ${minPrimaryRate} primary rate.`
+        );
       }
 
       // Enriching every attraction would cost one request each, so pre-rank on
@@ -994,7 +1416,20 @@ async function main() {
       }
 
       const scored = scoreCandidates(events, enriched, baseNow, horizonDays).slice(0, limit);
+      // What the shortlist is actually worth, in the same units as the decay
+      // rate. Sized at the onboarding skill's per-PR ceiling so the figure
+      // answers "is one batch enough?" rather than "is the whole shortlist?".
+      const batchContribution = batchSurfaceContribution(
+        events,
+        artists,
+        scored,
+        baseNow,
+        horizonDays,
+        Math.min(BATCH_SIZE_FOR_CONTRIBUTION, scored.length),
+        report.breakEvenPerThirtyDays
+      );
       report.candidates = {
+        batchContribution,
         scannedMarkets: markets.length,
         scanFrom: isoDate(scanFrom),
         requests: requests + shortlist.length,
@@ -1002,6 +1437,8 @@ async function main() {
         eligible: eligible.length,
         enriched: enriched.length,
         minUpcomingTotal,
+        minPrimaryRate,
+        screenedOutAsSupport,
         failures,
         needs_human_check: true,
         rows: scored.map((r) => ({
@@ -1011,6 +1448,8 @@ async function main() {
           ticketmaster_artist_url: r.ticketmasterUrl,
           genre: r.genre,
           upcomingTotal: r.upcomingTotal,
+          primaryRate: r.primaryRate,
+          primaryCount: r.primaryCount,
           upcoming_shows_in_tracked_markets: r.events.length,
           showsAfterHorizon: r.showsAfterHorizon,
           marketCount: r.marketCount,

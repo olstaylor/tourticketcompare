@@ -75644,11 +75644,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107665189",
-        "url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-21-2026/event/107665189",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7710816",
@@ -75662,7 +75662,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-21-2026/event/107665189",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7710816"
   },
   {

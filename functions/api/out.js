@@ -894,6 +894,146 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-pink-martini",
     redirectUrl: "https://seatgeek.com/pink-martini-tickets",
     verified: true
+  },
+  "oasis:ticketmaster": {
+    artistSlug: "oasis",
+    provider: "ticketmaster",
+    linkId: "tm-artist-oasis",
+    redirectUrl: "https://www.ticketmaster.com/oasis-tickets/artist/766720",
+    verified: true
+  },
+  "oasis:seatgeek": {
+    artistSlug: "oasis",
+    provider: "seatgeek",
+    linkId: "sg-artist-oasis",
+    redirectUrl: "https://seatgeek.com/oasis-tickets",
+    verified: true
+  },
+  "hans-zimmer:ticketmaster": {
+    artistSlug: "hans-zimmer",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hans-zimmer",
+    redirectUrl: "https://www.ticketmaster.com/hans-zimmer-tickets/artist/1508961",
+    verified: true
+  },
+  "hans-zimmer:seatgeek": {
+    artistSlug: "hans-zimmer",
+    provider: "seatgeek",
+    linkId: "sg-artist-hans-zimmer",
+    redirectUrl: "https://seatgeek.com/hans-zimmer-tickets",
+    verified: true
+  },
+  "trans-siberian-orchestra:ticketmaster": {
+    artistSlug: "trans-siberian-orchestra",
+    provider: "ticketmaster",
+    linkId: "tm-artist-trans-siberian-orchestra",
+    redirectUrl: "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815",
+    verified: true
+  },
+  "trans-siberian-orchestra:seatgeek": {
+    artistSlug: "trans-siberian-orchestra",
+    provider: "seatgeek",
+    linkId: "sg-artist-trans-siberian-orchestra",
+    redirectUrl: "https://seatgeek.com/trans-siberian-orchestra-tickets",
+    verified: true
+  },
+  "kenny-chesney:ticketmaster": {
+    artistSlug: "kenny-chesney",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kenny-chesney",
+    redirectUrl: "https://www.ticketmaster.com/kenny-chesney-tickets/artist/767989",
+    verified: true
+  },
+  "kenny-chesney:seatgeek": {
+    artistSlug: "kenny-chesney",
+    provider: "seatgeek",
+    linkId: "sg-artist-kenny-chesney",
+    redirectUrl: "https://seatgeek.com/kenny-chesney-tickets",
+    verified: true
+  },
+  "death-cab-for-cutie:ticketmaster": {
+    artistSlug: "death-cab-for-cutie",
+    provider: "ticketmaster",
+    linkId: "tm-artist-death-cab-for-cutie",
+    redirectUrl: "https://www.ticketmaster.com/death-cab-for-cutie-tickets/artist/718349",
+    verified: true
+  },
+  "death-cab-for-cutie:seatgeek": {
+    artistSlug: "death-cab-for-cutie",
+    provider: "seatgeek",
+    linkId: "sg-artist-death-cab-for-cutie",
+    redirectUrl: "https://seatgeek.com/death-cab-for-cutie-tickets",
+    verified: true
+  },
+  "alan-walker:ticketmaster": {
+    artistSlug: "alan-walker",
+    provider: "ticketmaster",
+    linkId: "tm-artist-alan-walker",
+    redirectUrl: "https://www.ticketmaster.com/alan-walker-tickets/artist/2216743",
+    verified: true
+  },
+  "alan-walker:seatgeek": {
+    artistSlug: "alan-walker",
+    provider: "seatgeek",
+    linkId: "sg-artist-alan-walker",
+    redirectUrl: "https://seatgeek.com/alan-walker-tickets",
+    verified: true
+  },
+  "the-psychedelic-furs:ticketmaster": {
+    artistSlug: "the-psychedelic-furs",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-psychedelic-furs",
+    redirectUrl: "https://www.ticketmaster.com/the-psychedelic-furs-tickets/artist/877232",
+    verified: true
+  },
+  "the-psychedelic-furs:seatgeek": {
+    artistSlug: "the-psychedelic-furs",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-psychedelic-furs",
+    redirectUrl: "https://seatgeek.com/the-psychedelic-furs-tickets",
+    verified: true
+  },
+  "eros-ramazzotti:ticketmaster": {
+    artistSlug: "eros-ramazzotti",
+    provider: "ticketmaster",
+    linkId: "tm-artist-eros-ramazzotti",
+    redirectUrl: "https://www.ticketmaster.com/eros-ramazzotti-tickets/artist/741794",
+    verified: true
+  },
+  "eros-ramazzotti:seatgeek": {
+    artistSlug: "eros-ramazzotti",
+    provider: "seatgeek",
+    linkId: "sg-artist-eros-ramazzotti",
+    redirectUrl: "https://seatgeek.com/eros-ramazzotti-tickets",
+    verified: true
+  },
+  "atmosphere:ticketmaster": {
+    artistSlug: "atmosphere",
+    provider: "ticketmaster",
+    linkId: "tm-artist-atmosphere",
+    redirectUrl: "https://www.ticketmaster.com/atmosphere-tickets/artist/717322",
+    verified: true
+  },
+  "atmosphere:seatgeek": {
+    artistSlug: "atmosphere",
+    provider: "seatgeek",
+    linkId: "sg-artist-atmosphere",
+    redirectUrl: "https://seatgeek.com/atmosphere-tickets",
+    verified: true
+  },
+  "the-warning:ticketmaster": {
+    artistSlug: "the-warning",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-warning",
+    redirectUrl: "https://www.ticketmaster.com/the-warning-tickets/artist/2156114",
+    verified: true
+  },
+  "the-warning:seatgeek": {
+    artistSlug: "the-warning",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-warning",
+    redirectUrl: "https://seatgeek.com/the-warning-tickets",
+    verified: true
   }
 };
 

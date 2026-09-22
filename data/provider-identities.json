@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-09-22",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -645,6 +645,116 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-09-09: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "oasis",
+      "ticketmaster_attraction_id": "K8vZ9171fw7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/oasis-tickets/artist/766720",
+      "seatgeek_performer_id": 1358,
+      "seatgeek_artist_url": "https://seatgeek.com/oasis-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "hans-zimmer",
+      "ticketmaster_attraction_id": "K8vZ917ubK0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/hans-zimmer-tickets/artist/1508961",
+      "seatgeek_performer_id": 150102,
+      "seatgeek_artist_url": "https://seatgeek.com/hans-zimmer-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "trans-siberian-orchestra",
+      "ticketmaster_attraction_id": "K8vZ9171L10",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815",
+      "seatgeek_performer_id": 1938,
+      "seatgeek_artist_url": "https://seatgeek.com/trans-siberian-orchestra-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "kenny-chesney",
+      "ticketmaster_attraction_id": "K8vZ9171f30",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/kenny-chesney-tickets/artist/767989",
+      "seatgeek_performer_id": 87,
+      "seatgeek_artist_url": "https://seatgeek.com/kenny-chesney-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "death-cab-for-cutie",
+      "ticketmaster_attraction_id": "K8vZ9171NGf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/death-cab-for-cutie-tickets/artist/718349",
+      "seatgeek_performer_id": 571,
+      "seatgeek_artist_url": "https://seatgeek.com/death-cab-for-cutie-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "alan-walker",
+      "ticketmaster_attraction_id": "K8vZ917fQVV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/alan-walker-tickets/artist/2216743",
+      "seatgeek_performer_id": 31856,
+      "seatgeek_artist_url": "https://seatgeek.com/alan-walker-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "the-psychedelic-furs",
+      "ticketmaster_attraction_id": "K8vZ91710rf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-psychedelic-furs-tickets/artist/877232",
+      "seatgeek_performer_id": 1473,
+      "seatgeek_artist_url": "https://seatgeek.com/the-psychedelic-furs-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "eros-ramazzotti",
+      "ticketmaster_attraction_id": "K8vZ91719mV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/eros-ramazzotti-tickets/artist/741794",
+      "seatgeek_performer_id": 4540,
+      "seatgeek_artist_url": "https://seatgeek.com/eros-ramazzotti-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "atmosphere",
+      "ticketmaster_attraction_id": "K8vZ9171Wbf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/atmosphere-tickets/artist/717322",
+      "seatgeek_performer_id": 233,
+      "seatgeek_artist_url": "https://seatgeek.com/atmosphere-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "the-warning",
+      "ticketmaster_attraction_id": "K8vZ917KSff",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-warning-tickets/artist/2156114",
+      "seatgeek_performer_id": 724585,
+      "seatgeek_artist_url": "https://seatgeek.com/the-warning-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
     }
   ]
 }

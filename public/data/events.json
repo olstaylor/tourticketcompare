@@ -75637,11 +75637,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7710816",
-        "url": "https://www.ticketliquidator.com/tickets/7710816/Andrea-Bocelli-tickets-Mon-Sep-21-2026-Red-Rocks-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107665189",
@@ -75661,7 +75661,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Oy3p",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7710816/Andrea-Bocelli-tickets-Mon-Sep-21-2026-Red-Rocks-Amphitheatre",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-morrison-tickets-9-21-2026/event/107665189",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7710816"
   },
@@ -83401,12 +83401,20 @@
         "verified": true,
         "last_verified_at": "2026-09-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043819",
+        "url": "https://www.ticketliquidator.com/tickets/8043819/Sylvan-Esso-tickets-Wed-Oct-21-2026-Riverside-Theater-WI",
+        "verified": true,
+        "last_verified_at": "2026-09-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PfOs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043819"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043819",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043819/Sylvan-Esso-tickets-Wed-Oct-21-2026-Riverside-Theater-WI"
   },
   {
     "id": "tm-sylvan-esso-2026-chicago-vv178z_agksv90pf",

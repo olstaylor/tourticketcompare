@@ -757,5 +757,125 @@
       "seatgeek"
     ],
     "last_verified_at": "2026-09-09"
+  },
+  {
+    "slug": "oasis",
+    "name": "Oasis",
+    "short_description": "English rock band from Manchester, led by brothers Liam and Noel Gallagher.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "hans-zimmer",
+    "name": "Hans Zimmer",
+    "short_description": "German film composer and record producer, born in Frankfurt in 1957.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "trans-siberian-orchestra",
+    "name": "Trans-Siberian Orchestra",
+    "short_description": "American rock band founded in 1996, known for its large-scale winter arena productions.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "kenny-chesney",
+    "name": "Kenny Chesney",
+    "short_description": "American country singer and songwriter from Knoxville, Tennessee.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "death-cab-for-cutie",
+    "name": "Death Cab for Cutie",
+    "short_description": "American rock band formed in Bellingham, Washington, fronted by Ben Gibbard.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "alan-walker",
+    "name": "Alan Walker",
+    "short_description": "British-Norwegian DJ and record producer, born in 1997.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "the-psychedelic-furs",
+    "name": "The Psychedelic Furs",
+    "short_description": "English rock band formed in London in 1977, led by brothers Richard and Tim Butler.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "eros-ramazzotti",
+    "name": "Eros Ramazzotti",
+    "short_description": "Italian singer and songwriter from Rome, recording in Italian and Spanish.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "atmosphere",
+    "name": "Atmosphere",
+    "short_description": "American hip-hop duo from Minneapolis, formed by rapper Slug and producer Ant.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
+  },
+  {
+    "slug": "the-warning",
+    "name": "The Warning",
+    "short_description": "Mexican rock band from Monterrey, made up of three sisters.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-22"
   }
 ]

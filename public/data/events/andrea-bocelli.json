@@ -449,7 +449,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Oy3p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oy3p",
-    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-21-8-pm/concert/18039206",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-morrison-red-rocks-amphitheatre-9-21-2026--theater-opera/production/6594209",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oy3p",
@@ -465,11 +465,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18039206,
-        "url": "https://seatgeek.com/andrea-bocelli-tickets/morrison-colorado-red-rocks-amphitheatre-2026-09-21-8-pm/concert/18039206",
-        "verified": true,
-        "last_verified_at": "2026-09-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6594209,
@@ -1567,7 +1567,7 @@
         "event_id": 18581453,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/houston-texas-toyota-center-2027-02-07-8-pm/concert/18581453",
         "verified": true,
-        "last_verified_at": "2026-09-21",
+        "last_verified_at": "2026-09-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

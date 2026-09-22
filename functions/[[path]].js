@@ -525,18 +525,50 @@ async function routeForPath(pathname, env) {
     if (!city) return null;
     const artistsMeta = await loadArtistsMeta(env);
     const yearLabel = cityYearLabel(city);
+    // City names are not unique across countries — Birmingham, Manchester and
+    // London all exist in more than one tracked country. Their slugs differ
+    // (`citySlug` folds the normalised country in) and so do their meta
+    // descriptions and breadcrumbs, which have always read "<city>, <country>".
+    // The title was the one place that did not, so two same-named cities emit
+    // the SAME <title> once both clear the indexable gate. That stayed
+    // invisible only because one side of each pair sat below CITY_MIN_SHOWS;
+    // a single new date on the Birmingham US board tipped it over and produced
+    // a real duplicate-title collision between two unrelated pages.
+    //
+    // Only a pair that is BOTH indexable actually competes, so only that pair
+    // is qualified. Qualifying on the mere existence of a same-named city
+    // would also re-title Manchester and London, whose counterparts are
+    // noindex and have never collided, and would trade their year-labelled
+    // titles for a narrower one to fix a problem they do not have. A noindex
+    // twin costs nothing: it is absent from the audit, the sitemap and search.
+    const cityNameIsAmbiguous =
+      city.indexable &&
+      deriveCities(cityEvents).some(
+        (other) => other && other.indexable && other.slug !== city.slug && other.city === city.city
+      );
     return {
       type: "city",
       path,
       indexable: city.indexable,
       // Shed the year label, then the long suffix, before truncating. The
-      // city name itself is never dropped — it is what the page is about.
-      title: fitTitleToBudget([
-        `Concerts in ${city.city}${yearLabel ? ` ${yearLabel}` : ""} | Upcoming Shows & Tickets`,
-        `Concerts in ${city.city} | Upcoming Shows & Tickets`,
-        `Concerts in ${city.city} | Tickets`,
-        `Concerts in ${city.city}`
-      ]),
+      // city name itself is never dropped — it is what the page is about, and
+      // where the name is ambiguous the country is part of that identity and
+      // is never shed either.
+      title: fitTitleToBudget(
+        cityNameIsAmbiguous
+          ? [
+              `Concerts in ${city.city}, ${city.country}${yearLabel ? ` ${yearLabel}` : ""} | Upcoming Shows & Tickets`,
+              `Concerts in ${city.city}, ${city.country} | Upcoming Shows & Tickets`,
+              `Concerts in ${city.city}, ${city.country} | Tickets`,
+              `Concerts in ${city.city}, ${city.country}`
+            ]
+          : [
+              `Concerts in ${city.city}${yearLabel ? ` ${yearLabel}` : ""} | Upcoming Shows & Tickets`,
+              `Concerts in ${city.city} | Upcoming Shows & Tickets`,
+              `Concerts in ${city.city} | Tickets`,
+              `Concerts in ${city.city}`
+            ]
+      ),
       description: cityMetaDescription(city, yearLabel),
       city,
       events: cityEvents,

@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "tm-the-warning-2027-madrid-z698xz2qz1k_074bf",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "THE WARNING: Everything's Falling World Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Palacio Vistalegre",
+    "datetime_iso": "2027-03-09T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "664115608",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/664115608?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/664115608?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "664115608",
+        "discovery_event_id": "Z698xZ2qZ1k_074bF",
+        "url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/664115608?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_074bF",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-barcelona-z698xz2qz16vgvavjf",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "THE WARNING: Everything's Falling World Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Sant Jordi Club",
+    "datetime_iso": "2027-03-10T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1301141988",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/1301141988?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/1301141988?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1301141988",
+        "discovery_event_id": "Z698xZ2qZ16vGvAvJF",
+        "url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/1301141988?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vGvAvJF",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-birmingham-g5dzz_3jthdkp",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-03-29T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006529A9F03196",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-birmingham-29-03-2027/event/3E006529A9F03196",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-warning-birmingham-29-03-2027/event/3E006529A9F03196",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006529A9F03196",
+        "discovery_event_id": "G5dzZ_3JtHdkp",
+        "url": "https://www.ticketmaster.co.uk/the-warning-birmingham-29-03-2027/event/3E006529A9F03196",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3JtHdkp",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-03-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006523AECB2992",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-glasgow-30-03-2027/event/3E006523AECB2992",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-warning-glasgow-30-03-2027/event/3E006523AECB2992",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006523AECB2992",
+        "discovery_event_id": "G5dzZ_3CmwwJ3",
+        "url": "https://www.ticketmaster.co.uk/the-warning-glasgow-30-03-2027/event/3E006523AECB2992",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3CmwwJ3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Victoria Warehouse Manchester",
+    "datetime_iso": "2027-04-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006529AF643507",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-manchester-01-04-2027/event/3E006529AF643507",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-warning-manchester-01-04-2027/event/3E006529AF643507",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006529AF643507",
+        "discovery_event_id": "G5dzZ_3JR_df6",
+        "url": "https://www.ticketmaster.co.uk/the-warning-manchester-01-04-2027/event/3E006529AF643507",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3JR_df6",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-london-1adjz_3gkbnrnkt",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Venue Premium Tickets",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652EAA7A31A9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652EAA7A31A9",
+        "discovery_event_id": "1AdjZ_3GkBnrNkt",
+        "url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GkBnrNkt",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-phoenix-1av0z_3gkl3jytk",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-04-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900652AD29B9FD3",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900652AD29B9FD3",
+        "discovery_event_id": "1Av0Z_3Gkl3JyTK",
+        "url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_3Gkl3JyTK",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning w/ Wilt",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Warfield",
+    "datetime_iso": "2027-04-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtGN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtGN",
+        "discovery_event_id": "Z7r9jZ1AAvtGN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-portland-z7r9jz1aavtg0",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning w/ Wilt",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Roseland Theater",
+    "datetime_iso": "2027-04-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtG0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtG0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtG0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtG0",
+        "discovery_event_id": "Z7r9jZ1AAvtG0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtG0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtG0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-seattle-vvg1hz_3rqncw_",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Moore Theatre",
+    "datetime_iso": "2027-04-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652BDDA8EC99",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652BDDA8EC99",
+        "discovery_event_id": "vvG1HZ_3RqnCw_",
+        "url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3RqnCw_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-vancouver-z7r9jz1aavjo7",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Vogue Theatre-BC",
+    "datetime_iso": "2027-04-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvJO7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvJO7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvJO7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvJO7",
+        "discovery_event_id": "Z7r9jZ1AAvJO7",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvJO7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvJO7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-denver-g5vzz_3mnvfjd",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Fillmore Auditorium (Denver)",
+    "datetime_iso": "2027-04-29T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00652BAAD0873B",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00652BAAD0873B",
+        "discovery_event_id": "G5vzZ_3mnVFjD",
+        "url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning w/ Wilt",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Criterion Theater - Oklahoma City",
+    "datetime_iso": "2027-05-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtGP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtGP",
+        "discovery_event_id": "Z7r9jZ1AAvtGP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGP",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-houston-g5diz_30oeism",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Bayou Music Center",
+    "datetime_iso": "2027-05-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006529119E8C6E",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006529119E8C6E",
+        "discovery_event_id": "G5dIZ_30oEIsm",
+        "url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_30oEIsm",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning w/ Wilt",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-05-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtGJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtGJ",
+        "discovery_event_id": "Z7r9jZ1AAvtGJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-detroit-vv17oz_3gklkji_k",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "WRIF Presents: The Warning - Everything's Falling World Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-05-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800652AD3728646",
+    "ticketmaster_url": "https://www.ticketmaster.com/wrif-presents-the-warning-everythings-falling-detroit-michigan-05-06-2027/event/0800652AD3728646",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/wrif-presents-the-warning-everythings-falling-detroit-michigan-05-06-2027/event/0800652AD3728646",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800652AD3728646",
+        "discovery_event_id": "vv17OZ_3GklKjI_k",
+        "url": "https://www.ticketmaster.com/wrif-presents-the-warning-everythings-falling-detroit-michigan-05-06-2027/event/0800652AD3728646",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_3GklKjI_k",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-05-08T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652AEE6FACD0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-ottawa-ontario-05-08-2027/event/3100652AEE6FACD0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-ottawa-ontario-05-08-2027/event/3100652AEE6FACD0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652AEE6FACD0",
+        "discovery_event_id": "1Ad7Z_3GklmhBS8",
+        "url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-ottawa-ontario-05-08-2027/event/3100652AEE6FACD0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GklmhBS8",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-montreal-1ad7z_3gknfhkqk",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-05-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652A94F13753",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652A94F13753",
+        "discovery_event_id": "1Ad7Z_3GknfHKqK",
+        "url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GknfHKqK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-toronto-1avzz_3gkltrh3z",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-05-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652AFFBFC4B8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-toronto-ontario-05-11-2027/event/1000652AFFBFC4B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-toronto-ontario-05-11-2027/event/1000652AFFBFC4B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652AFFBFC4B8",
+        "discovery_event_id": "1AvZZ_3GklTRH3z",
+        "url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-toronto-ontario-05-11-2027/event/1000652AFFBFC4B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GklTRH3z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-pittsburgh-1avbz_3gknh0_t1",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "Presented by WXDX The Warning - Everything's Falling World Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2027-05-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600652ABC919A4A",
+    "ticketmaster_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600652ABC919A4A",
+        "discovery_event_id": "1AvbZ_3GknH0_t1",
+        "url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_3GknH0_t1",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "WWSK Presents: The Warning - Everything's Falling World Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-05-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000652B0D1226C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/wwsk-presents-the-warning-everythings-falling-brooklyn-new-york-05-18-2027/event/0000652B0D1226C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/wwsk-presents-the-warning-everythings-falling-brooklyn-new-york-05-18-2027/event/0000652B0D1226C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000652B0D1226C3",
+        "discovery_event_id": "k7vGF_3iu7xhd",
+        "url": "https://www.ticketmaster.com/wwsk-presents-the-warning-everythings-falling-brooklyn-new-york-05-18-2027/event/0000652B0D1226C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_3iu7xhd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-boston-vv177z_3gklqgssu",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-05-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652ADA331C76",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-boston-massachusetts-05-23-2027/event/0100652ADA331C76",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-boston-massachusetts-05-23-2027/event/0100652ADA331C76",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652ADA331C76",
+        "discovery_event_id": "vv177Z_3GklQGssU",
+        "url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-boston-massachusetts-05-23-2027/event/0100652ADA331C76",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3GklQGssU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

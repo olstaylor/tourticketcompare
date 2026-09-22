@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "tm-alan-walker-2027-austin-z7r9jz1aavtfx",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-01-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtfx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtfx",
+        "discovery_event_id": "Z7r9jZ1AAvtfx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtfx",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-irving-vvg1yz_3nb2d-j",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker: Legend of Atlantis Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-01-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006528D83FB866",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006528D83FB866",
+        "discovery_event_id": "vvG1YZ_3Nb2D-J",
+        "url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3Nb2D-J",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-houston-g5diz_3no4w3_",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-01-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006528D157D499",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006528D157D499",
+        "discovery_event_id": "G5dIZ_3No4W3_",
+        "url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3No4W3_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2027-01-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006524C55B511C",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-saint-louis-missouri-01-26-2027/event/21006524C55B511C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-saint-louis-missouri-01-26-2027/event/21006524C55B511C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006524C55B511C",
+        "discovery_event_id": "1A-Zkf0GkdApg7j",
+        "url": "https://www.ticketmaster.com/alan-walker-saint-louis-missouri-01-26-2027/event/21006524C55B511C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zkf0GkdApg7j",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-nashville-z7r9jz1aavt47",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-01-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvt47",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt47",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvt47",
+        "discovery_event_id": "Z7r9jZ1AAvt47",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt47",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-raleigh-g5evz_31nnqnu",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker - Legend Of Atlantis Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2027-01-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006522A38DA8CD",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006522A38DA8CD",
+        "discovery_event_id": "G5eVZ_31NNQNu",
+        "url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_31NNQNu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-charleston-g5evz_3nuc_ky",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2027-02-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00652A8DB594F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-charleston-south-carolina-01-31-2027/event/2D00652A8DB594F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-charleston-south-carolina-01-31-2027/event/2D00652A8DB594F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00652A8DB594F9",
+        "discovery_event_id": "G5eVZ_3nuc_Ky",
+        "url": "https://www.ticketmaster.com/alan-walker-charleston-south-carolina-01-31-2027/event/2D00652A8DB594F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3nuc_Ky",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-washington-1a4zkftgkdat1lk",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-02-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006529C9FCAAD3",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006529C9FCAAD3",
+        "discovery_event_id": "1A4ZkftGkdaT1lK",
+        "url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkftGkdaT1lK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2027-02-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006522EEF08C7E",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-philadelphia-pennsylvania-02-09-2027/event/02006522EEF08C7E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-philadelphia-pennsylvania-02-09-2027/event/02006522EEF08C7E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006522EEF08C7E",
+        "discovery_event_id": "vv1AeZkfxGkdmHFsX",
+        "url": "https://www.ticketmaster.com/alan-walker-philadelphia-pennsylvania-02-09-2027/event/02006522EEF08C7E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfxGkdmHFsX",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker: Legend of Atlantis Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-02-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065238D249734",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065238D249734",
+        "discovery_event_id": "vv1A8vPFzGAuaajV",
+        "url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPFzGAuaajV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4a",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker (18 and Over)",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Terminal 5",
+    "datetime_iso": "2027-02-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvt4A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvt4A",
+        "discovery_event_id": "Z7r9jZ1AAvt4A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4A",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4k",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker (18 and Over)",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Terminal 5",
+    "datetime_iso": "2027-02-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvt4k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvt4k",
+        "discovery_event_id": "Z7r9jZ1AAvt4k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4k",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-montreal-1aszkfngkelr9-v",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-02-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006523ABBD7874",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006523ABBD7874",
+        "discovery_event_id": "1AsZkfNGkelR9-V",
+        "url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkfNGkelR9-V",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-toronto-1avzz_3gkilb6g_",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-02-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652A2B607319",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-18-2027/event/1000652A2B607319",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-18-2027/event/1000652A2B607319",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652A2B607319",
+        "discovery_event_id": "1AvZZ_3GkIlb6G_",
+        "url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-18-2027/event/1000652A2B607319",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkIlb6G_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-toronto-1avzz_3gkilbmgn",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-02-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652A2B637323",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-19-2027/event/1000652A2B637323",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-19-2027/event/1000652A2B637323",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652A2B637323",
+        "discovery_event_id": "1AvZZ_3GkIlbMGN",
+        "url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-19-2027/event/1000652A2B637323",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkIlbMGN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-ottawa-16d7z_3qeg7dn9t",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-02-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652742EEA5E9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-ottawa-ontario-02-21-2027/event/3100652742EEA5E9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alan-walker-ottawa-ontario-02-21-2027/event/3100652742EEA5E9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652742EEA5E9",
+        "discovery_event_id": "16d7Z_3qeG7Dn9t",
+        "url": "https://www.ticketmaster.ca/alan-walker-ottawa-ontario-02-21-2027/event/3100652742EEA5E9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16d7Z_3qeG7Dn9t",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-pittsburgh-z7r9jz1aavt46",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Stage AE",
+    "datetime_iso": "2027-02-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvt46",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt46",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvt46",
+        "discovery_event_id": "Z7r9jZ1AAvt46",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt46",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-columbus-z7r9jz1aavt4f",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-02-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvt4F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvt4F",
+        "discovery_event_id": "Z7r9jZ1AAvt4F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-indianapolis-vv1aazkfegkewtmln",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-02-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006527BDFF7AE3",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-indianapolis-indiana-02-25-2027/event/05006527BDFF7AE3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-indianapolis-indiana-02-25-2027/event/05006527BDFF7AE3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006527BDFF7AE3",
+        "discovery_event_id": "vv1AAZkfEGkeWTMlN",
+        "url": "https://www.ticketmaster.com/alan-walker-indianapolis-indiana-02-25-2027/event/05006527BDFF7AE3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkfEGkeWTMlN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2027-02-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400652330E20F3E",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400652330E20F3E",
+        "discovery_event_id": "vv1k8Z_3GYG7zOHX",
+        "url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k8Z_3GYG7zOHX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-seattle-z7r9jz1aavt4a",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker (21 and Over)",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Showbox SODO",
+    "datetime_iso": "2027-03-04T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvt4a",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4a",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvt4a",
+        "discovery_event_id": "Z7r9jZ1AAvt4a",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4a",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-portland-z7r9jz1aavt48",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "McMenamins Crystal Ballroom",
+    "datetime_iso": "2027-03-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvt48",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt48",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt48",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvt48",
+        "discovery_event_id": "Z7r9jZ1AAvt48",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt48",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt48",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-los-angeles-vvg1iz_3n0r6vh",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Insomniac Presents Alan Walker - LEGEND OF ATLANTIS Tour - Ages 18+",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Torch at LA Coliseum",
+    "datetime_iso": "2027-03-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00652AA478707C",
+    "ticketmaster_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00652AA478707C",
+        "discovery_event_id": "vvG1IZ_3n0r6vH",
+        "url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3n0r6vH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

@@ -17,13 +17,13 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 
   - Vivid Seats 954; 152 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
-  - TicketNetwork 905.
+  - TicketNetwork 906.
 
   - Ticket Liquidator 762.
 
   - StubHub International 564.
 
-  - Across all lanes, 48 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
+  - Across all lanes, 47 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
 
   Of those 48, 12 are past and **36 are upcoming** (fact corrected 2026-09-21: this prose carried 47 — and a 7/40 split — a generation behind the machine-pinned bullet above it, which already read 48; recounted from source with that bullet's own `RESALE_KEYS` test and `datetime_iso`). Those thirty-six are **not** CTA-less: all 36 carry a Ticketmaster or `source_url` destination, so `eventLinkPublishable` passes and each renders its plain, unmonetized Ticketmaster button. What they lack is any verified resale lane — none of the 36 carries a stored `seatgeek_url` either — so the date offers one official link and no resale alternative, and no affiliate lane. Only **4** recheck rows publish no lane at all, and all four are past: ed-sheeran Nashville 6/20, bts Madrid 6/26 and 6/27, bad-bunny Marseille 7/1 (re-verified 2026-09-21 against `eventLinkPublishable`/`providerEventPublishable` — same four rows). A failing `eventLinkPublishable` is not that test on its own — 13 rows fail it while still publishing verified SeatGeek, Vivid Seats or marketplace lanes. The step change came with the 2026-09-10 ingestion runs — 251 Ticketmaster dates across 16 artists, then 21 more for Harry Styles: ingestion lands dates far faster than resale provenance is verified for them, so this figure tracks ingestion volume rather than the calendar and keeps climbing after each large run until the CTA syncs catch up. Only the counts in the bullets above are machine-pinned; the past/upcoming split is not, and a "no CTA" claim must be computed with the runtime predicates in `functions/[[path]].js` (`eventLinkPublishable`, `providerEventPublishable`) across **all** providers including Ticketmaster, never from the validator's resale-only test. See BACKLOG item 4.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.

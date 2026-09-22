@@ -25,9 +25,25 @@ export const DEFAULT_POLL_MS = 15000;
 //
 // `runs` is the check-runs array GitHub returns for the SHA, already filtered
 // to the required check name.
+//
+// A verdict needs EVERY run of that name to have finished, not just one of
+// them. Two land on an automation head now: the explicit dispatch below, and
+// the `pull_request` run that opening the PR raises. While those PR runs were
+// stranded (born `completed`/`action_required`, no jobs) only the dispatch ever
+// produced a check, so "first completion wins" was indistinguishable from
+// "the check is done". The App installation token fixed the stranding — and in
+// doing so gave the head a second, real, concurrently-running `test-mvp`. It
+// finishes ~15s after the dispatch one, and that gap is a window in which this
+// used to report a verdict and the caller merged straight into GitHub's
+// `Required status check "test-mvp" is in progress` (405). Every scheduled lane
+// went red that way on 2026-09-22 having already pushed a correct, validated
+// branch. So: hold at `pending` until nothing of that name is still running.
 export function classifyCheck(runs, { elapsedMs = 0, timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
-  const completed = (runs || []).filter((run) => run?.status === "completed");
-  if (completed.length > 0) {
+  const all = (runs || []).filter(Boolean);
+  const completed = all.filter((run) => run.status === "completed");
+  const running = all.filter((run) => run.status && run.status !== "completed");
+
+  if (completed.length > 0 && running.length === 0) {
     // Newest completion wins: a re-dispatch supersedes an earlier verdict, and
     // a stale green must never outrank the red that followed it. GitHub does
     // not return these in completion order — a commit re-validated on
@@ -50,17 +66,34 @@ export function classifyCheck(runs, { elapsedMs = 0, timeoutMs = DEFAULT_TIMEOUT
       url: latest.html_url || "",
     };
   }
+
   if (elapsedMs >= timeoutMs) {
-    const started = (runs || []).length > 0;
+    const minutes = Math.round(timeoutMs / 60000);
+    if (running.length === 0) {
+      return { state: "timeout", detail: `${DEFAULT_CHECK_NAME} never started within ${minutes} minutes`, url: "" };
+    }
+    // Naming the already-finished verdict matters here: "one passed, another is
+    // still going" is a different problem from "nothing ever ran", and merging
+    // on the first is exactly what this function now refuses to invite.
     return {
       state: "timeout",
-      detail: started
-        ? `${DEFAULT_CHECK_NAME} was still running after ${Math.round(timeoutMs / 60000)} minutes`
-        : `${DEFAULT_CHECK_NAME} never started within ${Math.round(timeoutMs / 60000)} minutes`,
-      url: (runs || [])[0]?.html_url || "",
+      detail:
+        completed.length > 0
+          ? `${DEFAULT_CHECK_NAME} reached a verdict but ${running.length} other ${DEFAULT_CHECK_NAME} run(s) ` +
+            `were still running after ${minutes} minutes`
+          : `${DEFAULT_CHECK_NAME} was still running after ${minutes} minutes`,
+      url: (completed[0] || running[0])?.html_url || "",
     };
   }
-  return { state: "pending", detail: `${DEFAULT_CHECK_NAME} is ${(runs || [])[0]?.status || "not registered yet"}`, url: "" };
+
+  if (completed.length > 0) {
+    return {
+      state: "pending",
+      detail: `${DEFAULT_CHECK_NAME} reached a verdict; ${running.length} other ${DEFAULT_CHECK_NAME} run(s) still running`,
+      url: "",
+    };
+  }
+  return { state: "pending", detail: `${DEFAULT_CHECK_NAME} is ${all[0]?.status || "not registered yet"}`, url: "" };
 }
 
 // Dispatches the validation workflow against `branch`, then polls the check

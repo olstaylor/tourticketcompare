@@ -61,6 +61,54 @@ if (process.argv.includes("--self-test")) {
     ]).state,
     "failed"
   );
+  // The 2026-09-22 regression: the dispatch check and the `pull_request` check
+  // both land on an automation head, and the second finishes seconds after the
+  // first. Returning a verdict while it is still running is what walked every
+  // lane into a 405 `Required status check "test-mvp" is in progress` merge.
+  check(
+    "a completed run does not decide it while another is in progress",
+    classifyCheck([
+      { status: "completed", conclusion: "success", completed_at: "2026-09-22T10:12:34Z" },
+      { status: "in_progress" },
+    ]).state,
+    "pending"
+  );
+  check(
+    "a completed run does not decide it while another is queued",
+    classifyCheck([{ status: "completed", conclusion: "success" }, { status: "queued" }]).state,
+    "pending"
+  );
+  check(
+    "a red verdict also waits for the other run",
+    classifyCheck([{ status: "completed", conclusion: "failure" }, { status: "in_progress" }]).state,
+    "pending"
+  );
+  check(
+    "both finished gives the verdict",
+    classifyCheck([
+      { status: "completed", conclusion: "success", completed_at: "2026-09-22T10:13:08Z" },
+      { status: "completed", conclusion: "success", completed_at: "2026-09-22T10:12:34Z" },
+    ]).state,
+    "passed"
+  );
+  check(
+    "a still-running sibling past the deadline times out rather than merging",
+    classifyCheck([{ status: "completed", conclusion: "success" }, { status: "in_progress" }], {
+      elapsedMs: 10,
+      timeoutMs: 5,
+    }).state,
+    "timeout"
+  );
+  check(
+    "that timeout names the run still going",
+    /still running after/.test(
+      classifyCheck([{ status: "completed", conclusion: "success" }, { status: "in_progress" }], {
+        elapsedMs: 10,
+        timeoutMs: 5,
+      }).detail
+    ),
+    true
+  );
   check("timed out while running", classifyCheck([{ status: "in_progress" }], { elapsedMs: 10, timeoutMs: 5 }).state, "timeout");
   check("timed out never started", classifyCheck([], { elapsedMs: 10, timeoutMs: 5 }).state, "timeout");
   check(
@@ -96,6 +144,30 @@ if (process.argv.includes("--self-test")) {
   check("green run reports the check url", green.url, "https://example.test/run");
   check("dispatch is raised once", calls.filter((c) => c.startsWith("POST")).length, 1);
   check("dispatch names the branch", calls[0].includes('{"ref":"automation/x"}'), true);
+
+  // End to end through the poll loop: the second `test-mvp` must be waited out,
+  // not raced.
+  const twoChecks = await earnRequiredCheck({
+    request: scripted([
+      null,
+      { check_runs: [{ status: "in_progress" }, { status: "queued" }] },
+      { check_runs: [{ status: "completed", conclusion: "success" }, { status: "in_progress" }] },
+      {
+        check_runs: [
+          { status: "completed", conclusion: "success", completed_at: "2026-09-22T10:13:08Z" },
+          { status: "completed", conclusion: "success", completed_at: "2026-09-22T10:12:34Z" },
+        ],
+      },
+    ]),
+    repo: "o/r",
+    branch: "automation/x",
+    sha: "0123456789abcdef",
+    pollMs: 0,
+    sleep: async () => {},
+    log: quiet,
+  });
+  check("both test-mvp runs are waited out", twoChecks.ok, true);
+  check("waiting out both ends in a verdict", twoChecks.state, "passed");
 
   const red = await earnRequiredCheck({
     request: scripted([null, { check_runs: [{ status: "completed", conclusion: "failure" }] }]),

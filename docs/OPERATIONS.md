@@ -175,6 +175,30 @@ The obsolete `IMPACT_TICKETMASTER_*` secrets are unused — delete from the dash
 
 Infrastructure/automation issues only — dated, short, actionable. Content and data-hygiene backlog items live in `BACKLOG.md`.
 
+- **A freshly minted App token is briefly refused by git, and the losing lane published nothing (resolved 2026-09-22).** The daily audit went red on 18, 20 and 21 September for what looked like three different reasons and was really two. On 2026-09-18 the mint itself failed (`publishing-identity.app` → `outcome=failure`, "Token is not set") — that was activation, and it stopped once the App was live. On 2026-09-20 and 2026-09-21 the token minted cleanly and the **push** was refused:
+
+  ```
+  remote: Permission to olstaylor/tourticketcompare.git denied to tourticketcompare-automation[bot].
+  fatal: unable to access '...': The requested URL returned error: 403
+  ```
+
+  **It is a race, not a permission.** The daily audit runs two publishing jobs minutes apart under one identical configuration, which is what makes this measurable. On 2026-09-20 `verification-dates` was refused and `status-figures` published fine; on 2026-09-21 it was the other way round. Same App, same ruleset, same day. What separates them is the gap between minting the token and using it:
+
+  | Date | Job | mint → push | Outcome |
+  |---|---|---|---|
+  | 2026-09-20 | verification-dates | 345ms | 403 |
+  | 2026-09-21 | status-figures | 218ms | 403 |
+  | 2026-09-21 | verification-dates | ~2s | pushed |
+  | 2026-09-22 | status-figures | ~2s | pushed |
+
+  Both failures are under 350ms; both successes are over 1.5s. `actions/create-github-app-token` returns a token that is valid against `api.github.com` immediately, but git-over-HTTPS can refuse it for a moment — and it refuses with wording that reads like a permanent settings problem, which is why this was mistaken for one. Nothing needs re-minting; it needs a moment.
+
+  **Fix:** `scripts/push-automation-branch.mjs` retries the push on exactly that signature (a `denied to …[bot]` line *and* a 403), 5 attempts over ~30s. It refuses to retry anything git rejected on the merits — `[rejected]`, `stale info`, `non-fast-forward`, `protected branch` — because retrying a gate until it yields is how a lane learns to publish something a gate meant to stop; those fail once, immediately, as before. Exhausting the budget prints what to check (App still installed with Contents: write; no ruleset restricting `automation/*` creation) rather than a bare 403. Wired into all ten publishing lanes: the eight workflow push sites, `sync-tm-events-write-pr.mjs` and the Stage 3 repair worker. `push-branch:self-test` pins the classifier both ways and the backoff.
+
+  `--force-with-lease` is what makes the retry safe rather than merely convenient: if a push did land and the client lost the answer, the retry's lease check fails loudly with `stale info` instead of force-overwriting the ref — and that wording is on the never-retry list.
+
+  The guard in `configure-automation-identity.mjs` that asserts no push precedes the identity step now matches the wrapper as well as the literal `git push`; left alone it would have gone quietly vacuous the moment the pushes moved into a script.
+
 - **The App-identity fix gave every automation head a second `test-mvp`, and auto-merge raced it (resolved 2026-09-22).** All four scheduled publishing lanes went red on the same 405 within two hours: daily audit / status figures (08:25Z, #1074), nightly data sync (08:58Z, #1075), SeatGeek CTA sync (10:00Z, #1076) and Vivid Seats CTA sync (10:12Z, #1077). Each had already pushed a correct branch whose in-job suite passed, opened its PR, dispatched Prelaunch Validation, and seen it go green — then merged into `Repository rule violations found / Required status check "test-mvp" is in progress`, left the PR for a human and exited 1.
 
   **This is the App rollout's own success, arriving as a regression.** Two Prelaunch runs land on an automation head: the explicit `workflow_dispatch` and the `pull_request` run that opening the PR raises. While the PR runs were stranded (born `completed`/`action_required`, zero jobs) they produced no `test-mvp` check at all, so `classifyCheck`'s "any completed run is the verdict" was indistinguishable from "the check is done". The installation token stopped the stranding — and the PR run now executes for real, concurrently, finishing ~15s after the dispatched one. Measured on the four heads: dispatch verdict at 08:25:32 / 08:58:24 / 10:00:34 / 10:12:49, merge attempted 1-2s later, PR run still going until 08:58:34 / 10:00:38 / 10:13:08. The merge landed squarely in that gap every time.

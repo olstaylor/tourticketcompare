@@ -69,6 +69,7 @@ import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { slugify } from "./lib/slugify.mjs";
 import { reportStrandedPrValidation, earnRequiredCheck } from "./lib/required-check.mjs";
+import { pushWithRetry } from "./push-automation-branch.mjs";
 import {
   buildOutcomesArtifact,
   buildOutcomesMarkdown,
@@ -689,7 +690,20 @@ async function main() {
     return 0;
   }
 
-  run("git", ["push", "--set-upstream", "origin", branch]);
+  // Retried, because a freshly minted App installation token is briefly
+  // refused by git-over-HTTPS with a 403 that reads like a settings problem.
+  // Only that signature is retried; a push git rejected on the merits still
+  // fails here at once. See scripts/push-automation-branch.mjs.
+  {
+    const verdict = await pushWithRetry({
+      args: ["push", "--set-upstream", "origin", branch],
+      run: (args) => {
+        const result = spawnSync("git", args, { cwd: REPO_ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+        return { status: result.status, output: `${result.stdout || ""}${result.stderr || ""}` };
+      },
+    });
+    if (!verdict.ok) throw new Error(`git push failed for ${branch}`);
+  }
 
   const { owner, name } = getRepoInfo();
   const prTitle = slugs.length === 1

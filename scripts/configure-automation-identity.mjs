@@ -83,7 +83,10 @@ function selfTest() {
         assert.equal(identity.if, step.if, `${file}: preserve the publisher gate`);
         assert.equal(step.env.GITHUB_TOKEN, '${{ steps.publishing-identity.outputs.token }}', file);
         assert(job['timeout-minutes'] < 60, `${file}: job must fit token lifetime`);
-        assert(!steps.slice(0, index - 1).some(s => /git push/.test(s.run || '')), `${file}: push precedes identity`);
+        // Matches the push however it is spelled: the literal `git push` and the
+        // retrying wrapper that replaced it. Without the second alternative this
+        // guard silently stopped guarding the moment the pushes moved into a script.
+        assert(!steps.slice(0, index - 1).some(s => /git push|push-automation-branch/.test(s.run || '')), `${file}: push precedes identity`);
       }
     }
   }

@@ -200,7 +200,7 @@ jobs:
           stage_and_commit
 
           for attempt in 1 2; do
-            git push -u origin "$BRANCH" --force-with-lease
+            node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
             if BRANCH="$BRANCH" \
                PR_TITLE="content: rebuild blog and guide content from content/" \
                PR_LABEL="automation:content-build" \

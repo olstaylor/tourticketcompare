@@ -143,6 +143,7 @@
     "generated:freshness:self-test": "node scripts/check-generated-freshness.mjs --self-test",
     "required-check:earn": "node scripts/earn-required-check.mjs",
     "required-check:self-test": "node scripts/earn-required-check.mjs --self-test",
+    "push-branch:self-test": "node scripts/push-automation-branch.mjs --self-test",
     "queue:materialize": "node scripts/materialize-work-queue.mjs",
     "queue:materialize:dry-run": "node scripts/materialize-work-queue.mjs --dry-run",
     "queue:materialize:self-test": "node scripts/materialize-work-queue.mjs --self-test",

@@ -51,6 +51,7 @@ export const STEPS = [
   { id: "queue:materialize:self-test",           lane: "units",  run: "npm run queue:materialize:self-test" },
   { id: "queue:repair:self-test",                lane: "units",  run: "npm run queue:repair:self-test" },
   { id: "required-check:self-test",              lane: "units",  run: "npm run required-check:self-test" },
+  { id: "push-branch:self-test",                 lane: "units",  run: "npm run push-branch:self-test" },
   { id: "events:validate:partitions",             lane: "quick",  run: "npm run events:validate:partitions" },
   { id: "validate:artist-providers",              lane: "quick",  run: "npm run validate:artist-providers" },
   { id: "validate:cta-provider-state",            lane: "quick",  run: "npm run validate:cta-provider-state" },

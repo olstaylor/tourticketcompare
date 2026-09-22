@@ -174,7 +174,7 @@ jobs:
           git checkout -B "$BRANCH"
           git add public/data/events.json public/data/events public/data/events-index.json public/index.html PROJECT_STATUS.md
           git commit -m "Nightly data sync: refresh tracked event dates/venues (${TODAY})"
-          git push -u origin "$BRANCH" --force-with-lease
+          node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \
           PR_TITLE="Nightly data sync: refresh tracked event dates/venues (${TODAY})" \
           PR_LABEL="automation:data-sync" \

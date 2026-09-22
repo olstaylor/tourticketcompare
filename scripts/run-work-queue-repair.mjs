@@ -34,6 +34,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 
 import { GENERATED_ARTEFACTS } from "./check-generated-freshness.mjs";
 import { DEFAULT_POLL_MS, DEFAULT_TIMEOUT_MS, earnRequiredCheck } from "./lib/required-check.mjs";
+import { pushWithRetry } from "./push-automation-branch.mjs";
 import {
   ALLOWED_RISKS,
   FAILING_OUTCOMES,
@@ -675,14 +676,28 @@ async function main() {
   const branchSteps = [
     ["checkout", "-b", plan.branch],
     ["add", "--", ...plan.expectedPaths],
-    ["commit", "-m", commitMessage],
-    ["push", "-u", "origin", plan.branch]
+    ["commit", "-m", commitMessage]
   ];
   for (const args of branchSteps) {
     const result = git(args);
     if (result.exit !== 0) {
       await report(OUTCOMES.BLOCKED, `\`git ${args[0]}\` failed while publishing the repair: ${truncate(result.stderr || result.stdout)}`);
     }
+  }
+
+  // The push is retried where the others are not: a freshly minted App
+  // installation token is briefly refused by git-over-HTTPS with a 403 that
+  // reads like a permanent settings problem. Only that signature is retried
+  // — a push git rejected on the merits still blocks at once.
+  const pushed = await pushWithRetry({
+    args: ["push", "-u", "origin", plan.branch],
+    run: (args) => {
+      const result = git(args);
+      return { status: result.exit, output: `${result.stdout || ""}${result.stderr || ""}` };
+    }
+  });
+  if (!pushed.ok) {
+    await report(OUTCOMES.BLOCKED, `\`git push\` failed while publishing the repair: ${truncate(pushed.output)}`);
   }
   say(`Pushed ${plan.branch}.`);
 

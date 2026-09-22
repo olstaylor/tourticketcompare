@@ -117,7 +117,7 @@ jobs:
           git checkout -B "$BRANCH"
           git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md
           git commit -m "automation: refresh existing TM event data (${TODAY})"
-          git push -u origin "$BRANCH" --force-with-lease
+          node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \
           PR_TITLE="Refresh existing Ticketmaster event data (${TODAY})" \
           PR_LABEL="automation:tm-events" \

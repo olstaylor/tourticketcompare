@@ -83354,7 +83354,7 @@
     "event_name": "Sylvan Esso",
     "city": "Milwaukee",
     "country": "United States Of America",
-    "venue": "Riverside Theatre - WI",
+    "venue": "Riverside Theater - WI",
     "datetime_iso": "2026-10-22T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PfOs",
@@ -83363,7 +83363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

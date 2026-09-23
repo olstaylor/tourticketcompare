@@ -20810,7 +20810,7 @@
     "city": "Foxborough",
     "country": "United States Of America",
     "venue": "Gillette Stadium",
-    "datetime_iso": "2026-09-25T21:30:00Z",
+    "datetime_iso": "2026-09-26T00:00:00Z",
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "0100632FCAE52E03",
     "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-25-2026/event/0100632FCAE52E03",
@@ -20818,7 +20818,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-foxborough-gillette-stadium-9-25-2026--concerts-pop/production/6049734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-25-2026/event/0100632FCAE52E03",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-09-23",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100632FCAE52E03",
@@ -20887,7 +20887,7 @@
     "city": "Foxborough",
     "country": "United States Of America",
     "venue": "Gillette Stadium",
-    "datetime_iso": "2026-09-26T21:30:00Z",
+    "datetime_iso": "2026-09-27T00:00:00Z",
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "01006331F67E74D9",
     "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-26-2026/event/01006331F67E74D9",
@@ -20895,7 +20895,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-foxborough-gillette-stadium-9-26-2026--concerts-pop/production/6049735",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-26-2026/event/01006331F67E74D9",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-09-23",
     "provider_links": {
       "ticketmaster": {
         "event_id": "01006331F67E74D9",
@@ -32525,7 +32525,7 @@
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
-    "datetime_iso": "2026-10-31T19:00:00Z",
+    "datetime_iso": "2026-10-31T18:30:00Z",
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "249454256",
     "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/249454256?language=en-us",
@@ -32533,7 +32533,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/249454256?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

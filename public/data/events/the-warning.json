@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "3E006523AECB2992",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-glasgow-30-03-2027/event/3E006523AECB2992",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-glasgow-o2-academy-glasgow-3-30-2027--concerts-pop/production/7560890",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-warning-glasgow-30-03-2027/event/3E006523AECB2992",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7560890,
+        "url": "https://www.vividseats.com/the-warning-tickets-glasgow-o2-academy-glasgow-3-30-2027--concerts-pop/production/7560890",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "3700652EAA7A31A9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-london-ovo-arena-wembley-4-2-2027--concerts-pop/production/7560894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7560894,
+        "url": "https://www.vividseats.com/the-warning-tickets-london-ovo-arena-wembley-4-2-2027--concerts-pop/production/7560894",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "1900652AD29B9FD3",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-phoenix-the-van-buren-4-18-2027/production/7553211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553211,
+        "url": "https://www.vividseats.com/the-warning-tickets-phoenix-the-van-buren-4-18-2027/production/7553211",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvtGN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGN",
     "seatgeek_url": "https://seatgeek.com/the-warning-tickets/san-francisco-california-the-warfield-2027-04-20-8-pm/concert/18593338",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-san-francisco-warfield-4-20-2027/production/7552822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGN",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7552822,
+        "url": "https://www.vividseats.com/the-warning-tickets-san-francisco-warfield-4-20-2027/production/7552822",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvtG0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtG0",
     "seatgeek_url": "https://seatgeek.com/the-warning-tickets/portland-oregon-roseland-theater-2027-04-22-8-pm/concert/18593342",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-portland-roseland-theater-4-22-2027/production/7555363",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtG0",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7555363,
+        "url": "https://www.vividseats.com/the-warning-tickets-portland-roseland-theater-4-22-2027/production/7555363",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "0F00652BDDA8EC99",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-seattle-moore-theatre-4-23-2027/production/7553067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553067,
+        "url": "https://www.vividseats.com/the-warning-tickets-seattle-moore-theatre-4-23-2027/production/7553067",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvJO7",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvJO7",
     "seatgeek_url": "https://seatgeek.com/the-warning-tickets/vancouver-canada-vogue-theatre-bc-1-2027-04-25-7-pm/concert/18590212",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-vancouver-vogue-theatre---bc-4-25-2027/production/7553113",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvJO7",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553113,
+        "url": "https://www.vividseats.com/the-warning-tickets-vancouver-vogue-theatre---bc-4-25-2027/production/7553113",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "1E00652BAAD0873B",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-denver-fillmore-auditorium-denver-4-28-2027/production/7553189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553189,
+        "url": "https://www.vividseats.com/the-warning-tickets-denver-fillmore-auditorium-denver-4-28-2027/production/7553189",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "3A006529119E8C6E",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-houston-bayou-music-center-5-2-2027/production/7553247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553247,
+        "url": "https://www.vividseats.com/the-warning-tickets-houston-bayou-music-center-5-2-2027/production/7553247",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvtGJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGJ",
     "seatgeek_url": "https://seatgeek.com/the-warning-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-04-8-pm/concert/18593340",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-atlanta-the-eastern-5-4-2027/production/7552902",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGJ",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7552902,
+        "url": "https://www.vividseats.com/the-warning-tickets-atlanta-the-eastern-5-4-2027/production/7552902",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "0800652AD3728646",
     "ticketmaster_url": "https://www.ticketmaster.com/wrif-presents-the-warning-everythings-falling-detroit-michigan-05-06-2027/event/0800652AD3728646",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-detroit-the-fillmore-detroit-5-6-2027/production/7553223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrif-presents-the-warning-everythings-falling-detroit-michigan-05-06-2027/event/0800652AD3728646",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553223,
+        "url": "https://www.vividseats.com/the-warning-tickets-detroit-the-fillmore-detroit-5-6-2027/production/7553223",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "3100652AEE6FACD0",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-ottawa-ontario-05-08-2027/event/3100652AEE6FACD0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-ottawa-history-ottawa-5-8-2027/production/7553145",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-ottawa-ontario-05-08-2027/event/3100652AEE6FACD0",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553145,
+        "url": "https://www.vividseats.com/the-warning-tickets-ottawa-history-ottawa-5-8-2027/production/7553145",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "3100652A94F13753",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-montreal-mtelus-5-9-2027/production/7555333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7555333,
+        "url": "https://www.vividseats.com/the-warning-tickets-montreal-mtelus-5-9-2027/production/7555333",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "1000652AFFBFC4B8",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-toronto-ontario-05-11-2027/event/1000652AFFBFC4B8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-toronto-history-toronto-5-11-2027/production/7553111",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-toronto-ontario-05-11-2027/event/1000652AFFBFC4B8",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553111,
+        "url": "https://www.vividseats.com/the-warning-tickets-toronto-history-toronto-5-11-2027/production/7553111",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "1600652ABC919A4A",
     "ticketmaster_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-pittsburgh-citizens-live-at-the-wylie-5-15-2027/production/7553269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553269,
+        "url": "https://www.vividseats.com/the-warning-tickets-pittsburgh-citizens-live-at-the-wylie-5-15-2027/production/7553269",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "0000652B0D1226C3",
     "ticketmaster_url": "https://www.ticketmaster.com/wwsk-presents-the-warning-everythings-falling-brooklyn-new-york-05-18-2027/event/0000652B0D1226C3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-brooklyn-brooklyn-paramount-5-18-2027/production/7553227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wwsk-presents-the-warning-everythings-falling-brooklyn-new-york-05-18-2027/event/0000652B0D1226C3",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553227,
+        "url": "https://www.vividseats.com/the-warning-tickets-brooklyn-brooklyn-paramount-5-18-2027/production/7553227",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "0100652ADA331C76",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-boston-massachusetts-05-23-2027/event/0100652ADA331C76",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-boston-mgm-music-hall-at-fenway-5-23-2027--concerts-pop/production/7552850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-boston-massachusetts-05-23-2027/event/0100652ADA331C76",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7552850,
+        "url": "https://www.vividseats.com/the-warning-tickets-boston-mgm-music-hall-at-fenway-5-23-2027--concerts-pop/production/7552850",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

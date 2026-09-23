@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvtfx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfx",
     "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-01-21-7-pm/concert/18595131",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-austin-austin-city-limits-live-at-the-moody-theater-1-21-2027--concerts-dance-electronica/production/7554813",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfx",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554813,
+        "url": "https://www.vividseats.com/alan-walker-tickets-austin-austin-city-limits-live-at-the-moody-theater-1-21-2027--concerts-dance-electronica/production/7554813",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0C006528D83FB866",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-irving-pavilion-at-toyota-music-factory-1-22-2027--concerts-dance-electronica/production/7554678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554678,
+        "url": "https://www.vividseats.com/alan-walker-tickets-irving-pavilion-at-toyota-music-factory-1-22-2027--concerts-dance-electronica/production/7554678",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "3A006528D157D499",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-houston-713-music-hall-1-23-2027--concerts-dance-electronica/production/7554680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554680,
+        "url": "https://www.vividseats.com/alan-walker-tickets-houston-713-music-hall-1-23-2027--concerts-dance-electronica/production/7554680",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "2D006522A38DA8CD",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-raleigh-the-ritz---raleigh-1-30-2027--concerts-dance-electronica/production/7554686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554686,
+        "url": "https://www.vividseats.com/alan-walker-tickets-raleigh-the-ritz---raleigh-1-30-2027--concerts-dance-electronica/production/7554686",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "2D00652A8DB594F9",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-charleston-south-carolina-01-31-2027/event/2D00652A8DB594F9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-charleston-charleston-music-hall-1-31-2027--concerts-dance-electronica/production/7554693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-charleston-south-carolina-01-31-2027/event/2D00652A8DB594F9",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554693,
+        "url": "https://www.vividseats.com/alan-walker-tickets-charleston-charleston-music-hall-1-31-2027--concerts-dance-electronica/production/7554693",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "15006529C9FCAAD3",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-washington-dc-the-anthem-2-6-2027--concerts-dance-electronica/production/7554676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554676,
+        "url": "https://www.vividseats.com/alan-walker-tickets-washington-dc-the-anthem-2-6-2027--concerts-dance-electronica/production/7554676",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "02006522EEF08C7E",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-philadelphia-pennsylvania-02-09-2027/event/02006522EEF08C7E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-philadelphia-the-fillmore-philadelphia-2-9-2027/production/7553129",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-philadelphia-pennsylvania-02-09-2027/event/02006522EEF08C7E",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553129,
+        "url": "https://www.vividseats.com/alan-walker-tickets-philadelphia-the-fillmore-philadelphia-2-9-2027/production/7553129",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "010065238D249734",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-boston-mgm-music-hall-at-fenway-2-10-2027--concerts-dance-electronica/production/7554695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554695,
+        "url": "https://www.vividseats.com/alan-walker-tickets-boston-mgm-music-hall-at-fenway-2-10-2027--concerts-dance-electronica/production/7554695",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvt4A",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4A",
     "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/new-york-new-york-terminal-5-2027-02-11-9-pm/concert/18595137",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-new-york-terminal-5-2-11-2027--concerts-dance-electronica/production/7556097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4A",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7556097,
+        "url": "https://www.vividseats.com/alan-walker-tickets-new-york-terminal-5-2-11-2027--concerts-dance-electronica/production/7556097",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvt4k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4k",
     "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/new-york-new-york-terminal-5-2027-02-12-9-pm/concert/18595135",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-new-york-terminal-5-2-12-2027--concerts-dance-electronica/production/7556099",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4k",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7556099,
+        "url": "https://www.vividseats.com/alan-walker-tickets-new-york-terminal-5-2-12-2027--concerts-dance-electronica/production/7556099",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "31006523ABBD7874",
     "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-16-2027--concerts-dance-electronica/production/7554703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554703,
+        "url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-16-2027--concerts-dance-electronica/production/7554703",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "1000652A2B607319",
     "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-18-2027/event/1000652A2B607319",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-18-2027--concerts-dance-electronica/production/7554707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-18-2027/event/1000652A2B607319",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554707,
+        "url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-18-2027--concerts-dance-electronica/production/7554707",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "1000652A2B637323",
     "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-19-2027/event/1000652A2B637323",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-19-2027--concerts-dance-electronica/production/7554711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-19-2027/event/1000652A2B637323",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554711,
+        "url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-19-2027--concerts-dance-electronica/production/7554711",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "3100652742EEA5E9",
     "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-ottawa-ontario-02-21-2027/event/3100652742EEA5E9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-ottawa-history-ottawa-2-21-2027--concerts-dance-electronica/production/7554715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-ottawa-ontario-02-21-2027/event/3100652742EEA5E9",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554715,
+        "url": "https://www.vividseats.com/alan-walker-tickets-ottawa-history-ottawa-2-21-2027--concerts-dance-electronica/production/7554715",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvt46",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt46",
     "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/pittsburgh-pennsylvania-stage-ae-2027-02-23-8-pm/concert/18595139",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-pittsburgh-stage-ae-2-23-2027--concerts-dance-electronica/production/7554819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt46",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554819,
+        "url": "https://www.vividseats.com/alan-walker-tickets-pittsburgh-stage-ae-2-23-2027--concerts-dance-electronica/production/7554819",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvt4F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4F",
     "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/columbus-ohio-kemba-live-2027-02-24-8-pm/concert/18595141",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-columbus-kemba-live-2-24-2027--concerts-dance-electronica/production/7554821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4F",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554821,
+        "url": "https://www.vividseats.com/alan-walker-tickets-columbus-kemba-live-2-24-2027--concerts-dance-electronica/production/7554821",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "05006527BDFF7AE3",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-indianapolis-indiana-02-25-2027/event/05006527BDFF7AE3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-25-2027--concerts-dance-electronica/production/7554697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-indianapolis-indiana-02-25-2027/event/05006527BDFF7AE3",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554697,
+        "url": "https://www.vividseats.com/alan-walker-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-25-2027--concerts-dance-electronica/production/7554697",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "0400652330E20F3E",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-chicago-aragon-ballroom-2-26-2027--concerts-dance-electronica/production/7554699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554699,
+        "url": "https://www.vividseats.com/alan-walker-tickets-chicago-aragon-ballroom-2-26-2027--concerts-dance-electronica/production/7554699",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvt4a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4a",
     "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/seattle-washington-showbox-sodo-2027-03-03-8-pm/concert/18595143",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-seattle-showbox-sodo-3-3-2027--concerts-dance-electronica/production/7554827",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt4a",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554827,
+        "url": "https://www.vividseats.com/alan-walker-tickets-seattle-showbox-sodo-3-3-2027--concerts-dance-electronica/production/7554827",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvt48",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt48",
     "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-03-04-8-pm/concert/18595145",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-portland-mcmenamins-crystal-ballroom-3-4-2027--concerts-dance-electronica/production/7554809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt48",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554809,
+        "url": "https://www.vividseats.com/alan-walker-tickets-portland-mcmenamins-crystal-ballroom-3-4-2027--concerts-dance-electronica/production/7554809",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "0A00652AA478707C",
     "ticketmaster_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-los-angeles-the-torch-at-la-coliseum-3-6-2027--concerts-dance-electronica/production/7554701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554701,
+        "url": "https://www.vividseats.com/alan-walker-tickets-los-angeles-the-torch-at-la-coliseum-3-6-2027--concerts-dance-electronica/production/7554701",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

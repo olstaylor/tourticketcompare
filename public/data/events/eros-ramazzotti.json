@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3C00651D84A312B0",
     "ticketmaster_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-new-york-new-york-10-02-2027/event/3C00651D84A312B0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/eros-ramazzotti-tickets-new-york-radio-city-music-hall-10-2-2027/production/7505558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-new-york-new-york-10-02-2027/event/3C00651D84A312B0",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7505558,
+        "url": "https://www.vividseats.com/eros-ramazzotti-tickets-new-york-radio-city-music-hall-10-2-2027/production/7505558",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

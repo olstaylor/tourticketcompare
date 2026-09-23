@@ -89,6 +89,9 @@ export const STEPS = [
   { id: "status:validate:self-test",              lane: "units",  run: "node scripts/validate-status-counts.mjs --self-test" },
   { id: "autopublish:guard:self-test",            lane: "units",  run: "node scripts/lib/autopublish-guard.mjs --self-test" },
   { id: "autopublish:digest:self-test",           lane: "units",  run: "node scripts/report-autopublish-digest.mjs --self-test" },
+  { id: "autopublish:health:self-test",           lane: "units",  run: "node scripts/check-autopublish-health.mjs --self-test" },
+  { id: "autopublish:demote:self-test",           lane: "units",  run: "node scripts/demote-artist.mjs --self-test" },
+  { id: "test:artist-demotion",                   lane: "units",  run: "node scripts/artist-demotion.test.mjs" },
   { id: "status:validate",                        lane: "quick",  run: "npm run status:validate" },
 ];
 

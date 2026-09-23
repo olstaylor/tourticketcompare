@@ -90,7 +90,7 @@ function selfTest() {
       }
     }
   }
-  assert.equal(publishers, 10, 'all ten publishing jobs must use the identity helper');
+  assert.equal(publishers, 11, 'all eleven publishing jobs (incl. autopublish-health demotions) must use the identity helper');
   const action = parse(readFileSync('.github/actions/automation-identity/action.yml', 'utf8'));
   const mint = action.runs.steps.find(s => s.id === 'app');
   assert.equal(mint.with.repositories, '${{ github.event.repository.name }}');

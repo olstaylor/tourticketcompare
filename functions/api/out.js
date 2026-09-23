@@ -15,6 +15,7 @@ import {
 
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
+const ARTISTS_JSON_PATH = "/data/artists.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 const IMPACT_PXF_TRACKING_HOSTS = ["pxf.io"];
 // Temporary production proof header for /api/out. Remove after verifying
@@ -1153,6 +1154,28 @@ async function loadEventsFromAssets(env) {
   }
 }
 
+// A demoted artist (a `demoted` object on its artists.json record, written by
+// scripts/demote-artist.mjs) gets no outbound redirect of any kind — artist
+// level or event level — even while its VERIFIED_TICKET_LINKS entries remain.
+// Fails closed: if the record set cannot be read, no redirect is issued.
+async function artistRedirectState(env, artistSlug) {
+  const assets = env?.ASSETS;
+  let artists = null;
+  if (assets && typeof assets.fetch === "function") {
+    try {
+      const response = await assets.fetch(new Request(`https://assets.local${ARTISTS_JSON_PATH}`));
+      const data = response.ok ? await response.json() : null;
+      artists = Array.isArray(data) ? data : null;
+    } catch (error) {
+      artists = null;
+    }
+  }
+  if (!artists) return { ok: false, status: "artist_state_unavailable", httpStatus: 503 };
+  const record = artists.find((candidate) => slugify(candidate?.slug) === slugify(artistSlug));
+  if (record?.demoted && typeof record.demoted === "object") return { ok: false, status: "artist_demoted", httpStatus: 410 };
+  return { ok: true };
+}
+
 function eventUrlContainsTicketmasterId(redirect, eventId) {
   const expected = clean(eventId, 255).toLowerCase();
   if (!expected) return true;
@@ -1276,6 +1299,8 @@ async function resolveShowLink(env, showId, provider) {
   const event = events.find((candidate) => clean(candidate?.id, 255) === showId);
   if (!event) return { ok: false, legitimate: false, status: "show_not_found" };
   if (!providerEventPublishable(event, provider)) return { ok: false, legitimate: true, status: "event_link_not_publishable" };
+  const artistState = await artistRedirectState(env, event.artist_slug);
+  if (!artistState.ok) return { ok: false, legitimate: artistState.status === "artist_demoted", status: artistState.status, httpStatus: artistState.httpStatus };
 
   if (provider === "ticketmaster") {
     const providerConfig = PROVIDERS.ticketmaster;
@@ -2276,6 +2301,9 @@ async function handleOut(request, env, mode) {
   if (!destinationCheck.ok) {
     return json({ ok: false, status: destinationCheck.status }, 400);
   }
+
+  const artistState = await artistRedirectState(env, artistSlug);
+  if (!artistState.ok) return json({ ok: false, status: artistState.status }, artistState.httpStatus);
 
   const link = VERIFIED_TICKET_LINKS[`${artistSlug}:${provider}`];
   if (!link || !link.verified) {

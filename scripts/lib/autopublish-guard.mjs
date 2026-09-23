@@ -18,6 +18,9 @@ const norm = (value) => (value == null ? "" : String(value).trim().toLowerCase()
  * @returns {{ allowed: boolean, reason: string }}
  */
 export function decideAutopublish({ globalValue, classFlagValue, publishClass = "" }) {
+  // Demotion only ever unpublishes, so the pause that exists to stop publishing
+  // must not also stop the rollback sensor (owner decision 2026-09-23).
+  if (norm(publishClass) === "demote") return { allowed: true, reason: "demotion runs even while auto-publish is paused" };
   if (norm(globalValue) === "false") return { allowed: false, reason: `${GLOBAL_SWITCH} is "false"` };
   const cls = norm(publishClass);
   if (!cls) return { allowed: true, reason: `${GLOBAL_SWITCH} is not "false"` };
@@ -48,6 +51,8 @@ export async function readRepoVariable({ repo, name, token = process.env.GITHUB_
  * @returns {Promise<{ allowed: boolean, reason: string, fault?: boolean }>}
  */
 export async function checkAutopublish({ repo, publishClass = process.env.AUTOPUBLISH_CLASS || "", token, fetchImpl }) {
+  // Demotion needs no read: an unreadable switch must not block an unpublish.
+  if (norm(publishClass) === "demote") return decideAutopublish({ publishClass });
   try {
     const globalValue = await readRepoVariable({ repo, name: GLOBAL_SWITCH, token, fetchImpl });
     const flag = CLASS_SWITCHES[norm(publishClass)];
@@ -83,6 +88,7 @@ async function selfTest() {
   check(d("false", "true", "autopromote") === false, "global false overrides a class flag");
   check(d(null, "yes", "stage4") === false, "stage4 needs the literal true");
   check(d(null, "true", "mystery") === false, "an unknown class is held");
+  check(d("false", null, "demote") === true, "demotion is not stopped by the pause");
 
   const stub = (map) => async (url) => {
     const name = url.split("/").pop();
@@ -102,6 +108,7 @@ async function selfTest() {
   const classFault = await run({ STAGE4_ENABLED: 500 }, "stage4");
   check(classFault.allowed === false && classFault.fault === true, "a failed class-flag read fails closed");
   check(heldComment(forbidden).includes("fail-closed"), "fault comment says fail-closed");
+  check((await run({ AUTOPUBLISH_ENABLED: 403 }, "demote")).allowed === true, "an unreadable switch does not block a demotion");
 
   if (failures.length) {
     for (const f of failures) console.error(`  FAIL ${f}`);

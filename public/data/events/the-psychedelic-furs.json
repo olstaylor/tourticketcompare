@@ -1,0 +1,744 @@
+[
+  {
+    "id": "tm-the-psychedelic-furs-2026-riverside-vvg1iz_cbbunjv",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs With Special Guests Gary Numan",
+    "city": "Riverside",
+    "country": "United States Of America",
+    "venue": "Fox Performing Arts Center",
+    "datetime_iso": "2026-11-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B0064EE98DA3701",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-riverside-california-11-11-2026/event/0B0064EE98DA3701",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-riverside-california-11-11-2026/event/0B0064EE98DA3701",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B0064EE98DA3701",
+        "discovery_event_id": "vvG1iZ_CBbUNjv",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-riverside-california-11-11-2026/event/0B0064EE98DA3701",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_CBbUNjv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-austin-z7r9jz1aavso0",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs w/ Living Colour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-03-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvso0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvso0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvso0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvso0",
+        "discovery_event_id": "Z7r9jZ1AAvso0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvso0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvso0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-saint-louis-1ae7z_3gkmwkki0",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2027-03-31T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100652BBD4D3A24",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-saint-louis-missouri-03-30-2027/event/2100652BBD4D3A24",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-saint-louis-missouri-03-30-2027/event/2100652BBD4D3A24",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100652BBD4D3A24",
+        "discovery_event_id": "1Ae7Z_3GkmWKKI0",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-saint-louis-missouri-03-30-2027/event/2100652BBD4D3A24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_3GkmWKKI0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-waukegan-vv166zkf-0ozagdv5d",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs w/ Special Guest Living Colour",
+    "city": "Waukegan",
+    "country": "United States Of America",
+    "venue": "Genesee Theatre",
+    "datetime_iso": "2027-04-02T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006521911B20A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-w-special-guest-waukegan-illinois-04-01-2027/event/07006521911B20A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-w-special-guest-waukegan-illinois-04-01-2027/event/07006521911B20A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006521911B20A2",
+        "discovery_event_id": "vv166Zkf-0oZAGdv5d",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-w-special-guest-waukegan-illinois-04-01-2027/event/07006521911B20A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv166Zkf-0oZAGdv5d",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-tallahassee-z7r9jz1aavsop",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs - All Ages (under 16 with adult)",
+    "city": "Tallahassee",
+    "country": "United States Of America",
+    "venue": "The Moon - FL",
+    "datetime_iso": "2027-04-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvsoP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvsoP",
+        "discovery_event_id": "Z7r9jZ1AAvsoP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsoP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-saint-petersburg-z7r9jz1aavsof",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs w/ Living Colour",
+    "city": "Saint Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2027-04-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvsoF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvsoF",
+        "discovery_event_id": "Z7r9jZ1AAvsoF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsoF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-miami-beach-vvg1vz_3egjcmc",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006529CC72DDED",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-miami-beach-florida-04-10-2027/event/0D006529CC72DDED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-miami-beach-florida-04-10-2027/event/0D006529CC72DDED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006529CC72DDED",
+        "discovery_event_id": "vvG1VZ_3EGjcMc",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-miami-beach-florida-04-10-2027/event/0D006529CC72DDED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3EGjcMc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-asheville-g5evz_35jhjdg",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-04-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006522DCF260CC",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-asheville-north-carolina-04-17-2027/event/2D006522DCF260CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-asheville-north-carolina-04-17-2027/event/2D006522DCF260CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006522DCF260CC",
+        "discovery_event_id": "G5eVZ_35jHJdG",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-asheville-north-carolina-04-17-2027/event/2D006522DCF260CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_35jHJdG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-norfolk-z7r9jz1aavs4p",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs w/ Living Colour",
+    "city": "Norfolk",
+    "country": "United States Of America",
+    "venue": "The Norva",
+    "datetime_iso": "2027-04-20T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvs4p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvs4p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvs4p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvs4p",
+        "discovery_event_id": "Z7r9jZ1AAvs4p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvs4p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvs4p",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-baltimore-1avfz_ogktjo5z-",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "Nevermore Hall",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500651FDC80B021",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-baltimore-maryland-04-23-2027/event/1500651FDC80B021",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-baltimore-maryland-04-23-2027/event/1500651FDC80B021",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500651FDC80B021",
+        "discovery_event_id": "1AvfZ_oGkTjO5Z-",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-baltimore-maryland-04-23-2027/event/1500651FDC80B021",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_oGkTjO5Z-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-bethlehem-vv17fz_3gkmknapk",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs: with Special Guests Living Colour",
+    "city": "Bethlehem",
+    "country": "United States Of America",
+    "venue": "The Wind Creek Event Center",
+    "datetime_iso": "2027-04-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200652B938C9946",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-bethlehem-pennsylvania-04-24-2027/event/0200652B938C9946",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-bethlehem-pennsylvania-04-24-2027/event/0200652B938C9946",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200652B938C9946",
+        "discovery_event_id": "vv17FZ_3GkmKNaPk",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-bethlehem-pennsylvania-04-24-2027/event/0200652B938C9946",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_3GkmKNaPk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-red-bank-g5vvz_3ilcqvm",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Red Bank",
+    "country": "United States Of America",
+    "venue": "Hackensack Meridian Health Theatre at the Count Basie Center",
+    "datetime_iso": "2027-04-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D00652A1FB5A077",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-red-bank-new-jersey-04-27-2027/event/1D00652A1FB5A077",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-red-bank-new-jersey-04-27-2027/event/1D00652A1FB5A077",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D00652A1FB5A077",
+        "discovery_event_id": "G5vVZ_3ILcQvM",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-red-bank-new-jersey-04-27-2027/event/1D00652A1FB5A077",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_3ILcQvM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Huntington",
+    "country": "United States Of America",
+    "venue": "The Paramount in concert with Northwell",
+    "datetime_iso": "2027-04-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006528D9173DE7",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-huntington-new-york-04-28-2027/event/00006528D9173DE7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-huntington-new-york-04-28-2027/event/00006528D9173DE7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006528D9173DE7",
+        "discovery_event_id": "k7vGF_3N_ASME",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-huntington-new-york-04-28-2027/event/00006528D9173DE7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_3N_ASME",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-northfield-vv17fz_ogkhgkwao",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Northfield",
+    "country": "United States Of America",
+    "venue": "Northfield Park Racino - Center Stage",
+    "datetime_iso": "2027-05-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500651F0C1B2151",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-northfield-ohio-05-01-2027/event/0500651F0C1B2151",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-northfield-ohio-05-01-2027/event/0500651F0C1B2151",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500651F0C1B2151",
+        "discovery_event_id": "vv17fZ_oGkHGkwAo",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-northfield-ohio-05-01-2027/event/0500651F0C1B2151",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_oGkHGkwAo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

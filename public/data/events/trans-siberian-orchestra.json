@@ -1,0 +1,2652 @@
+[
+  {
+    "id": "tm-trans-siberian-orchestra-2026-green-bay-z7r9jz1aavxjs",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Green Bay",
+    "country": "United States Of America",
+    "venue": "Resch Center",
+    "datetime_iso": "2026-11-19T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvxjs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvxjs",
+        "discovery_event_id": "Z7r9jZ1AAvxjs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxjs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Council Bluffs",
+    "country": "United States Of America",
+    "venue": "Mid-America Center",
+    "datetime_iso": "2026-11-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600650BC4BCB866",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-council-bluffs-iowa-11-19-2026/event/0600650BC4BCB866",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-council-bluffs-iowa-11-19-2026/event/0600650BC4BCB866",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600650BC4BCB866",
+        "discovery_event_id": "vv17bZ_8GkR7R5-J",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-council-bluffs-iowa-11-19-2026/event/0600650BC4BCB866",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_8GkR7R5-J",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Heritage Bank Center",
+    "datetime_iso": "2026-11-21T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006514CCD7E77F",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006514CCD7E77F",
+        "discovery_event_id": "1ApZkffGkdGgXqT",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkffGkdGgXqT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-11-21T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006511C7C2B996",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006511C7C2B996",
+        "discovery_event_id": "G5vzZ_o66YlJp",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_o66YlJp",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Youngstown",
+    "country": "United States Of America",
+    "venue": "Covelli Centre",
+    "datetime_iso": "2026-11-22T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006505CF0325BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006505CF0325BF",
+        "discovery_event_id": "vv1AAZkfAGkd2ZwpT",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkfAGkd2ZwpT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-11-24T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvpC_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpC_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpC_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvpC_",
+        "discovery_event_id": "Z7r9jZ1AAvpC_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpC_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvpC_",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Wilkes Barre",
+    "country": "United States Of America",
+    "venue": "Mohegan Arena at Casey Plaza",
+    "datetime_iso": "2026-11-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200650D8FD3BB4E",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-wilkes-barre-pennsylvania-11-24-2026/event/0200650D8FD3BB4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-wilkes-barre-pennsylvania-11-24-2026/event/0200650D8FD3BB4E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200650D8FD3BB4E",
+        "discovery_event_id": "vv17FZ_8GkU2VDcC",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-wilkes-barre-pennsylvania-11-24-2026/event/0200650D8FD3BB4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_8GkU2VDcC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Manchester",
+    "country": "United States Of America",
+    "venue": "SNHU Arena",
+    "datetime_iso": "2026-11-27T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006514AD3A08EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-manchester-new-hampshire-11-27-2026/event/01006514AD3A08EB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-manchester-new-hampshire-11-27-2026/event/01006514AD3A08EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006514AD3A08EB",
+        "discovery_event_id": "vv1AvZkffGkecCONl",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-manchester-new-hampshire-11-27-2026/event/01006514AD3A08EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkffGkecCONl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "ExtraMile Arena",
+    "datetime_iso": "2026-11-27T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006507D287756D",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006507D287756D",
+        "discovery_event_id": "G5vzZ_8L3-M4c",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_8L3-M4c",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-worcester-vv1avzkf7gkd6__c-",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Worcester",
+    "country": "United States Of America",
+    "venue": "DCU Center",
+    "datetime_iso": "2026-11-28T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006504C76593A1",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-worcester-massachusetts-11-28-2026/event/01006504C76593A1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-worcester-massachusetts-11-28-2026/event/01006504C76593A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006504C76593A1",
+        "discovery_event_id": "vv1AvZkf7Gkd6__C-",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-worcester-massachusetts-11-28-2026/event/01006504C76593A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkf7Gkd6__C-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2026-11-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00650BD3A8B790",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-portland-oregon-11-28-2026/event/0F00650BD3A8B790",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-portland-oregon-11-28-2026/event/0F00650BD3A8B790",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00650BD3A8B790",
+        "discovery_event_id": "vvG1HZ_8RKn5r8",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-portland-oregon-11-28-2026/event/0F00650BD3A8B790",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_8RKn5r8",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2026-11-29T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006509FAC26ED1",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-uncasville-connecticut-11-29-2026/event/1D006509FAC26ED1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-uncasville-connecticut-11-29-2026/event/1D006509FAC26ED1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006509FAC26ED1",
+        "discovery_event_id": "G5vVZ_8EBYJDo",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-uncasville-connecticut-11-29-2026/event/1D006509FAC26ED1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_8EBYJDo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00650EA2EC8956",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-seattle-washington-11-29-2026/event/0F00650EA2EC8956",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-seattle-washington-11-29-2026/event/0F00650EA2EC8956",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00650EA2EC8956",
+        "discovery_event_id": "vvG1HZ_8BxDFPp",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-seattle-washington-11-29-2026/event/0F00650EA2EC8956",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_8BxDFPp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2026-12-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006506ECD3CC5A",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-sacramento-california-12-02-2026/event/1C006506ECD3CC5A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-sacramento-california-12-02-2026/event/1C006506ECD3CC5A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006506ECD3CC5A",
+        "discovery_event_id": "G5vYZ_8hiVHsQ",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-sacramento-california-12-02-2026/event/1C006506ECD3CC5A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_8hiVHsQ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-nashville-g5viz_oinlsr4",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-12-03T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00651B2A7F1795",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00651B2A7F1795",
+        "discovery_event_id": "G5viZ_oinLsr4",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_oinLsr4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-charleston-1avbz_8gkwouueg",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "Charleston Coliseum",
+    "datetime_iso": "2026-12-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600650CA03760B5",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600650CA03760B5",
+        "discovery_event_id": "1AvbZ_8GkwOuUeg",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_8GkwOuUeg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-fresno-g5vyz_o5rjusr",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Fresno",
+    "country": "United States Of America",
+    "venue": "Save Mart Center",
+    "datetime_iso": "2026-12-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006512EF98DC6F",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-fresno-california-12-03-2026/event/1C006512EF98DC6F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-fresno-california-12-03-2026/event/1C006512EF98DC6F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006512EF98DC6F",
+        "discovery_event_id": "G5vYZ_o5RJusR",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-fresno-california-12-03-2026/event/1C006512EF98DC6F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_o5RJusR",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Toledo",
+    "country": "United States Of America",
+    "venue": "Huntington Center",
+    "datetime_iso": "2026-12-04T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080065059ECB5292",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-toledo-ohio-12-04-2026/event/080065059ECB5292",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-toledo-ohio-12-04-2026/event/080065059ECB5292",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080065059ECB5292",
+        "discovery_event_id": "vv1keZvPv_GACwg13",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-toledo-ohio-12-04-2026/event/080065059ECB5292",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1keZvPv_GACwg13",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2026-12-05T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500650DA86C688D",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500650DA86C688D",
+        "discovery_event_id": "vv17fZ_8GkUIhkxu",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_8GkUIhkxu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-ontario-z7r9jz1aav08p",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra",
+    "city": "Ontario",
+    "country": "United States Of America",
+    "venue": "Toyota Arena-CA",
+    "datetime_iso": "2026-12-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv08P",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08P",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08P",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv08P",
+        "discovery_event_id": "Z7r9jZ1AAv08P",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08P",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv08P",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-grand-rapids-vv17oz_8gksfqipn",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2026-12-06T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800650CD46A85A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800650CD46A85A3",
+        "discovery_event_id": "vv17OZ_8GkSfQIpN",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_8GkSfQIpN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-12-06T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900650CCFD932FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-phoenix-arizona-12-06-2026/event/1900650CCFD932FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-phoenix-arizona-12-06-2026/event/1900650CCFD932FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900650CCFD932FF",
+        "discovery_event_id": "1Av0Z_8GkS2UK5T",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-phoenix-arizona-12-06-2026/event/1900650CCFD932FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_8GkS2UK5T",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Allentown",
+    "country": "United States Of America",
+    "venue": "PPL Center",
+    "datetime_iso": "2026-12-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064FEC14271F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-allentown-pennsylvania-12-09-2026/event/300064FEC14271F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-allentown-pennsylvania-12-09-2026/event/300064FEC14271F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064FEC14271F1",
+        "discovery_event_id": "17GZv0G62Dv8E6s",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-allentown-pennsylvania-12-09-2026/event/300064FEC14271F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G62Dv8E6s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-12-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006510C43173A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006510C43173A4",
+        "discovery_event_id": "G5dIZ_od7G9C0",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_od7G9C0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2026-12-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064FCA708BBA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-raleigh-north-carolina-12-10-2026/event/2D0064FCA708BBA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-raleigh-north-carolina-12-10-2026/event/2D0064FCA708BBA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064FCA708BBA4",
+        "discovery_event_id": "G5eVZ_2wEe5m0",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-raleigh-north-carolina-12-10-2026/event/2D0064FCA708BBA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_2wEe5m0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Bossier City",
+    "country": "United States Of America",
+    "venue": "Brookshire Grocery Arena",
+    "datetime_iso": "2026-12-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00650EA46CEDD6",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-bossier-city-louisiana-12-10-2026/event/1B00650EA46CEDD6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-bossier-city-louisiana-12-10-2026/event/1B00650EA46CEDD6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00650EA46CEDD6",
+        "discovery_event_id": "G5viZ_8B0hCMp",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-bossier-city-louisiana-12-10-2026/event/1B00650EA46CEDD6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_8B0hCMp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2026-12-11T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006513F33FA1B5",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006513F33FA1B5",
+        "discovery_event_id": "G5eVZ_o2S2Bkg",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_o2S2Bkg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-12-11T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvNAS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvNAS",
+        "discovery_event_id": "Z7r9jZ1AAvNAS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2026-12-12T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006511DF4864ED",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006511DF4864ED",
+        "discovery_event_id": "G5eVZ_o6L3kKc",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_o6L3kKc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2026-12-12T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00650695046E4B",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-san-antonio-texas-12-12-2026/event/3A00650695046E4B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-san-antonio-texas-12-12-2026/event/3A00650695046E4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00650695046E4B",
+        "discovery_event_id": "G5dIZ_8Q4vky5",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-san-antonio-texas-12-12-2026/event/3A00650695046E4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_8Q4vky5",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2026-12-13T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00650786114C1D",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00650786114C1D",
+        "discovery_event_id": "vvG1zZ_8rk7fYq",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_8rk7fYq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-12-13T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00650E8C60591D",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00650E8C60591D",
+        "discovery_event_id": "vvG1YZ_8BGbA0q",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_8BGbA0q",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "John Paul Jones Arena",
+    "datetime_iso": "2026-12-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100651CDD7E5A42",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100651CDD7E5A42",
+        "discovery_event_id": "vv177Z_oGkSqLPte",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_oGkSqLPte",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2026-12-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000651393381D8C",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000651393381D8C",
+        "discovery_event_id": "1aeZZ_oCKCvZdCau",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aeZZ_oCKCvZdCau",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "VyStar Veterans Memorial Arena",
+    "datetime_iso": "2026-12-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200651CB8B35463",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-jacksonville-florida-12-17-2026/event/2200651CB8B35463",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-jacksonville-florida-12-17-2026/event/2200651CB8B35463",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200651CB8B35463",
+        "discovery_event_id": "1AeFZ_oGkwzigoN",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-jacksonville-florida-12-17-2026/event/2200651CB8B35463",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_oGkwzigoN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2026-12-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000650D9ACEC58C",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-albany-new-york-12-17-2026/event/0000650D9ACEC58C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-albany-new-york-12-17-2026/event/0000650D9ACEC58C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000650D9ACEC58C",
+        "discovery_event_id": "k7vGF_8UQSipG",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-albany-new-york-12-17-2026/event/0000650D9ACEC58C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_8UQSipG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "GIANT Center",
+    "datetime_iso": "2026-12-18T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065188D2D8218",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065188D2D8218",
+        "discovery_event_id": "vv1AOvPkFGAu5bFb",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AOvPkFGAu5bFb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-12-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvNAg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvNAg",
+        "discovery_event_id": "Z7r9jZ1AAvNAg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-12-19T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200650DC5CE36DD",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-orlando-florida-12-19-2026/event/2200650DC5CE36DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-orlando-florida-12-19-2026/event/2200650DC5CE36DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200650DC5CE36DD",
+        "discovery_event_id": "1AeFZ_8GkMASNhq",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-orlando-florida-12-19-2026/event/2200650DC5CE36DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_8GkMASNhq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2026-12-19T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006503A6666A07",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-pittsburgh-pennsylvania-12-19-2026/event/16006503A6666A07",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-pittsburgh-pennsylvania-12-19-2026/event/16006503A6666A07",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006503A6666A07",
+        "discovery_event_id": "1ApZkfdGkeJ_JI6",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-pittsburgh-pennsylvania-12-19-2026/event/16006503A6666A07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfdGkeJ_JI6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2026-12-20T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000650EA5605BDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5605BDF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5605BDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000650EA5605BDF",
+        "discovery_event_id": "1AdZZ_8GkBPbARL",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5605BDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_8GkBPbARL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-tampa-vvg1vz_oku2sug",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2026-12-20T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0065118D3F3D8C",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-tampa-florida-12-20-2026/event/0D0065118D3F3D8C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-tampa-florida-12-20-2026/event/0D0065118D3F3D8C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0065118D3F3D8C",
+        "discovery_event_id": "vvG1VZ_oku2SUG",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-tampa-florida-12-20-2026/event/0D0065118D3F3D8C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_oku2SUG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2026-12-22T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvx-d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx-d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx-d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvx-d",
+        "discovery_event_id": "Z7r9jZ1AAvx-d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx-d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvx-d",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-indianapolis-vv17fz_8gkiwqjq1",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2026-12-22T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500650B3269C68A",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-indianapolis-indiana-12-22-2026/event/0500650B3269C68A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-indianapolis-indiana-12-22-2026/event/0500650B3269C68A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500650B3269C68A",
+        "discovery_event_id": "vv17fZ_8GkiwQjQ1",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-indianapolis-indiana-12-22-2026/event/0500650B3269C68A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_8GkiwQjQ1",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-detroit-vv17oz_8gkyvghou",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-12-23T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800650C01D5B80D",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800650C01D5B80D",
+        "discovery_event_id": "vv17OZ_8GkYvghOu",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_8GkYvghOu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-rosemont-vv1a7zkffgkdsxaxx",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2026-12-23T20:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006514F18898A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-rosemont-illinois-12-23-2026/event/04006514F18898A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-rosemont-illinois-12-23-2026/event/04006514F18898A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006514F18898A2",
+        "discovery_event_id": "vv1A7ZkffGkdsxaxx",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-rosemont-illinois-12-23-2026/event/04006514F18898A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkffGkdsxaxx",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-newark-vv1aezkf_gkdmwuvf",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-12-26T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006519F7F4D054",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-newark-new-jersey-12-26-2026/event/02006519F7F4D054",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-newark-new-jersey-12-26-2026/event/02006519F7F4D054",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006519F7F4D054",
+        "discovery_event_id": "vv1AeZkf_GkdMWuvf",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-newark-new-jersey-12-26-2026/event/02006519F7F4D054",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkf_GkdMWuvf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-milwaukee-vv1a6zkfogkdqpudv",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2026-12-26T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006511DA5B60C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-milwaukee-wisconsin-12-26-2026/event/07006511DA5B60C1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-milwaukee-wisconsin-12-26-2026/event/07006511DA5B60C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006511DA5B60C1",
+        "discovery_event_id": "vv1A6ZkfoGkdQpUdv",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-milwaukee-wisconsin-12-26-2026/event/07006511DA5B60C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfoGkdQpUdv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-washington-17a8v0g62bwqi08",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2026-12-27T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064F6326AC910",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-washington-district-of-columbia-12-27-2026/event/150064F6326AC910",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-washington-district-of-columbia-12-27-2026/event/150064F6326AC910",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064F6326AC910",
+        "discovery_event_id": "17A8v0G62bwQi08",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-washington-district-of-columbia-12-27-2026/event/150064F6326AC910",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G62bwQi08",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-minneapolis-vv1akzkfbgkelyd6x",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-12-27T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006518ABE7B1FE",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-minneapolis-minnesota-12-27-2026/event/06006518ABE7B1FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-minneapolis-minnesota-12-27-2026/event/06006518ABE7B1FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006518ABE7B1FE",
+        "discovery_event_id": "vv1AkZkfbGkelyD6X",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-minneapolis-minnesota-12-27-2026/event/06006518ABE7B1FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfbGkelyD6X",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-eros-ramazzotti-2027-new-york-g5dyz_ou7is1y",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti - UNA HISTORIA IMPORTANTE",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-10-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C00651D84A312B0",
+    "ticketmaster_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-new-york-new-york-10-02-2027/event/3C00651D84A312B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-new-york-new-york-10-02-2027/event/3C00651D84A312B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C00651D84A312B0",
+        "discovery_event_id": "G5dYZ_oU7Is1Y",
+        "url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-new-york-new-york-10-02-2027/event/3C00651D84A312B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_oU7Is1Y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

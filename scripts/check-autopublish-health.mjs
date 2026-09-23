@@ -10,6 +10,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { normalizeName } from "./lib/artist-screen.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const MAX_DEMOTIONS = 5;
@@ -29,6 +30,7 @@ export function evaluate({ artists, registry, denylist, deadLinks, titles }) {
     const reasons = [];
     if (
       denied.slugs.has(artist.slug) ||
+      (denylist.names || []).some((n) => normalizeName(n) === normalizeName(artist.name)) ||
       denied.tm.has(String(identity.ticketmaster_attraction_id || "")) ||
       denied.sg.has(String(identity.seatgeek_performer_id || ""))
     ) reasons.push("denylist");

@@ -43,12 +43,13 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { slugify } from './lib/slugify.mjs';
+import { COLLISION_PATTERN, screenCandidate } from './lib/artist-screen.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARTISTS_PATH = path.join(root, 'public/data/artists.json');
 
-// Same-name collision traps that must never onboard silently.
-const COLLISION_PATTERN = /\b(tribute|parking|experience|dance party|karaoke|vs\.?|night:|themed|drag brunch|orchestra plays|candlelight)\b/i;
+// Same-name collision traps (shared with the forecast and the auto-promote
+// screen in scripts/lib/artist-screen.mjs).
 
 function today() {
   const override = String(process.env.TTC_TODAY || '').trim();
@@ -209,6 +210,42 @@ function blockedSlugSet(artists, allowExistingShells) {
   return blocked;
 }
 
+async function probeStatus(url) {
+  if (!url) return 0;
+  try {
+    const res = await fetch(url, { redirect: 'follow', signal: AbortSignal.timeout(15000), headers: { 'User-Agent': 'TourTicketCompare-link-check' } });
+    return res.status;
+  } catch {
+    return 0;
+  }
+}
+
+// Fetches what the screen needs for one row: the attraction's upcoming
+// Ticketmaster events (one Discovery call) and both artist pages' status.
+async function screenRow(row, sg, tm, tmApiKey, { denylist, existingTitles, delayMs }) {
+  let tmEvents = [];
+  if (tm && tmApiKey) {
+    await sleep(delayMs);
+    const params = new URLSearchParams({ attractionId: tm.attraction_id, size: '200', sort: 'date,asc', apikey: tmApiKey });
+    try {
+      tmEvents = (await fetchJson(`https://app.ticketmaster.com/discovery/v2/events.json?${params.toString()}`))?._embedded?.events || [];
+    } catch (err) {
+      console.error(`  (ticketmaster events lookup failed for "${row.name}": ${redact(err.message)})`);
+    }
+  }
+  const urlStatus = { seatgeek: await probeStatus(sg?.match?.url), ticketmaster: await probeStatus(tm?.url) };
+  return screenCandidate({
+    name: row.name,
+    slug: row.slug,
+    sg: sg?.match,
+    tm: tm && { attraction_id: tm.attraction_id, api_name: tm.api_name },
+    tmEvents,
+    denylist,
+    urlStatus,
+    existingTitles
+  });
+}
+
 function buildRow(name, existingSlugs, sg, tm) {
   if (COLLISION_PATTERN.test(name)) {
     return { name, exclusion: 'name matches the collision pattern (tribute/parking/etc.) — never onboard automatically' };
@@ -331,6 +368,12 @@ async function main() {
 
   const artists = JSON.parse(await fs.readFile(ARTISTS_PATH, 'utf8'));
   const existingSlugs = blockedSlugSet(artists, Boolean(args.allowExistingShells));
+  const catalog = JSON.parse(await fs.readFile(path.join(root, 'public/data/catalog.json'), 'utf8'));
+  const screenContext = {
+    denylist: JSON.parse(await fs.readFile(path.join(root, 'data/artist-denylist.json'), 'utf8').catch(() => '{}')),
+    existingTitles: new Set((catalog.artists || []).map((a) => a?.seo_title).filter(Boolean)),
+    delayMs: args.delayMs
+  };
 
   const rows = [];
   for (const name of names) {
@@ -351,7 +394,11 @@ async function main() {
         console.error(`  (ticketmaster lookup failed for "${name}": ${err.message} — proceeding SeatGeek-only)`);
       }
     }
-    rows.push(buildRow(name, existingSlugs, sg, tm));
+    const row = buildRow(name, existingSlugs, sg, tm);
+    // Auto-promote screen (criteria D1–D5). Informational in this propose-only
+    // script: it records whether the row would qualify, and never promotes.
+    if (!row.exclusion) row.screen = await screenRow(row, sg, tm, tmApiKey, screenContext);
+    rows.push(row);
   }
 
   const included = rows.filter((r) => !r.exclusion);
@@ -371,7 +418,7 @@ async function main() {
 
   console.log(`\nManifest written: ${path.relative(root, outputPath)}`);
   console.log(`  included: ${included.length}   excluded: ${excluded.length}`);
-  for (const r of included) console.log(`  + ${r.slug}  (SG performer ${r.seatgeek.performer_id}, ${r.seatgeek.num_upcoming_events} upcoming${r.ticketmaster ? `; TM ${r.ticketmaster.attraction_id}` : '; no TM capture'})`);
+  for (const r of included) console.log(`  + ${r.slug}  (SG performer ${r.seatgeek.performer_id}, ${r.seatgeek.num_upcoming_events} upcoming${r.ticketmaster ? `; TM ${r.ticketmaster.attraction_id}` : '; no TM capture'})  screen: ${r.screen?.eligible ? 'would qualify' : `held (${(r.screen?.reasons || []).join('; ')})`}`);
   for (const r of excluded) console.log(`  - ${r.name}: ${r.exclusion}`);
   console.log('\nNext: create shells for the included slugs (manual shell PR),');
   console.log('human-review the manifest, then run scripts/promote-artists-batch.mjs --manifest <path>.');

@@ -1,0 +1,67 @@
+name: Roster candidates
+
+# Propose-only daily screen (auto-ingest PR 4): Ticketmaster roster forecast →
+# SeatGeek/Ticketmaster identity capture → auto-promote screen (criteria D1–D5,
+# scripts/lib/artist-screen.mjs) → rolling `automation:roster-candidates` issue.
+# Writes no repository file and promotes nobody; a later, separately switched
+# lane (PR 6) acts on the screen. 10:15 UTC keeps clear of the Ticketmaster
+# sweeps at 03:00–04:00.
+
+on:
+  schedule:
+    - cron: '15 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: roster-candidates
+  cancel-in-progress: true
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Self-tests
+        run: |
+          node scripts/lib/artist-screen.mjs --self-test
+          node scripts/report-roster-candidates.mjs --self-test
+
+      - name: Forecast, capture and screen
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/roster
+          node scripts/report-roster-forecast.mjs --candidates --json artifacts/roster/forecast.json > /dev/null
+          node -e 'const r=require("./artifacts/roster/forecast.json"); console.log((r.candidates?.rows||[]).slice(0,20).map(x=>x.name).join("\n"))' > artifacts/roster/names.txt
+          if [ -s artifacts/roster/names.txt ]; then
+            node scripts/propose-onboarding-batch.mjs --names-file artifacts/roster/names.txt --limit 20 --output artifacts/roster/manifest.json
+          else
+            echo '{"generated_at":"'"$(date -u +%F)"'","artists":[],"excluded":[]}' > artifacts/roster/manifest.json
+          fi
+
+      - name: Confirm no repository data changed
+        run: git diff --quiet || { echo 'a propose-only run changed tracked files' >&2; git --no-pager diff --stat; exit 1; }
+
+      - name: Update the roster candidates issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/report-roster-candidates.mjs artifacts/roster/manifest.json

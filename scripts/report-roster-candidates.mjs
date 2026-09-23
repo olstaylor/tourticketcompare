@@ -19,7 +19,8 @@ export function renderCandidates(manifest) {
   const lines = [
     `Roster candidates — ${manifest.generated_at} (propose-only; nothing is promoted by this issue)`,
     "",
-    `### Would qualify for auto-promotion (${pass.length})`,
+    `### Pass the screen (${pass.length})`,
+    "_The title is pre-checked here; the rendered shell's description, uniqueness and placeholder checks (criterion 5) run in the promote job before anything publishes._",
     pass.length ? pass.map((r) => `- **${r.name}** (\`${r.slug}\`)${stat(r)} · title: ${r.screen.seo_title}`).join("\n") : "None.",
     "",
     `### Held for a human (${held.length})`,
@@ -59,7 +60,7 @@ function selfTest() {
     ],
     excluded: [{ name: "Journey", exclusion: "no exact-name SeatGeek performer match — identity unresolved" }],
   });
-  const ok = body.includes("### Would qualify for auto-promotion (1)") && body.includes("**Avery Anna** (`avery-anna`): D3") && body.includes("- Journey: no exact-name");
+  const ok = body.includes("### Pass the screen (1)") && body.includes("**Avery Anna** (`avery-anna`): D3") && body.includes("- Journey: no exact-name");
   console.log(`[roster-candidates] self-test: ${ok ? "all assertions passed" : "FAILED"}`);
   return ok ? 0 : 1;
 }

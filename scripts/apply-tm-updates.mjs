@@ -432,6 +432,23 @@ function computeIntendedUpdates(event, remote) {
     changes.push({ field: 'event_name', from: clean(event.event_name), to: remoteName });
   }
 
+  // --- pending public on-sale (auto-ingest PR 5) -------------------------------
+  // Only for a date ingested before its public sale (it carries
+  // public_onsale_at): flip it to on-sale when this exact Discovery record says
+  // so, or follow a moved on-sale time. No other status is ever written here —
+  // cancelled/postponed stay human, and the 145 older `announced` rows (which
+  // carry no public_onsale_at) are untouched.
+  if (clean(event.public_onsale_at)) {
+    const code = clean(data?.dates?.status?.code).toLowerCase();
+    const remoteOnsale = clean(data?.sales?.public?.startDateTime);
+    if (code === 'onsale') {
+      changes.push({ field: 'status', from: clean(event.status), to: 'on-sale' });
+      changes.push({ field: 'public_onsale_at', from: clean(event.public_onsale_at), to: null });
+    } else if (code === 'offsale' && remoteOnsale && remoteOnsale !== clean(event.public_onsale_at)) {
+      changes.push({ field: 'public_onsale_at', from: clean(event.public_onsale_at), to: remoteOnsale });
+    }
+  }
+
   // --- canonical URL refresh (keeps the out.js event-id match valid) ----------
   const refreshedUrl = safeTicketmasterUrl(data?.url, event.ticketmaster_event_id);
   if (refreshedUrl && refreshedUrl !== clean(event.ticketmaster_url)) {
@@ -576,6 +593,10 @@ function applyChanges(event, changes) {
       }
       continue;
     }
+    if (change.to === null) {
+      delete event[change.field];
+      continue;
+    }
     event[change.field] = change.to;
   }
 }
@@ -634,6 +655,13 @@ async function runSelfTest() {
     fieldsOf(ev({ event_name: '' }), remote({ name: 'The Eternal Sunshine Tour' })).includes('event_name'));
   assert('event_name case/punctuation is not a change',
     !fieldsOf(ev({ event_name: 'BTS WORLD TOUR ARIRANG' }), remote({ name: 'Bts World Tour: Arirang' })).includes('event_name'));
+  const pending = ev({ status: 'announced', public_onsale_at: '2027-01-10T15:00:00Z' });
+  assert('a pending date flips to on-sale when Discovery says onsale',
+    fieldsOf(pending, remote({ dates: { status: { code: 'onsale' } } })).includes('status'));
+  assert('a moved public on-sale is followed',
+    fieldsOf(pending, remote({ dates: { status: { code: 'offsale' } }, sales: { public: { startDateTime: '2027-02-01T15:00:00Z' } } })).includes('public_onsale_at'));
+  assert('status is never written for a row without public_onsale_at',
+    !fieldsOf(ev({ status: 'announced' }), remote({ dates: { status: { code: 'onsale' } } })).includes('status'));
   assert('a genuine listing retitle IS an event_name change',
     fieldsOf(ev({ event_name: 'Old Title' }), remote({ name: 'New Title' })).includes('event_name'));
   assert('computeIntendedUpdates never emits tour_name',

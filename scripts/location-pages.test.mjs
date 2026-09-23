@@ -435,4 +435,28 @@ for (const marker of FILLER_MARKERS) {
 }
 assert(emptyVenueText.split(" ").length < 40, `empty venue page stays brief (was ${emptyVenueText.split(" ").length} words)`);
 
+// ─── announced date whose public on-sale is still ahead ─────────────────────
+// Ticketmaster lists it, but nothing is buyable yet: the card keeps its date,
+// drops every ticket button, and states the on-sale time with its source.
+
+const PENDING_EVENTS = UPCOMING_EVENTS.map((event) =>
+  event.id === "fixture-a1" ? { ...event, public_onsale_at: "2026-08-14T15:00:00Z" } : event
+);
+const pendingPage = await render(`/cities/${CITY_SLUG}`, PENDING_EVENTS);
+assert(pendingPage.status === 200, "city page with a pending on-sale date returns 200");
+assert(!pendingPage.main.includes("showId=fixture-a1"), "a pending on-sale date renders no ticket CTA");
+assert(
+  pendingPage.main.includes("showId=fixture-a2"),
+  "the pending gate leaves the artist's on-sale dates untouched"
+);
+assert(
+  text(pendingPage.main).includes("Public on-sale Aug 14, 2026, 10:00 AM CDT per Ticketmaster."),
+  "a pending date states Ticketmaster's public on-sale time in the venue's zone"
+);
+const pastOnsalePage = await render(
+  `/cities/${CITY_SLUG}`,
+  UPCOMING_EVENTS.map((event) => (event.id === "fixture-a1" ? { ...event, public_onsale_at: "2026-08-01T15:00:00Z" } : event))
+);
+assert(pastOnsalePage.main.includes("showId=fixture-a1"), "an on-sale time already passed no longer suppresses the CTA");
+
 console.log(`location-pages: ${passed} assertions passed`);

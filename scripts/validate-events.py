@@ -765,6 +765,16 @@ def main() -> int:
                 allowed = ", ".join(sorted(ALLOWED_STATUSES))
                 errors.append(f"{prefix}.status: invalid '{status}' (allowed: {allowed})")
 
+        # A future public on-sale from Ticketmaster Discovery (auto-ingest PR 5):
+        # the date shows with no ticket button until then. Only meaningful on a
+        # not-yet-on-sale ("announced") date; field-sync clears it at on-sale.
+        public_onsale_at = event.get("public_onsale_at")
+        if public_onsale_at is not None:
+            if not isinstance(public_onsale_at, str) or not parse_iso(public_onsale_at.strip()):
+                errors.append(f"{prefix}.public_onsale_at: must be an ISO datetime if present")
+            elif (status or "").strip() != "announced":
+                errors.append(f"{prefix}.public_onsale_at: only allowed on an 'announced' event")
+
         verification_status = event.get("verification_status")
         if verification_status is not None:
             if not isinstance(verification_status, str) or verification_status.strip() == "":

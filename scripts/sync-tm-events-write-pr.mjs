@@ -106,6 +106,7 @@ const CSV_COLUMNS = [
   "seatgeek_url",
   "vividseats_event_id",
   "vividseats_url",
+  "public_onsale_at",
 ];
 
 // ─── Pure helpers (covered by --self-test) ──────────────────────────────────
@@ -191,6 +192,9 @@ function buildCsvRow(reportRow, slug, artistName) {
     seatgeek_url: "",
     vividseats_event_id: "",
     vividseats_url: "",
+    // Verbatim Discovery public on-sale time, only on an offsale date whose
+    // public sale is still ahead (the page shows it without a ticket button).
+    public_onsale_at: clean(reportRow.public_onsale_at),
   });
 }
 
@@ -438,7 +442,7 @@ function selfTest() {
   const checks = [];
   const assert = (label, pass) => checks.push({ label, pass: !!pass });
 
-  assert("CSV_COLUMNS matches the propose-artists schema length", CSV_COLUMNS.length === 18);
+  assert("CSV_COLUMNS matches the propose-artists schema length", CSV_COLUMNS.length === 19);
   assert("CSV_COLUMNS carries the event_name column", CSV_COLUMNS.includes("event_name"));
   assert("slugify normalises accents and spaces", slugify("São Paulo") === "sao-paulo");
   assert("statusFromCode maps onsale", statusFromCode("onsale") === "on-sale");

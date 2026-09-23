@@ -32,6 +32,11 @@ jobs:
         with:
           node-version: 22
 
+      # The identity action runs scripts/configure-automation-identity.mjs,
+      # which imports `yaml`, so dependencies must be installed first.
+      - name: Install dependencies
+        run: npm ci
+
       - name: Self-test
         run: node scripts/report-autopublish-digest.mjs --self-test
 

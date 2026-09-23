@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255034",
+        "url": "https://www.ticketnetwork.com/en/p/8255034",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_8GkR7R5-J",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255034"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt",
@@ -364,11 +372,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255046",
+        "url": "https://www.ticketnetwork.com/en/p/8255046",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_8GkU2VDcC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255046"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl",
@@ -788,11 +804,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255062",
+        "url": "https://www.ticketnetwork.com/en/p/8255062",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oinLsr4",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255062"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charleston-1avbz_8gkwouueg",
@@ -841,11 +865,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255063",
+        "url": "https://www.ticketnetwork.com/en/p/8255063",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_8GkwOuUeg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255063"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-fresno-g5vyz_o5rjusr",
@@ -894,11 +926,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255064",
+        "url": "https://www.ticketnetwork.com/en/p/8255064",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_o5RJusR",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255064"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13",
@@ -1212,11 +1252,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255080",
+        "url": "https://www.ticketnetwork.com/en/p/8255080",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G62Dv8E6s",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255080"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0",
@@ -1265,11 +1313,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255081",
+        "url": "https://www.ticketnetwork.com/en/p/8255081",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_od7G9C0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0",
@@ -1318,11 +1374,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255082",
+        "url": "https://www.ticketnetwork.com/en/p/8255082",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2wEe5m0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255082"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp",
@@ -1371,11 +1435,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255084",
+        "url": "https://www.ticketnetwork.com/en/p/8255084",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_8B0hCMp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255084"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg",
@@ -1742,11 +1814,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255100",
+        "url": "https://www.ticketnetwork.com/en/p/8255100",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_oGkSqLPte",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255100"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau",
@@ -1795,11 +1875,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255101",
+        "url": "https://www.ticketnetwork.com/en/p/8255101",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_oCKCvZdCau",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255101"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon",
@@ -1848,11 +1936,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255102",
+        "url": "https://www.ticketnetwork.com/en/p/8255102",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_oGkwzigoN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255102"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg",
@@ -1901,11 +1997,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255103",
+        "url": "https://www.ticketnetwork.com/en/p/8255103",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_8UQSipG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255103"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb",
@@ -2007,11 +2111,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255106",
+        "url": "https://www.ticketnetwork.com/en/p/8255106",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255106"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq",

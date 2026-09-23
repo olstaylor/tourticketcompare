@@ -17,7 +17,7 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 
   - Vivid Seats 1018; 168 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
-  - TicketNetwork 906.
+  - TicketNetwork 959.
 
   - Ticket Liquidator 762.
 

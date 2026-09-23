@@ -572,8 +572,10 @@ async function routeForPath(pathname, env) {
       description: cityMetaDescription(city, yearLabel),
       city,
       events: cityEvents,
+      // Same gate as the artist page itself, so an auto-promoted artist below
+      // its date threshold (noindex) is named here but not linked.
       indexableArtistSlugs: artistsMeta
-        .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+        .filter((artist) => artistPageIndexable(artist, cityEvents))
         .map((artist) => slugify(artist?.slug)),
       breadcrumb: [
         { name: "Cities", path: "/cities" },
@@ -615,8 +617,10 @@ async function routeForPath(pathname, env) {
       description: venueMetaDescription(venue),
       venue,
       events: venueEvents,
+      // Same gate as the artist page itself, so an auto-promoted artist below
+      // its date threshold (noindex) is named here but not linked.
       indexableArtistSlugs: artistsMeta
-        .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+        .filter((artist) => artistPageIndexable(artist, venueEvents))
         .map((artist) => slugify(artist?.slug)),
       breadcrumb: [
         { name: "Venues", path: "/venues" },

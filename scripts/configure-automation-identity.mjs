@@ -77,6 +77,8 @@ function selfTest() {
       for (const [index, step] of steps.entries()) {
         if (!/node scripts\/(open-automation-pr|sync-tm-events-write-pr|run-work-queue-repair)\.mjs/.test(step.run || '')) continue;
         if (/run-work-queue-repair\.mjs --self-test/.test(step.run || '')) continue;
+        // A preview call (no --write-pr) opens nothing; auto-promote uses it to stage dates.
+        if (!/open-automation-pr|run-work-queue-repair|--write-pr/.test(step.run || '')) continue;
         publishers++;
         const identity = steps[index - 1];
         assert.equal(identity?.uses, './.github/actions/automation-identity', file);
@@ -90,7 +92,7 @@ function selfTest() {
       }
     }
   }
-  assert.equal(publishers, 11, 'all eleven publishing jobs (incl. autopublish-health demotions) must use the identity helper');
+  assert.equal(publishers, 12, 'all twelve publishing jobs (incl. autopublish-health demotions and auto-promote) must use the identity helper');
   // The identity action's preflight imports `yaml`: any job that uses it must
   // install dependencies first (the digest shipped without this and failed).
   for (const file of readdirSync('.github/workflows').filter(f => f.endsWith('.yml'))) {

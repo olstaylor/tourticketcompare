@@ -196,7 +196,9 @@ async function lookupTicketmasterAttraction(name, apiKey, expectedId = '') {
     attraction_id: a.id,
     api_name: a.name,
     url,
-    upcoming_events: Number(a?.upcomingEvents?._total) || 0
+    upcoming_events: Number(a?.upcomingEvents?._total) || 0,
+    // Verbatim Discovery classification, the only genre fact an auto shell may state.
+    genre: String(a?.classifications?.[0]?.genre?.name || '').trim()
   };
 }
 
@@ -285,7 +287,7 @@ function buildRow(name, existingSlugs, sg, tm) {
       exact_name_match: true
     },
     ticketmaster: tm
-      ? { attraction_id: tm.attraction_id, url: tm.url, upcoming_events: tm.upcoming_events, exact_name_match: true }
+      ? { attraction_id: tm.attraction_id, url: tm.url, upcoming_events: tm.upcoming_events, genre: tm.genre || '', exact_name_match: true }
       : null,
     confidence: tm ? 'seatgeek+ticketmaster exact-name' : 'seatgeek exact-name only',
     needs_human_check: true,

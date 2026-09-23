@@ -1,0 +1,138 @@
+name: Auto-promote artists
+
+# Sanctioned path D (SAFE_PUBLISHING_RULES.md; semantics docs/OPERATIONS.md).
+# Off unless the repo variable AUTOPROMOTE_ENABLED is "true": the job then ends
+# green at its first step, so automation-health still sees it run. When on, one
+# job re-captures identities, screens (D1–D5), writes shell + promotion through
+# the existing promote writer (max 5/day, 20/week), ingests the new artists'
+# dates (amendment 5), gates out.js to VERIFIED_TICKET_LINKS additions only
+# (amendment 4), runs test:mvp and opens an auto-merged PR of publish class
+# `autopromote`, whose merge re-reads both switches.
+
+on:
+  schedule:
+    - cron: '45 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: auto-promote
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Switch
+        id: switch
+        env:
+          AUTOPROMOTE: ${{ vars.AUTOPROMOTE_ENABLED }}
+          AUTOPUBLISH: ${{ vars.AUTOPUBLISH_ENABLED }}
+        run: |
+          if [ "${AUTOPROMOTE,,}" = "true" ] && [ "${AUTOPUBLISH,,}" != "false" ]; then
+            echo "on=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Auto-promote is off (AUTOPROMOTE_ENABLED='${AUTOPROMOTE}', AUTOPUBLISH_ENABLED='${AUTOPUBLISH}'). Nothing to do."
+            echo "on=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.switch.outputs.on == 'true'
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        if: steps.switch.outputs.on == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        if: steps.switch.outputs.on == 'true'
+        run: npm ci
+
+      - name: Capture, screen and promote
+        id: promote
+        if: steps.switch.outputs.on == 'true'
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          node scripts/auto-promote.mjs --self-test
+          mkdir -p artifacts/auto
+          cp functions/api/out.js artifacts/auto/out.base.js
+          node scripts/report-roster-forecast.mjs --candidates --json artifacts/auto/forecast.json > /dev/null
+          node -e 'const c=require("./artifacts/auto/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'
+          node -e 'const r=require("./artifacts/auto/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/auto/names.txt
+          if [ ! -s artifacts/auto/names.txt ]; then echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          node scripts/propose-onboarding-batch.mjs --names-file artifacts/auto/names.txt --limit 20 --output artifacts/auto/manifest.json
+          node scripts/auto-promote.mjs --manifest artifacts/auto/manifest.json --write --json artifacts/auto/promoted.json
+          echo "count=$(node -e 'console.log(require("./artifacts/auto/promoted.json").promoted.length)')" >> "$GITHUB_OUTPUT"
+
+      - name: Ingest dates, gate and validate
+        if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          for SLUG in $(node -e 'for (const p of require("./artifacts/auto/promoted.json").promoted) console.log(p.slug)'); do
+            node scripts/sync-tm-events-write-pr.mjs --artist "$SLUG" --out-dir "artifacts/auto/tm-$SLUG"
+            if [ "$(wc -l < "artifacts/auto/tm-$SLUG/events.csv")" -gt 1 ]; then
+              node scripts/apply-artists.mjs --candidate "artifacts/auto/tm-$SLUG" --write
+            fi
+            node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --artist "$SLUG" --max-api-calls 50 --delay-ms 1000
+          done
+          npm run events:partition
+          node scripts/validate-status-counts.mjs --write
+          node scripts/audit-indexable-surface.mjs --write-status
+          node scripts/auto-promote.mjs --check-out-against artifacts/auto/out.base.js
+          npm run test:mvp
+          npm run test:providers
+          git diff --check
+
+      - name: Configure git identity
+        if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open auto-promote PR
+        if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
+        env:
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/autopromote-${TODAY}"
+          SUMMARY=$(node -e 'const r=require("./artifacts/auto/promoted.json"); console.log(r.promoted.map(p=>`- \`${p.slug}\` (${p.providers.join(", ")}): ${p.seo_title}`).join("\n")); if (r.held.length) console.log("\nHeld:\n" + r.held.map(h=>`- \`${h.slug}\`: ${h.reasons.join("; ")}`).join("\n"))')
+          git checkout -B "$BRANCH"
+          git add public/data/artists.json public/data/catalog.json public/data/events.json public/data/events public/data/events-index.json public/index.html functions/api/out.js data/provider-identities.json PROJECT_STATUS.md
+          git commit -m "automation: auto-promote ${TODAY}"
+          node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" \
+          PR_TITLE="Auto-promote (${TODAY})" \
+          PR_LABEL="automation:autopromote" \
+          PR_AUTO_MERGE=true \
+          AUTOPUBLISH_CLASS=autopromote \
+          PR_BODY="$(printf '## Auto-promoted artists\n%s\n\nEach passed screen criteria D1-D5 on identities re-captured in this job, has template shell copy built only from provider-API facts, and is marked `promotion_source: "auto"` (indexable only with 3+ upcoming dates). `out.js` changed by VERIFIED_TICKET_LINKS additions only. To undo one: `node scripts/demote-artist.mjs --slug <slug> --reason "<why>" --write`.\n' "$SUMMARY")" \
+          node scripts/open-automation-pr.mjs

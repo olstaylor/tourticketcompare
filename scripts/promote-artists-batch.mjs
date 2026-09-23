@@ -398,7 +398,10 @@ async function main() {
   console.log('  npm run validate:artist-providers && npm run providers:identities:validate && npm run test:mvp');
 }
 
-main().catch((err) => {
-  console.error(`promote-artists-batch failed: ${err.message}`);
-  process.exit(2);
-});
+// Importable (auto-promote.mjs reuses evaluateCandidate/applyPlans); runs only as a CLI.
+if (import.meta.url === (await import('node:url')).pathToFileURL(process.argv[1] || '').href) {
+  main().catch((err) => {
+    console.error(`promote-artists-batch failed: ${err.message}`);
+    process.exit(2);
+  });
+}

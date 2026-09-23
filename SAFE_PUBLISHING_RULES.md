@@ -72,6 +72,27 @@ it — but it writes no source data and publishes no record: it mirrors, at rend
 time, a price the page already shows under the same gate. It does not extend
 group A. See Schema and SEO.
 
+**D. Artist auto-promote (owner-approved 2026-09-23; off by default).**
+`auto-promote.yml` → `scripts/auto-promote.mjs` may create an artist shell and
+promote it in one auto-merged PR, only while the repo variable
+`AUTOPROMOTE_ENABLED` is `"true"` and `AUTOPUBLISH_ENABLED` is not `"false"`
+(both re-read before the merge). Every candidate must pass criteria D1–D5 in
+`BACKLOG.md` on identities re-captured from the Ticketmaster and SeatGeek APIs
+in the same job; any failure leaves it a proposal in the
+`automation:roster-candidates` issue, never retried on looser criteria. At most
+5 artists a day and 20 in a rolling week. Shell copy is a template that states
+only the name and Ticketmaster's verbatim genre — no biography, no invented
+fact. The record is marked `promotion_source: "auto"` and is indexable only
+while it has 3 or more upcoming dates. The job ingests the new artists' dates
+before it ends, may change `functions/api/out.js` only by appending
+`VERIFIED_TICKET_LINKS` entries (any other change withholds the merge), and
+merges only after `test:mvp`, `test:providers` and `git diff --check` pass
+in-job. The rollback sensor (`autopublish-health.yml`) demotes on denylist, a
+dead link or a duplicate title; the owner reviews every merge in the daily
+`automation:autopublish-digest` issue. None of the non-negotiables loosen:
+never invent data, never scrape, no client-side credentials, the `/api/out`
+contract and Impact wrapping, no price or availability claim without a source.
+
 **Not sanctioned:** `tm-data-refresh-pr.yml` is PR-only and human-merged by
 design — never a direct commit, never an auto-merge. So is
 `work-queue-repair.yml`, the maintenance loop's Stage 3 worker: it may push one
@@ -104,7 +125,7 @@ Artist pages may exist in `indexing_status: "review_required"` with no CTAs. Thi
 
 Pages become indexable and conversion-led only after completing the phase gates in [.claude/skills/artist-onboarding/SKILL.md](.claude/skills/artist-onboarding/SKILL.md). Do not set `indexing_status: "indexable_with_substantial_content"` without human browser verification of the live ticket URL.
 
-**New artists are never auto-published.** Discovery tooling may only *propose* new artists for human review. Promotion to indexable, and any `VERIFIED_TICKET_LINKS` / `/api/out` entry, require a human to verify the live ticket URL in a browser and to follow the phase gates. New-artist onboarding is no longer parked (lifted 2026-06-10), but every artist must still pass these gates — start from a `review_required` shell per `.claude/skills/artist-onboarding/SKILL.md`.
+**New artists are never auto-published outside path D** (auto-promote, above, off unless `AUTOPROMOTE_ENABLED` is `"true"`). Otherwise discovery tooling may only *propose* new artists for human review. Promotion to indexable, and any `VERIFIED_TICKET_LINKS` / `/api/out` entry, require a human to verify the live ticket URL in a browser and to follow the phase gates. New-artist onboarding is no longer parked (lifted 2026-06-10), but every artist must still pass these gates — start from a `review_required` shell per `.claude/skills/artist-onboarding/SKILL.md`.
 
 **New events — sanctioned path A, new-show discovery (owner-approved 2026-07-07).** The daily Ticketmaster new-show loop (`.github/workflows/tm-new-shows-pr.yml` → `scripts/sync-tm-events-write-pr.mjs --write-pr --auto-merge`) may squash-merge its own PR for **new shows of registry-verified, `sync_enabled` artists only**, and only after the full validation suite (apply-artists validate-with-rollback, `test:mvp`, `git diff --check`) has passed in the same job on exactly the proposed content. Withheld/risky rows are never written, `tour_name` is never inferred (#172), and a failed merge leaves the PR open for a human — it is never forced. Event URL safety is enforced at render and redirect time rather than by a manual status flip. Since 2026-09-23 (owner-approved, auto-ingest PR 5) it may also publish an `offsale` date whose Ticketmaster `sales.public.startDateTime` is still in the future, as status `announced` with that value carried verbatim in `public_onsale_at`; until that time passes the card renders no ticket CTA, only "Public on-sale <time> per Ticketmaster."
 
@@ -163,7 +184,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 - Protected code/data: `functions/api/out.js`, `functions/_middleware.js`, `functions/[[path]].js`, `functions/_route-metadata.js`, `public/_routes.json`, and records in `public/data/{artists,catalog,events}.json`.
 - Impact credentials and affiliate/CTA destination generation.
-- Agents must not invent data, scrape providers, auto-publish artists, or create new governance docs. Auto-publishing events is allowed only via the five sanctioned automation paths in group A of "Sanctioned automated writers" above (the validated new-show auto-merge, the nightly lossless field-sync, the nightly SeatGeek CTA sync, the nightly Vivid Seats CTA sync, and the nightly shared Impact marketplace link sync) — never ad hoc. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
+- Agents must not invent data, scrape providers, auto-publish artists outside path D, or create new governance docs. Auto-publishing events is allowed only via the five sanctioned automation paths in group A of "Sanctioned automated writers" above (the validated new-show auto-merge, the nightly lossless field-sync, the nightly SeatGeek CTA sync, the nightly Vivid Seats CTA sync, and the nightly shared Impact marketplace link sync) — never ad hoc. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
 
 ## Dev and Placeholder Content
 

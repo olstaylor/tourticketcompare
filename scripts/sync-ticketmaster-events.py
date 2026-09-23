@@ -454,6 +454,24 @@ def load_tombstones(path=TOMBSTONES_PATH):
         return {}
 
 
+def pending_public_onsale(tm_event, status_code, now_iso):
+    """The verbatim public on-sale time when an `offsale` date has one in the
+    future, else "". Such a date is proposable (auto-ingest PR 5): it is shown
+    with no ticket button until that time. Anything else that is not on sale
+    (cancelled, postponed, offsale with no future public sale) stays withheld."""
+    if status_code != "offsale":
+        return ""
+    raw = str(((tm_event.get("sales") or {}).get("public") or {}).get("startDateTime") or "").strip()
+    try:
+        start = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        now = datetime.fromisoformat(now_iso.replace("Z", "+00:00"))
+    except ValueError:
+        return ""
+    if start.tzinfo is None:
+        return ""
+    return raw if start > now else ""
+
+
 def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids,
                    existing_venue_keys, batch_venue_keys, now_iso,
                    tombstoned_event_ids=frozenset(), tombstoned_venue_keys=frozenset()):
@@ -492,7 +510,8 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         withhold("date_only_datetime", "date-only datetime (no exact start time)")
     if datetime_iso and datetime_iso[:10] < now_iso[:10]:
         withhold("past_event", "past event")
-    if status_code not in PROPOSABLE_STATUS_CODES:
+    public_onsale_at = pending_public_onsale(tm_event, status_code, now_iso)
+    if status_code not in PROPOSABLE_STATUS_CODES and not public_onsale_at:
         withhold("status_not_onsale", f"status is '{status_code}' (not onsale)")
     if not venue_name:
         withhold("missing_venue", "missing venue")
@@ -621,6 +640,9 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         "url_host": resolved_url_host,
         "url_host_allowed": resolved_url_host_allowed,
         "status_code": status_code or "(none)",
+        # Set only for an offsale date with a future public on-sale; the page
+        # shows it without a ticket button until then.
+        "public_onsale_at": public_onsale_at,
         "disposition": "withheld" if reasons else "proposed",
         "withheld_reasons": reasons,
         # Same order as withheld_reasons; stable across wording changes.
@@ -1180,6 +1202,16 @@ def self_test():
         make_event(dates={"start": {"dateTime": "2025-01-01T19:00:00Z"}, "status": {"code": "onsale"}})))
     check("cancelled status emits status_not_onsale", "status_not_onsale" in codes_for(
         make_event(dates={"start": {"dateTime": "2027-06-01T19:00:00Z"}, "status": {"code": "cancelled"}})))
+    offsale = {"start": {"dateTime": "2027-06-01T19:00:00Z"}, "status": {"code": "offsale"}}
+    check("offsale with a future public on-sale is proposable", "status_not_onsale" not in codes_for(
+        make_event(dates=offsale, sales={"public": {"startDateTime": "2026-07-01T09:00:00Z"}})))
+    check("offsale with no public on-sale stays withheld", "status_not_onsale" in codes_for(make_event(dates=offsale)))
+    check("offsale whose public on-sale already passed stays withheld", "status_not_onsale" in codes_for(
+        make_event(dates=offsale, sales={"public": {"startDateTime": "2026-01-01T09:00:00Z"}})))
+    check("postponed stays withheld even with a future public on-sale", "status_not_onsale" in codes_for(
+        make_event(dates={**offsale, "status": {"code": "postponed"}}, sales={"public": {"startDateTime": "2026-07-01T09:00:00Z"}})))
+    check("pending public on-sale is carried verbatim", pending_public_onsale(
+        {"sales": {"public": {"startDateTime": "2026-07-01T09:00:00Z"}}}, "offsale", "2026-06-10T00:00:00Z") == "2026-07-01T09:00:00Z")
     check("date-only listing emits date_only_datetime", "date_only_datetime" in codes_for(
         make_event(dates={"start": {"localDate": "2027-06-01"}, "status": {"code": "onsale"}})))
     check("missing venue emits missing_venue", "missing_venue" in codes_for(no_venue))

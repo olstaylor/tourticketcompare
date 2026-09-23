@@ -43,7 +43,8 @@ const CSV_COLUMNS = [
   "seatgeek_event_id",
   "seatgeek_url",
   "vividseats_event_id",
-  "vividseats_url"
+  "vividseats_url",
+  "public_onsale_at"
 ];
 
 const ALLOWED_STATUSES = new Set(["draft", "announced", "on-sale", "past"]);

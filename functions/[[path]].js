@@ -3214,6 +3214,7 @@ function enrichEventAsShow(ev) {
     country: normalizeCountry(ev.country),
     venue: String(ev.venue || "").trim(),
     ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
+    public_onsale_at: String(ev.public_onsale_at || "").trim(),
     seatgeek_url: String(ev.seatgeek_url || "").trim(),
     vividseats_url: String(ev.vividseats_url || "").trim(),
     ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
@@ -3394,7 +3395,27 @@ function showDatePartsServer(iso, timezone) {
 // to the legacy human-verified provider flag.
 // Keep in sync with eventLinkPublishable in public/app.js and
 // functions/api/out.js.
+// A date Ticketmaster lists as not yet on sale, with a future public on-sale
+// time (`public_onsale_at`, verbatim from Discovery), is shown with no ticket
+// button of any kind until that moment. Keep in sync with public/app.js.
+function publicOnsalePending(event, now = Date.now()) {
+  const at = Date.parse(String(event?.public_onsale_at || ""));
+  return Number.isFinite(at) && at > now;
+}
+
+function publicOnsaleLabel(event) {
+  const at = new Date(String(event?.public_onsale_at || ""));
+  let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";
+  try {
+    when = at.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: event?.timezone || "UTC", timeZoneName: "short" });
+  } catch (error) {
+    // Unknown zone: keep the UTC form.
+  }
+  return `Public on-sale ${when} per Ticketmaster.`;
+}
+
 function eventLinkPublishable(event) {
+  if (publicOnsalePending(event)) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
@@ -3406,6 +3427,7 @@ function eventLinkPublishable(event) {
 // validator; no manual status flip is required. Keep in sync with
 // providerEventPublishable in functions/api/out.js and public/app.js.
 function providerEventPublishable(event, provider) {
+  if (publicOnsalePending(event)) return false;
   if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
     return event?.provider_links?.[provider]?.verified === true;
   }
@@ -3849,6 +3871,8 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.</p>`;
+  } else if (publicOnsalePending(show)) {
+    ctaHtml = `<p class="disclosure-note" data-public-onsale>${escapeHtml(publicOnsaleLabel(show))}</p>`;
   } else if (show.id) {
     const ctaSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
     if (ctaSpecs.length) {
@@ -3876,6 +3900,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   // nothing new is exposed. Keep in sync with public/artist-board.js.
   const showJson = escapeAttr(
     JSON.stringify({
+      public_onsale_at: show.public_onsale_at || "",
       last_verified_at: show.last_verified_at || "",
       dateTimeISO: show.dateTimeISO || "",
       city: show.city || "",

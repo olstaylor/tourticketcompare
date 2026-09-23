@@ -327,6 +327,8 @@ function buildEvent(row, verificationStatus = "needs_recheck") {
   }
   if (timezone) event.timezone = timezone;
   if (status) event.status = status;
+  const publicOnsaleAt = clean(row.public_onsale_at);
+  if (publicOnsaleAt) event.public_onsale_at = publicOnsaleAt;
   // Post-condition: a provider-supplied IANA venue timezone must survive into
   // the written record. Without it, the stored instant cannot be resolved back
   // to the venue-local calendar date every provider event matcher keys on, and

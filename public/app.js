@@ -1694,7 +1694,25 @@ function renderShowCardMeta(show) {
 // human-verified provider flag.
 // Keep in sync with eventLinkPublishable in functions/[[path]].js and
 // functions/api/out.js.
+// Keep in sync with publicOnsalePending / publicOnsaleLabel in functions/[[path]].js.
+function publicOnsalePending(event, now = Date.now()) {
+  const at = Date.parse(String((event && event.public_onsale_at) || ""));
+  return Number.isFinite(at) && at > now;
+}
+
+function publicOnsaleLabel(event) {
+  const at = new Date(String(event.public_onsale_at || ""));
+  let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";
+  try {
+    when = at.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: event.timezone || "UTC", timeZoneName: "short" });
+  } catch (error) {
+    // Unknown zone: keep the UTC form.
+  }
+  return `Public on-sale ${when} per Ticketmaster.`;
+}
+
 function eventLinkPublishable(event) {
+  if (publicOnsalePending(event)) return false;
   const destination = String((event && (event.ticketmaster_url || event.source_url)) || "").trim();
   if (destination) return true;
   return Boolean(event && event.provider_links && event.provider_links.ticketmaster && event.provider_links.ticketmaster.verified === true);
@@ -1706,6 +1724,7 @@ function eventLinkPublishable(event) {
 // redirect validator. Keep in sync with providerEventPublishable in
 // functions/[[path]].js and functions/api/out.js.
 function providerEventPublishable(event, provider) {
+  if (publicOnsalePending(event)) return false;
   if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
     return Boolean(event && event.provider_links && event.provider_links[provider] && event.provider_links[provider].verified === true);
   }
@@ -2327,7 +2346,9 @@ function renderShowCard(show, options = {}) {
       text(
         body,
         "p",
-        "No checked ticket link is available for this date yet. It stays listed so the date itself is still visible.",
+        publicOnsalePending(show)
+          ? publicOnsaleLabel(show)
+          : "No checked ticket link is available for this date yet. It stays listed so the date itself is still visible.",
         "disclosure-note"
       );
     }

@@ -1328,12 +1328,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667756",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_od7G9C0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0",
@@ -1389,12 +1397,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667924",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2wEe5m0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255082"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255082",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp",
@@ -1890,12 +1906,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667920",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-north-birmingham-tickets-12-16-2026/event/107667920",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_oCKCvZdCau",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255101"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255101",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-north-birmingham-tickets-12-16-2026/event/107667920"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon",
@@ -2126,12 +2150,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666302",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255106"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255106",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq",

@@ -1,4 +1,4 @@
-/* Stage-one visual direction: homepage and Harry Styles only. */
+/* Stage-one visual direction: homepage and Harry Styles routes. */
 @font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-mono-400.woff2") format("woff2")}
 .ux-polish{--bg:#f7f5ef;--paper:#fffefa;--ink:#202c26;--muted:#62675e;--accent:#b84329;--line:#dedfd5;--radius-lg:6px;--radius-xl:6px;background:var(--bg)}
 .ux-polish .page-shell{width:min(1180px,100% - 64px);padding:0 0 64px;margin:auto}
@@ -102,7 +102,7 @@
 .ux-polish .show-filter-bar :is(input,select){min-width:0;border-radius:3px;min-height:44px;border:1px solid #aeb2a4;font-size:14px;background:#fffefa;padding:8px 12px}
 .ux-polish .show-filter-reset{background:none;border:0;border-radius:3px;min-height:44px;padding:6px 10px;text-decoration:underline;text-underline-offset:3px;font-size:12px;color:#4d5b46}
 .ux-polish .show-filter-count{font:11px/1.5 "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.04em;margin:0;color:var(--muted)}
-.ux-polish .show-card-grid{gap:10px}
+.ux-polish .show-card-grid{grid-template-columns:minmax(0,1fr);gap:10px}
 .ux-polish .show-card-compact{display:block;padding:0;border:1px solid #d5d9cc;border-radius:4px;background:#fffefa;box-shadow:none;scroll-margin-top:90px}
 .ux-polish .event-comparison{padding:0;border:0;margin:0}
 .ux-polish .event-comparison>summary{display:grid;grid-template-columns:68px minmax(0,1fr) auto;gap:20px;align-items:center;padding:18px 22px;list-style:none;cursor:pointer;min-height:110px}
@@ -217,3 +217,29 @@
 .ux-polish .show-board-jump{max-width:100%;overflow:hidden}
 .ux-polish .artist-masthead h1 span::first-letter{text-transform:uppercase}
 .ux-polish .provider-cta-currency{font:10px/1.4 "IBM Plex Mono",monospace;color:var(--muted)}
+
+/* Shared event markup must retain its layout on artist/city routes too. */
+.ux-polish .artist-city-page{padding:26px 0 0;border:0;background:none;box-shadow:none;gap:20px;min-width:0}
+.ux-polish .artist-city-page>h1{font-size:clamp(32px,4vw,48px);max-width:none;margin:0;line-height:1.1}
+.ux-polish .artist-city-page>.lead{font-size:17px;line-height:1.6;margin:0;max-width:850px}
+.ux-polish .artist-city-page>.disclosure-note{font-size:13px;line-height:1.6;margin:0;max-width:850px}
+.ux-polish .artist-city-page>.show-board{border-top:1px solid var(--line);padding-top:24px}
+.ux-polish .artist-city-page>.nested-panel{padding:24px 0;border:0;border-top:1px solid var(--line);background:none;box-shadow:none;border-radius:0}
+.ux-polish .city-schedule-details{border:0;border-top:1px solid var(--line);padding:16px 0;margin:0}
+.ux-polish .city-schedule-details>summary{min-height:44px;cursor:pointer;font-weight:700;font-size:16px}
+.ux-polish .city-schedule-details>.nested-panel{padding:20px 0;border:0;background:none}
+.ux-polish .city-schedule-details h2{font-size:24px}
+.ux-polish .city-schedule-details .info-card{padding:16px;box-shadow:none}
+.ux-polish .city-schedule-details p{font-size:15px;line-height:1.6}
+.ux-polish .guide-grid .info-card{min-height:0;gap:0;align-content:start}
+.ux-polish .spotlight-bottom{justify-content:flex-end}
+@media(max-width:700px){.ux-polish .artist-city-page{padding-top:20px}.ux-polish .artist-city-page>.lead{font-size:16px}.ux-polish .artist-city-page>.disclosure-note{font-size:12px}}
+
+@media(max-width:700px){
+ .ux-polish .artist-fact dt{font-size:11px;letter-spacing:0}
+ .ux-polish .artist-fact dd{font-size:13px}
+ .ux-polish .show-card-meta{font-size:13px}
+ .ux-polish .show-card-run,.ux-polish .show-run-chip{font-size:11px}
+ .ux-polish .provider-cta-check{font-size:13px}
+ .ux-polish .show-board>.section-intro>.disclosure-note{font-size:12px}
+}

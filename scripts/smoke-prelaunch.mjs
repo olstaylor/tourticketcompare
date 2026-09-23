@@ -65,7 +65,7 @@ const expectedTitle = new Map([
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
 const APP_ASSET_VERSION = "20260901a";
 const TTC_HOME_ASSET_VERSION = "20260921a";
-const TTC_SHELL_ASSET_VERSION = "20260921a";
+const TTC_SHELL_ASSET_VERSION = "20260923b";
 const SHELL_SCRIPT_ASSET_VERSION = "20260921a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -2216,6 +2216,29 @@ assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMor
 assert(!serverPricedMorgan.text.includes("SeatGeek price snapshot as of"), "SeatGeek must remain CTA-only in server-rendered cards");
 assert(serverPricedMorgan.text.includes("may exclude fees"), "server-rendered snapshots should keep the fees disclaimer");
 
+// Exercise the new layout with the same isolated, in-memory pricing fixture.
+// This fixture is never written into the public catalog or used by a preview.
+const compactFixtureEvents = JSON.parse(approvedPriceEventsJson).map((event) =>
+  event.id === CONTROLLED_SEATGEEK_SHOW_ID
+    ? { ...event, artist_slug: "harry-styles", artist_name: "Harry Styles" }
+    : event
+);
+const compactPricedPage = await routeResponse("/artists/harry-styles", envWithEventsJson(JSON.stringify(compactFixtureEvents), {
+  DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
+  SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
+  VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true",
+  IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
+}));
+const compactPricedCard = compactPricedPage.text.split("<article").find((card) =>
+  card.includes(`data-event-id="${CONTROLLED_SEATGEEK_SHOW_ID}"`)
+)?.split("</article>")[0] || "";
+assert(compactPricedCard.includes('class="event-comparison"'), "priced fixture must exercise the compact layout");
+for (const feature of ["provider-cta-name\">SeatGeek<", "provider-cta-name\">Vivid Seats<", "provider-cta-name\">Ticketmaster<", "provider-cta-price", "provider-cta-currency", "may exclude fees", "Show price snapshot history", "data-price-history-toggle"]) {
+  assert(compactPricedCard.includes(feature), `compact event must preserve comparison feature: ${feature}`);
+}
+assert(!compactPricedCard.includes("No listed-price snapshot is available"), "priced compact card must not claim its prices are missing");
+
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
   env: envWithEventsJson(vividSeatsPriceEventsJson, {
@@ -4107,6 +4130,14 @@ assert(
   artistHubPage.text.includes(`href="/artists/${smokeArtistCity.artistSlug}/tickets/${smokeArtistCity.slug}`),
   "main artist page should link to its active artist-city pages"
 );
+// Shared compact cards also render on the pilot artist's city routes. Every
+// such page must load the layout they depend on, not the legacy card grid.
+for (const entry of smokeArtistCityEntries.filter((entry) => entry.artistSlug === "harry-styles")) {
+  const page = await routeResponse(entry.path, artistCityEnv);
+  assert(page.text.includes('class="event-comparison"'), `${entry.path} should render expandable dates`);
+  assert(page.text.includes('<body class="ux-polish">'), `${entry.path} must enable the compact card layout`);
+  assert(/href="\/ux-polish\.css\?v=/.test(page.text), `${entry.path} must load the compact card stylesheet`);
+}
 console.log("artist-city landing-page verification passed");
 
 // Non-canonical-host indexability: Cloudflare serves the production deployment

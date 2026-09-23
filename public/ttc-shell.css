@@ -28,7 +28,7 @@
 .ttc-ft__heading{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-bottom:26px;margin-bottom:24px;border-bottom:1px solid #53644f}
 .ttc-ft__heading>.ttc-brand{color:#f2f2df}.ttc-ft .ttc-brand__name b{color:#ecad8d}.ttc-ft .ttc-brand__mark{background:#e7ebd3;color:#243c2e}.ttc-ft .ttc-brand__mark::before,.ttc-ft .ttc-brand__mark::after{background:#23392e}
 .ttc-ft__heading>span{font-size:14px;color:#c6ceb8}
-.ttc-ft__nav{gap:4px 22px;margin-bottom:20px}.ttc-ft__nav a{font-size:13px;color:#e9eddf;display:inline-flex;align-items:center;min-height:44px}
+.ttc-ft__nav{gap:4px 22px;margin-bottom:20px}.ttc-ft__nav a{font-size:13px;color:#e9eddf;display:inline-flex;align-items:center;min-height:44px;padding:0;border:0;border-radius:0;white-space:normal}
 .ttc-ft__nav a:hover{text-decoration:underline;text-underline-offset:4px}
 .ttc-ft p{font-size:12px;line-height:1.65;max-width:800px;color:#c6ceb8;margin:8px 0}.ttc-ft .footer-meta{font-size:11px;margin-top:24px;color:#b5c0a9}
 @media(max-width:1000px){.ttc-hd__in{gap:12px}.ttc-brand__name{font-size:15px}.ttc-nav a{padding-inline:7px}}

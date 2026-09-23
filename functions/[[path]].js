@@ -1533,7 +1533,7 @@ function renderHomeSpotlight(catalog, events) {
   const artist = catalog.artists.find((item) => item.slug === "harry-styles");
   const show = artist && futureShowsForArtist(events, artist.slug)[0];
   if (!show) return "";
-  return `<aside class="home-spotlight" aria-labelledby="spotlightTitle"><p class="eyebrow">ON THE CALENDAR</p><div class="spotlight-name" id="spotlightTitle">${escapeHtml(artist.name)}</div><p class="spotlight-date">${escapeHtml(formatShowDateServer(show.dateTimeISO, show.timezone))}</p><p class="spotlight-venue">${escapeHtml(show.venue)}<br>${escapeHtml(show.city)}</p><div class="spotlight-bottom"><span>Find your night.<br>Explore your ticket options.</span>${anchor("View this show ↗", `/artists/${artist.slug}#${showAnchorId(show)}`, "spotlight-link")}</div></aside>`;
+  return `<aside class="home-spotlight" aria-labelledby="spotlightTitle"><p class="eyebrow">UPCOMING SHOW</p><div class="spotlight-name" id="spotlightTitle">${escapeHtml(artist.name)}</div><p class="spotlight-date">${escapeHtml(formatShowDateServer(show.dateTimeISO, show.timezone))}</p><p class="spotlight-venue">${escapeHtml(show.venue)}<br>${escapeHtml(show.city)}</p><div class="spotlight-bottom">${anchor("View this show ↗", `/artists/${artist.slug}#${showAnchorId(show)}`, "spotlight-link")}</div></aside>`;
 }
 
 function cityShowCountLabel(count) {
@@ -4044,7 +4044,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Jump to a month below, or use the search and city filters to narrow the list.</p></div>${renderShowBoardJumpHtml(shows)}`
     : "";
   const boardIntro = shows.length
-    ? `<p>Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it.</p>`
+    ? `<p>Choose a date and venue to view ticket options.</p>`
     : `<p>Dates appear here once a source record confirms them and we've followed the ticket link.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}<p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
@@ -4242,7 +4242,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       contentModel.facts
     )}</div>`;
     const polishedLeadHtml = artist.slug === "harry-styles"
-      ? `<div data-artist-lead class="artist-masthead"><p class="eyebrow">THE LIVE CALENDAR</p><h1 id="artistTitle">${escapeHtml(artist.name)}<span> tickets and tour dates</span></h1><p class="artist-short-intro">Choose your night. Compare the ticket sites for that exact show.</p>${renderArtistStatusFactsHtml(contentModel.facts)}<details class="artist-overview"><summary>About this schedule</summary><p>${escapeHtml(contentModel.intro)}</p></details></div>`
+      ? `<div data-artist-lead class="artist-masthead"><h1 id="artistTitle">${escapeHtml(artist.name)}<span> tickets and tour dates</span></h1><p class="artist-short-intro">Select a date to see its ticket providers.</p>${renderArtistStatusFactsHtml(contentModel.facts)}<details class="artist-overview"><summary>About this schedule</summary><p>${escapeHtml(contentModel.intro)}</p></details></div>`
       : leadHtml;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
@@ -4369,11 +4369,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artistCity.label
     )}</h1><p class="lead">${escapeHtml(
       artistCityIntroSentence(artist, artistCity, { datesTabled })
-    )}</p><p class="disclosure-note">Prices and availability are set by the provider and can change. Any figure shown is a timestamped listed-price snapshot for a verified event, not a final checkout total. This is a selective list of reviewed dates, not a complete local calendar.</p>${priceAnswerHtml}${renderArtistCityAnswerSummary(
-      artist,
-      artistCity,
-      { datesTabled }
-    )}${renderShowBoardServerHtml(
+    )}</p><p class="disclosure-note">Prices and availability are set by the provider and can change. Any figure shown is a timestamped listed-price snapshot for a verified event, not a final checkout total. This is a selective list of reviewed dates, not a complete local calendar.</p>${priceAnswerHtml}${artist.slug === "harry-styles" ? "" : renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
       true,
@@ -4382,7 +4378,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       null,
       marketplaceAvailability,
       artist.slug
-    )}${renderArtistTicketHelpHtml(
+    )}${artist.slug === "harry-styles" ? `<details class="city-schedule-details"><summary>More about these dates</summary>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}</details>` : ""}${renderArtistTicketHelpHtml(
       artistTicketHelp()
     )}${relatedLinksHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
@@ -4782,7 +4778,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Contact", "/contact", "button button-secondary")}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><p class="eyebrow">FOR THE NIGHTS YOU WANT TO BE THERE</p><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label for="site-search">Who do you want to see?</label><div class="home-search-row"><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city, venue or tour" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search <span aria-hidden="true">→</span></button></div></form><div class="home-browse"><span>Or explore</span>${anchor("Artists", "/artists")}${anchor("Cities", "/cities")}${anchor("Venues", "/venues")}</div><p class="home-independent">Independent comparison. We don’t sell tickets.</p></div>${renderHomeSpotlight(catalog, events)}</section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle" hidden><div class="section-intro"><h2 id="searchSectionTitle">Start with a search</h2><p id="searchWidgetIntro">Enter an artist, city, venue, or tour above to see matching checked dates and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-heading"><div><p class="eyebrow">YOUR NEXT NIGHT OUT</p><h2 id="homeArtistsTitle">Find an artist. Pick a date.</h2></div>${anchor("Browse all artists →", "/artists", "text-link")}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-coverage">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-heading"><h2 id="whatYouCanDoTitle">From the first search to the final total.</h2>${anchor("How it works →", "/how-it-works", "text-link")}</div><div class="card-grid">${HOME_STEPS.map((step) => `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`).join("")}</div><div class="action-row home-start-action">${anchor(HOME_PRIMARY_CTA_LABEL, HOME_PRIMARY_CTA_HREF, "button button-primary")}</div></section><section class="section-grid home-guide-section" aria-labelledby="homeBuyingGuidesTitle"><div class="section-heading"><div><p class="eyebrow">A LITTLE KNOW-HOW</p><h2 id="homeBuyingGuidesTitle">Go in with confidence.</h2></div>${anchor("All buying guides →", "/guides", "text-link")}</div>${renderHomepageGuideLinks()}</section><section class="home-trust" aria-labelledby="trustTitle"><div><p class="eyebrow">CLEAR LINKS. INFORMED CHOICES.</p><h2 id="trustTitle">Your show. Your decision.</h2></div><div><p>We’re independent and unofficial. Prices are provider-listed snapshots where available; the ticket site confirms fees, availability and the final total.</p><p>Some links earn us a commission at no extra cost to you.</p>${anchor("How we check our information →", "/editorial-policy", "text-link")}</div></section></div></main>`;
+  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label for="site-search">Who do you want to see?</label><div class="home-search-row"><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city, venue or tour" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search <span aria-hidden="true">→</span></button></div></form><div class="home-browse"><span>Or explore</span>${anchor("Artists", "/artists")}${anchor("Cities", "/cities")}${anchor("Venues", "/venues")}</div><p class="home-independent">Independent comparison. We don’t sell tickets.</p></div>${renderHomeSpotlight(catalog, events)}</section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle" hidden><div class="section-intro"><h2 id="searchSectionTitle">Start with a search</h2><p id="searchWidgetIntro">Enter an artist, city, venue, or tour above to see matching checked dates and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-heading"><div><h2 id="homeArtistsTitle">Artists with upcoming dates</h2></div>${anchor("Browse all artists →", "/artists", "text-link")}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-coverage">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-heading"><h2 id="whatYouCanDoTitle">How to compare tickets</h2>${anchor("How it works →", "/how-it-works", "text-link")}</div><div class="card-grid">${HOME_STEPS.map((step) => `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`).join("")}</div><div class="action-row home-start-action">${anchor(HOME_PRIMARY_CTA_LABEL, HOME_PRIMARY_CTA_HREF, "button button-primary")}</div></section><section class="section-grid home-guide-section" aria-labelledby="homeBuyingGuidesTitle"><div class="section-heading"><div><h2 id="homeBuyingGuidesTitle">Ticket buying guides</h2></div>${anchor("All buying guides →", "/guides", "text-link")}</div>${renderHomepageGuideLinks()}</section><section class="home-trust" aria-labelledby="trustTitle"><div><h2 id="trustTitle">About our comparisons</h2></div><div><p>We’re independent and unofficial. Prices are provider-listed snapshots where available; the ticket site confirms fees, availability and the final total.</p><p>Some links earn us a commission at no extra cost to you.</p>${anchor("How we check our information →", "/editorial-policy", "text-link")}</div></section></div></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
@@ -4901,12 +4897,12 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="stylesheet" href="/styles.css?v=20260911a" />',
       '<link rel="preload" as="style" href="/ttc-home.css?v=20260921a" />\n    <link rel="stylesheet" href="/styles.css?v=20260911a" />'
     );
-    next = next.replace('<link rel="stylesheet" href="/ttc-shell.css?v=20260921a" />', '<link rel="stylesheet" href="/ttc-home.css?v=20260921a" /><link rel="stylesheet" href="/ttc-shell.css?v=20260921a" />');
+    next = next.replace('<link rel="stylesheet" href="/ttc-shell.css?v=20260923b" />', '<link rel="stylesheet" href="/ttc-home.css?v=20260921a" /><link rel="stylesheet" href="/ttc-shell.css?v=20260923b" />');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260921a" defer></script></body>');
   }
-  if (route.path === "/" || route.path === "/artists/harry-styles") {
+  if (route.path === "/" || ((route.type === "artist" || route.type === "artist-city") && route.artist?.slug === "harry-styles")) {
     next = next.replace("<body>", '<body class="ux-polish">');
-    next = next.replace("</head>", '<link rel="stylesheet" href="/ux-polish.css?v=20260921a" /></head>');
+    next = next.replace("</head>", '<link rel="stylesheet" href="/ux-polish.css?v=20260923b" /></head>');
   }
   return next;
 }

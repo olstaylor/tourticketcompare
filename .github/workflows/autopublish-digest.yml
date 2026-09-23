@@ -1,0 +1,51 @@
+name: Auto-publish digest
+
+# Daily after-the-fact review of everything that published itself (see
+# docs/OPERATIONS.md → Auto-publish kill switch and ledger). Writes only the
+# `automation:autopublish-digest` issue. 08:30 UTC follows the last lane (07:00);
+# the App identity supplies Variables: read for the switch values.
+
+on:
+  schedule:
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: autopublish-digest
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Self-test
+        run: node scripts/report-autopublish-digest.mjs --self-test
+
+      - name: Prepare publishing identity
+        id: publishing-identity
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update the digest issue
+        env:
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/report-autopublish-digest.mjs

@@ -87,6 +87,8 @@ export const STEPS = [
   { id: "smoke-prelaunch",                        lane: "quick",  run: "node scripts/smoke-prelaunch.mjs" },
   { id: "roster:forecast:self-test",              lane: "units",  run: "node scripts/report-roster-forecast.mjs --self-test" },
   { id: "status:validate:self-test",              lane: "units",  run: "node scripts/validate-status-counts.mjs --self-test" },
+  { id: "autopublish:guard:self-test",            lane: "units",  run: "node scripts/lib/autopublish-guard.mjs --self-test" },
+  { id: "autopublish:digest:self-test",           lane: "units",  run: "node scripts/report-autopublish-digest.mjs --self-test" },
   { id: "status:validate",                        lane: "quick",  run: "npm run status:validate" },
 ];
 

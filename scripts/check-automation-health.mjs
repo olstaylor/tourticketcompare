@@ -155,7 +155,12 @@ export const WATCHED_LANES = [
   // for exactly the reason it fails every writer. It therefore `sharesMainGate`
   // and counts towards the correlated-failure call. Not `eventDriven`: it runs
   // once a day and most runs end on NO SAFE WORK in seconds.
-  { file: "work-queue-repair.yml", name: "Work queue repair", cadence: "daily 04:50", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true }
+  { file: "work-queue-repair.yml", name: "Work queue repair", cadence: "daily 04:50", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
+  // The auto-publish digest reports on the writers and writes only an issue; it
+  // runs no validation against `main`, so like the sensors it is excluded from
+  // the correlated red-main call. A stopped digest means the owner's
+  // after-the-fact review silently stops, so one failure is a finding.
+  { file: "autopublish-digest.yml", name: "Auto-publish digest", cadence: "daily 08:30", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
 ];
 
 // Whether a lane runs often enough that one failure is absorbed rather than
@@ -699,8 +704,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "generated-freshness.yml", "pr-validation-head-guard.yml"],
-    "the sensors, and only the sensors, are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "pr-validation-head-guard.yml"],
+    "the sensors and the digest, and only those, are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

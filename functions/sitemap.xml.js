@@ -3,6 +3,7 @@ import { deriveVenues } from "./_venues.js";
 import { deriveCities } from "./_cities.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { deriveIndexableBlogEntries } from "./_blog.js";
+import { artistPageIndexable, AUTO_PROMOTED_ARTIST_SOURCE } from "./_artist-indexability.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -10,8 +11,6 @@ const STATIC_INDEXABLE_PATHS = [
   ...Object.keys(TRUST_ROUTES).filter((path) => TRUST_ROUTES[path].indexable),
   ...Object.keys(GUIDE_ROUTES)
 ];
-
-const INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content";
 
 function escapeXml(value) {
   return String(value)
@@ -126,12 +125,15 @@ async function loadIndexableArtists(env) {
 
     if (!Array.isArray(catalog?.artists) || !Array.isArray(artistsMeta)) return [];
 
-    // Map slug -> last_verified_at so each editorially indexable artist URL
-    // gets a real freshness date. Empty boards remain valid artist pages, so
-    // event availability is deliberately not used to remove them.
+    // Map slug -> last_verified_at so each indexable artist URL gets a real
+    // freshness date. Empty boards remain valid artist pages for owner-promoted
+    // artists; only an auto-promoted artist is gated on upcoming dates, so the
+    // event file is read only when one exists.
+    const needsEvents = artistsMeta.some((artist) => artist?.promotion_source === AUTO_PROMOTED_ARTIST_SOURCE);
+    const events = needsEvents ? await loadJsonAsset(env, "/data/events.json") : [];
     const verifiedBySlug = new Map(
       artistsMeta
-        .filter((artist) => artist?.indexing_status === INDEXABLE_ARTIST_STATUS)
+        .filter((artist) => artist && artistPageIndexable(artist, Array.isArray(events) ? events : []))
         .map((artist) => [String(artist?.slug || "").trim(), String(artist?.last_verified_at || "").trim()])
         .filter(([slug]) => slug)
     );

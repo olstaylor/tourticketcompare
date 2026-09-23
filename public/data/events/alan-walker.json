@@ -114,12 +114,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265222",
+        "url": "https://www.ticketliquidator.com/tickets/8265222/Alan-Walker-tickets-Fri-Jan-22-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668184",
+        "url": "https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3Nb2D-J",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265222"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265222",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265222/Alan-Walker-tickets-Fri-Jan-22-2027-The-Pavilion-at-Toyota-Music-Factory",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184"
   },
   {
     "id": "tm-alan-walker-2027-houston-g5diz_3no4w3_",
@@ -175,12 +191,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265214",
+        "url": "https://www.ticketliquidator.com/tickets/8265214/Alan-Walker-tickets-Sat-Jan-23-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668029",
+        "url": "https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3No4W3_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265214/Alan-Walker-tickets-Sat-Jan-23-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029"
   },
   {
     "id": "tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j",
@@ -342,12 +374,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265275",
+        "url": "https://www.ticketliquidator.com/tickets/8265275/Alan-Walker-tickets-Sat-Jan-30-2027-The-Ritz-Raleigh",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_31NNQNu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265275"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265275",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265275/Alan-Walker-tickets-Sat-Jan-30-2027-The-Ritz-Raleigh"
   },
   {
     "id": "tm-alan-walker-2027-charleston-g5evz_3nuc_ky",
@@ -456,12 +496,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265284",
+        "url": "https://www.ticketliquidator.com/tickets/8265284/Alan-Walker-tickets-Sat-Feb-6-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668183",
+        "url": "https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkftGkdaT1lK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265284/Alan-Walker-tickets-Sat-Feb-6-2027-The-Anthem-DC",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183"
   },
   {
     "id": "tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx",
@@ -517,12 +573,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265283",
+        "url": "https://www.ticketliquidator.com/tickets/8265283/Alan-Walker-tickets-Tue-Feb-9-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfxGkdmHFsX",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265283/Alan-Walker-tickets-Tue-Feb-9-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",
@@ -578,12 +642,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265260",
+        "url": "https://www.ticketliquidator.com/tickets/8265260/Alan-Walker-tickets-Wed-Feb-10-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668152",
+        "url": "https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPFzGAuaajV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265260"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265260",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265260/Alan-Walker-tickets-Wed-Feb-10-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4a",
@@ -639,12 +719,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265262",
+        "url": "https://www.ticketliquidator.com/tickets/8265262/Alan-Walker-tickets-Thu-Feb-11-2027-Terminal-5",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4A",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265262",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265262/Alan-Walker-tickets-Thu-Feb-11-2027-Terminal-5"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4k",
@@ -700,12 +788,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265263",
+        "url": "https://www.ticketliquidator.com/tickets/8265263/Alan-Walker-tickets-Fri-Feb-12-2027-Terminal-5",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4k",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265263",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265263/Alan-Walker-tickets-Fri-Feb-12-2027-Terminal-5"
   },
   {
     "id": "tm-alan-walker-2027-montreal-1aszkfngkelr9-v",
@@ -761,12 +857,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8269075",
+        "url": "https://www.ticketliquidator.com/tickets/8269075/Alan-Walker-tickets-Tue-Feb-16-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668165",
+        "url": "https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfNGkelR9-V",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269075"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269075",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8269075/Alan-Walker-tickets-Tue-Feb-16-2027-MTelus",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165"
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilb6g_",
@@ -981,12 +1093,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265270",
+        "url": "https://www.ticketliquidator.com/tickets/8265270/Alan-Walker-tickets-Tue-Feb-23-2027-Stage-AE",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt46",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265270"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265270",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265270/Alan-Walker-tickets-Tue-Feb-23-2027-Stage-AE"
   },
   {
     "id": "tm-alan-walker-2027-columbus-z7r9jz1aavt4f",
@@ -1042,12 +1162,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265272",
+        "url": "https://www.ticketliquidator.com/tickets/8265272/Alan-Walker-tickets-Wed-Feb-24-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4F",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265272"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265272",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265272/Alan-Walker-tickets-Wed-Feb-24-2027-KEMBA-Live"
   },
   {
     "id": "tm-alan-walker-2027-indianapolis-vv1aazkfegkewtmln",
@@ -1103,12 +1231,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265273",
+        "url": "https://www.ticketliquidator.com/tickets/8265273/Alan-Walker-tickets-Thu-Feb-25-2027-Egyptian-Room-At-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfEGkeWTMlN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265273"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265273",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265273/Alan-Walker-tickets-Thu-Feb-25-2027-Egyptian-Room-At-Old-National-Centre"
   },
   {
     "id": "tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx",
@@ -1164,12 +1300,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265271",
+        "url": "https://www.ticketliquidator.com/tickets/8265271/Alan-Walker-tickets-Fri-Feb-26-2027-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668175",
+        "url": "https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_3GYG7zOHX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265271"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265271",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265271/Alan-Walker-tickets-Fri-Feb-26-2027-Byline-Bank-Aragon-Ballroom",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175"
   },
   {
     "id": "tm-alan-walker-2027-seattle-z7r9jz1aavt4a",
@@ -1225,12 +1377,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265274",
+        "url": "https://www.ticketliquidator.com/tickets/8265274/Alan-Walker-tickets-Wed-Mar-3-2027-Showbox-SoDo",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265274"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265274",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265274/Alan-Walker-tickets-Wed-Mar-3-2027-Showbox-SoDo"
   },
   {
     "id": "tm-alan-walker-2027-portland-z7r9jz1aavt48",
@@ -1286,12 +1446,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8261374",
+        "url": "https://www.ticketliquidator.com/tickets/8261374/Alan-Walker-tickets-Thu-Mar-4-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt48",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261374"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8261374/Alan-Walker-tickets-Thu-Mar-4-2027-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-alan-walker-2027-los-angeles-vvg1iz_3n0r6vh",

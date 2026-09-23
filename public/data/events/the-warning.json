@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668069",
+        "url": "https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vGvAvJF",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069"
   },
   {
     "id": "tm-the-warning-2027-birmingham-g5dzz_3jthdkp",
@@ -159,12 +167,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265893",
+        "url": "https://www.ticketliquidator.com/tickets/8265893/The-Warning-tickets-Mon-Mar-29-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668114",
+        "url": "https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3JtHdkp",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265893/The-Warning-tickets-Mon-Mar-29-2027-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114"
   },
   {
     "id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
@@ -220,12 +244,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267822",
+        "url": "https://www.ticketliquidator.com/tickets/8267822/The-Warning-tickets-Tue-Mar-30-2027-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668115",
+        "url": "https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3CmwwJ3",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267822/The-Warning-tickets-Tue-Mar-30-2027-O2-Academy-Glasgow",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115"
   },
   {
     "id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
@@ -327,11 +367,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668110",
+        "url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkBnrNkt",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110"
   },
   {
     "id": "tm-the-warning-2027-phoenix-1av0z_3gkl3jytk",
@@ -387,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668181",
+        "url": "https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3Gkl3JyTK",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264649"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264649",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181"
   },
   {
     "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
@@ -570,12 +626,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668671",
+        "url": "https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3RqnCw_",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264648"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264648",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671"
   },
   {
     "id": "tm-the-warning-2027-vancouver-z7r9jz1aavjo7",
@@ -685,11 +749,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668159",
+        "url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159"
   },
   {
     "id": "tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp",
@@ -798,12 +870,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668162",
+        "url": "https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_30oEIsm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264650"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264650",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162"
   },
   {
     "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
@@ -920,12 +1000,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264651",
+        "url": "https://www.ticketliquidator.com/tickets/8264651/The-Warning-tickets-Thu-May-6-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668673",
+        "url": "https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GklKjI_k",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264651/The-Warning-tickets-Thu-May-6-2027-The-Fillmore-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673"
   },
   {
     "id": "tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8",
@@ -1209,12 +1305,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264661",
+        "url": "https://www.ticketliquidator.com/tickets/8264661/The-Warning-tickets-Tue-May-18-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668061",
+        "url": "https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3iu7xhd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264661/The-Warning-tickets-Tue-May-18-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061"
   },
   {
     "id": "tm-the-warning-2027-boston-vv177z_3gklqgssu",
@@ -1270,11 +1382,19 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668674",
+        "url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklQGssU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674"
   }
 ]

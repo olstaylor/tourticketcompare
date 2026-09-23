@@ -31676,26 +31676,26 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154077",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7830189",
-        "url": "https://www.ticketliquidator.com/tickets/7830189/Niall-Horan-tickets-Tue-Sep-22-2026-Utilita-Arena-Birmingham",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkoyGkdRzveg",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830189/Niall-Horan-tickets-Tue-Sep-22-2026-Utilita-Arena-Birmingham"
+    "stubhub_international_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-niall-horan-2026-newcastle-upon-tyne-g5vhz_6jezgkf",
@@ -44909,26 +44909,26 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883090",
-        "url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107163018",
-        "url": "https://www.stubhub.ie/teddy-swims-kansas-city-tickets-9-22-2026/event/107163018",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70v1a",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883090",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-kansas-city-tickets-9-22-2026/event/107163018"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-saint-louis-vv17bz_fgkuhx1g-",
@@ -95408,12 +95408,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012974",
+        "url": "https://www.ticketliquidator.com/tickets/8012974/FKJ-tickets-Thu-Jun-10-2027-Saenger-Theatre-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pd1a",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012974"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012974",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012974/FKJ-tickets-Thu-Jun-10-2027-Saenger-Theatre-New-Orleans"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-green-bay-z7r9jz1aavxjs",
@@ -96288,12 +96296,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255063",
+        "url": "https://www.ticketliquidator.com/tickets/8255063/Trans-Siberian-Orchestra-tickets-Thu-Dec-3-2026-Charleston-Coliseum-Convention-Center-Charleston",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_8GkwOuUeg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255063"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255063",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255063/Trans-Siberian-Orchestra-tickets-Thu-Dec-3-2026-Charleston-Coliseum-Convention-Center-Charleston"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-fresno-g5vyz_o5rjusr",
@@ -96736,12 +96752,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667756",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_od7G9C0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0",
@@ -96797,12 +96821,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667924",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2wEe5m0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255082"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255082",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp",
@@ -97298,12 +97330,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667920",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-north-birmingham-tickets-12-16-2026/event/107667920",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_oCKCvZdCau",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255101"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255101",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-north-birmingham-tickets-12-16-2026/event/107667920"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon",
@@ -97534,12 +97574,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666302",
+        "url": "https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255106"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255106",
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq",
@@ -98231,12 +98279,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107146088",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-25-9-2026/event/107146088",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_aU0CejP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902862"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902862",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-25-9-2026/event/107146088"
   },
   {
     "id": "tm-death-cab-for-cutie-2026-london-g5dzz_1kfbxk8",
@@ -98292,12 +98348,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148077",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-26-9-2026/event/107148077",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1kfBxk8",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902863"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902863",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-26-9-2026/event/107148077"
   },
   {
     "id": "tm-death-cab-for-cutie-2026-brussels-z698xzg2z1ayvwax",
@@ -98573,12 +98637,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265222",
+        "url": "https://www.ticketliquidator.com/tickets/8265222/Alan-Walker-tickets-Fri-Jan-22-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668184",
+        "url": "https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3Nb2D-J",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265222"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265222",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265222/Alan-Walker-tickets-Fri-Jan-22-2027-The-Pavilion-at-Toyota-Music-Factory",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184"
   },
   {
     "id": "tm-alan-walker-2027-houston-g5diz_3no4w3_",
@@ -98634,12 +98714,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265214",
+        "url": "https://www.ticketliquidator.com/tickets/8265214/Alan-Walker-tickets-Sat-Jan-23-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668029",
+        "url": "https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3No4W3_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265214/Alan-Walker-tickets-Sat-Jan-23-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029"
   },
   {
     "id": "tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j",
@@ -98801,12 +98897,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265275",
+        "url": "https://www.ticketliquidator.com/tickets/8265275/Alan-Walker-tickets-Sat-Jan-30-2027-The-Ritz-Raleigh",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_31NNQNu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265275"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265275",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265275/Alan-Walker-tickets-Sat-Jan-30-2027-The-Ritz-Raleigh"
   },
   {
     "id": "tm-alan-walker-2027-charleston-g5evz_3nuc_ky",
@@ -98915,12 +99019,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265284",
+        "url": "https://www.ticketliquidator.com/tickets/8265284/Alan-Walker-tickets-Sat-Feb-6-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668183",
+        "url": "https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkftGkdaT1lK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265284/Alan-Walker-tickets-Sat-Feb-6-2027-The-Anthem-DC",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183"
   },
   {
     "id": "tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx",
@@ -98976,12 +99096,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265283",
+        "url": "https://www.ticketliquidator.com/tickets/8265283/Alan-Walker-tickets-Tue-Feb-9-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfxGkdmHFsX",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265283/Alan-Walker-tickets-Tue-Feb-9-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",
@@ -99037,12 +99165,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265260",
+        "url": "https://www.ticketliquidator.com/tickets/8265260/Alan-Walker-tickets-Wed-Feb-10-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668152",
+        "url": "https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPFzGAuaajV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265260"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265260",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265260/Alan-Walker-tickets-Wed-Feb-10-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4a",
@@ -99098,12 +99242,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265262",
+        "url": "https://www.ticketliquidator.com/tickets/8265262/Alan-Walker-tickets-Thu-Feb-11-2027-Terminal-5",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4A",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265262",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265262/Alan-Walker-tickets-Thu-Feb-11-2027-Terminal-5"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4k",
@@ -99159,12 +99311,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265263",
+        "url": "https://www.ticketliquidator.com/tickets/8265263/Alan-Walker-tickets-Fri-Feb-12-2027-Terminal-5",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4k",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265263",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265263/Alan-Walker-tickets-Fri-Feb-12-2027-Terminal-5"
   },
   {
     "id": "tm-alan-walker-2027-montreal-1aszkfngkelr9-v",
@@ -99220,12 +99380,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8269075",
+        "url": "https://www.ticketliquidator.com/tickets/8269075/Alan-Walker-tickets-Tue-Feb-16-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668165",
+        "url": "https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfNGkelR9-V",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269075"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269075",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8269075/Alan-Walker-tickets-Tue-Feb-16-2027-MTelus",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165"
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilb6g_",
@@ -99440,12 +99616,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265270",
+        "url": "https://www.ticketliquidator.com/tickets/8265270/Alan-Walker-tickets-Tue-Feb-23-2027-Stage-AE",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt46",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265270"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265270",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265270/Alan-Walker-tickets-Tue-Feb-23-2027-Stage-AE"
   },
   {
     "id": "tm-alan-walker-2027-columbus-z7r9jz1aavt4f",
@@ -99501,12 +99685,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265272",
+        "url": "https://www.ticketliquidator.com/tickets/8265272/Alan-Walker-tickets-Wed-Feb-24-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4F",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265272"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265272",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265272/Alan-Walker-tickets-Wed-Feb-24-2027-KEMBA-Live"
   },
   {
     "id": "tm-alan-walker-2027-indianapolis-vv1aazkfegkewtmln",
@@ -99562,12 +99754,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265273",
+        "url": "https://www.ticketliquidator.com/tickets/8265273/Alan-Walker-tickets-Thu-Feb-25-2027-Egyptian-Room-At-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfEGkeWTMlN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265273"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265273",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265273/Alan-Walker-tickets-Thu-Feb-25-2027-Egyptian-Room-At-Old-National-Centre"
   },
   {
     "id": "tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx",
@@ -99623,12 +99823,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265271",
+        "url": "https://www.ticketliquidator.com/tickets/8265271/Alan-Walker-tickets-Fri-Feb-26-2027-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668175",
+        "url": "https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_3GYG7zOHX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265271"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265271",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265271/Alan-Walker-tickets-Fri-Feb-26-2027-Byline-Bank-Aragon-Ballroom",
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175"
   },
   {
     "id": "tm-alan-walker-2027-seattle-z7r9jz1aavt4a",
@@ -99684,12 +99900,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265274",
+        "url": "https://www.ticketliquidator.com/tickets/8265274/Alan-Walker-tickets-Wed-Mar-3-2027-Showbox-SoDo",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265274"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265274",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265274/Alan-Walker-tickets-Wed-Mar-3-2027-Showbox-SoDo"
   },
   {
     "id": "tm-alan-walker-2027-portland-z7r9jz1aavt48",
@@ -99745,12 +99969,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8261374",
+        "url": "https://www.ticketliquidator.com/tickets/8261374/Alan-Walker-tickets-Thu-Mar-4-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt48",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261374"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8261374/Alan-Walker-tickets-Thu-Mar-4-2027-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-alan-walker-2027-los-angeles-vvg1iz_3n0r6vh",
@@ -100588,12 +100820,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267710",
+        "url": "https://www.ticketliquidator.com/tickets/8267710/The-Psychedelic-Furs-tickets-Sat-May-1-2027-Northfield-Park-Racino-Center-Stage",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_oGkHGkwAo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267710"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267710",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267710/The-Psychedelic-Furs-tickets-Sat-May-1-2027-Northfield-Park-Racino-Center-Stage"
   },
   {
     "id": "tm-eros-ramazzotti-2027-new-york-g5dyz_ou7is1y",
@@ -100649,12 +100889,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244289",
+        "url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_oU7Is1Y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244289"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244289",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall"
   },
   {
     "id": "tm-the-warning-2027-madrid-z698xz2qz1k_074bf",
@@ -100756,11 +101004,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668069",
+        "url": "https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vGvAvJF",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069"
   },
   {
     "id": "tm-the-warning-2027-birmingham-g5dzz_3jthdkp",
@@ -100816,12 +101072,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265893",
+        "url": "https://www.ticketliquidator.com/tickets/8265893/The-Warning-tickets-Mon-Mar-29-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668114",
+        "url": "https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3JtHdkp",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265893/The-Warning-tickets-Mon-Mar-29-2027-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114"
   },
   {
     "id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
@@ -100877,12 +101149,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267822",
+        "url": "https://www.ticketliquidator.com/tickets/8267822/The-Warning-tickets-Tue-Mar-30-2027-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668115",
+        "url": "https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3CmwwJ3",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267822/The-Warning-tickets-Tue-Mar-30-2027-O2-Academy-Glasgow",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115"
   },
   {
     "id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
@@ -100984,11 +101272,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668110",
+        "url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkBnrNkt",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110"
   },
   {
     "id": "tm-the-warning-2027-phoenix-1av0z_3gkl3jytk",
@@ -101044,12 +101340,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668181",
+        "url": "https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3Gkl3JyTK",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264649"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264649",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181"
   },
   {
     "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
@@ -101227,12 +101531,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668671",
+        "url": "https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3RqnCw_",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264648"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264648",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671"
   },
   {
     "id": "tm-the-warning-2027-vancouver-z7r9jz1aavjo7",
@@ -101342,11 +101654,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668159",
+        "url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159"
   },
   {
     "id": "tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp",
@@ -101455,12 +101775,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668162",
+        "url": "https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_30oEIsm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264650"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264650",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162"
   },
   {
     "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
@@ -101577,12 +101905,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264651",
+        "url": "https://www.ticketliquidator.com/tickets/8264651/The-Warning-tickets-Thu-May-6-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668673",
+        "url": "https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GklKjI_k",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264651/The-Warning-tickets-Thu-May-6-2027-The-Fillmore-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673"
   },
   {
     "id": "tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8",
@@ -101866,12 +102210,28 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264661",
+        "url": "https://www.ticketliquidator.com/tickets/8264661/The-Warning-tickets-Tue-May-18-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668061",
+        "url": "https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3iu7xhd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264661/The-Warning-tickets-Tue-May-18-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061"
   },
   {
     "id": "tm-the-warning-2027-boston-vv177z_3gklqgssu",
@@ -101927,11 +102287,19 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668674",
+        "url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklQGssU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674"
   }
 ]

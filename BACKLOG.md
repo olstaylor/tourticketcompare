@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-09-22 (2026-09-22 roster-growth batch recorded by agent under item 3 — ten shells created and then promoted the same session after the owner browser-confirmed all 20 destinations; names recorded here because the manifest is gitignored, plus the three candidates deliberately not taken, the Oasis 0-upcoming-Ticketmaster caveat, a process note on the title-length audit only running on indexable pages, and the shell-count fact returning to 7; no priority reordered or re-scoped. Previously 2026-09-21: Milestone 1 verification results recorded by agent — both step-3 proofs observed, #1067 refused and #1068 published under the active ruleset, leaving only the owner-supplied snapshot; earlier that day, Milestone 1 status corrected by agent — the automation App has been live since 2026-09-18 and the ruleset was activated 2026-09-21, so only verification remains; earlier the same day, fact-correction pass by agent — `needs_recheck` totals and resale split recounted from source, 2026-09-09 roster batch recorded as promoted, shell list reconciled with `artists.json`, Milestone 1 recorded as merged-but-owner-blocked, closed `events-index.json` item trimmed to the audit trail; no priority reordered or re-scoped). Previously 2026-09-16 (engineering roadmap reorganised with owner authorisation; `events-index.json` consistency check shipped — fact recorded by agent; `needs_recheck` total recounted from source 2026-09-13 by agent; maintenance-loop Stage 3 shipped 2026-09-12 — fact recorded by agent; stages 1 and 2 shipped 2026-09-11; completed items moved out of the active list). Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
+Last updated: 2026-09-23 (engineering track replaced by the owner-approved auto-ingest plan, with the owner's five amendments and a build order of PR 3 → 1 → 2 → 4 → 5 → 6; the former scale roadmap's Milestones 2–5 parked beneath it verbatim and Milestone 1's open verification carried as one line; `SAFE_PUBLISHING_RULES.md` deliberately unchanged until PR 6. Previously 2026-09-22: roster-growth batch recorded by agent under item 3 — ten shells created and then promoted the same session after the owner browser-confirmed all 20 destinations; names recorded here because the manifest is gitignored, plus the three candidates deliberately not taken, the Oasis 0-upcoming-Ticketmaster caveat, a process note on the title-length audit only running on indexable pages, and the shell-count fact returning to 7; no priority reordered or re-scoped. Previously 2026-09-21: Milestone 1 verification results recorded by agent — both step-3 proofs observed, #1067 refused and #1068 published under the active ruleset, leaving only the owner-supplied snapshot; earlier that day, Milestone 1 status corrected by agent — the automation App has been live since 2026-09-18 and the ruleset was activated 2026-09-21, so only verification remains; earlier the same day, fact-correction pass by agent — `needs_recheck` totals and resale split recounted from source, 2026-09-09 roster batch recorded as promoted, shell list reconciled with `artists.json`, Milestone 1 recorded as merged-but-owner-blocked, closed `events-index.json` item trimmed to the audit trail; no priority reordered or re-scoped). Previously 2026-09-16 (engineering roadmap reorganised with owner authorisation; `events-index.json` consistency check shipped — fact recorded by agent; `needs_recheck` total recounted from source 2026-09-13 by agent; maintenance-loop Stage 3 shipped 2026-09-12 — fact recorded by agent; stages 1 and 2 shipped 2026-09-11; completed items moved out of the active list). Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Historical detail for closed items lives in the linked PRs and git history, not here.
 
 ## Active priorities (in order)
 
@@ -71,53 +71,87 @@ The other six of that batch — **karol-g, foo-fighters, metallica, my-chemical-
 - **Tombstone dedup deletions:** when deleting a row from `events.json` that Ticketmaster still lists, add its ids and/or venue/date to `data/deleted-events.json` in the same change (see `docs/PROVIDER_SYNC.md` and `docs/OPERATIONS.md` → Known incidents).
 - Review the rolling automation dashboards (`automation:daily-audit`, `automation:data-sync`, `automation:tm-discovery`, `automation:health`, `automation:prelaunch-validation`) and any withheld rows from the new-show PRs. Discrete `work-queue` issues are a separate, bounded queue — see the engineering track below.
 
-## Engineering track — scale roadmap (owner-approved 2026-09-16)
+## Engineering track — auto-ingest plan (owner-approved 2026-09-23)
+
+Goal: (a) the site is easy to use and trusted; (b) new major artists are ingested automatically when a tour is announced, with SEO pages; (c) the site runs and repairs itself with minimal owner intervention. The owner reviews auto-published output **after** it publishes, through the daily digest, not before.
+
+**Non-negotiable, never loosened by this plan:** never invent data; never scrape; no client-side credentials; the `/api/out` contract and Impact wrapping; no price or availability claim without a source.
+
+**Binding status until PR 6 merges.** `SAFE_PUBLISHING_RULES.md` is unchanged by this entry. Its "new artists are never auto-published" rule, item 3's "Never auto-publish", and the Stage 4 deferral under "Maintenance loop" below stay binding until the rules diff ships in PR 6.
+
+### Target rules (land in `SAFE_PUBLISHING_RULES.md` with PR 6)
+
+**D. Auto-promote (new artists).** One auto-merged PR per run creates the shell and promotes it, at most 5 artists a day and 20 a week, only when every criterion holds. Any failure makes the candidate a `human-required` proposal; it is never retried on looser criteria.
+
+1. Exact normalised-name match **and** an exact ID on both Ticketmaster (attraction) and SeatGeek (performer), re-captured byte-identical in the same job.
+2. The name and both API names pass the shared collision pattern (forecast ∪ propose, plus `in concert|tribute|floyd`), and neither the slug nor either ID is in `data/artist-denylist.json`.
+3. Primary-attraction share ≥ 0.80 over ≥ 8 upcoming Ticketmaster events. Evidence: support acts screened at 0–14% and co-headliners at 45–70% (2026-09-09); every 2026-09-22 pick was 100%.
+4. **(Owner amendment 1.)** ≥ 3 upcoming Ticketmaster events in ≥ 2 cities, counting events that are on sale **or** `offsale` with a future public on-sale time; SeatGeek ≥ 1 upcoming; both destinations return 2xx on the `out.js`-allowlisted host. On-sale status gates CTAs, not promotion. Evidence: Oasis (0 TM upcoming), system-of-a-down and laura-pausini (1 and 0 SeatGeek upcoming).
+5. The rendered shell passes title ≤ 60, description, uniqueness and placeholder checks at Shell stage. Evidence: Trans-Siberian Orchestra (65) and The Psychedelic Furs (61) overflowed only at Promote.
+
+**(Owner amendment 5.)** A newly promoted artist is ingested in the same job — the Ticketmaster recogniser and SeatGeek enrichment run for that slug before the job ends — so announcement to dated, indexable page is under 24h rather than waiting for the next 04:00 run.
+
+**(Owner amendment 4.)** The auto-merge gate for D permits exactly one kind of change in `functions/api/out.js`: **additions** to `VERIFIED_TICKET_LINKS`. Any other line changed in `out.js` withholds the merge.
+
+**Brand safety.** A hard-block denylist (`data/artist-denylist.json`, seeded with As I Lay Dying, Wheeler Walker Jr., Brit Floyd, Twilight In Concert) plus the daily digest. No approved source encodes a criminal conviction or profane album titles, and scraping for them is off-limits, so an As I Lay Dying / Wheeler Walker Jr.-type case will pass every automated check; the owner catches it in the digest within 24h and demotes.
+
+**E. Maintenance auto-merge (replaces the Stage 4 gate).** Stage 3 may merge `generated_artifact_stale` repairs only, whose diff equals the `GENERATED_ARTEFACTS` regeneration output byte for byte, after `test:mvp`, the artefact's own check and the diff allowlist pass — and only once 10 Stage 3 PRs have been human-merged with no edit and no revert. `provider_url_dead`, `workflow_unhealthy` and every `risk:red` finding stay human.
+
+**Safety net (lands before D or E can run).**
+
+- **Kill switch.** Repo variables `AUTOPUBLISH_ENABLED` (all automated merges) and `AUTOPROMOTE_ENABLED` / `STAGE4_ENABLED`, default off, read at job start **and** immediately before merge.
+- **Rollback sensor.** `autopublish-health.yml` opens an auto-demote PR for a D artist that fails liveness, the denylist or the duplicate-title check. **(Owner amendment 3.)** Zero upcoming dates means `noindex,follow` and out of the sitemap only — never a demotion.
+- **Digest.** A daily `automation:autopublish-digest` issue lists every auto-merge in the last 24h, each with a one-line demote command, and flags a lane expected to publish that wrote nothing.
+- **Indexability.** A D artist is `index,follow` only while it has ≥ 3 upcoming dates; owner-promoted artists keep the durable-URL rule. Together with the daily cap this bounds scaled thin content.
+
+Past failures each net catches: 08-26 zero-event indexable pages → D-tier noindex; Oasis → criterion 4; 09-09 support acts → criterion 3; 09-22 title overflow → criterion 5; Birmingham duplicate `<title>` → sensor duplicate-title check; 09-11 red `main` → kill switch plus the existing correlated-failure report; 09-18 green-but-published-nothing sync → digest's zero-write flag.
+
+### Build order — six PRs, each ≤ 400 lines, each shippable alone
+
+1. **PR 3 — Artist-page honesty and zero-event handling** (first). Empty `[]` partitions for zero-event indexable artists, artist-level CTA on the empty board, empty-state claims rewritten (owner copy), D-tier noindex gate. **Protected: `functions/[[path]].js`.**
+2. **PR 1 — Kill switch, ledger and digest.** Guard wired into the five group-A lanes. No protected files.
+3. **PR 2 — Rollback sensor and auto-demote.** Demote flips `artists.json` / `catalog.json`. **(Owner amendment 2.)** Must prove, or implement, that `/api/out` refuses a demoted artist's artist-level redirect; **PR 6 is blocked until this is done.** Protected data; `out.js` only if suppression has to be implemented there.
+4. **PR 4 — Screen, propose-only.** Denylist, shared collision pattern, primary-share and event thresholds, Shell-stage SEO audit, scheduled forecast. No protected files.
+5. **PR 5 — Offsale-window ingestion.** Recogniser ingests `offsale` rows with a future public on-sale as no-CTA cards; field-sync may advance status to on-sale from the same event ID. **Protected: `functions/[[path]].js`.** `test:mvp` required in-job.
+6. **PR 6 — Switch-on.** Auto-promote workflow with same-job ingestion, Stage 4 merge behind its flag, the `SAFE_PUBLISHING_RULES.md` diff. **Protected: `out.js`**, written only through the existing promote writer and the additions-only gate. Flags default off; the owner switches them on.
+
+**Milestone 1 (carried over, still open):** the App identity and ruleset are live and both proofs are observed (#1067 refused, #1068 published); only the owner-supplied ruleset snapshot in `docs/OPERATIONS.md` remains. Evidence under `docs/OPERATIONS.md` → Automation App identity rollout. A required check can go *missing* rather than red on human- and agent-authored PRs (#1066); automation lanes are insulated by `earnRequiredCheck`'s explicit dispatch — detail in `docs/OPERATIONS.md` → Known incidents.
+
+### Parked — former scale roadmap (owner-approved 2026-09-16; parked 2026-09-23)
+
+Not scheduled. Kept verbatim so the reasoning survives; revisit when the auto-ingest plan above is delivered or measured scale forces it.
 
 Goal: grow useful, commercially viable event inventory without owner workload growing proportionally. Optimise **useful inventory × qualified traffic × outbound conversion × affiliate value, with minimal owner intervention**.
 
 Operating model: legitimate event discovered → safely ingested → provider coverage established → purpose-built runtime/read artefacts generated → worthwhile pages published/indexed → inventory maintained → commercial outcomes measured → owner intervention only for ambiguous, unsafe or commercially consequential cases.
 
-### Architectural assumptions
+#### Architectural assumptions
 
 Git remains the canonical, reviewable source of event data for the foreseeable scaling horizon. The intended pattern is **Git-reviewed canonical data → deterministic generation → validation → purpose-built deployable runtime read artefacts**. D1/KV are not the chosen canonical replacement. Revisit these assumptions only when measured evidence materially changes the case.
 
 The runtime must stop depending on one monolithic `public/data/events.json`. Cloudflare Pages' 25 MiB individual static-asset limit is a hard constraint. The earlier review measured approximately 3.73 MB for 1,391 records (an approximate crossing near 9.7k events at that density, not a capacity guarantee). CPU/memory attribution remains unproven until Milestone 2 measures it. Ordinary lifecycle/provider messiness should increasingly be retried, reconciled, safely degraded, suppressed or deterministically repaired.
 
-### Milestone 1 — CI identity and human merge protection (next engineering task)
-
-Resolve the automation identity / `action_required` problem and restore protection against humans merging a red head without breaking automated publishing. Investigate a GitHub App installation token or the safest equivalent supported by the existing architecture. Do not simply re-enable the previously broken ruleset. Keep in-job validation and checks on the exact proposed head; prove an automated publish under protection and a failing human PR being blocked before declaring this complete.
-
-**Status corrected 2026-09-21 by agent:** both proofs are now observed and recorded in `docs/OPERATIONS.md` — automation publish under protection (#1068) and a red human PR refused (#1067). The completion bar is unchanged and still not met: the active ruleset snapshot is owner-supplied and outstanding, since repository administration sits outside every credential the automation holds.
-
-**Status (fact corrected 2026-09-21, superseding the earlier entry the same day): the App has been live since 2026-09-18 and the ruleset was activated 2026-09-21. What remains is verification, not configuration.** PR #1009 (merged 2026-09-17) wired an App installation token through all ten PR-producing jobs across nine workflows. The App (`tourticketcompare-automation`, id `330502851`) was registered, installed and enabled on **2026-09-18**: scheduled run 35589459607 logs `Publishing identity: app`, and `configureIdentity()` has no silent fallback, so that line establishes the variable and both credentials are valid.
-
-  **The `action_required` problem this milestone exists to solve is fixed in production.** Natural `pull_request` Prelaunch runs on `automation/*` heads now execute with jobs and go green under the App identity; none of the 20 most recent (2026-09-19 to 2026-09-21) is `action_required`. Four fully evidenced lanes are tabulated in `docs/OPERATIONS.md` → Automation App identity rollout, step 2.
-
-  **Ruleset `20115269` was activated by the owner on 2026-09-21** (reported in session; not independently verified). Three things are still owed before this closes, and none is configuration: a sanctioned automation PR observed publishing with the ruleset active; a deliberately failing human PR observed being blocked; and the ruleset snapshot recorded in `docs/OPERATIONS.md`. The completion bar above is unchanged: do not mark this complete on configuration alone.
-
-  **Two corrections for the record.** The first 2026-09-21 entry here said the App still needed registering — wrong, it had been live three days; it was taken from `docs/OPERATIONS.md`, which had not recorded the activation. And a required check can go *missing* rather than red: PR #1066's head received no `pull_request` Prelaunch run despite the workflow having no path filters, which under an active ruleset makes a PR unmergeable with nothing red to explain it. Automation lanes are insulated by `earnRequiredCheck`'s explicit dispatch; human- and agent-authored PRs are not. Detail in `docs/OPERATIONS.md` → Known incidents.
-
-### Milestone 2 — Scalable runtime event data plane
+#### Milestone 2 — Scalable runtime event data plane
 
 Preserve Git canonical truth while replacing full-dataset runtime consumption with bounded, access-pattern-specific generated read models. Cover `/api/out`, `/api/shows`, city, venue and artist-city routes, `/api/health`, and other hot request paths discovered during implementation.
 
 Do not replace `events.json` with another monolithic full-event lookup: `events-index.json` is useful at current scale but repeats the same whole-dataset scaling pattern. Include a CPU/runtime tier check, baseline measurements, before/after benchmarks, deployed artefact size budgets enforced by validation, and eventual removal of `public/data/events.json` from the deployed runtime surface after all consumers migrate.
 
-### Milestone 3 — Static/generated discovery artefacts
+#### Milestone 3 — Static/generated discovery artefacts
 
 Generate a static sitemap index and sitemap files, generated `llms.txt`, and bounded browser search data. Retire the per-event/full-dataset browser search fallback. Keep this separate from Milestone 2 so discovery work cannot delay runtime/deployment constraints.
 
-### Milestone 4 — Commercial measurement and provider value
+#### Milestone 4 — Commercial measurement and provider value
 
 Reconcile clicks/SubIds and measure landing/page → outbound → affiliate conversion/commission where supported. Analyse Search Console query × page data; attribute provider/artist/page value only where defensible. Do not invent attribution or treat raw server requests as visitor conversion rates. Preserve the operational owner inputs above and the contract in `docs/COMMERCIAL_FUNNEL.md`.
 
 Investigate Ticket Liquidator pricing/feed readiness using the dry-run-first order in `docs/PROVIDER_DATA_POLICY.md`; this may run alongside other milestones when it touches disjoint surfaces. Rights alone do not establish numeric feed availability.
 
-### Milestone 5 — Scale ingestion and exception handling
+#### Milestone 5 — Scale ingestion and exception handling
 
 Reduce owner work that grows with inventory: lifecycle classification, safe cancellation/postponement handling, deterministic provider/event reconciliation, ordinary expiry/off-sale handling, ambiguous-match escalation, fewer false-positive owner issues, and sensors aimed at real scale constraints. Preserve human review for ambiguity and commercial safety.
 
-### Scale checkpoints
+#### Scale checkpoints
 
 - **~5k events:** measure runtime and generation costs; keep deployed artefacts bounded and test the access patterns above.
 - **~10k events:** the current monolithic asset approaches its projected limit; complete the runtime/discovery migrations before reaching it.

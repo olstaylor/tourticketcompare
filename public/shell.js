@@ -21,7 +21,14 @@
       navToggle.textContent = open ? "Close" : closedLabel;
     }
     navToggle.addEventListener("click", function () { setOpen(navToggle.getAttribute("aria-expanded") !== "true"); });
-    document.addEventListener("keydown", function (event) { if (event.key === "Escape") setOpen(false); });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && navToggle.getAttribute("aria-expanded") === "true") {
+        setOpen(false); navToggle.focus();
+      }
+    });
+    navLinks.querySelectorAll("a").forEach(function (link) {
+      if (link.getAttribute("href") === window.location.pathname) link.setAttribute("aria-current", "page");
+    });
   }
 
   // The skip link must move keyboard focus as well as the viewport. A main

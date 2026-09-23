@@ -14,3 +14,22 @@
 .ttc-ft{border-top:1px solid var(--ttc-border);background:var(--ttc-surface);padding:30px 0}.ttc-ft__nav{display:flex;flex-wrap:wrap;gap:10px 18px}.ttc-ft__nav a{color:var(--ttc-muted);font-size:14px}.ttc-ft__fine{margin-top:18px;color:var(--ttc-muted);font-size:13px;line-height:1.5}
 @media(max-width:920px){.ttc-hd__search{display:none}.ttc-nav{display:none}.ttc-hamb{display:inline-flex;margin-left:auto}.ttc-nav[data-open]{display:flex;flex-direction:column;align-items:stretch;gap:2px;position:absolute;top:100%;left:0;right:0;margin:0;padding:8px 16px 14px;background:var(--ttc-surface);border-bottom:1px solid var(--ttc-border);box-shadow:var(--ttc-shadow);z-index:40}.ttc-nav[data-open] a{display:flex;align-items:center;min-height:44px;padding:11px 12px;font-size:15px}.ttc-nav[data-open] .ttc-nav__extra{display:block}}
 @media(max-width:620px){.ttc-wrap{width:min(100% - 28px,1180px)}.ttc-brand__name{font-size:15px}}
+/* Shared identity: restrained ticket mark, legible navigation and a complete footer. */
+.ttc-hd{background:#fffefa;border-bottom-color:#dedfd5}
+.ttc-hd__in{height:72px;gap:28px}
+.ttc-brand__mark{width:34px;height:36px;border-radius:3px;background:#263d31;font-size:10px;letter-spacing:.05em;position:relative}
+.ttc-brand__mark::before,.ttc-brand__mark::after{content:"";position:absolute;top:16px;width:5px;height:5px;background:#fffefa;border-radius:50%}
+.ttc-brand__mark::before{left:-2px}.ttc-brand__mark::after{right:-2px}
+.ttc-brand__name{font-size:17px}.ttc-nav{margin-left:auto;gap:4px}.ttc-nav a{font-size:13px;padding:12px 10px;border-radius:3px}
+.ttc-nav a[aria-current="page"]{color:#963f28;text-decoration:underline;text-underline-offset:6px}
+.ttc-hd__right{display:none}.ttc-hamb{border-radius:3px;background:transparent}
+.ttc-hd :is(a,button):focus-visible,.ttc-ft a:focus-visible{outline:3px solid #bf4a2c;outline-offset:4px}
+.ttc-ft{padding:38px 0;background:#23392e;color:#e9eddf;border:0}
+.ttc-ft__heading{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-bottom:26px;margin-bottom:24px;border-bottom:1px solid #53644f}
+.ttc-ft__heading>.ttc-brand{color:#f2f2df}.ttc-ft .ttc-brand__name b{color:#ecad8d}.ttc-ft .ttc-brand__mark{background:#e7ebd3;color:#243c2e}.ttc-ft .ttc-brand__mark::before,.ttc-ft .ttc-brand__mark::after{background:#23392e}
+.ttc-ft__heading>span{font-size:14px;color:#c6ceb8}
+.ttc-ft__nav{gap:4px 22px;margin-bottom:20px}.ttc-ft__nav a{font-size:13px;color:#e9eddf;display:inline-flex;align-items:center;min-height:44px}
+.ttc-ft__nav a:hover{text-decoration:underline;text-underline-offset:4px}
+.ttc-ft p{font-size:12px;line-height:1.65;max-width:800px;color:#c6ceb8;margin:8px 0}.ttc-ft .footer-meta{font-size:11px;margin-top:24px;color:#b5c0a9}
+@media(max-width:1000px){.ttc-hd__in{gap:12px}.ttc-brand__name{font-size:15px}.ttc-nav a{padding-inline:7px}}
+@media(max-width:620px){.ttc-hd__in{height:64px}.ttc-wrap{width:calc(100% - 36px)}.ttc-ft__heading{display:block}.ttc-ft__heading>span{display:block;margin-top:18px;font-size:13px}.ttc-ft__nav{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}.ttc-ft{padding:30px 0}}

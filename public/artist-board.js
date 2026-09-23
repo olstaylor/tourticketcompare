@@ -41,6 +41,7 @@
     return Promise.reject(new Error("clipboard unavailable"));
   }
 
+  var clearFilters = null;
   if (entries.length > 1) {
     var params = new URLSearchParams(window.location.search);
     var state = {
@@ -99,6 +100,15 @@
       });
       history.replaceState(history.state, "", url.pathname + url.search + url.hash);
     }
+    var empty = document.createElement("div");
+    empty.className = "board-no-results";
+    empty.hidden = true;
+    var emptyTitle = document.createElement("h3"); emptyTitle.textContent = "No dates match these filters";
+    var emptyHelp = document.createElement("p"); emptyHelp.textContent = "Try another city or clear your filters to see the full schedule.";
+    var emptyReset = reset.cloneNode(true); emptyReset.className = "button button-secondary";
+    emptyReset.addEventListener("click", resetAll);
+    empty.append(emptyTitle, emptyHelp, emptyReset);
+    grid.after(empty);
     function apply() {
       var terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
       var visible = entries.filter(function (entry) {
@@ -113,6 +123,7 @@
       });
       entries.forEach(function (entry) { entry.card.hidden = visible.indexOf(entry) === -1; });
       visible.forEach(function (entry) { grid.appendChild(entry.card); });
+      empty.hidden = visible.length > 0;
       count.textContent = "Showing " + visible.length + " of " + entries.length + " listed dates";
       updateUrl();
     }
@@ -123,6 +134,7 @@
       sort.selectedIndex = 0;
       apply();
     }
+    clearFilters = resetAll;
     query.addEventListener("input", function () { state.query = query.value.trim(); apply(); });
     country.addEventListener("change", function () {
       state.country = country.value;
@@ -143,9 +155,37 @@
       });
     });
     bar.append(query, country, city, sort, reset, share);
-    grid.before(bar, count);
+    // Month jumps are date selection, not filters: clear a conflicting filter
+    // before native fragment navigation tries to scroll to a hidden card.
+    section.querySelectorAll(".show-board-jump a").forEach(function (link) {
+      link.addEventListener("click", function () { resetAll(); });
+    });
+    if (document.body.classList.contains("ux-polish")) {
+      var filterPanel = document.createElement("details");
+      filterPanel.className = "show-filter-panel";
+      var desktopFilters = window.matchMedia("(min-width: 701px)");
+      filterPanel.open = desktopFilters.matches;
+      desktopFilters.addEventListener("change", function (event) { filterPanel.open = event.matches; });
+      var filterSummary = document.createElement("summary");
+      filterSummary.textContent = "Filter dates by city, country or venue";
+      filterPanel.append(filterSummary, bar);
+      grid.before(filterPanel, count);
+    } else grid.before(bar, count);
     apply();
   }
+
+  function revealLinkedShow() {
+    var id;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch (error) { return; }
+    var card = document.getElementById(id);
+    if (!card || !card.matches(".show-card")) return;
+    if (card.hidden && clearFilters) clearFilters();
+    var comparison = card.querySelector(".event-comparison");
+    if (comparison) comparison.open = true;
+    card.scrollIntoView({ block: "start" });
+  }
+  window.addEventListener("hashchange", revealLinkedShow);
+  if (window.location.hash) window.requestAnimationFrame(revealLinkedShow);
 
   document.addEventListener("click", function (event) {
     var action = event.target && event.target.closest ? event.target.closest("[data-copy-show-link]") : null;

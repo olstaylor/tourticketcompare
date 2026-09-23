@@ -119,16 +119,34 @@
     return eventIndexPromise;
   }
 
+  var artistIndexPromise;
   function buildIndex() {
-    return loadEventIndex().then(function (events) { return buildLinkIndex().concat(events); });
+    // The homepage is curated; search still includes every artist, including
+    // those without dates. Load this small index only on the first search.
+    if (!artistIndexPromise) artistIndexPromise = fetch("/data/artists.json")
+      .then(function (response) { if (!response.ok) throw new Error("Artist index unavailable"); return response.json(); })
+      .then(function (artists) { return artists.map(function (artist) {
+        return { href: "/artists/" + encodeURIComponent(artist.slug), label: artist.name + " — Artist & tour dates", search: fold(artist.name) };
+      }); }).catch(function () { return []; });
+    return Promise.all([loadEventIndex(), artistIndexPromise]).then(function (indexes) {
+      var seen = new Set();
+      return indexes[1].concat(buildLinkIndex(), indexes[0]).filter(function (entry) {
+        if (seen.has(entry.href)) return false;
+        seen.add(entry.href); return true;
+      });
+    });
   }
 
+  var searchRequest = 0;
   async function renderResults(query) {
+    var request = ++searchRequest;
     var container = document.querySelector("#search-widget .search-results");
     if (!container) return;
     var title = document.getElementById("searchSectionTitle");
     var intro = document.getElementById("searchWidgetIntro");
     var term = fold(query.trim());
+    var section = document.getElementById("search-widget");
+    if (section) section.hidden = !term;
     container.replaceChildren();
     if (!term) {
       if (title) title.textContent = "Start with a search";
@@ -142,12 +160,16 @@
     loading.textContent = "Searching checked artists, shows, and guides…";
     container.appendChild(loading);
     var matches = (await buildIndex()).filter(function (entry) { return entry.search.includes(term); }).slice(0, 12);
+    if (request !== searchRequest) return;
     container.replaceChildren();
     if (!matches.length) {
       var empty = document.createElement("p");
       empty.className = "muted";
       empty.textContent = "No checked artist, show, or guide matches that search. Browse all artists instead.";
       container.appendChild(empty);
+      var browse = document.createElement("a");
+      browse.href = "/artists"; browse.className = "button button-secondary";
+      browse.textContent = "Browse all artists"; container.appendChild(browse);
       return;
     }
     var list = document.createElement("div");

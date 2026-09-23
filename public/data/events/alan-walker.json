@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265244",
+        "url": "https://www.ticketnetwork.com/en/p/8265244",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtfx",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265244"
   },
   {
     "id": "tm-alan-walker-2027-irving-vvg1yz_3nb2d-j",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265222",
+        "url": "https://www.ticketnetwork.com/en/p/8265222",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3Nb2D-J",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265222"
   },
   {
     "id": "tm-alan-walker-2027-houston-g5diz_3no4w3_",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265214",
+        "url": "https://www.ticketnetwork.com/en/p/8265214",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3No4W3_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265214"
   },
   {
     "id": "tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265275",
+        "url": "https://www.ticketnetwork.com/en/p/8265275",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_31NNQNu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265275"
   },
   {
     "id": "tm-alan-walker-2027-charleston-g5evz_3nuc_ky",
@@ -417,11 +449,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265284",
+        "url": "https://www.ticketnetwork.com/en/p/8265284",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkftGkdaT1lK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265284"
   },
   {
     "id": "tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx",
@@ -470,11 +510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265283",
+        "url": "https://www.ticketnetwork.com/en/p/8265283",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfxGkdmHFsX",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265283"
   },
   {
     "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",
@@ -523,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265260",
+        "url": "https://www.ticketnetwork.com/en/p/8265260",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPFzGAuaajV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265260"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4a",
@@ -576,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265262",
+        "url": "https://www.ticketnetwork.com/en/p/8265262",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4A",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265262"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4k",
@@ -629,11 +693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265263",
+        "url": "https://www.ticketnetwork.com/en/p/8265263",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4k",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265263"
   },
   {
     "id": "tm-alan-walker-2027-montreal-1aszkfngkelr9-v",
@@ -682,11 +754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8269075",
+        "url": "https://www.ticketnetwork.com/en/p/8269075",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfNGkelR9-V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269075"
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilb6g_",
@@ -894,11 +974,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265270",
+        "url": "https://www.ticketnetwork.com/en/p/8265270",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt46",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265270"
   },
   {
     "id": "tm-alan-walker-2027-columbus-z7r9jz1aavt4f",
@@ -947,11 +1035,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265272",
+        "url": "https://www.ticketnetwork.com/en/p/8265272",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4F",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265272"
   },
   {
     "id": "tm-alan-walker-2027-indianapolis-vv1aazkfegkewtmln",
@@ -1000,11 +1096,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265273",
+        "url": "https://www.ticketnetwork.com/en/p/8265273",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfEGkeWTMlN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265273"
   },
   {
     "id": "tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx",
@@ -1053,11 +1157,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265271",
+        "url": "https://www.ticketnetwork.com/en/p/8265271",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_3GYG7zOHX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265271"
   },
   {
     "id": "tm-alan-walker-2027-seattle-z7r9jz1aavt4a",
@@ -1106,11 +1218,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265274",
+        "url": "https://www.ticketnetwork.com/en/p/8265274",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4a",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265274"
   },
   {
     "id": "tm-alan-walker-2027-portland-z7r9jz1aavt48",
@@ -1159,11 +1279,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8261374",
+        "url": "https://www.ticketnetwork.com/en/p/8261374",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt48",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261374"
   },
   {
     "id": "tm-alan-walker-2027-los-angeles-vvg1iz_3n0r6vh",

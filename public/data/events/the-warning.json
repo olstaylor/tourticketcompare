@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265893",
+        "url": "https://www.ticketnetwork.com/en/p/8265893",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3JtHdkp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893"
   },
   {
     "id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267822",
+        "url": "https://www.ticketnetwork.com/en/p/8267822",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3CmwwJ3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822"
   },
   {
     "id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
@@ -364,11 +380,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264649",
+        "url": "https://www.ticketnetwork.com/en/p/8264649",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3Gkl3JyTK",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264649"
   },
   {
     "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
@@ -417,11 +441,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264655",
+        "url": "https://www.ticketnetwork.com/en/p/8264655",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGN",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264655"
   },
   {
     "id": "tm-the-warning-2027-portland-z7r9jz1aavtg0",
@@ -470,11 +502,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264657",
+        "url": "https://www.ticketnetwork.com/en/p/8264657",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtG0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264657"
   },
   {
     "id": "tm-the-warning-2027-seattle-vvg1hz_3rqncw_",
@@ -523,11 +563,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264648",
+        "url": "https://www.ticketnetwork.com/en/p/8264648",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3RqnCw_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264648"
   },
   {
     "id": "tm-the-warning-2027-vancouver-z7r9jz1aavjo7",
@@ -576,11 +624,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264658",
+        "url": "https://www.ticketnetwork.com/en/p/8264658",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvJO7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264658"
   },
   {
     "id": "tm-the-warning-2027-denver-g5vzz_3mnvfjd",
@@ -735,11 +791,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264650",
+        "url": "https://www.ticketnetwork.com/en/p/8264650",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_30oEIsm",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264650"
   },
   {
     "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
@@ -788,11 +852,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264656",
+        "url": "https://www.ticketnetwork.com/en/p/8264656",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264656"
   },
   {
     "id": "tm-the-warning-2027-detroit-vv17oz_3gklkji_k",
@@ -841,11 +913,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264651",
+        "url": "https://www.ticketnetwork.com/en/p/8264651",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GklKjI_k",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651"
   },
   {
     "id": "tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8",
@@ -947,11 +1027,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270802",
+        "url": "https://www.ticketnetwork.com/en/p/8270802",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GknfHKqK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270802"
   },
   {
     "id": "tm-the-warning-2027-toronto-1avzz_3gkltrh3z",
@@ -1053,11 +1141,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264652",
+        "url": "https://www.ticketnetwork.com/en/p/8264652",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GknH0_t1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264652"
   },
   {
     "id": "tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd",
@@ -1106,11 +1202,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264661",
+        "url": "https://www.ticketnetwork.com/en/p/8264661",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3iu7xhd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661"
   },
   {
     "id": "tm-the-warning-2027-boston-vv177z_3gklqgssu",
@@ -1159,10 +1263,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264653",
+        "url": "https://www.ticketnetwork.com/en/p/8264653",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklQGssU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653"
   }
 ]

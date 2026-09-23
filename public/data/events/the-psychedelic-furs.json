@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8234745",
+        "url": "https://www.ticketnetwork.com/en/p/8234745",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_CBbUNjv",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8234745"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-austin-z7r9jz1aavso0",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266290",
+        "url": "https://www.ticketnetwork.com/en/p/8266290",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv166Zkf-0oZAGdv5d",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266290"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-tallahassee-z7r9jz1aavsop",
@@ -470,11 +486,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268317",
+        "url": "https://www.ticketnetwork.com/en/p/8268317",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvs4p",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268317"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-baltimore-1avfz_ogktjo5z-",
@@ -523,11 +547,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266296",
+        "url": "https://www.ticketnetwork.com/en/p/8266296",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_oGkTjO5Z-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266296"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-bethlehem-vv17fz_3gkmknapk",
@@ -629,11 +661,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266297",
+        "url": "https://www.ticketnetwork.com/en/p/8266297",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_3ILcQvM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266297"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme",
@@ -735,10 +775,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267710",
+        "url": "https://www.ticketnetwork.com/en/p/8267710",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_oGkHGkwAo",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267710"
   }
 ]

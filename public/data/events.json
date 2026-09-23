@@ -31669,11 +31669,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7830189",
-        "url": "https://www.ticketnetwork.com/en/p/7830189",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107154077",
@@ -31693,7 +31693,7 @@
     "ticketmaster_discovery_event_id": "1ANZkoyGkdRzveg",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830189",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830189/Niall-Horan-tickets-Tue-Sep-22-2026-Utilita-Arena-Birmingham"
   },
@@ -95401,11 +95401,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8012974",
+        "url": "https://www.ticketnetwork.com/en/p/8012974",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pd1a",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012974"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-green-bay-z7r9jz1aavxjs",
@@ -95507,11 +95515,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255034",
+        "url": "https://www.ticketnetwork.com/en/p/8255034",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_8GkR7R5-J",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255034"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt",
@@ -95772,11 +95788,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255046",
+        "url": "https://www.ticketnetwork.com/en/p/8255046",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_8GkU2VDcC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255046"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl",
@@ -96196,11 +96220,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255062",
+        "url": "https://www.ticketnetwork.com/en/p/8255062",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oinLsr4",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255062"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charleston-1avbz_8gkwouueg",
@@ -96249,11 +96281,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255063",
+        "url": "https://www.ticketnetwork.com/en/p/8255063",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_8GkwOuUeg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255063"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-fresno-g5vyz_o5rjusr",
@@ -96302,11 +96342,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255064",
+        "url": "https://www.ticketnetwork.com/en/p/8255064",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_o5RJusR",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255064"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13",
@@ -96620,11 +96668,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255080",
+        "url": "https://www.ticketnetwork.com/en/p/8255080",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G62Dv8E6s",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255080"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0",
@@ -96673,11 +96729,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255081",
+        "url": "https://www.ticketnetwork.com/en/p/8255081",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_od7G9C0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0",
@@ -96726,11 +96790,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255082",
+        "url": "https://www.ticketnetwork.com/en/p/8255082",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2wEe5m0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255082"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp",
@@ -96779,11 +96851,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255084",
+        "url": "https://www.ticketnetwork.com/en/p/8255084",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_8B0hCMp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255084"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg",
@@ -97150,11 +97230,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255100",
+        "url": "https://www.ticketnetwork.com/en/p/8255100",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_oGkSqLPte",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255100"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau",
@@ -97203,11 +97291,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255101",
+        "url": "https://www.ticketnetwork.com/en/p/8255101",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_oCKCvZdCau",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255101"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon",
@@ -97256,11 +97352,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255102",
+        "url": "https://www.ticketnetwork.com/en/p/8255102",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_oGkwzigoN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255102"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg",
@@ -97309,11 +97413,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255103",
+        "url": "https://www.ticketnetwork.com/en/p/8255103",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_8UQSipG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255103"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb",
@@ -97415,11 +97527,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255106",
+        "url": "https://www.ticketnetwork.com/en/p/8255106",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255106"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq",
@@ -98104,11 +98224,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7902862",
+        "url": "https://www.ticketnetwork.com/en/p/7902862",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_aU0CejP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902862"
   },
   {
     "id": "tm-death-cab-for-cutie-2026-london-g5dzz_1kfbxk8",
@@ -98157,11 +98285,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7902863",
+        "url": "https://www.ticketnetwork.com/en/p/7902863",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1kfBxk8",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902863"
   },
   {
     "id": "tm-death-cab-for-cutie-2026-brussels-z698xzg2z1ayvwax",
@@ -98369,11 +98505,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265244",
+        "url": "https://www.ticketnetwork.com/en/p/8265244",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtfx",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265244"
   },
   {
     "id": "tm-alan-walker-2027-irving-vvg1yz_3nb2d-j",
@@ -98422,11 +98566,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265222",
+        "url": "https://www.ticketnetwork.com/en/p/8265222",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3Nb2D-J",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265222"
   },
   {
     "id": "tm-alan-walker-2027-houston-g5diz_3no4w3_",
@@ -98475,11 +98627,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265214",
+        "url": "https://www.ticketnetwork.com/en/p/8265214",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3No4W3_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265214"
   },
   {
     "id": "tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j",
@@ -98634,11 +98794,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265275",
+        "url": "https://www.ticketnetwork.com/en/p/8265275",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_31NNQNu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265275"
   },
   {
     "id": "tm-alan-walker-2027-charleston-g5evz_3nuc_ky",
@@ -98740,11 +98908,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265284",
+        "url": "https://www.ticketnetwork.com/en/p/8265284",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkftGkdaT1lK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265284"
   },
   {
     "id": "tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx",
@@ -98793,11 +98969,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265283",
+        "url": "https://www.ticketnetwork.com/en/p/8265283",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfxGkdmHFsX",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265283"
   },
   {
     "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",
@@ -98846,11 +99030,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265260",
+        "url": "https://www.ticketnetwork.com/en/p/8265260",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPFzGAuaajV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265260"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4a",
@@ -98899,11 +99091,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265262",
+        "url": "https://www.ticketnetwork.com/en/p/8265262",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4A",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265262"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4k",
@@ -98952,11 +99152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265263",
+        "url": "https://www.ticketnetwork.com/en/p/8265263",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4k",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265263"
   },
   {
     "id": "tm-alan-walker-2027-montreal-1aszkfngkelr9-v",
@@ -99005,11 +99213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8269075",
+        "url": "https://www.ticketnetwork.com/en/p/8269075",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfNGkelR9-V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269075"
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilb6g_",
@@ -99217,11 +99433,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265270",
+        "url": "https://www.ticketnetwork.com/en/p/8265270",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt46",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265270"
   },
   {
     "id": "tm-alan-walker-2027-columbus-z7r9jz1aavt4f",
@@ -99270,11 +99494,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265272",
+        "url": "https://www.ticketnetwork.com/en/p/8265272",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4F",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265272"
   },
   {
     "id": "tm-alan-walker-2027-indianapolis-vv1aazkfegkewtmln",
@@ -99323,11 +99555,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265273",
+        "url": "https://www.ticketnetwork.com/en/p/8265273",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfEGkeWTMlN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265273"
   },
   {
     "id": "tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx",
@@ -99376,11 +99616,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265271",
+        "url": "https://www.ticketnetwork.com/en/p/8265271",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_3GYG7zOHX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265271"
   },
   {
     "id": "tm-alan-walker-2027-seattle-z7r9jz1aavt4a",
@@ -99429,11 +99677,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265274",
+        "url": "https://www.ticketnetwork.com/en/p/8265274",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt4a",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265274"
   },
   {
     "id": "tm-alan-walker-2027-portland-z7r9jz1aavt48",
@@ -99482,11 +99738,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8261374",
+        "url": "https://www.ticketnetwork.com/en/p/8261374",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt48",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261374"
   },
   {
     "id": "tm-alan-walker-2027-los-angeles-vvg1iz_3n0r6vh",
@@ -99588,11 +99852,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8234745",
+        "url": "https://www.ticketnetwork.com/en/p/8234745",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_CBbUNjv",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8234745"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-austin-z7r9jz1aavso0",
@@ -99747,11 +100019,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266290",
+        "url": "https://www.ticketnetwork.com/en/p/8266290",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv166Zkf-0oZAGdv5d",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266290"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-tallahassee-z7r9jz1aavsop",
@@ -100012,11 +100292,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268317",
+        "url": "https://www.ticketnetwork.com/en/p/8268317",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvs4p",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268317"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-baltimore-1avfz_ogktjo5z-",
@@ -100065,11 +100353,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266296",
+        "url": "https://www.ticketnetwork.com/en/p/8266296",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_oGkTjO5Z-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266296"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-bethlehem-vv17fz_3gkmknapk",
@@ -100171,11 +100467,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266297",
+        "url": "https://www.ticketnetwork.com/en/p/8266297",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_3ILcQvM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266297"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme",
@@ -100277,11 +100581,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267710",
+        "url": "https://www.ticketnetwork.com/en/p/8267710",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_oGkHGkwAo",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267710"
   },
   {
     "id": "tm-eros-ramazzotti-2027-new-york-g5dyz_ou7is1y",
@@ -100330,11 +100642,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8244289",
+        "url": "https://www.ticketnetwork.com/en/p/8244289",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_oU7Is1Y",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244289"
   },
   {
     "id": "tm-the-warning-2027-madrid-z698xz2qz1k_074bf",
@@ -100489,11 +100809,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265893",
+        "url": "https://www.ticketnetwork.com/en/p/8265893",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3JtHdkp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893"
   },
   {
     "id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
@@ -100542,11 +100870,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267822",
+        "url": "https://www.ticketnetwork.com/en/p/8267822",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3CmwwJ3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822"
   },
   {
     "id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
@@ -100701,11 +101037,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264649",
+        "url": "https://www.ticketnetwork.com/en/p/8264649",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3Gkl3JyTK",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264649"
   },
   {
     "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
@@ -100754,11 +101098,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264655",
+        "url": "https://www.ticketnetwork.com/en/p/8264655",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGN",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264655"
   },
   {
     "id": "tm-the-warning-2027-portland-z7r9jz1aavtg0",
@@ -100807,11 +101159,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264657",
+        "url": "https://www.ticketnetwork.com/en/p/8264657",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtG0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264657"
   },
   {
     "id": "tm-the-warning-2027-seattle-vvg1hz_3rqncw_",
@@ -100860,11 +101220,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264648",
+        "url": "https://www.ticketnetwork.com/en/p/8264648",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3RqnCw_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264648"
   },
   {
     "id": "tm-the-warning-2027-vancouver-z7r9jz1aavjo7",
@@ -100913,11 +101281,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264658",
+        "url": "https://www.ticketnetwork.com/en/p/8264658",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvJO7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264658"
   },
   {
     "id": "tm-the-warning-2027-denver-g5vzz_3mnvfjd",
@@ -101072,11 +101448,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264650",
+        "url": "https://www.ticketnetwork.com/en/p/8264650",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_30oEIsm",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264650"
   },
   {
     "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
@@ -101125,11 +101509,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264656",
+        "url": "https://www.ticketnetwork.com/en/p/8264656",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264656"
   },
   {
     "id": "tm-the-warning-2027-detroit-vv17oz_3gklkji_k",
@@ -101178,11 +101570,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264651",
+        "url": "https://www.ticketnetwork.com/en/p/8264651",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GklKjI_k",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651"
   },
   {
     "id": "tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8",
@@ -101284,11 +101684,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270802",
+        "url": "https://www.ticketnetwork.com/en/p/8270802",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GknfHKqK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270802"
   },
   {
     "id": "tm-the-warning-2027-toronto-1avzz_3gkltrh3z",
@@ -101390,11 +101798,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264652",
+        "url": "https://www.ticketnetwork.com/en/p/8264652",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GknH0_t1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264652"
   },
   {
     "id": "tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd",
@@ -101443,11 +101859,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264661",
+        "url": "https://www.ticketnetwork.com/en/p/8264661",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3iu7xhd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661"
   },
   {
     "id": "tm-the-warning-2027-boston-vv177z_3gklqgssu",
@@ -101496,10 +101920,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264653",
+        "url": "https://www.ticketnetwork.com/en/p/8264653",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklQGssU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653"
   }
 ]

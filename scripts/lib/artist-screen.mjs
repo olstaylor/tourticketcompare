@@ -79,9 +79,15 @@ export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = 
   if (qualifying.length < THRESHOLDS.minQualifyingEvents) reasons.push(`D4: ${qualifying.length} on-sale/scheduled TM events (< ${THRESHOLDS.minQualifyingEvents})`);
   if (cities.size < THRESHOLDS.minCities) reasons.push(`D4: ${cities.size} cities (< ${THRESHOLDS.minCities})`);
   if ((Number(sg?.num_upcoming_events) || 0) < THRESHOLDS.minSeatGeekUpcoming) reasons.push("D4: no upcoming SeatGeek events");
+  // Both providers answer scripted requests with 401/403/429 (bot protection),
+  // so a block means "exists, not script-verifiable" — the same reading as the
+  // daily link audit (owner decision 2026-09-23). Only a confirmed 404/410 or
+  // no response fails; the URL itself always comes from the provider's API.
+  const blocked = [];
   for (const provider of ["seatgeek", "ticketmaster"]) {
     const status = urlStatus[provider];
-    if (!(status >= 200 && status < 300)) reasons.push(`D4: ${provider} artist page answered ${status || "no response"}`);
+    if (!status || status === 404 || status === 410) reasons.push(`D4: ${provider} artist page answered ${status || "no response"}`);
+    else if ([401, 403, 429].includes(status)) blocked.push(provider);
   }
 
   // D5 — a shell title that fits and is unique.
@@ -93,7 +99,7 @@ export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = 
     eligible: reasons.length === 0,
     reasons,
     seo_title,
-    stats: { upcoming: upcoming.length, primary_share: Math.round(share * 100) / 100, qualifying: qualifying.length, cities: cities.size },
+    stats: { upcoming: upcoming.length, primary_share: Math.round(share * 100) / 100, qualifying: qualifying.length, cities: cities.size, link_blocked: blocked },
   };
 }
 
@@ -127,7 +133,9 @@ function selfTest() {
   check(!run({ name: "Brit Floyd", sg: { ...good.sg, api_name: "Brit Floyd" }, tm: { ...good.tm, api_name: "Brit Floyd" } }).eligible, "Brit Floyd is caught by the collision pattern");
   check(COLLISION_PATTERN.test("Twilight In Concert"), "Twilight In Concert is caught by the collision pattern");
   check(!run({ denylist: { names: ["kenny chesney"] } }).eligible, "a denylisted name is rejected");
-  check(!run({ urlStatus: { seatgeek: 403, ticketmaster: 200 } }).eligible, "a blocked or dead artist page is rejected");
+  check(run({ urlStatus: { seatgeek: 403, ticketmaster: 429 } }).eligible, "a bot-protection block (403/429) is not a dead page");
+  check(!run({ urlStatus: { seatgeek: 404, ticketmaster: 200 } }).eligible, "a confirmed 404 artist page is rejected");
+  check(!run({ urlStatus: { seatgeek: 200, ticketmaster: 0 } }).eligible, "no response is rejected");
   check(proposedTitle("Trans-Siberian Orchestra") === "Trans-Siberian Orchestra Tickets & Dates | TourTicketCompare", "TSO falls back to the short title form (60 chars)");
   check(proposedTitle("The Psychedelic Furs").length <= 60, "The Psychedelic Furs gets a title within budget");
   check(!run({ existingTitles: new Set(["Kenny Chesney Tickets & Tour Dates | TourTicketCompare"]) }).eligible, "a duplicate title is rejected");

@@ -53,11 +53,19 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244289",
+        "url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_oU7Is1Y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244289"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244289",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall"
   }
 ]

@@ -55,11 +55,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883090",
-        "url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107163018",
@@ -73,7 +73,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883090",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-kansas-city-tickets-9-22-2026/event/107163018"
   },
   {

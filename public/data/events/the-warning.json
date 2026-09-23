@@ -159,12 +159,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265893",
+        "url": "https://www.ticketliquidator.com/tickets/8265893/The-Warning-tickets-Mon-Mar-29-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3JtHdkp",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265893/The-Warning-tickets-Mon-Mar-29-2027-O2-Academy-Birmingham"
   },
   {
     "id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
@@ -220,12 +228,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267822",
+        "url": "https://www.ticketliquidator.com/tickets/8267822/The-Warning-tickets-Tue-Mar-30-2027-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3CmwwJ3",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267822/The-Warning-tickets-Tue-Mar-30-2027-O2-Academy-Glasgow"
   },
   {
     "id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
@@ -920,12 +936,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264651",
+        "url": "https://www.ticketliquidator.com/tickets/8264651/The-Warning-tickets-Thu-May-6-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GklKjI_k",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264651/The-Warning-tickets-Thu-May-6-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8",
@@ -1209,12 +1233,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264661",
+        "url": "https://www.ticketliquidator.com/tickets/8264661/The-Warning-tickets-Tue-May-18-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3iu7xhd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264661/The-Warning-tickets-Tue-May-18-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-the-warning-2027-boston-vv177z_3gklqgssu",

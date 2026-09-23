@@ -69,6 +69,7 @@ import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { slugify } from "./lib/slugify.mjs";
 import { reportStrandedPrValidation, earnRequiredCheck } from "./lib/required-check.mjs";
+import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
 import { pushWithRetry } from "./push-automation-branch.mjs";
 import {
   buildOutcomesArtifact,
@@ -777,6 +778,27 @@ async function main() {
       return 1;
     };
 
+    // Kill switch, read live before the validation wait and again right before
+    // the merge (scripts/lib/autopublish-guard.mjs). A deliberate pause returns
+    // 0; an unreadable switch is a fault and returns 1. Either way no merge.
+    const heldBySwitch = async () => {
+      const decision = await checkAutopublish({ repo: `${owner}/${name}` });
+      if (decision.allowed) return null;
+      coverage.pr.merged = false;
+      coverage.pr.held = decision.reason;
+      await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
+      console.warn(`PR #${pr.number} held: ${decision.reason}`);
+      await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/labels`, { method: "POST", body: { labels: [HELD_LABEL] } }).catch((err) => {
+        console.warn(`Could not add label ${HELD_LABEL}: ${err.message}`);
+      });
+      await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/comments`, { method: "POST", body: { body: heldComment(decision) } }).catch((err) => {
+        console.warn(`Could not comment on PR #${pr.number}: ${err.message}`);
+      });
+      return decision.fault ? 1 : 0;
+    };
+    const heldBefore = await heldBySwitch();
+    if (heldBefore !== null) return heldBefore;
+
     const verdict = await earnRequiredCheck({
       request: (method, pathname, body) => githubApi(pathname, { method, body }),
       repo: `${owner}/${name}`,
@@ -797,6 +819,15 @@ async function main() {
       repo: `${owner}/${name}`,
       sha: pr.head.sha,
     });
+
+    const heldAtMerge = await heldBySwitch();
+    if (heldAtMerge !== null) return heldAtMerge;
+    // The ledger label the digest reads; a merge that cannot be recorded is withheld.
+    try {
+      await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/labels`, { method: "POST", body: { labels: [LEDGER_LABEL] } });
+    } catch (err) {
+      return leaveForHuman(`could not record the ${LEDGER_LABEL} ledger label: ${err.message}`);
+    }
 
     try {
       await githubApi(`/repos/${owner}/${name}/pulls/${pr.number}/merge`, {

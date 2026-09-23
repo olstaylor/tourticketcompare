@@ -24,6 +24,7 @@ import {
   DEFAULT_TIMEOUT_MS,
   DEFAULT_POLL_MS,
 } from "./lib/required-check.mjs";
+import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
 
 const token = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
@@ -106,6 +107,24 @@ if (autoMerge) {
     process.exit(1);
   };
 
+  // Kill switch, read live (scripts/lib/autopublish-guard.mjs): once before
+  // the minutes-long validation wait and again immediately before the merge,
+  // so a switch flipped mid-run still stops it. A deliberate pause exits 0 so
+  // it cannot read as a red lane; an unreadable switch is a fault and exits 1.
+  const holdIfSwitchedOff = async () => {
+    const decision = await checkAutopublish({ repo });
+    if (decision.allowed) return;
+    console.warn(`PR #${pr.number} held: ${decision.reason}`);
+    await gh("POST", `/repos/${repo}/issues/${pr.number}/labels`, { labels: [HELD_LABEL] }).catch((err) =>
+      console.warn(`Could not add label ${HELD_LABEL}: ${err.message}`)
+    );
+    await gh("POST", `/repos/${repo}/issues/${pr.number}/comments`, { body: heldComment(decision) }).catch((err) =>
+      console.warn(`Could not comment on PR #${pr.number}: ${err.message}`)
+    );
+    process.exit(decision.fault ? 1 : 0);
+  };
+  await holdIfSwitchedOff();
+
   const verdict = await earnRequiredCheck({
     request: gh,
     repo,
@@ -124,6 +143,16 @@ if (autoMerge) {
   // see reportStrandedPrValidation. Never throws, so it sits outside the try
   // that reports a withheld merge.
   await reportStrandedPrValidation({ request: gh, repo, sha: pr.head.sha });
+
+  await holdIfSwitchedOff();
+  // The ledger: every auto-merged PR carries this label (read by the digest).
+  // Added before the merge so a merged PR can never be missing it; a label
+  // that cannot be added withholds the merge rather than publish unrecorded.
+  try {
+    await gh("POST", `/repos/${repo}/issues/${pr.number}/labels`, { labels: [LEDGER_LABEL] });
+  } catch (err) {
+    await leaveForHuman(`could not record the ${LEDGER_LABEL} ledger label: ${err.message}`);
+  }
 
   try {
     await gh("PUT", `/repos/${repo}/pulls/${pr.number}/merge`, {

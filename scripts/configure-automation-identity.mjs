@@ -97,6 +97,9 @@ function selfTest() {
   assert.equal(mint.with['skip-token-revoke'], undefined);
   assert.equal(mint.with['permission-administration'], undefined);
   assert.equal(mint.with['permission-workflows'], undefined);
+  // The kill switch is read live before every merge; write would let a lane
+  // turn its own switch back on.
+  assert.equal(mint.with['permission-variables'], 'read');
   console.log('Automation identity self-test passed');
 }
 

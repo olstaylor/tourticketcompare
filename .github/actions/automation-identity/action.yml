@@ -41,6 +41,10 @@ runs:
         permission-issues: write
         permission-actions: write
         permission-checks: read
+        # Read-only: the auto-publish kill switch is re-read live before every
+        # merge (scripts/lib/autopublish-guard.mjs); without this the read 403s
+        # and every merge is held fail-closed.
+        permission-variables: read
     - name: Configure Git and API identity
       id: configure
       shell: bash

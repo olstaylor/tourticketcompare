@@ -3257,12 +3257,10 @@ assert(/<meta name="robots" content="index,follow/.test(beyonceEmptyStatePage.te
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];
-// The empty-state wording is owner-authored; each claim is an [OWNER COPY: …]
-// slot until written (scripts/check-owner-copy.mjs keeps them off main). Pin
-// the slots, not the wording.
-assert(beyonceShowBoard.includes("[OWNER COPY: empty-board heading]"), "zero-event artist page must render the empty-state heading slot");
+assert(beyonceShowBoard.includes("No upcoming dates listed"), "zero-event artist page must render the empty-state heading");
 assert(
-  beyonceShowBoard.includes("[OWNER COPY: empty-board next step"),
+  beyonceShowBoard.includes("When our source lists a date, it appears here") ||
+    beyonceShowBoard.includes("When our source lists a Beyonc"),
   "zero-event empty state must explain what happens when a date is verified"
 );
 assert(!beyonceShowBoard.includes("No verified show dates are currently listed"), "zero-event empty state must not use the old generic copy");
@@ -3281,7 +3279,7 @@ assert(
   "zero-event artist page must offer the watchlist signup"
 );
 assert(
-  /<meta name="description" content="\[OWNER COPY: empty-board meta description for Beyonc/.test(beyonceEmptyStatePage.text),
+  /<meta name="description" content="No upcoming Beyonc[^"]*dates are listed right now/.test(beyonceEmptyStatePage.text),
   "zero-event artist page description must not promise dates the page does not have"
 );
 // The empty state links the artist-level provider page of the top-ranked
@@ -3762,7 +3760,7 @@ assert(
   "artist hydration's setMeta call must branch on whether the server rendered any dates"
 );
 assert(
-  renderArtistSource[0].includes("[OWNER COPY: empty-board meta description"),
+  renderArtistSource[0].includes("dates are listed right now"),
   "artist hydration must keep an empty-board description that does not promise dates"
 );
 // Hydration must preserve editorial indexability while the board is empty; only

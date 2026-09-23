@@ -134,19 +134,20 @@ assertCopySafe(noCtaIntro, "no-cta intro");
 const emptyStatus = deriveArtistBoardStatus([]);
 assert(emptyStatus.showCount === 0 && emptyStatus.next === null, "an empty board has no counts and no next date");
 const emptyIntro = artistSearchIntro({ name: "Latto" }, emptyStatus, options);
-// Empty-board wording is owner-authored; until it is written each string is an
-// explicit [OWNER COPY: …] marker, which scripts/check-owner-copy.mjs refuses
-// to let reach main. These assertions pin the marker and what varies, not wording.
-assert(emptyIntro.startsWith("[OWNER COPY:") && emptyIntro.includes("Latto"), "the empty intro is an owner-copy slot naming the artist");
+assert(emptyIntro.includes("No upcoming Latto dates are listed right now"), "the empty intro states the position plainly");
+// Owner-approved wording (2026-09-23): dates and buttons are added automatically,
+// so empty-board copy must never claim a person followed a link by hand.
+assert(!/ourselves|we've followed/i.test(emptyIntro), "the empty intro must not claim a manual link check");
 assertCopySafe(emptyIntro, "empty intro");
 assert(artistStatusFacts(emptyStatus, options).length === 0, "an empty board renders no fact strip");
 const emptyCopy = artistEmptyBoardCopy({ name: "Latto" }, { pastShowCount: 0 });
-assert(emptyCopy.heading.startsWith("[OWNER COPY:"), "empty heading is an owner-copy slot");
-assert(emptyCopy.body.startsWith("[OWNER COPY:") && emptyCopy.body.includes("never had a tracked date"), "empty body slot covers an artist with no tracked dates");
+assert(emptyCopy.heading === "No upcoming dates listed", "empty heading should not imply dates are pending");
+assert(emptyCopy.body.includes("can't say whether any are coming"), "empty copy must not imply an announcement is imminent");
+assert(!/ourselves|we've followed/i.test(emptyCopy.next), "the next-step copy must not claim a manual link check");
 assertCopySafe(emptyCopy.body, "empty body");
 assertCopySafe(emptyCopy.next, "empty next-step");
 assert(
-  artistEmptyBoardCopy({ name: "Post Malone" }, { pastShowCount: 3 }).body.includes("past dates tracked"),
+  artistEmptyBoardCopy({ name: "Post Malone" }, { pastShowCount: 3 }).body.includes("already taken place"),
   "an empty board with past dates should acknowledge them"
 );
 
@@ -226,7 +227,7 @@ faq.forEach(([question, answer]) => assertCopySafe(`${question} ${answer}`, "faq
 
 const emptyFaq = artistFaqEntries({ name: "Latto", faq: authoredFaq }, emptyStatus, options);
 assert(emptyFaq[0][0] === "Are there upcoming Latto dates?", "an empty board asks (and answers) the question a visitor actually has");
-assert(emptyFaq[0][1].startsWith("[OWNER COPY:"), "the empty-board answer is an owner-copy slot");
+assert(emptyFaq[0][1].startsWith("Not right now."), "the empty-board answer should be direct");
 assert(
   artistFaqEntries({ name: "Latto" }, emptyStatus, options).length >= 2,
   "an artist with no authored FAQ still gets a usable FAQ"

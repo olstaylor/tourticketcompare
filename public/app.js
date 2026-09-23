@@ -2405,24 +2405,24 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
   const name = String(artistName || "").trim() || "artist";
   const wrap = document.createElement("div");
   wrap.className = "empty-state";
-  text(wrap, "h3", "[OWNER COPY: empty-board heading]");
+  text(wrap, "h3", "No upcoming dates listed");
   text(
     wrap,
     "p",
     Array.isArray(pastShows) && pastShows.length
-      ? `[OWNER COPY: empty-board body for ${name} — past dates tracked, none upcoming]`
-      : `[OWNER COPY: empty-board body for ${name} — never had a tracked date]`
+      ? `We have no upcoming ${name} dates on file. The dates we tracked have already taken place, and we can't say whether more are coming.`
+      : `We have no upcoming ${name} dates on file, and we can't say whether any are coming.`
   );
   text(
     wrap,
     "p",
-    `[OWNER COPY: empty-board next step — what has to happen for a ${name} date to appear]`,
+    `When our source lists a ${name} date, it appears here, with a ticket button once its link has passed our checks.`,
     "muted"
   );
   // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
   const explainer = document.createElement("p");
   explainer.className = "muted";
-  explainer.append("[OWNER COPY: why an empty board is normal] ");
+  explainer.append("An empty board is normal between tours, not a sign something is broken. ");
   const explainerLink = document.createElement("a");
   explainerLink.className = "text-link";
   explainerLink.href = EMPTY_BOARD_EXPLAINER_PATH;
@@ -2449,8 +2449,8 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     form.method = "post";
     form.action = "/api/signup";
     form.dataset.watchlistShell = artistSlug;
-    text(form, "h4", `[OWNER COPY: watchlist signup heading for ${name}]`);
-    text(form, "p", `[OWNER COPY: watchlist signup promise — what we email ${name} subscribers, and when]`, "muted");
+    text(form, "h4", `Get told when ${name} dates land`);
+    text(form, "p", `Leave your email and we'll let you know when we list confirmed ${name} dates. Nothing else.`, "muted");
     const hiddenArtist = document.createElement("input");
     hiddenArtist.type = "hidden";
     hiddenArtist.name = "artistSlug";
@@ -2503,7 +2503,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     });
     // Secondary: on an empty board the signup is the primary action, and the
     // artist-level provider page is a "check for yourself" fallback.
-    const providerCta = buttonLink(`[OWNER COPY: empty-board button label for ${providerName} — opens the artist's page there, not a date]`, withCtaLocation(`/api/out?${params.toString()}`, "empty_state"), "secondary");
+    const providerCta = buttonLink(`See ${name} on ${providerName}`, withCtaLocation(`/api/out?${params.toString()}`, "empty_state"), "secondary");
     providerCta.dataset.ctaProvider = providerSlug;
     providerCta.dataset.ctaArtist = artistSlug;
     providerCta.dataset.ctaPriceSnapshot = "absent";
@@ -3202,7 +3202,7 @@ function renderArtist(artist) {
         ? artist.meta_description ||
           `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
         : serverDescription ||
-          `[OWNER COPY: empty-board meta description for ${artist.name} — no upcoming dates listed]`
+          `No upcoming ${artist.name} dates are listed right now. See where to find ${artist.name} tickets and get told when dates are confirmed.`
     },
     shouldNoindex
   );
@@ -3233,7 +3233,7 @@ function renderArtist(artist) {
     "Upcoming dates",
     serverShows.length
       ? "Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it."
-      : "[OWNER COPY: empty-board section intro — how dates get onto this board]",
+      : "Dates appear here once our source confirms them.",
     "Some links earn us a commission — this never affects your price."
   );
   // Shared price/link help and the provenance block are both server-rendered

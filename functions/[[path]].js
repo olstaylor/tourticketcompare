@@ -657,7 +657,7 @@ async function routeForPath(pathname, env) {
       description: hasUpcoming
         ? artist.meta_description ||
           `Every upcoming ${artist.name} date we've verified, with the ticket links we've checked for each one.`
-        : `[OWNER COPY: empty-board meta description for ${artist.name} — no upcoming dates listed]`,
+        : `No upcoming ${artist.name} dates are listed right now. See where to find ${artist.name} tickets and get told when dates are confirmed.`,
       artist: enrichedArtist,
       catalog,
       events: artistEvents,
@@ -3173,9 +3173,9 @@ function renderVerificationDisclosure(artist, hasShows = true) {
     : "";
   const verificationLines = hasShows
     ? `<p><strong>What we verify:</strong> that each date comes from a reviewed source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What we don't verify:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p>`
-    : `<p><strong>What we verify:</strong> [OWNER COPY: empty-board verification statement for ${escapeHtml(
+    : `<p><strong>What we verify:</strong> we have no confirmed upcoming ${escapeHtml(
         artist.name
-      )} — what we check before a date or a button goes up]</p>`;
+      )} dates, so this page lists none. A date goes up only with a date, venue and city from our source, and a ticket button appears only once its link resolves to that exact event.</p>`;
   return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How we check this page</h2><p>By ${anchor(
     AUTHOR_NAME,
     AUTHOR_PATH,
@@ -3968,23 +3968,23 @@ const EMPTY_BOARD_EXPLAINER_PATH = "/blog/why-some-artist-pages-show-no-dates";
 function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, artistSlug = "", pastShows = [], emptyCopy = null) {
   const safeName = escapeHtml(String(artistName || "").trim() || "artist");
   const copy = emptyCopy || {
-    heading: "[OWNER COPY: empty-board heading]",
-    body: `[OWNER COPY: empty-board body for ${String(artistName || "").trim() || "artist"} — never had a tracked date]`,
-    next: "[OWNER COPY: empty-board next step — what has to happen for a date to appear]"
+    heading: "No upcoming dates listed",
+    body: `We have no upcoming ${String(artistName || "").trim() || "artist"} dates on file, and we can't say whether any are coming.`,
+    next: "When our source lists a date, it appears here, with a ticket button once its link has passed our checks."
   };
   // The artist-level provider page is the only outbound option here: there are
   // no verified dates, so there is nothing event-level to link to.
   const emptyStateHref = providerCta ? withCtaLocation(providerCta.href, "empty_state") : "";
   const primaryCta = providerCta
-    ? anchor(`[OWNER COPY: empty-board button label for ${escapeHtml(providerCta.name)} — opens the artist's page there, not a date]`, emptyStateHref, "button button-secondary", `rel="${escapeAttr(outboundCtaRel(emptyStateHref) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
+    ? anchor(`See ${String(artistName || "").trim() || "this artist"} on ${providerCta.name}`, emptyStateHref, "button button-secondary", `rel="${escapeAttr(outboundCtaRel(emptyStateHref) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
   const recentHtml = renderRecentShowsHtml(safeName, pastShows);
   const signupHtml = artistSlug
-    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>[OWNER COPY: watchlist signup heading for ${safeName}]</h4><p class="muted">[OWNER COPY: watchlist signup promise — what we email ${safeName} subscribers, and when]</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
+    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Get told when ${safeName} dates land</h4><p class="muted">Leave your email and we'll let you know when we list confirmed ${safeName} dates. Nothing else.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
     : "";
   return `<div class="empty-state"><h3>${escapeHtml(copy.heading)}</h3><p>${escapeHtml(copy.body)}</p><p class="muted">${escapeHtml(
     copy.next
-  )}</p><p class="muted">[OWNER COPY: why an empty board is normal] ${anchor(
+  )}</p><p class="muted">An empty board is normal between tours, not a sign something is broken. ${anchor(
     "Here's why",
     EMPTY_BOARD_EXPLAINER_PATH
   )}.</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
@@ -4043,7 +4043,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
     : "";
   const boardIntro = shows.length
     ? `<p>Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it.</p>`
-    : `<p>[OWNER COPY: empty-board section intro — how dates get onto this board]</p>`;
+    : `<p>Dates appear here once our source confirms them.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}<p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 

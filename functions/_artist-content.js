@@ -205,7 +205,7 @@ export function artistSearchIntro(artist, status, options = {}) {
   const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
   const formatShortDate = typeof options.formatShortDate === "function" ? options.formatShortDate : formatDate;
   if (!status || !status.showCount) {
-    return `[OWNER COPY: empty-board lead for ${name} — no upcoming dates listed; how a date gets onto this page]`;
+    return `No upcoming ${name} dates are listed right now. Dates appear here once our source lists them, and ticket buttons once their links pass our checks.`;
   }
 
   const sentences = [];
@@ -371,11 +371,11 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   const name = cleanString(artist?.name) || "this artist";
   const pastShowCount = Number(options.pastShowCount) || 0;
   return {
-    heading: "[OWNER COPY: empty-board heading]",
+    heading: "No upcoming dates listed",
     body: pastShowCount
-      ? `[OWNER COPY: empty-board body for ${name} — past dates tracked, none upcoming]`
-      : `[OWNER COPY: empty-board body for ${name} — never had a tracked date]`,
-    next: `[OWNER COPY: empty-board next step — what has to happen for a ${name} date to appear]`
+      ? `We have no upcoming ${name} dates on file. The dates we tracked have already taken place, and we can't say whether more are coming.`
+      : `We have no upcoming ${name} dates on file, and we can't say whether any are coming.`,
+    next: `When our source lists a ${name} date, it appears here, with a ticket button once its link has passed our checks.`
   };
 }
 
@@ -420,7 +420,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   } else {
     entries.push([
       `Are there upcoming ${name} dates?`,
-      `[OWNER COPY: empty-board FAQ answer for ${name} — no upcoming dates listed, and when one would be]`
+      `Not right now. We list a date only once our source confirms it, and add a ticket button only once its link passes our checks.`
     ]);
   }
 

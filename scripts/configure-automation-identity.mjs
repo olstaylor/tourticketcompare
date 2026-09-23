@@ -91,6 +91,17 @@ function selfTest() {
     }
   }
   assert.equal(publishers, 11, 'all eleven publishing jobs (incl. autopublish-health demotions) must use the identity helper');
+  // The identity action's preflight imports `yaml`: any job that uses it must
+  // install dependencies first (the digest shipped without this and failed).
+  for (const file of readdirSync('.github/workflows').filter(f => f.endsWith('.yml'))) {
+    const workflow = parse(readFileSync(`.github/workflows/${file}`, 'utf8'));
+    for (const job of Object.values(workflow.jobs || {})) {
+      const steps = job.steps || [];
+      const identityAt = steps.findIndex(s => s.uses === './.github/actions/automation-identity');
+      if (identityAt === -1) continue;
+      assert(steps.slice(0, identityAt).some(s => /\bnpm (ci|install)\b/.test(s.run || '')), `${file}: install dependencies before the identity action`);
+    }
+  }
   const action = parse(readFileSync('.github/actions/automation-identity/action.yml', 'utf8'));
   const mint = action.runs.steps.find(s => s.id === 'app');
   assert.equal(mint.with.repositories, '${{ github.event.repository.name }}');

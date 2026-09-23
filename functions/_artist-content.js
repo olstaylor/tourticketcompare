@@ -205,7 +205,7 @@ export function artistSearchIntro(artist, status, options = {}) {
   const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
   const formatShortDate = typeof options.formatShortDate === "function" ? options.formatShortDate : formatDate;
   if (!status || !status.showCount) {
-    return `No verified upcoming ${name} dates are listed right now. A date appears here once we've checked the source record and followed the ticket link ourselves.`;
+    return `No upcoming ${name} dates are listed right now. Dates appear here once our source lists them, and ticket buttons once their links pass our checks.`;
   }
 
   const sentences = [];
@@ -373,9 +373,9 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   return {
     heading: "No upcoming dates listed",
     body: pastShowCount
-      ? `We have no verified upcoming ${name} dates on file. The most recent dates we tracked have already taken place, and we can't say whether more are coming.`
-      : `We have no verified upcoming ${name} dates on file, and we can't say whether more are coming.`,
-    next: `When a date is confirmed by our source and we've followed the ticket link to that exact event, it appears on this page with the ticket sites that cover it.`
+      ? `We have no upcoming ${name} dates on file. The dates we tracked have already taken place, and we can't say whether more are coming.`
+      : `We have no upcoming ${name} dates on file, and we can't say whether any are coming.`,
+    next: `When our source lists a ${name} date, it appears here, with a ticket button once its link has passed our checks.`
   };
 }
 
@@ -420,7 +420,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   } else {
     entries.push([
       `Are there upcoming ${name} dates?`,
-      `Not on this page. We have no verified upcoming ${name} dates on file, and we don't list a date until our source confirms it and we've followed the ticket link to that exact event.`
+      `Not right now. We list a date only once our source confirms it, and add a ticket button only once its link passes our checks.`
     ]);
   }
 

@@ -58,20 +58,54 @@ export function splitArtistsByUpcoming(artists, events, now = Date.now()) {
   return { primary, secondary };
 }
 
+// Artists promoted by the automated lane (`promotion_source: "auto"` in
+// artists.json) have no human editorial judgement behind them, so their page is
+// indexable only while it carries this many upcoming dates. Below it the page
+// stays live as `noindex,follow` and leaves the sitemap — it is never demoted
+// on this count. No record carries the marker until the auto-promote lane ships.
+export const AUTO_PROMOTED_ARTIST_SOURCE = "auto";
+export const AUTO_PROMOTED_MIN_UPCOMING_SHOWS = 3;
+
 /**
- * Is the artist page currently indexable? Future-date availability does not
- * remove the page from search: it is a presentation state, not an indexability
- * gate. Extra arguments are retained for callers of the previous API.
+ * How many upcoming (future-dated) shows the artist has, using the same
+ * future-date filter as artistHasUpcomingShow().
  *
- * @param {string} indexingStatus   artists.json indexing_status.
- * @param {Array<object>} events    Raw events.json records.
+ * @param {Array<object>} events
  * @param {string} artistSlug
+ * @param {number} [now]
+ * @returns {number}
+ */
+export function countUpcomingShows(events, artistSlug, now = Date.now()) {
+  const slug = normalizeSlug(artistSlug);
+  if (!slug || !Array.isArray(events)) return 0;
+  let count = 0;
+  for (const ev of events) {
+    if (!ev || typeof ev !== "object" || normalizeSlug(ev.artist_slug) !== slug) continue;
+    const ts = Date.parse(String(ev.datetime_iso || ev.dateTimeISO || "").trim());
+    if (Number.isFinite(ts) && ts >= now) count += 1;
+  }
+  return count;
+}
+
+/**
+ * Is the artist page currently indexable? For an owner-promoted artist,
+ * future-date availability does not remove the page from search: it is a
+ * presentation state, not an indexability gate. An auto-promoted artist
+ * additionally needs AUTO_PROMOTED_MIN_UPCOMING_SHOWS upcoming dates.
+ *
+ * The first argument is either the artists.json record or, for callers of the
+ * previous API, its indexing_status string (which can never be auto-promoted).
+ *
+ * @param {object|string} artistOrStatus artists.json record, or indexing_status.
+ * @param {Array<object>} events    Raw events.json records.
+ * @param {string} [artistSlug]     Defaults to the record's slug.
  * @param {number} [now]
  * @returns {boolean}
  */
-export function artistPageIndexable(indexingStatus, events, artistSlug, now = Date.now()) {
-  void events;
-  void artistSlug;
-  void now;
-  return indexingStatus === INDEXABLE_ARTIST_STATUS;
+export function artistPageIndexable(artistOrStatus, events, artistSlug, now = Date.now()) {
+  const record = artistOrStatus && typeof artistOrStatus === "object" ? artistOrStatus : null;
+  const indexingStatus = record ? record.indexing_status : artistOrStatus;
+  if (indexingStatus !== INDEXABLE_ARTIST_STATUS) return false;
+  if (record?.promotion_source !== AUTO_PROMOTED_ARTIST_SOURCE) return true;
+  return countUpcomingShows(events, artistSlug || record.slug, now) >= AUTO_PROMOTED_MIN_UPCOMING_SHOWS;
 }

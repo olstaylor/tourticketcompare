@@ -1,7 +1,13 @@
 // Date-controlled tests for the artist presentation contract.
 
 import fs from "node:fs";
-import { artistHasUpcomingShow, artistPageIndexable, splitArtistsByUpcoming } from "../functions/_artist-indexability.js";
+import {
+  AUTO_PROMOTED_MIN_UPCOMING_SHOWS,
+  artistHasUpcomingShow,
+  artistPageIndexable,
+  countUpcomingShows,
+  splitArtistsByUpcoming
+} from "../functions/_artist-indexability.js";
 
 let passed = 0;
 function assert(condition, message) {
@@ -37,12 +43,34 @@ assert(split.secondary.map((artist) => artist.slug).join(",") === "past-artist,e
 assert(artistPageIndexable("indexable_with_substantial_content", [], "empty-artist", NOW), "editorially indexable empty artist page remains indexable");
 assert(!artistPageIndexable("review_required", [], "empty-artist", NOW), "review-required artist remains non-indexable");
 
+// An owner-promoted record (no promotion_source) keeps the durable rule.
+const indexable = "indexable_with_substantial_content";
+assert(artistPageIndexable({ slug: "empty-artist", indexing_status: indexable }, [], undefined, NOW), "owner-promoted empty artist record remains indexable");
+assert(!artistPageIndexable({ slug: "empty-artist", indexing_status: "review_required", promotion_source: "auto" }, [], undefined, NOW), "an auto-promoted shell is never indexable");
+
+// An auto-promoted artist is indexable only with at least three upcoming dates.
+const autoEvents = [
+  { id: "a1", artist_slug: "auto-artist", datetime_iso: "2026-09-01T19:00:00Z" },
+  { id: "a2", artist_slug: "auto-artist", datetime_iso: "2026-09-02T19:00:00Z" },
+  { id: "a3", artist_slug: "auto-artist", datetime_iso: "2026-09-03T19:00:00Z" },
+  { id: "a0", artist_slug: "auto-artist", datetime_iso: "2026-08-01T19:00:00Z" }
+];
+const autoArtist = { slug: "auto-artist", indexing_status: indexable, promotion_source: "auto" };
+assert(countUpcomingShows(autoEvents, "auto-artist", NOW) === 3, "the past date is not counted as upcoming");
+assert(artistPageIndexable(autoArtist, autoEvents, undefined, NOW), "auto-promoted artist with three upcoming dates is indexable");
+assert(!artistPageIndexable(autoArtist, autoEvents.slice(1), undefined, NOW), "auto-promoted artist with two upcoming dates is noindex");
+assert(!artistPageIndexable(autoArtist, [], undefined, NOW), "auto-promoted artist with no dates is noindex, not an error");
+assert(AUTO_PROMOTED_MIN_UPCOMING_SHOWS === 3, "the auto-promoted threshold is three upcoming dates");
+
 const server = fs.readFileSync(new URL("../functions/[[path]].js", import.meta.url), "utf8");
 const client = fs.readFileSync(new URL("../public/app.js", import.meta.url), "utf8");
 assert(server.includes("Artists with upcoming dates") && server.includes("No dates currently listed"), "server exposes both artist sections");
 assert(client.includes("Artists with upcoming dates") && client.includes("No dates currently listed"), "client exposes both artist sections");
 assert(server.includes("shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`"), "server removes tour wording from empty artist headings");
-assert(client.includes("const shouldNoindex = isReviewRequired;"), "client does not noindex an artist only because it has no future dates");
+assert(
+  client.includes('const shouldNoindex = isReviewRequired || (artist.promotion_source === "auto" && /noindex/i.test(serverRobots));'),
+  "client does not noindex an owner-promoted artist only because it has no future dates"
+);
 assert(!server.includes("function artistCardTier") && !client.includes("function artistCardTier"), "the old mixed artist tier is removed");
 
 // The "About these links" note and generic supporting sections describe a

@@ -21,7 +21,8 @@
 //
 // Options:
 //   --names <a,b,c>       Comma-separated artist names
-//   --names-file <path>   File with one artist name per line (# comments ok)
+//   --names-file <path>   File with one artist name per line (# comments ok);
+//                         "Name<TAB>attractionId" pins the Ticketmaster identity
 //   --output <path>       Manifest path (default artifacts/onboarding/batch-<date>.json)
 //   --limit <n>           Max candidates to process (default 20)
 //   --delay-ms <n>        Delay between API requests (default 350)
@@ -176,13 +177,19 @@ export function resolveTicketmasterArtistUrl(value) {
 // wrapper is stripped and the destination host is checked against the
 // storefront allowlist. A wrapped or off-allowlist destination yields no
 // capture rather than a URL the promote step would reject.
-async function lookupTicketmasterAttraction(name, apiKey) {
+async function lookupTicketmasterAttraction(name, apiKey, expectedId = '') {
   const params = new URLSearchParams({ keyword: name, size: '10', apikey: apiKey });
   const data = await fetchJson(`https://app.ticketmaster.com/discovery/v2/attractions.json?${params.toString()}`);
   const attractions = data?._embedded?.attractions || [];
   const exact = attractions.filter((a) => exactNameMatch(name, a?.name) && !COLLISION_PATTERN.test(String(a?.name || '')));
-  if (!exact.length) return null;
-  const a = exact[0];
+  // A pinned id (from the forecast) must be recaptured byte-identically; with
+  // no pin, more than one exact-name record is ambiguous and captures nothing.
+  const pinned = expectedId ? exact.filter((a) => String(a?.id) === expectedId) : exact;
+  if (pinned.length !== 1) {
+    if (exact.length) console.error(`  (ticketmaster identity for "${name}" ${expectedId ? `does not match forecast id ${expectedId}` : 'is ambiguous'} — no capture)`);
+    return null;
+  }
+  const a = pinned[0];
   const url = resolveTicketmasterArtistUrl(a?.url);
   if (!a?.id || !url) return null;
   return {
@@ -226,10 +233,19 @@ async function screenRow(row, sg, tm, tmApiKey, { denylist, existingTitles, dela
   let tmEvents = [];
   if (tm && tmApiKey) {
     await sleep(delayMs);
-    const params = new URLSearchParams({ attractionId: tm.attraction_id, size: '200', sort: 'date,asc', apikey: tmApiKey });
+    // Every page, so D3/D4 see the whole tour, not its first 200 dates. A
+    // partial fetch screens nothing (an empty list fails D3/D4 closed).
     try {
-      tmEvents = (await fetchJson(`https://app.ticketmaster.com/discovery/v2/events.json?${params.toString()}`))?._embedded?.events || [];
+      for (let page = 0, pages = 1; page < pages && page < 5; page += 1) {
+        const params = new URLSearchParams({ attractionId: tm.attraction_id, size: '200', page: String(page), sort: 'date,asc', apikey: tmApiKey });
+        const data = await fetchJson(`https://app.ticketmaster.com/discovery/v2/events.json?${params.toString()}`);
+        tmEvents.push(...(data?._embedded?.events || []));
+        pages = Number(data?.page?.totalPages) || 1;
+        if (page + 1 < pages && page + 1 >= 5) throw new Error(`more than 5 pages of events`);
+        if (page + 1 < pages) await sleep(delayMs);
+      }
     } catch (err) {
+      tmEvents = [];
       console.error(`  (ticketmaster events lookup failed for "${row.name}": ${redact(err.message)})`);
     }
   }
@@ -347,9 +363,14 @@ async function main() {
   if (args.selfTest) return selfTest();
 
   let names = [...args.names];
+  const pinnedTm = new Map();
   if (args.namesFile) {
     const raw = await fs.readFile(path.resolve(args.namesFile), 'utf8');
-    names.push(...raw.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#')));
+    for (const line of raw.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'))) {
+      const [name, id = ''] = line.split('\t').map((part) => part.trim());
+      names.push(name);
+      if (id) pinnedTm.set(name, id);
+    }
   }
   names = [...new Set(names)].slice(0, args.limit);
   if (!names.length) {
@@ -389,7 +410,7 @@ async function main() {
     if (tmApiKey && sg.match) {
       await sleep(args.delayMs);
       try {
-        tm = await lookupTicketmasterAttraction(name, tmApiKey);
+        tm = await lookupTicketmasterAttraction(name, tmApiKey, pinnedTm.get(name) || '');
       } catch (err) {
         console.error(`  (ticketmaster lookup failed for "${name}": ${err.message} — proceeding SeatGeek-only)`);
       }

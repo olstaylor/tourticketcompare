@@ -105,6 +105,7 @@ import { deriveCities, citySlug, normalizeCountry, slugify } from "../functions/
 import { deriveVenues, venueSlug } from "../functions/_venues.js";
 import { deriveIndexableArtistCities } from "../functions/_artist-cities.js";
 import { artistPageIndexable, INDEXABLE_ARTIST_STATUS } from "../functions/_artist-indexability.js";
+import { COLLISION_PATTERN } from "./lib/artist-screen.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAY_MS = 86_400_000;
@@ -140,10 +141,8 @@ const COUNTRY_CODES = new Map([
   ["australia", "AU"]
 ]);
 
-// Same-name collision traps that must never be proposed as an artist. Mirrors
-// the guard in scripts/propose-onboarding-batch.mjs.
-const COLLISION_PATTERN =
-  /\b(tribute|parking|experience|dance party|karaoke|vs\.?|night:|themed|drag brunch|orchestra plays|candlelight|celebration of|music of|sing-?along)\b/i;
+// Same-name collision traps that must never be proposed as an artist: shared
+// with propose-onboarding-batch.mjs via scripts/lib/artist-screen.mjs.
 
 // Ticketmaster storefront hosts, kept in sync with scripts/propose-artists.mjs,
 // scripts/validate-events.py and functions/api/out.js. Never widen this to a

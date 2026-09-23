@@ -43,22 +43,36 @@ way it is:
 ### Artist — `/artists/<slug>`
 
 **Indexable when** the editorial record is `indexable_with_substantial_content`.
-Upcoming shows are **not** part of this gate.
+Upcoming shows are **not** part of this gate for an owner-promoted artist.
 
-Unchanged by this policy. Gate lives in
+**Auto-promoted artists** (`promotion_source: "auto"` in `artists.json`, set
+only by the automated promote lane) are the one exception: they are indexable
+only while they carry at least `AUTO_PROMOTED_MIN_UPCOMING_SHOWS` (3) upcoming
+dates. Below that the page stays live as `noindex,follow` and leaves the
+sitemap and `llms.txt`. It is **never demoted** on this count — the record,
+its CTAs and its URL are unchanged, and the page returns to the index when
+dates land. No human editorial judgement stands behind these pages, so the
+count is what keeps automated promotion from producing thin pages at scale.
+
+Gate lives in
 [`functions/_artist-indexability.js`](../functions/_artist-indexability.js),
-whose `artistPageIndexable()` reads the editorial status and nothing else — the
-events argument is accepted only so callers can pass it uniformly alongside the
-location gates. `functions/sitemap.xml.js` filters on the same status, so an
-artist page's sitemap membership matches its robots meta.
+whose `artistPageIndexable()` takes the `artists.json` record (or, for older
+callers, its status string, which can never be auto-promoted).
+`functions/sitemap.xml.js` and `functions/llms.txt.js` call the same function,
+reading `events.json` only when an auto-promoted record exists, so an artist
+page's sitemap membership matches its robots meta. Client hydration keeps the
+server's robots verdict for auto-promoted artists rather than recomputing it.
 
 An artist URL is a durable destination. Future-date availability is
 presentation state, not a reason to noindex: the same URL fills again when a
 new verified date lands, and dropping it out of the index in the gap would
 discard the authority it had accumulated for a query
 ("<artist> tickets") that does not stop being asked between tours. An artist
-with no upcoming shows renders an explicit empty-state board — no dates, no CTA
-buttons — and stays `index,follow`, in the sitemap.
+with no upcoming shows renders an explicit empty-state board — no dates, no
+event-level buttons, and one artist-level button to the top-ranked checked
+provider's artist page — and, if owner-promoted, stays `index,follow`, in the
+sitemap. Such an artist also carries an empty `[]` partition, so its route
+never falls back to parsing the full `events.json`.
 
 This is the one route type the calendar does not decay, and it is deliberate.
 The location gates below all count upcoming inventory, because a city or venue

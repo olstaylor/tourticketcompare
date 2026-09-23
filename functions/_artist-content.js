@@ -205,7 +205,7 @@ export function artistSearchIntro(artist, status, options = {}) {
   const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
   const formatShortDate = typeof options.formatShortDate === "function" ? options.formatShortDate : formatDate;
   if (!status || !status.showCount) {
-    return `No verified upcoming ${name} dates are listed right now. A date appears here once we've checked the source record and followed the ticket link ourselves.`;
+    return `[OWNER COPY: empty-board lead for ${name} — no upcoming dates listed; how a date gets onto this page]`;
   }
 
   const sentences = [];
@@ -371,11 +371,11 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   const name = cleanString(artist?.name) || "this artist";
   const pastShowCount = Number(options.pastShowCount) || 0;
   return {
-    heading: "No upcoming dates listed",
+    heading: "[OWNER COPY: empty-board heading]",
     body: pastShowCount
-      ? `We have no verified upcoming ${name} dates on file. The most recent dates we tracked have already taken place, and we can't say whether more are coming.`
-      : `We have no verified upcoming ${name} dates on file, and we can't say whether more are coming.`,
-    next: `When a date is confirmed by our source and we've followed the ticket link to that exact event, it appears on this page with the ticket sites that cover it.`
+      ? `[OWNER COPY: empty-board body for ${name} — past dates tracked, none upcoming]`
+      : `[OWNER COPY: empty-board body for ${name} — never had a tracked date]`,
+    next: `[OWNER COPY: empty-board next step — what has to happen for a ${name} date to appear]`
   };
 }
 
@@ -420,7 +420,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   } else {
     entries.push([
       `Are there upcoming ${name} dates?`,
-      `Not on this page. We have no verified upcoming ${name} dates on file, and we don't list a date until our source confirms it and we've followed the ticket link to that exact event.`
+      `[OWNER COPY: empty-board FAQ answer for ${name} — no upcoming dates listed, and when one would be]`
     ]);
   }
 

@@ -88,6 +88,10 @@ export const STEPS = [
   { id: "roster:forecast:self-test",              lane: "units",  run: "node scripts/report-roster-forecast.mjs --self-test" },
   { id: "status:validate:self-test",              lane: "units",  run: "node scripts/validate-status-counts.mjs --self-test" },
   { id: "status:validate",                        lane: "quick",  run: "npm run status:validate" },
+  { id: "content:owner-copy:self-test",           lane: "units",  run: "node scripts/check-owner-copy.mjs --self-test" },
+  // Last on purpose: an unwritten owner-copy slot blocks the merge, but every
+  // other check still reports before it.
+  { id: "content:owner-copy:check",               lane: "quick",  run: "node scripts/check-owner-copy.mjs" },
 ];
 
 export const LANES = ["mvp", "quick", "units"];

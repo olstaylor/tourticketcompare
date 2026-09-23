@@ -360,7 +360,27 @@ for (const [slug, masterIds] of masterBySlug) {
 
 // ── Check for orphan partition files ──────────────────────────────────────────
 
+// Indexable artists with no event rows are expected to carry an empty `[]`
+// partition (scripts/partition-events.py), so their route never falls back to
+// parsing the full events.json. That file is not an orphan.
+const zeroEventIndexableSlugs = new Set(
+  artists
+    .filter((artist) => artist.indexing_status === "indexable_with_substantial_content")
+    .map((artist) => String(artist.slug || "").trim().toLowerCase())
+    .filter((slug) => slug && !masterBySlug.has(slug))
+);
+
 for (const slug of partitionSlugsOnDisk) {
+  if (!masterBySlug.has(slug) && zeroEventIndexableSlugs.has(slug)) {
+    const raw = JSON.parse(readFileSync(join(PARTITIONS_DIR, `${slug}.json`), "utf8"));
+    if (Array.isArray(raw) && raw.length === 0) {
+      partitionResults.push({ slug, status: "PASS", count: 0 });
+    } else {
+      failures.push(`${slug}.json — expected an empty array for an indexable artist with 0 events`);
+      partitionResults.push({ slug, status: "FAIL", reason: "zero-event partition is not an empty array" });
+    }
+    continue;
+  }
   if (!masterBySlug.has(slug)) {
     warnings.push(`orphan partition: ${slug}.json exists on disk but has no matching events in events.json`);
     partitionResults.push({ slug, status: "WARN", reason: "orphan — no events in master" });
@@ -374,6 +394,9 @@ for (const artist of artists) {
   if (artist.indexing_status !== "indexable_with_substantial_content") continue;
   const slug = artist.slug;
   const count = masterBySlug.has(slug) ? masterBySlug.get(slug).length : 0;
+  if (count === 0 && !partitionSlugsOnDisk.has(slug)) {
+    failures.push(`${slug}.json — missing: indexable artist with 0 events needs an empty partition (run npm run events:partition)`);
+  }
   if (count === 0) {
     zeroEventWarnings.push(`${artist.name} (${slug}) — indexing_status=indexable_with_substantial_content but 0 events in events.json`);
   }

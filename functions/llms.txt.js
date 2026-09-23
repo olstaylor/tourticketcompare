@@ -3,13 +3,13 @@ import { deriveCities } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
+import { artistPageIndexable, AUTO_PROMOTED_ARTIST_SOURCE } from "./_artist-indexability.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
 // same sources as sitemap.xml) so it cannot silently drift from the routes
 // the site actually renders.
 
-const INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content";
 
 async function loadJsonAsset(env, pathname) {
   const response = await env?.ASSETS?.fetch(new Request(`https://assets.local${pathname}`));
@@ -27,10 +27,13 @@ async function loadIndexableArtists(env) {
 
     // Keep durable artist URLs available to answer engines even when their
     // current event boards are empty. The pages state that honestly and fill
-    // again when future events are added.
+    // again when future events are added. Only an auto-promoted artist is gated
+    // on upcoming dates (the same rule as its robots meta and the sitemap).
+    const needsEvents = artistsMeta.some((artist) => artist?.promotion_source === AUTO_PROMOTED_ARTIST_SOURCE);
+    const events = needsEvents ? await loadJsonAsset(env, "/data/events.json") : [];
     const indexableSlugs = new Set(
       artistsMeta
-        .filter((artist) => artist?.indexing_status === INDEXABLE_ARTIST_STATUS)
+        .filter((artist) => artist && artistPageIndexable(artist, Array.isArray(events) ? events : []))
         .map((artist) => String(artist?.slug || "").trim())
         .filter(Boolean)
     );

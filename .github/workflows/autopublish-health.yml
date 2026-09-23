@@ -1,0 +1,90 @@
+name: Auto-publish health
+
+# Rollback sensor for auto-promoted artists; see docs/OPERATIONS.md. Demotion
+# PRs auto-merge as publish class `demote`, which the kill switch never pauses.
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: autopublish-health
+  cancel-in-progress: false
+
+jobs:
+  sense:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Sense and demote
+        id: sense
+        run: |
+          set -euo pipefail
+          node scripts/check-autopublish-health.mjs --self-test && node scripts/demote-artist.mjs --self-test
+          node scripts/check-autopublish-health.mjs --json findings.json
+          COUNT=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("findings.json","utf8")).length)')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          if [ "$COUNT" -gt 0 ]; then
+            node -e 'for (const f of JSON.parse(require("fs").readFileSync("findings.json","utf8"))) console.log(`${f.slug}\t${f.reason}`)' |
+              while IFS=$'\t' read -r SLUG REASON; do node scripts/demote-artist.mjs --slug "$SLUG" --reason "$REASON" --write; done
+            npm run events:partition
+            node scripts/validate-status-counts.mjs --write
+            node scripts/audit-indexable-surface.mjs --write-status
+            npm run test:mvp
+            git diff --check
+          fi
+
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.sense.outputs.count != '0'
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open demotion PR
+        if: steps.sense.outputs.count != '0'
+        env:
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/autodemote-${TODAY}"
+          SUMMARY=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("findings.json","utf8")).map(f => `- \`${f.slug}\`: ${f.reason}`).join("\n"))')
+          git checkout -B "$BRANCH"
+          git add public/data/artists.json public/data/catalog.json public/data/events public/data/events-index.json PROJECT_STATUS.md
+          git commit -m "automation: demote auto-promoted artist(s) (${TODAY})"
+          node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" \
+          PR_TITLE="Auto-demote (${TODAY})" \
+          PR_LABEL="automation:autodemote" \
+          PR_AUTO_MERGE=true \
+          AUTOPUBLISH_CLASS=demote \
+          PR_BODY="$(printf '## Demoted by the auto-publish health sensor\n%s\n\nEach artist is back to a `review_required` shell with a `demoted` marker, so /api/out refuses its redirects and its catalog links are unpublished. To restore one, revert this PR (or its part) after fixing the cause.\n' "$SUMMARY")" \
+          node scripts/open-automation-pr.mjs

@@ -160,6 +160,9 @@ export const WATCHED_LANES = [
   // runs no validation against `main`, so like the sensors it is excluded from
   // the correlated red-main call. A stopped digest means the owner's
   // after-the-fact review silently stops, so one failure is a finding.
+  // The rollback sensor runs test:mvp before any demotion, so like the repair
+  // worker it shares main's gate and counts towards the red-main call.
+  { file: "autopublish-health.yml", name: "Auto-publish health", cadence: "daily 09:00", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "autopublish-digest.yml", name: "Auto-publish digest", cadence: "daily 08:30", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
 ];
 

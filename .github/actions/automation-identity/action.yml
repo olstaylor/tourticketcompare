@@ -36,15 +36,12 @@ runs:
         private-key: ${{ inputs.private-key }}
         owner: ${{ github.repository_owner }}
         repositories: ${{ github.event.repository.name }}
-        permission-contents: write
-        permission-pull-requests: write
-        permission-issues: write
-        permission-actions: write
-        permission-checks: read
-        # Read-only: the auto-publish kill switch is re-read live before every
-        # merge (scripts/lib/autopublish-guard.mjs); without this the read 403s
-        # and every merge is held fail-closed.
-        permission-variables: read
+        # No permission-* inputs, deliberately (owner decision 2026-09-23): the
+        # token then carries exactly the installation's permissions, which are
+        # the least-privilege boundary. GitHub's token API has no "variables"
+        # permission key, so an explicit list can never include Variables: read,
+        # which the kill switch needs (scripts/lib/autopublish-guard.mjs).
+        # Naming it returns 422 for every lane, as it did on 2026-09-23.
     - name: Configure Git and API identity
       id: configure
       shell: bash

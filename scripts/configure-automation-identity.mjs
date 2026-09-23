@@ -106,11 +106,10 @@ function selfTest() {
   const mint = action.runs.steps.find(s => s.id === 'app');
   assert.equal(mint.with.repositories, '${{ github.event.repository.name }}');
   assert.equal(mint.with['skip-token-revoke'], undefined);
-  assert.equal(mint.with['permission-administration'], undefined);
-  assert.equal(mint.with['permission-workflows'], undefined);
-  // The kill switch is read live before every merge; write would let a lane
-  // turn its own switch back on.
-  assert.equal(mint.with['permission-variables'], 'read');
+  // The token inherits the installation's permissions (App settings are the
+  // boundary). No explicit list: GitHub's token API cannot scope Variables, and
+  // any list omits it, which breaks the kill-switch read.
+  assert.deepEqual(Object.keys(mint.with).filter(k => k.startsWith('permission-')), [], 'mint must not narrow permissions');
   console.log('Automation identity self-test passed');
 }
 

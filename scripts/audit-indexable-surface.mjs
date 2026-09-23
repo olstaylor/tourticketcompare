@@ -472,7 +472,7 @@ function gateSurfaceAt(ts) {
     if (!slug) continue;
     rendered.artist += 1; // an artist route renders whether or not it is indexable
     const meta = artistsMeta.find((record) => String(record?.slug || "").trim() === slug) || {};
-    if (artistIndexabilityModule.artistPageIndexable(meta.indexing_status, events, slug, ts)) {
+    if (artistIndexabilityModule.artistPageIndexable(meta, events, slug, ts)) {
       indexable.add(`/artists/${slug}`);
     }
   }

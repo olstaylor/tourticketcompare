@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 EVENTS_PATH = ROOT / "public" / "data" / "events.json"
 INDEX_PATH = ROOT / "public" / "data" / "events-index.json"
 PER_ARTIST_DIR = ROOT / "public" / "data" / "events"
+ARTISTS_PATH = ROOT / "public" / "data" / "artists.json"
+INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content"
 
 INDEX_FIELDS = (
     "id",
@@ -55,6 +57,26 @@ def group_by_artist(events: list[dict[str, Any]]) -> dict[str, list[dict[str, An
     return grouped
 
 
+def zero_event_indexable_slugs(grouped: dict[str, list[dict[str, Any]]]) -> list[str]:
+    """Indexable artists with no event rows at all.
+
+    Each still gets a partition — an empty array — so the artist route reads a
+    small file instead of falling back to parsing the full events.json on
+    every request (loadArtistEvents in functions/[[path]].js).
+    """
+    if not ARTISTS_PATH.exists():
+        return []
+    artists = json.loads(ARTISTS_PATH.read_text(encoding="utf-8"))
+    slugs: list[str] = []
+    for artist in artists if isinstance(artists, list) else []:
+        if not isinstance(artist, dict) or artist.get("indexing_status") != INDEXABLE_ARTIST_STATUS:
+            continue
+        slug = str(artist.get("slug") or "").strip().lower()
+        if slug and slug not in grouped:
+            slugs.append(slug)
+    return slugs
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Split events.json into index and per-artist partitions")
     parser.add_argument(
@@ -84,7 +106,14 @@ def main() -> int:
         target = PER_ARTIST_DIR / f"{slug}.json"
         target.write_text(json.dumps(artist_events, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    print(f"Wrote {INDEX_PATH} and {len(grouped)} artist files to {PER_ARTIST_DIR}")
+    empty_slugs = zero_event_indexable_slugs(grouped)
+    for slug in empty_slugs:
+        (PER_ARTIST_DIR / f"{slug}.json").write_text("[]\n", encoding="utf-8")
+
+    print(
+        f"Wrote {INDEX_PATH} and {len(grouped) + len(empty_slugs)} artist files to {PER_ARTIST_DIR}"
+        f" ({len(empty_slugs)} empty, for indexable artists with no events)"
+    )
     return 0
 
 

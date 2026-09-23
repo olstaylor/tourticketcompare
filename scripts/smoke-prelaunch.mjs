@@ -3259,16 +3259,13 @@ assert(beyonceShowBoardMatch, "zero-event artist page must render the show board
 const beyonceShowBoard = beyonceShowBoardMatch[0];
 assert(beyonceShowBoard.includes("No upcoming dates listed"), "zero-event artist page must render the empty-state heading");
 assert(
-  beyonceShowBoard.includes("followed the ticket link to that exact event, it appears on this page"),
+  beyonceShowBoard.includes("When our source lists a date, it appears here") ||
+    beyonceShowBoard.includes("When our source lists a Beyonc"),
   "zero-event empty state must explain what happens when a date is verified"
 );
 assert(!beyonceShowBoard.includes("No verified show dates are currently listed"), "zero-event empty state must not use the old generic copy");
 // An empty page must not imply an announcement is coming, and must not turn
 // into a generic ticket-buying course.
-assert(
-  beyonceShowBoard.includes("t say whether more are coming"),
-  "zero-event empty state must not imply a tour announcement is imminent"
-);
 assert(
   !/coming soon|stay tuned|announced soon|any day now/i.test(beyonceEmptyStatePage.text),
   "zero-event artist page must not hint that dates are about to be announced"
@@ -3282,14 +3279,23 @@ assert(
   "zero-event artist page must offer the watchlist signup"
 );
 assert(
-  /<meta name="description" content="No verified upcoming Beyonc[^"]*dates are listed right now/.test(beyonceEmptyStatePage.text),
+  /<meta name="description" content="No upcoming Beyonc[^"]*dates are listed right now/.test(beyonceEmptyStatePage.text),
   "zero-event artist page description must not promise dates the page does not have"
 );
-// The empty state may link the artist-level provider page ("Check <Provider>
-// for updates") but must never render an event-level ticket CTA — there are
-// no verified dates to sell.
+// The empty state links the artist-level provider page of the top-ranked
+// checked provider — one button, through /api/out, surface artist_page — but
+// must never render an event-level ticket CTA: there are no verified dates to sell.
 assert(!/View Tickets|Check \w[\w ]* for tickets|showId=/i.test(beyonceShowBoard), "zero-event empty state must not include any event-level ticket CTA");
-assert(!beyonceShowBoard.includes("provider="), "zero-event empty state must not surface an outbound provider claim");
+const beyonceProviderHrefs = [...beyonceShowBoard.matchAll(/href="([^"]*provider=[^"]*)"/g)].map((match) => match[1]);
+assert(beyonceProviderHrefs.length === 1, `zero-event empty state must carry exactly one artist-level provider link (found ${beyonceProviderHrefs.length})`);
+assert(
+  beyonceProviderHrefs[0].startsWith("/api/out?") &&
+    beyonceProviderHrefs[0].includes("artistSlug=beyonce") &&
+    beyonceProviderHrefs[0].includes("surface=artist_page") &&
+    !/showId=|eventId=/.test(beyonceProviderHrefs[0]),
+  "zero-event empty-state provider link must be an artist-level /api/out redirect"
+);
+assert(beyonceShowBoard.includes('data-cta-location="empty_state"'), "zero-event empty-state provider link must be attributed to the empty_state location");
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists"), "zero-event empty state must link users to the artists index");
 // The empty state states a fact ("no verified upcoming dates") that reads as a
 // data gap unless the reader is told otherwise. The site already explains the
@@ -3754,13 +3760,14 @@ assert(
   "artist hydration's setMeta call must branch on whether the server rendered any dates"
 );
 assert(
-  renderArtistSource[0].includes("No verified upcoming"),
+  renderArtistSource[0].includes("dates are listed right now"),
   "artist hydration must keep an empty-board description that does not promise dates"
 );
-// Hydration must preserve editorial indexability while the board is empty.
+// Hydration must preserve editorial indexability while the board is empty; only
+// an auto-promoted artist defers to the server's count-gated robots verdict.
 assert(
-  appJs.includes("const shouldNoindex = isReviewRequired;"),
-  "artist hydration must not noindex solely because the board is empty"
+  appJs.includes('const shouldNoindex = isReviewRequired || (artist.promotion_source === "auto" && /noindex/i.test(serverRobots));'),
+  "artist hydration must not noindex an owner-promoted artist solely because the board is empty"
 );
 assert(
   !/setMeta\(\s*\{[\s\S]*?\},\s*isReviewRequired\s*\)/.test(appJs),

@@ -630,7 +630,7 @@ function findArtist(slug) {
   const artist = (catalog.artists || []).find((a) => slugify(a.slug) === slug);
   if (!artist) return undefined;
   const meta = artistsMeta.find((m) => slugify(m.slug) === slug) || {};
-  return { ...artist, indexing_status: meta.indexing_status || "" };
+  return { ...artist, indexing_status: meta.indexing_status || "", promotion_source: meta.promotion_source || "" };
 }
 
 function findGuide(slug) {
@@ -2410,19 +2410,19 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     wrap,
     "p",
     Array.isArray(pastShows) && pastShows.length
-      ? `We have no verified upcoming ${name} dates on file. The most recent dates we tracked have already taken place, and we can't say whether more are coming.`
-      : `We have no verified upcoming ${name} dates on file, and we can't say whether more are coming.`
+      ? `We have no upcoming ${name} dates on file. The dates we tracked have already taken place, and we can't say whether more are coming.`
+      : `We have no upcoming ${name} dates on file, and we can't say whether any are coming.`
   );
   text(
     wrap,
     "p",
-    "When a date is confirmed by our source and we've followed the ticket link to that exact event, it appears on this page with the ticket sites that cover it.",
+    `When our source lists a ${name} date, it appears here, with a ticket button once its link has passed our checks.`,
     "muted"
   );
   // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
   const explainer = document.createElement("p");
   explainer.className = "muted";
-  explainer.append("An empty board is a normal state here, not a sign something is broken. ");
+  explainer.append("An empty board is normal between tours, not a sign something is broken. ");
   const explainerLink = document.createElement("a");
   explainerLink.className = "text-link";
   explainerLink.href = EMPTY_BOARD_EXPLAINER_PATH;
@@ -2450,7 +2450,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     form.action = "/api/signup";
     form.dataset.watchlistShell = artistSlug;
     text(form, "h4", `Get told when ${name} dates land`);
-    text(form, "p", `Leave your email and we'll email you once we've published confirmed ${name} dates with checked ticket links. Nothing else.`, "muted");
+    text(form, "p", `Leave your email and we'll let you know when we list confirmed ${name} dates. Nothing else.`, "muted");
     const hiddenArtist = document.createElement("input");
     hiddenArtist.type = "hidden";
     hiddenArtist.name = "artistSlug";
@@ -2503,7 +2503,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     });
     // Secondary: on an empty board the signup is the primary action, and the
     // artist-level provider page is a "check for yourself" fallback.
-    const providerCta = buttonLink(`Check ${providerName} for updates`, withCtaLocation(`/api/out?${params.toString()}`, "empty_state"), "secondary");
+    const providerCta = buttonLink(`See ${name} on ${providerName}`, withCtaLocation(`/api/out?${params.toString()}`, "empty_state"), "secondary");
     providerCta.dataset.ctaProvider = providerSlug;
     providerCta.dataset.ctaArtist = artistSlug;
     providerCta.dataset.ctaPriceSnapshot = "absent";
@@ -3189,8 +3189,12 @@ function renderArtist(artist) {
   const serverDescription = document.querySelector('meta[name="description"]')?.getAttribute("content") || "";
   // Artist-page indexability is editorial. Future-date availability controls
   // the board and the index sections, but an empty artist page remains a valid
-  // indexable destination with a truthful empty state.
-  const shouldNoindex = isReviewRequired;
+  // indexable destination with a truthful empty state. The one exception is an
+  // auto-promoted artist, which the server gates on its count of upcoming
+  // dates (artistPageIndexable); read that verdict off the server-rendered
+  // robots meta rather than recomputing it here.
+  const serverRobots = document.querySelector('meta[name="robots"]')?.getAttribute("content") || "";
+  const shouldNoindex = isReviewRequired || (artist.promotion_source === "auto" && /noindex/i.test(serverRobots));
   setMeta(
     {
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
@@ -3198,7 +3202,7 @@ function renderArtist(artist) {
         ? artist.meta_description ||
           `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
         : serverDescription ||
-          `No verified upcoming ${artist.name} dates are listed right now. See what we check before a date is published, and get told when new ones land.`
+          `No upcoming ${artist.name} dates are listed right now. See where to find ${artist.name} tickets and get told when dates are confirmed.`
     },
     shouldNoindex
   );
@@ -3229,7 +3233,7 @@ function renderArtist(artist) {
     "Upcoming dates",
     serverShows.length
       ? "Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it."
-      : "Dates appear here once a source record confirms them and we've followed the ticket link.",
+      : "Dates appear here once our source confirms them.",
     "Some links earn us a commission — this never affects your price."
   );
   // Shared price/link help and the provenance block are both server-rendered

@@ -55,11 +55,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154077",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -73,7 +73,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {

@@ -42,6 +42,7 @@ jobs:
           node scripts/report-roster-candidates.mjs --self-test
 
       - name: Forecast, capture and screen
+        id: forecast
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
@@ -49,13 +50,22 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p artifacts/roster
-          node scripts/report-roster-forecast.mjs --candidates --json artifacts/roster/forecast.json > /dev/null
-          # No discovery verdict (missing key, or every market lookup failed) is a
-          # provider fault, never an empty roster: fail rather than blank the issue.
-          node -e 'const c=require("./artifacts/roster/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'
-          node -e 'const r=require("./artifacts/roster/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/roster/names.txt
-          # Owner requests (data/artist-requests.json) go first, flagged "requested".
+          # Owner requests (data/artist-requests.json) are screened by their own
+          # direct lookups, so a failed forecast must not drop them: record the
+          # failure, still merge and screen the requests, and fail the run at the
+          # end ("Fail on a forecast outage"). No discovery verdict is a provider
+          # fault, never an empty roster.
+          FORECAST_OK=true
+          node scripts/report-roster-forecast.mjs --candidates --json artifacts/roster/forecast.json > /dev/null || FORECAST_OK=false
+          if [ "$FORECAST_OK" = true ] && ! node -e 'const c=require("./artifacts/roster/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'; then FORECAST_OK=false; fi
+          : > artifacts/roster/names.txt
+          if [ "$FORECAST_OK" = true ]; then
+            node -e 'const r=require("./artifacts/roster/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/roster/names.txt
+          fi
+          echo "forecast_ok=$FORECAST_OK" >> "$GITHUB_OUTPUT"
+          # Owner requests go first, flagged "requested".
           node scripts/artist-requests.mjs --merge artifacts/roster/names.txt --limit 20
+          if [ "$FORECAST_OK" != true ] && [ ! -s artifacts/roster/names.txt ]; then echo "forecast failed and there are no open requests" >&2; exit 1; fi
           if [ -s artifacts/roster/names.txt ]; then
             node scripts/propose-onboarding-batch.mjs --names-file artifacts/roster/names.txt --limit 20 --output artifacts/roster/manifest.json
           else
@@ -70,3 +80,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/report-roster-candidates.mjs artifacts/roster/manifest.json
+
+      - name: Fail on a forecast outage
+        if: always() && steps.forecast.outputs.forecast_ok == 'false'
+        run: |
+          echo "::error::The roster forecast failed; only owner requests were screened this run." >&2
+          exit 1

@@ -276,7 +276,7 @@ async function screenRow(row, sg, tm, tmApiKey, { denylist, existingTitles, dela
     denylist,
     urlStatus,
     existingTitles,
-    requested: requestedNames.has(row.name)
+    requested: requestedNames.has(normalizeName(row.name))
   });
 }
 
@@ -397,7 +397,9 @@ async function main() {
       // data/artist-requests.json (screenCandidate's relaxed D3/D4).
       const [name, id = '', flag = ''] = line.split('\t').map((part) => part.trim());
       names.push(name);
-      if (flag === 'requested') requestedNames.add(name);
+      // Keyed by normalized name: buildRow() swaps row.name for SeatGeek's
+      // canonical spelling (ROSALÍA → Rosalia), which D1 already accepts.
+      if (flag === 'requested') requestedNames.add(normalizeName(name));
       // One name forecast under two different ids is ambiguous: pin neither.
       if (id) pinnedTm.set(name, pinnedTm.has(name) && pinnedTm.get(name) !== id ? AMBIGUOUS_PIN : id);
     }
@@ -452,7 +454,7 @@ async function main() {
     // Auto-promote screen (criteria D1–D5). Informational in this propose-only
     // script: it records whether the row would qualify, and never promotes.
     if (!row.exclusion) row.screen = await screenRow(row, sg, tm, tmApiKey, screenContext);
-    if (requestedNames.has(row.name)) row.requested = true;
+    if (requestedNames.has(normalizeName(name)) || requestedNames.has(normalizeName(row.name))) row.requested = true;
     rows.push(row);
   }
 

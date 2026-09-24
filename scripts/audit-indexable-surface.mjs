@@ -269,6 +269,8 @@ if (SELF_TEST) {
   // otherwise until 2026-08-21 and mislabelled every dateless artist.
   assert(!/noindex/.test(emptyLine), "empty-board line never claims a noindexed artist page");
   assert(emptyLine.includes("1 of them (latto) have never had an event record"), "never-had-events subset is named");
+  const autoLine = renderEmptyBoardLine({ ...emptyInput, autoNoindexSlugs: ["latto"] });
+  assert(autoLine.includes("owner-promoted ones still `index,follow`") && autoLine.includes("1 auto-promoted artist(s) (latto) are `noindex,follow`"), "an auto-promoted empty board is reported as noindex, not index,follow");
   assert(
     !renderEmptyBoardLine({ ...emptyInput, emptySlugs: [], zeroEventSlugs: [] }).includes("leaving"),
     "with no empty boards the sentence states the all-dated case instead"

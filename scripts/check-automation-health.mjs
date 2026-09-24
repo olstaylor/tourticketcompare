@@ -165,6 +165,9 @@ export const WATCHED_LANES = [
   { file: "autopublish-health.yml", name: "Auto-publish health", cadence: "daily 09:00", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
   // Propose-only screen: writes an issue, runs no validation against main.
   { file: "roster-candidates.yml", name: "Roster candidates", cadence: "daily 10:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // Auto-promote runs test:mvp before it writes, so it shares main's gate. It
+  // ends green at its first step while AUTOPROMOTE_ENABLED is off.
+  { file: "auto-promote.yml", name: "Auto-promote artists", cadence: "daily 10:45", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "autopublish-digest.yml", name: "Auto-publish digest", cadence: "daily 08:30", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
 ];
 

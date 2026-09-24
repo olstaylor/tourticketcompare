@@ -55,15 +55,21 @@ export function renderSurfaceLine(summary) {
  * empty boards, never robots state — every editorially-indexable artist here
  * renders `index,follow` whether or not it has a date.
  */
-export function renderEmptyBoardLine({ generatedAt, editoriallyIndexable, emptySlugs, zeroEventSlugs }) {
+export function renderEmptyBoardLine({ generatedAt, editoriallyIndexable, emptySlugs, zeroEventSlugs, autoNoindexSlugs = [] }) {
   const live = editoriallyIndexable - emptySlugs.length;
+  // Auto-promoted artists are the exception to "an empty board stays indexed":
+  // below 3 upcoming dates their page is noindex (artistPageIndexable).
+  const robots = autoNoindexSlugs.length ? "owner-promoted ones still `index,follow`" : "still `index,follow`";
   const empties = emptySlugs.length
-    ? `${emptySlugs.length} of the ${editoriallyIndexable} editorially-indexable artists have no upcoming date and render an empty board (still \`index,follow\`) — ${emptySlugs.join(", ")} — leaving **${live} artist pages with upcoming dates**`
+    ? `${emptySlugs.length} of the ${editoriallyIndexable} editorially-indexable artists have no upcoming date and render an empty board (${robots}) — ${emptySlugs.join(", ")} — leaving **${live} artist pages with upcoming dates**`
     : `every one of the ${editoriallyIndexable} editorially-indexable artists currently has an upcoming date, so none renders an empty board`;
   const neverHad = zeroEventSlugs.length
     ? `; ${zeroEventSlugs.length} of them (${zeroEventSlugs.join(", ")}) have never had an event record`
     : "";
-  return `Generated ${iso(generatedAt)}: ${empties}${neverHad}.`;
+  const autoNoindex = autoNoindexSlugs.length
+    ? `; ${autoNoindexSlugs.length} auto-promoted artist(s) (${autoNoindexSlugs.join(", ")}) are \`noindex,follow\` until they have 3 upcoming dates`
+    : "";
+  return `Generated ${iso(generatedAt)}: ${empties}${neverHad}${autoNoindex}.`;
 }
 
 // Each entry owns one generated sentence. `re` must capture the replaceable
@@ -141,5 +147,8 @@ export function computeEmptyBoards({ artistsMeta, events, artistIndexabilityModu
     emptySlugs.push(slug);
     if (!eventCount.get(slug)) zeroEventSlugs.push(slug);
   }
-  return { generatedAt: now, editoriallyIndexable: editorial.length, emptySlugs, zeroEventSlugs };
+  const autoNoindexSlugs = editorial
+    .filter((artist) => artist?.promotion_source === "auto" && !artistIndexabilityModule.artistPageIndexable(artist, events, artist.slug, now))
+    .map((artist) => String(artist.slug).trim());
+  return { generatedAt: now, editoriallyIndexable: editorial.length, emptySlugs, zeroEventSlugs, autoNoindexSlugs };
 }

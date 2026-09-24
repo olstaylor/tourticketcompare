@@ -11,9 +11,13 @@ import { readFileSync } from "node:fs";
 
 export const LABEL = "automation:roster-candidates";
 
-export function renderCandidates(manifest) {
+export function renderCandidates(manifest, run = null) {
   const rows = manifest.artists || [];
-  const pass = rows.filter((r) => r.screen?.eligible);
+  // With a run verdict, a row the run held no longer reads as passing; only the
+  // rows it held after they passed the screen get the run section.
+  const runHeld = new Map((run?.held || []).map((h) => [h.slug, h]));
+  const pass = rows.filter((r) => r.screen?.eligible && !runHeld.has(r.slug));
+  const heldAfterScreen = rows.filter((r) => r.screen?.eligible && runHeld.has(r.slug)).map((r) => runHeld.get(r.slug));
   const held = rows.filter((r) => !r.screen?.eligible);
   const stat = (r) => (r.screen?.stats ? ` — ${r.screen.stats.qualifying} dates, ${r.screen.stats.cities} cities, ${Math.round(r.screen.stats.primary_share * 100)}% primary` : "");
   const lines = [
@@ -29,6 +33,22 @@ export function renderCandidates(manifest) {
     `### Not matched (${(manifest.excluded || []).length})`,
     (manifest.excluded || []).map((r) => `- ${r.name}: ${r.exclusion}`).join("\n") || "None.",
   ];
+  // The auto-promote job's own verdict, when it published this issue.
+  if (run) {
+    // Written after the publish step: a promotion is only claimed once its PR
+    // was opened; otherwise the same rows are reported as not published.
+    const published = run.outcome === "success";
+    lines.push(
+      "",
+      published
+        ? `### Auto-promote PR opened this run (${run.promoted.length}) — see the \`automation:autopromote\` PR for its merge`
+        : `### Not published this run (${run.promoted.length}; publish step: ${run.outcome || "not reached"})`,
+      run.promoted.map((p) => `- **${p.name || p.slug}** (\`${p.slug}\`) · ${p.seo_title}`).join("\n") || "None.",
+      "",
+      `### Passed the screen, held by the auto-promote run (${heldAfterScreen.length})`,
+      heldAfterScreen.map((h) => `- \`${h.slug}\`: ${h.reasons.join("; ")}`).join("\n") || "None.",
+    );
+  }
   return lines.join("\n");
 }
 
@@ -43,7 +63,20 @@ async function gh(method, path, body) {
 }
 
 async function main(manifestPath) {
-  const body = renderCandidates(JSON.parse(readFileSync(manifestPath, "utf8")));
+  const runIndex = process.argv.indexOf("--run");
+  let outcome = process.env.PUBLISH_OUTCOME || "";
+  // A green publish step is not proof of a PR: the helper exits 0 after only
+  // pushing the branch when Actions may not open PRs. Confirm one exists.
+  if (outcome === "success" && process.env.AUTOPROMOTE_BRANCH) {
+    const owner = String(process.env.GITHUB_REPOSITORY || "").split("/")[0];
+    const prs = await gh("GET", `/pulls?state=all&head=${encodeURIComponent(`${owner}:${process.env.AUTOPROMOTE_BRANCH}`)}`);
+    // Only a PR for the commit this run pushed counts; an earlier same-day PR
+    // on the reused branch name does not.
+    const sha = process.env.AUTOPROMOTE_SHA || "";
+    if (!prs.some((pr) => sha && pr.head?.sha === sha)) outcome = "no PR opened for this run's commit (branch pushed only)";
+  }
+  const run = runIndex === -1 ? null : { ...JSON.parse(readFileSync(process.argv[runIndex + 1], "utf8")), outcome };
+  const body = renderCandidates(JSON.parse(readFileSync(manifestPath, "utf8")), run);
   if (process.argv.includes("--dry-run")) return console.log(body);
   const open = await gh("GET", `/issues?state=open&labels=${encodeURIComponent(LABEL)}`);
   if (open[0]) await gh("PATCH", `/issues/${open[0].number}`, { body });
@@ -60,13 +93,18 @@ function selfTest() {
     ],
     excluded: [{ name: "Journey", exclusion: "no exact-name SeatGeek performer match — identity unresolved" }],
   });
-  const ok = body.includes("### Pass the screen (1)") && body.includes("**Avery Anna** (`avery-anna`): D3") && body.includes("- Journey: no exact-name");
+  const kenny = { name: "Kenny Chesney", slug: "kenny-chesney", screen: { eligible: true, reasons: [], seo_title: "t" } };
+  const withRun = renderCandidates({ generated_at: "2026-09-24", artists: [kenny], excluded: [] }, { promoted: [], held: [{ slug: "kenny-chesney", reasons: ["D1: SeatGeek performer did not recapture identically by id"] }], outcome: "failure" });
+  const ok = body.includes("### Pass the screen (1)") && body.includes("**Avery Anna** (`avery-anna`): D3") && body.includes("- Journey: no exact-name")
+    && withRun.includes("### Pass the screen (0)") && withRun.includes("held by the auto-promote run (1)") && withRun.includes("`kenny-chesney`: D1: SeatGeek")
+    && withRun.includes("### Not published this run (0; publish step: failure)");
   console.log(`[roster-candidates] self-test: ${ok ? "all assertions passed" : "FAILED"}`);
   return ok ? 0 : 1;
 }
 
 if (process.argv.includes("--self-test")) process.exit(selfTest());
-const manifestPath = process.argv.slice(2).find((a) => !a.startsWith("--"));
+const argv = process.argv.slice(2);
+const manifestPath = argv.find((a, i) => !a.startsWith("--") && argv[i - 1] !== "--run");
 if (!manifestPath) {
   console.error("usage: report-roster-candidates.mjs <manifest.json> [--dry-run]");
   process.exit(2);

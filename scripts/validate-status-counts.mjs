@@ -306,9 +306,11 @@ function checkTable(text, expectedRows) {
     missing.push({ keys: ["per-artist-table"], reason: "table not found" });
     return { divergences, missing, lines, range };
   }
+  const seen = new Set();
   for (let i = range.dataStart; i < range.dataEnd; i += 1) {
     const cells = parseRow(lines[i]);
     const slug = cells[0];
+    seen.add(slug);
     const expected = expectedRows.get(slug);
     if (!expected) continue; // rows without a known slug are left alone
     const foundDate = (cells[TABLE_DATE_COL] || "").trim();
@@ -322,13 +324,23 @@ function checkTable(text, expectedRows) {
       }
     }
   }
+  // An artist with no row (a newly promoted one) is a divergence, not a skip.
+  for (const slug of expectedRows.keys()) {
+    if (!seen.has(slug)) divergences.push({ key: `table:${slug}.row`, expected: "row", found: "(missing)" });
+  }
   return { divergences, missing, lines, range };
 }
 
+function tableRow(slug, expected, notes) {
+  return `| ${slug} | ${expected.last_verified_at} | ${expected.events} | ${expected.seatgeek_url} | ${expected.sg_verified} | ${formatRecheck(expected.needs_recheck)} | — | ${notes} |`;
+}
+
 function applyTableWrites(lines, range, expectedRows) {
+  const seen = new Set();
   for (let i = range.dataStart; i < range.dataEnd; i += 1) {
     const cells = parseRow(lines[i]);
     const slug = cells[0];
+    seen.add(slug);
     const expected = expectedRows.get(slug);
     if (!expected) continue;
     cells[TABLE_DATE_COL] = expected.last_verified_at;
@@ -338,6 +350,10 @@ function applyTableWrites(lines, range, expectedRows) {
     cells[TABLE_COLS.needs_recheck] = formatRecheck(expected.needs_recheck);
     lines[i] = `| ${cells.join(" | ")} |`;
   }
+  const added = [...expectedRows.keys()].filter((slug) => !seen.has(slug))
+    // Notes are human prose: an appended row leaves them empty for the owner.
+    .map((slug) => tableRow(slug, expectedRows.get(slug), ""));
+  lines.splice(range.dataEnd, 0, ...added);
   return lines.join("\n");
 }
 
@@ -487,6 +503,9 @@ function selfTest() {
   // b has 2 events (one needs_recheck, one machine_high_confidence), so the
   // Events column becomes 2 and the needs_recheck column bolds to **1**.
   assert("table b recheck bolded and date refreshed", /\| b \| 2026-07-30 \| 2 \| 0 \| 0 \| \*\*1\*\* \|/.test(tableFixed));
+  // An artist with no row (c) is reported, and --write appends one.
+  assert("missing artist row detected", t.divergences.some((d) => d.key === "table:c.row"));
+  assert("missing artist row appended inside the table", /\| c \| null \| 0 \| 0 \| 0 \| 0 \| — \|[^\n]*\n\ntrailer/.test(tableFixed));
   const t2 = checkTable(tableFixed, rows);
   assert("table clean after write", t2.divergences.length === 0);
 

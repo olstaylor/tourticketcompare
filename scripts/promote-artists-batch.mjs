@@ -155,7 +155,7 @@ function vtlEntryText(key, { artistSlug, provider, linkId, redirectUrl }) {
   ].join('\n');
 }
 
-export function applyPlans(plans, { artists, catalog, outSource, registry }) {
+export function applyPlans(plans, { artists, catalog, outSource, registry, provenanceNote = null }) {
   let newOutSource = outSource;
   for (const plan of plans) {
     const { slug, sgUrl, sgId, tmUrl, tmId, today } = plan;
@@ -204,7 +204,7 @@ export function applyPlans(plans, { artists, catalog, outSource, registry }) {
       (match, inner) => `const VERIFIED_TICKET_LINKS = {${inner},\n${entries.join(',\n')}\n};`
     );
 
-    const provenance = `Batch-promoted ${today}: SeatGeek performer id + URL captured from the /2/performers API${tmUrl ? '; Ticketmaster attraction id + URL captured from the Discovery attractions API' : '; no Ticketmaster capture'} (exact-name match, human batch spot-check required before merge).`;
+    const provenance = provenanceNote ? provenanceNote(plan) : `Batch-promoted ${today}: SeatGeek performer id + URL captured from the /2/performers API${tmUrl ? '; Ticketmaster attraction id + URL captured from the Discovery attractions API' : '; no Ticketmaster capture'} (exact-name match, human batch spot-check required before merge).`;
     if (plan.registryEntry) {
       plan.registryEntry.ticketmaster_attraction_id = tmId || plan.registryEntry.ticketmaster_attraction_id || null;
       plan.registryEntry.ticketmaster_artist_url = tmUrl || plan.registryEntry.ticketmaster_artist_url || null;
@@ -398,7 +398,10 @@ async function main() {
   console.log('  npm run validate:artist-providers && npm run providers:identities:validate && npm run test:mvp');
 }
 
-main().catch((err) => {
-  console.error(`promote-artists-batch failed: ${err.message}`);
-  process.exit(2);
-});
+// Importable (auto-promote.mjs reuses evaluateCandidate/applyPlans); runs only as a CLI.
+if (import.meta.url === (await import('node:url')).pathToFileURL(process.argv[1] || '').href) {
+  main().catch((err) => {
+    console.error(`promote-artists-batch failed: ${err.message}`);
+    process.exit(2);
+  });
+}

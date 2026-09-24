@@ -875,15 +875,18 @@ assert(
 // Artist-page indexability is editorial. Future-date state controls the
 // primary/secondary presentation sections but does not remove durable artist
 // URLs from the sitemap.
-const { artistHasUpcomingShow } = await import(pathToFileURL(path.join(root, "functions/_artist-indexability.js")));
-const editoriallyIndexableSlugs = artists
-  .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
-  .map((artist) => normalizeSlug(artist?.slug))
-  .filter(Boolean);
-for (const slug of editoriallyIndexableSlugs) {
+// An auto-promoted artist is the exception: it is listed only while it has
+// the D-tier minimum of upcoming dates (artistPageIndexable).
+const editoriallyIndexableSlugs = [];
+const { artistHasUpcomingShow, artistPageIndexable } = await import(pathToFileURL(path.join(root, "functions/_artist-indexability.js")));
+for (const artist of artists.filter((a) => a?.indexing_status === "indexable_with_substantial_content")) {
+  const slug = normalizeSlug(artist?.slug);
+  if (!slug) continue;
+  if (artistPageIndexable(artist, events)) editoriallyIndexableSlugs.push(slug);
+  const listed = sitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`);
   assert(
-    sitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
-    `/sitemap.xml should include editorially indexable artist ${slug}`
+    listed === artistPageIndexable(artist, events),
+    `/sitemap.xml should ${listed ? "not " : ""}include indexable artist ${slug}`
   );
 }
 

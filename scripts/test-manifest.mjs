@@ -93,6 +93,7 @@ export const STEPS = [
   { id: "roster:candidates:self-test",            lane: "units",  run: "node scripts/report-roster-candidates.mjs --self-test" },
   { id: "autopublish:health:self-test",           lane: "units",  run: "node scripts/check-autopublish-health.mjs --self-test" },
   { id: "autopublish:demote:self-test",           lane: "units",  run: "node scripts/demote-artist.mjs --self-test" },
+  { id: "autopromote:self-test",                  lane: "units",  run: "node scripts/auto-promote.mjs --self-test" },
   { id: "test:artist-demotion",                   lane: "units",  run: "node scripts/artist-demotion.test.mjs" },
   { id: "status:validate",                        lane: "quick",  run: "npm run status:validate" },
   { id: "content:owner-copy:self-test",           lane: "units",  run: "node scripts/check-owner-copy.mjs --self-test" },

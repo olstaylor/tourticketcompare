@@ -238,7 +238,8 @@ const isoDate = (ts) => new Date(ts).toISOString().slice(0, 10);
  */
 export function surfaceAt(events, artists, now) {
   const indexableArtists = (artists || []).filter((a) =>
-    artistPageIndexable(a.indexing_status, events, a.slug, now)
+    // The full record, so an auto-promoted artist's 3-date gate applies here too.
+    artistPageIndexable(a, events, a.slug, now)
   );
   const cities = deriveCities(events, { now }).filter((c) => c.indexable);
   const venues = deriveVenues(events, { now }).filter((v) => v.indexable);
@@ -369,7 +370,9 @@ export function batchSurfaceContribution(events, artists, scored, baseNow, horiz
     projectedArtists.push({
       slug: candidate.slug,
       name: candidate.name,
-      indexing_status: INDEXABLE_ARTIST_STATUS
+      indexing_status: INDEXABLE_ARTIST_STATUS,
+      // Candidates would join through the auto-promote lane, so the 3-date gate applies.
+      promotion_source: "auto"
     });
   }
 
@@ -420,6 +423,7 @@ export function artistDropouts(events, artists, baseNow) {
     rows.push({
       slug: artist.slug,
       name: artist.name || artist.slug,
+      auto: artist.promotion_source === "auto",
       live,
       upcoming: stamps.length,
       lastShow: lastShow ? isoDate(lastShow) : null,
@@ -841,9 +845,10 @@ export function renderReport(report) {
     if (breakEven > 0) {
       lines.push(
         `**Break-even: ${breakEven} indexable pages per 30 days.** A roster batch that adds fewer than`,
-        "this is net negative however many artists it onboards. Artist pages are excluded from the",
-        "decay — they never fall out — so every page in this figure is a city, venue or artist-city",
-        "page, and refilling it means upcoming dates in markets that already have some.",
+        "this is net negative however many artists it onboards. Owner-promoted artist pages never fall",
+        "out, so apart from auto-promoted artists dropping below 3 upcoming dates, every page in this",
+        "figure is a city, venue or artist-city page, and refilling it means upcoming dates in markets",
+        "that already have some.",
         ""
       );
     } else {
@@ -868,8 +873,8 @@ export function renderReport(report) {
   }
 
   if (dark.length) {
-    lines.push(`## Already dateless (empty board, still indexable) — ${dark.length}`, "");
-    lines.push(dark.map((d) => `- ${d.name} (\`${d.slug}\`)`).join("\n"), "");
+    lines.push(`## Already dateless (empty board) — ${dark.length}`, "");
+    lines.push(dark.map((d) => `- ${d.name} (\`${d.slug}\`)${d.auto ? " — auto-promoted, so noindex until it has 3 upcoming dates" : " — still indexable"}`).join("\n"), "");
   }
 
   if (later.length) {
@@ -1261,7 +1266,11 @@ function runSelfTest() {
   // deliberately rather than as a side effect.
   const unseeded = batchSurfaceContribution([], [], batchPair, base, 180, 2, 10);
   assert("projections alone never satisfy the publishable-destination gate", unseeded.withBatch.venues === 0 && unseeded.withBatch.cities === 0);
-  assert("promoted artist pages still count without any publishable show", unseeded.withBatch.artists === 2);
+  // Candidates join as auto-promoted, so each needs 3 upcoming dates at the
+  // horizon for its artist page to count (artistPageIndexable's D-tier gate).
+  assert("auto-promoted candidates below 3 dates add no artist page", unseeded.withBatch.artists === 0);
+  const threeDates = batchSurfaceContribution([], [], [{ slug: "zeta", name: "Zeta", events: [mkEvent(1), mkEvent(2), mkEvent(3)] }], base, 180, 1, 10);
+  assert("an auto-promoted candidate with 3 dates adds its artist page", threeDates.withBatch.artists === 1);
   assert(
     "batch contribution withholds a verdict without a break-even rate",
     batchSurfaceContribution([], [], [], base, 90, 0).beatsDecay === null

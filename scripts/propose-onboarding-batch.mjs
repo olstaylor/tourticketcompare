@@ -44,7 +44,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { slugify } from './lib/slugify.mjs';
-import { COLLISION_PATTERN, screenCandidate } from './lib/artist-screen.mjs';
+import { COLLISION_PATTERN, parseDenylist, screenCandidate } from './lib/artist-screen.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARTISTS_PATH = path.join(root, 'public/data/artists.json');
@@ -108,8 +108,9 @@ async function lookupSeatGeekPerformer(name, credentials) {
   const performers = Array.isArray(data?.performers) ? data.performers : [];
   const exact = performers.filter((p) => exactNameMatch(name, p?.name) && !COLLISION_PATTERN.test(String(p?.name || '')));
   if (!exact.length) return { match: null, candidates: performers.slice(0, 5).map((p) => ({ id: p.id, name: p.name })) };
-  // Highest score first when several exact matches exist (rare).
-  exact.sort((a, b) => (b?.score || 0) - (a?.score || 0));
+  // Two exact-name performers are ambiguous: never pick one by score, which can
+  // reorder between calls. The row is excluded and a human resolves it.
+  if (exact.length > 1) return { match: null, ambiguous: true, candidates: exact.slice(0, 5).map((x) => ({ id: x.id, name: x.name })) };
   const p = exact[0];
   const url = typeof p?.url === 'string' && /^https:\/\/(www\.)?seatgeek\.com\//i.test(p.url) ? p.url : null;
   if (!p?.id || !url) return { match: null, candidates: exact.slice(0, 5).map((x) => ({ id: x.id, name: x.name })) };
@@ -206,7 +207,9 @@ async function lookupTicketmasterAttraction(name, apiKey, expectedId = '') {
     attraction_id: a.id,
     api_name: a.name,
     url,
-    upcoming_events: Number(a?.upcomingEvents?._total) || 0
+    upcoming_events: Number(a?.upcomingEvents?._total) || 0,
+    // Verbatim Discovery classification, the only genre fact an auto shell may state.
+    genre: String(a?.classifications?.[0]?.genre?.name || '').trim()
   };
 }
 
@@ -277,7 +280,13 @@ function buildRow(name, existingSlugs, sg, tm) {
     return { name, exclusion: 'name matches the collision pattern (tribute/parking/etc.) — never onboard automatically' };
   }
   if (!sg?.match) {
-    return { name, exclusion: 'no exact-name SeatGeek performer match — identity unresolved', seatgeek_candidates: sg?.candidates || [] };
+    return {
+      name,
+      exclusion: sg?.ambiguous
+        ? 'more than one exact-name SeatGeek performer — identity ambiguous'
+        : 'no exact-name SeatGeek performer match — identity unresolved',
+      seatgeek_candidates: sg?.candidates || []
+    };
   }
   const slug = slugify(sg.match.api_name);
   if (!slug) return { name, exclusion: 'could not derive a slug from the API name' };
@@ -295,7 +304,7 @@ function buildRow(name, existingSlugs, sg, tm) {
       exact_name_match: true
     },
     ticketmaster: tm
-      ? { attraction_id: tm.attraction_id, url: tm.url, upcoming_events: tm.upcoming_events, exact_name_match: true }
+      ? { attraction_id: tm.attraction_id, url: tm.url, upcoming_events: tm.upcoming_events, genre: tm.genre || '', exact_name_match: true }
       : null,
     confidence: tm ? 'seatgeek+ticketmaster exact-name' : 'seatgeek exact-name only',
     needs_human_check: true,
@@ -352,6 +361,7 @@ function selfTest() {
 
   const existing = new Set(['bruno-mars']);
   const sgMatch = { match: { performer_id: 1, api_name: 'New Artist', url: 'https://seatgeek.com/new-artist-tickets', num_upcoming_events: 5, score: 0.7 }, candidates: [] };
+  ok('ambiguous SeatGeek identity is excluded, not guessed', /ambiguous/.test(buildRow('Twin', new Set(), { match: null, ambiguous: true, candidates: [{ id: 1 }, { id: 2 }] }, null).exclusion));
   ok('existing slug is excluded', buildRow('Bruno Mars', existing, { match: { performer_id: 6148, api_name: 'Bruno Mars', url: 'https://seatgeek.com/bruno-mars-tickets', num_upcoming_events: 1, score: 1 } }, null).exclusion !== null);
   ok('unresolved identity is excluded', buildRow('Somebody', existing, { match: null, candidates: [] }, null).exclusion !== null);
   const row = buildRow('New Artist', existing, sgMatch, null);
@@ -402,7 +412,8 @@ async function main() {
   const existingSlugs = blockedSlugSet(artists, Boolean(args.allowExistingShells));
   const catalog = JSON.parse(await fs.readFile(path.join(root, 'public/data/catalog.json'), 'utf8'));
   const screenContext = {
-    denylist: JSON.parse(await fs.readFile(path.join(root, 'data/artist-denylist.json'), 'utf8').catch(() => '{}')),
+    // Fail closed: without the brand-safety denylist no candidate is screened.
+    denylist: parseDenylist(await fs.readFile(path.join(root, 'data/artist-denylist.json'), 'utf8')),
     existingTitles: new Set((catalog.artists || []).map((a) => a?.seo_title).filter(Boolean)),
     delayMs: args.delayMs
   };

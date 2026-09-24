@@ -2108,7 +2108,7 @@
     "ticketmaster_event_id": "3E006512AA1016ED",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-birmingham-o2-institute-birmingham-3-22-2027/production/7538473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
     "last_verified_at": null,
@@ -2130,11 +2130,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7538473,
+        "url": "https://www.vividseats.com/stella-lefty-tickets-birmingham-o2-institute-birmingham-3-22-2027/production/7538473",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

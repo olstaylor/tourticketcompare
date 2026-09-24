@@ -1193,7 +1193,7 @@
     "ticketmaster_event_id": "04006524B34EE662",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-24-2027--concerts-latin-music/production/7589034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
     "last_verified_at": null,
@@ -1215,11 +1215,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7589034,
+        "url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-24-2027--concerts-latin-music/production/7589034",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

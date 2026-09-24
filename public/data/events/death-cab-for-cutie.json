@@ -309,7 +309,7 @@
     "ticketmaster_event_id": "0A00652EDABD9903",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-honolulu-hawaii-01-19-2027/event/0A00652EDABD9903",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-honolulu-neal-s-blaisdell-arena-1-19-2027--concerts-alternative/production/7571343",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-honolulu-hawaii-01-19-2027/event/0A00652EDABD9903",
     "last_verified_at": null,
@@ -331,11 +331,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571343,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-honolulu-neal-s-blaisdell-arena-1-19-2027--concerts-alternative/production/7571343",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -363,7 +363,7 @@
     "ticketmaster_event_id": "1B00652EB4D5A845",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-nashville-tennessee-03-11-2027/event/1B00652EB4D5A845",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-nashville-the-truth-3-11-2027--concerts-alternative/production/7571341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-nashville-tennessee-03-11-2027/event/1B00652EB4D5A845",
     "last_verified_at": null,
@@ -385,11 +385,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571341,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-nashville-the-truth-3-11-2027--concerts-alternative/production/7571341",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -417,7 +417,7 @@
     "ticketmaster_event_id": "1B00652F911577EC",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-knoxville-tennessee-theatre-3-12-2027--concerts-alternative/production/7571339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
     "last_verified_at": null,
@@ -439,11 +439,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571339,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-knoxville-tennessee-theatre-3-12-2027--concerts-alternative/production/7571339",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -471,7 +471,7 @@
     "ticketmaster_event_id": "0D00652AFFE5DAB9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-3-18-2027--concerts-alternative/production/7571335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
     "last_verified_at": null,
@@ -493,11 +493,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571335,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-3-18-2027--concerts-alternative/production/7571335",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -525,7 +525,7 @@
     "ticketmaster_event_id": "2200652BCA1E5202",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-orlando-florida-03-20-2027/event/2200652BCA1E5202",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-orlando-hard-rock-live---orlando-3-20-2027--concerts-alternative/production/7571329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-orlando-florida-03-20-2027/event/2200652BCA1E5202",
     "last_verified_at": null,
@@ -547,11 +547,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571329,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-orlando-hard-rock-live---orlando-3-20-2027--concerts-alternative/production/7571329",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -579,7 +579,7 @@
     "ticketmaster_event_id": "3A00652ED132F517",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-houston-713-music-hall-3-22-2027--concerts-alternative/production/7571325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
     "last_verified_at": null,
@@ -601,11 +601,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571325,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-houston-713-music-hall-3-22-2027--concerts-alternative/production/7571325",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -633,7 +633,7 @@
     "ticketmaster_event_id": "16006530D9DBA0FF",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-pittsburgh-pennsylvania-03-30-2027/event/16006530D9DBA0FF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-pittsburgh-citizens-live-at-the-wylie-3-30-2027--concerts-alternative/production/7571322",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-pittsburgh-pennsylvania-03-30-2027/event/16006530D9DBA0FF",
     "last_verified_at": null,
@@ -655,11 +655,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571322,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-pittsburgh-citizens-live-at-the-wylie-3-30-2027--concerts-alternative/production/7571322",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -687,7 +687,7 @@
     "ticketmaster_event_id": "1000652FB1ADE6B1",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-3-2027--concerts-alternative/production/7571288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
     "last_verified_at": null,
@@ -709,11 +709,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571288,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-3-2027--concerts-alternative/production/7571288",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -741,7 +741,7 @@
     "ticketmaster_event_id": "3100652F229DCFB2",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-ottawa-history-ottawa-4-4-2027--concerts-alternative/production/7571284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
     "last_verified_at": null,
@@ -763,11 +763,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571284,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-ottawa-history-ottawa-4-4-2027--concerts-alternative/production/7571284",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -795,7 +795,7 @@
     "ticketmaster_event_id": "3100652BD6ACC86A",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027--concerts-alternative/production/7571278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
     "last_verified_at": null,
@@ -817,11 +817,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571278,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027--concerts-alternative/production/7571278",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -849,7 +849,7 @@
     "ticketmaster_event_id": "0100652AF54DC3B9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-7-2027--concerts-alternative/production/7571320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
     "last_verified_at": null,
@@ -871,11 +871,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571320,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-7-2027--concerts-alternative/production/7571320",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -903,7 +903,7 @@
     "ticketmaster_event_id": "0100652AF550C3CE",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-8-2027--concerts-alternative/production/7571318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
     "last_verified_at": null,
@@ -925,11 +925,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571318,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-8-2027--concerts-alternative/production/7571318",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -957,7 +957,7 @@
     "ticketmaster_event_id": "1D00652D1AEFFBFF",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-uncasville-connecticut-04-09-2027/event/1D00652D1AEFFBFF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-uncasville-mohegan-sun-arena-ct-4-9-2027--concerts-alternative/production/7571310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-uncasville-connecticut-04-09-2027/event/1D00652D1AEFFBFF",
     "last_verified_at": null,
@@ -979,11 +979,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571310,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-uncasville-mohegan-sun-arena-ct-4-9-2027--concerts-alternative/production/7571310",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1011,7 +1011,7 @@
     "ticketmaster_event_id": "0100653099E0E738",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-portland-maine-04-11-2027/event/0100653099E0E738",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-portland-state-theatre-portland-4-11-2027--concerts-alternative/production/7571306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-portland-maine-04-11-2027/event/0100653099E0E738",
     "last_verified_at": null,
@@ -1033,11 +1033,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571306,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-portland-state-theatre-portland-4-11-2027--concerts-alternative/production/7571306",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1065,7 +1065,7 @@
     "ticketmaster_event_id": "3C006530BB8D26A2",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-new-york-radio-city-music-hall-4-13-2027--concerts-alternative/production/7571294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
     "last_verified_at": null,
@@ -1087,11 +1087,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571294,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-new-york-radio-city-music-hall-4-13-2027--concerts-alternative/production/7571294",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1119,7 +1119,7 @@
     "ticketmaster_event_id": "2D00652B2043D4EE",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-asheville-harrahs-cherokee-center-asheville-4-16-2027--concerts-alternative/production/7571292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
     "last_verified_at": null,
@@ -1141,11 +1141,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7571292,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-asheville-harrahs-cherokee-center-asheville-4-16-2027--concerts-alternative/production/7571292",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -140,7 +140,11 @@ Goal: "safe-to-scale" ahead of the 2027 launch — prices display reliably, page
   - **Render CPU cut 4–7×.** The fix is per-isolate memoisation plus cached date formatters, with byte-identical HTML on sampled routes. The first production crawl had found about 20% of artist-city pages answering "Worker exceeded resource limits" under 6–8 parallel requests (`docs/OPERATIONS.md` → Known incidents).
   - **Runbook.** `docs/ARTIST_INGESTION.md` is the cold-start guide to adding artists, what generates, undoing and the health signals.
 - **Not done in Phase 3, left for the owner to decide:** social cards for new routes still need a human merge of the daily work-queue repair PR, because Stage 4 / E auto-merge is unbuilt. Pages meanwhile use the shared card.
-- Next, pending the owner's go-ahead: Phase 4 (UX, trust and copy — proposals as before/after). Relationship to the auto-ingest plan above: not yet ordered by the owner.
+- **PR [olstaylor/tourticketcompare#1126](https://github.com/olstaylor/tourticketcompare/pull/1126)** carries Phase 3. It is stacked on #1125 and should be retargeted to `main` once #1125 merges. Codex review requested 2026-09-24.
+- **Phase 4 — started 2026-09-24 on the stacked branch `milestone/2027-launch-readiness-phase4`; no PR.**
+  - **Applied (layout only, no wording).** On phones, the board's month jump is one scrollable row and the filters a two-column grid; the first date card moves from 1,663 px to 1,341 px on an 84-date board. The home hero has a single primary button. `styles.css` is at `?v=20260924a`.
+  - **Applied 2026-09-24 (owner approved P1–P11).** Copy items P1–P11 in `docs/audits/2026-09-phase4-ux-copy-proposals.md`: a five-second comparison module, one "How we make money" disclosure that states the button order favours paying sites (artist, artist-city, city, venue and hub pages), a Ticketmaster "See tickets" label, "recent" rather than "current" prices, a daily re-check line instead of a stale provenance date, and tighter artist leads, fact strip and empty states. Server and `app.js` stay in parity (`app.js`/`ttc-home.*` bumped to `?v=20260924a`). One wording deviation: P6 ends "on the ticket site", not "on the site", because on the homepage "the site" reads as this site.
+- Next: apply the approved P-items, then Phase 5 (longform edit sample: `how-to-compare-concert-ticket-prices`, `how-resale-ticket-pricing-works`, `how-to-avoid-overpaying-for-concert-tickets`).
 
 ### Parked — former scale roadmap (owner-approved 2026-09-16; parked 2026-09-23)
 

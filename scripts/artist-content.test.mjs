@@ -85,7 +85,7 @@ assert(bigStatus.providerCoverageVaries === true, "1..3 providers per date is un
 assert(!("snapshotShowCount" in bigStatus), "board status must not expose a snapshot count derived from a partial price sample");
 
 const bigIntro = artistSearchIntro({ name: "Harry Styles" }, bigStatus, options);
-assert(bigIntro.includes("5 upcoming Harry Styles dates"), "intro should state the tracked count");
+assert(bigIntro.includes("5 upcoming dates in 3 cities and 3 countries"), "intro should state the tracked count");
 assert(bigIntro.includes("3 cities") && bigIntro.includes("3 countries"), "intro should state the geographic spread");
 assert(bigIntro.includes("2026-09-01") && bigIntro.includes("2026-09-15"), "intro should state the run's range");
 assert(bigIntro.includes("The O2"), "a single multi-night run should be named in the intro");
@@ -134,15 +134,16 @@ assertCopySafe(noCtaIntro, "no-cta intro");
 const emptyStatus = deriveArtistBoardStatus([]);
 assert(emptyStatus.showCount === 0 && emptyStatus.next === null, "an empty board has no counts and no next date");
 const emptyIntro = artistSearchIntro({ name: "Latto" }, emptyStatus, options);
-assert(emptyIntro.includes("No upcoming Latto dates are listed right now"), "the empty intro states the position plainly");
+assert(emptyIntro === "No Latto dates yet.", "the never-dated intro states the position once, plainly (P11)");
 // Owner-approved wording (2026-09-23): dates and buttons are added automatically,
 // so empty-board copy must never claim a person followed a link by hand.
 assert(!/ourselves|we've followed/i.test(emptyIntro), "the empty intro must not claim a manual link check");
 assertCopySafe(emptyIntro, "empty intro");
 assert(artistStatusFacts(emptyStatus, options).length === 0, "an empty board renders no fact strip");
 const emptyCopy = artistEmptyBoardCopy({ name: "Latto" }, { pastShowCount: 0 });
-assert(emptyCopy.heading === "No upcoming dates listed", "empty heading should not imply dates are pending");
-assert(emptyCopy.body.includes("can't say whether any are coming"), "empty copy must not imply an announcement is imminent");
+assert(emptyCopy.heading === "No dates yet", "empty heading should not imply dates are pending");
+assert(emptyCopy.body.includes("When Ticketmaster lists a Latto date") && emptyCopy.compact === true, "never-dated copy names where dates come from, once (P11)");
+assert(!/soon|expected|any day/i.test(emptyCopy.body), "empty copy must not imply an announcement is imminent");
 assert(!/ourselves|we've followed/i.test(emptyCopy.next), "the next-step copy must not claim a manual link check");
 assertCopySafe(emptyCopy.body, "empty body");
 assertCopySafe(emptyCopy.next, "empty next-step");
@@ -237,7 +238,7 @@ assert(
 const model = buildArtistContentModel({ name: "Harry Styles", faq: authoredFaq }, bigBoard, options);
 assert(model.intro === bigIntro, "model intro should match artistSearchIntro");
 assert(model.status.showCount === 5, "model should carry the board status");
-assert(model.facts.length >= 4, "model should carry the fact strip");
+assert(model.facts.length === 2 && model.facts.map((fact) => fact.label).join("|") === "Next date|Checked ticket links", "model should carry the two-card fact strip (P10)");
 assert(model.help && model.faq.length >= 2, "model should carry the shared help and the FAQ");
 assert(model.emptyBoard.heading === artistEmptyBoardCopy({ name: "Nobody" }).heading, "model should carry empty-board copy for the zero-date render");
 assert(

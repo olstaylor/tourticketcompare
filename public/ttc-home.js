@@ -9,7 +9,7 @@
   // >>> homepage-proposition >>>
   const HOME_HEADLINE = "Compare ticket prices for the show you want.";
   const HOME_SUBCOPY =
-    "Choose an artist and date, see current listed prices from ticket sites where available, then check the final total with the provider.";
+    "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.";
   const HOME_PRIMARY_CTA_LABEL = "Find a show";
   const HOME_PRIMARY_CTA_HREF = "/artists";
   const HOME_STEPS = [

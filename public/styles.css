@@ -2302,3 +2302,54 @@ summary {
     padding-top: 7px;
   }
 }
+
+/* Mobile board tools (2026-09-24, launch-readiness Phase 4). On a phone the
+   month chips wrapped to five rows and the filter bar stacked six full-width
+   controls, putting the first ticket button ~1,900px down an 84-date board.
+   The chips become one horizontally scrollable row and the filters a compact
+   two-column grid (search full width), cutting roughly 400px above the first
+   card without hiding any control. Placed last so it wins over the earlier
+   640px rules at equal specificity. */
+@media (max-width: 640px) {
+  .show-board-jump {
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+
+  .show-board-jump-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    padding-bottom: 4px;
+    min-width: 0;
+  }
+
+  .show-board-jump-list .mini-link {
+    white-space: nowrap;
+  }
+
+  .show-board-jump p {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .show-filter-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .show-filter-input {
+    grid-column: 1 / -1;
+  }
+
+  .show-filter-input,
+  .show-filter-select,
+  .show-filter-reset {
+    min-height: 44px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    width: 100%;
+  }
+}

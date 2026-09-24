@@ -54,6 +54,8 @@ jobs:
           # provider fault, never an empty roster: fail rather than blank the issue.
           node -e 'const c=require("./artifacts/roster/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'
           node -e 'const r=require("./artifacts/roster/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/roster/names.txt
+          # Owner requests (data/artist-requests.json) go first, flagged "requested".
+          node scripts/artist-requests.mjs --merge artifacts/roster/names.txt --limit 20
           if [ -s artifacts/roster/names.txt ]; then
             node scripts/propose-onboarding-batch.mjs --names-file artifacts/roster/names.txt --limit 20 --output artifacts/roster/manifest.json
           else

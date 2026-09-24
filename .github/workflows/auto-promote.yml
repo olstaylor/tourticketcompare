@@ -71,6 +71,8 @@ jobs:
           node scripts/report-roster-forecast.mjs --candidates --json artifacts/auto/forecast.json > /dev/null
           node -e 'const c=require("./artifacts/auto/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'
           node -e 'const r=require("./artifacts/auto/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/auto/names.txt
+          # Owner requests (data/artist-requests.json) go first, flagged "requested".
+          node scripts/artist-requests.mjs --merge artifacts/auto/names.txt --limit 20
           if [ ! -s artifacts/auto/names.txt ]; then echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
           node scripts/propose-onboarding-batch.mjs --names-file artifacts/auto/names.txt --limit 20 --output artifacts/auto/manifest.json
           node scripts/auto-promote.mjs --manifest artifacts/auto/manifest.json --write --json artifacts/auto/promoted.json

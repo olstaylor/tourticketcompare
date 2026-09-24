@@ -48,7 +48,9 @@ sources:
 
 **Short verdict:** Ticketmaster is often the authorised primary seller for a concert and also carries clearly labelled resale tickets. Vivid Seats is a resale marketplace where independent resellers list tickets. Neither role makes one provider the right choice for every order. Start with the seller named by the artist, venue, or promoter for an official onsale. When you compare resale options, match the exact event, ticket type, quantity, section or standing area, delivery method, and complete checkout total.
 
-The distinction matters because a Ticketmaster primary ticket and a Vivid Seats resale listing are not automatically equivalent. Even for the same artist, date, and venue, the seats, transfer timing, and terms may differ. The practical decision concerns one purchase, not a general brand ranking.
+A Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ, so the decision is about one purchase, not which brand is better.
+
+On TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago we checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay.
 
 ## Vivid Seats vs Ticketmaster at a glance
 
@@ -79,7 +81,7 @@ Ticketmaster says ticket prices and fees are determined by event organisers, wit
 
 Vivid Seats says ticket resellers set the listing price. Its current fee guidance says its all-in ticket price includes both the service charge and delivery charge. Government tax and any optional selection can still affect the amount ultimately paid under the applicable checkout rules. Always compare complete current totals in the same currency and for the same number of tickets.
 
-The useful question is not “which brand charges fees?” Ask whether mandatory charges are included, what remains separate, and whether an optional selection was added. Use the [concert ticket fees guide](/guides/concert-ticket-fees-explained) as a checkout checklist.
+Don't ask which brand charges fees. Ask whether mandatory charges are included, what is still separate, and whether an optional extra was added. Use the [concert ticket fees guide](/guides/concert-ticket-fees-explained) as a checkout checklist.
 
 ## Why a Vivid Seats ticket may transfer through Ticketmaster
 

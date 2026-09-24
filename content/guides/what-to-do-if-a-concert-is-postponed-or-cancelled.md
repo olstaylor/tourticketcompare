@@ -19,15 +19,16 @@ sources:
     last_checked: 2026-09-21
 ---
 
-When a concert is postponed, rescheduled, cancelled, or moved, it can throw your plans into doubt, especially if you have already paid or booked travel. The most useful first move is to slow down, confirm what has actually happened, and read the terms that apply to your specific ticket.
+If a concert you've paid for is postponed, rescheduled, cancelled or moved, start by confirming what has actually happened in your ticket account, then read the terms for your specific ticket. Both come before any rumour, message or refund claim.
 
-TourTicketCompare does not sell tickets, handle refunds, or control event scheduling. Refund, transfer, resale, delivery, and cancellation terms are set by the provider and the event organiser, and they vary from event to event. This guide explains what to check and where, without promising any particular result.
+We don't sell tickets or handle refunds. Refund, transfer, resale, delivery and cancellation terms are set by the ticket site and the event organiser, and they vary from event to event.
 
 ## First, confirm the event status
 
 Before acting, confirm the change from a reliable source rather than a social media rumour. An event may be unchanged, postponed, rescheduled, moved, or cancelled, and each status is handled differently.
 
-Reliable places to confirm the current status include:
+Reliable places to confirm the current status:
+
 - Your ticket provider account, where order and event updates usually appear.
 - Your original order confirmation email, which links back to the provider.
 - The artist's official website or verified social channels.
@@ -62,6 +63,7 @@ Do not assume your ticket's status. Confirm it against the provider's official u
 Refund, transfer, resale, and delivery rules are specific to both the provider and the event, so the answer for someone else's order tells you nothing about yours.
 
 When you read the provider's update and terms, look for:
+
 - Whether any action is required from you, and by when.
 - Whether refunds, credits, or exchanges are being offered for your event, and how they are requested.
 - Whether tickets already delivered remain valid, or whether new tickets will be issued.
@@ -93,7 +95,8 @@ For more detail on spotting fraud, see the guide on [avoiding ticket scams](/gui
 
 ## Practical checklist
 
-Use this checklist when an event changes:
+When an event changes:
+
 - Confirm the current event status from the ticket provider, artist, and venue.
 - Identify exactly where you bought the ticket and find your confirmation email.
 - Check whether your ticket is still valid for any new date.
@@ -123,16 +126,13 @@ Resale rules vary by platform and event. Check the resale marketplace's terms, a
 
 ## Next steps
 
-An event change is rarely welcome news, but a calm, methodical check protects you from avoidable mistakes and scams. Confirm the status, read the terms for your specific ticket, and use only recognised provider channels.
+For your next booking:
 
-These guides can help you prepare for future bookings:
 - [When to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets) covers the main timing trade-offs.
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) explains how delivery method affects risk.
 - [How to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale) helps you plan your next booking.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)
 - [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)

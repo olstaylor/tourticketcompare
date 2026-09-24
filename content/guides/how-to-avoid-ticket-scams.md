@@ -21,25 +21,25 @@ legacy_article_headline: How to Avoid Ticket Scams
 legacy_article_description: Practical guidance on distinguishing ticket scams from resale risk, checking platforms and sellers before paying, and what to do if something goes wrong.
 ---
 
-Most ticket scams work the same way. Demand for a popular show makes options feel scarce and time feel short, so an offer that skips the usual checks can look like a convenient shortcut rather than a warning sign. What you are left with is payment for a ticket that is invalid, non-transferable, or never sent at all.
+The safest rule is short: pay only through the ticket platform's own checkout, and only accept a ticket transferred into your account on that platform. Most scams break one of those two things.
 
-This guide explains how to tell a scam from ordinary resale risk, which checks to make before you pay, and what to do if something goes wrong. TourTicketCompare does not verify individual sellers, resale listings, or whether a ticket on an external platform is genuine. Buyer protection, dispute processes, and final purchase terms come from the provider or payment method you use.
+They work because a popular show makes tickets feel scarce and time feel short, so an offer that skips the usual checks looks like a shortcut rather than a warning. You end up paying for a ticket that is invalid, can't be transferred, or never arrives.
+
+TourTicketCompare checks that its buttons lead to the right event page. It doesn't vet individual sellers or listings, or whether a ticket on another platform is genuine. Buyer protection, disputes and purchase terms come from the platform or payment method you use.
 
 ## Scams, resale risk, and normal price variation
 
-These are three different things with different causes and different responses.
-
 **A ticket scam** is a deliberate attempt to take payment for something that cannot be delivered: a ticket that is fake, already used, non-transferable, or does not exist. Warning signs include payment demands outside established platforms, sellers who cannot explain the transfer process, and listings with no verifiable delivery method.
 
-**Resale risk** is the possibility of paying above primary prices, receiving fewer protections than a primary purchase would offer, or finding that ticket terms differ from your expectations. Resale through an established marketplace with published buyer-protection terms is not the same as a scam — but it does require extra checks on seat accuracy, delivery timing, transfer rules, and what the marketplace covers if something goes wrong.
+**Resale risk** is the possibility of paying above primary prices, receiving fewer protections than a primary purchase would offer, or finding that ticket terms differ from your expectations. Resale through an established marketplace with published buyer-protection terms is not a scam, but it does need extra checks on seat accuracy, delivery timing, transfer rules, and what the marketplace covers if something goes wrong.
 
-**Normal price variation** covers fees added at checkout, demand-responsive pricing on some primary events, and seller-set prices on resale marketplaces. A listing priced above what primary inventory cost is not automatically a scam — it may simply reflect normal resale pricing. Review the final checkout total and terms before assuming otherwise.
+**Normal price variation** covers fees added at checkout, demand-responsive pricing on some primary events, and seller-set prices on resale marketplaces. A listing priced above the original price isn't automatically a scam; it may just be normal resale pricing. Check the final total and terms before assuming otherwise.
 
-The distinction matters because the response differs: a scam requires you to stop; resale risk requires extra checks; normal price variation requires comparing final totals.
+The response is different for each. A scam means stop. Resale risk means extra checks. Normal price variation means comparing final totals.
 
 ## Red flags: slow down and check further
 
-These signs should prompt more careful review before proceeding. They are not definitive proof of a scam, but none of them should be ignored:
+None of these proves a scam on its own. Each is a reason to check further before you go on:
 
 - The listed price is significantly lower than comparable current options and the seller cannot explain the ticket source or transfer method
 - The seat section, row, or delivery method is vague or missing from the listing
@@ -56,10 +56,10 @@ These are strong reasons to stop the purchase entirely:
 
 - The seller is asking you to pay by bank transfer, gift card, cryptocurrency, or a direct cash-transfer app
 - The offer arrived through a social media DM, WhatsApp message, or direct message from someone you do not know personally
-- The seller is asking you to leave the ticketing platform to complete payment elsewhere — even if they claim it is faster or cheaper
-- The URL of the payment page does not match the platform's official domain — check for extra words, hyphens, misspellings, or unfamiliar subdomains
+- The seller is asking you to leave the ticketing platform to pay elsewhere, even if they say it is faster or cheaper
+- The URL of the payment page does not match the platform's official domain: check for extra words, hyphens, misspellings or unfamiliar subdomains
 - The ticket is being offered as a screenshot, PDF, paper copy, or barcode image that cannot be transferred through the official ticketing account
-- The email claiming to be from a platform has a sender address that does not match the domain you expect — check the actual address, not just the display name shown
+- An email claiming to be from a platform comes from an address that doesn't match the domain you expect. Check the actual address, not just the display name
 - The seller is asking for sensitive personal information unrelated to a standard checkout
 
 If you see any of these signs, do not send payment. Close the conversation and, where the platform allows it, report the listing or account.
@@ -70,11 +70,11 @@ Work through these checks before completing any ticket purchase, whether primary
 
 | What to check | What to confirm |
 |---|---|
-| URL or app | The domain matches the platform exactly — no misspellings, extra words, or unfamiliar subdomains |
+| URL or app | The domain matches the platform exactly: no misspellings, extra words or unfamiliar subdomains |
 | Email sender (if relevant) | The sender address matches the platform's real domain, not just the display name |
 | Event details | Artist, date, start time, and venue match the show you intend to attend |
 | Ticket type and seat | Section, row where shown, ticket category, and any view notes are clearly stated |
-| Transfer method | The platform describes a specific delivery or transfer process — not a screenshot, PDF, or verbal promise |
+| Transfer method | The platform describes a specific delivery or transfer process, not a screenshot, PDF or verbal promise |
 | Payment method | You are paying through the platform's official checkout, not an off-platform transfer |
 | Buyer protection terms | You have read what the platform covers and what it does not for this specific order |
 | Refund and cancellation rules | You understand what happens if plans change or the event is affected |
@@ -96,7 +96,7 @@ Work through these checks before completing any ticket purchase, whether primary
 
 **Before you complete payment:** Stop the transaction. Do not move to an off-platform payment method for any reason offered by a seller.
 
-**After paying through a ticket platform:** Contact the provider through its official support channel — use contact details from the platform's own website, not from a message you received. Open a support request, provide your order reference and screenshots, and ask what buyer-protection options apply.
+**After paying through a ticket platform:** Contact the platform through its official support channel, using contact details from the platform's own website, not from a message you received. Open a support request, provide your order reference and screenshots, and ask what buyer-protection options apply.
 
 **After paying by card or payment service:** Contact the card provider or payment service quickly. Ask what dispute or fraud-reporting options are available for your specific transaction and follow their process.
 
@@ -114,7 +114,7 @@ A scam involves deliberate payment for a ticket that is invalid, non-transferabl
 
 **Why are screenshots and PDFs risky?**
 
-When a ticket is transferred through an official provider account, the original holder loses access and you become the authoritative holder. A screenshot, PDF, or barcode image can be duplicated and sent to multiple buyers — whoever scans it first at the door is admitted, and the rest are turned away. Only an official in-account transfer provides a clear record of ownership.
+When a ticket is transferred through an official provider account, the original holder loses access and you become the authoritative holder. A screenshot, PDF or barcode image can be copied and sold to several buyers. Whoever scans it first gets in, and the rest are turned away. Only an official in-account transfer provides a clear record of ownership.
 
 **Is meeting in person to collect a ticket safe?**
 
@@ -126,15 +126,13 @@ No. HTTPS confirms the connection is encrypted but does not verify that the site
 
 **What does TourTicketCompare verify?**
 
-TourTicketCompare checks that artist pages and event links point to verified destinations before showing them. We do not verify individual resale sellers, the accuracy of listings on external platforms, or the validity of tickets at the venue. Buyer protection, dispute processes, and final purchase terms are set by the provider you buy through.
+We check that each button leads to the right event page before it goes up. We don't verify individual resale sellers, the accuracy of listings on other platforms, or whether a ticket will scan at the venue. Buyer protection, dispute processes, and final purchase terms are set by the provider you buy through.
 
 **Can I recover money paid by bank transfer?**
 
-It may be difficult. Contact your bank immediately, report the transaction as fraud, and follow their process. Some banks have fraud recovery procedures, but full recovery is not certain. This is why payment method is an important check before buying.
+It can be hard. Contact your bank straight away, report the payment as fraud and follow its process. Some banks can recover money, but there's no guarantee, which is why the payment method is worth checking before you buy.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
 - [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)

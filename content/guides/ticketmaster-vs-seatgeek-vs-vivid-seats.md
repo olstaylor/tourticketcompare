@@ -41,7 +41,7 @@ sources:
 
 Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.
 
-No provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies us with a listed price, so expect a checked link from all three and a figure from one — the section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).
+No provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies us with a listed price, so expect a checked link from all three and a figure from one. The section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).
 
 ## Ticketmaster vs SeatGeek vs Vivid Seats at a glance
 
@@ -71,19 +71,19 @@ The platforms also provide different research or loyalty features, but those fea
 
 - **Ticketmaster** labels resale inventory and may offer Face Value Exchange for eligible events. Event organisers decide which inventory and resale options are available.
 - **SeatGeek Deal Score** rates the value of a listing on SeatGeek using factors such as historical prices, row location, expected sightline, quantity, seat type, and other available tickets. It is a SeatGeek tool, not proof that the listing is cheaper than another provider's current option.
-- **Vivid Seats Rewards** is an app-based loyalty program. Its current help page says purchases earn stamps and ten stamps can produce a Reward Credit based on the average eligible value of those tickets, excluding taxes, fees, and processing costs. Credits and benefits are governed by current program terms and may expire.
+- **Vivid Seats Rewards** is an app-based loyalty programme. Its current help page says purchases earn stamps and ten stamps can produce a Reward Credit based on the average eligible value of those tickets, excluding taxes, fees, and processing costs. Credits and benefits are governed by current programme terms and may expire.
 
 Treat these as differences in the shopping experience. The exact event, ticket, complete current total, delivery timing, and order terms still decide whether an option fits your needs.
 
 ## What TourTicketCompare compares
 
-Two of the three providers on this page never carry a price here, and it is worth knowing which before you arrive expecting a three-way price table.
+Don't expect a three-way price table: two of these three never carry a price here.
 
-A displayed figure comes from a provider feed that supplies a numeric listed price under terms that allow us to show it. Vivid Seats, TicketNetwork and StubHub International do. SeatGeek does not: its API returns no pricing statistics for this site's client, permanently, so SeatGeek is a checked-link provider here and nothing more. Ticketmaster is a verification and link source rather than a price lane. So on a Ticketmaster–SeatGeek–Vivid Seats event you can expect a checked link from each and a listed price from Vivid Seats alone.
+A price appears only when a ticket site's feed supplies a listed price we're allowed to show. Vivid Seats, TicketNetwork and StubHub International do. SeatGeek's feed returns no prices to us, so its button is a checked link without a figure. Ticketmaster is where we confirm dates, and its button is a plain link. On a date covered by all three, you'll see a link to each and a listed price from Vivid Seats alone.
 
-Where two lanes that do carry prices sit on the same verified event, in the same currency, and both snapshots are current, the site can name the lower one and the gap between them. Each snapshot shows when it was taken and disappears once it goes stale.
+Where two sites that do carry prices cover the same date, in the same currency, you can see each site's lowest listed price side by side, with how long ago we checked. We check every few hours, and a price drops off once it is 24 hours old.
 
-None of that claims equivalent seats, live inventory, a final checkout total, or that a ticket is still there. A snapshot may exclude fees even where the provider's own shopping experience shows them up front. It narrows your shortlist; the provider page settles what you pay.
+That doesn't mean the seats are equivalent, that the ticket is still there, or what the order will cost. A listed price may leave out fees the site shows at checkout. It narrows your shortlist; the ticket site settles what you pay.
 
 ## Seat details and quantity can reverse the comparison
 
@@ -97,7 +97,7 @@ Use the primary-source links below for the current rules. TourTicketCompare does
 
 ## Which site should I choose?
 
-Choose the listing that best fits the exact event, acceptable seat, complete current total, delivery timing, and protection terms — not the provider name alone. If two options are genuinely comparable, use the current final totals to decide. If one option is cheaper but carries a worse seat, unclear delivery, or terms that do not fit your plans, it is not a like-for-like saving.
+Choose the listing that best fits the exact event, acceptable seat, complete current total, delivery timing and protection terms, not the provider name alone. If two options are genuinely comparable, use the current final totals to decide. If one option is cheaper but carries a worse seat, unclear delivery, or terms that do not fit your plans, it is not a like-for-like saving.
 
 ## FAQ
 
@@ -127,19 +127,17 @@ Both operate ticket marketplaces. SeatGeek also supplies primary ticketing for s
 
 **Does TourTicketCompare rank the three providers?**
 
-No. It can compare approved provider listed-price snapshots for the same verified event, but it does not declare a provider universally superior or lowest-priced.
+No. It shows each site's lowest listed price for the same date where the site supplies one, but it never calls one site better or cheaper in general.
 
 **Do the prices include fees?**
 
-Provider pages currently use upfront or all-in displays for mandatory fees in the US, subject to taxes, shipping, and optional extras. A TourTicketCompare snapshot may exclude fees and is labelled accordingly. Confirm the final order total on the provider site.
+Provider pages currently use upfront or all-in displays for mandatory fees in the US, subject to taxes, shipping, and optional extras. A listed price on TourTicketCompare may leave out fees, and the note under the buttons says so. Confirm the final order total on the provider site.
 
 **How do the order-protection terms differ?**
 
 That depends on the protection you need and the current terms for the order. Read each provider's protection terms and exclusions directly before purchasing.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)
 - [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)

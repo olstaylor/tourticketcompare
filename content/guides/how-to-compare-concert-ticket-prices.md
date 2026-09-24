@@ -43,104 +43,104 @@ howto:
       text: Confirm delivery timing and read the current buyer-protection, refund, transfer, cancellation, and postponement terms on the provider site.
 ---
 
-The quickest way to make a bad comparison is to start with a provider name. Start with the concert you actually want: the artist, local date and venue. Then match the ticket itself. A price difference can reflect a different night, section, ticket type, seller, delivery method, tax treatment or optional extra — not a better deal.
+Start with the concert, not the ticket site. Pin down the artist, the local date and the venue, then match the ticket itself. Two prices for "the same show" often turn out to be a different night, a different section, a resale listing against a primary one, or a single seat against a pair. That isn't a saving; it's a different ticket.
 
-In the United States, the FTC's live-event fee rule requires mandatory fees to be included in the upfront total, although taxes, shipping and optional add-ons may still be shown separately. Rules and provider displays vary by country, so confirm the amount payable and the exact ticket terms before you buy.
+In the United States, the FTC's live-event fee rule requires mandatory fees to be included in the upfront price, although taxes, shipping and optional add-ons can still be shown separately. Other countries have their own rules, and each ticket site displays prices its own way, so the figure to trust is the total on the site's order screen.
 
-TourTicketCompare can show approved, timestamped provider listed-price snapshots for the same verified event when the data passes exact-event, source and freshness checks. Use the [comparison hub](/compare-concert-ticket-prices) to understand the method, or go straight to an [artist page](/artists) to choose a checked date. A snapshot is a shortlist, not live inventory or a final checkout quote.
+Where a ticket site supplies one, TourTicketCompare shows that site's lowest listed price for a date, with the time we checked it. We check every few hours. Use the [comparison hub](/compare-concert-ticket-prices) for the method, or go straight to an [artist page](/artists) and pick a date. A listed price tells you where to look first. It isn't live stock, and it isn't your final total.
 
 ## 1. Start with the concert, not the provider
 
-Use an [artist page](/artists) to find the checked date you mean, then match these fields on every provider page:
+Find the date on an [artist page](/artists), then check these on every ticket site you open:
 
-- **Artist and event name** — watch for tribute acts, festivals and similarly named events
-- **Local date and start time** — multi-night runs are easy to confuse
-- **Venue and city** — nearby venues can have similar names
-- **Ticket quantity** — a per-ticket figure is not the same as an order total
-- **Ticket type** — primary, official resale, marketplace resale, VIP, accessible, standing or seated
-- **Section, row and view notes** — where the provider shows them
+- **Artist and event name.** Tribute acts, festivals and similarly named events catch people out.
+- **Local date and start time.** Multi-night runs are the easiest thing to mix up.
+- **Venue and city.** Nearby venues can have near-identical names.
+- **Quantity.** A per-ticket price is not an order total.
+- **Ticket type.** Primary, official resale, marketplace resale, VIP, accessible, standing or seated.
+- **Section, row and view notes**, where the site shows them.
 
-If any field differs, you have found another option, not a like-for-like saving.
+If any of these differ, you've found another option, not a cheaper version of the same one.
 
-## 2. Use snapshots to decide where to look next
+## 2. Use listed prices to decide where to look next
 
-A TourTicketCompare snapshot is provider-supplied listed-price data attached to one verified event. It shows when it was captured and disappears after its freshness window. When two approved snapshots for that event are current and use the same currency, the site can identify the lower listed snapshot and the difference.
+Each price on a TourTicketCompare date comes from a price feed for that ticket site, for that one date, and shows how long ago we checked it. It drops off the page once it is more than 24 hours old. When two sites have a current price for the same date in the same currency, you can see which listed lower.
 
-Use that signal to decide which provider pages deserve a closer look. It does **not** establish equivalent seats, current inventory or the lower checkout total. Open the exact listings before choosing.
+That tells you which pages to open first. It doesn't tell you the seats are equivalent, that they're still there, or which order will cost less. Open both listings before you choose.
 
 ## 3. Compare like-for-like ticket details
 
-Match the ticket category and seat quality as closely as the provider pages allow. A lower listed price may refer to upper-level seating, a restricted view, delayed transfer, a single ticket, or a resale listing while another option is primary inventory.
+Get the ticket category and seat quality as close as the listings allow. A lower price may be for upper-tier seats, a restricted view, a delayed transfer, a single ticket, or resale where the other option is primary.
 
-Record the section, row, seat range, quantity, ticket type, view restriction, and delivery method. If the listings do not disclose enough to establish a fair comparison, do not calculate a saving.
+Note the section, row, seat range, quantity, ticket type, view restriction and delivery method for each. If a listing doesn't give you enough to compare fairly, don't read anything into the price gap.
 
 ## 4. Make the decision at the order summary
 
-Mandatory fee display has improved on US ticket sites, but the amount payable can still depend on taxes, delivery choices, currency conversion, insurance, parking or other optional extras. Provider rules also differ outside the US.
+US ticket sites now show mandatory fees earlier, but the amount you pay can still move with taxes, delivery, currency conversion, insurance, parking and other extras. Outside the US, the rules differ again.
 
-At the order summary, confirm:
+On the order summary, check:
 
 - The total for the exact quantity you selected
 - Taxes and any government charges
-- Delivery or shipping charges
-- Optional add-ons you chose
-- The currency and any card conversion cost
-- Whether the displayed figure is per ticket or for the whole order
+- Delivery or shipping
+- Any add-ons you ticked
+- The currency, and any conversion charge from your card
+- Whether the figure is per ticket or for the whole order
 
-Use this total, alongside the ticket and delivery terms, to make the decision. A snapshot is never a promise of that amount.
+Decide on that total, together with the ticket and delivery terms. A listed price on our page is never a promise of it.
 
 ## 5. Identify primary and resale tickets
 
-Ticketmaster can show primary tickets and clearly labelled resale tickets. SeatGeek operates a marketplace and also provides primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.
+Ticketmaster sells primary tickets and also shows resale tickets, labelled as resale. SeatGeek runs a resale marketplace and handles primary ticketing for some partners. Vivid Seats is a resale marketplace where sellers set their own prices.
 
-The provider name alone does not settle the ticket type. Read the listing label and order terms. Primary and resale listings can have different transfer timing, refund rules, seller involvement, and prices even for the same event.
+So the site's name doesn't tell you the ticket type. The listing label and order terms do. Primary and resale tickets for the same event can differ on transfer timing, refunds, who the seller is, and price.
 
 ## 6. Compare delivery and buyer protections
 
-A cheaper ticket is not useful if the delivery timing conflicts with your travel or group plans. Check whether delivery is instant, mobile transfer, delayed transfer, will-call, or post, and confirm what happens if delivery fails.
+A cheaper ticket is no use if it arrives after you've left for the venue. Check whether delivery is instant, a mobile transfer, a delayed transfer, will-call or post, and what happens if it doesn't arrive.
 
-For resale, read the marketplace's current buyer-protection terms and exclusions. Confirm how it handles invalid tickets, non-delivery, cancellations, postponements, and replacement tickets. These terms belong to the provider and may change, so use the primary-source links below rather than relying on a summary alone.
+For resale, read the marketplace's current buyer-protection terms, including the exclusions: invalid tickets, non-delivery, cancellations, postponements and replacements. Those terms belong to the marketplace and change, so check the source links below rather than relying on a summary.
 
 ## How TourTicketCompare produces a comparison
 
-Nothing here is scraped. A figure appears only when a provider feed supplies a numeric listed price under terms that allow us to show it, attached to an event whose provenance we have already verified.
+We don't scrape. A price appears only when a ticket site's feed supplies a listed price we're allowed to show, for a date we've already matched to that site's event page.
 
-That is why some checked links carry a price and others never do. Vivid Seats, TicketNetwork and StubHub International supply one. SeatGeek does not, permanently — its API returns no pricing statistics for this site's client — so it stays a checked-link provider. Ticketmaster is a verification and link source rather than a price lane.
+That's why some buttons carry a price and others never do. Vivid Seats, TicketNetwork and StubHub International supply one. SeatGeek's feed returns no prices to us, so its button is a checked link without a figure. Ticketmaster is where we confirm dates, and its button is a plain link.
 
-If a source, match, timestamp or provider lane fails its gate, the price stays hidden rather than being estimated. We never compare seat quality automatically, and we never call a provider universally lower-priced.
+If a price fails any check (the source, the event match, the timestamp or the provider's own switch), we leave it off rather than estimate. We don't rate seat quality, and we never call one ticket site cheaper across the board.
 
 ## FAQ
 
 **What is the best way to compare event ticket prices?**
 
-Match the exact event and comparable ticket details first, then compare the final checkout totals and terms on the provider sites.
+Match the exact event and ticket details first, then compare the final order totals and terms on each ticket site.
 
 **Does TourTicketCompare compare live concert ticket prices?**
 
-No. It displays approved, timestamped listed-price snapshots when the exact-event, source, provider-verification, and freshness checks pass. Live inventory and the final amount payable are confirmed on the provider site.
+No. It shows each site's listed price with the time we checked it, when the site supplies one and the date matches. Live availability and the amount you pay are confirmed on the ticket site.
 
 **Which price should I compare?**
 
-Start with current listed-price snapshots, then compare the exact ticket details and final provider order total for the same quantity. Include taxes, delivery, currency conversion, and any optional extras you select.
+The final order total for the same quantity, on each ticket site, including taxes, delivery, currency conversion and any extras you choose. Our listed prices help you decide which sites to check first.
 
-**Does the lower snapshot mean the better ticket?**
+**Does the lower listed price mean the better ticket?**
 
-No. It may represent a different section, row, view, ticket type, quantity, or delivery method. Check those details before treating a difference as a saving.
+No. It may be a different section, row, view, ticket type, quantity or delivery method. Check those before you read anything into the gap.
 
-**Why might a price snapshot be missing?**
+**Why is a price missing?**
 
-The event may lack verified provider provenance, the approved feed may not have returned usable data, the snapshot may have expired, or the provider lane may be disabled. Missing data is hidden rather than estimated.
+Either the site doesn't supply prices (SeatGeek and Ticketmaster don't to us), its feed had nothing usable for that date at our last check, the price has passed its 24-hour limit, or we haven't yet matched the date to that site's event page. We hide a missing price rather than estimate one.
 
 **Can TourTicketCompare guarantee availability?**
 
-No. Availability changes on the provider site and is confirmed there at the time of purchase.
+No. Availability changes on the ticket site and is confirmed there when you buy.
 
 ## Related guides
 
-Use the next guide for the decision that remains, then return to the exact event:
+For the next decision, then back to your date:
 
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
 - [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)
 - [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)
-- [Browse checked artist pages](/artists)
+- [Browse artist pages](/artists)

@@ -15,9 +15,9 @@ sources:
     last_checked: 2026-09-21
 ---
 
-Onsale day for a major tour tends to be busy and competitive. No amount of preparation can promise you a ticket, but it does cut out the avoidable mistakes that cost people access before they reach checkout.
+Most of what goes wrong on onsale day happens before the queue opens: an unverified account, a missed fan registration, the wrong time zone. Preparation can't promise you a ticket, but it removes the mistakes that cost people a place before they reach checkout.
 
-TourTicketCompare does not run onsales, control the queue, or guarantee that tickets will be there. Inventory, queue order, prices, and fees are all down to the provider. This guide sets out a practical routine for the days before and the morning of an onsale.
+The ticket site runs the onsale: stock, queue order, prices and fees. Here's a routine for the days before and the morning itself.
 
 ## Before onsale day
 
@@ -63,8 +63,6 @@ No. A presale or access code unlocks ticket inventory during a defined sale wind
 Do not rush to an unverified seller. Recheck the official source for later releases or added dates, and evaluate any resale listing by its exact seat, final total, delivery, and protection terms.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [When to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets)
 - [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)

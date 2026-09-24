@@ -15,9 +15,9 @@ sources:
     last_checked: 2026-09-21
 ---
 
-Search for a SeatGeek promo code and you will find plenty of them listed across coupon sites and social posts. The harder question is whether any given code will actually do anything for your order, because that depends on your account, the event, your order total, where you are, and SeatGeek's own terms at the moment you check out. A code can be perfectly real and still apply nothing to your basket.
+The only way to know whether a SeatGeek promo code works is to enter it at SeatGeek's checkout, on the order you actually want, and look at the total. Coupon sites and social posts list plenty of codes, but whether one does anything depends on your account, the event, your order total, where you are, and SeatGeek's terms at that moment. A code can be perfectly real and still take nothing off your basket.
 
-This guide explains how promo codes generally work, why they often fail, and how to test one safely. It is about the method, not a list of codes: TourTicketCompare does not publish promo codes, promise a discount, or control what happens at SeatGeek's checkout. Whether a code applies, and the final total, are decided by SeatGeek when you enter it.
+We don't publish codes or promise discounts, and we don't control SeatGeek's checkout. What follows is how codes generally work, why they often fail, and how to test one safely.
 
 ## How promo codes usually work
 
@@ -36,7 +36,7 @@ Because the rule is checked live, the only place you learn whether a code applie
 If you want to try a code, do it inside the real purchase flow so you can see exactly what it does before you commit:
 
 - Start from SeatGeek's official app or website, not a link in a message or advert.
-- Build the order you actually want first — the right event, date, seats, and quantity.
+- Build the order you actually want first: the right event, date, seats and quantity.
 - Enter the code exactly as written. Capitalisation and stray spaces can stop it matching.
 - Read any message SeatGeek shows when the code is applied or rejected; it usually says why.
 - Look at the final total with the code applied, and check it against the total without it.
@@ -50,7 +50,7 @@ Promo-code searches are a common hook for phishing and lookalike sites, because 
 
 - Enter codes only at SeatGeek's own checkout, never on a third-party page that asks you to "validate" a code by signing in.
 - Ignore codes that arrive by direct message or that demand personal or payment details up front.
-- Check the domain in the address bar before signing in — a padlock alone does not prove a site is genuine.
+- Check the domain in the address bar before signing in. A padlock alone doesn't prove a site is genuine.
 
 A code is never worth handing your login or card details to a site you cannot verify.
 
@@ -60,7 +60,7 @@ Whether or not a code applies, run the same final checks:
 
 - Artist, date, venue, and city match the show you want.
 - Section, row, or listing details are clear for the seats you are buying.
-- The final total — after any code and all fees — is one you are happy with.
+- The final total, after any code and all fees, is one you're happy with.
 - Delivery timing and transfer method suit your plans.
 - SeatGeek's current refund, cancellation, and buyer terms cover your order.
 - You have saved the confirmation and support links once the order goes through.
@@ -84,8 +84,6 @@ SeatGeek says only one promo code can be used per purchase. If several codes are
 No. SeatGeek says promo codes cannot be applied to an order after it has been placed, so verify the reduction in the order total before submitting payment.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets)

@@ -33,15 +33,30 @@ function normalizeSlug(value) {
  * @param {number} [now]            Reference epoch ms (defaults to Date.now()).
  * @returns {boolean}
  */
+// slug -> event timestamps (NaN for an unparseable date), built once per events
+// array (2026-09-24). The helpers below were each a full pass over every event,
+// normalising every slug, and /artists and the homepage call them once per
+// artist: 80 artists x 1,700 events of regex work on every render.
+const TIMES_BY_EVENTS = new WeakMap();
+function eventTimesBySlug(events) {
+  let index = TIMES_BY_EVENTS.get(events);
+  if (index) return index;
+  index = new Map();
+  for (const ev of events) {
+    if (!ev || typeof ev !== "object") continue;
+    const slug = normalizeSlug(ev.artist_slug);
+    if (!slug) continue;
+    if (!index.has(slug)) index.set(slug, []);
+    index.get(slug).push(Date.parse(String(ev.datetime_iso || ev.dateTimeISO || "").trim()));
+  }
+  TIMES_BY_EVENTS.set(events, index);
+  return index;
+}
+
 export function artistHasUpcomingShow(events, artistSlug, now = Date.now()) {
   const slug = normalizeSlug(artistSlug);
   if (!slug || !Array.isArray(events)) return false;
-  return events.some((ev) => {
-    if (!ev || typeof ev !== "object" || normalizeSlug(ev.artist_slug) !== slug) return false;
-    const iso = String(ev.datetime_iso || ev.dateTimeISO || "").trim();
-    const ts = Date.parse(iso);
-    return Number.isFinite(ts) && ts >= now;
-  });
+  return (eventTimesBySlug(events).get(slug) || []).some((ts) => Number.isFinite(ts) && ts >= now);
 }
 
 /**
@@ -78,13 +93,7 @@ export const AUTO_PROMOTED_MIN_UPCOMING_SHOWS = 3;
 export function countUpcomingShows(events, artistSlug, now = Date.now()) {
   const slug = normalizeSlug(artistSlug);
   if (!slug || !Array.isArray(events)) return 0;
-  let count = 0;
-  for (const ev of events) {
-    if (!ev || typeof ev !== "object" || normalizeSlug(ev.artist_slug) !== slug) continue;
-    const ts = Date.parse(String(ev.datetime_iso || ev.dateTimeISO || "").trim());
-    if (Number.isFinite(ts) && ts >= now) count += 1;
-  }
-  return count;
+  return (eventTimesBySlug(events).get(slug) || []).filter((ts) => Number.isFinite(ts) && ts >= now).length;
 }
 
 /**
@@ -111,11 +120,7 @@ export function countUpcomingShows(events, artistSlug, now = Date.now()) {
 export function countTrackedShows(events, artistSlug) {
   const slug = normalizeSlug(artistSlug);
   if (!slug || !Array.isArray(events)) return 0;
-  let count = 0;
-  for (const ev of events) {
-    if (ev && typeof ev === "object" && normalizeSlug(ev.artist_slug) === slug) count += 1;
-  }
-  return count;
+  return (eventTimesBySlug(events).get(slug) || []).length;
 }
 
 export function artistPageIndexable(artistOrStatus, events, artistSlug, now = Date.now()) {

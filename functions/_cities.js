@@ -45,7 +45,25 @@ function latestVerifiedDate(shows) {
 // A city is indexable only when it has enough distinct, useful coverage to be
 // more than a duplicate of one artist or venue page, and when at least one of
 // its upcoming shows can actually lead somewhere (see cityGate).
+// Memoised per events array and wall-clock minute (added 2026-09-24). A Pages
+// isolate keeps one parsed events.json across requests, and a single render
+// used to derive the same set several times over (router, links, schema), each
+// a full pass over every event. Only the default clock is cached; an explicit
+// `options.now` (audits, forecasts, tests) always computes fresh. The result is
+// frozen, so a caller that tried to sort or splice the shared array would throw
+// in tests rather than corrupt another request's view.
+const DERIVECITIES_MEMO = new WeakMap();
 export function deriveCities(events, options = {}) {
+  if (Number.isFinite(options.now) || !Array.isArray(events)) return deriveCitiesUncached(events, options);
+  const minute = Math.floor(Date.now() / 60000);
+  const hit = DERIVECITIES_MEMO.get(events);
+  if (hit && hit.minute === minute) return hit.result;
+  const result = Object.freeze(deriveCitiesUncached(events, options));
+  DERIVECITIES_MEMO.set(events, { minute, result });
+  return result;
+}
+
+function deriveCitiesUncached(events, options = {}) {
   const now = Number.isFinite(options.now) ? options.now : Date.now();
   const groups = new Map();
 

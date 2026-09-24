@@ -1752,13 +1752,23 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
 // City and venue cards link it in preference to the artist page: it is the
 // page built for "<artist> tickets <city>", and until 2026-09-24 it was linked
 // only from artist pages and its sibling artist-city pages.
+// Memoised per events array, artist set and minute: deriving every artist's
+// cities is a pass over the whole dataset, and every city and venue page asks.
+const ARTIST_CITY_PATHS_MEMO = new WeakMap();
 function indexableArtistCityPaths(events, targetCitySlug, linkableArtistSlugs) {
-  if (!targetCitySlug || !linkableArtistSlugs?.size) return new Map();
-  return new Map(
-    deriveIndexableArtistCities(events, [...linkableArtistSlugs])
-      .filter((artistCity) => artistCity.slug === targetCitySlug)
-      .map((artistCity) => [artistCity.artistSlug, artistCity.path])
-  );
+  if (!targetCitySlug || !linkableArtistSlugs?.size || !Array.isArray(events)) return new Map();
+  const key = `${Math.floor(Date.now() / 60000)}|${[...linkableArtistSlugs].sort().join(",")}`;
+  let hit = ARTIST_CITY_PATHS_MEMO.get(events);
+  if (!hit || hit.key !== key) {
+    const byCity = new Map();
+    for (const artistCity of deriveIndexableArtistCities(events, [...linkableArtistSlugs])) {
+      if (!byCity.has(artistCity.slug)) byCity.set(artistCity.slug, new Map());
+      byCity.get(artistCity.slug).set(artistCity.artistSlug, artistCity.path);
+    }
+    hit = { key, byCity };
+    ARTIST_CITY_PATHS_MEMO.set(events, hit);
+  }
+  return hit.byCity.get(targetCitySlug) || new Map();
 }
 
 function cityForVenue(events, venue) {
@@ -2443,10 +2453,10 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
   return parts.join("");
 }
 
-function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}, linkableArtistSlugs = null) {
+function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}, linkableArtistSlugs = null, cachedEvents = null) {
   const venueRuns = venueRunIndex(venue.shows);
   const artistCityPaths = venue.city
-    ? indexableArtistCityPaths(events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs)
+    ? indexableArtistCityPaths(cachedEvents || events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs)
     : new Map();
   const eventsById = new Map(
     (Array.isArray(events) ? events : [])
@@ -2554,8 +2564,10 @@ export function renderCityPageBody(route, events = [], options = {}) {
       {
         ...options,
         ...(route.linkableArtistSlugs ? { linkableArtistSlugs: new Set(route.linkableArtistSlugs) } : {}),
+        // route.events is the isolate's cached events array; `events` here is
+        // the per-request copy with prices attached, which would defeat the memo.
         artistCityPaths: indexableArtistCityPaths(
-          events,
+          route.events || events,
           city.slug,
           new Set(route.linkableArtistSlugs || route.indexableArtistSlugs || [])
         )
@@ -2605,7 +2617,9 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       indexableArtistSlugs,
       options.seatGeekAvailable === true,
       options.vividSeatsAvailable === true,
-      options.marketplaceAvailability || {}
+      options.marketplaceAvailability || {},
+      null,
+      route.events || events
     )}</section><section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
       venue.venue
     )}</h2><p>Use the ticket button on the date you want, or open that show's artist page for the full event view. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
@@ -3306,11 +3320,30 @@ function enrichEventAsShow(ev) {
   };
 }
 
+// slug -> that artist's raw event records, built once per events array
+// (2026-09-24): futureShowsForArtist runs per artist and per card on several
+// routes, and each call used to slugify every event in the dataset.
+const EVENTS_BY_ARTIST = new WeakMap();
+function eventsForArtist(events, slug) {
+  if (!Array.isArray(events)) return [];
+  let index = EVENTS_BY_ARTIST.get(events);
+  if (!index) {
+    index = new Map();
+    for (const ev of events) {
+      if (!ev || typeof ev !== "object") continue;
+      const key = slugify(ev.artist_slug);
+      if (!index.has(key)) index.set(key, []);
+      index.get(key).push(ev);
+    }
+    EVENTS_BY_ARTIST.set(events, index);
+  }
+  return index.get(slug) || [];
+}
+
 function futureShowsForArtist(events, artistSlug, limit = Infinity) {
   const now = Date.now();
   const slug = slugify(artistSlug);
-  return events
-    .filter((ev) => ev && typeof ev === "object" && slugify(ev.artist_slug) === slug)
+  return eventsForArtist(events, slug)
     .map(enrichEventAsShow)
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -3359,6 +3392,36 @@ function recentPastShowsForArtist(events, artistSlug, limit = 3) {
 // time is re-read as UTC so formatting in UTC returns it byte-for-byte; only a
 // bare instant consults `timezone`, falling back to UTC when it is absent or
 // unparseable. The fallback never guesses a zone from city or country.
+// Intl.DateTimeFormat construction dominates card rendering: a large board
+// built several formatters per card per render (2026-09-24 profile: the top
+// self-time entries on city, venue and artist pages). One cached formatter per
+// (options, zone) formats identically — toLocale*String with explicit fields
+// constructs exactly this formatter internally. An invalid zone throws at
+// construction, as before, so callers' try/catch still decides the fallback.
+const DATE_FORMATTERS = new Map();
+function dateFormatter(options, timeZone) {
+  const key = `${timeZone}|${JSON.stringify(options)}`;
+  let formatter = DATE_FORMATTERS.get(key);
+  if (!formatter) {
+    formatter = new Intl.DateTimeFormat("en-US", { ...options, timeZone });
+    DATE_FORMATTERS.set(key, formatter);
+  }
+  return formatter;
+}
+const VALID_TIME_ZONES = new Map();
+function isValidTimeZone(tz) {
+  if (!VALID_TIME_ZONES.has(tz)) {
+    let valid = true;
+    try {
+      new Intl.DateTimeFormat("en-US", { timeZone: tz });
+    } catch (error) {
+      valid = false;
+    }
+    VALID_TIME_ZONES.set(tz, valid);
+  }
+  return VALID_TIME_ZONES.get(tz);
+}
+
 function venueDateParts(iso, timezone) {
   const raw = String(iso || "").trim();
   if (!raw) return null;
@@ -3366,14 +3429,7 @@ function venueDateParts(iso, timezone) {
     const instant = new Date(raw);
     if (!Number.isFinite(instant.getTime())) return null;
     const tz = String(timezone || "").trim();
-    if (tz) {
-      try {
-        new Intl.DateTimeFormat("en-US", { timeZone: tz });
-        return { date: instant, timeZone: tz };
-      } catch (error) {
-        // fall through to UTC
-      }
-    }
+    if (tz && isValidTimeZone(tz)) return { date: instant, timeZone: tz };
     return { date: instant, timeZone: "UTC" };
   }
   const wall = raw.replace(/[+-]\d{2}:?\d{2}$/, "");
@@ -3386,13 +3442,7 @@ function formatShowDateServer(iso, timezone) {
   const parts = venueDateParts(iso, timezone);
   if (!parts) return "";
   try {
-    return parts.date.toLocaleDateString("en-US", {
-      weekday: "short",
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-      timeZone: parts.timeZone
-    });
+    return dateFormatter({ weekday: "short", month: "short", day: "numeric", year: "numeric" }, parts.timeZone).format(parts.date);
   } catch (error) {
     return "";
   }
@@ -3408,12 +3458,7 @@ function formatShortDateServer(iso, timezone) {
   const parts = venueDateParts(iso, timezone);
   if (!parts) return "";
   try {
-    return parts.date.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-      timeZone: parts.timeZone
-    });
+    return dateFormatter({ month: "short", day: "numeric", year: "numeric" }, parts.timeZone).format(parts.date);
   } catch (error) {
     return "";
   }
@@ -3432,15 +3477,11 @@ function showLocalTimeServer(iso, timezone) {
     // h24 in some ICU builds, which renders midnight as "24" — and the Workers
     // ICU build need not match Node's. Both 0 and 24 are treated as midnight so
     // a date-only record can never slip through and print "12:00 AM local".
-    const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hourCycle: "h23", timeZone: parts.timeZone }));
-    const minute = Number(parts.date.toLocaleString("en-US", { minute: "numeric", timeZone: parts.timeZone }));
+    const hour = Number(dateFormatter({ hour: "numeric", hourCycle: "h23" }, parts.timeZone).format(parts.date));
+    const minute = Number(dateFormatter({ minute: "numeric" }, parts.timeZone).format(parts.date));
     if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
     if ((hour === 0 || hour === 24) && minute === 0) return "";
-    return parts.date.toLocaleTimeString("en-US", {
-      hour: "numeric",
-      minute: "2-digit",
-      timeZone: parts.timeZone
-    });
+    return dateFormatter({ hour: "numeric", minute: "2-digit" }, parts.timeZone).format(parts.date);
   } catch (error) {
     return "";
   }
@@ -3454,9 +3495,9 @@ function showDatePartsServer(iso, timezone) {
   const { date, timeZone } = parts;
   try {
     return {
-      weekday: date.toLocaleDateString("en-US", { weekday: "short", timeZone }),
-      day: date.toLocaleDateString("en-US", { day: "numeric", timeZone }),
-      monthYear: date.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone })
+      weekday: dateFormatter({ weekday: "short" }, timeZone).format(date),
+      day: dateFormatter({ day: "numeric" }, timeZone).format(date),
+      monthYear: dateFormatter({ month: "short", year: "numeric" }, timeZone).format(date)
     };
   } catch (error) {
     return null;

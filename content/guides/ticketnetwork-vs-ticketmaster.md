@@ -65,7 +65,7 @@ Because listings are seller-set, availability and price on TicketNetwork move in
 
 Not reliably, and not in a way you can settle before checkout. A resale listing can sit above or below a primary price depending on the seat, the quantity, how the show is selling and when you look. Often the two aren't the same ticket at all: a different section, row or delivery method.
 
-On TourTicketCompare, a TicketNetwork button on a date shows TicketNetwork's lowest listed price for that date when its feed supplies one, with how long ago we checked. The Ticketmaster button is a plain link with no price. That tells you where to look, not which order will cost less.
+On TourTicketCompare, a TicketNetwork button on a date shows TicketNetwork's lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. That tells you where to look, not which order will cost less.
 
 The number that decides it is the complete current total, and neither site's headline figure is that number until you reach the payment step. Under the US Federal Trade Commission's rule on unfair or deceptive fees, businesses must show the total price for live-event tickets up front, including every charge or fee they know about and can calculate. Taxes and government charges, shipping charges and optional add-ons may be excluded from that figure, but anything excluded must be disclosed before you're asked to pay, at least as prominently as the total.
 

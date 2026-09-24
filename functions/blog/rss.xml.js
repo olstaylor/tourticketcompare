@@ -67,7 +67,7 @@ export async function onRequestGet({ request, env }) {
     <title>TourTicketCompare blog</title>
     <link>${escapeXml(`${origin}/blog`)}</link>
     <atom:link href="${escapeXml(`${origin}/blog/rss.xml`)}" rel="self" type="application/rss+xml" />
-    <description>Notes from an independent ticket research site: how links get verified, what a price snapshot means, and what we publish or withhold.</description>
+    <description>Notes from an independent ticket research site: how links get verified, what a price snapshot means, and what gets published or withheld.</description>
     <language>en</language>${lastBuild ? `\n    <lastBuildDate>${escapeXml(lastBuild)}</lastBuildDate>` : ""}
 ${items}
   </channel>

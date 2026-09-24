@@ -80,7 +80,7 @@ const COLLECTIONS = [
       "sources"
     ],
     // `author` is a documented front-matter override with no CMS field: the
-    // byline is the site's named author by default and an editor has no reason
+    // byline is the site's own name by default and an editor has no reason
     // to change it from the browser. It is listed here so the contract check
     // can tell a deliberate omission from an accidental one.
     configOptional: ["author"]

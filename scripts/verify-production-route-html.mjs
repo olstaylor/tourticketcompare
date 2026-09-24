@@ -24,13 +24,13 @@ const baseUrlRaw = process.env.PRODUCTION_BASE_URL || DEFAULT_BASE_URL;
 // TRUST_ROUTES (asserted by --self-test).
 const ROUTE_H1 = {
   '/': 'Compare ticket prices for the show you want.',
-  '/artists': 'Artists we track',
+  '/artists': 'Tracked artists',
   '/guides': 'Ticket buying guides',
   '/how-it-works': 'How TourTicketCompare works',
   '/editorial-policy': 'Editorial policy',
   '/affiliate-disclosure': 'Affiliate disclosure',
   '/about': 'About TourTicketCompare',
-  '/contact': 'Contact us',
+  '/contact': 'Contact',
   '/privacy': 'Privacy policy',
   '/terms': 'Terms of use'
 };

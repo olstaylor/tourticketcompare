@@ -60,7 +60,7 @@ export function shellRecords(row, seoTitle) {
       meta_description: descriptions.find((d) => d.length <= MAX_DESCRIPTION) || "",
       faq: [
         { question: `Where can I find ${name} tour dates?`, answer: "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing." },
-        { question: "Is TourTicketCompare official?", answer: "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider." },
+        { question: "Is TourTicketCompare official?", answer: "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider." },
       ],
       related_guides: GUIDES,
     },

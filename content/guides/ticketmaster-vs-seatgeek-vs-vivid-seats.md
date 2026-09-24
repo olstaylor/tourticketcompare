@@ -41,7 +41,7 @@ sources:
 
 Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.
 
-No provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies us with a listed price, so expect a checked link from all three and a figure from one. The section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).
+No provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies this site with a listed price, so expect a checked link from all three and a figure from one. The section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).
 
 ## Ticketmaster vs SeatGeek vs Vivid Seats at a glance
 
@@ -79,9 +79,9 @@ Treat these as differences in the shopping experience. The exact event, ticket, 
 
 Don't expect a three-way price table: two of these three never carry a price here.
 
-A price appears only when a ticket site's feed supplies a listed price we're allowed to show. Vivid Seats, TicketNetwork and StubHub International do. SeatGeek's feed returns no prices to us, so its button is a checked link without a figure. Ticketmaster is where we confirm dates, and its button is a plain link. On a date covered by all three, you'll see a link to each and a listed price from Vivid Seats alone.
+A price appears only when a ticket site's feed supplies a listed price the site is allowed to show. Vivid Seats, TicketNetwork and StubHub International do. SeatGeek's feed returns no prices to this site, so its button is a checked link without a figure. Ticketmaster is where dates are confirmed, and its button is a plain link. On a date covered by all three, you'll see a link to each and a listed price from Vivid Seats alone.
 
-Where two sites that do carry prices cover the same date, in the same currency, you can see each site's lowest listed price side by side, with how long ago we checked. We check every few hours, and a price drops off once it is 24 hours old.
+Where two sites that do carry prices cover the same date, in the same currency, you can see each site's lowest listed price side by side, with how long ago it was checked. Prices are checked every few hours, and a price drops off once it is 24 hours old.
 
 That doesn't mean the seats are equivalent, that the ticket is still there, or what the order will cost. A listed price may leave out fees the site shows at checkout. It narrows your shortlist; the ticket site settles what you pay.
 

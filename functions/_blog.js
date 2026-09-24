@@ -69,7 +69,7 @@ function normalizePost(raw) {
     datePublished,
     dateModified,
     status: text(raw.status) || "published",
-    author: text(raw.author) || "Ollie Taylor",
+    author: text(raw.author) || "TourTicketCompare",
     tags: slugList(raw.tags),
     relatedGuides: slugList(raw.relatedGuides),
     relatedArtists: slugList(raw.relatedArtists),
@@ -153,6 +153,11 @@ export function findTag(tags, slug) {
 // explicit and the first word is always capitalised regardless.
 const TAG_LABEL_STOPWORDS = new Set(["a", "an", "and", "at", "for", "in", "of", "on", "or", "the", "to", "vs", "with"]);
 
+// Labels that differ from their slug. The site copy avoids first-person
+// voice, but a published tag slug is a URL, so the label changes and the slug
+// stays.
+const TAG_LABEL_OVERRIDES = Object.freeze({ "how-we-work": "How the Site Works" });
+
 /**
  * Human label for a tag slug ("ticket-fees" → "Ticket Fees").
  *
@@ -160,6 +165,7 @@ const TAG_LABEL_STOPWORDS = new Set(["a", "an", "and", "at", "for", "in", "of", 
  * @returns {string}
  */
 export function tagLabel(slug) {
+  if (Object.hasOwn(TAG_LABEL_OVERRIDES, text(slug))) return TAG_LABEL_OVERRIDES[text(slug)];
   return text(slug)
     .split("-")
     .filter(Boolean)

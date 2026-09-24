@@ -121,7 +121,7 @@ const primaryCtaHref = literal(serverBlock, "HOME_PRIMARY_CTA_HREF");
 assert(headline === "Compare ticket prices for the show you want.", "the homepage headline is the agreed proposition");
 assert(
   subcopy ===
-    "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.",
+    "Choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site.",
   "the homepage supporting copy is the agreed proposition"
 );
 assert(primaryCtaLabel === "Find a show", "the homepage primary action is 'Find a show'");

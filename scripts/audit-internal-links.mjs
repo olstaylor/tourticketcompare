@@ -239,14 +239,14 @@ for (const city of cities) {
 
   // What a city page must carry: who it is about, the selective-coverage
   // disclosure the policy requires, the schedule, the route to ticket options,
-  // and an accountable author. Nothing here asks for a section whose content is
+  // and the site byline. Nothing here asks for a section whose content is
   // the same on every city page — that filler was removed deliberately, and a
   // marker demanding it back would reinstate it.
   // Matched against mainHtml, so the byline marker is the anchor itself: "By "
   // and the name are separated by the opening tag in the raw HTML.
   const requiredCopy = [
-    ">Ollie Taylor</a>",
-    `Selected tour dates we have verified — not a complete ${city.city} events calendar.`,
+    ">TourTicketCompare</a>",
+    `Selected verified tour dates — not a complete ${city.city} events calendar.`,
     `Upcoming concerts in ${city.city}`,
     `Compare tickets for a ${city.city} concert`
   ];
@@ -302,8 +302,8 @@ for (const venue of venues) {
 
   // Same contract as the city loop above.
   for (const marker of [
-    ">Ollie Taylor</a>",
-    `Selected tour dates we have verified — not the full ${venue.venue} calendar.`,
+    ">TourTicketCompare</a>",
+    `Selected verified tour dates — not the full ${venue.venue} calendar.`,
     `Upcoming shows at ${venue.venue}`,
     `Getting tickets at ${venue.venue}`
   ]) {

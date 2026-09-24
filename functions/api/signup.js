@@ -157,11 +157,11 @@ function safeBackHref(value) {
 }
 
 const HTML_MESSAGES = {
-  subscribed: "You're on the watchlist. We'll email you when verified dates and checked ticket links are listed.",
-  already_subscribed: "You're already on the watchlist — we'll be in touch when verified dates are listed.",
+  subscribed: "You're on the watchlist. You'll get an email when verified dates and checked ticket links are listed.",
+  already_subscribed: "You're already on the watchlist — you'll hear when verified dates are listed.",
   invalid_email: "That email address didn't look right. Please go back and try again.",
-  invalid_form: "We couldn't read that submission. Please go back and try again.",
-  invalid_artist: "We couldn't match that artist. Please go back and try again.",
+  invalid_form: "That submission couldn't be read. Please go back and try again.",
+  invalid_artist: "That artist couldn't be matched. Please go back and try again.",
   artist_validation_unavailable: "Signups are briefly unavailable. Please try again shortly.",
   rate_limited: "Too many signups from this connection just now. Please try again in a few minutes.",
   spam_detected: "That submission looked automated and was not saved.",

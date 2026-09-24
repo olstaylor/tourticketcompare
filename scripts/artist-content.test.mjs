@@ -208,7 +208,7 @@ assert(
 // --- FAQ --------------------------------------------------------------------
 const authoredFaq = [
   { question: "Where can I find Harry Styles tour dates?", answer: "Check the verified ticket platform links on this page." },
-  { question: "How do I know if a ticket link is real?", answer: "We only show buttons that link directly to checked destinations." },
+  { question: "How do I know if a ticket link is real?", answer: "Buttons only link directly to checked destinations." },
   { question: "What ticket prices can I see here?", answer: "A timestamped listed-price snapshot may appear." },
   { question: "Is TourTicketCompare official?", answer: "No. TourTicketCompare is independent and unofficial." }
 ];

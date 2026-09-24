@@ -20,6 +20,8 @@ import {
   providerConfig
 } from "./lib/impact-marketplace-providers.mjs";
 
+import { buildPriceChecksSql } from "./lib/price-checks.mjs";
+
 const execFileAsync = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const EVENTS_PATH = path.join(ROOT, "public", "data", "events.json");
@@ -303,6 +305,24 @@ async function writeRows(rows, options, deps = {}) {
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
 }
 
+// Record every completed lookup in provider_price_checks (scripts/lib/price-checks.mjs).
+// Written in its own execute, after the price rows, and never fatal: a check
+// record is a display nicety, and must not be able to stop prices publishing.
+async function writePriceChecks(checks, checkedAt, options, deps = {}) {
+  const sql = buildPriceChecksSql(checks, checkedAt);
+  if (!sql) return { recorded: 0 };
+  const exec = deps.execFile || execFileAsync;
+  const dir = await fs.mkdtemp(path.join(os.tmpdir(), "ttc-impact-price-checks-"));
+  const file = path.join(dir, "price-checks.sql");
+  try {
+    await fs.writeFile(file, sql);
+    await exec("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024 });
+    return { recorded: checks.length };
+  } catch (error) {
+    return { recorded: 0, error: String(error?.stderr || error?.message || error).slice(0, 300) };
+  } finally { await fs.rm(dir, { recursive: true, force: true }); }
+}
+
 async function run(options, deps = {}) {
   const config = providerConfig(options.provider);
   if (!config) throw new Error(`--provider must be one of: ${Object.keys(PROVIDERS).join(", ")}`);
@@ -310,6 +330,7 @@ async function run(options, deps = {}) {
   const now = deps.now || new Date();
   const selected = selectEligible(events, artists, config, options, now);
   const rows = [];
+  const checks = [];
   const errors = [];
   let fetched = 0;
   for (const item of selected) {
@@ -326,11 +347,16 @@ async function run(options, deps = {}) {
     fetched += 1;
     const price = exactPrice(catalog.candidates, item.externalId);
     if (price) rows.push(buildRow(config, item, price, now, options.freshnessHours));
+    checks.push({ event_id: item.id, provider: config.slug, outcome: price ? "priced" : "no_price" });
   }
   const written = options.apply ? await (deps.writer ? deps.writer(rows, options) : writeRows(rows, options, deps)) : 0;
+  const checkResult = options.apply
+    ? await (deps.checksWriter ? deps.checksWriter(checks, now.toISOString(), options) : writePriceChecks(checks, now.toISOString(), options, deps))
+    : { recorded: 0 };
   return {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", eligible: selected.length,
     fetched, usable: rows.length, written, skipped: selected.length - rows.length, failed: errors.length,
+    checks: checks.length, checks_recorded: checkResult.recorded, ...(checkResult.error ? { checks_error: checkResult.error } : {}),
     zero_row_reason: selected.length === 0 ? "no_eligible_verified_events" : rows.length === 0 ? (errors.length ? "provider_fetch_failed" : "no_exact_current_prices") : undefined,
     proposed_rows: rows.map(({ id, ...row }) => row), errors
   };
@@ -358,6 +384,29 @@ async function selfTest() {
     async fetchArtistCatalog() { return { ok: true, candidates: [candidate] }; }
   });
   assert.equal(summary.usable, 1);
+  assert.equal(summary.checks, 1, "a completed lookup is counted as a price check");
+
+  // Apply mode records every completed lookup, priced or not, and a failing
+  // check write never fails the lane or blocks the price rows.
+  let recordedChecks = null;
+  const applied = await run({ provider: "ticket-liquidator", apply: true, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
+    data: [[...events, { ...events[0], id: "e2", provider_links: { "ticket-liquidator": { verified: true, event_id: "tl-2" } } }], []],
+    now: new Date("2026-07-13T00:00:00Z"),
+    async fetchArtistCatalog() { return { ok: true, candidates: [candidate] }; },
+    async writer(rows) { return rows.length; },
+    async checksWriter(checks, checkedAt) { recordedChecks = { checks, checkedAt }; return { recorded: 0, error: "boom" }; }
+  });
+  assert.equal(applied.written, 1, "price rows still publish when the check write fails");
+  assert.deepEqual(recordedChecks.checks.map((c) => `${c.event_id}:${c.outcome}`), ["e1:priced", "e2:no_price"]);
+  assert.equal(recordedChecks.checkedAt, "2026-07-13T00:00:00.000Z");
+  assert.equal(applied.checks_error, "boom");
+  const failedLookup = await run({ provider: "ticket-liquidator", apply: true, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
+    data: [events, []], now: new Date("2026-07-13T00:00:00Z"),
+    async fetchArtistCatalog() { return { ok: false, reason: "down" }; },
+    async writer(rows) { return rows.length; },
+    async checksWriter(checks) { return { recorded: checks.length }; }
+  });
+  assert.equal(failedLookup.checks, 0, "a failed lookup establishes nothing and records no check");
 
   // The retry contract for an origin refusal. A 503 that clears must not be
   // allowed to speak for the lane; a deterministic status must still be a
@@ -449,7 +498,7 @@ async function selfTest() {
     async execFile() { unrelenting += 1; throw Object.assign(new Error(contention.message), { stderr: contention.stderr }); }
   }), "contention that never clears must still fail the lane");
   assert.equal(unrelenting, D1_MAX_ATTEMPTS, "a contended import is retried to the cap");
-  return 38;
+  return 44;
 }
 
 async function main() {

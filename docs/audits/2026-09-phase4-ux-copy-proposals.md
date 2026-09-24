@@ -48,6 +48,12 @@ final total on the **ticket** site", because on the homepage "the site" reads
 as this site, and the homepage-proposition test requires each total sentence
 to name where the total is confirmed.
 
+A second adjustment, made in the pre-merge review: P1's "lowest listed price
+on each" is used only when every button on the card shows a price. SeatGeek
+and Ticketmaster never carry one, so on a mixed card the line reads "lowest
+listed price where shown". As approved, most cards would have claimed a price
+on buttons that have none.
+
 ### The comparison module in five seconds
 
 A visitor should be able to answer three questions without reading: what is

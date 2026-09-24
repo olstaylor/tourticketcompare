@@ -1406,7 +1406,7 @@ const controlledCardCountLines = serverMorganWithSeatGeek.text.match(/<p class="
 assert(controlledCardCountLines.length > 0, "server-rendered show cards with CTAs should carry a checked-ticket-site count line");
 for (const line of controlledCardCountLines) {
   assert(
-    /^<p class="provider-cta-count muted">(1 ticket site for this date|[2-9]\d* ticket sites for this date)( · lowest listed price(?: on each)?)?<\/p>$/.test(line),
+    /^<p class="provider-cta-count muted">(1 ticket site for this date|[2-9]\d* ticket sites for this date)( · lowest listed price(?: on each| where shown)?)?<\/p>$/.test(line),
     `show-card CTA count line should read as one site or a comparison of N: ${line}`
   );
 }
@@ -2215,8 +2215,16 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
-assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Listed prices, not your final total: the site adds fees at checkout.") && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time> \(Vivid Seats\)/.test(serverPricedMorgan.text) && serverPricedMorgan.text.includes("lowest listed price on each"), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
+assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Listed prices, not your final total: the site adds fees at checkout.") && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time> \(Vivid Seats\)/.test(serverPricedMorgan.text) && /lowest listed price (on each|where shown)/.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
 assert(!serverPricedMorgan.text.includes("SeatGeek price snapshot as of"), "SeatGeek must remain CTA-only in server-rendered cards");
+// SeatGeek and Ticketmaster never carry a price, so a card mixing them with a
+// priced lane must say "where shown", never claim a price "on each" button.
+assert(/lowest listed price where shown/.test(serverPricedMorgan.text), "a mixed priced card should say 'lowest listed price where shown'");
+for (const card of serverPricedMorgan.text.split('<article class="info-card show-card').slice(1)) {
+  if (card.includes("provider-cta-check")) {
+    assert(!card.includes("lowest listed price on each"), "a card with an unpriced button must never say 'lowest listed price on each'");
+  }
+}
 assert(serverPricedMorgan.text.includes("the site adds fees at checkout"), "server-rendered snapshots should keep the fees disclaimer");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
@@ -3528,11 +3536,11 @@ assert(
 );
 // Both renderers must produce the same three strings from the same count.
 assert(
-  appJs.includes('"1 ticket site for this date"') && appJs.includes("ticket sites for this date") && appJs.includes('"lowest listed price on each"'),
+  appJs.includes('"1 ticket site for this date"') && appJs.includes("ticket sites for this date") && appJs.includes('"lowest listed price on each"') && appJs.includes('"lowest listed price where shown"'),
   "client-rendered cards should carry the same checked-ticket-site count wording as the server"
 );
 assert(
-  pathSource.includes('"1 ticket site for this date"') && pathSource.includes("ticket sites for this date") && pathSource.includes('"lowest listed price on each"'),
+  pathSource.includes('"1 ticket site for this date"') && pathSource.includes("ticket sites for this date") && pathSource.includes('"lowest listed price on each"') && pathSource.includes('"lowest listed price where shown"'),
   "server-rendered cards should carry the checked-ticket-site count wording"
 );
 assert(

@@ -482,6 +482,16 @@ function reviewItem(event, ticketmasterDiscoveryEventId, data, kind, detail, int
   };
 }
 
+// A row ingested before its public sale stays `offsale` until that time; only
+// then may its moved on-sale time be followed. Offsale with no valid future
+// on-sale time, or on a row without public_onsale_at, stays review-only.
+function pendingOnsaleStillOffsale(event, data, now = Date.now()) {
+  if (!clean(event.public_onsale_at)) return false;
+  if (clean(data?.dates?.status?.code).toLowerCase() !== 'offsale') return false;
+  const at = Date.parse(clean(data?.sales?.public?.startDateTime));
+  return Number.isFinite(at) && at > now;
+}
+
 function computeReviewBlockers(event, remote) {
   const data = remote?.data;
   const discoveryId = ticketmasterDiscoveryEventId(event);
@@ -523,7 +533,7 @@ function computeReviewBlockers(event, remote) {
       [],
       'Confirm the event status manually before any local mutation.'
     ));
-  } else if (!SAFE_AUTO_STATUS_CODES.has(remoteStatus)) {
+  } else if (!SAFE_AUTO_STATUS_CODES.has(remoteStatus) && !pendingOnsaleStillOffsale(event, data)) {
     const kind = ['rescheduled', 'postponed', 'cancelled', 'canceled', 'offsale', 'unknown'].includes(remoteStatus)
       ? 'status'
       : 'unknown_status';
@@ -660,6 +670,13 @@ async function runSelfTest() {
     fieldsOf(pending, remote({ dates: { status: { code: 'onsale' } } })).includes('status'));
   assert('a moved public on-sale is followed',
     fieldsOf(pending, remote({ dates: { status: { code: 'offsale' } }, sales: { public: { startDateTime: '2027-02-01T15:00:00Z' } } })).includes('public_onsale_at'));
+  const kinds = (e, r) => computeReviewBlockers(e, r).map((b) => b.kind);
+  assert('a pending row still offsale with a future on-sale is not blocked',
+    !kinds(pending, remote({ dates: { status: { code: 'offsale' } }, sales: { public: { startDateTime: '2099-02-01T15:00:00Z' } } })).includes('status'));
+  assert('offsale with no future on-sale stays review-only',
+    kinds(pending, remote({ dates: { status: { code: 'offsale' } }, sales: { public: { startDateTime: '2020-02-01T15:00:00Z' } } })).includes('status'));
+  assert('offsale on a row without public_onsale_at stays review-only',
+    kinds(ev({ status: 'announced' }), remote({ dates: { status: { code: 'offsale' } }, sales: { public: { startDateTime: '2099-02-01T15:00:00Z' } } })).includes('status'));
   assert('status is never written for a row without public_onsale_at',
     !fieldsOf(ev({ status: 'announced' }), remote({ dates: { status: { code: 'onsale' } } })).includes('status'));
   assert('a genuine listing retitle IS an event_name change',

@@ -117,6 +117,8 @@ export function mapEventsToShows(events) {
         timezone: event.timezone,
         tour_name: event.tour_name,
         status: event.status,
+        // Hydrated cards must keep the not-yet-on-sale suppression and label.
+        public_onsale_at: event.public_onsale_at || "",
         seatgeek_event_id: event.seatgeek_event_id,
         vividseats_event_id: event.vividseats_event_id,
         ticketmaster_event_id: event.ticketmaster_event_id,

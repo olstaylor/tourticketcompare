@@ -510,7 +510,7 @@ for (const artist of catalog.artists || []) {
   if (!upcoming.length) reasons.push(policyModule.EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
   evidence.set(`/artists/${slug}`, {
     showCount: upcoming.length,
-    publishableCount: upcoming.filter((event) => policyModule.eventPublishable(event)).length,
+    publishableCount: upcoming.filter((event) => policyModule.eventPublishable(event, now)).length,
     exclusionReasons: reasons,
     futureTimestamps: upcoming
       .map((event) => Date.parse(String(event?.datetime_iso || event?.dateTimeISO || "").trim()))

@@ -129,8 +129,8 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       event_name: String(event.event_name || event.name || "").trim(),
       last_verified_at: String(event.last_verified_at || "").trim(),
       artist_name: String(event.artist_name || "").trim(),
-      publishable: eventPublishable(event),
-      statusPublishable: eventStatusPublishable(event),
+      publishable: eventPublishable(event, now),
+      statusPublishable: eventStatusPublishable(event, now),
       providers: verifiedProvidersForEvent(event)
     });
   }

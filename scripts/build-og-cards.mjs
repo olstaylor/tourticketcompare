@@ -504,8 +504,21 @@ export async function pruneOrphanedCards(referenced, dir = OG_DIR) {
  * appear and disappear as dates pass, so an exact-match check would fail on any
  * day the calendar moved and nothing else. What must hold is that every card the
  * router can reference actually exists.
+ *
+ * `coverage: true` (`npm run og:coverage:check`) additionally fails when a
+ * current indexable route has no card. That is the staleness signal the
+ * generated-freshness sensor watches, so a route that appears with an event
+ * sync gets a rebuild PR from the work-queue repair worker instead of sitting on
+ * the shared /og-image.png until someone runs og:build by hand (54 of 149
+ * artist-city routes had drifted that way by 2026-09-24). It stays out of
+ * test:mvp for the reason above. Orphaned cards are not counted: they are
+ * harmless and are pruned by the next rebuild.
  */
-async function check() {
+export function uncoveredCards(cards, manifest) {
+  return cards.filter((card) => !manifest?.[card.path]);
+}
+
+async function check({ coverage = false } = {}) {
   const problems = [];
   let manifest;
   try {
@@ -548,7 +561,12 @@ async function check() {
   const orphans = onDisk.filter((name) => !referenced.has(`/og/${name}`));
 
   const cards = await collectCards();
-  const uncovered = cards.filter((card) => !manifest[card.path]);
+  const uncovered = uncoveredCards(cards, manifest);
+  if (coverage && uncovered.length) {
+    problems.push(
+      `${uncovered.length} indexable route(s) have no card: ${uncovered.slice(0, 5).map((card) => card.path).join(", ")}${uncovered.length > 5 ? " …" : ""}`
+    );
+  }
 
   if (problems.length) {
     for (const problem of problems) console.error(`[og-cards] FAIL: ${problem}`);
@@ -699,6 +717,22 @@ async function selfTest() {
     "the rejection names the offending path and only that path"
   );
 
+  // Coverage: the sensor's staleness signal is "a current route has no card".
+  const coverageCards = [{ path: "/artists/coldplay" }, { path: "/artists/coldplay/tickets/london-united-kingdom" }];
+  assert(
+    uncoveredCards(coverageCards, { "/artists/coldplay": { url: "/og/artists-coldplay.png" } }).map((card) => card.path).join(",") ===
+      "/artists/coldplay/tickets/london-united-kingdom",
+    "coverage reports exactly the routes the manifest lacks"
+  );
+  assert(
+    uncoveredCards(coverageCards, {
+      "/artists/coldplay": { url: "/og/artists-coldplay.png" },
+      "/artists/coldplay/tickets/london-united-kingdom": { url: "/og/x.png" },
+      "/cities/gone": { url: "/og/cities-gone.png" }
+    }).length === 0,
+    "a fully covered surface passes coverage even with orphaned manifest entries"
+  );
+
   const manifest = renderManifest([["/artists/coldplay", { url: "/og/artists-coldplay.png", alt: "Tickets: Coldplay" }]]);
   assert(manifest.includes("export const OG_CARDS = {"), "the manifest exports OG_CARDS");
   assert(manifest.includes("GENERATED FILE"), "the manifest is marked generated");
@@ -721,6 +755,8 @@ if (invokedDirectly) {
     await selfTest();
   } else if (mode === "--check") {
     await check();
+  } else if (mode === "--coverage-check") {
+    await check({ coverage: true });
   } else {
     const args = process.argv.slice(2);
     const paths = [];

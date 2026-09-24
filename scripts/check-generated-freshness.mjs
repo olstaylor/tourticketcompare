@@ -64,10 +64,13 @@ export const GENERATED_ARTEFACTS = [
   {
     id: "og-cards",
     label: "Open Graph cards",
-    check: "npm run og:check",
+    // Coverage, not og:check: og:check deliberately passes while indexable
+    // routes lack a card, so it could never flag the drift that matters here —
+    // routes appearing as event data syncs land.
+    check: "npm run og:coverage:check",
     regenerate: "npm run og:build",
     artifacts: ["public/og", "functions/_og-cards.generated.js"],
-    source: "route metadata and the titles the cards are rasterised from",
+    source: "route metadata, the titles the cards are rasterised from, and the indexable route set derived from events.json",
     validation: ["npm run og:check", "npm run test:mvp"]
   },
   {

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3000652BAF076032",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-elmont-ubs-arena-2-19-2027--concerts-classical/production/7569925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569925,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-elmont-ubs-arena-2-19-2027--concerts-classical/production/7569925",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -66,7 +66,7 @@
     "ticketmaster_event_id": "02006530A59BCBC2",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-newark-prudential-center-2-21-2027--concerts-classical/production/7569927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
     "last_verified_at": null,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569927,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-newark-prudential-center-2-21-2027--concerts-classical/production/7569927",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -120,7 +120,7 @@
     "ticketmaster_event_id": "300065309A7C2B70",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-philadelphia-xfinity-mobile-arena-2-23-2027--concerts-classical/production/7569931",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
     "last_verified_at": null,
@@ -142,11 +142,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569931,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-philadelphia-xfinity-mobile-arena-2-23-2027--concerts-classical/production/7569931",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -174,7 +174,7 @@
     "ticketmaster_event_id": "01006529DCD008AF",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-boston-td-garden-2-24-2027--concerts-classical/production/7569936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
     "last_verified_at": null,
@@ -196,11 +196,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569936,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-boston-td-garden-2-24-2027--concerts-classical/production/7569936",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -336,7 +336,7 @@
     "ticketmaster_event_id": "10006528E2511726",
     "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-hamilton-td-coliseum-3-2-2027--concerts-classical/production/7570059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
     "last_verified_at": null,
@@ -358,11 +358,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570059,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-hamilton-td-coliseum-3-2-2027--concerts-classical/production/7570059",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -390,7 +390,7 @@
     "ticketmaster_event_id": "0800652C2147DE3D",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-detroit-little-caesars-arena-3-3-2027--concerts-classical/production/7569940",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
     "last_verified_at": null,
@@ -412,11 +412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569940,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-detroit-little-caesars-arena-3-3-2027--concerts-classical/production/7569940",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -444,7 +444,7 @@
     "ticketmaster_event_id": "0400652FC510D10C",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-chicago-united-center-3-5-2027--concerts-classical/production/7569946",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
     "last_verified_at": null,
@@ -466,11 +466,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569946,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-chicago-united-center-3-5-2027--concerts-classical/production/7569946",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -552,7 +552,7 @@
     "ticketmaster_event_id": "2D00652F127F2F12",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-charlotte-spectrum-center-3-9-2027--concerts-classical/production/7569976",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
     "last_verified_at": null,
@@ -574,11 +574,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569976,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-charlotte-spectrum-center-3-9-2027--concerts-classical/production/7569976",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -606,7 +606,7 @@
     "ticketmaster_event_id": "22006530A2DF57BE",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-orlando-kia-center-3-11-2027--concerts-classical/production/7569985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
     "last_verified_at": null,
@@ -628,11 +628,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569985,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-orlando-kia-center-3-11-2027--concerts-classical/production/7569985",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -660,7 +660,7 @@
     "ticketmaster_event_id": "0D00652320A72ED0",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-miami-kaseya-center-3-13-2027--concerts-classical/production/7569997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
     "last_verified_at": null,
@@ -682,11 +682,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569997,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-miami-kaseya-center-3-13-2027--concerts-classical/production/7569997",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -714,7 +714,7 @@
     "ticketmaster_event_id": "0D00652FBCCAAF26",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-tampa-benchmark-international-arena-3-14-2027--concerts-classical/production/7569999",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
     "last_verified_at": null,
@@ -736,11 +736,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569999,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-tampa-benchmark-international-arena-3-14-2027--concerts-classical/production/7569999",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -768,7 +768,7 @@
     "ticketmaster_event_id": "0E006529D84E34CE",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-atlanta-state-farm-arena-3-16-2027--concerts-classical/production/7570003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
     "last_verified_at": null,
@@ -790,11 +790,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570003,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-atlanta-state-farm-arena-3-16-2027--concerts-classical/production/7570003",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -822,7 +822,7 @@
     "ticketmaster_event_id": "1B0065294023420E",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-nashville-bridgestone-arena-3-17-2027--concerts-classical/production/7570410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
     "last_verified_at": null,
@@ -844,11 +844,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570410,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-nashville-bridgestone-arena-3-17-2027--concerts-classical/production/7570410",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -876,7 +876,7 @@
     "ticketmaster_event_id": "0C00650DB0ED8DE9",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-fort-worth-dickies-arena-3-22-2027--concerts-classical/production/7569919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
     "last_verified_at": null,
@@ -898,11 +898,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7569919,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-fort-worth-dickies-arena-3-22-2027--concerts-classical/production/7569919",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -930,7 +930,7 @@
     "ticketmaster_event_id": "1E006530ACAE72F2",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-denver-ball-arena-3-25-2027--concerts-classical/production/7570007",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
     "last_verified_at": null,
@@ -952,11 +952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570007,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-denver-ball-arena-3-25-2027--concerts-classical/production/7570007",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -984,7 +984,7 @@
     "ticketmaster_event_id": "1900652FF9C9C0FA",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-phoenix-mortgage-matchup-center-3-30-2027--concerts-classical/production/7570011",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
     "last_verified_at": null,
@@ -1006,11 +1006,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570011,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-phoenix-mortgage-matchup-center-3-30-2027--concerts-classical/production/7570011",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1038,7 +1038,7 @@
     "ticketmaster_event_id": "0900652CBFED8E63",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-anaheim-honda-center-4-2-2027--concerts-classical/production/7570013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
     "last_verified_at": null,
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570013,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-anaheim-honda-center-4-2-2027--concerts-classical/production/7570013",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1092,7 +1092,7 @@
     "ticketmaster_event_id": "1C006523F6B487D3",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-san-francisco-chase-center-4-4-2027--concerts-classical/production/7570017",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
     "last_verified_at": null,
@@ -1114,11 +1114,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570017,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-san-francisco-chase-center-4-4-2027--concerts-classical/production/7570017",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1146,7 +1146,7 @@
     "ticketmaster_event_id": "1C00652AA395AD0E",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-sacramento-golden-1-center-4-5-2027--concerts-classical/production/7570019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
     "last_verified_at": null,
@@ -1168,11 +1168,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570019,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-sacramento-golden-1-center-4-5-2027--concerts-classical/production/7570019",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1200,7 +1200,7 @@
     "ticketmaster_event_id": "1100652FB78DD75A",
     "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-vancouver-rogers-arena-4-8-2027--concerts-classical/production/7570061",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
     "last_verified_at": null,
@@ -1222,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570061,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-vancouver-rogers-arena-4-8-2027--concerts-classical/production/7570061",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1254,7 +1254,7 @@
     "ticketmaster_event_id": "0F006529E2ABFCEB",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-seattle-climate-pledge-arena-4-9-2027--concerts-classical/production/7570021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
     "last_verified_at": null,
@@ -1276,11 +1276,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570021,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-seattle-climate-pledge-arena-4-9-2027--concerts-classical/production/7570021",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1308,7 +1308,7 @@
     "ticketmaster_event_id": "0F00652E186AE034",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-portland-moda-center-4-11-2027--concerts-classical/production/7570035",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
     "last_verified_at": null,
@@ -1330,11 +1330,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570035,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-portland-moda-center-4-11-2027--concerts-classical/production/7570035",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

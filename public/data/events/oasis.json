@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1385439776",
     "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-munich-allianz-arena-7-2-2027--concerts-alternative/production/7553321",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553321,
+        "url": "https://www.vividseats.com/oasis-tickets-munich-allianz-arena-7-2-2027--concerts-alternative/production/7553321",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -66,7 +66,7 @@
     "ticketmaster_event_id": "2020208474",
     "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-munich-allianz-arena-7-3-2027--concerts-alternative/production/7553317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
     "last_verified_at": null,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553317,
+        "url": "https://www.vividseats.com/oasis-tickets-munich-allianz-arena-7-3-2027--concerts-alternative/production/7553317",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

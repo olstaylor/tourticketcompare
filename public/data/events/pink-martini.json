@@ -736,7 +736,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZP-S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZP-S",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-bellingham-mount-baker-theatre-1-24-2027/production/7412091",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZP-S",
     "last_verified_at": null,
@@ -758,11 +758,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7412091,
+        "url": "https://www.vividseats.com/pink-martini-tickets-bellingham-mount-baker-theatre-1-24-2027/production/7412091",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1500,7 +1500,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv-ZJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-charlottesville-paramount-theater-charlottesville-3-21-2027/production/7440052",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
     "last_verified_at": null,
@@ -1522,11 +1522,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7440052,
+        "url": "https://www.vividseats.com/pink-martini-tickets-charlottesville-paramount-theater-charlottesville-3-21-2027/production/7440052",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

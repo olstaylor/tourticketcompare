@@ -528,13 +528,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271388",
+        "url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3lTyqny",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",
@@ -590,13 +598,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271389",
+        "url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkR16PFe",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9",

@@ -16886,11 +16886,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668641",
-        "url": "https://www.ticketliquidator.com/tickets/7668641/Bruno-Mars-tickets-Wed-Sep-23-2026-Alamodome",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107071103",
@@ -16905,7 +16905,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5dIZbyC__Upm",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668641/Bruno-Mars-tickets-Wed-Sep-23-2026-Alamodome",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103"
   },
   {
@@ -31753,18 +31753,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7831760",
-        "url": "https://www.ticketliquidator.com/tickets/7831760/Niall-Horan-tickets-Wed-Sep-23-2026-Utilita-Arena-Newcastle",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_6JEzgkF",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831760/Niall-Horan-tickets-Wed-Sep-23-2026-Utilita-Arena-Newcastle"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-niall-horan-2026-manchester-1amzkozgkdqek4f",
@@ -102356,12 +102356,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286255",
+        "url": "https://www.ticketliquidator.com/tickets/8286255/Latto-tickets-Sat-Oct-31-2026-On-The-Record-at-Park-MGM",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5ezZ_KhRBUSj",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286255"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286255",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286255/Latto-tickets-Sat-Oct-31-2026-On-The-Record-at-Park-MGM"
   },
   {
     "id": "tm-metallica-2027-vancouver-1av7z_3gkd3wcu8",
@@ -102417,13 +102425,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268591",
+        "url": "https://www.ticketliquidator.com/tickets/8268591/Metallica-tickets-Sat-May-8-2027-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkD3wcU8",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268591"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268591",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268591/Metallica-tickets-Sat-May-8-2027-BC-Place-Stadium"
   },
   {
     "id": "tm-metallica-2027-san-diego-vvg1iz_3rsxtwd",
@@ -102479,13 +102495,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268592",
+        "url": "https://www.ticketliquidator.com/tickets/8268592/Metallica-tickets-Thu-May-13-2027-Snapdragon-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3RSxTwD",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268592"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268592",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268592/Metallica-tickets-Thu-May-13-2027-Snapdragon-Stadium"
   },
   {
     "id": "tm-metallica-2027-el-paso-vvg1yz_3zjrn4d",
@@ -102541,13 +102565,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268593",
+        "url": "https://www.ticketliquidator.com/tickets/8268593/Metallica-tickets-Tue-May-18-2027-Sun-Bowl-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3zjrN4D",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268593"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268593",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268593/Metallica-tickets-Tue-May-18-2027-Sun-Bowl-Stadium"
   },
   {
     "id": "tm-metallica-2027-san-antonio-g5diz_3mpis-k",
@@ -102603,13 +102635,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268594",
+        "url": "https://www.ticketliquidator.com/tickets/8268594/Metallica-tickets-Sat-May-22-2027-Alamodome",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3MPIS-k",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268594"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268594",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268594/Metallica-tickets-Sat-May-22-2027-Alamodome"
   },
   {
     "id": "tm-metallica-2027-fayetteville-g5viz_om30atl",
@@ -102665,13 +102705,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268595",
+        "url": "https://www.ticketliquidator.com/tickets/8268595/Metallica-tickets-Wed-May-26-2027-Donald-W-Reynolds-Razorback-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_om30aTL",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268595"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268595",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268595/Metallica-tickets-Wed-May-26-2027-Donald-W-Reynolds-Razorback-Stadium"
   },
   {
     "id": "tm-metallica-2027-kansas-city-vv17bz_3gkwemfok",
@@ -102727,13 +102775,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268597",
+        "url": "https://www.ticketliquidator.com/tickets/8268597/Metallica-tickets-Sat-May-29-2027-Arrowhead-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkwEMFoK",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268597"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268597",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268597/Metallica-tickets-Sat-May-29-2027-Arrowhead-Stadium"
   },
   {
     "id": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
@@ -102789,13 +102845,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268598",
+        "url": "https://www.ticketliquidator.com/tickets/8268598/Metallica-tickets-Sat-Jun-5-2027-Lucas-Oil-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkTr8LNi",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268598"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268598",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268598/Metallica-tickets-Sat-Jun-5-2027-Lucas-Oil-Stadium"
   },
   {
     "id": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
@@ -102851,13 +102915,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268600",
+        "url": "https://www.ticketliquidator.com/tickets/8268600/Metallica-tickets-Tue-Jun-8-2027-New-Highmark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_3GkTmReUp",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268600"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268600",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268600/Metallica-tickets-Tue-Jun-8-2027-New-Highmark-Stadium"
   },
   {
     "id": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
@@ -102913,13 +102985,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268601",
+        "url": "https://www.ticketliquidator.com/tickets/8268601/Metallica-tickets-Tue-Jun-15-2027-Huntington-Bank-Field",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkDYwNGG",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268601"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268601",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268601/Metallica-tickets-Tue-Jun-15-2027-Huntington-Bank-Field"
   },
   {
     "id": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
@@ -102975,13 +103055,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268602",
+        "url": "https://www.ticketliquidator.com/tickets/8268602/Metallica-tickets-Sat-Jun-19-2027-Rice-Eccles-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3Hepr-9",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268602/Metallica-tickets-Sat-Jun-19-2027-Rice-Eccles-Stadium"
   },
   {
     "id": "tm-teddy-swims-2027-dublin-17kzv0g6260hbxf",
@@ -103199,12 +103287,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8276961",
+        "url": "https://www.ticketliquidator.com/tickets/8276961/Yuridia-tickets-Wed-Mar-24-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zkf0GkeSKm_x",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276961"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276961",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276961/Yuridia-tickets-Wed-Mar-24-2027-Rosemont-Theatre"
   },
   {
     "id": "tm-pink-martini-2027-charlottesville-z7r9jz1aav-zj",
@@ -103529,13 +103625,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270976",
+        "url": "https://www.ticketliquidator.com/tickets/8270976/Hans-Zimmer-tickets-Sun-Feb-21-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkePJHRe",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270976"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270976",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270976/Hans-Zimmer-tickets-Sun-Feb-21-2027-Prudential-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
@@ -103591,13 +103695,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270977",
+        "url": "https://www.ticketliquidator.com/tickets/8270977/Hans-Zimmer-tickets-Tue-Feb-23-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPGaGA1LecY",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270977"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270977",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270977/Hans-Zimmer-tickets-Tue-Feb-23-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
@@ -103653,13 +103765,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270978",
+        "url": "https://www.ticketliquidator.com/tickets/8270978/Hans-Zimmer-tickets-Wed-Feb-24-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkdjVZxR",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270978"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270978",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270978/Hans-Zimmer-tickets-Wed-Feb-24-2027-TD-Garden"
   },
   {
     "id": "tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x",
@@ -103769,13 +103889,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271005",
+        "url": "https://www.ticketliquidator.com/tickets/8271005/Hans-Zimmer-tickets-Sun-Feb-28-2027-Centre-Videotron",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FG8vP17a7Z7uCe8",
     "timezone": "America/Toronto",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271005"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271005",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271005/Hans-Zimmer-tickets-Sun-Feb-28-2027-Centre-Videotron"
   },
   {
     "id": "tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj",
@@ -103885,13 +104013,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270979",
+        "url": "https://www.ticketliquidator.com/tickets/8270979/Hans-Zimmer-tickets-Wed-Mar-3-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GkY-oWzW",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270979"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270979",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270979/Hans-Zimmer-tickets-Wed-Mar-3-2027-Little-Caesars-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
@@ -103947,13 +104083,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270980",
+        "url": "https://www.ticketliquidator.com/tickets/8270980/Hans-Zimmer-tickets-Fri-Mar-5-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_3GkTA7u7G",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270980"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270980",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270980/Hans-Zimmer-tickets-Fri-Mar-5-2027-United-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
@@ -104009,13 +104153,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270981",
+        "url": "https://www.ticketliquidator.com/tickets/8270981/Hans-Zimmer-tickets-Sun-Mar-7-2027-Heritage-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkBx_fB1",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270981"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270981",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270981/Hans-Zimmer-tickets-Sun-Mar-7-2027-Heritage-Bank-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
@@ -104071,13 +104223,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270982",
+        "url": "https://www.ticketliquidator.com/tickets/8270982/Hans-Zimmer-tickets-Tue-Mar-9-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3H3LwH3",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270982"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270982/Hans-Zimmer-tickets-Tue-Mar-9-2027-Spectrum-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
@@ -104133,13 +104293,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270983",
+        "url": "https://www.ticketliquidator.com/tickets/8270983/Hans-Zimmer-tickets-Thu-Mar-11-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfYGkexMgrX",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270983"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270983/Hans-Zimmer-tickets-Thu-Mar-11-2027-Kia-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
@@ -104195,13 +104363,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270985",
+        "url": "https://www.ticketliquidator.com/tickets/8270985/Hans-Zimmer-tickets-Sat-Mar-13-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3GOtwD8",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270985/Hans-Zimmer-tickets-Sat-Mar-13-2027-Kaseya-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
@@ -104257,13 +104433,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270987",
+        "url": "https://www.ticketliquidator.com/tickets/8270987/Hans-Zimmer-tickets-Sun-Mar-14-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3XHwnHJ",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270987"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270987",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270987/Hans-Zimmer-tickets-Sun-Mar-14-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
@@ -104319,13 +104503,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270989",
+        "url": "https://www.ticketliquidator.com/tickets/8270989/Hans-Zimmer-tickets-Tue-Mar-16-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3EbKNKC",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270989"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270989",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270989/Hans-Zimmer-tickets-Tue-Mar-16-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
@@ -104381,13 +104573,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270990",
+        "url": "https://www.ticketliquidator.com/tickets/8270990/Hans-Zimmer-tickets-Wed-Mar-17-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3PZFVFC",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270990"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270990",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270990/Hans-Zimmer-tickets-Wed-Mar-17-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
@@ -104443,13 +104643,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270991",
+        "url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
@@ -104505,13 +104713,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270993",
+        "url": "https://www.ticketliquidator.com/tickets/8270993/Hans-Zimmer-tickets-Thu-Mar-25-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KeilE5w",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270993"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270993/Hans-Zimmer-tickets-Thu-Mar-25-2027-Ball-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
@@ -104567,13 +104783,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270994",
+        "url": "https://www.ticketliquidator.com/tickets/8270994/Hans-Zimmer-tickets-Tue-Mar-30-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkTywjdB",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270994"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270994",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270994/Hans-Zimmer-tickets-Tue-Mar-30-2027-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
@@ -104629,13 +104853,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270996",
+        "url": "https://www.ticketliquidator.com/tickets/8270996/Hans-Zimmer-tickets-Fri-Apr-2-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_3GkwTDbyN",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270996"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270996",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270996/Hans-Zimmer-tickets-Fri-Apr-2-2027-Honda-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
@@ -104691,13 +104923,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270997",
+        "url": "https://www.ticketliquidator.com/tickets/8270997/Hans-Zimmer-tickets-Sun-Apr-4-2027-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_32UcFLK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270997"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270997",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270997/Hans-Zimmer-tickets-Sun-Apr-4-2027-Chase-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
@@ -104753,13 +104993,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270998",
+        "url": "https://www.ticketliquidator.com/tickets/8270998/Hans-Zimmer-tickets-Mon-Apr-5-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3nNPQVC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270998"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270998",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270998/Hans-Zimmer-tickets-Mon-Apr-5-2027-Golden-1-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq",
@@ -104815,13 +105063,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271008",
+        "url": "https://www.ticketliquidator.com/tickets/8271008/Hans-Zimmer-tickets-Thu-Apr-8-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkXMNqqQ",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271008"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271008",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271008/Hans-Zimmer-tickets-Thu-Apr-8-2027-Rogers-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
@@ -104877,13 +105133,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271000",
+        "url": "https://www.ticketliquidator.com/tickets/8271000/Hans-Zimmer-tickets-Fri-Apr-9-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3ExnTSl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271000"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271000",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271000/Hans-Zimmer-tickets-Fri-Apr-9-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
@@ -104939,13 +105203,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271002",
+        "url": "https://www.ticketliquidator.com/tickets/8271002/Hans-Zimmer-tickets-Sun-Apr-11-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3zbQmZV",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271002/Hans-Zimmer-tickets-Sun-Apr-11-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-kenny-chesney-2027-tampa-vvg1vz_3xhd4sr",
@@ -105001,13 +105273,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265768",
+        "url": "https://www.ticketliquidator.com/tickets/8265768/Kenny-Chesney-tickets-Sat-Apr-24-2027-Raymond-James-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3xhd4sR",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265768/Kenny-Chesney-tickets-Sat-Apr-24-2027-Raymond-James-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-greenville-z7r9jz1aavsad",
@@ -105063,13 +105343,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265769",
+        "url": "https://www.ticketliquidator.com/tickets/8265769/Kenny-Chesney-tickets-Sat-May-1-2027-Dowdy-Ficklen-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAd",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T13:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265769",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265769/Kenny-Chesney-tickets-Sat-May-1-2027-Dowdy-Ficklen-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7",
@@ -105125,13 +105413,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265770",
+        "url": "https://www.ticketliquidator.com/tickets/8265770/Kenny-Chesney-tickets-Sat-May-8-2027-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsA7",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-26T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265770"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265770",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265770/Kenny-Chesney-tickets-Sat-May-8-2027-ATT-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-saint-louis-vv1kvovpfigaupvvy",
@@ -105295,13 +105591,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265775",
+        "url": "https://www.ticketliquidator.com/tickets/8265775/Kenny-Chesney-tickets-Sat-May-29-2027-Acrisure-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfxGkdbuj3L",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265775"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265775",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265775/Kenny-Chesney-tickets-Sat-May-29-2027-Acrisure-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-ames-vv1kbz_3x6g7cusy",
@@ -105411,13 +105715,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265777",
+        "url": "https://www.ticketliquidator.com/tickets/8265777/Kenny-Chesney-tickets-Sat-Jun-12-2027-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfIGkdubjP8",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265777"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265777/Kenny-Chesney-tickets-Sat-Jun-12-2027-Lincoln-Financial-Field"
   },
   {
     "id": "tm-kenny-chesney-2027-orchard-park-vv1adzkfngkd3refj",
@@ -105473,13 +105785,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265778",
+        "url": "https://www.ticketliquidator.com/tickets/8265778/Kenny-Chesney-tickets-Sat-Jun-19-2027-New-Highmark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AdZkfNGkd3ReFj",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265778"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265778",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265778/Kenny-Chesney-tickets-Sat-Jun-19-2027-New-Highmark-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1",
@@ -105535,13 +105855,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265779",
+        "url": "https://www.ticketliquidator.com/tickets/8265779/Kenny-Chesney-tickets-Sat-Jun-26-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F8Z_3ao7xZd2G1",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265779"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265779",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265779/Kenny-Chesney-tickets-Sat-Jun-26-2027-Soldier-Field"
   },
   {
     "id": "tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa",
@@ -105597,13 +105925,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265780",
+        "url": "https://www.ticketliquidator.com/tickets/8265780/Kenny-Chesney-tickets-Sat-Jul-3-2027-New-Nissan-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAA",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265780"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265780",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265780/Kenny-Chesney-tickets-Sat-Jul-3-2027-New-Nissan-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-milwaukee-vv1a6zkftgkdfvyq7",
@@ -105659,13 +105995,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265781",
+        "url": "https://www.ticketliquidator.com/tickets/8265781/Kenny-Chesney-tickets-Sat-Jul-10-2027-American-Family-Field",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkftGkdFvyQ7",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265781"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265781",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265781/Kenny-Chesney-tickets-Sat-Jul-10-2027-American-Family-Field"
   },
   {
     "id": "tm-kenny-chesney-2027-denver-g5vzz_3k6u08y",
@@ -105721,13 +106065,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265782",
+        "url": "https://www.ticketliquidator.com/tickets/8265782/Kenny-Chesney-tickets-Sat-Jul-17-2027-Empower-Field-At-Mile-High",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3K6u08y",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265782"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265782",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265782/Kenny-Chesney-tickets-Sat-Jul-17-2027-Empower-Field-At-Mile-High"
   },
   {
     "id": "tm-kenny-chesney-2027-kansas-city-vv1akzkfxgkdkijos",
@@ -105783,13 +106135,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265784",
+        "url": "https://www.ticketliquidator.com/tickets/8265784/Kenny-Chesney-tickets-Sat-Jul-24-2027-Arrowhead-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfxGkdkijos",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265784"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265784",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265784/Kenny-Chesney-tickets-Sat-Jul-24-2027-Arrowhead-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-atlanta-vvg1zz_3x03by9",
@@ -105845,13 +106205,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265786",
+        "url": "https://www.ticketliquidator.com/tickets/8265786/Kenny-Chesney-tickets-Sat-Jul-31-2027-Mercedes-Benz-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3x03bY9",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265786"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265786",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265786/Kenny-Chesney-tickets-Sat-Jul-31-2027-Mercedes-Benz-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z",
@@ -105907,13 +106275,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265787",
+        "url": "https://www.ticketliquidator.com/tickets/8265787/Kenny-Chesney-tickets-Sat-Aug-7-2027-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3Cwtd0z",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265787"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265787",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265787/Kenny-Chesney-tickets-Sat-Aug-7-2027-MetLife-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",
@@ -105969,13 +106345,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265788",
+        "url": "https://www.ticketliquidator.com/tickets/8265788/Kenny-Chesney-tickets-Sat-Aug-14-2027-Ford-Field",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkmnWPji",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265788"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265788",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265788/Kenny-Chesney-tickets-Sat-Aug-14-2027-Ford-Field"
   },
   {
     "id": "tm-kenny-chesney-2027-charlotte-g5evz_3c19bfo",
@@ -106031,13 +106415,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265789",
+        "url": "https://www.ticketliquidator.com/tickets/8265789/Kenny-Chesney-tickets-Sat-Aug-21-2027-Bank-Of-America-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3C19bfO",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265789"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265789",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265789/Kenny-Chesney-tickets-Sat-Aug-21-2027-Bank-Of-America-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv177z_3gkt1lkmv",
@@ -106093,13 +106485,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8276965",
+        "url": "https://www.ticketliquidator.com/tickets/8276965/Kenny-Chesney-tickets-Fri-Aug-27-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkT1lKmv",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276965"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276965",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276965/Kenny-Chesney-tickets-Fri-Aug-27-2027-Gillette-Stadium"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",
@@ -106155,13 +106555,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265790",
+        "url": "https://www.ticketliquidator.com/tickets/8265790/Kenny-Chesney-tickets-Sat-Aug-28-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfxGkdu8gfO",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265790"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265790/Kenny-Chesney-tickets-Sat-Aug-28-2027-Gillette-Stadium"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-honolulu-vvg1iz_3dqr_0d",
@@ -106395,13 +106803,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271388",
+        "url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3lTyqny",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",
@@ -106457,13 +106873,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271389",
+        "url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkR16PFe",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9",
@@ -107338,13 +107762,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277969",
+        "url": "https://www.ticketliquidator.com/tickets/8277969/Atmosphere-tickets-Fri-Jan-15-2027-The-Sylvee-WI",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfYGkes1AEm",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277969"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277969",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277969/Atmosphere-tickets-Fri-Jan-15-2027-The-Sylvee-WI"
   },
   {
     "id": "tm-atmosphere-2027-boise-g5vzz_kkmetdo",
@@ -107454,13 +107886,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277971",
+        "url": "https://www.ticketliquidator.com/tickets/8277971/Atmosphere-tickets-Sat-Jan-23-2027-The-Elm-Bozeman",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K6poibM",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277971"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277971",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277971/Atmosphere-tickets-Sat-Jan-23-2027-The-Elm-Bozeman"
   },
   {
     "id": "tm-atmosphere-2027-spokane-g5vzz_kkyknfe",
@@ -107516,13 +107956,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277972",
+        "url": "https://www.ticketliquidator.com/tickets/8277972/Atmosphere-tickets-Sun-Jan-24-2027-Knitting-Factory-Spokane",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkyknFe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277972"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277972",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277972/Atmosphere-tickets-Sun-Jan-24-2027-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-atmosphere-2027-vancouver-1av7z_3gkx859iu",
@@ -107578,13 +108026,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277978",
+        "url": "https://www.ticketliquidator.com/tickets/8277978/Atmosphere-tickets-Tue-Jan-26-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkX859iU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277978"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277978",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277978/Atmosphere-tickets-Tue-Jan-26-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-atmosphere-2027-eugene-z7r9jz1aaez3b",
@@ -107640,13 +108096,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277983",
+        "url": "https://www.ticketliquidator.com/tickets/8277983/Atmosphere-tickets-Thu-Jan-28-2027-McDonald-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ3b",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277983"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277983/Atmosphere-tickets-Thu-Jan-28-2027-McDonald-Theatre"
   },
   {
     "id": "tm-atmosphere-2027-reno-1a9zkfwgkddbjmf",
@@ -107756,13 +108220,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277974",
+        "url": "https://www.ticketliquidator.com/tickets/8277974/Atmosphere-tickets-Mon-Feb-1-2027-Rialto-Theatre-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPGIGA2KA3Q",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277974"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277974",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277974/Atmosphere-tickets-Mon-Feb-1-2027-Rialto-Theatre-Tucson"
   },
   {
     "id": "tm-atmosphere-2027-kansas-city-vv11bz_k7z0sqj",
@@ -107934,13 +108406,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277977",
+        "url": "https://www.ticketliquidator.com/tickets/8277977/Atmosphere-tickets-Sat-Feb-6-2027-Hard-Rock-Live-Rockford",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl5agu0",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277977"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277977",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277977/Atmosphere-tickets-Sat-Feb-6-2027-Hard-Rock-Live-Rockford"
   },
   {
     "id": "tm-hilary-duff-2027-vancouver-1aozko7gkervl69",
@@ -107989,11 +108469,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7734988",
+        "url": "https://www.ticketliquidator.com/tickets/7734988/Hilary-Duff-tickets-Fri-Jan-22-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZko7GkeRvl69",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734988/Hilary-Duff-tickets-Fri-Jan-22-2027-Rogers-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-vancouver-1av7z_7gkuh7fot",
@@ -108042,11 +108530,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7745831",
+        "url": "https://www.ticketliquidator.com/tickets/7745831/Hilary-Duff-tickets-Sat-Jan-23-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_7GkUh7Fot",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745831/Hilary-Duff-tickets-Sat-Jan-23-2027-Rogers-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-calgary-1k78v0ojga2h3es",
@@ -108095,11 +108591,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7734989",
+        "url": "https://www.ticketliquidator.com/tickets/7734989/Hilary-Duff-tickets-Tue-Jan-26-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0oJGA2h3ES",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734989/Hilary-Duff-tickets-Tue-Jan-26-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq",
@@ -108148,11 +108652,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7734990",
+        "url": "https://www.ticketliquidator.com/tickets/7734990/Hilary-Duff-tickets-Wed-Jan-27-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0ooGA1yTPQ",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734990/Hilary-Duff-tickets-Wed-Jan-27-2027-Rogers-Place"
   },
   {
     "id": "tm-hilary-duff-2027-saskatoon-1k78v0fmgaungny",
@@ -108201,11 +108713,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7751988",
+        "url": "https://www.ticketliquidator.com/tickets/7751988/Hilary-Duff-tickets-Fri-Jan-29-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0fMGAungNy",
     "timezone": "America/Swift_Current",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7751988/Hilary-Duff-tickets-Fri-Jan-29-2027-SaskTel-Centre"
   },
   {
     "id": "tm-hilary-duff-2027-winnipeg-1av7z_7gknwgxan",
@@ -108254,11 +108774,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7734991",
+        "url": "https://www.ticketliquidator.com/tickets/7734991/Hilary-Duff-tickets-Sat-Jan-30-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_7GknWgxAN",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734991/Hilary-Duff-tickets-Sat-Jan-30-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-hilary-duff-2027-hamilton-1avzz_7gkr2rr5b",
@@ -108413,11 +108941,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7734993",
+        "url": "https://www.ticketliquidator.com/tickets/7734993/Hilary-Duff-tickets-Fri-Feb-5-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkoaGkeUg7UO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734993/Hilary-Duff-tickets-Fri-Feb-5-2027-Centre-Bell"
   },
   {
     "id": "tm-hilary-duff-2027-halifax-1ad7z_7gkm3f7fo",
@@ -108466,11 +109002,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7734994",
+        "url": "https://www.ticketliquidator.com/tickets/7734994/Hilary-Duff-tickets-Sun-Feb-7-2027-Scotiabank-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_7Gkm3F7Fo",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734994/Hilary-Duff-tickets-Sun-Feb-7-2027-Scotiabank-Centre"
   },
   {
     "id": "tm-hilary-duff-2027-madrid-z698xz2qz16vpo4y_t",
@@ -108735,12 +109279,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284544",
+        "url": "https://www.ticketliquidator.com/tickets/8284544/Hilary-Duff-tickets-Sat-Oct-2-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfUGkdWFF3Y",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284544/Hilary-Duff-tickets-Sat-Oct-2-2027-Kia-Center"
   },
   {
     "id": "tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj",
@@ -108789,12 +109341,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284585",
+        "url": "https://www.ticketliquidator.com/tickets/8284585/Hilary-Duff-tickets-Mon-Oct-4-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpqg6lj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284585/Hilary-Duff-tickets-Mon-Oct-4-2027-Lenovo-Center"
   },
   {
     "id": "tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe",
@@ -108843,12 +109403,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284545",
+        "url": "https://www.ticketliquidator.com/tickets/8284545/Hilary-Duff-tickets-Wed-Oct-6-2027-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkeT7cFE",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284545/Hilary-Duff-tickets-Wed-Oct-6-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz",
@@ -108897,12 +109465,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284546",
+        "url": "https://www.ticketliquidator.com/tickets/8284546/Hilary-Duff-tickets-Fri-Oct-8-2027-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_K5DwnJz",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284546/Hilary-Duff-tickets-Fri-Oct-8-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j",
@@ -108951,12 +109527,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284547",
+        "url": "https://www.ticketliquidator.com/tickets/8284547/Hilary-Duff-tickets-Sat-Oct-9-2027-Giant-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGkemPa0J",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284547/Hilary-Duff-tickets-Sat-Oct-9-2027-Giant-Center"
   },
   {
     "id": "tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8",
@@ -109005,12 +109589,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284548",
+        "url": "https://www.ticketliquidator.com/tickets/8284548/Hilary-Duff-tickets-Mon-Oct-11-2027-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9lboi8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284548/Hilary-Duff-tickets-Mon-Oct-11-2027-KeyBank-Center"
   },
   {
     "id": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
@@ -109059,12 +109651,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284550",
+        "url": "https://www.ticketliquidator.com/tickets/8284550/Hilary-Duff-tickets-Fri-Oct-15-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPu8GA1iLbE",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284550/Hilary-Duff-tickets-Fri-Oct-15-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi",
@@ -109113,12 +109713,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284583",
+        "url": "https://www.ticketliquidator.com/tickets/8284583/Hilary-Duff-tickets-Sat-Oct-16-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfsGkdQpqGI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284583/Hilary-Duff-tickets-Sat-Oct-16-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s",
@@ -109167,12 +109775,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284551",
+        "url": "https://www.ticketliquidator.com/tickets/8284551/Hilary-Duff-tickets-Fri-Nov-5-2027-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kh8LC6s",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284551/Hilary-Duff-tickets-Fri-Nov-5-2027-Frost-Bank-Center"
   },
   {
     "id": "tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg",
@@ -109221,12 +109837,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284554",
+        "url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle",
@@ -109275,12 +109899,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284555",
+        "url": "https://www.ticketliquidator.com/tickets/8284555/Hilary-Duff-tickets-Mon-Nov-8-2027-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfgGkd6YdLE",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284555/Hilary-Duff-tickets-Mon-Nov-8-2027-BOK-Center"
   },
   {
     "id": "tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo",
@@ -109329,12 +109961,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284567",
+        "url": "https://www.ticketliquidator.com/tickets/8284567/Hilary-Duff-tickets-Wed-Nov-10-2027-CHI-Health-Center-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfgGkdlEtYo",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284567/Hilary-Duff-tickets-Wed-Nov-10-2027-CHI-Health-Center-Omaha"
   },
   {
     "id": "tm-hilary-duff-2027-milwaukee-vv1a6zkfggkdrdjze",
@@ -109383,12 +110023,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284568",
+        "url": "https://www.ticketliquidator.com/tickets/8284568/Hilary-Duff-tickets-Fri-Nov-12-2027-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfgGkdRdJzE",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284568/Hilary-Duff-tickets-Fri-Nov-12-2027-Fiserv-Forum"
   },
   {
     "id": "tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx",
@@ -109437,12 +110085,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284570",
+        "url": "https://www.ticketliquidator.com/tickets/8284570/Hilary-Duff-tickets-Mon-Nov-15-2027-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPuOGA1LaPX",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284570/Hilary-Duff-tickets-Mon-Nov-15-2027-T-Mobile-Center"
   },
   {
     "id": "tm-hilary-duff-2027-denver-g5vzz_kkrpbyy",
@@ -109491,12 +110147,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284571",
+        "url": "https://www.ticketliquidator.com/tickets/8284571/Hilary-Duff-tickets-Wed-Nov-17-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkRpbyy",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z"
+    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284571/Hilary-Duff-tickets-Wed-Nov-17-2027-Ball-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv110z_kqbpjub",
@@ -109545,12 +110209,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284572",
+        "url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv110Z_KQbPJub",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center"
   },
   {
     "id": "tm-josiah-queen-2027-tulsa-1aozkf0gkevkv5m",
@@ -110341,11 +111013,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255326",
+        "url": "https://www.ticketliquidator.com/tickets/8255326/Josiah-Queen-tickets-Fri-May-7-2027-HEB-Center-at-Cedar-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_32HchTd",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255326/Josiah-Queen-tickets-Fri-May-7-2027-HEB-Center-at-Cedar-Park"
   },
   {
     "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq",
@@ -110501,12 +111181,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277079",
+        "url": "https://www.ticketliquidator.com/tickets/8277079/HaAsh-tickets-Thu-Apr-22-2027-Murat-Theatre-at-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPG3GA1gW8K",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277079/HaAsh-tickets-Thu-Apr-22-2027-Murat-Theatre-at-Old-National-Centre"
   },
   {
     "id": "tm-ha-ash-2027-rosemont-vv1fvzvpg_o4z7ueuv",
@@ -110555,12 +111243,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8278251",
+        "url": "https://www.ticketliquidator.com/tickets/8278251/HaAsh-tickets-Fri-Apr-23-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvZvPG_O4Z7ueuv",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278251/HaAsh-tickets-Fri-Apr-23-2027-Rosemont-Theatre"
   },
   {
     "id": "tm-ha-ash-2027-denver-g5vzz_k1t3qaq",
@@ -110609,12 +111305,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277080",
+        "url": "https://www.ticketliquidator.com/tickets/8277080/HaAsh-tickets-Sun-Apr-25-2027-Paramount-Theatre-Denver",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K1t3qaq",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277080/HaAsh-tickets-Sun-Apr-25-2027-Paramount-Theatre-Denver"
   },
   {
     "id": "tm-ha-ash-2027-seattle-vvg1hz_k1hjj1j",
@@ -110663,12 +111367,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277081",
+        "url": "https://www.ticketliquidator.com/tickets/8277081/HaAsh-tickets-Wed-Apr-28-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_K1HJj1J",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277081/HaAsh-tickets-Wed-Apr-28-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-ha-ash-2027-inglewood-vvg1iz_3teyn4f",
@@ -110717,12 +111429,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277083",
+        "url": "https://www.ticketliquidator.com/tickets/8277083/HaAsh-tickets-Sun-May-2-2027-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277083/HaAsh-tickets-Sun-May-2-2027-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-ha-ash-2027-san-jose-g5vyz_k6wigg_",
@@ -110771,12 +111491,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277082",
+        "url": "https://www.ticketliquidator.com/tickets/8277082/HaAsh-tickets-Thu-May-6-2027-San-Jose-Civic",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6wiGg_",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277082/HaAsh-tickets-Thu-May-6-2027-San-Jose-Civic"
   },
   {
     "id": "tm-ha-ash-2027-phoenix-1a_zkfwgkdcnqcy",
@@ -110825,12 +111553,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277084",
+        "url": "https://www.ticketliquidator.com/tickets/8277084/HaAsh-tickets-Sat-May-8-2027-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfwGkdCnQcY",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277084/HaAsh-tickets-Sat-May-8-2027-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-ha-ash-2027-el-paso-vvg1yz_kgeolu1",
@@ -110879,12 +111615,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277085",
+        "url": "https://www.ticketliquidator.com/tickets/8277085/HaAsh-tickets-Wed-May-12-2027-El-Paso-County-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KGeOLU1",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277085/HaAsh-tickets-Wed-May-12-2027-El-Paso-County-Coliseum"
   },
   {
     "id": "tm-ha-ash-2027-irving-vvg1yz_k558xwt",
@@ -110933,12 +111677,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277086",
+        "url": "https://www.ticketliquidator.com/tickets/8277086/HaAsh-tickets-Fri-May-14-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K558XwT",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277086/HaAsh-tickets-Fri-May-14-2027-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-ha-ash-2027-hidalgo-g5diz_kauvdks",
@@ -110987,12 +111739,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277087",
+        "url": "https://www.ticketliquidator.com/tickets/8277087/HaAsh-tickets-Sat-May-15-2027-Payne-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KAuvDKs",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277087/HaAsh-tickets-Sat-May-15-2027-Payne-Arena"
   },
   {
     "id": "tm-ha-ash-2027-houston-g5diz_kkygldl",
@@ -111041,12 +111801,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277088",
+        "url": "https://www.ticketliquidator.com/tickets/8277088/HaAsh-tickets-Sun-May-16-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkYGlDl",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277088/HaAsh-tickets-Sun-May-16-2027-713-Music-Hall"
   },
   {
     "id": "tm-ha-ash-2027-new-york-k7vgf_kc2qanb",
@@ -111095,12 +111863,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277089",
+        "url": "https://www.ticketliquidator.com/tickets/8277089/HaAsh-tickets-Wed-May-19-2027-United-Palace-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KC2QANB",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277089/HaAsh-tickets-Wed-May-19-2027-United-Palace-Theatre"
   },
   {
     "id": "tm-ha-ash-2027-atlanta-vvg1zz_k1bpf9p",
@@ -111149,12 +111925,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277090",
+        "url": "https://www.ticketliquidator.com/tickets/8277090/HaAsh-tickets-Fri-May-21-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K1bPF9P",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277090/HaAsh-tickets-Fri-May-21-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-ha-ash-2027-miami-beach-vvg1vz_k1-dzg7",
@@ -111203,12 +111987,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277091",
+        "url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K1-Dzg7",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
   },
   {
     "id": "tm-lukas-graham-2027-dallas-vvg1yz_kg_q-ih",
@@ -111257,12 +112049,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286278",
+        "url": "https://www.ticketliquidator.com/tickets/8286278/Lukas-Graham-tickets-Tue-Mar-2-2027-The-Echo-Lounge-and-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KG_q-iH",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286278/Lukas-Graham-tickets-Tue-Mar-2-2027-The-Echo-Lounge-and-Music-Hall"
   },
   {
     "id": "tm-lukas-graham-2027-atlanta-vvg1zz_kgj9z2e",
@@ -111311,12 +112111,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286279",
+        "url": "https://www.ticketliquidator.com/tickets/8286279/Lukas-Graham-tickets-Thu-Mar-4-2027-Buckhead-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KGj9z2e",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286279/Lukas-Graham-tickets-Thu-Mar-4-2027-Buckhead-Theatre"
   },
   {
     "id": "tm-lukas-graham-2027-tampa-vvg1vz_kpwcutv",
@@ -111365,12 +112173,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286280",
+        "url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KpwcUtV",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor"
   },
   {
     "id": "tm-lukas-graham-2027-charlotte-g5evz_kpbekzf",
@@ -111419,12 +112235,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286281",
+        "url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpbekzf",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg",
@@ -111473,12 +112297,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286282",
+        "url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdU1_Zg",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf",
@@ -111581,12 +112413,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286284",
+        "url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_K8xG7IhPb",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5",
@@ -111797,12 +112637,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286290",
+        "url": "https://www.ticketliquidator.com/tickets/8286290/Lukas-Graham-tickets-Thu-Apr-8-2027-Egyptian-Room-At-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPuvGAuq0Sn",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286290/Lukas-Graham-tickets-Thu-Apr-8-2027-Egyptian-Room-At-Old-National-Centre"
   },
   {
     "id": "tm-lukas-graham-2027-minneapolis-vv11bz_kf-ovb0",
@@ -111905,12 +112753,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286294",
+        "url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkegDi06",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago"
   },
   {
     "id": "tm-passenger-2027-brussels-z698xzg2z16v-xbfos",
@@ -112543,11 +113399,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265897",
+        "url": "https://www.ticketliquidator.com/tickets/8265897/Passenger-tickets-Fri-Sep-24-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_2wG0-vu",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265897/Passenger-tickets-Fri-Sep-24-2027-O2-Academy-Birmingham"
   },
   {
     "id": "tm-passenger-2027-brighton-g5vhz_o5oziab",

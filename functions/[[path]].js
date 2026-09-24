@@ -915,19 +915,29 @@ function artistSchema(route, origin, describes = true) {
 // for the redistribution-approved lanes in SCHEMA_OFFERS_APPROVED_PROVIDERS
 // (see musicEventOffersSchema below). Availability is never emitted under any
 // flag. `description` and `image` are composed only from already-verified
-// facts (name/venue/city/date) and the site's own representative image, so
+// facts (name/venue/city/date) and the page's own social card, so
 // they add Search Console coverage without inventing data. `organizer` and
 // `endDate` stay omitted: we hold no verified promoter or event end time, and
 // fabricating either would violate the never-invent rule.
+// Absolute URL of the route's social card: its per-page card from the generated
+// OG_CARDS manifest, or the shared brand card when none has been built yet. The
+// og:image/twitter:image meta and MusicEvent.image both read this, so they
+// always name the same file.
+function ogCardUrl(route, origin) {
+  return `${origin}${OG_CARDS[route?.path]?.url || "/og-image.png"}`;
+}
+
 // Shared MusicEvent node builder for the artist, venue, and city @graphs. Every
 // field is composed from already-verified facts (name/venue/city/country/date)
-// plus the site's own representative image; addressCountry is included only
+// plus the page's own social card (ogCardUrl — the same URL its og:image meta
+// carries, so the visible card and the structured data never disagree);
+// addressCountry is included only
 // when the source record carries it. `offers` is always the output of the
 // flag-gated musicEventOffersSchema (empty by default) so the never-emit-price
 // invariant holds identically on every page type. `performer` is a reference to
 // the page's Person/MusicGroup node on artist pages and an inline
 // Person/MusicGroup on venue/city pages, which aggregate multiple artists.
-function musicEventNode(show, origin, { displayName, performer, offers = [] }) {
+function musicEventNode(show, origin, { displayName, performer, image, offers = [] }) {
   const name = displayName || show.artist_name || show.artist_slug;
   const displayDate = formatShowDateServer(show.dateTimeISO, show.timezone);
   const address = { "@type": "PostalAddress", addressLocality: show.city };
@@ -936,7 +946,7 @@ function musicEventNode(show, origin, { displayName, performer, offers = [] }) {
     "@type": "MusicEvent",
     name: show.event_name || `${name} — ${show.city}`,
     description: `${name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`,
-    image: `${origin}/og-image.png`,
+    image: image || `${origin}/og-image.png`,
     startDate: show.dateTimeISO,
     eventStatus: "https://schema.org/EventScheduled",
     location: { "@type": "Place", name: show.venue, address },
@@ -963,6 +973,7 @@ function musicEventsSchema(route, origin, events, env = {}) {
       musicEventNode(show, origin, {
         displayName: route.artist.name,
         performer: { "@id": artistId },
+        image: ogCardUrl(route, origin),
         offers: offersEnabled ? musicEventOffersSchema(show, origin, env) : []
       })
     );
@@ -975,7 +986,8 @@ function musicEventsSchema(route, origin, events, env = {}) {
 // same publishable gate, offers gate, and provider provenance apply as on the
 // artist board. The listing shows are aggregated (stripped of verification and
 // provider fields), so each is re-enriched from the source event by id.
-function musicEventsSchemaForListing(listingShows, events, origin, catalog, env, fallbackCountry = "") {
+function musicEventsSchemaForListing(route, listingShows, events, origin, catalog, env, fallbackCountry = "") {
+  const image = ogCardUrl(route, origin);
   const eventsById = new Map((events || []).map((ev) => [String(ev.id || "").trim(), ev]));
   const nodes = [];
   for (const listShow of (listingShows || []).slice(0, 50)) {
@@ -990,7 +1002,7 @@ function musicEventsSchemaForListing(listingShows, events, origin, catalog, env,
       url: `${origin}/artists/${show.artist_slug}`
     };
     const offers = schemaOffersEnabledForArtist(env, show.artist_slug) ? musicEventOffersSchema(show, origin, env) : [];
-    nodes.push(musicEventNode(show, origin, { displayName: show.artist_name, performer, offers }));
+    nodes.push(musicEventNode(show, origin, { displayName: show.artist_name, performer, image, offers }));
   }
   return nodes;
 }
@@ -1261,7 +1273,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     // answers restated the counts and schedule already visible above it — so no
     // FAQPage is emitted here either.
     if (route.indexable) {
-      graph.push(...musicEventsSchemaForListing(city.shows, events, origin, catalog, env, city.country));
+      graph.push(...musicEventsSchemaForListing(route, city.shows, events, origin, catalog, env, city.country));
     }
   }
   if (route.type === "artist-city" && route.artistCity) {
@@ -1312,7 +1324,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       // and page content stay aligned in both directions.
       graph.push(faqPageSchema(artistCityFaqEntries(artist, artistCity)));
       graph.push(
-        ...musicEventsSchemaForListing(artistCity.shows, events, origin, catalog, env, artistCity.country)
+        ...musicEventsSchemaForListing(route, artistCity.shows, events, origin, catalog, env, artistCity.country)
       );
     }
   }
@@ -1380,7 +1392,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     });
     // No FAQPage here for the same reason as the city block above.
     if (route.indexable) {
-      graph.push(...musicEventsSchemaForListing(venue.shows, events, origin, catalog, env, venue.country));
+      graph.push(...musicEventsSchemaForListing(route, venue.shows, events, origin, catalog, env, venue.country));
     }
   }
   if (route.faq) graph.push(faqSchema(route));
@@ -4873,7 +4885,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   // rather than pointing at a 404. Both cards are 1200x630, so the width/height
   // and type tags in the shell stay correct either way.
   const ogCard = OG_CARDS[route.path];
-  const ogImageUrl = `${origin}${ogCard?.url || "/og-image.png"}`;
+  const ogImageUrl = ogCardUrl(route, origin);
   next = next.replace(
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`

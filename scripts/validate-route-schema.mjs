@@ -18,6 +18,9 @@
 //     disappears for expired rows, unapproved sources, non-allowlisted
 //     providers, disabled flags, and out-of-pilot artists; availability is
 //     never emitted under any flag
+//   - every MusicEvent.image is the page's own og:image, which is the route's
+//     card from the generated OG_CARDS manifest (or the shared brand card when
+//     the route has none yet)
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -51,6 +54,19 @@ const env = {
 };
 
 const { onRequest, SCHEMA_OFFERS_APPROVED_PROVIDERS } = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
+const { OG_CARDS } = await import(pathToFileURL(path.join(root, "functions/_og-cards.generated.js")));
+
+// MusicEvent.image must name the same file as the page's og:image meta, and
+// that file is the route's manifest card — never a hardcoded path, so a route
+// joining or leaving the manifest moves both expectations together.
+function assertMusicEventImages(html, pathname, musicEvents) {
+  const expected = `https://tourticketcompare.com${OG_CARDS[pathname]?.url || "/og-image.png"}`;
+  const ogImage = html.match(/<meta\s+property="og:image"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
+  if (ogImage !== expected) fail(`${pathname}: og:image is "${ogImage}", expected "${expected}"`);
+  for (const node of musicEvents) {
+    if (node.image !== expected) fail(`${pathname}: MusicEvent.image is "${node.image}", expected the page's og:image "${expected}"`);
+  }
+}
 
 async function render(pathname, host = "tourticketcompare.com", envOverride = env) {
   return onRequest({
@@ -269,6 +285,7 @@ function expectedMusicEventCount(artistSlug) {
         fail(`${pathname}: MusicEvent performer does not reference the artist @id`);
       }
     }
+    assertMusicEventImages(html, pathname, musicEvents);
     checked += 1;
     totalEvents += musicEvents.length;
   }
@@ -316,6 +333,7 @@ function expectedMusicEventCount(artistSlug) {
         fail(`${pathname}: MusicEvent performer missing name or Person/MusicGroup type`);
       }
     }
+    assertMusicEventImages(html, pathname, musicEvents);
     ok(`${pathname}: ${musicEvents.length} MusicEvent node(s) match the publishable listing`);
   }
 
@@ -373,6 +391,7 @@ function expectedMusicEventCount(artistSlug) {
         fail(`${entry.path}: MusicEvent node missing name/startDate/venue/city`);
       }
     }
+    assertMusicEventImages(html, entry.path, musicEvents);
     checked += 1;
   }
   ok(`${checked} artist-city page(s) checked; MusicEvent nodes match the publishable listing and carry no offers`);

@@ -125,17 +125,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107163014",
-        "url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_FGkUHx1G-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-chicago-vv178z_fgkuxeurm",
@@ -3641,11 +3641,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669573",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T09:00:00Z"
+    "public_onsale_at": "2026-09-25T09:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573"
   }
 ]

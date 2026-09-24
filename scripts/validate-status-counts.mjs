@@ -351,7 +351,8 @@ function applyTableWrites(lines, range, expectedRows) {
     lines[i] = `| ${cells.join(" | ")} |`;
   }
   const added = [...expectedRows.keys()].filter((slug) => !seen.has(slug))
-    .map((slug) => tableRow(slug, expectedRows.get(slug), "Row added by `status:validate --write`; provenance is in `artists.json` and `data/provider-identities.json`."));
+    // Notes are human prose: an appended row leaves them empty for the owner.
+    .map((slug) => tableRow(slug, expectedRows.get(slug), ""));
   lines.splice(range.dataEnd, 0, ...added);
   return lines.join("\n");
 }

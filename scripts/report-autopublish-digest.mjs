@@ -29,6 +29,14 @@ export const EXPECTED_DAILY_LANES = [
   "automation:status-figures",
 ];
 
+// Auto-promote is expected only while both switches let it publish, so a
+// disabled lane never shows up as a perpetual "wrote nothing".
+export function expectedLanes(switches = {}) {
+  const on = (v) => String(v ?? "").trim().toLowerCase();
+  const promoting = on(switches.AUTOPROMOTE_ENABLED) === "true" && on(switches.AUTOPUBLISH_ENABLED) !== "false";
+  return promoting ? [...EXPECTED_DAILY_LANES, "automation:autopromote"] : EXPECTED_DAILY_LANES;
+}
+
 const laneOf = (pr) => (pr.labels || []).map((l) => l.name).find((n) => n.startsWith("automation:")) || "(no lane label)";
 
 /** Pure: build the issue body. */
@@ -51,7 +59,7 @@ export function renderDigest({ now, merged, held, switches }) {
   lines.push("", `### Held for a human (${held.length})`);
   lines.push(held.length ? held.map((pr) => `- #${pr.number} ${pr.title} (${laneOf(pr)})`).join("\n") : "None.");
 
-  const quiet = EXPECTED_DAILY_LANES.filter((lane) => !byLane.has(lane));
+  const quiet = expectedLanes(switches).filter((lane) => !byLane.has(lane));
   lines.push("", `### Expected daily lanes that wrote nothing (${quiet.length})`);
   lines.push(quiet.length ? quiet.map((l) => `- ${l}`).join("\n") : "None.");
   lines.push("", "_Failed or stalled runs are reported on `automation:health`, not here._");
@@ -125,6 +133,9 @@ function selfTest() {
   check(body.includes("- automation:data-sync") && !body.includes("- automation:seatgeek-cta\n"), "lists only the quiet expected lanes");
   check(body.includes("`AUTOPUBLISH_ENABLED`=unset"), "shows the switch values");
   check(renderDigest({ now: new Date(0), merged: [], held: [], switches: {} }).includes("Nothing auto-merged"), "says so on an empty day");
+  check(!body.includes("automation:autopromote"), "a disabled auto-promote lane is not expected");
+  check(renderDigest({ now: new Date(0), merged: [], held: [], switches: { AUTOPROMOTE_ENABLED: "true", AUTOPUBLISH_ENABLED: "unset" } }).includes("- automation:autopromote"), "an enabled auto-promote lane that wrote nothing is flagged");
+  check(!expectedLanes({ AUTOPROMOTE_ENABLED: "true", AUTOPUBLISH_ENABLED: "false" }).includes("automation:autopromote"), "the global pause removes it again");
   if (failures.length) {
     for (const f of failures) console.error(`  FAIL ${f}`);
     console.error(`[autopublish-digest] self-test: ${failures.length} failure(s)`);

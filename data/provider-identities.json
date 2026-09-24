@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-09-24",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -755,6 +755,61 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-09-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "hilary-duff",
+      "ticketmaster_attraction_id": "K8vZ9175rEf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/hilary-duff-tickets/artist/882305",
+      "seatgeek_performer_id": 247569,
+      "seatgeek_artist_url": "https://seatgeek.com/hilary-duff-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-24 (sanctioned path D): SeatGeek performer 247569 and Ticketmaster attraction K8vZ9175rEf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "josiah-queen",
+      "ticketmaster_attraction_id": "K8vZ917jMR7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/josiah-queen-tickets/artist/3111481",
+      "seatgeek_performer_id": 811736,
+      "seatgeek_artist_url": "https://seatgeek.com/josiah-queen-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-24 (sanctioned path D): SeatGeek performer 811736 and Ticketmaster attraction K8vZ917jMR7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "ha-ash",
+      "ticketmaster_attraction_id": "K8vZ917CW60",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/haash-tickets/artist/1639503",
+      "seatgeek_performer_id": 97016,
+      "seatgeek_artist_url": "https://seatgeek.com/ha-ash-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-24 (sanctioned path D): SeatGeek performer 97016 and Ticketmaster attraction K8vZ917CW60 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lukas-graham",
+      "ticketmaster_attraction_id": "K8vZ9172uRV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lukas-graham-tickets/artist/1667113",
+      "seatgeek_performer_id": 35377,
+      "seatgeek_artist_url": "https://seatgeek.com/lukas-graham-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-24 (sanctioned path D): SeatGeek performer 35377 and Ticketmaster attraction K8vZ9172uRV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "passenger",
+      "ticketmaster_attraction_id": "K8vZ917Gd-0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/passenger-tickets/artist/1231376",
+      "seatgeek_performer_id": 19767,
+      "seatgeek_artist_url": "https://seatgeek.com/passenger-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-24 (sanctioned path D): SeatGeek performer 19767 and Ticketmaster attraction K8vZ917Gd-0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

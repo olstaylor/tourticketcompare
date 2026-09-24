@@ -1,0 +1,851 @@
+[
+  {
+    "id": "tm-passenger-2027-brussels-z698xzg2z16v-xbfos",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Cirque Royal - Koninklijk Circus",
+    "datetime_iso": "2027-03-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1862608831",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/passenger-tickets/1862608831",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/passenger-tickets/1862608831",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1862608831",
+        "discovery_event_id": "Z698xZG2Z16v-xbFOs",
+        "url": "https://www.ticketmaster.be/event/passenger-tickets/1862608831",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v-xbFOs",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-amsterdam-z698xzbpz1aub0gy",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger | Premium Seats",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "AFAS Live Loge",
+    "datetime_iso": "2027-03-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36624330",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36624330",
+        "discovery_event_id": "Z698xZbpZ1AUb0GY",
+        "url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1AUb0GY",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-passenger-2027-milano-zg9rmiynyzd6ea",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Fabrique",
+    "datetime_iso": "2027-04-07T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "r40v4pyvzjkk",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/passenger-milano-07-04-2027/event/r40v4pyvzjkk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/passenger-milano-07-04-2027/event/r40v4pyvzjkk",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "r40v4pyvzjkk",
+        "discovery_event_id": "ZG9rmIYnyZd6ea",
+        "url": "https://www.ticketmaster.it/biglietti/passenger-milano-07-04-2027/event/r40v4pyvzjkk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZd6ea",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-dublin-1avoz_8gkm9ghn7",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Olympia Theatre",
+    "datetime_iso": "2027-09-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800650B97D7C8C4",
+    "ticketmaster_url": "https://www.ticketmaster.ie/passenger-dublin-07-09-2027/event/1800650B97D7C8C4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/passenger-dublin-07-09-2027/event/1800650B97D7C8C4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800650B97D7C8C4",
+        "discovery_event_id": "1AvOZ_8Gkm9gHN7",
+        "url": "https://www.ticketmaster.ie/passenger-dublin-07-09-2027/event/1800650B97D7C8C4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_8Gkm9gHN7",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-belfast-16zzkfkojzage16c",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ulster Hall Belfast",
+    "datetime_iso": "2027-09-08T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "38006513826B196D",
+    "ticketmaster_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "38006513826B196D",
+        "discovery_event_id": "16zZkfKOJZAGe16C",
+        "url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16zZkfKOJZAGe16C",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-glasgow-g5dzz_8wyqwf1",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-09-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00650CB077220A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00650CB077220A",
+        "discovery_event_id": "G5dzZ_8wYqwF1",
+        "url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_8wYqwF1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-edinburgh-1adbz_8gks0vdnw",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Usher Hall",
+    "datetime_iso": "2027-09-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600650CE407B8FD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600650CE407B8FD",
+        "discovery_event_id": "1AdbZ_8GkS0vDNW",
+        "url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_8GkS0vDNW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "O2 City Hall Newcastle",
+    "datetime_iso": "2027-09-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006511C90C223E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006511C90C223E",
+        "discovery_event_id": "G5dzZ_o6adeFX",
+        "url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_o6adeFX",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-manchester-17uov0g62wjanur",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2027-09-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064FC9C26336F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064FC9C26336F",
+        "discovery_event_id": "17uOv0G62wjaNuR",
+        "url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62wjaNuR",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-london-1auzkf3gkd0sykm",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Eventim Apollo",
+    "datetime_iso": "2027-09-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006512E4CF91AE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006512E4CF91AE",
+        "discovery_event_id": "1AUZkf3Gkd0Sykm",
+        "url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf3Gkd0Sykm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-exeter-g5vhz_o2o0irs",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Exeter",
+    "country": "Great Britain",
+    "venue": "The Great Hall, Exeter",
+    "datetime_iso": "2027-09-21T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006513E0928BF1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006513E0928BF1",
+        "discovery_event_id": "G5vHZ_o2O0IRs",
+        "url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_o2O0IRs",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-birmingham-g5dzz_2wg0-vu",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-09-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064FC8C92104D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064FC8C92104D",
+        "discovery_event_id": "G5dzZ_2wG0-vu",
+        "url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_2wG0-vu",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-brighton-g5vhz_o5oziab",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Brighton",
+    "country": "Great Britain",
+    "venue": "Brighton Dome",
+    "datetime_iso": "2027-09-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006512E002817A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006512E002817A",
+        "discovery_event_id": "G5vHZ_o5OZIAB",
+        "url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_o5OZIAB",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-brisbane-1avgz_8gkmdlzyi",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger - Wild Love Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-10-27T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300650DC37F8C28",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-brisbane-27-10-2027/event/1300650DC37F8C28",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-brisbane-27-10-2027/event/1300650DC37F8C28",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300650DC37F8C28",
+        "discovery_event_id": "1AvGZ_8GkMdLzYI",
+        "url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-brisbane-27-10-2027/event/1300650DC37F8C28",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_8GkMdLzYI",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-st-kilda-1avgz_8gkm6pbt5",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger - Wild Love Tour",
+    "city": "St Kilda",
+    "country": "Australia",
+    "venue": "Palais Theatre",
+    "datetime_iso": "2027-10-29T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300650DC7598FCB",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-st-kilda-29-10-2027/event/1300650DC7598FCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-st-kilda-29-10-2027/event/1300650DC7598FCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300650DC7598FCB",
+        "discovery_event_id": "1AvGZ_8GkM6pbT5",
+        "url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-st-kilda-29-10-2027/event/1300650DC7598FCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_8GkM6pbT5",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-sydney-16vgz_oayg7zvfp",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger - Wild Love Tour",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "State Theatre, Sydney",
+    "datetime_iso": "2027-10-30T08:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300651279E01525",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-sydney-30-10-2027/event/1300651279E01525",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-sydney-30-10-2027/event/1300651279E01525",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300651279E01525",
+        "discovery_event_id": "16vGZ_oayG7zvfP",
+        "url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-sydney-30-10-2027/event/1300651279E01525",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_oayG7zvfP",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  }
+]

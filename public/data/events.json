@@ -107941,5 +107941,4824 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277977"
+  },
+  {
+    "id": "tm-hilary-duff-2027-vancouver-1aozko7gkervl69",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-01-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006444AF06B1D7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006444AF06B1D7",
+        "discovery_event_id": "1AoZko7GkeRvl69",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZko7GkeRvl69",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-vancouver-1av7z_7gkuh7fot",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-01-24T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100644D9B108469",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100644D9B108469",
+        "discovery_event_id": "1Av7Z_7GkUh7Fot",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_7GkUh7Fot",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-calgary-1k78v0ojga2h3es",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2027-01-27T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064466F6D29F3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064466F6D29F3",
+        "discovery_event_id": "1k78v0oJGA2h3ES",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78v0oJGA2h3ES",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-01-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064451AE7F95A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064451AE7F95A",
+        "discovery_event_id": "1k78v0ooGA1yTPQ",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78v0ooGA1yTPQ",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-saskatoon-1k78v0fmgaungny",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "SaskTel Centre",
+    "datetime_iso": "2027-01-30T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064537DAB58F9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064537DAB58F9",
+        "discovery_event_id": "1k78v0fMGAungNy",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78v0fMGAungNy",
+    "timezone": "America/Swift_Current",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-winnipeg-1av7z_7gknwgxan",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-01-31T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100644ABDD62163",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100644ABDD62163",
+        "discovery_event_id": "1Av7Z_7GknWgxAN",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_7GknWgxAN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-hamilton-1avzz_7gkr2rr5b",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-02-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000644BCF79E2D8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000644BCF79E2D8",
+        "discovery_event_id": "1AvZZ_7GkR2rr5b",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_7GkR2rr5b",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-kanata-1aszkokgkdr1nwx",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-02-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006446EF2AACA2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-kanata-ontario-02-04-2027/event/31006446EF2AACA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-kanata-ontario-02-04-2027/event/31006446EF2AACA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006446EF2AACA2",
+        "discovery_event_id": "1AsZkokGkdR1nwx",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-kanata-ontario-02-04-2027/event/31006446EF2AACA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkokGkdR1nwx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-montreal-1aszkoagkeug7uo",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-02-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006449B6D44DA0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006449B6D44DA0",
+        "discovery_event_id": "1AsZkoaGkeUg7UO",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkoaGkeUg7UO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-halifax-1ad7z_7gkm3f7fo",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Scotiabank Centre",
+    "datetime_iso": "2027-02-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100644B92204211",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100644B92204211",
+        "discovery_event_id": "1Ad7Z_7Gkm3F7Fo",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_7Gkm3F7Fo",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-madrid-z698xz2qz16vpo4y_t",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-05-07T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1960579669",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1960579669",
+        "discovery_event_id": "Z698xZ2qZ16vPO4y_t",
+        "url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPO4y_t",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-milano-zg9rmiynyz776e",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Unipol Dome",
+    "datetime_iso": "2027-05-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "segp4wi4du5m",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/hilary-duff-the-lucky-me-tour-milano-10-05-2027/event/segp4wi4du5m",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/hilary-duff-the-lucky-me-tour-milano-10-05-2027/event/segp4wi4du5m",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "segp4wi4du5m",
+        "discovery_event_id": "ZG9rmIYnyZ776e",
+        "url": "https://www.ticketmaster.it/biglietti/hilary-duff-the-lucky-me-tour-milano-10-05-2027/event/segp4wi4du5m",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZ776e",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-05-16T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "777103846",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-tickets/777103846",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-tickets/777103846",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "777103846",
+        "discovery_event_id": "Z698xZG2Z1kqM7d-k",
+        "url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-tickets/777103846",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kqM7d-k",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-amsterdam-z698xzbpz1k3djpek",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "483716086",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "483716086",
+        "discovery_event_id": "Z698xZbpZ1k3djpek",
+        "url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k3djpek",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-orlando-1axzkfugkdwff3y",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-10-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006536FD2084B0",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006536FD2084B0",
+        "discovery_event_id": "1AxZkfUGkdWFF3Y",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfUGkdWFF3Y",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2027-10-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065359DD47ADC",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065359DD47ADC",
+        "discovery_event_id": "G5eVZ_Kpqg6lj",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kpqg6lj",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2027-10-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006532BF12D227",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006532BF12D227",
+        "discovery_event_id": "1A4ZkfwGkeT7cFE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfwGkeT7cFE",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-10-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006532FBCAA9B8",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006532FBCAA9B8",
+        "discovery_event_id": "G5vVZ_K5DwnJz",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_K5DwnJz",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "GIANT Center",
+    "datetime_iso": "2027-10-09T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006536AE949926",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-hershey-pennsylvania-10-09-2027/event/02006536AE949926",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-hershey-pennsylvania-10-09-2027/event/02006536AE949926",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006536AE949926",
+        "discovery_event_id": "vv1AeZkfUGkemPa0J",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-hershey-pennsylvania-10-09-2027/event/02006536AE949926",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfUGkemPa0J",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2027-10-11T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006535EB611B10",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-buffalo-new-york-10-11-2027/event/00006535EB611B10",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-buffalo-new-york-10-11-2027/event/00006535EB611B10",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006535EB611B10",
+        "discovery_event_id": "k7vGF_K9lboi8",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-buffalo-new-york-10-11-2027/event/00006535EB611B10",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_K9lboi8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-10-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065350AB1F627",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065350AB1F627",
+        "discovery_event_id": "vv1kv8vPu8GA1iLbE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vPu8GA1iLbE",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-10-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006531DA59D328",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006531DA59D328",
+        "discovery_event_id": "1ApZkfsGkdQpqGI",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfsGkdQpqGI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2027-11-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006536D07CE1F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-san-antonio-texas-11-05-2027/event/3A006536D07CE1F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-san-antonio-texas-11-05-2027/event/3A006536D07CE1F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006536D07CE1F1",
+        "discovery_event_id": "G5dIZ_Kh8LC6s",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-san-antonio-texas-11-05-2027/event/3A006536D07CE1F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_Kh8LC6s",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-11-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00652AE5AD2E75",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00652AE5AD2E75",
+        "discovery_event_id": "vvG1YZ_3lPl3yg",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-11-09T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006535C7C037E7",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006535C7C037E7",
+        "discovery_event_id": "1AOZkfgGkd6YdLE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkfgGkd6YdLE",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "CHI Health Center Omaha",
+    "datetime_iso": "2027-11-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006535EB9E9C11",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006535EB9E9C11",
+        "discovery_event_id": "vv1AkZkfgGkdlEtYo",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfgGkdlEtYo",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-milwaukee-vv1a6zkfggkdrdjze",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2027-11-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006535EF0E6E27",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006535EF0E6E27",
+        "discovery_event_id": "vv1A6ZkfgGkdRdJzE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfgGkdRdJzE",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-11-16T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065360A7C997E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065360A7C997E",
+        "discovery_event_id": "vv1kvOvPuOGA1LaPX",
+        "url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPuOGA1LaPX",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-denver-g5vzz_kkrpbyy",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-11-18T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531AF598E79",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531AF598E79",
+        "discovery_event_id": "G5vzZ_KkRpbyy",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KkRpbyy",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T16:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-anaheim-vv110z_kqbpjub",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-11-21T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900653698966358",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900653698966358",
+        "discovery_event_id": "vv110Z_KQbPJub",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv110Z_KQbPJub",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-josiah-queen-2027-tulsa-1aozkf0gkevkv5m",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-04-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006524B41B42EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006524B41B42EE",
+        "discovery_event_id": "1AOZkf0GkeVkV5m",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkf0GkeVkV5m",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006523A79091D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-saint-louis-missouri-04-09-2027/event/06006523A79091D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-saint-louis-missouri-04-09-2027/event/06006523A79091D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006523A79091D6",
+        "discovery_event_id": "vv1AkZkfNGkeE0a6p",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-saint-louis-missouri-04-09-2027/event/06006523A79091D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfNGkeE0a6p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-indianapolis-vv1ffz_3xppazdu26",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2027-04-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500652896585CE6",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500652896585CE6",
+        "discovery_event_id": "vv1FfZ_3xppAZdu26",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FfZ_3xppAZdu26",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-grand-rapids-vv1afzkfngkeiofuw",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006523AC454DB2",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006523AC454DB2",
+        "discovery_event_id": "vv1AFZkfNGkeiofUw",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfNGkeiofUw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-toronto-1a8zkf-gkdrxwct",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Coca-Cola Coliseum",
+    "datetime_iso": "2027-04-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006521EF8BD3BF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006521EF8BD3BF",
+        "discovery_event_id": "1A8Zkf-GkdRxWCT",
+        "url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zkf-GkdRxWCT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-worcester-vv1a8vpfygauucfi",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Worcester",
+    "country": "United States Of America",
+    "venue": "DCU Center",
+    "datetime_iso": "2027-04-15T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065239D34E528",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065239D34E528",
+        "discovery_event_id": "vv1A8vPFyGAuuCfI",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPFyGAuuCfI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-hershey-vv1aezkf0gkdfm7yq",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "GIANT Center",
+    "datetime_iso": "2027-04-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006524D4B84E5D",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006524D4B84E5D",
+        "discovery_event_id": "vv1AeZkf0Gkdfm7yq",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkf0Gkdfm7yq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-charlotte-g5evz_3r2npem",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-04-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065278F8E59F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065278F8E59F7",
+        "discovery_event_id": "G5eVZ_3r2NPEM",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3r2NPEM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-04-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006528E3AF4EC0",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006528E3AF4EC0",
+        "discovery_event_id": "vvG1zZ_3NNlVDZ",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3NNlVDZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-hoffman-estates-vv1a7zkfigkdsnse_",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Hoffman Estates",
+    "country": "United States Of America",
+    "venue": "NOW Arena",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006528F1AB1099",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006528F1AB1099",
+        "discovery_event_id": "vv1A7ZkfIGkdsnse_",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfIGkdsnse_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-04-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006524914A5FA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006524914A5FA8",
+        "discovery_event_id": "vv16aZkf00fZA5k85a",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16aZkf00fZA5k85a",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-05-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065249F018AA7",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-san-diego-california-04-30-2027/event/0A0065249F018AA7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-san-diego-california-04-30-2027/event/0A0065249F018AA7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065249F018AA7",
+        "discovery_event_id": "vvG1IZ_33LZbnE",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-san-diego-california-04-30-2027/event/0A0065249F018AA7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_33LZbnE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-glendale-1fk8vpavkaz7g1ee",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2027-05-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065274189B911",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065274189B911",
+        "discovery_event_id": "1Fk8vPaVkaZ7G1ee",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Fk8vPaVkaZ7G1ee",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-05-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006530BA53A76E",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006530BA53A76E",
+        "discovery_event_id": "vvG1YZ_KeBfBqm",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-cedar-park-g5diz_32hchtd",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Cedar Park",
+    "country": "United States Of America",
+    "venue": "H-E-B Center at Cedar Park",
+    "datetime_iso": "2027-05-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006523FCB5BFC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006523FCB5BFC3",
+        "discovery_event_id": "G5dIZ_32HchTd",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_32HchTd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-05-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006522D115B25D",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006522D115B25D",
+        "discovery_event_id": "vvG1YZ_35oAhaq",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ha-ash-2027-toronto-1a8zkfwgkedyh_t",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Meridian Hall",
+    "datetime_iso": "2027-04-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006532BBE7C67F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/haash-no-me-hablen-de-amor-toronto-ontario-04-20-2027/event/10006532BBE7C67F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/haash-no-me-hablen-de-amor-toronto-ontario-04-20-2027/event/10006532BBE7C67F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006532BBE7C67F",
+        "discovery_event_id": "1A8ZkfwGkeDyH_T",
+        "url": "https://www.ticketmaster.ca/haash-no-me-hablen-de-amor-toronto-ontario-04-20-2027/event/10006532BBE7C67F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfwGkeDyH_T",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-indianapolis-vv1kv8vpg3ga1gw8k",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065312AD7D413",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065312AD7D413",
+        "discovery_event_id": "vv1kv8vPG3GA1gW8K",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vPG3GA1gW8K",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-rosemont-vv1fvzvpg_o4z7ueuv",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Rosemont Theatre",
+    "datetime_iso": "2027-04-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040065319815C1C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040065319815C1C0",
+        "discovery_event_id": "vv1FvZvPG_O4Z7ueuv",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FvZvPG_O4Z7ueuv",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-denver-g5vzz_k1t3qaq",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-04-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006532A949D25D",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006532A949D25D",
+        "discovery_event_id": "G5vzZ_K1t3qaq",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_K1t3qaq",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-seattle-vvg1hz_k1hjj1j",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-04-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006532BC99C2A6",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006532BC99C2A6",
+        "discovery_event_id": "vvG1HZ_K1HJj1J",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_K1HJj1J",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-inglewood-vvg1iz_3teyn4f",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2027-05-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00652FC2E6A548",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-inglewood-california-05-02-2027/event/0A00652FC2E6A548",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-inglewood-california-05-02-2027/event/0A00652FC2E6A548",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00652FC2E6A548",
+        "discovery_event_id": "vvG1IZ_3Teyn4F",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-inglewood-california-05-02-2027/event/0A00652FC2E6A548",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-san-jose-g5vyz_k6wigg_",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "San Jose Civic",
+    "datetime_iso": "2027-05-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006531F2B0CD59",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-san-jose-california-05-06-2027/event/1C006531F2B0CD59",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-san-jose-california-05-06-2027/event/1C006531F2B0CD59",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006531F2B0CD59",
+        "discovery_event_id": "G5vYZ_K6wiGg_",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-san-jose-california-05-06-2027/event/1C006531F2B0CD59",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_K6wiGg_",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-phoenix-1a_zkfwgkdcnqcy",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2027-05-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006532CEA9AB70",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-phoenix-arizona-05-08-2027/event/19006532CEA9AB70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-phoenix-arizona-05-08-2027/event/19006532CEA9AB70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006532CEA9AB70",
+        "discovery_event_id": "1A_ZkfwGkdCnQcY",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-phoenix-arizona-05-08-2027/event/19006532CEA9AB70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_ZkfwGkdCnQcY",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-el-paso-vvg1yz_kgeolu1",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "El Paso County Coliseum",
+    "datetime_iso": "2027-05-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0065330281FD8A",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-el-paso-texas-05-12-2027/event/0C0065330281FD8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-el-paso-texas-05-12-2027/event/0C0065330281FD8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065330281FD8A",
+        "discovery_event_id": "vvG1YZ_KGeOLU1",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-el-paso-texas-05-12-2027/event/0C0065330281FD8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KGeOLU1",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-irving-vvg1yz_k558xwt",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-05-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006532CB43ECBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-irving-texas-05-14-2027/event/0C006532CB43ECBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-irving-texas-05-14-2027/event/0C006532CB43ECBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006532CB43ECBF",
+        "discovery_event_id": "vvG1YZ_K558XwT",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-irving-texas-05-14-2027/event/0C006532CB43ECBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_K558XwT",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-hidalgo-g5diz_kauvdks",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Hidalgo",
+    "country": "United States Of America",
+    "venue": "Payne Arena",
+    "datetime_iso": "2027-05-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0065314D07B4F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-hidalgo-texas-05-15-2027/event/3A0065314D07B4F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-hidalgo-texas-05-15-2027/event/3A0065314D07B4F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0065314D07B4F1",
+        "discovery_event_id": "G5dIZ_KAuvDKs",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-hidalgo-texas-05-15-2027/event/3A0065314D07B4F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KAuvDKs",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-houston-g5diz_kkygldl",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-05-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006531B032BEEB",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-houston-texas-05-16-2027/event/3A006531B032BEEB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-houston-texas-05-16-2027/event/3A006531B032BEEB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006531B032BEEB",
+        "discovery_event_id": "G5dIZ_KkYGlDl",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-houston-texas-05-16-2027/event/3A006531B032BEEB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KkYGlDl",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-new-york-k7vgf_kc2qanb",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "United Palace",
+    "datetime_iso": "2027-05-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000065338F6858FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-new-york-new-york-05-19-2027/event/000065338F6858FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-new-york-new-york-05-19-2027/event/000065338F6858FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000065338F6858FA",
+        "discovery_event_id": "k7vGF_KC2QANB",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-new-york-new-york-05-19-2027/event/000065338F6858FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KC2QANB",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-atlanta-vvg1zz_k1bpf9p",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-05-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006532989485E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-atlanta-georgia-05-21-2027/event/0E006532989485E5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-atlanta-georgia-05-21-2027/event/0E006532989485E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006532989485E5",
+        "discovery_event_id": "vvG1zZ_K1bPF9P",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-atlanta-georgia-05-21-2027/event/0E006532989485E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_K1bPF9P",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-ha-ash-2027-miami-beach-vvg1vz_k1-dzg7",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
+    "datetime_iso": "2027-05-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006532A1EF8D44",
+    "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-miami-beach-florida-05-22-2027/event/0D006532A1EF8D44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-miami-beach-florida-05-22-2027/event/0D006532A1EF8D44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006532A1EF8D44",
+        "discovery_event_id": "vvG1VZ_K1-Dzg7",
+        "url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-miami-beach-florida-05-22-2027/event/0D006532A1EF8D44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_K1-Dzg7",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-dallas-vvg1yz_kg_q-ih",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Echo Lounge & Music Hall",
+    "datetime_iso": "2027-03-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00653319761B3C",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00653319761B3C",
+        "discovery_event_id": "vvG1YZ_KG_q-iH",
+        "url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KG_q-iH",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-atlanta-vvg1zz_kgj9z2e",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Buckhead Theatre",
+    "datetime_iso": "2027-03-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0065331C5F83C2",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0065331C5F83C2",
+        "discovery_event_id": "vvG1zZ_KGj9z2e",
+        "url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KGj9z2e",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-tampa-vvg1vz_kpwcutv",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "The Ritz Ybor",
+    "datetime_iso": "2027-03-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006535B2B76A74",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006535B2B76A74",
+        "discovery_event_id": "vvG1VZ_KpwcUtV",
+        "url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_KpwcUtV",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-charlotte-g5evz_kpbekzf",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-03-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653598086E14",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653598086E14",
+        "discovery_event_id": "G5eVZ_Kpbekzf",
+        "url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kpbekzf",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2027-03-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006532F6299035",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006532F6299035",
+        "discovery_event_id": "1A4ZkfwGkdU1_Zg",
+        "url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfwGkdU1_Zg",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Irving Plaza Powered By Verizon 5G",
+    "datetime_iso": "2027-03-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006536A19D9C08",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006536A19D9C08",
+        "discovery_event_id": "k7vGF_KQ-E_YF",
+        "url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KQ-E_YF",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-04-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100653422A1B958",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100653422A1B958",
+        "discovery_event_id": "vv1k7Z_K8xG7IhPb",
+        "url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k7Z_K8xG7IhPb",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Theatre of Living Arts",
+    "datetime_iso": "2027-04-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065354840217A",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065354840217A",
+        "discovery_event_id": "vv1aOvPuf-ZF9v5",
+        "url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1aOvPuf-ZF9v5",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-toronto-1f7zvpgxaoz786kf",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2027-04-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100065322260F657",
+    "ticketmaster_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100065322260F657",
+        "discovery_event_id": "1F7ZvPGxaOZ786kF",
+        "url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1F7ZvPGxaOZ786kF",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-detroit-vv1afzkfwgkddfuvd",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-04-07T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006532FB50D043",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006532FB50D043",
+        "discovery_event_id": "vv1AFZkfwGkdDfuvd",
+        "url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfwGkdDfuvd",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-indianapolis-vv1kv8vpuvgauq0sn",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-04-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065341D764CEA",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065341D764CEA",
+        "discovery_event_id": "vv1kv8vPuvGAuq0Sn",
+        "url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vPuvGAuq0Sn",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-minneapolis-vv11bz_kf-ovb0",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Uptown Theater Minneapolis",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653221834624",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653221834624",
+        "discovery_event_id": "vv11bZ_KF-OVb0",
+        "url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv11bZ_KF-OVb0",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-chicago-vv1a7zkfugkegdi06",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "House of Blues Chicago",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006536B5EEC907",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006536B5EEC907",
+        "discovery_event_id": "vv1A7ZkfUGkegDi06",
+        "url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfUGkegDi06",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-passenger-2027-brussels-z698xzg2z16v-xbfos",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Cirque Royal - Koninklijk Circus",
+    "datetime_iso": "2027-03-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1862608831",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/passenger-tickets/1862608831",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/passenger-tickets/1862608831",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1862608831",
+        "discovery_event_id": "Z698xZG2Z16v-xbFOs",
+        "url": "https://www.ticketmaster.be/event/passenger-tickets/1862608831",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v-xbFOs",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-amsterdam-z698xzbpz1aub0gy",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger | Premium Seats",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "AFAS Live Loge",
+    "datetime_iso": "2027-03-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36624330",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36624330",
+        "discovery_event_id": "Z698xZbpZ1AUb0GY",
+        "url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1AUb0GY",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-passenger-2027-milano-zg9rmiynyzd6ea",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Fabrique",
+    "datetime_iso": "2027-04-07T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "r40v4pyvzjkk",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/passenger-milano-07-04-2027/event/r40v4pyvzjkk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/passenger-milano-07-04-2027/event/r40v4pyvzjkk",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "r40v4pyvzjkk",
+        "discovery_event_id": "ZG9rmIYnyZd6ea",
+        "url": "https://www.ticketmaster.it/biglietti/passenger-milano-07-04-2027/event/r40v4pyvzjkk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZd6ea",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-dublin-1avoz_8gkm9ghn7",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Olympia Theatre",
+    "datetime_iso": "2027-09-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800650B97D7C8C4",
+    "ticketmaster_url": "https://www.ticketmaster.ie/passenger-dublin-07-09-2027/event/1800650B97D7C8C4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/passenger-dublin-07-09-2027/event/1800650B97D7C8C4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800650B97D7C8C4",
+        "discovery_event_id": "1AvOZ_8Gkm9gHN7",
+        "url": "https://www.ticketmaster.ie/passenger-dublin-07-09-2027/event/1800650B97D7C8C4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_8Gkm9gHN7",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-belfast-16zzkfkojzage16c",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ulster Hall Belfast",
+    "datetime_iso": "2027-09-08T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "38006513826B196D",
+    "ticketmaster_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "38006513826B196D",
+        "discovery_event_id": "16zZkfKOJZAGe16C",
+        "url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16zZkfKOJZAGe16C",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-glasgow-g5dzz_8wyqwf1",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-09-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00650CB077220A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00650CB077220A",
+        "discovery_event_id": "G5dzZ_8wYqwF1",
+        "url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_8wYqwF1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-edinburgh-1adbz_8gks0vdnw",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Usher Hall",
+    "datetime_iso": "2027-09-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600650CE407B8FD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600650CE407B8FD",
+        "discovery_event_id": "1AdbZ_8GkS0vDNW",
+        "url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_8GkS0vDNW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "O2 City Hall Newcastle",
+    "datetime_iso": "2027-09-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006511C90C223E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006511C90C223E",
+        "discovery_event_id": "G5dzZ_o6adeFX",
+        "url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_o6adeFX",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-manchester-17uov0g62wjanur",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2027-09-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064FC9C26336F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064FC9C26336F",
+        "discovery_event_id": "17uOv0G62wjaNuR",
+        "url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62wjaNuR",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-london-1auzkf3gkd0sykm",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Eventim Apollo",
+    "datetime_iso": "2027-09-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006512E4CF91AE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006512E4CF91AE",
+        "discovery_event_id": "1AUZkf3Gkd0Sykm",
+        "url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf3Gkd0Sykm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-exeter-g5vhz_o2o0irs",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Exeter",
+    "country": "Great Britain",
+    "venue": "The Great Hall, Exeter",
+    "datetime_iso": "2027-09-21T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006513E0928BF1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006513E0928BF1",
+        "discovery_event_id": "G5vHZ_o2O0IRs",
+        "url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_o2O0IRs",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-birmingham-g5dzz_2wg0-vu",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-09-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064FC8C92104D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064FC8C92104D",
+        "discovery_event_id": "G5dzZ_2wG0-vu",
+        "url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_2wG0-vu",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-brighton-g5vhz_o5oziab",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Brighton",
+    "country": "Great Britain",
+    "venue": "Brighton Dome",
+    "datetime_iso": "2027-09-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006512E002817A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006512E002817A",
+        "discovery_event_id": "G5vHZ_o5OZIAB",
+        "url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_o5OZIAB",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-brisbane-1avgz_8gkmdlzyi",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger - Wild Love Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-10-27T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300650DC37F8C28",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-brisbane-27-10-2027/event/1300650DC37F8C28",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-brisbane-27-10-2027/event/1300650DC37F8C28",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300650DC37F8C28",
+        "discovery_event_id": "1AvGZ_8GkMdLzYI",
+        "url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-brisbane-27-10-2027/event/1300650DC37F8C28",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_8GkMdLzYI",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-st-kilda-1avgz_8gkm6pbt5",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger - Wild Love Tour",
+    "city": "St Kilda",
+    "country": "Australia",
+    "venue": "Palais Theatre",
+    "datetime_iso": "2027-10-29T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300650DC7598FCB",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-st-kilda-29-10-2027/event/1300650DC7598FCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-st-kilda-29-10-2027/event/1300650DC7598FCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300650DC7598FCB",
+        "discovery_event_id": "1AvGZ_8GkM6pbT5",
+        "url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-st-kilda-29-10-2027/event/1300650DC7598FCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_8GkM6pbT5",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-sydney-16vgz_oayg7zvfp",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger - Wild Love Tour",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "State Theatre, Sydney",
+    "datetime_iso": "2027-10-30T08:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300651279E01525",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-sydney-30-10-2027/event/1300651279E01525",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-sydney-30-10-2027/event/1300651279E01525",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300651279E01525",
+        "discovery_event_id": "16vGZ_oayG7zvfP",
+        "url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-sydney-30-10-2027/event/1300651279E01525",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_oayG7zvfP",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
   }
 ]

@@ -17,7 +17,7 @@ If these files disagree with the repository, the repository wins. Recount and co
 ## Stable reference documents
 
 - Root: `README.md`, `CONTRIBUTING.md`, `SAFE_PUBLISHING_RULES.md`, `AGENTS.md`.
-- `docs/`: `ARCHITECTURE.md`, `OPERATIONS.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ROUTE_INDEXABILITY_POLICY.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, `SEATGEEK_DISCOVERY.md`, `COMMERCIAL_FUNNEL.md`, `BACKLINK_CAMPAIGN.md`, and `BLOG.md`.
+- `docs/`: `ARCHITECTURE.md`, `OPERATIONS.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ROUTE_INDEXABILITY_POLICY.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, `SEATGEEK_DISCOVERY.md`, `COMMERCIAL_FUNNEL.md`, `BACKLINK_CAMPAIGN.md`, `BLOG.md`, and `ARTIST_INGESTION.md` (the runbook for adding artists and reading the health signals).
 - `.claude/skills/artist-onboarding/SKILL.md` owns the gated artist-onboarding workflow (Proposal → Shell → Promote → Events).
 - `migrations/README.md` owns the applied D1 migration ledger.
 

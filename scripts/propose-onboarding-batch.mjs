@@ -246,7 +246,7 @@ async function probeStatus(url) {
 
 // Fetches what the screen needs for one row: the attraction's upcoming
 // Ticketmaster events (one Discovery call) and both artist pages' status.
-async function screenRow(row, sg, tm, tmApiKey, { denylist, existingTitles, delayMs }) {
+async function screenRow(row, sg, tm, tmApiKey, { denylist, existingTitles, delayMs, requestedNames = new Set() }) {
   let tmEvents = [];
   if (tm && tmApiKey) {
     await sleep(delayMs);
@@ -275,7 +275,8 @@ async function screenRow(row, sg, tm, tmApiKey, { denylist, existingTitles, dela
     tmEvents,
     denylist,
     urlStatus,
-    existingTitles
+    existingTitles,
+    requested: requestedNames.has(normalizeName(row.name))
   });
 }
 
@@ -388,11 +389,17 @@ async function main() {
 
   let names = [...args.names];
   const pinnedTm = new Map();
+  const requestedNames = new Set();
   if (args.namesFile) {
     const raw = await fs.readFile(path.resolve(args.namesFile), 'utf8');
     for (const line of raw.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'))) {
-      const [name, id = ''] = line.split('\t').map((part) => part.trim());
+      // Optional third column "requested" marks an owner-named artist from
+      // data/artist-requests.json (screenCandidate's relaxed D3/D4).
+      const [name, id = '', flag = ''] = line.split('\t').map((part) => part.trim());
       names.push(name);
+      // Keyed by normalized name: buildRow() swaps row.name for SeatGeek's
+      // canonical spelling (ROSALÍA → Rosalia), which D1 already accepts.
+      if (flag === 'requested') requestedNames.add(normalizeName(name));
       // One name forecast under two different ids is ambiguous: pin neither.
       if (id) pinnedTm.set(name, pinnedTm.has(name) && pinnedTm.get(name) !== id ? AMBIGUOUS_PIN : id);
     }
@@ -419,7 +426,8 @@ async function main() {
     // Fail closed: without the brand-safety denylist no candidate is screened.
     denylist: parseDenylist(await fs.readFile(path.join(root, 'data/artist-denylist.json'), 'utf8')),
     existingTitles: new Set((catalog.artists || []).map((a) => a?.seo_title).filter(Boolean)),
-    delayMs: args.delayMs
+    delayMs: args.delayMs,
+    requestedNames
   };
 
   const rows = [];
@@ -446,6 +454,7 @@ async function main() {
     // Auto-promote screen (criteria D1–D5). Informational in this propose-only
     // script: it records whether the row would qualify, and never promotes.
     if (!row.exclusion) row.screen = await screenRow(row, sg, tm, tmApiKey, screenContext);
+    if (requestedNames.has(normalizeName(name)) || requestedNames.has(normalizeName(row.name))) row.requested = true;
     rows.push(row);
   }
 

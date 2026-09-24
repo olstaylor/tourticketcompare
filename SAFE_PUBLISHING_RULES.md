@@ -80,7 +80,7 @@ promote it in one auto-merged PR, only while the repo variable
 `BACKLOG.md` on identities re-captured from the Ticketmaster and SeatGeek APIs
 in the same job, including Ticketmaster classifying it as music and not as a
 tribute act; any failure leaves it a proposal in the
-`automation:roster-candidates` issue, never retried on looser criteria. At most
+`automation:roster-candidates` issue, never retried on looser criteria. **Owner requests (owner-approved 2026-09-24):** an artist the owner names in `data/artist-requests.json` is screened with the volume thresholds D3 and D4 relaxed to one upcoming date on either provider — the owner's naming is the judgement they stand in for — and nothing else relaxed: identity (D1), the denylist, collision pattern and music classification (D2), artist-page liveness and the title checks (D5) still hold, and the same daily and weekly caps apply. At most
 5 artists a day and 20 in a rolling week. Shell copy is a template that states
 only the name and Ticketmaster's verbatim genre — no biography, no invented
 fact. The record is marked `promotion_source: "auto"` and is indexable only

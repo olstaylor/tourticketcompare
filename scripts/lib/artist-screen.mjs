@@ -59,7 +59,13 @@ export function parseDenylist(text) {
   return denylist;
 }
 
-export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = {}, urlStatus = {}, existingTitles = new Set(), now = Date.now() }) {
+// `requested`: the owner named this artist in data/artist-requests.json
+// (owner-approved 2026-09-24). A named request has already had the human
+// judgement D3 and D4 stand in for — "is this a real headliner with a real
+// tour" — so those volume thresholds relax to "has at least one upcoming date
+// on either provider". Identity (D1), brand safety and music classification
+// (D2), link liveness and the title (D5) are never relaxed.
+export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = {}, urlStatus = {}, existingTitles = new Set(), now = Date.now(), requested = false }) {
   const reasons = [];
   // D1 — exact identity on both APIs.
   if (!sg?.performer_id || normalizeName(sg.api_name) !== normalizeName(name)) reasons.push("D1: no exact SeatGeek performer match");
@@ -82,8 +88,10 @@ export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = 
   const upcoming = tmEvents.filter((e) => eventTime(e) >= now);
   const primary = upcoming.filter((e) => e?._embedded?.attractions?.[0]?.id === tm?.attraction_id).length;
   const share = upcoming.length ? primary / upcoming.length : 0;
-  if (upcoming.length < THRESHOLDS.minPrimaryEvents) reasons.push(`D3: ${upcoming.length} upcoming TM events (< ${THRESHOLDS.minPrimaryEvents})`);
-  else if (share < THRESHOLDS.minPrimaryShare) reasons.push(`D3: primary-attraction share ${Math.round(share * 100)}% (< 80%)`);
+  if (!requested) {
+    if (upcoming.length < THRESHOLDS.minPrimaryEvents) reasons.push(`D3: ${upcoming.length} upcoming TM events (< ${THRESHOLDS.minPrimaryEvents})`);
+    else if (share < THRESHOLDS.minPrimaryShare) reasons.push(`D3: primary-attraction share ${Math.round(share * 100)}% (< 80%)`);
+  }
 
   // D4 — on sale, or offsale with a future public on-sale (amendment 1), in enough cities.
   const qualifying = upcoming.filter((e) => {
@@ -93,9 +101,14 @@ export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = 
     return code === "offsale" && Number.isFinite(publicStart) && publicStart > now;
   });
   const cities = new Set(qualifying.map((e) => normalizeName(e?._embedded?.venues?.[0]?.city?.name)).filter(Boolean));
-  if (qualifying.length < THRESHOLDS.minQualifyingEvents) reasons.push(`D4: ${qualifying.length} on-sale/scheduled TM events (< ${THRESHOLDS.minQualifyingEvents})`);
-  if (cities.size < THRESHOLDS.minCities) reasons.push(`D4: ${cities.size} cities (< ${THRESHOLDS.minCities})`);
-  if ((Number(sg?.num_upcoming_events) || 0) < THRESHOLDS.minSeatGeekUpcoming) reasons.push("D4: no upcoming SeatGeek events");
+  const sgUpcoming = Number(sg?.num_upcoming_events) || 0;
+  if (requested) {
+    if (!qualifying.length && !sgUpcoming) reasons.push("D4 (requested): no upcoming date on Ticketmaster or SeatGeek");
+  } else {
+    if (qualifying.length < THRESHOLDS.minQualifyingEvents) reasons.push(`D4: ${qualifying.length} on-sale/scheduled TM events (< ${THRESHOLDS.minQualifyingEvents})`);
+    if (cities.size < THRESHOLDS.minCities) reasons.push(`D4: ${cities.size} cities (< ${THRESHOLDS.minCities})`);
+    if (sgUpcoming < THRESHOLDS.minSeatGeekUpcoming) reasons.push("D4: no upcoming SeatGeek events");
+  }
   // Both providers answer scripted requests with 401/403/429 (bot protection),
   // so a block means "exists, not script-verifiable" — the same reading as the
   // daily link audit (owner decision 2026-09-23). Only a confirmed 404/410 or
@@ -116,6 +129,7 @@ export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = 
     eligible: reasons.length === 0,
     reasons,
     seo_title,
+    requested,
     stats: { upcoming: upcoming.length, primary_share: Math.round(share * 100) / 100, qualifying: qualifying.length, cities: cities.size, link_blocked: blocked },
   };
 }
@@ -159,6 +173,15 @@ function selfTest() {
   check(!run({ name: "A Very Long Artist Name That Cannot Fit", sg: { ...good.sg, api_name: "A Very Long Artist Name That Cannot Fit" }, tm: { ...good.tm, api_name: "A Very Long Artist Name That Cannot Fit" } }).eligible, "a name no title form can fit is rejected");
 
   check(!run({ tm: { ...good.tm, segment: "Arts & Theatre" } }).eligible, "a comedian (Arts & Theatre) is rejected");
+
+  // Owner-named requests (data/artist-requests.json): D3/D4 volume relax, nothing else does.
+  check(run({ requested: true, tmEvents: [] }).eligible, "a requested artist with 0 TM but upcoming SeatGeek dates is eligible (Oasis)");
+  check(run({ requested: true, tmEvents: events(20, (i) => ({ id: i < 3 ? "K1" : "K2" })) }).eligible, "a requested artist is not held on primary share");
+  check(!run({ requested: true, tmEvents: [], sg: { ...good.sg, num_upcoming_events: 0 } }).eligible, "a requested artist with no upcoming date anywhere is held");
+  check(!run({ requested: true, denylist: { names: ["kenny chesney"] } }).eligible, "a request never overrides the denylist");
+  check(!run({ requested: true, tm: { ...good.tm, segment: "Arts & Theatre" } }).eligible, "a request never overrides music classification");
+  check(!run({ requested: true, urlStatus: { seatgeek: 404, ticketmaster: 200 } }).eligible, "a request never overrides a dead artist page");
+  check(!run({ requested: true, tm: { ...good.tm, api_name: "Someone Else" } }).eligible, "a request never overrides identity (D1)");
   check(!run({ tm: { ...good.tm, segment: "" } }).eligible, "a missing Ticketmaster classification fails closed");
   check(!run({ tm: { ...good.tm, sub_type: "Tribute Band" } }).eligible, "a Ticketmaster tribute band is rejected");
   const throws = (fn) => { try { fn(); return false; } catch { return true; } };

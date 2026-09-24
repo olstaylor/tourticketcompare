@@ -1,0 +1,4 @@
+{
+  "description": "Owner artist requests (2026-09-24). Add an artist by name and the next daily auto-promote run (auto-promote.yml, 10:45 UTC) captures both provider identities from their APIs, screens it, promotes it and ingests its dates in one auto-merged PR; the morning roster screen (roster-candidates.yml) shows the verdict first in the automation:roster-candidates issue. Requests skip the volume thresholds D3/D4 (a named request is the human judgement they stand in for) but never identity (D1), the denylist, music classification (D2), a dead artist page or the title checks (D5). Optional ticketmaster_attraction_id pins the Ticketmaster identity when the name is ambiguous; only use an id copied from Ticketmaster. An entry whose artist is already on the site is ignored, so it is safe to leave entries in place. Validate with `npm run artists:requests:check`. Runbook: docs/ARTIST_INGESTION.md.",
+  "requests": []
+}

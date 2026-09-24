@@ -118,6 +118,8 @@ export const WATCHED_LANES = [
   // Daily read-only probe of partial price regressions (a lane that stops
   // pricing, aging prices). It never runs test:mvp, so a red main cannot stop it.
   { file: "price-coverage-report.yml", name: "Price coverage report", cadence: "daily 09:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // Daily production crawl and roll-up (check-site-health.mjs). Read-only; no test:mvp.
+  { file: "site-health.yml", name: "Site health", cadence: "daily 09:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // The three sensors, this one included. Watching them was missing when this
   // shipped, and a watcher nobody watches is the gap that hides every other
   // gap: if this workflow stops running, the board it writes simply stops
@@ -715,8 +717,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "roster-candidates.yml"],
-    "the sensors, the digest, the roster screen and the price coverage report, and only those, are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "roster-candidates.yml", "site-health.yml"],
+    "the sensors, the digest, the roster screen, the price coverage report and the site health check, and only those, are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

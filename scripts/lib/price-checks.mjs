@@ -17,7 +17,13 @@
 // the first writer run. migrations/0010_provider_price_checks.sql records the
 // same schema for the ledger.
 
-export const PRICE_CHECK_OUTCOMES = Object.freeze(["priced", "no_price"]);
+// priced   a usable exact-event price was written;
+// no_price the provider supplied no price for this exact event (the only
+//          outcome the router quotes as "No listed price at our last check");
+// unusable prices came back but none was usable — conflicting figures for the
+//          same event, or only rows under the plausibility floor. Recorded for
+//          diagnosis and never quoted: the provider did list a price.
+export const PRICE_CHECK_OUTCOMES = Object.freeze(["priced", "no_price", "unusable"]);
 
 export const PRICE_CHECKS_SCHEMA_SQL = `CREATE TABLE IF NOT EXISTS provider_price_checks (
   event_id TEXT NOT NULL,

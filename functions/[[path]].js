@@ -1752,13 +1752,26 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
 // City and venue cards link it in preference to the artist page: it is the
 // page built for "<artist> tickets <city>", and until 2026-09-24 it was linked
 // only from artist pages and its sibling artist-city pages.
-function indexableArtistCityPaths(events, targetCitySlug, linkableArtistSlugs) {
-  if (!targetCitySlug || !linkableArtistSlugs?.size) return new Map();
-  return new Map(
-    deriveIndexableArtistCities(events, [...linkableArtistSlugs])
-      .filter((artistCity) => artistCity.slug === targetCitySlug)
-      .map((artistCity) => [artistCity.artistSlug, artistCity.path])
-  );
+//
+// Only artists actually playing this city or venue are candidates, and their
+// events are gathered in one pass over the dataset, so a location page costs
+// one scan plus a few tiny per-artist derivations — not one full scan per
+// indexable artist, which is what deriving across every artist costs.
+function indexableArtistCityPaths(events, targetCitySlug, linkableArtistSlugs, presentArtistSlugs = []) {
+  if (!targetCitySlug || !linkableArtistSlugs?.size || !Array.isArray(events)) return new Map();
+  const candidates = new Set((presentArtistSlugs || []).map((slug) => slugify(slug)).filter((slug) => linkableArtistSlugs.has(slug)));
+  if (!candidates.size) return new Map();
+  const byArtist = new Map([...candidates].map((slug) => [slug, []]));
+  for (const event of events) {
+    const slug = slugify(event?.artist_slug);
+    if (byArtist.has(slug)) byArtist.get(slug).push(event);
+  }
+  const paths = new Map();
+  for (const [slug, artistEvents] of byArtist) {
+    const match = deriveIndexableArtistCities(artistEvents, [slug]).find((artistCity) => artistCity.slug === targetCitySlug);
+    if (match) paths.set(slug, match.path);
+  }
+  return paths;
 }
 
 function cityForVenue(events, venue) {
@@ -2446,7 +2459,7 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
 function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}, linkableArtistSlugs = null) {
   const venueRuns = venueRunIndex(venue.shows);
   const artistCityPaths = venue.city
-    ? indexableArtistCityPaths(events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs)
+    ? indexableArtistCityPaths(events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs, venue.artistSlugs)
     : new Map();
   const eventsById = new Map(
     (Array.isArray(events) ? events : [])
@@ -2557,7 +2570,8 @@ export function renderCityPageBody(route, events = [], options = {}) {
         artistCityPaths: indexableArtistCityPaths(
           events,
           city.slug,
-          new Set(route.linkableArtistSlugs || route.indexableArtistSlugs || [])
+          new Set(route.linkableArtistSlugs || route.indexableArtistSlugs || []),
+          city.artistSlugs
         )
       }
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(

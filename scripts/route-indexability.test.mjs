@@ -70,6 +70,15 @@ function ev(overrides = {}) {
   const pending = ev({ public_onsale_at: "2999-01-01T15:00:00Z" });
   assert(eventPublishable(pending) === false && eventStatusPublishable(pending) === false, "a pending public on-sale is not publishable");
   assert(eventPublishable(ev({ public_onsale_at: "2000-01-01T15:00:00Z" })) === true, "a passed public on-sale no longer suppresses");
+  // Since 2026-09-24 a verified resale destination publishes before the
+  // public on-sale (the card renders it), so the route gates count it; schema
+  // (eventStatusPublishable) still waits for the on-sale.
+  const pendingResale = ev({
+    public_onsale_at: "2999-01-01T15:00:00Z",
+    provider_links: { "vivid-seats": { verified: true, url: "https://www.vividseats.com/x--concerts/production/1" } }
+  });
+  assert(eventPublishable(pendingResale) === true, "a pending on-sale with a verified resale URL leads somewhere");
+  assert(eventStatusPublishable(pendingResale) === false, "it still gets no MusicEvent node before the on-sale");
   const onsale = Date.parse("2999-01-01T15:00:00Z");
   assert(eventPublishable(pending, onsale + 1) === true && eventStatusPublishable(pending, onsale + 1) === true, "the gate follows the evaluation clock, not the wall clock");
   assert(

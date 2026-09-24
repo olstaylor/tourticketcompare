@@ -17,8 +17,10 @@
 // pure helpers, so it runs without `npm ci`.
 //
 // Classification of each upcoming date (first match wins):
+//   pre_onsale    Ticketmaster public on-sale still in the future; any resale
+//                 price it shows is counted separately (pre_onsale_priced) and
+//                 never enters the on-sale gate
 //   priced        at least one lane prints a fresh listed price
-//   pre_onsale    Ticketmaster public on-sale still in the future (no CTA yet)
 //   mapped        verified on a price-supplying lane, on sale, yet no price —
 //                 the regression signal; the gate is computed on these
 //   seatgeek_only resale mapped only on SeatGeek, which never prices
@@ -72,11 +74,30 @@ function parseArgs(argv) {
   return options;
 }
 
-async function fetchAllShows(baseUrl, fetchImpl = globalThis.fetch) {
+// The same bounded retry check-price-snapshot-freshness.mjs uses: a 429, a
+// 5xx (this payload is the documented Pages CPU-limit 503) or a dropped
+// connection is the origin declining to answer now, not a verdict. Anything
+// else, or the same non-answer three times, is.
+const FETCH_ATTEMPTS = 3;
+async function fetchWithRetry(url, fetchImpl, sleep) {
+  let last;
+  for (let attempt = 1; attempt <= FETCH_ATTEMPTS; attempt += 1) {
+    try {
+      last = await fetchImpl(url, { headers: { Accept: "application/json" } });
+      if (last.ok || !(last.status === 429 || last.status >= 500)) return last;
+    } catch (error) {
+      if (attempt === FETCH_ATTEMPTS) throw error;
+    }
+    if (attempt < FETCH_ATTEMPTS) await sleep(2000 * attempt);
+  }
+  return last;
+}
+
+export async function fetchAllShows(baseUrl, fetchImpl = globalThis.fetch, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))) {
   const shows = [];
   for (let page = 0; page < MAX_PAGES; page += 1) {
     const url = `${baseUrl}/api/shows?includePrices=true&priceProviders=approved-marketplaces&limit=${PAGE_LIMIT}&offset=${page * PAGE_LIMIT}`;
-    const response = await fetchImpl(url, { headers: { Accept: "application/json" } });
+    const response = await fetchWithRetry(url, fetchImpl, sleep);
     if (!response.ok) throw new Error(`GET ${url} returned HTTP ${response.status}`);
     const body = await response.json();
     const batch = Array.isArray(body?.shows) ? body.shows : null;
@@ -98,8 +119,8 @@ function mappedPriceLanes(show) {
 }
 
 export function classifyShow(show, now = Date.now()) {
-  if (pricedLanes(show).length) return "priced";
   if (publicOnsalePending(show, now)) return "pre_onsale";
+  if (pricedLanes(show).length) return "priced";
   if (mappedPriceLanes(show).length) return "mapped";
   if (show?.provider_links?.seatgeek?.verified === true && show?.seatgeek_url) return "seatgeek_only";
   return "unmapped";
@@ -111,6 +132,7 @@ const sortedCounts = (map) => [...map.entries()].sort((a, b) => b[1] - a[1] || S
 export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE, maxStaleShare = DEFAULT_MAX_STALE_SHARE } = {}) {
   const upcoming = shows.filter((show) => Date.parse(String(show?.dateTimeISO || "")) > now);
   const counts = { priced: 0, pre_onsale: 0, mapped: 0, seatgeek_only: 0, unmapped: 0 };
+  let preOnsalePriced = 0;
   const zeroSourceByArtist = new Map();
   const zeroSourceByCountry = new Map();
   const mappedUnpriced = [];
@@ -120,6 +142,7 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
   for (const show of upcoming) {
     const kind = classifyShow(show, now);
     counts[kind] += 1;
+    if (kind === "pre_onsale" && pricedLanes(show).length) preOnsalePriced += 1;
     for (const lane of mappedPriceLanes(show)) increment(laneMapped, lane.name);
     for (const lane of pricedLanes(show)) {
       increment(lanePriced, lane.provider);
@@ -158,6 +181,7 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
     generated_at: new Date(now).toISOString(),
     upcoming: upcoming.length,
     counts,
+    pre_onsale_priced: preOnsalePriced,
     zero_price_sources: counts.unmapped + counts.seatgeek_only,
     coverage_share: Number(coverageShare.toFixed(4)),
     stale_share: Number(staleShare.toFixed(4)),
@@ -190,6 +214,7 @@ export function renderMarkdown(report, baseUrl = "") {
     `| ${report.upcoming} | ${c.priced} | ${c.pre_onsale} | ${c.mapped} | ${c.seatgeek_only} | ${c.unmapped} |`,
     "",
     `- **Coverage of mapped, on-sale dates:** ${pct(report.coverage_share)} (gate ≥ ${pct(report.gates.min_share)}).`,
+    `- **Pre-on-sale dates showing a resale price:** ${report.pre_onsale_priced} of ${c.pre_onsale} (reported only; not part of the gate).`,
     `- **Dates with zero price sources:** ${report.zero_price_sources} (unmapped + SeatGeek-only). This is a mapping backlog, not a failure — it is not gated.`,
     `- **Price age:** ${report.displayed_prices} displayed prices, ${pct(report.stale_share)} older than ${PRICE_STALE_AFTER_HOURS}h (gate ≤ ${pct(report.gates.max_stale_share)}), oldest ${report.max_age_hours ?? "n/a"}h.`,
     "",
@@ -244,6 +269,20 @@ async function upsertIssue(markdown) {
   return gh(token, repo, "POST", "/repos/{repo}/issues", { title: ISSUE_TITLE, body: markdown, labels: [ISSUE_LABEL] });
 }
 
+async function retrySelfTest() {
+  let calls = 0;
+  const flaky = async () => (++calls < 3 ? new Response("busy", { status: 503 }) : new Response(JSON.stringify({ shows: [] }), { status: 200 }));
+  assert.deepEqual(await fetchAllShows("https://x.test", flaky, async () => {}), [], "two 503s then a 200 is a read, not a failure");
+  let hard = 0;
+  const down = async () => { hard += 1; return new Response("nope", { status: 503 }); };
+  await assert.rejects(fetchAllShows("https://x.test", down, async () => {}), /503/, "three 503s is a failure");
+  assert.equal(hard, 3, "retries are bounded at three");
+  let notFound = 0;
+  await assert.rejects(fetchAllShows("https://x.test", async () => { notFound += 1; return new Response("", { status: 404 }); }, async () => {}));
+  assert.equal(notFound, 1, "a 404 is a verdict on the first attempt");
+  return 5;
+}
+
 function selfTest() {
   const now = Date.parse("2026-09-24T12:00:00Z");
   const base = {
@@ -269,7 +308,9 @@ function selfTest() {
     // An unverified stored URL is not a mapping.
     { ...base, id: "u2", vividseats_url: vivid.vividseats_url, provider_links: { "vivid-seats": { verified: false } }, prices: [] },
     // SeatGeek "ok" lanes never count as a price.
-    { ...base, id: "u3", prices: [{ provider: "SeatGeek", status: "ok", price: 50, fetchedAt: "2026-09-24T10:00:00Z" }] }
+    { ...base, id: "u3", prices: [{ provider: "SeatGeek", status: "ok", price: 50, fetchedAt: "2026-09-24T10:00:00Z" }] },
+    // Pre-on-sale with a resale price: counted apart, never inflating the gate.
+    { ...base, ...vivid, id: "o2", public_onsale_at: "2026-10-01T00:00:00Z", prices: [okLane("2026-09-24T10:00:00Z")] }
   ];
   assert.equal(classifyShow(shows[0], now), "priced");
   assert.equal(classifyShow(shows[2], now), "mapped");
@@ -278,11 +319,13 @@ function selfTest() {
   assert.equal(classifyShow(shows[7], now), "unmapped");
   assert.equal(classifyShow(shows[8], now), "unmapped");
   const report = analyse(shows, { now });
-  assert.equal(report.upcoming, 8, "past dates are excluded");
-  assert.deepEqual(report.counts, { priced: 2, pre_onsale: 1, mapped: 1, seatgeek_only: 1, unmapped: 3 });
+  assert.equal(report.upcoming, 9, "past dates are excluded");
+  assert.deepEqual(report.counts, { priced: 2, pre_onsale: 2, mapped: 1, seatgeek_only: 1, unmapped: 3 });
+  assert.equal(report.pre_onsale_priced, 1, "a priced pre-on-sale date is counted apart");
+  assert.equal(classifyShow(shows[9], now), "pre_onsale", "a priced pre-on-sale date stays pre_onsale");
   assert.equal(report.zero_price_sources, 4);
   assert.equal(report.coverage_share, 0.6667);
-  assert.equal(report.stale_share, 0.5, "a 16h-old price is stale, a 2h-old one is not");
+  assert.equal(report.stale_share, 0.3333, "a 16h-old price is stale, a 2h-old one is not");
   assert.equal(report.ok, false);
   assert.equal(report.problems.length, 2, "both the coverage and the staleness gates fire");
   assert.deepEqual(report.zero_source_by_country[0], ["United States", 3]);
@@ -293,16 +336,16 @@ function selfTest() {
   assert.equal(empty.ok, false, "an empty payload is a problem, not a pass");
   const md = renderMarkdown(report);
   assert.match(md, /NEEDS ATTENTION/);
-  assert.match(md, /\| 8 \| 2 \| 1 \| 1 \| 1 \| 3 \|/);
+  assert.match(md, /\| 9 \| 2 \| 2 \| 1 \| 1 \| 3 \|/);
   assert.match(md, /Mapped and on sale, but no price/);
   assert.throws(() => parseArgs(["--min-share", "2"]));
-  return 22;
+  return 25;
 }
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.selfTest) {
-    console.log(`price-coverage self-test: ${selfTest()} assertions passed`);
+    console.log(`price-coverage self-test: ${selfTest() + (await retrySelfTest())} assertions passed`);
     return;
   }
   let shows;

@@ -163,10 +163,15 @@ async function loadIndexableArtists(env) {
 // and Bing report coverage per page type (added 2026-09-24).
 export const SITEMAP_SEGMENTS = Object.freeze(["pages", "artists", "artist-cities", "cities", "venues", "blog"]);
 
-export async function buildSitemapSegments(env) {
+// `only` limits the work to the segments a request serves: /sitemaps/blog.xml
+// reads no event data at all, and /sitemaps/artists.xml derives no city or
+// venue. Segments not asked for come back empty.
+async function buildSegments(env, only = SITEMAP_SEGMENTS) {
+  const need = new Set(only);
+  const needArtists = need.has("pages") || need.has("artists") || need.has("artist-cities");
   const [indexableArtists, artistVerificationDates] = await Promise.all([
-    loadIndexableArtists(env),
-    loadArtistVerificationDates(env)
+    needArtists ? loadIndexableArtists(env) : [],
+    need.has("artist-cities") || need.has("cities") || need.has("venues") ? loadArtistVerificationDates(env) : new Map()
   ]);
   // Index pages are as fresh as the newest thing they list, which is a real
   // date rather than an assertion about their own copy. Their own content
@@ -196,7 +201,7 @@ export async function buildSitemapSegments(env) {
   }));
   // Artist-city landing pages, gated on the same derivation the router uses so
   // only combinations with qualifying upcoming inventory ever enter the sitemap.
-  const artistCityEntries = (await loadIndexableArtistCities(env, indexableArtists.map((artist) => artist.slug))).map(
+  const artistCityEntries = (need.has("artist-cities") ? await loadIndexableArtistCities(env, indexableArtists.map((artist) => artist.slug)) : []).map(
     ({ path, lastmod }) => ({
       path,
       lastmod: newestDate(lastmod, artistFallbackLastmod(artistVerificationDates, [path.split("/")[2]])),
@@ -205,8 +210,8 @@ export async function buildSitemapSegments(env) {
     })
   );
   const [indexableCities, indexableVenues] = await Promise.all([
-    loadIndexableCities(env),
-    loadIndexableVenues(env)
+    need.has("cities") ? loadIndexableCities(env) : [],
+    need.has("venues") ? loadIndexableVenues(env) : []
   ]);
   const cityLastmod = newestDate(
     ...indexableCities.map((city) => newestDate(city.lastmod, artistFallbackLastmod(artistVerificationDates, city.artistSlugs)))
@@ -237,20 +242,39 @@ export async function buildSitemapSegments(env) {
   // A blog lastmod is the post's own authored date, so it needs no fallback:
   // lastmodOf returns null for anything malformed and the entry simply omits
   // <lastmod>, per the shared rule above.
-  const blogEntries = (await loadIndexableBlogEntries(env)).map((entry) => ({
+  const blogEntries = (need.has("blog") ? await loadIndexableBlogEntries(env) : []).map((entry) => ({
     path: entry.path,
     lastmod: lastmodOf(entry.lastmod),
     changefreq: entry.type === "blog-post" ? "monthly" : "weekly",
     priority: entry.type === "blog-post" ? "0.6" : "0.5"
   }));
   return {
-    pages: staticEntries,
-    artists: artistEntries,
+    pages: need.has("pages") ? staticEntries : [],
+    artists: need.has("artists") ? artistEntries : [],
     "artist-cities": artistCityEntries,
     cities: cityEntries,
     venues: venueEntries,
     blog: blogEntries
   };
+}
+
+// The index and its six children are usually fetched back to back, so a full
+// build is kept for the rest of the minute per assets binding (stable within a
+// Pages isolate, like the router's JSON asset cache). A child request reuses
+// it when present and otherwise builds only its own segment.
+const FULL_BUILD_MEMO = new WeakMap();
+export async function buildSitemapSegments(env, only = SITEMAP_SEGMENTS) {
+  const binding = env?.ASSETS;
+  const minute = Math.floor(Date.now() / 60000);
+  const hit = binding && typeof binding === "object" ? FULL_BUILD_MEMO.get(binding) : null;
+  if (hit && hit.minute === minute) return hit.build;
+  const full = SITEMAP_SEGMENTS.every((segment) => only.includes(segment));
+  const build = buildSegments(env, only);
+  if (full && binding && typeof binding === "object") {
+    FULL_BUILD_MEMO.set(binding, { minute, build });
+    build.catch(() => FULL_BUILD_MEMO.delete(binding));
+  }
+  return build;
 }
 
 export function requestOrigin(request) {
@@ -308,7 +332,7 @@ export async function onRequestGet({ request, env }) {
 /** Handler for one /sitemaps/<segment>.xml file. */
 export function segmentHandler(segment) {
   return async function onRequestGet({ request, env }) {
-    const segments = await buildSitemapSegments(env);
+    const segments = await buildSitemapSegments(env, [segment]);
     return xmlResponse(renderUrlset(segments[segment] || [], requestOrigin(request)));
   };
 }

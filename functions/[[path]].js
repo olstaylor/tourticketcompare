@@ -1562,22 +1562,59 @@ function renderArtistLinks(catalog, events = [], now = Date.now()) {
   return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondary.length ? `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle"><div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(secondary)}</section>` : ""}`;
 }
 
+// How many artists the homepage shows before "Show all". Every artist link is
+// still in the server HTML (the rest sit in a closed <details>), so crawl paths
+// and the homepage search index are unchanged; only the default scroll shrinks.
+const HOMEPAGE_ARTISTS_VISIBLE = 12;
+
+// One compact row per artist: the name and one line of facts. The /artists
+// index keeps the full status cards (renderArtistLinks); on the homepage those
+// cards stacked to ~13,000px on a phone, most of the page, so a visitor looking
+// for one act had to scroll past sixty.
+function homepageArtistTile(catalog, artist, events, now) {
+  const status = artistCardStatus(catalog, artist, events, now);
+  let meta;
+  if (status.pending) meta = status.badge;
+  else if (status.dateless) meta = "No dates listed yet";
+  else {
+    const shows = futureShowsForArtist(events, artist.slug, 500).filter(
+      (show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url)
+    );
+    // "Sep 25" this year, "Feb 10, 2027" beyond it: keeps each row to one line.
+    const thisYear = `, ${new Date(now).getUTCFullYear()}`;
+    const nextFull = shows.length ? formatCardDate(shows[0].dateTimeISO, shows[0].timezone) : null;
+    const next = nextFull && nextFull.endsWith(thisYear) ? nextFull.slice(0, -thisYear.length) : nextFull;
+    meta = next
+      ? `${shows.length} ${shows.length === 1 ? "date" : "dates"} · next ${next}`
+      : status.badge;
+  }
+  return `<li><a class="home-artist${status.dateless ? " is-dateless" : ""}" href="/artists/${escapeAttr(
+    artist.slug
+  )}"><span class="home-artist__name">${escapeHtml(artist.name)}</span><span class="home-artist__meta">${escapeHtml(
+    meta
+  )}</span></a></li>`;
+}
+
 function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
-  const html = renderArtistLinks(catalog, events, now);
-  const marker = '<section class="artist-status-section artist-status-section--secondary"';
-  const secondaryAt = html.indexOf(marker);
-  if (secondaryAt < 0) return html;
-  // Unwrap the section rather than nesting it: the slice still carries its own
-  // opening tag, so wrapping it whole would emit a <section> with these same
-  // classes inside the <details>, and close the two in the wrong order. The
-  // secondary section is the last thing renderArtistLinks emits, so the slice
-  // ends at its closing tag.
-  const secondaryHtml = html
-    .slice(secondaryAt)
-    .replace(/^<section[^>]*>/, "")
-    .replace(/<\/section>$/, "");
-  const count = splitArtistsByUpcoming(catalog.artists, events, now).secondary.length;
-  return `${html.slice(0, secondaryAt)}<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${count} without dates currently listed)</summary>${secondaryHtml}</details>`;
+  const { primary, secondary } = splitArtistsByUpcoming(catalog.artists, events, now);
+  const tiles = (artists) => artists.map((artist) => homepageArtistTile(catalog, artist, events, now)).join("");
+  const shown = primary.slice(0, HOMEPAGE_ARTISTS_VISIBLE);
+  const rest = primary.slice(HOMEPAGE_ARTISTS_VISIBLE);
+  const primaryHtml = primary.length
+    ? `<ul class="home-artist-list">${tiles(shown)}</ul>${
+        rest.length
+          ? `<details class="home-more"><summary>Show all ${primary.length} artists with dates</summary><ul class="home-artist-list">${tiles(
+              rest
+            )}</ul></details>`
+          : ""
+      }`
+    : `<p class="muted">No future dates are currently listed.</p>`;
+  const secondaryHtml = secondary.length
+    ? `<details class="home-more home-more--quiet"><summary>${secondary.length} more ${
+        secondary.length === 1 ? "artist" : "artists"
+      } with no dates listed yet</summary><ul class="home-artist-list">${tiles(secondary)}</ul></details>`
+    : "";
+  return `${primaryHtml}${secondaryHtml}`;
 }
 
 function cityShowCountLabel(count) {
@@ -2730,13 +2767,11 @@ function renderHomepageGuideLinks() {
     ...priorityPaths.map((path) => [path, GUIDE_ROUTES[path]]).filter(([, guide]) => Boolean(guide)),
     ...Object.entries(GUIDE_ROUTES).filter(([path]) => !priorityPaths.includes(path))
   ];
-  return `<div class="card-grid guide-grid">${prioritizedGuides
+  // Titles only: the descriptions made six cards ~1,800px tall on a phone.
+  return `<ul class="home-link-list">${prioritizedGuides
     .slice(0, 6)
-    .map(
-      ([path, guide]) =>
-        `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`
-    )
-    .join("")}</div>`;
+    .map(([path, guide]) => `<li>${anchor(guide.h1, path, "guide-card-link")}</li>`)
+    .join("")}</ul>`;
 }
 
 
@@ -5049,25 +5084,36 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Contact", "/contact", "button button-secondary")}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><p class="disclosure-note">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city or venue" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
-    HOME_PRIMARY_CTA_LABEL,
+  // Layout (2026-09-24, owner request): find a show first, read about the site
+  // second. Search and its results sit in the hero; the artist list is compact;
+  // the explainer copy is kept, word for word, in one closed <details> at the
+  // foot so it stays in the HTML without pushing the lists down the page.
+  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city or venue" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form></div><section id="search-widget" class="search-section" aria-labelledby="searchSectionTitle" hidden><h2 id="searchSectionTitle" class="home-search-title">Search results</h2><p id="searchWidgetIntro" class="sr-only">Matches from checked artists, upcoming dates, and buying guides.</p><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section></section><section id="featured-artists" class="section-grid home-section" aria-labelledby="homeArtistsTitle"><div class="home-section__head"><h2 id="homeArtistsTitle">Artists on tour</h2>${anchor(
+    "All artists",
     HOME_PRIMARY_CTA_HREF,
-    // Secondary since 2026-09-24: the search submit directly above is the one
-    // primary action in the hero; two equal-weight orange buttons competed.
-    "button button-secondary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Start with a search</h2><p id="searchWidgetIntro">Enter an artist, city, venue, or tour above to see matching checked dates and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid">${HOME_STEPS.map(
+    "text-link"
+  )}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-browse">Planning around a place? ${anchor(
+    "Browse cities",
+    "/cities",
+    "text-link"
+  )} or ${anchor("venues", "/venues", "text-link")}.</p></section><section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
+    "All guides",
+    "/guides",
+    "text-link"
+  )}</div>${renderHomepageGuideLinks()}${
+    route.blogPromotable ? `<p class="home-browse">${anchor("Read the blog", BLOG_INDEX_PATH, "text-link")}</p>` : ""
+  }</section><p class="home-trust-line">Independent and unofficial. We don't sell tickets, and some links earn us a commission. ${anchor(
+    "Affiliate disclosure",
+    "/affiliate-disclosure",
+    "text-link"
+  )}</p><details class="home-more home-about" id="how-it-works"><summary>How it works and how we stay honest</summary><div class="card-grid what-you-can-do"><h2 id="whatYouCanDoTitle" class="sr-only">How it works</h2>${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
-  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderHomepageArtistLinks(
-    catalog,
-    events
-  )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
-    "View all guides",
-    "/guides",
+  ).join("")}</div><div class="nested-panel trust-section"><h2 id="trustTitle">How we stay honest</h2><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div><div class="action-row">${anchor(
+    HOME_PRIMARY_CTA_LABEL,
+    HOME_PRIMARY_CTA_HREF,
     "button button-secondary"
-  )}${
-    route.blogPromotable ? anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary") : ""
-  }</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">How we stay honest</h2></div><div class="nested-panel"><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
+  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></details></div></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
@@ -5189,10 +5235,10 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
       '<link rel="stylesheet" href="/styles.css?v=20260924a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924a" />\n    <link rel="stylesheet" href="/styles.css?v=20260924a" />'
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260924a" />'
     );
-    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924a" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924a" defer></script></body>');
+    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924b" defer></script></body>');
   }
   return next;
 }

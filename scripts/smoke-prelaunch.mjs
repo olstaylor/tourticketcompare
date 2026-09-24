@@ -62,9 +62,9 @@ const expectedTitle = new Map([
   ["/privacy", "Privacy Policy | TourTicketCompare"],
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260901a";
-const TTC_HOME_ASSET_VERSION = "20260821a";
+const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total.";
+const APP_ASSET_VERSION = "20260924a";
+const TTC_HOME_ASSET_VERSION = "20260924a";
 const TTC_SHELL_ASSET_VERSION = "20260821a";
 const SHELL_SCRIPT_ASSET_VERSION = "20260901b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -1386,7 +1386,7 @@ const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/provide
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(RENDERED_SG_EVENT_OUT_HREF), "server-rendered SeatGeek CTA should route the controlled show through /api/out");
 assert(!serverMorganWithSeatGeek.text.includes(CONTROLLED_SEATGEEK_URL), "server-rendered SeatGeek CTA must not expose the raw affiliate URL; it routes through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("Some links earn us a commission — this never affects your price."), "server-rendered show board should include one concise provider-change disclosure");
+assert(serverMorganWithSeatGeek.text.includes("<strong>How we make money:</strong> when you buy through some of these buttons") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
 assert(!serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per SeatGeek link");
 // CTA order: SeatGeek (primary affiliate) renders first, before the plain
 // (unmonetized) Ticketmaster link, inside the same provider-cta-group.
@@ -1406,7 +1406,7 @@ const controlledCardCountLines = serverMorganWithSeatGeek.text.match(/<p class="
 assert(controlledCardCountLines.length > 0, "server-rendered show cards with CTAs should carry a checked-ticket-site count line");
 for (const line of controlledCardCountLines) {
   assert(
-    /^<p class="provider-cta-count muted">(1 checked ticket site for this date|Compare [2-9]\d* checked ticket sites for this date)<\/p>$/.test(line),
+    /^<p class="provider-cta-count muted">(1 ticket site for this date|[2-9]\d* ticket sites for this date)( · lowest listed price(?: on each)?)?<\/p>$/.test(line),
     `show-card CTA count line should read as one site or a comparison of N: ${line}`
   );
 }
@@ -1415,7 +1415,7 @@ const controlledCardChunk = serverMorganWithSeatGeek.text
   .find((chunk) => chunk.includes(RENDERED_SG_EVENT_OUT_HREF));
 const controlledCardButtonCount = (controlledCardChunk.match(/provider-cta-name">/g) || []).length;
 assert(
-  controlledCardButtonCount >= 2 && controlledCardChunk.includes(`Compare ${controlledCardButtonCount} checked ticket sites for this date`),
+  controlledCardButtonCount >= 2 && controlledCardChunk.includes(`${controlledCardButtonCount} ticket sites for this date`),
   `a card rendering ${controlledCardButtonCount} provider buttons should say it compares exactly that many checked ticket sites`
 );
 const invalidSeatGeekEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
@@ -1486,7 +1486,7 @@ assert(
 );
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
 assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
-assert(ttcHomeJs.includes("then check the final total with the provider."), "homepage should tell fans where the final total is confirmed");
+assert(ttcHomeJs.includes("then check the final total on the ticket site."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
 assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make an absolute no-price claim that contradicts approved snapshot support");
@@ -1507,11 +1507,11 @@ assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "se
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes('name: "SeatGeek"'), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("Some links earn us a commission — this never affects your price."), "hydration should preserve the concise show-board provider disclosure");
+assert(appJs.includes("the ticket site pays us a commission. We add no fee of our own. Sites that pay us are listed first") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the How-we-make-money show-board disclosure (P4)");
 assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
-assert(appJs.includes("Listed-price snapshots, not live availability."), "hydration should include the unified listed-price snapshot disclosure");
+assert(appJs.includes(". Listed prices, not your final total: the site adds fees at checkout."), "hydration should include the unified listed-price disclosure (P2)");
 assert(appJs.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."), "hydration should state the price-unavailable case");
 assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
 assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
@@ -1524,7 +1524,7 @@ assert(appJs.includes('item?.provider === "Vivid Seats"'), "hydrated Vivid Seats
 assert(appJs.includes("source !== \"vividseats_impact_marketplace_api\""), "hydrated Vivid Seats price snapshots should require the approved source attribution");
 assert(appJs.includes("isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)"), "hydrated Vivid Seats price snapshots should require ISO timestamps before checking freshness");
 assert(appJs.includes("lane: approvedVividSeatsPriceLane(show)"), "hydration should attach Vivid Seats snapshots only through the approved lane helper");
-assert(appJs.includes("snapshotTimes"), "hydration should include provider capture times in the unified snapshot disclosure");
+assert(appJs.includes("time.title = spec.priceAsOf;") && appJs.includes("time.dateTime = String(spec.lane?.fetchedAt"), "hydration should keep each provider's absolute capture time on the relative-age disclosure");
 assert(appJs.includes('show?.provider_links?.["vivid-seats"]?.verified !== true'), "hydrated Vivid Seats price snapshots should require explicit provider verification");
 assert(!appJs.includes("More providers — no current price snapshot"), "hydration should keep priced and unpriced providers in one list");
 assert(appJs.includes('priceProviders: "approved-marketplaces"'), "comparison hydration should request only approved marketplace price lanes");
@@ -1612,7 +1612,7 @@ assert(
   "server-rendered trust copy should state both what is and is not verified"
 );
 assert(
-  pathSource.includes("Some outbound links earn us a commission, which never changes what you pay"),
+  pathSource.includes("Some outbound links earn us a commission — see our"),
   "server-rendered trust copy should keep the affiliate-commission disclosure"
 );
 assert(
@@ -2215,9 +2215,9 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
-assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Listed-price snapshots, not live availability."), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
+assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Listed prices, not your final total: the site adds fees at checkout.") && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time> \(Vivid Seats\)/.test(serverPricedMorgan.text) && serverPricedMorgan.text.includes("lowest listed price on each"), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
 assert(!serverPricedMorgan.text.includes("SeatGeek price snapshot as of"), "SeatGeek must remain CTA-only in server-rendered cards");
-assert(serverPricedMorgan.text.includes("may exclude fees"), "server-rendered snapshots should keep the fees disclaimer");
+assert(serverPricedMorgan.text.includes("the site adds fees at checkout"), "server-rendered snapshots should keep the fees disclaimer");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
@@ -2978,7 +2978,7 @@ const vsConfiguredPage = await routeResponse("/artists/morgan-wallen", vsConfigu
 assert(vsConfiguredPage.text.includes(RENDERED_VS_EVENT_OUT_HREF), "server-rendered Vivid Seats CTA should route the controlled show through /api/out when configured");
 assert(!vsConfiguredPage.text.includes(CONTROLLED_VIVIDSEATS_URL), "server-rendered Vivid Seats CTA must not expose the raw affiliate URL; it routes through /api/out");
 assert(vsConfiguredPage.text.includes("provider-cta-name\">Vivid Seats<"), "Vivid Seats should render its own CTA when SeatGeek is not configured");
-assert(vsConfiguredPage.text.includes("Some links earn us a commission — this never affects your price."), "server-rendered Vivid Seats CTA page should include the concise show-board provider disclosure");
+assert(vsConfiguredPage.text.includes("<strong>How we make money:</strong>"), "server-rendered Vivid Seats CTA page should include the concise show-board provider disclosure");
 assert(!vsConfiguredPage.text.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per Vivid Seats link");
 
 const vsRecheckEnv = withVividSeatsEventsFixture(
@@ -3202,10 +3202,11 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 
 // Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs.
 // With Ticketmaster as the only available provider, the card renders a single
-// Ticketmaster provider-cta button reading "Check prices".
+// Ticketmaster provider-cta button reading "See tickets" (P5): Ticketmaster is
+// a link source, never a price lane, so its button never reads like one.
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-name\">Ticketmaster<"), "/artists/morgan-wallen (indexable) must show the Ticketmaster event CTA button");
-assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">Check prices<"), "an unpriced provider button must read 'Check prices'");
+assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">See tickets<"), "the unpriced Ticketmaster button must read 'See tickets'");
 // A card with checked destinations but no eligible snapshot must say so and
 // name where to look, rather than leaving the price slot silently empty.
 assert(
@@ -3275,11 +3276,10 @@ assert(/<meta name="robots" content="noindex,follow/.test(beyonceEmptyStatePage.
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];
-assert(beyonceShowBoard.includes("No upcoming dates listed"), "zero-event artist page must render the empty-state heading");
+assert(beyonceShowBoard.includes("No dates yet"), "zero-event artist page must render the empty-state heading");
 assert(
-  beyonceShowBoard.includes("When our source lists a date, it appears here") ||
-    beyonceShowBoard.includes("When our source lists a Beyonc"),
-  "zero-event empty state must explain what happens when a date is verified"
+  beyonceShowBoard.includes("When Ticketmaster lists a Beyonc"),
+  "zero-event empty state must explain what happens when a date is listed"
 );
 assert(!beyonceShowBoard.includes("No verified show dates are currently listed"), "zero-event empty state must not use the old generic copy");
 // An empty page must not imply an announcement is coming, and must not turn
@@ -3320,7 +3320,7 @@ assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes
 // pattern in a published post, so the state links it rather than leaving the
 // disclosure to stand alone.
 assert(
-  beyonceShowBoard.includes('href="/blog/why-some-artist-pages-show-no-dates"') && beyonceShowBoard.includes("Here&#39;s why"),
+  beyonceShowBoard.includes('href="/blog/why-some-artist-pages-show-no-dates"') && /here&#39;s why/i.test(beyonceShowBoard),
   "zero-event empty state must link the empty-board explainer post"
 );
 assert(beyonceEmptyStatePage.text.includes("About Beyoncé"), "a promoted empty artist may keep its reviewed factual summary");
@@ -3405,7 +3405,7 @@ const manyShows = [
 ];
 const manyBoard = await renderSyntheticArtistBoard(manyShows);
 assert(manyBoard.cards === manyShows.length, "a large artist board should render every upcoming date server-side");
-assert(manyBoard.html.includes("9 upcoming Bruno Mars dates"), "a large board's lead should count its own dates");
+assert(manyBoard.html.includes("9 upcoming dates in 7 cities and 5 countries"), "a large board's lead should count its own dates");
 assert(manyBoard.html.includes("7 cities") && manyBoard.html.includes("5 countries"), "a large board's lead should state its geographic spread");
 assert(manyBoard.html.includes("data-artist-facts"), "a large board should render the fact strip above the dates");
 // Search/filter affordances appear only when the number of dates warrants them,
@@ -3515,11 +3515,11 @@ assert(
   "every server-rendered card with a CTA should carry exactly one checked-ticket-site count line"
 );
 assert(
-  manyBoardCountLines.every((line) => line.includes("1 checked ticket site for this date")),
-  "a card offering a single provider must say '1 checked ticket site for this date'"
+  manyBoardCountLines.every((line) => line.includes("1 ticket site for this date")),
+  "a card offering a single provider must say '1 ticket site for this date'"
 );
 assert(
-  !manyBoard.html.includes("Compare 1 checked ticket site"),
+  !/Compare 1 |1 ticket sites/.test(manyBoard.html),
   "a one-provider card must never use comparison wording"
 );
 assert(
@@ -3528,11 +3528,11 @@ assert(
 );
 // Both renderers must produce the same three strings from the same count.
 assert(
-  appJs.includes("1 checked ticket site for this date") && appJs.includes("checked ticket sites for this date"),
+  appJs.includes('"1 ticket site for this date"') && appJs.includes("ticket sites for this date") && appJs.includes('"lowest listed price on each"'),
   "client-rendered cards should carry the same checked-ticket-site count wording as the server"
 );
 assert(
-  pathSource.includes("1 checked ticket site for this date") && pathSource.includes("checked ticket sites for this date"),
+  pathSource.includes('"1 ticket site for this date"') && pathSource.includes("ticket sites for this date") && pathSource.includes('"lowest listed price on each"'),
   "server-rendered cards should carry the checked-ticket-site count wording"
 );
 assert(
@@ -3543,11 +3543,11 @@ assert(
   (await read("public/styles.css")).includes(".show-card .provider-cta-count"),
   "the checked-ticket-site count line should be styled"
 );
-// The count line is about links, not prices: price availability has its own
-// copy in .provider-cta-notes and must not be folded into this one.
+// The count line names the price clause only when a button shows a price
+// (P1); this board has no price lanes, so no card may claim one.
 assert(
-  !/checked ticket site[s]? for this date[^<]*price/i.test(manyBoard.html),
-  "the CTA count line must not carry price wording"
+  !/ticket site[s]? for this date[^<]*price/i.test(manyBoard.html),
+  "an unpriced card's count line must not carry price wording"
 );
 assert(!manyBoard.html.includes('class="provider-cta-label"'), "server-rendered show cards must not carry the removed provider-cta-label element");
 assert(!appJs.includes("Compare ticket options for this date"), "client-rendered show cards (public/app.js) must not render the removed provider CTA label");

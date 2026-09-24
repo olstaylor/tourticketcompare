@@ -40,7 +40,13 @@ page.
 
 ---
 
-## Part 2 — copy proposals (not applied)
+## Part 2 — copy proposals (applied 2026-09-24)
+
+The owner approved P1–P11 as written. All are applied on this branch, with the
+`public/app.js` fallback kept in parity. One deviation: P6 ends "check the
+final total on the **ticket** site", because on the homepage "the site" reads
+as this site, and the homepage-proposition test requires each total sentence
+to name where the total is confirmed.
 
 ### The comparison module in five seconds
 

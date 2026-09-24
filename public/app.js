@@ -10,7 +10,7 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare ticket prices for the show you want.";
 const HOME_SUBCOPY =
-  "Choose an artist and date, see current listed prices from ticket sites where available, then check the final total with the provider.";
+  "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Find a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -43,7 +43,7 @@ const HOME_STEPS = [
 const ARTISTS_INDEX_LEAD = "Choose an artist, then pick the date you want to compare ticket prices for.";
 const ARTISTS_INDEX_NOTE = "Coverage varies by artist and region.";
 const HOW_IT_WORKS_LEAD =
-  "Compare ticket prices for the show you want: choose an artist and date, see current listed prices from ticket sites where available, then check the final total with the provider. We're independent, and we don't sell tickets.";
+  "Compare ticket prices for the show you want: choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site. We're independent, and we don't sell tickets.";
 // <<< site-proposition <<<
 
 const providerCopy = {
@@ -245,7 +245,7 @@ const routeMeta = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total."
+      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
@@ -1308,7 +1308,7 @@ function renderHeroSearchForm(resultsContainer) {
   input.id = "site-search";
   input.name = "q";
   input.className = "hero-search-input";
-  input.placeholder = "Search by artist, city, country, venue, or tour";
+  input.placeholder = "Artist, city or venue";
   input.setAttribute("aria-label", "Search by artist, city, country, venue, or tour");
   input.setAttribute("autocomplete", "off");
   input.setAttribute("spellcheck", "false");
@@ -1552,8 +1552,9 @@ function renderShowBoardShell(id, title, body, note) {
   const header = document.createElement("div");
   header.className = "section-intro";
   text(header, "h2", title).id = id;
-  text(header, "p", body);
-  if (note) text(header, "p", note, "disclosure-note");
+  if (body) text(header, "p", body);
+  if (note instanceof Node) header.append(note);
+  else if (note) text(header, "p", note, "disclosure-note");
   const grid = document.createElement("div");
   grid.className = "card-grid show-card-grid";
   grid.dataset.showGrid = "true";
@@ -1997,7 +1998,7 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
   cta.dataset.ctaLocation = ctaLocation;
   text(cta, "span", name, "provider-cta-name");
-  text(cta, "span", amount || "Check prices", `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
+  text(cta, "span", amount || (analytics.provider === "ticketmaster" ? "See tickets" : "Check prices"), `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
   return cta;
 }
 
@@ -2039,14 +2040,47 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   }
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  const snapshotTimes = priced
-    .map((spec) => {
-      const age = snapshotAgeLabel(spec.lane?.fetchedAt);
-      return `${spec.name} (${spec.priceAsOf}${age ? `, ${age}` : ""})`;
-    })
-    .join(" · ");
-  text(wrap, "p", `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`, "disclosure-note");
+  // Keep in sync with renderServerPriceNotes in functions/[[path]].js.
+  const note = document.createElement("p");
+  note.className = "disclosure-note";
+  note.append("Checked ");
+  priced.forEach((spec, index) => {
+    if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+    const time = document.createElement("time");
+    time.dateTime = String(spec.lane?.fetchedAt || "");
+    time.title = spec.priceAsOf;
+    time.textContent = relativeCheckAge(spec.lane?.fetchedAt);
+    note.append(time, ` (${spec.name})`);
+  });
+  note.append(". Listed prices, not your final total: the site adds fees at checkout.");
+  wrap.append(note);
   return wrap;
+}
+
+// Keep in sync with relativeCheckAge in functions/[[path]].js.
+function relativeCheckAge(fetchedAt, now = Date.now()) {
+  const captured = Date.parse(String(fetchedAt || ""));
+  if (!Number.isFinite(captured)) return "recently";
+  const minutes = Math.max(0, Math.round((now - captured) / 60000));
+  if (minutes < 60) return "under an hour ago";
+  const hours = Math.round(minutes / 60);
+  if (hours < 48) return `${hours} hour${hours === 1 ? "" : "s"} ago`;
+  const days = Math.round(hours / 24);
+  return `${days} day${days === 1 ? "" : "s"} ago`;
+}
+
+// Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
+// functions/[[path]].js.
+const MONEY_DISCLOSURE_TEXT =
+  "when you buy through some of these buttons, the ticket site pays us a commission. We add no fee of our own. Sites that pay us are listed first; Ticketmaster, which doesn't, is listed last when we have its link.";
+function renderMoneyDisclosure() {
+  const note = document.createElement("p");
+  note.className = "disclosure-note money-disclosure";
+  text(note, "strong", "How we make money:");
+  note.append(` ${MONEY_DISCLOSURE_TEXT} `);
+  const link = text(note, "a", "Affiliate disclosure", "text-link");
+  link.href = "/affiliate-disclosure";
+  return note;
 }
 
 // Inline SVG sparkline for one provider's snapshot series. Points are drawn in
@@ -2210,10 +2244,11 @@ function renderPriceHistoryContent(panel, wrap, data) {
 // more — a single button is one site, not a comparison. No price wording: a
 // missing price is a separate matter, handled by renderShowCardPriceNotes.
 // Keep in sync with ctaCountLabel in functions/[[path]].js.
-function showCtaCountLabel(count) {
-  if (count >= 2) return `Compare ${count} checked ticket sites for this date`;
-  if (count === 1) return "1 checked ticket site for this date";
-  return "";
+function showCtaCountLabel(count, priced = false) {
+  if (count < 1) return "";
+  const sites = count === 1 ? "1 ticket site for this date" : `${count} ticket sites for this date`;
+  if (!priced) return sites;
+  return `${sites} · ${count === 1 ? "lowest listed price" : "lowest listed price on each"}`;
 }
 
 function renderShowCard(show, options = {}) {
@@ -2323,7 +2358,7 @@ function renderShowCard(show, options = {}) {
       // line states how many checked ticket sites this date leads to; "compare"
       // is only used for two or more, because one site is not a comparison.
       // Keep in sync with ctaCountLabel in functions/[[path]].js.
-      const countLabel = showCtaCountLabel(ctaSpecs.length);
+      const countLabel = showCtaCountLabel(ctaSpecs.length, ctaSpecs.some((spec) => spec.priceAmount && spec.priceAsOf));
       if (countLabel) text(body, "p", countLabel, "provider-cta-count muted");
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
@@ -3254,9 +3289,11 @@ function renderArtist(artist) {
     "artistShowBoard",
     "Upcoming dates",
     serverShows.length
-      ? "Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it."
-      : "Dates appear here once our source confirms them.",
-    "Some links earn us a commission — this never affects your price."
+      ? "Pick a date. Each button is a ticket site that sells it, with that site's lowest listed price when we have one. We check prices every few hours; the site shows your final total."
+      : main.querySelector(".show-board .section-intro > p:not(.disclosure-note)")
+        ? "Dates appear here once our source confirms them."
+        : "",
+    renderMoneyDisclosure()
   );
   // Shared price/link help and the provenance block are both server-rendered
   // once from the shared content model; transplant, never rebuild.

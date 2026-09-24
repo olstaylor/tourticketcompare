@@ -205,7 +205,12 @@ export function artistSearchIntro(artist, status, options = {}) {
   const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
   const formatShortDate = typeof options.formatShortDate === "function" ? options.formatShortDate : formatDate;
   if (!status || !status.showCount) {
-    return `No upcoming ${name} dates are listed right now. Dates appear here once our source lists them, and ticket buttons once their links pass our checks.`;
+    // P11 (owner-approved 2026-09-24): a page that has never had a date says
+    // so once. An ended tour keeps the fuller sentence; its board lists the
+    // recent dates below it.
+    return Number(options.pastShowCount) > 0
+      ? `No upcoming ${name} dates are listed right now. Dates appear here once our source lists them, and ticket buttons once their links pass our checks.`
+      : `No ${name} dates yet.`;
   }
 
   const sentences = [];
@@ -223,9 +228,10 @@ export function artistSearchIntro(artist, status, options = {}) {
     if (status.countryCount > 1) spread.push(plural(status.countryCount, "country", "countries"));
     const startLabel = formatShortDate(status.first?.iso, status.first?.timezone);
     const endLabel = formatShortDate(status.last?.iso, status.last?.timezone);
-    const range = startLabel && endLabel && startLabel !== endLabel ? `, ${startLabel} to ${endLabel}` : "";
+    const range = startLabel && endLabel && startLabel !== endLabel ? `, ${startLabel} – ${endLabel}` : "";
+    // P9 (owner-approved 2026-09-24): the same facts in about half the words.
     sentences.push(
-      `We track ${plural(status.showCount, "upcoming " + name + " date")}${spread.length ? ` across ${joinList(spread)}` : ""}${range}.`
+      `${plural(status.showCount, "upcoming date")}${spread.length ? ` in ${joinList(spread)}` : ""}${range}.`
     );
   }
 
@@ -234,13 +240,13 @@ export function artistSearchIntro(artist, status, options = {}) {
     sentences.push(`${only.count} of them are nights at ${only.venue}, so check which night you're buying.`);
   } else if (status.multiNightRuns.length > 1) {
     sentences.push(
-      `${status.multiNightRuns.length} of the venues host more than one night, so check the date on the card before you buy.`
+      `${status.multiNightRuns.length} venues host more than one night, so check the date before you buy.`
     );
   }
 
   if (status.showsWithoutCta > 0 && status.showsWithCta > 0) {
     sentences.push(
-      `${status.showsWithCta} of the ${status.showCount} have a checked ticket link; the rest are listed without one until we've followed where they lead.`
+      `${status.showsWithCta} of the ${status.showCount} have a checked ticket link.`
     );
   } else if (status.showsWithCta === 0) {
     sentences.push(
@@ -267,9 +273,10 @@ export function artistSearchIntro(artist, status, options = {}) {
 export function artistStatusFacts(status, options = {}) {
   if (!status || !status.showCount) return [];
   const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
-  const facts = [{ label: "Dates tracked", value: String(status.showCount) }];
-  if (status.cityCount > 1) facts.push({ label: "Cities", value: String(status.cityCount) });
-  if (status.countryCount > 1) facts.push({ label: "Countries", value: String(status.countryCount) });
+  // P10 (owner-approved 2026-09-24): the count, cities, countries and last date
+  // are all in the lead sentence directly above, so the strip keeps only what
+  // is worth scanning for: the next date and the checked-link coverage.
+  const facts = [];
   const nextLabel = formatDate(status.next?.iso, status.next?.timezone);
   if (nextLabel) {
     facts.push({
@@ -277,8 +284,6 @@ export function artistStatusFacts(status, options = {}) {
       value: status.next?.city ? `${nextLabel}, ${status.next.city}` : nextLabel
     });
   }
-  const lastLabel = formatDate(status.last?.iso, status.last?.timezone);
-  if (lastLabel && lastLabel !== nextLabel) facts.push({ label: "Last date", value: lastLabel });
   facts.push({
     label: "Checked ticket links",
     value:
@@ -370,6 +375,17 @@ export function artistTicketHelp() {
 export function artistEmptyBoardCopy(artist, options = {}) {
   const name = cleanString(artist?.name) || "this artist";
   const pastShowCount = Number(options.pastShowCount) || 0;
+  // P11 (owner-approved 2026-09-24): an artist that has never had a date gets
+  // one short statement instead of three. `compact` tells the renderer to drop
+  // the board intro and use the short explainer.
+  if (!pastShowCount) {
+    return {
+      heading: "No dates yet",
+      body: `When Ticketmaster lists a ${name} date it appears here, with its ticket links.`,
+      next: "",
+      compact: true
+    };
+  }
   return {
     heading: "No upcoming dates listed",
     body: pastShowCount

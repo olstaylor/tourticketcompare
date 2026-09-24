@@ -398,6 +398,15 @@ assert(
   "venue page links the buying guides"
 );
 assert(venuePage.main.includes(`href="/cities/${CITY_SLUG}"`), "venue page links back to its city page");
+// P4 (owner-approved 2026-09-24): the one "How we make money" statement sits
+// next to the buttons on location pages too, not only in the footer.
+for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
+  assert(
+    page.main.includes("<strong>How we make money:</strong>") && page.main.includes('href="/affiliate-disclosure"'),
+    `${label} page carries the How-we-make-money disclosure with its link`
+  );
+  assert(page.main.includes("Dates re-checked against Ticketmaster daily"), `${label} page states the daily re-check (P8)`);
+}
 assert(venueText.includes("By Ollie Taylor"), "venue page keeps its named byline");
 assert(venuePage.main.includes('href="/about/ollie-taylor"'), "venue page byline links the author page");
 

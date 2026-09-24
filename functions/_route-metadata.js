@@ -166,7 +166,7 @@ export const TRUST_ROUTES = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.",
+      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total.",
     indexable: true,
     lastmod: "2026-09-24"
   },
@@ -201,7 +201,7 @@ export const TRUST_ROUTES = {
     indexable: true,
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }],
-    lastmod: "2026-08-08"
+    lastmod: "2026-09-24"
   },
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",

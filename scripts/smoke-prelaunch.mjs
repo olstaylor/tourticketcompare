@@ -3227,7 +3227,9 @@ if (fullyPricedBoard.response.status === 200) {
   const cardsWithButtons = boardCards.filter((card) => card.includes('class="provider-cta-group"'));
   const silentCards = cardsWithButtons.filter(
     (card) =>
-      !card.includes("No listed-price snapshot is available for this date.") &&
+      // Any of the three unavailable notes (priceUnavailableNote) counts: the
+      // undated one, the unmatched one, or the dated "at our last check" one.
+      !/No listed-price snapshot (is available|for this date)|No listed price at our last check/.test(card) &&
       !card.includes("provider-cta-price")
   );
   assert(cardsWithButtons.length > 6, "the coverage check needs a board longer than the old six-show slice to be meaningful");

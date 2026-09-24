@@ -2755,7 +2755,7 @@ function renderComparisonHubEventCards(events = [], env = {}) {
         ctaLocation: "comparison_hub"
       })).join("");
       const ctas = ctaSpecs.length
-        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`
+        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}`
         : `<p class="disclosure-note">No checked provider link is currently available for this date.</p>`;
       return `<article class="info-card show-card" data-event-id="${escapeAttr(show.id)}"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p>${ctas}${anchor("View artist page", `/artists/${show.artist_slug}`, "text-link")}</article>`;
     })
@@ -3245,6 +3245,7 @@ function enrichEventAsShow(ev) {
     verification_status: String(ev.verification_status || "").trim(),
     provider_links: ev.provider_links && typeof ev.provider_links === "object" ? ev.provider_links : {},
     prices: Array.isArray(ev.prices) ? ev.prices : [],
+    priceChecks: ev.priceChecks && typeof ev.priceChecks === "object" ? ev.priceChecks : null,
     publishable: eventLinkPublishable(ev),
     seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
     vividseatsPublishable: providerEventPublishable(ev, "vivid-seats"),
@@ -3741,6 +3742,62 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
 const PRICE_UNAVAILABLE_NOTE =
   "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
 
+// A price check older than this is not quoted: "no listed price at our last
+// check" is only useful while that check is recent enough to still describe
+// the listing. Past it the card falls back to the undated note. Sized above
+// the 24h display window so a day of dropped writer ticks does not flip every
+// card back at once.
+const PRICE_CHECK_QUOTE_MAX_HOURS = 36;
+
+// The lanes that supply listed-price snapshots today: numeric price feed,
+// display flag on (wrangler.toml [vars]) and a scheduled writer. Ticket
+// Liquidator links but does not price; SeatGeek and Ticketmaster never price.
+// Update with the display flags if a lane is added or withdrawn.
+const LISTED_PRICE_PROVIDERS = Object.freeze([
+  Object.freeze({ slug: "vivid-seats", name: "Vivid Seats" }),
+  Object.freeze({ slug: "ticketnetwork", name: "TicketNetwork" }),
+  Object.freeze({ slug: "stubhub-international", name: "StubHub International" })
+]);
+
+function joinProviderNames(names) {
+  if (names.length <= 1) return names.join("");
+  return `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
+}
+
+// Why a checked card has no price, stated as specifically as the server can
+// establish it — never as a claim about availability.
+//
+//   1. It has a button on a price-comparison lane and that lane recorded a
+//      recent check: name the lanes and the check time.
+//   2. It has such a button but no recorded check: the undated note.
+//   3. Its record is not verified on any lane that supplies prices
+//      (Ticketmaster or SeatGeek only): say so, so the missing price reads as
+//      coverage rather than as a fault.
+function priceUnavailableNote(ctaSpecs, show, now = Date.now()) {
+  const buttonWord = ctaSpecs.length === 1 ? "the button above" : "the provider buttons above";
+  const priceLaneSpecs = ctaSpecs.filter((spec) => LISTED_PRICE_PROVIDERS.some((lane) => lane.slug === spec.provider));
+  // "Not matched" is a statement about the event record, not about which
+  // buttons rendered: a lane can be verified yet hidden by runtime config, and
+  // that date is matched. Only a record with no verified price-lane mapping at
+  // all gets the unmatched wording.
+  const mappedOnPriceLane = LISTED_PRICE_PROVIDERS.some((lane) => show?.provider_links?.[lane.slug]?.verified === true);
+  if (!priceLaneSpecs.length && mappedOnPriceLane) return PRICE_UNAVAILABLE_NOTE;
+  if (!priceLaneSpecs.length) {
+    const sources = joinProviderNames(LISTED_PRICE_PROVIDERS.map((lane) => lane.name));
+    return `No listed-price snapshot for this date: it isn't matched yet on the sites we collect prices from (${sources}). Check current prices using ${buttonWord}.`;
+  }
+  const checks = show?.priceChecks && typeof show.priceChecks === "object" ? show.priceChecks : {};
+  const recent = priceLaneSpecs
+    .map((spec) => ({ name: spec.name, at: Date.parse(String(checks[spec.provider] || "")) }))
+    .filter((entry) => Number.isFinite(entry.at) && entry.at <= now + 300000 && now - entry.at <= PRICE_CHECK_QUOTE_MAX_HOURS * 3600000);
+  if (!recent.length) return PRICE_UNAVAILABLE_NOTE;
+  const latest = new Date(Math.max(...recent.map((entry) => entry.at))).toISOString();
+  const when = formatServerSnapshotTime(latest);
+  if (!when) return PRICE_UNAVAILABLE_NOTE;
+  const checkedLanes = joinProviderNames(recent.map((entry) => entry.name));
+  return `No listed price at our last check of ${checkedLanes} (${when}). Check current prices using ${buttonWord}.`;
+}
+
 // Did this card's price lanes actually get queried? attachApprovedMarketplacePrices
 // returns one entry per approved lane (including the unavailable ones), while
 // enrichEventAsShow defaults the field to an empty array — so "has entries", not
@@ -3762,11 +3819,11 @@ function pricesWereChecked(show) {
 // server never established, so an unchecked card renders no note at all and
 // client hydration fills it in.
 // Keep in sync with renderShowCardPriceNotes in public/app.js.
-function renderServerPriceNotes(ctaSpecs, pricesChecked = false) {
+function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
     return pricesChecked && ctaSpecs.length
-      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(PRICE_UNAVAILABLE_NOTE)}</p></div>`
+      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(priceUnavailableNote(ctaSpecs, show))}</p></div>`
       : "";
   }
   const snapshotTimes = priced
@@ -3906,7 +3963,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const historyHtml = hasApprovedServerPriceSnapshot(show)
         ? renderPriceHistoryPanelHtml(artistSlug, show.id)
         : "";
-      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}${historyHtml}`;
+      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
     }
   }
 
@@ -5231,7 +5288,7 @@ export async function onRequest(context) {
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let priceLowSeries = new Map();
   let renderEvents = events;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -5248,9 +5305,16 @@ export async function onRequest(context) {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
       priceCandidates = futureShowsForArtist(events, route.artist.slug)
         .filter((show) => cityShowIds.has(String(show.id || "")));
-    } else if (route.type === "venue") {
+    } else if (route.type === "venue" || route.type === "city") {
+      // City pages render the same show cards as venue pages, from the same
+      // renderEvents, so they are priced the same way. Until 2026-09-24 the
+      // city route was missing from this list, so every city card read
+      // "Check prices" even where its venue page showed the snapshot.
+      const locationShowIds = new Set(
+        ((route.type === "venue" ? route.venue : route.city)?.shows || []).map((show) => String(show?.id || ""))
+      );
       priceCandidates = events
-        .filter((event) => route.venue?.shows?.some((show) => String(show?.id || "") === String(event?.id || "")))
+        .filter((event) => locationShowIds.has(String(event?.id || "")))
         .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
         .filter(Boolean);
     } else {
@@ -5260,7 +5324,10 @@ export async function onRequest(context) {
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {
       const priced = pricedById.get(String(event?.id || ""));
-      return priced ? { ...event, prices: Array.isArray(priced.prices) ? priced.prices : [] } : event;
+      if (!priced) return event;
+      const next = { ...event, prices: Array.isArray(priced.prices) ? priced.prices : [] };
+      if (priced.priceChecks) next.priceChecks = priced.priceChecks;
+      return next;
     });
     // The recorded low reads provider_pricing_history, which the cache attach
     // above never touches. Artist-city only — it is the one surface that renders

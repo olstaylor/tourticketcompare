@@ -2600,3 +2600,21 @@ summary {
 .show-board-jump {
   min-width: 0;
 }
+
+/* With the buttons in columns, the single bordered list above (one outline,
+   row dividers) broke into partial lines; each button is its own tile now,
+   same treatment for priced and unpriced providers. */
+.show-card .provider-cta-group {
+  gap: 6px;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.show-card .provider-cta,
+.show-card .provider-cta:last-child {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: #fff;
+}

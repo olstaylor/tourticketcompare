@@ -62,6 +62,7 @@
     "guides:new": "node scripts/new-guide.mjs",
     "og:build": "node scripts/build-og-cards.mjs",
     "og:check": "node scripts/build-og-cards.mjs --check",
+    "og:coverage:check": "node scripts/build-og-cards.mjs --coverage-check",
     "og:self-test": "node scripts/build-og-cards.mjs --self-test",
     "blog:build": "node scripts/build-blog-content.mjs",
     "blog:check": "node scripts/build-blog-content.mjs --check",

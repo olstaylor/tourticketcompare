@@ -38,11 +38,11 @@ These artifacts are generated and must never be hand-edited:
 | `public/data/blog-content.json` | `npm run blog:build` after any `content/blog/*.md` change | `blog:check` in `test:mvp` |
 | `public/data/guides-content.json` + `functions/_guide-routes.generated.js` | `npm run guides:build` after any `content/guides/*.md` change | `guides:check` in `test:mvp` |
 | `data/content-provenance.json` | `npm run content:provenance` after editing guide or trust-page copy | `content:provenance:check` in `test:mvp` |
-| `public/og/*.png` + `functions/_og-cards.generated.js` | `npm run og:build` after adding an artist, guide or blog post | `og:check` in `test:mvp` — partial, see below |
+| `public/og/*.png` + `functions/_og-cards.generated.js` | `npm run og:build` after adding an artist, guide or blog post | `og:check` in `test:mvp` — partial, see below; `og:coverage:check` in the generated-freshness sensor |
 
 Two caveats worth knowing rather than discovering:
 
-- `og:check` fails only when the manifest references a card that is not committed. It deliberately does **not** fail when an indexable route has no card yet: city, venue and artist-city routes appear and disappear as dates pass, so an exact-match check would fail on any day the calendar moved. Uncovered routes fall back to the shared `/og-image.png`.
+- `og:check` fails only when the manifest references a card that is not committed. It deliberately does **not** fail when an indexable route has no card yet: city, venue and artist-city routes appear and disappear as dates pass, so an exact-match check would fail on any day the calendar moved. Uncovered routes fall back to the shared `/og-image.png` until the next rebuild: the generated-freshness sensor runs `og:coverage:check`, which does fail on them, and the work-queue repair worker then opens a rebuild pull request for review.
 - The `public/index.html` fallback has no `--check` counterpart, so a stale one ships silently. Regenerate it in the same change as any `public/data/*.json` edit.
 
 ## Lifecycle policy

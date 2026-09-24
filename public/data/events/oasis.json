@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "id": "tm-oasis-2027-munich-z698xzc2z16vca8yqu",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-02T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1385439776",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1385439776",
+        "discovery_event_id": "Z698xZC2Z16vCA8yqU",
+        "url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vCA8yqU",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "id": "tm-oasis-2027-munich-z698xzc2z16ezoffov",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-03T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2020208474",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2020208474",
+        "discovery_event_id": "Z698xZC2Z16eZOFFoV",
+        "url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16eZOFFoV",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "id": "tm-oasis-2027-munich-z698xzc2z16v7f7_4g",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-06T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1108119575",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1108119575",
+        "discovery_event_id": "Z698xZC2Z16v7F7_4g",
+        "url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v7F7_4g",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T10:00:00Z"
+  }
+]

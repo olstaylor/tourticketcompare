@@ -3539,5 +3539,113 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167532",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167532/Teddy-Swims-tickets-Thu-Apr-8-2027-3Arena-Dublin"
+  },
+  {
+    "id": "tm-teddy-swims-2027-dublin-17kzv0g6260hbxf",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-09T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064F1E46D8F94",
+    "ticketmaster_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064F1E46D8F94",
+        "discovery_event_id": "17kZv0G6260hbXf",
+        "url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6260hbXf",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
+  },
+  {
+    "id": "tm-teddy-swims-2027-london-17u8v0g623nj3ov",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-25T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F4A3712441",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F4A3712441",
+        "discovery_event_id": "17u8v0G623Nj3ov",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
   }
 ]

@@ -93,10 +93,11 @@ export function publicOnsalePending(event, now = Date.now()) {
  * destination, from any provider?
  *
  * @param {any} event Raw events.json record.
+ * @param {number} [now] Evaluation instant; derivations pass their own clock.
  * @returns {boolean}
  */
-export function eventPublishable(event) {
-  if (publicOnsalePending(event)) return false;
+export function eventPublishable(event, now = Date.now()) {
+  if (publicOnsalePending(event, now)) return false;
   const links = event?.provider_links && typeof event.provider_links === "object" ? event.provider_links : {};
   // A standalone verified resale destination is enough on its own — but only
   // when it actually has a stored URL to send the visitor to. `verified: true`
@@ -107,7 +108,7 @@ export function eventPublishable(event) {
     if (provider === "ticketmaster") continue;
     if (link?.verified === true && String(link?.url || "").trim()) return true;
   }
-  return eventStatusPublishable(event);
+  return eventStatusPublishable(event, now);
 }
 
 /**
@@ -124,8 +125,8 @@ export function eventPublishable(event) {
  * @param {any} event Raw events.json record.
  * @returns {boolean}
  */
-export function eventStatusPublishable(event) {
-  if (publicOnsalePending(event)) return false;
+export function eventStatusPublishable(event, now = Date.now()) {
+  if (publicOnsalePending(event, now)) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;

@@ -78,8 +78,8 @@ export function deriveCities(events, options = {}) {
       // artist page.
       timezone: String(event.timezone || "").trim(),
       last_verified_at: String(event.last_verified_at || "").trim(),
-      publishable: eventPublishable(event),
-      statusPublishable: eventStatusPublishable(event),
+      publishable: eventPublishable(event, now),
+      statusPublishable: eventStatusPublishable(event, now),
       ts
     });
   }

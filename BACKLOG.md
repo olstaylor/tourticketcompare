@@ -133,7 +133,14 @@ Goal: "safe-to-scale" ahead of the 2027 launch — prices display reliably, page
   - **Page weight.** The price-history email form renders once per page as a template instead of in every card, about 116 KB less on the largest board. History panels were split into `public/price-history.js`, which also fixes dead history buttons on city and venue pages.
   - **Checklist.** The Search Console / Bing checklist is in `docs/DEPLOYMENT.md`.
 - **Considered and not changed in Phase 2:** raising the artist-city floor from 2 to 3 dates. That would drop about 110 sitemap URLs, against the growth direction; revisit if Search Console reports them as duplicates.
-- Next, pending the owner's go-ahead: Phase 3 (ingestion and self-repair). Relationship to the auto-ingest plan above: not yet ordered by the owner.
+- **PR [olstaylor/tourticketcompare#1125](https://github.com/olstaylor/tourticketcompare/pull/1125)** carries Phases 0–2 for review (Codex review requested 2026-09-24).
+- **Phase 3 — built 2026-09-24 on the stacked branch `milestone/2027-launch-readiness-phase3` (on top of #1125); no PR, not merged.** What it adds:
+  - **One-file artist requests.** Add a name to `data/artist-requests.json`. The next roster screen and auto-promote run put it first and screen it with D3/D4 relaxed (owner-approved; nothing else relaxes). It promotes and ingests the artist in the usual auto-merged PR.
+  - **Daily `site-health.yml`.** It crawls every live sitemap URL (404s, redirects, noindex, canonical, title, H1, JSON-LD, duplicate titles, 5xx under parallel load), checks the sitemap segments, `/api/health` and the price gates, and links the self-closing sensors' open findings. It writes one rolling `automation:site-health` issue and never a PR.
+  - **Render CPU cut 4–7×.** The fix is per-isolate memoisation plus cached date formatters, with byte-identical HTML on sampled routes. The first production crawl had found about 20% of artist-city pages answering "Worker exceeded resource limits" under 6–8 parallel requests (`docs/OPERATIONS.md` → Known incidents).
+  - **Runbook.** `docs/ARTIST_INGESTION.md` is the cold-start guide to adding artists, what generates, undoing and the health signals.
+- **Not done in Phase 3, left for the owner to decide:** social cards for new routes still need a human merge of the daily work-queue repair PR, because Stage 4 / E auto-merge is unbuilt. Pages meanwhile use the shared card.
+- Next, pending the owner's go-ahead: Phase 4 (UX, trust and copy — proposals as before/after). Relationship to the auto-ingest plan above: not yet ordered by the owner.
 
 ### Parked — former scale roadmap (owner-approved 2026-09-16; parked 2026-09-23)
 

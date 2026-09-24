@@ -1934,17 +1934,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085157",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-23-2026/event/107085157",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAabFB",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695876",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-23-2026/event/107085157"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505428256",
@@ -16893,11 +16893,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071103",
-        "url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Chicago",
@@ -16906,7 +16906,7 @@
     "ticketmaster_discovery_event_id": "G5dIZbyC__Upm",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
@@ -43510,13 +43510,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669955",
+        "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-21-2026/event/107669955",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_6n-zPJb",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7859974",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7859974/Metallica-tickets-Sat-Nov-21-2026-Mohegan-Sun-Arena-CT"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7859974/Metallica-tickets-Sat-Nov-21-2026-Mohegan-Sun-Arena-CT",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-21-2026/event/107669955"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk",
@@ -44979,17 +44987,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107163014",
-        "url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_FGkUHx1G-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-chicago-vv178z_fgkuxeurm",
@@ -102432,6 +102440,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668657",
+        "url": "https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkD3wcU8",
@@ -102439,7 +102454,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268591",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268591/Metallica-tickets-Sat-May-8-2027-BC-Place-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268591/Metallica-tickets-Sat-May-8-2027-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657"
   },
   {
     "id": "tm-metallica-2027-san-diego-vvg1iz_3rsxtwd",
@@ -102502,6 +102518,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669480",
+        "url": "https://www.stubhub.ie/metallica-san-diego-tickets-5-13-2027/event/107669480",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3RSxTwD",
@@ -102509,7 +102532,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268592",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268592/Metallica-tickets-Thu-May-13-2027-Snapdragon-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268592/Metallica-tickets-Thu-May-13-2027-Snapdragon-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-san-diego-tickets-5-13-2027/event/107669480"
   },
   {
     "id": "tm-metallica-2027-el-paso-vvg1yz_3zjrn4d",
@@ -102572,6 +102596,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669513",
+        "url": "https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3zjrN4D",
@@ -102579,7 +102610,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268593",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268593/Metallica-tickets-Tue-May-18-2027-Sun-Bowl-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268593/Metallica-tickets-Tue-May-18-2027-Sun-Bowl-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513"
   },
   {
     "id": "tm-metallica-2027-san-antonio-g5diz_3mpis-k",
@@ -102642,6 +102674,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669512",
+        "url": "https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3MPIS-k",
@@ -102649,7 +102688,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268594",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268594/Metallica-tickets-Sat-May-22-2027-Alamodome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268594/Metallica-tickets-Sat-May-22-2027-Alamodome",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512"
   },
   {
     "id": "tm-metallica-2027-fayetteville-g5viz_om30atl",
@@ -102782,6 +102822,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668967",
+        "url": "https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkwEMFoK",
@@ -102789,7 +102836,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268597",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268597/Metallica-tickets-Sat-May-29-2027-Arrowhead-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268597/Metallica-tickets-Sat-May-29-2027-Arrowhead-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967"
   },
   {
     "id": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
@@ -102852,6 +102900,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668970",
+        "url": "https://www.stubhub.ie/metallica-indianapolis-tickets-6-5-2027/event/107668970",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkTr8LNi",
@@ -102859,7 +102914,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268598",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268598/Metallica-tickets-Sat-Jun-5-2027-Lucas-Oil-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268598/Metallica-tickets-Sat-Jun-5-2027-Lucas-Oil-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-indianapolis-tickets-6-5-2027/event/107668970"
   },
   {
     "id": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
@@ -102922,6 +102978,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668971",
+        "url": "https://www.stubhub.ie/metallica-orchard-park-tickets-6-8-2027/event/107668971",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_3GkTmReUp",
@@ -102929,7 +102992,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268600",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268600/Metallica-tickets-Tue-Jun-8-2027-New-Highmark-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268600/Metallica-tickets-Tue-Jun-8-2027-New-Highmark-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-orchard-park-tickets-6-8-2027/event/107668971"
   },
   {
     "id": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
@@ -102992,6 +103056,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668973",
+        "url": "https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkDYwNGG",
@@ -102999,7 +103070,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268601",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268601/Metallica-tickets-Tue-Jun-15-2027-Huntington-Bank-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268601/Metallica-tickets-Tue-Jun-15-2027-Huntington-Bank-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973"
   },
   {
     "id": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
@@ -103062,6 +103134,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668972",
+        "url": "https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3Hepr-9",
@@ -103069,7 +103148,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268602/Metallica-tickets-Sat-Jun-19-2027-Rice-Eccles-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268602/Metallica-tickets-Sat-Jun-19-2027-Rice-Eccles-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972"
   },
   {
     "id": "tm-teddy-swims-2027-dublin-17kzv0g6260hbxf",
@@ -103172,12 +103252,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669573",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T09:00:00Z"
+    "public_onsale_at": "2026-09-25T09:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573"
   },
   {
     "id": "tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa",
@@ -103632,6 +103720,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669465",
+        "url": "https://www.stubhub.ie/hans-zimmer-newark-tickets-2-21-2027/event/107669465",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkePJHRe",
@@ -103639,7 +103734,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270976",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270976/Hans-Zimmer-tickets-Sun-Feb-21-2027-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270976/Hans-Zimmer-tickets-Sun-Feb-21-2027-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-newark-tickets-2-21-2027/event/107669465"
   },
   {
     "id": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
@@ -103702,6 +103798,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669466",
+        "url": "https://www.stubhub.ie/hans-zimmer-philadelphia-tickets-2-23-2027/event/107669466",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPGaGA1LecY",
@@ -103709,7 +103812,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270977",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270977/Hans-Zimmer-tickets-Tue-Feb-23-2027-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270977/Hans-Zimmer-tickets-Tue-Feb-23-2027-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-philadelphia-tickets-2-23-2027/event/107669466"
   },
   {
     "id": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
@@ -103772,6 +103876,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668647",
+        "url": "https://www.stubhub.ie/hans-zimmer-boston-tickets-2-24-2027/event/107668647",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkdjVZxR",
@@ -103779,7 +103890,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270978",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270978/Hans-Zimmer-tickets-Wed-Feb-24-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270978/Hans-Zimmer-tickets-Wed-Feb-24-2027-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-boston-tickets-2-24-2027/event/107668647"
   },
   {
     "id": "tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x",
@@ -104020,6 +104132,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669517",
+        "url": "https://www.stubhub.ie/hans-zimmer-detroit-tickets-3-3-2027/event/107669517",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GkY-oWzW",
@@ -104027,7 +104146,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270979",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270979/Hans-Zimmer-tickets-Wed-Mar-3-2027-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270979/Hans-Zimmer-tickets-Wed-Mar-3-2027-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-detroit-tickets-3-3-2027/event/107669517"
   },
   {
     "id": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
@@ -104090,6 +104210,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669467",
+        "url": "https://www.stubhub.ie/hans-zimmer-chicago-tickets-3-5-2027/event/107669467",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_3GkTA7u7G",
@@ -104097,7 +104224,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270980",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270980/Hans-Zimmer-tickets-Fri-Mar-5-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270980/Hans-Zimmer-tickets-Fri-Mar-5-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-chicago-tickets-3-5-2027/event/107669467"
   },
   {
     "id": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
@@ -104160,6 +104288,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669524",
+        "url": "https://www.stubhub.ie/hans-zimmer-cincinnati-tickets-3-7-2027/event/107669524",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkBx_fB1",
@@ -104167,7 +104302,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270981",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270981/Hans-Zimmer-tickets-Sun-Mar-7-2027-Heritage-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270981/Hans-Zimmer-tickets-Sun-Mar-7-2027-Heritage-Bank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-cincinnati-tickets-3-7-2027/event/107669524"
   },
   {
     "id": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
@@ -104230,6 +104366,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669525",
+        "url": "https://www.stubhub.ie/hans-zimmer-charlotte-tickets-3-9-2027/event/107669525",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3H3LwH3",
@@ -104237,7 +104380,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270982",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270982/Hans-Zimmer-tickets-Tue-Mar-9-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270982/Hans-Zimmer-tickets-Tue-Mar-9-2027-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-charlotte-tickets-3-9-2027/event/107669525"
   },
   {
     "id": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
@@ -104300,6 +104444,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669468",
+        "url": "https://www.stubhub.ie/hans-zimmer-orlando-tickets-3-11-2027/event/107669468",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfYGkexMgrX",
@@ -104307,7 +104458,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270983",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270983/Hans-Zimmer-tickets-Thu-Mar-11-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270983/Hans-Zimmer-tickets-Thu-Mar-11-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-orlando-tickets-3-11-2027/event/107669468"
   },
   {
     "id": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
@@ -104370,6 +104522,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668651",
+        "url": "https://www.stubhub.ie/hans-zimmer-miami-tickets-3-13-2027/event/107668651",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3GOtwD8",
@@ -104377,7 +104536,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270985",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270985/Hans-Zimmer-tickets-Sat-Mar-13-2027-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270985/Hans-Zimmer-tickets-Sat-Mar-13-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-miami-tickets-3-13-2027/event/107668651"
   },
   {
     "id": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
@@ -104440,6 +104600,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669539",
+        "url": "https://www.stubhub.ie/hans-zimmer-tampa-tickets-3-14-2027/event/107669539",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3XHwnHJ",
@@ -104447,7 +104614,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270987",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270987/Hans-Zimmer-tickets-Sun-Mar-14-2027-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270987/Hans-Zimmer-tickets-Sun-Mar-14-2027-Benchmark-International-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-tampa-tickets-3-14-2027/event/107669539"
   },
   {
     "id": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
@@ -104510,6 +104678,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669533",
+        "url": "https://www.stubhub.ie/hans-zimmer-atlanta-tickets-3-16-2027/event/107669533",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3EbKNKC",
@@ -104517,7 +104692,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270989",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270989/Hans-Zimmer-tickets-Tue-Mar-16-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270989/Hans-Zimmer-tickets-Tue-Mar-16-2027-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-atlanta-tickets-3-16-2027/event/107669533"
   },
   {
     "id": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
@@ -104580,6 +104756,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668746",
+        "url": "https://www.stubhub.ie/hans-zimmer-nashville-tickets-3-17-2027/event/107668746",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3PZFVFC",
@@ -104587,7 +104770,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270990",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270990/Hans-Zimmer-tickets-Wed-Mar-17-2027-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270990/Hans-Zimmer-tickets-Wed-Mar-17-2027-Bridgestone-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-nashville-tickets-3-17-2027/event/107668746"
   },
   {
     "id": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
@@ -104650,6 +104834,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669471",
+        "url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
@@ -104657,7 +104848,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471"
   },
   {
     "id": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
@@ -104720,6 +104912,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669532",
+        "url": "https://www.stubhub.ie/hans-zimmer-denver-tickets-3-25-2027/event/107669532",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KeilE5w",
@@ -104727,7 +104926,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270993",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270993/Hans-Zimmer-tickets-Thu-Mar-25-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270993/Hans-Zimmer-tickets-Thu-Mar-25-2027-Ball-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-denver-tickets-3-25-2027/event/107669532"
   },
   {
     "id": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
@@ -104790,6 +104990,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669528",
+        "url": "https://www.stubhub.ie/hans-zimmer-phoenix-tickets-3-30-2027/event/107669528",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkTywjdB",
@@ -104797,7 +105004,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270994",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270994/Hans-Zimmer-tickets-Tue-Mar-30-2027-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270994/Hans-Zimmer-tickets-Tue-Mar-30-2027-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-phoenix-tickets-3-30-2027/event/107669528"
   },
   {
     "id": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
@@ -104860,6 +105068,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668652",
+        "url": "https://www.stubhub.ie/hans-zimmer-anaheim-tickets-4-2-2027/event/107668652",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_3GkwTDbyN",
@@ -104867,7 +105082,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270996",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270996/Hans-Zimmer-tickets-Fri-Apr-2-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270996/Hans-Zimmer-tickets-Fri-Apr-2-2027-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-anaheim-tickets-4-2-2027/event/107668652"
   },
   {
     "id": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
@@ -104930,6 +105146,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669477",
+        "url": "https://www.stubhub.ie/hans-zimmer-san-francisco-tickets-4-4-2027/event/107669477",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_32UcFLK",
@@ -104937,7 +105160,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270997",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270997/Hans-Zimmer-tickets-Sun-Apr-4-2027-Chase-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270997/Hans-Zimmer-tickets-Sun-Apr-4-2027-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-san-francisco-tickets-4-4-2027/event/107669477"
   },
   {
     "id": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
@@ -105000,6 +105224,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669478",
+        "url": "https://www.stubhub.ie/hans-zimmer-sacramento-tickets-4-5-2027/event/107669478",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3nNPQVC",
@@ -105007,7 +105238,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270998",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270998/Hans-Zimmer-tickets-Mon-Apr-5-2027-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270998/Hans-Zimmer-tickets-Mon-Apr-5-2027-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-sacramento-tickets-4-5-2027/event/107669478"
   },
   {
     "id": "tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq",
@@ -105070,6 +105302,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669530",
+        "url": "https://www.stubhub.ie/hans-zimmer-vancouver-tickets-rogers-arena-4-8-2027/event/107669530",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkXMNqqQ",
@@ -105077,7 +105316,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271008",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271008/Hans-Zimmer-tickets-Thu-Apr-8-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271008/Hans-Zimmer-tickets-Thu-Apr-8-2027-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-vancouver-tickets-rogers-arena-4-8-2027/event/107669530"
   },
   {
     "id": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
@@ -105140,6 +105380,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669479",
+        "url": "https://www.stubhub.ie/hans-zimmer-seattle-tickets-4-9-2027/event/107669479",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3ExnTSl",
@@ -105147,7 +105394,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271000",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271000/Hans-Zimmer-tickets-Fri-Apr-9-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271000/Hans-Zimmer-tickets-Fri-Apr-9-2027-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-seattle-tickets-4-9-2027/event/107669479"
   },
   {
     "id": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
@@ -105210,6 +105458,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668737",
+        "url": "https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3zbQmZV",
@@ -105217,7 +105472,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271002/Hans-Zimmer-tickets-Sun-Apr-11-2027-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271002/Hans-Zimmer-tickets-Sun-Apr-11-2027-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737"
   },
   {
     "id": "tm-kenny-chesney-2027-tampa-vvg1vz_3xhd4sr",
@@ -105280,6 +105536,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668525",
+        "url": "https://www.stubhub.ie/kenny-chesney-tampa-tickets-4-24-2027/event/107668525",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3xhd4sR",
@@ -105287,7 +105550,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265768",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265768/Kenny-Chesney-tickets-Sat-Apr-24-2027-Raymond-James-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265768/Kenny-Chesney-tickets-Sat-Apr-24-2027-Raymond-James-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-tampa-tickets-4-24-2027/event/107668525"
   },
   {
     "id": "tm-kenny-chesney-2027-greenville-z7r9jz1aavsad",
@@ -105420,6 +105684,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668526",
+        "url": "https://www.stubhub.ie/kenny-chesney-arlington-tickets-5-8-2027/event/107668526",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsA7",
@@ -105427,7 +105698,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-26T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265770",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265770/Kenny-Chesney-tickets-Sat-May-8-2027-ATT-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265770/Kenny-Chesney-tickets-Sat-May-8-2027-ATT-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-arlington-tickets-5-8-2027/event/107668526"
   },
   {
     "id": "tm-kenny-chesney-2027-saint-louis-vv1kvovpfigaupvvy",
@@ -105598,6 +105870,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668125",
+        "url": "https://www.stubhub.ie/kenny-chesney-pittsburgh-tickets-5-29-2027/event/107668125",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfxGkdbuj3L",
@@ -105605,7 +105884,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265775",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265775/Kenny-Chesney-tickets-Sat-May-29-2027-Acrisure-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265775/Kenny-Chesney-tickets-Sat-May-29-2027-Acrisure-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-pittsburgh-tickets-5-29-2027/event/107668125"
   },
   {
     "id": "tm-kenny-chesney-2027-ames-vv1kbz_3x6g7cusy",
@@ -105722,6 +106002,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668529",
+        "url": "https://www.stubhub.ie/kenny-chesney-philadelphia-tickets-6-12-2027/event/107668529",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfIGkdubjP8",
@@ -105729,7 +106016,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265777",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265777/Kenny-Chesney-tickets-Sat-Jun-12-2027-Lincoln-Financial-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265777/Kenny-Chesney-tickets-Sat-Jun-12-2027-Lincoln-Financial-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-philadelphia-tickets-6-12-2027/event/107668529"
   },
   {
     "id": "tm-kenny-chesney-2027-orchard-park-vv1adzkfngkd3refj",
@@ -105862,6 +106150,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668530",
+        "url": "https://www.stubhub.ie/kenny-chesney-chicago-tickets-6-26-2027/event/107668530",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F8Z_3ao7xZd2G1",
@@ -105869,7 +106164,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265779",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265779/Kenny-Chesney-tickets-Sat-Jun-26-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265779/Kenny-Chesney-tickets-Sat-Jun-26-2027-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-chicago-tickets-6-26-2027/event/107668530"
   },
   {
     "id": "tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa",
@@ -106212,6 +106508,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668714",
+        "url": "https://www.stubhub.ie/kenny-chesney-atlanta-tickets-7-31-2027/event/107668714",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3x03bY9",
@@ -106219,7 +106522,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265786",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265786/Kenny-Chesney-tickets-Sat-Jul-31-2027-Mercedes-Benz-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265786/Kenny-Chesney-tickets-Sat-Jul-31-2027-Mercedes-Benz-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-atlanta-tickets-7-31-2027/event/107668714"
   },
   {
     "id": "tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z",
@@ -106562,6 +106866,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668127",
+        "url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-28-2027/event/107668127",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfxGkdu8gfO",
@@ -106569,7 +106880,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265790",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265790/Kenny-Chesney-tickets-Sat-Aug-28-2027-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265790/Kenny-Chesney-tickets-Sat-Aug-28-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-28-2027/event/107668127"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-honolulu-vvg1iz_3dqr_0d",
@@ -106741,13 +107053,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669558",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3XoA9Li",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271387"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271387",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny",
@@ -106880,6 +107200,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669541",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkR16PFe",
@@ -106887,7 +107214,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9",
@@ -106943,13 +107271,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669472",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3DoGRf9",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271390"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271390",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-pittsburgh-1apzkfygkd_ubdt",
@@ -107175,13 +107511,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668756",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkRplG-n",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271400"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271400",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy",
@@ -107237,13 +107581,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668654",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgKjCy",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271392"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271392",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c",
@@ -107299,13 +107651,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668655",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgfG2C",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271393"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271393",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-uncasville-g5vvz_3vqdtrt",
@@ -107485,13 +107845,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668766",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_KeDN3Qx",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271396"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271396",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-asheville-g5evz_3io8wkm",
@@ -108476,12 +108844,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107107148",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZko7GkeRvl69",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734988/Hilary-Duff-tickets-Fri-Jan-22-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734988/Hilary-Duff-tickets-Fri-Jan-22-2027-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148"
   },
   {
     "id": "tm-hilary-duff-2027-vancouver-1av7z_7gkuh7fot",
@@ -108598,12 +108974,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107102455",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0oJGA2h3ES",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734989/Hilary-Duff-tickets-Tue-Jan-26-2027-Scotiabank-Saddledome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734989/Hilary-Duff-tickets-Tue-Jan-26-2027-Scotiabank-Saddledome",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455"
   },
   {
     "id": "tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq",
@@ -108659,12 +109043,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107102454",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0ooGA1yTPQ",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734990/Hilary-Duff-tickets-Wed-Jan-27-2027-Rogers-Place"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734990/Hilary-Duff-tickets-Wed-Jan-27-2027-Rogers-Place",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454"
   },
   {
     "id": "tm-hilary-duff-2027-saskatoon-1k78v0fmgaungny",
@@ -108781,12 +109173,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098999",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_7GknWgxAN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734991/Hilary-Duff-tickets-Sat-Jan-30-2027-Canada-Life-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734991/Hilary-Duff-tickets-Sat-Jan-30-2027-Canada-Life-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999"
   },
   {
     "id": "tm-hilary-duff-2027-hamilton-1avzz_7gkr2rr5b",
@@ -110271,11 +110671,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666045",
+        "url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkf0GkeVkV5m",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045"
   },
   {
     "id": "tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p",
@@ -110377,11 +110785,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666047",
+        "url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FfZ_3xppAZdu26",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047"
   },
   {
     "id": "tm-josiah-queen-2027-grand-rapids-vv1afzkfngkeiofuw",
@@ -110642,11 +111058,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666040",
+        "url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3r2NPEM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040"
   },
   {
     "id": "tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz",
@@ -110801,11 +111225,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666044",
+        "url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZkf00fZA5k85a",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044"
   },
   {
     "id": "tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne",
@@ -110907,11 +111339,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666038",
+        "url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8vPaVkaZ7G1ee",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038"
   },
   {
     "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm",
@@ -110960,11 +111400,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669692",
+        "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692"
   },
   {
     "id": "tm-josiah-queen-2027-cedar-park-g5diz_32hchtd",
@@ -111074,11 +111522,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666052",
+        "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052"
   },
   {
     "id": "tm-ha-ash-2027-toronto-1a8zkfwgkedyh_t",
@@ -111250,13 +111706,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669703",
+        "url": "https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvZvPG_O4Z7ueuv",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278251/HaAsh-tickets-Fri-Apr-23-2027-Rosemont-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278251/HaAsh-tickets-Fri-Apr-23-2027-Rosemont-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703"
   },
   {
     "id": "tm-ha-ash-2027-denver-g5vzz_k1t3qaq",
@@ -111312,13 +111776,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668948",
+        "url": "https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K1t3qaq",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277080/HaAsh-tickets-Sun-Apr-25-2027-Paramount-Theatre-Denver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277080/HaAsh-tickets-Sun-Apr-25-2027-Paramount-Theatre-Denver",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948"
   },
   {
     "id": "tm-ha-ash-2027-seattle-vvg1hz_k1hjj1j",
@@ -111374,13 +111846,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669704",
+        "url": "https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_K1HJj1J",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277081/HaAsh-tickets-Wed-Apr-28-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277081/HaAsh-tickets-Wed-Apr-28-2027-Paramount-Theatre-Seattle",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704"
   },
   {
     "id": "tm-ha-ash-2027-inglewood-vvg1iz_3teyn4f",
@@ -111498,13 +111978,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668951",
+        "url": "https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6wiGg_",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277082/HaAsh-tickets-Thu-May-6-2027-San-Jose-Civic"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277082/HaAsh-tickets-Thu-May-6-2027-San-Jose-Civic",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951"
   },
   {
     "id": "tm-ha-ash-2027-phoenix-1a_zkfwgkdcnqcy",
@@ -111560,13 +112048,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668952",
+        "url": "https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfwGkdCnQcY",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277084/HaAsh-tickets-Sat-May-8-2027-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277084/HaAsh-tickets-Sat-May-8-2027-Arizona-Financial-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952"
   },
   {
     "id": "tm-ha-ash-2027-el-paso-vvg1yz_kgeolu1",
@@ -111622,13 +112118,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668954",
+        "url": "https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KGeOLU1",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277085/HaAsh-tickets-Wed-May-12-2027-El-Paso-County-Coliseum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277085/HaAsh-tickets-Wed-May-12-2027-El-Paso-County-Coliseum",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954"
   },
   {
     "id": "tm-ha-ash-2027-irving-vvg1yz_k558xwt",
@@ -111684,13 +112188,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668955",
+        "url": "https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K558XwT",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277086/HaAsh-tickets-Fri-May-14-2027-The-Pavilion-at-Toyota-Music-Factory"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277086/HaAsh-tickets-Fri-May-14-2027-The-Pavilion-at-Toyota-Music-Factory",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955"
   },
   {
     "id": "tm-ha-ash-2027-hidalgo-g5diz_kauvdks",
@@ -111746,13 +112258,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668956",
+        "url": "https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KAuvDKs",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277087/HaAsh-tickets-Sat-May-15-2027-Payne-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277087/HaAsh-tickets-Sat-May-15-2027-Payne-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956"
   },
   {
     "id": "tm-ha-ash-2027-houston-g5diz_kkygldl",
@@ -111808,13 +112328,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669694",
+        "url": "https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkYGlDl",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277088/HaAsh-tickets-Sun-May-16-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277088/HaAsh-tickets-Sun-May-16-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694"
   },
   {
     "id": "tm-ha-ash-2027-new-york-k7vgf_kc2qanb",
@@ -111870,13 +112398,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668959",
+        "url": "https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KC2QANB",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277089/HaAsh-tickets-Wed-May-19-2027-United-Palace-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277089/HaAsh-tickets-Wed-May-19-2027-United-Palace-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959"
   },
   {
     "id": "tm-ha-ash-2027-atlanta-vvg1zz_k1bpf9p",
@@ -111932,13 +112468,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668960",
+        "url": "https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K1bPF9P",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277090/HaAsh-tickets-Fri-May-21-2027-Coca-Cola-Roxy"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277090/HaAsh-tickets-Fri-May-21-2027-Coca-Cola-Roxy",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960"
   },
   {
     "id": "tm-ha-ash-2027-miami-beach-vvg1vz_k1-dzg7",
@@ -113081,11 +113625,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107506125",
+        "url": "https://www.stubhub.ie/passenger-tickets-glasgow-o2-academy-glasgow-11-9-2027/event/107506125",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8wYqwF1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-glasgow-o2-academy-glasgow-11-9-2027/event/107506125"
   },
   {
     "id": "tm-passenger-2027-edinburgh-1adbz_8gks0vdnw",
@@ -113134,11 +113686,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107506126",
+        "url": "https://www.stubhub.ie/passenger-tickets-edinburgh-usher-hall-12-9-2027/event/107506126",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_8GkS0vDNW",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-edinburgh-usher-hall-12-9-2027/event/107506126"
   },
   {
     "id": "tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx",
@@ -113240,11 +113800,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482766",
+        "url": "https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62wjaNuR",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766"
   },
   {
     "id": "tm-passenger-2027-london-1auzkf3gkd0sykm",
@@ -113293,11 +113861,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482767",
+        "url": "https://www.stubhub.ie/passenger-tickets-london-eventim-apollo-17-9-2027/event/107482767",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkf3Gkd0Sykm",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-london-eventim-apollo-17-9-2027/event/107482767"
   },
   {
     "id": "tm-passenger-2027-exeter-g5vhz_o2o0irs",
@@ -113406,12 +113982,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482768",
+        "url": "https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_2wG0-vu",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265897/Passenger-tickets-Fri-Sep-24-2027-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265897/Passenger-tickets-Fri-Sep-24-2027-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768"
   },
   {
     "id": "tm-passenger-2027-brighton-g5vhz_o5oziab",
@@ -113460,11 +114044,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107506129",
+        "url": "https://www.stubhub.ie/passenger-tickets-brighton-brighton-dome-25-9-2027/event/107506129",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_o5OZIAB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-brighton-brighton-dome-25-9-2027/event/107506129"
   },
   {
     "id": "tm-passenger-2027-brisbane-1avgz_8gkmdlzyi",

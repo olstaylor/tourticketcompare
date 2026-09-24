@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107107148",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZko7GkeRvl69",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734988/Hilary-Duff-tickets-Fri-Jan-22-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734988/Hilary-Duff-tickets-Fri-Jan-22-2027-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148"
   },
   {
     "id": "tm-hilary-duff-2027-vancouver-1av7z_7gkuh7fot",
@@ -175,12 +183,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107102455",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0oJGA2h3ES",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734989/Hilary-Duff-tickets-Tue-Jan-26-2027-Scotiabank-Saddledome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734989/Hilary-Duff-tickets-Tue-Jan-26-2027-Scotiabank-Saddledome",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455"
   },
   {
     "id": "tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq",
@@ -236,12 +252,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107102454",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0ooGA1yTPQ",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734990/Hilary-Duff-tickets-Wed-Jan-27-2027-Rogers-Place"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734990/Hilary-Duff-tickets-Wed-Jan-27-2027-Rogers-Place",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454"
   },
   {
     "id": "tm-hilary-duff-2027-saskatoon-1k78v0fmgaungny",
@@ -358,12 +382,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098999",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_7GknWgxAN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734991/Hilary-Duff-tickets-Sat-Jan-30-2027-Canada-Life-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734991/Hilary-Duff-tickets-Sat-Jan-30-2027-Canada-Life-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999"
   },
   {
     "id": "tm-hilary-duff-2027-hamilton-1avzz_7gkr2rr5b",

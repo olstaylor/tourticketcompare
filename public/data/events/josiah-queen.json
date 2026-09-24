@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666045",
+        "url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkf0GkeVkV5m",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045"
   },
   {
     "id": "tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666047",
+        "url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FfZ_3xppAZdu26",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047"
   },
   {
     "id": "tm-josiah-queen-2027-grand-rapids-vv1afzkfngkeiofuw",
@@ -417,11 +433,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666040",
+        "url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3r2NPEM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040"
   },
   {
     "id": "tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz",
@@ -576,11 +600,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666044",
+        "url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZkf00fZA5k85a",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044"
   },
   {
     "id": "tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne",
@@ -682,11 +714,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666038",
+        "url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8vPaVkaZ7G1ee",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038"
   },
   {
     "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm",
@@ -735,11 +775,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669692",
+        "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692"
   },
   {
     "id": "tm-josiah-queen-2027-cedar-park-g5diz_32hchtd",
@@ -849,10 +897,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666052",
+        "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052"
   }
 ]

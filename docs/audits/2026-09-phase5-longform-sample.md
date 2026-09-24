@@ -7,10 +7,10 @@ experiences, quotes, statistics or first-person claims. Where the owner's voice
 is needed, leave a `TODO(Ollie)` slot. Start with 3 articles, then stop for
 review.
 
-**Branch:** `milestone/2027-launch-readiness-phase5` (stacked on phase4). The
-owner couldn't review the sample (it had no PR), then asked for the rest to be
-done: all 18 guides and the 4 published blog posts are now edited, and the
-PR's "Files changed" tab shows the diff per article. The 3 drafts in
+**Merged:** [#1127](https://github.com/olstaylor/tourticketcompare/pull/1127), 2026-09-24. The
+owner couldn't review the 3-article sample (it had no PR yet), then asked for
+the rest to be done: all 18 guides and the 4 published blog posts are edited,
+and the PR's "Files changed" tab shows the diff per article. The 3 drafts in
 `content/blog/` are untouched.
 
 **Kept the same in all three:** frontmatter (title, H1, meta description,

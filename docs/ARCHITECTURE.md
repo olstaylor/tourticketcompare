@@ -180,7 +180,7 @@ The browser editor is served from a **separate origin**, `admin.tourticketcompar
 
 ## Data and rendering flow
 
-1. Reviewed source records live in `public/data/artists.json`, `catalog.json`, and `events.json`.
+1. Source records live in `public/data/artists.json`, `catalog.json`, and `events.json` (hand-reviewed, or machine-matched by the gated Ticketmaster lane).
 2. `npm run events:partition` creates per-artist event files and `events-index.json`.
 3. Server rendering and `/api/shows` read the reviewed data and apply the same provider publishability rules.
 4. `public/app.js` progressively enhances the server-rendered page; it must not loosen server-side URL, provenance, or price gates.
@@ -199,7 +199,9 @@ All public ticket clicks route through `/api/out`.
 
 Event CTAs publish independently per provider: Ticketmaster uses its stored destination plus the strict redirect checks; SeatGeek and Vivid retain their event-link fallback; and the Impact marketplace lanes require their own verified provenance. The shared rule is `providerEventPublishable`, implemented in parallel in `functions/api/out.js`, `functions/[[path]].js`, `public/app.js`, and `functions/api/shows.js`; the smoke suite guards SSR/API parity. `scripts/lib/event-link-coverage.mjs` is the offline mirror of that gate — read by the link-coverage report and the SeatGeek enrichment prioritiser so tooling counts exactly the buttons the site renders. It is a mirror, not a source: change it in the same commit as the runtime gate.
 
-A show card states how many checked ticket sites the date leads to in one compact line above its buttons (`ctaCountLabel` in `functions/[[path]].js`, `showCtaCountLabel` in `public/app.js`). "Compare" appears only at two or more — one provider is one site, not a comparison — and the line carries no price wording, which stays in the separate snapshot disclosures. The smoke suite asserts both renderers produce the same wording from the same count.
+A show card states how many ticket sites the date leads to in one compact line above its buttons (`ctaCountLabel` in `functions/[[path]].js`, `showCtaCountLabel` in `public/app.js`): "N ticket sites for this date". When at least one button shows a price it adds "· lowest listed price on each" if every button is priced, else "· lowest listed price where shown" — SeatGeek and Ticketmaster never carry a price, so "on each" is rare. Under a priced card, the note gives each price's relative age ("Checked 5 hours ago (Vivid Seats)"), with the absolute capture time in the `<time>` element's `datetime` and `title`. The unpriced Ticketmaster button reads "See tickets"; other unpriced buttons read "Check prices". The smoke suite asserts both renderers produce the same wording from the same inputs.
+
+Every page with ticket buttons (artist, artist-city, city, venue, comparison hub) carries one "How we make money" statement (`renderMoneyDisclosureHtml` / `renderMoneyDisclosure`). It states the button order `serverShowCtaSpecs` produces — affiliate lanes first, the unpaid Ticketmaster link last — so the order is disclosed, not presented as a ranking. Change the statement if the order changes.
 
 Client and server CTA builders (`artistProviderHref`/`eventTicketHref` in `public/app.js` and `functions/[[path]].js`) emit `/api/out?...&provider=<slug>`, which `out.js` resolves and Impact-wraps server-side. The account Impact Publisher Tag (`public/impact-publisher-tag.js`, UTT `P-A3977745`) loads site-wide for **impression** tracking only (`impactStat("trackImpression")`); it does not transform links, so click attribution never depends on client-side rewriting or Impact dashboard auto-link configuration. Do not switch monetized CTAs to raw/direct destinations.
 

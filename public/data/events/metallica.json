@@ -688,12 +688,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268591",
+        "url": "https://www.ticketnetwork.com/en/p/8268591",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkD3wcU8",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268591"
   },
   {
     "id": "tm-metallica-2027-san-diego-vvg1iz_3rsxtwd",
@@ -742,12 +750,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268592",
+        "url": "https://www.ticketnetwork.com/en/p/8268592",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3RSxTwD",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268592"
   },
   {
     "id": "tm-metallica-2027-el-paso-vvg1yz_3zjrn4d",
@@ -796,12 +812,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268593",
+        "url": "https://www.ticketnetwork.com/en/p/8268593",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3zjrN4D",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268593"
   },
   {
     "id": "tm-metallica-2027-san-antonio-g5diz_3mpis-k",
@@ -850,12 +874,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268594",
+        "url": "https://www.ticketnetwork.com/en/p/8268594",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3MPIS-k",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268594"
   },
   {
     "id": "tm-metallica-2027-fayetteville-g5viz_om30atl",
@@ -904,12 +936,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268595",
+        "url": "https://www.ticketnetwork.com/en/p/8268595",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_om30aTL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268595"
   },
   {
     "id": "tm-metallica-2027-kansas-city-vv17bz_3gkwemfok",
@@ -958,12 +998,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268597",
+        "url": "https://www.ticketnetwork.com/en/p/8268597",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkwEMFoK",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268597"
   },
   {
     "id": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
@@ -1012,12 +1060,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268598",
+        "url": "https://www.ticketnetwork.com/en/p/8268598",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkTr8LNi",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268598"
   },
   {
     "id": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
@@ -1066,12 +1122,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268600",
+        "url": "https://www.ticketnetwork.com/en/p/8268600",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_3GkTmReUp",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268600"
   },
   {
     "id": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
@@ -1120,12 +1184,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268601",
+        "url": "https://www.ticketnetwork.com/en/p/8268601",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkDYwNGG",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268601"
   },
   {
     "id": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
@@ -1174,11 +1246,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268602",
+        "url": "https://www.ticketnetwork.com/en/p/8268602",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3Hepr-9",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602"
   }
 ]

@@ -16879,11 +16879,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668641",
-        "url": "https://www.ticketnetwork.com/en/p/7668641",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7668641",
@@ -16904,7 +16904,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5dIZbyC__Upm",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668641",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668641/Bruno-Mars-tickets-Wed-Sep-23-2026-Alamodome",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103"
   },
@@ -31746,11 +31746,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7831760",
-        "url": "https://www.ticketnetwork.com/en/p/7831760",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7831760",
@@ -31763,7 +31763,7 @@
     "ticketmaster_discovery_event_id": "G5vHZ_6JEzgkF",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831760",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831760/Niall-Horan-tickets-Wed-Sep-23-2026-Utilita-Arena-Newcastle"
   },
   {
@@ -102349,11 +102349,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8286255",
+        "url": "https://www.ticketnetwork.com/en/p/8286255",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5ezZ_KhRBUSj",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286255"
   },
   {
     "id": "tm-metallica-2027-vancouver-1av7z_3gkd3wcu8",
@@ -102402,12 +102410,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268591",
+        "url": "https://www.ticketnetwork.com/en/p/8268591",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkD3wcU8",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268591"
   },
   {
     "id": "tm-metallica-2027-san-diego-vvg1iz_3rsxtwd",
@@ -102456,12 +102472,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268592",
+        "url": "https://www.ticketnetwork.com/en/p/8268592",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3RSxTwD",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268592"
   },
   {
     "id": "tm-metallica-2027-el-paso-vvg1yz_3zjrn4d",
@@ -102510,12 +102534,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268593",
+        "url": "https://www.ticketnetwork.com/en/p/8268593",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3zjrN4D",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268593"
   },
   {
     "id": "tm-metallica-2027-san-antonio-g5diz_3mpis-k",
@@ -102564,12 +102596,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268594",
+        "url": "https://www.ticketnetwork.com/en/p/8268594",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3MPIS-k",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268594"
   },
   {
     "id": "tm-metallica-2027-fayetteville-g5viz_om30atl",
@@ -102618,12 +102658,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268595",
+        "url": "https://www.ticketnetwork.com/en/p/8268595",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_om30aTL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268595"
   },
   {
     "id": "tm-metallica-2027-kansas-city-vv17bz_3gkwemfok",
@@ -102672,12 +102720,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268597",
+        "url": "https://www.ticketnetwork.com/en/p/8268597",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkwEMFoK",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268597"
   },
   {
     "id": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
@@ -102726,12 +102782,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268598",
+        "url": "https://www.ticketnetwork.com/en/p/8268598",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkTr8LNi",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268598"
   },
   {
     "id": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
@@ -102780,12 +102844,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268600",
+        "url": "https://www.ticketnetwork.com/en/p/8268600",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_3GkTmReUp",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268600"
   },
   {
     "id": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
@@ -102834,12 +102906,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268601",
+        "url": "https://www.ticketnetwork.com/en/p/8268601",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkDYwNGG",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268601"
   },
   {
     "id": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
@@ -102888,12 +102968,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268602",
+        "url": "https://www.ticketnetwork.com/en/p/8268602",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3Hepr-9",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602"
   },
   {
     "id": "tm-teddy-swims-2027-dublin-17kzv0g6260hbxf",
@@ -103104,11 +103192,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8276961",
+        "url": "https://www.ticketnetwork.com/en/p/8276961",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zkf0GkeSKm_x",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276961"
   },
   {
     "id": "tm-pink-martini-2027-charlottesville-z7r9jz1aav-zj",
@@ -103426,12 +103522,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270976",
+        "url": "https://www.ticketnetwork.com/en/p/8270976",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkePJHRe",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270976"
   },
   {
     "id": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
@@ -103480,12 +103584,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270977",
+        "url": "https://www.ticketnetwork.com/en/p/8270977",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPGaGA1LecY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270977"
   },
   {
     "id": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
@@ -103534,12 +103646,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270978",
+        "url": "https://www.ticketnetwork.com/en/p/8270978",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkdjVZxR",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270978"
   },
   {
     "id": "tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x",
@@ -103642,12 +103762,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271005",
+        "url": "https://www.ticketnetwork.com/en/p/8271005",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FG8vP17a7Z7uCe8",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271005"
   },
   {
     "id": "tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj",
@@ -103750,12 +103878,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270979",
+        "url": "https://www.ticketnetwork.com/en/p/8270979",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GkY-oWzW",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270979"
   },
   {
     "id": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
@@ -103804,12 +103940,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270980",
+        "url": "https://www.ticketnetwork.com/en/p/8270980",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_3GkTA7u7G",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270980"
   },
   {
     "id": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
@@ -103858,12 +104002,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270981",
+        "url": "https://www.ticketnetwork.com/en/p/8270981",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkBx_fB1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270981"
   },
   {
     "id": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
@@ -103912,12 +104064,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270982",
+        "url": "https://www.ticketnetwork.com/en/p/8270982",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3H3LwH3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270982"
   },
   {
     "id": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
@@ -103966,12 +104126,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270983",
+        "url": "https://www.ticketnetwork.com/en/p/8270983",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfYGkexMgrX",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270983"
   },
   {
     "id": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
@@ -104020,12 +104188,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270985",
+        "url": "https://www.ticketnetwork.com/en/p/8270985",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3GOtwD8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270985"
   },
   {
     "id": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
@@ -104074,12 +104250,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270987",
+        "url": "https://www.ticketnetwork.com/en/p/8270987",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3XHwnHJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270987"
   },
   {
     "id": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
@@ -104128,12 +104312,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270989",
+        "url": "https://www.ticketnetwork.com/en/p/8270989",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3EbKNKC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270989"
   },
   {
     "id": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
@@ -104182,12 +104374,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270990",
+        "url": "https://www.ticketnetwork.com/en/p/8270990",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3PZFVFC",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270990"
   },
   {
     "id": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
@@ -104236,12 +104436,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270991",
+        "url": "https://www.ticketnetwork.com/en/p/8270991",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991"
   },
   {
     "id": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
@@ -104290,12 +104498,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270993",
+        "url": "https://www.ticketnetwork.com/en/p/8270993",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KeilE5w",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270993"
   },
   {
     "id": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
@@ -104344,12 +104560,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270994",
+        "url": "https://www.ticketnetwork.com/en/p/8270994",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkTywjdB",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270994"
   },
   {
     "id": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
@@ -104398,12 +104622,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270996",
+        "url": "https://www.ticketnetwork.com/en/p/8270996",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_3GkwTDbyN",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270996"
   },
   {
     "id": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
@@ -104452,12 +104684,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270997",
+        "url": "https://www.ticketnetwork.com/en/p/8270997",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_32UcFLK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270997"
   },
   {
     "id": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
@@ -104506,12 +104746,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270998",
+        "url": "https://www.ticketnetwork.com/en/p/8270998",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3nNPQVC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270998"
   },
   {
     "id": "tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq",
@@ -104560,12 +104808,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271008",
+        "url": "https://www.ticketnetwork.com/en/p/8271008",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkXMNqqQ",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271008"
   },
   {
     "id": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
@@ -104614,12 +104870,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271000",
+        "url": "https://www.ticketnetwork.com/en/p/8271000",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3ExnTSl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271000"
   },
   {
     "id": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
@@ -104668,12 +104932,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271002",
+        "url": "https://www.ticketnetwork.com/en/p/8271002",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3zbQmZV",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002"
   },
   {
     "id": "tm-kenny-chesney-2027-tampa-vvg1vz_3xhd4sr",
@@ -104722,12 +104994,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265768",
+        "url": "https://www.ticketnetwork.com/en/p/8265768",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3xhd4sR",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265768"
   },
   {
     "id": "tm-kenny-chesney-2027-greenville-z7r9jz1aavsad",
@@ -104776,12 +105056,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265769",
+        "url": "https://www.ticketnetwork.com/en/p/8265769",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAd",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T13:00:00Z"
+    "public_onsale_at": "2026-09-25T13:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265769"
   },
   {
     "id": "tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7",
@@ -104830,12 +105118,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265770",
+        "url": "https://www.ticketnetwork.com/en/p/8265770",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsA7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-26T15:00:00Z"
+    "public_onsale_at": "2026-09-26T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265770"
   },
   {
     "id": "tm-kenny-chesney-2027-saint-louis-vv1kvovpfigaupvvy",
@@ -104992,12 +105288,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265775",
+        "url": "https://www.ticketnetwork.com/en/p/8265775",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfxGkdbuj3L",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265775"
   },
   {
     "id": "tm-kenny-chesney-2027-ames-vv1kbz_3x6g7cusy",
@@ -105100,12 +105404,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265777",
+        "url": "https://www.ticketnetwork.com/en/p/8265777",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfIGkdubjP8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265777"
   },
   {
     "id": "tm-kenny-chesney-2027-orchard-park-vv1adzkfngkd3refj",
@@ -105154,12 +105466,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265778",
+        "url": "https://www.ticketnetwork.com/en/p/8265778",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AdZkfNGkd3ReFj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265778"
   },
   {
     "id": "tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1",
@@ -105208,12 +105528,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265779",
+        "url": "https://www.ticketnetwork.com/en/p/8265779",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F8Z_3ao7xZd2G1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265779"
   },
   {
     "id": "tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa",
@@ -105262,12 +105590,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265780",
+        "url": "https://www.ticketnetwork.com/en/p/8265780",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAA",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265780"
   },
   {
     "id": "tm-kenny-chesney-2027-milwaukee-vv1a6zkftgkdfvyq7",
@@ -105316,12 +105652,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265781",
+        "url": "https://www.ticketnetwork.com/en/p/8265781",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkftGkdFvyQ7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265781"
   },
   {
     "id": "tm-kenny-chesney-2027-denver-g5vzz_3k6u08y",
@@ -105370,12 +105714,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265782",
+        "url": "https://www.ticketnetwork.com/en/p/8265782",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3K6u08y",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265782"
   },
   {
     "id": "tm-kenny-chesney-2027-kansas-city-vv1akzkfxgkdkijos",
@@ -105424,12 +105776,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265784",
+        "url": "https://www.ticketnetwork.com/en/p/8265784",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfxGkdkijos",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265784"
   },
   {
     "id": "tm-kenny-chesney-2027-atlanta-vvg1zz_3x03by9",
@@ -105478,12 +105838,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265786",
+        "url": "https://www.ticketnetwork.com/en/p/8265786",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3x03bY9",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265786"
   },
   {
     "id": "tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z",
@@ -105532,12 +105900,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265787",
+        "url": "https://www.ticketnetwork.com/en/p/8265787",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3Cwtd0z",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265787"
   },
   {
     "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",
@@ -105586,12 +105962,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265788",
+        "url": "https://www.ticketnetwork.com/en/p/8265788",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkmnWPji",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265788"
   },
   {
     "id": "tm-kenny-chesney-2027-charlotte-g5evz_3c19bfo",
@@ -105640,12 +106024,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265789",
+        "url": "https://www.ticketnetwork.com/en/p/8265789",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3C19bfO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265789"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv177z_3gkt1lkmv",
@@ -105694,12 +106086,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8276965",
+        "url": "https://www.ticketnetwork.com/en/p/8276965",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkT1lKmv",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276965"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",
@@ -105748,12 +106148,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265790",
+        "url": "https://www.ticketnetwork.com/en/p/8265790",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfxGkdu8gfO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265790"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-honolulu-vvg1iz_3dqr_0d",
@@ -105856,12 +106264,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271386",
+        "url": "https://www.ticketnetwork.com/en/p/8271386",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3BVgQ-A",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271386"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-knoxville-g5viz_3xoa9li",
@@ -105910,12 +106326,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271387",
+        "url": "https://www.ticketnetwork.com/en/p/8271387",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3XoA9Li",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271387"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny",
@@ -105964,12 +106388,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271388",
+        "url": "https://www.ticketnetwork.com/en/p/8271388",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3lTyqny",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",
@@ -106018,12 +106450,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271389",
+        "url": "https://www.ticketnetwork.com/en/p/8271389",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkR16PFe",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9",
@@ -106072,12 +106512,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271390",
+        "url": "https://www.ticketnetwork.com/en/p/8271390",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3DoGRf9",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271390"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-pittsburgh-1apzkfygkd_ubdt",
@@ -106126,12 +106574,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271391",
+        "url": "https://www.ticketnetwork.com/en/p/8271391",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfYGkd_UBdT",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271391"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-niagara-falls-1avzz_3gkxslrqs",
@@ -106288,12 +106744,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271400",
+        "url": "https://www.ticketnetwork.com/en/p/8271400",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkRplG-n",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271400"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy",
@@ -106342,12 +106806,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271392",
+        "url": "https://www.ticketnetwork.com/en/p/8271392",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgKjCy",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271392"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c",
@@ -106396,12 +106868,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271393",
+        "url": "https://www.ticketnetwork.com/en/p/8271393",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgfG2C",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271393"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-uncasville-g5vvz_3vqdtrt",
@@ -106450,12 +106930,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271394",
+        "url": "https://www.ticketnetwork.com/en/p/8271394",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_3VQDTRT",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271394"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-portland-vv1k7z_ke_g7zcjz",
@@ -106504,12 +106992,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271395",
+        "url": "https://www.ticketnetwork.com/en/p/8271395",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_Ke_G7zCjz",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271395"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-new-york-g5dyz_kedn3qx",
@@ -106558,12 +107054,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271396",
+        "url": "https://www.ticketnetwork.com/en/p/8271396",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_KeDN3Qx",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271396"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-asheville-g5evz_3io8wkm",
@@ -106827,12 +107331,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277969",
+        "url": "https://www.ticketnetwork.com/en/p/8277969",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfYGkes1AEm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277969"
   },
   {
     "id": "tm-atmosphere-2027-boise-g5vzz_kkmetdo",
@@ -106935,12 +107447,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277971",
+        "url": "https://www.ticketnetwork.com/en/p/8277971",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K6poibM",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277971"
   },
   {
     "id": "tm-atmosphere-2027-spokane-g5vzz_kkyknfe",
@@ -106989,12 +107509,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277972",
+        "url": "https://www.ticketnetwork.com/en/p/8277972",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkyknFe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277972"
   },
   {
     "id": "tm-atmosphere-2027-vancouver-1av7z_3gkx859iu",
@@ -107043,12 +107571,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277978",
+        "url": "https://www.ticketnetwork.com/en/p/8277978",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkX859iU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277978"
   },
   {
     "id": "tm-atmosphere-2027-eugene-z7r9jz1aaez3b",
@@ -107097,12 +107633,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277983",
+        "url": "https://www.ticketnetwork.com/en/p/8277983",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ3b",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277983"
   },
   {
     "id": "tm-atmosphere-2027-reno-1a9zkfwgkddbjmf",
@@ -107205,12 +107749,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277974",
+        "url": "https://www.ticketnetwork.com/en/p/8277974",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPGIGA2KA3Q",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277974"
   },
   {
     "id": "tm-atmosphere-2027-kansas-city-vv11bz_k7z0sqj",
@@ -107259,12 +107811,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277975",
+        "url": "https://www.ticketnetwork.com/en/p/8277975",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv11bZ_K7Z0SqJ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277975"
   },
   {
     "id": "tm-atmosphere-2027-joliet-vv17jz_3gknvxst7",
@@ -107367,11 +107927,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277977",
+        "url": "https://www.ticketnetwork.com/en/p/8277977",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl5agu0",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277977"
   }
 ]

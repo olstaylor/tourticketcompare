@@ -100,12 +100,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270976",
+        "url": "https://www.ticketnetwork.com/en/p/8270976",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkePJHRe",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270976"
   },
   {
     "id": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
@@ -154,12 +162,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270977",
+        "url": "https://www.ticketnetwork.com/en/p/8270977",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPGaGA1LecY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270977"
   },
   {
     "id": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
@@ -208,12 +224,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270978",
+        "url": "https://www.ticketnetwork.com/en/p/8270978",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkdjVZxR",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270978"
   },
   {
     "id": "tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x",
@@ -316,12 +340,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271005",
+        "url": "https://www.ticketnetwork.com/en/p/8271005",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FG8vP17a7Z7uCe8",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271005"
   },
   {
     "id": "tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj",
@@ -424,12 +456,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270979",
+        "url": "https://www.ticketnetwork.com/en/p/8270979",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GkY-oWzW",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270979"
   },
   {
     "id": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
@@ -478,12 +518,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270980",
+        "url": "https://www.ticketnetwork.com/en/p/8270980",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_3GkTA7u7G",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270980"
   },
   {
     "id": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
@@ -532,12 +580,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270981",
+        "url": "https://www.ticketnetwork.com/en/p/8270981",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkBx_fB1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270981"
   },
   {
     "id": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
@@ -586,12 +642,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270982",
+        "url": "https://www.ticketnetwork.com/en/p/8270982",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3H3LwH3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270982"
   },
   {
     "id": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
@@ -640,12 +704,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270983",
+        "url": "https://www.ticketnetwork.com/en/p/8270983",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfYGkexMgrX",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270983"
   },
   {
     "id": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
@@ -694,12 +766,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270985",
+        "url": "https://www.ticketnetwork.com/en/p/8270985",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3GOtwD8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270985"
   },
   {
     "id": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
@@ -748,12 +828,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270987",
+        "url": "https://www.ticketnetwork.com/en/p/8270987",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3XHwnHJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270987"
   },
   {
     "id": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
@@ -802,12 +890,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270989",
+        "url": "https://www.ticketnetwork.com/en/p/8270989",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3EbKNKC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270989"
   },
   {
     "id": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
@@ -856,12 +952,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270990",
+        "url": "https://www.ticketnetwork.com/en/p/8270990",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3PZFVFC",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270990"
   },
   {
     "id": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
@@ -910,12 +1014,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270991",
+        "url": "https://www.ticketnetwork.com/en/p/8270991",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991"
   },
   {
     "id": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
@@ -964,12 +1076,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270993",
+        "url": "https://www.ticketnetwork.com/en/p/8270993",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KeilE5w",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270993"
   },
   {
     "id": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
@@ -1018,12 +1138,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270994",
+        "url": "https://www.ticketnetwork.com/en/p/8270994",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkTywjdB",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270994"
   },
   {
     "id": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
@@ -1072,12 +1200,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270996",
+        "url": "https://www.ticketnetwork.com/en/p/8270996",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_3GkwTDbyN",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270996"
   },
   {
     "id": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
@@ -1126,12 +1262,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270997",
+        "url": "https://www.ticketnetwork.com/en/p/8270997",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_32UcFLK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270997"
   },
   {
     "id": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
@@ -1180,12 +1324,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270998",
+        "url": "https://www.ticketnetwork.com/en/p/8270998",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3nNPQVC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270998"
   },
   {
     "id": "tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq",
@@ -1234,12 +1386,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271008",
+        "url": "https://www.ticketnetwork.com/en/p/8271008",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkXMNqqQ",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271008"
   },
   {
     "id": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
@@ -1288,12 +1448,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271000",
+        "url": "https://www.ticketnetwork.com/en/p/8271000",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3ExnTSl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271000"
   },
   {
     "id": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
@@ -1342,11 +1510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271002",
+        "url": "https://www.ticketnetwork.com/en/p/8271002",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3zbQmZV",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002"
   }
 ]

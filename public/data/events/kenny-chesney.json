@@ -46,12 +46,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265768",
+        "url": "https://www.ticketnetwork.com/en/p/8265768",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3xhd4sR",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265768"
   },
   {
     "id": "tm-kenny-chesney-2027-greenville-z7r9jz1aavsad",
@@ -100,12 +108,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265769",
+        "url": "https://www.ticketnetwork.com/en/p/8265769",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAd",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T13:00:00Z"
+    "public_onsale_at": "2026-09-25T13:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265769"
   },
   {
     "id": "tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7",
@@ -154,12 +170,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265770",
+        "url": "https://www.ticketnetwork.com/en/p/8265770",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsA7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-26T15:00:00Z"
+    "public_onsale_at": "2026-09-26T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265770"
   },
   {
     "id": "tm-kenny-chesney-2027-saint-louis-vv1kvovpfigaupvvy",
@@ -316,12 +340,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265775",
+        "url": "https://www.ticketnetwork.com/en/p/8265775",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfxGkdbuj3L",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265775"
   },
   {
     "id": "tm-kenny-chesney-2027-ames-vv1kbz_3x6g7cusy",
@@ -424,12 +456,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265777",
+        "url": "https://www.ticketnetwork.com/en/p/8265777",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfIGkdubjP8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265777"
   },
   {
     "id": "tm-kenny-chesney-2027-orchard-park-vv1adzkfngkd3refj",
@@ -478,12 +518,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265778",
+        "url": "https://www.ticketnetwork.com/en/p/8265778",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AdZkfNGkd3ReFj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265778"
   },
   {
     "id": "tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1",
@@ -532,12 +580,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265779",
+        "url": "https://www.ticketnetwork.com/en/p/8265779",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F8Z_3ao7xZd2G1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265779"
   },
   {
     "id": "tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa",
@@ -586,12 +642,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265780",
+        "url": "https://www.ticketnetwork.com/en/p/8265780",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAA",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265780"
   },
   {
     "id": "tm-kenny-chesney-2027-milwaukee-vv1a6zkftgkdfvyq7",
@@ -640,12 +704,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265781",
+        "url": "https://www.ticketnetwork.com/en/p/8265781",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkftGkdFvyQ7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265781"
   },
   {
     "id": "tm-kenny-chesney-2027-denver-g5vzz_3k6u08y",
@@ -694,12 +766,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265782",
+        "url": "https://www.ticketnetwork.com/en/p/8265782",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3K6u08y",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265782"
   },
   {
     "id": "tm-kenny-chesney-2027-kansas-city-vv1akzkfxgkdkijos",
@@ -748,12 +828,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265784",
+        "url": "https://www.ticketnetwork.com/en/p/8265784",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfxGkdkijos",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265784"
   },
   {
     "id": "tm-kenny-chesney-2027-atlanta-vvg1zz_3x03by9",
@@ -802,12 +890,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265786",
+        "url": "https://www.ticketnetwork.com/en/p/8265786",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3x03bY9",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265786"
   },
   {
     "id": "tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z",
@@ -856,12 +952,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265787",
+        "url": "https://www.ticketnetwork.com/en/p/8265787",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3Cwtd0z",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265787"
   },
   {
     "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",
@@ -910,12 +1014,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265788",
+        "url": "https://www.ticketnetwork.com/en/p/8265788",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkmnWPji",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265788"
   },
   {
     "id": "tm-kenny-chesney-2027-charlotte-g5evz_3c19bfo",
@@ -964,12 +1076,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265789",
+        "url": "https://www.ticketnetwork.com/en/p/8265789",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3C19bfO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265789"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv177z_3gkt1lkmv",
@@ -1018,12 +1138,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8276965",
+        "url": "https://www.ticketnetwork.com/en/p/8276965",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkT1lKmv",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276965"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",
@@ -1072,11 +1200,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265790",
+        "url": "https://www.ticketnetwork.com/en/p/8265790",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfxGkdu8gfO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265790"
   }
 ]

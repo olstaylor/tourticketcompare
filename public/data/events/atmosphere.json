@@ -46,12 +46,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277969",
+        "url": "https://www.ticketnetwork.com/en/p/8277969",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfYGkes1AEm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277969"
   },
   {
     "id": "tm-atmosphere-2027-boise-g5vzz_kkmetdo",
@@ -154,12 +162,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277971",
+        "url": "https://www.ticketnetwork.com/en/p/8277971",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K6poibM",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277971"
   },
   {
     "id": "tm-atmosphere-2027-spokane-g5vzz_kkyknfe",
@@ -208,12 +224,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277972",
+        "url": "https://www.ticketnetwork.com/en/p/8277972",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkyknFe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277972"
   },
   {
     "id": "tm-atmosphere-2027-vancouver-1av7z_3gkx859iu",
@@ -262,12 +286,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277978",
+        "url": "https://www.ticketnetwork.com/en/p/8277978",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkX859iU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277978"
   },
   {
     "id": "tm-atmosphere-2027-eugene-z7r9jz1aaez3b",
@@ -316,12 +348,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277983",
+        "url": "https://www.ticketnetwork.com/en/p/8277983",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ3b",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277983"
   },
   {
     "id": "tm-atmosphere-2027-reno-1a9zkfwgkddbjmf",
@@ -424,12 +464,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277974",
+        "url": "https://www.ticketnetwork.com/en/p/8277974",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPGIGA2KA3Q",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277974"
   },
   {
     "id": "tm-atmosphere-2027-kansas-city-vv11bz_k7z0sqj",
@@ -478,12 +526,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277975",
+        "url": "https://www.ticketnetwork.com/en/p/8277975",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv11bZ_K7Z0SqJ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277975"
   },
   {
     "id": "tm-atmosphere-2027-joliet-vv17jz_3gknvxst7",
@@ -586,11 +642,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277977",
+        "url": "https://www.ticketnetwork.com/en/p/8277977",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl5agu0",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277977"
   }
 ]

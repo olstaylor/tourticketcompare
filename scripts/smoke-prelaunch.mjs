@@ -65,7 +65,7 @@ const expectedTitle = new Map([
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
 const APP_ASSET_VERSION = "20260924a";
-const TTC_HOME_ASSET_VERSION = "20260924a";
+const TTC_HOME_ASSET_VERSION = "20260924b";
 const TTC_SHELL_ASSET_VERSION = "20260821a";
 const SHELL_SCRIPT_ASSET_VERSION = "20260901b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -1461,7 +1461,9 @@ const ttcHomeJs = await read("public/ttc-home.js");
 assert(ttcHomeJs.includes('new URLSearchParams(window.location.search).get("q")'), "homepage enhancement should read the q query parameter");
 assert(ttcHomeJs.includes('document.querySelector("#search-widget .search-results")'), "homepage enhancement should preserve and populate the server-rendered search-widget target");
 assert(ttcHomeJs.includes('input[type=search]'), "homepage enhancement should bind the existing accessible search input");
-assert(ttcHomeJs.includes('results.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage query submission should scroll to the preserved search-widget anchor");
+// "nearest", not "start": results now render directly under the search field,
+// so submitting only scrolls when they are off screen.
+assert(ttcHomeJs.includes('results.scrollIntoView({ behavior: "smooth", block: "nearest" })'), "homepage query submission should scroll to the preserved search-widget anchor");
 assert(ttcHomeJs.includes('document.querySelectorAll("#ttc-main a[href]")'), "homepage search should build its index from compiled server-rendered links");
 assert(ttcHomeJs.includes('fetch("/data/events-index.json"'), "homepage search should lazy-load the purpose-built lightweight event index");
 assert(!ttcHomeJs.includes('fetch("/data/events.json"') && !ttcHomeJs.includes('fetch("/data/catalog.json"'), "homepage enhancement must not request the full event or catalogue payload");

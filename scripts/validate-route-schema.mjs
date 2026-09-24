@@ -95,6 +95,9 @@ function types(graph) {
 // functions/api/out.js) so this check fails if the schema builder ever drifts
 // from it.
 function eventPublishable(event) {
+  // Mirrors the router: a date not yet on public sale gets no MusicEvent node.
+  const onsaleAt = Date.parse(String(event?.public_onsale_at || ""));
+  if (Number.isFinite(onsaleAt) && onsaleAt > Date.now()) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;

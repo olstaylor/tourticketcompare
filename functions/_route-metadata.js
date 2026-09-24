@@ -176,7 +176,7 @@ export const TRUST_ROUTES = {
       "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
-    lastmod: "2026-09-23"
+    lastmod: "2026-09-24"
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -184,7 +184,7 @@ export const TRUST_ROUTES = {
       "Browse major artist pages with verified ticket links where available and practical buying guidance on what to check before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Artists", path: "/artists" }],
-    lastmod: "2026-09-23"
+    lastmod: "2026-09-24"
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",

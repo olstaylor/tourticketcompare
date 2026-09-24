@@ -3116,7 +3116,8 @@ async function hydrateShowBoard(section, filters = {}) {
       .filter((show) => {
         if (!show || (artistSlug && slugify(show.artist_slug) !== artistSlug)) return false;
         const eventTime = Date.parse(show.datetime_iso || show.dateTimeISO || "");
-        return Number.isFinite(eventTime) && eventTime >= now && eventLinkPublishable(show);
+        // A not-yet-on-sale date stays on the board as a no-CTA card.
+        return Number.isFinite(eventTime) && eventTime >= now && (eventLinkPublishable(show) || publicOnsalePending(show));
       });
     const displayedFallbackShows = artistSlug ? fallbackShows : fallbackShows.slice(0, limit);
     if (!displayedFallbackShows.length) {

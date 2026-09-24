@@ -147,6 +147,9 @@ and a guide all previewed identically. `scripts/build-og-cards.mjs` renders one
 1200x630 PNG per page from the same brand template as `public/og-image.png` and
 writes `functions/_og-cards.generated.js`, which the router consults in
 `injectRoute`. A route with no manifest entry falls back to the shared card.
+The router's `ogCardUrl` is the single resolver: the `og:image`/`twitter:image`
+meta and every `MusicEvent.image` on artist, city, venue and artist-city pages
+read it, so structured data always names the same card the page previews with.
 
 A card carries only what is stable for the life of the URL — a name, a place, a
 title. Show counts, dates and verification stamps are deliberately excluded: they

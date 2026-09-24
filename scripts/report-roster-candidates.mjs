@@ -70,7 +70,10 @@ async function main(manifestPath) {
   if (outcome === "success" && process.env.AUTOPROMOTE_BRANCH) {
     const owner = String(process.env.GITHUB_REPOSITORY || "").split("/")[0];
     const prs = await gh("GET", `/pulls?state=all&head=${encodeURIComponent(`${owner}:${process.env.AUTOPROMOTE_BRANCH}`)}`);
-    if (!prs.length) outcome = "no PR opened (branch pushed only)";
+    // Only a PR for the commit this run pushed counts; an earlier same-day PR
+    // on the reused branch name does not.
+    const sha = process.env.AUTOPROMOTE_SHA || "";
+    if (!prs.some((pr) => sha && pr.head?.sha === sha)) outcome = "no PR opened for this run's commit (branch pushed only)";
   }
   const run = runIndex === -1 ? null : { ...JSON.parse(readFileSync(process.argv[runIndex + 1], "utf8")), outcome };
   const body = renderCandidates(JSON.parse(readFileSync(manifestPath, "utf8")), run);

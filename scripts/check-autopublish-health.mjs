@@ -10,6 +10,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { parseDenylist } from "./lib/artist-screen.mjs";
 import { normalizeName } from "./lib/artist-screen.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -78,7 +79,8 @@ async function main() {
     findings = evaluate({
       artists,
       registry: readJson("data/provider-identities.json", { artists: [] }).artists || [],
-      denylist: readJson("data/artist-denylist.json", {}),
+      // Fail closed: a missing denylist is a sensor fault, not an empty list.
+      denylist: parseDenylist(readFileSync(path.join(root, "data/artist-denylist.json"), "utf8")),
       deadLinks,
       titles,
     });

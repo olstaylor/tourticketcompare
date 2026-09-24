@@ -44,7 +44,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { slugify } from './lib/slugify.mjs';
-import { COLLISION_PATTERN, screenCandidate } from './lib/artist-screen.mjs';
+import { COLLISION_PATTERN, parseDenylist, screenCandidate } from './lib/artist-screen.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARTISTS_PATH = path.join(root, 'public/data/artists.json');
@@ -412,7 +412,8 @@ async function main() {
   const existingSlugs = blockedSlugSet(artists, Boolean(args.allowExistingShells));
   const catalog = JSON.parse(await fs.readFile(path.join(root, 'public/data/catalog.json'), 'utf8'));
   const screenContext = {
-    denylist: JSON.parse(await fs.readFile(path.join(root, 'data/artist-denylist.json'), 'utf8').catch(() => '{}')),
+    // Fail closed: without the brand-safety denylist no candidate is screened.
+    denylist: parseDenylist(await fs.readFile(path.join(root, 'data/artist-denylist.json'), 'utf8')),
     existingTitles: new Set((catalog.artists || []).map((a) => a?.seo_title).filter(Boolean)),
     delayMs: args.delayMs
   };

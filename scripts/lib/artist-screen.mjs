@@ -7,6 +7,7 @@
 
 // Same-name collision traps (propose ∪ forecast), plus the tribute/film-score
 // shapes the 2026-09-22 batch showed the old patterns missed.
+import { readFileSync } from "node:fs";
 export const COLLISION_PATTERN =
   /\b(tribute|parking|experience|dance party|karaoke|vs\.?|night:|themed|drag brunch|orchestra plays|candlelight|celebration of|music of|sing-?along|in concert|floyd)\b/i;
 
@@ -46,6 +47,18 @@ function eventTime(event) {
 /**
  * @returns {{ eligible: boolean, reasons: string[], stats: object, seo_title: string|null }}
  */
+/**
+ * Parse the brand-safety denylist, failing closed: a missing, unreadable or
+ * malformed file throws, so no screen or sensor ever runs without it.
+ */
+export function parseDenylist(text) {
+  const denylist = JSON.parse(text);
+  if (!denylist || !Array.isArray(denylist.names) || !Array.isArray(denylist.slugs)) {
+    throw new Error("data/artist-denylist.json must hold `names` and `slugs` arrays");
+  }
+  return denylist;
+}
+
 export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = {}, urlStatus = {}, existingTitles = new Set(), now = Date.now() }) {
   const reasons = [];
   // D1 — exact identity on both APIs.
@@ -140,6 +153,11 @@ function selfTest() {
   check(proposedTitle("The Psychedelic Furs").length <= 60, "The Psychedelic Furs gets a title within budget");
   check(!run({ existingTitles: new Set(["Kenny Chesney Tickets & Tour Dates | TourTicketCompare"]) }).eligible, "a duplicate title is rejected");
   check(!run({ name: "A Very Long Artist Name That Cannot Fit", sg: { ...good.sg, api_name: "A Very Long Artist Name That Cannot Fit" }, tm: { ...good.tm, api_name: "A Very Long Artist Name That Cannot Fit" } }).eligible, "a name no title form can fit is rejected");
+
+  const throws = (fn) => { try { fn(); return false; } catch { return true; } };
+  check(throws(() => parseDenylist("")) && throws(() => parseDenylist("{}")) && throws(() => parseDenylist('{"names":[]}')), "a missing or malformed denylist fails closed");
+  check(parseDenylist('{"names":["X"],"slugs":["x"]}').slugs[0] === "x", "a well-formed denylist parses");
+  check(!throws(() => parseDenylist(readFileSync(new URL("../../data/artist-denylist.json", import.meta.url), "utf8"))), "the committed denylist is well formed");
 
   for (const f of failures) console.error(`  FAIL ${f}`);
   console.log(`[artist-screen] self-test: ${failures.length ? `${failures.length} failure(s)` : "all assertions passed"}`);

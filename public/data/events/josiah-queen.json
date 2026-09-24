@@ -1,0 +1,850 @@
+[
+  {
+    "id": "tm-josiah-queen-2027-tulsa-1aozkf0gkevkv5m",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-04-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006524B41B42EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006524B41B42EE",
+        "discovery_event_id": "1AOZkf0GkeVkV5m",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkf0GkeVkV5m",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006523A79091D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-saint-louis-missouri-04-09-2027/event/06006523A79091D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-saint-louis-missouri-04-09-2027/event/06006523A79091D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006523A79091D6",
+        "discovery_event_id": "vv1AkZkfNGkeE0a6p",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-saint-louis-missouri-04-09-2027/event/06006523A79091D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfNGkeE0a6p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-indianapolis-vv1ffz_3xppazdu26",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2027-04-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500652896585CE6",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500652896585CE6",
+        "discovery_event_id": "vv1FfZ_3xppAZdu26",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FfZ_3xppAZdu26",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-grand-rapids-vv1afzkfngkeiofuw",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006523AC454DB2",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006523AC454DB2",
+        "discovery_event_id": "vv1AFZkfNGkeiofUw",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfNGkeiofUw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-toronto-1a8zkf-gkdrxwct",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Coca-Cola Coliseum",
+    "datetime_iso": "2027-04-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006521EF8BD3BF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006521EF8BD3BF",
+        "discovery_event_id": "1A8Zkf-GkdRxWCT",
+        "url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zkf-GkdRxWCT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-worcester-vv1a8vpfygauucfi",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Worcester",
+    "country": "United States Of America",
+    "venue": "DCU Center",
+    "datetime_iso": "2027-04-15T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065239D34E528",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065239D34E528",
+        "discovery_event_id": "vv1A8vPFyGAuuCfI",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPFyGAuuCfI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-hershey-vv1aezkf0gkdfm7yq",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "GIANT Center",
+    "datetime_iso": "2027-04-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006524D4B84E5D",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006524D4B84E5D",
+        "discovery_event_id": "vv1AeZkf0Gkdfm7yq",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkf0Gkdfm7yq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-charlotte-g5evz_3r2npem",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-04-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065278F8E59F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065278F8E59F7",
+        "discovery_event_id": "G5eVZ_3r2NPEM",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3r2NPEM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-04-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006528E3AF4EC0",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006528E3AF4EC0",
+        "discovery_event_id": "vvG1zZ_3NNlVDZ",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3NNlVDZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-hoffman-estates-vv1a7zkfigkdsnse_",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Hoffman Estates",
+    "country": "United States Of America",
+    "venue": "NOW Arena",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006528F1AB1099",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006528F1AB1099",
+        "discovery_event_id": "vv1A7ZkfIGkdsnse_",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfIGkdsnse_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-04-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006524914A5FA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006524914A5FA8",
+        "discovery_event_id": "vv16aZkf00fZA5k85a",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16aZkf00fZA5k85a",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-05-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065249F018AA7",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-san-diego-california-04-30-2027/event/0A0065249F018AA7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-san-diego-california-04-30-2027/event/0A0065249F018AA7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065249F018AA7",
+        "discovery_event_id": "vvG1IZ_33LZbnE",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-san-diego-california-04-30-2027/event/0A0065249F018AA7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_33LZbnE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-glendale-1fk8vpavkaz7g1ee",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2027-05-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065274189B911",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065274189B911",
+        "discovery_event_id": "1Fk8vPaVkaZ7G1ee",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Fk8vPaVkaZ7G1ee",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-05-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006530BA53A76E",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006530BA53A76E",
+        "discovery_event_id": "vvG1YZ_KeBfBqm",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-cedar-park-g5diz_32hchtd",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Cedar Park",
+    "country": "United States Of America",
+    "venue": "H-E-B Center at Cedar Park",
+    "datetime_iso": "2027-05-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006523FCB5BFC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006523FCB5BFC3",
+        "discovery_event_id": "G5dIZ_32HchTd",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_32HchTd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Damascus Road Tour with Josiah Queen",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-05-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006522D115B25D",
+    "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006522D115B25D",
+        "discovery_event_id": "vvG1YZ_35oAhaq",
+        "url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

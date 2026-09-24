@@ -1035,6 +1035,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-the-warning",
     redirectUrl: "https://seatgeek.com/the-warning-tickets",
     verified: true
+  },
+  "hilary-duff:ticketmaster": {
+    artistSlug: "hilary-duff",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hilary-duff",
+    redirectUrl: "https://www.ticketmaster.com/hilary-duff-tickets/artist/882305",
+    verified: true
+  },
+  "hilary-duff:seatgeek": {
+    artistSlug: "hilary-duff",
+    provider: "seatgeek",
+    linkId: "sg-artist-hilary-duff",
+    redirectUrl: "https://seatgeek.com/hilary-duff-tickets",
+    verified: true
+  },
+  "josiah-queen:ticketmaster": {
+    artistSlug: "josiah-queen",
+    provider: "ticketmaster",
+    linkId: "tm-artist-josiah-queen",
+    redirectUrl: "https://www.ticketmaster.com/josiah-queen-tickets/artist/3111481",
+    verified: true
+  },
+  "josiah-queen:seatgeek": {
+    artistSlug: "josiah-queen",
+    provider: "seatgeek",
+    linkId: "sg-artist-josiah-queen",
+    redirectUrl: "https://seatgeek.com/josiah-queen-tickets",
+    verified: true
+  },
+  "ha-ash:ticketmaster": {
+    artistSlug: "ha-ash",
+    provider: "ticketmaster",
+    linkId: "tm-artist-ha-ash",
+    redirectUrl: "https://www.ticketmaster.com/haash-tickets/artist/1639503",
+    verified: true
+  },
+  "ha-ash:seatgeek": {
+    artistSlug: "ha-ash",
+    provider: "seatgeek",
+    linkId: "sg-artist-ha-ash",
+    redirectUrl: "https://seatgeek.com/ha-ash-tickets",
+    verified: true
+  },
+  "lukas-graham:ticketmaster": {
+    artistSlug: "lukas-graham",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lukas-graham",
+    redirectUrl: "https://www.ticketmaster.com/lukas-graham-tickets/artist/1667113",
+    verified: true
+  },
+  "lukas-graham:seatgeek": {
+    artistSlug: "lukas-graham",
+    provider: "seatgeek",
+    linkId: "sg-artist-lukas-graham",
+    redirectUrl: "https://seatgeek.com/lukas-graham-tickets",
+    verified: true
+  },
+  "passenger:ticketmaster": {
+    artistSlug: "passenger",
+    provider: "ticketmaster",
+    linkId: "tm-artist-passenger",
+    redirectUrl: "https://www.ticketmaster.com/passenger-tickets/artist/1231376",
+    verified: true
+  },
+  "passenger:seatgeek": {
+    artistSlug: "passenger",
+    provider: "seatgeek",
+    linkId: "sg-artist-passenger",
+    redirectUrl: "https://seatgeek.com/passenger-tickets",
+    verified: true
   }
 };
 

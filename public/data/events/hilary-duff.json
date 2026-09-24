@@ -1,0 +1,1612 @@
+[
+  {
+    "id": "tm-hilary-duff-2027-vancouver-1aozko7gkervl69",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-01-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006444AF06B1D7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006444AF06B1D7",
+        "discovery_event_id": "1AoZko7GkeRvl69",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZko7GkeRvl69",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-vancouver-1av7z_7gkuh7fot",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-01-24T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100644D9B108469",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100644D9B108469",
+        "discovery_event_id": "1Av7Z_7GkUh7Fot",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_7GkUh7Fot",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-calgary-1k78v0ojga2h3es",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2027-01-27T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064466F6D29F3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064466F6D29F3",
+        "discovery_event_id": "1k78v0oJGA2h3ES",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78v0oJGA2h3ES",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-01-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064451AE7F95A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064451AE7F95A",
+        "discovery_event_id": "1k78v0ooGA1yTPQ",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78v0ooGA1yTPQ",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-saskatoon-1k78v0fmgaungny",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "SaskTel Centre",
+    "datetime_iso": "2027-01-30T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064537DAB58F9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064537DAB58F9",
+        "discovery_event_id": "1k78v0fMGAungNy",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78v0fMGAungNy",
+    "timezone": "America/Swift_Current",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-winnipeg-1av7z_7gknwgxan",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-01-31T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100644ABDD62163",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100644ABDD62163",
+        "discovery_event_id": "1Av7Z_7GknWgxAN",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_7GknWgxAN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-hamilton-1avzz_7gkr2rr5b",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-02-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000644BCF79E2D8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000644BCF79E2D8",
+        "discovery_event_id": "1AvZZ_7GkR2rr5b",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_7GkR2rr5b",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-kanata-1aszkokgkdr1nwx",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-02-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006446EF2AACA2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-kanata-ontario-02-04-2027/event/31006446EF2AACA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-kanata-ontario-02-04-2027/event/31006446EF2AACA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006446EF2AACA2",
+        "discovery_event_id": "1AsZkokGkdR1nwx",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-kanata-ontario-02-04-2027/event/31006446EF2AACA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkokGkdR1nwx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-montreal-1aszkoagkeug7uo",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-02-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006449B6D44DA0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006449B6D44DA0",
+        "discovery_event_id": "1AsZkoaGkeUg7UO",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkoaGkeUg7UO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-halifax-1ad7z_7gkm3f7fo",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Scotiabank Centre",
+    "datetime_iso": "2027-02-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100644B92204211",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100644B92204211",
+        "discovery_event_id": "1Ad7Z_7Gkm3F7Fo",
+        "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_7Gkm3F7Fo",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-madrid-z698xz2qz16vpo4y_t",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-05-07T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1960579669",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1960579669",
+        "discovery_event_id": "Z698xZ2qZ16vPO4y_t",
+        "url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPO4y_t",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-milano-zg9rmiynyz776e",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Unipol Dome",
+    "datetime_iso": "2027-05-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "segp4wi4du5m",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/hilary-duff-the-lucky-me-tour-milano-10-05-2027/event/segp4wi4du5m",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/hilary-duff-the-lucky-me-tour-milano-10-05-2027/event/segp4wi4du5m",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "segp4wi4du5m",
+        "discovery_event_id": "ZG9rmIYnyZ776e",
+        "url": "https://www.ticketmaster.it/biglietti/hilary-duff-the-lucky-me-tour-milano-10-05-2027/event/segp4wi4du5m",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZ776e",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-05-16T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "777103846",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-tickets/777103846",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-tickets/777103846",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "777103846",
+        "discovery_event_id": "Z698xZG2Z1kqM7d-k",
+        "url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-tickets/777103846",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kqM7d-k",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-amsterdam-z698xzbpz1k3djpek",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "483716086",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "483716086",
+        "discovery_event_id": "Z698xZbpZ1k3djpek",
+        "url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k3djpek",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T08:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-orlando-1axzkfugkdwff3y",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-10-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006536FD2084B0",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006536FD2084B0",
+        "discovery_event_id": "1AxZkfUGkdWFF3Y",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfUGkdWFF3Y",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2027-10-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065359DD47ADC",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065359DD47ADC",
+        "discovery_event_id": "G5eVZ_Kpqg6lj",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kpqg6lj",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2027-10-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006532BF12D227",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006532BF12D227",
+        "discovery_event_id": "1A4ZkfwGkeT7cFE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfwGkeT7cFE",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-10-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006532FBCAA9B8",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006532FBCAA9B8",
+        "discovery_event_id": "G5vVZ_K5DwnJz",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_K5DwnJz",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "GIANT Center",
+    "datetime_iso": "2027-10-09T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006536AE949926",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-hershey-pennsylvania-10-09-2027/event/02006536AE949926",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-hershey-pennsylvania-10-09-2027/event/02006536AE949926",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006536AE949926",
+        "discovery_event_id": "vv1AeZkfUGkemPa0J",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-hershey-pennsylvania-10-09-2027/event/02006536AE949926",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfUGkemPa0J",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2027-10-11T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006535EB611B10",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-buffalo-new-york-10-11-2027/event/00006535EB611B10",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-buffalo-new-york-10-11-2027/event/00006535EB611B10",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006535EB611B10",
+        "discovery_event_id": "k7vGF_K9lboi8",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-buffalo-new-york-10-11-2027/event/00006535EB611B10",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_K9lboi8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-10-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065350AB1F627",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065350AB1F627",
+        "discovery_event_id": "vv1kv8vPu8GA1iLbE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vPu8GA1iLbE",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-10-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006531DA59D328",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006531DA59D328",
+        "discovery_event_id": "1ApZkfsGkdQpqGI",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfsGkdQpqGI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2027-11-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006536D07CE1F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-san-antonio-texas-11-05-2027/event/3A006536D07CE1F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-san-antonio-texas-11-05-2027/event/3A006536D07CE1F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006536D07CE1F1",
+        "discovery_event_id": "G5dIZ_Kh8LC6s",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-san-antonio-texas-11-05-2027/event/3A006536D07CE1F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_Kh8LC6s",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-11-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00652AE5AD2E75",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00652AE5AD2E75",
+        "discovery_event_id": "vvG1YZ_3lPl3yg",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-11-09T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006535C7C037E7",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006535C7C037E7",
+        "discovery_event_id": "1AOZkfgGkd6YdLE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkfgGkd6YdLE",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "CHI Health Center Omaha",
+    "datetime_iso": "2027-11-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006535EB9E9C11",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006535EB9E9C11",
+        "discovery_event_id": "vv1AkZkfgGkdlEtYo",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfgGkdlEtYo",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-milwaukee-vv1a6zkfggkdrdjze",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2027-11-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006535EF0E6E27",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006535EF0E6E27",
+        "discovery_event_id": "vv1A6ZkfgGkdRdJzE",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfgGkdRdJzE",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-11-16T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065360A7C997E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065360A7C997E",
+        "discovery_event_id": "vv1kvOvPuOGA1LaPX",
+        "url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPuOGA1LaPX",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-denver-g5vzz_kkrpbyy",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-11-18T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531AF598E79",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531AF598E79",
+        "discovery_event_id": "G5vzZ_KkRpbyy",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KkRpbyy",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T16:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-anaheim-vv110z_kqbpjub",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-11-21T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900653698966358",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900653698966358",
+        "discovery_event_id": "vv110Z_KQbPJub",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv110Z_KQbPJub",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  }
+]

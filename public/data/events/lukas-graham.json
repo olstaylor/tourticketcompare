@@ -1,0 +1,704 @@
+[
+  {
+    "id": "tm-lukas-graham-2027-dallas-vvg1yz_kg_q-ih",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Echo Lounge & Music Hall",
+    "datetime_iso": "2027-03-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00653319761B3C",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00653319761B3C",
+        "discovery_event_id": "vvG1YZ_KG_q-iH",
+        "url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KG_q-iH",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-atlanta-vvg1zz_kgj9z2e",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Buckhead Theatre",
+    "datetime_iso": "2027-03-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0065331C5F83C2",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0065331C5F83C2",
+        "discovery_event_id": "vvG1zZ_KGj9z2e",
+        "url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KGj9z2e",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-tampa-vvg1vz_kpwcutv",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "The Ritz Ybor",
+    "datetime_iso": "2027-03-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006535B2B76A74",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006535B2B76A74",
+        "discovery_event_id": "vvG1VZ_KpwcUtV",
+        "url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_KpwcUtV",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-charlotte-g5evz_kpbekzf",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-03-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653598086E14",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653598086E14",
+        "discovery_event_id": "G5eVZ_Kpbekzf",
+        "url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kpbekzf",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2027-03-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006532F6299035",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006532F6299035",
+        "discovery_event_id": "1A4ZkfwGkdU1_Zg",
+        "url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfwGkdU1_Zg",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Irving Plaza Powered By Verizon 5G",
+    "datetime_iso": "2027-03-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006536A19D9C08",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006536A19D9C08",
+        "discovery_event_id": "k7vGF_KQ-E_YF",
+        "url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KQ-E_YF",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-04-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100653422A1B958",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100653422A1B958",
+        "discovery_event_id": "vv1k7Z_K8xG7IhPb",
+        "url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k7Z_K8xG7IhPb",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Theatre of Living Arts",
+    "datetime_iso": "2027-04-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065354840217A",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065354840217A",
+        "discovery_event_id": "vv1aOvPuf-ZF9v5",
+        "url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1aOvPuf-ZF9v5",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-toronto-1f7zvpgxaoz786kf",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2027-04-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100065322260F657",
+    "ticketmaster_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100065322260F657",
+        "discovery_event_id": "1F7ZvPGxaOZ786kF",
+        "url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1F7ZvPGxaOZ786kF",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-detroit-vv1afzkfwgkddfuvd",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-04-07T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006532FB50D043",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006532FB50D043",
+        "discovery_event_id": "vv1AFZkfwGkdDfuvd",
+        "url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfwGkdDfuvd",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-indianapolis-vv1kv8vpuvgauq0sn",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-04-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065341D764CEA",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065341D764CEA",
+        "discovery_event_id": "vv1kv8vPuvGAuq0Sn",
+        "url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vPuvGAuq0Sn",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-minneapolis-vv11bz_kf-ovb0",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Uptown Theater Minneapolis",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653221834624",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653221834624",
+        "discovery_event_id": "vv11bZ_KF-OVb0",
+        "url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv11bZ_KF-OVb0",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-lukas-graham-2027-chicago-vv1a7zkfugkegdi06",
+    "artist_slug": "lukas-graham",
+    "artist_name": "Lukas Graham",
+    "event_name": "Lukas Graham",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "House of Blues Chicago",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006536B5EEC907",
+    "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006536B5EEC907",
+        "discovery_event_id": "vv1A7ZkfUGkegDi06",
+        "url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfUGkegDi06",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  }
+]

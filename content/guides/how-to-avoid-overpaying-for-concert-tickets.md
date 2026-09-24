@@ -23,7 +23,7 @@ legacy_article_description: Practical guidance on understanding concert ticket p
 
 Most overpaying comes down to three things: fees that only appear on the last screen, buying resale while primary tickets are still on sale, and deciding in a hurry before you've seen the terms. Each has a simple check, and this guide goes through them.
 
-TourTicketCompare shows each ticket site's lowest listed price for a date where the site supplies one, with the time we checked it, and links to the right event page. We don't sell tickets or confirm availability, and a listed price isn't what you'll pay. The ticket site sets that at checkout.
+TourTicketCompare shows each ticket site's lowest listed price for a date where the site supplies one, with the time it was checked, and links to the right event page. It doesn't sell tickets or confirm availability, and a listed price isn't what you'll pay. The ticket site sets that at checkout.
 
 ## What concert ticket pricing actually looks like
 
@@ -126,9 +126,9 @@ Waiting can turn up different options. It can also leave fewer seats, tighter de
 
 ## How TourTicketCompare can help with research
 
-We handle the research, not the checkout. Each artist page lists the dates, with buttons to ticket sites whose event page we've matched to that date. When we have no dates for an artist, the page says so, so you can tell "no tour" from "no coverage".
+The site handles the research, not the checkout. Each artist page lists the dates, with buttons to ticket sites whose event page has been matched to that date. When there are no dates for an artist, the page says so, so you can tell "no tour" from "no coverage".
 
-Where a ticket site supplies prices, its button shows that site's lowest listed price for the date, with how long ago we checked. We check every few hours. Use it to decide which listings to open first. It isn't live stock or your total. Once you click through, the ticket site sets the price, fees, availability, delivery options and refund terms, so check those before you buy.
+Where a ticket site supplies prices, its button shows that site's lowest listed price for the date, with how long ago it was checked. Prices are checked every few hours. Use it to decide which listings to open first. It isn't live stock or your total. Once you click through, the ticket site sets the price, fees, availability, delivery options and refund terms, so check those before you buy.
 
 ## FAQ
 
@@ -150,7 +150,7 @@ Not automatically. Refund, transfer and cancellation terms vary by ticket site, 
 
 **Does TourTicketCompare tell me whether one site is cheaper?**
 
-For a single date, you can see each site's lowest listed price side by side, with when we checked it. That shows which listing is worth opening first, not which order will cost less: seats, fees and delivery differ. We never say one ticket site is cheaper in general.
+For a single date, you can see each site's lowest listed price side by side, with when each was checked. That shows which listing is worth opening first, not which order will cost less: seats, fees and delivery differ. The site never says one ticket site is cheaper in general.
 
 ## Related guides
 

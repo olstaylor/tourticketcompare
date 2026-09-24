@@ -250,14 +250,14 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
 
   const checked = text(card(html, CHECKED.id));
   assert(
-    checked.includes("No listed price at our last check of Vivid Seats and TicketNetwork (9 Aug 2026, 10:05 UTC)."),
+    checked.includes("No listed price at the last check of Vivid Seats and TicketNetwork (9 Aug 2026, 10:05 UTC)."),
     `${pathname}: an unpriced date names the checked lanes and the latest check time — got: ${checked.slice(-260)}`
   );
   assert(!/available|sold out/i.test(checked.replace(PRICE_UNAVAILABLE_NOTE, "")), `${pathname}: the checked note makes no availability claim`);
 
   const unmapped = text(card(html, UNMAPPED.id));
   assert(
-    unmapped.includes("isn't matched yet on the sites we collect prices from (Vivid Seats, TicketNetwork and StubHub International)"),
+    unmapped.includes("isn't matched yet on the sites prices are collected from (Vivid Seats, TicketNetwork and StubHub International)"),
     `${pathname}: a date with no price-supplying lane says it is unmatched`
   );
 
@@ -278,7 +278,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   const { status, html } = await render(`/cities/${CITY_SLUG}`, fakeDb({ failCache: true }));
   assert(status === 200, "the page survives a failed cache read");
   assert(!/provider-cta-priced/.test(html), "a failed read prints no price");
-  assert(!/No listed-price snapshot|No listed price at our last check/.test(html), "a failed read renders the unchecked state, not a claim that no snapshot exists");
+  assert(!/No listed-price snapshot|No listed price at the last check/.test(html), "a failed read renders the unchecked state, not a claim that no snapshot exists");
 }
 
 // A missing check table (before the first writer run) falls back cleanly.

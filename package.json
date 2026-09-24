@@ -90,7 +90,7 @@
     "providers:sync:tm:write-pr:self-test": "node scripts/sync-tm-events-write-pr.mjs --self-test",
     "test:providers": "npm run providers:validate && npm run validate:artist-providers && npm run validate:cta-provider-state && npm run validate:provider-allowlists && npm run providers:identities:validate",
     "test:routes": "npm run test:route-metadata && npm run test:route-indexability && node scripts/validate-guide-routes.mjs && npm run validate:internal-links",
-    "test:content": "npm run blog:check && npm run guides:check && npm run content:provenance:check && node scripts/validate-guide-routes.mjs",
+    "test:content": "npm run blog:check && npm run guides:check && npm run content:provenance:check && node scripts/validate-guide-routes.mjs && node scripts/check-site-voice.mjs",
     "status:validate": "node scripts/validate-status-counts.mjs",
     "status:validate:strict": "node scripts/validate-status-counts.mjs --strict",
     "status:validate:write": "node scripts/validate-status-counts.mjs --write",

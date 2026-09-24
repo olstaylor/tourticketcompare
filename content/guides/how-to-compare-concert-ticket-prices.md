@@ -47,7 +47,7 @@ Start with the concert, not the ticket site. Pin down the artist, the local date
 
 In the United States, the FTC's live-event fee rule requires mandatory fees to be included in the upfront price, although taxes, shipping and optional add-ons can still be shown separately. Other countries have their own rules, and each ticket site displays prices its own way, so the figure to trust is the total on the site's order screen.
 
-Where a ticket site supplies one, TourTicketCompare shows that site's lowest listed price for a date, with the time we checked it. We check every few hours. Use the [comparison hub](/compare-concert-ticket-prices) for the method, or go straight to an [artist page](/artists) and pick a date. A listed price tells you where to look first. It isn't live stock, and it isn't your final total.
+Where a ticket site supplies one, TourTicketCompare shows that site's lowest listed price for a date, with the time it was checked. Prices are checked every few hours. Use the [comparison hub](/compare-concert-ticket-prices) for the method, or go straight to an [artist page](/artists) and pick a date. A listed price tells you where to look first. It isn't live stock, and it isn't your final total.
 
 ## 1. Start with the concert, not the provider
 
@@ -64,7 +64,7 @@ If any of these differ, you've found another option, not a cheaper version of th
 
 ## 2. Use listed prices to decide where to look next
 
-Each price on a TourTicketCompare date comes from a price feed for that ticket site, for that one date, and shows how long ago we checked it. It drops off the page once it is more than 24 hours old. When two sites have a current price for the same date in the same currency, you can see which listed lower.
+Each price on a TourTicketCompare date comes from a price feed for that ticket site, for that one date, and shows how long ago it was checked. It drops off the page once it is more than 24 hours old. When two sites have a current price for the same date in the same currency, you can see which listed lower.
 
 That tells you which pages to open first. It doesn't tell you the seats are equivalent, that they're still there, or which order will cost less. Open both listings before you choose.
 
@@ -87,7 +87,7 @@ On the order summary, check:
 - The currency, and any conversion charge from your card
 - Whether the figure is per ticket or for the whole order
 
-Decide on that total, together with the ticket and delivery terms. A listed price on our page is never a promise of it.
+Decide on that total, together with the ticket and delivery terms. A listed price on this site is never a promise of it.
 
 ## 5. Identify primary and resale tickets
 
@@ -103,11 +103,11 @@ For resale, read the marketplace's current buyer-protection terms, including the
 
 ## How TourTicketCompare produces a comparison
 
-We don't scrape. A price appears only when a ticket site's feed supplies a listed price we're allowed to show, for a date we've already matched to that site's event page.
+TourTicketCompare doesn't scrape. A price appears only when a ticket site's feed supplies a listed price the site is allowed to show, for a date already matched to that site's event page.
 
-That's why some buttons carry a price and others never do. Vivid Seats, TicketNetwork and StubHub International supply one. SeatGeek's feed returns no prices to us, so its button is a checked link without a figure. Ticketmaster is where we confirm dates, and its button is a plain link.
+That's why some buttons carry a price and others never do. Vivid Seats, TicketNetwork and StubHub International supply one. SeatGeek's feed returns no prices to this site, so its button is a checked link without a figure. Ticketmaster is where dates are confirmed, and its button is a plain link.
 
-If a price fails any check (the source, the event match, the timestamp or the provider's own switch), we leave it off rather than estimate. We don't rate seat quality, and we never call one ticket site cheaper across the board.
+If a price fails any check (the source, the event match, the timestamp or the provider's own switch), it is left off rather than estimated. The site doesn't rate seat quality, and never calls one ticket site cheaper across the board.
 
 ## FAQ
 
@@ -117,11 +117,11 @@ Match the exact event and ticket details first, then compare the final order tot
 
 **Does TourTicketCompare compare live concert ticket prices?**
 
-No. It shows each site's listed price with the time we checked it, when the site supplies one and the date matches. Live availability and the amount you pay are confirmed on the ticket site.
+No. It shows each site's listed price with the time it was checked, when the site supplies one and the date matches. Live availability and the amount you pay are confirmed on the ticket site.
 
 **Which price should I compare?**
 
-The final order total for the same quantity, on each ticket site, including taxes, delivery, currency conversion and any extras you choose. Our listed prices help you decide which sites to check first.
+The final order total for the same quantity, on each ticket site, including taxes, delivery, currency conversion and any extras you choose. The listed prices here help you decide which sites to check first.
 
 **Does the lower listed price mean the better ticket?**
 
@@ -129,7 +129,7 @@ No. It may be a different section, row, view, ticket type, quantity or delivery 
 
 **Why is a price missing?**
 
-Either the site doesn't supply prices (SeatGeek and Ticketmaster don't to us), its feed had nothing usable for that date at our last check, the price has passed its 24-hour limit, or we haven't yet matched the date to that site's event page. We hide a missing price rather than estimate one.
+Either the site doesn't supply prices (SeatGeek and Ticketmaster don't supply them to this site), its feed had nothing usable for that date at the last check, the price has passed its 24-hour limit, or the date hasn't yet been matched to that site's event page. A missing price is hidden rather than estimated.
 
 **Can TourTicketCompare guarantee availability?**
 

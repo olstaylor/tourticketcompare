@@ -20,7 +20,7 @@ If you land on an artist page here and find no tour dates, the most likely expla
 
 Every artist page is built from its event records. When the final upcoming date passes, those records don't disappear. They stop being upcoming, and the board empties. Nothing is deleted and nothing is invented to fill the space.
 
-What changes is what the page claims. The heading drops its promise of tour dates, the description search engines see changes to one that matches a page with none, and the board is replaced by a plain statement that there are no verified upcoming dates on file and that we cannot say whether more are coming. The recently passed dates stay listed underneath for reference, clearly labelled as gone.
+What changes is what the page claims. The heading drops its promise of tour dates, the description search engines see changes to one that matches a page with none, and the board is replaced by a plain statement that there are no verified upcoming dates on file and no way to say yet whether more are coming. The recently passed dates stay listed underneath for reference, clearly labelled as gone.
 
 The page itself stays in the index and in the sitemap. (An artist that has never had a date listed here is the exception: its page is kept out of search until the first date lands.) Keeping it is deliberate: the URL is a durable destination, it fills again the moment a new verified date lands, and cycling a page in and out of the index every time a tour ends would be worse for everyone than keeping one honest page at a stable address.
 

@@ -25,7 +25,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -33,7 +33,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -84,7 +84,7 @@
         },
         {
           "question": "Is Together, Together playing anywhere other than New York?",
-          "answer": "The venue announced it as a run of consecutive Madison Square Garden shows rather than a tour. Anything not on this page is a date we have not verified from our source — that is not the same as saying no such date exists. Check Harry Styles' official site and the ticket sites for anything beyond what we list."
+          "answer": "The venue announced it as a run of consecutive Madison Square Garden shows rather than a tour. Anything not on this page is a date not yet verified from the source — that is not the same as saying no such date exists. Check Harry Styles' official site and the ticket sites for anything beyond what is listed here."
         }
       ]
     },
@@ -113,7 +113,7 @@
       "faq": [
         {
           "question": "Where can I find BTS tour dates?",
-          "answer": "Check the show list on this page for dates we have verified, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
+          "answer": "Check the show list on this page for verified dates, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
         },
         {
           "question": "What should I check before buying BTS tickets?",
@@ -121,7 +121,7 @@
         },
         {
           "question": "How do I know a ticket link on this page is real?",
-          "answer": "We only show buttons that link directly to verified ticket platform destinations. If a button is hidden, we have not yet verified that destination."
+          "answer": "Buttons only link directly to verified ticket platform destinations. If a button is hidden, that destination has not been verified yet."
         },
         {
           "question": "Does TourTicketCompare sell BTS tickets?",
@@ -154,7 +154,7 @@
       "faq": [
         {
           "question": "Where can I find Ariana Grande tour dates?",
-          "answer": "Check the show list on this page for dates we have verified, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
+          "answer": "Check the show list on this page for verified dates, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
         },
         {
           "question": "What should I check before buying Ariana Grande tickets?",
@@ -162,7 +162,7 @@
         },
         {
           "question": "How do I know a ticket link on this page is real?",
-          "answer": "We only show buttons that link directly to verified ticket platform destinations. If a button is hidden, we have not yet verified that destination."
+          "answer": "Buttons only link directly to verified ticket platform destinations. If a button is hidden, that destination has not been verified yet."
         },
         {
           "question": "Does TourTicketCompare sell Ariana Grande tickets?",
@@ -195,7 +195,7 @@
       "faq": [
         {
           "question": "Where can I find Bad Bunny tour dates?",
-          "answer": "Check the show list on this page for dates we have verified, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
+          "answer": "Check the show list on this page for verified dates, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
         },
         {
           "question": "What should I check before buying Bad Bunny tickets?",
@@ -203,7 +203,7 @@
         },
         {
           "question": "How do I know a ticket link on this page is real?",
-          "answer": "We only show buttons that link directly to verified ticket platform destinations. If a button is hidden, we have not yet verified that destination."
+          "answer": "Buttons only link directly to verified ticket platform destinations. If a button is hidden, that destination has not been verified yet."
         },
         {
           "question": "Does TourTicketCompare sell Bad Bunny tickets?",
@@ -234,7 +234,7 @@
       "faq": [
         {
           "question": "Where can I find Morgan Wallen tour dates?",
-          "answer": "Check the show list on this page for dates we have verified, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
+          "answer": "Check the show list on this page for verified dates, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
         },
         {
           "question": "What should I check before buying Morgan Wallen tickets?",
@@ -242,7 +242,7 @@
         },
         {
           "question": "How do I know a ticket link on this page is real?",
-          "answer": "We only show buttons that link directly to verified ticket platform destinations. If a button is hidden, we have not yet verified that destination."
+          "answer": "Buttons only link directly to verified ticket platform destinations. If a button is hidden, that destination has not been verified yet."
         },
         {
           "question": "Does TourTicketCompare sell Morgan Wallen tickets?",
@@ -273,7 +273,7 @@
       "faq": [
         {
           "question": "Where can I find JAY-Z tour dates?",
-          "answer": "Check the show list on this page for dates we have verified, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
+          "answer": "Check the show list on this page for verified dates, and the ticket platform links for the latest announcements. The provider site is always the source for current dates and pricing."
         },
         {
           "question": "What should I check before buying JAY-Z tickets?",
@@ -281,7 +281,7 @@
         },
         {
           "question": "How do I know a ticket link on this page is real?",
-          "answer": "We only show buttons that link directly to verified ticket platform destinations. If a button is hidden, we have not yet verified that destination."
+          "answer": "Buttons only link directly to verified ticket platform destinations. If a button is hidden, that destination has not been verified yet."
         },
         {
           "question": "Does TourTicketCompare sell JAY-Z tickets?",
@@ -411,7 +411,7 @@
         },
         {
           "question": "Are the Loop Tour dates on this page the whole tour?",
-          "answer": "Only the dates we have verified from our source appear here. A date that is absent has not been verified for this page — that is not a claim that it was never announced, or that it is unavailable. Ed Sheeran's official site and the ticket sites are the place to check for anything beyond what we list."
+          "answer": "Only dates verified from the source appear here. A date that is absent has not been verified for this page — that is not a claim that it was never announced, or that it is unavailable. Ed Sheeran's official site and the ticket sites are the place to check for anything beyond what is listed here."
         }
       ],
       "related_guides": [
@@ -438,7 +438,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -446,7 +446,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -473,7 +473,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -481,7 +481,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -512,7 +512,7 @@
         },
         {
           "question": "Are all the announced Music, Fashion, Film Tour dates listed here?",
-          "answer": "Not necessarily. A date appears here only once we have verified it from our source, and some venues sell through ticketing systems this site does not draw from. A date missing from this page has not been verified here — that is not a statement that the date does not exist or is unavailable. Confirm on Charli xcx's official channels and the ticket sites."
+          "answer": "Not necessarily. A date appears here only once it has been verified from the source, and some venues sell through ticketing systems this site does not draw from. A date missing from this page has not been verified here — that is not a statement that the date does not exist or is unavailable. Confirm on Charli xcx's official channels and the ticket sites."
         }
       ],
       "related_guides": [
@@ -539,7 +539,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -547,7 +547,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -645,7 +645,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -653,7 +653,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -680,7 +680,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -688,7 +688,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -715,7 +715,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -723,7 +723,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -750,7 +750,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -758,7 +758,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -785,7 +785,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -793,7 +793,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -820,7 +820,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -828,7 +828,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -855,7 +855,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -863,7 +863,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -890,7 +890,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -898,7 +898,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -925,7 +925,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -933,7 +933,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -960,7 +960,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -968,7 +968,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -995,7 +995,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1003,7 +1003,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1030,7 +1030,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1038,7 +1038,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1065,7 +1065,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1073,7 +1073,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1100,7 +1100,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1108,7 +1108,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1135,7 +1135,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1143,7 +1143,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1170,7 +1170,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1178,7 +1178,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1205,7 +1205,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1213,7 +1213,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1240,7 +1240,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1248,7 +1248,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1275,7 +1275,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1283,7 +1283,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1310,7 +1310,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1318,7 +1318,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1345,7 +1345,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1353,7 +1353,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1380,7 +1380,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1388,7 +1388,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1415,7 +1415,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1423,7 +1423,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1450,7 +1450,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1458,7 +1458,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1485,7 +1485,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1493,7 +1493,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1520,7 +1520,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1528,7 +1528,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1555,7 +1555,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1563,7 +1563,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1590,7 +1590,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1598,7 +1598,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1625,7 +1625,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1633,7 +1633,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1660,7 +1660,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1668,7 +1668,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1695,7 +1695,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1703,7 +1703,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1730,7 +1730,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1738,7 +1738,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1765,7 +1765,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1773,7 +1773,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1800,7 +1800,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1808,7 +1808,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1835,7 +1835,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1843,7 +1843,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1870,7 +1870,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1878,7 +1878,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1905,7 +1905,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1913,7 +1913,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1940,7 +1940,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1948,7 +1948,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1975,7 +1975,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1983,7 +1983,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2010,7 +2010,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2018,7 +2018,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2045,7 +2045,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2053,7 +2053,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2080,7 +2080,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2088,7 +2088,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2115,7 +2115,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2123,7 +2123,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2150,7 +2150,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2158,7 +2158,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2185,7 +2185,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2193,7 +2193,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2220,7 +2220,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2228,7 +2228,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2255,7 +2255,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2263,7 +2263,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2290,7 +2290,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2298,7 +2298,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2325,7 +2325,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2333,7 +2333,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2360,7 +2360,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2368,7 +2368,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2395,7 +2395,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2403,7 +2403,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2430,7 +2430,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2438,7 +2438,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2465,7 +2465,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2473,7 +2473,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2500,7 +2500,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2508,7 +2508,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2535,7 +2535,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2543,7 +2543,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2570,7 +2570,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2578,7 +2578,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2605,7 +2605,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2613,7 +2613,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2640,7 +2640,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2648,7 +2648,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2675,7 +2675,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Each button names the provider it goes to, and every click passes through our own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2683,7 +2683,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2709,7 +2709,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2735,7 +2735,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2761,7 +2761,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2787,7 +2787,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -2813,7 +2813,7 @@
         },
         {
           "question": "Is TourTicketCompare official?",
-          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [

@@ -50,7 +50,7 @@ sources:
 
 A Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ, so the decision is about one purchase, not which brand is better.
 
-On TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago we checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay.
+On TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay.
 
 ## Vivid Seats vs Ticketmaster at a glance
 
@@ -105,7 +105,7 @@ Ticketmaster's remedies depend on the ticket type, event status, organiser decis
 
 Vivid Seats publishes a Buyer Guarantee covering transaction security, delivery before the event, and ticket validity and authenticity, subject to its current terms and exclusions. Cancellation, postponement, and refund outcomes remain governed by the current order terms. A published protection is important, but it is not a promise that every schedule change produces a cash refund or that every complaint has the same remedy.
 
-If an event is postponed, moved, or rescheduled, wait for the official event notice and read the order channel's instructions. Do not assume that a changed date equals a cancellation. If a transfer has not arrived by the stated delivery deadline, contact the marketplace through the order record rather than trying to solve the seller's identity yourself. Our [postponement and cancellation guide](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) separates those outcomes.
+If an event is postponed, moved, or rescheduled, wait for the official event notice and read the order channel's instructions. Do not assume that a changed date equals a cancellation. If a transfer has not arrived by the stated delivery deadline, contact the marketplace through the order record rather than trying to solve the seller's identity yourself. The [postponement and cancellation guide](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) separates those outcomes.
 
 ## Vivid Seats Rewards is a feature, not proof of value
 

@@ -233,7 +233,7 @@ assert(
   "city lead states the derived counts and local date span in one sentence"
 );
 assert(
-  cityText.includes(`Selected tour dates we have verified — not a complete ${CITY} events calendar.`),
+  cityText.includes(`Selected verified tour dates — not a complete ${CITY} events calendar.`),
   "city page keeps the selective-coverage disclosure the policy requires"
 );
 // Stated once. A second copy is the summary-of-the-summary the trim removed.
@@ -294,8 +294,8 @@ assert(
     cityPage.main.includes('href="/guides/concert-ticket-fees-explained"'),
   "city page links the buying guides rather than restating them"
 );
-assert(cityText.includes("By Ollie Taylor"), "city page keeps its named byline");
-assert(cityPage.main.includes('href="/about/ollie-taylor"'), "city page byline links the author page");
+assert(cityText.includes("By TourTicketCompare"), "city page carries the site byline");
+assert(!cityPage.main.includes('href="/about/ollie-taylor"'), "city page byline does not link the creator page");
 
 for (const marker of FILLER_MARKERS) {
   assert(!cityPage.main.includes(marker), `city page no longer renders template filler: "${marker}"`);
@@ -369,7 +369,7 @@ assert(
   "venue lead states the derived counts and local date span in one sentence"
 );
 assert(
-  venueText.includes(`Selected tour dates we have verified — not the full ${MAIN_VENUE} calendar.`),
+  venueText.includes(`Selected verified tour dates — not the full ${MAIN_VENUE} calendar.`),
   "venue page keeps its selective-coverage disclosure"
 );
 assert(occurrences(venueText, "3 upcoming shows") === 1, "venue page states its show count exactly once");
@@ -398,17 +398,17 @@ assert(
   "venue page links the buying guides"
 );
 assert(venuePage.main.includes(`href="/cities/${CITY_SLUG}"`), "venue page links back to its city page");
-// P4 (owner-approved 2026-09-24): the one "How we make money" statement sits
+// P4 (owner-approved 2026-09-24): the one "How this site makes money" statement sits
 // next to the buttons on location pages too, not only in the footer.
 for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
   assert(
-    page.main.includes("<strong>How we make money:</strong>") && page.main.includes('href="/affiliate-disclosure"'),
-    `${label} page carries the How-we-make-money disclosure with its link`
+    page.main.includes("<strong>How this site makes money:</strong>") && page.main.includes('href="/affiliate-disclosure"'),
+    `${label} page carries the how-this-site-makes-money disclosure with its link`
   );
   assert(page.main.includes("Dates re-checked against Ticketmaster daily"), `${label} page states the daily re-check (P8)`);
 }
-assert(venueText.includes("By Ollie Taylor"), "venue page keeps its named byline");
-assert(venuePage.main.includes('href="/about/ollie-taylor"'), "venue page byline links the author page");
+assert(venueText.includes("By TourTicketCompare"), "venue page carries the site byline");
+assert(!venuePage.main.includes('href="/about/ollie-taylor"'), "venue page byline does not link the creator page");
 
 for (const marker of FILLER_MARKERS) {
   assert(!venuePage.main.includes(marker), `venue page no longer renders template filler: "${marker}"`);

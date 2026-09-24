@@ -209,7 +209,7 @@ export function artistSearchIntro(artist, status, options = {}) {
     // so once. An ended tour keeps the fuller sentence; its board lists the
     // recent dates below it.
     return Number(options.pastShowCount) > 0
-      ? `No upcoming ${name} dates are listed right now. Dates appear here once our source lists them, and ticket buttons once their links pass our checks.`
+      ? `No upcoming ${name} dates are listed right now. Dates appear here once the source lists them, and ticket buttons once their links pass the site's checks.`
       : `No ${name} dates yet.`;
   }
 
@@ -251,7 +251,7 @@ export function artistSearchIntro(artist, status, options = {}) {
   } else if (status.showsWithCta === 0) {
     sentences.push(
       status.showCount === 1
-        ? `We have no checked ticket link for it yet, so the date is listed without a button.`
+        ? `There's no checked ticket link for it yet, so the date is listed without a button.`
         : `None of them have a checked ticket link yet, so they are listed without buttons.`
     );
   } else if (status.providerCoverageVaries) {
@@ -351,13 +351,13 @@ export function deriveTourSummaries(shows) {
 export function artistTicketHelp() {
   return {
     intro:
-      "We don't sell tickets. You buy on the ticket site the button opens.",
+      "TourTicketCompare doesn't sell tickets. You buy on the ticket site the button opens.",
     points: [
       "A button on a date card opens that ticket site's page for that exact date. The buttons under \"Where to buy\" are different: they open the artist's page on a ticket site, not a specific date.",
       "A price on a button is a snapshot: one site's listed price for that one date, captured at the time shown next to it. Not live stock, and not your final total.",
-      "Where more than one site has a snapshot for the same date, we name the lower listed figure and the site offering it. That compares two timestamped snapshots for one date — never across different dates, and never a claim that a site is cheaper overall.",
+      "Where more than one site has a snapshot for the same date, the lower listed figure and the site offering it are named. That compares two timestamped snapshots for one date — never across different dates, and never a claim that a site is cheaper overall.",
       "Fees, delivery and tax are added at the provider's checkout — compare the total there, not the first number you see.",
-      "A date-card button only appears once we've followed the link to that exact event. Where we haven't, the date is listed with no button rather than a guess."
+      "A date-card button only appears once the link has been followed to that exact event. Until then, the date is listed with no button rather than a guess."
     ]
   };
 }
@@ -389,9 +389,9 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   return {
     heading: "No upcoming dates listed",
     body: pastShowCount
-      ? `We have no upcoming ${name} dates on file. The dates we tracked have already taken place, and we can't say whether more are coming.`
-      : `We have no upcoming ${name} dates on file, and we can't say whether any are coming.`,
-    next: `When our source lists a ${name} date, it appears here, with a ticket button once its link has passed our checks.`
+      ? `There are no upcoming ${name} dates on file. The tracked dates have already taken place, and there's no way to say yet whether more are coming.`
+      : `There are no upcoming ${name} dates on file, and no way to say yet whether any are coming.`,
+    next: `When the source lists a ${name} date, it appears here, with a ticket button once its link has passed the site's checks.`
   };
 }
 
@@ -436,7 +436,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   } else {
     entries.push([
       `Are there upcoming ${name} dates?`,
-      `Not right now. We list a date only once our source confirms it, and add a ticket button only once its link passes our checks.`
+      `Not right now. A date is listed only once the source confirms it, and a ticket button is added only once its link passes the site's checks.`
     ]);
   }
 
@@ -456,7 +456,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   if (entries.length === 1) {
     entries.push([
       "Does TourTicketCompare sell tickets?",
-      "No. We link out to ticket sites we've checked, and the sale, price, fees, delivery and refund terms are all theirs."
+      "No. TourTicketCompare links out to checked ticket sites, and the sale, price, fees, delivery and refund terms are all theirs."
     ]);
   }
   return entries;

@@ -17,7 +17,7 @@ sources:
 
 The only way to know whether a SeatGeek promo code works is to enter it at SeatGeek's checkout, on the order you actually want, and look at the total. Coupon sites and social posts list plenty of codes, but whether one does anything depends on your account, the event, your order total, where you are, and SeatGeek's terms at that moment. A code can be perfectly real and still take nothing off your basket.
 
-We don't publish codes or promise discounts, and we don't control SeatGeek's checkout. What follows is how codes generally work, why they often fail, and how to test one safely.
+TourTicketCompare doesn't publish codes or promise discounts, and doesn't control SeatGeek's checkout. What follows is how codes generally work, why they often fail, and how to test one safely.
 
 ## How promo codes usually work
 

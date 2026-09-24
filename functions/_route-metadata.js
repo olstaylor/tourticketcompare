@@ -166,7 +166,7 @@ export const TRUST_ROUTES = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total.",
+      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.",
     indexable: true,
     lastmod: "2026-09-24"
   },
@@ -209,7 +209,7 @@ export const TRUST_ROUTES = {
       "Convert a ticket budget between currencies using European Central Bank reference rates, then confirm the checkout currency and card fees with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Currency converter", path: "/currency-converter" }],
-    lastmod: "2026-07-13"
+    lastmod: "2026-09-24"
   },
   "/about": {
     title: "About TourTicketCompare",
@@ -217,11 +217,11 @@ export const TRUST_ROUTES = {
       "TourTicketCompare is an independent, unofficial ticket research site for major live music tours and verified links where available.",
     indexable: true,
     breadcrumb: [{ name: "About", path: "/about" }],
-    lastmod: "2026-09-11"
+    lastmod: "2026-09-24"
   },
-  // The named author behind the site's editorial output. Guide, blog, artist,
-  // city and venue bylines point here, and the page carries the Person node
-  // those bylines' Article/BlogPosting `author` fields reference by @id.
+  // The creator's standalone page, linked from /about only (owner direction
+  // 2026-09-24). Bylines credit TourTicketCompare; this page alone carries the
+  // Person node.
   "/about/ollie-taylor": {
     title: "About Ollie Taylor | TourTicketCompare",
     description:
@@ -231,14 +231,14 @@ export const TRUST_ROUTES = {
       { name: "About", path: "/about" },
       { name: "Ollie Taylor", path: "/about/ollie-taylor" }
     ],
-    lastmod: "2026-09-11"
+    lastmod: "2026-09-24"
   },
   "/contact": {
     title: "Contact TourTicketCompare",
     description: "Contact TourTicketCompare about broken ticket links, incorrect event details, provider-link issues, or general site feedback.",
     indexable: true,
     breadcrumb: [{ name: "Contact", path: "/contact" }],
-    lastmod: "2026-07-13"
+    lastmod: "2026-09-24"
   },
   "/editorial-policy": {
     title: "Editorial Policy | TourTicketCompare",
@@ -246,7 +246,7 @@ export const TRUST_ROUTES = {
       "The editorial rules TourTicketCompare follows before publishing artist facts, tour pages, provider links, prices, or availability.",
     indexable: true,
     breadcrumb: [{ name: "Editorial policy", path: "/editorial-policy" }],
-    lastmod: "2026-08-25"
+    lastmod: "2026-09-24"
   },
   "/affiliate-disclosure": {
     title: "Affiliate Disclosure | TourTicketCompare",
@@ -254,7 +254,7 @@ export const TRUST_ROUTES = {
       "How TourTicketCompare uses affiliate links while staying independent, unofficial, and focused on checked ticket destinations.",
     indexable: true,
     breadcrumb: [{ name: "Affiliate disclosure", path: "/affiliate-disclosure" }],
-    lastmod: "2026-07-13"
+    lastmod: "2026-09-24"
   },
   "/privacy": {
     title: "Privacy Policy | TourTicketCompare",
@@ -262,7 +262,7 @@ export const TRUST_ROUTES = {
       "How TourTicketCompare handles analytics, watchlist signups, and information when you browse or follow a ticket link.",
     indexable: true,
     breadcrumb: [{ name: "Privacy policy", path: "/privacy" }],
-    lastmod: "2026-08-27"
+    lastmod: "2026-09-24"
   },
   "/terms": {
     title: "Terms of Use | TourTicketCompare",
@@ -270,7 +270,7 @@ export const TRUST_ROUTES = {
       "The ground rules for using TourTicketCompare's independent ticket-research pages and external provider links.",
     indexable: true,
     breadcrumb: [{ name: "Terms of use", path: "/terms" }],
-    lastmod: "2026-08-27"
+    lastmod: "2026-09-24"
   }
 };
 

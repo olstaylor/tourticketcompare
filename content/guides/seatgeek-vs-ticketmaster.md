@@ -69,7 +69,7 @@ US rules require mandatory live-event ticket fees to be included in the upfront 
 
 Compare the same ticket quantity and currency, then check the current order summary on both platforms, including taxes, delivery, add-ons and currency conversion. A lower first number is not evidence of a lower final total.
 
-On TourTicketCompare you won't see a price on either button. SeatGeek's feed returns no prices to us, and Ticketmaster is a plain link, so this comparison always happens on the two sites.
+On TourTicketCompare you won't see a price on either button. SeatGeek's feed returns no prices to this site, and Ticketmaster is a plain link, so this comparison always happens on the two sites.
 
 ## Why does SeatGeek have tickets when Ticketmaster does not?
 
@@ -140,7 +140,7 @@ No. Deal Score evaluates value among SeatGeek listings using SeatGeek's data. It
 
 **Does TourTicketCompare rank SeatGeek and Ticketmaster?**
 
-No. We explain their roles and link both to the same date. We never call either platform better or cheaper in general.
+No. The site explains their roles and links both to the same date. It never calls either platform better or cheaper in general.
 
 ## Related guides
 

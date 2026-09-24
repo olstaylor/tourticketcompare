@@ -15,13 +15,13 @@ related_guides:
   - how-resale-ticket-pricing-works
 ---
 
-You opened an event card this morning and a ticket button carried a figure. You've come back to book and the figure has gone: same show, same button, no number. Nothing broke. The price either passed its 24-hour limit or failed one of the checks behind it, and we'd rather show a blank than a stale figure that looks current.
+You opened an event card this morning and a ticket button carried a figure. You've come back to book and the figure has gone: same show, same button, no number. Nothing broke. The price either passed its 24-hour limit or failed one of the checks behind it, and a blank is better than a stale figure that looks current.
 
 ## A snapshot has an expiry stamped on it
 
 A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry 24 hours out, and the capture jobs are scheduled hourly, well inside that window, so an ordinary run keeps the figure current. When a run can't fetch, or the feed stops carrying that event, no new observation lands. The figure already on the card stays, with the note under the buttons saying how long ago it was checked. Past 24 hours the observation is too old to stand behind, and it stops showing.
 
-Nothing is refreshed in place, and nothing is left unlabelled. The figure was true when we checked it, the card says how long ago that was, and once it expires there's no evidence left for it, so it goes. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail.
+Nothing is refreshed in place, and nothing is left unlabelled. The figure was true when it was checked, the card says how long ago that was, and once it expires there's no evidence left for it, so it goes. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail.
 
 ## The gate has more than one door, and all of them fail closed
 
@@ -31,13 +31,13 @@ That produces one consequence worth knowing about: a price can disappear because
 
 ## Some providers never show a figure at all
 
-If a provider on a card has never carried a price for you, that is structural rather than a gap in coverage. SeatGeek has no pricing lane here: its API returns no prices to us, so its button is a checked link and nothing more. Ticket Liquidator's catalogue carries no numeric listed price, so its lane stays price-disabled while its links stay live. Ticketmaster is a verification and link source rather than a price lane.
+If a provider on a card has never carried a price for you, that is structural rather than a gap in coverage. SeatGeek has no pricing lane here: its API returns no prices to this site, so its button is a checked link and nothing more. Ticket Liquidator's catalogue carries no numeric listed price, so its lane stays price-disabled while its links stay live. Ticketmaster is a verification and link source rather than a price lane.
 
 Their silence tells you about the feed behind them, not about the show or its demand.
 
 ## What does not happen when a snapshot lapses
 
-No last-known value is held over. No "from" estimate is generated. Nothing is averaged across providers, filled in from a different date, or borrowed from another seat. No site moves up the card because it still has a figure and its neighbours don't. The order is fixed (sites that pay us first, Ticketmaster last) and is not a ranking. A blank beats a stale number that reads as current, and it beats an invented one by a wider margin still.
+No last-known value is held over. No "from" estimate is generated. Nothing is averaged across providers, filled in from a different date, or borrowed from another seat. No site moves up the card because it still has a figure and its neighbours don't. The order is fixed (sites that pay a commission first, Ticketmaster last) and is not a ranking. A blank beats a stale number that reads as current, and it beats an invented one by a wider margin still.
 
 ## What the blank actually leaves you
 

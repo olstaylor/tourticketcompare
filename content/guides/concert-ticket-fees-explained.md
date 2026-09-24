@@ -55,7 +55,7 @@ Compare the final checkout total for genuinely equivalent tickets, not the first
 - Check delivery timing alongside the total: the lowest total may rely on a method that does not suit your plans.
 - Treat optional extras separately so you know whether they changed the result.
 
-If you are still only looking at a generic provider page, return to the [artist index](/artists) and choose the event first. We never say one ticket site is always cheaper. The listed price on a date's button helps you pick which pages to open; the comparison itself happens at checkout.
+If you are still only looking at a generic provider page, return to the [artist index](/artists) and choose the event first. TourTicketCompare never says one ticket site is always cheaper. The listed price on a date's button helps you pick which pages to open; the comparison itself happens at checkout.
 
 ## Practical checklist
 

@@ -5001,7 +5001,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><p class="disclosure-note">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, country, venue, or tour" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
     HOME_PRIMARY_CTA_LABEL,
     HOME_PRIMARY_CTA_HREF,
-    "button button-primary"
+    // Secondary since 2026-09-24: the search submit directly above is the one
+    // primary action in the hero; two equal-weight orange buttons competed.
+    "button button-secondary"
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Start with a search</h2><p id="searchWidgetIntro">Enter an artist, city, venue, or tour above to see matching checked dates and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid">${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
@@ -5135,8 +5137,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260911a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260821a" />\n    <link rel="stylesheet" href="/styles.css?v=20260911a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20260924a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260821a" />\n    <link rel="stylesheet" href="/styles.css?v=20260924a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260821a" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260821a" defer></script></body>');

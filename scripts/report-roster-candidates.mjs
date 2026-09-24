@@ -64,7 +64,15 @@ async function gh(method, path, body) {
 
 async function main(manifestPath) {
   const runIndex = process.argv.indexOf("--run");
-  const run = runIndex === -1 ? null : { ...JSON.parse(readFileSync(process.argv[runIndex + 1], "utf8")), outcome: process.env.PUBLISH_OUTCOME || "" };
+  let outcome = process.env.PUBLISH_OUTCOME || "";
+  // A green publish step is not proof of a PR: the helper exits 0 after only
+  // pushing the branch when Actions may not open PRs. Confirm one exists.
+  if (outcome === "success" && process.env.AUTOPROMOTE_BRANCH) {
+    const owner = String(process.env.GITHUB_REPOSITORY || "").split("/")[0];
+    const prs = await gh("GET", `/pulls?state=all&head=${encodeURIComponent(`${owner}:${process.env.AUTOPROMOTE_BRANCH}`)}`);
+    if (!prs.length) outcome = "no PR opened (branch pushed only)";
+  }
+  const run = runIndex === -1 ? null : { ...JSON.parse(readFileSync(process.argv[runIndex + 1], "utf8")), outcome };
   const body = renderCandidates(JSON.parse(readFileSync(manifestPath, "utf8")), run);
   if (process.argv.includes("--dry-run")) return console.log(body);
   const open = await gh("GET", `/issues?state=open&labels=${encodeURIComponent(LABEL)}`);

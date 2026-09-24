@@ -573,9 +573,13 @@ async function routeForPath(pathname, env) {
       description: cityMetaDescription(city, yearLabel),
       city,
       events: cityEvents,
-      // Same gate as the artist page itself, so an auto-promoted artist below
-      // its date threshold (noindex) is named here but not linked.
       indexableArtistSlugs: artistsMeta
+        .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+        .map((artist) => slugify(artist?.slug)),
+      // Linking follows the artist page's own gate, so an auto-promoted artist
+      // below its date threshold (noindex) is named but not linked. Its ticket
+      // buttons still follow the editorial set above.
+      linkableArtistSlugs: artistsMeta
         .filter((artist) => artistPageIndexable(artist, cityEvents))
         .map((artist) => slugify(artist?.slug)),
       breadcrumb: [
@@ -618,10 +622,8 @@ async function routeForPath(pathname, env) {
       description: venueMetaDescription(venue),
       venue,
       events: venueEvents,
-      // Same gate as the artist page itself, so an auto-promoted artist below
-      // its date threshold (noindex) is named here but not linked.
       indexableArtistSlugs: artistsMeta
-        .filter((artist) => artistPageIndexable(artist, venueEvents))
+        .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
         .map((artist) => slugify(artist?.slug)),
       breadcrumb: [
         { name: "Venues", path: "/venues" },
@@ -1688,7 +1690,7 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
           const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], show.artist_slug, 1)[0] : null;
           if (!fullShow) return "";
           const artistLabel = show.artist_name || show.artist_slug;
-          const detailsLink = indexableArtistSlugs.has(show.artist_slug)
+          const detailsLink = (options.linkableArtistSlugs || indexableArtistSlugs).has(show.artist_slug)
             ? anchor(`View ${artistLabel} date details`, `/artists/${show.artist_slug}#${showAnchorId(show)}`, "text-link")
             : "";
           return renderShowCardServerHtml(
@@ -2494,7 +2496,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       events,
       indexableArtistSlugs,
       indexableVenueSlugs,
-      options
+      route.linkableArtistSlugs ? { ...options, linkableArtistSlugs: new Set(route.linkableArtistSlugs) } : options
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
       city.city
     )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(

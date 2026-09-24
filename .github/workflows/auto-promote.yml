@@ -129,6 +129,7 @@ jobs:
           set -euo pipefail
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/autopromote-${TODAY}"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
           SUMMARY=$(node -e 'const r=require("./artifacts/auto/promoted.json"); console.log(r.promoted.map(p=>`- \`${p.slug}\` (${p.providers.join(", ")}): ${p.seo_title}`).join("\n")); if (r.held.length) console.log("\nHeld:\n" + r.held.map(h=>`- \`${h.slug}\`: ${h.reasons.join("; ")}`).join("\n"))')
           git checkout -B "$BRANCH"
           git add public/data/artists.json public/data/catalog.json public/data/events.json public/data/events public/data/events-index.json public/index.html functions/api/out.js data/provider-identities.json PROJECT_STATUS.md reports/provider-sync/seatgeek-cta-auto-add.md
@@ -150,6 +151,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+          AUTOPROMOTE_BRANCH: ${{ steps.publish.outputs.branch }}
         run: node scripts/report-roster-candidates.mjs artifacts/auto/manifest.json --run artifacts/auto/promoted.json
 
       # Withheld-date reviews, ingestion outcomes, coverage and the manifest.

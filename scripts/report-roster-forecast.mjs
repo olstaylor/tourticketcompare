@@ -238,7 +238,8 @@ const isoDate = (ts) => new Date(ts).toISOString().slice(0, 10);
  */
 export function surfaceAt(events, artists, now) {
   const indexableArtists = (artists || []).filter((a) =>
-    artistPageIndexable(a.indexing_status, events, a.slug, now)
+    // The full record, so an auto-promoted artist's 3-date gate applies here too.
+    artistPageIndexable(a, events, a.slug, now)
   );
   const cities = deriveCities(events, { now }).filter((c) => c.indexable);
   const venues = deriveVenues(events, { now }).filter((v) => v.indexable);

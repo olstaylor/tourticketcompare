@@ -2244,11 +2244,15 @@ function renderPriceHistoryContent(panel, wrap, data) {
 // more — a single button is one site, not a comparison. No price wording: a
 // missing price is a separate matter, handled by renderShowCardPriceNotes.
 // Keep in sync with ctaCountLabel in functions/[[path]].js.
-function showCtaCountLabel(count, priced = false) {
+// `priced` is how many of the buttons show a price. "On each" only when all
+// of them do: SeatGeek and Ticketmaster never carry one, so on a mixed card it
+// reads "where shown".
+function showCtaCountLabel(count, priced = 0) {
   if (count < 1) return "";
   const sites = count === 1 ? "1 ticket site for this date" : `${count} ticket sites for this date`;
   if (!priced) return sites;
-  return `${sites} · ${count === 1 ? "lowest listed price" : "lowest listed price on each"}`;
+  if (count === 1) return `${sites} · lowest listed price`;
+  return `${sites} · ${priced >= count ? "lowest listed price on each" : "lowest listed price where shown"}`;
 }
 
 function renderShowCard(show, options = {}) {
@@ -2358,7 +2362,7 @@ function renderShowCard(show, options = {}) {
       // line states how many checked ticket sites this date leads to; "compare"
       // is only used for two or more, because one site is not a comparison.
       // Keep in sync with ctaCountLabel in functions/[[path]].js.
-      const countLabel = showCtaCountLabel(ctaSpecs.length, ctaSpecs.some((spec) => spec.priceAmount && spec.priceAsOf));
+      const countLabel = showCtaCountLabel(ctaSpecs.length, ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length);
       if (countLabel) text(body, "p", countLabel, "provider-cta-count muted");
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";

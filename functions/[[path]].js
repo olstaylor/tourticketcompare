@@ -2821,7 +2821,7 @@ function renderComparisonHubEventCards(events = [], env = {}) {
         ctaLocation: "comparison_hub"
       })).join("");
       const ctas = ctaSpecs.length
-        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, cardHasPrice(ctaSpecs)))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}`
+        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}`
         : `<p class="disclosure-note">No checked provider link is currently available for this date.</p>`;
       return `<article class="info-card show-card" data-event-id="${escapeAttr(show.id)}"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p>${ctas}${anchor("View artist page", `/artists/${show.artist_slug}`, "text-link")}</article>`;
     })
@@ -4037,14 +4037,18 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
 // P1 (owner-approved 2026-09-24): says what the numbers on the buttons are,
 // and only when at least one button shows one. Keep in sync with
 // showCtaCountLabel in public/app.js.
-function ctaCountLabel(count, priced = false) {
+// `priced` is how many of the buttons show a price. "On each" only when all
+// of them do: SeatGeek and Ticketmaster never carry one, so on a mixed card it
+// reads "where shown".
+function ctaCountLabel(count, priced = 0) {
   if (count < 1) return "";
   const sites = count === 1 ? "1 ticket site for this date" : `${count} ticket sites for this date`;
   if (!priced) return sites;
-  return `${sites} · ${count === 1 ? "lowest listed price" : "lowest listed price on each"}`;
+  if (count === 1) return `${sites} · lowest listed price`;
+  return `${sites} · ${priced >= count ? "lowest listed price on each" : "lowest listed price where shown"}`;
 }
 
-const cardHasPrice = (ctaSpecs) => ctaSpecs.some((spec) => spec.priceAmount && spec.priceAsOf);
+const pricedCount = (ctaSpecs) => ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length;
 
 function renderPriceHistoryPanelHtml(artistSlug, showId) {
   const safeArtist = escapeAttr(String(artistSlug || "").trim());
@@ -4084,7 +4088,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
         .join("");
       const historyHtml = hasApprovedServerPriceSnapshot(show) ? renderPriceHistoryPanelHtml(artistSlug, show.id) : "";
-      ctaHtml = `${onsaleHtml}<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, cardHasPrice(ctaSpecs)))}</p><div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
+      ctaHtml = `${onsaleHtml}<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p><div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
     } else {
       ctaHtml = onsaleHtml;
     }
@@ -4100,7 +4104,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         .join("");
       // The buttons are the only outbound links on the card — there is no
       // second "compare" link to double-count a click through.
-      const countHtml = `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, cardHasPrice(ctaSpecs)))}</p>`;
+      const countHtml = `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p>`;
       const historyHtml = hasApprovedServerPriceSnapshot(show)
         ? renderPriceHistoryPanelHtml(artistSlug, show.id)
         : "";

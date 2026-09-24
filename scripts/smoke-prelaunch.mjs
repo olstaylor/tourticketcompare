@@ -64,8 +64,9 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260924a";
+const APP_ASSET_VERSION = "20260924v";
 const TTC_HOME_ASSET_VERSION = "20260924b";
+const TTC_HOME_JS_ASSET_VERSION = "20260924v";
 const TTC_SHELL_ASSET_VERSION = "20260821a";
 const SHELL_SCRIPT_ASSET_VERSION = "20260901b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -854,6 +855,20 @@ async function routeResponse(pathname, envOverride = env, origin = "https://tour
   return { response, text: await response.text(), nextCalled };
 }
 
+// Site voice (owner direction 2026-09-24): visible copy never speaks as "we".
+// Same rule scripts/check-site-voice.mjs applies to guide and blog Markdown.
+function assertSiteVoice(pathname, text) {
+  const visibleMain = (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<[^>]+>/g, "\n")
+    .replace(/&rsquo;|&#39;/g, "'");
+  const voiceHits = findFirstPersonPlural(visibleMain);
+  assert(
+    voiceHits.length === 0,
+    `${pathname} visible copy uses first-person plural: ${voiceHits.map((hit) => `"${hit.word}" in …${hit.context}…`).join("; ")}`
+  );
+}
+
 
 function extractSitemapLocs(xml) {
   return [...String(xml || "").matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
@@ -869,6 +884,28 @@ async function sitemapLocs(envOverride = env) {
 }
 
 const sitemapLocations = await sitemapLocs();
+
+// The voice rule covers every route family, not only the hand-listed routes
+// checked in the loop further down: every sitemap URL (guides, blog posts and
+// tags, cities, venues, artist-city pages), plus the creator page and the
+// blog tag pages, which are public whether or not the sitemap lists them.
+{
+  const blogTags = JSON.parse(await read("public/data/blog-content.json")).tags || [];
+  const voicePaths = new Set([
+    ...sitemapLocations.map((loc) => new URL(loc).pathname),
+    "/about/ollie-taylor",
+    "/venues",
+    ...blogTags.map((tag) => `/blog/tag/${tag.slug}`)
+  ]);
+  let voiceChecked = 0;
+  for (const pathname of voicePaths) {
+    const { response, text } = await routeResponse(pathname);
+    if (response.status !== 200) continue;
+    assertSiteVoice(pathname, text);
+    voiceChecked += 1;
+  }
+  assert(voiceChecked >= 50, `site voice should cover the sitemap's route families, checked only ${voiceChecked} page(s)`);
+}
 assert(
   sitemapLocations.includes("https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster"),
   "/sitemap.xml should include the focused SeatGeek vs Ticketmaster guide"
@@ -1014,17 +1051,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   const { response, text, nextCalled } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
 
-  // Site voice (owner direction 2026-09-24): visible copy never speaks as "we".
-  // Same rule scripts/check-site-voice.mjs applies to guide and blog Markdown.
-  const visibleMain = (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
-    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
-    .replace(/<[^>]+>/g, "\n")
-    .replace(/&rsquo;|&#39;/g, "'");
-  const voiceHits = findFirstPersonPlural(visibleMain);
-  assert(
-    voiceHits.length === 0,
-    `${pathname} visible copy uses first-person plural: ${voiceHits.map((hit) => `"${hit.word}" in …${hit.context}…`).join("; ")}`
-  );
+  assertSiteVoice(pathname, text);
 
   // CSP: must be present on function-rendered HTML responses, same-origin only, no unsafe-inline
   const csp = response.headers.get("Content-Security-Policy");
@@ -1821,7 +1848,7 @@ assert(
   "server-rendered homepage must version its route-specific stylesheet"
 );
 assert(
-  cacheBustedHome.text.includes(`/ttc-home.js?v=${TTC_HOME_ASSET_VERSION}`),
+  cacheBustedHome.text.includes(`/ttc-home.js?v=${TTC_HOME_JS_ASSET_VERSION}`),
   "server-rendered homepage must version ttc-home.js so stale cached hydration cannot replace current search content"
 );
 assert(cacheBustedHome.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "server-rendered routes must load the shared shell script");

@@ -246,6 +246,17 @@ export async function onRequestPost({ request, env }) {
     createdAt
   };
 
+  // Price-drop demand instrument (Phase 1): the "register interest" control
+  // posts intent=price_alert. It reuses this capture path, but it is not an
+  // artist date-alert signup: the address is never enrolled in
+  // artist_interests or credited with an artist on the subscriber row, so a
+  // future date-alert send cannot reach someone who only registered price
+  // interest. NOTHING is ever emailed for it. The distinct analytics event
+  // (with the artist and event id) is what lets the owner gauge whether the
+  // alert email stack is worth building.
+  const isPriceAlertInterest = clean(payload?.intent, 40).toLowerCase() === "price_alert";
+  const alertArtistSlug = isPriceAlertInterest ? "" : artistSlug;
+
   const existing = await db.prepare("SELECT email FROM email_subscribers WHERE email = ?1").bind(email).first();
 
   await db
@@ -261,10 +272,10 @@ export async function onRequestPost({ request, env }) {
         referrer = excluded.referrer,
         user_agent = excluded.user_agent`
     )
-    .bind(email, createdAt, row.sourcePath, artistSlug || null, requestKey, row.referrer || null, row.userAgent || null)
+    .bind(email, createdAt, row.sourcePath, alertArtistSlug || null, requestKey, row.referrer || null, row.userAgent || null)
     .run();
 
-  if (artistSlug) {
+  if (alertArtistSlug) {
     await db
       .prepare(
         `INSERT INTO artist_interests (
@@ -281,12 +292,6 @@ export async function onRequestPost({ request, env }) {
       .run();
   }
 
-  // Price-drop demand instrument (Phase 1): the "register interest" control
-  // posts intent=price_alert. It reuses this same capture path — the subscriber
-  // row stays capture_only and NOTHING is ever emailed. The distinct analytics
-  // event (with the event id in metadata) is what lets the owner gauge whether
-  // the alert email stack is worth building.
-  const isPriceAlertInterest = clean(payload?.intent, 40).toLowerCase() === "price_alert";
   const rawEventId = clean(payload?.eventId, 120);
   const eventId = /^[a-z0-9-]{1,120}$/i.test(rawEventId) ? rawEventId : null;
   const analyticsEventName = isPriceAlertInterest

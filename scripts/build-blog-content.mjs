@@ -76,9 +76,8 @@ const ALLOWED_KEYS = new Set([
 ]);
 const REQUIRED_KEYS = ["title", "description", "summary", "date"];
 const ALLOWED_STATUS = new Set(["published", "draft"]);
-// Posts are credited to the site. A post may override this in its front
-// matter; the renderer resolves the byline to the Organization node only when
-// the name matches.
+// Posts are credited to the site. The `author` front-matter key is still
+// parsed, but validatePost() rejects any value other than this one.
 const DEFAULT_AUTHOR = "TourTicketCompare";
 
 // Route shapes a post body may link to, as complete patterns rather than
@@ -180,6 +179,11 @@ function validatePost(post, context) {
   }
 
   if (!post.sections.length) problems.push(`${where}: the post body is empty`);
+  // Owner direction 2026-09-24: bylines credit the site, and the creator is
+  // named only on /about/ollie-taylor. See docs/CONTENT_RULES.md.
+  if (post.author !== DEFAULT_AUTHOR) {
+    problems.push(`${where}: "author" must be ${DEFAULT_AUTHOR} (got "${post.author}"); bylines credit the site`);
+  }
   if (!post.sections.some((section) => section.type === "section")) {
     problems.push(`${where}: the body needs at least one "## " section heading`);
   }
@@ -610,6 +614,9 @@ function selfTest() {
 
   const longTitle = validatePost({ ...base, seoTitle: `${"x".repeat(60)}${TITLE_SUFFIX}` }, context);
   assert(longTitle.some((problem) => /search title/.test(problem)), "an over-budget search title fails validation");
+
+  const namedAuthor = validatePost({ ...base, author: "Someone Else" }, context);
+  assert(namedAuthor.some((problem) => /bylines credit the site/.test(problem)), "a byline other than the site fails validation");
 
   const withImage = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "![alt](/assets/blog/x.png)" }] }, context);
   assert(withImage.some((problem) => /images are not supported/.test(problem)), "an embedded image fails validation");

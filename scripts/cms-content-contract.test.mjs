@@ -79,10 +79,10 @@ const COLLECTIONS = [
       "related_artists",
       "sources"
     ],
-    // `author` is a documented front-matter override with no CMS field: the
-    // byline is the site's own name by default and an editor has no reason
-    // to change it from the browser. It is listed here so the contract check
-    // can tell a deliberate omission from an accidental one.
+    // `author` is a parsed front-matter key with no CMS field: the build
+    // accepts only the site's own name, so an editor has nothing to set. It is
+    // listed here so the contract check can tell a deliberate omission from an
+    // accidental one.
     configOptional: ["author"]
   },
   {

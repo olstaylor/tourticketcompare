@@ -19,35 +19,35 @@ sources:
     last_checked: 2026-09-21
 ---
 
-"Buy early" and "wait for prices to drop" are both offered as the answer, and neither holds for every show. There is no single best moment to buy, because the right moment depends on what you are optimising for — getting in at all, a particular seat, sitting with your group, sticking to a budget, or keeping your options open.
+"Buy early" and "wait for prices to drop" are both offered as the answer, and neither holds for every show. There's no single best moment to buy. The right moment depends on what you care about most: getting in at all, a particular seat, sitting with your group, sticking to a budget, or keeping your options open.
 
-So this guide does not name a magic day. It helps you decide which of those things matters most to you, and what that means for when to act. TourTicketCompare does not track live prices, watch inventory, or predict where a price is going — the final price, fees, availability, and terms are all on the provider's page when you check out.
+So there's no magic day here. Decide which of those matters most, and the timing follows. TourTicketCompare shows each ticket site's recent listed price for a date, but it doesn't track stock or predict where a price is heading. The final price, fees, availability and terms are on the ticket site when you check out.
 
 ## Decide what you're optimising for
 
 The timing question really comes down to one earlier question: what would you most regret missing? Pick the one that matters most before you start looking.
 
-- **Getting in at all.** If being there is non-negotiable, buying early through the official path lowers the risk of missing out — though nothing is settled until checkout completes.
+- **Getting in at all.** If being there is non-negotiable, buying early through the official path lowers the risk of missing out, though nothing is settled until checkout completes.
 - **A specific seat.** Earlier often means more sections and rows to choose from; leaving it can thin the choice. Only the provider's page shows what is actually available now.
 - **Sitting together.** Blocks of adjacent seats get harder to find the longer you wait, so check consecutive-seat detail carefully if your group needs to be together.
-- **Budget.** If money is the priority, compare final totals yourself, and do not assume waiting will bring the price down — it might not.
+- **Budget.** If money is the priority, compare final totals yourself, and don't assume waiting will bring the price down.
 - **Flexibility.** Waiting keeps your options open, but the cost is fewer seats, tighter delivery windows, and less time to fix problems.
 
 ## Buying early at the onsale
 
 An official onsale or presale is a sensible starting point, because it points you straight at the authorised ticketing path and usually shows the fullest picture of seats, ticket types, and terms at the start of the sale.
 
-Buying then makes most sense when you want certainty, need several seats together, have particular sections in mind, or do not want to be relying on a last-minute transfer. The catch is that the provider controls the prices, stock, seat map, and queue, all of which can change or run out — and joining a queue or seeing a first price is no guarantee you will complete checkout. For the practical drill, see [how to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale).
+Buying then makes most sense when you want certainty, need several seats together, have particular sections in mind, or do not want to be relying on a last-minute transfer. The catch is that the ticket site controls the prices, stock, seat map and queue, all of which can change or run out. Joining a queue or seeing a first price doesn't mean you'll complete checkout. For the practical drill, see [how to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale).
 
 ## Waiting, and what resale really offers
 
-Waiting suits flexible plans and a tolerance for uncertainty — and a willingness to keep checking back. What it is not is a reliable way to pay less.
+Waiting suits flexible plans, a tolerance for uncertainty, and a willingness to keep checking back. It isn't a reliable way to pay less.
 
 Resale listings move with seller decisions, demand, seat location, and how close the show is, and the direction is not predictable in advance. Hold off and you might find a better price; you might equally find fewer suitable seats, a tighter delivery window, or a higher total than the one you passed up. There is no pattern to lean on, only the listings actually in front of you.
 
 ## Why buying late raises the stakes
 
-The closer you buy to the date, the less room there is to fix anything that goes wrong — a transfer that stalls, a sign-in problem, a payment hold, or a name mismatch at the door.
+The closer you buy to the date, the less room there is to fix anything that goes wrong: a transfer that stalls, a sign-in problem, a payment hold, or a name mismatch at the door.
 
 Before a late purchase, confirm how and when the ticket is delivered, whether any transfer restrictions apply, and what support exists if delivery fails. A great-looking ticket that cannot reach you in time is no use at all.
 
@@ -78,7 +78,7 @@ Instead of betting on a prediction:
 
 **Do you know the best time to buy?**
 
-No. We do not compare live prices, track inventory, or predict where a price is heading, so we cannot name a best moment to buy.
+No. We show each ticket site's recent listed price for a date, but we don't track stock or predict where a price is heading, so we can't name a best moment to buy.
 
 **Should I always buy early?**
 
@@ -90,11 +90,9 @@ No. It can pay off for flexible buyers in some cases, but it can just as easily 
 
 **What should I confirm before paying?**
 
-The final price, fees, availability, seat details, delivery timing, and the refund, transfer, and cancellation terms — all on the provider's page.
+The final price, fees, availability, seat details, delivery timing, and the refund, transfer and cancellation terms, all on the ticket site.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [Why concert ticket prices change](/guides/why-ticket-prices-change)
 - [How to prepare for a ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale)

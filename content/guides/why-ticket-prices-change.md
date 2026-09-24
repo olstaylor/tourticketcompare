@@ -19,13 +19,13 @@ sources:
     last_checked: 2026-09-21
 ---
 
-You check a ticket in the morning, come back in the afternoon, and the number has moved. That is normal, and it usually has a concrete cause: a fee that only loads at checkout, a seller who has relisted, a provider that prices certain seats by demand, or simply different stock than was there earlier. None of it means you have done something wrong, and none of it can be predicted reliably for one specific show.
+You check a ticket in the morning, come back in the afternoon, and the number has moved. That is normal, and it usually has a concrete cause: a fee that only loads at checkout, a seller who has relisted, a provider that prices certain seats by demand, or simply different stock than was there earlier. None of it means you've done something wrong, and none of it can be reliably predicted for one specific show.
 
-This guide explains the real reasons a ticket total shifts, so you can read a price for what it is rather than chase it. TourTicketCompare helps you find checked links and work out what to compare. It does not track live prices, watch inventory, or forecast where a price is heading — that all lives on the provider's checkout page, which is where you confirm it.
+TourTicketCompare shows each ticket site's recent listed price for a date, checked every few hours, which is often why you'll see a figure change between visits. It doesn't track stock or forecast where a price is heading. The price you pay is on the ticket site's checkout page.
 
 ## What actually moves a ticket total
 
-The first number on a search result is rarely the whole story. A total changes for a handful of distinct reasons:
+A total changes for a handful of distinct reasons:
 
 - **Onsale demand and stock.** During an onsale, queues, holdbacks, presales, and purchase limits shape which tickets you can even see, and stock shifts by the second as other people buy.
 - **Demand-based pricing on primary tickets.** Some providers price certain seats or categories according to how fast they are selling. It is a disclosed feature on the events that use it, not a glitch.
@@ -33,7 +33,7 @@ The first number on a search result is rarely the whole story. A total changes f
 - **Fees and taxes.** Service, order, and facility fees, taxes, delivery charges, and currency conversion are often added later in checkout.
 - **Seat and ticket type.** A floor spot, an upper-tier seat, an accessible space, a VIP package, and a premium category all carry different prices and terms.
 
-These are separate forces. A change driven by fees is not the same as one driven by a seller relisting, and reading which is which keeps you from over-reacting to a number.
+A change driven by fees is not the same as one driven by a seller relisting. Knowing which is which stops you over-reacting to a number.
 
 ## The headline price is not the deciding number
 
@@ -47,7 +47,7 @@ For the full routine, see [how to compare concert ticket prices safely](/guides/
 
 During an official onsale, the provider runs everything: the queue, the seat map, purchase limits, the ticket categories on offer, fees, and the checkout rules. Some events mix fixed-price seats with premium categories, packages, or demand-based pricing that moves with how quickly a section sells.
 
-Seeing a ticket in your queue or cart is not the same as owning it. The price and the seat are only settled once checkout completes, so read the current terms before you pay — especially if the page is showing a countdown, a hold timer, or a total that just changed. For the timing trade-offs, see [when to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets).
+Seeing a ticket in your queue or cart is not the same as owning it. The price and the seat are only settled once checkout completes, so read the current terms before you pay, especially if the page shows a countdown, a hold timer or a total that has just changed. For the timing trade-offs, see [when to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets).
 
 ## Why resale prices drift
 
@@ -70,7 +70,7 @@ If any of those terms is unclear, slow down before you enter payment details.
 
 Ticket pages lean on pressure: queues, timers, low-stock warnings, cart holds, and notices that another buyer might be about to take the seat. Some of that reflects genuine demand. None of it removes the need for a basic check.
 
-Before you pay, make sure the event details match your show, the seat and ticket type are clear, the final total is acceptable, and the delivery, transfer, refund, and cancellation terms fit your plans. Treat a countdown as a reason to check faster — and be especially wary if a page pushes you off the provider's own checkout, asks for off-platform payment, or hides the terms.
+Before you pay, make sure the event details match your show, the seat and ticket type are clear, the final total is acceptable, and the delivery, transfer, refund, and cancellation terms fit your plans. Treat a countdown as a reason to check faster. Be especially wary if a page pushes you off the site's own checkout, asks for off-platform payment or hides the terms.
 
 ## A checklist instead of a prediction
 
@@ -92,7 +92,7 @@ Fees, taxes, delivery charges, currency conversion, the seats you picked, the ti
 
 **Can you tell me whether a price will rise or fall?**
 
-No. We do not track live inventory, monitor individual listings, or predict future prices.
+No. We show recent listed prices, but we don't track stock, monitor individual listings or predict future prices.
 
 **Are resale tickets always dearer than primary?**
 
@@ -106,15 +106,7 @@ Start with the exact event and seats, then the final checkout total, delivery me
 
 On the provider site. We can point you to checked destinations, but the provider sets the final price, fees, availability, delivery, transfer, refund, and cancellation terms.
 
-## The short version
-
-Ticket totals move because onsale demand, demand-based pricing, seller decisions, fees, seat type, delivery terms, and refund rules all differ from one event and ticket to the next. None of it is predictable from a general rule.
-
-So decide on what is actually in front of you: a current total and a set of terms you are comfortable with, on the provider's own page.
-
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)
 - [When to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets)

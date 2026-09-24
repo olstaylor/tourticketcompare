@@ -67,7 +67,9 @@ Not consistently. The cheaper option depends on the exact event, ticket source, 
 
 US rules require mandatory live-event ticket fees to be included in the upfront total, while taxes, shipping, and optional extras may still be treated separately. Ticketmaster and SeatGeek each publish current explanations of their price and fee displays. Rules and displays can differ outside the United States.
 
-Compare the same ticket quantity and currency, then check the current order summary on both platforms. Include taxes, delivery choices, optional add-ons, and currency conversion where applicable. A lower first number is not evidence of a lower final total.
+Compare the same ticket quantity and currency, then check the current order summary on both platforms, including taxes, delivery, add-ons and currency conversion. A lower first number is not evidence of a lower final total.
+
+On TourTicketCompare you won't see a price on either button. SeatGeek's feed returns no prices to us, and Ticketmaster is a plain link, so this comparison always happens on the two sites.
 
 ## Why does SeatGeek have tickets when Ticketmaster does not?
 
@@ -138,11 +140,9 @@ No. Deal Score evaluates value among SeatGeek listings using SeatGeek's data. It
 
 **Does TourTicketCompare rank SeatGeek and Ticketmaster?**
 
-No. TourTicketCompare explains their roles and helps users compare exact-event information. It does not declare either platform universally better or cheaper.
+No. We explain their roles and link both to the same date. We never call either platform better or cheaper in general.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)

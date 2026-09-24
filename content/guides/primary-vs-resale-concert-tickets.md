@@ -19,20 +19,20 @@ sources:
     last_checked: 2026-09-21
 ---
 
-Primary, official resale and marketplace resale can appear beside each other for the same concert, but they answer different buying needs. The useful question is not which label is universally better; it is whether the exact ticket, total, delivery timing and provider terms fit your plans.
+Neither primary nor resale is better across the board. The question is whether a particular ticket's total, delivery timing and terms fit your plans. Primary, official resale and marketplace resale can all appear side by side for the same concert, so it pays to know which one you're looking at.
 
 Start by finding the right date on an [artist page](/artists). Then identify the ticket type before comparing its price. That tells you who set the listing price, how the ticket should reach you and whose terms apply if the event changes.
 
 ## Primary tickets: straight from the source
 
-A primary ticket is sold through the event's official channel — the venue, the promoter, or the ticketing partner they have authorised. For any given show, confirm that path with the artist, venue, or promoter rather than assuming it from the platform's name.
+A primary ticket is sold through the event's official channel: the venue, the promoter, or the ticketing partner they've authorised. For any given show, confirm that path with the artist, venue, or promoter rather than assuming it from the platform's name.
 
-Primary tickets usually behave in predictable ways:
+What to expect:
 
 - They are sold through the authorised channel, sometimes with face-value seats and sometimes with premium categories or packages.
 - Purchase limits and event-specific terms apply.
 - Refund, cancellation, delivery, transfer, and resale rules vary by event and provider.
-- Some tickets carry restrictions — paperless entry, locked transfers, or named-holder rules — that you cannot change after buying.
+- Some tickets carry restrictions, such as paperless entry, locked transfers or named-holder rules, that you can't change after buying.
 
 ## Resale tickets: bought from someone else
 
@@ -52,7 +52,7 @@ TourTicketCompare links to checked destinations but does not certify individual 
 The platform's name will not reliably tell you, because some sites sell in more than one role depending on the event. Read the listing instead:
 
 - Is the platform named as an official source by the artist, venue, or promoter?
-- Is the listing labelled — primary, official resale, verified resale, or seller-listed?
+- How is the listing labelled: primary, official resale, verified resale or seller-listed?
 - Does it show seller information, delivery timing, or transfer rules?
 - Do the terms set out refund, cancellation, transfer, and event-change rules?
 
@@ -62,7 +62,7 @@ If you cannot tell, go back to the artist, venue, or promoter page and confirm t
 
 Both kinds of platform add charges on top of the listed price, and the structures differ by provider, event, and region.
 
-On primary platforms that tends to mean service, order, and facility fees, taxes, and delivery charges. On resale platforms you may see buyer fees, service fees, delivery, and currency conversion, with the seller paying their own fees out of the headline figure. Either way, the number that counts is the final checkout total once everything is shown — that is the only figure worth comparing between the two.
+On primary platforms that tends to mean service, order, and facility fees, taxes, and delivery charges. On resale platforms you may see buyer fees, service fees, delivery, and currency conversion, with the seller paying their own fees out of the headline figure. Either way, compare the final checkout total once everything is shown. No other figure is like for like.
 
 ## What protection you actually get
 
@@ -72,9 +72,9 @@ Resale protection is more variable. A marketplace may publish terms covering non
 
 ## When the ticket actually arrives
 
-Primary tickets are usually delivered soon after purchase — as mobile tickets, e-tickets, or occasionally by post — with timing the platform controls.
+Primary tickets usually arrive soon after purchase, as mobile tickets, e-tickets or occasionally by post, on the platform's timing.
 
-Resale is different: the ticket arrives when the seller transfers it. Some transfer at once; others wait until close to the date. Marketplaces set a deadline by which transfer must happen, but the real-world window can be tighter than it looks. If you are travelling or arranging transport in advance, confirm the expected delivery timing before buying — [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) covers this in full.
+Resale is different: the ticket arrives when the seller transfers it. Some transfer at once; others wait until close to the date. Marketplaces set a deadline by which transfer must happen, but the real-world window can be tighter than it looks. If you're travelling or booking transport in advance, confirm the delivery timing before buying. [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) covers this in full.
 
 ## So which should you pick?
 
@@ -105,8 +105,6 @@ For a concrete primary-versus-resale example, the [Vivid Seats vs Ticketmaster c
 Not always. Delivery depends on when the seller receives and transfers the ticket. Check the promised delivery method and deadline before paying.
 
 ## Related guides
-
-Continue with the detail that changes your decision:
 
 - [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)
 - [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)

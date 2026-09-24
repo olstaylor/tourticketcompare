@@ -1,4 +1,4 @@
-# Phase 5: longform edit sample (2026-09-24)
+# Phase 5: longform edit (2026-09-24)
 
 Launch-readiness milestone, Phase 5. The brief: refine, don't rewrite. Remove
 the AI tells, keep the facts, structure and keyword targeting, lead with the
@@ -8,7 +8,10 @@ is needed, leave a `TODO(Ollie)` slot. Start with 3 articles, then stop for
 review.
 
 **Branch:** `milestone/2027-launch-readiness-phase5` (stacked on phase4). The
-diff per article is `git diff milestone/2027-launch-readiness-phase4 -- content/guides/<slug>.md`.
+owner couldn't review the sample (it had no PR), then asked for the rest to be
+done: all 18 guides and the 4 published blog posts are now edited, and the
+PR's "Files changed" tab shows the diff per article. The 3 drafts in
+`content/blog/` are untouched.
 
 **Kept the same in all three:** frontmatter (title, H1, meta description,
 sources, `last_checked`, HowTo steps), every H2, every internal link, and the
@@ -79,13 +82,62 @@ Both now say what the site shows, and what that does and doesn't tell you.
   first-hand line: what you do yourself when a hold timer is running. Leave it
   out if you'd rather keep the guide impersonal.
 
+## The other 15 guides
+
+Lighter edits: most were already clean. Common to all: em dashes removed
+(56 across these 15), "This guide explains…" meta paragraphs and
+"The short version" recaps removed (the recap was cut from
+`ticketnetwork-vs-ticketmaster`, `why-ticket-prices-change` and
+`ticketmaster-vs-stubhub`; its one useful link moved into Related guides), the
+"Keep comparing with these related guides:" line removed from every guide,
+and intros rewritten to lead with the answer.
+
+**Factual corrections (the text no longer matched the site):**
+- `when-is-the-best-time-to-buy-concert-tickets` and `why-ticket-prices-change`
+  said the site "does not track live prices". They now say it shows each
+  site's recent listed price and doesn't track stock or predict prices.
+- `ticketmaster-vs-seatgeek-vs-vivid-seats`: the "what we compare" section is
+  now in interface terms (listed price, checked every few hours, 24-hour
+  limit), and the FAQ no longer says "snapshot … labelled accordingly".
+- `concert-ticket-fees-explained`: "listed-price snapshot" → the listed price
+  on a date's button.
+
+**Site-specific lines added** (all from code or config, nothing invented):
+`ticketnetwork-vs-ticketmaster` and `vivid-seats-vs-ticketmaster` say what
+their button shows on a date. `seatgeek-vs-ticketmaster` says neither button
+carries a price here, and why.
+
+## Blog (4 published posts)
+
+`updated:` set to 2026-09-24 on all four.
+
+- **how-a-ticket-link-gets-published:** said promotion "is the one part no
+  automation is allowed to do" and "discovery tooling … cannot promote one".
+  That stopped being true when auto-promote (path D) was added. Now describes
+  both paths and the automatic path's real gates (exact SeatGeek and
+  Ticketmaster match, music classification, deny list, both pages exist, 5 a
+  day, one-command undo).
+- **why-some-artist-pages-show-no-dates:** said an empty page shows "no
+  ticket buttons at all", but the empty state renders one artist-level "See
+  <artist> on <site>" link. It also said dates come only "from a reviewed
+  source record" (Ticketmaster-lane dates are machine-matched) and that the
+  page always stays indexed (never-dated artists are noindex since Phase 2).
+  All three are corrected.
+- **what-a-price-snapshot-actually-is** and **why-a-price-here-disappears:**
+  both said the age appears only after 12 hours. Since P2 the note always
+  says "Checked N hours ago". The button order is now explained the way the
+  P4 disclosure states it (sites that pay us first). The recap section in
+  the second post is gone. The title and URL of the first keep "snapshot"
+  for search.
+
 ## Spelling
 
-All three are consistently British (neighbouring, labelled, cancelled). The
-only American forms are in source publisher names ("SeatGeek Help Center"),
-which are proper nouns and stay as they are. Nothing to flag.
+Consistently British across the set. One fix: `ticketmaster-vs-seatgeek-vs-vivid-seats`
+said "loyalty program" and "program terms"; both are now "programme" to match
+`vivid-seats-vs-ticketmaster`. Publisher names ("SeatGeek Help Center") are
+proper nouns and stay as they are.
 
 ## Checks
 
-`npm run guides:build`, `npm run content:provenance`, `npm run test:content`
-and `npm run test:mvp` (87/87) all pass.
+`npm run guides:build`, `npm run blog:build`, `npm run content:provenance` and
+`npm run test:mvp` (87/87) all pass.

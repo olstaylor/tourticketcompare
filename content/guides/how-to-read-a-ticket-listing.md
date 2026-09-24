@@ -19,9 +19,7 @@ sources:
     last_checked: 2026-09-21
 ---
 
-Ticket listings on different sites can look alike while using slightly different labels for seating, ticket type, delivery, and listing notes. Reading one closely before checkout saves you from surprises that are hard to undo once you have paid.
-
-This guide covers what to look for. TourTicketCompare does not control how providers label their listings: the final details, fees, and terms are confirmed on the provider site at checkout.
+Four things on a listing decide whether it's the ticket you want: the seat, any listing note, the ticket type and the delivery method. Sites label each a little differently, so read them closely before checkout. Surprises are hard to undo once you've paid, and the final details, fees and terms are confirmed on the ticket site.
 
 ## Section, row, and seat
 
@@ -68,11 +66,9 @@ Look for labels such as resale, verified resale, or seller-listed, plus seller a
 
 **Which price should I compare?**
 
-Compare the final checkout total for equivalent tickets after mandatory fees, taxes, delivery, and any currency conversion—not the first displayed price.
+Compare the final checkout total for equivalent tickets after mandatory fees, taxes, delivery and any currency conversion, not the first displayed price.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)

@@ -19,9 +19,9 @@ sources:
     last_checked: 2026-09-21
 ---
 
-A lower displayed price is useful only if it leads to a lower total for the same ticket. Fees, tax, delivery choices, currency conversion and extras can change that answer at checkout — so a fee comparison should end at the order summary, not a search result.
+A lower displayed price is useful only if it leads to a lower total for the same ticket. Fees, tax, delivery choices, currency conversion and extras can change that answer at checkout, so a fee comparison ends at the order summary, not a search result.
 
-Use this guide when you have two plausible options for the same concert. First match the event and ticket; then bring both choices as far as the order summary and compare the required charges. TourTicketCompare does not set fees or final totals: each provider does, and the provider checkout is the decision point.
+When you have two plausible options for the same concert, match the event and ticket first, then take both as far as the order summary and compare the required charges there. Each ticket site sets its own fees and totals.
 
 ## What ticket fees can include
 
@@ -34,7 +34,7 @@ Ticket fees are not a single charge. Depending on the provider, the event, the t
 - Taxes, where they apply to the order.
 - Currency conversion charges, where you are buying in a currency different from your card's currency.
 
-Not every order includes every item, and the names providers use can differ. The point is to expect more than one line on the final order summary.
+Not every order has every item, and sites name them differently. Expect more than one line on the final order summary.
 
 ## Why the first price isn't the final total
 
@@ -44,7 +44,7 @@ The price shown on a listing or a search result is often a starting figure rathe
 - Different ticket types for the same event can carry different fees, so two listings that look similar may not end at the same total.
 - Optional extras, such as certain delivery methods or add-ons, can change the figure when they are selected.
 
-This does not mean fees are always hidden or always added late. It means the headline price is not a reliable comparison number on its own, so read through to the final order summary before deciding.
+Fees aren't always hidden or added late. But the headline price isn't a reliable number to compare on its own, so read through to the final order summary.
 
 ## How to compare the total fairly
 
@@ -55,11 +55,12 @@ Compare the final checkout total for genuinely equivalent tickets, not the first
 - Check delivery timing alongside the total: the lowest total may rely on a method that does not suit your plans.
 - Treat optional extras separately so you know whether they changed the result.
 
-If you are still only looking at a generic provider page, return to the [artist index](/artists) and choose the event first. TourTicketCompare never claims one provider is always cheaper; a current listed-price snapshot can help shortlist pages, while the comparison itself happens at provider checkout.
+If you are still only looking at a generic provider page, return to the [artist index](/artists) and choose the event first. We never say one ticket site is always cheaper. The listed price on a date's button helps you pick which pages to open; the comparison itself happens at checkout.
 
 ## Practical checklist
 
-Before you pay, work through this checklist:
+Before you pay:
+
 - Find the final order summary and read every line, not just the face value.
 - Identify which charges are mandatory and which come from optional choices.
 - Confirm the delivery method and timing work for your plans.
@@ -88,7 +89,6 @@ Use the final checkout total for equivalent tickets, after all fees are shown. T
 
 ## Next steps
 
-Choose the next step based on the remaining decision:
 - [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) for the full like-for-like routine.
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) when the ticket type is different.
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) when a lower total comes with a later transfer.
@@ -96,8 +96,6 @@ Choose the next step based on the remaining decision:
 - [Browse checked artist pages](/artists) when you are ready to apply the checks to a specific show.
 
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets)
 - [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)

@@ -29,7 +29,7 @@ sources:
 
 **Short answer:** they are not the same kind of seller, so "which is cheaper" is rarely the useful question. Ticketmaster is the official primary ticketing provider for a great many events, and also lists labelled third-party resale. TicketNetwork is a resale marketplace: it does not issue the tickets itself, it hosts listings from professional ticket-selling companies and other trusted sellers.
 
-That difference decides what you should check, what you are protected by, and whether the two prices in front of you are even describing the same ticket. This guide walks the comparison without assuming either one wins.
+That difference decides what you should check, what protects you, and whether the two prices in front of you describe the same ticket at all.
 
 ## TicketNetwork vs Ticketmaster at a glance
 
@@ -41,7 +41,7 @@ That difference decides what you should check, what you are protected by, and wh
 | Face value | Primary tickets are sold at the organiser's set price | Listings may be above face value, and the site says so |
 | Availability | Depends on the onsale and what remains | Depends entirely on what sellers have listed |
 | If the event is cancelled | Third-party resale orders are otherwise final, but cancellation has a refund route through the original provider | The published guarantee includes a full refund |
-| If tickets do not arrive or fail at entry | Not set out on the resale help page cited here — read the terms attached to your specific order | The published guarantee covers arrival before the event and validity for entry |
+| If tickets do not arrive or fail at entry | Not set out on the resale help page cited here; read the terms attached to your specific order | The published guarantee covers arrival before the event and validity for entry |
 
 Neither column is the "safe" one by default. They carry different promises, and the right one depends on the event in front of you.
 
@@ -49,7 +49,7 @@ Neither column is the "safe" one by default. They carry different promises, and 
 
 For a large share of concerts, Ticketmaster is the channel the artist, venue, or promoter authorised. When that is true, you are buying at the price the event organiser set, on the organiser's terms, with the onsale and any presale codes working as published.
 
-Ticketmaster also carries third-party resale inventory alongside its own. This is where buyers most often trip up: two listings on the same Ticketmaster event page can be very different products. Ticketmaster's help content describes resale tickets as offered "by trusted sellers within the safety of our platform" for events where it is not the primary provider — and it is explicit that **all third-party ticket sales are final unless the event is cancelled**.
+Ticketmaster also carries third-party resale inventory alongside its own. This is where buyers most often trip up: two listings on the same Ticketmaster event page can be very different products. Ticketmaster's help content describes resale tickets as offered "by trusted sellers within the safety of our platform" for events where it is not the primary provider, and it is explicit that **all third-party ticket sales are final unless the event is cancelled**.
 
 So "I bought it on Ticketmaster" does not by itself tell you which protections apply. Check whether the specific listing is primary or resale before you compare it with anything.
 
@@ -63,9 +63,11 @@ Because listings are seller-set, availability and price on TicketNetwork move in
 
 ## Is TicketNetwork cheaper than Ticketmaster?
 
-Not reliably, and not in a way you can settle before checkout. A resale listing can sit above or below a primary price depending on the seat, the quantity, how the show is selling, and when you look. The two are often not the same ticket at all — different section, different row, different delivery method.
+Not reliably, and not in a way you can settle before checkout. A resale listing can sit above or below a primary price depending on the seat, the quantity, how the show is selling and when you look. Often the two aren't the same ticket at all: a different section, row or delivery method.
 
-The number that decides it is the complete current total, and neither site's headline figure is that number until you reach the payment step. Under the US Federal Trade Commission's rule on unfair or deceptive fees, businesses must show the total price for live-event tickets up front, including every charge or fee they know about and can calculate. Taxes and government charges, shipping charges, and optional add-ons may be excluded from that figure — but anything excluded must be disclosed before you are prompted to pay, at least as prominently as the total.
+On TourTicketCompare, a TicketNetwork button on a date shows TicketNetwork's lowest listed price for that date when its feed supplies one, with how long ago we checked. The Ticketmaster button is a plain link with no price. That tells you where to look, not which order will cost less.
+
+The number that decides it is the complete current total, and neither site's headline figure is that number until you reach the payment step. Under the US Federal Trade Commission's rule on unfair or deceptive fees, businesses must show the total price for live-event tickets up front, including every charge or fee they know about and can calculate. Taxes and government charges, shipping charges and optional add-ons may be excluded from that figure, but anything excluded must be disclosed before you're asked to pay, at least as prominently as the total.
 
 In practice that means the honest comparison happens late, on two checkout pages, for two seats you have actually matched.
 
@@ -77,7 +79,7 @@ This is the axis most comparisons skip, and it is the one that changes what you 
 - **A Ticketmaster third-party resale ticket** is final unless the event is cancelled. The help page cited here sets out that cancellation route but does not set out an arrival-or-entry guarantee, so read the terms attached to your own order rather than assuming the familiar branding covers it.
 - **A TicketNetwork listing** is seller-priced, and backed by the published 100% money-back guarantee covering arrival before the event and validity for entry.
 
-Read those as three different products, not two websites. If a guarantee matters to your purchase — an expensive seat, a long trip, a gift — compare the guarantee wording as carefully as the price, and read it on the provider's own site at the moment you buy, because terms change.
+Read those as three different products, not two websites. If a guarantee matters to your purchase (an expensive seat, a long trip, a gift), compare the guarantee wording as carefully as the price, and read it on the provider's own site at the moment you buy, because terms change.
 
 ## A like-for-like comparison routine
 
@@ -93,7 +95,7 @@ Read those as three different products, not two websites. If a guarantee matters
 
 **Is TicketNetwork legit?**
 
-TicketNetwork is an established resale marketplace with published guarantee terms covering ticket arrival and validity for entry. That does not make every listing on it the right buy — it means the platform stands behind delivery and entry. Check the specific listing, the total, and the current terms.
+TicketNetwork is an established resale marketplace with published guarantee terms covering ticket arrival and validity for entry. That doesn't make every listing the right buy; it means the platform stands behind delivery and entry. Check the specific listing, the total, and the current terms.
 
 **Why does TicketNetwork have tickets when Ticketmaster is sold out?**
 
@@ -107,13 +109,7 @@ Different sellers, different ticket, or a different moment. Resale prices are se
 
 Start with whoever the artist, venue, or promoter names as the official seller. If primary inventory is gone or does not suit, compare labelled resale options on established marketplaces, including this one, on the checks above.
 
-## The short version
-
-Ticketmaster is usually the official source and sometimes a resale venue; TicketNetwork is a resale marketplace throughout. Start official, compare resale on the exact seat and the complete total, and read the guarantee that applies to the order you are actually placing.
-
 ## Related guides
-
-Keep comparing with these related guides:
 
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
 - [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)

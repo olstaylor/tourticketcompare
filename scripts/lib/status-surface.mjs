@@ -48,23 +48,22 @@ export function renderSurfaceLine(summary) {
 /**
  * Render the generated empty-board sentence.
  *
- * An artist page with no upcoming date is NOT noindexed: per
- * functions/_artist-indexability.js an artist URL is a durable destination
- * that renders an explicit empty state, and future-date availability is
- * presentation state rather than an indexing signal. So this sentence counts
- * empty boards, never robots state — every editorially-indexable artist here
- * renders `index,follow` whether or not it has a date.
+ * An artist page with no upcoming date is NOT noindexed for that alone: per
+ * functions/_artist-indexability.js an ended tour keeps its durable URL and
+ * shows its recent dates. The exceptions are named separately: an artist that
+ * has never had an event record is `noindex,follow` until one lands
+ * (owner-approved 2026-09-24), and an auto-promoted artist needs 3 upcoming.
  */
 export function renderEmptyBoardLine({ generatedAt, editoriallyIndexable, emptySlugs, zeroEventSlugs, autoNoindexSlugs = [] }) {
   const live = editoriallyIndexable - emptySlugs.length;
   // Auto-promoted artists are the exception to "an empty board stays indexed":
   // below 3 upcoming dates their page is noindex (artistPageIndexable).
-  const robots = autoNoindexSlugs.length ? "owner-promoted ones still `index,follow`" : "still `index,follow`";
+  const robots = "ended tours still `index,follow`";
   const empties = emptySlugs.length
     ? `${emptySlugs.length} of the ${editoriallyIndexable} editorially-indexable artists have no upcoming date and render an empty board (${robots}) — ${emptySlugs.join(", ")} — leaving **${live} artist pages with upcoming dates**`
     : `every one of the ${editoriallyIndexable} editorially-indexable artists currently has an upcoming date, so none renders an empty board`;
   const neverHad = zeroEventSlugs.length
-    ? `; ${zeroEventSlugs.length} of them (${zeroEventSlugs.join(", ")}) have never had an event record`
+    ? `; ${zeroEventSlugs.length} of them (${zeroEventSlugs.join(", ")}) have never had an event record and are \`noindex,follow\` until one lands`
     : "";
   const autoNoindex = autoNoindexSlugs.length
     ? `; ${autoNoindexSlugs.length} auto-promoted artist(s) (${autoNoindexSlugs.join(", ")}) are \`noindex,follow\` until they have 3 upcoming dates`

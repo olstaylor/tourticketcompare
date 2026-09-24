@@ -68,8 +68,10 @@ const problems = [];
 for (const prefix of ["/api/", "/internal/"]) {
   if (!robotsTxt.includes(`Disallow: ${prefix}`)) problems.push(`robots.txt: missing Disallow for ${prefix}`);
 }
-if (!robotsTxt.includes(`Sitemap: ${ORIGIN}/sitemap.xml`)) {
-  problems.push("robots.txt: missing the canonical sitemap URL");
+// robots.txt advertises the sitemap index (per-type sitemaps under
+// /sitemaps/); /sitemap.xml still serves every URL in one file.
+if (!robotsTxt.includes(`Sitemap: ${ORIGIN}/sitemap-index.xml`)) {
+  problems.push("robots.txt: missing the canonical sitemap index URL");
 }
 for (const prefix of ["/data/*", "/internal/*"]) {
   const block = staticHeaders.match(new RegExp(`(?:^|\\n)${prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\n([\\s\\S]*?)(?=\\n\\S|$)`, "m"))?.[1] || "";
@@ -185,6 +187,9 @@ function reportDuplicates(field) {
 }
 reportDuplicates("title");
 reportDuplicates("description");
+// Two indexable pages with the same H1 are competing for the same query with
+// the same headline (added 2026-09-24).
+reportDuplicates("h1");
 
 // SERP display budgets. Google truncates a title link at roughly 60 characters
 // and a meta description at roughly 155-160, so anything longer is written but

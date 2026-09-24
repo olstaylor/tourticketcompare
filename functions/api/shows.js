@@ -1057,6 +1057,40 @@ async function fetchApprovedMarketplaceCachedRows(db, showIds) {
   return rowsByKey;
 }
 
+// When each approved price lane last looked for a listed price on an event and
+// found none (outcome 'no_price'), from the rows the snapshot writers record
+// for every event they query (scripts/lib/price-checks.mjs). A 'priced' check
+// is not returned: if its snapshot is not on the card, a display gate withheld
+// it, and "no listed price at our last check" would be untrue. It is what lets a card
+// with no price say when it was last checked instead of only that nothing is
+// there. Optional by construction: before the first writer run creates the
+// table, or on any read error, this returns an empty map and cards fall back to
+// the undated note.
+async function fetchProviderPriceChecks(db, showIds) {
+  const checks = new Map();
+  if (!db || !showIds.length) return checks;
+  try {
+    for (let i = 0; i < showIds.length; i += PRICING_CACHE_BULK_CHUNK_SIZE) {
+      const chunk = showIds.slice(i, i + PRICING_CACHE_BULK_CHUNK_SIZE);
+      const placeholders = chunk.map((_, index) => `?${index + 1}`).join(", ");
+      const result = await db
+        .prepare(`SELECT event_id, provider, checked_at FROM provider_price_checks WHERE outcome = 'no_price' AND event_id IN (${placeholders})`)
+        .bind(...chunk)
+        .all();
+      for (const row of Array.isArray(result?.results) ? result.results : []) {
+        const eventId = String(row?.event_id || "");
+        const checkedAt = String(row?.checked_at || "");
+        if (!eventId || !Number.isFinite(Date.parse(checkedAt))) continue;
+        if (!checks.has(eventId)) checks.set(eventId, {});
+        checks.get(eventId)[String(row.provider)] = checkedAt;
+      }
+    }
+  } catch (err) {
+    return new Map();
+  }
+  return checks;
+}
+
 // Attach the two approved cached marketplace price lanes to every show in the
 // list. Per-lane gates are identical to the single-show fetchers: display
 // flag, valid verified provider event URL, approved source, and unexpired
@@ -1072,14 +1106,20 @@ export async function attachApprovedMarketplacePrices(shows, env) {
   }));
   const db = getPricingDb(env);
   let rowsByKey = new Map();
+  let checksByEvent = new Map();
   if (db && laneStates.some((state) => state.enabled)) {
     const showIds = [...new Set(shows.map((show) => String(show?.id || "").trim()).filter(Boolean))];
     if (showIds.length) {
       try {
         rowsByKey = await fetchApprovedMarketplaceCachedRows(db, showIds);
       } catch (err) {
-        rowsByKey = new Map();
+        // A failed read establishes nothing about any card. Returning the
+        // shows with no lanes keeps them in the "never queried" state, so no
+        // page claims a snapshot is unavailable when the cache simply could
+        // not be read (pricesWereChecked in [[path]].js and app.js).
+        return shows.map((show) => ({ ...show, prices: [], priceQueryFailed: true }));
       }
+      checksByEvent = await fetchProviderPriceChecks(db, showIds);
     }
   }
 
@@ -1097,7 +1137,8 @@ export async function attachApprovedMarketplacePrices(shows, env) {
       }
       return decorateProviderResult(result || unavailableProviderPrice(lane.provider, show), show, lane.provider, env);
     });
-    return { ...show, prices };
+    const priceChecks = checksByEvent.get(showId);
+    return priceChecks ? { ...show, prices, priceChecks } : { ...show, prices };
   });
 }
 

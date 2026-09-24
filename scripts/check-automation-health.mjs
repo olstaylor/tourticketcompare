@@ -115,6 +115,9 @@ export const WATCHED_LANES = [
   { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
   { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
   { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
+  // Daily read-only probe of partial price regressions (a lane that stops
+  // pricing, aging prices). It never runs test:mvp, so a red main cannot stop it.
+  { file: "price-coverage-report.yml", name: "Price coverage report", cadence: "daily 09:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // The three sensors, this one included. Watching them was missing when this
   // shipped, and a watcher nobody watches is the gap that hides every other
   // gap: if this workflow stops running, the board it writes simply stops
@@ -712,8 +715,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "pr-validation-head-guard.yml", "roster-candidates.yml"],
-    "the sensors, the digest and the roster screen, and only those, are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "roster-candidates.yml"],
+    "the sensors, the digest, the roster screen and the price coverage report, and only those, are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

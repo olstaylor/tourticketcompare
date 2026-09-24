@@ -169,6 +169,7 @@ async function render(pathname, events) {
   const html = await response.text();
   return {
     status: response.status,
+    location: response.headers.get("Location") || "",
     html,
     main: (html.match(/<main id="mainContent">([\s\S]*?)<\/main>/) || [])[1] || "",
     robots: (html.match(/<meta name="robots" content="([^"]*)"/) || [])[1] || "",
@@ -248,12 +249,18 @@ assert(
 assert(cityText.includes("Thu, Sep 10, 2026"), "city page labels a 01:00Z show with its local date, not the UTC one");
 assert(!cityText.includes("Fri, Sep 11, 2026"), "city page uses no UTC date labels anywhere");
 assert(cityText.includes(MAIN_VENUE) && cityText.includes(SECOND_VENUE), "city page groups shows under both venues");
+// An artist with an indexable artist-city page here (two dates) is linked to
+// that page rather than to an event-card anchor on the artist page.
 assert(
-  cityPage.main.includes(`href="/artists/${artistA.slug}#show-`),
-  "city page deep-links each show to its artist event card"
+  cityPage.main.includes(`href="/artists/${artistA.slug}/tickets/${CITY_SLUG}"`),
+  "city page links an artist with an indexable artist-city page to that page"
 );
 assert(
-  new RegExp(`<article[^>]*class="info-card show-card[^>]*>[\\s\\S]*?href="/artists/${artistA.slug}#show-[^"]+"[\\s\\S]*?</article>`).test(cityPage.main),
+  cityPage.main.includes(`href="/artists/${artistB.slug}/tickets/${CITY_SLUG}"`) && !cityPage.main.includes(`/artists/${artistB.slug}#show-`),
+  "every artist here has two dates, so every card links its artist-city page"
+);
+assert(
+  new RegExp(`<article[^>]*class="info-card show-card[^>]*>[\\s\\S]*?href="/artists/${artistA.slug}/tickets/${CITY_SLUG}"[\\s\\S]*?</article>`).test(cityPage.main),
   "city page keeps each artist detail link inside its show card"
 );
 assert(
@@ -308,11 +315,14 @@ assert(!cityPage.schemaTypes.includes("FAQPage"), "city page emits no FAQPage wi
 
 // ─── city page, with no upcoming shows ──────────────────────────────────────
 
-// The route itself 404s once every date has passed — that behaviour is
-// unchanged, and is what keeps an empty city out of the index.
+// Once every date has passed the route 301s to the cities index (owner-approved
+// 2026-09-24; it used to 404), keeping the links the page earned. A slug we
+// never tracked still 404s.
 assert(deriveCities(EXPIRED_EVENTS).length === 0, "a city with only past shows derives no record");
 const expiredCity = await render(`/cities/${CITY_SLUG}`, EXPIRED_EVENTS);
-assert(expiredCity.status === 404, "a city whose dates have all passed returns 404");
+assert(expiredCity.status === 301, "a city whose dates have all passed redirects permanently");
+assert(new URL(expiredCity.location, ORIGIN).pathname === "/cities", "an expired city redirects to the cities index");
+assert((await render("/cities/never-tracked-nowhere", EXPIRED_EVENTS)).status === 404, "a city we never tracked still 404s");
 
 // The template still has to answer for the record it is handed. This is the
 // state between a date passing and the derivation seeing it.
@@ -408,7 +418,17 @@ assert(!venuePage.schemaTypes.includes("FAQPage"), "venue page emits no FAQPage 
 
 assert(deriveVenues(EXPIRED_EVENTS).length === 0, "a venue with only past shows derives no record");
 const expiredVenue = await render(`/venues/${MAIN_VENUE_SLUG}`, EXPIRED_EVENTS);
-assert(expiredVenue.status === 404, "a venue whose dates have all passed returns 404");
+assert(expiredVenue.status === 301, "a venue whose dates have all passed redirects permanently");
+assert(new URL(expiredVenue.location, ORIGIN).pathname === "/venues", "with its city also expired, it redirects to the venues index");
+// The venue is done but its city still has an upcoming show elsewhere: the
+// city page is the more useful destination.
+const cityStillLive = EXPIRED_EVENTS.map((event) => (event.id === "fixture-b2" ? { ...event, datetime_iso: "2026-10-17T01:00:00Z" } : event));
+const expiredVenueLiveCity = await render(`/venues/${MAIN_VENUE_SLUG}`, cityStillLive);
+assert(
+  expiredVenueLiveCity.status === 301 && new URL(expiredVenueLiveCity.location, ORIGIN).pathname === `/cities/${CITY_SLUG}`,
+  "an expired venue redirects to its city page while that city has upcoming dates"
+);
+assert((await render("/venues/never-tracked-hall", EXPIRED_EVENTS)).status === 404, "a venue we never tracked still 404s");
 
 const emptyVenueBody = renderVenuePageBody(
   {

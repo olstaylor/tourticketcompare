@@ -1,0 +1,70 @@
+name: Price coverage report
+
+# Daily partial-regression check for live prices (added 2026-09-24; see
+# docs/OPERATIONS.md → Price snapshot cadence). price-freshness-check.yml turns
+# red only when no lane serves any price at all. This one reads the same live
+# /api/shows payload and fails when a lane stops pricing the dates it is mapped
+# to, or when displayed prices are aging because writer ticks are being dropped.
+# It also rewrites the rolling `automation:price-coverage` issue with the
+# zero-price-source backlog by artist and country.
+#
+# Read-only on the site and the repository; its only write is that one issue.
+# Needs no credentials and no `npm ci` (node builtins and the repo's pure
+# helpers only). 09:15 UTC lands after the last nightly sync (07:00) has
+# deployed and the morning snapshot ticks have run.
+
+on:
+  schedule:
+    - cron: '15 9 * * *'
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Origin to probe.'
+        type: string
+        default: 'https://tourticketcompare.com'
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: price-coverage-report
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Self-test
+        run: node scripts/report-price-coverage.mjs --self-test
+
+      # The issue is written before the gate verdict is returned, so a failing
+      # run still leaves the explanation on the issue. pipefail keeps the exit
+      # code (1 = gate failed, 2 = site unreadable) through tee.
+      - name: Report live price coverage
+        env:
+          BASE_URL: ${{ github.event.inputs.base_url || 'https://tourticketcompare.com' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          node scripts/report-price-coverage.mjs --base-url "$BASE_URL" --issue --markdown "$RUNNER_TEMP/price-coverage.md" \
+            | tee "$RUNNER_TEMP/price-coverage.log"
+
+      - name: Summarise
+        if: always()
+        run: |
+          if [ -s "$RUNNER_TEMP/price-coverage.md" ]; then
+            cat "$RUNNER_TEMP/price-coverage.md" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "The price coverage report produced nothing — treat this as unknown, not healthy." >> "$GITHUB_STEP_SUMMARY"
+          fi

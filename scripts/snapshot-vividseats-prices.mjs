@@ -7,6 +7,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 
+import { buildPriceChecksSql } from "./lib/price-checks.mjs";
+
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -271,6 +273,32 @@ async function writeRowsToD1(rows, options) {
     return { written: rows.length, command: `npx ${args.join(" ")}`, stdout: redact(output.stdout), stderr: redact(output.stderr) };
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
 }
+// Record every completed lookup in provider_price_checks (scripts/lib/price-checks.mjs).
+// Its own execute, after the price rows, and never fatal: a check record must
+// not be able to stop prices publishing.
+async function writePriceChecksToD1(checks, checkedAt, options) {
+  const sql = buildPriceChecksSql(checks, checkedAt);
+  if (!sql) return { recorded: 0 };
+  const dir = await fs.mkdtemp(path.join(os.tmpdir(), "vividseats-price-checks-"));
+  const sqlPath = path.join(dir, "price-checks.sql");
+  try {
+    await fs.writeFile(sqlPath, sql);
+    // Retry D1's one-import-at-a-time contention: the Impact marketplace
+    // lanes can be importing into the same database.
+    for (let attempt = 1; ; attempt += 1) {
+      try {
+        await execFileAsync("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", sqlPath], { cwd: REPO_ROOT, maxBuffer: 10 * 1024 * 1024 });
+        return { recorded: checks.length };
+      } catch (error) {
+        const text = `${error?.stderr || ""}\n${error?.message || ""}`;
+        if (attempt >= 5 || !/processing a long-running import/i.test(text)) throw error;
+        await new Promise((resolve) => setTimeout(resolve, 5000 * attempt));
+      }
+    }
+  } catch (error) {
+    return { recorded: 0, error: redact(String(error?.stderr || error?.message || error)).slice(0, 300) };
+  } finally { await fs.rm(dir, { recursive: true, force: true }); }
+}
 function publicRow(row) { const { id, ...publicData } = row; return publicData; }
 async function runIngestion(options, deps = {}) {
   const env = deps.env || process.env;
@@ -295,6 +323,7 @@ async function runIngestion(options, deps = {}) {
   const byArtist = new Map();
   for (const item of selection.selected) { const entries = byArtist.get(item.artistName) || []; entries.push(item); byArtist.set(item.artistName, entries); }
   const rows = [];
+  const checks = [];
   for (const [artistName, items] of byArtist) {
     const fetched = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(artistName, env) : await fetchArtistCatalog(artistName, env, deps.fetchImpl);
     if (!fetched.ok) {
@@ -310,6 +339,9 @@ async function runIngestion(options, deps = {}) {
     summary.fetched += items.length;
     for (const item of items) {
       const priced = pricesForProduction(fetched.data, item.productionId);
+      // Only "no price for this exact production" is no_price; conflicting
+      // prices are unusable, never quoted as "no listed price".
+      if (item.localId) checks.push({ event_id: item.localId, provider: PROVIDER, outcome: priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable" });
       if (!priced.ok) { summary.skipped++; summary.skip_reasons[priced.reason] = (summary.skip_reasons[priced.reason] || 0) + 1; continue; }
       const built = buildSnapshotRow(item, priced.price, deps.now || new Date(), options.freshnessHours);
       if (!built.ok) {
@@ -325,6 +357,13 @@ async function runIngestion(options, deps = {}) {
   }
   summary.usable = rows.length;
   if (options.apply) summary.written = (await (deps.writer ? deps.writer(rows, options) : writeRowsToD1(rows, options))).written || 0;
+  summary.checks = checks.length;
+  if (options.apply) {
+    const checkedAt = (deps.now || new Date()).toISOString();
+    const checkResult = await (deps.checksWriter ? deps.checksWriter(checks, checkedAt, options) : writePriceChecksToD1(checks, checkedAt, options));
+    summary.checks_recorded = checkResult.recorded || 0;
+    if (checkResult.error) summary.checks_error = checkResult.error;
+  }
   if (summary.eligible === 0) summary.zero_row_reason = "no_eligible_verified_events";
   else if (summary.usable === 0 && summary.fetched === 0 && summary.failed > 0) summary.zero_row_reason = "provider_fetch_failed";
   else if (summary.usable === 0) summary.zero_row_reason = "no_usable_current_prices";
@@ -368,7 +407,27 @@ async function selfTest() {
     now, async fetchArtistCatalog() { return { ok: false, reason: "temporary API failure" }; }
   });
   assert.equal(failed.failed, 1); assert.equal(failed.errors, 1); assert.equal(failed.zero_row_reason, "provider_fetch_failed");
-  return { ok: true, tests: 29 };
+  assert.equal(dry.checks, 1, "a completed lookup is counted as a price check");
+  assert.equal(failed.checks, 0, "a failed catalog fetch records no check");
+  let recorded = null;
+  const applied = await runIngestion({ apply: true, limit: null, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
+    catalog: { events: [verifiedFutureEvent, { ...verifiedFutureEvent, id: "event-2", vividseats_url: "https://www.vividseats.com/a-tickets/production/456" }], artistsBySlug: new Map([["raye", "RAYE"]]) },
+    now, async fetchArtistCatalog() { return { ok: true, data: [{ CurrentPrice: 52, Currency: "USD", Offers: [{ Sku: "123" }] }] }; },
+    async writer(rows) { return { written: rows.length }; },
+    async checksWriter(checks, checkedAt) { recorded = { checks, checkedAt }; return { recorded: 0, error: "boom" }; }
+  });
+  assert.equal(applied.written, 1, "price rows still publish when the check write fails");
+  assert.deepEqual(recorded.checks.map((c) => `${c.event_id}:${c.outcome}`), ["event-1:priced", "event-2:no_price"]);
+  let conflicted = null;
+  await runIngestion({ apply: true, limit: null, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
+    catalog: { events: [verifiedFutureEvent], artistsBySlug: new Map([["raye", "RAYE"]]) },
+    now, async fetchArtistCatalog() { return { ok: true, data: [{ CurrentPrice: 1, Currency: "USD", Offers: [{ Sku: "123" }] }, { CurrentPrice: 2, Currency: "USD", Offers: [{ Sku: "123" }] }] }; },
+    async writer(rows) { return { written: rows.length }; },
+    async checksWriter(checks) { conflicted = checks; return { recorded: checks.length }; }
+  });
+  assert.equal(conflicted[0].outcome, "unusable", "conflicting prices are unusable, never no_price");
+  assert.equal(applied.checks_error, "boom");
+  return { ok: true, tests: 36 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);
@@ -384,6 +443,7 @@ async function main() {
   if (options.selfTest) { const result = await selfTest(); return console.log(`Vivid Seats Impact price snapshot self-test passed (${result.tests} checks).`); }
   const summary = await runIngestion(options);
   if (options.json) console.log(JSON.stringify(summary, null, 2)); else printSummary(summary);
+  if (summary.checks_error) console.log(`::warning::vivid-seats price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
   if (summary.failed > 0 || (options.apply && summary.eligible > 0 && summary.usable === 0)) process.exitCode = 1;
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });

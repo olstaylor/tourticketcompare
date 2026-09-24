@@ -3,7 +3,7 @@ import { deriveCities } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
-import { artistPageIndexable, AUTO_PROMOTED_ARTIST_SOURCE } from "./_artist-indexability.js";
+import { artistPageIndexable } from "./_artist-indexability.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -29,8 +29,9 @@ async function loadIndexableArtists(env) {
     // current event boards are empty. The pages state that honestly and fill
     // again when future events are added. Only an auto-promoted artist is gated
     // on upcoming dates (the same rule as its robots meta and the sitemap).
-    const needsEvents = artistsMeta.some((artist) => artist?.promotion_source === AUTO_PROMOTED_ARTIST_SOURCE);
-    const events = needsEvents ? await loadJsonAsset(env, "/data/events.json") : [];
+    // Every artist gate now reads events: an owner-promoted artist needs one
+    // tracked date, an auto-promoted one three upcoming (artistPageIndexable).
+    const events = await loadJsonAsset(env, "/data/events.json");
     const indexableSlugs = new Set(
       artistsMeta
         .filter((artist) => artist && artistPageIndexable(artist, Array.isArray(events) ? events : []))

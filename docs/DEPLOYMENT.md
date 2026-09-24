@@ -79,6 +79,19 @@ npm run indexnow:ping -- --await-deploy   # wait for the deploy, then submit
 
 Submission requires `public/9ffca7bd48067983c70d2ce6601728d3.txt` to be served at the apex; the script verifies this first and refuses to ping if it is missing.
 
+## Search Console and Bing Webmaster Tools (owner, manual)
+
+The repository cannot do these; each needs the owner's account. Do them once
+after the sitemap-index change deploys, then revisit the reports monthly.
+
+1. **Google Search Console → Sitemaps:** submit `https://tourticketcompare.com/sitemap-index.xml`. Remove the old `sitemap.xml` submission once the index shows "Success", so coverage is reported per sitemap (pages, artists, artist-cities, cities, venues, blog) rather than as one block.
+2. **Bing Webmaster Tools → Sitemaps:** submit the same index URL. IndexNow (above) already pings Bing on every deploy that changes an indexable route; the sitemap is its fallback crawl list.
+3. **Search Console → Pages (indexing report):** filter by each sitemap. Expect "Excluded by 'noindex' tag" for single-date artist-city pages, below-threshold cities and venues, and artists that have never had a date. That is by design. Investigate anything under "Soft 404", "Duplicate without user-selected canonical" or "Crawled – currently not indexed" on artist, city or venue pages.
+4. **URL Inspection:** request indexing for one artist, one city and one artist-city page after the deploy, to confirm the rendered HTML, canonical and robots meta Google sees match the source.
+5. **Enhancements → Events / Breadcrumbs / FAQ:** confirm no errors. `MusicEvent` offers mirror the visible price badge (exception C in `SAFE_PUBLISHING_RULES.md`), so an "invalid price" error means a gate mismatch worth a bug report.
+6. **Core Web Vitals report:** check the mobile "Poor" group for `/artists/*` URLs first; large boards are the heaviest templates.
+7. **Export for the backlog:** a query × page export for the same window, which `BACKLOG.md` item 1.5 still needs for page-level ranking work.
+
 ## Cloudflare Pages configuration
 
 Production requires:

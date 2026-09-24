@@ -18,8 +18,8 @@ import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } fro
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
-import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
-import { deriveArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
+import { citySlug, deriveCities, findCity, normalizeCountry } from "./_cities.js";
+import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
@@ -523,7 +523,14 @@ async function routeForPath(pathname, env) {
     const cityMatch = path.match(/^\/cities\/([a-z0-9-]+)$/);
     if (!cityMatch) return null;
     const city = findCity(cityEvents, cityMatch[1]);
-    if (!city) return null;
+    if (!city) {
+      // A city we have tracked before but with nothing upcoming now: a
+      // permanent redirect to the cities index keeps the links and authority
+      // the page earned while it had dates, instead of a 404 that throws them
+      // away (owner-approved 2026-09-24). A slug we never tracked still 404s.
+      // `now: 0` counts every tracked date, past included.
+      return findCity(cityEvents, cityMatch[1], { now: 0 }) ? { type: "redirect", location: "/cities" } : null;
+    }
     const artistsMeta = await loadArtistsMeta(env);
     const yearLabel = cityYearLabel(city);
     // City names are not unique across countries — Birmingham, Manchester and
@@ -572,6 +579,8 @@ async function routeForPath(pathname, env) {
       ),
       description: cityMetaDescription(city, yearLabel),
       city,
+      // The H1 follows the same rule as the title (renderCityPageBody).
+      cityNameIsAmbiguous,
       events: cityEvents,
       indexableArtistSlugs: artistsMeta
         .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
@@ -607,7 +616,16 @@ async function routeForPath(pathname, env) {
     const venueMatch = path.match(/^\/venues\/([a-z0-9-]+)$/);
     if (!venueMatch) return null;
     const venue = findVenue(venueEvents, venueMatch[1]);
-    if (!venue) return null;
+    if (!venue) {
+      // Same rule as cities: a venue with only past tracked dates 301s, to its
+      // city page while that city still has upcoming dates, else the venues
+      // index. Never a redirect chain: both destinations render 200.
+      const pastVenue = findVenue(venueEvents, venueMatch[1], { now: 0 });
+      if (!pastVenue) return null;
+      const pastCitySlug = pastVenue.city ? citySlug(pastVenue.city, pastVenue.country) : "";
+      const liveCity = pastCitySlug ? deriveCities(venueEvents).find((candidate) => candidate.slug === pastCitySlug) : null;
+      return { type: "redirect", location: liveCity ? `/cities/${liveCity.slug}` : "/venues" };
+    }
     const artistsMeta = await loadArtistsMeta(env);
     return {
       type: "venue",
@@ -1702,9 +1720,12 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
           const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], show.artist_slug, 1)[0] : null;
           if (!fullShow) return "";
           const artistLabel = show.artist_name || show.artist_slug;
-          const detailsLink = (options.linkableArtistSlugs || indexableArtistSlugs).has(show.artist_slug)
-            ? anchor(`View ${artistLabel} date details`, `/artists/${show.artist_slug}#${showAnchorId(show)}`, "text-link")
-            : "";
+          const artistCityPath = options.artistCityPaths?.get(show.artist_slug);
+          const detailsLink = artistCityPath
+            ? anchor(`All ${artistLabel} dates in ${city.city}`, artistCityPath, "text-link")
+            : (options.linkableArtistSlugs || indexableArtistSlugs).has(show.artist_slug)
+              ? anchor(`View ${artistLabel} date details`, `/artists/${show.artist_slug}#${showAnchorId(show)}`, "text-link")
+              : "";
           return renderShowCardServerHtml(
             fullShow,
             options.seatGeekAvailable === true,
@@ -1725,6 +1746,32 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
       return `<article class="nested-panel"><h3>${venueHeading}</h3><div class="card-grid show-card-grid city-show-cards">${cards}</div></article>`;
     })
     .join("");
+}
+
+// artist slug -> path of that artist's indexable artist-city page for one city.
+// City and venue cards link it in preference to the artist page: it is the
+// page built for "<artist> tickets <city>", and until 2026-09-24 it was linked
+// only from artist pages and its sibling artist-city pages.
+//
+// Only artists actually playing this city or venue are candidates, and their
+// events are gathered in one pass over the dataset, so a location page costs
+// one scan plus a few tiny per-artist derivations — not one full scan per
+// indexable artist, which is what deriving across every artist costs.
+function indexableArtistCityPaths(events, targetCitySlug, linkableArtistSlugs, presentArtistSlugs = []) {
+  if (!targetCitySlug || !linkableArtistSlugs?.size || !Array.isArray(events)) return new Map();
+  const candidates = new Set((presentArtistSlugs || []).map((slug) => slugify(slug)).filter((slug) => linkableArtistSlugs.has(slug)));
+  if (!candidates.size) return new Map();
+  const byArtist = new Map([...candidates].map((slug) => [slug, []]));
+  for (const event of events) {
+    const slug = slugify(event?.artist_slug);
+    if (byArtist.has(slug)) byArtist.get(slug).push(event);
+  }
+  const paths = new Map();
+  for (const [slug, artistEvents] of byArtist) {
+    const match = deriveIndexableArtistCities(artistEvents, [slug]).find((artistCity) => artistCity.slug === targetCitySlug);
+    if (match) paths.set(slug, match.path);
+  }
+  return paths;
 }
 
 function cityForVenue(events, venue) {
@@ -1881,10 +1928,12 @@ function artistBoardModel(route, events, env) {
       hasPriceSnapshot: hasApprovedServerPriceSnapshot(show)
     };
   });
-  // Keep the zero-upcoming state concise. Past dates and their verification
-  // timestamps are not a substitute for current dates and can make an empty
-  // page sound like an active tour, so they are intentionally omitted here.
-  const pastShows = [];
+  // A board with no upcoming date shows the artist's most recent tracked
+  // dates, labelled as past (renderRecentShowsHtml). Restored 2026-09-24: a
+  // page that only says "no dates" reads as a soft 404 to search engines, and
+  // the last run's cities and venues are real, useful context for a fan
+  // waiting on the next one. Never shown beside upcoming dates.
+  const pastShows = shows.length ? [] : recentPastShowsForArtist(events, artist.slug, RECENT_PAST_SHOW_LIMIT);
   const model = {
     shows,
     pastShows,
@@ -2407,8 +2456,11 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
   return parts.join("");
 }
 
-function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}) {
+function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}, linkableArtistSlugs = null) {
   const venueRuns = venueRunIndex(venue.shows);
+  const artistCityPaths = venue.city
+    ? indexableArtistCityPaths(events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs, venue.artistSlugs)
+    : new Map();
   const eventsById = new Map(
     (Array.isArray(events) ? events : [])
       .filter((event) => event && event.id)
@@ -2441,7 +2493,11 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
         `View all ${group.name} dates and ticket options`,
         `/artists/${group.slug}`,
         "text-link"
-      )}</article>`;
+      )}${
+        artistCityPaths.has(group.slug)
+          ? ` · ${anchor(`${group.name} in ${venue.city}`, artistCityPaths.get(group.slug), "text-link")}`
+          : ""
+      }</article>`;
     })
     .join("");
 }
@@ -2479,7 +2535,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
   const shell = (body) =>
     `<main id="mainContent"><section class="content-page city-page" aria-labelledby="cityTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="cityTitle">Concerts in ${escapeHtml(city.city)}${
+    )}<h1 id="cityTitle">Concerts in ${escapeHtml(route.cityNameIsAmbiguous ? `${city.city}, ${city.country}` : city.city)}${
       yearLabel ? `: ${escapeHtml(yearLabel)} dates and venues` : ""
     }</h1>${body}${renderLocationProvenance("Report an incorrect date", city.lastmod)}</section></main>`;
 
@@ -2508,7 +2564,16 @@ export function renderCityPageBody(route, events = [], options = {}) {
       events,
       indexableArtistSlugs,
       indexableVenueSlugs,
-      route.linkableArtistSlugs ? { ...options, linkableArtistSlugs: new Set(route.linkableArtistSlugs) } : options
+      {
+        ...options,
+        ...(route.linkableArtistSlugs ? { linkableArtistSlugs: new Set(route.linkableArtistSlugs) } : {}),
+        artistCityPaths: indexableArtistCityPaths(
+          events,
+          city.slug,
+          new Set(route.linkableArtistSlugs || route.indexableArtistSlugs || []),
+          city.artistSlugs
+        )
+      }
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
       city.city
     )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
@@ -2755,7 +2820,7 @@ function renderComparisonHubEventCards(events = [], env = {}) {
         ctaLocation: "comparison_hub"
       })).join("");
       const ctas = ctaSpecs.length
-        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`
+        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}`
         : `<p class="disclosure-note">No checked provider link is currently available for this date.</p>`;
       return `<article class="info-card show-card" data-event-id="${escapeAttr(show.id)}"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p>${ctas}${anchor("View artist page", `/artists/${show.artist_slug}`, "text-link")}</article>`;
     })
@@ -3245,6 +3310,7 @@ function enrichEventAsShow(ev) {
     verification_status: String(ev.verification_status || "").trim(),
     provider_links: ev.provider_links && typeof ev.provider_links === "object" ? ev.provider_links : {},
     prices: Array.isArray(ev.prices) ? ev.prices : [],
+    priceChecks: ev.priceChecks && typeof ev.priceChecks === "object" ? ev.priceChecks : null,
     publishable: eventLinkPublishable(ev),
     seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
     vividseatsPublishable: providerEventPublishable(ev, "vivid-seats"),
@@ -3270,6 +3336,8 @@ function futureShowsForArtist(events, artistSlug, limit = Infinity) {
 // board so a page with no confirmed upcoming date still surfaces the artist's
 // last verified tour footprint (factual venue/city/date only — no CTAs or
 // prices). Same publishable gate as the upcoming board; expired dates only.
+const RECENT_PAST_SHOW_LIMIT = 10;
+
 function recentPastShowsForArtist(events, artistSlug, limit = 3) {
   const now = Date.now();
   const slug = slugify(artistSlug);
@@ -3417,9 +3485,12 @@ function showDatePartsServer(iso, timezone) {
 // Keep in sync with eventLinkPublishable in public/app.js and
 // functions/api/out.js.
 // A date Ticketmaster lists as not yet on sale, with a future public on-sale
-// time (`public_onsale_at`, verbatim from Discovery), is shown with no ticket
-// button of any kind until that moment (publicOnsalePending, shared with the
-// route gates in _route-indexability.js). Keep in sync with public/app.js.
+// time (`public_onsale_at`, verbatim from Discovery), shows that time and no
+// Ticketmaster button until that moment (publicOnsalePending, shared with the
+// route gates in _route-indexability.js). Since 2026-09-24 (owner-approved)
+// resale lanes with their own verified exact-event provenance still render:
+// resale marketplaces list before a public on-sale, and /api/out has never
+// gated on it. Keep in sync with public/app.js.
 function publicOnsaleLabel(event) {
   const at = new Date(String(event?.public_onsale_at || ""));
   let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";
@@ -3444,7 +3515,9 @@ function eventLinkPublishable(event) {
 // validator; no manual status flip is required. Keep in sync with
 // providerEventPublishable in functions/api/out.js and public/app.js.
 function providerEventPublishable(event, provider) {
-  if (publicOnsalePending(event)) return false;
+  // Before the public on-sale only a resale lane verified for this exact event
+  // publishes; Ticketmaster and the unverified fallbacks wait for the on-sale.
+  if (publicOnsalePending(event)) return provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true;
   if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
     return event?.provider_links?.[provider]?.verified === true;
   }
@@ -3741,6 +3814,62 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
 const PRICE_UNAVAILABLE_NOTE =
   "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
 
+// A price check older than this is not quoted: "no listed price at our last
+// check" is only useful while that check is recent enough to still describe
+// the listing. Past it the card falls back to the undated note. Sized above
+// the 24h display window so a day of dropped writer ticks does not flip every
+// card back at once.
+const PRICE_CHECK_QUOTE_MAX_HOURS = 36;
+
+// The lanes that supply listed-price snapshots today: numeric price feed,
+// display flag on (wrangler.toml [vars]) and a scheduled writer. Ticket
+// Liquidator links but does not price; SeatGeek and Ticketmaster never price.
+// Update with the display flags if a lane is added or withdrawn.
+const LISTED_PRICE_PROVIDERS = Object.freeze([
+  Object.freeze({ slug: "vivid-seats", name: "Vivid Seats" }),
+  Object.freeze({ slug: "ticketnetwork", name: "TicketNetwork" }),
+  Object.freeze({ slug: "stubhub-international", name: "StubHub International" })
+]);
+
+function joinProviderNames(names) {
+  if (names.length <= 1) return names.join("");
+  return `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
+}
+
+// Why a checked card has no price, stated as specifically as the server can
+// establish it — never as a claim about availability.
+//
+//   1. It has a button on a price-comparison lane and that lane recorded a
+//      recent check: name the lanes and the check time.
+//   2. It has such a button but no recorded check: the undated note.
+//   3. Its record is not verified on any lane that supplies prices
+//      (Ticketmaster or SeatGeek only): say so, so the missing price reads as
+//      coverage rather than as a fault.
+function priceUnavailableNote(ctaSpecs, show, now = Date.now()) {
+  const buttonWord = ctaSpecs.length === 1 ? "the button above" : "the provider buttons above";
+  const priceLaneSpecs = ctaSpecs.filter((spec) => LISTED_PRICE_PROVIDERS.some((lane) => lane.slug === spec.provider));
+  // "Not matched" is a statement about the event record, not about which
+  // buttons rendered: a lane can be verified yet hidden by runtime config, and
+  // that date is matched. Only a record with no verified price-lane mapping at
+  // all gets the unmatched wording.
+  const mappedOnPriceLane = LISTED_PRICE_PROVIDERS.some((lane) => show?.provider_links?.[lane.slug]?.verified === true);
+  if (!priceLaneSpecs.length && mappedOnPriceLane) return PRICE_UNAVAILABLE_NOTE;
+  if (!priceLaneSpecs.length) {
+    const sources = joinProviderNames(LISTED_PRICE_PROVIDERS.map((lane) => lane.name));
+    return `No listed-price snapshot for this date: it isn't matched yet on the sites we collect prices from (${sources}). Check current prices using ${buttonWord}.`;
+  }
+  const checks = show?.priceChecks && typeof show.priceChecks === "object" ? show.priceChecks : {};
+  const recent = priceLaneSpecs
+    .map((spec) => ({ name: spec.name, at: Date.parse(String(checks[spec.provider] || "")) }))
+    .filter((entry) => Number.isFinite(entry.at) && entry.at <= now + 300000 && now - entry.at <= PRICE_CHECK_QUOTE_MAX_HOURS * 3600000);
+  if (!recent.length) return PRICE_UNAVAILABLE_NOTE;
+  const latest = new Date(Math.max(...recent.map((entry) => entry.at))).toISOString();
+  const when = formatServerSnapshotTime(latest);
+  if (!when) return PRICE_UNAVAILABLE_NOTE;
+  const checkedLanes = joinProviderNames(recent.map((entry) => entry.name));
+  return `No listed price at our last check of ${checkedLanes} (${when}). Check current prices using ${buttonWord}.`;
+}
+
 // Did this card's price lanes actually get queried? attachApprovedMarketplacePrices
 // returns one entry per approved lane (including the unavailable ones), while
 // enrichEventAsShow defaults the field to an empty array — so "has entries", not
@@ -3762,11 +3891,11 @@ function pricesWereChecked(show) {
 // server never established, so an unchecked card renders no note at all and
 // client hydration fills it in.
 // Keep in sync with renderShowCardPriceNotes in public/app.js.
-function renderServerPriceNotes(ctaSpecs, pricesChecked = false) {
+function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
     return pricesChecked && ctaSpecs.length
-      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(PRICE_UNAVAILABLE_NOTE)}</p></div>`
+      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(priceUnavailableNote(ctaSpecs, show))}</p></div>`
       : "";
   }
   const snapshotTimes = priced
@@ -3869,16 +3998,19 @@ function renderPriceHistoryPanelHtml(artistSlug, showId) {
   const safeShowId = escapeAttr(String(showId || "").trim());
   if (!safeArtist || !safeShowId) return "";
   const panelId = `price-history-panel-${slugify(showId)}`;
+  // The panel stays empty until public/price-history.js opens it, fetches the
+  // history and clones the page's one interest form into it
+  // (PRICE_ALERT_INTEREST_TEMPLATE). It cannot open without JavaScript.
   return `<div class="price-history" data-price-history="${safeShowId}" data-price-history-artist="${safeArtist}"><button type="button" class="price-history-toggle" data-price-history-toggle aria-expanded="false" aria-controls="${escapeAttr(
     panelId
-  )}">Show price snapshot history</button><div class="price-history-panel" id="${escapeAttr(
-    panelId
-  )}" data-price-history-panel hidden><form class="price-alert-interest" method="post" action="/api/signup" data-price-alert-interest="${safeArtist}" data-event-id="${safeShowId}"><p class="muted">Want an email if this price drops? We don't send price emails yet — leave an address to register interest and help us decide whether to build alerts.</p><div class="price-alert-interest-row"><label class="sr-only" for="price-alert-email-${escapeAttr(
-    slugify(showId)
-  )}">Email address</label><input type="email" id="price-alert-email-${escapeAttr(
-    slugify(showId)
-  )}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></div></div>`;
+  )}">Show price snapshot history</button><div class="price-history-panel" id="${escapeAttr(panelId)}" data-price-history-panel hidden></div></div>`;
 }
+
+// One copy of the price-drop interest form per page, cloned into a card's
+// history panel on first open (public/price-history.js sets its artist, event
+// and input id). Rendering it inside every card cost ~1.3 KB and ten elements
+// per card — 116 KB on an 84-date board — for a form almost nobody opens.
+const PRICE_ALERT_INTEREST_TEMPLATE = `<template id="price-alert-interest-template"><form class="price-alert-interest" method="post" action="/api/signup" data-price-alert-interest="" data-event-id=""><p class="muted">Want an email if this price drops? We don't send price emails yet — leave an address to register interest and help us decide whether to build alerts.</p><div class="price-alert-interest-row"><label class="sr-only" for="price-alert-email">Email address</label><input type="email" id="price-alert-email" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></template>`;
 
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}, presentation = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
@@ -3889,7 +4021,20 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.</p>`;
   } else if (publicOnsalePending(show)) {
-    ctaHtml = `<p class="disclosure-note" data-public-onsale>${escapeHtml(publicOnsaleLabel(show))}</p>`;
+    // Verified resale lanes render with the on-sale time stated above them;
+    // with none, the card keeps only that statement.
+    const ctaSpecs = show.id ? serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }) : [];
+    const onsaleHtml = `<p class="disclosure-note" data-public-onsale>${escapeHtml(publicOnsaleLabel(show))}${ctaSpecs.length ? " Until then, these are resale listings, which can sit above face value." : ""}</p>`;
+    if (ctaSpecs.length) {
+      const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: "event_card" };
+      const buttonsHtml = ctaSpecs
+        .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
+        .join("");
+      const historyHtml = hasApprovedServerPriceSnapshot(show) ? renderPriceHistoryPanelHtml(artistSlug, show.id) : "";
+      ctaHtml = `${onsaleHtml}<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p><div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
+    } else {
+      ctaHtml = onsaleHtml;
+    }
   } else if (show.id) {
     const ctaSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
     if (ctaSpecs.length) {
@@ -3906,7 +4051,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const historyHtml = hasApprovedServerPriceSnapshot(show)
         ? renderPriceHistoryPanelHtml(artistSlug, show.id)
         : "";
-      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}${historyHtml}`;
+      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
     }
   }
 
@@ -4947,7 +5092,12 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     '<script src="/shell.js?v=20260901b" defer></script>'
   );
   if (route.type === "artist" || route.type === "artist-city") {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260821a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924a" defer></script></body>');
+  }
+  // Any page with a price-history panel (artist, artist-city, city, venue,
+  // comparison hub) gets the form template and the module that opens panels.
+  if (next.includes("data-price-history=")) {
+    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20260924a" defer></script></body>`);
   }
   if (route.path === "/currency-converter") {
     next = next.replace("</body>", '<script src="/currency-converter.js?v=20260821a" defer></script></body>');
@@ -5231,7 +5381,7 @@ export async function onRequest(context) {
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let priceLowSeries = new Map();
   let renderEvents = events;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -5248,9 +5398,16 @@ export async function onRequest(context) {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
       priceCandidates = futureShowsForArtist(events, route.artist.slug)
         .filter((show) => cityShowIds.has(String(show.id || "")));
-    } else if (route.type === "venue") {
+    } else if (route.type === "venue" || route.type === "city") {
+      // City pages render the same show cards as venue pages, from the same
+      // renderEvents, so they are priced the same way. Until 2026-09-24 the
+      // city route was missing from this list, so every city card read
+      // "Check prices" even where its venue page showed the snapshot.
+      const locationShowIds = new Set(
+        ((route.type === "venue" ? route.venue : route.city)?.shows || []).map((show) => String(show?.id || ""))
+      );
       priceCandidates = events
-        .filter((event) => route.venue?.shows?.some((show) => String(show?.id || "") === String(event?.id || "")))
+        .filter((event) => locationShowIds.has(String(event?.id || "")))
         .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
         .filter(Boolean);
     } else {
@@ -5260,7 +5417,10 @@ export async function onRequest(context) {
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {
       const priced = pricedById.get(String(event?.id || ""));
-      return priced ? { ...event, prices: Array.isArray(priced.prices) ? priced.prices : [] } : event;
+      if (!priced) return event;
+      const next = { ...event, prices: Array.isArray(priced.prices) ? priced.prices : [] };
+      if (priced.priceChecks) next.priceChecks = priced.priceChecks;
+      return next;
     });
     // The recorded low reads provider_pricing_history, which the cache attach
     // above never touches. Artist-city only — it is the one surface that renders

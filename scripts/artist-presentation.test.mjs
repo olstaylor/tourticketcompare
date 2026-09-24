@@ -38,14 +38,22 @@ const split = splitArtistsByUpcoming(artists, events, NOW);
 assert(split.primary.map((artist) => artist.slug).join(",") === "active-artist,returning-artist", "primary section contains only future-date artists in catalog order");
 assert(split.secondary.map((artist) => artist.slug).join(",") === "past-artist,empty-artist", "secondary section contains every artist without a future date");
 
-// Empty artist pages remain durable and indexable when their editorial record
-// is indexable; the old dynamic noindex gate must not return.
-assert(artistPageIndexable("indexable_with_substantial_content", [], "empty-artist", NOW), "editorially indexable empty artist page remains indexable");
+// Owner-approved 2026-09-24: an owner-promoted artist is indexable once it has
+// any tracked date, upcoming or past. A finished tour keeps the page indexed
+// (it shows the tour history); a page that has never carried a date is
+// noindex until one lands, because "no dates" alone reads as a soft 404.
+assert(!artistPageIndexable("indexable_with_substantial_content", [], "empty-artist", NOW), "an artist that has never had a tracked date is noindex");
+assert(
+  artistPageIndexable("indexable_with_substantial_content", [{ artist_slug: "past-only", datetime_iso: "2020-01-01T00:00:00Z" }], "past-only", NOW),
+  "an artist whose tracked dates are all past stays indexable"
+);
+assert(artistPageIndexable("indexable_with_substantial_content", [], undefined, NOW), "a status-only caller with no slug cannot be counted and keeps the editorial verdict");
 assert(!artistPageIndexable("review_required", [], "empty-artist", NOW), "review-required artist remains non-indexable");
 
 // An owner-promoted record (no promotion_source) keeps the durable rule.
 const indexable = "indexable_with_substantial_content";
-assert(artistPageIndexable({ slug: "empty-artist", indexing_status: indexable }, [], undefined, NOW), "owner-promoted empty artist record remains indexable");
+assert(!artistPageIndexable({ slug: "empty-artist", indexing_status: indexable }, [], undefined, NOW), "an owner-promoted record with no tracked date is noindex");
+assert(artistPageIndexable({ slug: "empty-artist", indexing_status: indexable }, [{ artist_slug: "empty-artist", datetime_iso: "2020-01-01T00:00:00Z" }], undefined, NOW), "an owner-promoted record with only past dates stays indexable");
 assert(!artistPageIndexable({ slug: "empty-artist", indexing_status: "review_required", promotion_source: "auto" }, [], undefined, NOW), "an auto-promoted shell is never indexable");
 
 // An auto-promoted artist is indexable only with at least three upcoming dates.

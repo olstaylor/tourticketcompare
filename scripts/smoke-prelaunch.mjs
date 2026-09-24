@@ -1818,7 +1818,7 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260821a"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260924a"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
 assert(converterAssets.text.includes("/currency-converter.js?v=20260821a"), "currency converter must load its route module");
@@ -3227,7 +3227,9 @@ if (fullyPricedBoard.response.status === 200) {
   const cardsWithButtons = boardCards.filter((card) => card.includes('class="provider-cta-group"'));
   const silentCards = cardsWithButtons.filter(
     (card) =>
-      !card.includes("No listed-price snapshot is available for this date.") &&
+      // Any of the three unavailable notes (priceUnavailableNote) counts: the
+      // undated one, the unmatched one, or the dated "at our last check" one.
+      !/No listed-price snapshot (is available|for this date)|No listed price at our last check/.test(card) &&
       !card.includes("provider-cta-price")
   );
   assert(cardsWithButtons.length > 6, "the coverage check needs a board longer than the old six-show slice to be meaningful");
@@ -3251,12 +3253,25 @@ assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURICom
 
 console.log("indexable artist verification passed for bruno-mars");
 
-// Editorially-indexable artist with zero upcoming events (Beyoncé) keeps its
-// durable URL and renders a concise, truthful empty state. A future event will
-// move it back into the primary artist section automatically.
+// Editorially-indexable artist that has never had a tracked date (Beyoncé)
+// keeps its URL and a concise, truthful empty state, but is noindex,follow
+// until its first date lands (owner-approved 2026-09-24: a page that only says
+// "no dates" reads as a soft 404). An artist whose tour has ended stays
+// indexed and shows that tour's recent dates instead.
 const beyonceEmptyStatePage = await routeResponse("/artists/beyonce");
 assert(beyonceEmptyStatePage.response.status === 200, "/artists/beyonce must return 200");
-assert(/<meta name="robots" content="index,follow/.test(beyonceEmptyStatePage.text), "/artists/beyonce (zero upcoming shows) must remain indexable");
+assert(/<meta name="robots" content="noindex,follow/.test(beyonceEmptyStatePage.text), "/artists/beyonce (never a tracked date) must be noindex,follow");
+{
+  // An ended tour, made deterministic against this suite's pinned clock: move
+  // every Bruno Mars date into the past. The page must stay index,follow and
+  // list those dates as recent, past shows rather than an empty board.
+  const endedTourEvents = events.map((event) =>
+    event?.artist_slug === "bruno-mars" ? { ...event, datetime_iso: "2025-06-01T01:00:00Z", public_onsale_at: "" } : event
+  );
+  const pastTourPage = await routeResponse("/artists/bruno-mars", envWithEventsJson(JSON.stringify(endedTourEvents)));
+  assert(/<meta name="robots" content="index,follow/.test(pastTourPage.text), "an artist whose tracked dates are all past stays indexable");
+  assert(pastTourPage.text.includes('class="recent-shows"'), "an ended tour's board lists its recent dates, labelled as past");
+}
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];
@@ -3627,7 +3642,7 @@ assert(
   "an artist page must keep the bare artist canonical"
 );
 assert(/<meta name="robots" content="index,follow/.test(manyBoard.html), "an artist page with upcoming dates should be indexable");
-assert(/<meta name="robots" content="index,follow/.test(beyonceEmptyStatePage.text), "an empty artist board must remain indexable");
+assert(/<meta name="robots" content="noindex,follow/.test(beyonceEmptyStatePage.text), "an artist board that has never had a date is noindex,follow");
 const manyGraph = JSON.parse(manyBoard.html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
 const manyMusicEvents = manyGraph["@graph"].filter((node) => node["@type"] === "MusicEvent");
 assert(manyMusicEvents.length > 0, "an indexable artist page should emit MusicEvent structured data");

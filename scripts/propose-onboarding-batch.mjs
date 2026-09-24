@@ -108,8 +108,9 @@ async function lookupSeatGeekPerformer(name, credentials) {
   const performers = Array.isArray(data?.performers) ? data.performers : [];
   const exact = performers.filter((p) => exactNameMatch(name, p?.name) && !COLLISION_PATTERN.test(String(p?.name || '')));
   if (!exact.length) return { match: null, candidates: performers.slice(0, 5).map((p) => ({ id: p.id, name: p.name })) };
-  // Highest score first when several exact matches exist (rare).
-  exact.sort((a, b) => (b?.score || 0) - (a?.score || 0));
+  // Two exact-name performers are ambiguous: never pick one by score, which can
+  // reorder between calls. The row is excluded and a human resolves it.
+  if (exact.length > 1) return { match: null, ambiguous: true, candidates: exact.slice(0, 5).map((x) => ({ id: x.id, name: x.name })) };
   const p = exact[0];
   const url = typeof p?.url === 'string' && /^https:\/\/(www\.)?seatgeek\.com\//i.test(p.url) ? p.url : null;
   if (!p?.id || !url) return { match: null, candidates: exact.slice(0, 5).map((x) => ({ id: x.id, name: x.name })) };
@@ -279,7 +280,13 @@ function buildRow(name, existingSlugs, sg, tm) {
     return { name, exclusion: 'name matches the collision pattern (tribute/parking/etc.) — never onboard automatically' };
   }
   if (!sg?.match) {
-    return { name, exclusion: 'no exact-name SeatGeek performer match — identity unresolved', seatgeek_candidates: sg?.candidates || [] };
+    return {
+      name,
+      exclusion: sg?.ambiguous
+        ? 'more than one exact-name SeatGeek performer — identity ambiguous'
+        : 'no exact-name SeatGeek performer match — identity unresolved',
+      seatgeek_candidates: sg?.candidates || []
+    };
   }
   const slug = slugify(sg.match.api_name);
   if (!slug) return { name, exclusion: 'could not derive a slug from the API name' };
@@ -354,6 +361,7 @@ function selfTest() {
 
   const existing = new Set(['bruno-mars']);
   const sgMatch = { match: { performer_id: 1, api_name: 'New Artist', url: 'https://seatgeek.com/new-artist-tickets', num_upcoming_events: 5, score: 0.7 }, candidates: [] };
+  ok('ambiguous SeatGeek identity is excluded, not guessed', /ambiguous/.test(buildRow('Twin', new Set(), { match: null, ambiguous: true, candidates: [{ id: 1 }, { id: 2 }] }, null).exclusion));
   ok('existing slug is excluded', buildRow('Bruno Mars', existing, { match: { performer_id: 6148, api_name: 'Bruno Mars', url: 'https://seatgeek.com/bruno-mars-tickets', num_upcoming_events: 1, score: 1 } }, null).exclusion !== null);
   ok('unresolved identity is excluded', buildRow('Somebody', existing, { match: null, candidates: [] }, null).exclusion !== null);
   const row = buildRow('New Artist', existing, sgMatch, null);

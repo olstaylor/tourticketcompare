@@ -15,6 +15,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { evaluateCandidate, applyPlans } from "./promote-artists-batch.mjs";
+import { normalizeName } from "./lib/artist-screen.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const P = {
@@ -99,12 +100,34 @@ export function outChangeIsAdditionsOnly(oldSource, newSource) {
   return after[1].startsWith(before[1]) && (added === "" || /^,\n/.test(added)) && !/[-]{2}|delete|\bverified:\s*false/.test(added);
 }
 
-export function planRun(manifest, data, today) {
+/** The provider records this job re-fetched by id must equal what the screen captured (D1). */
+export function recaptureProblems(row, recaptured = {}) {
+  const problems = [];
+  const sg = recaptured.seatgeek;
+  const tm = recaptured.ticketmaster;
+  if (!sg || String(sg.id) !== String(row.seatgeek?.performer_id) || sg.url !== row.seatgeek?.url || normalizeName(sg.name) !== normalizeName(row.name)) {
+    problems.push("D1: SeatGeek performer did not recapture identically by id");
+  }
+  if (!tm || String(tm.id) !== String(row.ticketmaster?.attraction_id) || normalizeName(tm.name) !== normalizeName(row.name)) {
+    problems.push("D1: Ticketmaster attraction did not recapture identically by id");
+  }
+  return problems;
+}
+
+const autoProvenance = (today) => (plan) =>
+  `Auto-promoted ${today} (sanctioned path D): SeatGeek performer ${plan.sgId} and Ticketmaster attraction ${plan.tmId} captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check.`;
+
+export function planRun(manifest, data, today, recaptured = new Map()) {
   const promoted = [];
   const held = [];
   let quota = remainingQuota(data.artists, today);
   for (const row of manifest.artists || []) {
-    if (row.exclusion || !row.screen?.eligible) continue;
+    // Every row the job looked at is accounted for, so a same-job screen
+    // failure is visible in the PR summary and the candidates issue.
+    if (row.exclusion) { held.push({ slug: row.slug || row.name, reasons: [row.exclusion] }); continue; }
+    if (!row.screen?.eligible) { held.push({ slug: row.slug, reasons: row.screen?.reasons?.length ? row.screen.reasons : ["not screened"] }); continue; }
+    const recapture = recaptureProblems(row, recaptured.get(row.slug));
+    if (recapture.length) { held.push({ slug: row.slug, reasons: recapture }); continue; }
     if (quota <= 0) { held.push({ slug: row.slug, reasons: ["daily/weekly cap reached"] }); continue; }
     const shell = shellRecords(row, row.screen.seo_title);
     const problems = shellProblems(shell.catalogArtist, data.catalog);
@@ -121,13 +144,32 @@ export function planRun(manifest, data, today) {
       held.push({ slug: row.slug, reasons: evaluation.reasons });
       continue;
     }
-    const applied = applyPlans([evaluation.plan], data);
+    const applied = applyPlans([evaluation.plan], { ...data, provenanceNote: autoProvenance(today) });
     data.outSource = applied.outSource;
     Object.assign(evaluation.plan.artist, { promotion_source: "auto", auto_promoted_at: today });
     promoted.push({ slug: row.slug, name: row.name, seo_title: row.screen.seo_title, providers: evaluation.plan.providers });
     quota -= 1;
   }
   return { promoted, held };
+}
+
+// Re-fetch both provider records by the ids the screen captured. Any failure
+// leaves the record missing, so recaptureProblems holds the candidate.
+async function recaptureById(row) {
+  const get = async (url) => {
+    try {
+      const res = await fetch(url, { headers: { Accept: "application/json" } });
+      return res.ok ? await res.json() : null;
+    } catch {
+      return null;
+    }
+  };
+  const sgParams = new URLSearchParams({ client_id: process.env.SEATGEEK_CLIENT_ID || "" });
+  if (process.env.SEATGEEK_CLIENT_SECRET) sgParams.set("client_secret", process.env.SEATGEEK_CLIENT_SECRET);
+  const tmParams = new URLSearchParams({ apikey: process.env.TICKETMASTER_API_KEY || "" });
+  const sg = await get(`https://api.seatgeek.com/2/performers/${encodeURIComponent(row.seatgeek?.performer_id)}?${sgParams}`);
+  const tm = await get(`https://app.ticketmaster.com/discovery/v2/attractions/${encodeURIComponent(row.ticketmaster?.attraction_id)}.json?${tmParams}`);
+  return { seatgeek: sg && { id: sg.id, name: sg.name, url: sg.url }, ticketmaster: tm && { id: tm.id, name: tm.name } };
 }
 
 async function main(argv) {
@@ -146,7 +188,11 @@ async function main(argv) {
   };
   const today = new Date().toISOString().slice(0, 10);
   const data = { artists, catalog, registry, outSource, allowedHosts };
-  const result = planRun(manifest, data, today);
+  const recaptured = new Map();
+  for (const row of (manifest.artists || []).filter((r) => !r.exclusion && r.screen?.eligible)) {
+    recaptured.set(row.slug, await recaptureById(row));
+  }
+  const result = planRun(manifest, data, today, recaptured);
   for (const p of result.promoted) console.log(`  + ${p.slug} (${p.providers.join(", ")}) · ${p.seo_title}`);
   for (const h of result.held) console.log(`  - ${h.slug}: held (${h.reasons.join("; ")})`);
   if (arg("--json")) await fs.writeFile(arg("--json"), `${JSON.stringify(result, null, 2)}\n`);
@@ -176,9 +222,18 @@ function selfTest() {
     artists: [], catalog: { artists: [], ticket_links: [] }, registry: { artists: [] }, outSource: out,
     allowedHosts: { seatgeek: ["seatgeek.com"], ticketmaster: ["ticketmaster.com"] },
   });
+  const same = (r) => ({ seatgeek: { id: r.seatgeek.performer_id, name: r.name, url: r.seatgeek.url }, ticketmaster: { id: r.ticketmaster.attraction_id, name: r.name } });
+  const recap = (...rows) => new Map(rows.map((r) => [r.slug, same(r)]));
   const d = data();
-  const run = planRun({ artists: [row("one"), row("held", { screen: { eligible: false } }), row("two")] }, d, "2026-10-01");
-  check(run.promoted.map((p) => p.slug).join() === "one,two", "screen-passing rows are promoted, others skipped");
+  const heldRow = row("held", { screen: { eligible: false, reasons: ["D3: primary-attraction share 43% (< 80%)"] } });
+  const run = planRun({ artists: [row("one"), heldRow, { name: "Nobody", exclusion: "no exact-name SeatGeek performer match" }, row("two")] }, d, "2026-10-01", recap(row("one"), row("two")));
+  check(run.promoted.map((p) => p.slug).join() === "one,two", "screen-passing rows are promoted");
+  check(run.held.some((h) => h.slug === "held" && /D3/.test(h.reasons[0])) && run.held.some((h) => h.slug === "Nobody"), "screen failures and exclusions are reported as held");
+  check(/sanctioned path D/.test(d.registry.artists[0]?.notes) && !/human batch spot-check/.test(d.registry.artists[0]?.notes), "registry provenance records the automated checks, not a human spot-check");
+  const moved = planRun({ artists: [row("four")] }, data(), "2026-10-01", new Map([["four", { ...same(row("four")), seatgeek: { id: 99, name: "FOUR", url: "https://seatgeek.com/four-tickets" } }]]));
+  check(!moved.promoted.length && /SeatGeek performer did not recapture/.test(moved.held[0]?.reasons[0]), "a SeatGeek id that does not recapture holds the candidate");
+  const unreached = planRun({ artists: [row("five")] }, data(), "2026-10-01");
+  check(!unreached.promoted.length && unreached.held[0]?.reasons.length === 2, "no recapture at all holds the candidate");
   const one = d.artists.find((a) => a.slug === "one");
   check(one.promotion_source === "auto" && one.auto_promoted_at === "2026-10-01" && one.indexing_status === "indexable_with_substantial_content", "promoted record is marked auto");
   check(d.outSource.includes('"one:seatgeek"') && d.outSource.includes('"two:ticketmaster"'), "out.js gains VERIFIED_TICKET_LINKS entries");
@@ -188,7 +243,8 @@ function selfTest() {
   const summary = d.catalog.artists[0].factual_summary;
   check(summary === "ONE is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.", "shell copy states only API facts");
   check(!/\d{4}|born|album|award/i.test(JSON.stringify(d.catalog.artists[0])), "shell copy carries no biographical claim");
-  const dupe = planRun({ artists: [row("three", { screen: { eligible: true, seo_title: d.catalog.artists[0].seo_title } })] }, d, "2026-10-01");
+  const dupeRow = row("three", { screen: { eligible: true, seo_title: d.catalog.artists[0].seo_title } });
+  const dupe = planRun({ artists: [dupeRow] }, d, "2026-10-01", recap(dupeRow));
   check(dupe.held[0]?.reasons.includes("D5: title already used"), "a duplicate title holds the candidate");
   const full = { artists: Array.from({ length: 5 }, (_, i) => ({ slug: `s${i}`, promotion_source: "auto", auto_promoted_at: "2026-10-01" })) };
   check(remainingQuota(full.artists, "2026-10-01") === 0 && remainingQuota(full.artists, "2026-10-02") === 5, "5 per day");

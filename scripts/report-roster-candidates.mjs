@@ -11,7 +11,7 @@ import { readFileSync } from "node:fs";
 
 export const LABEL = "automation:roster-candidates";
 
-export function renderCandidates(manifest) {
+export function renderCandidates(manifest, run = null) {
   const rows = manifest.artists || [];
   const pass = rows.filter((r) => r.screen?.eligible);
   const held = rows.filter((r) => !r.screen?.eligible);
@@ -29,6 +29,17 @@ export function renderCandidates(manifest) {
     `### Not matched (${(manifest.excluded || []).length})`,
     (manifest.excluded || []).map((r) => `- ${r.name}: ${r.exclusion}`).join("\n") || "None.",
   ];
+  // The auto-promote job's own verdict, when it published this issue.
+  if (run) {
+    lines.push(
+      "",
+      `### Auto-promoted this run (${run.promoted.length})`,
+      run.promoted.map((p) => `- **${p.name || p.slug}** (\`${p.slug}\`) · ${p.seo_title}`).join("\n") || "None.",
+      "",
+      `### Held by the auto-promote run (${run.held.length})`,
+      run.held.map((h) => `- \`${h.slug}\`: ${h.reasons.join("; ")}`).join("\n") || "None.",
+    );
+  }
   return lines.join("\n");
 }
 
@@ -43,7 +54,9 @@ async function gh(method, path, body) {
 }
 
 async function main(manifestPath) {
-  const body = renderCandidates(JSON.parse(readFileSync(manifestPath, "utf8")));
+  const runIndex = process.argv.indexOf("--run");
+  const run = runIndex === -1 ? null : JSON.parse(readFileSync(process.argv[runIndex + 1], "utf8"));
+  const body = renderCandidates(JSON.parse(readFileSync(manifestPath, "utf8")), run);
   if (process.argv.includes("--dry-run")) return console.log(body);
   const open = await gh("GET", `/issues?state=open&labels=${encodeURIComponent(LABEL)}`);
   if (open[0]) await gh("PATCH", `/issues/${open[0].number}`, { body });
@@ -60,13 +73,16 @@ function selfTest() {
     ],
     excluded: [{ name: "Journey", exclusion: "no exact-name SeatGeek performer match — identity unresolved" }],
   });
-  const ok = body.includes("### Pass the screen (1)") && body.includes("**Avery Anna** (`avery-anna`): D3") && body.includes("- Journey: no exact-name");
+  const withRun = renderCandidates({ generated_at: "2026-09-24", artists: [], excluded: [] }, { promoted: [], held: [{ slug: "kenny-chesney", reasons: ["D1: SeatGeek performer did not recapture identically by id"] }] });
+  const ok = body.includes("### Pass the screen (1)") && body.includes("**Avery Anna** (`avery-anna`): D3") && body.includes("- Journey: no exact-name")
+    && withRun.includes("### Held by the auto-promote run (1)") && withRun.includes("`kenny-chesney`: D1: SeatGeek");
   console.log(`[roster-candidates] self-test: ${ok ? "all assertions passed" : "FAILED"}`);
   return ok ? 0 : 1;
 }
 
 if (process.argv.includes("--self-test")) process.exit(selfTest());
-const manifestPath = process.argv.slice(2).find((a) => !a.startsWith("--"));
+const argv = process.argv.slice(2);
+const manifestPath = argv.find((a, i) => !a.startsWith("--") && argv[i - 1] !== "--run");
 if (!manifestPath) {
   console.error("usage: report-roster-candidates.mjs <manifest.json> [--dry-run]");
   process.exit(2);

@@ -225,6 +225,16 @@ function exactPrice(candidates, externalId) {
   return [...distinct.values()][0];
 }
 
+// Why exactPrice() returned nothing, for the price-check record: only a lookup
+// with no priced candidate for this exact event is "no_price". Conflicting
+// prices or rows under the floor are "unusable" — the provider did list a
+// price, so the router must not say it listed none.
+function checkOutcome(candidates, externalId, price) {
+  if (price) return "priced";
+  const priced = candidates.some((candidate) => candidate.externalId === externalId && candidate.price != null);
+  return priced ? "unusable" : "no_price";
+}
+
 function buildRow(config, item, price, now, freshnessHours) {
   return {
     id: `${config.slug}:${item.id}`,
@@ -314,10 +324,20 @@ async function writePriceChecks(checks, checkedAt, options, deps = {}) {
   const exec = deps.execFile || execFileAsync;
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "ttc-impact-price-checks-"));
   const file = path.join(dir, "price-checks.sql");
+  const sleep = deps.sleep || ((ms) => new Promise((resolve) => setTimeout(resolve, ms)));
   try {
     await fs.writeFile(file, sql);
-    await exec("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024 });
-    return { recorded: checks.length };
+    // Same contention retry as writeRows(): the TicketNetwork and StubHub
+    // International lanes import into one D1 concurrently.
+    for (let attempt = 1; ; attempt += 1) {
+      try {
+        await exec("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024 });
+        return { recorded: checks.length };
+      } catch (error) {
+        if (attempt >= D1_MAX_ATTEMPTS || !isRetriableD1WriteError(error)) throw error;
+        await sleep(D1_RETRY_BACKOFF_MS * attempt);
+      }
+    }
   } catch (error) {
     return { recorded: 0, error: String(error?.stderr || error?.message || error).slice(0, 300) };
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
@@ -347,7 +367,7 @@ async function run(options, deps = {}) {
     fetched += 1;
     const price = exactPrice(catalog.candidates, item.externalId);
     if (price) rows.push(buildRow(config, item, price, now, options.freshnessHours));
-    checks.push({ event_id: item.id, provider: config.slug, outcome: price ? "priced" : "no_price" });
+    checks.push({ event_id: item.id, provider: config.slug, outcome: checkOutcome(catalog.candidates, item.externalId, price) });
   }
   const written = options.apply ? await (deps.writer ? deps.writer(rows, options) : writeRows(rows, options, deps)) : 0;
   const checkResult = options.apply
@@ -407,6 +427,20 @@ async function selfTest() {
     async checksWriter(checks) { return { recorded: checks.length }; }
   });
   assert.equal(failedLookup.checks, 0, "a failed lookup establishes nothing and records no check");
+  let floored = null;
+  await run({ provider: "ticket-liquidator", apply: true, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
+    data: [events, []], now: new Date("2026-07-13T00:00:00Z"),
+    async fetchArtistCatalog() { return { ok: true, candidates: [{ ...candidate, price: 3.8 }] }; },
+    async writer(rows) { return rows.length; },
+    async checksWriter(checks) { floored = checks; return { recorded: checks.length }; }
+  });
+  assert.equal(floored[0].outcome, "unusable", "a price under the floor is unusable, never no_price");
+  let checkAttempts = 0;
+  const checkWrite = await writePriceChecks([{ event_id: "e1", provider: "ticketnetwork", outcome: "no_price" }], "2026-07-13T00:00:00.000Z", { database: "x", remote: false }, {
+    sleep: async () => {},
+    async execFile() { checkAttempts += 1; if (checkAttempts < 3) throw Object.assign(new Error("Command failed"), { stderr: "Currently processing a long-running import." }); }
+  });
+  assert.equal(checkWrite.recorded, 1, "a contended check import is retried until it lands");
 
   // The retry contract for an origin refusal. A 503 that clears must not be
   // allowed to speak for the lane; a deterministic status must still be a
@@ -498,7 +532,7 @@ async function selfTest() {
     async execFile() { unrelenting += 1; throw Object.assign(new Error(contention.message), { stderr: contention.stderr }); }
   }), "contention that never clears must still fail the lane");
   assert.equal(unrelenting, D1_MAX_ATTEMPTS, "a contended import is retried to the cap");
-  return 44;
+  return 47;
 }
 
 async function main() {
@@ -508,6 +542,8 @@ async function main() {
   if (!options.provider) throw new Error("--provider is required");
   const summary = await run(options);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.eligible} eligible, ${summary.usable} usable, ${summary.written} written, ${summary.failed} failed.`);
+  // Non-fatal by design, but never silent: an Actions warning annotation.
+  if (summary.checks_error) console.log(`::warning::${summary.provider} price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
   if (summary.failed) process.exitCode = 1;
 }
 

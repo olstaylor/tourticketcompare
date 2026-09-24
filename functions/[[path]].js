@@ -1752,23 +1752,20 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
 // City and venue cards link it in preference to the artist page: it is the
 // page built for "<artist> tickets <city>", and until 2026-09-24 it was linked
 // only from artist pages and its sibling artist-city pages.
-// Memoised per events array, artist set and minute: deriving every artist's
-// cities is a pass over the whole dataset, and every city and venue page asks.
-const ARTIST_CITY_PATHS_MEMO = new WeakMap();
-function indexableArtistCityPaths(events, targetCitySlug, linkableArtistSlugs) {
+//
+// Only artists actually playing this city or venue are candidates, and each
+// one's events come from the per-isolate eventsForArtist index, so a location
+// page costs a few tiny per-artist derivations — not a full pass over the
+// dataset per indexable artist (Codex review on #1125).
+function indexableArtistCityPaths(events, targetCitySlug, linkableArtistSlugs, presentArtistSlugs = []) {
   if (!targetCitySlug || !linkableArtistSlugs?.size || !Array.isArray(events)) return new Map();
-  const key = `${Math.floor(Date.now() / 60000)}|${[...linkableArtistSlugs].sort().join(",")}`;
-  let hit = ARTIST_CITY_PATHS_MEMO.get(events);
-  if (!hit || hit.key !== key) {
-    const byCity = new Map();
-    for (const artistCity of deriveIndexableArtistCities(events, [...linkableArtistSlugs])) {
-      if (!byCity.has(artistCity.slug)) byCity.set(artistCity.slug, new Map());
-      byCity.get(artistCity.slug).set(artistCity.artistSlug, artistCity.path);
-    }
-    hit = { key, byCity };
-    ARTIST_CITY_PATHS_MEMO.set(events, hit);
+  const candidates = new Set((presentArtistSlugs || []).map((slug) => slugify(slug)).filter((slug) => linkableArtistSlugs.has(slug)));
+  const paths = new Map();
+  for (const slug of candidates) {
+    const match = deriveIndexableArtistCities(eventsForArtist(events, slug), [slug]).find((artistCity) => artistCity.slug === targetCitySlug);
+    if (match) paths.set(slug, match.path);
   }
-  return hit.byCity.get(targetCitySlug) || new Map();
+  return paths;
 }
 
 function cityForVenue(events, venue) {
@@ -2456,7 +2453,7 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
 function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}, linkableArtistSlugs = null, cachedEvents = null) {
   const venueRuns = venueRunIndex(venue.shows);
   const artistCityPaths = venue.city
-    ? indexableArtistCityPaths(cachedEvents || events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs)
+    ? indexableArtistCityPaths(cachedEvents || events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs, venue.artistSlugs)
     : new Map();
   const eventsById = new Map(
     (Array.isArray(events) ? events : [])
@@ -2569,7 +2566,8 @@ export function renderCityPageBody(route, events = [], options = {}) {
         artistCityPaths: indexableArtistCityPaths(
           route.events || events,
           city.slug,
-          new Set(route.linkableArtistSlugs || route.indexableArtistSlugs || [])
+          new Set(route.linkableArtistSlugs || route.indexableArtistSlugs || []),
+          city.artistSlugs
         )
       }
     )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(

@@ -97,7 +97,10 @@ export function publicOnsalePending(event, now = Date.now()) {
  * @returns {boolean}
  */
 export function eventPublishable(event, now = Date.now()) {
-  if (publicOnsalePending(event, now)) return false;
+  // Before the public on-sale only a verified resale destination leads
+  // anywhere — the same rule the card renderer applies since 2026-09-24
+  // (providerEventPublishable in [[path]].js) — so it is checked first, and
+  // only the Ticketmaster fallback below waits for the on-sale.
   const links = event?.provider_links && typeof event.provider_links === "object" ? event.provider_links : {};
   // A standalone verified resale destination is enough on its own — but only
   // when it actually has a stored URL to send the visitor to. `verified: true`
@@ -108,6 +111,7 @@ export function eventPublishable(event, now = Date.now()) {
     if (provider === "ticketmaster") continue;
     if (link?.verified === true && String(link?.url || "").trim()) return true;
   }
+  if (publicOnsalePending(event, now)) return false;
   return eventStatusPublishable(event, now);
 }
 

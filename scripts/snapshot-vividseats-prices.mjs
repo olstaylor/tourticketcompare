@@ -283,8 +283,18 @@ async function writePriceChecksToD1(checks, checkedAt, options) {
   const sqlPath = path.join(dir, "price-checks.sql");
   try {
     await fs.writeFile(sqlPath, sql);
-    await execFileAsync("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", sqlPath], { cwd: REPO_ROOT, maxBuffer: 10 * 1024 * 1024 });
-    return { recorded: checks.length };
+    // Retry D1's one-import-at-a-time contention: the Impact marketplace
+    // lanes can be importing into the same database.
+    for (let attempt = 1; ; attempt += 1) {
+      try {
+        await execFileAsync("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", sqlPath], { cwd: REPO_ROOT, maxBuffer: 10 * 1024 * 1024 });
+        return { recorded: checks.length };
+      } catch (error) {
+        const text = `${error?.stderr || ""}\n${error?.message || ""}`;
+        if (attempt >= 5 || !/processing a long-running import/i.test(text)) throw error;
+        await new Promise((resolve) => setTimeout(resolve, 5000 * attempt));
+      }
+    }
   } catch (error) {
     return { recorded: 0, error: redact(String(error?.stderr || error?.message || error)).slice(0, 300) };
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
@@ -329,7 +339,9 @@ async function runIngestion(options, deps = {}) {
     summary.fetched += items.length;
     for (const item of items) {
       const priced = pricesForProduction(fetched.data, item.productionId);
-      if (item.localId) checks.push({ event_id: item.localId, provider: PROVIDER, outcome: priced.ok ? "priced" : "no_price" });
+      // Only "no price for this exact production" is no_price; conflicting
+      // prices are unusable, never quoted as "no listed price".
+      if (item.localId) checks.push({ event_id: item.localId, provider: PROVIDER, outcome: priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable" });
       if (!priced.ok) { summary.skipped++; summary.skip_reasons[priced.reason] = (summary.skip_reasons[priced.reason] || 0) + 1; continue; }
       const built = buildSnapshotRow(item, priced.price, deps.now || new Date(), options.freshnessHours);
       if (!built.ok) {
@@ -406,8 +418,16 @@ async function selfTest() {
   });
   assert.equal(applied.written, 1, "price rows still publish when the check write fails");
   assert.deepEqual(recorded.checks.map((c) => `${c.event_id}:${c.outcome}`), ["event-1:priced", "event-2:no_price"]);
+  let conflicted = null;
+  await runIngestion({ apply: true, limit: null, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
+    catalog: { events: [verifiedFutureEvent], artistsBySlug: new Map([["raye", "RAYE"]]) },
+    now, async fetchArtistCatalog() { return { ok: true, data: [{ CurrentPrice: 1, Currency: "USD", Offers: [{ Sku: "123" }] }, { CurrentPrice: 2, Currency: "USD", Offers: [{ Sku: "123" }] }] }; },
+    async writer(rows) { return { written: rows.length }; },
+    async checksWriter(checks) { conflicted = checks; return { recorded: checks.length }; }
+  });
+  assert.equal(conflicted[0].outcome, "unusable", "conflicting prices are unusable, never no_price");
   assert.equal(applied.checks_error, "boom");
-  return { ok: true, tests: 35 };
+  return { ok: true, tests: 36 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);
@@ -423,6 +443,7 @@ async function main() {
   if (options.selfTest) { const result = await selfTest(); return console.log(`Vivid Seats Impact price snapshot self-test passed (${result.tests} checks).`); }
   const summary = await runIngestion(options);
   if (options.json) console.log(JSON.stringify(summary, null, 2)); else printSummary(summary);
+  if (summary.checks_error) console.log(`::warning::vivid-seats price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
   if (summary.failed > 0 || (options.apply && summary.eligible > 0 && summary.usable === 0)) process.exitCode = 1;
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });

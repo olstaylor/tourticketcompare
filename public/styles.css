@@ -2353,3 +2353,478 @@ summary {
     width: 100%;
   }
 }
+
+/* Compact date boards (2026-09-24, owner request). An 84-date board was
+   ~33,000px on a phone at ~390px per card. Each card is now the date badge
+   beside city/venue and one meta line, with the ticket buttons across the full
+   card width underneath; artist-board.js shows the first 15 dates, then one
+   "Show all" button. Placed last so it wins over the earlier card rules. */
+.show-card {
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 6px 14px;
+  padding: 14px 16px;
+}
+
+.show-date-badge {
+  width: 56px;
+  min-height: 60px;
+  padding: 6px 4px;
+}
+
+.show-date-day {
+  font-size: 1.35rem;
+}
+
+.show-card-body {
+  gap: 4px;
+  align-content: center;
+  align-self: center;
+}
+
+.show-card-title {
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+/* .info-card p (0,1,1) sets a 1.02-1.18rem body size; these lines are
+   labels, so they need the extra class to stay small. */
+.show-card .show-card-meta,
+.show-card .show-card-sub,
+.show-card .show-card-run {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.show-card .show-card-meta {
+  font-weight: 700;
+}
+
+.show-board-jump {
+  gap: 8px;
+}
+
+.show-board-jump-list {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  padding-bottom: 4px;
+}
+
+.show-board-jump-list .mini-link {
+  min-height: 36px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  border-radius: 999px;
+}
+
+.show-board-jump p {
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.show-card-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  min-width: 0;
+}
+
+.show-card-actions > * {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+.show-card-actions > .copy-show-link,
+.show-card-actions > .price-history {
+  flex: 0 1 auto;
+}
+
+.show-card .provider-cta-count {
+  margin: 0;
+}
+
+.show-card .provider-cta-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  gap: 6px;
+  margin: 0;
+}
+
+.show-card .provider-cta {
+  min-height: 44px;
+  padding: 6px 14px;
+  gap: 8px;
+}
+
+.show-card .provider-cta-notes {
+  margin: 0;
+  padding: 6px 10px;
+}
+
+.show-board-intro {
+  font-size: 0.95rem;
+}
+
+.show-board .money-disclosure {
+  font-size: 0.8rem;
+}
+
+.show-filter-extra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1 1 100%;
+}
+
+.show-filter-extra[hidden] {
+  display: none;
+}
+
+.show-filter-toggle[aria-expanded="true"] {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.show-board-more {
+  justify-self: start;
+  margin-top: 4px;
+}
+
+.show-board-more[hidden] {
+  display: none;
+}
+
+/* Explainer sections folded into one closed <details> each. */
+.page-more {
+  margin-top: 4px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg, 18px);
+  background: var(--paper);
+}
+
+.page-more > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 52px;
+  padding: 12px 18px;
+  font-weight: 850;
+  list-style: none;
+}
+
+.page-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.page-more > summary::after {
+  content: "+";
+  font-weight: 900;
+  color: var(--muted);
+}
+
+.page-more[open] > summary::after {
+  content: "\2212";
+}
+
+.page-more__body {
+  display: grid;
+  gap: 16px;
+  padding: 0 18px 18px;
+}
+
+@media (max-width: 640px) {
+  .show-card {
+    grid-template-columns: 50px minmax(0, 1fr);
+    padding: 12px;
+  }
+
+  /* Overrides the 390px rule that laid the badge out as a horizontal chip on
+     its own row: the buttons now span the full card width, so the badge can
+     stay a narrow column beside the title even at 320px. */
+  .show-date-badge {
+    grid-template-columns: none;
+    align-items: normal;
+    width: 50px;
+    min-width: 0;
+    min-height: 54px;
+    gap: 1px;
+    padding: 6px 4px;
+  }
+
+  .show-card .provider-cta-group {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .show-card .provider-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+    min-height: 48px;
+    padding: 6px 12px;
+    border-radius: 14px;
+  }
+
+  .show-filter-bar {
+    grid-template-columns: 1fr auto;
+  }
+
+  .show-filter-input {
+    grid-column: auto;
+  }
+
+  .show-filter-toggle {
+    width: auto;
+  }
+
+  .show-filter-extra {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page-more__body {
+    padding: 0 12px 14px;
+  }
+}
+
+/* The month row scrolls sideways instead of wrapping, so the board's grid
+   items must be allowed to shrink below their no-wrap min-content width. */
+.show-board > *,
+.show-board-jump {
+  min-width: 0;
+}
+
+/* With the buttons in columns, the single bordered list above (one outline,
+   row dividers) broke into partial lines; each button is its own tile now,
+   same treatment for priced and unpriced providers. */
+.show-card .provider-cta-group {
+  gap: 6px;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.show-card .provider-cta,
+.show-card .provider-cta:last-child {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: #fff;
+}
+
+/* Compact tiles and link lists for index pages (2026-09-24, owner request):
+   /artists, /cities, /venues and the comparison hub list one tile per item
+   (name + one facts line) instead of a status card with a full-width button,
+   and /guides lists titles only. */
+.tile-list,
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tile-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 56px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.tile:hover,
+.tile:focus-visible {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+
+.tile__name {
+  font-weight: 800;
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+.tile__meta {
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.tile.is-muted .tile__name {
+  color: var(--muted);
+}
+
+.link-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0 24px;
+}
+
+.link-list li {
+  border-top: 1px solid var(--line);
+}
+
+.link-list a {
+  display: block;
+  padding: 11px 0;
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-list a:hover,
+.link-list a:focus-visible {
+  color: var(--accent-dark);
+}
+
+.tile-filter {
+  display: grid;
+  gap: 6px;
+  max-width: 520px;
+}
+
+.tile-filter[hidden],
+.tile-list > li[hidden],
+.tile-list[hidden],
+.artist-status-section[hidden],
+[data-show-group][hidden] {
+  display: none;
+}
+
+.tile-filter-count {
+  min-height: 1.2em;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .tile-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+
+  .tile {
+    padding: 8px 10px;
+  }
+
+  .tile__name {
+    font-size: 0.9rem;
+  }
+
+  .tile__meta {
+    font-size: 0.75rem;
+  }
+
+  .link-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tile-more {
+  margin-top: 8px;
+  padding: 0;
+  border-top: 0;
+}
+
+.tile-more > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-bottom: 8px;
+  padding: 0 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: #fff;
+  font-weight: 800;
+  list-style: none;
+}
+
+.tile-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.tile-more[hidden] {
+  display: none;
+}
+
+/* "Lowest listed" (2026-09-24, owner request): the one provider on a date
+   whose listed snapshot is strictly lower than the other priced providers for
+   that same date. Button order is unchanged; only this tile is marked. */
+.show-card .provider-cta-lowest,
+.show-card .provider-cta-lowest:last-child {
+  border-color: var(--green);
+  box-shadow: inset 0 0 0 1px var(--green);
+}
+
+.provider-cta-lowest .provider-cta-price {
+  color: var(--green);
+}
+
+.provider-cta-badge {
+  order: -1;
+  align-self: center;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.66rem;
+  font-weight: 850;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.provider-cta-lowest .provider-cta-name {
+  margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .provider-cta-lowest .provider-cta-name {
+    margin-right: 0;
+  }
+
+  .provider-cta-badge {
+    align-self: flex-start;
+  }
+}
+
+/* Desktop: the badge sits on the button's top edge as a tag, so the provider
+   name and price keep the full button width. */
+@media (min-width: 641px) {
+  .show-card .provider-cta-group {
+    row-gap: 12px;
+    margin-top: 6px;
+  }
+
+  .show-card .provider-cta-lowest {
+    position: relative;
+  }
+
+  .show-card .provider-cta-lowest .provider-cta-badge {
+    position: absolute;
+    top: -9px;
+    left: 10px;
+  }
+
+  .provider-cta-lowest .provider-cta-name {
+    margin-right: 0;
+  }
+}

@@ -12,6 +12,16 @@ It is not affiliated with any artist, venue, promoter, or ticket platform.
 
 ---
 
+## Voice and Attribution
+
+Owner direction, 2026-09-24.
+
+- **No first-person voice.** Public copy never speaks as "we", "us" or "our". Name the site ("TourTicketCompare", "the site", "this site") or use a plain construction ("Prices are checked every few hours"). The reader's own voice is fine: FAQ questions ("How do I…?") and buttons ("Notify me"). Quoted provider wording keeps its own voice.
+- **Bylines credit the site.** Guides, blog posts, artist, city and venue pages carry "By TourTicketCompare", linked to `/about`, and their Article/BlogPosting/HowTo `author` is the Organization node. No page names the creator except `/about/ollie-taylor`, which is linked from `/about` only and is the one page carrying a Person node.
+- **Enforced.** `scripts/check-site-voice.mjs` fails `test:content` and `test:mvp` on first-person-plural words in `content/guides` and `content/blog`; `scripts/smoke-prelaunch.mjs` applies the same rule to the rendered `<main>` of every public route and artist page.
+
+---
+
 ## Hard Rules
 
 These rules have no exceptions.

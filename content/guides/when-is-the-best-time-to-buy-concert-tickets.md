@@ -78,7 +78,7 @@ Instead of betting on a prediction:
 
 **Do you know the best time to buy?**
 
-No. We show each ticket site's recent listed price for a date, but we don't track stock or predict where a price is heading, so we can't name a best moment to buy.
+No. The site shows each ticket site's recent listed price for a date, but it doesn't track stock or predict where a price is heading, so it can't name a best moment to buy.
 
 **Should I always buy early?**
 

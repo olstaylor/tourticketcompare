@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { findFirstPersonPlural } from "./check-site-voice.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoutes = ["/", "/artists", "/cities", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
@@ -30,7 +31,7 @@ const EDGE_CACHEABLE_ROUTES = new Set([
 ]);
 const expectedH1 = new Map([
   ["/", "Compare ticket prices for the show you want."],
-  ["/artists", "Artists we track"],
+  ["/artists", "Tracked artists"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
@@ -39,7 +40,7 @@ const expectedH1 = new Map([
   ["/how-it-works", "How TourTicketCompare works"],
   ["/currency-converter", "Currency converter"],
   ["/about", "About TourTicketCompare"],
-  ["/contact", "Contact us"],
+  ["/contact", "Contact"],
   ["/editorial-policy", "Editorial policy"],
   ["/affiliate-disclosure", "Affiliate disclosure"],
   ["/privacy", "Privacy policy"],
@@ -62,9 +63,10 @@ const expectedTitle = new Map([
   ["/privacy", "Privacy Policy | TourTicketCompare"],
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total.";
-const APP_ASSET_VERSION = "20260924a";
-const TTC_HOME_ASSET_VERSION = "20260924a";
+const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
+const APP_ASSET_VERSION = "20260924v";
+const TTC_HOME_ASSET_VERSION = "20260924b";
+const TTC_HOME_JS_ASSET_VERSION = "20260924v";
 const TTC_SHELL_ASSET_VERSION = "20260821a";
 const SHELL_SCRIPT_ASSET_VERSION = "20260901b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -89,15 +91,15 @@ const routeMarkers = new Map([
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
   ["/blog", "what a price snapshot does and does not claim"],
-  ["/compare-concert-ticket-prices", "We only compare prices captured for the same event, each with the time it was taken"],
-  ["/how-it-works", "A button only goes up when we can confirm where it lands"],
+  ["/compare-concert-ticket-prices", "Prices are only compared when captured for the same event, each with the time it was taken"],
+  ["/how-it-works", "A button only goes up when its destination can be confirmed"],
   ["/currency-converter", "European Central Bank daily reference rates"],
-  ["/editorial-policy", "the link has to pass our outbound safety checks"],
-  ["/affiliate-disclosure", "Whether a link pays us has nothing to do with whether we show it"],
-  ["/about", "it has no say in what we publish"],
+  ["/editorial-policy", "the link has to pass the site's outbound safety checks"],
+  ["/affiliate-disclosure", "Whether a link pays has nothing to do with whether it's shown"],
+  ["/about", "it has no say in what gets published"],
   ["/contact", "hello@tourticketcompare.com"],
-  ["/privacy", "site does not use a first-party session cookie"],
-  ["/terms", "We publish checked artist and event links"]
+  ["/privacy", "TourTicketCompare sets no cookies of its own"],
+  ["/terms", "TourTicketCompare publishes checked artist and event links"]
 ]);
 
 function assert(condition, message) {
@@ -853,6 +855,20 @@ async function routeResponse(pathname, envOverride = env, origin = "https://tour
   return { response, text: await response.text(), nextCalled };
 }
 
+// Site voice (owner direction 2026-09-24): visible copy never speaks as "we".
+// Same rule scripts/check-site-voice.mjs applies to guide and blog Markdown.
+function assertSiteVoice(pathname, text) {
+  const visibleMain = (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<[^>]+>/g, "\n")
+    .replace(/&rsquo;|&#39;/g, "'");
+  const voiceHits = findFirstPersonPlural(visibleMain);
+  assert(
+    voiceHits.length === 0,
+    `${pathname} visible copy uses first-person plural: ${voiceHits.map((hit) => `"${hit.word}" in …${hit.context}…`).join("; ")}`
+  );
+}
+
 
 function extractSitemapLocs(xml) {
   return [...String(xml || "").matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
@@ -868,6 +884,28 @@ async function sitemapLocs(envOverride = env) {
 }
 
 const sitemapLocations = await sitemapLocs();
+
+// The voice rule covers every route family, not only the hand-listed routes
+// checked in the loop further down: every sitemap URL (guides, blog posts and
+// tags, cities, venues, artist-city pages), plus the creator page and the
+// blog tag pages, which are public whether or not the sitemap lists them.
+{
+  const blogTags = JSON.parse(await read("public/data/blog-content.json")).tags || [];
+  const voicePaths = new Set([
+    ...sitemapLocations.map((loc) => new URL(loc).pathname),
+    "/about/ollie-taylor",
+    "/venues",
+    ...blogTags.map((tag) => `/blog/tag/${tag.slug}`)
+  ]);
+  let voiceChecked = 0;
+  for (const pathname of voicePaths) {
+    const { response, text } = await routeResponse(pathname);
+    if (response.status !== 200) continue;
+    assertSiteVoice(pathname, text);
+    voiceChecked += 1;
+  }
+  assert(voiceChecked >= 50, `site voice should cover the sitemap's route families, checked only ${voiceChecked} page(s)`);
+}
 assert(
   sitemapLocations.includes("https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster"),
   "/sitemap.xml should include the focused SeatGeek vs Ticketmaster guide"
@@ -1012,6 +1050,8 @@ const routeRawEvidence = [];
 for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/${slug}`))) {
   const { response, text, nextCalled } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
+
+  assertSiteVoice(pathname, text);
 
   // CSP: must be present on function-rendered HTML responses, same-origin only, no unsafe-inline
   const csp = response.headers.get("Content-Security-Policy");
@@ -1213,8 +1253,8 @@ for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
 
 const seoGuide = await routeResponse("/guides/how-to-compare-concert-ticket-prices");
 assert(
-  seoGuide.text.includes(`>Ollie Taylor</a>`) && seoGuide.text.includes('href="/about/ollie-taylor"'),
-  "guide raw HTML should expose a visible named byline linking the author page"
+  seoGuide.text.includes(`By <a class="text-link" href="/about">TourTicketCompare</a>`) && !seoGuide.text.includes('href="/about/ollie-taylor"'),
+  "guide raw HTML should expose the site byline and not link the creator page"
 );
 assert(seoGuide.text.includes("<h2>Sources</h2>"), "guide raw HTML should expose primary sources");
 const seoGuideLd = extractJsonLd(seoGuide.text);
@@ -1224,29 +1264,26 @@ assert(
   "guide Article schema should expose the current modification date"
 );
 assert(Array.isArray(seoGuideArticle?.citation) && seoGuideArticle.citation.length >= 4, "guide Article schema should cite its visible primary sources");
-const AUTHOR_PERSON_ID = "https://tourticketcompare.com/about/ollie-taylor#ollie-taylor";
-assert(
-  seoGuideArticle?.author?.["@id"] === AUTHOR_PERSON_ID,
-  "guide Article schema author should reference the named Person by @id"
-);
-// An @id is only worth emitting if it resolves inside the same document.
-const seoGuidePerson = seoGuideLd?.["@graph"]?.find((node) => node?.["@id"] === AUTHOR_PERSON_ID);
-assert(
-  seoGuidePerson?.["@id"] === AUTHOR_PERSON_ID && seoGuidePerson?.name === "Ollie Taylor",
-  "guide page should carry the Person node its author @id points at"
-);
-assert(
-  seoGuidePerson?.url === "https://tourticketcompare.com/about/ollie-taylor",
-  "the Person node should point at the author page"
-);
-// The bio and knowsAbout belong to the author page alone, so the compact node
-// carried by every other page must not duplicate them.
-assert(
-  seoGuidePerson?.description === undefined && seoGuidePerson?.knowsAbout === undefined,
-  "a non-author page should carry the compact Person node, not the full bio"
-);
 const seoOrganization = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Organization");
 assert(seoOrganization?.["@id"] === "https://tourticketcompare.com/#organization", "Organization schema should expose a stable @id");
+// Owner direction 2026-09-24: bylines credit the site. The Article author is
+// the Organization node, which resolves inside the same document, and only the
+// creator's own page carries a Person node.
+assert(
+  seoGuideArticle?.author?.["@id"] === "https://tourticketcompare.com/#organization",
+  "guide Article schema author should reference the Organization by @id"
+);
+assert(
+  !seoGuideLd?.["@graph"]?.some((node) => node?.["@type"] === "Person") && seoOrganization?.founder === undefined,
+  "a non-author page should carry no Person node and no founder reference"
+);
+const creatorPage = await routeResponse("/about/ollie-taylor");
+assert(creatorPage.response.status === 200, "the creator page should stay live");
+const creatorPerson = extractJsonLd(creatorPage.text)?.["@graph"]?.find((node) => node?.["@type"] === "Person");
+assert(
+  creatorPerson?.name === "Ollie Taylor" && typeof creatorPerson?.description === "string",
+  "the creator page should carry the full Person node"
+);
 
 const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
@@ -1386,7 +1423,7 @@ const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/provide
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(RENDERED_SG_EVENT_OUT_HREF), "server-rendered SeatGeek CTA should route the controlled show through /api/out");
 assert(!serverMorganWithSeatGeek.text.includes(CONTROLLED_SEATGEEK_URL), "server-rendered SeatGeek CTA must not expose the raw affiliate URL; it routes through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("<strong>How we make money:</strong> when you buy through some of these buttons") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
+assert(serverMorganWithSeatGeek.text.includes("<strong>How this site makes money:</strong> when you buy through some of these buttons") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
 assert(!serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per SeatGeek link");
 // CTA order: SeatGeek (primary affiliate) renders first, before the plain
 // (unmonetized) Ticketmaster link, inside the same provider-cta-group.
@@ -1451,7 +1488,9 @@ const ttcHomeJs = await read("public/ttc-home.js");
 assert(ttcHomeJs.includes('new URLSearchParams(window.location.search).get("q")'), "homepage enhancement should read the q query parameter");
 assert(ttcHomeJs.includes('document.querySelector("#search-widget .search-results")'), "homepage enhancement should preserve and populate the server-rendered search-widget target");
 assert(ttcHomeJs.includes('input[type=search]'), "homepage enhancement should bind the existing accessible search input");
-assert(ttcHomeJs.includes('results.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage query submission should scroll to the preserved search-widget anchor");
+// "nearest", not "start": results now render directly under the search field,
+// so submitting only scrolls when they are off screen.
+assert(ttcHomeJs.includes('results.scrollIntoView({ behavior: "smooth", block: "nearest" })'), "homepage query submission should scroll to the preserved search-widget anchor");
 assert(ttcHomeJs.includes('document.querySelectorAll("#ttc-main a[href]")'), "homepage search should build its index from compiled server-rendered links");
 assert(ttcHomeJs.includes('fetch("/data/events-index.json"'), "homepage search should lazy-load the purpose-built lightweight event index");
 assert(!ttcHomeJs.includes('fetch("/data/events.json"') && !ttcHomeJs.includes('fetch("/data/catalog.json"'), "homepage enhancement must not request the full event or catalogue payload");
@@ -1507,7 +1546,7 @@ assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "se
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes('name: "SeatGeek"'), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("the ticket site pays us a commission. We add no fee of our own. Sites that pay us are listed first") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the How-we-make-money show-board disclosure (P4)");
+assert(appJs.includes("the ticket site pays TourTicketCompare a commission. No fee is added on top. Sites that pay a commission are listed first") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the how-this-site-makes-money show-board disclosure (P4)");
 assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
@@ -1608,11 +1647,11 @@ const pathSource = await read("functions/[[path]].js");
 // is verified, what is not, and that some links pay a commission.
 const absoluteNoPriceCopy = "We do not display ticket prices or guarantee availability";
 assert(
-  pathSource.includes("<strong>What we verify:</strong>") && pathSource.includes("<strong>What we don't verify:</strong>"),
+  pathSource.includes("<strong>What's verified:</strong>") && pathSource.includes("<strong>What isn't verified:</strong>"),
   "server-rendered trust copy should state both what is and is not verified"
 );
 assert(
-  pathSource.includes("Some outbound links earn us a commission — see our"),
+  pathSource.includes("Some outbound links earn TourTicketCompare a commission — see the"),
   "server-rendered trust copy should keep the affiliate-commission disclosure"
 );
 assert(
@@ -1809,7 +1848,7 @@ assert(
   "server-rendered homepage must version its route-specific stylesheet"
 );
 assert(
-  cacheBustedHome.text.includes(`/ttc-home.js?v=${TTC_HOME_ASSET_VERSION}`),
+  cacheBustedHome.text.includes(`/ttc-home.js?v=${TTC_HOME_JS_ASSET_VERSION}`),
   "server-rendered homepage must version ttc-home.js so stale cached hydration cannot replace current search content"
 );
 assert(cacheBustedHome.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "server-rendered routes must load the shared shell script");
@@ -1818,7 +1857,7 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260924a"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260924c"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
 assert(converterAssets.text.includes("/currency-converter.js?v=20260821a"), "currency converter must load its route module");
@@ -2986,7 +3025,7 @@ const vsConfiguredPage = await routeResponse("/artists/morgan-wallen", vsConfigu
 assert(vsConfiguredPage.text.includes(RENDERED_VS_EVENT_OUT_HREF), "server-rendered Vivid Seats CTA should route the controlled show through /api/out when configured");
 assert(!vsConfiguredPage.text.includes(CONTROLLED_VIVIDSEATS_URL), "server-rendered Vivid Seats CTA must not expose the raw affiliate URL; it routes through /api/out");
 assert(vsConfiguredPage.text.includes("provider-cta-name\">Vivid Seats<"), "Vivid Seats should render its own CTA when SeatGeek is not configured");
-assert(vsConfiguredPage.text.includes("<strong>How we make money:</strong>"), "server-rendered Vivid Seats CTA page should include the concise show-board provider disclosure");
+assert(vsConfiguredPage.text.includes("<strong>How this site makes money:</strong>"), "server-rendered Vivid Seats CTA page should include the concise show-board provider disclosure");
 assert(!vsConfiguredPage.text.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per Vivid Seats link");
 
 const vsRecheckEnv = withVividSeatsEventsFixture(
@@ -3237,8 +3276,8 @@ if (fullyPricedBoard.response.status === 200) {
   const silentCards = cardsWithButtons.filter(
     (card) =>
       // Any of the three unavailable notes (priceUnavailableNote) counts: the
-      // undated one, the unmatched one, or the dated "at our last check" one.
-      !/No listed-price snapshot (is available|for this date)|No listed price at our last check/.test(card) &&
+      // undated one, the unmatched one, or the dated "at the last check" one.
+      !/No listed-price snapshot (is available|for this date)|No listed price at the last check/.test(card) &&
       !card.includes("provider-cta-price")
   );
   assert(cardsWithButtons.length > 6, "the coverage check needs a board longer than the old six-show slice to be meaningful");
@@ -3686,19 +3725,19 @@ assert(
 for (const [label, page] of [["many", manyBoard.html]]) {
   assert(page.includes("data-artist-trust"), `artist page (${label}) should carry the provenance block`);
   assert(page.includes("<strong>Data checked:</strong>"), `artist page (${label}) provenance should state when the data was checked`);
-  assert(page.includes("<strong>What we verify:</strong>"), `artist page (${label}) provenance should state what is verified`);
-  assert(page.includes("<strong>What we don't verify:</strong>"), `artist page (${label}) provenance should state what is not verified`);
+  assert(page.includes("<strong>What's verified:</strong>"), `artist page (${label}) provenance should state what is verified`);
+  assert(page.includes("<strong>What isn't verified:</strong>"), `artist page (${label}) provenance should state what is not verified`);
   assert(page.includes('href="/affiliate-disclosure"'), `artist page (${label}) provenance should link the affiliate disclosure`);
   assert(page.includes('href="/contact"'), `artist page (${label}) provenance should link a corrections route`);
   assert(
-    page.includes(`>Ollie Taylor</a>`) && page.includes('href="/about/ollie-taylor"'),
-    `artist page (${label}) should carry the named byline linking the author page`
+    page.includes(`By <a class="text-link" href="/about">TourTicketCompare</a>`) && !page.includes('href="/about/ollie-taylor"'),
+    `artist page (${label}) should carry the site byline`
   );
   // Automated verification must never be presented as a human editorial review.
   assert(!/reviewed by (a|our) (human|editor)/i.test(page), `artist page (${label}) must not claim a human review it cannot evidence`);
   assert(!/Page reviewed:/i.test(page), `artist page (${label}) must not print a human review timestamp`);
 }
-// An empty board now carries the provenance block too — it is where the named
+// An empty board now carries the provenance block too — it is where the site
 // byline and the corrections route live, and an anonymous page is exactly what
 // the byline work set out to remove. The original rule still holds inside it:
 // no dated link-check claim on a page that shows no dates.
@@ -3707,9 +3746,8 @@ assert(
   "empty artist pages should still carry the provenance block"
 );
 assert(
-  beyonceEmptyStatePage.text.includes(`>Ollie Taylor</a>`) &&
-    beyonceEmptyStatePage.text.includes('href="/about/ollie-taylor"'),
-  "empty artist pages should carry the named byline linking the author page"
+  beyonceEmptyStatePage.text.includes(`By <a class="text-link" href="/about">TourTicketCompare</a>`),
+  "empty artist pages should carry the site byline"
 );
 assert(
   !beyonceEmptyStatePage.text.includes("<strong>Data checked:</strong>"),
@@ -3963,8 +4001,8 @@ assert(venueDetail.text.includes('"@type":"MusicVenue"'), "venue detail page sho
 assert(!venueDetail.text.includes('"@type":"FAQPage"'), "venue detail page should not emit FAQPage structured data without a visible FAQ");
 assert(!venueDetail.text.includes("<details>"), "venue detail page should not render a templated FAQ");
 assert(
-  venueDetail.text.includes(`>Ollie Taylor</a>`) && venueDetail.text.includes('href="/about/ollie-taylor"'),
-  "venue detail page should show the named byline linking the author page"
+  venueDetail.text.includes(`By <a class="text-link" href="/about">TourTicketCompare</a>`),
+  "venue detail page should show the site byline"
 );
 assert(/href="\/artists\/[a-z0-9-]+"/.test(venueDetail.text), "venue detail page should link out to artist pages");
 assert(/href="\/api\/out\?showId=[^\"]+&amp;provider=/.test(venueDetail.text), "venue detail page should surface a gated event-level provider CTA");

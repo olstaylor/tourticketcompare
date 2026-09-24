@@ -9,7 +9,7 @@
   // >>> homepage-proposition >>>
   const HOME_HEADLINE = "Compare ticket prices for the show you want.";
   const HOME_SUBCOPY =
-    "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.";
+    "Choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site.";
   const HOME_PRIMARY_CTA_LABEL = "Find a show";
   const HOME_PRIMARY_CTA_HREF = "/artists";
   const HOME_STEPS = [
@@ -21,7 +21,7 @@
     },
     {
       title: "2. Compare ticket prices",
-      body: "See the current listed prices we have from ticket sites for that same date.",
+      body: "See the current listed prices from ticket sites for that same date.",
       ctaLabel: "Compare ticket prices",
       href: "/compare-concert-ticket-prices"
     },
@@ -54,7 +54,9 @@
     linkIndex = Array.from(document.querySelectorAll("#ttc-main a[href]"))
       .map(function (link) {
         var href = String(link.getAttribute("href") || "");
-        var label = String(link.textContent || "").trim();
+        // Homepage artist rows carry a name and a facts line; index the name.
+        var nameEl = link.querySelector(".home-artist__name");
+        var label = String((nameEl || link).textContent || "").trim();
         if (!label || !/^\/(artists|guides|cities|venues)(?:\/|$)/.test(href)) return null;
         var key = href + "|" + label;
         if (seen.has(key)) return null;
@@ -123,25 +125,30 @@
     return loadEventIndex().then(function (events) { return buildLinkIndex().concat(events); });
   }
 
+  // Results render directly under the search field, and the section stays
+  // hidden until there is a query, so an idle homepage carries no empty
+  // "results" block between the search and the artist list.
+  var searchSeq = 0;
+
   async function renderResults(query) {
     var container = document.querySelector("#search-widget .search-results");
     if (!container) return;
-    var title = document.getElementById("searchSectionTitle");
-    var intro = document.getElementById("searchWidgetIntro");
+    var section = document.getElementById("search-widget");
     var term = fold(query.trim());
+    var seq = ++searchSeq;
     container.replaceChildren();
     if (!term) {
-      if (title) title.textContent = "Start with a search";
-      if (intro) intro.textContent = "Enter an artist, city, venue, or tour above to see matching checked dates and guides.";
+      section.hidden = true;
       return;
     }
-    if (title) title.textContent = "Search results";
-    if (intro) intro.textContent = "Matches from checked artists, upcoming dates, and buying guides.";
+    section.hidden = false;
     var loading = document.createElement("p");
     loading.className = "muted";
     loading.textContent = "Searching checked artists, shows, and guides…";
     container.appendChild(loading);
     var matches = (await buildIndex()).filter(function (entry) { return entry.search.includes(term); }).slice(0, 12);
+    // A later keystroke has already started its own search; drop this one.
+    if (seq !== searchSeq) return;
     container.replaceChildren();
     if (!matches.length) {
       var empty = document.createElement("p");
@@ -172,18 +179,23 @@
       event.preventDefault();
       renderResults(input.value);
       var results = document.getElementById("search-widget");
-      if (results) results.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (results) results.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
-    // Searching stays submit-driven, but clearing the field has to run the
-    // empty-query path on its own: renderResults() is what restores the
-    // pre-search heading, so without this the field empties while "Search
-    // results" and the previous matches stay on screen. The `search` event
-    // covers the native clear button on input[type=search].
-    var handleClear = function () {
-      if (!input.value.trim()) renderResults("");
+    // Search as you type (debounced), so a visitor sees their artist or show
+    // without pressing Search. Clearing the field runs the empty-query path
+    // at once, which hides the results section; the `search` event covers the
+    // native clear button on input[type=search].
+    var typingTimer = 0;
+    var handleInput = function () {
+      window.clearTimeout(typingTimer);
+      if (!input.value.trim()) {
+        renderResults("");
+        return;
+      }
+      typingTimer = window.setTimeout(function () { renderResults(input.value); }, 180);
     };
-    input.addEventListener("input", handleClear);
-    input.addEventListener("search", handleClear);
+    input.addEventListener("input", handleInput);
+    input.addEventListener("search", handleInput);
     var query = new URLSearchParams(window.location.search).get("q");
     if (query) {
       input.value = query;

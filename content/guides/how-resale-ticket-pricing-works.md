@@ -43,7 +43,7 @@ Marketplaces charge both sides of the sale:
 
 What matters to you is the total on the order screen, after every fee. Some fees only appear late in checkout, so take a listing all the way to that screen before you judge it. If the total goes past your budget, or the fee and delivery terms stay unclear, stop there.
 
-On TourTicketCompare, the resale buttons for Vivid Seats, TicketNetwork and StubHub International show each site's lowest listed price for that date when the site's feed supplies one, with how long ago we checked it. That's a starting point for which listing to open. Fees are added on the ticket site.
+On TourTicketCompare, the resale buttons for Vivid Seats, TicketNetwork and StubHub International show each site's lowest listed price for that date when the site's feed supplies one, with how long ago it was checked. That's a starting point for which listing to open. Fees are added on the ticket site.
 
 ## Why you can't time the price
 

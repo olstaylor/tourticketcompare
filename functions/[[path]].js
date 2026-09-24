@@ -50,12 +50,12 @@ const PUBLIC_HTML_ROUTES = new Set([
   "/contact"
 ]);
 
-// The site's named author. One copy of the bio serves the visible page and the
-// Person node's `description`, so the two can never disagree.
+// The creator's standalone page. One copy of the bio serves the visible page
+// and the Person node's `description`, so the two can never disagree.
 //
-// AUTHOR_ID is deliberately a fragment on the author page's own URL: it stays
-// stable if the page's copy or title changes, and every Article/BlogPosting
-// `author` references it rather than repeating the name.
+// Owner direction 2026-09-24: the page stays live and is linked from /about
+// only. Bylines, Article/BlogPosting/HowTo `author` and the Organization carry
+// the site's name, not the creator's, and no other page emits the Person node.
 const AUTHOR_NAME = "Ollie Taylor";
 const AUTHOR_PATH = "/about/ollie-taylor";
 const AUTHOR_LINKEDIN_URL = "https://www.linkedin.com/in/ollie-taylor-014a28182/";
@@ -63,7 +63,7 @@ const AUTHOR_X_URL = "https://x.com/olstaylor";
 const AUTHOR_INSTAGRAM_URL = "https://www.instagram.com/olstaylor";
 const AUTHOR_SAME_AS = [AUTHOR_LINKEDIN_URL, AUTHOR_X_URL, AUTHOR_INSTAGRAM_URL];
 // The site's own accounts, owner-confirmed — separate from AUTHOR_SAME_AS
-// (Ollie's personal accounts) and from the artist-tour handles on /contact.
+// (the creator's personal accounts).
 const SITE_X_URL = "https://x.com/tourticketcomp";
 const SITE_INSTAGRAM_URL = "https://www.instagram.com/tourticketcompare";
 // Owner-supplied copy, used as given.
@@ -92,7 +92,7 @@ function authorId(origin) {
   return `${origin}${AUTHOR_PATH}#ollie-taylor`;
 }
 
-// The full Person node. Emitted once, on the author page.
+// The full Person node. Emitted on the author page only.
 function personSchema(origin) {
   return {
     "@type": "Person",
@@ -105,20 +105,12 @@ function personSchema(origin) {
   };
 }
 
-// The compact Person node carried on every other page.
-//
-// Organization.founder and every Article/BlogPosting/HowTo `author` reference
-// the author by @id. An @id that resolves to nothing inside the document it
-// appears in is a dangling reference, so each page carries enough of the node
-// to resolve it — name and url, not the whole bio, which belongs to the author
-// page alone.
-function personRefSchema(origin) {
-  return {
-    "@type": "Person",
-    "@id": authorId(origin),
-    name: AUTHOR_NAME,
-    url: `${origin}${AUTHOR_PATH}`
-  };
+// Bylines credit the site. The visible byline and every Article/BlogPosting/
+// HowTo `author` name the Organization node baseSchema emits on every page, so
+// the @id always resolves inside the document it appears in.
+const SITE_BYLINE_NAME = "TourTicketCompare";
+function siteBylineHtml() {
+  return `By ${anchor(SITE_BYLINE_NAME, "/about", "text-link")}`;
 }
 
 // The homepage proposition has three renderers: this server template, the
@@ -130,7 +122,7 @@ function personRefSchema(origin) {
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare ticket prices for the show you want.";
 const HOME_SUBCOPY =
-  "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.";
+  "Choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Find a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -142,7 +134,7 @@ const HOME_STEPS = [
   },
   {
     title: "2. Compare ticket prices",
-    body: "See the current listed prices we have from ticket sites for that same date.",
+    body: "See the current listed prices from ticket sites for that same date.",
     ctaLabel: "Compare ticket prices",
     href: "/compare-concert-ticket-prices"
   },
@@ -163,7 +155,7 @@ const HOME_STEPS = [
 const ARTISTS_INDEX_LEAD = "Choose an artist, then pick the date you want to compare ticket prices for.";
 const ARTISTS_INDEX_NOTE = "Coverage varies by artist and region.";
 const HOW_IT_WORKS_LEAD =
-  "Compare ticket prices for the show you want: choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site. We're independent, and we don't sell tickets.";
+  "Compare ticket prices for the show you want: choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site. TourTicketCompare is independent and doesn't sell tickets.";
 // <<< site-proposition <<<
 
 const RESERVED_PREFIXES = ["/api/", "/data/", "/admin/"];
@@ -452,7 +444,7 @@ async function routeForPath(pathname, env) {
         indexable: blogIndexIndexable(posts),
         title: "Ticket Research Blog | TourTicketCompare",
         description: hasPosts
-          ? "Notes from an independent ticket research site: how links get verified, what a price snapshot means, and what we publish or withhold and why."
+          ? "Notes from an independent ticket research site: how links get verified, what a price snapshot means, and what gets published or withheld and why."
           : "No posts are published on the TourTicketCompare blog right now. The ticket buying guides cover the practical research questions in the meantime.",
         posts,
         tags,
@@ -681,7 +673,7 @@ async function routeForPath(pathname, env) {
       // are not there.
       description: hasUpcoming
         ? artist.meta_description ||
-          `Every upcoming ${artist.name} date we've verified, with the ticket links we've checked for each one.`
+          `Every upcoming ${artist.name} date verified so far, with the checked ticket links for each one.`
         : `No upcoming ${artist.name} dates are listed right now. See where to find ${artist.name} tickets and get told when dates are confirmed.`,
       artist: enrichedArtist,
       catalog,
@@ -832,10 +824,7 @@ function baseSchema(origin) {
         width: 512,
         height: 512
       },
-      founder: { "@id": authorId(origin) },
-      // The accounts that represent the site itself, owner-confirmed. The two
-      // artist-tour handles named on /contact are deliberately NOT here: they
-      // are not the site's own identity.
+      // The accounts that represent the site itself, owner-confirmed.
       sameAs: [SITE_X_URL, SITE_INSTAGRAM_URL]
     },
     {
@@ -847,8 +836,7 @@ function baseSchema(origin) {
       publisher: { "@id": organizationId },
       inLanguage: "en",
       description: "Independent ticket research for major live music tours with verified ticket links where available."
-    },
-    personRefSchema(origin)
+    }
   ];
 }
 
@@ -1152,10 +1140,7 @@ function articleSchema(route, origin, guideEntry = {}) {
     mainEntityOfPage: `${origin}${route.path}`,
     url: `${origin}${route.path}`,
     image: `${origin}/og-image.png`,
-    // A named person, not the organisation. The publisher stays the
-    // organisation: those are two different claims and search engines read
-    // them as such.
-    author: { "@id": authorId(origin) },
+    author: { "@id": organizationId },
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
     inLanguage: "en",
@@ -1183,11 +1168,11 @@ function blogPostingSchema(route, origin) {
     url: `${origin}${route.path}`,
     image: `${origin}/og-image.png`,
     // `author` in a post's front matter is a documented override. The site's
-    // own byline resolves to the Person node by @id; anyone else named there is
-    // emitted as their own Person, never pinned to someone else's identity.
+    // own byline resolves to the Organization node by @id; anyone else named
+    // there is emitted as their own Person, never pinned to another identity.
     author:
-      post.author === AUTHOR_NAME
-        ? { "@id": authorId(origin) }
+      post.author === SITE_BYLINE_NAME
+        ? { "@id": organizationId }
         : { "@type": "Person", name: post.author },
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
@@ -1203,13 +1188,8 @@ function blogPostingSchema(route, origin) {
 function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}, env = {}) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
-  // The author page is the one route that carries the full Person node. Every
-  // other page keeps the compact reference baseSchema already added, so the
-  // bio and knowsAbout list exist in exactly one place on the site.
-  if (route.path === AUTHOR_PATH) {
-    const index = graph.findIndex((node) => node["@id"] === authorId(origin));
-    graph[index] = personSchema(origin);
-  }
+  // The author page is the one route that carries a Person node.
+  if (route.path === AUTHOR_PATH) graph.push(personSchema(origin));
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
     const rendersSummary =
@@ -1233,7 +1213,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       // The authored JSON carries no author — the byline is the site's, not the
       // Markdown's, so it is attached here rather than duplicated in every
       // guide's front matter. An authored `author`, if one ever appears, wins.
-      graph.push({ author: { "@id": authorId(origin) }, ...howTo });
+      graph.push({ author: { "@id": `${origin}/#organization` }, ...howTo });
     }
   }
   if (route.type === "blog-post") {
@@ -1554,8 +1534,8 @@ function artistCardStatus(catalog, artist, events, now = Date.now()) {
       dateless: !hasUpcoming,
       badgeClass: "status-badge status-badge-muted",
       badge: "Being checked",
-      detail: "Links appear once we've checked them",
-      cardStatus: "We haven't published a ticket link for this artist yet.",
+      detail: "Links appear once they've been checked",
+      cardStatus: "No ticket link has been published for this artist yet.",
       ctaLabel: "View artist page",
       ctaClass: "button button-secondary"
     };
@@ -1616,22 +1596,120 @@ function renderArtistLinks(catalog, events = [], now = Date.now()) {
   return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondary.length ? `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle"><div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(secondary)}</section>` : ""}`;
 }
 
+// How many artists the homepage shows before "Show all". Every artist link is
+// still in the server HTML (the rest sit in a closed <details>), so crawl paths
+// and the homepage search index are unchanged; only the default scroll shrinks.
+const HOMEPAGE_ARTISTS_VISIBLE = 12;
+
+// One compact row per artist: the name and one line of facts. The /artists
+// index keeps the full status cards (renderArtistLinks); on the homepage those
+// cards stacked to ~13,000px on a phone, most of the page, so a visitor looking
+// for one act had to scroll past sixty.
+// One line of facts for an artist tile: date count and next date, or the
+// status when there is no date to name. Shared by the homepage and /artists.
+function artistTileMeta(catalog, artist, events, now = Date.now()) {
+  const status = artistCardStatus(catalog, artist, events, now);
+  if (status.pending) return { status, meta: status.badge };
+  if (status.dateless) return { status, meta: "No dates listed yet" };
+  const shows = futureShowsForArtist(events, artist.slug, 500).filter(
+    (show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url)
+  );
+  // "Sep 25" this year, "Feb 10, 2027" beyond it: keeps each row to one line.
+  const thisYear = `, ${new Date(now).getUTCFullYear()}`;
+  const nextFull = shows.length ? formatCardDate(shows[0].dateTimeISO, shows[0].timezone) : null;
+  const next = nextFull && nextFull.endsWith(thisYear) ? nextFull.slice(0, -thisYear.length) : nextFull;
+  return {
+    status,
+    meta: next ? `${shows.length} ${shows.length === 1 ? "date" : "dates"} · next ${next}` : status.badge
+  };
+}
+
+// Compact link tiles for index pages (/artists, /cities, /venues and the
+// comparison hub): a name and one line of facts per row, in place of the
+// status cards that stacked to 13,000-27,000px on a phone. `data-tile-list`
+// is what the filter box in public/artist-board.js narrows.
+//
+// With `visible`, the first N tiles show and the rest sit in a closed
+// <details> ("Show all N ..."); every link stays in the HTML, and the filter
+// box opens it while a search is active.
+function renderTileListHtml(items, { visible = 0, moreLabel = "" } = {}) {
+  const tiles = (list) =>
+    list
+      .map(
+        (item) =>
+          `<li><a class="tile${item.muted ? " is-muted" : ""}" href="${escapeAttr(item.href)}"><span class="tile__name">${escapeHtml(
+            item.name
+          )}</span>${item.meta ? `<span class="tile__meta">${escapeHtml(item.meta)}</span>` : ""}</a></li>`
+      )
+      .join("");
+  // Only worth collapsing when it hides a meaningful number of tiles.
+  if (!visible || items.length <= visible + 6) return `<ul class="tile-list" data-tile-list>${tiles(items)}</ul>`;
+  return `<ul class="tile-list" data-tile-list>${tiles(items.slice(0, visible))}</ul><details class="tile-more" data-tile-more><summary>${escapeHtml(
+    moreLabel || `Show all ${items.length}`
+  )}</summary><ul class="tile-list" data-tile-list>${tiles(items.slice(visible))}</ul></details>`;
+}
+
+// A filter box for a page of tiles. Rendered hidden: artist-board.js reveals
+// it, so a visitor without JavaScript never sees a control that does nothing.
+function renderTileFilterHtml(label, placeholder) {
+  return `<div class="tile-filter" data-tile-filter hidden><label class="sr-only" for="tile-filter-input">${escapeHtml(
+    label
+  )}</label><input class="show-filter-input tile-filter-input" type="search" id="tile-filter-input" placeholder="${escapeAttr(
+    placeholder
+  )}" autocomplete="off" spellcheck="false" /><p class="muted tile-filter-count" role="status"></p></div>`;
+}
+
+function artistTileItem(catalog, artist, events, now) {
+  const { status, meta } = artistTileMeta(catalog, artist, events, now);
+  return { href: `/artists/${artist.slug}`, name: artist.name, meta, muted: status.dateless };
+}
+
+function homepageArtistTile(catalog, artist, events, now) {
+  const { status, meta } = artistTileMeta(catalog, artist, events, now);
+  return `<li><a class="home-artist${status.dateless ? " is-dateless" : ""}" href="/artists/${escapeAttr(
+    artist.slug
+  )}"><span class="home-artist__name">${escapeHtml(artist.name)}</span><span class="home-artist__meta">${escapeHtml(
+    meta
+  )}</span></a></li>`;
+}
+
+// /artists (2026-09-24, owner request): the same two groups as before, as
+// compact tiles with a filter box. The per-card status badge and its legend
+// are replaced by each tile's facts line, which states the same thing.
+function renderArtistIndexTilesHtml(catalog, events = [], now = Date.now()) {
+  const { primary, secondary } = splitArtistsByUpcoming(catalog.artists, events, now);
+  const tiles = (artists) => renderTileListHtml(artists.map((artist) => artistTileItem(catalog, artist, events, now)));
+  return `${renderTileFilterHtml("Filter artists by name", "Find an artist")}<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2></div>${
+    primary.length ? tiles(primary) : `<p class="muted">No future dates are currently listed.</p>`
+  }</section>${
+    secondary.length
+      ? `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle"><div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These pages come back to the list above when a date is added.</p></div>${tiles(
+          secondary
+        )}</section>`
+      : ""
+  }`;
+}
+
 function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
-  const html = renderArtistLinks(catalog, events, now);
-  const marker = '<section class="artist-status-section artist-status-section--secondary"';
-  const secondaryAt = html.indexOf(marker);
-  if (secondaryAt < 0) return html;
-  // Unwrap the section rather than nesting it: the slice still carries its own
-  // opening tag, so wrapping it whole would emit a <section> with these same
-  // classes inside the <details>, and close the two in the wrong order. The
-  // secondary section is the last thing renderArtistLinks emits, so the slice
-  // ends at its closing tag.
-  const secondaryHtml = html
-    .slice(secondaryAt)
-    .replace(/^<section[^>]*>/, "")
-    .replace(/<\/section>$/, "");
-  const count = splitArtistsByUpcoming(catalog.artists, events, now).secondary.length;
-  return `${html.slice(0, secondaryAt)}<details class="artist-status-section artist-status-section--secondary"><summary>More artists to follow (${count} without dates currently listed)</summary>${secondaryHtml}</details>`;
+  const { primary, secondary } = splitArtistsByUpcoming(catalog.artists, events, now);
+  const tiles = (artists) => artists.map((artist) => homepageArtistTile(catalog, artist, events, now)).join("");
+  const shown = primary.slice(0, HOMEPAGE_ARTISTS_VISIBLE);
+  const rest = primary.slice(HOMEPAGE_ARTISTS_VISIBLE);
+  const primaryHtml = primary.length
+    ? `<ul class="home-artist-list">${tiles(shown)}</ul>${
+        rest.length
+          ? `<details class="home-more"><summary>Show all ${primary.length} artists with dates</summary><ul class="home-artist-list">${tiles(
+              rest
+            )}</ul></details>`
+          : ""
+      }`
+    : `<p class="muted">No future dates are currently listed.</p>`;
+  const secondaryHtml = secondary.length
+    ? `<details class="home-more home-more--quiet"><summary>${secondary.length} more ${
+        secondary.length === 1 ? "artist" : "artists"
+      } with no dates listed yet</summary><ul class="home-artist-list">${tiles(secondary)}</ul></details>`
+    : "";
+  return `${primaryHtml}${secondaryHtml}`;
 }
 
 function cityShowCountLabel(count) {
@@ -1686,6 +1764,19 @@ function cityLeadSentence(city) {
   return `${cityShowCountLabel(city.showCount)} in ${city.city}, ${city.country}: ${spread}${dates}.`;
 }
 
+function renderCityTiles(cities) {
+  if (!cities.length) return renderCityLinks(cities);
+  // deriveCities orders by show count, so the first tiles are the busiest.
+  return renderTileListHtml(
+    cities.map((city) => ({
+      href: `/cities/${city.slug}`,
+      name: city.city,
+      meta: `${city.country} · ${cityShowCountLabel(city.showCount)} · ${cityArtistCountLabel(city.artistCount)}`
+    })),
+    { visible: 24, moreLabel: `Show all ${cities.length} cities` }
+  );
+}
+
 function renderCityLinks(cities) {
   if (!cities.length) {
     return `<p class="muted">No city currently meets the substantial-coverage threshold. Cities appear here once multiple artists have verified upcoming dates.</p>`;
@@ -1720,11 +1811,7 @@ function renderCityLinks(cities) {
 // it. The date stays labelled as the record it actually is.
 function renderLocationProvenance(reportLabel, lastUpdated = "") {
   const checked = formatVerificationDate(lastUpdated);
-  return `<section class="guide-provenance" aria-label="Editorial and data information"><p>By ${anchor(
-    AUTHOR_NAME,
-    AUTHOR_PATH,
-    "text-link"
-  )} · ${anchor("Editorial policy", "/editorial-policy")}${
+  return `<section class="guide-provenance" aria-label="Editorial and data information"><p>${siteBylineHtml()} · ${anchor("Editorial policy", "/editorial-policy")}${
     // P8 (owner-approved 2026-09-24): the newest last_verified_at was often a
     // July date on a page whose prices were checked that morning. The nightly
     // field-sync and daily audit re-check every listed date, so say that.
@@ -1800,7 +1887,7 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
           );
         })
         .join("");
-      return `<article class="nested-panel"><h3>${venueHeading}</h3><div class="card-grid show-card-grid city-show-cards">${cards}</div></article>`;
+      return `<article class="nested-panel" data-show-group><h3>${venueHeading}</h3><div class="card-grid show-card-grid city-show-cards" data-show-grid="true">${cards}</div></article>`;
     })
     .join("");
 }
@@ -1881,6 +1968,20 @@ function venueShowsByArtist(venue) {
     byArtist.get(show.artist_slug).shows.push(show);
   }
   return order.map((slug) => byArtist.get(slug));
+}
+
+function renderVenueTiles(venues) {
+  if (!venues.length) return renderVenueLinks(venues);
+  return renderTileListHtml(
+    venues.map((venue) => ({
+      href: `/venues/${venue.slug}`,
+      name: venue.venue,
+      meta: [venueLocationLabel(venue), venueShowCountLabel(venue.showCount), venueArtistCountLabel(venue.artistSlugs.length)]
+        .filter(Boolean)
+        .join(" · ")
+    })),
+    { visible: 24, moreLabel: `Show all ${venues.length} venues` }
+  );
 }
 
 function renderVenueLinks(venues) {
@@ -2016,6 +2117,13 @@ function renderArtistStatusFactsHtml(facts) {
 // on every artist page ("Before you buy", "How to buy <artist> tickets", "How
 // ticket prices are shown here"). Universal information lives here once; page
 // copy is reserved for what is specific to this artist's dates.
+// A closed <details> around sections that explain rather than sell. The
+// wrapped HTML is unchanged, so its headings and data hooks stay on the page.
+function collapsedGroupHtml(summary, html) {
+  if (!html) return "";
+  return `<details class="page-more"><summary>${escapeHtml(summary)}</summary><div class="page-more__body">${html}</div></details>`;
+}
+
 function renderArtistTicketHelpHtml(help) {
   const points = help.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
   return `<section class="nested-panel artist-ticket-help" data-artist-ticket-help><h2>How prices and links work here</h2><p>${escapeHtml(
@@ -2240,7 +2348,7 @@ function artistCityIntroSentence(artist, artistCity, { datesTabled = false } = {
   const count = cityShowCountLabel(artistCity.showCount);
   const range = cityDateRangeLabel(artistCity);
   const venueLabel = artistCityVenueLabel(artistCity);
-  const pieces = [`We track ${count} for ${artist.name} in ${artistCity.city}, ${artistCity.country}`];
+  const pieces = [`TourTicketCompare tracks ${count} for ${artist.name} in ${artistCity.city}, ${artistCity.country}`];
   if (!datesTabled && venueLabel) pieces.push(`at ${venueLabel}`);
   if (!datesTabled && range) pieces.push(range);
   return `${pieces.join(", ")}. Match the date you want, then compare checked ticket options before you buy.`;
@@ -2354,7 +2462,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
               // this for that case would claim a month of watching that never
               // happened.
               lowLine = `<span class="price-answer-low muted">${escapeHtml(
-                `Lowest we have recorded in ${PRICE_LOW_WINDOW_DAYS} days`
+                `Lowest recorded in ${PRICE_LOW_WINDOW_DAYS} days`
               )}</span>`;
             }
           }
@@ -2392,7 +2500,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     artist.name
   )} tickets in ${escapeHtml(
     artistCity.city
-  )}?</h2><p>The lowest listed price we currently hold for each tracked date${escapeHtml(
+  )}?</h2><p>The lowest listed price currently on record for each tracked date${escapeHtml(
     singleVenue ? `, all at ${singleVenue}` : ""
   )}, and the ticket site offering it. "Sites compared" counts the ticket sites with an eligible listed-price snapshot for that exact date.</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest current listed price by date for ${escapeHtml(
     artist.name
@@ -2537,10 +2645,10 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
             : "";
         })
         .join("");
-      return `<article class="nested-panel"><h3>${anchor(
+      return `<article class="nested-panel" data-show-group><h3>${anchor(
         `${group.name} at ${venue.venue}`,
         `/artists/${group.slug}`
-      )}</h3><div class="card-grid show-card-grid venue-show-cards">${cards}</div>${anchor(
+      )}</h3><div class="card-grid show-card-grid venue-show-cards" data-show-grid="true">${cards}</div>${anchor(
         `View all ${group.name} dates and ticket options`,
         `/artists/${group.slug}`,
         "text-link"
@@ -2607,8 +2715,8 @@ export function renderCityPageBody(route, events = [], options = {}) {
 
   return shell(
     `<p class="lead">${escapeHtml(cityLeadSentence(city))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected tour dates we have verified — not a complete ${city.city} events calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid"><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
+      `Selected verified tour dates — not a complete ${city.city} events calendar.`
+    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
       city.city
     )}${yearLabel ? ` for ${escapeHtml(yearLabel)}` : ""}</h2></div>${renderCityShowGroups(
       city,
@@ -2627,13 +2735,16 @@ export function renderCityPageBody(route, events = [], options = {}) {
           city.artistSlugs
         )
       }
-    )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
-      city.city
-    )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
-      "All cities",
-      "/cities",
-      "button button-secondary"
-    )}</div></section>`
+    )}</section>${collapsedGroupHtml(
+      "Tips for buying and more cities",
+      `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
+        city.city
+      )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+        "All cities",
+        "/cities",
+        "button button-secondary"
+      )}</div></section>`
+    )}`
   );
 }
 
@@ -2663,8 +2774,8 @@ export function renderVenuePageBody(route, events = [], options = {}) {
 
   return shell(
     `<p class="lead">${escapeHtml(venueLeadSentence(venue))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected tour dates we have verified — not the full ${venue.venue} calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid"><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
+      `Selected verified tour dates — not the full ${venue.venue} calendar.`
+    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
       venue.venue
     )}</h2></div>${renderVenueShowGroups(
       venue,
@@ -2675,11 +2786,14 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       options.marketplaceAvailability || {},
       null,
       route.events || events
-    )}</section><section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
-      venue.venue
-    )}</h2><p>Use the ticket button on the date you want, or open that show's artist page for the full event view. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
-      cityPage ? anchor(`More concerts in ${cityPage.city}`, `/cities/${cityPage.slug}`, "button button-secondary") : ""
-    }${anchor("All venues", "/venues", "button button-secondary")}</div></section>`
+    )}</section>${collapsedGroupHtml(
+      "Tips for buying and more venues",
+      `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
+        venue.venue
+      )}</h2><p>Use the ticket button on the date you want, or open that show's artist page for the full event view. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
+        cityPage ? anchor(`More concerts in ${cityPage.city}`, `/cities/${cityPage.slug}`, "button button-secondary") : ""
+      }${anchor("All venues", "/venues", "button button-secondary")}</div></section>`
+    )}`
   );
 }
 
@@ -2731,7 +2845,10 @@ const GUIDE_CLUSTERS = [
 function guideCardHtml(path) {
   const guide = GUIDE_ROUTES[path];
   if (!guide) return "";
-  return `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`;
+  // Title-only rows (2026-09-24, owner request): the per-guide description
+  // cards stacked the index to ~7,800px on a phone; each guide's title already
+  // says what it answers, and its description is its search snippet.
+  return `<li>${anchor(guide.h1, path, "guide-card-link")}</li>`;
 }
 
 function renderGuideClusters() {
@@ -2745,13 +2862,13 @@ function renderGuideClusters() {
       .join("");
     return `<section class="nested-panel"><h2>${escapeHtml(cluster.title)}</h2><p>${escapeHtml(
       cluster.intro
-    )}</p><div class="card-grid guide-grid">${cards}</div></section>`;
+    )}</p><ul class="link-list">${cards}</ul></section>`;
   }).join("");
   const uncovered = Object.keys(GUIDE_ROUTES).filter((path) => !clustered.has(path));
   const moreSection = uncovered.length
-    ? `<section class="nested-panel"><h2>More guides</h2><div class="card-grid guide-grid">${uncovered
+    ? `<section class="nested-panel"><h2>More guides</h2><ul class="link-list">${uncovered
         .map(guideCardHtml)
-        .join("")}</div></section>`
+        .join("")}</ul></section>`
     : "";
   return clusterSections + moreSection;
 }
@@ -2761,7 +2878,7 @@ function renderArtistStatusLegendHtml() {
   const items = [
     ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
     ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],
-    ["status-badge status-badge-muted", "Being checked", "Links appear once we've checked them"]
+    ["status-badge status-badge-muted", "Being checked", "Links appear once they've been checked"]
   ];
   return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
     .map(
@@ -2784,13 +2901,11 @@ function renderHomepageGuideLinks() {
     ...priorityPaths.map((path) => [path, GUIDE_ROUTES[path]]).filter(([, guide]) => Boolean(guide)),
     ...Object.entries(GUIDE_ROUTES).filter(([path]) => !priorityPaths.includes(path))
   ];
-  return `<div class="card-grid guide-grid">${prioritizedGuides
+  // Titles only: the descriptions made six cards ~1,800px tall on a phone.
+  return `<ul class="home-link-list">${prioritizedGuides
     .slice(0, 6)
-    .map(
-      ([path, guide]) =>
-        `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`
-    )
-    .join("")}</div>`;
+    .map(([path, guide]) => `<li>${anchor(guide.h1, path, "guide-card-link")}</li>`)
+    .join("")}</ul>`;
 }
 
 
@@ -2858,20 +2973,21 @@ function renderComparisonHubArtistCards(catalog, events = []) {
     .sort((a, b) => b.upcomingCount - a.upcomingCount || String(a.name).localeCompare(String(b.name)))
     .slice(0, 12);
   if (!artists.length) return `<p class="muted">Artist pages are being reviewed. Check back for verified ticket links and buying guidance.</p>`;
-  return `<div class="artist-card-grid">${artists
-    .map((artist) => {
-      const countText = `${artist.upcomingCount} upcoming ${artist.upcomingCount === 1 ? "show" : "shows"}`;
-      return `<article class="artist-card"><h3>${escapeHtml(artist.name)}</h3><p class="card-status">${escapeHtml(countText)}</p>${anchor("View shows", `/artists/${artist.slug}`, "button button-primary")}</article>`;
-    })
-    .join("")}</div>`;
+  return renderTileListHtml(
+    artists.map((artist) => ({
+      href: `/artists/${artist.slug}`,
+      name: artist.name,
+      meta: `${artist.upcomingCount} upcoming ${artist.upcomingCount === 1 ? "show" : "shows"}`
+    }))
+  );
 }
 
 function renderComparisonHubCityLinks(events = []) {
   const cities = deriveCities(events).filter((city) => city.indexable).slice(0, 8);
   if (!cities.length) return `<p class="muted">City pages appear once multiple artists have enough reviewed upcoming dates.</p>`;
-  return `<div class="mini-link-grid">${cities
-    .map((city) => anchor(`${city.city} concerts (${city.showCount})`, `/cities/${city.slug}`, "mini-link"))
-    .join("")}</div>`;
+  return renderTileListHtml(
+    cities.map((city) => ({ href: `/cities/${city.slug}`, name: `${city.city} concerts`, meta: cityShowCountLabel(city.showCount) }))
+  );
 }
 
 function renderComparisonHubEventCards(events = [], env = {}) {
@@ -2882,22 +2998,29 @@ function renderComparisonHubEventCards(events = [], env = {}) {
   const marketplaceAvailability = Object.fromEntries(
     IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
   );
-  return `<section id="current-events" class="nested-panel"><h2>Prices on upcoming shows</h2><p>For each show below, we display approved current listed-price snapshots where available. Where a snapshot appears, that's a listed price, not your final total: fees, tax, delivery, seat details, and availability are settled at the provider's checkout.</p><div class="card-grid show-card-grid">${shows
-    .map((show) => {
-      const date = formatShowDateServer(show.dateTimeISO, show.timezone);
-      const title = show.event_name || [show.artist_name, show.city].filter(Boolean).join(" – ") || "Upcoming concert";
-      const ctaSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
-      const buttons = ctaSpecs.map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
-        provider: spec.provider,
-        artistSlug: show.artist_slug,
-        showId: show.id,
-        ctaLocation: "comparison_hub"
-      })).join("");
-      const ctas = ctaSpecs.length
-        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}`
-        : `<p class="disclosure-note">No checked provider link is currently available for this date.</p>`;
-      return `<article class="info-card show-card" data-event-id="${escapeAttr(show.id)}"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p>${ctas}${anchor("View artist page", `/artists/${show.artist_slug}`, "text-link")}</article>`;
-    })
+  // The same date card as artist, city and venue boards (2026-09-24): this
+  // section's older card had no date badge, so the shared two-column card grid
+  // squeezed its title into the badge column. CTA clicks keep their
+  // comparison_hub location.
+  return `<section id="current-events" class="nested-panel"><h2>Prices on upcoming shows</h2><p>Each show below displays approved current listed-price snapshots where available. Where a snapshot appears, that's a listed price, not your final total: fees, tax, delivery, seat details, and availability are settled at the provider's checkout.</p>${renderMoneyDisclosureHtml()}<div class="card-grid show-card-grid">${shows
+    .map((show) =>
+      renderShowCardServerHtml(
+        show,
+        seatGeekAvailable,
+        true,
+        vividSeatsAvailable,
+        show.artist_name,
+        marketplaceAvailability,
+        show.artist_slug,
+        {},
+        {
+          includeCopyLink: false,
+          showArtistName: true,
+          ctaLocation: "comparison_hub",
+          supplementalHtml: anchor("View artist page", `/artists/${show.artist_slug}`, "text-link")
+        }
+      )
+    )
     .join("")}</div></section>`;
 }
 
@@ -2919,18 +3042,18 @@ function renderProviderChecklistSection() {
 
 function renderComparisonTrustPanel(events = []) {
   const lastChecked = latestHubVerificationDate(events);
-  return `<section class="nested-panel verification-disclosure"><h2>What we actually check</h2><ul class="check-list"><li>Every date and link on the site comes from a record someone has reviewed.</li><li>We don't make up prices, venues, dates, availability, or relationships with providers.</li><li>If we can't stand behind where a link goes, we hide the button rather than guess.</li><li>Final prices, fees, seat details, availability and delivery are the provider's call, not ours.</li></ul>${lastChecked ? `<p class="disclosure-note">Most recent link check in the current data: ${escapeHtml(lastChecked)}.</p>` : ""}</section>`;
+  return `<section class="nested-panel verification-disclosure"><h2>What actually gets checked</h2><ul class="check-list"><li>Every date and link on the site comes from a record someone has reviewed.</li><li>Prices, venues, dates, availability, and relationships with providers are never made up.</li><li>If a link's destination can't be confirmed, the button is hidden rather than guessed.</li><li>Final prices, fees, seat details, availability and delivery are the provider's call, not this site's.</li></ul>${lastChecked ? `<p class="disclosure-note">Most recent link check in the current data: ${escapeHtml(lastChecked)}.</p>` : ""}</section>`;
 }
 
 function comparisonHubFaqEntries() {
   return [
-    ["What is a ticket comparison site?", "It is a place to see your options for one show before you commit to any of them. We collect ticket links for major tours, check where each one lands before publishing it, and show a listed price with the time we captured it where a provider supplies one. You still buy on the ticket site, and it sets the seats, fees, availability and final total."],
+    ["What is a ticket comparison site?", "It is a place to see your options for one show before you commit to any of them. TourTicketCompare collects ticket links for major tours, checks where each one lands before publishing it, and shows a listed price with the time it was captured where a provider supplies one. You still buy on the ticket site, and it sets the seats, fees, availability and final total."],
     ["What is the best way to compare concert ticket prices?", "Pin down the exact show first: artist, city, venue and date. Comparing anything looser than one date tells you nothing. Then open your options side by side and take each one to the order screen, because that is where the fees land. Check the seat, the ticket type, the delivery timing and any restrictions before you judge the total."],
     ["Why are concert ticket prices different on each site?", "Usually because you are not looking at the same product. One may be a primary ticket from the box office and the other a resale listing priced by whoever is holding it. Seat location, how close the show is, how much stock is left, and where each site adds its fees all move the number too."],
     ["Do resale ticket prices include fees?", "It varies by site and sometimes by event. Some show an all-in price up front, others add service, delivery, tax and handling later in checkout. That is why a headline price is a poor comparison: take both options to the final order screen and compare there."],
     ["Are resale concert tickets safe?", "Buying through an established marketplace with published buyer protection is normally reasonable, but the protection is only as good as its terms, so read them for your order. Check when the ticket actually transfers to you. Deals that arrive by direct message, or ask you to pay by bank transfer or gift card, sit outside all of that."],
     ["When is the best time to buy concert tickets?", "Nobody can tell you, and anyone who says otherwise is guessing. Buying early usually gets you more choice and more certainty. Waiting sometimes turns up resale options and sometimes leaves you with worse seats at a higher price. Decide on the listings actually in front of you rather than on a rule of thumb."],
-    ["Can I track ticket prices for a specific artist?", "Not prices, no, and we do not send price-drop alerts. What we do offer is a date alert: on an artist page with no confirmed dates yet, leave your email and we will tell you once we have published verified dates with checked ticket links. For prices, check the provider page, which is the only place they are current."]
+    ["Can I track ticket prices for a specific artist?", "Not prices, no, and the site does not send price-drop alerts. What it does offer is a date alert: on an artist page with no confirmed dates yet, leave your email to be told once verified dates with checked ticket links are published. For prices, check the provider page, which is the only place they are current."]
   ];
 }
 
@@ -3039,11 +3162,7 @@ function renderGuideProvenance(route) {
     published ? `Published ${published}` : "",
     updated ? `Updated ${updated}` : ""
   ].filter(Boolean);
-  return `<div class="guide-provenance"><p>By ${anchor(
-    AUTHOR_NAME,
-    AUTHOR_PATH,
-    "text-link"
-  )}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Our guides are reviewed against primary provider and regulator sources. See the ${anchor(
+  return `<div class="guide-provenance"><p>${siteBylineHtml()}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Guides are reviewed against primary provider and regulator sources. See the ${anchor(
     "editorial policy",
     "/editorial-policy",
     "text-link"
@@ -3138,7 +3257,8 @@ function renderBlogProvenance(post) {
   const dates = [published ? `Published ${published}` : "", updated ? `Updated ${updated}` : ""].filter(Boolean);
   // anchor() escapes its own label — do not pre-escape, or an author name
   // containing & or an apostrophe renders double-escaped.
-  return `<div class="guide-provenance"><p>By ${anchor(post.author, AUTHOR_PATH, "text-link")}${
+  const byline = post.author === SITE_BYLINE_NAME ? siteBylineHtml() : `By ${escapeHtml(post.author)}`;
+  return `<div class="guide-provenance"><p>${byline}${
     dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""
   }</p><p class="disclosure-note">TourTicketCompare is an independent, unofficial site and does not sell tickets. Some outbound ticket links earn a commission, which never changes what gets published — see the ${anchor(
     "affiliate disclosure",
@@ -3271,7 +3391,7 @@ function availableArtistProviderLinks(catalog, artist, providerAvailability = {}
 function renderProviderFallback(catalog, artist, surface, providerAvailability = {}) {
   const links = availableArtistProviderLinks(catalog, artist, providerAvailability);
   if (!links.length) {
-    return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">We haven't got a checked provider page for this artist yet — buttons only go up once we've followed the link ourselves.</p><p class="muted">Worth reading before you pick a ticket site:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
+    return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">There's no checked provider page for this artist yet — buttons only go up once the link has been followed and confirmed.</p><p class="muted">Worth reading before you pick a ticket site:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
   const cards = links
     .map((item) => {
@@ -3288,7 +3408,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  const singleProviderNote = links.length === 1 ? `<p class="disclosure-note">We've only got one checked provider page for this artist so far, so there's nothing to compare it against yet.</p>` : "";
+  const singleProviderNote = links.length === 1 ? `<p class="disclosure-note">There's only one checked provider page for this artist so far, so there's nothing to compare it against yet.</p>` : "";
   return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">These go to the artist's page on each ticket site, not to a specific date.</p>${singleProviderNote}<div class="provider-actions">${cards}</div></section>`;
 }
 
@@ -3329,25 +3449,21 @@ function renderVerificationDisclosure(artist, hasShows = true) {
   const checkedLine = artistVerifiedDate
     ? `<p><strong>Data checked:</strong> artist links ${escapeHtml(
         artistVerifiedDate
-      )}. That's the most recent date our automated link checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, and we don't print one we haven't done.</p>`
+      )}. That's the most recent date the automated link checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, so none is printed.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What we verify:</strong> that each date comes from a source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What we don't verify:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p>`
-    : `<p><strong>What we verify:</strong> we have no confirmed upcoming ${escapeHtml(
+    ? `<p><strong>What's verified:</strong> that each date comes from a source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p>`
+    : `<p><strong>What's verified:</strong> there are no confirmed upcoming ${escapeHtml(
         artist.name
-      )} dates, so this page lists none. A date goes up only with a date, venue and city from our source, and a ticket button appears only once its link resolves to that exact event.</p>`;
-  return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How we check this page</h2><p>By ${anchor(
-    AUTHOR_NAME,
-    AUTHOR_PATH,
-    "text-link"
-  )}, independent and unofficial — we are not affiliated with ${escapeHtml(
+      )} dates, so this page lists none. A date goes up only with a date, venue and city from the source, and a ticket button appears only once its link resolves to that exact event.</p>`;
+  return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How this page is checked</h2><p>${siteBylineHtml()}. TourTicketCompare is independent and unofficial, and is not affiliated with ${escapeHtml(
     artist.name
-  )}, any promoter, or any ticket site.</p>${checkedLine}${verificationLines}<p class="disclosure-note">Some outbound links earn us a commission — see our ${anchor(
+  )}, any promoter, or any ticket site.</p>${checkedLine}${verificationLines}<p class="disclosure-note">Some outbound links earn TourTicketCompare a commission — see the ${anchor(
     "affiliate disclosure",
     "/affiliate-disclosure",
     "text-link"
   )} and ${anchor("editorial policy", "/editorial-policy", "text-link")}. Spotted a wrong date or a broken link? ${anchor(
-    "Tell us and we'll fix it",
+    "Report it on the contact page",
     "/contact",
     "text-link"
   )}.</p></section>`;
@@ -3897,6 +4013,20 @@ function snapshotAgeLabel(fetchedAt, now = Date.now()) {
 // provider_click analytics listener in public/app.js (artist, event, provider,
 // snapshot present/absent, CTA location). Keep in sync with
 // renderProviderCtaButton in public/app.js.
+// The provider on one date whose listed snapshot is strictly lower than every
+// other priced provider's for that same date, or "" when there is no such lane.
+// It reuses deriveCityDatePrices, so it reads only the lanes the buttons
+// themselves print (no second price gate), compares within one local event,
+// and drops the comparison when currencies differ. PROVIDER_DATA_POLICY.md
+// approves naming the lower listed snapshot only with at least two fresh
+// approved lanes for the same event, so one priced lane earns no badge, and a
+// tie at the bottom earns none either (neither lane is lower).
+function lowestListedProvider(show, ctaSpecs) {
+  const row = deriveCityDatePrices([show], { ctaSpecsFor: () => ctaSpecs }).rows[0];
+  if (!row || row.lanes.length < 2) return "";
+  return row.lanes[0].price < row.lanes[1].price ? row.lanes[0].provider : "";
+}
+
 function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   // P5 (owner-approved 2026-09-24): Ticketmaster is a link source, never a
   // price lane here, so its button should not read like a priced lane.
@@ -3905,7 +4035,12 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const ctaLocation = analytics.ctaLocation || "event_card";
   const trackedHref = withCtaLocation(href, ctaLocation);
   const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"`;
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
+  // "Lowest listed" marks the one lane lowestListedProvider picked; the card's
+  // price note beneath already says these are listed prices, not totals.
+  const lowest = Boolean(amount && analytics.lowest);
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${lowest ? " provider-cta-lowest" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span>${
+    lowest ? `<span class="provider-cta-badge">Lowest listed</span>` : ""
+  }</a>`;
 }
 
 // Copy for a card whose lanes were checked and none had an eligible snapshot.
@@ -3959,7 +4094,7 @@ function priceUnavailableNote(ctaSpecs, show, now = Date.now()) {
   if (!priceLaneSpecs.length && mappedOnPriceLane) return PRICE_UNAVAILABLE_NOTE;
   if (!priceLaneSpecs.length) {
     const sources = joinProviderNames(LISTED_PRICE_PROVIDERS.map((lane) => lane.name));
-    return `No listed-price snapshot for this date: it isn't matched yet on the sites we collect prices from (${sources}). Check current prices using ${buttonWord}.`;
+    return `No listed-price snapshot for this date: it isn't matched yet on the sites prices are collected from (${sources}). Check current prices using ${buttonWord}.`;
   }
   const checks = show?.priceChecks && typeof show.priceChecks === "object" ? show.priceChecks : {};
   const recent = priceLaneSpecs
@@ -3970,7 +4105,7 @@ function priceUnavailableNote(ctaSpecs, show, now = Date.now()) {
   const when = formatServerSnapshotTime(latest);
   if (!when) return PRICE_UNAVAILABLE_NOTE;
   const checkedLanes = joinProviderNames(recent.map((entry) => entry.name));
-  return `No listed price at our last check of ${checkedLanes} (${when}). Check current prices using ${buttonWord}.`;
+  return `No listed price at the last check of ${checkedLanes} (${when}). Check current prices using ${buttonWord}.`;
 }
 
 // Did this card's price lanes actually get queried? attachApprovedMarketplacePrices
@@ -4140,7 +4275,7 @@ function renderPriceHistoryPanelHtml(artistSlug, showId) {
 // history panel on first open (public/price-history.js sets its artist, event
 // and input id). Rendering it inside every card cost ~1.3 KB and ten elements
 // per card — 116 KB on an 84-date board — for a form almost nobody opens.
-const PRICE_ALERT_INTEREST_TEMPLATE = `<template id="price-alert-interest-template"><form class="price-alert-interest" method="post" action="/api/signup" data-price-alert-interest="" data-event-id=""><p class="muted">Want an email if this price drops? We don't send price emails yet — leave an address to register interest and help us decide whether to build alerts.</p><div class="price-alert-interest-row"><label class="sr-only" for="price-alert-email">Email address</label><input type="email" id="price-alert-email" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></template>`;
+const PRICE_ALERT_INTEREST_TEMPLATE = `<template id="price-alert-interest-template"><form class="price-alert-interest" method="post" action="/api/signup" data-price-alert-interest="" data-event-id=""><p class="muted">Want an email if this price drops? Price emails aren't sent yet — leave an address to register interest and help decide whether alerts get built.</p><div class="price-alert-interest-row"><label class="sr-only" for="price-alert-email">Email address</label><input type="email" id="price-alert-email" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></template>`;
 
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}, presentation = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
@@ -4156,9 +4291,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const ctaSpecs = show.id ? serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }) : [];
     const onsaleHtml = `<p class="disclosure-note" data-public-onsale>${escapeHtml(publicOnsaleLabel(show))}${ctaSpecs.length ? " Until then, these are resale listings, which can sit above face value." : ""}</p>`;
     if (ctaSpecs.length) {
-      const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: "event_card" };
+      const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
+      const lowestProvider = lowestListedProvider(show, ctaSpecs);
       const buttonsHtml = ctaSpecs
-        .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
+        .map((spec) =>
+          renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
+            ...analyticsBase,
+            provider: spec.provider,
+            lowest: Boolean(lowestProvider) && spec.provider === lowestProvider
+          })
+        )
         .join("");
       const historyHtml = hasApprovedServerPriceSnapshot(show) ? renderPriceHistoryPanelHtml(artistSlug, show.id) : "";
       ctaHtml = `${onsaleHtml}<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p><div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
@@ -4171,9 +4313,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       // Keep every provider in one fixed-order list. A fresh approved snapshot
       // replaces "Check prices" with the amount, without moving the provider or
       // splitting the card into separate priced and unpriced sections.
-      const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: "event_card" };
+      const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
+      const lowestProvider = lowestListedProvider(show, ctaSpecs);
       const buttonsHtml = ctaSpecs
-        .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
+        .map((spec) =>
+          renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
+            ...analyticsBase,
+            provider: spec.provider,
+            lowest: Boolean(lowestProvider) && spec.provider === lowestProvider
+          })
+        )
         .join("");
       // The buttons are the only outbound links on the card — there is no
       // second "compare" link to double-count a click through.
@@ -4199,7 +4348,10 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       country: show.country || "",
       venue: show.venue || "",
       event_name: show.event_name || "",
-      tour_name: show.tour_name || ""
+      tour_name: show.tour_name || "",
+      // City and venue boards list several artists, so their search matches
+      // on the artist too.
+      artist_name: artistName || show.artist_name || ""
     })
   );
   const copyLinkHtml = presentation.includeCopyLink !== false && anchorId
@@ -4230,9 +4382,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   // carries it, so nothing here is inferred.
   const fullDate = formatShowDateServer(show.dateTimeISO, show.timezone);
   const localTime = showLocalTimeServer(show.dateTimeISO, show.timezone);
+  // With a date badge the full date is already on the card, so the meta line
+  // carries only the start time and country (the <time> still holds the full
+  // ISO value). Without a badge the full date stays in the line.
   const metaParts = [
-    fullDate ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(fullDate)}</time>` : "",
-    localTime ? `${escapeHtml(localTime)} local` : "",
+    fullDate && !dateParts ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(fullDate)}</time>` : "",
+    localTime
+      ? dateParts
+        ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(localTime)} local</time>`
+        : `${escapeHtml(localTime)} local`
+      : "",
     show.country ? escapeHtml(show.country) : ""
   ].filter(Boolean);
   const metaHtml = metaParts.length ? `<p class="show-card-meta">${metaParts.join(" · ")}</p>` : "";
@@ -4244,7 +4403,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const runHtml = run
     ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue</p>`
     : "";
-  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
+  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}</div><div class="show-card-actions">${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the
@@ -4264,7 +4423,7 @@ function renderRecentShowsHtml(safeName, pastShows) {
       return `<li><time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(label)}</time>${place ? ` — ${place}` : ""}</li>`;
     })
     .join("");
-  return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">These dates have already been and gone — they're here for reference while we check any newly announced run.</p><ul class="recent-shows-list">${items}</ul></div>`;
+  return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">These dates have already been and gone — they're here for reference while any newly announced run is checked.</p><ul class="recent-shows-list">${items}</ul></div>`;
 }
 
 // An empty board is a state the site deliberately publishes rather than hides,
@@ -4286,8 +4445,8 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
   const safeName = escapeHtml(String(artistName || "").trim() || "artist");
   const copy = emptyCopy || {
     heading: "No upcoming dates listed",
-    body: `We have no upcoming ${String(artistName || "").trim() || "artist"} dates on file, and we can't say whether any are coming.`,
-    next: "When our source lists a date, it appears here, with a ticket button once its link has passed our checks."
+    body: `There are no upcoming ${String(artistName || "").trim() || "artist"} dates on file, and no way to say yet whether any are coming.`,
+    next: "When the source lists a date, it appears here, with a ticket button once its link has passed the site's checks."
   };
   // The artist-level provider page is the only outbound option here: there are
   // no verified dates, so there is nothing event-level to link to.
@@ -4297,7 +4456,7 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
   const recentHtml = renderRecentShowsHtml(safeName, pastShows);
   const signupHtml = artistSlug
-    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Get told when ${safeName} dates land</h4><p class="muted">Leave your email and we'll let you know when we list confirmed ${safeName} dates. Nothing else.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
+    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Get told when ${safeName} dates land</h4><p class="muted">Leave your email to hear when confirmed ${safeName} dates are listed. Nothing else.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
     : "";
   const nextHtml = copy.next ? `<p class="muted">${escapeHtml(copy.next)}</p>` : "";
   const explainerHtml = copy.compact
@@ -4355,9 +4514,9 @@ function renderShowBoardJumpHtml(shows) {
 // Ticketmaster link last) and makes no claim the site cannot check. Keep in
 // sync with MONEY_DISCLOSURE in public/app.js.
 const MONEY_DISCLOSURE_TEXT =
-  "when you buy through some of these buttons, the ticket site pays us a commission. We add no fee of our own. Sites that pay us are listed first; Ticketmaster, which doesn't, is listed last when we have its link.";
+  "when you buy through some of these buttons, the ticket site pays TourTicketCompare a commission. No fee is added on top. Sites that pay a commission are listed first; Ticketmaster, which doesn't, is listed last when its link is available.";
 function renderMoneyDisclosureHtml() {
-  return `<p class="disclosure-note money-disclosure"><strong>How we make money:</strong> ${escapeHtml(MONEY_DISCLOSURE_TEXT)} ${anchor(
+  return `<p class="disclosure-note money-disclosure"><strong>How this site makes money:</strong> ${escapeHtml(MONEY_DISCLOSURE_TEXT)} ${anchor(
     "Affiliate disclosure",
     "/affiliate-disclosure",
     "text-link"
@@ -4369,17 +4528,21 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns)).join("")
     : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug, pastShows, emptyCopy);
-  const filterIntro = shows.length > 1
-    ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Jump to a month below, or use the search and city filters to narrow the list.</p></div>${renderShowBoardJumpHtml(shows)}`
-    : "";
+  // The month jump list and the filter bar (public/artist-board.js) explain
+  // themselves; the "Find your date" heading and instructions above them were
+  // removed on 2026-09-24 so the first date sits higher on the page.
+  const filterIntro = shows.length > 1 ? renderShowBoardJumpHtml(shows) : "";
   // P3 (owner-approved 2026-09-24). "Reviewed" is gone: dates added by the
   // Ticketmaster lane are machine-matched, not reviewed by a person. P11: an
   // artist that has never had a date gets no intro — the empty box says it.
+  // Populated boards (2026-09-24, owner request): one short line. What the
+  // buttons and prices mean is covered by "How prices and links work here"
+  // further down, and the money statement below stays in full beside them.
   const boardIntro = shows.length
-    ? `<p>Pick a date. Each button is a ticket site that sells it, with that site's lowest listed price when we have one. We check prices every few hours; the site shows your final total.</p>`
+    ? `<p class="show-board-intro">Pick a date, then a ticket site. A price on a button is that site's lowest listed price; the site shows your final total.</p>`
     : emptyCopy?.compact
       ? ""
-      : `<p>Dates appear here once our source confirms them.</p>`;
+      : `<p>Dates appear here once the source confirms them.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}${renderMoneyDisclosureHtml()}</div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
@@ -4474,11 +4637,63 @@ export function renderGuideProviderPair(route, events, env = {}) {
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
   if (route.path === "/privacy") {
-    return '<main id="mainContent"><section class="content-page" aria-labelledby="privacyTitle">' + renderBreadcrumbHtml(route) + '<h1 id="privacyTitle">Privacy policy</h1><p class="lead">This page explains what information TourTicketCompare handles when you browse the site, use the watchlist, or follow a ticket link.</p><section class="nested-panel"><h2>What we collect</h2><ul class="check-list"><li>If you use a watchlist form, we receive the email address you provide, the artist you selected, and your consent to that signup.</li><li>For watchlist signups, we also store the submitted source path, referrer, user-agent, a one-way request key, and signup timestamps with the subscriber record.</li><li>Our server-side measurement records page, referrer, source, provider, event, and outbound-link details needed to understand site use and link performance.</li><li>For server measurement, the request key uses a one-way hash of the IP address and user-agent. We do not store the raw IP address in that measurement record.</li></ul></section><section class="nested-panel"><h2>Cookies and similar storage</h2><p>The public site uses Google Tag Manager and Google Analytics. Those services may use cookies or similar technologies under their own policies. The site does not use a first-party session cookie; some same-tab interface measurement uses browser session storage.</p></section><section class="nested-panel"><h2>How we use information</h2><ul class="check-list"><li>To operate pages, respond to watchlist signups, and understand which content and checked links are useful.</li><li>To investigate broken links, incorrect event details, abuse, and technical problems.</li><li>We do not sell tickets, process ticket payments, or receive your provider checkout details.</li></ul></section><section class="nested-panel"><h2>When you leave for a provider</h2><p>Ticket providers and analytics services operate under their own privacy notices and terms. Some outbound ticket links are affiliate links. The provider controls its own account, checkout, price, fees, availability, delivery, refund, and data practices.</p></section><section class="nested-panel"><h2>Your choices and questions</h2><p>You can browse without joining a watchlist. You can use your browser and device controls to manage cookies and storage. For a privacy question about information you submitted through this site, email ' + anchor('hello@tourticketcompare.com', 'mailto:hello@tourticketcompare.com', 'text-link') + ' and include enough detail for us to identify the request.</p></section><p class="disclosure-note">This is a plain-language site policy, not legal advice. We may update it when the site’s data practices change.</p><div class="action-row">' + anchor('About TourTicketCompare', '/about', 'button button-primary') + '' + anchor('Contact us', '/contact', 'button button-secondary') + '' + anchor('Affiliate disclosure', '/affiliate-disclosure', 'button button-secondary') + '' + anchor('Terms of use', '/terms', 'button button-secondary') + '</div></section></main>';
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="privacyTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="privacyTitle">Privacy policy</h1><p class="lead">This page explains what information TourTicketCompare handles when you browse the site, leave an email address, or follow a ticket link.</p><section class="nested-panel"><h2>Information the site collects</h2><ul class="check-list"><li><strong>Email forms.</strong> The artist date-alert form and the price-drop &ldquo;register interest&rdquo; form collect the email address you enter. The site also stores the artist you chose, the page you submitted from, the referring page, your browser's user-agent string, a request key (see below) and the time of the signup. For price-drop interest it also records which date you were looking at.</li><li><strong>Site measurement.</strong> When you view a page or click a ticket button, the site's own server records the page, the referring site, any campaign tags in the link, the ticket site and event involved, your browser's user-agent string and the device type derived from it, page-load performance timings, and the time.</li><li><strong>Request keys.</strong> A request key is a one-way hash of your IP address and user-agent. The same connection and browser always produce the same key, so it links records from one device across visits, not only within one, and it limits repeated form submissions. The raw IP address is not stored in these records.</li></ul></section><section class="nested-panel"><h2>Cookies and browser storage</h2><p>The site uses Google Tag Manager and Google Analytics 4, which set cookies to measure visits under ${anchor(
+      "Google's privacy policy",
+      "https://policies.google.com/privacy",
+      "text-link"
+    )}. Every page also loads the publisher tag of Impact, an affiliate network, which reports a page impression to Impact and may set its own cookies. TourTicketCompare sets no cookies of its own. It uses your browser's session storage to group the pages of one visit, which is cleared when the tab closes, and local storage to remember your last choice in the currency converter. After you click through to a ticket site, that site or its affiliate network may set its own cookies so a purchase can be credited.</p></section><section class="nested-panel"><h2>How the information is used</h2><ul class="check-list"><li>To run the site and its forms, and to email you about the artist you asked about if you joined a date alert.</li><li>To count interest in price-drop emails. No price emails are sent; the count decides whether they are worth building.</li><li>To understand which pages, guides and ticket links are useful, and to measure clicks through affiliate links.</li><li>To investigate broken links, incorrect event details, abuse, and technical problems.</li></ul></section><section class="nested-panel"><h2>Who else handles it</h2><ul class="check-list"><li><strong>Cloudflare</strong> hosts the site. It processes every request, including your IP address, to serve and protect the site, and stores the form and measurement records described above.</li><li><strong>Google</strong> receives analytics data through Google Analytics.</li><li><strong>Impact</strong>, an affiliate network, receives a page-impression request from every page through its publisher tag.</li><li><strong>Ticket sites</strong> receive your visit when you click a ticket button. TourTicketCompare does not sell tickets or take payments, and never sees your checkout, payment or account details. Each ticket site's own privacy notice and terms apply there.</li></ul></section><section class="nested-panel"><h2>How long it is kept</h2><p>Email signups are kept until you ask for them to be removed. Measurement records are kept for analysing trends over time and are not currently deleted on a fixed schedule.</p></section><section class="nested-panel"><h2>Your choices and rights</h2><p>You don't need to give an email address to use the site. To have your email address removed, or to ask what the site holds about you, email ${anchor(
+      "hello@tourticketcompare.com",
+      "mailto:hello@tourticketcompare.com",
+      "text-link"
+    )} from the address concerned. You can block or clear cookies and storage in your browser settings, and Google offers a ${anchor(
+      "browser add-on to opt out of Google Analytics",
+      "https://tools.google.com/dlpage/gaoptout",
+      "text-link"
+    )}. If you're unhappy with how your information is handled, you can complain to your local data protection authority; in the UK, that is the ${anchor(
+      "Information Commissioner's Office",
+      "https://ico.org.uk/make-a-complaint/",
+      "text-link"
+    )}.</p></section><p class="disclosure-note">This is a plain-language policy, not legal advice. It is updated when the site's data practices change.</p><div class="action-row">${anchor(
+      "About TourTicketCompare",
+      "/about",
+      "button button-primary"
+    )}${anchor("Contact", "/contact", "button button-secondary")}${anchor(
+      "Affiliate disclosure",
+      "/affiliate-disclosure",
+      "button button-secondary"
+    )}${anchor("Terms of use", "/terms", "button button-secondary")}</div></section></main>`;
   }
 
   if (route.path === "/terms") {
-    return '<main id="mainContent"><section class="content-page" aria-labelledby="termsTitle">' + renderBreadcrumbHtml(route) + '<h1 id="termsTitle">Terms of use</h1><p class="lead">These terms describe the ground rules for using TourTicketCompare, an independent and unofficial ticket-research site.</p><section class="nested-panel"><h2>What the site provides</h2><p>We publish checked artist and event links, timestamped listed-price snapshots where eligible, and practical buying guidance. The site is for research and general information. We do not sell or resell tickets, take payment, hold inventory, or act as a ticket agent.</p></section><section class="nested-panel"><h2>Prices, dates, and provider information</h2><p>Prices and other details can change. A snapshot is not a live quote, a promise of availability, or a final checkout total. Before buying, confirm the event, seat details, final price, fees, delivery, refund, transfer, and resale terms on the provider’s site.</p></section><section class="nested-panel"><h2>External links and affiliate relationships</h2><p>Links may take you to Ticketmaster or approved resale providers. Those sites have their own terms, privacy notices, accounts, payments, and customer support. Some links may earn TourTicketCompare a commission at no extra cost to you; that relationship does not change the provider’s terms or the checks we apply before showing a link.</p></section><section class="nested-panel"><h2>Using the site responsibly</h2><ul class="check-list"><li>Use the site lawfully and do not interfere with its operation or security.</li><li>Do not copy, republish, overload, probe, or attempt to bypass access controls on the site or its services.</li><li>Do not treat general guidance as financial, legal, ticketing, or travel advice for your individual circumstances.</li></ul></section><section class="nested-panel"><h2>Content and availability</h2><p>We work to keep information accurate and links useful, but we cannot promise that every page, link, price, date, provider, or service will always be complete, current, available, or error-free. If you spot a problem, please use the ' + anchor('contact page', '/contact', 'text-link') + '.</p></section><section class="nested-panel"><h2>Changes and contact</h2><p>We may change the site or these terms as the service develops. Continuing to use the site after a change means you are viewing the current version. Questions about these terms can be sent to ' + anchor('hello@tourticketcompare.com', 'mailto:hello@tourticketcompare.com', 'text-link') + '.</p></section><p class="disclosure-note">This is a plain-language site policy, not legal advice. We may update these terms as the site changes.</p><div class="action-row">' + anchor('About TourTicketCompare', '/about', 'button button-primary') + '' + anchor('Privacy policy', '/privacy', 'button button-secondary') + '' + anchor('Contact us', '/contact', 'button button-secondary') + '</div></section></main>';
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="termsTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="termsTitle">Terms of use</h1><p class="lead">These terms set the ground rules for using TourTicketCompare, an independent and unofficial ticket-research site. By using the site you accept them.</p><section class="nested-panel"><h2>What the site provides</h2><p>TourTicketCompare publishes checked artist and event links, listed prices captured from ticket sites with the time each was captured, and buying guides. It is for research and general information. It does not sell or resell tickets, take payments, hold inventory, or act as a ticket agent, and it is not affiliated with any artist, promoter, venue or ticket site.</p></section><section class="nested-panel"><h2>Prices, dates and provider information</h2><p>Prices and other details change. A price shown here is a listed price captured at the time stamped beside it, not a live quote, a promise of availability, or a final checkout total. Before buying, confirm the event, seat details, final price, fees, delivery, refund, transfer and resale terms on the ticket site.</p></section><section class="nested-panel"><h2>Ticket sites and affiliate links</h2><p>Ticket buttons take you to Ticketmaster or approved resale marketplaces. Any purchase is between you and that ticket site, under its own terms, privacy notice and customer support. Some links earn TourTicketCompare a commission at no extra cost to you; that never changes the ticket site's terms or which links appear. See the ${anchor(
+      "affiliate disclosure",
+      "/affiliate-disclosure",
+      "text-link"
+    )}.</p></section><section class="nested-panel"><h2>Email alerts</h2><p>Leaving an email address on the site is optional. How that address is stored and used, and how to have it removed, is set out in the ${anchor(
+      "privacy policy",
+      "/privacy",
+      "text-link"
+    )}.</p></section><section class="nested-panel"><h2>Using the site responsibly</h2><ul class="check-list"><li>Use the site lawfully and do not interfere with its operation or security.</li><li>Do not copy, republish, overload, probe, or attempt to bypass access controls on the site or its services.</li><li>Do not treat general guidance as financial, legal, ticketing, or travel advice for your individual circumstances.</li></ul></section><section class="nested-panel"><h2>Content and trademarks</h2><p>The site's text, design and compiled data belong to TourTicketCompare. Artist names, ticket-site names and logos belong to their owners and appear only to identify them.</p></section><section class="nested-panel"><h2>Accuracy and liability</h2><p>Information is checked before it is published, but no page, link, price, date, provider or service can be guaranteed complete, current, available or error-free. As far as the law allows, TourTicketCompare is not liable for any loss arising from your use of the site or from a purchase made on another site. Nothing in these terms limits any right you have that cannot be excluded by law. If you spot a problem, report it on the ${anchor(
+      "contact page",
+      "/contact",
+      "text-link"
+    )}.</p></section><section class="nested-panel"><h2>Changes and contact</h2><p>The site and these terms may change as the service develops; the version on this page is the one that applies. Questions about these terms can be sent to ${anchor(
+      "hello@tourticketcompare.com",
+      "mailto:hello@tourticketcompare.com",
+      "text-link"
+    )}.</p></section><p class="disclosure-note">This is a plain-language policy, not legal advice.</p><div class="action-row">${anchor(
+      "About TourTicketCompare",
+      "/about",
+      "button button-primary"
+    )}${anchor("Privacy policy", "/privacy", "button button-secondary")}${anchor(
+      "Contact",
+      "/contact",
+      "button button-secondary"
+    )}</div></section></main>`;
   }
 
 
@@ -4492,14 +4707,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Browse checked events",
       "#current-events",
       "button button-primary"
-    )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">We only compare prices captured for the same event, each with the time it was taken. Treat them as a starting point rather than a seat-for-seat match or a final quote — the provider sets the price, fees, availability and delivery terms.</p></section>${renderComparisonIntentCards()}<section id="compare-by-artist" class="nested-panel"><h2>Start with an artist</h2><p>Open an artist to find the date you mean. Compare at the level of a single show — that's the only comparison that tells you anything.</p>${renderComparisonHubArtistCards(
+    )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">Prices are only compared when captured for the same event, each with the time it was taken. Treat them as a starting point rather than a seat-for-seat match or a final quote — the provider sets the price, fees, availability and delivery terms.</p></section><section id="compare-by-artist" class="nested-panel"><h2>Start with an artist</h2><p>Open an artist to find the date you mean. Compare at the level of a single show — that's the only comparison that tells you anything.</p>${renderComparisonHubArtistCards(
       catalog,
       events
     )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city</h2><p>If the city matters more than the act, start here — then narrow down to the artist, venue, and date.</p>${renderComparisonHubCityLinks(
       events
-    )}</section>${renderProviderChecklistSection()}<section class="nested-panel"><h2>Why the same show costs different amounts</h2><div class="card-grid"><article class="info-card"><h3>Who's selling it</h3><p>A ticket straight from the box office and a resale listing are different products with different rules.</p></article><article class="info-card"><h3>Where you're sitting</h3><p>Section, row, sightline and how close you are to the stage all move the number.</p></article><article class="info-card"><h3>When you look</h3><p>Onsales, extra releases and resale supply all shift in the weeks before a show.</p></article><article class="info-card"><h3>Fees</h3><p>The first number you see is rarely the last. Service, delivery, tax and handling get added later.</p></article></div></section>${renderComparisonTrustPanel(
+    )}</section>${renderComparisonHubEventCards(
+      events,
+      env
+    )}${collapsedGroupHtml(
+      "How to compare, and what gets checked",
+      // Kept word for word, folded below the dates (2026-09-24, owner request).
+      `${renderComparisonIntentCards()}${renderProviderChecklistSection()}<section class="nested-panel"><h2>Why the same show costs different amounts</h2><div class="card-grid"><article class="info-card"><h3>Who's selling it</h3><p>A ticket straight from the box office and a resale listing are different products with different rules.</p></article><article class="info-card"><h3>Where you're sitting</h3><p>Section, row, sightline and how close you are to the stage all move the number.</p></article><article class="info-card"><h3>When you look</h3><p>Onsales, extra releases and resale supply all shift in the weeks before a show.</p></article><article class="info-card"><h3>Fees</h3><p>The first number you see is rarely the last. Service, delivery, tax and handling get added later.</p></article></div></section>${renderComparisonTrustPanel(
       events
-    )}<section class="nested-panel"><h2>Ticket sites and sources</h2><p>What we do is collect checked ticket links and explain how to read them. Use them as a starting point, then confirm the price, fees, seat restrictions, delivery, refunds and event terms on the provider before you pay.</p>${renderMoneyDisclosureHtml()}<p class="disclosure-note">We don't sell tickets, can't guarantee availability, and won't tell you one provider is always cheaper.</p><div class="action-row">${anchor(
+    )}<section class="nested-panel"><h2>Ticket sites and sources</h2><p>TourTicketCompare collects checked ticket links and explains how to read them. Use them as a starting point, then confirm the price, fees, seat restrictions, delivery, refunds and event terms on the provider before you pay.</p><p class="disclosure-note">This site doesn't sell tickets, can't guarantee availability, and won't claim one provider is always cheaper.</p><div class="action-row">${anchor(
       "How it works",
       "/how-it-works",
       "button button-secondary"
@@ -4515,14 +4736,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Currency converter",
       "/currency-converter",
       "button button-secondary"
-    )}</div></section><section id="browse-catalog" class="nested-panel"><h2>Browse concerts and tours</h2><p>Artist and tour pages are where the checked links and per-show guidance live.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse cities", "/cities", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
+    )}</div></section>`
+    )}<section id="browse-catalog" class="nested-panel"><h2>Browse concerts and tours</h2><p>Artist and tour pages are where the checked links and per-show guidance live.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse cities", "/cities", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
       .filter((tour) => tour && tour.verified === true && tour.artist_slug && tour.slug)
       .slice(0, 6)
       .map((tour) => anchor(tour.tour_name || "Tour ticket options", `/artists/${tour.artist_slug}/${tour.slug}`, "mini-link"))
-      .join("")}</div></section>${renderComparisonHubEventCards(
-      events,
-      env
-    )}<section class="nested-panel faq-panel"><h2>FAQ</h2>${faqHtml}</section></section></main>`;
+      .join("")}</div></section><section class="nested-panel faq-panel"><h2>FAQ</h2>${faqHtml}</section></section></main>`;
   }
 
   if (route.type === "artist") {
@@ -4606,8 +4825,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // compare, and a page with no dates is not the place for a buying course.
     // It keeps the provenance block: the byline and the check date are the
     // page's accountability, and an empty page needs those most.
+    // On a populated page the explainer and supporting sections are kept word
+    // for word but start closed (2026-09-24, owner request): visitors come for
+    // the dates and buttons, and these sections stacked ~6,000px under them on
+    // a phone. They stay in the HTML, so their content is still on the page.
     const commercialHtml = shows.length
-      ? `${showBoardHtml}${providerPanelHtml}${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
+      ? `${showBoardHtml}${providerPanelHtml}${collapsedGroupHtml(
+          "How prices and checks work",
+          `${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
+        )}`
       : `${showBoardHtml}${trustHtml}`;
     // "About these links" and generic buying support describe a populated
     // ticket board. Empty pages keep only their honest empty state, plus the
@@ -4642,9 +4868,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
           artist.name
         )} ticket FAQ</h2>${artistFaqHtml}</section>`
       : "";
+    const moreHtml = shows.length
+      ? collapsedGroupHtml(`About ${artist.name}, dates by city, and guides`, `${supportingHtml}${usefulLinksHtml}`)
+      : `${supportingHtml}${usefulLinksHtml}`;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
-    )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${supportingHtml}${usefulLinksHtml}${faqHtml}</section></main>`;
+    )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${moreHtml}${faqHtml}</section></main>`;
   }
 
   if (route.type === "artist-city") {
@@ -4722,9 +4951,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       null,
       marketplaceAvailability,
       artist.slug
-    )}${renderArtistTicketHelpHtml(
-      artistTicketHelp()
-    )}${relatedLinksHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}${relatedLinksHtml}${collapsedGroupHtml(
+      "How prices and links work, and useful links",
+      `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
       `/artists/${artist.slug}`,
       "mini-link"
@@ -4732,7 +4961,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "How to compare concert ticket prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "mini-link"
-    )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "mini-link")}</div></section><div class="action-row">${anchor(
+    )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "mini-link")}</div></section>`
+    )}<div class="action-row">${anchor(
       `All ${artist.name} tickets`,
       `/artists/${artist.slug}`,
       "button button-primary"
@@ -4778,7 +5008,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
         "Ticket buying guides",
         "/guides",
         "mini-link"
-      )}${anchor("Artists we track", "/artists", "mini-link")}${anchor(
+      )}${anchor("Tracked artists", "/artists", "mini-link")}${anchor(
         "Compare concert ticket prices",
         "/compare-concert-ticket-prices",
         "mini-link"
@@ -4786,7 +5016,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     }
     return `<main id="mainContent"><section class="content-page" aria-labelledby="blogTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="blogTitle">TourTicketCompare blog</h1><p class="lead">Notes on how this site works: what gets checked before a ticket link goes up, what a price snapshot does and does not claim, and why some pages deliberately say we have nothing. Step-by-step buying advice lives in the ${anchor(
+    )}<h1 id="blogTitle">TourTicketCompare blog</h1><p class="lead">Notes on how this site works: what gets checked before a ticket link goes up, what a price snapshot does and does not claim, and why some pages deliberately say there is nothing to show. Step-by-step buying advice lives in the ${anchor(
       "buying guides",
       "/guides",
       "text-link"
@@ -4812,7 +5042,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Ticket buying guides",
       "/guides",
       "mini-link"
-    )}${anchor("Artists we track", "/artists", "mini-link")}${anchor(
+    )}${anchor("Tracked artists", "/artists", "mini-link")}${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "mini-link"
@@ -4864,7 +5094,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="citiesTitle">Concerts by city</h1><p class="lead">${escapeHtml(
       `${cities.length} ${cities.length === 1 ? "city has" : "cities have"} enough verified upcoming dates to list here.`
-    )}${leadingCity ? ` The widest coverage is ${anchor(leadingCity.city, `/cities/${leadingCity.slug}`)} with ${escapeHtml(cityShowCountLabel(leadingCity.showCount))}.` : ""}</p><section class="section-grid"><div class="section-intro"><h2>Cities with upcoming concerts</h2></div>${renderCityLinks(cities)}</section><section class="nested-panel"><h2>What makes a city page useful?</h2><div class="card-grid"><article class="info-card"><h3>Enough distinct coverage</h3><p>A city must have at least four upcoming reviewed shows across at least two artists before it can be indexed.</p></article><article class="info-card"><h3>Event-level facts</h3><p>Every listed date comes from the same reviewed event records used on artist and venue pages; city or venue facts are never invented to fill a page.</p></article><article class="info-card"><h3>A route to the exact show</h3><p>Each city schedule links to the relevant artist event card, where checked provider destinations and eligible price snapshots appear.</p></article></div></section><section class="nested-panel"><h2>Before choosing a concert ticket</h2><p>A city and date narrow the search, but they do not make two tickets equivalent. Match the ticket type, quantity, section or standing area, view notes, delivery method, and final checkout total before deciding.</p><div class="mini-link-grid">${anchor(
+    )}${leadingCity ? ` The widest coverage is ${anchor(leadingCity.city, `/cities/${leadingCity.slug}`)} with ${escapeHtml(cityShowCountLabel(leadingCity.showCount))}.` : ""}</p><section class="section-grid"><div class="section-intro"><h2>Cities with upcoming concerts</h2></div>${renderTileFilterHtml(
+      "Filter cities by name or country",
+      "Find a city"
+    )}${renderCityTiles(cities)}</section>${collapsedGroupHtml("About city pages and buying tips", `<section class="nested-panel"><h2>What makes a city page useful?</h2><div class="card-grid"><article class="info-card"><h3>Enough distinct coverage</h3><p>A city must have at least four upcoming reviewed shows across at least two artists before it can be indexed.</p></article><article class="info-card"><h3>Event-level facts</h3><p>Every listed date comes from the same reviewed event records used on artist and venue pages; city or venue facts are never invented to fill a page.</p></article><article class="info-card"><h3>A route to the exact show</h3><p>Each city schedule links to the relevant artist event card, where checked provider destinations and eligible price snapshots appear.</p></article></div></section><section class="nested-panel"><h2>Before choosing a concert ticket</h2><p>A city and date narrow the search, but they do not make two tickets equivalent. Match the ticket type, quantity, section or standing area, view notes, delivery method, and final checkout total before deciding.</p><div class="mini-link-grid">${anchor(
       "How to compare concert ticket prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "mini-link"
@@ -4872,7 +5105,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "How to read a ticket listing",
       "/guides/how-to-read-a-ticket-listing",
       "mini-link"
-    )}</div></section><div class="action-row">${anchor(
+    )}</div></section>`)}<div class="action-row">${anchor(
       "Browse artists",
       "/artists",
       "button button-secondary"
@@ -4903,7 +5136,13 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="venuesTitle">Concert venues</h1><p class="lead">${escapeHtml(
       `${venues.length} ${venues.length === 1 ? "venue has" : "venues have"} at least three reviewed upcoming shows across at least two artists.`
-    )} Open a venue to pick the exact date, then compare its ticket options.</p><section class="section-grid"><div class="section-intro"><h2>Venues with upcoming shows</h2></div>${renderVenueLinks(venues)}</section><section class="nested-panel"><h2>Why the coverage threshold matters</h2><p>A venue page is indexed only when it can help someone compare more than one artist's schedule at that location. Every date comes from the same reviewed event records used on the artist page; expired dates are removed automatically, and no venue facts are invented to fill a page.</p></section><div class="action-row">${anchor(
+    )} Open a venue to pick the exact date, then compare its ticket options.</p><section class="section-grid"><div class="section-intro"><h2>Venues with upcoming shows</h2></div>${renderTileFilterHtml(
+      "Filter venues by name or city",
+      "Find a venue or city"
+    )}${renderVenueTiles(venues)}</section>${collapsedGroupHtml(
+      "About venue pages",
+      `<section class="nested-panel"><h2>Why the coverage threshold matters</h2><p>A venue page is indexed only when it can help someone compare more than one artist's schedule at that location. Every date comes from the same reviewed event records used on the artist page; expired dates are removed automatically, and no venue facts are invented to fill a page.</p></section>`
+    )}<div class="action-row">${anchor(
       "Browse artists",
       "/artists",
       "button button-secondary"
@@ -4929,7 +5168,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artists we track</h1><p class="lead">${ARTISTS_INDEX_LEAD}</p><p class="disclosure-note">${ARTISTS_INDEX_NOTE}</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
+    )}<h1 id="artistsTitle">Tracked artists</h1><p class="lead">${ARTISTS_INDEX_LEAD}</p><p class="disclosure-note">${ARTISTS_INDEX_NOTE}</p>${renderArtistIndexTilesHtml(
       catalog,
       events
     )}</section></main>`;
@@ -4946,7 +5185,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
             "blog",
             BLOG_INDEX_PATH,
             "text-link"
-          )} covers the other half: how this site checks a ticket link, what a price snapshot claims, and what we withhold.</p>`
+          )} covers the other half: how this site checks a ticket link, what a price snapshot claims, and what gets withheld.</p>`
         : ""
     }</section><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>Check the artist, local date, venue, quantity, ticket type, and seat details all match.</li><li>Compare the total at checkout for that exact ticket, not the price on the search card.</li><li>Read the delivery, refund, transfer, and resale terms before you pay.</li><li>Stick to official sources or established marketplaces. Avoid social-media sellers.</li><li>Show priced in another currency? Get a rough figure from the ${anchor(
       "currency converter",
@@ -4966,7 +5205,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/how-it-works") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">${HOW_IT_WORKS_LEAD}</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Collect ticket links for major tours, including plain links to official sellers like Ticketmaster.</li><li>Put up a link for a specific date only when we can confirm where it goes.</li><li>Explain how to compare totals, read fees, and check the terms before you commit.</li><li>Say plainly when we've got nothing for a show, instead of padding the page.</li></ul></section><section class="nested-panel"><h2>What we don't do</h2><ul class="check-list"><li>Sell you a ticket.</li><li>Compare prices unless we have current ones for the same confirmed event.</li><li>Show a price without knowing which provider it came from and when.</li><li>Dump you on a generic artist page when you asked about one date.</li><li>Scrape other sites, or publish a tour date we can't confirm.</li></ul></section><section class="nested-panel"><h2>About the links</h2><p>Ticket buttons take you to an external ticketing site. Some of them are affiliate links, so we may earn a commission if you buy — it doesn't cost you anything extra.</p><p class="disclosure-note">That commission doesn't decide which links appear. A button only goes up when we can confirm where it lands, paid or not.</p></section><section class="nested-panel"><h2>What to check on the provider's site</h2><ul class="check-list"><li>The final price, with every fee and tax showing.</li><li>Exactly where the seat or standing area is.</li><li>How and when the tickets reach you — instant, transfer, or posted.</li><li>The refund, resale, and cancellation terms.</li><li>That the date, venue, and artist are the show you meant.</li></ul></section><section class="nested-panel"><h2>What we check first</h2><p>We match the artist, date, and venue on each card against the source data, and we follow the ticket link before showing a button for it. If we can't do both, the card and the link stay off the page.</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No — we're independent, and not connected to any artist, venue, promoter, or ticket seller.</p></details><details><summary>Can I buy tickets here?</summary><p>No. You buy on the ticket site itself; we just point you to it.</p></details><details><summary>Why does one show have buttons and another doesn't?</summary><p>Because we haven't been able to confirm where that link goes yet. We'd rather show nothing than send you somewhere wrong.</p></details><details><summary>Will the price change?</summary><p>It can. The ticket site sets its own prices, fees, availability and terms, and they move.</p></details></section><div class="action-row">${anchor(
+    )}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">${HOW_IT_WORKS_LEAD}</p><section class="nested-panel"><h2>What the site does</h2><ul class="check-list"><li>Collects ticket links for major tours, including plain links to official sellers like Ticketmaster.</li><li>Puts up a link for a specific date only when its destination can be confirmed.</li><li>Explains how to compare totals, read fees, and check the terms before you commit.</li><li>Says plainly when there's nothing to show for a date, instead of padding the page.</li></ul></section><section class="nested-panel"><h2>What the site doesn't do</h2><ul class="check-list"><li>Sell you a ticket.</li><li>Compare prices without current ones for the same confirmed event.</li><li>Show a price without knowing which provider it came from and when.</li><li>Dump you on a generic artist page when you asked about one date.</li><li>Scrape other sites, or publish a tour date that can't be confirmed.</li></ul></section><section class="nested-panel"><h2>About the links</h2><p>Ticket buttons take you to an external ticketing site. Some of them are affiliate links, so TourTicketCompare may earn a commission if you buy — it doesn't cost you anything extra.</p><p class="disclosure-note">That commission doesn't decide which links appear. A button only goes up when its destination can be confirmed, paid or not.</p></section><section class="nested-panel"><h2>What to check on the provider's site</h2><ul class="check-list"><li>The final price, with every fee and tax showing.</li><li>Exactly where the seat or standing area is.</li><li>How and when the tickets reach you — instant, transfer, or posted.</li><li>The refund, resale, and cancellation terms.</li><li>That the date, venue, and artist are the show you meant.</li></ul></section><section class="nested-panel"><h2>What gets checked first</h2><p>The artist, date, and venue on each card are matched against the source data, and the ticket link is followed before a button is shown for it. If either check fails, the card and the link stay off the page.</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No — it's independent, and not connected to any artist, venue, promoter, or ticket seller.</p></details><details><summary>Can I buy tickets here?</summary><p>No. You buy on the ticket site itself; this site just points you to it.</p></details><details><summary>Why does one show have buttons and another doesn't?</summary><p>Because that link's destination hasn't been confirmed yet. Showing nothing is better than sending you somewhere wrong.</p></details><details><summary>Will the price change?</summary><p>It can. The ticket site sets its own prices, fees, availability and terms, and they move.</p></details></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -4983,7 +5222,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // fail-closed) — no rates are ever rendered or invented server-side.
     return `<main id="mainContent"><section class="content-page currency-converter-page" aria-labelledby="converterTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="converterTitle">Currency converter</h1><p class="lead">Convert a ticket budget between currencies before you buy. Ticket prices and price snapshots are shown in the provider's own currency, so a quick conversion helps you compare a listing against your real budget.</p><section class="nested-panel currency-converter-panel"><h2>Convert an amount</h2><form class="currency-converter-form" data-currency-converter novalidate><div class="currency-converter-grid"><div class="currency-converter-field"><label for="converterAmount">Amount</label><input type="text" id="converterAmount" inputmode="decimal" autocomplete="off" spellcheck="false" value="100" data-converter-amount /></div><div class="currency-converter-field"><label for="converterFrom">From</label><select id="converterFrom" data-converter-from disabled><option>Loading&#8230;</option></select></div><button class="currency-converter-swap" type="button" data-converter-swap aria-label="Swap the from and to currencies" disabled>&#8645;</button><div class="currency-converter-field"><label for="converterTo">To</label><select id="converterTo" data-converter-to disabled><option>Loading&#8230;</option></select></div></div><p class="currency-converter-result" data-converter-result aria-live="polite">Enable JavaScript to load current reference rates.</p><p class="disclosure-note" data-converter-meta>Rates are European Central Bank daily reference rates, updated each working day. They are indicative mid-market rates — not a live FX quote and not the rate your card issuer or the ticket provider applies.</p></form><noscript><p class="disclosure-note">The converter needs JavaScript to load current reference rates. Without it, check the current rate with your bank or card issuer before comparing a listing in another currency.</p></noscript></section><section class="nested-panel"><h2>Why ticket prices appear in different currencies</h2><p>Providers price each event in the currency of the event's market: United States shows in US dollars, United Kingdom shows in pounds, most European shows in euros, and Canadian shows in Canadian dollars. Any price snapshots we display keep the provider's own currency for that reason — we never convert or restate a provider's price.</p></section><section class="nested-panel"><h2>Before you pay in another currency</h2><ul class="check-list"><li>Check which currency the provider charges at checkout — it may differ from the currency shown while browsing.</li><li>If checkout offers to charge you in your home currency instead (dynamic currency conversion), compare carefully: that convenience rate is often worse than your card issuer's rate.</li><li>Ask your bank or card issuer about foreign-transaction fees; they apply on top of any exchange rate.</li><li>Treat converted amounts as a guide only — the exact rate applied is set by your card issuer or payment provider on the day the charge settles.</li></ul></section><div class="action-row">${anchor(
+    )}<h1 id="converterTitle">Currency converter</h1><p class="lead">Convert a ticket budget between currencies before you buy. Ticket prices and price snapshots are shown in the provider's own currency, so a quick conversion helps you compare a listing against your real budget.</p><section class="nested-panel currency-converter-panel"><h2>Convert an amount</h2><form class="currency-converter-form" data-currency-converter novalidate><div class="currency-converter-grid"><div class="currency-converter-field"><label for="converterAmount">Amount</label><input type="text" id="converterAmount" inputmode="decimal" autocomplete="off" spellcheck="false" value="100" data-converter-amount /></div><div class="currency-converter-field"><label for="converterFrom">From</label><select id="converterFrom" data-converter-from disabled><option>Loading&#8230;</option></select></div><button class="currency-converter-swap" type="button" data-converter-swap aria-label="Swap the from and to currencies" disabled>&#8645;</button><div class="currency-converter-field"><label for="converterTo">To</label><select id="converterTo" data-converter-to disabled><option>Loading&#8230;</option></select></div></div><p class="currency-converter-result" data-converter-result aria-live="polite">Enable JavaScript to load current reference rates.</p><p class="disclosure-note" data-converter-meta>Rates are European Central Bank daily reference rates, updated each working day. They are indicative mid-market rates — not a live FX quote and not the rate your card issuer or the ticket provider applies.</p></form><noscript><p class="disclosure-note">The converter needs JavaScript to load current reference rates. Without it, check the current rate with your bank or card issuer before comparing a listing in another currency.</p></noscript></section><section class="nested-panel"><h2>Why ticket prices appear in different currencies</h2><p>Providers price each event in the currency of the event's market: United States shows in US dollars, United Kingdom shows in pounds, most European shows in euros, and Canadian shows in Canadian dollars. Price snapshots on this site keep the provider's own currency for that reason — a provider's price is never converted or restated.</p></section><section class="nested-panel"><h2>Before you pay in another currency</h2><ul class="check-list"><li>Check which currency the provider charges at checkout — it may differ from the currency shown while browsing.</li><li>If checkout offers to charge you in your home currency instead (dynamic currency conversion), compare carefully: that convenience rate is often worse than your card issuer's rate.</li><li>Ask your bank or card issuer about foreign-transaction fees; they apply on top of any exchange rate.</li><li>Treat converted amounts as a guide only — the exact rate applied is set by your card issuer or payment provider on the day the charge settles.</li></ul></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -4997,7 +5236,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/affiliate-disclosure") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="affiliateTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">Some of the ticket links here earn us a commission if you buy through them. You don't pay a penny more for it. Here's exactly how that works.</p><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>We link to ticket sites, and some of those links pay us if you buy.</li><li>It doesn't add anything to your price or your fees.</li><li>We say on this page which links are affiliate links and which aren't.</li><li>Whether a link pays us has nothing to do with whether we show it.</li></ul></section><section class="nested-panel"><h2>Why that doesn't change what we publish</h2><p>We don't put up fake prices, made-up dates, venues that don't exist, or a ranking we can't back — not for a commission, not for anything. A ticket button appears when we can confirm the artist, the event, and where the link goes. If we can't confirm it, it doesn't go up.</p></section><section class="nested-panel"><h2>Which links pay us</h2><ul class="check-list"><li><strong>Official sellers</strong> — artist and event pages on official ticketing sites, usually Ticketmaster. Plain links. We're not in their affiliate programme and earn nothing from these.</li><li><strong>Resale marketplaces</strong> — sites like SeatGeek and Vivid Seats, where sellers list tickets. These are affiliate links and may pay us a commission.</li><li><strong>Guides</strong> — just writing. Nothing to buy.</li></ul></section><section class="nested-panel"><h2>What only the provider can tell you</h2><ul class="check-list"><li>The final price, with fees, taxes, and delivery.</li><li>Where the seat is and whether the view is restricted.</li><li>Whether those exact seats are still available.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>How the payment and checkout are handled.</li></ul></section><section class="nested-panel"><h2>Before you pay</h2><p>Read the provider's terms. Check the date, venue, seat details, final total, delivery method, refund policy, and transfer rules. All of that comes from them, not from us — we can point you at the page, but we can't see your basket.</p></section><section class="nested-panel"><h2>Where the money goes</h2><p>Commission is what keeps the site running and the guides free. It's the only way we make money here.</p></section><div class="action-row">${anchor(
+    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">Some of the ticket links on TourTicketCompare earn the site a commission if you buy through them. You don't pay a penny more for it. Here's exactly how that works.</p><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>The site links to ticket sites, and some of those links pay a commission if you buy.</li><li>It doesn't add anything to your price or your fees.</li><li>This page says which links are affiliate links and which aren't.</li><li>Whether a link pays has nothing to do with whether it's shown.</li></ul></section><section class="nested-panel"><h2>Why that doesn't change what gets published</h2><p>Fake prices, made-up dates, venues that don't exist and rankings that can't be backed up never go on this site — not for a commission, not for anything. A ticket button appears when the artist, the event, and the link's destination can be confirmed. If they can't, it doesn't go up.</p></section><section class="nested-panel"><h2>Which links pay</h2><ul class="check-list"><li><strong>Official sellers</strong> — artist and event pages on official ticketing sites, usually Ticketmaster. Plain links. TourTicketCompare isn't in their affiliate programme and earns nothing from these.</li><li><strong>Resale marketplaces</strong> — sites like SeatGeek and Vivid Seats, where sellers list tickets. These are affiliate links and may pay a commission.</li><li><strong>Guides</strong> — just writing. Nothing to buy.</li></ul></section><section class="nested-panel"><h2>What only the provider can tell you</h2><ul class="check-list"><li>The final price, with fees, taxes, and delivery.</li><li>Where the seat is and whether the view is restricted.</li><li>Whether those exact seats are still available.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>How the payment and checkout are handled.</li></ul></section><section class="nested-panel"><h2>Before you pay</h2><p>Read the provider's terms. Check the date, venue, seat details, final total, delivery method, refund policy, and transfer rules. All of that comes from the provider, not from this site — it can point you at the page, but it can't see your basket.</p></section><section class="nested-panel"><h2>Where the money goes</h2><p>Commission is what keeps the site running and the guides free. It's the site's only source of income.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -5007,19 +5246,19 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/contact") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="contactTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="contactTitle">Contact us</h1><p class="lead">Spotted a broken link or a date that looks wrong? Tell us and we'll fix it.</p><section class="nested-panel"><h2>How to reach us</h2><p>Email ${anchor(
+    )}<h1 id="contactTitle">Contact</h1><p class="lead">Spotted a broken link or a date that looks wrong? Report it here and it'll get fixed.</p><section class="nested-panel"><h2>How to get in touch</h2><p>Email ${anchor(
       "hello@tourticketcompare.com",
       "mailto:hello@tourticketcompare.com",
       "text-link"
-    )} — that's the quickest way to reach a person. We're also on X as ${anchor(
-      "@RenaissanceWT",
-      "https://x.com/RenaissanceWT",
+    )} — that's the quickest way to reach a person. TourTicketCompare is also on X as ${anchor(
+      "@tourticketcomp",
+      SITE_X_URL,
       "text-link"
-    )} and ${anchor(
-      "@CowboyCarterWT",
-      "https://x.com/CowboyCarterWT",
+    )} and on Instagram as ${anchor(
+      "@tourticketcompare",
+      SITE_INSTAGRAM_URL,
       "text-link"
-    )}.</p></section><section class="nested-panel"><h2>Worth getting in touch about</h2><ul class="check-list"><li>A ticket button is broken, or drops you somewhere unexpected.</li><li>A date, venue, city, or artist detail looks wrong.</li><li>A provider link behaves oddly.</li><li>Anything about the site, the guides, or an artist page you'd change.</li></ul></section><section class="nested-panel"><h2>What helps us fix it faster</h2><p>Send the artist, the date, the venue or city, the page you were on, the ticket link if there was one, and a line on what looked wrong. That's usually enough for us to reproduce it.</p></section><section class="nested-panel"><h2>What we can't help with</h2><p>We don't sell tickets, so we can't do anything about an order, a refund, a transfer, a delivery that hasn't turned up, a payment problem, or an account you're locked out of. Those all have to go to the ticket site you bought from — the one on your confirmation email.</p></section><div class="action-row">${anchor(
+    )}.</p></section><section class="nested-panel"><h2>Worth getting in touch about</h2><ul class="check-list"><li>A ticket button is broken, or drops you somewhere unexpected.</li><li>A date, venue, city, or artist detail looks wrong.</li><li>A provider link behaves oddly.</li><li>Anything about the site, the guides, or an artist page you'd change.</li></ul></section><section class="nested-panel"><h2>What helps get it fixed faster</h2><p>Send the artist, the date, the venue or city, the page you were on, the ticket link if there was one, and a line on what looked wrong. That's usually enough to reproduce it.</p></section><section class="nested-panel"><h2>What this site can't help with</h2><p>TourTicketCompare doesn't sell tickets, so it can't do anything about an order, a refund, a transfer, a delivery that hasn't turned up, a payment problem, or an account you're locked out of. Those all have to go to the ticket site you bought from — the one on your confirmation email.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -5031,7 +5270,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="authorTitle">${escapeHtml(AUTHOR_NAME)}</h1><p class="lead">${escapeHtml(
       AUTHOR_BIO
-    )}</p><section class="nested-panel"><h2>What I'm accountable for</h2><p>Every guide, blog post, artist page, city page and venue page on this site carries my byline. That is not decoration: if a date is wrong, a ticket button lands somewhere unexpected, or a guide describes a provider's terms incorrectly, it is mine to fix.</p><p>The site publishes nothing it cannot trace to a source. What that means in practice — which sources count, what has to be true before a ticket button appears, and what never gets published — is set out in the ${anchor(
+    )}</p><section class="nested-panel"><h2>How the site is run</h2><p>The site publishes nothing it cannot trace to a source. What that means in practice — which sources count, what has to be true before a ticket button appears, and what never gets published — is set out in the ${anchor(
       "editorial policy",
       "/editorial-policy",
       "text-link"
@@ -5039,11 +5278,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "affiliate disclosure",
       "/affiliate-disclosure",
       "text-link"
-    )} page.</p></section><section class="nested-panel"><h2>Corrections</h2><p>Spotted something wrong? Tell me on the ${anchor(
+    )} page.</p></section><section class="nested-panel"><h2>Corrections</h2><p>Spotted something wrong? Report it on the ${anchor(
       "contact page",
       "/contact",
       "text-link"
-    )} and I'll fix it. Send the artist, the date, the venue or city, and the page you were on — that's usually enough to reproduce it.</p></section><section class="nested-panel"><h2>Find me elsewhere</h2><p>I'm on ${anchor(
+    )}. Send the artist, the date, the venue or city, and the page you were on — that's usually enough to reproduce it.</p></section><section class="nested-panel"><h2>Elsewhere</h2><p>Ollie is on ${anchor(
       "LinkedIn",
       AUTHOR_LINKEDIN_URL,
       "text-link"
@@ -5055,7 +5294,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Instagram",
       AUTHOR_INSTAGRAM_URL,
       "text-link"
-    )} as @olstaylor for everything else — mostly Beyoncé, festivals, and whatever tour I'm currently trying to get tickets for. Tour Ticket Compare's own updates are on ${anchor(
+    )} as @olstaylor for everything else — mostly Beyoncé, festivals, and whatever tour he's currently trying to get tickets for. Tour Ticket Compare's own updates are on ${anchor(
       "X",
       SITE_X_URL,
       "text-link"
@@ -5077,11 +5316,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/about") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">We're an independent site for working out where to buy tickets to a big tour — and what you'll actually pay.</p><section class="nested-panel"><h2>Why this exists</h2><p>Tour Ticket Compare was started by one fan, ${anchor(
-      AUTHOR_NAME,
+    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">TourTicketCompare is an independent site for working out where to buy tickets to a big tour — and what you'll actually pay.</p><section class="nested-panel"><h2>Why this exists</h2><p>Tour Ticket Compare was started by a fan after one too many nights spent flicking between resale sites in different tabs trying to work out where a ticket was actually cheaper. It's still run that way — independently, in spare time, by someone who buys tickets for the same tours you do. The ${anchor(
+      "creator page",
       AUTHOR_PATH,
       "text-link"
-    )}, after one too many nights spent flicking between resale sites in different tabs trying to work out where a ticket was actually cheaper. It's still run that way — independently, in spare time, by someone who buys tickets for the same tours you do.</p></section><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Pull together ticket links for major artists so you're not opening ten tabs.</li><li>Only publish a link for a specific date once we've checked the artist, date, venue, and where it goes.</li><li>Show the prices we have from each ticket site for that same show, with the time we got them.</li><li>Write plain guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>What we don't do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Pretend a price we captured earlier is live stock or your final total.</li><li>Crown one ticket site as always the better buy, because it never works out that way.</li><li>Make up tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>About the affiliate links</h2><p>Some links earn us a commission when you buy. That's how the site pays for itself — and it has no say in what we publish. A link goes up once we've checked where it lands, whether or not it makes us anything.</p></section><section class="nested-panel"><h2>Follow along</h2><p>We post new artist pages and the odd deal we spot on ${anchor(
+    )} has more on who runs it.</p></section><section class="nested-panel"><h2>What the site does</h2><ul class="check-list"><li>Pulls together ticket links for major artists so you're not opening ten tabs.</li><li>Publishes a link for a specific date only once the artist, date, venue, and destination have been checked.</li><li>Shows listed prices from each ticket site for that same show, with the time each was captured.</li><li>Publishes plain guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>What the site doesn't do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Pretend a price captured earlier is live stock or your final total.</li><li>Crown one ticket site as always the better buy, because it never works out that way.</li><li>Make up tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>About the affiliate links</h2><p>Some links earn TourTicketCompare a commission when you buy. That's how the site pays for itself — and it has no say in what gets published. A link goes up once its destination has been checked, whether or not it earns anything.</p></section><section class="nested-panel"><h2>Follow along</h2><p>New artist pages and the odd deal get posted on ${anchor(
       "X",
       SITE_X_URL,
       "text-link"
@@ -5089,29 +5328,21 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Instagram",
       SITE_INSTAGRAM_URL,
       "text-link"
-    )}. Ollie's personal accounts are on his ${anchor(
-      `${AUTHOR_NAME} page`,
-      AUTHOR_PATH,
-      "text-link"
     )}.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
-    )}${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor(
-      `About ${AUTHOR_NAME}`,
-      AUTHOR_PATH,
-      "button button-secondary"
-    )}</div></section></main>`;
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
   if (route.path === "/editorial-policy") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="editorialTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">Nothing goes on this site unless we can check where it came from. These are the rules we hold ourselves to.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist pages for major tours, with summaries drawn from confirmed public sources.</li><li>Links to artist pages on official ticketing sites, once we've followed them.</li><li>Links for a specific date, where we've checked the date, the venue, and where the link lands.</li><li>Current prices from ticket sites for that same show, each labelled with the provider and the time we captured it — and we'll only call one lower when we have fresh figures for both.</li><li>Guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>Generated content and review</h2><p>Automation can prepare editorial prose as a draft, but it cannot publish that prose on its own. Every generated editorial page needs a named owner, source links for factual claims, and human review before publication. Confirmed event data may be published by our approved automated checks for artists we already track; those checks validate the source and record before the page updates. We label time-sensitive information with its last updated date where the underlying data supports one.</p></section><section class="nested-panel"><h2>What has to be true before a button appears</h2><p>The artist has to be one we've verified, the destination has to be a link we've configured and checked, and the link has to pass our outbound safety checks. For a specific date, we also need an event record with a confirmed date, venue, and artist. Where we have none of that, you get an honest empty state instead of a button.</p></section><section class="nested-panel"><h2>What we won't publish</h2><ul class="check-list"><li>Tour dates, venues, or cities we've made up.</li><li>Prices or availability we can't trace to an approved source.</li><li>Claims about partnerships or coverage we can't back up.</li><li>Fake comparison tables, placeholder prices, or a "cheaper" claim with only one side's figures.</li><li>Anything scraped off a ticket site or a competitor.</li><li>AI-generated filler, internal notes, or administrative instructions presented as public content.</li><li>Savings or discount claims we can't evidence.</li><li>Event schema on a page with no confirmed event data behind it.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a button's broken, sends you somewhere wrong, or a detail looks off, tell us on the ${anchor(
+    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">Nothing goes on this site unless its source can be checked. These are the rules the site holds itself to.</p><section class="nested-panel"><h2>What gets published</h2><ul class="check-list"><li>Artist pages for major tours, with summaries drawn from confirmed public sources.</li><li>Links to artist pages on official ticketing sites, once they've been followed and confirmed.</li><li>Links for a specific date, once the date, the venue, and where the link lands have been checked.</li><li>Current prices from ticket sites for that same show, each labelled with the provider and the time it was captured — and one is only called lower when there are fresh figures for both.</li><li>Guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>Generated content and review</h2><p>Automation can prepare editorial prose as a draft, but it cannot publish that prose on its own. Every generated editorial page needs a named owner, source links for factual claims, and human review before publication. Confirmed event data may be published by the site's approved automated checks for artists it already tracks; those checks validate the source and record before the page updates. Time-sensitive information is labelled with its last updated date where the underlying data supports one.</p></section><section class="nested-panel"><h2>What has to be true before a button appears</h2><p>The artist has to be verified, the destination has to be a configured and checked link, and the link has to pass the site's outbound safety checks. For a specific date, there also has to be an event record with a confirmed date, venue, and artist. Where none of that exists, you get an honest empty state instead of a button.</p></section><section class="nested-panel"><h2>What never gets published</h2><ul class="check-list"><li>Made-up tour dates, venues, or cities.</li><li>Prices or availability that can't be traced to an approved source.</li><li>Claims about partnerships or coverage that can't be backed up.</li><li>Fake comparison tables, placeholder prices, or a "cheaper" claim with only one side's figures.</li><li>Anything scraped off a ticket site or a competitor.</li><li>AI-generated filler, internal notes, or administrative instructions presented as public content.</li><li>Savings or discount claims that can't be evidenced.</li><li>Event schema on a page with no confirmed event data behind it.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a button's broken, sends you somewhere wrong, or a detail looks off, report it on the ${anchor(
       "contact page",
       "/contact",
       "text-link"
-    )}. When a link goes stale or we can't verify it any more, we fix it or pull it down — we don't leave it sitting there.</p></section><div class="action-row">${anchor(
+    )}. When a link goes stale or can't be verified any more, it gets fixed or pulled down — never left sitting there.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -5122,25 +5353,36 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Contact", "/contact", "button button-secondary")}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><p class="disclosure-note">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city or venue" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
-    HOME_PRIMARY_CTA_LABEL,
+  // Layout (2026-09-24, owner request): find a show first, read about the site
+  // second. Search and its results sit in the hero; the artist list is compact;
+  // the explainer copy is kept, word for word, in one closed <details> at the
+  // foot so it stays in the HTML without pushing the lists down the page.
+  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city or venue" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form></div><section id="search-widget" class="search-section" aria-labelledby="searchSectionTitle" hidden><h2 id="searchSectionTitle" class="home-search-title">Search results</h2><p id="searchWidgetIntro" class="sr-only">Matches from checked artists, upcoming dates, and buying guides.</p><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section></section><section id="featured-artists" class="section-grid home-section" aria-labelledby="homeArtistsTitle"><div class="home-section__head"><h2 id="homeArtistsTitle">Artists on tour</h2>${anchor(
+    "All artists",
     HOME_PRIMARY_CTA_HREF,
-    // Secondary since 2026-09-24: the search submit directly above is the one
-    // primary action in the hero; two equal-weight orange buttons competed.
-    "button button-secondary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Start with a search</h2><p id="searchWidgetIntro">Enter an artist, city, venue, or tour above to see matching checked dates and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid">${HOME_STEPS.map(
+    "text-link"
+  )}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-browse">Planning around a place? ${anchor(
+    "Browse cities",
+    "/cities",
+    "text-link"
+  )} or ${anchor("venues", "/venues", "text-link")}.</p></section><section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
+    "All guides",
+    "/guides",
+    "text-link"
+  )}</div>${renderHomepageGuideLinks()}${
+    route.blogPromotable ? `<p class="home-browse">${anchor("Read the blog", BLOG_INDEX_PATH, "text-link")}</p>` : ""
+  }</section><p class="home-trust-line">Independent and unofficial. TourTicketCompare doesn't sell tickets, and some links earn it a commission. ${anchor(
+    "Affiliate disclosure",
+    "/affiliate-disclosure",
+    "text-link"
+  )}</p><details class="home-more home-about" id="how-it-works"><summary>How it works and how the site stays honest</summary><div class="card-grid what-you-can-do"><h2 id="whatYouCanDoTitle" class="sr-only">How it works</h2>${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
-  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderHomepageArtistLinks(
-    catalog,
-    events
-  )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
-    "View all guides",
-    "/guides",
+  ).join("")}</div><div class="nested-panel trust-section"><h2 id="trustTitle">How the site stays honest</h2><p>TourTicketCompare is independent and unofficial, and doesn't sell tickets. Every link is checked before it goes up, and a link that can't be checked isn't shown.</p><p>Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><p>Learn more: ${anchor("How it works", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div><div class="action-row">${anchor(
+    HOME_PRIMARY_CTA_LABEL,
+    HOME_PRIMARY_CTA_HREF,
     "button button-secondary"
-  )}${
-    route.blogPromotable ? anchor("Read the blog", BLOG_INDEX_PATH, "button button-secondary") : ""
-  }</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">How we stay honest</h2></div><div class="nested-panel"><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
+  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></details></div></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
@@ -5239,7 +5481,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20260924a" defer></script>',
+    '<script src="/app.js?v=20260924v" defer></script>',
     '<script src="/shell.js?v=20260901b" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
@@ -5250,13 +5492,23 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="alternate" type="application/rss+xml" title="TourTicketCompare blog" href="/blog/rss.xml" /></head>'
     );
   }
-  if (route.type === "artist" || route.type === "artist-city") {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924a" defer></script></body>');
+  // The board module also runs the grouped city/venue boards and the filter box
+  // on the artist, city and venue indexes (2026-09-24).
+  if (
+    route.type === "artist" ||
+    route.type === "artist-city" ||
+    route.type === "city" ||
+    route.type === "venue" ||
+    route.type === "cities-index" ||
+    route.type === "venues-index" ||
+    route.path === "/artists"
+  ) {
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924c" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
   if (next.includes("data-price-history=")) {
-    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20260924a" defer></script></body>`);
+    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20260924v" defer></script></body>`);
   }
   if (route.path === "/currency-converter") {
     next = next.replace("</body>", '<script src="/currency-converter.js?v=20260821a" defer></script></body>');
@@ -5269,11 +5521,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260924a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924a" />\n    <link rel="stylesheet" href="/styles.css?v=20260924a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20260924d" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260924d" />'
     );
-    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924a" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924a" defer></script></body>');
+    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924v" defer></script></body>');
   }
   return next;
 }
@@ -5488,7 +5740,7 @@ function renderNotFoundHtml(html, pathname, origin) {
   next = next.replace(/\s*<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i, "");
   next = next.replace(
     /<main\s+id="mainContent">[\s\S]*?<\/main>/i,
-    `<main id="mainContent"><section class="content-page" aria-labelledby="notFoundTitle"><h1 id="notFoundTitle">Page not found</h1><p>We could not find that page. Use the artist index, buying guides, or homepage to find current public pages.</p><div class="action-row">${anchor(
+    `<main id="mainContent"><section class="content-page" aria-labelledby="notFoundTitle"><h1 id="notFoundTitle">Page not found</h1><p>That page could not be found. Use the artist index, buying guides, or homepage to find current public pages.</p><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"

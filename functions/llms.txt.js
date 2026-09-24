@@ -139,7 +139,7 @@ export async function onRequestGet({ request, env }) {
 
   const body = `# TourTicketCompare
 
-> Independent, unofficial ticket research for major live music tours. We publish verified ticket links, reviewed event details, and timestamped provider-supplied listed-price snapshots when approved data passes exact-event, source, and freshness checks. We do not sell tickets or claim live inventory, guaranteed availability, or final checkout totals.
+> Independent, unofficial ticket research for major live music tours. The site publishes verified ticket links, reviewed event details, and timestamped provider-supplied listed-price snapshots when approved data passes exact-event, source, and freshness checks. It does not sell tickets or claim live inventory, guaranteed availability, or final checkout totals.
 
 Key facts:
 

@@ -426,7 +426,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     "the panel distinguishes event-record verification from price capture time"
   );
   const lead = text((page.main.match(/<p class="lead">([\s\S]*?)<\/p>/) || [])[1] || "");
-  assert(lead.includes(`We track 2 upcoming shows for ${ARTIST.name} in ${RUN_CITY}`), "the lead still states the count, which the table only implies");
+  assert(lead.includes(`TourTicketCompare tracks 2 upcoming shows for ${ARTIST.name} in ${RUN_CITY}`), "the lead still states the count, which the table only implies");
   assert(!lead.includes("Fixture Arena"), "the lead drops the venue the table names in its own lead");
   assert(!/Sep 10, 2026 to/.test(lead), "the lead drops the date range the table states row by row");
   // Each show card naming its own venue is not duplication \u2014 a card is the one
@@ -596,14 +596,14 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const page = await render(SOLO_PATH);
   const body = text(page.main);
   assert(!/30-day low/.test(body), "an event with no history reports no low");
-  assert(!/Lowest we have recorded/.test(body), "and makes no claim to have watched it");
+  assert(!/Lowest recorded/.test(body), "and makes no claim to have watched it");
   assert(/\$145/.test(body), "while still showing its current price as before");
 }
 {
   // With no database bound there is no history read and no low.
   const page = await render(RUN_PATH, { withDb: false });
   const body = text(page.main);
-  assert(!/30-day low|Lowest we have recorded/.test(body), "no pricing database means no recorded low");
+  assert(!/30-day low|Lowest recorded/.test(body), "no pricing database means no recorded low");
 }
 
 
@@ -679,6 +679,39 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const multi = await render(`/artists/${ARTIST.slug}/tickets/${MULTI_CITY_SLUG}`);
   const multiSection = (multi.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
   assert(/<td data-label="Venue">/.test(multiSection), "the venue cell carries its column name where the column exists");
+}
+
+// ---- "Lowest listed" badge on each date card ----------------------------------
+// The card marks the one provider whose listed snapshot is strictly lower than
+// every other priced provider's for that same date. It reads the same gated
+// lanes as the buttons, never compares across dates, and needs two priced lanes.
+{
+  const page = await render(RUN_PATH);
+  const card = (id) => (page.main.match(new RegExp(`<article class="info-card show-card[^"]*"[^>]*data-event-id="${id}"[\\s\\S]*?</article>`)) || [""])[0];
+  const lowestNames = (html) =>
+    [...html.matchAll(/<a class="provider-cta[^"]*provider-cta-lowest[^"]*"[\s\S]*?<span class="provider-cta-name">([^<]+)</g)].map((match) => match[1]);
+  const runA = card(RUN_A.id);
+  const runB = card(RUN_B.id);
+  assert(runA && runB, "both run dates render a card");
+  assert(
+    JSON.stringify(lowestNames(runA)) === JSON.stringify(["Vivid Seats"]),
+    `the first date marks only Vivid Seats ($182 against $210): ${lowestNames(runA)}`
+  );
+  assert(
+    JSON.stringify(lowestNames(runB)) === JSON.stringify(["TicketNetwork"]),
+    `the second date marks only TicketNetwork ($240 against $265), not the first date's winner: ${lowestNames(runB)}`
+  );
+  assert(
+    (runA.match(/provider-cta-badge">Lowest listed</g) || []).length === 1,
+    "the badge text appears once per card"
+  );
+  // Gated lanes never compete: the $3.80 StubHub International row is below
+  // the plausibility floor and the $12 Ticket Liquidator row is display-off.
+  assert(!/provider-cta-lowest[^"]*"[^>]*data-cta-provider="(stubhub-international|ticket-liquidator)"/.test(runA), "a withheld lane can never be marked lowest");
+  const solo = await render(SOLO_PATH);
+  assert(!solo.main.includes("provider-cta-lowest"), "a date with a single priced provider has nothing to be lower than, so no badge");
+  const unpriced = await render(RUN_PATH, { withDb: false });
+  assert(!unpriced.main.includes("provider-cta-lowest"), "no prices, no badge");
 }
 
 console.log(`artist-city-prices: ${passed} checks passed`);

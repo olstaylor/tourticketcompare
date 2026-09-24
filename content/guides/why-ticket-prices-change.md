@@ -92,7 +92,7 @@ Fees, taxes, delivery charges, currency conversion, the seats you picked, the ti
 
 **Can you tell me whether a price will rise or fall?**
 
-No. We show recent listed prices, but we don't track stock, monitor individual listings or predict future prices.
+No. The site shows recent listed prices, but doesn't track stock, monitor individual listings or predict future prices.
 
 **Are resale tickets always dearer than primary?**
 
@@ -104,7 +104,7 @@ Start with the exact event and seats, then the final checkout total, delivery me
 
 **Where are the final terms confirmed?**
 
-On the provider site. We can point you to checked destinations, but the provider sets the final price, fees, availability, delivery, transfer, refund, and cancellation terms.
+On the provider site. It can point you to checked destinations, but the provider sets the final price, fees, availability, delivery, transfer, refund, and cancellation terms.
 
 ## Related guides
 

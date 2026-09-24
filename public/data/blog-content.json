@@ -12,7 +12,7 @@
       "datePublished": "2026-09-07",
       "dateModified": "2026-09-07",
       "status": "draft",
-      "author": "Ollie Taylor",
+      "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
       ],
@@ -44,7 +44,7 @@
         {
           "type": "section",
           "title": "What the ticket comparison can tell you",
-          "content": "The [Bruno Mars page](/artists/bruno-mars) lists our verified dates with provider links checked for each event. Any displayed price is a provider’s listed-price snapshot, with its observation time; it does not include a promise about installation access, a particular seat or your final checkout total.\n\nOpen the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. Our [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later."
+          "content": "The [Bruno Mars page](/artists/bruno-mars) lists the verified dates with provider links checked for each event. Any displayed price is a provider’s listed-price snapshot, with its observation time; it does not include a promise about installation access, a particular seat or your final checkout total.\n\nOpen the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. The [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later."
         }
       ],
       "sources": [
@@ -80,7 +80,7 @@
       "datePublished": "2026-09-07",
       "dateModified": "2026-09-07",
       "status": "draft",
-      "author": "Ollie Taylor",
+      "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
       ],
@@ -92,7 +92,7 @@
       "relatedArtists": [
         "harry-styles"
       ],
-      "wordCount": 635,
+      "wordCount": 638,
       "sections": [
         {
           "type": "intro",
@@ -110,8 +110,8 @@
         },
         {
           "type": "section",
-          "title": "Where our page can and cannot help",
-          "content": "The date board on the artist page carries the nights we have verified from our source, each with the ticket sites that have their own checked destination for that exact night. Where a figure appears next to a button, it is one provider's listed price for that one night, captured at the time shown beside it — per-date, never per-residency. That is the whole reason we do not publish a \"prices for the Harry Styles residency\" number: there is no such thing, only 30 separate sets of listings that happen to share an address.\n\nTwo limits are worth stating. First, a night that is not on our page is a night we have not verified, which is not the same as a night that does not exist — the venue's own announcement is the authority on the shape of the run. Second, nothing on our page describes a seat. Section, row, obstruction notes and delivery method live on the provider's listing, and for a building with as many seat categories as this one, the [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) is more useful than any figure.\n\nIf you take one thing from this: on a residency, treat the date as the identifier and everything else as decoration."
+          "title": "Where the artist page can and cannot help",
+          "content": "The date board on the artist page carries the nights verified from the source, each with the ticket sites that have their own checked destination for that exact night. Where a figure appears next to a button, it is one provider's listed price for that one night, captured at the time shown beside it — per-date, never per-residency. That is the whole reason the site does not publish a \"prices for the Harry Styles residency\" number: there is no such thing, only 30 separate sets of listings that happen to share an address.\n\nTwo limits are worth stating. First, a night that is not on the artist page is a night that has not been verified, which is not the same as a night that does not exist — the venue's own announcement is the authority on the shape of the run. Second, nothing on the artist page describes a seat. Section, row, obstruction notes and delivery method live on the provider's listing, and for a building with as many seat categories as this one, the [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) is more useful than any figure.\n\nIf you take one thing from this: on a residency, treat the date as the identifier and everything else as decoration."
         }
       ],
       "sources": [
@@ -139,7 +139,7 @@
       "datePublished": "2026-09-07",
       "dateModified": "2026-09-07",
       "status": "draft",
-      "author": "Ollie Taylor",
+      "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
       ],
@@ -151,7 +151,7 @@
       "relatedArtists": [
         "olivia-rodrigo"
       ],
-      "wordCount": 851,
+      "wordCount": 849,
       "sections": [
         {
           "type": "intro",
@@ -160,7 +160,7 @@
         {
           "type": "section",
           "title": "Standard tickets: the delivery clock matters",
-          "content": "The ordinary ticket is the one everything else is measured against, and two of its rules are worth knowing before you buy from anyone.\n\nTicketmaster's official help page for the tour states that the event organiser makes the scannable ticket available closer to the day of the event, estimated at around 48 hours beforehand, and that ticket transfer is available no later than three months before the event date. Read those together and a pattern falls out: for a long stretch before the show, a ticket exists as an entitlement rather than as a scannable thing, and transfer is due to become available by the three-month point. That is an opening deadline, not a statement that transfers close three months before the show. Once transfer is enabled, Ticketmaster says it can be used from the order before the event.\n\nIf you are buying from a resale marketplace, that is the mechanism behind a lot of ordinary-looking anxiety — a delayed barcode can be consistent with the organiser’s delivery schedule. It does not, by itself, verify that a resale purchase is valid or that a seller will deliver it. It is also why \"when does it arrive\" belongs in your decision rather than after it. Our [guide to delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) goes through what to do when the two clocks do not line up."
+          "content": "The ordinary ticket is the one everything else is measured against, and two of its rules are worth knowing before you buy from anyone.\n\nTicketmaster's official help page for the tour states that the event organiser makes the scannable ticket available closer to the day of the event, estimated at around 48 hours beforehand, and that ticket transfer is available no later than three months before the event date. Read those together and a pattern falls out: for a long stretch before the show, a ticket exists as an entitlement rather than as a scannable thing, and transfer is due to become available by the three-month point. That is an opening deadline, not a statement that transfers close three months before the show. Once transfer is enabled, Ticketmaster says it can be used from the order before the event.\n\nIf you are buying from a resale marketplace, that is the mechanism behind a lot of ordinary-looking anxiety — a delayed barcode can be consistent with the organiser’s delivery schedule. It does not, by itself, verify that a resale purchase is valid or that a seller will deliver it. It is also why \"when does it arrive\" belongs in your decision rather than after it. The [guide to delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) goes through what to do when the two clocks do not line up."
         },
         {
           "type": "section",
@@ -170,12 +170,12 @@
         {
           "type": "section",
           "title": "Silver Star: check the request status",
-          "content": "Silver Star uses a request-and-allocation process rather than an immediate purchase, and its windows are short. Ticketmaster’s help page gave the request window as closing on 2 September 2026, with successful requests confirmed by 9 September. Both of those dates are behind us, so treat the process below as an explanation of how Silver Star works rather than a route that is open today, and check the official tour help page for any later release.\n\nTickets were offered in pairs, with a limit of two per person. Submitting a request did not guarantee an allocation. Ticketmaster says the card is charged only when a request can be fulfilled, and unsuccessful applicants can check their request status even if they receive no further email.\n\nUse the official tour help page for the current country-specific instructions and any future release. Security checks during a request do not establish a resale or transfer policy, so do not infer that a second-hand Silver Star listing is permitted or prohibited from those checks alone. Confirm the terms attached to the actual ticket before paying.\n\nWe do not repeat a Silver Star price here: it is a separate official programme, not one of the provider-listed snapshots on our date board."
+          "content": "Silver Star uses a request-and-allocation process rather than an immediate purchase, and its windows are short. Ticketmaster’s help page gave the request window as closing on 2 September 2026, with successful requests confirmed by 9 September. Both of those dates have passed, so treat the process below as an explanation of how Silver Star works rather than a route that is open today, and check the official tour help page for any later release.\n\nTickets were offered in pairs, with a limit of two per person. Submitting a request did not guarantee an allocation. Ticketmaster says the card is charged only when a request can be fulfilled, and unsuccessful applicants can check their request status even if they receive no further email.\n\nUse the official tour help page for the current country-specific instructions and any future release. Security checks during a request do not establish a resale or transfer policy, so do not infer that a second-hand Silver Star listing is permitted or prohibited from those checks alone. Confirm the terms attached to the actual ticket before paying.\n\nNo Silver Star price is repeated here: it is a separate official programme, not one of the provider-listed snapshots on the date board."
         },
         {
           "type": "section",
-          "title": "What our page shows, and what it does not",
-          "content": "On the [Olivia Rodrigo page](/artists/olivia-rodrigo), each verified date carries the ticket sites that have a checked destination for that exact show. Where a figure appears, it is one provider's listed price for that date at the time shown next to it — a resale marketplace's listing, not the tour's own pricing, and not a Silver Star or VIP figure. None of the three product types above is sold, allocated or issued by this site.\n\nWhich is the point of writing this down. The comparison worth making on this tour is not only between two figures, but between two things that are only superficially the same ticket. Our [guide to official tickets versus resale](/guides/primary-vs-resale-concert-tickets) covers the general version; the specifics for this tour are on the official help page, and they are unusually clearly written."
+          "title": "What the artist page shows, and what it does not",
+          "content": "On the [Olivia Rodrigo page](/artists/olivia-rodrigo), each verified date carries the ticket sites that have a checked destination for that exact show. Where a figure appears, it is one provider's listed price for that date at the time shown next to it — a resale marketplace's listing, not the tour's own pricing, and not a Silver Star or VIP figure. None of the three product types above is sold, allocated or issued by this site.\n\nWhich is the point of writing this down. The comparison worth making on this tour is not only between two figures, but between two things that are only superficially the same ticket. The [guide to official tickets versus resale](/guides/primary-vs-resale-concert-tickets) covers the general version; the specifics for this tour are on the official help page, and they are unusually clearly written."
         }
       ],
       "sources": [
@@ -203,7 +203,7 @@
       "datePublished": "2026-08-19",
       "dateModified": "2026-09-24",
       "status": "published",
-      "author": "Ollie Taylor",
+      "author": "TourTicketCompare",
       "tags": [
         "how-we-work",
         "ticket-prices"
@@ -214,16 +214,16 @@
         "how-resale-ticket-pricing-works"
       ],
       "relatedArtists": [],
-      "wordCount": 681,
+      "wordCount": 682,
       "sections": [
         {
           "type": "intro",
-          "content": "You opened an event card this morning and a ticket button carried a figure. You've come back to book and the figure has gone: same show, same button, no number. Nothing broke. The price either passed its 24-hour limit or failed one of the checks behind it, and we'd rather show a blank than a stale figure that looks current."
+          "content": "You opened an event card this morning and a ticket button carried a figure. You've come back to book and the figure has gone: same show, same button, no number. Nothing broke. The price either passed its 24-hour limit or failed one of the checks behind it, and a blank is better than a stale figure that looks current."
         },
         {
           "type": "section",
           "title": "A snapshot has an expiry stamped on it",
-          "content": "A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry 24 hours out, and the capture jobs are scheduled hourly, well inside that window, so an ordinary run keeps the figure current. When a run can't fetch, or the feed stops carrying that event, no new observation lands. The figure already on the card stays, with the note under the buttons saying how long ago it was checked. Past 24 hours the observation is too old to stand behind, and it stops showing.\n\nNothing is refreshed in place, and nothing is left unlabelled. The figure was true when we checked it, the card says how long ago that was, and once it expires there's no evidence left for it, so it goes. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail."
+          "content": "A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry 24 hours out, and the capture jobs are scheduled hourly, well inside that window, so an ordinary run keeps the figure current. When a run can't fetch, or the feed stops carrying that event, no new observation lands. The figure already on the card stays, with the note under the buttons saying how long ago it was checked. Past 24 hours the observation is too old to stand behind, and it stops showing.\n\nNothing is refreshed in place, and nothing is left unlabelled. The figure was true when it was checked, the card says how long ago that was, and once it expires there's no evidence left for it, so it goes. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail."
         },
         {
           "type": "section",
@@ -233,12 +233,12 @@
         {
           "type": "section",
           "title": "Some providers never show a figure at all",
-          "content": "If a provider on a card has never carried a price for you, that is structural rather than a gap in coverage. SeatGeek has no pricing lane here: its API returns no prices to us, so its button is a checked link and nothing more. Ticket Liquidator's catalogue carries no numeric listed price, so its lane stays price-disabled while its links stay live. Ticketmaster is a verification and link source rather than a price lane.\n\nTheir silence tells you about the feed behind them, not about the show or its demand."
+          "content": "If a provider on a card has never carried a price for you, that is structural rather than a gap in coverage. SeatGeek has no pricing lane here: its API returns no prices to this site, so its button is a checked link and nothing more. Ticket Liquidator's catalogue carries no numeric listed price, so its lane stays price-disabled while its links stay live. Ticketmaster is a verification and link source rather than a price lane.\n\nTheir silence tells you about the feed behind them, not about the show or its demand."
         },
         {
           "type": "section",
           "title": "What does not happen when a snapshot lapses",
-          "content": "No last-known value is held over. No \"from\" estimate is generated. Nothing is averaged across providers, filled in from a different date, or borrowed from another seat. No site moves up the card because it still has a figure and its neighbours don't. The order is fixed (sites that pay us first, Ticketmaster last) and is not a ranking. A blank beats a stale number that reads as current, and it beats an invented one by a wider margin still."
+          "content": "No last-known value is held over. No \"from\" estimate is generated. Nothing is averaged across providers, filled in from a different date, or borrowed from another seat. No site moves up the card because it still has a figure and its neighbours don't. The order is fixed (sites that pay a commission first, Ticketmaster last) and is not a ranking. A blank beats a stale number that reads as current, and it beats an invented one by a wider margin still."
         },
         {
           "type": "section",
@@ -257,7 +257,7 @@
       "datePublished": "2026-08-01",
       "dateModified": "2026-09-24",
       "status": "published",
-      "author": "Ollie Taylor",
+      "author": "TourTicketCompare",
       "tags": [
         "how-we-work",
         "transparency"
@@ -267,7 +267,7 @@
         "primary-vs-resale-concert-tickets"
       ],
       "relatedArtists": [],
-      "wordCount": 853,
+      "wordCount": 854,
       "sections": [
         {
           "type": "intro",
@@ -276,12 +276,12 @@
         {
           "type": "section",
           "title": "An artist starts with no buttons at all",
-          "content": "When an artist is added here, the page is deliberately inert. It carries the name, a short factual summary, and nothing else: no ticket buttons, no provider logos, no dates. Internally that is a \"review required\" state, and the page is marked noindex while it is incomplete.\n\nThere are two ways out of that state. On the manual path, a person opens the proposed destination in a browser and confirms three things: that it loads, that it's the right artist rather than a same-name act, and that it's the ticket site's own page rather than a redirect chain pointing somewhere else. On the automatic path, an artist is promoted only when both SeatGeek's and Ticketmaster's APIs return an exact match for the name, Ticketmaster classifies the act as music and not a tribute, the name isn't on our deny list, and both artist pages exist. That path is capped at five artists a day, and one command reverses any of them. Either way, only then does the artist get an entry in the verified-link registry the redirect service reads."
+          "content": "When an artist is added here, the page is deliberately inert. It carries the name, a short factual summary, and nothing else: no ticket buttons, no provider logos, no dates. Internally that is a \"review required\" state, and the page is marked noindex while it is incomplete.\n\nThere are two ways out of that state. On the manual path, a person opens the proposed destination in a browser and confirms three things: that it loads, that it's the right artist rather than a same-name act, and that it's the ticket site's own page rather than a redirect chain pointing somewhere else. On the automatic path, an artist is promoted only when both SeatGeek's and Ticketmaster's APIs return an exact match for the name, Ticketmaster classifies the act as music and not a tribute, the name isn't on the site's deny list, and both artist pages exist. That path is capped at five artists a day, and one command reverses any of them. Either way, only then does the artist get an entry in the verified-link registry the redirect service reads."
         },
         {
           "type": "section",
           "title": "Individual dates are a different pipeline, and machines do publish them",
-          "content": "Artist-level links and show dates are separate problems, and it would be dishonest to describe the second the way we describe the first. Dates, and most event-level ticket links, are published by a small set of named automated lanes: new shows discovered from the official listing API, a nightly sync of factual corrections to shows already on file, and one link lane per resale provider.\n\nWhat makes those lanes safe is not a person at the end of them. It is that each one only writes an unambiguous exact-event match, runs the full validation suite in the same job on exactly the content it is about to publish, and lands the change only if that passes. A match that is ambiguous is reported rather than written. An incomplete fetch from a provider leaves the existing data alone instead of clearing it. What counts as unambiguous is spelled out per provider: for the SeatGeek lane, the instant of the show, the city, the venue and the shape of the destination URL all have to agree with the provider's own record of that event.\n\nThe split is deliberate. Deciding that a page belongs to the right artist is a judgement call, so either a person makes it or the automatic path demands exact agreement between two independent sources before it acts. Deciding that a listing is the same show as one already on file is a checkable rule, so a machine applies it, consistently, every night, across far more dates than anyone would re-read by hand."
+          "content": "Artist-level links and show dates are separate problems, and it would be dishonest to describe the second the way the first is described. Dates, and most event-level ticket links, are published by a small set of named automated lanes: new shows discovered from the official listing API, a nightly sync of factual corrections to shows already on file, and one link lane per resale provider.\n\nWhat makes those lanes safe is not a person at the end of them. It is that each one only writes an unambiguous exact-event match, runs the full validation suite in the same job on exactly the content it is about to publish, and lands the change only if that passes. A match that is ambiguous is reported rather than written. An incomplete fetch from a provider leaves the existing data alone instead of clearing it. What counts as unambiguous is spelled out per provider: for the SeatGeek lane, the instant of the show, the city, the venue and the shape of the destination URL all have to agree with the provider's own record of that event.\n\nThe split is deliberate. Deciding that a page belongs to the right artist is a judgement call, so either a person makes it or the automatic path demands exact agreement between two independent sources before it acts. Deciding that a listing is the same show as one already on file is a checkable rule, so a machine applies it, consistently, every night, across far more dates than anyone would re-read by hand."
         },
         {
           "type": "section",
@@ -310,7 +310,7 @@
       "datePublished": "2026-08-01",
       "dateModified": "2026-09-24",
       "status": "published",
-      "author": "Ollie Taylor",
+      "author": "TourTicketCompare",
       "tags": [
         "how-we-work",
         "ticket-prices"
@@ -321,16 +321,16 @@
         "how-to-compare-concert-ticket-prices"
       ],
       "relatedArtists": [],
-      "wordCount": 667,
+      "wordCount": 668,
       "sections": [
         {
           "type": "intro",
-          "content": "When a figure appears on a ticket button here, it is one ticket site's lowest listed price for that one show, with the time we checked it. That's a narrower claim than \"price\" usually makes. On ticket sites the word can mean a starting figure, a per-ticket figure before fees, a figure for a section with two seats left, or the number you actually pay."
+          "content": "When a figure appears on a ticket button here, it is one ticket site's lowest listed price for that one show, with the time it was checked. That's a narrower claim than \"price\" usually makes. On ticket sites the word can mean a starting figure, a per-ticket figure before fees, a figure for a section with two seats left, or the number you actually pay."
         },
         {
           "type": "section",
           "title": "One provider, one show, one moment",
-          "content": "A snapshot is the lowest listed figure a single provider's approved feed carried for a single verified show, recorded with the time it was captured. It is stored, displayed with that timestamp, and expires. It isn't an average, a market rate, a figure we calculated, or the total you'll pay. Fees, delivery and tax land later, on the ticket site's own checkout.\n\nSeveral conditions all have to hold before it renders at all: the provider must have granted display rights, the record must map to that exact show rather than a nearby one, the destination URL must carry its own verified provenance, the provider's display flag must be on, and the observation must not have expired. If any one of those fails, no figure appears. The absence of a price on a card is a real output, not a rendering bug."
+          "content": "A snapshot is the lowest listed figure a single provider's approved feed carried for a single verified show, recorded with the time it was captured. It is stored, displayed with that timestamp, and expires. It isn't an average, a market rate, a calculated figure, or the total you'll pay. Fees, delivery and tax land later, on the ticket site's own checkout.\n\nSeveral conditions all have to hold before it renders at all: the provider must have granted display rights, the record must map to that exact show rather than a nearby one, the destination URL must carry its own verified provenance, the provider's display flag must be on, and the observation must not have expired. If any one of those fails, no figure appears. The absence of a price on a card is a real output, not a rendering bug."
         },
         {
           "type": "section",
@@ -340,12 +340,12 @@
         {
           "type": "section",
           "title": "Not every provider has one",
-          "content": "Providers differ in what their feeds expose, and the gaps are not filled by guessing. Vivid Seats, TicketNetwork and StubHub International supply numeric listed prices under agreements that permit displaying them, so their buttons can carry a figure. SeatGeek has no price lane here and never will: its API returns no prices to us, so it stays a checked link. Ticket Liquidator's catalogue carries no numeric listed price, so its lane is link-only too. Ticketmaster is a verification and link source here rather than a price lane.\n\nThe visible consequence is asymmetry: one show may display a figure from two providers and a plain link from three more. That is the data being reported accurately rather than flattened into a tidier-looking table."
+          "content": "Providers differ in what their feeds expose, and the gaps are not filled by guessing. Vivid Seats, TicketNetwork and StubHub International supply numeric listed prices under agreements that permit displaying them, so their buttons can carry a figure. SeatGeek has no price lane here and never will: its API returns no prices to this site, so it stays a checked link. Ticket Liquidator's catalogue carries no numeric listed price, so its lane is link-only too. Ticketmaster is a verification and link source here rather than a price lane.\n\nThe visible consequence is asymmetry: one show may display a figure from two providers and a plain link from three more. That is the data being reported accurately rather than flattened into a tidier-looking table."
         },
         {
           "type": "section",
           "title": "What the ordering is, and is not",
-          "content": "Buttons appear in a fixed order: sites that pay us a commission first, the unpaid Ticketmaster link last. The page says so next to the buttons. The order is the same whether or not any figure is present. It isn't a ranking, and nothing on the card sorts by price or points at a \"best\" option.\n\nThe reason is that per-provider snapshots captured at different moments are not like-for-like offers, and ordering them as if they were would imply a comparison the underlying data cannot support. Calling one figure lower than another is only defensible with current figures for both sides, described for what they are: provider-supplied listed-price snapshots, each with its own timestamp. Nothing here claims availability either. There's no stock feed behind this site, and inventing one would be worse than saying nothing.\n\nWhat a snapshot is genuinely good for is narrowing the field before you open two or three tabs. The final number is the provider's order summary after fees, delivery and tax, and [the guide to ticket fees](/guides/concert-ticket-fees-explained) covers what tends to get added between the headline and the total."
+          "content": "Buttons appear in a fixed order: sites that pay the site a commission first, the unpaid Ticketmaster link last. The page says so next to the buttons. The order is the same whether or not any figure is present. It isn't a ranking, and nothing on the card sorts by price or points at a \"best\" option.\n\nThe reason is that per-provider snapshots captured at different moments are not like-for-like offers, and ordering them as if they were would imply a comparison the underlying data cannot support. Calling one figure lower than another is only defensible with current figures for both sides, described for what they are: provider-supplied listed-price snapshots, each with its own timestamp. Nothing here claims availability either. There's no stock feed behind this site, and inventing one would be worse than saying nothing.\n\nWhat a snapshot is genuinely good for is narrowing the field before you open two or three tabs. The final number is the provider's order summary after fees, delivery and tax, and [the guide to ticket fees](/guides/concert-ticket-fees-explained) covers what tends to get added between the headline and the total."
         }
       ]
     },
@@ -359,7 +359,7 @@
       "datePublished": "2026-08-01",
       "dateModified": "2026-09-24",
       "status": "published",
-      "author": "Ollie Taylor",
+      "author": "TourTicketCompare",
       "tags": [
         "how-we-work",
         "transparency"
@@ -369,7 +369,7 @@
         "when-is-the-best-time-to-buy-concert-tickets"
       ],
       "relatedArtists": [],
-      "wordCount": 645,
+      "wordCount": 646,
       "sections": [
         {
           "type": "intro",
@@ -378,7 +378,7 @@
         {
           "type": "section",
           "title": "An empty board is a state, not an error",
-          "content": "Every artist page is built from its event records. When the final upcoming date passes, those records don't disappear. They stop being upcoming, and the board empties. Nothing is deleted and nothing is invented to fill the space.\n\nWhat changes is what the page claims. The heading drops its promise of tour dates, the description search engines see changes to one that matches a page with none, and the board is replaced by a plain statement that there are no verified upcoming dates on file and that we cannot say whether more are coming. The recently passed dates stay listed underneath for reference, clearly labelled as gone.\n\nThe page itself stays in the index and in the sitemap. (An artist that has never had a date listed here is the exception: its page is kept out of search until the first date lands.) Keeping it is deliberate: the URL is a durable destination, it fills again the moment a new verified date lands, and cycling a page in and out of the index every time a tour ends would be worse for everyone than keeping one honest page at a stable address."
+          "content": "Every artist page is built from its event records. When the final upcoming date passes, those records don't disappear. They stop being upcoming, and the board empties. Nothing is deleted and nothing is invented to fill the space.\n\nWhat changes is what the page claims. The heading drops its promise of tour dates, the description search engines see changes to one that matches a page with none, and the board is replaced by a plain statement that there are no verified upcoming dates on file and no way to say yet whether more are coming. The recently passed dates stay listed underneath for reference, clearly labelled as gone.\n\nThe page itself stays in the index and in the sitemap. (An artist that has never had a date listed here is the exception: its page is kept out of search until the first date lands.) Keeping it is deliberate: the URL is a durable destination, it fills again the moment a new verified date lands, and cycling a page in and out of the index every time a tour ends would be worse for everyone than keeping one honest page at a stable address."
         },
         {
           "type": "section",
@@ -406,7 +406,7 @@
   "tags": [
     {
       "slug": "how-we-work",
-      "label": "How We Work",
+      "label": "How the Site Works",
       "postCount": 4
     },
     {

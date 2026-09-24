@@ -126,7 +126,7 @@ No. HTTPS confirms the connection is encrypted but does not verify that the site
 
 **What does TourTicketCompare verify?**
 
-We check that each button leads to the right event page before it goes up. We don't verify individual resale sellers, the accuracy of listings on other platforms, or whether a ticket will scan at the venue. Buyer protection, dispute processes, and final purchase terms are set by the provider you buy through.
+TourTicketCompare checks that each button leads to the right event page before it goes up. It doesn't verify individual resale sellers, the accuracy of listings on other platforms, or whether a ticket will scan at the venue. Buyer protection, dispute processes, and final purchase terms are set by the provider you buy through.
 
 **Can I recover money paid by bank transfer?**
 

@@ -21,7 +21,7 @@ sources:
 
 If a concert you've paid for is postponed, rescheduled, cancelled or moved, start by confirming what has actually happened in your ticket account, then read the terms for your specific ticket. Both come before any rumour, message or refund claim.
 
-We don't sell tickets or handle refunds. Refund, transfer, resale, delivery and cancellation terms are set by the ticket site and the event organiser, and they vary from event to event.
+TourTicketCompare doesn't sell tickets or handle refunds. Refund, transfer, resale, delivery and cancellation terms are set by the ticket site and the event organiser, and they vary from event to event.
 
 ## First, confirm the event status
 

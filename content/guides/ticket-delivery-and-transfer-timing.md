@@ -21,7 +21,7 @@ sources:
 
 Before you pay, find out when the ticket will actually reach you. The price never shows it. Some tickets arrive the moment you pay; others sit with the seller or the platform until days, sometimes hours, before the show. If you're travelling in, meeting friends at the door or buying a gift, that timing can matter more than the seat.
 
-The delivery method, the transfer window and what happens if a ticket never arrives are all set by the ticket site and shown at its checkout. Our buttons take you to the right event page; the terms are on the other side.
+The delivery method, the transfer window and what happens if a ticket never arrives are all set by the ticket site and shown at its checkout. The buttons here take you to the right event page; the terms are on the other side.
 
 ## The main delivery methods, and what each means for you
 

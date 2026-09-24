@@ -66,7 +66,7 @@ sources:
 | `updated` | no | `YYYY-MM-DD`, not earlier than `date`. Only set it when revising a published post. |
 | `status` | no | `published` or `draft`. Defaults to `published`; the `/admin` editor and `npm run blog:new` default to `draft`. |
 | `tags` | no | Lowercase hyphenated slugs. |
-| `author` | no | Defaults to `Ollie Taylor`, the site's named author. Only that exact name resolves the BlogPosting `author` to the Person node at `/about/ollie-taylor#ollie-taylor`; any other name is emitted as its own Person. |
+| `author` | no | Defaults to `TourTicketCompare`, and the build rejects any other value: bylines credit the site (see `docs/CONTENT_RULES.md` → Voice and Attribution). The BlogPosting `author` is the Organization node. |
 | `related_guides` | no | Guide slugs without the `/guides/` prefix. Must exist. |
 | `related_artists` | no | Artist slugs. Must exist in `public/data/artists.json`. |
 | `sources` | no | `label` + https `url` pairs. Rendered as a Sources section and as schema citations. |

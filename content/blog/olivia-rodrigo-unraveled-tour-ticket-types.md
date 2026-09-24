@@ -30,7 +30,7 @@ The ordinary ticket is the one everything else is measured against, and two of i
 
 Ticketmaster's official help page for the tour states that the event organiser makes the scannable ticket available closer to the day of the event, estimated at around 48 hours beforehand, and that ticket transfer is available no later than three months before the event date. Read those together and a pattern falls out: for a long stretch before the show, a ticket exists as an entitlement rather than as a scannable thing, and transfer is due to become available by the three-month point. That is an opening deadline, not a statement that transfers close three months before the show. Once transfer is enabled, Ticketmaster says it can be used from the order before the event.
 
-If you are buying from a resale marketplace, that is the mechanism behind a lot of ordinary-looking anxiety — a delayed barcode can be consistent with the organiser’s delivery schedule. It does not, by itself, verify that a resale purchase is valid or that a seller will deliver it. It is also why "when does it arrive" belongs in your decision rather than after it. Our [guide to delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) goes through what to do when the two clocks do not line up.
+If you are buying from a resale marketplace, that is the mechanism behind a lot of ordinary-looking anxiety — a delayed barcode can be consistent with the organiser’s delivery schedule. It does not, by itself, verify that a resale purchase is valid or that a seller will deliver it. It is also why "when does it arrive" belongs in your decision rather than after it. The [guide to delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) goes through what to do when the two clocks do not line up.
 
 ## VIP packages: the extras do not travel
 
@@ -42,16 +42,16 @@ So a resale listing that says "VIP" may be transferring the seat and none of the
 
 ## Silver Star: check the request status
 
-Silver Star uses a request-and-allocation process rather than an immediate purchase, and its windows are short. Ticketmaster’s help page gave the request window as closing on 2 September 2026, with successful requests confirmed by 9 September. Both of those dates are behind us, so treat the process below as an explanation of how Silver Star works rather than a route that is open today, and check the official tour help page for any later release.
+Silver Star uses a request-and-allocation process rather than an immediate purchase, and its windows are short. Ticketmaster’s help page gave the request window as closing on 2 September 2026, with successful requests confirmed by 9 September. Both of those dates have passed, so treat the process below as an explanation of how Silver Star works rather than a route that is open today, and check the official tour help page for any later release.
 
 Tickets were offered in pairs, with a limit of two per person. Submitting a request did not guarantee an allocation. Ticketmaster says the card is charged only when a request can be fulfilled, and unsuccessful applicants can check their request status even if they receive no further email.
 
 Use the official tour help page for the current country-specific instructions and any future release. Security checks during a request do not establish a resale or transfer policy, so do not infer that a second-hand Silver Star listing is permitted or prohibited from those checks alone. Confirm the terms attached to the actual ticket before paying.
 
-We do not repeat a Silver Star price here: it is a separate official programme, not one of the provider-listed snapshots on our date board.
+No Silver Star price is repeated here: it is a separate official programme, not one of the provider-listed snapshots on the date board.
 
-## What our page shows, and what it does not
+## What the artist page shows, and what it does not
 
 On the [Olivia Rodrigo page](/artists/olivia-rodrigo), each verified date carries the ticket sites that have a checked destination for that exact show. Where a figure appears, it is one provider's listed price for that date at the time shown next to it — a resale marketplace's listing, not the tour's own pricing, and not a Silver Star or VIP figure. None of the three product types above is sold, allocated or issued by this site.
 
-Which is the point of writing this down. The comparison worth making on this tour is not only between two figures, but between two things that are only superficially the same ticket. Our [guide to official tickets versus resale](/guides/primary-vs-resale-concert-tickets) covers the general version; the specifics for this tour are on the official help page, and they are unusually clearly written.
+Which is the point of writing this down. The comparison worth making on this tour is not only between two figures, but between two things that are only superficially the same ticket. The [guide to official tickets versus resale](/guides/primary-vs-resale-concert-tickets) covers the general version; the specifics for this tour are on the official help page, and they are unusually clearly written.

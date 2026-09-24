@@ -47,6 +47,6 @@ The concert has its own published bag policy too. Check its size limits and exce
 
 ## What the ticket comparison can tell you
 
-The [Bruno Mars page](/artists/bruno-mars) lists our verified dates with provider links checked for each event. Any displayed price is a provider’s listed-price snapshot, with its observation time; it does not include a promise about installation access, a particular seat or your final checkout total.
+The [Bruno Mars page](/artists/bruno-mars) lists the verified dates with provider links checked for each event. Any displayed price is a provider’s listed-price snapshot, with its observation time; it does not include a promise about installation access, a particular seat or your final checkout total.
 
-Open the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. Our [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later.
+Open the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. The [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later.

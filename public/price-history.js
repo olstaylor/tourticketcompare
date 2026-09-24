@@ -202,11 +202,11 @@
     }).then(function (response) { return response.json().then(function (data) { return { ok: response.ok && data && data.ok }; }); })
       .then(function (result) {
         if (!result.ok) throw new Error("signup_failed");
-        if (status) status.textContent = "Thanks — interest noted. We're not sending price emails yet; this just helps us gauge demand.";
+        if (status) status.textContent = "Thanks — interest noted. Price emails aren't being sent yet; this just helps gauge demand.";
         var input = form.querySelector('input[name="email"]');
         if (input) input.value = "";
       }).catch(function () {
-        if (status) status.textContent = "We couldn't record that just now — please try again later.";
+        if (status) status.textContent = "That couldn't be recorded just now — please try again later.";
         form.dataset.submitting = "";
         if (submit) submit.disabled = false;
       });

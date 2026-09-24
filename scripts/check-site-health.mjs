@@ -44,11 +44,15 @@ const TRANSIENT_5XX_MAX_SHARE = 0.02;
 const RETRY_DELAY_MS = 2000;
 const TIMEOUT_MS = 20000;
 const USER_AGENT = "TourTicketCompare-site-health (+https://tourticketcompare.com)";
-// Sensors whose issue is open only while they have a finding.
+// Sensors whose issue is open only while they have a finding. The third field
+// says whether an open issue fails this run. automation:health is linked but
+// never gating: it watches site-health.yml itself, so gating on it would latch
+// both red — a failed run opens automation:health, which fails the next clean
+// run, which keeps automation:health open.
 export const SENSOR_LABELS = Object.freeze([
-  ["automation:daily-audit", "Outbound link liveness and Ticketmaster drift"],
-  ["automation:health", "Scheduled automation lanes failing or stalled"],
-  ["automation:prelaunch-validation", "Pull requests without a passing validation run"]
+  ["automation:daily-audit", "Outbound link liveness and Ticketmaster drift", true],
+  ["automation:health", "Scheduled automation lanes failing or stalled", false],
+  ["automation:prelaunch-validation", "Pull requests without a passing validation run", true]
 ]);
 
 const locsOf = (xml) => [...String(xml || "").matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
@@ -73,7 +77,9 @@ export function pageProblems(url, { status, location = "", html = "" }) {
   const title = decode((html.match(/<title>([^<]*)<\/title>/i) || [])[1] || "").trim();
   if (!title) problems.push("has no <title>");
   if (!/<h1\b/i.test(html)) problems.push("has no <h1>");
-  for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+  const jsonLd = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  if (!jsonLd.length) problems.push("has no JSON-LD block");
+  for (const match of jsonLd) {
     try {
       JSON.parse(match[1]);
     } catch {
@@ -114,9 +120,22 @@ async function readText(url, fetchImpl) {
   return response.text();
 }
 
+// Sitemaps carry canonical apex URLs whatever host serves them. Rebase each
+// onto the origin under test, so a --base-url run crawls that origin only.
+const onBase = (loc, baseUrl) => {
+  const url = new URL(loc);
+  return `${baseUrl}${url.pathname}${url.search}`;
+};
+
 export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) {
   const problems = [];
-  const full = locsOf(await readText(`${baseUrl}/sitemap.xml`, fetchImpl));
+  let full = [];
+  try {
+    full = locsOf(await readText(`${baseUrl}/sitemap.xml`, fetchImpl));
+    if (!full.length) problems.push("/sitemap.xml lists no URLs");
+  } catch (error) {
+    problems.push(`/sitemap.xml is unreachable (${error.message})`);
+  }
   let segmented = null;
   try {
     const index = locsOf(await readText(`${baseUrl}/sitemap-index.xml`, fetchImpl));
@@ -124,7 +143,7 @@ export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) 
     segmented = [];
     for (const loc of index) {
       try {
-        segmented.push(...locsOf(await readText(loc, fetchImpl)));
+        segmented.push(...locsOf(await readText(onBase(loc, baseUrl), fetchImpl)));
       } catch (error) {
         problems.push(`${new URL(loc).pathname} is unreachable (${error.message})`);
       }
@@ -132,6 +151,7 @@ export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) 
   } catch (error) {
     problems.push(`/sitemap-index.xml is unreachable (${error.message})`);
   }
+  if (segmented && !segmented.length && !problems.some((p) => /lists no sitemaps/.test(p))) problems.push("the sitemap segments list no URLs");
   if (segmented) {
     const a = new Set(full);
     const b = new Set(segmented);
@@ -141,7 +161,7 @@ export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) 
     if (extra.length) problems.push(`${extra.length} URL(s) in the segments are not in /sitemap.xml, e.g. ${extra[0]}`);
     if (segmented.length !== b.size) problems.push(`${segmented.length - b.size} URL(s) are listed in more than one segment`);
   }
-  return { urls: full, problems };
+  return { urls: full.map((loc) => onBase(loc, baseUrl)), canonicalUrls: full, problems };
 }
 
 async function openSensorFindings(token, repo) {
@@ -154,13 +174,13 @@ async function openSensorFindings(token, repo) {
     return response.json();
   };
   const items = [];
-  for (const [label, meaning] of SENSOR_LABELS) {
+  for (const [label, meaning, gating] of SENSOR_LABELS) {
     for (const issue of await get(`/issues?state=open&labels=${encodeURIComponent(label)}`)) {
-      if (!issue.pull_request) items.push({ label, meaning, number: issue.number, title: issue.title, url: issue.html_url, updated: issue.updated_at });
+      if (!issue.pull_request) items.push({ label, meaning, gating, number: issue.number, title: issue.title, url: issue.html_url, updated: issue.updated_at });
     }
   }
   for (const issue of await get(`/issues?state=open&labels=work-queue&per_page=50`)) {
-    if (!issue.pull_request) items.push({ label: "work-queue", meaning: "Discrete repair item", number: issue.number, title: issue.title, url: issue.html_url, updated: issue.updated_at });
+    if (!issue.pull_request) items.push({ label: "work-queue", meaning: "Discrete repair item", gating: true, number: issue.number, title: issue.title, url: issue.html_url, updated: issue.updated_at });
   }
   return { available: true, items };
 }
@@ -182,6 +202,9 @@ export function renderReport(report) {
     const share = ((report.pages.transient_5xx.length / Math.max(1, report.pages.checked)) * 100).toFixed(1);
     lines.push("", `${report.pages.transient_problem ? "- 🔴" : "- ⚠️"} ${report.pages.transient_5xx.length} page(s) (${share}%) answered 5xx at ${CONCURRENCY} parallel requests and recovered on retry — the Pages "exceeded resource limits" pattern a parallel crawler hits. Examples: ${report.pages.transient_5xx.slice(0, 5).map((t) => `\`${t.path}\``).join(", ")}.`);
   }
+  if (report.pages.network_retries?.length) {
+    lines.push("", `- ℹ️ ${report.pages.network_retries.length} page(s) timed out or dropped the connection once and answered on retry (the runner's network, not an origin 5xx; not counted above). Examples: ${report.pages.network_retries.slice(0, 5).map((t) => `\`${t.path}\``).join(", ")}.`);
+  }
   if (report.pages.duplicate_titles.length) lines.push("", ...report.pages.duplicate_titles.map((d) => `- Duplicate title "${d.title}": ${d.paths.join(", ")}`));
   lines.push("", "### 2. Sitemaps", "", report.sitemap_problems.length ? report.sitemap_problems.map((p) => `- ${p}`).join("\n") : "The index and every segment are reachable and match `/sitemap.xml`.");
   lines.push("", "### 3. Runtime", "", report.api_health.ok ? "`/api/health` reports ok." : `- \`/api/health\`: ${report.api_health.detail}`);
@@ -194,32 +217,36 @@ export function renderReport(report) {
     );
   } else lines.push(`- Price payload unreadable: ${report.price_error}`);
   lines.push("", "### 5. Other sensors with open findings", "");
-  if (!report.sensors.available) lines.push("Not checked (no GitHub token in this run).");
+  if (!report.sensors.available) lines.push(report.sensors.error ? `- 🔴 Could not read the sensor issues: ${report.sensors.error}` : "Not checked (no GitHub token in this run).");
   else if (!report.sensors.items.length) lines.push("None open.");
-  else lines.push(...report.sensors.items.map((i) => `- [#${i.number} ${i.title}](${i.url}) — ${i.meaning} (\`${i.label}\`, updated ${String(i.updated).slice(0, 10)})`));
+  else lines.push(...report.sensors.items.map((i) => `- [#${i.number} ${i.title}](${i.url}) — ${i.meaning} (\`${i.label}\`, updated ${String(i.updated).slice(0, 10)})${i.gating ? "" : " · linked for context, does not fail this check"}`));
   return lines.join("\n");
 }
 
 const pct = (value) => `${(Number(value) * 100).toFixed(1)}%`;
 
 export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, token = "", repo = "", now = Date.now(), retryDelayMs = RETRY_DELAY_MS }) {
-  const { urls, problems: sitemapProblems } = await collectSitemapUrls(baseUrl, fetchImpl);
+  const { urls, canonicalUrls, problems: sitemapProblems } = await collectSitemapUrls(baseUrl, fetchImpl);
   const transient = [];
-  const results = await pool(urls, async (url) => {
+  const networkRetries = [];
+  const results = await pool(urls, async (url, index) => {
     let result = await fetchPage(url, fetchImpl);
     if (result.status >= 500 || result.status === 0) {
       await new Promise((resolve) => setTimeout(resolve, retryDelayMs));
       const retry = await fetchPage(url, fetchImpl);
-      if (retry.status === 200) transient.push({ path: new URL(url).pathname, status: result.status });
+      // Only an origin 5xx counts toward the resource-limit budget; a timeout
+      // or dropped connection (status 0) is the runner's network.
+      if (retry.status === 200) (result.status >= 500 ? transient : networkRetries).push({ path: new URL(url).pathname, status: result.status });
       result = retry;
     }
-    return { url, ...result };
+    return { url, canonicalUrl: canonicalUrls[index], ...result };
   });
   const failures = [];
   const byTitle = new Map();
   for (const result of results) {
     const path = new URL(result.url).pathname;
-    const problems = pageProblems(result.url, result);
+    // The canonical is judged against the sitemap's own URL, not the rebased one.
+    const problems = pageProblems(result.canonicalUrl, result);
     if (problems.length) failures.push({ path, problems });
     const title = decode((result.html.match(/<title>([^<]*)<\/title>/i) || [])[1] || "").trim();
     if (title) byTitle.set(title, [...(byTitle.get(title) || []), path]);
@@ -240,6 +267,8 @@ export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, to
     priceError = error.message;
   }
   const sensors = await openSensorFindings(token, repo).catch((error) => ({ available: false, items: [], error: error.message }));
+  // Fail closed: with credentials supplied, unreadable sensors are not "none open".
+  const sensorsOk = token && repo ? sensors.available && !sensors.items.some((item) => item.gating) : true;
   const transientShare = urls.length ? transient.length / urls.length : 0;
   const transientProblem = transientShare > TRANSIENT_5XX_MAX_SHARE;
   const ok =
@@ -249,12 +278,13 @@ export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, to
     !sitemapProblems.length &&
     apiHealth.ok &&
     Boolean(prices?.ok) &&
-    !sensors.items.length;
+    urls.length > 0 &&
+    sensorsOk;
   return {
     generated_at: new Date(now).toISOString(),
     base_url: baseUrl,
     ok,
-    pages: { checked: urls.length, failures, duplicate_titles: duplicateTitles, transient_5xx: transient, transient_problem: transientProblem },
+    pages: { checked: urls.length, failures, duplicate_titles: duplicateTitles, transient_5xx: transient, transient_problem: transientProblem, network_retries: networkRetries },
     sitemap_problems: sitemapProblems,
     api_health: apiHealth,
     prices,
@@ -334,7 +364,39 @@ async function selfTest() {
   assert.deepEqual(retried.pages.transient_5xx.map((t) => t.path), ["/a"]);
   assert.ok(!retried.pages.failures.some((f) => f.path === "/a"), "a recovered page is not a failed page");
   assert.equal(retried.pages.transient_problem, true, "1 of 3 pages is above the 2% transient budget");
-  return 21;
+
+  // Codex review on #1126: each fail-open path now fails.
+  assert.ok(pageProblems("https://x.test/a", { status: 200, html: good.replace(/<script type="application\/ld\+json">.*?<\/script>/, "") }).some((p) => /no JSON-LD/.test(p)), "a page with no JSON-LD is a finding");
+  const emptyFetch = async (url) => {
+    const path = new URL(url).pathname;
+    if (path === "/sitemap.xml" || path === "/sitemaps/pages.xml") return new Response("<urlset></urlset>", { status: 200 });
+    return fakeFetch(url);
+  };
+  const empty = await runHealthCheck({ baseUrl: "https://x.test", fetchImpl: emptyFetch, retryDelayMs: 0 });
+  assert.equal(empty.ok, false, "an empty sitemap is never all clear");
+  assert.ok(empty.sitemap_problems.some((p) => /lists no URLs/.test(p)));
+  const downFetch = async (url) => (new URL(url).pathname === "/sitemap.xml" ? new Response("err", { status: 500 }) : fakeFetch(url));
+  const down = await runHealthCheck({ baseUrl: "https://x.test", fetchImpl: downFetch, retryDelayMs: 0 });
+  assert.ok(down.sitemap_problems.some((p) => /sitemap\.xml is unreachable/.test(p)), "a sitemap outage becomes a reported finding, not a crash");
+  assert.match(renderReport(down), /needs attention/);
+  const seen = new Set();
+  const previewFetch = async (url) => {
+    seen.add(new URL(url).host);
+    return fakeFetch(`https://x.test${new URL(url).pathname}`);
+  };
+  const preview = await runHealthCheck({ baseUrl: "https://preview.x.test", fetchImpl: previewFetch, retryDelayMs: 0 });
+  assert.deepEqual([...seen], ["preview.x.test"], "a --base-url run fetches segments and pages from that origin only");
+  assert.ok(!preview.pages.failures.some((f) => f.problems.some((p) => /canonical points/.test(p))), "canonicals are judged against the sitemap URL");
+  let dropped = 0;
+  const netFetch = async (url) => {
+    if (new URL(url).pathname === "/a" && dropped++ === 0) throw new Error("socket hang up");
+    return fakeFetch(url);
+  };
+  const net = await runHealthCheck({ baseUrl: "https://x.test", fetchImpl: netFetch, retryDelayMs: 0 });
+  assert.equal(net.pages.transient_5xx.length, 0, "a network retry is not an origin 5xx");
+  assert.deepEqual(net.pages.network_retries.map((t) => t.path), ["/a"]);
+  assert.deepEqual(SENSOR_LABELS.find(([label]) => label === "automation:health")[2], false, "automation:health never gates site-health (circular)");
+  return 30;
 }
 
 async function main(argv) {

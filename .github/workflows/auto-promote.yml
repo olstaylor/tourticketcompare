@@ -68,11 +68,22 @@ jobs:
           node scripts/auto-promote.mjs --self-test
           mkdir -p artifacts/auto
           cp functions/api/out.js artifacts/auto/out.base.js
-          node scripts/report-roster-forecast.mjs --candidates --json artifacts/auto/forecast.json > /dev/null
-          node -e 'const c=require("./artifacts/auto/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'
-          node -e 'const r=require("./artifacts/auto/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/auto/names.txt
-          # Owner requests (data/artist-requests.json) go first, flagged "requested".
+          # Owner requests (data/artist-requests.json) are screened by their own
+          # direct lookups, so a failed forecast must not drop them: record the
+          # failure, still merge and screen the requests, and fail the run at the
+          # end ("Fail on a forecast outage"). No discovery verdict is a provider
+          # fault, never an empty roster.
+          FORECAST_OK=true
+          node scripts/report-roster-forecast.mjs --candidates --json artifacts/auto/forecast.json > /dev/null || FORECAST_OK=false
+          if [ "$FORECAST_OK" = true ] && ! node -e 'const c=require("./artifacts/auto/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'; then FORECAST_OK=false; fi
+          : > artifacts/auto/names.txt
+          if [ "$FORECAST_OK" = true ]; then
+            node -e 'const r=require("./artifacts/auto/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/auto/names.txt
+          fi
+          echo "forecast_ok=$FORECAST_OK" >> "$GITHUB_OUTPUT"
+          # Owner requests go first, flagged "requested".
           node scripts/artist-requests.mjs --merge artifacts/auto/names.txt --limit 20
+          if [ "$FORECAST_OK" != true ] && [ ! -s artifacts/auto/names.txt ]; then echo "forecast failed and there are no open requests" >&2; exit 1; fi
           if [ ! -s artifacts/auto/names.txt ]; then echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
           node scripts/propose-onboarding-batch.mjs --names-file artifacts/auto/names.txt --limit 20 --output artifacts/auto/manifest.json
           node scripts/auto-promote.mjs --manifest artifacts/auto/manifest.json --write --json artifacts/auto/promoted.json
@@ -167,3 +178,9 @@ jobs:
           path: artifacts/auto/
           if-no-files-found: ignore
           retention-days: 30
+
+      - name: Fail on a forecast outage
+        if: always() && steps.switch.outputs.on == 'true' && steps.promote.outputs.forecast_ok == 'false'
+        run: |
+          echo "::error::The roster forecast failed; only owner requests were screened this run." >&2
+          exit 1

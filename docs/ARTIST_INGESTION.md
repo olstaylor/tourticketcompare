@@ -141,7 +141,9 @@ something needs attention and closes itself when all is clear. Each run:
 5. **Links the open findings of the sensors that close their own issue when
    clean:**
    - `automation:daily-audit`: broken outbound links and Ticketmaster drift;
-   - `automation:health`: automation lanes failing, stale or stalled;
+   - `automation:health`: automation lanes failing, stale or stalled
+     (linked for context only: it watches `site-health.yml`, so it never
+     fails this check);
    - `automation:prelaunch-validation`: PRs with no passing validation;
    - open `work-queue` items.
 

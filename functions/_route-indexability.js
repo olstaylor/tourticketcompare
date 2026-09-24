@@ -73,6 +73,22 @@ export const ARTIST_CITY_MIN_SHOWS = 2;
 // of them render a live SeatGeek CTA. Testing only the row status would call
 // those pages dead ends and de-index them while their buttons still work.
 /**
+ * Is the event announced but not yet on public sale? Ticketmaster's verbatim
+ * `sales.public.startDateTime`, carried as `public_onsale_at`, is still in the
+ * future. Such a date renders as a card with no ticket CTA, so it is never a
+ * publishable destination and never gets a MusicEvent node. Single source for
+ * the router, the route gates and the schema validator.
+ *
+ * @param {any} event
+ * @param {number} [now]
+ * @returns {boolean}
+ */
+export function publicOnsalePending(event, now = Date.now()) {
+  const at = Date.parse(String(event?.public_onsale_at || ""));
+  return Number.isFinite(at) && at > now;
+}
+
+/**
  * Does this reviewed event currently carry at least one publishable ticket
  * destination, from any provider?
  *
@@ -80,6 +96,7 @@ export const ARTIST_CITY_MIN_SHOWS = 2;
  * @returns {boolean}
  */
 export function eventPublishable(event) {
+  if (publicOnsalePending(event)) return false;
   const links = event?.provider_links && typeof event.provider_links === "object" ? event.provider_links : {};
   // A standalone verified resale destination is enough on its own — but only
   // when it actually has a stored URL to send the visitor to. `verified: true`
@@ -108,6 +125,7 @@ export function eventPublishable(event) {
  * @returns {boolean}
  */
 export function eventStatusPublishable(event) {
+  if (publicOnsalePending(event)) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;

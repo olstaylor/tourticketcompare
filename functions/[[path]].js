@@ -23,6 +23,7 @@ import { deriveArtistCities, findArtistCity, artistCityFootprint } from "./_arti
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
+import { publicOnsalePending } from "./_route-indexability.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -3397,12 +3398,8 @@ function showDatePartsServer(iso, timezone) {
 // functions/api/out.js.
 // A date Ticketmaster lists as not yet on sale, with a future public on-sale
 // time (`public_onsale_at`, verbatim from Discovery), is shown with no ticket
-// button of any kind until that moment. Keep in sync with public/app.js.
-function publicOnsalePending(event, now = Date.now()) {
-  const at = Date.parse(String(event?.public_onsale_at || ""));
-  return Number.isFinite(at) && at > now;
-}
-
+// button of any kind until that moment (publicOnsalePending, shared with the
+// route gates in _route-indexability.js). Keep in sync with public/app.js.
 function publicOnsaleLabel(event) {
   const at = new Date(String(event?.public_onsale_at || ""));
   let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";

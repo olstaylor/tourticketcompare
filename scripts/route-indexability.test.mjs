@@ -65,6 +65,11 @@ function ev(overrides = {}) {
 {
   assert(eventPublishable(ev()) === true, "human_verified is publishable");
   assert(eventPublishable(ev({ verification_status: "machine_high_confidence" })) === true, "machine_high_confidence is publishable");
+  // Not yet on public sale: the renderer shows no CTA and no MusicEvent node,
+  // so the route gates and schema must not count it either.
+  const pending = ev({ public_onsale_at: "2999-01-01T15:00:00Z" });
+  assert(eventPublishable(pending) === false && eventStatusPublishable(pending) === false, "a pending public on-sale is not publishable");
+  assert(eventPublishable(ev({ public_onsale_at: "2000-01-01T15:00:00Z" })) === true, "a passed public on-sale no longer suppresses");
   assert(
     eventPublishable(ev({ verification_status: "needs_recheck", provider_links: {} })) === true,
     "needs_recheck does not suppress a stored Ticketmaster destination"

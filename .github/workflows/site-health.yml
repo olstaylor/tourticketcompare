@@ -1,0 +1,69 @@
+name: Site health
+
+# Daily production health check (added 2026-09-24; docs/ARTIST_INGESTION.md →
+# "Keeping it healthy"). Crawls every URL in the live sitemap index for 404s,
+# redirects, leaked noindex, canonical drift, missing titles/H1s and broken
+# JSON-LD; checks the sitemap segments agree, /api/health, and the price
+# coverage gates; and links the open findings of the sensors that close their
+# own issue when clean (outbound links, automation lanes, PR validation) and
+# open work-queue items. Writes one rolling `automation:site-health` issue —
+# never a PR — and closes it when everything is clear.
+#
+# Read-only on the site and the repository. No credentials beyond the Actions
+# token for the issue, and no `npm ci` (node builtins and pure repo helpers).
+# 09:40 UTC follows the morning digest and the price-coverage report.
+
+on:
+  schedule:
+    - cron: '40 9 * * *'
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Origin to check.'
+        type: string
+        default: 'https://tourticketcompare.com'
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: site-health
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Self-test
+        run: node scripts/check-site-health.mjs --self-test
+
+      # The issue is written before the verdict is returned, so a red run still
+      # leaves its findings on the issue. pipefail keeps the exit code through tee.
+      - name: Check production
+        env:
+          BASE_URL: ${{ github.event.inputs.base_url || 'https://tourticketcompare.com' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          node scripts/check-site-health.mjs --base-url "$BASE_URL" --issue --markdown "$RUNNER_TEMP/site-health.md" \
+            | tee "$RUNNER_TEMP/site-health.log"
+
+      - name: Summarise
+        if: always()
+        run: |
+          if [ -s "$RUNNER_TEMP/site-health.md" ]; then
+            cat "$RUNNER_TEMP/site-health.md" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "The site health check produced nothing — treat this as unknown, not healthy." >> "$GITHUB_STEP_SUMMARY"
+          fi

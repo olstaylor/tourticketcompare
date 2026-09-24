@@ -72,7 +72,7 @@ function parseArgs(argv) {
   return options;
 }
 
-async function fetchAllShows(baseUrl, fetchImpl = globalThis.fetch) {
+export async function fetchAllShows(baseUrl, fetchImpl = globalThis.fetch) {
   const shows = [];
   for (let page = 0; page < MAX_PAGES; page += 1) {
     const url = `${baseUrl}/api/shows?includePrices=true&priceProviders=approved-marketplaces&limit=${PAGE_LIMIT}&offset=${page * PAGE_LIMIT}`;

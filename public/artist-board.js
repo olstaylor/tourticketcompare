@@ -70,6 +70,32 @@
     var count = document.createElement("p");
     count.className = "muted show-filter-count";
     count.setAttribute("role", "status");
+    // Country, city, sort and the two utility buttons sit behind one "Filters"
+    // toggle, so the first date is not pushed a screen down by six controls.
+    // It opens on load when the URL already carries a country or city filter.
+    var filtersId = "show-filter-extra";
+    var filtersToggle = document.createElement("button");
+    filtersToggle.type = "button";
+    filtersToggle.className = "show-filter-reset show-filter-toggle";
+    filtersToggle.textContent = "Filters";
+    filtersToggle.setAttribute("aria-controls", filtersId);
+    var extra = document.createElement("div");
+    extra.className = "show-filter-extra";
+    extra.id = filtersId;
+    function setFiltersOpen(open) {
+      extra.hidden = !open;
+      filtersToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    // Long boards show the first BOARD_LIMIT dates, then one button for the
+    // rest. Every card stays in the HTML (no-JS visitors and crawlers see them
+    // all); a search or filter always shows every match, and a link or month
+    // jump to a later date expands the board first.
+    var BOARD_LIMIT = 15;
+    var expanded = entries.length <= BOARD_LIMIT + 5;
+    var more = document.createElement("button");
+    more.type = "button";
+    more.className = "button button-secondary show-board-more";
+    more.hidden = true;
 
     function refreshCityOptions(preferred) {
       var source = state.country
@@ -111,11 +137,33 @@
         var difference = dateValue(a.show) - dateValue(b.show);
         return state.sort === "latest" ? -difference : difference;
       });
-      entries.forEach(function (entry) { entry.card.hidden = visible.indexOf(entry) === -1; });
+      var filtered = Boolean(state.query || state.country || state.city);
+      var capped = !expanded && !filtered && visible.length > BOARD_LIMIT;
+      var shown = capped ? visible.slice(0, BOARD_LIMIT) : visible;
+      entries.forEach(function (entry) { entry.card.hidden = shown.indexOf(entry) === -1; });
       visible.forEach(function (entry) { grid.appendChild(entry.card); });
-      count.textContent = "Showing " + visible.length + " of " + entries.length + " listed dates";
+      count.textContent = "Showing " + shown.length + " of " + entries.length + " listed dates";
+      more.hidden = !capped;
+      more.textContent = "Show all " + visible.length + " dates";
       updateUrl();
     }
+    function expandTo(anchorId) {
+      var target = anchorId ? document.getElementById(anchorId) : null;
+      if (!target || !grid.contains(target) || !target.hidden || expanded) return;
+      expanded = true;
+      apply();
+      target.scrollIntoView({ block: "start" });
+    }
+    more.addEventListener("click", function () {
+      expanded = true;
+      apply();
+    });
+    // A month jump or a shared #show- link can point past the first dates.
+    window.addEventListener("hashchange", function () { expandTo(decodeURIComponent(window.location.hash.slice(1))); });
+    section.addEventListener("click", function (event) {
+      var jump = event.target && event.target.closest ? event.target.closest(".show-board-jump a[href^='#']") : null;
+      if (jump) expandTo(decodeURIComponent(jump.getAttribute("href").slice(1)));
+    });
     function resetAll() {
       state = { query: "", country: "", city: "", sort: "soonest" };
       query.value = country.value = "";
@@ -142,8 +190,18 @@
         window.setTimeout(function () { share.textContent = "Copy filtered view"; }, 1800);
       });
     });
-    bar.append(query, country, city, sort, reset, share);
+    extra.append(country, city, sort, reset, share);
+    bar.append(query, filtersToggle, extra);
+    setFiltersOpen(Boolean(state.country || state.city));
+    filtersToggle.addEventListener("click", function () { setFiltersOpen(extra.hidden); });
     grid.before(bar, count);
+    grid.after(more);
+    // A deep link to a date beyond the first BOARD_LIMIT keeps the board open.
+    var initialTarget = window.location.hash ? document.getElementById(decodeURIComponent(window.location.hash.slice(1))) : null;
+    if (initialTarget && grid.contains(initialTarget)) {
+      var sortedIds = entries.slice().sort(function (a, b) { return dateValue(a.show) - dateValue(b.show); }).map(function (entry) { return entry.card; });
+      if (sortedIds.indexOf(initialTarget) >= BOARD_LIMIT) expanded = true;
+    }
     apply();
   }
 

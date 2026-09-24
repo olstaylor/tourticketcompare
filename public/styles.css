@@ -2353,3 +2353,250 @@ summary {
     width: 100%;
   }
 }
+
+/* Compact date boards (2026-09-24, owner request). An 84-date board was
+   ~33,000px on a phone at ~390px per card. Each card is now the date badge
+   beside city/venue and one meta line, with the ticket buttons across the full
+   card width underneath; artist-board.js shows the first 15 dates, then one
+   "Show all" button. Placed last so it wins over the earlier card rules. */
+.show-card {
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 6px 14px;
+  padding: 14px 16px;
+}
+
+.show-date-badge {
+  width: 56px;
+  min-height: 60px;
+  padding: 6px 4px;
+}
+
+.show-date-day {
+  font-size: 1.35rem;
+}
+
+.show-card-body {
+  gap: 4px;
+  align-content: center;
+  align-self: center;
+}
+
+.show-card-title {
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+/* .info-card p (0,1,1) sets a 1.02-1.18rem body size; these lines are
+   labels, so they need the extra class to stay small. */
+.show-card .show-card-meta,
+.show-card .show-card-sub,
+.show-card .show-card-run {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.show-card .show-card-meta {
+  font-weight: 700;
+}
+
+.show-board-jump {
+  gap: 8px;
+}
+
+.show-board-jump-list {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  padding-bottom: 4px;
+}
+
+.show-board-jump-list .mini-link {
+  min-height: 36px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  border-radius: 999px;
+}
+
+.show-board-jump p {
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.show-card-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  min-width: 0;
+}
+
+.show-card-actions > * {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+.show-card-actions > .copy-show-link,
+.show-card-actions > .price-history {
+  flex: 0 1 auto;
+}
+
+.show-card .provider-cta-count {
+  margin: 0;
+}
+
+.show-card .provider-cta-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  gap: 6px;
+  margin: 0;
+}
+
+.show-card .provider-cta {
+  min-height: 44px;
+  padding: 6px 14px;
+  gap: 8px;
+}
+
+.show-card .provider-cta-notes {
+  margin: 0;
+  padding: 6px 10px;
+}
+
+.show-board-intro {
+  font-size: 0.95rem;
+}
+
+.show-board .money-disclosure {
+  font-size: 0.8rem;
+}
+
+.show-filter-extra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1 1 100%;
+}
+
+.show-filter-extra[hidden] {
+  display: none;
+}
+
+.show-filter-toggle[aria-expanded="true"] {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.show-board-more {
+  justify-self: start;
+  margin-top: 4px;
+}
+
+.show-board-more[hidden] {
+  display: none;
+}
+
+/* Explainer sections folded into one closed <details> each. */
+.page-more {
+  margin-top: 4px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg, 18px);
+  background: var(--paper);
+}
+
+.page-more > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 52px;
+  padding: 12px 18px;
+  font-weight: 850;
+  list-style: none;
+}
+
+.page-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.page-more > summary::after {
+  content: "+";
+  font-weight: 900;
+  color: var(--muted);
+}
+
+.page-more[open] > summary::after {
+  content: "\2212";
+}
+
+.page-more__body {
+  display: grid;
+  gap: 16px;
+  padding: 0 18px 18px;
+}
+
+@media (max-width: 640px) {
+  .show-card {
+    grid-template-columns: 50px minmax(0, 1fr);
+    padding: 12px;
+  }
+
+  /* Overrides the 390px rule that laid the badge out as a horizontal chip on
+     its own row: the buttons now span the full card width, so the badge can
+     stay a narrow column beside the title even at 320px. */
+  .show-date-badge {
+    grid-template-columns: none;
+    align-items: normal;
+    width: 50px;
+    min-width: 0;
+    min-height: 54px;
+    gap: 1px;
+    padding: 6px 4px;
+  }
+
+  .show-card .provider-cta-group {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .show-card .provider-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+    min-height: 48px;
+    padding: 6px 12px;
+    border-radius: 14px;
+  }
+
+  .show-filter-bar {
+    grid-template-columns: 1fr auto;
+  }
+
+  .show-filter-input {
+    grid-column: auto;
+  }
+
+  .show-filter-toggle {
+    width: auto;
+  }
+
+  .show-filter-extra {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page-more__body {
+    padding: 0 12px 14px;
+  }
+}
+
+/* The month row scrolls sideways instead of wrapping, so the board's grid
+   items must be allowed to shrink below their no-wrap min-content width. */
+.show-board > *,
+.show-board-jump {
+  min-width: 0;
+}

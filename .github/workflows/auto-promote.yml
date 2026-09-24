@@ -76,14 +76,6 @@ jobs:
           node scripts/auto-promote.mjs --manifest artifacts/auto/manifest.json --write --json artifacts/auto/promoted.json
           echo "count=$(node -e 'console.log(require("./artifacts/auto/promoted.json").promoted.length)')" >> "$GITHUB_OUTPUT"
 
-      # This run's same-job verdict replaces the morning screen in the
-      # human-review issue, so a candidate held here never still reads as passing.
-      - name: Publish this run's verdict to the candidates issue
-        if: steps.switch.outputs.on == 'true' && hashFiles('artifacts/auto/promoted.json') != ''
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node scripts/report-roster-candidates.mjs artifacts/auto/manifest.json --run artifacts/auto/promoted.json
 
       - name: Ingest dates, gate and validate
         if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
@@ -128,6 +120,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Open auto-promote PR
+        id: publish
         if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
@@ -148,3 +141,23 @@ jobs:
           AUTOPUBLISH_CLASS=autopromote \
           PR_BODY="$(printf '## Auto-promoted artists\n%s\n\nEach passed screen criteria D1-D5 on identities re-captured in this job, has template shell copy built only from provider-API facts, and is marked `promotion_source: "auto"` (indexable only with 3+ upcoming dates). `out.js` changed by VERIFIED_TICKET_LINKS additions only. To undo one: `node scripts/demote-artist.mjs --slug <slug> --reason "<why>" --write`.\n' "$SUMMARY")" \
           node scripts/open-automation-pr.mjs
+
+      # After publishing, so the issue never claims a promotion that did not
+      # reach a PR. The same-job verdict replaces the morning screen there.
+      - name: Publish this run's verdict to the candidates issue
+        if: always() && steps.switch.outputs.on == 'true' && hashFiles('artifacts/auto/promoted.json') != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+        run: node scripts/report-roster-candidates.mjs artifacts/auto/manifest.json --run artifacts/auto/promoted.json
+
+      # Withheld-date reviews, ingestion outcomes, coverage and the manifest.
+      - name: Upload run evidence
+        if: always() && steps.switch.outputs.on == 'true'
+        uses: actions/upload-artifact@v6
+        with:
+          name: auto-promote-${{ github.run_id }}
+          path: artifacts/auto/
+          if-no-files-found: ignore
+          retention-days: 30

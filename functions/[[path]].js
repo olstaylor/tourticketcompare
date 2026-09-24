@@ -720,7 +720,9 @@ async function routeForPath(pathname, env) {
       return {
         type: "artist-city",
         path,
-        indexable: artistCity.indexable,
+        // A child page never outranks its parent: an auto-promoted artist below
+        // its date threshold leaves every artist-city page noindex too.
+        indexable: artistCity.indexable && artistPageIndexable(artistMetaRecord, cityEvents, artist.slug),
         title: artistCityTitle(enrichedArtist, artistCity),
         description: artistCityDescription(enrichedArtist, artistCity),
         artist: enrichedArtist,

@@ -959,19 +959,70 @@ function musicEventNode(show, origin, { displayName, performer, image, offers = 
   const name = displayName || show.artist_name || show.artist_slug;
   const displayDate = formatShowDateServer(show.dateTimeISO, show.timezone);
   const address = { "@type": "PostalAddress", addressLocality: show.city };
-  if (show.country) address.addressCountry = show.country;
+  if (show.country) address.addressCountry = schemaCountry(show.country);
   return {
     "@type": "MusicEvent",
     name: show.event_name || `${name} — ${show.city}`,
     description: `${name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`,
     image: image || `${origin}/og-image.png`,
-    startDate: show.dateTimeISO,
+    startDate: venueLocalIso(show.dateTimeISO, show.timezone),
     eventStatus: "https://schema.org/EventScheduled",
+    // Every tracked show is an in-person concert at a named venue; there is no
+    // streamed or hybrid lane, so this is a constant, not a per-event claim.
+    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     location: { "@type": "Place", name: show.venue, address },
     performer,
     url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`,
     ...(offers.length ? { offers } : {})
   };
+}
+
+// schema.org recommends ISO 3166-1 alpha-2 for addressCountry, and the source
+// records spell one country several ways ("United States" and "United States
+// Of America"; "United Kingdom" and "Great Britain"). A name not listed here is
+// emitted as written, which is what every node carried before this map.
+const SCHEMA_COUNTRY_CODES = new Map(Object.entries({
+  "argentina": "AR", "australia": "AU", "austria": "AT", "belgium": "BE", "brazil": "BR",
+  "canada": "CA", "chile": "CL", "colombia": "CO", "czech republic": "CZ", "czechia": "CZ",
+  "denmark": "DK", "england": "GB", "finland": "FI", "france": "FR", "germany": "DE",
+  "great britain": "GB", "hungary": "HU", "ireland": "IE", "italy": "IT", "japan": "JP",
+  "mexico": "MX", "netherlands": "NL", "new zealand": "NZ", "northern ireland": "GB",
+  "norway": "NO", "poland": "PL", "portugal": "PT", "scotland": "GB", "singapore": "SG",
+  "south korea": "KR", "spain": "ES", "sweden": "SE", "switzerland": "CH",
+  "united kingdom": "GB", "united states": "US", "united states of america": "US",
+  "usa": "US", "wales": "GB"
+}));
+function schemaCountry(country) {
+  const raw = String(country || "").trim();
+  return SCHEMA_COUNTRY_CODES.get(raw.toLowerCase()) || raw;
+}
+
+// A bare UTC instant ("…T23:00:00Z") re-expressed as the venue's wall time with
+// its UTC offset ("…T19:00:00-04:00"): the same instant, in the form Google's
+// event guidelines recommend. Anything else — an offset already present, a
+// floating wall time, no or an invalid zone — is returned unchanged, and so is
+// any result that would not parse back to the identical instant.
+function venueLocalIso(iso, timezone) {
+  const raw = String(iso || "").trim();
+  const tz = String(timezone || "").trim();
+  if (!/Z$/.test(raw) || !tz || !isValidTimeZone(tz)) return raw;
+  const instant = new Date(raw);
+  if (!Number.isFinite(instant.getTime())) return raw;
+  try {
+    const parts = {};
+    for (const part of dateFormatter(
+      { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23", timeZoneName: "longOffset" },
+      tz
+    ).formatToParts(instant)) {
+      parts[part.type] = part.value;
+    }
+    const offset = parts.timeZoneName === "GMT" ? "+00:00" : String(parts.timeZoneName || "").replace(/^GMT/, "");
+    if (!/^[+-]\d{2}:\d{2}$/.test(offset)) return raw;
+    const local = `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}${offset}`;
+    return Date.parse(local) === instant.getTime() ? local : raw;
+  } catch (error) {
+    return raw;
+  }
 }
 
 // Mirror of artistSchema's Person/MusicGroup selection so venue/city inline
@@ -985,7 +1036,10 @@ function performerTypeForArtist(catalog, artistSlug) {
 function musicEventsSchema(route, origin, events, env = {}) {
   const artistId = `${origin}${route.path}#artist`;
   const offersEnabled = schemaOffersEnabledForArtist(env, route.artist.slug);
-  return futureShowsForArtist(events, route.artist.slug, 6)
+  // Every publishable upcoming date on the board, as the city, venue and
+  // artist-city pages already do — not the first six, which left most of a
+  // long tour (4 of Olivia Rodrigo's 84 dates) without event markup.
+  return futureShowsForArtist(events, route.artist.slug)
     .filter((show) => show.publishable && show.dateTimeISO && show.venue && show.city)
     .map((show) =>
       musicEventNode(show, origin, {
@@ -1260,7 +1314,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       address: {
         "@type": "PostalAddress",
         addressLocality: city.city,
-        addressCountry: city.country
+        addressCountry: schemaCountry(city.country) || undefined
       }
     });
     graph.push({
@@ -1306,7 +1360,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       address: {
         "@type": "PostalAddress",
         addressLocality: artistCity.city,
-        addressCountry: artistCity.country
+        addressCountry: schemaCountry(artistCity.country) || undefined
       }
     });
     graph.push({
@@ -1382,7 +1436,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       address: {
         "@type": "PostalAddress",
         addressLocality: venue.city || undefined,
-        addressCountry: venue.country || undefined
+        addressCountry: schemaCountry(venue.country) || undefined
       }
     });
     graph.push({
@@ -5188,6 +5242,14 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     '<script src="/app.js?v=20260924a" defer></script>',
     '<script src="/shell.js?v=20260901b" defer></script>'
   );
+  // Feed autodiscovery, so a reader pointed at any blog page finds the feed
+  // without the visitor copying /blog/rss.xml from the page copy.
+  if (route.type === "blog-index" || route.type === "blog-tag" || route.type === "blog-post") {
+    next = next.replace(
+      "</head>",
+      '<link rel="alternate" type="application/rss+xml" title="TourTicketCompare blog" href="/blog/rss.xml" /></head>'
+    );
+  }
   if (route.type === "artist" || route.type === "artist-city") {
     next = next.replace("</body>", '<script src="/artist-board.js?v=20260924a" defer></script></body>');
   }
@@ -5420,6 +5482,10 @@ function renderNotFoundHtml(html, pathname, origin) {
     indexable: false
   };
   let next = injectRoute(html, route, origin, { artists: [], ticket_links: [], providers: [] });
+  // A 404 names no canonical: pointing one at a URL that does not exist asks
+  // crawlers to treat the missing path as the preferred copy of itself.
+  next = next.replace(/\s*<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i, "");
+  next = next.replace(/\s*<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i, "");
   next = next.replace(
     /<main\s+id="mainContent">[\s\S]*?<\/main>/i,
     `<main id="mainContent"><section class="content-page" aria-labelledby="notFoundTitle"><h1 id="notFoundTitle">Page not found</h1><p>We could not find that page. Use the artist index, buying guides, or homepage to find current public pages.</p><div class="action-row">${anchor(

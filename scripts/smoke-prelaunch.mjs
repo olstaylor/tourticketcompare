@@ -672,7 +672,7 @@ assertAbsent(
   "public files outside the gated schema builder"
 );
 assert(
-  /futureShowsForArtist\(events, route\.artist\.slug, 6\)\s*\.filter\(\(show\) => show\.publishable/.test(
+  /futureShowsForArtist\(events, route\.artist\.slug\)\s*\.filter\(\(show\) => show\.publishable/.test(
     await read("functions/[[path]].js")
   ),
   "[[path]].js MusicEvent schema must gate on show.publishable"

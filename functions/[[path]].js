@@ -1999,6 +1999,13 @@ function renderArtistStatusFactsHtml(facts) {
 // on every artist page ("Before you buy", "How to buy <artist> tickets", "How
 // ticket prices are shown here"). Universal information lives here once; page
 // copy is reserved for what is specific to this artist's dates.
+// A closed <details> around sections that explain rather than sell. The
+// wrapped HTML is unchanged, so its headings and data hooks stay on the page.
+function collapsedGroupHtml(summary, html) {
+  if (!html) return "";
+  return `<details class="page-more"><summary>${escapeHtml(summary)}</summary><div class="page-more__body">${html}</div></details>`;
+}
+
 function renderArtistTicketHelpHtml(help) {
   const points = help.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
   return `<section class="nested-panel artist-ticket-help" data-artist-ticket-help><h2>How prices and links work here</h2><p>${escapeHtml(
@@ -4211,9 +4218,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   // carries it, so nothing here is inferred.
   const fullDate = formatShowDateServer(show.dateTimeISO, show.timezone);
   const localTime = showLocalTimeServer(show.dateTimeISO, show.timezone);
+  // With a date badge the full date is already on the card, so the meta line
+  // carries only the start time and country (the <time> still holds the full
+  // ISO value). Without a badge the full date stays in the line.
   const metaParts = [
-    fullDate ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(fullDate)}</time>` : "",
-    localTime ? `${escapeHtml(localTime)} local` : "",
+    fullDate && !dateParts ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(fullDate)}</time>` : "",
+    localTime
+      ? dateParts
+        ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(localTime)} local</time>`
+        : `${escapeHtml(localTime)} local`
+      : "",
     show.country ? escapeHtml(show.country) : ""
   ].filter(Boolean);
   const metaHtml = metaParts.length ? `<p class="show-card-meta">${metaParts.join(" · ")}</p>` : "";
@@ -4225,7 +4239,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const runHtml = run
     ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue</p>`
     : "";
-  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
+  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}</div><div class="show-card-actions">${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the
@@ -4350,14 +4364,18 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns)).join("")
     : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug, pastShows, emptyCopy);
-  const filterIntro = shows.length > 1
-    ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Jump to a month below, or use the search and city filters to narrow the list.</p></div>${renderShowBoardJumpHtml(shows)}`
-    : "";
+  // The month jump list and the filter bar (public/artist-board.js) explain
+  // themselves; the "Find your date" heading and instructions above them were
+  // removed on 2026-09-24 so the first date sits higher on the page.
+  const filterIntro = shows.length > 1 ? renderShowBoardJumpHtml(shows) : "";
   // P3 (owner-approved 2026-09-24). "Reviewed" is gone: dates added by the
   // Ticketmaster lane are machine-matched, not reviewed by a person. P11: an
   // artist that has never had a date gets no intro — the empty box says it.
+  // Populated boards (2026-09-24, owner request): one short line. What the
+  // buttons and prices mean is covered by "How prices and links work here"
+  // further down, and the money statement below stays in full beside them.
   const boardIntro = shows.length
-    ? `<p>Pick a date. Each button is a ticket site that sells it, with that site's lowest listed price when we have one. We check prices every few hours; the site shows your final total.</p>`
+    ? `<p class="show-board-intro">Pick a date, then a ticket site. A price on a button is that site's lowest listed price; the site shows your final total.</p>`
     : emptyCopy?.compact
       ? ""
       : `<p>Dates appear here once our source confirms them.</p>`;
@@ -4587,8 +4605,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // compare, and a page with no dates is not the place for a buying course.
     // It keeps the provenance block: the byline and the check date are the
     // page's accountability, and an empty page needs those most.
+    // On a populated page the explainer and supporting sections are kept word
+    // for word but start closed (2026-09-24, owner request): visitors come for
+    // the dates and buttons, and these sections stacked ~6,000px under them on
+    // a phone. They stay in the HTML, so their content is still on the page.
     const commercialHtml = shows.length
-      ? `${showBoardHtml}${providerPanelHtml}${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
+      ? `${showBoardHtml}${providerPanelHtml}${collapsedGroupHtml(
+          "How prices and checks work",
+          `${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
+        )}`
       : `${showBoardHtml}${trustHtml}`;
     // "About these links" and generic buying support describe a populated
     // ticket board. Empty pages keep only their honest empty state, plus the
@@ -4623,9 +4648,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
           artist.name
         )} ticket FAQ</h2>${artistFaqHtml}</section>`
       : "";
+    const moreHtml = shows.length
+      ? collapsedGroupHtml(`About ${artist.name}, dates by city, and guides`, `${supportingHtml}${usefulLinksHtml}`)
+      : `${supportingHtml}${usefulLinksHtml}`;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
-    )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${supportingHtml}${usefulLinksHtml}${faqHtml}</section></main>`;
+    )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${moreHtml}${faqHtml}</section></main>`;
   }
 
   if (route.type === "artist-city") {
@@ -5235,7 +5263,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     '<script src="/shell.js?v=20260901b" defer></script>'
   );
   if (route.type === "artist" || route.type === "artist-city") {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924b" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -5253,8 +5281,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260924a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260924a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20260924b" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260924b" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924b" defer></script></body>');

@@ -65,7 +65,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvsAd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAd",
@@ -81,11 +81,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570962,
+        "url": "https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -119,7 +119,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvsA7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsA7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsA7",
@@ -135,11 +135,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18414534,
+        "url": "https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

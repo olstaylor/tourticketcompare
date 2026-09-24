@@ -7,11 +7,9 @@ the buttons, check mobile navigation, CTA hierarchy and empty states, and
 
 This page has two parts:
 
-- **Part 1:** layout and hierarchy changes already made on
-  `milestone/2027-launch-readiness-phase4`. No wording changed.
-- **Part 2:** every wording change, as before/after, waiting for your
-  approval. Reply with the numbers you want (for example "P1, P3, P5–P8"),
-  with any edits, and they will be applied exactly as approved.
+- **Part 1:** layout and hierarchy changes. No wording changed.
+- **Part 2:** every wording change, as before/after. The owner approved all
+  of P1–P11; they shipped in [#1128](https://github.com/olstaylor/tourticketcompare/pull/1128) on 2026-09-24.
 
 Every "after" was checked against the code and data. Where a current sentence
 says something the site cannot back up, the proposal says so.

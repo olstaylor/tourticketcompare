@@ -102,10 +102,30 @@ export function countUpcomingShows(events, artistSlug, now = Date.now()) {
  * @param {number} [now]
  * @returns {boolean}
  */
+// An owner-promoted artist needs at least one tracked date, upcoming or past,
+// to be indexable (owner-approved 2026-09-24). A page that has never carried a
+// date says nothing but "no dates", which search engines classify as a soft
+// 404; it stays live as noindex,follow and indexes the day its first date
+// lands. A page whose tour has ended keeps its index entry and shows that
+// tour's history instead.
+export function countTrackedShows(events, artistSlug) {
+  const slug = normalizeSlug(artistSlug);
+  if (!slug || !Array.isArray(events)) return 0;
+  let count = 0;
+  for (const ev of events) {
+    if (ev && typeof ev === "object" && normalizeSlug(ev.artist_slug) === slug) count += 1;
+  }
+  return count;
+}
+
 export function artistPageIndexable(artistOrStatus, events, artistSlug, now = Date.now()) {
   const record = artistOrStatus && typeof artistOrStatus === "object" ? artistOrStatus : null;
   const indexingStatus = record ? record.indexing_status : artistOrStatus;
   if (indexingStatus !== INDEXABLE_ARTIST_STATUS) return false;
-  if (record?.promotion_source !== AUTO_PROMOTED_ARTIST_SOURCE) return true;
+  if (record?.promotion_source !== AUTO_PROMOTED_ARTIST_SOURCE) {
+    const slug = artistSlug || record?.slug;
+    // Callers without a slug (legacy status-string form) cannot be counted.
+    return slug ? countTrackedShows(events, slug) > 0 : true;
+  }
   return countUpcomingShows(events, artistSlug || record.slug, now) >= AUTO_PROMOTED_MIN_UPCOMING_SHOWS;
 }

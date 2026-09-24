@@ -245,6 +245,9 @@ export async function crawlRoutes(paths, renderRoute) {
       indexable: status === 200 && !robots.includes("noindex"),
       title: decodeEntities(extract(html, /<title>([^<]*)<\/title>/i)),
       description: decodeEntities(extract(html, /<meta\s+name="description"\s+content="([^"]*)"/i)),
+      // Visible H1 text, tags stripped and whitespace collapsed, for the
+      // duplicate-H1 check in audit-internal-links.mjs.
+      h1: decodeEntities(extract(html, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()),
       canonical: decodeEntities(extract(html, /<link rel="canonical" href="([^"]*)"/)),
       ogTitle: decodeEntities(extract(html, /<meta\s+property="og:title"\s+content="([^"]*)"/i)),
       ogDescription: decodeEntities(extract(html, /<meta\s+property="og:description"\s+content="([^"]*)"/i)),

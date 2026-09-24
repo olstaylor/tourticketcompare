@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:58:13.286Z",
+  "generated_at": "2026-09-24T14:31:56.332Z",
   "note": "Anchor for scripts/audit-indexable-surface.mjs --check. Re-anchor deliberately (npm run audit:indexable-surface:baseline) whenever a route-usefulness policy change is intended; see docs/ROUTE_INDEXABILITY_POLICY.md.",
   "policy": {
     "city_min_shows": 4,
@@ -34,20 +34,20 @@
       "indexable": 3
     },
     "artist": {
-      "rendered": 65,
-      "indexable": 58
+      "rendered": 80,
+      "indexable": 69
     },
     "city": {
-      "rendered": 224,
-      "indexable": 68
+      "rendered": 258,
+      "indexable": 85
     },
     "venue": {
-      "rendered": 461,
-      "indexable": 106
+      "rendered": 549,
+      "indexable": 143
     },
     "artist-city": {
-      "rendered": 856,
-      "indexable": 146
+      "rendered": 1002,
+      "indexable": 151
     }
   }
 }

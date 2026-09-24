@@ -10,6 +10,9 @@ const smoke = await readFile("scripts/smoke-prelaunch.mjs", "utf8");
 const route = await readFile("functions/[[path]].js", "utf8");
 const homeModule = await readFile("public/ttc-home.js", "utf8");
 const artistModule = await readFile("public/artist-board.js", "utf8");
+// Price history panels and the price-drop interest form moved out of
+// artist-board.js on 2026-09-24 so city and venue cards get them too.
+const priceHistoryModule = await readFile("public/price-history.js", "utf8");
 const sharedShell = await readFile("public/shell.js", "utf8");
 const webVitals = await readFile("public/web-vitals.js", "utf8");
 const vitalsReport = await readFile("scripts/report-web-vitals.mjs", "utf8");
@@ -61,7 +64,7 @@ assert.equal(appVersion, smokeVersion);
 assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260821a");
 assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260821a");
 assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260821a");
-assert.match(route, /\/artist-board\.js\?v=20260821a/);
+assert.match(route, /\/artist-board\.js\?v=20260924a/);
 assert.match(route, /\/currency-converter\.js\?v=20260821a/);
 
 // PR #727 split the universal application bundle into route modules. These
@@ -74,8 +77,9 @@ assert.match(homeModule, /record\.venue/);
 assert.doesNotMatch(homeModule, /ttc-main[^\n]*replaceChildren/);
 
 assert.match(artistModule, /function refreshCityOptions/);
-assert.match(artistModule, /\/api\/price-history\?showId=/);
-assert.match(artistModule, /intent: "price_alert"/);
+assert.match(priceHistoryModule, /\/api\/price-history\?showId=/);
+assert.match(priceHistoryModule, /intent: "price_alert"/);
+assert.match(priceHistoryModule, /price-alert-interest-template/);
 assert.match(route, /data-price-history=/);
 
 for (const field of ["landingPath", "artistSlug"]) assert.match(sharedShell, new RegExp(`${field}:`));

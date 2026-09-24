@@ -81,7 +81,7 @@ const VENUE = "Fixture Arena";
 const VENUE_SLUG = "fixture-arena-springfield";
 
 // lanes: which of the three price-supplying lanes the date is mapped on.
-function fixtureEvent(id, iso, { lanes = ["vivid-seats", "ticketnetwork", "stubhub-international"] } = {}) {
+function fixtureEvent(id, iso, { lanes = ["vivid-seats", "ticketnetwork", "stubhub-international"], seatgeek = true, onsaleAt = "" } = {}) {
   const tm = `https://www.ticketmaster.com/event/${id.toUpperCase()}`;
   const numeric = String(Math.abs([...id].reduce((acc, ch) => acc * 31 + ch.charCodeAt(0), 7)) % 9000000 + 1000000);
   const sg = `https://seatgeek.com/fixture-tickets/springfield-${numeric}/concert/${numeric}`;
@@ -114,6 +114,14 @@ function fixtureEvent(id, iso, { lanes = ["vivid-seats", "ticketnetwork", "stubh
     },
     verification_status: "human_verified"
   };
+  if (!seatgeek) {
+    event.seatgeek_url = "";
+    delete event.provider_links.seatgeek;
+  }
+  if (onsaleAt) {
+    event.status = "announced";
+    event.public_onsale_at = onsaleAt;
+  }
   for (const lane of lanes) {
     const [field, url] = urls[lane];
     event[field] = url;
@@ -127,10 +135,14 @@ const CHECKED = fixtureEvent("fixture-checked", "2026-09-12T01:00:00Z", { lanes:
 const UNMAPPED = fixtureEvent("fixture-unmapped", "2026-09-13T01:00:00Z", { lanes: [] });
 const UNCHECKED = fixtureEvent("fixture-unchecked", "2026-09-14T01:00:00Z", { lanes: ["vivid-seats"] });
 const STALE_CHECK = fixtureEvent("fixture-stale-check", "2026-09-15T01:00:00Z", { lanes: ["ticketnetwork"] });
-const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK];
+// Before the public on-sale: verified resale lanes render, Ticketmaster does not.
+const PENDING_RESALE = fixtureEvent("fixture-pending-resale", "2026-09-16T01:00:00Z", { lanes: ["vivid-seats"], seatgeek: false, onsaleAt: "2026-08-20T15:00:00Z" });
+const PENDING_BARE = fixtureEvent("fixture-pending-bare", "2026-09-17T01:00:00Z", { lanes: [], seatgeek: false, onsaleAt: "2026-08-20T15:00:00Z" });
+const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE];
 
 const PRICE_ROWS = [
   { event_id: PRICED.id, provider: "vivid-seats", low_price: 182, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
+  { event_id: PENDING_RESALE.id, provider: "vivid-seats", low_price: 240, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: PRICED.id, provider: "ticketnetwork", low_price: 190, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "ticketnetwork_impact_marketplace_api" }
 ];
 const CHECK_ROWS = [
@@ -251,6 +263,14 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
 
   assert(text(card(html, UNCHECKED.id)).includes(PRICE_UNAVAILABLE_NOTE), `${pathname}: a mapped date with no recorded no-price check keeps the undated note (a 'priced' check is never quoted)`);
   assert(text(card(html, STALE_CHECK.id)).includes(PRICE_UNAVAILABLE_NOTE), `${pathname}: a check older than the quote window is not quoted`);
+
+  const pending = card(html, PENDING_RESALE.id);
+  assert(/provider=vivid-seats/.test(pending), `${pathname}: a verified resale lane renders before the public on-sale`);
+  assert(!/provider=ticketmaster/.test(pending), `${pathname}: Ticketmaster stays hidden until the public on-sale`);
+  assert(/\$240/.test(pending), `${pathname}: a pre-on-sale resale lane carries its gated snapshot`);
+  assert(text(pending).includes("Public on-sale Aug 20, 2026") && text(pending).includes("resale listings"), `${pathname}: the pre-on-sale card states the on-sale time and that these are resale listings`);
+  assert(!html.includes(`showId=${PENDING_BARE.id}`), `${pathname}: a pre-on-sale date with no verified resale lane renders no button`);
+  assert(text(html).includes("Public on-sale Aug 20, 2026"), `${pathname}: it still states the on-sale time`);
 }
 
 // A cache read that throws establishes nothing: no card may claim absence.

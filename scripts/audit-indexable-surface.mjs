@@ -264,13 +264,14 @@ if (SELF_TEST) {
   };
   const emptyLine = renderEmptyBoardLine(emptyInput);
   assert(/leaving \*\*2 artist pages with upcoming dates\*\*/.test(emptyLine), "empty-board line derives the dated-page count");
-  // An empty board is not a noindex: artist URLs stay index,follow with no
-  // upcoming date (functions/_artist-indexability.js). The sentence claimed
-  // otherwise until 2026-08-21 and mislabelled every dateless artist.
-  assert(!/noindex/.test(emptyLine), "empty-board line never claims a noindexed artist page");
-  assert(emptyLine.includes("1 of them (latto) have never had an event record"), "never-had-events subset is named");
+  // An ended tour is not a noindex: its URL stays index,follow with no upcoming
+  // date. Only the never-dated subset is noindex (2026-09-24), and only that
+  // subset may be described as such.
+  assert(emptyLine.includes("ended tours still `index,follow`"), "an ended tour is reported as still indexed");
+  assert(emptyLine.includes("1 of them (latto) have never had an event record and are `noindex,follow` until one lands"), "never-had-events subset is named as noindex");
+  assert(!/noindex/.test(renderEmptyBoardLine({ ...emptyInput, zeroEventSlugs: [] })), "with no never-dated artist the line claims no noindex");
   const autoLine = renderEmptyBoardLine({ ...emptyInput, autoNoindexSlugs: ["latto"] });
-  assert(autoLine.includes("owner-promoted ones still `index,follow`") && autoLine.includes("1 auto-promoted artist(s) (latto) are `noindex,follow`"), "an auto-promoted empty board is reported as noindex, not index,follow");
+  assert(autoLine.includes("ended tours still `index,follow`") && autoLine.includes("1 auto-promoted artist(s) (latto) are `noindex,follow`"), "an auto-promoted empty board is reported as noindex, not index,follow");
   assert(
     !renderEmptyBoardLine({ ...emptyInput, emptySlugs: [], zeroEventSlugs: [] }).includes("leaving"),
     "with no empty boards the sentence states the all-dated case instead"

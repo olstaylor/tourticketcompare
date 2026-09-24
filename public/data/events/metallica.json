@@ -640,5 +640,545 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785871",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785871/Metallica-tickets-Sat-Mar-13-2027-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100"
+  },
+  {
+    "id": "tm-metallica-2027-vancouver-1av7z_3gkd3wcu8",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652ED2CADD90",
+    "ticketmaster_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652ED2CADD90",
+        "discovery_event_id": "1Av7Z_3GkD3wcU8",
+        "url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkD3wcU8",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-san-diego-vvg1iz_3rsxtwd",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Snapdragon Stadium",
+    "datetime_iso": "2027-05-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00652BF38BFCBB",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00652BF38BFCBB",
+        "discovery_event_id": "vvG1IZ_3RSxTwD",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3RSxTwD",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-el-paso-vvg1yz_3zjrn4d",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "Sun Bowl Stadium",
+    "datetime_iso": "2027-05-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00652E1C7A357B",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00652E1C7A357B",
+        "discovery_event_id": "vvG1YZ_3zjrN4D",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3zjrN4D",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-san-antonio-g5diz_3mpis-k",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Alamodome",
+    "datetime_iso": "2027-05-22T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00652DE5A33846",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00652DE5A33846",
+        "discovery_event_id": "G5dIZ_3MPIS-k",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3MPIS-k",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-fayetteville-g5viz_om30atl",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Fayetteville",
+    "country": "United States Of America",
+    "venue": "Donald W. Reynolds Razorback Stadium",
+    "datetime_iso": "2027-05-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00651B92909FDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00651B92909FDF",
+        "discovery_event_id": "G5viZ_om30aTL",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_om30aTL",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-kansas-city-vv17bz_3gkwemfok",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Arrowhead Stadium",
+    "datetime_iso": "2027-05-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652CA7DC8453",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652CA7DC8453",
+        "discovery_event_id": "vv17bZ_3GkwEMFoK",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GkwEMFoK",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Stadium",
+    "datetime_iso": "2027-06-05T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500652FDE41F8EC",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500652FDE41F8EC",
+        "discovery_event_id": "vv17fZ_3GkTr8LNi",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_3GkTr8LNi",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Orchard Park",
+    "country": "United States Of America",
+    "venue": "Highmark Stadium",
+    "datetime_iso": "2027-06-08T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0300652FEEBC2D96",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0300652FEEBC2D96",
+        "discovery_event_id": "vv17GZ_3GkTmReUp",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17GZ_3GkTmReUp",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Huntington Bank Field",
+    "datetime_iso": "2027-06-15T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500652EF0CA330C",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500652EF0CA330C",
+        "discovery_event_id": "vv17fZ_3GkDYwNGG",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_3GkDYwNGG",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Rice-Eccles Stadium",
+    "datetime_iso": "2027-06-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00652F0259E857",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00652F0259E857",
+        "discovery_event_id": "G5vzZ_3Hepr-9",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_3Hepr-9",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
   }
 ]

@@ -1486,5 +1486,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223615/Pink-Martini-All-Stars-tickets-Thu-Mar-25-2027-Sarofim-Hall-Hobby-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8223615"
+  },
+  {
+    "id": "tm-pink-martini-2027-charlottesville-z7r9jz1aav-zj",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-03-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-ZJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-ZJ",
+        "discovery_event_id": "Z7r9jZ1AAv-ZJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-ZJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

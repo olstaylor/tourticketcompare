@@ -1179,5 +1179,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252920",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252920/Yuridia-tickets-Sun-Mar-28-2027-The-Theater-at-MGM-National-Harbor"
+  },
+  {
+    "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkeskm_x",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Las Cartas sobre la Mesa Tour",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Rosemont Theatre",
+    "datetime_iso": "2027-03-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006524B34EE662",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006524B34EE662",
+        "discovery_event_id": "vv1A7Zkf0GkeSKm_x",
+        "url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zkf0GkeSKm_x",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

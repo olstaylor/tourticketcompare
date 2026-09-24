@@ -1,1 +1,596 @@
-[]
+[
+  {
+    "id": "tm-atmosphere-2027-madison-vv1a6zkfygkes1aem",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "The Sylvee",
+    "datetime_iso": "2027-01-16T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006530B12859EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006530B12859EE",
+        "discovery_event_id": "vv1A6ZkfYGkes1AEm",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfYGkes1AEm",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-boise-g5vzz_kkmetdo",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Boise",
+    "datetime_iso": "2027-01-23T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531B79E9ED1",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-boise-idaho-01-22-2027/event/1E006531B79E9ED1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-boise-idaho-01-22-2027/event/1E006531B79E9ED1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531B79E9ED1",
+        "discovery_event_id": "G5vzZ_KkMEtDo",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-boise-idaho-01-22-2027/event/1E006531B79E9ED1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KkMEtDo",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-bozeman-g5vzz_k6poibm",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Bozeman",
+    "country": "United States Of America",
+    "venue": "The ELM",
+    "datetime_iso": "2027-01-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531D646C637",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531D646C637",
+        "discovery_event_id": "G5vzZ_K6poibM",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_K6poibM",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-spokane-g5vzz_kkyknfe",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Spokane",
+    "datetime_iso": "2027-01-25T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531B91AA202",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531B91AA202",
+        "discovery_event_id": "G5vzZ_KkyknFe",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KkyknFe",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-vancouver-1av7z_3gkx859iu",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-01-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652F902D7B36",
+    "ticketmaster_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652F902D7B36",
+        "discovery_event_id": "1Av7Z_3GkX859iU",
+        "url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkX859iU",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-eugene-z7r9jz1aaez3b",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Eugene",
+    "country": "United States Of America",
+    "venue": "McDonald Theatre",
+    "datetime_iso": "2027-01-29T04:01:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZ3b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ3b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ3b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZ3b",
+        "discovery_event_id": "Z7r9jZ1AAeZ3b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ3b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ3b",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-reno-1a9zkfwgkddbjmf",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere--The Winter Carnival Tour 2027",
+    "city": "Reno",
+    "country": "United States Of America",
+    "venue": "Grand Sierra Resort and Casino",
+    "datetime_iso": "2027-01-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006532C3EA6B88",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006532C3EA6B88",
+        "discovery_event_id": "1A9ZkfwGkddBJmF",
+        "url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfwGkddBJmF",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-tucson-1kk8vpgiga2ka3q",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere: The Winter Carnival Tour 2027",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "Rialto Theatre-Tucson",
+    "datetime_iso": "2027-02-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065328F4C549A",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065328F4C549A",
+        "discovery_event_id": "1kk8vPGIGA2KA3Q",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8vPGIGA2KA3Q",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-kansas-city-vv11bz_k7z0sqj",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere: The Winter Carnival Tour 2027",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "VooDoo at Harrah's Kansas City",
+    "datetime_iso": "2027-02-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653100933766",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653100933766",
+        "discovery_event_id": "vv11bZ_K7Z0SqJ",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv11bZ_K7Z0SqJ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-joliet-vv17jz_3gknvxst7",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere: The Winter Carnival Tour 2027",
+    "city": "Joliet",
+    "country": "United States Of America",
+    "venue": "Hollywood Casino Joliet",
+    "datetime_iso": "2027-02-06T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700652A81FB1FC4",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-joliet-illinois-02-05-2027/event/0700652A81FB1FC4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-joliet-illinois-02-05-2027/event/0700652A81FB1FC4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700652A81FB1FC4",
+        "discovery_event_id": "vv17jZ_3GknvXsT7",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-joliet-illinois-02-05-2027/event/0700652A81FB1FC4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_3GknvXsT7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-rockford-1ae7z_3gkl5agu0",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Rockford",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Rockford",
+    "datetime_iso": "2027-02-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100652ACB275364",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100652ACB275364",
+        "discovery_event_id": "1Ae7Z_3Gkl5agu0",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl5agu0",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  }
+]

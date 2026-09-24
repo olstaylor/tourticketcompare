@@ -102301,5 +102301,5077 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653",
     "stubhub_international_url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674"
+  },
+  {
+    "id": "tm-latto-2026-las-vegas-g5ezz_khrbusj",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "event_name": "Latto",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "On the Record",
+    "datetime_iso": "2026-11-01T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2E006536EFEB6CDC",
+    "ticketmaster_url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2E006536EFEB6CDC",
+        "discovery_event_id": "G5ezZ_KhRBUSj",
+        "url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5ezZ_KhRBUSj",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-vancouver-1av7z_3gkd3wcu8",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652ED2CADD90",
+    "ticketmaster_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652ED2CADD90",
+        "discovery_event_id": "1Av7Z_3GkD3wcU8",
+        "url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkD3wcU8",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-san-diego-vvg1iz_3rsxtwd",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Snapdragon Stadium",
+    "datetime_iso": "2027-05-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00652BF38BFCBB",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00652BF38BFCBB",
+        "discovery_event_id": "vvG1IZ_3RSxTwD",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3RSxTwD",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-el-paso-vvg1yz_3zjrn4d",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "Sun Bowl Stadium",
+    "datetime_iso": "2027-05-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00652E1C7A357B",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00652E1C7A357B",
+        "discovery_event_id": "vvG1YZ_3zjrN4D",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3zjrN4D",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-san-antonio-g5diz_3mpis-k",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Alamodome",
+    "datetime_iso": "2027-05-22T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00652DE5A33846",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00652DE5A33846",
+        "discovery_event_id": "G5dIZ_3MPIS-k",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3MPIS-k",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-fayetteville-g5viz_om30atl",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Fayetteville",
+    "country": "United States Of America",
+    "venue": "Donald W. Reynolds Razorback Stadium",
+    "datetime_iso": "2027-05-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00651B92909FDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00651B92909FDF",
+        "discovery_event_id": "G5viZ_om30aTL",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_om30aTL",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-kansas-city-vv17bz_3gkwemfok",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Arrowhead Stadium",
+    "datetime_iso": "2027-05-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652CA7DC8453",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652CA7DC8453",
+        "discovery_event_id": "vv17bZ_3GkwEMFoK",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GkwEMFoK",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Stadium",
+    "datetime_iso": "2027-06-05T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500652FDE41F8EC",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500652FDE41F8EC",
+        "discovery_event_id": "vv17fZ_3GkTr8LNi",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_3GkTr8LNi",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Orchard Park",
+    "country": "United States Of America",
+    "venue": "Highmark Stadium",
+    "datetime_iso": "2027-06-08T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0300652FEEBC2D96",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0300652FEEBC2D96",
+        "discovery_event_id": "vv17GZ_3GkTmReUp",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17GZ_3GkTmReUp",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Huntington Bank Field",
+    "datetime_iso": "2027-06-15T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500652EF0CA330C",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500652EF0CA330C",
+        "discovery_event_id": "vv17fZ_3GkDYwNGG",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_3GkDYwNGG",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Rice-Eccles Stadium",
+    "datetime_iso": "2027-06-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00652F0259E857",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00652F0259E857",
+        "discovery_event_id": "G5vzZ_3Hepr-9",
+        "url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_3Hepr-9",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-teddy-swims-2027-dublin-17kzv0g6260hbxf",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-09T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064F1E46D8F94",
+    "ticketmaster_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064F1E46D8F94",
+        "discovery_event_id": "17kZv0G6260hbXf",
+        "url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6260hbXf",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
+  },
+  {
+    "id": "tm-teddy-swims-2027-london-17u8v0g623nj3ov",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-25T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F4A3712441",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F4A3712441",
+        "discovery_event_id": "17u8v0G623Nj3ov",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
+  },
+  {
+    "id": "tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "event_name": "Michelle Branch",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Cain's Ballroom",
+    "datetime_iso": "2027-03-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZUoA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUoA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUoA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZUoA",
+        "discovery_event_id": "Z7r9jZ1AAZUoA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUoA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZUoA",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "9999-12-31T06:00:00Z"
+  },
+  {
+    "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkeskm_x",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Las Cartas sobre la Mesa Tour",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Rosemont Theatre",
+    "datetime_iso": "2027-03-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006524B34EE662",
+    "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006524B34EE662",
+        "discovery_event_id": "vv1A7Zkf0GkeSKm_x",
+        "url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zkf0GkeSKm_x",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-pink-martini-2027-charlottesville-z7r9jz1aav-zj",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-03-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-ZJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-ZJ",
+        "discovery_event_id": "Z7r9jZ1AAv-ZJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-ZJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-ZJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-munich-z698xzc2z16vca8yqu",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-02T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1385439776",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1385439776",
+        "discovery_event_id": "Z698xZC2Z16vCA8yqU",
+        "url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1385439776?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vCA8yqU",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "id": "tm-oasis-2027-munich-z698xzc2z16ezoffov",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-03T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2020208474",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2020208474",
+        "discovery_event_id": "Z698xZC2Z16eZOFFoV",
+        "url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/2020208474?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16eZOFFoV",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "id": "tm-oasis-2027-munich-z698xzc2z16v7f7_4g",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-06T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1108119575",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1108119575",
+        "discovery_event_id": "Z698xZC2Z16v7F7_4g",
+        "url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v7F7_4g",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-belmont-park-1adzz_3gkmrvuzw",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2027-02-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000652BAF076032",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000652BAF076032",
+        "discovery_event_id": "1AdZZ_3GkmRvUZw",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_3GkmRvUZw",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-newark-vv1aezkfygkepjhre",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-02-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006530A59BCBC2",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006530A59BCBC2",
+        "discovery_event_id": "vv1AeZkfYGkePJHRe",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfYGkePJHRe",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-02-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300065309A7C2B70",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300065309A7C2B70",
+        "discovery_event_id": "1kGZvPGaGA1LecY",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kGZvPGaGA1LecY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-02-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006529DCD008AF",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006529DCD008AF",
+        "discovery_event_id": "vv1AvZkftGkdjVZxR",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkftGkdjVZxR",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-02-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006524C5AF73FE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-kanata-ontario-02-26-2027/event/31006524C5AF73FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-kanata-ontario-02-26-2027/event/31006524C5AF73FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006524C5AF73FE",
+        "discovery_event_id": "1AsZkf0GkdAlM2X",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-kanata-ontario-02-26-2027/event/31006524C5AF73FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkf0GkdAlM2X",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-quebec-1fg8vp17a7z7uce8",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Quebec",
+    "country": "Canada",
+    "venue": "Centre Videotron",
+    "datetime_iso": "2027-03-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310065284244CD1F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310065284244CD1F",
+        "discovery_event_id": "1FG8vP17a7Z7uCe8",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FG8vP17a7Z7uCe8",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-03-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006528E2511726",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006528E2511726",
+        "discovery_event_id": "1A8ZkfIGkdxfojJ",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfIGkdxfojJ",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-detroit-vv17oz_3gky-owzw",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-03-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800652C2147DE3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800652C2147DE3D",
+        "discovery_event_id": "vv17OZ_3GkY-oWzW",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_3GkY-oWzW",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-03-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400652FC510D10C",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400652FC510D10C",
+        "discovery_event_id": "vv178Z_3GkTA7u7G",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_3GkTA7u7G",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Heritage Bank Center",
+    "datetime_iso": "2027-03-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600652EA2654E8A",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-cincinnati-ohio-03-07-2027/event/1600652EA2654E8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-cincinnati-ohio-03-07-2027/event/1600652EA2654E8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600652EA2654E8A",
+        "discovery_event_id": "1AvbZ_3GkBx_fB1",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-cincinnati-ohio-03-07-2027/event/1600652EA2654E8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_3GkBx_fB1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-03-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00652F127F2F12",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00652F127F2F12",
+        "discovery_event_id": "G5eVZ_3H3LwH3",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3H3LwH3",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-03-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006530A2DF57BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006530A2DF57BE",
+        "discovery_event_id": "1AxZkfYGkexMgrX",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfYGkexMgrX",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652320A72ED0",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652320A72ED0",
+        "discovery_event_id": "vvG1VZ_3GOtwD8",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3GOtwD8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-03-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652FBCCAAF26",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652FBCCAAF26",
+        "discovery_event_id": "vvG1VZ_3XHwnHJ",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3XHwnHJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-03-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006529D84E34CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006529D84E34CE",
+        "discovery_event_id": "vvG1zZ_3EbKNKC",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3EbKNKC",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-03-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065294023420E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065294023420E",
+        "discovery_event_id": "G5viZ_3PZFVFC",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3PZFVFC",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-03-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00650DB0ED8DE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00650DB0ED8DE9",
+        "discovery_event_id": "vvG1YZ_8UYDbMt",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-03-26T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006530ACAE72F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006530ACAE72F2",
+        "discovery_event_id": "G5vzZ_KeilE5w",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KeilE5w",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-03-31T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900652FF9C9C0FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900652FF9C9C0FA",
+        "discovery_event_id": "1Av0Z_3GkTywjdB",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_3GkTywjdB",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-04-03T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900652CBFED8E63",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900652CBFED8E63",
+        "discovery_event_id": "vv170Z_3GkwTDbyN",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_3GkwTDbyN",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2027-04-05T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006523F6B487D3",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006523F6B487D3",
+        "discovery_event_id": "G5vYZ_32UcFLK",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_32UcFLK",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-04-06T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00652AA395AD0E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00652AA395AD0E",
+        "discovery_event_id": "G5vYZ_3nNPQVC",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3nNPQVC",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-04-09T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652FB78DD75A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652FB78DD75A",
+        "discovery_event_id": "1Av7Z_3GkXMNqqQ",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkXMNqqQ",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-04-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006529E2ABFCEB",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006529E2ABFCEB",
+        "discovery_event_id": "vvG1HZ_3ExnTSl",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3ExnTSl",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-04-12T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652E186AE034",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652E186AE034",
+        "discovery_event_id": "vvG1HZ_3zbQmZV",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3zbQmZV",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-tampa-vvg1vz_3xhd4sr",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2027-04-24T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0065289B0D5C6F",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0065289B0D5C6F",
+        "discovery_event_id": "vvG1VZ_3xhd4sR",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3xhd4sR",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-greenville-z7r9jz1aavsad",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney w/ Eric Church",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Dowdy Ficklen Stadium",
+    "datetime_iso": "2027-05-01T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvsAd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvsAd",
+        "discovery_event_id": "Z7r9jZ1AAvsAd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAd",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T13:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney w/ Eric Church",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-05-08T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvsA7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsA7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsA7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvsA7",
+        "discovery_event_id": "Z7r9jZ1AAvsA7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsA7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsA7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-26T15:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-saint-louis-vv1kvovpfigaupvvy",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Dome at America's Center",
+    "datetime_iso": "2027-05-15T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065228D5B4D30",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-saint-louis-missouri-05-15-2027/event/060065228D5B4D30",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-saint-louis-missouri-05-15-2027/event/060065228D5B4D30",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065228D5B4D30",
+        "discovery_event_id": "vv1kvOvPFIGAupVVY",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-saint-louis-missouri-05-15-2027/event/060065228D5B4D30",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPFIGAupVVY",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-minneapolis-vv1akzkf0gkdyrnq8",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "U.S. Bank Stadium",
+    "datetime_iso": "2027-05-22T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006524F97AA750",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-minneapolis-minnesota-05-22-2027/event/06006524F97AA750",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-minneapolis-minnesota-05-22-2027/event/06006524F97AA750",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006524F97AA750",
+        "discovery_event_id": "vv1AkZkf0Gkdyrnq8",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-minneapolis-minnesota-05-22-2027/event/06006524F97AA750",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkf0Gkdyrnq8",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-pittsburgh-1apzkfxgkdbuj3l",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Acrisure Stadium",
+    "datetime_iso": "2027-05-29T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006522D835C49F",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-pittsburgh-pennsylvania-05-29-2027/event/16006522D835C49F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-pittsburgh-pennsylvania-05-29-2027/event/16006522D835C49F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006522D835C49F",
+        "discovery_event_id": "1ApZkfxGkdbuj3L",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-pittsburgh-pennsylvania-05-29-2027/event/16006522D835C49F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfxGkdbuj3L",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-ames-vv1kbz_3x6g7cusy",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Ames",
+    "country": "United States Of America",
+    "venue": "ISU Cyclones - MidAmerican Energy Field at Jack Trice Stadium",
+    "datetime_iso": "2027-06-05T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652887B76C70",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-ames-iowa-06-05-2027/event/0600652887B76C70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-ames-iowa-06-05-2027/event/0600652887B76C70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652887B76C70",
+        "discovery_event_id": "vv1kbZ_3x6G7cUsY",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-ames-iowa-06-05-2027/event/0600652887B76C70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_3x6G7cUsY",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-philadelphia-vv1aezkfigkdubjp8",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Lincoln Financial Field",
+    "datetime_iso": "2027-06-12T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006528CD61C950",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-philadelphia-pennsylvania-06-12-2027/event/02006528CD61C950",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-philadelphia-pennsylvania-06-12-2027/event/02006528CD61C950",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006528CD61C950",
+        "discovery_event_id": "vv1AeZkfIGkdubjP8",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-philadelphia-pennsylvania-06-12-2027/event/02006528CD61C950",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfIGkdubjP8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-orchard-park-vv1adzkfngkd3refj",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Orchard Park",
+    "country": "United States Of America",
+    "venue": "Highmark Stadium",
+    "datetime_iso": "2027-06-19T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "03006523D2BC221C",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-orchard-park-new-york-06-19-2027/event/03006523D2BC221C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-orchard-park-new-york-06-19-2027/event/03006523D2BC221C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "03006523D2BC221C",
+        "discovery_event_id": "vv1AdZkfNGkd3ReFj",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-orchard-park-new-york-06-19-2027/event/03006523D2BC221C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AdZkfNGkd3ReFj",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-26T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400652251122EB9",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-chicago-illinois-06-26-2027/event/0400652251122EB9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-chicago-illinois-06-26-2027/event/0400652251122EB9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400652251122EB9",
+        "discovery_event_id": "vv1F8Z_3ao7xZd2G1",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-chicago-illinois-06-26-2027/event/0400652251122EB9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1F8Z_3ao7xZd2G1",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney w/ Eric Church",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Nissan Stadium",
+    "datetime_iso": "2027-07-03T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvsAA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvsAA",
+        "discovery_event_id": "Z7r9jZ1AAvsAA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsAA",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-milwaukee-vv1a6zkftgkdfvyq7",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "American Family Field",
+    "datetime_iso": "2027-07-10T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006529C8079684",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-milwaukee-wisconsin-07-10-2027/event/07006529C8079684",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-milwaukee-wisconsin-07-10-2027/event/07006529C8079684",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006529C8079684",
+        "discovery_event_id": "vv1A6ZkftGkdFvyQ7",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-milwaukee-wisconsin-07-10-2027/event/07006529C8079684",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkftGkdFvyQ7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-denver-g5vzz_3k6u08y",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Empower Field At Mile High",
+    "datetime_iso": "2027-07-17T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006524C7364439",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-denver-colorado-07-17-2027/event/1E006524C7364439",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-denver-colorado-07-17-2027/event/1E006524C7364439",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006524C7364439",
+        "discovery_event_id": "G5vzZ_3K6u08y",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-denver-colorado-07-17-2027/event/1E006524C7364439",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_3K6u08y",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-kansas-city-vv1akzkfxgkdkijos",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Arrowhead Stadium",
+    "datetime_iso": "2027-07-24T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006522C6B1C471",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-kansas-city-missouri-07-24-2027/event/06006522C6B1C471",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-kansas-city-missouri-07-24-2027/event/06006522C6B1C471",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006522C6B1C471",
+        "discovery_event_id": "vv1AkZkfxGkdkijos",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-kansas-city-missouri-07-24-2027/event/06006522C6B1C471",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfxGkdkijos",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-atlanta-vvg1zz_3x03by9",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Mercedes-Benz Stadium",
+    "datetime_iso": "2027-07-31T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006528A4498C17",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-atlanta-georgia-07-31-2027/event/0E006528A4498C17",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-atlanta-georgia-07-31-2027/event/0E006528A4498C17",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006528A4498C17",
+        "discovery_event_id": "vvG1zZ_3x03bY9",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-atlanta-georgia-07-31-2027/event/0E006528A4498C17",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3x03bY9",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-08-07T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006523B2A43938",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-east-rutherford-new-jersey-08-07-2027/event/00006523B2A43938",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-east-rutherford-new-jersey-08-07-2027/event/00006523B2A43938",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006523B2A43938",
+        "discovery_event_id": "k7vGF_3Cwtd0z",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-east-rutherford-new-jersey-08-07-2027/event/00006523B2A43938",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_3Cwtd0z",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Ford Field",
+    "datetime_iso": "2027-08-14T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800650BAAF6572C",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-detroit-michigan-08-14-2027/event/0800650BAAF6572C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-detroit-michigan-08-14-2027/event/0800650BAAF6572C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800650BAAF6572C",
+        "discovery_event_id": "vv17OZ_8GkmnWPji",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-detroit-michigan-08-14-2027/event/0800650BAAF6572C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_8GkmnWPji",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-charlotte-g5evz_3c19bfo",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Bank of America Stadium",
+    "datetime_iso": "2027-08-21T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065238A5D8520",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-charlotte-north-carolina-08-21-2027/event/2D0065238A5D8520",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-charlotte-north-carolina-08-21-2027/event/2D0065238A5D8520",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065238A5D8520",
+        "discovery_event_id": "G5eVZ_3C19bfO",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-charlotte-north-carolina-08-21-2027/event/2D0065238A5D8520",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3C19bfO",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-foxborough-vv177z_3gkt1lkmv",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-08-27T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652FCAAD3B81",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-27-2027/event/0100652FCAAD3B81",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-27-2027/event/0100652FCAAD3B81",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652FCAAD3B81",
+        "discovery_event_id": "vv177Z_3GkT1lKmv",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-27-2027/event/0100652FCAAD3B81",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3GkT1lKmv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",
+    "artist_slug": "kenny-chesney",
+    "artist_name": "Kenny Chesney",
+    "event_name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-08-28T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006522CD435520",
+    "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-28-2027/event/01006522CD435520",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-28-2027/event/01006522CD435520",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006522CD435520",
+        "discovery_event_id": "vv1AvZkfxGkdu8gfO",
+        "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-28-2027/event/01006522CD435520",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfxGkdu8gfO",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-honolulu-vvg1iz_3dqr_0d",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "Neal S Blaisdell Arena",
+    "datetime_iso": "2027-01-20T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00652EDABD9903",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-honolulu-hawaii-01-19-2027/event/0A00652EDABD9903",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-honolulu-hawaii-01-19-2027/event/0A00652EDABD9903",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00652EDABD9903",
+        "discovery_event_id": "vvG1IZ_3DQR_0d",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-honolulu-hawaii-01-19-2027/event/0A00652EDABD9903",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3DQR_0d",
+    "timezone": "Pacific/Honolulu",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T20:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-nashville-g5viz_3bvgq-a",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2027-03-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00652EB4D5A845",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-nashville-tennessee-03-11-2027/event/1B00652EB4D5A845",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-nashville-tennessee-03-11-2027/event/1B00652EB4D5A845",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00652EB4D5A845",
+        "discovery_event_id": "G5viZ_3BVgQ-A",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-nashville-tennessee-03-11-2027/event/1B00652EB4D5A845",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3BVgQ-A",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-knoxville-g5viz_3xoa9li",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Tennessee Theatre",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00652F911577EC",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00652F911577EC",
+        "discovery_event_id": "G5viZ_3XoA9Li",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3XoA9Li",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab For Cutie - I Built You A Tower Tour",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
+    "datetime_iso": "2027-03-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652AFFE5DAB9",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652AFFE5DAB9",
+        "discovery_event_id": "vvG1VZ_3lTyqny",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3lTyqny",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200652BCA1E5202",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-orlando-florida-03-20-2027/event/2200652BCA1E5202",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-orlando-florida-03-20-2027/event/2200652BCA1E5202",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200652BCA1E5202",
+        "discovery_event_id": "1AeFZ_3GkR16PFe",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-orlando-florida-03-20-2027/event/2200652BCA1E5202",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_3GkR16PFe",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-03-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00652ED132F517",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00652ED132F517",
+        "discovery_event_id": "G5dIZ_3DoGRf9",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3DoGRf9",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-pittsburgh-1apzkfygkd_ubdt",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2027-03-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006530D9DBA0FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-pittsburgh-pennsylvania-03-30-2027/event/16006530D9DBA0FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-pittsburgh-pennsylvania-03-30-2027/event/16006530D9DBA0FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006530D9DBA0FF",
+        "discovery_event_id": "1ApZkfYGkd_UBdT",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-pittsburgh-pennsylvania-03-30-2027/event/16006530D9DBA0FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfYGkd_UBdT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-niagara-falls-1avzz_3gkxslrqs",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2027-04-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652FB1ADE6B1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652FB1ADE6B1",
+        "discovery_event_id": "1AvZZ_3GkXslrQs",
+        "url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkXslrQs",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-ottawa-1ad7z_3gkhxejxw",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-04-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652F229DCFB2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652F229DCFB2",
+        "discovery_event_id": "1Ad7Z_3GkHxEjXw",
+        "url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GkHxEjXw",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-montreal-1ad7z_3gkrplg-n",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-04-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652BD6ACC86A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652BD6ACC86A",
+        "discovery_event_id": "1Ad7Z_3GkRplG-n",
+        "url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GkRplG-n",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652AF54DC3B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652AF54DC3B9",
+        "discovery_event_id": "vv177Z_3GklgKjCy",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3GklgKjCy",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-04-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652AF550C3CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652AF550C3CE",
+        "discovery_event_id": "vv177Z_3GklgfG2C",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3GklgfG2C",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-uncasville-g5vvz_3vqdtrt",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D00652D1AEFFBFF",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-uncasville-connecticut-04-09-2027/event/1D00652D1AEFFBFF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-uncasville-connecticut-04-09-2027/event/1D00652D1AEFFBFF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D00652D1AEFFBFF",
+        "discovery_event_id": "G5vVZ_3VQDTRT",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-uncasville-connecticut-04-09-2027/event/1D00652D1AEFFBFF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_3VQDTRT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-portland-vv1k7z_ke_g7zcjz",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2027-04-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100653099E0E738",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-portland-maine-04-11-2027/event/0100653099E0E738",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-portland-maine-04-11-2027/event/0100653099E0E738",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100653099E0E738",
+        "discovery_event_id": "vv1k7Z_Ke_G7zCjz",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-portland-maine-04-11-2027/event/0100653099E0E738",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k7Z_Ke_G7zCjz",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-new-york-g5dyz_kedn3qx",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-04-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C006530BB8D26A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C006530BB8D26A2",
+        "discovery_event_id": "G5dYZ_KeDN3Qx",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_KeDN3Qx",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-asheville-g5evz_3io8wkm",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00652B2043D4EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00652B2043D4EE",
+        "discovery_event_id": "G5eVZ_3iO8WKm",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3iO8WKm",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-ridgefield-z7r9jz1aavuq6",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs",
+    "city": "Ridgefield",
+    "country": "United States Of America",
+    "venue": "Ridgefield Playhouse",
+    "datetime_iso": "2027-01-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvUQ6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvUQ6",
+        "discovery_event_id": "Z7r9jZ1AAvUQ6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUQ6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-birmingham-g5dzz_kk-v07y",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs + The Jesus & Mary Chain",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-01-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006531A1D24130",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006531A1D24130",
+        "discovery_event_id": "G5dzZ_Kk-V07Y",
+        "url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_Kk-V07Y",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-london-1amzkfwgkeiysgf",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs + The Jesus & Mary Chain",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "British Airways ARC",
+    "datetime_iso": "2027-01-29T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006532ACE73314",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006532ACE73314",
+        "discovery_event_id": "1AMZkfwGkeiySGf",
+        "url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfwGkeiySGf",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-madison-vv1a6zkfygkes1aem",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "The Sylvee",
+    "datetime_iso": "2027-01-16T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006530B12859EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006530B12859EE",
+        "discovery_event_id": "vv1A6ZkfYGkes1AEm",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfYGkes1AEm",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-boise-g5vzz_kkmetdo",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Boise",
+    "datetime_iso": "2027-01-23T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531B79E9ED1",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-boise-idaho-01-22-2027/event/1E006531B79E9ED1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-boise-idaho-01-22-2027/event/1E006531B79E9ED1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531B79E9ED1",
+        "discovery_event_id": "G5vzZ_KkMEtDo",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-boise-idaho-01-22-2027/event/1E006531B79E9ED1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KkMEtDo",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-bozeman-g5vzz_k6poibm",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Bozeman",
+    "country": "United States Of America",
+    "venue": "The ELM",
+    "datetime_iso": "2027-01-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531D646C637",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531D646C637",
+        "discovery_event_id": "G5vzZ_K6poibM",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_K6poibM",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-spokane-g5vzz_kkyknfe",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Spokane",
+    "datetime_iso": "2027-01-25T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531B91AA202",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531B91AA202",
+        "discovery_event_id": "G5vzZ_KkyknFe",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KkyknFe",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-vancouver-1av7z_3gkx859iu",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-01-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652F902D7B36",
+    "ticketmaster_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652F902D7B36",
+        "discovery_event_id": "1Av7Z_3GkX859iU",
+        "url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkX859iU",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-eugene-z7r9jz1aaez3b",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Eugene",
+    "country": "United States Of America",
+    "venue": "McDonald Theatre",
+    "datetime_iso": "2027-01-29T04:01:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZ3b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ3b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ3b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZ3b",
+        "discovery_event_id": "Z7r9jZ1AAeZ3b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ3b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ3b",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-reno-1a9zkfwgkddbjmf",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere--The Winter Carnival Tour 2027",
+    "city": "Reno",
+    "country": "United States Of America",
+    "venue": "Grand Sierra Resort and Casino",
+    "datetime_iso": "2027-01-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006532C3EA6B88",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006532C3EA6B88",
+        "discovery_event_id": "1A9ZkfwGkddBJmF",
+        "url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfwGkddBJmF",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-tucson-1kk8vpgiga2ka3q",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere: The Winter Carnival Tour 2027",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "Rialto Theatre-Tucson",
+    "datetime_iso": "2027-02-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065328F4C549A",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065328F4C549A",
+        "discovery_event_id": "1kk8vPGIGA2KA3Q",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8vPGIGA2KA3Q",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-kansas-city-vv11bz_k7z0sqj",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere: The Winter Carnival Tour 2027",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "VooDoo at Harrah's Kansas City",
+    "datetime_iso": "2027-02-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653100933766",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653100933766",
+        "discovery_event_id": "vv11bZ_K7Z0SqJ",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv11bZ_K7Z0SqJ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-joliet-vv17jz_3gknvxst7",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere: The Winter Carnival Tour 2027",
+    "city": "Joliet",
+    "country": "United States Of America",
+    "venue": "Hollywood Casino Joliet",
+    "datetime_iso": "2027-02-06T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700652A81FB1FC4",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-joliet-illinois-02-05-2027/event/0700652A81FB1FC4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-joliet-illinois-02-05-2027/event/0700652A81FB1FC4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700652A81FB1FC4",
+        "discovery_event_id": "vv17jZ_3GknvXsT7",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-joliet-illinois-02-05-2027/event/0700652A81FB1FC4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_3GknvXsT7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-rockford-1ae7z_3gkl5agu0",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Rockford",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Rockford",
+    "datetime_iso": "2027-02-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100652ACB275364",
+    "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100652ACB275364",
+        "discovery_event_id": "1Ae7Z_3Gkl5agu0",
+        "url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl5agu0",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
   }
 ]

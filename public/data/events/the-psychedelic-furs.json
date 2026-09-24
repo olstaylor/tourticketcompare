@@ -796,5 +796,166 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267710",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267710/The-Psychedelic-Furs-tickets-Sat-May-1-2027-Northfield-Park-Racino-Center-Stage"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-ridgefield-z7r9jz1aavuq6",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs",
+    "city": "Ridgefield",
+    "country": "United States Of America",
+    "venue": "Ridgefield Playhouse",
+    "datetime_iso": "2027-01-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvUQ6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvUQ6",
+        "discovery_event_id": "Z7r9jZ1AAvUQ6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUQ6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-birmingham-g5dzz_kk-v07y",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs + The Jesus & Mary Chain",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-01-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006531A1D24130",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006531A1D24130",
+        "discovery_event_id": "G5dzZ_Kk-V07Y",
+        "url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_Kk-V07Y",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-london-1amzkfwgkeiysgf",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs + The Jesus & Mary Chain",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "British Airways ARC",
+    "datetime_iso": "2027-01-29T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006532ACE73314",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006532ACE73314",
+        "discovery_event_id": "1AMZkfwGkeiySGf",
+        "url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfwGkeiySGf",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T09:00:00Z"
   }
 ]

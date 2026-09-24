@@ -1,1 +1,1352 @@
-[]
+[
+  {
+    "id": "tm-hans-zimmer-2027-belmont-park-1adzz_3gkmrvuzw",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2027-02-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000652BAF076032",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000652BAF076032",
+        "discovery_event_id": "1AdZZ_3GkmRvUZw",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_3GkmRvUZw",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-newark-vv1aezkfygkepjhre",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-02-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006530A59BCBC2",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006530A59BCBC2",
+        "discovery_event_id": "vv1AeZkfYGkePJHRe",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfYGkePJHRe",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-02-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300065309A7C2B70",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300065309A7C2B70",
+        "discovery_event_id": "1kGZvPGaGA1LecY",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kGZvPGaGA1LecY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-02-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006529DCD008AF",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006529DCD008AF",
+        "discovery_event_id": "vv1AvZkftGkdjVZxR",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkftGkdjVZxR",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-02-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006524C5AF73FE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-kanata-ontario-02-26-2027/event/31006524C5AF73FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-kanata-ontario-02-26-2027/event/31006524C5AF73FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006524C5AF73FE",
+        "discovery_event_id": "1AsZkf0GkdAlM2X",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-kanata-ontario-02-26-2027/event/31006524C5AF73FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkf0GkdAlM2X",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-quebec-1fg8vp17a7z7uce8",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Quebec",
+    "country": "Canada",
+    "venue": "Centre Videotron",
+    "datetime_iso": "2027-03-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310065284244CD1F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310065284244CD1F",
+        "discovery_event_id": "1FG8vP17a7Z7uCe8",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FG8vP17a7Z7uCe8",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-03-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006528E2511726",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006528E2511726",
+        "discovery_event_id": "1A8ZkfIGkdxfojJ",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-hamilton-ontario-03-02-2027/event/10006528E2511726",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfIGkdxfojJ",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-detroit-vv17oz_3gky-owzw",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-03-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800652C2147DE3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800652C2147DE3D",
+        "discovery_event_id": "vv17OZ_3GkY-oWzW",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_3GkY-oWzW",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-03-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400652FC510D10C",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400652FC510D10C",
+        "discovery_event_id": "vv178Z_3GkTA7u7G",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-chicago-illinois-03-05-2027/event/0400652FC510D10C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_3GkTA7u7G",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Heritage Bank Center",
+    "datetime_iso": "2027-03-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600652EA2654E8A",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-cincinnati-ohio-03-07-2027/event/1600652EA2654E8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-cincinnati-ohio-03-07-2027/event/1600652EA2654E8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600652EA2654E8A",
+        "discovery_event_id": "1AvbZ_3GkBx_fB1",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-cincinnati-ohio-03-07-2027/event/1600652EA2654E8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_3GkBx_fB1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-03-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00652F127F2F12",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00652F127F2F12",
+        "discovery_event_id": "G5eVZ_3H3LwH3",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-charlotte-north-carolina-03-09-2027/event/2D00652F127F2F12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3H3LwH3",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-03-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006530A2DF57BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006530A2DF57BE",
+        "discovery_event_id": "1AxZkfYGkexMgrX",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-orlando-florida-03-11-2027/event/22006530A2DF57BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfYGkexMgrX",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652320A72ED0",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652320A72ED0",
+        "discovery_event_id": "vvG1VZ_3GOtwD8",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-miami-florida-03-13-2027/event/0D00652320A72ED0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3GOtwD8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-03-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652FBCCAAF26",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652FBCCAAF26",
+        "discovery_event_id": "vvG1VZ_3XHwnHJ",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-tampa-florida-03-14-2027/event/0D00652FBCCAAF26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3XHwnHJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-03-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006529D84E34CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006529D84E34CE",
+        "discovery_event_id": "vvG1zZ_3EbKNKC",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-atlanta-georgia-03-16-2027/event/0E006529D84E34CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3EbKNKC",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T14:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-03-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065294023420E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065294023420E",
+        "discovery_event_id": "G5viZ_3PZFVFC",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-nashville-tennessee-03-17-2027/event/1B0065294023420E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3PZFVFC",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-03-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00650DB0ED8DE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00650DB0ED8DE9",
+        "discovery_event_id": "vvG1YZ_8UYDbMt",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T15:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-03-26T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006530ACAE72F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006530ACAE72F2",
+        "discovery_event_id": "G5vzZ_KeilE5w",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-denver-colorado-03-25-2027/event/1E006530ACAE72F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KeilE5w",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-03-31T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900652FF9C9C0FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900652FF9C9C0FA",
+        "discovery_event_id": "1Av0Z_3GkTywjdB",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-phoenix-arizona-03-30-2027/event/1900652FF9C9C0FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_3GkTywjdB",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-04-03T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900652CBFED8E63",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900652CBFED8E63",
+        "discovery_event_id": "vv170Z_3GkwTDbyN",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-anaheim-california-04-02-2027/event/0900652CBFED8E63",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_3GkwTDbyN",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2027-04-05T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006523F6B487D3",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006523F6B487D3",
+        "discovery_event_id": "G5vYZ_32UcFLK",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-san-francisco-california-04-04-2027/event/1C006523F6B487D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_32UcFLK",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-04-06T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00652AA395AD0E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00652AA395AD0E",
+        "discovery_event_id": "G5vYZ_3nNPQVC",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-sacramento-california-04-05-2027/event/1C00652AA395AD0E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3nNPQVC",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-04-09T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652FB78DD75A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652FB78DD75A",
+        "discovery_event_id": "1Av7Z_3GkXMNqqQ",
+        "url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-vancouver-british-columbia-04-08-2027/event/1100652FB78DD75A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkXMNqqQ",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-04-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006529E2ABFCEB",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006529E2ABFCEB",
+        "discovery_event_id": "vvG1HZ_3ExnTSl",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-seattle-washington-04-09-2027/event/0F006529E2ABFCEB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3ExnTSl",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-04-12T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652E186AE034",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652E186AE034",
+        "discovery_event_id": "vvG1HZ_3zbQmZV",
+        "url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-portland-oregon-04-11-2027/event/0F00652E186AE034",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3zbQmZV",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  }
+]

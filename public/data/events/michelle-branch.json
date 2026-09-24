@@ -2240,5 +2240,59 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8225387",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225387/Michelle-Branch-tickets-Sun-Feb-28-2027-Ryman-Auditorium"
+  },
+  {
+    "id": "tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "event_name": "Michelle Branch",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Cain's Ballroom",
+    "datetime_iso": "2027-03-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZUoA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUoA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUoA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZUoA",
+        "discovery_event_id": "Z7r9jZ1AAZUoA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUoA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZUoA",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "9999-12-31T06:00:00Z"
   }
 ]

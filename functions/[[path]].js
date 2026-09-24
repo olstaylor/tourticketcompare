@@ -2879,7 +2879,23 @@ function renderHomepageGuideLinks() {
 }
 
 
+// Memoised per events array and wall-clock minute, as deriveCities is: the
+// comparison hub alone asked for this list three times per render, and every
+// other non-location route prices from it, each a full pass over events.json.
+// Callers get a fresh slice; the shared, frozen full list is never handed out.
+const PUBLISHABLE_FUTURE_SHOWS_MEMO = new WeakMap();
 function publishableFutureShows(events, limit = 500) {
+  if (!Array.isArray(events)) return publishableFutureShowsUncached(events).slice(0, limit);
+  const minute = Math.floor(Date.now() / 60000);
+  let hit = PUBLISHABLE_FUTURE_SHOWS_MEMO.get(events);
+  if (!hit || hit.minute !== minute) {
+    hit = { minute, result: Object.freeze(publishableFutureShowsUncached(events)) };
+    PUBLISHABLE_FUTURE_SHOWS_MEMO.set(events, hit);
+  }
+  return hit.result.slice(0, limit);
+}
+
+function publishableFutureShowsUncached(events) {
   return (events || [])
     .map((ev) => ({
       ...ev,
@@ -2909,17 +2925,20 @@ function publishableFutureShows(events, limit = 500) {
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= Date.now())
     .filter((show) => show.publishable)
-    .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO))
-    .slice(0, limit);
-}
-
-function artistUpcomingCount(events, artistSlug) {
-  return publishableFutureShows(events).filter((show) => show.artist_slug === slugify(artistSlug)).length;
+    .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));
 }
 
 function renderComparisonHubArtistCards(catalog, events = []) {
+  // One publishable pass shared by every card. Counting per artist re-ran
+  // publishableFutureShows over the whole events array once per catalog artist
+  // (~1s CPU per request), which tripped Cloudflare's 1102 resource limit and
+  // took down concurrent requests on the same isolate.
+  const upcomingBySlug = new Map();
+  for (const show of publishableFutureShows(events)) {
+    upcomingBySlug.set(show.artist_slug, (upcomingBySlug.get(show.artist_slug) || 0) + 1);
+  }
   const artists = (catalog.artists || [])
-    .map((artist) => ({ ...artist, upcomingCount: artistUpcomingCount(events, artist.slug) }))
+    .map((artist) => ({ ...artist, upcomingCount: upcomingBySlug.get(slugify(artist.slug)) || 0 }))
     .filter((artist) => artist.upcomingCount > 0)
     .sort((a, b) => b.upcomingCount - a.upcomingCount || String(a.name).localeCompare(String(b.name)))
     .slice(0, 12);

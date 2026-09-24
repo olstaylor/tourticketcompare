@@ -3,7 +3,7 @@ import { deriveVenues } from "./_venues.js";
 import { deriveCities } from "./_cities.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { deriveIndexableBlogEntries } from "./_blog.js";
-import { artistPageIndexable, AUTO_PROMOTED_ARTIST_SOURCE } from "./_artist-indexability.js";
+import { artistPageIndexable } from "./_artist-indexability.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -27,6 +27,16 @@ async function loadJsonAsset(env, pathname) {
   return response.json();
 }
 
+// events.json is ~4 MB and every derivation below needs it. Parse it once per
+// request (env is a fresh object per invocation) instead of once per section,
+// which was four full parses of the same file on every sitemap fetch.
+const eventsByEnv = new WeakMap();
+function loadEvents(env) {
+  if (!env || typeof env !== "object") return loadJsonAsset(env, "/data/events.json");
+  if (!eventsByEnv.has(env)) eventsByEnv.set(env, loadJsonAsset(env, "/data/events.json").catch(() => null));
+  return eventsByEnv.get(env);
+}
+
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
 // Static and guide routes carry their own `lastmod`, maintained by
@@ -46,7 +56,7 @@ const newestDate = (...values) => values.map(lastmodOf).filter(Boolean).sort().a
 
 async function loadIndexableVenues(env) {
   try {
-    const events = await loadJsonAsset(env, "/data/events.json");
+    const events = await loadEvents(env);
     if (!Array.isArray(events)) return [];
     return deriveVenues(events).filter((venue) => venue.indexable);
   } catch (error) {
@@ -56,7 +66,7 @@ async function loadIndexableVenues(env) {
 
 async function loadIndexableCities(env) {
   try {
-    const events = await loadJsonAsset(env, "/data/events.json");
+    const events = await loadEvents(env);
     if (!Array.isArray(events)) return [];
     return deriveCities(events).filter((city) => city.indexable);
   } catch (error) {
@@ -66,7 +76,7 @@ async function loadIndexableCities(env) {
 
 async function loadIndexableArtistCities(env, indexableArtistSlugs) {
   try {
-    const events = await loadJsonAsset(env, "/data/events.json");
+    const events = await loadEvents(env);
     if (!Array.isArray(events)) return [];
     return deriveIndexableArtistCities(events, indexableArtistSlugs);
   } catch (error) {
@@ -129,8 +139,9 @@ async function loadIndexableArtists(env) {
     // freshness date. Empty boards remain valid artist pages for owner-promoted
     // artists; only an auto-promoted artist is gated on upcoming dates, so the
     // event file is read only when one exists.
-    const needsEvents = artistsMeta.some((artist) => artist?.promotion_source === AUTO_PROMOTED_ARTIST_SOURCE);
-    const events = needsEvents ? await loadJsonAsset(env, "/data/events.json") : [];
+    // Every artist gate now reads events: an owner-promoted artist needs one
+    // tracked date, an auto-promoted one three upcoming (artistPageIndexable).
+    const events = await loadEvents(env);
     const verifiedBySlug = new Map(
       artistsMeta
         .filter((artist) => artist && artistPageIndexable(artist, Array.isArray(events) ? events : []))
@@ -147,9 +158,12 @@ async function loadIndexableArtists(env) {
   }
 }
 
-export async function onRequestGet({ request, env }) {
-  const requestUrl = new URL(request.url);
-  const origin = canonicalOrigin(`${requestUrl.protocol}//${requestUrl.host}`);
+// Sitemap segments, in /sitemap.xml order. Each is also served on its own at
+// /sitemaps/<segment>.xml and listed by /sitemap-index.xml, so Search Console
+// and Bing report coverage per page type (added 2026-09-24).
+export const SITEMAP_SEGMENTS = Object.freeze(["pages", "artists", "artist-cities", "cities", "venues", "blog"]);
+
+export async function buildSitemapSegments(env) {
   const [indexableArtists, artistVerificationDates] = await Promise.all([
     loadIndexableArtists(env),
     loadArtistVerificationDates(env)
@@ -229,8 +243,31 @@ export async function onRequestGet({ request, env }) {
     changefreq: entry.type === "blog-post" ? "monthly" : "weekly",
     priority: entry.type === "blog-post" ? "0.6" : "0.5"
   }));
-  const entries = staticEntries.concat(artistEntries, artistCityEntries, cityEntries, venueEntries, blogEntries);
+  return {
+    pages: staticEntries,
+    artists: artistEntries,
+    "artist-cities": artistCityEntries,
+    cities: cityEntries,
+    venues: venueEntries,
+    blog: blogEntries
+  };
+}
 
+export function requestOrigin(request) {
+  const requestUrl = new URL(request.url);
+  return canonicalOrigin(`${requestUrl.protocol}//${requestUrl.host}`);
+}
+
+export function xmlResponse(xml) {
+  return new Response(xml, {
+    headers: {
+      "Content-Type": "application/xml; charset=UTF-8",
+      "Cache-Control": "public, max-age=3600"
+    }
+  });
+}
+
+export function renderUrlset(entries, origin) {
   const urlsXml = entries
     .map((entry) => {
       // <lastmod> is optional in the protocol. Emit it only when a real date
@@ -249,15 +286,52 @@ export async function onRequestGet({ request, env }) {
     })
     .join("\n");
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+  return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urlsXml}
 </urlset>`;
+}
 
-  return new Response(xml, {
-    headers: {
-      "Content-Type": "application/xml; charset=UTF-8",
-      "Cache-Control": "public, max-age=3600"
-    }
-  });
+/** Newest lastmod in a segment, for its <sitemap> entry in the index. */
+export function segmentLastmod(entries) {
+  return newestDate(...entries.map((entry) => entry.lastmod));
+}
+
+// /sitemap.xml keeps serving every indexable URL in one urlset: IndexNow, the
+// site audits and any engine that already has it submitted read it as before.
+export async function onRequestGet({ request, env }) {
+  const segments = await buildSitemapSegments(env);
+  const entries = SITEMAP_SEGMENTS.flatMap((segment) => segments[segment]);
+  return xmlResponse(renderUrlset(entries, requestOrigin(request)));
+}
+
+/** Handler for one /sitemaps/<segment>.xml file. */
+export function segmentHandler(segment) {
+  return async function onRequestGet({ request, env }) {
+    const segments = await buildSitemapSegments(env);
+    return xmlResponse(renderUrlset(segments[segment] || [], requestOrigin(request)));
+  };
+}
+
+/** Handler for /sitemap-index.xml: one <sitemap> per non-empty segment. */
+export async function sitemapIndexHandler({ request, env }) {
+  const origin = requestOrigin(request);
+  const segments = await buildSitemapSegments(env);
+  const items = SITEMAP_SEGMENTS.filter((segment) => segments[segment].length)
+    .map((segment) => {
+      const lastmod = segmentLastmod(segments[segment]);
+      return [
+        "  <sitemap>",
+        `    <loc>${escapeXml(`${origin}/sitemaps/${segment}.xml`)}</loc>`,
+        lastmod ? `    <lastmod>${escapeXml(lastmod)}</lastmod>` : null,
+        "  </sitemap>"
+      ]
+        .filter(Boolean)
+        .join("\n");
+    })
+    .join("\n");
+  return xmlResponse(`<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${items}
+</sitemapindex>`);
 }

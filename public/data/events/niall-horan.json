@@ -132,18 +132,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7831760",
-        "url": "https://www.ticketliquidator.com/tickets/7831760/Niall-Horan-tickets-Wed-Sep-23-2026-Utilita-Arena-Newcastle",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_6JEzgkF",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831760/Niall-Horan-tickets-Wed-Sep-23-2026-Utilita-Arena-Newcastle"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-niall-horan-2026-manchester-1amzkozgkdqek4f",

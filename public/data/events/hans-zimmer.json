@@ -107,13 +107,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270976",
+        "url": "https://www.ticketliquidator.com/tickets/8270976/Hans-Zimmer-tickets-Sun-Feb-21-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669465",
+        "url": "https://www.stubhub.ie/hans-zimmer-newark-tickets-2-21-2027/event/107669465",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkePJHRe",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270976"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270976",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270976/Hans-Zimmer-tickets-Sun-Feb-21-2027-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-newark-tickets-2-21-2027/event/107669465"
   },
   {
     "id": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
@@ -169,13 +185,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270977",
+        "url": "https://www.ticketliquidator.com/tickets/8270977/Hans-Zimmer-tickets-Tue-Feb-23-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669466",
+        "url": "https://www.stubhub.ie/hans-zimmer-philadelphia-tickets-2-23-2027/event/107669466",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPGaGA1LecY",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270977"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270977",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270977/Hans-Zimmer-tickets-Tue-Feb-23-2027-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-philadelphia-tickets-2-23-2027/event/107669466"
   },
   {
     "id": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
@@ -231,13 +263,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270978",
+        "url": "https://www.ticketliquidator.com/tickets/8270978/Hans-Zimmer-tickets-Wed-Feb-24-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668647",
+        "url": "https://www.stubhub.ie/hans-zimmer-boston-tickets-2-24-2027/event/107668647",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkdjVZxR",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270978"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270978",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270978/Hans-Zimmer-tickets-Wed-Feb-24-2027-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-boston-tickets-2-24-2027/event/107668647"
   },
   {
     "id": "tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x",
@@ -347,13 +395,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271005",
+        "url": "https://www.ticketliquidator.com/tickets/8271005/Hans-Zimmer-tickets-Sun-Feb-28-2027-Centre-Videotron",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FG8vP17a7Z7uCe8",
     "timezone": "America/Toronto",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271005"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271005",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271005/Hans-Zimmer-tickets-Sun-Feb-28-2027-Centre-Videotron"
   },
   {
     "id": "tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj",
@@ -463,13 +519,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270979",
+        "url": "https://www.ticketliquidator.com/tickets/8270979/Hans-Zimmer-tickets-Wed-Mar-3-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669517",
+        "url": "https://www.stubhub.ie/hans-zimmer-detroit-tickets-3-3-2027/event/107669517",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3GkY-oWzW",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270979"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270979",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270979/Hans-Zimmer-tickets-Wed-Mar-3-2027-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-detroit-tickets-3-3-2027/event/107669517"
   },
   {
     "id": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
@@ -525,13 +597,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270980",
+        "url": "https://www.ticketliquidator.com/tickets/8270980/Hans-Zimmer-tickets-Fri-Mar-5-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669467",
+        "url": "https://www.stubhub.ie/hans-zimmer-chicago-tickets-3-5-2027/event/107669467",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_3GkTA7u7G",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270980"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270980",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270980/Hans-Zimmer-tickets-Fri-Mar-5-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-chicago-tickets-3-5-2027/event/107669467"
   },
   {
     "id": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
@@ -587,13 +675,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270981",
+        "url": "https://www.ticketliquidator.com/tickets/8270981/Hans-Zimmer-tickets-Sun-Mar-7-2027-Heritage-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669524",
+        "url": "https://www.stubhub.ie/hans-zimmer-cincinnati-tickets-3-7-2027/event/107669524",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkBx_fB1",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270981"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270981",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270981/Hans-Zimmer-tickets-Sun-Mar-7-2027-Heritage-Bank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-cincinnati-tickets-3-7-2027/event/107669524"
   },
   {
     "id": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
@@ -649,13 +753,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270982",
+        "url": "https://www.ticketliquidator.com/tickets/8270982/Hans-Zimmer-tickets-Tue-Mar-9-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669525",
+        "url": "https://www.stubhub.ie/hans-zimmer-charlotte-tickets-3-9-2027/event/107669525",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3H3LwH3",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270982"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270982/Hans-Zimmer-tickets-Tue-Mar-9-2027-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-charlotte-tickets-3-9-2027/event/107669525"
   },
   {
     "id": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
@@ -711,13 +831,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270983",
+        "url": "https://www.ticketliquidator.com/tickets/8270983/Hans-Zimmer-tickets-Thu-Mar-11-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669468",
+        "url": "https://www.stubhub.ie/hans-zimmer-orlando-tickets-3-11-2027/event/107669468",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfYGkexMgrX",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270983"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270983/Hans-Zimmer-tickets-Thu-Mar-11-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-orlando-tickets-3-11-2027/event/107669468"
   },
   {
     "id": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
@@ -773,13 +909,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270985",
+        "url": "https://www.ticketliquidator.com/tickets/8270985/Hans-Zimmer-tickets-Sat-Mar-13-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668651",
+        "url": "https://www.stubhub.ie/hans-zimmer-miami-tickets-3-13-2027/event/107668651",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3GOtwD8",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270985/Hans-Zimmer-tickets-Sat-Mar-13-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-miami-tickets-3-13-2027/event/107668651"
   },
   {
     "id": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
@@ -835,13 +987,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270987",
+        "url": "https://www.ticketliquidator.com/tickets/8270987/Hans-Zimmer-tickets-Sun-Mar-14-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669539",
+        "url": "https://www.stubhub.ie/hans-zimmer-tampa-tickets-3-14-2027/event/107669539",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3XHwnHJ",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270987"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270987",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270987/Hans-Zimmer-tickets-Sun-Mar-14-2027-Benchmark-International-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-tampa-tickets-3-14-2027/event/107669539"
   },
   {
     "id": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
@@ -897,13 +1065,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270989",
+        "url": "https://www.ticketliquidator.com/tickets/8270989/Hans-Zimmer-tickets-Tue-Mar-16-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669533",
+        "url": "https://www.stubhub.ie/hans-zimmer-atlanta-tickets-3-16-2027/event/107669533",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3EbKNKC",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270989"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270989",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270989/Hans-Zimmer-tickets-Tue-Mar-16-2027-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-atlanta-tickets-3-16-2027/event/107669533"
   },
   {
     "id": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
@@ -959,13 +1143,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270990",
+        "url": "https://www.ticketliquidator.com/tickets/8270990/Hans-Zimmer-tickets-Wed-Mar-17-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668746",
+        "url": "https://www.stubhub.ie/hans-zimmer-nashville-tickets-3-17-2027/event/107668746",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3PZFVFC",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270990"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270990",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270990/Hans-Zimmer-tickets-Wed-Mar-17-2027-Bridgestone-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-nashville-tickets-3-17-2027/event/107668746"
   },
   {
     "id": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
@@ -1021,13 +1221,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270991",
+        "url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669471",
+        "url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471"
   },
   {
     "id": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
@@ -1083,13 +1299,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270993",
+        "url": "https://www.ticketliquidator.com/tickets/8270993/Hans-Zimmer-tickets-Thu-Mar-25-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669532",
+        "url": "https://www.stubhub.ie/hans-zimmer-denver-tickets-3-25-2027/event/107669532",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KeilE5w",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270993"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270993/Hans-Zimmer-tickets-Thu-Mar-25-2027-Ball-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-denver-tickets-3-25-2027/event/107669532"
   },
   {
     "id": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
@@ -1145,13 +1377,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270994",
+        "url": "https://www.ticketliquidator.com/tickets/8270994/Hans-Zimmer-tickets-Tue-Mar-30-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669528",
+        "url": "https://www.stubhub.ie/hans-zimmer-phoenix-tickets-3-30-2027/event/107669528",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkTywjdB",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270994"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270994",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270994/Hans-Zimmer-tickets-Tue-Mar-30-2027-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-phoenix-tickets-3-30-2027/event/107669528"
   },
   {
     "id": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
@@ -1207,13 +1455,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270996",
+        "url": "https://www.ticketliquidator.com/tickets/8270996/Hans-Zimmer-tickets-Fri-Apr-2-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668652",
+        "url": "https://www.stubhub.ie/hans-zimmer-anaheim-tickets-4-2-2027/event/107668652",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_3GkwTDbyN",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270996"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270996",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270996/Hans-Zimmer-tickets-Fri-Apr-2-2027-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-anaheim-tickets-4-2-2027/event/107668652"
   },
   {
     "id": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
@@ -1269,13 +1533,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270997",
+        "url": "https://www.ticketliquidator.com/tickets/8270997/Hans-Zimmer-tickets-Sun-Apr-4-2027-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669477",
+        "url": "https://www.stubhub.ie/hans-zimmer-san-francisco-tickets-4-4-2027/event/107669477",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_32UcFLK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270997"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270997",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270997/Hans-Zimmer-tickets-Sun-Apr-4-2027-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-san-francisco-tickets-4-4-2027/event/107669477"
   },
   {
     "id": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
@@ -1331,13 +1611,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270998",
+        "url": "https://www.ticketliquidator.com/tickets/8270998/Hans-Zimmer-tickets-Mon-Apr-5-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669478",
+        "url": "https://www.stubhub.ie/hans-zimmer-sacramento-tickets-4-5-2027/event/107669478",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3nNPQVC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270998"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270998",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270998/Hans-Zimmer-tickets-Mon-Apr-5-2027-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-sacramento-tickets-4-5-2027/event/107669478"
   },
   {
     "id": "tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq",
@@ -1393,13 +1689,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271008",
+        "url": "https://www.ticketliquidator.com/tickets/8271008/Hans-Zimmer-tickets-Thu-Apr-8-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669530",
+        "url": "https://www.stubhub.ie/hans-zimmer-vancouver-tickets-rogers-arena-4-8-2027/event/107669530",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkXMNqqQ",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271008"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271008",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271008/Hans-Zimmer-tickets-Thu-Apr-8-2027-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-vancouver-tickets-rogers-arena-4-8-2027/event/107669530"
   },
   {
     "id": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
@@ -1455,13 +1767,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271000",
+        "url": "https://www.ticketliquidator.com/tickets/8271000/Hans-Zimmer-tickets-Fri-Apr-9-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669479",
+        "url": "https://www.stubhub.ie/hans-zimmer-seattle-tickets-4-9-2027/event/107669479",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3ExnTSl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271000"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271000",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271000/Hans-Zimmer-tickets-Fri-Apr-9-2027-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-seattle-tickets-4-9-2027/event/107669479"
   },
   {
     "id": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
@@ -1517,12 +1845,28 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271002",
+        "url": "https://www.ticketliquidator.com/tickets/8271002/Hans-Zimmer-tickets-Sun-Apr-11-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668737",
+        "url": "https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3zbQmZV",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271002/Hans-Zimmer-tickets-Sun-Apr-11-2027-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737"
   }
 ]

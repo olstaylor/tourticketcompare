@@ -466,13 +466,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669558",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3XoA9Li",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271387"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271387",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny",
@@ -528,13 +536,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271388",
+        "url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3lTyqny",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",
@@ -590,13 +606,29 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271389",
+        "url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669541",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkR16PFe",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9",
@@ -652,13 +684,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669472",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3DoGRf9",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271390"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271390",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-pittsburgh-1apzkfygkd_ubdt",
@@ -884,13 +924,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668756",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkRplG-n",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271400"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271400",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy",
@@ -946,13 +994,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668654",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgKjCy",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271392"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271392",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c",
@@ -1008,13 +1064,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668655",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgfG2C",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271393"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271393",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-uncasville-g5vvz_3vqdtrt",
@@ -1194,13 +1258,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668766",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766",
+        "verified": true,
+        "last_verified_at": "2026-09-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_KeDN3Qx",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271396"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271396",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-asheville-g5evz_3io8wkm",

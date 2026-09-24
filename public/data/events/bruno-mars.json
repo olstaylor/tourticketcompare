@@ -2672,18 +2672,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668641",
-        "url": "https://www.ticketliquidator.com/tickets/7668641/Bruno-Mars-tickets-Wed-Sep-23-2026-Alamodome",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071103",
-        "url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Chicago",
@@ -2691,8 +2691,8 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5dIZbyC__Upm",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668641/Bruno-Mars-tickets-Wed-Sep-23-2026-Alamodome",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",

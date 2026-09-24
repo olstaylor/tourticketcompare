@@ -164,9 +164,9 @@ export function withoutParentheticalQualifier(label) {
 // after editing any copy below; `--check` runs in CI and fails a stale commit.
 export const TRUST_ROUTES = {
   "/": {
-    title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
+    title: "Compare Concert Tickets Across 6 Sites | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total.",
+      "Compare up to 6 ticket sites for the same show. Looking for the cheapest tickets? See recent listed prices where we have them, then check the total.",
     indexable: true,
     lastmod: "2026-09-24"
   },

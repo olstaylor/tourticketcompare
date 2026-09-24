@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { withoutAllowedCheapestFramings } from "./lib/cheapest-copy.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoutes = ["/", "/artists", "/cities", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
@@ -29,7 +30,7 @@ const EDGE_CACHEABLE_ROUTES = new Set([
   "/terms"
 ]);
 const expectedH1 = new Map([
-  ["/", "Compare ticket prices for the show you want."],
+  ["/", "Compare up to 6 ticket sites for the same show."],
   ["/artists", "Artists we track"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
@@ -46,7 +47,7 @@ const expectedH1 = new Map([
   ["/terms", "Terms of use"]
 ]);
 const expectedTitle = new Map([
-  ["/", "Compare Concert Tickets & Tour Dates | TourTicketCompare"],
+  ["/", "Compare Concert Tickets Across 6 Sites | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
@@ -62,7 +63,7 @@ const expectedTitle = new Map([
   ["/privacy", "Privacy Policy | TourTicketCompare"],
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total.";
+const homepageDescription = "Compare up to 6 ticket sites for the same show. Looking for the cheapest tickets? See recent listed prices where we have them, then check the total.";
 const APP_ASSET_VERSION = "20260924a";
 const TTC_HOME_ASSET_VERSION = "20260924a";
 const TTC_SHELL_ASSET_VERSION = "20260821a";
@@ -209,8 +210,11 @@ function seatGeekEventPublishable(event) {
 // the word "cheapest" (owner instruction, 2026-09-11).
 //
 // Three separate guards below ban "cheapest" from public copy, and they are
-// right to: the site must never claim it finds the cheapest ticket. This
-// sentence is a different claim. It is the author describing, in his own bio,
+// right to: the site must never claim it finds the cheapest ticket. Since
+// 2026-09-24 they also accept the goal and advice framings in
+// scripts/lib/cheapest-copy.mjs ("Looking for the cheapest tickets?"), which
+// name what the reader wants without promising it. This sentence fits neither
+// framing and stays pinned on its own. It is a different claim. It is the author describing, in his own bio,
 // the chore that made him build the site — not a promise the site delivers a
 // cheapest price. The owner supplied the wording and asked for it verbatim.
 //
@@ -225,8 +229,10 @@ function seatGeekEventPublishable(event) {
 const AUTHOR_BIO_CHEAPEST_SENTENCE =
   "He built the site after getting tired of checking resale sites one by one to compare prices across sites to find the cheapest tickets.";
 
+// Also strips the allowed goal/advice framings, so every guard that calls this
+// accepts the same "cheapest" uses. Retiring the bio exemption keeps that step.
 function withoutAuthorBioExemption(text) {
-  return String(text).split(AUTHOR_BIO_CHEAPEST_SENTENCE).join(" ");
+  return withoutAllowedCheapestFramings(String(text).split(AUTHOR_BIO_CHEAPEST_SENTENCE).join(" "));
 }
 
 // The exemption must describe copy that actually exists. If the bio is reworded
@@ -594,7 +600,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Compare ticket prices for the show you want."),
+  joinedPublic.includes("Compare up to 6 ticket sites for the same show."),
   "homepage public-facing copy should be present"
 );
 const clientApp = await read("public/app.js");
@@ -604,7 +610,7 @@ assert(
   "index.html must not advertise the retired sitelinks SearchAction or create a crawlable template-query URL"
 );
 const expectedClientMetadata = [
-  "Compare Concert Tickets & Tour Dates | TourTicketCompare",
+  "Compare Concert Tickets Across 6 Sites | TourTicketCompare",
   homepageDescription,
   "Compare Concert Ticket Prices by Site | TourTicketCompare",
   "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
@@ -616,7 +622,7 @@ for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
 }
 assert(
-  clientIndexHtml.includes("<title>Compare Concert Tickets &amp; Tour Dates | TourTicketCompare</title>"),
+  clientIndexHtml.includes("<title>Compare Concert Tickets Across 6 Sites | TourTicketCompare</title>"),
   "public/index.html fallback title should match the homepage metadata source of truth"
 );
 assert(
@@ -1485,7 +1491,7 @@ assert(
   "homepage search order must not depend on the order events-index.json happens to be in",
 );
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
-assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
+assert(ttcHomeJs.includes("Compare up to 6 ticket sites for the same show."), "homepage should lead with the comparison intent");
 assert(ttcHomeJs.includes("then check the final total on the ticket site."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
@@ -1544,7 +1550,7 @@ assert(boardPriceFetch, "board price hydration should fetch one memoized bulk pa
 assert(boardPriceFetch[0].includes('priceProviders: "approved-marketplaces"'), "bulk board price requests must ask for the approved cached marketplace lanes only");
 const boardPriceHydration = appJs.match(/async function hydrateShowBoardPriceSnapshots\(shows, cardOptions\) \{[\s\S]*?\n\}/);
 assert(boardPriceHydration && !boardPriceHydration[0].includes(".slice(0, 6)"), "board price hydration must not cap approved snapshots to the first six cards");
-assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
+assert(!withoutAuthorBioExemption(appJs).match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
 assert(appJs.includes("No checked ticket link is available for this date yet."), "event cards should have a safe unavailable state that says no link has been checked yet");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 assert(appJs.includes('text(relatedGuides, "h2", "Related guides")'), "artist hydration should preserve the server-rendered related-guide cluster");

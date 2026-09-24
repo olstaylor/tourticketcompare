@@ -7,9 +7,9 @@
   "use strict";
 
   // >>> homepage-proposition >>>
-  const HOME_HEADLINE = "Compare ticket prices for the show you want.";
+  const HOME_HEADLINE = "Compare up to 6 ticket sites for the same show.";
   const HOME_SUBCOPY =
-    "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.";
+    "Looking for the cheapest tickets? Choose an artist and date, see which ticket sites have that show and the recent listed prices where we have them, then check the final total on the ticket site.";
   const HOME_PRIMARY_CTA_LABEL = "Find a show";
   const HOME_PRIMARY_CTA_HREF = "/artists";
   const HOME_STEPS = [

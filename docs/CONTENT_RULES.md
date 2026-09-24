@@ -89,6 +89,7 @@ Event-level buttons must additionally have a reviewed local event ID, the provid
 - Do not publish scraped, invented, manually entered, stale, mismatched, availability, or inventory data.
 - Comparisons require eligible snapshots for the same local event and currency. Label them as provider-supplied listed-price snapshots, never live inventory or final totals.
 - Fees, taxes, delivery, availability, and checkout totals must be confirmed on the provider.
+- **"Cheapest" (owner decision, 2026-09-24).** Copy may name the reader's goal — "Looking for the cheapest tickets?" — or give advice — "How to find the cheapest tickets for…". It may never promise a result: "we find the cheapest tickets", "the cheapest price is on…", "cheapest tickets guaranteed" all stay banned, because listed prices exclude fees, only some providers share prices, and snapshots age. The allowed framings live in `scripts/lib/cheapest-copy.mjs`, which every copy guard shares; artist show boards accept none of them.
 - Provider-specific sources and restrictions are authoritative in `docs/PROVIDER_DATA_POLICY.md`; current activation belongs in `PROJECT_STATUS.md`.
 
 ---

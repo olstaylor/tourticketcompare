@@ -8,9 +8,9 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 // byte-identical — scripts/homepage-proposition.test.mjs fails the build the
 // moment it drifts.
 // >>> homepage-proposition >>>
-const HOME_HEADLINE = "Compare ticket prices for the show you want.";
+const HOME_HEADLINE = "Compare up to 6 ticket sites for the same show.";
 const HOME_SUBCOPY =
-  "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.";
+  "Looking for the cheapest tickets? Choose an artist and date, see which ticket sites have that show and the recent listed prices where we have them, then check the final total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Find a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -43,7 +43,7 @@ const HOME_STEPS = [
 const ARTISTS_INDEX_LEAD = "Choose an artist, then pick the date you want to compare ticket prices for.";
 const ARTISTS_INDEX_NOTE = "Coverage varies by artist and region.";
 const HOW_IT_WORKS_LEAD =
-  "Compare ticket prices for the show you want: choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site. We're independent, and we don't sell tickets.";
+  "Compare up to 6 ticket sites for the same show: choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site. We're independent, and we don't sell tickets.";
 // <<< site-proposition <<<
 
 const providerCopy = {
@@ -243,9 +243,9 @@ const guideClusters = [
 
 const routeMeta = {
   "/": {
-    title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
+    title: "Compare Concert Tickets Across 6 Sites | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the total."
+      "Compare up to 6 ticket sites for the same show. Looking for the cheapest tickets? See recent listed prices where we have them, then check the total."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",

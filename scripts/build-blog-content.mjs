@@ -36,6 +36,7 @@ import {
   parseFrontMatter,
   splitDocument
 } from "./lib/content-markdown.mjs";
+import { withoutAllowedCheapestFramings } from "./lib/cheapest-copy.mjs";
 
 export { bodyToSections, countWords, isCalendarDate, isUsableHttpsUrl, parseFrontMatter, splitDocument };
 
@@ -119,6 +120,8 @@ const INTERNAL_LINK_EXACT = new Set([
 // place for one of these to slip in; the check is a blunt substring match on
 // purpose. Rephrase rather than suppress.
 const BANNED_CLAIM_PATTERNS = [
+  // "Looking for the cheapest tickets?" and "How to find the cheapest…" are
+  // stripped first (scripts/lib/cheapest-copy.mjs); any other use still fails.
   [/\bcheapest\b/i, 'a "cheapest" claim — the site publishes per-provider snapshots, never a ranking'],
   [/\blowest price\b/i, 'a "lowest price" claim — say "lower listed snapshot" and name the provider and time'],
   [/\bbest price guarantee/i, "a price guarantee the site cannot make"],
@@ -215,7 +218,7 @@ function validatePost(post, context) {
   const bodyText = post.sections.map((section) => `${section.title || ""}\n${section.content}`).join("\n");
   const scanned = `${post.title}\n${post.description}\n${post.summary}\n${bodyText}`;
   for (const [pattern, reason] of BANNED_CLAIM_PATTERNS) {
-    const hit = scanned.match(pattern);
+    const hit = withoutAllowedCheapestFramings(scanned).match(pattern);
     if (hit) problems.push(`${where}: "${hit[0]}" reads as ${reason} (SAFE_PUBLISHING_RULES.md)`);
   }
 
@@ -600,6 +603,8 @@ function selfTest() {
 
   const banned = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "We find the cheapest tickets." }] }, context);
   assert(banned.some((problem) => /cheapest/.test(problem)), "a banned price claim fails validation");
+  const goal = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "Looking for the cheapest tickets? Compare the sites that have the show." }] }, context);
+  assert(!goal.some((problem) => /cheapest/.test(problem)), "naming the reader's goal as a question is allowed");
 
   const deadLink = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [this](/guides/missing)." }] }, context);
   assert(deadLink.some((problem) => /does not exist/.test(problem)), "a link to a missing guide fails validation");

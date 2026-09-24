@@ -58,6 +58,7 @@ import {
   markdownLinks,
   splitDocument
 } from "./lib/content-markdown.mjs";
+import { withoutAllowedCheapestFramings } from "./lib/cheapest-copy.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(root, "content", "guides");
@@ -169,6 +170,8 @@ const INTERNAL_LINK_EXACT = new Set([
 // Price Display). A blunt substring match on purpose: rephrase rather than work
 // around it.
 const BANNED_CLAIM_PATTERNS = [
+  // "Looking for the cheapest tickets?" and "How to find the cheapest…" are
+  // stripped first (scripts/lib/cheapest-copy.mjs); any other use still fails.
   [/\bcheapest\b/i, 'a "cheapest" claim — the site publishes per-provider snapshots, never a ranking'],
   [/\blowest price\b/i, 'a "lowest price" claim — say "lower listed snapshot" and name the provider and time'],
   [/\bbest price guarantee/i, "a price guarantee the site cannot make"],
@@ -535,7 +538,7 @@ export function validateGuide(guide, context) {
   const scanned = `${guide.title}\n${guide.h1}\n${guide.description}\n${bodyText}`;
   for (const sentence of toSentences(scanned)) {
     for (const [pattern, reason] of BANNED_CLAIM_PATTERNS) {
-      const hit = sentence.match(pattern);
+      const hit = withoutAllowedCheapestFramings(sentence).match(pattern);
       if (!hit) continue;
       if (isExemptSentence(guide.slug, sentence)) continue;
       problems.push(`${where}: "${hit[0]}" reads as ${reason} (SAFE_PUBLISHING_RULES.md) in: ${sentence}`);
@@ -1126,6 +1129,8 @@ function selfTest() {
 
   const cheapest = validateGuide(baseGuide({ description: "The cheapest way to buy tickets for any show you want to see this year." }), baseContext());
   assert(cheapest.some((problem) => /cheapest/.test(problem)), "a cheapest claim in the description fails");
+  const advice = validateGuide(baseGuide({ description: "How to find the cheapest tickets for a stadium show, and why the listed price is not the total." }), baseContext());
+  assert(!advice.some((problem) => /cheapest/.test(problem)), "a how-to-find-the-cheapest advice framing is allowed");
 
   // --- other validators --------------------------------------------------
   const unknownKey = validateGuide(baseGuide({ frontMatter: { title: "T", h1: "H", description: "D", last_modified: "2026-01-01" } }), baseContext());

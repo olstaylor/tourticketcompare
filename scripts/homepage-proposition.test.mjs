@@ -27,6 +27,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { cheapestFramingFailures, withoutAllowedCheapestFramings } from "./lib/cheapest-copy.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -118,12 +119,34 @@ const subcopy = literal(serverBlock, "HOME_SUBCOPY");
 const primaryCtaLabel = literal(serverBlock, "HOME_PRIMARY_CTA_LABEL");
 const primaryCtaHref = literal(serverBlock, "HOME_PRIMARY_CTA_HREF");
 
-assert(headline === "Compare ticket prices for the show you want.", "the homepage headline is the agreed proposition");
+assert(headline === "Compare up to 6 ticket sites for the same show.", "the homepage headline is the agreed proposition");
 assert(
   subcopy ===
-    "Choose an artist and date, see recent listed prices from ticket sites where we have them, then check the final total on the ticket site.",
+    "Looking for the cheapest tickets? Choose an artist and date, see which ticket sites have that show and the recent listed prices where we have them, then check the final total on the ticket site.",
   "the homepage supporting copy is the agreed proposition"
 );
+
+// "Up to 6 ticket sites" is a coverage claim, so it is pinned to the providers
+// a show can actually link to: the server's PROVIDER_DISPLAY_ORDER, which is
+// SeatGeek, Vivid Seats, each Impact marketplace lane, and Ticketmaster. Add or
+// drop a provider and this fails until the copy's number is changed with it.
+const serverSource = sources.get(SERVER_FILE);
+const marketplaceBlock = serverSource.match(/const IMPACT_MARKETPLACE_PROVIDERS = \[([\s\S]*?)\n\];/)?.[1] || "";
+const marketplaceCount = [...marketplaceBlock.matchAll(/\{\s*slug:/g)].length;
+const displayOrder = serverSource.match(/const PROVIDER_DISPLAY_ORDER = \[([^\]]*)\];/)?.[1] || "";
+const fixedCount = [...displayOrder.matchAll(/"[a-z-]+"/g)].length;
+assert(marketplaceCount > 0 && fixedCount > 0, "PROVIDER_DISPLAY_ORDER and IMPACT_MARKETPLACE_PROVIDERS are readable from the server file");
+const providerCount = marketplaceCount + fixedCount;
+function assertSiteCountClaim(label, copy) {
+  const claimed = String(copy).match(/\bup to (\d+) ticket sites\b/i)?.[1];
+  assert(claimed !== undefined, `the ${label} keeps the "up to N ticket sites" hedge — most shows do not link to every site`);
+  assert(Number(claimed) === providerCount, `the ${label} claims ${claimed} ticket sites but PROVIDER_DISPLAY_ORDER has ${providerCount}`);
+}
+assertSiteCountClaim("headline", headline || "");
+
+// The framings that make "cheapest" acceptable (scripts/lib/cheapest-copy.mjs)
+// are shared by every copy guard, so their fixtures run here once.
+for (const failure of cheapestFramingFailures()) assert(false, `cheapest-copy framing: ${failure}`);
 assert(primaryCtaLabel === "Find a show", "the homepage primary action is 'Find a show'");
 assert(primaryCtaHref === "/artists", "the primary action goes to the artists index, where a show is chosen");
 
@@ -141,6 +164,8 @@ assert(stepTitles[0] === "1. Find a show", "step one repeats the primary action,
 // SAFE_PUBLISHING_RULES.md: we do not claim complete provider coverage, that a
 // displayed price is the final total, or that we find the cheapest ticket. The
 // proposition is the most-read copy on the site, so it is checked directly.
+// "Cheapest" may name the reader's goal in an allowed framing (owner decision,
+// 2026-09-24; scripts/lib/cheapest-copy.mjs) and is stripped before the check.
 const BANNED = [
   { pattern: /\bcheapest\b/i, why: "must not claim we find the cheapest ticket" },
   { pattern: /\blowest price\b/i, why: "must not claim a lowest price" },
@@ -160,7 +185,7 @@ function copyStrings(block) {
 }
 
 for (const [label, block] of [["homepage-proposition", serverBlock], ["site-proposition", siteBlock]]) {
-  const copy = copyStrings(block).join(" ");
+  const copy = withoutAllowedCheapestFramings(copyStrings(block).join(" "));
   for (const { pattern, why } of BANNED) {
     assert(!pattern.test(copy), `${label} ${why} (matched ${pattern})`);
   }
@@ -207,6 +232,7 @@ for (const file of SITE_BLOCK_FILES) {
 // ─── No renderer keeps a superseded headline ────────────────────────────────
 
 const SUPERSEDED = [
+  "Compare ticket prices for the show you want.",
   "Find your show, then compare the ticket sites that have it.",
   "Compare concert ticket prices <em>for the same show.</em>",
   "Search an artist, pick your date, and see the prices we have from each ticket site."
@@ -228,7 +254,7 @@ const homeDescription = metadata
   .match(/description:\s*\n?\s*"((?:[^"\\]|\\.)*)"/)?.[1];
 assert(Boolean(homeDescription), "functions/_route-metadata.js exposes a homepage description");
 assert(
-  homeDescription?.startsWith("Compare ticket prices for the show you want."),
+  homeDescription?.startsWith(headline || " "),
   "the homepage meta description opens with the same proposition as the page"
 );
 assert(
@@ -236,8 +262,9 @@ assert(
   "public/index.html ships the same homepage description the route metadata injects"
 );
 for (const { pattern, why } of BANNED) {
-  assert(!pattern.test(homeDescription || ""), `homepage meta description ${why}`);
+  assert(!pattern.test(withoutAllowedCheapestFramings(homeDescription || "")), `homepage meta description ${why}`);
 }
+assertSiteCountClaim("homepage meta description", homeDescription || "");
 
 // ─── Report ─────────────────────────────────────────────────────────────────
 

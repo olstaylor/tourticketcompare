@@ -42,8 +42,14 @@ way it is:
 
 ### Artist — `/artists/<slug>`
 
-**Indexable when** the editorial record is `indexable_with_substantial_content`.
-Upcoming shows are **not** part of this gate for an owner-promoted artist.
+**Indexable when** the editorial record is `indexable_with_substantial_content`
+**and** the artist has at least one tracked date, upcoming or past
+(`countTrackedShows`, owner-approved 2026-09-24). Upcoming shows are **not**
+part of this gate for an owner-promoted artist: a finished tour keeps its
+index entry. An artist that has never carried a date renders the same empty
+board but as `noindex,follow`, out of the sitemap and `llms.txt`, and indexes
+the day its first date lands — a page whose only content is "no dates" is what
+search engines classify as a soft 404.
 
 **Auto-promoted artists** (`promotion_source: "auto"` in `artists.json`, set
 only by the automated promote lane) are the one exception: they are indexable
@@ -58,9 +64,9 @@ Gate lives in
 [`functions/_artist-indexability.js`](../functions/_artist-indexability.js),
 whose `artistPageIndexable()` takes the `artists.json` record (or, for older
 callers, its status string, which can never be auto-promoted).
-`functions/sitemap.xml.js` and `functions/llms.txt.js` call the same function,
-reading `events.json` only when an auto-promoted record exists, so an artist
-page's sitemap membership matches its robots meta. Client hydration keeps the
+`functions/sitemap.xml.js` and `functions/llms.txt.js` call the same function
+with `events.json`, so an artist page's sitemap membership matches its robots
+meta. Client hydration keeps the
 server's robots verdict for auto-promoted artists rather than recomputing it.
 
 An artist URL is a durable destination. Future-date availability is
@@ -68,10 +74,11 @@ presentation state, not a reason to noindex: the same URL fills again when a
 new verified date lands, and dropping it out of the index in the gap would
 discard the authority it had accumulated for a query
 ("<artist> tickets") that does not stop being asked between tours. An artist
-with no upcoming shows renders an explicit empty-state board — no dates, no
-event-level buttons, and one artist-level button to the top-ranked checked
-provider's artist page — and, if owner-promoted, stays `index,follow`, in the
-sitemap. Such an artist also carries an empty `[]` partition, so its route
+with no upcoming shows renders an explicit empty-state board — no upcoming
+dates, no event-level buttons, and one artist-level button to the top-ranked
+checked provider's artist page — plus its ten most recent tracked dates,
+labelled as past (restored 2026-09-24), and, if owner-promoted with any
+tracked date, stays `index,follow`, in the sitemap. Such an artist also carries an empty `[]` partition, so its route
 never falls back to parsing the full `events.json`.
 
 This is the one route type the calendar does not decay, and it is deliberate.
@@ -247,7 +254,7 @@ These apply to city, venue, and artist-city pages together.
   and that the filler has not returned. Rule 3 above applies here too — a page
   padded to clear a floor is filler.
 - **An empty location record gets an empty state, not a frame.** The router
-  404s a city or venue with nothing upcoming, so this is reached only in the gap
+  301s a previously tracked city or venue with nothing upcoming, so this is reached only in the gap
   between a date passing and the derivation seeing it. The template says so in
   one sentence and offers a way onward; it never renders a heading stack around
   no content. Covered by `scripts/location-pages.test.mjs`.
@@ -316,7 +323,14 @@ pages → high-value venue pages → evergreen guides.
   followed, not given equal prominence.
 - Artist-city pages link only the artist's **other indexable** city runs.
 - City and venue pages link the artist pages and each other only where the
-  destination is itself indexable.
+  destination is itself indexable. Where the artist has an indexable
+  artist-city page for that city, a city card and a venue's artist group link
+  it ("All <artist> dates in <city>") — the page built for that local query —
+  in preference to the artist page (added 2026-09-24; artist-city pages were
+  previously linked only from artist pages and each other).
+- No two indexable pages may share a title, a meta description or an H1;
+  `scripts/audit-internal-links.mjs --check` fails on any of the three (H1
+  added 2026-09-24).
 - No indexable route may have zero inbound internal links.
   `scripts/audit-internal-links.mjs --check` and
   `npm run audit:indexable-surface:check` both fail on an orphan.
@@ -334,6 +348,8 @@ about where a page went.
 |---|---|---|
 | `/artists/<a>/tickets/<city>` | `/artists/<a>` | The artist has a real event footprint in that city but no publishable upcoming show, or the artist is under review |
 | `/artists/<a>/tickets` | `/artists/<a>` | Legacy duplicate path |
+| `/cities/<city>` | `/cities` | Tracked before, nothing upcoming now (owner-approved 2026-09-24; was a 404) |
+| `/venues/<venue>` | `/cities/<city>`, else `/venues` | Tracked before, nothing upcoming now; its city page while that city has upcoming dates (owner-approved 2026-09-24; was a 404) |
 | Old guide paths | Current guide path | `OLD_GUIDE_REDIRECTS` in `functions/_route-metadata.js` |
 
 Safety properties, all asserted in `scripts/route-indexability.test.mjs`:
@@ -352,6 +368,17 @@ meaningful query input, and `/api/out` tracking parameters never appear on HTML
 routes.
 
 ---
+
+## Sitemaps
+
+`/sitemap-index.xml` (advertised in `robots.txt`, and the one to submit to
+Search Console and Bing) lists one sitemap per page type under `/sitemaps/`:
+`pages`, `artists`, `artist-cities`, `cities`, `venues`, `blog`, so coverage
+and indexing problems are reported per type. `/sitemap.xml` still serves every
+indexable URL in one file for IndexNow, the audits and any engine that already
+has it submitted. All of them come from one derivation
+(`buildSitemapSegments` in `functions/sitemap.xml.js`), which parses
+`events.json` once per request.
 
 ## Monitoring
 

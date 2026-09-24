@@ -209,7 +209,11 @@ async function lookupTicketmasterAttraction(name, apiKey, expectedId = '') {
     url,
     upcoming_events: Number(a?.upcomingEvents?._total) || 0,
     // Verbatim Discovery classification, the only genre fact an auto shell may state.
-    genre: String(a?.classifications?.[0]?.genre?.name || '').trim()
+    genre: String(a?.classifications?.[0]?.genre?.name || '').trim(),
+    // Verbatim Discovery classification, used by the screen's music-only and
+    // tribute checks.
+    segment: String(a?.classifications?.[0]?.segment?.name || '').trim(),
+    sub_type: String(a?.classifications?.[0]?.subType?.name || '').trim()
   };
 }
 
@@ -267,7 +271,7 @@ async function screenRow(row, sg, tm, tmApiKey, { denylist, existingTitles, dela
     name: row.name,
     slug: row.slug,
     sg: sg?.match,
-    tm: tm && { attraction_id: tm.attraction_id, api_name: tm.api_name },
+    tm: tm && { attraction_id: tm.attraction_id, api_name: tm.api_name, segment: tm.segment, sub_type: tm.sub_type },
     tmEvents,
     denylist,
     urlStatus,

@@ -78,7 +78,8 @@ promote it in one auto-merged PR, only while the repo variable
 `AUTOPROMOTE_ENABLED` is `"true"` and `AUTOPUBLISH_ENABLED` is not `"false"`
 (both re-read before the merge). Every candidate must pass criteria D1–D5 in
 `BACKLOG.md` on identities re-captured from the Ticketmaster and SeatGeek APIs
-in the same job; any failure leaves it a proposal in the
+in the same job, including Ticketmaster classifying it as music and not as a
+tribute act; any failure leaves it a proposal in the
 `automation:roster-candidates` issue, never retried on looser criteria. At most
 5 artists a day and 20 in a rolling week. Shell copy is a template that states
 only the name and Ticketmaster's verbatim genre — no biography, no invented

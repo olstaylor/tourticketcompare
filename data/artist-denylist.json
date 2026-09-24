@@ -1,7 +1,7 @@
 {
   "description": "Brand-safety denylist for auto-promotion (owner-approved auto-ingest plan, 2026-09-23). A match blocks auto-promotion (scripts/lib/artist-screen.mjs) and demotes an auto-promoted artist (scripts/check-autopublish-health.mjs). Add provider IDs only when captured from the provider APIs; never invent them.",
-  "names": ["As I Lay Dying", "Wheeler Walker Jr.", "Brit Floyd", "Twilight In Concert"],
-  "slugs": ["as-i-lay-dying", "wheeler-walker-jr", "brit-floyd", "twilight-in-concert"],
+  "names": ["As I Lay Dying", "Wheeler Walker Jr.", "Brit Floyd", "Twilight In Concert", "Alaska Thunderfuck", "Black Jacket Symphony"],
+  "slugs": ["as-i-lay-dying", "wheeler-walker-jr", "brit-floyd", "twilight-in-concert", "alaska-thunderfuck", "black-jacket-symphony"],
   "ticketmaster_attraction_ids": [],
   "seatgeek_performer_ids": []
 }

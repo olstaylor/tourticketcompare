@@ -2764,3 +2764,67 @@ summary {
 .tile-more[hidden] {
   display: none;
 }
+
+/* "Lowest listed" (2026-09-24, owner request): the one provider on a date
+   whose listed snapshot is strictly lower than the other priced providers for
+   that same date. Button order is unchanged; only this tile is marked. */
+.show-card .provider-cta-lowest,
+.show-card .provider-cta-lowest:last-child {
+  border-color: var(--green);
+  box-shadow: inset 0 0 0 1px var(--green);
+}
+
+.provider-cta-lowest .provider-cta-price {
+  color: var(--green);
+}
+
+.provider-cta-badge {
+  order: -1;
+  align-self: center;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.66rem;
+  font-weight: 850;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.provider-cta-lowest .provider-cta-name {
+  margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .provider-cta-lowest .provider-cta-name {
+    margin-right: 0;
+  }
+
+  .provider-cta-badge {
+    align-self: flex-start;
+  }
+}
+
+/* Desktop: the badge sits on the button's top edge as a tag, so the provider
+   name and price keep the full button width. */
+@media (min-width: 641px) {
+  .show-card .provider-cta-group {
+    row-gap: 12px;
+    margin-top: 6px;
+  }
+
+  .show-card .provider-cta-lowest {
+    position: relative;
+  }
+
+  .show-card .provider-cta-lowest .provider-cta-badge {
+    position: absolute;
+    top: -9px;
+    left: 10px;
+  }
+
+  .provider-cta-lowest .provider-cta-name {
+    margin-right: 0;
+  }
+}

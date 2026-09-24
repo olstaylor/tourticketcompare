@@ -3990,6 +3990,20 @@ function snapshotAgeLabel(fetchedAt, now = Date.now()) {
 // provider_click analytics listener in public/app.js (artist, event, provider,
 // snapshot present/absent, CTA location). Keep in sync with
 // renderProviderCtaButton in public/app.js.
+// The provider on one date whose listed snapshot is strictly lower than every
+// other priced provider's for that same date, or "" when there is no such lane.
+// It reuses deriveCityDatePrices, so it reads only the lanes the buttons
+// themselves print (no second price gate), compares within one local event,
+// and drops the comparison when currencies differ. PROVIDER_DATA_POLICY.md
+// approves naming the lower listed snapshot only with at least two fresh
+// approved lanes for the same event, so one priced lane earns no badge, and a
+// tie at the bottom earns none either (neither lane is lower).
+function lowestListedProvider(show, ctaSpecs) {
+  const row = deriveCityDatePrices([show], { ctaSpecsFor: () => ctaSpecs }).rows[0];
+  if (!row || row.lanes.length < 2) return "";
+  return row.lanes[0].price < row.lanes[1].price ? row.lanes[0].provider : "";
+}
+
 function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   // P5 (owner-approved 2026-09-24): Ticketmaster is a link source, never a
   // price lane here, so its button should not read like a priced lane.
@@ -3998,7 +4012,12 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const ctaLocation = analytics.ctaLocation || "event_card";
   const trackedHref = withCtaLocation(href, ctaLocation);
   const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"`;
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
+  // "Lowest listed" marks the one lane lowestListedProvider picked; the card's
+  // price note beneath already says these are listed prices, not totals.
+  const lowest = Boolean(amount && analytics.lowest);
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${lowest ? " provider-cta-lowest" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span>${
+    lowest ? `<span class="provider-cta-badge">Lowest listed</span>` : ""
+  }</a>`;
 }
 
 // Copy for a card whose lanes were checked and none had an eligible snapshot.
@@ -4250,8 +4269,15 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const onsaleHtml = `<p class="disclosure-note" data-public-onsale>${escapeHtml(publicOnsaleLabel(show))}${ctaSpecs.length ? " Until then, these are resale listings, which can sit above face value." : ""}</p>`;
     if (ctaSpecs.length) {
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
+      const lowestProvider = lowestListedProvider(show, ctaSpecs);
       const buttonsHtml = ctaSpecs
-        .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
+        .map((spec) =>
+          renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
+            ...analyticsBase,
+            provider: spec.provider,
+            lowest: Boolean(lowestProvider) && spec.provider === lowestProvider
+          })
+        )
         .join("");
       const historyHtml = hasApprovedServerPriceSnapshot(show) ? renderPriceHistoryPanelHtml(artistSlug, show.id) : "";
       ctaHtml = `${onsaleHtml}<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p><div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
@@ -4265,8 +4291,15 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       // replaces "Check prices" with the amount, without moving the provider or
       // splitting the card into separate priced and unpriced sections.
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
+      const lowestProvider = lowestListedProvider(show, ctaSpecs);
       const buttonsHtml = ctaSpecs
-        .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
+        .map((spec) =>
+          renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
+            ...analyticsBase,
+            provider: spec.provider,
+            lowest: Boolean(lowestProvider) && spec.provider === lowestProvider
+          })
+        )
         .join("");
       // The buttons are the only outbound links on the card — there is no
       // second "compare" link to double-count a click through.
@@ -5413,8 +5446,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260924c" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260924c" />'
+      '<link rel="stylesheet" href="/styles.css?v=20260924d" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260924d" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924b" defer></script></body>');

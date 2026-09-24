@@ -681,4 +681,37 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(/<td data-label="Venue">/.test(multiSection), "the venue cell carries its column name where the column exists");
 }
 
+// ---- "Lowest listed" badge on each date card ----------------------------------
+// The card marks the one provider whose listed snapshot is strictly lower than
+// every other priced provider's for that same date. It reads the same gated
+// lanes as the buttons, never compares across dates, and needs two priced lanes.
+{
+  const page = await render(RUN_PATH);
+  const card = (id) => (page.main.match(new RegExp(`<article class="info-card show-card[^"]*"[^>]*data-event-id="${id}"[\\s\\S]*?</article>`)) || [""])[0];
+  const lowestNames = (html) =>
+    [...html.matchAll(/<a class="provider-cta[^"]*provider-cta-lowest[^"]*"[\s\S]*?<span class="provider-cta-name">([^<]+)</g)].map((match) => match[1]);
+  const runA = card(RUN_A.id);
+  const runB = card(RUN_B.id);
+  assert(runA && runB, "both run dates render a card");
+  assert(
+    JSON.stringify(lowestNames(runA)) === JSON.stringify(["Vivid Seats"]),
+    `the first date marks only Vivid Seats ($182 against $210): ${lowestNames(runA)}`
+  );
+  assert(
+    JSON.stringify(lowestNames(runB)) === JSON.stringify(["TicketNetwork"]),
+    `the second date marks only TicketNetwork ($240 against $265), not the first date's winner: ${lowestNames(runB)}`
+  );
+  assert(
+    (runA.match(/provider-cta-badge">Lowest listed</g) || []).length === 1,
+    "the badge text appears once per card"
+  );
+  // Gated lanes never compete: the $3.80 StubHub International row is below
+  // the plausibility floor and the $12 Ticket Liquidator row is display-off.
+  assert(!/provider-cta-lowest[^"]*"[^>]*data-cta-provider="(stubhub-international|ticket-liquidator)"/.test(runA), "a withheld lane can never be marked lowest");
+  const solo = await render(SOLO_PATH);
+  assert(!solo.main.includes("provider-cta-lowest"), "a date with a single priced provider has nothing to be lower than, so no badge");
+  const unpriced = await render(RUN_PATH, { withDb: false });
+  assert(!unpriced.main.includes("provider-cta-lowest"), "no prices, no badge");
+}
+
 console.log(`artist-city-prices: ${passed} checks passed`);

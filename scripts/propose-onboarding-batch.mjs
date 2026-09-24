@@ -177,16 +177,26 @@ export function resolveTicketmasterArtistUrl(value) {
 // wrapper is stripped and the destination host is checked against the
 // storefront allowlist. A wrapped or off-allowlist destination yields no
 // capture rather than a URL the promote step would reject.
+const AMBIGUOUS_PIN = Symbol('ambiguous-pin');
+
 async function lookupTicketmasterAttraction(name, apiKey, expectedId = '') {
-  const params = new URLSearchParams({ keyword: name, size: '10', apikey: apiKey });
-  const data = await fetchJson(`https://app.ticketmaster.com/discovery/v2/attractions.json?${params.toString()}`);
-  const attractions = data?._embedded?.attractions || [];
-  const exact = attractions.filter((a) => exactNameMatch(name, a?.name) && !COLLISION_PATTERN.test(String(a?.name || '')));
-  // A pinned id (from the forecast) must be recaptured byte-identically; with
-  // no pin, more than one exact-name record is ambiguous and captures nothing.
-  const pinned = expectedId ? exact.filter((a) => String(a?.id) === expectedId) : exact;
+  const exactName = (a) => exactNameMatch(name, a?.name) && !COLLISION_PATTERN.test(String(a?.name || ''));
+  let pinned;
+  if (expectedId) {
+    // A pinned id (from the forecast) is re-fetched by id, so it is found
+    // however far down a keyword search it would rank, and must still be an
+    // exact-name, non-collision record.
+    const params = new URLSearchParams({ apikey: apiKey });
+    const record = await fetchJson(`https://app.ticketmaster.com/discovery/v2/attractions/${encodeURIComponent(expectedId)}.json?${params.toString()}`);
+    pinned = record && String(record.id) === expectedId && exactName(record) ? [record] : [];
+  } else {
+    // Unpinned: more than one exact-name record is ambiguous and captures nothing.
+    const params = new URLSearchParams({ keyword: name, size: '10', apikey: apiKey });
+    const data = await fetchJson(`https://app.ticketmaster.com/discovery/v2/attractions.json?${params.toString()}`);
+    pinned = (data?._embedded?.attractions || []).filter(exactName);
+  }
   if (pinned.length !== 1) {
-    if (exact.length) console.error(`  (ticketmaster identity for "${name}" ${expectedId ? `does not match forecast id ${expectedId}` : 'is ambiguous'} — no capture)`);
+    console.error(`  (ticketmaster identity for "${name}" ${expectedId ? `could not be recaptured for forecast id ${expectedId}` : 'is missing or ambiguous'} — no capture)`);
     return null;
   }
   const a = pinned[0];
@@ -371,7 +381,8 @@ async function main() {
     for (const line of raw.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'))) {
       const [name, id = ''] = line.split('\t').map((part) => part.trim());
       names.push(name);
-      if (id) pinnedTm.set(name, id);
+      // One name forecast under two different ids is ambiguous: pin neither.
+      if (id) pinnedTm.set(name, pinnedTm.has(name) && pinnedTm.get(name) !== id ? AMBIGUOUS_PIN : id);
     }
   }
   names = [...new Set(names)].slice(0, args.limit);
@@ -412,7 +423,8 @@ async function main() {
     if (tmApiKey && sg.match) {
       await sleep(args.delayMs);
       try {
-        tm = await lookupTicketmasterAttraction(name, tmApiKey, pinnedTm.get(name) || '');
+        if (pinnedTm.get(name) === AMBIGUOUS_PIN) console.error(`  (ticketmaster identity for "${name}" is ambiguous: forecast lists it under two ids — no capture)`);
+        else tm = await lookupTicketmasterAttraction(name, tmApiKey, pinnedTm.get(name) || '');
       } catch (err) {
         console.error(`  (ticketmaster lookup failed for "${name}": ${err.message} — proceeding SeatGeek-only)`);
       }

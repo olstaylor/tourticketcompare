@@ -32,7 +32,7 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 - `functions/_guide-routes.generated.js`: **18 guide routes** (published guides only), re-exported by `functions/_route-metadata.js`, which still owns the trust/static route metadata and `OLD_GUIDE_REDIRECTS`.
 - Route surface — **generated, do not hand-edit.** `npm run status:surface:write` refreshes this line from the audit's own render of every route (robots meta as served, not as inferred), and `npm run audit:indexable-surface:check` — which runs in `test:mvp` — warns when it goes stale. Exclusion reasons, expiry horizon and the stored baseline live in `reports/indexable-surface/`.
   <!-- generated:route-surface -->
-  Generated 2026-09-23: **1810 rendered / 460 indexable**. By type (rendered/indexable): home 1/1 · index 5/5 · static 10/10 · guide 18/18 · blog-post 4/4 · blog-tag 3/3 · artist 75/68 · city 239/76 · venue 492/127 · artist-city 963/148.
+  Generated 2026-09-24: **1804 rendered / 459 indexable**. By type (rendered/indexable): home 1/1 · index 5/5 · static 10/10 · guide 18/18 · blog-post 4/4 · blog-tag 3/3 · artist 75/68 · city 238/76 · venue 490/126 · artist-city 960/148.
   <!-- /generated:route-surface -->
 - `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **136 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (58 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
 - `data/provider-identities.json`: all **68 entries** verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url` (the 7 remaining `review_required` shells have no registry entry yet — added at Promote). The onboarding manifest lives in gitignored `artifacts/` and does not survive environment recycling; regenerate it with `npm run artists:onboard:propose -- --names <names> --allow-existing-shells`.
@@ -43,29 +43,29 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | SG verified | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|---|
-| beyonce | 2026-09-23 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| beyonce | 2026-09-24 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | harry-styles | 2026-04-30 | 74 | 31 | 31 | **8** | Together, Together | 21 dates added 2026-09-10 from the newly announced run (6 on-sale Australian, 15 pre-on-sale `announced`). All 21 carry blank `tour_name` pending human confirmation from the event pages. The 2 recheck rows are the Madrid short-form `ticketmaster.es` URLs. |
 | bts | 2026-09-09 | 30 | 15 | 8 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
-| ariana-grande | 2026-09-23 | 41 | 17 | 5 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
-| bad-bunny | 2026-09-23 | 28 | 0 | 0 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
-| morgan-wallen | 2026-09-23 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
+| ariana-grande | 2026-09-24 | 41 | 17 | 5 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
+| bad-bunny | 2026-09-24 | 28 | 0 | 0 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
+| morgan-wallen | 2026-09-24 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 7 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | Inglewood/London rows have blank `tour_name`, owner-accepted. |
 | olivia-rodrigo | 2026-05-27 | 84 | 59 | 59 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
 | bruno-mars | 2026-05-28 | 68 | 25 | 25 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
 | ed-sheeran | 2026-06-12 | 27 | 25 | 20 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
 | shakira | 2026-06-10 | 31 | 16 | 5 | **1** | Las Mujeres Ya No Lloran | Recheck row: the re-added "Shakira Stadium" Madrid row — CTA-suppressed. |
-| raye | 2026-09-23 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| raye | 2026-09-24 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | charli-xcx | 2026-06-18 | 17 | 9 | 9 | **1** | Music, Fashion, Film Tour | — |
-| tate-mcrae | 2026-09-23 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| tate-mcrae | 2026-09-24 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | summer-walker | 2026-06-11 | 13 | 7 | 1 | 0 | Still Finally Over It | Houston 6/21 renders a plain "Check Ticketmaster" link (owner-verified). |
-| rosalia | 2026-09-23 | 6 | 1 | 0 | 0 | LUX TOUR 2026 | Houston 6/23 renders a plain "Check Ticketmaster" link (owner-verified). |
-| post-malone | 2026-09-23 | 5 | 0 | 0 | 0 | — | `tour_name` blank pending human verification. Vivid Seats covers 3 events. |
+| rosalia | 2026-09-24 | 6 | 1 | 0 | 0 | LUX TOUR 2026 | Houston 6/23 renders a plain "Check Ticketmaster" link (owner-verified). |
+| post-malone | 2026-09-24 | 5 | 0 | 0 | 0 | — | `tour_name` blank pending human verification. Vivid Seats covers 3 events. |
 | zach-bryan | 2026-07-15 | 15 | 0 | 0 | **4** | With Heaven On Tour | Arlington, Glendale and Dover ×2 remain recheck rows with standalone verified resale CTAs. Vivid Seats covers 10 events. |
-| jelly-roll | 2026-09-23 | 1 | 0 | 0 | **1** | — | `tour_name` blank pending human verification. |
+| jelly-roll | 2026-09-24 | 1 | 0 | 0 | **1** | — | `tour_name` blank pending human verification. |
 | tame-impala | 2026-07-22 | 28 | 0 | 0 | **6** | The Deadbeat Tour | 3 recheck rows each publish a standalone verified SeatGeek CTA. |
 | sabrina-carpenter | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
 | lady-gaga | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
-| the-weeknd | 2026-09-23 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-08 after verified provider checks. No event records yet, so the board renders its empty state and no CTA. |
+| the-weeknd | 2026-09-24 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-08 after verified provider checks. No event records yet, so the board renders its empty state and no CTA. |
 | coldplay | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. |
 | karol-g | 2026-08-22 | 26 | 1 | 1 | **12** | — | Promoted 2026-08-21. |
 | foo-fighters | 2026-08-22 | 6 | 0 | 0 | 0 | — | Promoted 2026-08-21. |
@@ -108,15 +108,15 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 | sylvan-esso | 2026-09-09 | 29 | 10 | 10 | **11** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; no event records yet, so the board remains an empty watchlist without buttons. Event ingestion follows merge and deployment. |
 | blondshell | 2026-09-09 | 6 | 0 | 0 | **2** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; no event records yet, so the board remains an empty watchlist without buttons. Event ingestion follows merge and deployment. |
 | pink-martini | 2026-09-09 | 24 | 2 | 2 | **13** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; no event records yet, so the board remains an empty watchlist without buttons. Event ingestion follows merge and deployment. |
-| oasis | 2026-09-23 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. **Ticketmaster showed 0 upcoming events at capture** (SeatGeek 6); owner confirmed the TM artist page resolves and chose to publish both lanes. The TM link is plain and unmonetized. No event records yet, so the board renders its empty state and no CTA button. |
-| hans-zimmer | 2026-09-23 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster returned dates but every one withheld (mostly `status_not_onsale`), so the board stays an empty state with no CTA button until they go on sale. |
+| oasis | 2026-09-24 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. **Ticketmaster showed 0 upcoming events at capture** (SeatGeek 6); owner confirmed the TM artist page resolves and chose to publish both lanes. The TM link is plain and unmonetized. No event records yet, so the board renders its empty state and no CTA button. |
+| hans-zimmer | 2026-09-24 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster returned dates but every one withheld (mostly `status_not_onsale`), so the board stays an empty state with no CTA button until they go on sale. |
 | trans-siberian-orchestra | 2026-09-23 | 50 | 6 | 6 | **6** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 50 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
-| kenny-chesney | 2026-09-23 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster returned dates but every one withheld (mostly `status_not_onsale`), so the board stays an empty state with no CTA button until they go on sale. |
+| kenny-chesney | 2026-09-24 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster returned dates but every one withheld (mostly `status_not_onsale`), so the board stays an empty state with no CTA button until they go on sale. |
 | death-cab-for-cutie | 2026-09-23 | 5 | 0 | 0 | **1** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 5 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 | alan-walker | 2026-09-23 | 23 | 7 | 7 | **8** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 23 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 | the-psychedelic-furs | 2026-09-23 | 14 | 4 | 4 | **4** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 14 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 | eros-ramazzotti | 2026-09-23 | 1 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 1 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
-| atmosphere | 2026-09-23 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster returned dates but every one withheld (mostly `status_not_onsale`), so the board stays an empty state with no CTA button until they go on sale. |
+| atmosphere | 2026-09-24 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster returned dates but every one withheld (mostly `status_not_onsale`), so the board stays an empty state with no CTA button until they go on sale. |
 | the-warning | 2026-09-23 | 22 | 4 | 4 | **7** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 22 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 
 Event CTAs publish independently per provider (`providerEventPublishable`; see `docs/ARCHITECTURE.md`). Across the 267 recheck rows, 126 publish SeatGeek, 146 publish Vivid Seats, 220 have at least one independently verified resale provider, and 4 (all past events) are fully CTA-suppressed. (Recounted 2026-09-13 from `public/data/events.json` through `scripts/lib/event-link-coverage.mjs`; the previous 261/120/140/214 predated the 2026-09-12/13 provider syncs. The four suppressed rows are unchanged: ed-sheeran Nashville, bts Madrid ×2, bad-bunny Marseille.)
@@ -124,7 +124,7 @@ Event CTAs publish independently per provider (`providerEventPublishable`; see `
 **Empty boards move daily** — generated by the same `npm run status:surface:write` pass, from `artistHasUpcomingShow` in `functions/_artist-indexability.js`. An empty board is not a noindex: the artist URL is a durable destination that stays `index,follow` and renders an explicit empty state.
 
 <!-- generated:empty-boards -->
-Generated 2026-09-23: 14 of the 68 editorially-indexable artists have no upcoming date and render an empty board (still `index,follow`) — beyonce, ariana-grande, bad-bunny, morgan-wallen, raye, tate-mcrae, rosalia, post-malone, the-weeknd, jelly-roll, oasis, hans-zimmer, kenny-chesney, atmosphere — leaving **54 artist pages with upcoming dates**; 8 of them (beyonce, raye, tate-mcrae, the-weeknd, oasis, hans-zimmer, kenny-chesney, atmosphere) have never had an event record.
+Generated 2026-09-24: 14 of the 68 editorially-indexable artists have no upcoming date and render an empty board (still `index,follow`) — beyonce, ariana-grande, bad-bunny, morgan-wallen, raye, tate-mcrae, rosalia, post-malone, the-weeknd, jelly-roll, oasis, hans-zimmer, kenny-chesney, atmosphere — leaving **54 artist pages with upcoming dates**; 8 of them (beyonce, raye, tate-mcrae, the-weeknd, oasis, hans-zimmer, kenny-chesney, atmosphere) have never had an event record.
 <!-- /generated:empty-boards -->
 
 ## What's true right now

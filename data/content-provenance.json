@@ -3,8 +3,8 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "0a65cb4f84057125",
-      "content_updated_at": "2026-09-11"
+      "content_hash": "0d44ecb879623cca",
+      "content_updated_at": "2026-09-24"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
       "content_hash": "cc7b535b3e45387c",
@@ -23,8 +23,8 @@
       "content_updated_at": "2026-09-11"
     },
     "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-      "content_hash": "40cb5c1b19f42def",
-      "content_updated_at": "2026-09-11"
+      "content_hash": "2d3263756fefef3b",
+      "content_updated_at": "2026-09-24"
     },
     "/guides/when-is-the-best-time-to-buy-concert-tickets": {
       "content_hash": "c578aafd145b91f1",
@@ -59,8 +59,8 @@
       "content_updated_at": "2026-09-11"
     },
     "/guides/how-resale-ticket-pricing-works": {
-      "content_hash": "4c2778c67a53fc1c",
-      "content_updated_at": "2026-09-11"
+      "content_hash": "60d00d43d96cdc77",
+      "content_updated_at": "2026-09-24"
     },
     "/guides/how-to-prepare-for-a-ticket-onsale": {
       "content_hash": "7998e496d76eeb4c",

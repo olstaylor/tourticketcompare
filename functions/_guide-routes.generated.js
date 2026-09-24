@@ -20,7 +20,7 @@ export const GUIDE_ROUTES = {
     description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-11"
+    lastmod: "2026-09-24"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
@@ -61,7 +61,7 @@ export const GUIDE_ROUTES = {
     description: "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-11"
+    lastmod: "2026-09-24"
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",
@@ -133,7 +133,7 @@ export const GUIDE_ROUTES = {
     description: "Understand resale ticket pricing by reviewing seller-set prices, fees, seat details, delivery timing, and provider terms before checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-11"
+    lastmod: "2026-09-24"
   },
   "/guides/how-to-prepare-for-a-ticket-onsale": {
     title: "How to Prepare for a Concert Onsale | TourTicketCompare",
@@ -179,5 +179,5 @@ export const PRICE_GUIDE_FALLBACK = {
   description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
   fullContent: true,
   datePublished: "2026-06-11",
-  lastmod: "2026-09-11"
+  lastmod: "2026-09-24"
 };

@@ -73,6 +73,10 @@ export function screenCandidate({ name, slug, sg, tm, tmEvents = [], denylist = 
     (denylist.ticketmaster_attraction_ids || []).map(String).includes(String(tm?.attraction_id || "")) ||
     (denylist.seatgeek_performer_ids || []).map(String).includes(String(sg?.performer_id || ""));
   if (denied) reasons.push("D2: on the brand-safety denylist");
+  // Music acts only, by Ticketmaster's own classification; a missing
+  // classification fails closed. Comedy, theatre and sport are never promoted.
+  if (tm?.attraction_id && tm?.segment !== "Music") reasons.push(`D2: Ticketmaster does not classify it as music (${tm?.segment || "no classification"})`);
+  if (/tribute/i.test(String(tm?.sub_type || ""))) reasons.push("D2: Ticketmaster classifies it as a tribute act");
 
   // D3 — primary-attraction share over upcoming Ticketmaster events.
   const upcoming = tmEvents.filter((e) => eventTime(e) >= now);
@@ -127,7 +131,7 @@ function selfTest() {
   const good = {
     name: "Kenny Chesney", slug: "kenny-chesney",
     sg: { performer_id: 1, api_name: "Kenny Chesney", num_upcoming_events: 12 },
-    tm: { attraction_id: "K1", api_name: "Kenny Chesney" },
+    tm: { attraction_id: "K1", api_name: "Kenny Chesney", segment: "Music", sub_type: "" },
     tmEvents: events(20), urlStatus: { seatgeek: 200, ticketmaster: 200 }, now,
   };
   const run = (overrides) => screenCandidate({ ...good, ...overrides });
@@ -154,6 +158,9 @@ function selfTest() {
   check(!run({ existingTitles: new Set(["Kenny Chesney Tickets & Tour Dates | TourTicketCompare"]) }).eligible, "a duplicate title is rejected");
   check(!run({ name: "A Very Long Artist Name That Cannot Fit", sg: { ...good.sg, api_name: "A Very Long Artist Name That Cannot Fit" }, tm: { ...good.tm, api_name: "A Very Long Artist Name That Cannot Fit" } }).eligible, "a name no title form can fit is rejected");
 
+  check(!run({ tm: { ...good.tm, segment: "Arts & Theatre" } }).eligible, "a comedian (Arts & Theatre) is rejected");
+  check(!run({ tm: { ...good.tm, segment: "" } }).eligible, "a missing Ticketmaster classification fails closed");
+  check(!run({ tm: { ...good.tm, sub_type: "Tribute Band" } }).eligible, "a Ticketmaster tribute band is rejected");
   const throws = (fn) => { try { fn(); return false; } catch { return true; } };
   check(throws(() => parseDenylist("")) && throws(() => parseDenylist("{}")) && throws(() => parseDenylist('{"names":[]}')), "a missing or malformed denylist fails closed");
   check(parseDenylist('{"names":["X"],"slugs":["x"]}').slugs[0] === "x", "a well-formed denylist parses");

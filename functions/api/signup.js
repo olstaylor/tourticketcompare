@@ -172,7 +172,7 @@ const HTML_MESSAGES = {
 function htmlResponse(result, status, backHref = "/artists") {
   const heading = result.ok ? "You're on the watchlist" : "Signup not completed";
   const message = HTML_MESSAGES[result.status] || "Something went wrong. Please go back and try again.";
-  const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css?v=20260924c" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p><div class="action-row"><a class="button button-primary" href="${backHref}">Back to the artist page</a><a class="button button-secondary" href="/artists">Browse artists</a></div></section></main></body></html>`;
+  const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css?v=20260924d" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p><div class="action-row"><a class="button button-primary" href="${backHref}">Back to the artist page</a><a class="button button-secondary" href="/artists">Browse artists</a></div></section></main></body></html>`;
   return new Response(body, {
     status,
     headers: {

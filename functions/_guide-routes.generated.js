@@ -85,7 +85,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to spot fraudulent ticket sellers, fake platforms, counterfeit tickets, and scam tactics. Use verified platforms and protect yourself at checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-24"
+    lastmod: "2026-09-25"
   },
   "/guides/why-ticket-prices-change": {
     title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",
@@ -117,7 +117,7 @@ export const GUIDE_ROUTES = {
     description: "Know which concert-ticket charges to compare, how to read the order summary, and when a lower displayed price is not the lower final total.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-24"
+    lastmod: "2026-09-25"
   },
   "/guides/ticket-delivery-and-transfer-timing": {
     title: "Ticket Delivery & Transfer Timing | TourTicketCompare",

@@ -153,6 +153,78 @@ export function withoutParentheticalQualifier(label) {
   return stripped || raw;
 }
 
+/**
+ * The calendar year a show falls in at the venue — the year its card prints.
+ * Same resolution as the renderer's venueDateParts: a UTC instant is read in
+ * the show's IANA timezone (UTC when that is missing or invalid), while an
+ * offset or naive ISO string already carries the venue wall clock. So a
+ * 23:00 New Year's Eve show in Los Angeles counts as that year, not the next.
+ *
+ * @param {string} iso
+ * @param {string} [timezone]
+ * @returns {number} NaN when the value is not a date.
+ */
+export function eventLocalYear(iso, timezone) {
+  const raw = String(iso ?? "").trim();
+  if (!/Z$/.test(raw)) {
+    const wall = Date.parse(`${raw.replace(/[+-]\d{2}:?\d{2}$/, "")}Z`);
+    return Number.isFinite(wall) ? new Date(wall).getUTCFullYear() : NaN;
+  }
+  const instant = Date.parse(raw);
+  if (!Number.isFinite(instant)) return NaN;
+  try {
+    const year = new Intl.DateTimeFormat("en-US", { year: "numeric", timeZone: String(timezone || "").trim() || "UTC" })
+      .format(new Date(instant));
+    return Number(year);
+  } catch (error) {
+    return new Date(instant).getUTCFullYear();
+  }
+}
+
+/**
+ * "2026" for one year, "2026–2027" for a span — the same label city pages use.
+ *
+ * @param {Array<number>} years
+ * @returns {string} Empty when there is no finite year.
+ */
+export function yearRangeLabel(years) {
+  const sorted = [...new Set((years || []).filter(Number.isFinite))].sort((a, b) => a - b);
+  if (!sorted.length) return "";
+  return sorted.length === 1 ? String(sorted[0]) : `${sorted[0]}–${sorted.at(-1)}`;
+}
+
+/**
+ * The artist page <title>. Tour searches usually carry the year ("bts tour
+ * 2027"), so an artist with upcoming dates gets the year(s) of those dates in
+ * the title. The label comes only from dates on the board, so the title never
+ * names a year the page does not show, and it rolls forward on its own as
+ * dates pass. The site suffix goes before the year does.
+ *
+ * Only the house templates in catalog.json are rewritten; a hand-written
+ * `seo_title` is left exactly as authored. No upcoming dates, no year.
+ *
+ * @param {{ name?: string, seo_title?: string }} artist
+ * @param {string} yearLabel From yearRangeLabel over the board's shows.
+ * @returns {string}
+ */
+export function artistPageTitle(artist, yearLabel) {
+  const name = String(artist?.name ?? "").trim();
+  const authored = String(artist?.seo_title ?? "").trim() || `${name} Tickets | Options & Availability`;
+  const houseTemplates = [
+    `${name} Tickets & Tour Dates | TourTicketCompare`,
+    `${name} Tickets & Dates | TourTicketCompare`,
+    `${name} Tickets | TourTicketCompare`,
+    `${name} Tickets | Options & Availability`
+  ];
+  if (!name || !yearLabel || !houseTemplates.includes(authored)) return authored;
+  return fitTitleToBudget([
+    `${name} Tickets & ${yearLabel} Tour Dates | TourTicketCompare`,
+    `${name} Tickets & ${yearLabel} Tour Dates`,
+    `${name} Tickets & ${yearLabel} Dates`,
+    authored
+  ]);
+}
+
 // Trust and index routes.
 //
 // `lastmod` on these entries is NOT hand-maintained: scripts/sync-content-provenance.mjs

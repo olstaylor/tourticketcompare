@@ -15,7 +15,10 @@ import {
   TRUST_ROUTES,
   TITLE_LENGTH_LIMIT,
   fitTitleToBudget,
-  withoutParentheticalQualifier
+  withoutParentheticalQualifier,
+  artistPageTitle,
+  eventLocalYear,
+  yearRangeLabel
 } from "../functions/_route-metadata.js";
 
 let passed = 0;
@@ -148,6 +151,41 @@ assert(
   !/const PRICE_GUIDE_FALLBACK = \{/.test(routerSource),
   "functions/[[path]].js keeps no second copy of the fallback literal"
 );
+
+// ─── artist title year label ────────────────────────────────────────────────
+
+// The year is the venue-local one the card prints, not the UTC one.
+assert(eventLocalYear("2027-01-01T07:00:00Z", "America/Los_Angeles") === 2026, "LA New Year's Eve show counts as its local year");
+assert(eventLocalYear("2026-12-31T14:00:00Z", "Australia/Sydney") === 2027, "Sydney New Year's Day show counts as its local year");
+assert(eventLocalYear("2027-01-01T07:00:00Z", "") === 2027, "a UTC instant with no timezone reads as UTC");
+assert(eventLocalYear("2027-01-01T07:00:00Z", "Not/AZone") === 2027, "an invalid timezone falls back to UTC");
+assert(eventLocalYear("2026-12-31T23:00:00-08:00") === 2026, "an offset string keeps its wall-clock year");
+assert(eventLocalYear("2027-02-10T17:00:00") === 2027, "a naive string keeps its wall-clock year");
+assert(Number.isNaN(eventLocalYear("")), "an empty value is not a year");
+
+assert(yearRangeLabel([2026]) === "2026", "one year");
+assert(yearRangeLabel([2027, 2026, 2026, NaN]) === "2026–2027", "a span, deduplicated and sorted");
+assert(yearRangeLabel([]) === "", "no years, no label");
+
+const bts = { name: "BTS", seo_title: "BTS Tickets & Tour Dates | TourTicketCompare" };
+assert(artistPageTitle(bts, "2027") === "BTS Tickets & 2027 Tour Dates | TourTicketCompare", "year goes into the house template");
+assert(artistPageTitle(bts, "") === bts.seo_title, "no upcoming dates keeps the authored title");
+const harry = { name: "Harry Styles", seo_title: "Harry Styles Tickets & Tour Dates | TourTicketCompare" };
+assert(
+  artistPageTitle(harry, "2026–2027") === "Harry Styles Tickets & 2026–2027 Tour Dates",
+  "the site suffix is shed before the year"
+);
+const tso = { name: "Trans-Siberian Orchestra", seo_title: "Trans-Siberian Orchestra Tickets & Dates | TourTicketCompare" };
+assert(artistPageTitle(tso, "2026–2027").length <= TITLE_LENGTH_LIMIT, "a shortened house title stays in budget");
+assert(artistPageTitle(tso, "2026–2027").includes("2026–2027"), "and still carries the year");
+const custom = { name: "Oasis", seo_title: "Oasis Live '25 Reunion Tickets | TourTicketCompare" };
+assert(artistPageTitle(custom, "2026") === custom.seo_title, "a hand-written title is never rewritten");
+assert(
+  artistPageTitle({ name: "Nobody" }, "2026") === "Nobody Tickets & 2026 Tour Dates | TourTicketCompare",
+  "a missing seo_title gets the year too"
+);
+const longName = { name: "A Very Long Artist Name That Goes On And On", seo_title: "" };
+assert(artistPageTitle(longName, "2026–2027").length <= TITLE_LENGTH_LIMIT, "never over budget");
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 

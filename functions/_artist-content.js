@@ -297,8 +297,10 @@ export function artistStatusFacts(status, options = {}) {
 }
 
 /**
- * Group upcoming publishable shows into per-tour summaries. Shows without a
- * verified tour name, or that do not pass the publishable gate, are excluded.
+ * Group the board's upcoming shows into per-tour summaries. Shows without a
+ * verified tour name are excluded. The link gate (`publishable`) is not applied:
+ * a date listed before its on-sale is still a date on the board, and counting
+ * only linkable dates here made the card disagree with the intro above it.
  *
  * @param {ArtistContentShow[]} shows
  * @returns {TourSummary[]}
@@ -306,7 +308,7 @@ export function artistStatusFacts(status, options = {}) {
 export function deriveTourSummaries(shows) {
   const groups = new Map();
   for (const show of Array.isArray(shows) ? shows : []) {
-    if (!show || show.publishable !== true) continue;
+    if (!show) continue;
     const name = cleanString(show.tour_name);
     const iso = cleanString(show.dateTimeISO);
     if (!name || !iso || !Number.isFinite(Date.parse(iso))) continue;

@@ -3556,7 +3556,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3591,8 +3591,7 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G6260hbXf",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623nj3ov",
@@ -3610,7 +3609,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-25-2027/production/7598530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3652,8 +3651,7 @@
     },
     "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T09:00:00Z",
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573"
   }
 ]

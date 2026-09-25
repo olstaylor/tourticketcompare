@@ -866,7 +866,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -901,8 +901,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_Kk-V07Y",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-london-1amzkfwgkeiysgf",
@@ -920,7 +919,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -955,7 +954,6 @@
     },
     "ticketmaster_discovery_event_id": "1AMZkfwGkeiySGf",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T09:00:00Z"
+    "status": "on-sale"
   }
 ]

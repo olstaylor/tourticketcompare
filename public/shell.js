@@ -86,6 +86,7 @@
       if (payload.provider) params.provider = payload.provider;
       if (metadata.ctaLocation) params.cta_location = metadata.ctaLocation;
       if (typeof metadata.isAffiliate === "boolean") params.is_affiliate = metadata.isAffiliate;
+      if (metadata.lowestListed) params.lowest_listed = metadata.lowestListed;
       window.gtag("event", eventName === "provider_click" ? "outbound_click" : eventName, params);
     } catch (error) {}
   }
@@ -136,6 +137,14 @@
     if (!provider || recentClicks.has(key)) return;
     recentClicks.add(key);
     window.setTimeout(function () { recentClicks.delete(key); }, 1000);
+    // "Lowest listed" (see renderProviderCtaButtonHtml): recorded only when the
+    // clicked date shows the badge, as "lowest" for the badged lane and
+    // "other" for any other button on that date. Dates without a badge send
+    // nothing, so the split compares like with like.
+    var group = cta.closest(".provider-cta-group");
+    var lowestListed = group && group.querySelector("a[data-cta-lowest]")
+      ? (cta.hasAttribute("data-cta-lowest") ? "lowest" : "other")
+      : undefined;
     send("provider_click", {
       provider: provider,
       artistSlug: String(cta.dataset.ctaArtist || "").trim(),
@@ -145,6 +154,7 @@
       position: Number(cta.dataset.ctaPosition || 0) || undefined,
       ctaLocation: location,
       priceSnapshot: cta.dataset.ctaPriceSnapshot === "present" ? "present" : "absent",
+      lowestListed: lowestListed,
       isAffiliate: affiliateProviders.indexOf(provider) !== -1,
       linkId: showId ? showId + ":" + provider : String(cta.dataset.ctaLinkId || "").trim()
     });

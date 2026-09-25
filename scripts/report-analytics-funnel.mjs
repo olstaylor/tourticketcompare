@@ -11,6 +11,8 @@
 //   4. provider_click split on events with a price snapshot vs without
 //      (metadata priceSnapshot / hasPrice; outbound_click carries neither key).
 //   5. Top artist pages by click volume (provider_click + outbound_click).
+//   6. "Lowest listed" split: on dates showing the badge, provider_click on the
+//      badged lane vs any other lane (metadata lowestListed = lowest | other).
 //
 // Every statement is a SELECT executed through `wrangler d1 execute` — this
 // script never writes to D1 and creates no tables.
@@ -34,8 +36,8 @@ function usage() {
   return `Usage: node scripts/report-analytics-funnel.mjs [options]
 
 Read-only funnel report over DEMAND_DB analytics_events: outbound click-through
-rate by provider / artist / ctaLocation, price-snapshot click split, and top
-artist pages by click volume. Only SELECT statements are executed — nothing is
+rate by provider / artist / ctaLocation, price-snapshot click split, the
+"Lowest listed" badge click split, and top artist pages by click volume. Only SELECT statements are executed — nothing is
 written to D1 and no tables are created.
 
 Options:
@@ -185,6 +187,16 @@ GROUP BY 1, 2`
 FROM analytics_events
 WHERE event_name = 'provider_click'${since}
 GROUP BY 1`
+    },
+    {
+      // Only clicks on a date that showed the badge carry lowestListed, so
+      // the two buckets compare the badged lane with its own neighbours.
+      key: "lowestListedSplit",
+      sql: `SELECT json_extract(metadata_json, '$.lowestListed') AS bucket, COUNT(*) AS clicks
+FROM analytics_events
+WHERE event_name = 'provider_click'
+  AND json_extract(metadata_json, '$.lowestListed') IN ('lowest', 'other')${since}
+GROUP BY 1`
     }
   ];
   for (const statement of statements) assertReadOnlySql(statement.sql);
@@ -315,6 +327,23 @@ function summarizePriceSnapshot(rows) {
   };
 }
 
+function summarizeLowestListed(rows = []) {
+  let lowest = 0;
+  let other = 0;
+  for (const row of rows) {
+    const clicks = Number(row.clicks) || 0;
+    if (row.bucket === "lowest") lowest += clicks;
+    else if (row.bucket === "other") other += clicks;
+  }
+  const total = lowest + other;
+  return {
+    lowest_clicks: lowest,
+    other_clicks: other,
+    badged_date_clicks: total,
+    lowest_share: rate(lowest, total)
+  };
+}
+
 function topArtists(artistSummary, limit) {
   return artistSummary.filter((row) => row.total_clicks > 0).slice(0, limit);
 }
@@ -334,6 +363,7 @@ function buildReport(resultSets, options, sinceIso) {
     ctr_by_artist: artists,
     ctr_by_cta_location: summarizeCtaLocations(resultSets.clicksByCtaLocation, totalPageViews),
     price_snapshot_split: summarizePriceSnapshot(resultSets.priceSnapshotSplit),
+    lowest_listed_split: summarizeLowestListed(resultSets.lowestListedSplit),
     top_artists_by_click_volume: topArtists(artists, options.top)
   };
 }
@@ -383,6 +413,11 @@ function renderReport(report) {
   const price = report.price_snapshot_split;
   lines.push("-- CTA clicks on events with a price snapshot vs without (provider_click only) --");
   lines.push(`with snapshot: ${price.with_price_snapshot} · without: ${price.without_price_snapshot} · with-share: ${formatRate(price.with_share)} · with:without ratio: ${price.with_vs_without_ratio === null ? "n/a" : price.with_vs_without_ratio.toFixed(2)}`);
+  lines.push("");
+
+  const lowest = report.lowest_listed_split;
+  lines.push('-- "Lowest listed" badge: CTA clicks on dates showing it (provider_click only) --');
+  lines.push(`badged lane: ${lowest.lowest_clicks} · other lanes: ${lowest.other_clicks} · badged-lane share: ${formatRate(lowest.lowest_share)}`);
   lines.push("");
 
   lines.push("-- Top artist pages by click volume (CTA + outbound clicks) --");
@@ -447,7 +482,7 @@ function selfTest() {
 
   check(() => {
     const statements = buildStatements("2026-06-22T12:00:00.000Z");
-    assert.deepEqual(statements.map((s) => s.key), ["pageViewsByArtist", "clicksByProvider", "clicksByArtist", "clicksByCtaLocation", "trafficByRoute", "priceSnapshotSplit"]);
+    assert.deepEqual(statements.map((s) => s.key), ["pageViewsByArtist", "clicksByProvider", "clicksByArtist", "clicksByCtaLocation", "trafficByRoute", "priceSnapshotSplit", "lowestListedSplit"]);
     for (const statement of statements) {
       assert.match(statement.sql, /^SELECT/);
       assert.match(statement.sql, /created_at >= '2026-06-22T12:00:00\.000Z'/);
@@ -480,6 +515,10 @@ function selfTest() {
     priceSnapshotSplit: [
       { bucket: "with_price_snapshot", clicks: 15 },
       { bucket: "without_price_snapshot", clicks: 5 }
+    ],
+    lowestListedSplit: [
+      { bucket: "lowest", clicks: 9 },
+      { bucket: "other", clicks: 3 }
     ]
   };
 
@@ -507,7 +546,15 @@ function selfTest() {
     assert.equal(report.price_snapshot_split.with_share, 15 / 20);
     assert.equal(report.price_snapshot_split.with_vs_without_ratio, 3);
 
+    assert.deepEqual(report.lowest_listed_split, { lowest_clicks: 9, other_clicks: 3, badged_date_clicks: 12, lowest_share: 9 / 12 });
+
     assert.deepEqual(report.top_artists_by_click_volume.map((row) => row.artist_slug), ["artist-a", "artist-b"]);
+  });
+
+  check(() => {
+    // No badged-date clicks yet (or rows from before the field existed).
+    assert.deepEqual(summarizeLowestListed([]), { lowest_clicks: 0, other_clicks: 0, badged_date_clicks: 0, lowest_share: null });
+    assert.deepEqual(summarizeLowestListed(undefined), { lowest_clicks: 0, other_clicks: 0, badged_date_clicks: 0, lowest_share: null });
   });
 
   check(() => {
@@ -531,6 +578,7 @@ function selfTest() {
     // the ordering: inserting a statement must be a deliberate, visible change.
     assert.equal(parsed.trafficByRoute[0].marker, 4);
     assert.equal(parsed.priceSnapshotSplit[0].marker, 5);
+    assert.equal(parsed.lowestListedSplit[0].marker, 6);
     assert.throws(() => parseWranglerJson("🌀 Executing…", statements), /did not return JSON/);
     assert.throws(() => parseWranglerJson("[]", statements), /result sets/);
     assert.throws(() => parseWranglerJson(JSON.stringify(statements.map(() => ({ success: false, results: [] }))), statements), /did not succeed/);
@@ -550,6 +598,7 @@ function selfTest() {
     assert.match(rendered, /all time/);
     assert.match(rendered, /seatgeek/);
     assert.match(rendered, /with snapshot: 15/);
+    assert.match(rendered, /badged lane: 9 · other lanes: 3 · badged-lane share: 75\.00%/);
   });
 
   return { tests };

@@ -167,3 +167,5 @@ Use the authorised seller named by the artist, venue, promoter, or event organis
 - [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)
 - [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)
 - [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)
+- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
+- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)

@@ -92,3 +92,5 @@ Your order is governed by the terms you accepted at checkout. TourTicketCompare 
 - [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)
 - [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
+- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)
+- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)

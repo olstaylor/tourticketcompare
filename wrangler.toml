@@ -2,6 +2,14 @@ name = "tourticketcompare"
 compatibility_date = "2025-01-01"
 pages_build_output_dir = "public"
 
+# Per-request CPU cap (Workers Paid; the default is 30s). A backstop so a
+# runaway render is cut off in 2s rather than billed for 30s. Measured
+# 2026-09-25: warm renders <= 50ms, the heaviest cold request ~300ms, so this
+# leaves ~7x headroom. A request over the cap answers 1102, so raise it before
+# a legitimate route gets near it. `limits` requires the Paid plan.
+[limits]
+cpu_ms = 2000
+
 [vars]
 MOCK_MODE = "false"
 ALLOW_MOCK_PRICES = "false"

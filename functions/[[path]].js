@@ -2749,6 +2749,16 @@ function renderLocationGuideLinks() {
   return LOCATION_GUIDE_LINKS.map(([label, path]) => anchor(label, path, "button button-secondary")).join("");
 }
 
+// The summary sentence, the selective-coverage note and the money statement sit
+// directly under the date list rather than above it (2026-09-25, owner request):
+// stacked between the heading and the first date they pushed the dates below the
+// fold on a phone. All three stay visible on the page, not collapsed.
+function renderLocationPageNotesHtml(summary, coverageNote) {
+  return `<section class="location-page-notes"><p>${escapeHtml(summary)}</p><p class="disclosure-note">${escapeHtml(
+    coverageNote
+  )}</p>${renderMoneyDisclosureHtml()}</section>`;
+}
+
 export function renderCityPageBody(route, events = [], options = {}) {
   const city = route.city;
   const yearLabel = cityYearLabel(city);
@@ -2777,9 +2787,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
   }
 
   return shell(
-    `<p class="lead">${escapeHtml(cityLeadSentence(city))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected verified tour dates — not a complete ${city.city} events calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
+    `<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
       city.city
     )}${yearLabel ? ` for ${escapeHtml(yearLabel)}` : ""}</h2></div>${renderCityShowGroups(
       city,
@@ -2798,7 +2806,10 @@ export function renderCityPageBody(route, events = [], options = {}) {
           city.artistSlugs
         )
       }
-    )}</section>${collapsedGroupHtml(
+    )}</section>${renderLocationPageNotesHtml(
+      cityLeadSentence(city),
+      `Selected verified tour dates — not a complete ${city.city} events calendar.`
+    )}${collapsedGroupHtml(
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
@@ -2836,9 +2847,7 @@ export function renderVenuePageBody(route, events = [], options = {}) {
   }
 
   return shell(
-    `<p class="lead">${escapeHtml(venueLeadSentence(venue))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected verified tour dates — not the full ${venue.venue} calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
+    `<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
       venue.venue
     )}</h2></div>${renderVenueShowGroups(
       venue,
@@ -2849,7 +2858,10 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       options.marketplaceAvailability || {},
       null,
       route.events || events
-    )}</section>${collapsedGroupHtml(
+    )}</section>${renderLocationPageNotesHtml(
+      venueLeadSentence(venue),
+      `Selected verified tour dates — not the full ${venue.venue} calendar.`
+    )}${collapsedGroupHtml(
       "Tips for buying and more venues",
       `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
         venue.venue

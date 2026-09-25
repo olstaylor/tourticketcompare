@@ -141,3 +141,5 @@ It can be hard. Contact your bank straight away, report the payment as fraud and
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
 - [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)
+- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
+- [Is SeatGeek legit?](/guides/is-seatgeek-legit)

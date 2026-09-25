@@ -339,11 +339,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034400",
-        "url": "https://www.ticketliquidator.com/tickets/8034400/Charli-XCX-tickets-Thu-Sep-24-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107258882",
@@ -357,7 +357,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034400",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034400/Charli-XCX-tickets-Thu-Sep-24-2026-TD-Garden",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-boston-tickets-9-24-2026/event/107258882"
   },
   {

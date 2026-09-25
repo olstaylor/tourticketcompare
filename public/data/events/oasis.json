@@ -215,12 +215,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264751",
+        "url": "https://www.ticketliquidator.com/tickets/8264751/Oasis-tickets-Fri-May-21-2027-Celtic-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3GknFT-Og",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264751"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264751",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264751/Oasis-tickets-Fri-May-21-2027-Celtic-Park"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
@@ -276,12 +284,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264752",
+        "url": "https://www.ticketliquidator.com/tickets/8264752/Oasis-tickets-Sun-May-23-2027-Celtic-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd1ybNO",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264752"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264752",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264752/Oasis-tickets-Sun-May-23-2027-Celtic-Park"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
@@ -337,12 +353,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264753",
+        "url": "https://www.ticketliquidator.com/tickets/8264753/Oasis-tickets-Tue-May-25-2027-Celtic-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5KFPx",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264753"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264753",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264753/Oasis-tickets-Tue-May-25-2027-Celtic-Park"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5pben",
@@ -451,12 +475,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264755",
+        "url": "https://www.ticketliquidator.com/tickets/8264755/Oasis-tickets-Sat-May-29-2027-Celtic-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkdu5Imb",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264755"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264755",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264755/Oasis-tickets-Sat-May-29-2027-Celtic-Park"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
@@ -512,12 +544,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264756",
+        "url": "https://www.ticketliquidator.com/tickets/8264756/Oasis-tickets-Fri-Jun-4-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lwZpdp",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264756"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264756",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264756/Oasis-tickets-Fri-Jun-4-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lmyj87",
@@ -573,12 +613,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264757",
+        "url": "https://www.ticketliquidator.com/tickets/8264757/Oasis-tickets-Sun-Jun-6-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lMyJ87",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264757"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264757",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264757/Oasis-tickets-Sun-Jun-6-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lbuu4c",
@@ -634,12 +682,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264758",
+        "url": "https://www.ticketliquidator.com/tickets/8264758/Oasis-tickets-Tue-Jun-8-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lBuU4c",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264758"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264758",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264758/Oasis-tickets-Tue-Jun-8-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwcjqy",
@@ -748,12 +804,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264760",
+        "url": "https://www.ticketliquidator.com/tickets/8264760/Oasis-tickets-Sat-Jun-12-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lXmU-J",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264760/Oasis-tickets-Sat-Jun-12-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3nq9ecb",
@@ -809,12 +873,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264761",
+        "url": "https://www.ticketliquidator.com/tickets/8264761/Oasis-tickets-Tue-Jun-15-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3nQ9ecb",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264761"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264761",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264761/Oasis-tickets-Tue-Jun-15-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lv67ao",
@@ -923,12 +995,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264763",
+        "url": "https://www.ticketliquidator.com/tickets/8264763/Oasis-tickets-Sat-Jun-19-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l--PpL",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264763"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264763",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264763/Oasis-tickets-Sat-Jun-19-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l0pglg",
@@ -984,12 +1064,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264764",
+        "url": "https://www.ticketliquidator.com/tickets/8264764/Oasis-tickets-Tue-Jun-22-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l0PgLG",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264764"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264764",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264764/Oasis-tickets-Tue-Jun-22-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3ljog0t",
@@ -1098,12 +1186,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264766",
+        "url": "https://www.ticketliquidator.com/tickets/8264766/Oasis-tickets-Sat-Jun-26-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lnPPRv",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264766"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264766/Oasis-tickets-Sat-Jun-26-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-co-meath-1avoz_3gkrnpmuo",

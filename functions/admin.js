@@ -42,7 +42,7 @@ const HTML = `<!doctype html>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
     <title>Content editor | TourTicketCompare</title>
-    <link rel="icon" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.svg?v=20260925a" />
   </head>
   <body>
     <noscript>The content editor needs JavaScript. You can also edit content/blog/*.md directly on GitHub.</noscript>

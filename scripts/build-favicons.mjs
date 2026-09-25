@@ -25,7 +25,12 @@ sizes.forEach((s, i) => {
   offset += pngs[i].length;
 });
 fs.writeFileSync("public/favicon.ico", Buffer.concat([header, ...pngs]));
-// apple-touch-icon.png: 180x180, full-bleed (iOS applies its own corner mask,
-// and a transparent corner renders black), so the rounded rect is squared off.
-const square = Buffer.from(svg.toString().replace(/<rect width="64" height="64" rx="14"/, '<rect width="64" height="64"'));
-await sharp(square, { density: 72 * 180 / 64 * 2 }).resize(180, 180).flatten({ background: "#0f172a" }).png({ compressionLevel: 9 }).toFile("public/apple-touch-icon.png");
+// apple-touch-icon.png: 180x180 and opaque (iOS applies its own corner mask,
+// and a transparent corner renders black): the circle mark inset on the cream
+// background of public/assets/logo.svg.
+const inner = 144;
+const mark = await sharp(svg, { density: 72 * inner / 64 * 2 }).resize(inner, inner).png().toBuffer();
+await sharp({ create: { width: 180, height: 180, channels: 3, background: "#f5f1e8" } })
+  .composite([{ input: mark, left: (180 - inner) / 2, top: (180 - inner) / 2 }])
+  .png({ compressionLevel: 9 })
+  .toFile("public/apple-touch-icon.png");

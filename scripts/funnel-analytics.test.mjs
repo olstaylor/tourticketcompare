@@ -925,6 +925,75 @@ await test("every funnel report query is read-only and free of personal columns"
   assert.match(reconciliation.sql, /impact_reconcilable_click_ids/);
 });
 
+// ── "Lowest listed" badge clicks ────────────────────────────────────────────
+
+await test("lowestListed survives the metadata sanitiser", () => {
+  assert.deepEqual(sanitizeMetadata({ lowestListed: "lowest", ctaLocation: "event_card" }), { lowestListed: "lowest", ctaLocation: "event_card" });
+  assert.deepEqual(sanitizeMetadata({ lowestListed: "other" }), { lowestListed: "other" });
+});
+
+// Runs public/shell.js against a minimal DOM stub and fires its delegated
+// click listener, so the provider_click payload is checked as sent — not by
+// matching the source text.
+async function shellClickPayloads(clicks) {
+  const { runInNewContext } = await import("node:vm");
+  const source = await readFile(new URL("../public/shell.js", import.meta.url), "utf8");
+  const beacons = [];
+  const listeners = {};
+  const document = {
+    querySelector: () => null,
+    querySelectorAll: () => [],
+    getElementById: () => null,
+    referrer: "",
+    addEventListener: (type, fn) => { (listeners[type] ||= []).push(fn); }
+  };
+  const window = {
+    location: { pathname: "/artists/fixture-artist", search: "", hostname: "tourticketcompare.com" },
+    setTimeout: () => 0
+  };
+  runInNewContext(source, {
+    window,
+    document,
+    navigator: { sendBeacon: (_url, body) => { beacons.push(JSON.parse(body)); return true; } },
+    sessionStorage: { getItem: () => null, setItem: () => {} },
+    URL,
+    URLSearchParams,
+    Set,
+    Map,
+    Object,
+    Array,
+    JSON,
+    String,
+    Number
+  });
+  for (const target of clicks) for (const fn of listeners.click || []) fn({ target });
+  return beacons.filter((beacon) => beacon.eventName === "provider_click").map((beacon) => beacon.metadata);
+}
+
+function fakeCta(provider, { lowest = false, group = null } = {}) {
+  const cta = {
+    dataset: { ctaProvider: provider, ctaShowId: `show-${provider}`, ctaLocation: "event_card", ctaArtist: "fixture-artist", ctaPriceSnapshot: "present" },
+    hasAttribute: (name) => name === "data-cta-lowest" && lowest,
+    closest: (selector) => (selector === "a[data-cta-provider]" ? cta : selector === ".provider-cta-group" ? group : null)
+  };
+  return cta;
+}
+
+await test("provider_click records lowestListed only on dates showing the badge", async () => {
+  const badgedGroup = { querySelector: (selector) => (selector === "a[data-cta-lowest]" ? {} : null) };
+  const plainGroup = { querySelector: () => null };
+  const [onBadge, besideBadge, noBadge] = await shellClickPayloads([
+    fakeCta("vivid-seats", { lowest: true, group: badgedGroup }),
+    fakeCta("ticketnetwork", { group: badgedGroup }),
+    fakeCta("seatgeek", { group: plainGroup })
+  ]);
+  assert.equal(onBadge.lowestListed, "lowest", "a click on the badged lane is recorded as lowest");
+  assert.equal(besideBadge.lowestListed, "other", "another lane on a badged date is recorded as other");
+  assert.equal(noBadge.lowestListed, undefined, "a date without the badge sends no lowestListed at all");
+  // The payload survives the server-side allowlist unchanged.
+  assert.equal(sanitizeMetadata(onBadge).lowestListed, "lowest");
+});
+
 // ── Result ──────────────────────────────────────────────────────────────────
 
 if (failures.length) {

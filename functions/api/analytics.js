@@ -71,7 +71,10 @@ const SAFE_METADATA_KEYS = new Set([
   // the events record only an artist slug and measure nothing. "city" and
   // "country" are the selected filter values, which come from our own event
   // data, not free text — the raw search query is deliberately never sent.
-  "control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount", "panel"
+  "control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount", "panel",
+  // provider_click on a date showing the "Lowest listed" badge: "lowest" when
+  // the badged lane was clicked, "other" for another lane on that date.
+  "lowestListed"
 ]);
 
 export function sanitizeMetadata(value) {

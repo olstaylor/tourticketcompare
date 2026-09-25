@@ -705,6 +705,9 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     (runA.match(/provider-cta-badge">Lowest listed</g) || []).length === 1,
     "the badge text appears once per card"
   );
+  // The analytics marker public/shell.js reads sits on the badged lane only.
+  const markers = [...runA.matchAll(/data-cta-provider="([^"]+)"[^>]*data-cta-lowest="true"/g)].map((match) => match[1]);
+  assert(JSON.stringify(markers) === JSON.stringify(["vivid-seats"]), `data-cta-lowest marks only the badged lane: ${markers}`);
   // Gated lanes never compete: the $3.80 StubHub International row is below
   // the plausibility floor and the $12 Ticket Liquidator row is display-off.
   assert(!/provider-cta-lowest[^"]*"[^>]*data-cta-provider="(stubhub-international|ticket-liquidator)"/.test(runA), "a withheld lane can never be marked lowest");

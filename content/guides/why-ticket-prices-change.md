@@ -37,7 +37,7 @@ A change driven by fees is not the same as one driven by a seller relisting. Kno
 
 ## The headline price is not the deciding number
 
-A listing card or seat-map price is a starting figure. It may leave out fees, taxes, delivery, currency conversion, or terms specific to that order. The number that decides your purchase is the final checkout total.
+A listing card or seat-map price is a starting figure. It may leave out fees, taxes, delivery, currency conversion, or terms specific to that order. In the United States, the Federal Trade Commission's fee rule has required the advertised total for live-event tickets to include all mandatory fees since May 12, 2025, but taxes, shipping and optional extras can still be added, as long as they are shown before you are asked to pay. The number that decides your purchase is the final checkout total.
 
 When you compare options, open each provider page and check the same fields every time: artist, date, venue, ticket type, seat location, quantity, fees, delivery method, transfer timing, refund and cancellation terms, and the final total. If the provider changes the total partway through checkout, stop and decide whether the current figure still works before going on.
 
@@ -45,13 +45,15 @@ For the full routine, see [how to compare concert ticket prices safely](/guides/
 
 ## Onsales and demand-based pricing
 
-During an official onsale, the provider runs everything: the queue, the seat map, purchase limits, the ticket categories on offer, fees, and the checkout rules. Some events mix fixed-price seats with premium categories, packages, or demand-based pricing that moves with how quickly a section sells.
+During an official onsale, the provider runs everything: the queue, the seat map, purchase limits, the ticket categories on offer, fees, and the checkout rules. The starting price comes from further back. Ticketmaster's help page on prices and fees says the event organiser sets the face value, weighing production costs, venue size and interest in the event, and also decides how many tickets to sell, when to put them on sale and when to share prices. Some events mix fixed-price seats with premium categories, packages, or demand-based pricing that moves with how quickly a section sells.
 
 Seeing a ticket in your queue or cart is not the same as owning it. The price and the seat are only settled once checkout completes, so read the current terms before you pay, especially if the page shows a countdown, a hold timer or a total that has just changed. For the timing trade-offs, see [when to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets).
 
 ## Why resale prices drift
 
 A resale marketplace shows listings from many sellers, each with their own seats, asking price, delivery timing, and terms. A seller can raise, lower, or pull a listing at any point; another buyer can take it; and the marketplace decides what stays visible.
+
+Vivid Seats' help page describes the mechanism on its own marketplace: resellers set every price independently, based on what they judge the ticket's current market value to be (demand for the event, supply, and the seat location), so listed prices are subject to change at any time and can sit above or below face value.
 
 That is why resale prices do not follow a tidy pattern you can time. Rather than wait for a price you expect to appear, compare the listings actually in front of you: the final total, the seat details, delivery timing, buyer protection, and the refund, transfer, and cancellation terms. TourTicketCompare links to checked destinations but does not vouch for individual sellers or listings. For the mechanics, see [how resale ticket pricing works](/guides/how-resale-ticket-pricing-works) and [primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets).
 

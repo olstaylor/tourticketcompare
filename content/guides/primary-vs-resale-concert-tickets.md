@@ -45,6 +45,8 @@ What that means in practice:
 - Protection and terms differ by platform, event, and order.
 - Delivery and transfer timing depend on the individual listing.
 
+Vivid Seats' help page states the pricing side directly: every price on its marketplace is set independently by the reseller, based on supply and demand for the event and the seat location, and can be higher or lower than the face value printed on the ticket.
+
 TourTicketCompare links to checked destinations but does not certify individual sellers or listings.
 
 ## Working out which one you're looking at
@@ -68,13 +70,13 @@ On primary platforms that tends to mean service, order, and facility fees, taxes
 
 A primary ticket bought through an authorised platform comes under that provider's event-specific terms for refunds, cancellations, postponements, delivery, and transfer. Some tickets are delayed, restricted, or non-transferable depending on the event.
 
-Resale protection is more variable. A marketplace may publish terms covering non-delivery, invalid tickets, cancellations, and disputes, but the cover differs from platform to platform and order to order. Read the specific terms before you buy rather than assuming a blanket guarantee applies.
+Resale protection is more variable. A marketplace may publish terms covering non-delivery, invalid tickets, cancellations, and disputes, but the cover differs from platform to platform and order to order. Read the specific terms before you buy rather than assuming a blanket guarantee applies. Ticketmaster's help page on third-party resale tickets, for instance, says those sales are final unless the event is cancelled.
 
 ## When the ticket actually arrives
 
 Primary tickets usually arrive soon after purchase, as mobile tickets, e-tickets or occasionally by post, on the platform's timing.
 
-Resale is different: the ticket arrives when the seller transfers it. Some transfer at once; others wait until close to the date. Marketplaces set a deadline by which transfer must happen, but the real-world window can be tighter than it looks. If you're travelling or booking transport in advance, confirm the delivery timing before buying. [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) covers this in full.
+Resale is different: the ticket arrives when the seller transfers it, sometimes through another company's system. Ticketmaster's help page says that when it lists resale tickets for an event another company ticketed, the seller transfers them from that original provider's app, and you need an account there to access them. Some transfer at once; others wait until close to the date. Marketplaces set a deadline by which transfer must happen, but the real-world window can be tighter than it looks. If you're travelling or booking transport in advance, confirm the delivery timing before buying. [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) covers this in full.
 
 ## So which should you pick?
 

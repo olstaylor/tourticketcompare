@@ -37,11 +37,11 @@ The timing question really comes down to one earlier question: what would you mo
 
 An official onsale or presale is a sensible starting point, because it points you straight at the authorised ticketing path and usually shows the fullest picture of seats, ticket types, and terms at the start of the sale.
 
-Buying then makes most sense when you want certainty, need several seats together, have particular sections in mind, or do not want to be relying on a last-minute transfer. The catch is that the ticket site controls the prices, stock, seat map and queue, all of which can change or run out. Joining a queue or seeing a first price doesn't mean you'll complete checkout. For the practical drill, see [how to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale).
+Buying then makes most sense when you want certainty, need several seats together, have particular sections in mind, or do not want to be relying on a last-minute transfer. The catch is that the ticket site controls the prices, stock, seat map and queue, all of which can change or run out. Behind the ticket site sits the event organiser: Ticketmaster's help page on prices and fees says the organiser sets the face value and decides how many tickets to sell, when to put them on sale and when to share prices. Joining a queue or seeing a first price doesn't mean you'll complete checkout. For the practical drill, see [how to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale).
 
 ## Waiting, and what resale really offers
 
-Waiting suits flexible plans, a tolerance for uncertainty, and a willingness to keep checking back. It isn't a reliable way to pay less.
+Waiting suits flexible plans, a tolerance for uncertainty, and a willingness to keep checking back. It isn't a reliable way to pay less. What waiting can bring is more supply: the US Federal Trade Commission's advice for sold-out events is to check back, because promoters may release more tickets after the first sale or add another show.
 
 Resale listings move with seller decisions, demand, seat location, and how close the show is, and the direction is not predictable in advance. Hold off and you might find a better price; you might equally find fewer suitable seats, a tighter delivery window, or a higher total than the one you passed up. There is no pattern to lean on, only the listings actually in front of you.
 

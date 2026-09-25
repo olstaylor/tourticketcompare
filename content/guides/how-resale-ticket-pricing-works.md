@@ -32,6 +32,8 @@ A seller's price is a judgement, not a calculation. Four things shape it:
 - **The seat.** Section, row, view notes, accessibility and whether it comes in a package all change how one listing compares with another.
 - **How soon the show is.** Sellers' willingness to move on price changes as the date gets closer, and not always downwards.
 
+Vivid Seats' own help page describes its marketplace this way: every price is set independently by the reseller who lists it, based on supply and demand for the event and the seat location, and can be higher or lower than the face value printed on the ticket.
+
 None of that makes a markup fair or unfair. The asking price is the seller's opinion of the ticket, not its value.
 
 ## The asking price is not your final total
@@ -41,7 +43,7 @@ Marketplaces charge both sides of the sale:
 - **Buyer fees.** Service and order fees, taxes, delivery and currency conversion can all be added before you pay.
 - **Seller fees.** The seller usually receives less than the listed figure, which is part of why asking prices sit where they do.
 
-What matters to you is the total on the order screen, after every fee. Some fees only appear late in checkout, so take a listing all the way to that screen before you judge it. If the total goes past your budget, or the fee and delivery terms stay unclear, stop there.
+What matters to you is the total on the order screen, after every fee. Some marketplaces show fees from the start (Vivid Seats says it uses all-in pricing, so the cost including fees is visible once you start shopping), but taxes, delivery and other charges can still appear late in checkout, so take a listing all the way to that screen before you judge it. If the total goes past your budget, or the fee and delivery terms stay unclear, stop there.
 
 On TourTicketCompare, the resale buttons for Vivid Seats, TicketNetwork and StubHub International show each site's lowest listed price for that date when the site's feed supplies one, with how long ago it was checked. That's a starting point for which listing to open. Fees are added on the ticket site.
 
@@ -86,6 +88,8 @@ Run through this before paying for any resale ticket:
 - **Terms.** Have you read the buyer-protection, refund, cancellation, postponement and transfer rules?
 - **Comparison.** If similar seats are priced very differently, can you say why?
 - **Alternatives.** Are primary or official resale tickets still on sale?
+
+Read the terms before paying, because they can be strict. Ticketmaster's help page on third-party resale tickets, for example, says those sales are final unless the event is cancelled.
 
 TourTicketCompare checks that each button leads to the right event page. It doesn't vet individual sellers or listings. The marketplace sets the final total and terms at checkout.
 

@@ -116531,5 +116531,219 @@
     "timezone": "Europe/Brussels",
     "status": "announced",
     "public_onsale_at": "2026-10-01T08:00:00Z"
+  },
+  {
+    "id": "tm-oasis-2027-barcelona-z698xz2qz1kosq3xa",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-07-10T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "471692885",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/471692885?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/471692885?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "471692885",
+        "discovery_event_id": "Z698xZ2qZ1kosQ3xA",
+        "url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/471692885?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kosQ3xA",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-07-11T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "78105577",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/78105577?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/78105577?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "78105577",
+        "discovery_event_id": "Z698xZ2qZ1kvz7A4M",
+        "url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/78105577?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvz7A4M",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-07-16T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1783021418",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/oasis-live-27-tickets/1783021418?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/oasis-live-27-tickets/1783021418?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1783021418",
+        "discovery_event_id": "Z698xZbpZ16vrdZ-8b",
+        "url": "https://www.ticketmaster.nl/event/oasis-live-27-tickets/1783021418?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vrdZ-8b",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-09-26T06:00:00Z"
+  },
+  {
+    "id": "tm-oasis-2027-amsterdam-z698xzbpz1kodp337",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-07-17T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "443952484",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/oasis-live-27-tickets/443952484?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/oasis-live-27-tickets/443952484?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "443952484",
+        "discovery_event_id": "Z698xZbpZ1kodP337",
+        "url": "https://www.ticketmaster.nl/event/oasis-live-27-tickets/443952484?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kodP337",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-09-26T06:00:00Z"
   }
 ]

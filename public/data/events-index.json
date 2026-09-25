@@ -21018,5 +21018,53 @@
     "timezone": "Europe/Brussels",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-oasis-2027-barcelona-z698xz2qz1kosq3xa",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "country": "Spain",
+    "city": "Barcelona",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-07-10T18:30:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "country": "Spain",
+    "city": "Barcelona",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-07-11T18:30:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-07-16T17:00:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-oasis-2027-amsterdam-z698xzbpz1kodp337",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-07-17T17:00:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

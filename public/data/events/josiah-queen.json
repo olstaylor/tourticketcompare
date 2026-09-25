@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "20006524B41B42EE",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-tulsa-bok-center-4-8-2027/production/7536901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536901,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-tulsa-bok-center-4-8-2027/production/7536901",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -126,7 +126,7 @@
     "ticketmaster_event_id": "0500652896585CE6",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-indianapolis-gainbridge-fieldhouse-4-10-2027/production/7536895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
     "last_verified_at": null,
@@ -148,11 +148,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536895,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-indianapolis-gainbridge-fieldhouse-4-10-2027/production/7536895",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187,7 +187,7 @@
     "ticketmaster_event_id": "08006523AC454DB2",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-grand-rapids-van-andel-arena-4-11-2027/production/7536945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-grand-rapids-michigan-04-11-2027/event/08006523AC454DB2",
     "last_verified_at": null,
@@ -209,11 +209,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536945,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-grand-rapids-van-andel-arena-4-11-2027/production/7536945",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -240,7 +240,7 @@
     "ticketmaster_event_id": "10006521EF8BD3BF",
     "ticketmaster_url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-toronto-coca-cola-coliseum-4-13-2027/production/7537915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/damascus-road-tour-with-josiah-queen-toronto-ontario-04-13-2027/event/10006521EF8BD3BF",
     "last_verified_at": null,
@@ -262,11 +262,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7537915,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-toronto-coca-cola-coliseum-4-13-2027/production/7537915",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -293,7 +293,7 @@
     "ticketmaster_event_id": "010065239D34E528",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-worcester-dcu-center-4-15-2027/production/7536941",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-worcester-massachusetts-04-15-2027/event/010065239D34E528",
     "last_verified_at": null,
@@ -315,11 +315,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536941,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-worcester-dcu-center-4-15-2027/production/7536941",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -346,7 +346,7 @@
     "ticketmaster_event_id": "02006524D4B84E5D",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-hershey-giant-center-4-16-2027/production/7536947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hershey-pennsylvania-04-16-2027/event/02006524D4B84E5D",
     "last_verified_at": null,
@@ -368,11 +368,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536947,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-hershey-giant-center-4-16-2027/production/7536947",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -399,7 +399,7 @@
     "ticketmaster_event_id": "2D0065278F8E59F7",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-charlotte-spectrum-center-4-17-2027/production/7536954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
     "last_verified_at": null,
@@ -421,11 +421,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536954,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-charlotte-spectrum-center-4-17-2027/production/7536954",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -460,7 +460,7 @@
     "ticketmaster_event_id": "0E006528E3AF4EC0",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-duluth-gas-south-arena-4-18-2027/production/7536956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-duluth-georgia-04-18-2027/event/0E006528E3AF4EC0",
     "last_verified_at": null,
@@ -482,11 +482,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536956,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-duluth-gas-south-arena-4-18-2027/production/7536956",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -513,7 +513,7 @@
     "ticketmaster_event_id": "04006528F1AB1099",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-hoffman-estates-now-arena-4-23-2027/production/7537180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-hoffman-estates-illinois-04-23-2027/event/04006528F1AB1099",
     "last_verified_at": null,
@@ -535,11 +535,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7537180,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-hoffman-estates-now-arena-4-23-2027/production/7537180",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -566,7 +566,7 @@
     "ticketmaster_event_id": "09006524914A5FA8",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-anaheim-honda-center-4-29-2027/production/7536975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
     "last_verified_at": null,
@@ -588,11 +588,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536975,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-anaheim-honda-center-4-29-2027/production/7536975",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -680,7 +680,7 @@
     "ticketmaster_event_id": "190065274189B911",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-glendale-desert-diamond-arena-5-1-2027/production/7536958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
     "last_verified_at": null,
@@ -702,11 +702,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536958,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-glendale-desert-diamond-arena-5-1-2027/production/7536958",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -741,7 +741,7 @@
     "ticketmaster_event_id": "0C006530BA53A76E",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-fort-worth-dickies-arena-5-5-2027--concerts-world-music/production/7578563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
     "last_verified_at": null,
@@ -763,11 +763,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7578563,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-fort-worth-dickies-arena-5-5-2027--concerts-world-music/production/7578563",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -802,7 +802,7 @@
     "ticketmaster_event_id": "3A006523FCB5BFC3",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-cedar-park-heb-center-at-cedar-park-5-7-2027/production/7537176",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-cedar-park-texas-05-07-2027/event/3A006523FCB5BFC3",
     "last_verified_at": null,
@@ -824,11 +824,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7537176,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-cedar-park-heb-center-at-cedar-park-5-7-2027/production/7537176",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -863,7 +863,7 @@
     "ticketmaster_event_id": "0C006522D115B25D",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-fort-worth-dickies-arena-5-8-2027/production/7536960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-08-2027/event/0C006522D115B25D",
     "last_verified_at": null,
@@ -885,11 +885,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536960,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-fort-worth-dickies-arena-5-8-2027/production/7536960",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0C00653319761B3C",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-dallas-the-echo-lounge-and-music-hall-3-2-2027--concerts-pop/production/7600460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600460,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-dallas-the-echo-lounge-and-music-hall-3-2-2027--concerts-pop/production/7600460",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -74,7 +74,7 @@
     "ticketmaster_event_id": "0E0065331C5F83C2",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-atlanta-buckhead-theatre-3-4-2027--concerts-pop/production/7600468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
     "last_verified_at": null,
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600468,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-atlanta-buckhead-theatre-3-4-2027--concerts-pop/production/7600468",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -136,7 +136,7 @@
     "ticketmaster_event_id": "0D006535B2B76A74",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-tampa-the-ritz-theater---ybor-city-3-5-2027--concerts-pop/production/7600476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
     "last_verified_at": null,
@@ -158,11 +158,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600476,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-tampa-the-ritz-theater---ybor-city-3-5-2027--concerts-pop/production/7600476",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -198,7 +198,7 @@
     "ticketmaster_event_id": "2D00653598086E14",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-charlotte-the-fillmore-charlotte-3-7-2027/production/7600972",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
     "last_verified_at": null,
@@ -220,11 +220,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600972,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-charlotte-the-fillmore-charlotte-3-7-2027/production/7600972",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -260,7 +260,7 @@
     "ticketmaster_event_id": "15006532F6299035",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-silver-spring-the-fillmore-silver-spring-3-9-2027--concerts-pop/production/7600510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
     "last_verified_at": null,
@@ -282,11 +282,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600510,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-silver-spring-the-fillmore-silver-spring-3-9-2027--concerts-pop/production/7600510",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -376,7 +376,7 @@
     "ticketmaster_event_id": "0100653422A1B958",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-boston-citizens-house-of-blues-boston-4-2-2027--concerts-pop/production/7600525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
     "last_verified_at": null,
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600525,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-boston-citizens-house-of-blues-boston-4-2-2027--concerts-pop/production/7600525",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -438,7 +438,7 @@
     "ticketmaster_event_id": "020065354840217A",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-philadelphia-theatre-of-living-arts-4-3-2027--concerts-pop/production/7600529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
     "last_verified_at": null,
@@ -460,11 +460,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600529,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-philadelphia-theatre-of-living-arts-4-3-2027--concerts-pop/production/7600529",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -492,7 +492,7 @@
     "ticketmaster_event_id": "100065322260F657",
     "ticketmaster_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-toronto-the-danforth-music-hall-4-6-2027/production/7600952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
     "last_verified_at": null,
@@ -514,11 +514,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600952,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-toronto-the-danforth-music-hall-4-6-2027/production/7600952",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -600,7 +600,7 @@
     "ticketmaster_event_id": "050065341D764CEA",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-8-2027--concerts-pop/production/7600581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
     "last_verified_at": null,
@@ -622,11 +622,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600581,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-8-2027--concerts-pop/production/7600581",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -662,7 +662,7 @@
     "ticketmaster_event_id": "0600653221834624",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-minneapolis-uptown-theater-minneapolis-4-10-2027--concerts-pop/production/7600599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
     "last_verified_at": null,
@@ -684,11 +684,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600599,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-minneapolis-uptown-theater-minneapolis-4-10-2027--concerts-pop/production/7600599",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -716,7 +716,7 @@
     "ticketmaster_event_id": "04006536B5EEC907",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-chicago-house-of-blues-chicago-4-11-2027--concerts-pop/production/7600614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
     "last_verified_at": null,
@@ -738,11 +738,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600614,
+        "url": "https://www.vividseats.com/lukas-graham-tickets-chicago-house-of-blues-chicago-4-11-2027--concerts-pop/production/7600614",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

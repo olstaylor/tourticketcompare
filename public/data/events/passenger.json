@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "38006513826B196D",
     "ticketmaster_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-belfast-ulster-hall---belfast-9-8-2027--concerts-alternative/production/7477444",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477444,
+        "url": "https://www.vividseats.com/passenger-tickets-belfast-ulster-hall---belfast-9-8-2027--concerts-alternative/production/7477444",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "3E00650CB077220A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-glasgow-o2-academy-glasgow-9-11-2027--concerts-alternative/production/7477448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477448,
+        "url": "https://www.vividseats.com/passenger-tickets-glasgow-o2-academy-glasgow-9-11-2027--concerts-alternative/production/7477448",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -285,7 +285,7 @@
     "ticketmaster_event_id": "3600650CE407B8FD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-edinburgh-usher-hall-9-12-2027--concerts-alternative/production/7477450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
     "last_verified_at": null,
@@ -307,11 +307,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477450,
+        "url": "https://www.vividseats.com/passenger-tickets-edinburgh-usher-hall-9-12-2027--concerts-alternative/production/7477450",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -346,7 +346,7 @@
     "ticketmaster_event_id": "3E006511C90C223E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-newcastle-upon-tyne-o2-city-hall-9-14-2027--concerts-alternative/production/7477452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
     "last_verified_at": null,
@@ -368,11 +368,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477452,
+        "url": "https://www.vividseats.com/passenger-tickets-newcastle-upon-tyne-o2-city-hall-9-14-2027--concerts-alternative/production/7477452",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -399,7 +399,7 @@
     "ticketmaster_event_id": "360064FC9C26336F",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-manchester-o2-apollo-manchester-9-15-2027--concerts-alternative/production/7477454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
     "last_verified_at": null,
@@ -421,11 +421,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477454,
+        "url": "https://www.vividseats.com/passenger-tickets-manchester-o2-apollo-manchester-9-15-2027--concerts-alternative/production/7477454",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -460,7 +460,7 @@
     "ticketmaster_event_id": "36006512E4CF91AE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-london-eventim-apollo-9-17-2027--concerts-alternative/production/7477456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
     "last_verified_at": null,
@@ -482,11 +482,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477456,
+        "url": "https://www.vividseats.com/passenger-tickets-london-eventim-apollo-9-17-2027--concerts-alternative/production/7477456",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -521,7 +521,7 @@
     "ticketmaster_event_id": "1F006513E0928BF1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-exeter-university-of-exeter---the-great-hall-9-21-2027--concerts-alternative/production/7477458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
     "last_verified_at": null,
@@ -543,11 +543,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477458,
+        "url": "https://www.vividseats.com/passenger-tickets-exeter-university-of-exeter---the-great-hall-9-21-2027--concerts-alternative/production/7477458",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -574,7 +574,7 @@
     "ticketmaster_event_id": "3E0064FC8C92104D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-birmingham-o2-academy---birmingham-9-24-2027--concerts-alternative/production/7477462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
     "last_verified_at": null,
@@ -596,11 +596,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477462,
+        "url": "https://www.vividseats.com/passenger-tickets-birmingham-o2-academy---birmingham-9-24-2027--concerts-alternative/production/7477462",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -643,7 +643,7 @@
     "ticketmaster_event_id": "1F006512E002817A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/passenger-tickets-brighton-brighton-dome-9-25-2027--concerts-alternative/production/7477464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
     "last_verified_at": null,
@@ -665,11 +665,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7477464,
+        "url": "https://www.vividseats.com/passenger-tickets-brighton-brighton-dome-9-25-2027--concerts-alternative/production/7477464",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

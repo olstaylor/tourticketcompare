@@ -66,7 +66,7 @@
     "ticketmaster_event_id": "050065312AD7D413",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-indianapolis-murat-theatre-at-old-national-centre-4-22-2027/production/7588032",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
     "last_verified_at": null,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7588032,
+        "url": "https://www.vividseats.com/haash-tickets-indianapolis-murat-theatre-at-old-national-centre-4-22-2027/production/7588032",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -128,7 +128,7 @@
     "ticketmaster_event_id": "040065319815C1C0",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-rosemont-rosemont-theatre-4-23-2027/production/7587686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
     "last_verified_at": null,
@@ -150,11 +150,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587686,
+        "url": "https://www.vividseats.com/haash-tickets-rosemont-rosemont-theatre-4-23-2027/production/7587686",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -198,7 +198,7 @@
     "ticketmaster_event_id": "1E006532A949D25D",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-denver-paramount-theatre-denver-4-25-2027/production/7587495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
     "last_verified_at": null,
@@ -220,11 +220,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587495,
+        "url": "https://www.vividseats.com/haash-tickets-denver-paramount-theatre-denver-4-25-2027/production/7587495",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268,7 +268,7 @@
     "ticketmaster_event_id": "0F006532BC99C2A6",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-seattle-paramount-theatre-seattle-4-28-2027/production/7587501",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
     "last_verified_at": null,
@@ -290,11 +290,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587501,
+        "url": "https://www.vividseats.com/haash-tickets-seattle-paramount-theatre-seattle-4-28-2027/production/7587501",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -338,7 +338,7 @@
     "ticketmaster_event_id": "0A00652FC2E6A548",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-inglewood-california-05-02-2027/event/0A00652FC2E6A548",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-inglewood-youtube-theater-5-2-2027/production/7587525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-inglewood-california-05-02-2027/event/0A00652FC2E6A548",
     "last_verified_at": null,
@@ -360,11 +360,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587525,
+        "url": "https://www.vividseats.com/haash-tickets-inglewood-youtube-theater-5-2-2027/production/7587525",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -400,7 +400,7 @@
     "ticketmaster_event_id": "1C006531F2B0CD59",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-san-jose-california-05-06-2027/event/1C006531F2B0CD59",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-san-jose-san-jose-civic-5-6-2027/production/7587521",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-san-jose-california-05-06-2027/event/1C006531F2B0CD59",
     "last_verified_at": null,
@@ -422,11 +422,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587521,
+        "url": "https://www.vividseats.com/haash-tickets-san-jose-san-jose-civic-5-6-2027/production/7587521",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -540,7 +540,7 @@
     "ticketmaster_event_id": "0C0065330281FD8A",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-el-paso-texas-05-12-2027/event/0C0065330281FD8A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-el-paso-el-paso-county-coliseum-5-12-2027/production/7587638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-el-paso-texas-05-12-2027/event/0C0065330281FD8A",
     "last_verified_at": null,
@@ -562,11 +562,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587638,
+        "url": "https://www.vividseats.com/haash-tickets-el-paso-el-paso-county-coliseum-5-12-2027/production/7587638",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -610,7 +610,7 @@
     "ticketmaster_event_id": "0C006532CB43ECBF",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-irving-texas-05-14-2027/event/0C006532CB43ECBF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-irving-pavilion-at-toyota-music-factory-5-14-2027/production/7587556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-irving-texas-05-14-2027/event/0C006532CB43ECBF",
     "last_verified_at": null,
@@ -632,11 +632,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587556,
+        "url": "https://www.vividseats.com/haash-tickets-irving-pavilion-at-toyota-music-factory-5-14-2027/production/7587556",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -680,7 +680,7 @@
     "ticketmaster_event_id": "3A0065314D07B4F1",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-hidalgo-texas-05-15-2027/event/3A0065314D07B4F1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-hidalgo-payne-arena-5-15-2027/production/7587572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-hidalgo-texas-05-15-2027/event/3A0065314D07B4F1",
     "last_verified_at": null,
@@ -702,11 +702,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587572,
+        "url": "https://www.vividseats.com/haash-tickets-hidalgo-payne-arena-5-15-2027/production/7587572",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -960,7 +960,7 @@
     "ticketmaster_event_id": "0D006532A1EF8D44",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-miami-beach-florida-05-22-2027/event/0D006532A1EF8D44",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-5-22-2027/production/7587644",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-miami-beach-florida-05-22-2027/event/0D006532A1EF8D44",
     "last_verified_at": null,
@@ -982,11 +982,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587644,
+        "url": "https://www.vividseats.com/haash-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-5-22-2027/production/7587644",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

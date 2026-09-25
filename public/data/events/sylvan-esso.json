@@ -1551,7 +1551,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PJ-S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-6-2027--concerts-dance-electronica/production/7190302",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
     "last_verified_at": null,
@@ -1573,11 +1573,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7190302,
-        "url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-6-2027--concerts-dance-electronica/production/7190302",
-        "verified": true,
-        "last_verified_at": "2026-09-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

@@ -158,6 +158,46 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     datePublished: "2026-06-11",
     lastmod: "2026-09-25"
+  },
+  "/guides/seatgeek-vs-stubhub": {
+    title: "SeatGeek vs StubHub: Fees, Protection and Delivery",
+    h1: "SeatGeek vs StubHub: How Do They Compare?",
+    description: "SeatGeek vs StubHub compared on who sells the ticket, all-in fees, buyer protection, cancellations, postponements and delivery timing.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
+  },
+  "/guides/vivid-seats-vs-seatgeek": {
+    title: "Vivid Seats vs SeatGeek: Fees, Guarantees, Delivery",
+    h1: "Vivid Seats vs SeatGeek: What Is the Difference?",
+    description: "Vivid Seats vs SeatGeek compared on who sets prices, all-in fees, buyer protection, cancelled and postponed events, delivery and rewards.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
+  },
+  "/guides/vivid-seats-vs-stubhub": {
+    title: "Vivid Seats vs StubHub: Fees, Guarantees, Delivery",
+    h1: "Vivid Seats vs StubHub: How Do They Compare?",
+    description: "Vivid Seats vs StubHub compared on seller pricing, upfront fees, buyer protection, cancelled and postponed shows, delivery and which site you're on.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
+  },
+  "/guides/is-vivid-seats-legit": {
+    title: "Is Vivid Seats Legit? What the Guarantee Covers",
+    h1: "Is Vivid Seats legit, and is it safe to buy from?",
+    description: "Is Vivid Seats legit? What it is, who sets its prices, what its published guarantee covers, cancelled and postponed events, and checks before buying.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
+  },
+  "/guides/is-seatgeek-legit": {
+    title: "Is SeatGeek Legit? Buyer Protection Explained",
+    h1: "Is SeatGeek legit, and are its tickets real?",
+    description: "Is SeatGeek legit? Who sells tickets on it, what its buyer protection covers and excludes, all-in fees, late delivery, and cancelled or postponed shows.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
   }
 };
 

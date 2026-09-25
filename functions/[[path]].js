@@ -7,7 +7,10 @@ import {
   canonicalOrigin,
   isIndexableOrigin,
   fitTitleToBudget,
-  withoutParentheticalQualifier
+  withoutParentheticalQualifier,
+  artistPageTitle,
+  eventLocalYear,
+  yearRangeLabel
 } from "./_route-metadata.js";
 // The compare-prices guide's standalone render fallback, generated alongside
 // GUIDE_ROUTES from content/guides/*.md. See the note at its use below.
@@ -663,11 +666,16 @@ async function routeForPath(pathname, env) {
     // again when a future event is added.
     const artistEvents = await loadArtistEvents(env, artist.slug);
     const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
+    // The year(s) in the title are read off the same future shows the board
+    // renders, in each card's venue-local calendar.
+    const yearLabel = yearRangeLabel(
+      futureShowsForArtist(artistEvents, artist.slug).map((show) => eventLocalYear(show.dateTimeISO, show.timezone))
+    );
     return {
       type: "artist",
       path,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
-      title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
+      title: artistPageTitle(artist, yearLabel),
       // The authored description promises dates, which is right while the board
       // has them. An empty board gets a description that matches what the page
       // actually says, so a shared or cached snippet never promises dates that

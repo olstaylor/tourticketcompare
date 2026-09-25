@@ -160,23 +160,33 @@ const shows = [
   { tour_name: "Tour B", city: "Berlin", dateTimeISO: "2026-09-01T19:00:00Z", publishable: true },
   // Excluded: blank tour name.
   { tour_name: "", city: "Rome", dateTimeISO: "2026-08-10T19:00:00Z", publishable: true },
-  // Excluded: not publishable.
-  { tour_name: "Tour C", city: "Madrid", dateTimeISO: "2026-08-11T19:00:00Z", publishable: false },
+  // Counted: a date listed before its on-sale has no publishable link yet, but
+  // it is still on the board, so the card must count it like the intro does.
+  { tour_name: "Tour A", city: "Madrid", dateTimeISO: "2026-08-11T19:00:00Z", publishable: false },
   // Excluded: unparseable date.
   { tour_name: "Tour D", city: "Oslo", dateTimeISO: "not-a-date", publishable: true }
 ];
 const tours = deriveTourSummaries(shows);
-assert(tours.length === 2, "only tours with publishable, dated, named shows should appear");
+assert(tours.length === 2, "only tours with dated, named shows should appear");
 assert(tours[0].name === "Tour A", "larger tour should sort first");
-assert(tours[0].showCount === 3, "Tour A should count all three publishable shows");
-assert(tours[0].cityCount === 2, "Tour A should count distinct cities (London, Paris)");
+assert(tours[0].showCount === 4, "Tour A should count every dated show, including one not yet on sale");
+assert(tours[0].cityCount === 3, "Tour A should count distinct cities (London, Paris, Madrid)");
 assert(tours[0].startISO === "2026-07-20T19:00:00Z", "startISO should be the earliest show");
-assert(tours[0].endISO === "2026-08-05T19:00:00Z", "endISO should be the latest show");
+assert(tours[0].endISO === "2026-08-11T19:00:00Z", "endISO should be the latest show");
 assert(
   tours[0].sampleCities[0] === "London" && tours[0].sampleCities.includes("Paris"),
   "sample cities should be date-ordered and distinct"
 );
-assert(!tours.some((tour) => tour.name === "Tour C"), "non-publishable tours must be excluded");
+// The tour card and the intro describe the same board, so for a single-tour
+// artist their counts must agree (Oasis 2026-09-25: the intro said 31 dates in
+// 7 cities while the card, skipping two pre-on-sale Amsterdam dates, said 29 in 6).
+const singleTour = shows.filter((show) => show.tour_name === "Tour A");
+const singleTourStatus = deriveArtistBoardStatus(singleTour);
+const [singleTourCard] = deriveTourSummaries(singleTour);
+assert(
+  singleTourCard.showCount === singleTourStatus.showCount && singleTourCard.cityCount === singleTourStatus.cityCount,
+  "a single-tour card must report the same date and city counts as the intro"
+);
 assert(!tours.some((tour) => tour.name === "Tour D"), "tours with unparseable dates must be excluded");
 assert(deriveTourSummaries(undefined).length === 0, "undefined input should yield no tours");
 assert(deriveTourSummaries([]).length === 0, "empty input should yield no tours");

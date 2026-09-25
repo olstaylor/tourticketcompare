@@ -114216,5 +114216,1545 @@
     "ticketmaster_discovery_event_id": "16vGZ_oayG7zvfP",
     "timezone": "Australia/Sydney",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-john-summit-2026-las-vegas-z7r9jz1a7xbfk",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "John Summit- Ages 21+",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Las Vegas",
+    "datetime_iso": "2026-09-26T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xbfK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xbfK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xbfK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xbfK",
+        "discovery_event_id": "Z7r9jZ1A7xbfK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xbfK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xbfK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-summit-2026-brooklyn-17gzv0g65ttxsbe",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT - CTRL ESCAPE ARENA TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-11-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064BA7F8B1EA7",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-29-2026/event/300064BA7F8B1EA7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-29-2026/event/300064BA7F8B1EA7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064BA7F8B1EA7",
+        "discovery_event_id": "17GZv0G65tTxsBE",
+        "url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-29-2026/event/300064BA7F8B1EA7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G65tTxsBE",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-09-30T14:00:00Z"
+  },
+  {
+    "id": "tm-vnv-nation-2027-denver-z7r9jz1a7jv8m",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Oriental Theatre-CO",
+    "datetime_iso": "2027-03-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Jv8M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Jv8M",
+        "discovery_event_id": "Z7r9jZ1A7Jv8M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jv8M",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-glasgow-1adfz_3gknft-og",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Celtic Park",
+    "datetime_iso": "2027-05-21T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652A88FE1835",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-21-05-2027/event/3500652A88FE1835",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-21-05-2027/event/3500652A88FE1835",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652A88FE1835",
+        "discovery_event_id": "1AdfZ_3GknFT-Og",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-21-05-2027/event/3500652A88FE1835",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_3GknFT-Og",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Celtic Park",
+    "datetime_iso": "2027-05-23T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006532CAE588E0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-23-05-2027/event/35006532CAE588E0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-23-05-2027/event/35006532CAE588E0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006532CAE588E0",
+        "discovery_event_id": "1AgZkfwGkd1ybNO",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-23-05-2027/event/35006532CAE588E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfwGkd1ybNO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Celtic Park",
+    "datetime_iso": "2027-05-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006532CB4C8962",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-25-05-2027/event/35006532CB4C8962",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-25-05-2027/event/35006532CB4C8962",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006532CB4C8962",
+        "discovery_event_id": "1AgZkfwGkd5KFPx",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-25-05-2027/event/35006532CB4C8962",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfwGkd5KFPx",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-glasgow-1agzkfwgkd5pben",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Celtic Park",
+    "datetime_iso": "2027-05-28T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006532CB9589E3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-28-05-2027/event/35006532CB9589E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-28-05-2027/event/35006532CB9589E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006532CB9589E3",
+        "discovery_event_id": "1AgZkfwGkd5PbEN",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-28-05-2027/event/35006532CB9589E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfwGkd5PbEN",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-glasgow-1agzkfwgkdu5imb",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Celtic Park",
+    "datetime_iso": "2027-05-29T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006532CD2E8B98",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-29-05-2027/event/35006532CD2E8B98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-29-05-2027/event/35006532CD2E8B98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006532CD2E8B98",
+        "discovery_event_id": "1AgZkfwGkdu5Imb",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-29-05-2027/event/35006532CD2E8B98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfwGkdu5Imb",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-04T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AF20160D6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-04-06-2027/event/3E00652AF20160D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-04-06-2027/event/3E00652AF20160D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AF20160D6",
+        "discovery_event_id": "G5dzZ_3lwZpdp",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-04-06-2027/event/3E00652AF20160D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lwZpdp",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3lmyj87",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-06T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AF7E66404",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-06-06-2027/event/3E00652AF7E66404",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-06-06-2027/event/3E00652AF7E66404",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AF7E66404",
+        "discovery_event_id": "G5dzZ_3lMyJ87",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-06-06-2027/event/3E00652AF7E66404",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lMyJ87",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3lbuu4c",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-08T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AFA37656D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-08-06-2027/event/3E00652AFA37656D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-08-06-2027/event/3E00652AFA37656D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AFA37656D",
+        "discovery_event_id": "G5dzZ_3lBuU4c",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-08-06-2027/event/3E00652AFA37656D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lBuU4c",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3lwcjqy",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-11T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AFD3A6770",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AFD3A6770",
+        "discovery_event_id": "G5dzZ_3lWCJqY",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lWCJqY",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3lxmu-j",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-12T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AFEBB6866",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AFEBB6866",
+        "discovery_event_id": "G5dzZ_3lXmU-J",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lXmU-J",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3nq9ecb",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-15T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652A9A5C2B58",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652A9A5C2B58",
+        "discovery_event_id": "G5dzZ_3nQ9ecb",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3nQ9ecb",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3lv67ao",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AC11C4260",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AC11C4260",
+        "discovery_event_id": "G5dzZ_3lv67aO",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lv67aO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3l--ppl",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-19T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AE186559F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AE186559F",
+        "discovery_event_id": "G5dzZ_3l--PpL",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3l--PpL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3l0pglg",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-22T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AE49757CC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AE49757CC",
+        "discovery_event_id": "G5dzZ_3l0PgLG",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3l0PgLG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3ljog0t",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AE6835929",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AE6835929",
+        "discovery_event_id": "G5dzZ_3lJOg0t",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lJOg0t",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-manchester-g5dzz_3lnpprv",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-06-26T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AEA965BC1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-26-06-2027/event/3E00652AEA965BC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-26-06-2027/event/3E00652AEA965BC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AEA965BC1",
+        "discovery_event_id": "G5dzZ_3lnPPRv",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-26-06-2027/event/3E00652AEA965BC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lnPPRv",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-co-meath-1avoz_3gkrnpmuo",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Co. Meath",
+    "country": "Ireland",
+    "venue": "SLANE CASTLE",
+    "datetime_iso": "2027-09-04T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800652BEA5AE351",
+    "ticketmaster_url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-04-09-2027/event/1800652BEA5AE351",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-04-09-2027/event/1800652BEA5AE351",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800652BEA5AE351",
+        "discovery_event_id": "1AvOZ_3GkRnpmuo",
+        "url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-04-09-2027/event/1800652BEA5AE351",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_3GkRnpmuo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-co-meath-1avoz_3gkrn9ru4",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Co. Meath",
+    "country": "Ireland",
+    "venue": "SLANE CASTLE",
+    "datetime_iso": "2027-09-05T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800652BEA5DE355",
+    "ticketmaster_url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-05-09-2027/event/1800652BEA5DE355",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-05-09-2027/event/1800652BEA5DE355",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800652BEA5DE355",
+        "discovery_event_id": "1AvOZ_3GkRn9ru4",
+        "url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-05-09-2027/event/1800652BEA5DE355",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_3GkRn9ru4",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-stevenage-1adjz_3gklfny3e",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Stevenage",
+    "country": "Great Britain",
+    "venue": "Knebworth",
+    "datetime_iso": "2027-09-11T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652AD4AB9482",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-11-09-2027/event/3700652AD4AB9482",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-11-09-2027/event/3700652AD4AB9482",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652AD4AB9482",
+        "discovery_event_id": "1AdjZ_3Gklfny3e",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-11-09-2027/event/3700652AD4AB9482",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3Gklfny3e",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-stevenage-1adjz_3gkrrmy7n",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Stevenage",
+    "country": "Great Britain",
+    "venue": "Knebworth",
+    "datetime_iso": "2027-09-12T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652BDEBB9123",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-12-09-2027/event/3700652BDEBB9123",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-12-09-2027/event/3700652BDEBB9123",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652BDEBB9123",
+        "discovery_event_id": "1AdjZ_3GkRrmy7N",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-12-09-2027/event/3700652BDEBB9123",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GkRrmy7N",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-stevenage-1adjz_3gkrnjt4_",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Stevenage",
+    "country": "Great Britain",
+    "venue": "Knebworth",
+    "datetime_iso": "2027-09-18T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652BE39A9559",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-18-09-2027/event/3700652BE39A9559",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-18-09-2027/event/3700652BE39A9559",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652BE39A9559",
+        "discovery_event_id": "1AdjZ_3GkRNJt4_",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-18-09-2027/event/3700652BE39A9559",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GkRNJt4_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-stevenage-1adjz_3gkreiyj0",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Stevenage",
+    "country": "Great Britain",
+    "venue": "Knebworth",
+    "datetime_iso": "2027-09-19T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652BE7A399A4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-19-09-2027/event/3700652BE7A399A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-19-09-2027/event/3700652BE7A399A4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652BE7A399A4",
+        "discovery_event_id": "1AdjZ_3GkREIyJ0",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-19-09-2027/event/3700652BE7A399A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GkREIyJ0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-stevenage-1adjz_3gkrs3n_k",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Stevenage",
+    "country": "Great Britain",
+    "venue": "Knebworth",
+    "datetime_iso": "2027-09-25T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652BF34AA653",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-25-09-2027/event/3700652BF34AA653",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-25-09-2027/event/3700652BF34AA653",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652BF34AA653",
+        "discovery_event_id": "1AdjZ_3GkRS3n_K",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-25-09-2027/event/3700652BF34AA653",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GkRS3n_K",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-stevenage-1adjz_3gkrz1qva",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Stevenage",
+    "country": "Great Britain",
+    "venue": "Knebworth",
+    "datetime_iso": "2027-09-26T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652BF829AD09",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-26-09-2027/event/3700652BF829AD09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-26-09-2027/event/3700652BF829AD09",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652BF829AD09",
+        "discovery_event_id": "1AdjZ_3GkRz1QVa",
+        "url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-26-09-2027/event/3700652BF829AD09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GkRz1QVa",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-salt-lake-city-g5vzz_kl2vywj",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Rise Up Select Presents: Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Depot",
+    "datetime_iso": "2027-01-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006537CF070C9C",
+    "ticketmaster_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006537CF070C9C",
+        "discovery_event_id": "G5vzZ_KL2vYwj",
+        "url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KL2vYwj",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour | be•at Premium Bistronomy Experience",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Legacy Lounge (Forest National)",
+    "datetime_iso": "2027-05-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "491872565",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "491872565",
+        "discovery_event_id": "Z698xZG2Z1k3o-w4P",
+        "url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k3o-w4P",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-10-01T08:00:00Z"
   }
 ]

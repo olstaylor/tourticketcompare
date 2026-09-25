@@ -1832,5 +1832,59 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center"
+  },
+  {
+    "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour | be•at Premium Bistronomy Experience",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Legacy Lounge (Forest National)",
+    "datetime_iso": "2027-05-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "491872565",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "491872565",
+        "discovery_event_id": "Z698xZG2Z1k3o-w4P",
+        "url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k3o-w4P",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-10-01T08:00:00Z"
   }
 ]

@@ -295,5 +295,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7495772/VNV-Nation-tickets-Thu-Apr-1-2027-Metro-Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7495772"
+  },
+  {
+    "id": "tm-vnv-nation-2027-denver-z7r9jz1a7jv8m",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Oriental Theatre-CO",
+    "datetime_iso": "2027-03-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Jv8M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Jv8M",
+        "discovery_event_id": "Z7r9jZ1A7Jv8M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jv8M",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

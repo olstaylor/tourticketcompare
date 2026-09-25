@@ -629,7 +629,10 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
             )
         elif venue_key in batch_venue_keys:
             withhold("duplicate_within_batch", "duplicate venue/date within this fetched batch")
-        else:
+        elif not codes:
+            # Only a row that will actually be proposed claims the venue/date.
+            # A withheld sibling (e.g. a "Ticket + Hotel Packages" listing that
+            # Discovery returns first) must not shadow the real show listing.
             batch_venue_keys.add(venue_key)
 
     return {
@@ -1269,6 +1272,10 @@ def self_test():
     classify(make_event(), batch=batch_codes)
     check("in-batch duplicate emits duplicate_within_batch",
           "duplicate_within_batch" in codes_for(make_event(id="VV003"), batch=batch_codes))
+    package_first = set()
+    classify(make_event(id="VV006", name="RAYE | Ticket + Hotel Packages"), batch=package_first)
+    check("withheld package listing does not shadow the real listing at the same venue/date",
+          classify(make_event(id="VV007"), batch=package_first)["disposition"] == "proposed")
     check("tombstoned id emits tombstoned_event_id",
           "tombstoned_event_id" in codes_for(make_event(), tomb_ids={"VV001"}))
     check("tombstoned venue/date emits tombstoned_venue_date",

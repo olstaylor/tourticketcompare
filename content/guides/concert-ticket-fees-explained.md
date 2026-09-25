@@ -36,7 +36,7 @@ Ticket fees are not a single charge. Depending on the provider, the event, the t
 
 Not every order has every item, and sites name them differently. Expect more than one line on the final order summary.
 
-Ticketmaster's help page on prices and fees is one provider's own account of how these lines fit together. It says the face value is set by the event organizer, that its upfront price covers the face value and required fees but generally not taxes, that a facility charge is set by the venue and Ticketmaster keeps none of it, and that a delivery fee applies only if you choose a method such as mail or courier. Other sites describe their fees differently, so read each site's own order summary.
+Ticketmaster's help page on prices and fees is one provider's own account of how these lines fit together. It says the face value is set by the event organiser, that its upfront price covers the face value and required fees but generally not taxes, that a facility charge is set by the venue and Ticketmaster keeps none of it, and that a delivery fee applies only if you choose a method such as mail or courier. Other sites describe their fees differently, so read each site's own order summary.
 
 ## Why the first price isn't the final total
 

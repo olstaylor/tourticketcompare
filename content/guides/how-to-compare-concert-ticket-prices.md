@@ -45,7 +45,7 @@ howto:
 
 Start with the concert, not the ticket site. Pin down the artist, the local date and the venue, then match the ticket itself. Two prices for "the same show" often turn out to be a different night, a different section, a resale listing against a primary one, or a single seat against a pair. That isn't a saving; it's a different ticket.
 
-In the United States, the FTC's live-event fee rule requires mandatory fees to be included in the upfront price, although taxes, shipping and optional add-ons can still be shown separately. Other countries have their own rules, and each ticket site displays prices its own way, so the figure to trust is the total on the site's order screen.
+In the United States, the FTC's live-event fee rule, in effect since May 12, 2025, requires mandatory fees to be included in the upfront price, although taxes, shipping and optional add-ons can still be shown separately. Other countries have their own rules, and each ticket site displays prices its own way, so the figure to trust is the total on the site's order screen.
 
 Where a ticket site supplies one, TourTicketCompare shows that site's lowest listed price for a date, with the time it was checked. Prices are checked every few hours. Use the [comparison hub](/compare-concert-ticket-prices) for the method, or go straight to an [artist page](/artists) and pick a date. A listed price tells you where to look first. It isn't live stock, and it isn't your final total.
 
@@ -76,7 +76,7 @@ Note the section, row, seat range, quantity, ticket type, view restriction and d
 
 ## 4. Make the decision at the order summary
 
-US ticket sites now show mandatory fees earlier, but the amount you pay can still move with taxes, delivery, currency conversion, insurance, parking and other extras. Outside the US, the rules differ again.
+US ticket sites now show mandatory fees earlier, but the amount you pay can still move with taxes, delivery, currency conversion, insurance, parking and other extras. The FTC's guidance on its fee rule says a seller may leave only three kinds of charge out of the advertised total (government charges, shipping, and optional add-ons you choose), and must show them, with the final amount, before asking you to pay. Outside the US, the rules differ again.
 
 On the order summary, check:
 
@@ -91,7 +91,7 @@ Decide on that total, together with the ticket and delivery terms. A listed pric
 
 ## 5. Identify primary and resale tickets
 
-Ticketmaster sells primary tickets and also shows resale tickets, labelled as resale. SeatGeek runs a resale marketplace and handles primary ticketing for some partners. Vivid Seats is a resale marketplace where sellers set their own prices.
+Ticketmaster sells primary tickets and also shows resale tickets; its help page on prices and fees says those are labelled as resale before you buy and priced by the reseller, sometimes above and sometimes below the original face value. SeatGeek runs a resale marketplace and handles primary ticketing for some partners. Vivid Seats is a resale marketplace: its help page says every price there is set independently by the reseller.
 
 So the site's name doesn't tell you the ticket type. The listing label and order terms do. Primary and resale tickets for the same event can differ on transfer timing, refunds, who the seller is, and price.
 

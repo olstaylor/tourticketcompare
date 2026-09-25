@@ -966,6 +966,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669005",
+        "url": "https://www.stubhub.ie/hilary-duff-orlando-tickets-10-2-2027/event/107669005",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfUGkdWFF3Y",
@@ -973,7 +980,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284544/Hilary-Duff-tickets-Sat-Oct-2-2027-Kia-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284544"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284544",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-orlando-tickets-10-2-2027/event/107669005"
   },
   {
     "id": "tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj",
@@ -1036,6 +1044,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669009",
+        "url": "https://www.stubhub.ie/hilary-duff-raleigh-tickets-10-4-2027/event/107669009",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpqg6lj",
@@ -1043,7 +1058,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284585/Hilary-Duff-tickets-Mon-Oct-4-2027-Lenovo-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284585"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284585",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-raleigh-tickets-10-4-2027/event/107669009"
   },
   {
     "id": "tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe",
@@ -1106,6 +1122,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669006",
+        "url": "https://www.stubhub.ie/hilary-duff-baltimore-tickets-10-6-2027/event/107669006",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkeT7cFE",
@@ -1113,7 +1136,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284545/Hilary-Duff-tickets-Wed-Oct-6-2027-CFG-Bank-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284545"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284545",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-baltimore-tickets-10-6-2027/event/107669006"
   },
   {
     "id": "tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz",
@@ -1176,6 +1200,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670000",
+        "url": "https://www.stubhub.ie/hilary-duff-uncasville-tickets-10-8-2027/event/107670000",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_K5DwnJz",
@@ -1183,7 +1214,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284546/Hilary-Duff-tickets-Fri-Oct-8-2027-Mohegan-Sun-Arena-CT",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284546"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284546",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-uncasville-tickets-10-8-2027/event/107670000"
   },
   {
     "id": "tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j",
@@ -1246,6 +1278,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670001",
+        "url": "https://www.stubhub.ie/hilary-duff-hershey-tickets-10-9-2027/event/107670001",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGkemPa0J",
@@ -1253,7 +1292,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284547/Hilary-Duff-tickets-Sat-Oct-9-2027-Giant-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284547"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284547",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-hershey-tickets-10-9-2027/event/107670001"
   },
   {
     "id": "tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8",
@@ -1316,6 +1356,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669008",
+        "url": "https://www.stubhub.ie/hilary-duff-buffalo-tickets-10-11-2027/event/107669008",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9lboi8",
@@ -1323,7 +1370,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284548/Hilary-Duff-tickets-Mon-Oct-11-2027-KeyBank-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284548"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284548",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-buffalo-tickets-10-11-2027/event/107669008"
   },
   {
     "id": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
@@ -1386,6 +1434,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669996",
+        "url": "https://www.stubhub.ie/hilary-duff-columbus-tickets-10-15-2027/event/107669996",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPu8GA1iLbE",
@@ -1393,7 +1448,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284550/Hilary-Duff-tickets-Fri-Oct-15-2027-Value-City-Arena-at-The-Schottenstein-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284550"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284550",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-columbus-tickets-10-15-2027/event/107669996"
   },
   {
     "id": "tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi",
@@ -1456,6 +1512,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669007",
+        "url": "https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfsGkdQpqGI",
@@ -1463,7 +1526,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284583/Hilary-Duff-tickets-Sat-Oct-16-2027-PPG-Paints-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007"
   },
   {
     "id": "tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s",
@@ -1526,6 +1590,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669998",
+        "url": "https://www.stubhub.ie/hilary-duff-san-antonio-tickets-11-5-2027/event/107669998",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kh8LC6s",
@@ -1533,7 +1604,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284551/Hilary-Duff-tickets-Fri-Nov-5-2027-Frost-Bank-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284551"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284551",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-san-antonio-tickets-11-5-2027/event/107669998"
   },
   {
     "id": "tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg",
@@ -1596,6 +1668,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669002",
+        "url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
@@ -1603,7 +1682,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002"
   },
   {
     "id": "tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle",
@@ -1666,6 +1746,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669997",
+        "url": "https://www.stubhub.ie/hilary-duff-tulsa-tickets-11-8-2027/event/107669997",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfgGkd6YdLE",
@@ -1673,7 +1760,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284555/Hilary-Duff-tickets-Mon-Nov-8-2027-BOK-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284555"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284555",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tulsa-tickets-11-8-2027/event/107669997"
   },
   {
     "id": "tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo",
@@ -1806,6 +1894,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669010",
+        "url": "https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfgGkdRdJzE",
@@ -1813,7 +1908,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284568/Hilary-Duff-tickets-Fri-Nov-12-2027-Fiserv-Forum",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284568"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284568",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010"
   },
   {
     "id": "tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx",
@@ -1876,6 +1972,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670007",
+        "url": "https://www.stubhub.ie/hilary-duff-kansas-city-tickets-11-15-2027/event/107670007",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPuOGA1LaPX",
@@ -1883,7 +1986,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284570/Hilary-Duff-tickets-Mon-Nov-15-2027-T-Mobile-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284570"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284570",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-kansas-city-tickets-11-15-2027/event/107670007"
   },
   {
     "id": "tm-hilary-duff-2027-denver-g5vzz_kkrpbyy",
@@ -1946,6 +2050,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669020",
+        "url": "https://www.stubhub.ie/hilary-duff-denver-tickets-11-17-2027/event/107669020",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkRpbyy",
@@ -1953,7 +2064,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284571/Hilary-Duff-tickets-Wed-Nov-17-2027-Ball-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284571"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284571",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-denver-tickets-11-17-2027/event/107669020"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv110z_kqbpjub",
@@ -2016,6 +2128,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670011",
+        "url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-20-2027/event/107670011",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv110Z_KQbPJub",
@@ -2023,7 +2142,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284572"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284572",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-20-2027/event/107670011"
   },
   {
     "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p",

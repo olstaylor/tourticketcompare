@@ -46,12 +46,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667899",
+        "url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vCA8yqU",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z"
+    "public_onsale_at": "2026-09-25T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899"
   },
   {
     "id": "tm-oasis-2027-munich-z698xzc2z16ezoffov",
@@ -100,12 +108,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667900",
+        "url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16eZOFFoV",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z"
+    "public_onsale_at": "2026-09-25T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900"
   },
   {
     "id": "tm-oasis-2027-munich-z698xzc2z16v7f7_4g",
@@ -154,12 +170,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669977",
+        "url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v7F7_4g",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z"
+    "public_onsale_at": "2026-09-25T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977"
   },
   {
     "id": "tm-oasis-2027-glasgow-1adfz_3gknft-og",
@@ -222,13 +246,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666276",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-21-5-2027/event/107666276",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3GknFT-Og",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264751",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264751/Oasis-tickets-Fri-May-21-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264751/Oasis-tickets-Fri-May-21-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-21-5-2027/event/107666276"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
@@ -291,13 +323,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666277",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-23-5-2027/event/107666277",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd1ybNO",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264752",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264752/Oasis-tickets-Sun-May-23-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264752/Oasis-tickets-Sun-May-23-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-23-5-2027/event/107666277"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
@@ -360,13 +400,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666278",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-25-5-2027/event/107666278",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5KFPx",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264753",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264753/Oasis-tickets-Tue-May-25-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264753/Oasis-tickets-Tue-May-25-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-25-5-2027/event/107666278"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5pben",
@@ -415,11 +463,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666279",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5PbEN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkdu5imb",
@@ -482,13 +538,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666280",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-29-5-2027/event/107666280",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkdu5Imb",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264755",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264755/Oasis-tickets-Sat-May-29-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264755/Oasis-tickets-Sat-May-29-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-29-5-2027/event/107666280"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
@@ -551,13 +615,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667903",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-4-6-2027/event/107667903",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lwZpdp",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264756",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264756/Oasis-tickets-Fri-Jun-4-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264756/Oasis-tickets-Fri-Jun-4-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-4-6-2027/event/107667903"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lmyj87",
@@ -620,13 +692,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667904",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-6-6-2027/event/107667904",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lMyJ87",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264757",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264757/Oasis-tickets-Sun-Jun-6-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264757/Oasis-tickets-Sun-Jun-6-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-6-6-2027/event/107667904"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lbuu4c",
@@ -689,13 +769,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666273",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-8-6-2027/event/107666273",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lBuU4c",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264758",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264758/Oasis-tickets-Tue-Jun-8-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264758/Oasis-tickets-Tue-Jun-8-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-8-6-2027/event/107666273"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwcjqy",
@@ -744,11 +832,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667905",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lWCJqY",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lxmu-j",
@@ -811,13 +907,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667906",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-12-6-2027/event/107667906",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lXmU-J",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264760/Oasis-tickets-Sat-Jun-12-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264760/Oasis-tickets-Sat-Jun-12-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-12-6-2027/event/107667906"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3nq9ecb",
@@ -880,13 +984,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666274",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-15-6-2027/event/107666274",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3nQ9ecb",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264761",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264761/Oasis-tickets-Tue-Jun-15-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264761/Oasis-tickets-Tue-Jun-15-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-15-6-2027/event/107666274"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lv67ao",
@@ -935,11 +1047,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667907",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lv67aO",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l--ppl",
@@ -1002,13 +1122,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667908",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-19-6-2027/event/107667908",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l--PpL",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264763",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264763/Oasis-tickets-Sat-Jun-19-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264763/Oasis-tickets-Sat-Jun-19-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-19-6-2027/event/107667908"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l0pglg",
@@ -1071,13 +1199,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667909",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-22-6-2027/event/107667909",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l0PgLG",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264764",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264764/Oasis-tickets-Tue-Jun-22-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264764/Oasis-tickets-Tue-Jun-22-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-22-6-2027/event/107667909"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3ljog0t",
@@ -1126,11 +1262,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666275",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lJOg0t",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lnpprv",
@@ -1193,13 +1337,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667910",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-26-6-2027/event/107667910",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lnPPRv",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264766",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264766/Oasis-tickets-Sat-Jun-26-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264766/Oasis-tickets-Sat-Jun-26-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-26-6-2027/event/107667910"
   },
   {
     "id": "tm-oasis-2027-co-meath-1avoz_3gkrnpmuo",
@@ -1354,11 +1506,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666281",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-11-9-2027/event/107666281",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3Gklfny3e",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-11-9-2027/event/107666281"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrrmy7n",
@@ -1407,11 +1567,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666282",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-12-9-2027/event/107666282",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRrmy7N",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-12-9-2027/event/107666282"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrnjt4_",
@@ -1460,11 +1628,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666283",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-18-9-2027/event/107666283",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRNJt4_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-18-9-2027/event/107666283"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkreiyj0",
@@ -1513,11 +1689,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666284",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-19-9-2027/event/107666284",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkREIyJ0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-19-9-2027/event/107666284"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrs3n_k",
@@ -1566,11 +1750,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669975",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-25-9-2027/event/107669975",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRS3n_K",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-25-9-2027/event/107669975"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrz1qva",
@@ -1619,10 +1811,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669976",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-26-9-2027/event/107669976",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRz1QVa",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-26-9-2027/event/107669976"
   }
 ]

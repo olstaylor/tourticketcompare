@@ -429,18 +429,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164509",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8v0atGA5OfFo",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676472",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-albuquerque-g5vzz_er_rgel",

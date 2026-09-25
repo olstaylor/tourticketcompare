@@ -23657,11 +23657,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107258882",
-        "url": "https://www.stubhub.ie/charli-xcx-boston-tickets-9-24-2026/event/107258882",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GpMBifj",
@@ -23669,7 +23669,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034400",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-boston-tickets-9-24-2026/event/107258882"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-charli-xcx-2026-washington-17a8v0g6gknsol1",
@@ -41851,11 +41851,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162165",
-        "url": "https://www.stubhub.ie/karol-g-atlanta-tickets-9-24-2026/event/107162165",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_aG0kdf4",
@@ -41863,7 +41863,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-atlanta-tickets-9-24-2026/event/107162165"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-houston-g5diz_akcfr2w",
@@ -48580,18 +48580,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164509",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8v0atGA5OfFo",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676472",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-albuquerque-g5vzz_er_rgel",
@@ -103329,12 +103329,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667899",
+        "url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vCA8yqU",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z"
+    "public_onsale_at": "2026-09-25T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899"
   },
   {
     "id": "tm-oasis-2027-munich-z698xzc2z16ezoffov",
@@ -103383,12 +103391,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667900",
+        "url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16eZOFFoV",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z"
+    "public_onsale_at": "2026-09-25T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900"
   },
   {
     "id": "tm-oasis-2027-munich-z698xzc2z16v7f7_4g",
@@ -103437,12 +103453,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669977",
+        "url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v7F7_4g",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z"
+    "public_onsale_at": "2026-09-25T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977"
   },
   {
     "id": "tm-hans-zimmer-2027-belmont-park-1adzz_3gkmrvuzw",
@@ -109594,6 +109618,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669005",
+        "url": "https://www.stubhub.ie/hilary-duff-orlando-tickets-10-2-2027/event/107669005",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfUGkdWFF3Y",
@@ -109601,7 +109632,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284544/Hilary-Duff-tickets-Sat-Oct-2-2027-Kia-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284544"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284544",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-orlando-tickets-10-2-2027/event/107669005"
   },
   {
     "id": "tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj",
@@ -109664,6 +109696,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669009",
+        "url": "https://www.stubhub.ie/hilary-duff-raleigh-tickets-10-4-2027/event/107669009",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpqg6lj",
@@ -109671,7 +109710,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284585/Hilary-Duff-tickets-Mon-Oct-4-2027-Lenovo-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284585"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284585",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-raleigh-tickets-10-4-2027/event/107669009"
   },
   {
     "id": "tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe",
@@ -109734,6 +109774,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669006",
+        "url": "https://www.stubhub.ie/hilary-duff-baltimore-tickets-10-6-2027/event/107669006",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkeT7cFE",
@@ -109741,7 +109788,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284545/Hilary-Duff-tickets-Wed-Oct-6-2027-CFG-Bank-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284545"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284545",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-baltimore-tickets-10-6-2027/event/107669006"
   },
   {
     "id": "tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz",
@@ -109804,6 +109852,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670000",
+        "url": "https://www.stubhub.ie/hilary-duff-uncasville-tickets-10-8-2027/event/107670000",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_K5DwnJz",
@@ -109811,7 +109866,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284546/Hilary-Duff-tickets-Fri-Oct-8-2027-Mohegan-Sun-Arena-CT",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284546"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284546",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-uncasville-tickets-10-8-2027/event/107670000"
   },
   {
     "id": "tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j",
@@ -109874,6 +109930,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670001",
+        "url": "https://www.stubhub.ie/hilary-duff-hershey-tickets-10-9-2027/event/107670001",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGkemPa0J",
@@ -109881,7 +109944,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284547/Hilary-Duff-tickets-Sat-Oct-9-2027-Giant-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284547"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284547",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-hershey-tickets-10-9-2027/event/107670001"
   },
   {
     "id": "tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8",
@@ -109944,6 +110008,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669008",
+        "url": "https://www.stubhub.ie/hilary-duff-buffalo-tickets-10-11-2027/event/107669008",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9lboi8",
@@ -109951,7 +110022,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284548/Hilary-Duff-tickets-Mon-Oct-11-2027-KeyBank-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284548"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284548",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-buffalo-tickets-10-11-2027/event/107669008"
   },
   {
     "id": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
@@ -110014,6 +110086,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669996",
+        "url": "https://www.stubhub.ie/hilary-duff-columbus-tickets-10-15-2027/event/107669996",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPu8GA1iLbE",
@@ -110021,7 +110100,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284550/Hilary-Duff-tickets-Fri-Oct-15-2027-Value-City-Arena-at-The-Schottenstein-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284550"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284550",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-columbus-tickets-10-15-2027/event/107669996"
   },
   {
     "id": "tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi",
@@ -110084,6 +110164,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669007",
+        "url": "https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfsGkdQpqGI",
@@ -110091,7 +110178,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284583/Hilary-Duff-tickets-Sat-Oct-16-2027-PPG-Paints-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007"
   },
   {
     "id": "tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s",
@@ -110154,6 +110242,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669998",
+        "url": "https://www.stubhub.ie/hilary-duff-san-antonio-tickets-11-5-2027/event/107669998",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kh8LC6s",
@@ -110161,7 +110256,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284551/Hilary-Duff-tickets-Fri-Nov-5-2027-Frost-Bank-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284551"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284551",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-san-antonio-tickets-11-5-2027/event/107669998"
   },
   {
     "id": "tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg",
@@ -110224,6 +110320,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669002",
+        "url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
@@ -110231,7 +110334,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002"
   },
   {
     "id": "tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle",
@@ -110294,6 +110398,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669997",
+        "url": "https://www.stubhub.ie/hilary-duff-tulsa-tickets-11-8-2027/event/107669997",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfgGkd6YdLE",
@@ -110301,7 +110412,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284555/Hilary-Duff-tickets-Mon-Nov-8-2027-BOK-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284555"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284555",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tulsa-tickets-11-8-2027/event/107669997"
   },
   {
     "id": "tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo",
@@ -110434,6 +110546,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669010",
+        "url": "https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfgGkdRdJzE",
@@ -110441,7 +110560,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284568/Hilary-Duff-tickets-Fri-Nov-12-2027-Fiserv-Forum",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284568"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284568",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010"
   },
   {
     "id": "tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx",
@@ -110504,6 +110624,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670007",
+        "url": "https://www.stubhub.ie/hilary-duff-kansas-city-tickets-11-15-2027/event/107670007",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPuOGA1LaPX",
@@ -110511,7 +110638,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284570/Hilary-Duff-tickets-Mon-Nov-15-2027-T-Mobile-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284570"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284570",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-kansas-city-tickets-11-15-2027/event/107670007"
   },
   {
     "id": "tm-hilary-duff-2027-denver-g5vzz_kkrpbyy",
@@ -110574,6 +110702,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669020",
+        "url": "https://www.stubhub.ie/hilary-duff-denver-tickets-11-17-2027/event/107669020",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkRpbyy",
@@ -110581,7 +110716,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284571/Hilary-Duff-tickets-Wed-Nov-17-2027-Ball-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284571"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284571",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-denver-tickets-11-17-2027/event/107669020"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv110z_kqbpjub",
@@ -110644,6 +110780,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670011",
+        "url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-20-2027/event/107670011",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv110Z_KQbPJub",
@@ -110651,7 +110794,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284572"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284572",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-20-2027/event/107670011"
   },
   {
     "id": "tm-josiah-queen-2027-tulsa-1aozkf0gkevkv5m",
@@ -114701,13 +114845,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666276",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-21-5-2027/event/107666276",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3GknFT-Og",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264751",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264751/Oasis-tickets-Fri-May-21-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264751/Oasis-tickets-Fri-May-21-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-21-5-2027/event/107666276"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
@@ -114770,13 +114922,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666277",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-23-5-2027/event/107666277",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd1ybNO",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264752",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264752/Oasis-tickets-Sun-May-23-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264752/Oasis-tickets-Sun-May-23-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-23-5-2027/event/107666277"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
@@ -114839,13 +114999,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666278",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-25-5-2027/event/107666278",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5KFPx",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264753",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264753/Oasis-tickets-Tue-May-25-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264753/Oasis-tickets-Tue-May-25-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-25-5-2027/event/107666278"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5pben",
@@ -114894,11 +115062,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666279",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5PbEN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkdu5imb",
@@ -114961,13 +115137,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666280",
+        "url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-29-5-2027/event/107666280",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkdu5Imb",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264755",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264755/Oasis-tickets-Sat-May-29-2027-Celtic-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264755/Oasis-tickets-Sat-May-29-2027-Celtic-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-29-5-2027/event/107666280"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
@@ -115030,13 +115214,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667903",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-4-6-2027/event/107667903",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lwZpdp",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264756",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264756/Oasis-tickets-Fri-Jun-4-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264756/Oasis-tickets-Fri-Jun-4-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-4-6-2027/event/107667903"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lmyj87",
@@ -115099,13 +115291,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667904",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-6-6-2027/event/107667904",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lMyJ87",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264757",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264757/Oasis-tickets-Sun-Jun-6-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264757/Oasis-tickets-Sun-Jun-6-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-6-6-2027/event/107667904"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lbuu4c",
@@ -115168,13 +115368,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666273",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-8-6-2027/event/107666273",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lBuU4c",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264758",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264758/Oasis-tickets-Tue-Jun-8-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264758/Oasis-tickets-Tue-Jun-8-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-8-6-2027/event/107666273"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwcjqy",
@@ -115223,11 +115431,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667905",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lWCJqY",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lxmu-j",
@@ -115290,13 +115506,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667906",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-12-6-2027/event/107667906",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lXmU-J",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264760/Oasis-tickets-Sat-Jun-12-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264760/Oasis-tickets-Sat-Jun-12-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-12-6-2027/event/107667906"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3nq9ecb",
@@ -115359,13 +115583,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666274",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-15-6-2027/event/107666274",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3nQ9ecb",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264761",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264761/Oasis-tickets-Tue-Jun-15-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264761/Oasis-tickets-Tue-Jun-15-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-15-6-2027/event/107666274"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lv67ao",
@@ -115414,11 +115646,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667907",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lv67aO",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l--ppl",
@@ -115481,13 +115721,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667908",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-19-6-2027/event/107667908",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l--PpL",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264763",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264763/Oasis-tickets-Sat-Jun-19-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264763/Oasis-tickets-Sat-Jun-19-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-19-6-2027/event/107667908"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l0pglg",
@@ -115550,13 +115798,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667909",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-22-6-2027/event/107667909",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l0PgLG",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264764",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264764/Oasis-tickets-Tue-Jun-22-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264764/Oasis-tickets-Tue-Jun-22-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-22-6-2027/event/107667909"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3ljog0t",
@@ -115605,11 +115861,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666275",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lJOg0t",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lnpprv",
@@ -115672,13 +115936,21 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667910",
+        "url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-26-6-2027/event/107667910",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lnPPRv",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264766",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264766/Oasis-tickets-Sat-Jun-26-2027-Etihad-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264766/Oasis-tickets-Sat-Jun-26-2027-Etihad-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-26-6-2027/event/107667910"
   },
   {
     "id": "tm-oasis-2027-co-meath-1avoz_3gkrnpmuo",
@@ -115833,11 +116105,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666281",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-11-9-2027/event/107666281",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3Gklfny3e",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-11-9-2027/event/107666281"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrrmy7n",
@@ -115886,11 +116166,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666282",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-12-9-2027/event/107666282",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRrmy7N",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-12-9-2027/event/107666282"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrnjt4_",
@@ -115939,11 +116227,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666283",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-18-9-2027/event/107666283",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRNJt4_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-18-9-2027/event/107666283"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkreiyj0",
@@ -115992,11 +116288,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666284",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-19-9-2027/event/107666284",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkREIyJ0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-19-9-2027/event/107666284"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrs3n_k",
@@ -116045,11 +116349,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669975",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-25-9-2027/event/107669975",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRS3n_K",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-25-9-2027/event/107669975"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrz1qva",
@@ -116098,11 +116410,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669976",
+        "url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-26-9-2027/event/107669976",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkRz1QVa",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-26-9-2027/event/107669976"
   },
   {
     "id": "tm-atmosphere-2027-salt-lake-city-g5vzz_kl2vywj",

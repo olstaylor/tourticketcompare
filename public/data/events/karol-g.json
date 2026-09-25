@@ -678,11 +678,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162165",
-        "url": "https://www.stubhub.ie/karol-g-atlanta-tickets-9-24-2026/event/107162165",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_aG0kdf4",
@@ -690,7 +690,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-atlanta-tickets-9-24-2026/event/107162165"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-houston-g5diz_akcfr2w",

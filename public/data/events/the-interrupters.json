@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "tm-the-interrupters-2027-tempe-16v0z_3j3g7wujq",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Tempe",
+    "country": "United States Of America",
+    "venue": "Marquee Theatre",
+    "datetime_iso": "2027-03-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900652992F7671A",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-tempe-arizona-03-19-2027/event/1900652992F7671A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-tempe-arizona-03-19-2027/event/1900652992F7671A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900652992F7671A",
+        "discovery_event_id": "16v0Z_3J3G7WUjQ",
+        "url": "https://www.ticketmaster.com/the-interrupters-tempe-arizona-03-19-2027/event/1900652992F7671A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v0Z_3J3G7WUjQ",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-the-interrupters-2027-dallas-vvg1yz_k69fczg",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "House of Blues Dallas",
+    "datetime_iso": "2027-03-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006531D750EE0C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-dallas-texas-03-23-2027/event/0C006531D750EE0C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-dallas-texas-03-23-2027/event/0C006531D750EE0C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006531D750EE0C",
+        "discovery_event_id": "vvG1YZ_K69fCzG",
+        "url": "https://www.ticketmaster.com/the-interrupters-dallas-texas-03-23-2027/event/0C006531D750EE0C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_K69fCzG",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-houston-g5diz_3r-jkhd",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "House of Blues Houston",
+    "datetime_iso": "2027-03-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006527A1986F3B",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-houston-texas-03-24-2027/event/3A006527A1986F3B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-houston-texas-03-24-2027/event/3A006527A1986F3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006527A1986F3B",
+        "discovery_event_id": "G5dIZ_3r-JkHD",
+        "url": "https://www.ticketmaster.com/the-interrupters-houston-texas-03-24-2027/event/3A006527A1986F3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3r-JkHD",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-st-petersburg-vvg1vz_3xxt6_9",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "St Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2027-03-26T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652FA2A47657",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-st-petersburg-florida-03-26-2027/event/0D00652FA2A47657",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-st-petersburg-florida-03-26-2027/event/0D00652FA2A47657",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652FA2A47657",
+        "discovery_event_id": "vvG1VZ_3Xxt6_9",
+        "url": "https://www.ticketmaster.com/the-interrupters-st-petersburg-florida-03-26-2027/event/0D00652FA2A47657",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3Xxt6_9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-ft-lauderdale-vvg1vz_3bjcjr0",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Ft Lauderdale",
+    "country": "United States Of America",
+    "venue": "Revolution Live",
+    "datetime_iso": "2027-03-27T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652EA63A6BE4",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-ft-lauderdale-florida-03-27-2027/event/0D00652EA63A6BE4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-ft-lauderdale-florida-03-27-2027/event/0D00652EA63A6BE4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652EA63A6BE4",
+        "discovery_event_id": "vvG1VZ_3BJCJR0",
+        "url": "https://www.ticketmaster.com/the-interrupters-ft-lauderdale-florida-03-27-2027/event/0D00652EA63A6BE4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3BJCJR0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-orlando-1aefz_3gkdwdk5a",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "House of Blues Orlando",
+    "datetime_iso": "2027-03-28T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200652EFDEC62C5",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-orlando-florida-03-28-2027/event/2200652EFDEC62C5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-orlando-florida-03-28-2027/event/2200652EFDEC62C5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200652EFDEC62C5",
+        "discovery_event_id": "1AeFZ_3GkDWDk5A",
+        "url": "https://www.ticketmaster.com/the-interrupters-orlando-florida-03-28-2027/event/2200652EFDEC62C5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_3GkDWDk5A",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-atlanta-vvg1zz_3dh5hjb",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Masquerade - Heaven",
+    "datetime_iso": "2027-03-30T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00652EDB2FC73A",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00652EDB2FC73A",
+        "discovery_event_id": "vvG1zZ_3Dh5HjB",
+        "url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3Dh5HjB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-silver-spring-1avfz_3gkbss6tr",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2027-04-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500652EB1CC7FEF",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-silver-spring-maryland-04-02-2027/event/1500652EB1CC7FEF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-silver-spring-maryland-04-02-2027/event/1500652EB1CC7FEF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500652EB1CC7FEF",
+        "discovery_event_id": "1AvfZ_3GkBsS6TR",
+        "url": "https://www.ticketmaster.com/the-interrupters-silver-spring-maryland-04-02-2027/event/1500652EB1CC7FEF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_3GkBsS6TR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-brooklyn-k7vgf_k6y5uwc",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-04-04T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006531F02CDF6D",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-brooklyn-new-york-04-04-2027/event/00006531F02CDF6D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-brooklyn-new-york-04-04-2027/event/00006531F02CDF6D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006531F02CDF6D",
+        "discovery_event_id": "k7vGF_K6Y5uWc",
+        "url": "https://www.ticketmaster.com/the-interrupters-brooklyn-new-york-04-04-2027/event/00006531F02CDF6D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_K6Y5uWc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-boston-vv1avzkftgkexzmrt",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-04-07T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006529A2E2E7A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-boston-massachusetts-04-07-2027/event/01006529A2E2E7A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-boston-massachusetts-04-07-2027/event/01006529A2E2E7A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006529A2E2E7A9",
+        "discovery_event_id": "vv1AvZkftGkexzmrt",
+        "url": "https://www.ticketmaster.com/the-interrupters-boston-massachusetts-04-07-2027/event/01006529A2E2E7A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkftGkexzmrt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-montreal-1ad7z_3gkmrxjga",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-04-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652B9E8A6D49",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-interrupters-montreal-quebec-04-09-2027/event/3100652B9E8A6D49",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-interrupters-montreal-quebec-04-09-2027/event/3100652B9E8A6D49",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652B9E8A6D49",
+        "discovery_event_id": "1Ad7Z_3GkmrxJga",
+        "url": "https://www.ticketmaster.ca/the-interrupters-montreal-quebec-04-09-2027/event/3100652B9E8A6D49",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GkmrxJga",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-toronto-1a8zkfsgkdrk_-b",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-04-10T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006531EF199858",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006531EF199858",
+        "discovery_event_id": "1A8ZkfsGkdRk_-b",
+        "url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfsGkdRk_-b",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-london-1avzz_3gkmfyun4",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "London",
+    "country": "Canada",
+    "venue": "LONDON MUSIC HALL",
+    "datetime_iso": "2027-04-11T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652B88C368D5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-interrupters-london-ontario-04-11-2027/event/1000652B88C368D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-interrupters-london-ontario-04-11-2027/event/1000652B88C368D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652B88C368D5",
+        "discovery_event_id": "1AvZZ_3GkmFYUN4",
+        "url": "https://www.ticketmaster.ca/the-interrupters-london-ontario-04-11-2027/event/1000652B88C368D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkmFYUN4",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-cleveland-vv17fz_3gklukmo_",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "House of Blues Cleveland",
+    "datetime_iso": "2027-04-13T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500652ACD4EE459",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-cleveland-ohio-04-13-2027/event/0500652ACD4EE459",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-cleveland-ohio-04-13-2027/event/0500652ACD4EE459",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500652ACD4EE459",
+        "discovery_event_id": "vv17fZ_3GkluKmo_",
+        "url": "https://www.ticketmaster.com/the-interrupters-cleveland-ohio-04-13-2027/event/0500652ACD4EE459",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_3GkluKmo_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-mckees-rocks-1avbz_3gktimcny",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "McKees Rocks",
+    "country": "United States Of America",
+    "venue": "Roxian Theatre Presented By Citizens",
+    "datetime_iso": "2027-04-14T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600652FE8DCE8F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-mckees-rocks-pennsylvania-04-14-2027/event/1600652FE8DCE8F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-mckees-rocks-pennsylvania-04-14-2027/event/1600652FE8DCE8F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600652FE8DCE8F9",
+        "discovery_event_id": "1AvbZ_3GkTIMCNy",
+        "url": "https://www.ticketmaster.com/the-interrupters-mckees-rocks-pennsylvania-04-14-2027/event/1600652FE8DCE8F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_3GkTIMCNy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-detroit-vv1afzkfxgkesf0dw",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-04-16T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006522B3224EF2",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-detroit-michigan-04-16-2027/event/08006522B3224EF2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-detroit-michigan-04-16-2027/event/08006522B3224EF2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006522B3224EF2",
+        "discovery_event_id": "vv1AFZkfxGkeSF0Dw",
+        "url": "https://www.ticketmaster.com/the-interrupters-detroit-michigan-04-16-2027/event/08006522B3224EF2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfxGkeSF0Dw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-chicago-vv178z_ogkmzy5fz",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "House of Blues Chicago",
+    "datetime_iso": "2027-04-17T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400651DC0E4B500",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-chicago-illinois-04-17-2027/event/0400651DC0E4B500",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-chicago-illinois-04-17-2027/event/0400651DC0E4B500",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400651DC0E4B500",
+        "discovery_event_id": "vv178Z_oGkMZy5fZ",
+        "url": "https://www.ticketmaster.com/the-interrupters-chicago-illinois-04-17-2027/event/0400651DC0E4B500",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_oGkMZy5fZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-saint-louis-vv17bz_3gkdzh1rc",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Pageant",
+    "datetime_iso": "2027-04-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652EC06CABCE",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-saint-louis-missouri-04-18-2027/event/0600652EC06CABCE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-saint-louis-missouri-04-18-2027/event/0600652EC06CABCE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652EC06CABCE",
+        "discovery_event_id": "vv17bZ_3GkDZh1RC",
+        "url": "https://www.ticketmaster.com/the-interrupters-saint-louis-missouri-04-18-2027/event/0600652EC06CABCE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GkDZh1RC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-minneapolis-vv17bz_3gkbzsymo",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "The Fillmore Minneapolis presented by Affinity Plus",
+    "datetime_iso": "2027-04-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652EB8CF9BA0",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-minneapolis-minnesota-04-21-2027/event/0600652EB8CF9BA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-minneapolis-minnesota-04-21-2027/event/0600652EB8CF9BA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652EB8CF9BA0",
+        "discovery_event_id": "vv17bZ_3GkBzSymO",
+        "url": "https://www.ticketmaster.com/the-interrupters-minneapolis-minnesota-04-21-2027/event/0600652EB8CF9BA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GkBzSymO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-interrupters-2027-salt-lake-city-g5vzz_3nsybuv",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Union",
+    "datetime_iso": "2027-04-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00652AB1E58D81",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00652AB1E58D81",
+        "discovery_event_id": "G5vzZ_3nsybUv",
+        "url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_3nsybUv",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-the-interrupters-2027-los-angeles-vv1ke8vpgbgautgrg",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-05-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090065318DFF5BCC",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090065318DFF5BCC",
+        "discovery_event_id": "vv1ke8vPGbGAuTgRG",
+        "url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1ke8vPGbGAuTgRG",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  },
+  {
+    "id": "tm-the-interrupters-2027-anaheim-vv1fe8vpg33pz72fk7",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "House of Blues Anaheim",
+    "datetime_iso": "2027-05-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090065312496E753",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-anaheim-california-05-02-2027/event/090065312496E753",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-anaheim-california-05-02-2027/event/090065312496E753",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090065312496E753",
+        "discovery_event_id": "vv1Fe8vPG33pZ72Fk7",
+        "url": "https://www.ticketmaster.com/the-interrupters-anaheim-california-05-02-2027/event/090065312496E753",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1Fe8vPG33pZ72Fk7",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-09-25T17:00:00Z"
+  }
+]

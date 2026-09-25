@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-24",
+  "updated_at": "2026-09-25",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -810,6 +810,61 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-09-24 (sanctioned path D): SeatGeek performer 19767 and Ticketmaster attraction K8vZ917Gd-0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "sienna-spiro",
+      "ticketmaster_attraction_id": "K8vZ917qxR7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/sienna-spiro-tickets/artist/3376314",
+      "seatgeek_performer_id": 1962775,
+      "seatgeek_artist_url": "https://seatgeek.com/sienna-spiro-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-25 (sanctioned path D): SeatGeek performer 1962775 and Ticketmaster attraction K8vZ917qxR7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "malcolm-todd",
+      "ticketmaster_attraction_id": "K8vZ917jb-V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/malcolm-todd-tickets/artist/3112165",
+      "seatgeek_performer_id": 807371,
+      "seatgeek_artist_url": "https://seatgeek.com/malcolm-todd-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-25 (sanctioned path D): SeatGeek performer 807371 and Ticketmaster attraction K8vZ917jb-V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lizzy-mcalpine",
+      "ticketmaster_attraction_id": "K8vZ917_p3V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lizzy-mcalpine-tickets/artist/2782189",
+      "seatgeek_performer_id": 797454,
+      "seatgeek_artist_url": "https://seatgeek.com/lizzy-mcalpine-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-25 (sanctioned path D): SeatGeek performer 797454 and Ticketmaster attraction K8vZ917_p3V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-interrupters",
+      "ticketmaster_attraction_id": "K8vZ917oanf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-interrupters-tickets/artist/1860963",
+      "seatgeek_performer_id": 249980,
+      "seatgeek_artist_url": "https://seatgeek.com/the-interrupters-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-25 (sanctioned path D): SeatGeek performer 249980 and Ticketmaster attraction K8vZ917oanf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dinosaur-jr",
+      "ticketmaster_attraction_id": "K8vZ91716S0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dinosaur-jr-tickets/artist/966351",
+      "seatgeek_performer_id": 608,
+      "seatgeek_artist_url": "https://seatgeek.com/dinosaur-jr-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-25 (sanctioned path D): SeatGeek performer 608 and Ticketmaster attraction K8vZ91716S0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

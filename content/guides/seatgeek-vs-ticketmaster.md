@@ -152,3 +152,5 @@ No. The site explains their roles and links both to the same date. It never call
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [SeatGeek promo code guide: verify safely](/guides/seatgeek-promo-code-guide)
+- [Is SeatGeek legit?](/guides/is-seatgeek-legit)
+- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)

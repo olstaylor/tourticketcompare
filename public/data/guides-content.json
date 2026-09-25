@@ -180,7 +180,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)"
+        "content": "- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)\n- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)"
       }
     ],
     "sources": [
@@ -423,7 +423,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [SeatGeek promo code guide: verify safely](/guides/seatgeek-promo-code-guide)"
+        "content": "- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [SeatGeek promo code guide: verify safely](/guides/seatgeek-promo-code-guide)\n- [Is SeatGeek legit?](/guides/is-seatgeek-legit)\n- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)"
       }
     ],
     "sources": [
@@ -996,7 +996,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster): the same method for another resale marketplace\n- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)"
+        "content": "- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster): the same method for another resale marketplace\n- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)\n- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)"
       }
     ],
     "sources": [
@@ -1471,6 +1471,482 @@
         "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam",
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-09-25"
+      }
+    ]
+  },
+  "/guides/seatgeek-vs-stubhub": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short answer:** SeatGeek and StubHub are separate companies, and neither is cheaper or safer for every event. StubHub is a resale marketplace. SeatGeek is also a resale marketplace, and for some leagues and venues it is the primary ticketing platform as well. Both publish a buyer guarantee that covers late, invalid or wrong tickets and events that are cancelled and not rescheduled. The useful comparison is the same ticket, for the same date, at the complete current total on each site."
+      },
+      {
+        "type": "section",
+        "title": "SeatGeek vs StubHub at a glance",
+        "content": "| Question | SeatGeek | StubHub |\n|---|---|---|\n| What it is | Primary platform for some leagues and venues, plus a resale marketplace | Resale marketplace |\n| Who sets the price? | The primary partner, or the individual seller on resale listings | The individual seller |\n| Protection name | Buyer Guarantee | FanProtect Guarantee |\n| Cancelled, not rescheduled | Refund to the original payment method or, subject to state law, a credit | Refund |\n| Postponed or rescheduled | Tickets usually stay valid for the new date; generally no refund | Tickets stay valid for the new date; not a FanProtect refund case |\n| US fee display | All-in pricing: mandatory fees in the price shown | Mandatory fees must be in the upfront total under the FTC rule |\n\nThese are the terms each company publishes at the time of writing. Read the current version at checkout, because the order is governed by what you accept there."
+      },
+      {
+        "type": "section",
+        "title": "Who is actually selling the ticket?",
+        "content": "On StubHub, a listing comes from a seller who holds the ticket or has been officially allocated it. StubHub says speculative listings, meaning tickets the seller does not own, are against its seller policies, and that sellers are paid only after the event.\n\nSeatGeek describes its sellers as licensed sellers, other SeatGeek customers, integrated partners and sometimes the team's box office. So a SeatGeek listing might be resale or might be primary, depending on the event. Its help centre calls SeatGeek the primary ticketing platform for a number of leagues and venues, and a marketplace for everyone else.\n\nThat distinction matters more than the brand. A primary ticket and a resale ticket for the same show are different products, with different pricing and sometimes different delivery."
+      },
+      {
+        "type": "section",
+        "title": "Is SeatGeek cheaper than StubHub?",
+        "content": "There is no general answer. Resale prices are set by sellers and move with demand, and SeatGeek's own help centre says secondary-market prices can fall below face value or rise well above it. Two sellers listing similar seats on two marketplaces can land either way round, and the gap can flip within a day.\n\nIn the US, the FTC's fee rule has required the total price of live-event tickets, including mandatory fees, to be shown upfront since 12 May 2025. Taxes, shipping and optional add-ons can still be shown separately, as long as they are disclosed before payment. SeatGeek says its displayed price already includes all mandatory fees, with taxes, shipping and optional services added at checkout where they apply.\n\nSo compare order summaries, not headline numbers:\n\n- Same ticket quantity, section, row and seat type.\n- Same currency, and any conversion cost.\n- Taxes, delivery charges and any add-ons you selected.\n- The time you checked, because either listing can change or disappear."
+      },
+      {
+        "type": "section",
+        "title": "Buyer protection side by side",
+        "content": "Both guarantees cover the same core failures: tickets that arrive late, do not get you in, or are not what you ordered.\n\n**SeatGeek's Buyer Guarantee** says that when one of those happens, SeatGeek may provide comparable or better replacement tickets or offer a refund, depending on the situation. It lists what is generally not covered: mistaken purchases, personal schedule changes, lineup changes that are not cancellations, being refused entry under venue rules, and travel or hotel costs.\n\n**StubHub's FanProtect Guarantee** promises tickets that arrive in time and are valid for entry, a comparable replacement or your money back if there is a problem, and a refund if the event is cancelled and not rescheduled. StubHub says getting you into the event is the first priority, with a refund as the backstop. It is included in every order, not an add-on. It does not cover a change of plans, postponed events or travel costs.\n\nBoth companies ask you to report a problem as soon as possible. StubHub suggests documenting it on the spot, such as a photo at the gate."
+      },
+      {
+        "type": "section",
+        "title": "Cancelled and postponed shows",
+        "content": "A cancelled show and a postponed show are handled very differently on both sites.\n\n- **Cancelled and not rescheduled:** StubHub refunds. SeatGeek, at its discretion, refunds the purchase price to the original payment method or issues a credit, subject to state law.\n- **Postponed or rescheduled:** on both sites your ticket normally carries over to the new date. SeatGeek says it generally does not refund these except where replacement tickets are required or the law requires it. If you cannot make the new date, both sites let you list the ticket for resale.\n\nFor what to do in each case, see [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled)."
+      },
+      {
+        "type": "section",
+        "title": "Delivery",
+        "content": "Delivery depends on the event, not only on the marketplace. SeatGeek delivers some tickets to your SeatGeek account and others through the venue's ticketing app, such as AXS, and some are released only 24 to 48 hours before the event. StubHub covers mobile transfers, PDFs and shipped tickets under FanProtect's on-time delivery promise.\n\nCheck the delivery method and expected timing on the listing before buying, especially if you are travelling."
+      },
+      {
+        "type": "section",
+        "title": "StubHub in the US vs StubHub outside North America",
+        "content": "StubHub's own support site explains that stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to StubHub International, a separately owned business. Accounts do not carry over between the two. If you are buying for a show outside the US or Canada, check which StubHub site you are on and read that site's terms."
+      },
+      {
+        "type": "section",
+        "title": "Which should you use?",
+        "content": "- **For an official onsale:** start with the seller named by the artist, venue or promoter. For some events that is SeatGeek; StubHub is not a primary seller.\n- **For resale:** open the same date on both, match the seats and quantity, and compare the full order totals and delivery timing.\n- **If you might not be able to go:** remember that neither guarantee refunds a change of plans. Both let you resell."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is SeatGeek the same as StubHub?**\n\nNo. They are separate companies. StubHub is a resale marketplace; SeatGeek is a resale marketplace that is also the primary ticketing platform for some leagues and venues.\n\n**Is SeatGeek or StubHub cheaper?**\n\nNeither is cheaper for every show. Resale prices are set by individual sellers and change constantly, so compare the complete order total for the same seats on both sites at the same time.\n\n**Do SeatGeek and StubHub both guarantee tickets?**\n\nBoth publish a buyer guarantee covering tickets that arrive late, are invalid, or are not what you ordered, and both refund events that are cancelled and not rescheduled. Neither covers a change of plans.\n\n**What happens if my show is postponed?**\n\nOn both sites the ticket normally stays valid for the new date. A postponement is generally not a refund case, but you can usually list the ticket for resale if the new date does not work.\n\n**Are fees included in the price on SeatGeek and StubHub?**\n\nIn the US, mandatory fees must be included in the upfront total price for live-event tickets. Taxes, shipping and optional extras can still be added at checkout, so compare the final order summary.\n\n**Does TourTicketCompare sell SeatGeek or StubHub tickets?**\n\nNo. The site links to ticket providers and explains how they differ. The order, its price and its guarantee are between you and the provider."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Can I trust tickets sold on SeatGeek?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Does SeatGeek charge a fee to buy tickets? (All-In Pricing Explained)",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "What is the secondary ticket market?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360012945394-What-is-the-secondary-ticket-market-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "FanProtect Guarantee Explained",
+        "publisher": "StubHub Newsroom",
+        "url": "https://newsroom.stubhub.com/2026/07/29/fanprotect-guarantee-explained/",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "What's the difference between StubHub North America and StubHub International?",
+        "publisher": "StubHub UK Support",
+        "url": "https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-what-s-the-difference-between-stubhub-north-america-and-stubhub-international-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
+        "publisher": "US Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "lastChecked": "2026-09-25"
+      }
+    ]
+  },
+  "/guides/vivid-seats-vs-seatgeek": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short answer:** Vivid Seats and SeatGeek are separate companies, and neither wins on price for every show. Vivid Seats is a resale marketplace where independent sellers set every price. SeatGeek is a resale marketplace too, and the primary ticketing platform for some leagues and venues. Both show all-in prices, each has a published buyer guarantee, and both treat a postponed show very differently from a cancelled one. Compare the same seats, for the same date, at the full order total."
+      },
+      {
+        "type": "section",
+        "title": "Vivid Seats vs SeatGeek at a glance",
+        "content": "| Question | Vivid Seats | SeatGeek |\n|---|---|---|\n| What it is | Resale marketplace | Primary platform for some leagues and venues, plus a resale marketplace |\n| Who sets the price? | Independent resellers | The primary partner, or the seller on resale listings |\n| Fee display | All-in pricing once you start shopping | All-in pricing: mandatory fees in the price shown |\n| Protection name | Buyer Guarantee | Buyer Guarantee |\n| Cancelled, not rescheduled | Refund or store credit of the purchase price, at Vivid Seats' discretion | Refund to the original payment method or, subject to state law, a credit |\n| Postponed or rescheduled | Tickets valid for the new date | Tickets usually valid for the new date; generally no refund |\n\nThese are the terms each company publishes at the time of writing. The version you accept at checkout is the one that applies to your order."
+      },
+      {
+        "type": "section",
+        "title": "Who sets the price?",
+        "content": "Vivid Seats says every ticket price on its site is set independently by the resellers who list there, based on demand for the event and the seat location. Prices can change at any time and can sit above or below the face value printed on the ticket. Sellers have to apply and be approved before they can list, and Vivid Seats marks its longest-standing sellers with a ribbon icon.\n\nSeatGeek's listings come from licensed sellers, other SeatGeek customers, integrated partners and sometimes a team's box office. For the leagues and venues where SeatGeek is the primary platform, you may be buying a primary ticket rather than a resale one. Everywhere else it works as a marketplace, like Vivid Seats."
+      },
+      {
+        "type": "section",
+        "title": "Is Vivid Seats cheaper than SeatGeek?",
+        "content": "Not reliably. When both are showing resale tickets, both prices come from sellers reacting to the same demand, and which one is lower changes from listing to listing and hour to hour. A lower number can also be a different section, a smaller quantity or a different delivery method.\n\nBoth sites display all-in prices, so the number you see already includes mandatory fees. SeatGeek says taxes, shipping and optional add-ons can still be added at checkout; check the final order summary on Vivid Seats in the same way. Then compare:\n\n- The same section, row, quantity and ticket type.\n- The same currency.\n- The final order total, including taxes and delivery.\n- When you checked, because resale listings move."
+      },
+      {
+        "type": "section",
+        "title": "Buyer protection",
+        "content": "**Vivid Seats' Buyer Guarantee** promises a secure transaction, delivery before the event, and tickets that are valid and authentic.\n\n**SeatGeek's Buyer Guarantee** covers tickets delivered in time, valid entry, and tickets matching what you ordered. If one of those fails, SeatGeek may provide comparable or better replacements or a refund, depending on the situation. It says the guarantee generally does not cover mistaken purchases, personal schedule changes, lineup changes that are not cancellations, being refused entry for breaking venue rules, or travel and hotel costs.\n\nIn practice both cover the same core failure: you paid, and the ticket did not get you in. Neither covers a change of plans."
+      },
+      {
+        "type": "section",
+        "title": "Cancelled and postponed shows",
+        "content": "- **Cancelled and not rescheduled:** Vivid Seats compensates with a refund or store credit of the purchase price, including delivery fees, less possible restocking fees, at its discretion. SeatGeek refunds to the original payment method or, subject to state law, issues a credit.\n- **Postponed or rescheduled:** both say your tickets stay valid for the new date. Vivid Seats notes that for some rescheduled events the original ticket seller reissues tickets with new barcodes, and Vivid Seats then delivers the new ones. SeatGeek says it generally does not refund postponed events unless replacement tickets are needed or the law requires it.\n\nIf a show you have tickets for changes, [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) walks through the next steps."
+      },
+      {
+        "type": "section",
+        "title": "Delivery",
+        "content": "Both marketplaces often deliver through another company's system, because the venue decides how tickets are issued. Vivid Seats says an electronic transfer may mean downloading another ticketing app to accept the tickets, and it emails an estimated delivery date once the order is confirmed. SeatGeek delivers some tickets straight to your SeatGeek account and others through apps such as AXS, and some are released only 24 to 48 hours before the event.\n\nNeither is a sign of a problem on its own. Check the listed delivery method before you buy, and do not expect every ticket to appear straight after purchase."
+      },
+      {
+        "type": "section",
+        "title": "Rewards",
+        "content": "Vivid Seats runs a loyalty scheme, Vivid Seats Rewards: its site says you earn a Reward Credit after your tenth ticket, to spend in its app. Treat rewards as a tiebreaker, not a reason to accept a worse seat or a higher total."
+      },
+      {
+        "type": "section",
+        "title": "Which should you use?",
+        "content": "- **For an official onsale:** start with the seller named by the artist, venue or promoter. Vivid Seats is not a primary seller; SeatGeek sometimes is.\n- **For resale:** open the same date on both and compare matching seats at the full order total.\n- **If delivery timing matters:** pick the listing whose stated delivery method and date suit your plans."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is Vivid Seats the same as SeatGeek?**\n\nNo. They are separate companies. Vivid Seats is a resale marketplace; SeatGeek is a resale marketplace that is also the primary ticketing platform for some leagues and venues.\n\n**Which is cheaper, Vivid Seats or SeatGeek?**\n\nNeither, consistently. Resale prices are set by sellers and change often, so compare the same seats and quantity at the final order total on both sites at the same time.\n\n**Do Vivid Seats and SeatGeek include fees in the price?**\n\nBoth say they use all-in pricing, so mandatory fees are in the price shown. Taxes, shipping and optional extras can still be added at checkout.\n\n**What if my event is cancelled?**\n\nIf an event is cancelled and not rescheduled, Vivid Seats gives a refund or store credit and SeatGeek gives a refund or, subject to state law, a credit. Read the terms on your order for which applies.\n\n**Why did Vivid Seats or SeatGeek ask me to use another app?**\n\nVenues decide how tickets are issued. Some tickets are transferred through the venue's ticketing platform, so you accept them in that app rather than on the marketplace.\n\n**Does TourTicketCompare rank Vivid Seats and SeatGeek?**\n\nNo. The site explains how they differ and links to them. It does not call either one better or cheaper in general."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "How are ticket prices determined?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Vivid Seats order protection terms",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Will I receive compensation if my event is rained out, postponed, or rescheduled?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210787-will-i-receive-compensation-if-my-event-is-rained-out-postponed-or-rescheduled-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "How Vivid Seats Works",
+        "publisher": "Vivid Seats",
+        "url": "https://corporate.vividseats.com/how-vivid-seats-works/",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Can I trust tickets sold on SeatGeek?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Does SeatGeek charge a fee to buy tickets? (All-In Pricing Explained)",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "How and when will my tickets be delivered?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered",
+        "lastChecked": "2026-09-25"
+      }
+    ]
+  },
+  "/guides/vivid-seats-vs-stubhub": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short answer:** Vivid Seats and StubHub do the same basic job. Both are resale marketplaces where independent sellers set the price, and neither is the official seller for a concert. Both publish a buyer guarantee covering tickets that arrive late or do not get you in, and both refund in some form when a show is cancelled and not rescheduled. Which one is lower for your show depends on the individual listings, so compare the same seats at the full order total on both."
+      },
+      {
+        "type": "section",
+        "title": "Vivid Seats vs StubHub at a glance",
+        "content": "| Question | Vivid Seats | StubHub |\n|---|---|---|\n| What it is | Resale marketplace | Resale marketplace |\n| Who sets the price? | Independent resellers | Individual sellers |\n| Seller rules | Sellers apply and are approved before listing | Sellers must hold the tickets or be officially allocated them |\n| Protection name | Buyer Guarantee | FanProtect Guarantee |\n| Cancelled, not rescheduled | Refund or store credit, at Vivid Seats' discretion | Refund |\n| Postponed or rescheduled | Tickets valid for the new date | Tickets valid for the new date; not a FanProtect refund case |\n\nThese are the terms each company publishes at the time of writing. The version shown at checkout is the one that governs your order."
+      },
+      {
+        "type": "section",
+        "title": "Two marketplaces, the same kind of listing",
+        "content": "Because both are resale marketplaces, a Vivid Seats listing and a StubHub listing for the same show are the same kind of product: a ticket someone already holds, offered at a price they chose. Vivid Seats says its prices are set independently by resellers, move with supply and demand, and can be above or below face value. StubHub describes the same model and adds two seller rules: no listing tickets the seller does not own, and no payment to the seller until after the event.\n\nVivid Seats says every seller has to apply and be approved before listing, and marks its longest-standing sellers with a ribbon icon.\n\nYou may well see similar seats on both at different prices. That gap is a difference between two listings, each priced by its own seller, not proof that one marketplace is always lower."
+      },
+      {
+        "type": "section",
+        "title": "Is Vivid Seats cheaper than StubHub?",
+        "content": "There is no consistent answer. Each listing is priced by its own seller, and the order can flip between listings and over a single day.\n\nFee display is more comparable than it used to be. In the US, the FTC's fee rule has required live-event ticket prices to include all mandatory fees upfront since 12 May 2025; taxes, shipping and optional extras can still be shown separately if they are disclosed before payment. Vivid Seats says it uses all-in pricing once you start shopping.\n\nA like-for-like check:\n\n- Same date, venue and event name.\n- Same section, row, quantity and ticket type.\n- The final order total in the same currency, including taxes and delivery.\n- The listed delivery method and timing."
+      },
+      {
+        "type": "section",
+        "title": "Buyer protection",
+        "content": "**Vivid Seats' Buyer Guarantee** promises a secure transaction, delivery before the event, and valid, authentic tickets.\n\n**StubHub's FanProtect Guarantee** promises tickets that arrive in time and get you in, a comparable replacement or your money back if something goes wrong, and a refund if the event is cancelled and not rescheduled. StubHub says it tries to get you into the event first, with a refund as the backstop, and that FanProtect is part of every order rather than an add-on. It does not cover a change of plans, a postponed event or your travel costs.\n\nIf a ticket fails at the gate on either site, record what happened, such as a photo or a screenshot, and contact the marketplace the same day."
+      },
+      {
+        "type": "section",
+        "title": "Cancelled and postponed shows",
+        "content": "- **Cancelled and not rescheduled:** StubHub refunds. Vivid Seats compensates with a refund or store credit of the purchase price, including delivery fees but less possible restocking fees, at its discretion.\n- **Postponed or rescheduled:** both say your tickets remain valid for the new date. Vivid Seats adds that when the original ticket seller reissues tickets with new barcodes, it delivers the replacements to you.\n\nIf you cannot make a new date, both marketplaces let you list the ticket for resale. See [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled)."
+      },
+      {
+        "type": "section",
+        "title": "Delivery",
+        "content": "On both sites, delivery depends on how the venue issues tickets. Vivid Seats emails an estimated delivery date once your order is confirmed, and an electronic transfer may mean accepting the tickets in another company's app. StubHub's on-time promise covers mobile transfers, PDFs and shipped tickets."
+      },
+      {
+        "type": "section",
+        "title": "Check which StubHub site you're on",
+        "content": "StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to StubHub International, a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on."
+      },
+      {
+        "type": "section",
+        "title": "Which should you use?",
+        "content": "- **Before either:** check whether face-value tickets are still available from the official seller named by the artist or venue.\n- **For resale:** open the same date on both, match the seats and quantity, and compare the full order totals and delivery.\n- **If the totals are close:** choose on delivery timing and the terms you are more comfortable with."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is Vivid Seats the same as StubHub?**\n\nNo. They are separate companies running separate resale marketplaces, each with its own sellers, fees and buyer guarantee.\n\n**Which is cheaper, Vivid Seats or StubHub?**\n\nNeither, consistently. Prices are set by individual sellers on each site, so compare matching seats at the final order total at the same time.\n\n**Why do similar seats cost different amounts on each site?**\n\nEach listing is priced by its own seller, and the two sites charge their own fees. Compare the final order totals for matching seats rather than the first price shown.\n\n**Do Vivid Seats and StubHub guarantee my tickets?**\n\nBoth publish a buyer guarantee covering on-time delivery and valid tickets. StubHub offers a comparable replacement or refund if something goes wrong; read Vivid Seats' full guarantee terms for its remedies.\n\n**What happens if my show is postponed?**\n\nOn both sites your tickets stay valid for the new date. A postponement is not a refund case under FanProtect, and Vivid Seats compensates only for events cancelled and not rescheduled.\n\n**Does TourTicketCompare sell Vivid Seats or StubHub tickets?**\n\nNo. The site links to providers and explains how they differ; the order is between you and the marketplace."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)\n- [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "How are ticket prices determined?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Vivid Seats order protection terms",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Will I receive compensation if my event is rained out, postponed, or rescheduled?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210787-will-i-receive-compensation-if-my-event-is-rained-out-postponed-or-rescheduled-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "How Vivid Seats Works",
+        "publisher": "Vivid Seats",
+        "url": "https://corporate.vividseats.com/how-vivid-seats-works/",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "FanProtect Guarantee Explained",
+        "publisher": "StubHub Newsroom",
+        "url": "https://newsroom.stubhub.com/2026/07/29/fanprotect-guarantee-explained/",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "What's the difference between StubHub North America and StubHub International?",
+        "publisher": "StubHub UK Support",
+        "url": "https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-what-s-the-difference-between-stubhub-north-america-and-stubhub-international-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
+        "publisher": "US Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "lastChecked": "2026-09-25"
+      }
+    ]
+  },
+  "/guides/is-vivid-seats-legit": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short answer:** yes, Vivid Seats is a real, established ticket resale marketplace, and every order carries its Buyer Guarantee. What \"legit\" does not mean is official. Vivid Seats is not the box office: the tickets on it are resold by independent sellers, at prices those sellers choose, which can be well above face value. Whether a Vivid Seats ticket is a good buy comes down to the listing, the total and the terms, not the brand."
+      },
+      {
+        "type": "section",
+        "title": "What Vivid Seats is",
+        "content": "Vivid Seats is a resale marketplace. It does not issue tickets for concerts itself; it connects buyers with sellers who already hold them. It describes itself as a marketplace of thousands of ticket sellers, and says every seller has to apply and be approved before listing, with its longest-standing sellers marked by a ribbon icon.\n\nThat is why Vivid Seats can have tickets for a show after the official onsale has ended, and why its prices can differ from the price printed on the ticket."
+      },
+      {
+        "type": "section",
+        "title": "What Vivid Seats' published guarantee covers",
+        "content": "Vivid Seats says its guarantee promises three things:\n\n- Your transaction will be secure.\n- Your tickets will be delivered before the event.\n- The tickets will be valid and authentic.\n\nThe guarantee is about the ticket itself. It does not protect you from paying more than face value, from buying the wrong date, or from a change in your own plans. Read the full guarantee terms linked from the Vivid Seats help centre before relying on it for anything specific."
+      },
+      {
+        "type": "section",
+        "title": "Why prices can be above face value",
+        "content": "Vivid Seats says every price on its site is set independently by the reseller listing it, based on demand for the event and where the seat is. Listed prices can change at any time, and can be higher or lower than the ticket's face value. It also says it uses all-in pricing, so fees are included in the price you see once you start shopping.\n\nSo a high price on Vivid Seats is usually a seller's asking price in a busy market, not a sign the site is a scam. It is still a reason to check whether the official seller has face-value tickets left before buying resale."
+      },
+      {
+        "type": "section",
+        "title": "Cancelled and postponed events",
+        "content": "Cancellations and postponements are decided by the artist, venue or promoter, not by Vivid Seats. What Vivid Seats does after that:\n\n- **Cancelled and not rescheduled:** compensation as a refund or store credit of the purchase price, including delivery fees but less possible restocking fees, at Vivid Seats' discretion. It emails you once it has confirmed the cancellation.\n- **Postponed or rescheduled:** your tickets are valid for the new date, and no compensation is due. If the original ticket seller reissues tickets with new barcodes, Vivid Seats delivers the new ones and tells you to discard the old ones.\n\nThat refund-or-credit wording matters. If you would want cash rather than credit, read the terms on your order before you buy. For the general steps, see [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled)."
+      },
+      {
+        "type": "section",
+        "title": "Why you might be asked to use another app",
+        "content": "Venues decide how tickets are issued, and many use a ticketing platform's own app for entry. Vivid Seats says that because it works with many ticketing platforms, you might have to download another app to accept an electronic transfer. After your order is confirmed it emails an estimated delivery date.\n\nAn instruction to accept tickets in the venue's app is normal. An instruction to pay someone outside Vivid Seats is not."
+      },
+      {
+        "type": "section",
+        "title": "How to tell the real Vivid Seats from a scam",
+        "content": "The scams to worry about are imitations of a marketplace, not the marketplace itself. The FTC's warning signs apply directly: pressure to act immediately, and requests to pay by gift card, wire transfer, payment app or cryptocurrency.\n\n- Type the address yourself, or use a link you trust, rather than following an ad or a message.\n- Pay only through the Vivid Seats checkout.\n- Do not move a purchase to direct messages, email or a payment app because a \"seller\" asks.\n- Keep your order confirmation and the delivery email.\n\nFor a fuller checklist, see [how to avoid ticket scams](/guides/how-to-avoid-ticket-scams)."
+      },
+      {
+        "type": "section",
+        "title": "Before you buy on Vivid Seats",
+        "content": "- Confirm the artist, date, venue and city match the show you mean.\n- Check the section, row, quantity and any notes on the listing.\n- Look at the full order total, including taxes and delivery.\n- Note the delivery method and estimated delivery date.\n- Compare the same seats on another marketplace and with the official seller if you can."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is Vivid Seats legit?**\n\nYes. It is an established resale marketplace, and its Buyer Guarantee promises a secure transaction, delivery before the event, and valid, authentic tickets. It is not the official seller for concerts.\n\n**Are Vivid Seats tickets real?**\n\nVivid Seats guarantees that tickets bought through it are valid and authentic. Sellers must be approved before they can list.\n\n**Why are Vivid Seats prices so high?**\n\nResellers set every price on Vivid Seats based on demand and seat location, so prices can be above face value. Check whether the official seller still has tickets first.\n\n**Does Vivid Seats refund cancelled events?**\n\nFor an event cancelled and not rescheduled, Vivid Seats gives compensation as a refund or store credit of the purchase price, at its discretion. Postponed events keep their tickets for the new date.\n\n**Is Vivid Seats the same as Ticketmaster?**\n\nNo. Ticketmaster is the official primary seller for many concerts; Vivid Seats is a resale marketplace. See [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).\n\n**Does TourTicketCompare vet Vivid Seats sellers?**\n\nNo. The site checks that a link goes to the right event on Vivid Seats. The seller, the order and the guarantee are Vivid Seats' to handle."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)\n- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Vivid Seats order protection terms",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "How are ticket prices determined?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Will I receive compensation if my event is rained out, postponed, or rescheduled?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210787-will-i-receive-compensation-if-my-event-is-rained-out-postponed-or-rescheduled-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "What do I do if my event is cancelled? How do I get my compensation?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210801-what-do-i-do-if-my-event-is-cancelled-how-do-i-get-my-compensation-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "How Vivid Seats Works",
+        "publisher": "Vivid Seats",
+        "url": "https://corporate.vividseats.com/how-vivid-seats-works/",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "What are the signs of a scam?",
+        "publisher": "US Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam",
+        "lastChecked": "2026-09-25"
+      }
+    ]
+  },
+  "/guides/is-seatgeek-legit": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short answer:** yes, SeatGeek is a legitimate ticketing company. For some leagues and venues it is the official primary seller; for everything else it is a resale marketplace where fans and licensed sellers list tickets. Every order is backed by SeatGeek's Buyer Guarantee, which covers tickets that arrive late, do not get you in, or are not what you ordered. It does not cover a change of plans, and a postponed show is generally not refunded."
+      },
+      {
+        "type": "section",
+        "title": "What SeatGeek is",
+        "content": "SeatGeek plays two roles. Its help centre says it is the primary ticketing platform for a number of leagues and venues, and a marketplace where people resell tickets they bought elsewhere. Tickets on SeatGeek come from licensed sellers, other SeatGeek customers, integrated partners and sometimes a team's own box office.\n\nSo one SeatGeek event page can mix different kinds of ticket. Check whether the listing you are looking at is primary or resale, because that changes who set the price and how it behaves."
+      },
+      {
+        "type": "section",
+        "title": "Are SeatGeek tickets real?",
+        "content": "SeatGeek's answer is that every order is backed by its Buyer Guarantee, which generally covers three things:\n\n- Your tickets are delivered in time for the event.\n- Your tickets give valid entry.\n- The tickets you receive match the tickets you ordered.\n\nIf one of those fails, SeatGeek says it may provide comparable or better replacement tickets or a refund, depending on the situation. It also says it monitors marketplace activity and may review sellers, listings, transfers and orders."
+      },
+      {
+        "type": "section",
+        "title": "What the Buyer Guarantee does not cover",
+        "content": "SeatGeek lists what the guarantee generally excludes:\n\n- Buying the wrong tickets by mistake.\n- Not being able to go any more.\n- Lineup, performer or schedule changes that are not a cancellation.\n- Being refused entry for venue rules, age limits or behaviour.\n- Travel, hotel, parking and other costs around the event.\n\nMost complaints that SeatGeek \"isn't legit\" come from this list, a postponed show, or a resale price well above face value. None of those mean the tickets were fake."
+      },
+      {
+        "type": "section",
+        "title": "Cancelled and postponed shows",
+        "content": "- **Cancelled and not rescheduled:** SeatGeek, at its discretion, refunds the purchase price to your original payment method or, subject to state law, issues a credit for a future purchase. It notifies eligible buyers with next steps.\n- **Postponed or rescheduled:** your tickets usually stay valid for the new date. If replacement tickets are needed, SeatGeek works to get them. It generally does not refund postponed or rescheduled events unless replacements are required or the law requires it. If you cannot go, you may be able to list the tickets on SeatGeek.\n\nSee [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) for the general steps."
+      },
+      {
+        "type": "section",
+        "title": "Why SeatGeek prices can be above face value",
+        "content": "On resale listings the seller sets the price. SeatGeek's own explanation of the secondary market says resale prices move far more than box-office prices: tickets often drop below face value, but when box-office tickets are underpriced or hard to get, resale prices can be higher.\n\nSeatGeek uses all-in pricing: the price on the event page includes all mandatory fees. Taxes, shipping and optional add-ons can still be added at checkout. Fees are generally not refundable except under the Buyer Guarantee."
+      },
+      {
+        "type": "section",
+        "title": "\"My tickets haven't arrived yet\"",
+        "content": "A late-looking delivery is often normal. SeatGeek says some tickets appear within minutes, but others are released closer to the event, often 24 to 48 hours before it starts. Some venues also require delivery through their own platform, such as AXS, so the tickets appear in that app rather than in SeatGeek. The delivery destination is shown before checkout and cannot be changed afterwards.\n\nIf the event is close and nothing has arrived, contact SeatGeek directly; late delivery is one of the things the Buyer Guarantee covers."
+      },
+      {
+        "type": "section",
+        "title": "Staying on the real SeatGeek",
+        "content": "The risk is not SeatGeek itself but people pretending to be it or selling \"SeatGeek tickets\" privately. The FTC's warning signs apply: unexpected messages asking for money, pressure to act immediately, and requests to pay by cash, gift card, wire transfer, cryptocurrency or a payment app.\n\n- Buy only through SeatGeek's own site or app.\n- Do not pay a seller outside SeatGeek's checkout, whatever they say.\n- Ignore ads and messages offering SeatGeek tickets or promo codes from unfamiliar addresses.\n\nFor more, see [how to avoid ticket scams](/guides/how-to-avoid-ticket-scams)."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is SeatGeek legit?**\n\nYes. SeatGeek is an established ticketing company: the primary seller for some leagues and venues, and a resale marketplace for other events. Orders are covered by its Buyer Guarantee.\n\n**Are SeatGeek tickets real?**\n\nSeatGeek's Buyer Guarantee covers tickets that do not give valid entry, arrive too late, or are not the tickets you ordered, with a replacement or refund depending on the situation.\n\n**Does SeatGeek refund postponed events?**\n\nGenerally not. Tickets usually stay valid for the new date, and SeatGeek refunds only where replacement tickets are needed or the law requires it. Events cancelled and not rescheduled are refunded or credited.\n\n**Why are SeatGeek tickets more expensive than face value?**\n\nMany SeatGeek listings are resale, and resale sellers set their own prices. When official tickets are hard to get, resale prices can be above face value.\n\n**Why haven't my SeatGeek tickets arrived?**\n\nSome tickets are released only 24 to 48 hours before the event, and some are delivered to the venue's own ticketing app. Contact SeatGeek if the event is close and nothing has arrived.\n\n**Is SeatGeek safer than buying from someone on social media?**\n\nA SeatGeek order is covered by the Buyer Guarantee. A private sale paid by payment app, gift card or transfer has none of that protection."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)\n- [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Can I trust tickets sold on SeatGeek?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "What is the secondary ticket market?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360012945394-What-is-the-secondary-ticket-market-",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "Does SeatGeek charge a fee to buy tickets? (All-In Pricing Explained)",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "How and when will my tickets be delivered?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered",
+        "lastChecked": "2026-09-25"
+      },
+      {
+        "name": "What are the signs of a scam?",
+        "publisher": "US Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam",
+        "lastChecked": "2026-09-25"
       }
     ]
   }

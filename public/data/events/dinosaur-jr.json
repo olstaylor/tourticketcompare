@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "tm-dinosaur-jr-2026-las-vegas-17ayv0g6ujiqnhu",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. Fall Tour 2026 With Special Guest Stef Chura",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Las Vegas",
+    "datetime_iso": "2026-10-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064D9A86AA6F6",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-las-vegas-nevada-10-09-2026/event/170064D9A86AA6F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-las-vegas-nevada-10-09-2026/event/170064D9A86AA6F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064D9A86AA6F6",
+        "discovery_event_id": "17AYv0G6uJIQnhU",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-las-vegas-nevada-10-09-2026/event/170064D9A86AA6F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6uJIQnhU",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-tempe-17k8v0g6ujk40ss",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr.",
+    "city": "Tempe",
+    "country": "United States Of America",
+    "venue": "Marquee Theatre",
+    "datetime_iso": "2026-10-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064D993564C71",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-tempe-arizona-10-10-2026/event/190064D993564C71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-tempe-arizona-10-10-2026/event/190064D993564C71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064D993564C71",
+        "discovery_event_id": "17k8v0G6uJK40ss",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-tempe-arizona-10-10-2026/event/190064D993564C71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G6uJK40ss",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-solana-beach-z7r9jz1a7puxp",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr",
+    "city": "Solana Beach",
+    "country": "United States Of America",
+    "venue": "Belly Up Tavern",
+    "datetime_iso": "2026-10-12T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PUxp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUxp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUxp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PUxp",
+        "discovery_event_id": "Z7r9jZ1A7PUxp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUxp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PUxp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-anaheim-vvg10z_uu7ndiz",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Fall Tour 2026 with special guest Stef Chura",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "House of Blues Anaheim",
+    "datetime_iso": "2026-10-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064DD848C3B38",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-anaheim-california-10-15-2026/event/090064DD848C3B38",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-anaheim-california-10-15-2026/event/090064DD848C3B38",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064DD848C3B38",
+        "discovery_event_id": "vvG10Z_uU7Ndiz",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-anaheim-california-10-15-2026/event/090064DD848C3B38",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_uU7Ndiz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-los-angeles-vvg10z_ueyxka-",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr.: Fall Tour 2026 with special guest Stef Chura",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Bellwether",
+    "datetime_iso": "2026-10-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064D9F0893261",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-los-angeles-california-10-16-2026/event/090064D9F0893261",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-los-angeles-california-10-16-2026/event/090064D9F0893261",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064D9F0893261",
+        "discovery_event_id": "vvG10Z_uEYxKa-",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-los-angeles-california-10-16-2026/event/090064D9F0893261",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_uEYxKa-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-san-francisco-g5vyz_ullh3se",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. Fall Tour 2026 With Special Guest Stef Chura",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Castro Theatre",
+    "datetime_iso": "2026-10-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064DAEB6D2C42",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-san-francisco-california-10-18-2026/event/1C0064DAEB6D2C42",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-san-francisco-california-10-18-2026/event/1C0064DAEB6D2C42",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064DAEB6D2C42",
+        "discovery_event_id": "G5vYZ_ullh3se",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-san-francisco-california-10-18-2026/event/1C0064DAEB6D2C42",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_ullh3se",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-menlo-park-z7r9jz1aazmfs",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Stef Chura",
+    "city": "Menlo Park",
+    "country": "United States Of America",
+    "venue": "The Guild Theatre - CA",
+    "datetime_iso": "2026-10-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZMfs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZMfs",
+        "discovery_event_id": "Z7r9jZ1AAZMfs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZMfs",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-sacramento-g5vyz_u0dqoo1",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Fall Tour 2026 with special guest Stef Chura",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Ace of Spades",
+    "datetime_iso": "2026-10-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064D90375144A",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064D90375144A",
+        "discovery_event_id": "G5vYZ_u0dqoo1",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_u0dqoo1",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-portland-z7r9jz1a7pu-m",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Stef Chura",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Revolution Hall - Portland",
+    "datetime_iso": "2026-10-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PU-M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU-M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU-M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PU-M",
+        "discovery_event_id": "Z7r9jZ1A7PU-M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU-M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-M",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-seattle-vvg1hz_ul9tuc_",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. with special guest Stef Chura",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2026-10-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064DAD7A4DB59",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-23-2026/event/0F0064DAD7A4DB59",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-23-2026/event/0F0064DAD7A4DB59",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064DAD7A4DB59",
+        "discovery_event_id": "vvG1HZ_ul9tuc_",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-23-2026/event/0F0064DAD7A4DB59",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_ul9tuc_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-seattle-vvg1hz_ul9nqcx",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. with special guest Stef Chura",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064DAD7A9DB62",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-24-2026/event/0F0064DAD7A9DB62",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-24-2026/event/0F0064DAD7A9DB62",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064DAD7A9DB62",
+        "discovery_event_id": "vvG1HZ_ul9nqcx",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-24-2026/event/0F0064DAD7A9DB62",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_ul9nqcx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-salt-lake-city-z7r9jz1a7pmzv",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Stef Chura",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2026-10-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PMZV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PMZV",
+        "discovery_event_id": "Z7r9jZ1A7PMZV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PMZV",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-denver-z7r9jz1a7pu0p",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ogden Theatre",
+    "datetime_iso": "2026-10-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PU0P",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU0P",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU0P",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PU0P",
+        "discovery_event_id": "Z7r9jZ1A7PU0P",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU0P",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU0P",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-houston-g5diz_uj-6tws",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Fall Tour 2026 with special guest Stef Chura",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "House of Blues Houston",
+    "datetime_iso": "2026-11-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064D9A11E9F73",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064D9A11E9F73",
+        "discovery_event_id": "G5dIZ_uJ-6tWS",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_uJ-6tWS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-austin-g5diz_usqkioq",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Fall Tour 2026 with special guest Stef Chura",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Stubb's Waller Creek Amphitheater",
+    "datetime_iso": "2026-11-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064DCDD1AC45A",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-austin-texas-11-05-2026/event/3A0064DCDD1AC45A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-austin-texas-11-05-2026/event/3A0064DCDD1AC45A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064DCDD1AC45A",
+        "discovery_event_id": "G5dIZ_uSqkioQ",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-austin-texas-11-05-2026/event/3A0064DCDD1AC45A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_uSqkioQ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-san-antonio-z7r9jz1a7j7j_",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Stef Chura",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Paper Tiger",
+    "datetime_iso": "2026-11-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J7J_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7J_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7J_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J7J_",
+        "discovery_event_id": "Z7r9jZ1A7J7J_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7J_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7J_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Tipitinas",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PU-o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU-o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU-o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PU-o",
+        "discovery_event_id": "Z7r9jZ1A7PU-o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU-o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-o",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1a",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - 16+",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Steel",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvK1a",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvK1a",
+        "discovery_event_id": "Z7r9jZ1AAvK1a",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK1a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1f",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Ages 16+",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Steel",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvK1F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvK1F",
+        "discovery_event_id": "Z7r9jZ1AAvK1F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK1F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-silver-spring-164zkf4pnzau65fa",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. Spring Tour 2027 with special guest Starcrawler",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2027-02-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006515963C6A78",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-silver-spring-maryland-02-16-2027/event/15006515963C6A78",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-silver-spring-maryland-02-16-2027/event/15006515963C6A78",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006515963C6A78",
+        "discovery_event_id": "164Zkf4PNZAu65Fa",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-silver-spring-maryland-02-16-2027/event/15006515963C6A78",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "164Zkf4PNZAu65Fa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-orlando-z7r9jz1aav8-u",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Plaza Live - Orlando",
+    "datetime_iso": "2027-02-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8-U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8-U",
+        "discovery_event_id": "Z7r9jZ1AAv8-U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8-U",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-athens-z7r9jz1aavk1o",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Starcrawler",
+    "city": "Athens",
+    "country": "United States Of America",
+    "venue": "Georgia Theatre",
+    "datetime_iso": "2027-02-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvK1o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvK1o",
+        "discovery_event_id": "Z7r9jZ1AAvK1o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK1o",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-nashville-g5viz_o987bgu",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Spring Tour 2027",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Nashville",
+    "datetime_iso": "2027-02-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006515D013A336",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-nashville-tennessee-02-26-2027/event/1B006515D013A336",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-nashville-tennessee-02-26-2027/event/1B006515D013A336",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006515D013A336",
+        "discovery_event_id": "G5viZ_o987BGU",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-nashville-tennessee-02-26-2027/event/1B006515D013A336",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_o987BGU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-cincinnati-1kaovpaogacpo0v",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. Spring Tour 2027 with special guest Starcrawler",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Bogart's",
+    "datetime_iso": "2027-02-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160065151E591901",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-cincinnati-ohio-02-27-2027/event/160065151E591901",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-cincinnati-ohio-02-27-2027/event/160065151E591901",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065151E591901",
+        "discovery_event_id": "1kAOvPAoGACpo0v",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-cincinnati-ohio-02-27-2027/event/160065151E591901",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAOvPAoGACpo0v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-minneapolis-z7r9jz1aav8op",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Ages 18+",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2027-03-05T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8OP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8OP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8OP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8OP",
+        "discovery_event_id": "Z7r9jZ1AAv8OP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8OP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8OP",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-chicago-z7r9jz1aaedov",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Starcrawler",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Vic Theatre",
+    "datetime_iso": "2027-03-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAedOv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedOv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedOv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAedOv",
+        "discovery_event_id": "Z7r9jZ1AAedOv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedOv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAedOv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-toronto-1a8zkf4gkdtrlfj",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Spring Tour 2027",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2027-03-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006515E97AB51C",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dinosaur-jr-spring-tour-2027-toronto-ontario-03-07-2027/event/10006515E97AB51C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dinosaur-jr-spring-tour-2027-toronto-ontario-03-07-2027/event/10006515E97AB51C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006515E97AB51C",
+        "discovery_event_id": "1A8Zkf4Gkdtrlfj",
+        "url": "https://www.ticketmaster.ca/dinosaur-jr-spring-tour-2027-toronto-ontario-03-07-2027/event/10006515E97AB51C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zkf4Gkdtrlfj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-boston-vv16vzkf4vvza5c5kf",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr. - Spring Tour 2027",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-03-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006515074ADA57",
+    "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006515074ADA57",
+        "discovery_event_id": "vv16vZkf4vVZA5C5kF",
+        "url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16vZkf4vVZA5C5kF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

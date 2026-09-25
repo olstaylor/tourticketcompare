@@ -947,5 +947,75 @@
     "last_verified_at": "2026-09-24",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-09-24"
+  },
+  {
+    "slug": "sienna-spiro",
+    "name": "Sienna Spiro",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-25"
+  },
+  {
+    "slug": "malcolm-todd",
+    "name": "Malcolm Todd",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-25"
+  },
+  {
+    "slug": "lizzy-mcalpine",
+    "name": "Lizzy McAlpine",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-25"
+  },
+  {
+    "slug": "the-interrupters",
+    "name": "The Interrupters",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-25"
+  },
+  {
+    "slug": "dinosaur-jr",
+    "name": "Dinosaur Jr.",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-25"
   }
 ]

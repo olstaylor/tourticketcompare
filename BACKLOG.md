@@ -21,14 +21,14 @@ Items 1–4 are **operational** (owner + gated tooling), not engineering. The en
 Continuing operations following the 2026-07-13 activation:
 
 1. Monitor the nightly scheduled event-sync runs (see `docs/OPERATIONS.md` for the schedule) via their auto-merged PRs and `reports/provider-sync/`; for manual dispatch, run preview before apply, review its PR, and browser-check new sample destinations across markets.
-2. Monitor the hourly TicketNetwork and StubHub International exact-ID price snapshot schedule (24-hour freshness constant, with prices past 12h labelled "last checked N hours ago"; each apply run ends with a 90-day history prune). Ticket Liquidator must stay price-disabled until its catalog supplies numeric `CurrentPrice`.
+2. Monitor the hourly TicketNetwork and StubHub International exact-ID price snapshot schedule (24-hour freshness constant; since 2026-09-24 every displayed price shows its age, "Checked N hours ago", and prices past 12h are also counted as stale by `price-coverage-report.yml`; each apply run ends with a 90-day history prune). Ticket Liquidator must stay price-disabled until its catalog supplies numeric `CurrentPrice`.
 3. Monitor catalog/campaign access and tracking. Set the matching public flag explicitly to `false` on a provider/API mismatch or redirect failure.
 
 StubHub International is separate from StubHub US/Canada.
 
 ### 3. Roster growth (2026/27 tours)
 
-Run `npm run artists:onboard:propose` with target artist names (US/EU major tours), create shells, human-review the manifest, then `npm run artists:promote:batch --write` (≤20/PR, per-artist human browser spot-check checklist in the PR body). Event enrichment follows via the existing `seatgeek:propose` / `seatgeek:enrich` and TM new-show pipelines. Never auto-publish.
+Run `npm run artists:onboard:propose` with target artist names (US/EU major tours), create shells, human-review the manifest, then `npm run artists:promote:batch --write` (≤20/PR, per-artist human browser spot-check checklist in the PR body). Event enrichment follows via the existing `seatgeek:propose` / `seatgeek:enrich` and TM new-show pipelines. This manual path never auto-publishes. Since 2026-09-24 most new artists arrive through auto-promote instead (`SAFE_PUBLISHING_RULES.md` → D; owner requests in `data/artist-requests.json`, runbook `docs/ARTIST_INGESTION.md`); use this path for an act the automatic screen cannot pass, or when a human-written profile is wanted from day one.
 
 **Candidate shortlist captured 2026-07-29** (manifests live in gitignored `artifacts/` and do not survive environment recycling, so names are recorded here): identity already captured cleanly via `artists:onboard:propose` for **Gracie Abrams, Niall Horan, Doja Cat, Sombr, Latto, John Summit** — all six have since been promoted (see Recently completed). Next candidates for a fresh `roster:forecast:candidates` pass: re-run against current data, since the indexable surface continues to decay as dates pass (`npm run roster:forecast`). (Fact corrected 2026-09-11: this sentence still said the last roster-growth batch was “several weeks old”; the most recent batch is the 2026-09-09 one recorded below.)
 

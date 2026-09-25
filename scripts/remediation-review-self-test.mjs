@@ -61,7 +61,7 @@ assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)
 const appVersion = shell.match(/\/app\.js\?v=([0-9a-z]+)/)?.[1];
 const smokeVersion = smoke.match(/const APP_ASSET_VERSION = "([0-9a-z]+)"/)?.[1];
 assert.equal(appVersion, smokeVersion);
-assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260821a");
+assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260925a");
 assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260924b");
 assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260924v");
 assert.match(route, /\/artist-board\.js\?v=20260924c/);

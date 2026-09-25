@@ -5,7 +5,7 @@
   Permissions-Policy: interest-cohort=()
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
-  Content-Security-Policy: default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'
 
 # Versioned static assets: every reference carries a ?v= cache-busting query
 # string that is bumped whenever the file changes, so they are safe to cache
@@ -26,6 +26,9 @@
   Cache-Control: public, max-age=31536000, immutable
 
 /ttc-shell.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/consent.js
   Cache-Control: public, max-age=31536000, immutable
 
 /shell.js

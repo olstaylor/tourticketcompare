@@ -262,7 +262,7 @@ export const TRUST_ROUTES = {
       "How TourTicketCompare handles analytics, watchlist signups, and information when you browse or follow a ticket link.",
     indexable: true,
     breadcrumb: [{ name: "Privacy policy", path: "/privacy" }],
-    lastmod: "2026-09-24"
+    lastmod: "2026-09-25"
   },
   "/terms": {
     title: "Terms of Use | TourTicketCompare",

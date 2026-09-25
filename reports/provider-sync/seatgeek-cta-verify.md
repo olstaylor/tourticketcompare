@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-24T09:58:17.250Z
+Generated: 2026-09-25T10:14:07.177Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 288 (needs_recheck: 288, provenance backfill: 0, stale re-check: 152)
-- Events skipped before API checks: 130
-- API calls made: 288
-- Verified provenance written: 148
-- URLs added: 4
+- Events selected: 393 (needs_recheck: 292, provenance backfill: 1, stale re-check: 252)
+- Events skipped before API checks: 132
+- API calls made: 394
+- Verified provenance written: 252
+- URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 0
+- Provenance un-verified: 1
 - Conflicts (ambiguous, untouched): 2
-- No qualifying listing: 134
+- No qualifying listing: 138
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -26,13 +26,114 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 
 | showId | artist | action | SeatGeek id | url | notes |
 | --- | --- | --- | --- | --- | --- |
+| tm-harry-styles-2026-new-york-3b00643505428256 | harry-styles | verify (applied) | 18027114 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-09-25-8-pm/concert/18027114 | - |
+| tm-harry-styles-2026-new-york-3b006435054e8262 | harry-styles | verify (applied) | 18027116 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-09-26-8-pm/concert/18027116 | - |
+| tm-harry-styles-2026-new-york-3b00643505768283 | harry-styles | verify (applied) | 18027117 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-09-30-8-pm/concert/18027117 | - |
+| tm-harry-styles-2026-new-york-3b00643505888295 | harry-styles | verify (applied) | 18027119 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-02-8-pm/concert/18027119 | - |
+| tm-harry-styles-2026-new-york-3b006435059882a6 | harry-styles | verify (applied) | 18027123 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-03-8-pm/concert/18027123 | - |
+| tm-harry-styles-2026-new-york-3b00643505aa82b9 | harry-styles | verify (applied) | 18027125 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-07-8-pm/concert/18027125 | - |
+| tm-harry-styles-2026-new-york-3b00643505b782ca | harry-styles | verify (applied) | 18027126 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-09-8-pm/concert/18027126 | - |
+| tm-harry-styles-2026-new-york-3b00643505d182df | harry-styles | verify (applied) | 18027129 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-10-8-pm/concert/18027129 | - |
+| tm-harry-styles-2026-new-york-3b00643505dd82e6 | harry-styles | verify (applied) | 18027130 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-14-8-pm/concert/18027130 | - |
+| tm-harry-styles-2026-new-york-3b00643505ee82f4 | harry-styles | verify (applied) | 18027131 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-16-8-pm/concert/18027131 | - |
+| tm-harry-styles-2026-new-york-3b00643506808378 | harry-styles | verify (applied) | 18027135 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-17-8-pm/concert/18027135 | - |
+| tm-harry-styles-2026-new-york-3b0064350690838a | harry-styles | verify (applied) | 18027137 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-21-8-pm/concert/18027137 | - |
+| tm-harry-styles-2026-new-york-3b006435069e8398 | harry-styles | verify (applied) | 18027138 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-23-8-pm/concert/18027138 | - |
+| tm-harry-styles-2026-new-york-3b00643506ae83a2 | harry-styles | verify (applied) | 18027141 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-24-8-pm/concert/18027141 | - |
+| tm-harry-styles-2026-new-york-3b00643506bf83b6 | harry-styles | verify (applied) | 18027142 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-28-8-pm/concert/18027142 | - |
+| tm-harry-styles-2026-new-york-3b00643506cf83cb | harry-styles | verify (applied) | 18027143 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-30-8-pm/concert/18027143 | - |
+| tm-harry-styles-2026-new-york-3b00643506da83de | harry-styles | verify (applied) | 18027147 | https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-31-8-pm/concert/18027147 | - |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a706ep | olivia-rodrigo | verify (applied) | 18211661 | https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-25-7-pm/concert/18211661 | - |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677 | olivia-rodrigo | verify (applied) | 18211658 | https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-26-7-pm/concert/18211658 | - |
+| tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv | olivia-rodrigo | verify (applied) | 18211667 | https://seatgeek.com/olivia-rodrigo-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-09-29-7-pm/concert/18211667 | - |
+| tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7 | olivia-rodrigo | verify (applied) | 18211669 | https://seatgeek.com/olivia-rodrigo-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-09-30-7-pm/concert/18211669 | - |
+| tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387 | olivia-rodrigo | verify (applied) | 18211668 | https://seatgeek.com/olivia-rodrigo-tickets/washington-district-of-columbia-capital-one-arena-2026-10-03-7-pm/concert/18211668 | - |
+| tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz | olivia-rodrigo | verify (applied) | 18211670 | https://seatgeek.com/olivia-rodrigo-tickets/washington-district-of-columbia-capital-one-arena-2026-10-04-7-pm/concert/18211670 | - |
+| tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b | olivia-rodrigo | verify (applied) | 18211674 | https://seatgeek.com/olivia-rodrigo-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-10-07-7-pm/concert/18211674 | - |
+| tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g | olivia-rodrigo | verify (applied) | 18211678 | https://seatgeek.com/olivia-rodrigo-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-10-08-7-pm/concert/18211678 | - |
+| tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa | olivia-rodrigo | verify (applied) | 18211679 | https://seatgeek.com/olivia-rodrigo-tickets/chicago-illinois-united-center-2026-10-11-7-pm/concert/18211679 | - |
+| tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy | olivia-rodrigo | verify (applied) | 18211680 | https://seatgeek.com/olivia-rodrigo-tickets/chicago-illinois-united-center-2026-10-12-7-pm/concert/18211680 | - |
+| tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc | olivia-rodrigo | verify (applied) | 18211681 | https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-15-7-pm/concert/18211681 | - |
+| tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn | olivia-rodrigo | verify (applied) | 18211686 | https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-17-7-pm/concert/18211686 | - |
+| tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k | olivia-rodrigo | verify (applied) | 18224681 | https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-18-7-pm/concert/18224681 | - |
+| tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9 | olivia-rodrigo | verify (applied) | 18211732 | https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-21-7-pm/concert/18211732 | - |
+| tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_ | olivia-rodrigo | verify (applied) | 18211735 | https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-22-7-pm/concert/18211735 | - |
+| tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb | olivia-rodrigo | verify (applied) | 18211736 | https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-26-7-pm/concert/18211736 | - |
+| tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj | olivia-rodrigo | verify (applied) | 18211738 | https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-27-7-pm/concert/18211738 | - |
+| tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij | olivia-rodrigo | verify (applied) | 18211687 | https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-29-7-pm/concert/18211687 | - |
+| tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri- | olivia-rodrigo | verify (applied) | 18211689 | https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-30-7-pm/concert/18211689 | - |
+| tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg | olivia-rodrigo | verify (applied) | 18211690 | https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-07-7-pm/concert/18211690 | - |
+| tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy | olivia-rodrigo | verify (applied) | 18211692 | https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-08-7-pm/concert/18211692 | - |
+| tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5 | olivia-rodrigo | verify (applied) | 18211693 | https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-11-7-pm/concert/18211693 | - |
+| tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb | olivia-rodrigo | verify (applied) | 18211698 | https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-12-7-pm/concert/18211698 | - |
+| tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj | olivia-rodrigo | verify (applied) | 18211699 | https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-15-7-pm/concert/18211699 | - |
+| tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf | olivia-rodrigo | verify (applied) | 18211700 | https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-16-7-pm/concert/18211700 | - |
 | tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f | olivia-rodrigo | verify (applied) | 18208621 | https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621 | - |
 | tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o | olivia-rodrigo | verify (applied) | 18208620 | https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620 | - |
+| tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo | olivia-rodrigo | verify (applied) | 18211703 | https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-23-7-pm/concert/18211703 | - |
+| tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh | olivia-rodrigo | verify (applied) | 18211705 | https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-24-7-pm/concert/18211705 | - |
+| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb | olivia-rodrigo | verify (applied) | 18211742 | https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-01-7-pm/concert/18211742 | - |
+| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj | olivia-rodrigo | verify (applied) | 18211743 | https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-02-7-pm/concert/18211743 | - |
+| tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty | olivia-rodrigo | verify (applied) | 18211710 | https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-07-7-pm/concert/18211710 | - |
+| tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1 | olivia-rodrigo | verify (applied) | 18211711 | https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-08-7-pm/concert/18211711 | - |
+| tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b | olivia-rodrigo | verify (applied) | 18211712 | https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-11-7-pm/concert/18211712 | - |
+| tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1 | olivia-rodrigo | verify (applied) | 18211714 | https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-12-7-pm/concert/18211714 | - |
+| tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi | olivia-rodrigo | verify (applied) | 18211717 | https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-15-7-pm/concert/18211717 | - |
+| tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy | olivia-rodrigo | verify (applied) | 18211719 | https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-16-7-pm/concert/18211719 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | olivia-rodrigo | verify (applied) | 18211722 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | olivia-rodrigo | verify (applied) | 18211723 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw | olivia-rodrigo | verify (applied) | 18211724 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-12-7-pm/concert/18211724 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b | olivia-rodrigo | verify (applied) | 18211726 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-13-7-pm/concert/18211726 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku | olivia-rodrigo | verify (applied) | 18214730 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-16-7-pm/concert/18214730 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45 | olivia-rodrigo | verify (applied) | 18211731 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-17-7-pm/concert/18211731 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr | olivia-rodrigo | verify (applied) | 18224991 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-20-7-pm/concert/18224991 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph | olivia-rodrigo | verify (applied) | 18224990 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-21-7-pm/concert/18224990 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo | olivia-rodrigo | verify (applied) | 18225825 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-24-7-pm/concert/18225825 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd | olivia-rodrigo | verify (applied) | 18227093 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-25-7-pm/concert/18227093 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte- | olivia-rodrigo | verify (applied) | 18230500 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-28-7-pm/concert/18230500 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq | olivia-rodrigo | verify (applied) | 18230501 | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-29-7-pm/concert/18230501 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq | olivia-rodrigo | verify (applied) | 18211656 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-11-7-pm/concert/18211656 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn | olivia-rodrigo | verify (applied) | 18211659 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-12-7-pm/concert/18211659 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl | olivia-rodrigo | verify (applied) | 18211660 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-15-7-pm/concert/18211660 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs | olivia-rodrigo | verify (applied) | 18211657 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-16-7-pm/concert/18211657 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx | olivia-rodrigo | verify (applied) | 18224685 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-19-7-pm/concert/18224685 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi | olivia-rodrigo | verify (applied) | 18224992 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-20-7-pm/concert/18224992 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi | olivia-rodrigo | verify (applied) | 18226585 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-23-7-pm/concert/18226585 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw | olivia-rodrigo | verify (applied) | 18226587 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-24-7-pm/concert/18226587 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg | olivia-rodrigo | verify (applied) | 18227138 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-27-7-pm/concert/18227138 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx | olivia-rodrigo | verify (applied) | 18229435 | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-28-7-pm/concert/18229435 | - |
+| tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a | bruno-mars | verify (applied) | 18004676 | https://seatgeek.com/bruno-mars-tickets/colorado-springs-colorado-falcon-stadium-2026-09-26-7-pm/concert/18004676 | - |
+| tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i | bruno-mars | verify (applied) | 18013502 | https://seatgeek.com/bruno-mars-tickets/colorado-springs-colorado-falcon-stadium-2026-09-27-7-pm/concert/18013502 | - |
+| tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f | bruno-mars | verify (applied) | 18107918 | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-09-30-7-pm/concert/18107918 | - |
+| tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx | bruno-mars | verify (applied) | 18004678 | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-02-7-pm/concert/18004678 | - |
+| tm-bruno-mars-2026-inglewood-vvg1izbyhid9od | bruno-mars | verify (applied) | 18004681 | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-03-7-pm/concert/18004681 | - |
+| tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin | bruno-mars | verify (applied) | 18013259 | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-06-7-pm/concert/18013259 | - |
+| tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is | bruno-mars | verify (applied) | 18013882 | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-07-7-pm/concert/18013882 | - |
+| tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn | bruno-mars | verify (applied) | 18004682 | https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-10-7-pm/concert/18004682 | - |
+| tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx | bruno-mars | verify (applied) | 18013261 | https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-11-7-pm/concert/18013261 | - |
+| tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm | bruno-mars | verify (applied) | 18004687 | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-14-7-pm/concert/18004687 | - |
+| tm-bruno-mars-2026-vancouver-1av7z_egkshvjex | bruno-mars | verify (applied) | 18013263 | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-16-7-pm/concert/18013263 | - |
+| tm-bruno-mars-2026-vancouver-1av7z_egkshmjia | bruno-mars | verify (applied) | 18013350 | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-17-7-pm/concert/18013350 | - |
+| tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb | bruno-mars | verify (applied) | 18016784 | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784 | - |
+| tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay | bruno-mars | verify (applied) | 18107920 | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-21-7-pm/concert/18107920 | - |
+| tm-ed-sheeran-2026-foxborough-0100632fcae52e03 | ed-sheeran | verify (applied) | 17738460 | https://seatgeek.com/ed-sheeran-tickets/foxborough-massachusetts-gillette-stadium-2026-09-25-5-30-pm/concert/17738460 | - |
+| tm-ed-sheeran-2026-foxborough-01006331f67e74d9 | ed-sheeran | verify (applied) | 17738463 | https://seatgeek.com/ed-sheeran-tickets/foxborough-massachusetts-gillette-stadium-2026-09-26-5-30-pm/concert/17738463 | - |
+| tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1 | ed-sheeran | verify (applied) | 17738465 | https://seatgeek.com/ed-sheeran-tickets/atlanta-georgia-mercedes-benz-stadium-2026-10-03-5-30-pm/concert/17738465 | - |
+| tm-ed-sheeran-2026-indianapolis-050063299afd15f3 | ed-sheeran | verify (applied) | 17738466 | https://seatgeek.com/ed-sheeran-tickets/indianapolis-indiana-lucas-oil-stadium-2026-10-10-5-30-pm/concert/17738466 | - |
+| tm-ed-sheeran-2026-charlotte-2d006331aac349eb | ed-sheeran | verify (applied) | 17738470 | https://seatgeek.com/ed-sheeran-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-10-17-5-30-pm/concert/17738470 | - |
 | tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | ed-sheeran | verify (applied) | 17729039 | https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039 | - |
+| tm-ed-sheeran-2026-hollywood-0d006331a7d91aff | ed-sheeran | verify (applied) | 17738469 | https://seatgeek.com/ed-sheeran-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-29-8-pm/concert/17738469 | - |
+| tm-ed-sheeran-2026-hollywood-0d006331f45e4089 | ed-sheeran | verify (applied) | 17738471 | https://seatgeek.com/ed-sheeran-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-30-8-pm/concert/17738471 | - |
+| tm-ed-sheeran-2026-tampa-0d006331d60a3a7a | ed-sheeran | verify (applied) | 17738474 | https://seatgeek.com/ed-sheeran-tickets/tampa-florida-raymond-james-stadium-2026-11-07-5-30-pm/concert/17738474 | - |
+| tm-jay-z-2026-inglewood-vvg1iz_gncu5jv | jay-z | verify (applied) | 18296599 | https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599 | - |
+| tm-charli-xcx-2026-boston-vvg17z_gpmbifj | charli-xcx | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18292514 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
+| tm-charli-xcx-2026-washington-17a8v0g6gknsol1 | charli-xcx | verify (applied) | 18292512 | https://seatgeek.com/charli-xcx-tickets/washington-district-of-columbia-capital-one-arena-2026-09-28-7-30-pm/concert/18292512 | - |
+| tm-charli-xcx-2026-atlanta-vvg1zz_g99-nfd | charli-xcx | verify (applied) | 18292513 | https://seatgeek.com/charli-xcx-tickets/atlanta-georgia-state-farm-arena-1-2026-10-06-8-pm/concert/18292513 | - |
+| tm-charli-xcx-2026-san-diego-vvg1iz_gpnxmrx | charli-xcx | verify (applied) | 18292521 | https://seatgeek.com/charli-xcx-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-14-8-pm/concert/18292521 | - |
+| tm-charli-xcx-2026-inglewood-vvg10z_g9r7nph | charli-xcx | verify (applied) | 18292522 | https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-17-8-pm/concert/18292522 | - |
+| tm-charli-xcx-2026-inglewood-vvg10z_g9gehi7 | charli-xcx | verify (applied) | 18292523 | https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-18-8-pm/concert/18292523 | - |
+| tm-charli-xcx-2026-glendale-17k8v0g6g9pu_yt | charli-xcx | verify (applied) | 18292524 | https://seatgeek.com/charli-xcx-tickets/glendale-arizona-desert-diamond-arena-2026-10-21-8-pm/concert/18292524 | - |
+| tm-summer-walker-2026-chicago-vvg18z_uroiect | summer-walker | verify (applied) | 18328041 | https://seatgeek.com/summer-walker-tickets/chicago-illinois-credit-union-1-arena-at-uic-2026-10-16-7-30-pm/concert/18328041 | - |
 | tm-gracie-abrams-2027-amsterdam-z698xzbpz16vpdafzk | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -86,7 +187,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_ | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7 | five-finger-death-punch | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z | tame-impala | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i | tame-impala | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -154,7 +254,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-beartooth-2026-maplewood-z7r9jz1aava89 | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-beartooth-2026-saint-augustine-z7r9jz1a70igm | beartooth | verify (applied) | 18253061 | https://seatgeek.com/beartooth-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-12-04-6-pm/concert/18253061 | - |
 | tm-beartooth-2026-fort-lauderdale-z7r9jz1a70igy | beartooth | verify (applied) | 18235668 | https://seatgeek.com/beartooth-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-05-6-30-pm/concert/18235668 | - |
-| tm-tyla-2026-amsterdam-z698xzbpz1kf3e9o_ | tyla | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6 | luke-combs | verify (applied) | 18493422 | https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422 | - |
 | tm-sombr-2027-hamburg-z698xzc2z1k-yjfqj | sombr | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-sombr-2027-merksem-antwerpen-z698xzg2z16v0pps8o | sombr | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -169,7 +268,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-polyphia-2026-warsaw-z698xzqpz1k-vasek | polyphia | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-polyphia-2026-berlin-z698xzc2z16vompnuz | polyphia | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-polyphia-2026-oberhausen-z698xzc2z16vk8v9xd | polyphia | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-polyphia-2026-amsterdam-z698xzbpz16v49fppe | polyphia | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-polyphia-2027-san-diego-z7r9jz1aav67j | polyphia | verify (applied) | 18536015 | https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015 | - |
 | tm-stella-lefty-2026-san-francisco-z7r9jz1a70epk | stella-lefty | verify (applied) | 18253661 | https://seatgeek.com/stella-lefty-tickets/san-francisco-california-bimbos-365-club-2026-10-30-8-pm/concert/18253661 | - |
 | tm-stella-lefty-2026-west-hollywood-z7r9jz1a70e4e | stella-lefty | verify (applied) | 18253662 | https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662 | - |
@@ -304,16 +402,23 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-the-warning-2027-vancouver-z7r9jz1aavjo7 | the-warning | verify (applied) | 18590212 | https://seatgeek.com/the-warning-tickets/vancouver-canada-vogue-theatre-bc-1-2027-04-25-7-pm/concert/18590212 | - |
 | tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp | the-warning | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-the-warning-2027-atlanta-z7r9jz1aavtgj | the-warning | verify (applied) | 18593340 | https://seatgeek.com/the-warning-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-04-8-pm/concert/18593340 | - |
-| tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa | michelle-branch | add (applied) | 18508826 | https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-05-7-30-pm/concert/18508826 | - |
+| tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa | michelle-branch | verify (applied) | 18508826 | https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-05-7-30-pm/concert/18508826 | - |
 | tm-pink-martini-2027-charlottesville-z7r9jz1aav-zj | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-oasis-2027-munich-z698xzc2z16vca8yqu | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-oasis-2027-munich-z698xzc2z16ezoffov | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-oasis-2027-munich-z698xzc2z16v7f7_4g | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-kenny-chesney-2027-greenville-z7r9jz1aavsad | kenny-chesney | add (applied) | 18570962 | https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962 | - |
-| tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7 | kenny-chesney | add (applied) | 18414534 | https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534 | - |
+| tm-kenny-chesney-2027-greenville-z7r9jz1aavsad | kenny-chesney | verify (applied) | 18570962 | https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962 | - |
+| tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7 | kenny-chesney | verify (applied) | 18414534 | https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534 | - |
 | tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa | kenny-chesney | conflict | - | - | ambiguous: 2 qualifying SeatGeek events in the window |
 | tm-the-psychedelic-furs-2027-ridgefield-z7r9jz1aavuq6 | the-psychedelic-furs | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-atmosphere-2027-eugene-z7r9jz1aaez3b | atmosphere | add (applied) | 18609088 | https://seatgeek.com/atmosphere-tickets/eugene-oregon-mcdonald-theatre-2027-01-28-8-pm/concert/18609088 | - |
+| tm-atmosphere-2027-eugene-z7r9jz1aaez3b | atmosphere | verify (applied) | 18609088 | https://seatgeek.com/atmosphere-tickets/eugene-oregon-mcdonald-theatre-2027-01-28-8-pm/concert/18609088 | - |
+| tm-hilary-duff-2027-madrid-z698xz2qz16vpo4y_t | hilary-duff | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k | hilary-duff | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-hilary-duff-2027-amsterdam-z698xzbpz1k3djpek | hilary-duff | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-passenger-2027-brussels-z698xzg2z16v-xbfos | passenger | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-john-summit-2026-las-vegas-z7r9jz1a7xbfk | john-summit | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-vnv-nation-2027-denver-z7r9jz1a7jv8m | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p | hilary-duff | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 
 ## Skipped before API checks
 
@@ -341,6 +446,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-harry-styles-2026-new-york-3b00643504c881f8 | harry-styles | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-harry-styles-2026-new-york-3b00643504e38212 | harry-styles | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-harry-styles-2026-new-york-3b00643505178231 | harry-styles | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-harry-styles-2026-new-york-3b0064350525823a | harry-styles | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bts-2026-stanford-1c006429c95ea2b8 | bts | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bts-2026-stanford-1c006429c9dda300 | bts | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bts-2026-stanford-1c006435858268ec | bts | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -384,6 +490,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw | bruno-mars | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bruno-mars-2026-miami-vvg1vz_ekc64hs | bruno-mars | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_ | bruno-mars | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-bruno-mars-2026-san-antonio-g5dizbyc__upm | bruno-mars | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-shakira-2026-inglewood-vv1aazkovgkdf4iwr | shakira | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-shakira-2026-inglewood-vv1aazkovgkdf_jwm | shakira | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-shakira-2026-palm-desert-vvg1iz_6abv7yw | shakira | event is in the past — SeatGeek delists finished shows; nothing to maintain |

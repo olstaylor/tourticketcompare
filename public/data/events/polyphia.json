@@ -334,59 +334,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-polyphia-2026-amsterdam-z698xzbpz16v49fppe",
-    "artist_slug": "polyphia",
-    "artist_name": "Polyphia",
-    "event_name": "Polyphia | Premium Seats",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "AFAS Live Loge",
-    "datetime_iso": "2026-12-08T19:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1557225582",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1557225582",
-        "discovery_event_id": "Z698xZbpZ16v49FPpe",
-        "url": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16v49FPpe",
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-polyphia-2026-birmingham-g5dzz_gsc9wjr",
     "artist_slug": "polyphia",
     "artist_name": "Polyphia",

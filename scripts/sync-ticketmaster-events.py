@@ -81,6 +81,14 @@ PROPOSABLE_STATUS_CODES = {"onsale", ""}
 # Travel/hospitality upsell markers checked against event name and URL.
 TRAVEL_PACKAGE_MARKERS = ("travel", "hotel", "package", "parking", "shuttle", "hospitality")
 
+# Premium-seat / box upsell products Ticketmaster lists as separate events
+# (e.g. "Passenger | Premium Seats" at venue "AFAS Live Loge"). Deliberately
+# narrow: the name must carry a "| Premium Seats" suffix segment or the venue
+# name must end in " Loge", so a plain concert at a venue with a premium area
+# is never withheld.
+PREMIUM_SEATS_NAME_RE = re.compile(r"\|\s*premium seats\b", re.IGNORECASE)
+PREMIUM_SEATS_VENUE_SUFFIX = " loge"
+
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
 AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
 
@@ -109,7 +117,7 @@ WITHHOLD_REASON_CODES = {
     "missing_storefront_event_id": "Resolved storefront URL has no /event/<id> path segment.",
     "destination_is_affiliate_wrapper": "Resolved destination is still an affiliate wrapper, not a storefront.",
     "placeholder_url": "URL matches a placeholder marker (localhost, example.com, ...).",
-    "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality upsell package.",
+    "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality/premium-seat upsell package.",
     "attraction_identity_mismatch": "Event attractions do not include the registry's verified attraction ID.",
     "not_primary_attraction": "Registry attraction is not the primary attraction (support act / festival lineup).",
     "duplicate_existing_event_id": "Same Ticketmaster event id as an existing events.json row.",
@@ -565,6 +573,10 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
 
     haystack = f"{event_name} {url} {resolved_url}".lower()
     travel_hits = [m for m in TRAVEL_PACKAGE_MARKERS if m in haystack]
+    if PREMIUM_SEATS_NAME_RE.search(event_name):
+        travel_hits.append("| premium seats")
+    if venue_name.lower().endswith(PREMIUM_SEATS_VENUE_SUFFIX):
+        travel_hits.append("loge venue")
     if travel_hits:
         withhold(
             "travel_package_listing",
@@ -985,6 +997,26 @@ def self_test():
             make_event(name="RAYE Hotel + Ticket Travel Package")
         )["withheld_reasons"]),
     )
+    loge_venue = make_event()
+    loge_venue["_embedded"]["venues"] = [
+        {"name": "AFAS Live Loge", "city": {"name": "Amsterdam"}, "country": {"name": "Netherlands"}}
+    ]
+    check(
+        "premium-seats upsell withheld (name and loge venue)",
+        any("travel/upsell" in r for r in classify(
+            make_event(name="RAYE | Premium Seats")
+        )["withheld_reasons"])
+        and any("travel/upsell" in r for r in classify(loge_venue)["withheld_reasons"]),
+    )
+    premium_area_venue = make_event()
+    premium_area_venue["_embedded"]["venues"] = [
+        {"name": "Logement Hall", "city": {"name": "Amsterdam"}, "country": {"name": "Netherlands"}}
+    ]
+    check(
+        "plain concert is not withheld as a premium-seats upsell",
+        not any("travel/upsell" in r for r in classify(make_event(name="RAYE: Premium Tour"))["withheld_reasons"])
+        and not any("travel/upsell" in r for r in classify(premium_area_venue)["withheld_reasons"]),
+    )
     wrong_attraction = make_event()
     wrong_attraction["_embedded"]["attractions"] = [{"id": "K8vZsomeoneelse"}]
     check(
@@ -1220,6 +1252,11 @@ def self_test():
         make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")))
     check("travel package emits travel_package_listing", "travel_package_listing" in codes_for(
         make_event(name="RAYE Hotel + Ticket Travel Package")))
+    check("premium-seats listing emits travel_package_listing", "travel_package_listing" in codes_for(
+        make_event(name="Passenger | Premium Seats")))
+    check("loge venue emits travel_package_listing", "travel_package_listing" in codes_for(loge_venue))
+    check("plain concert at an ordinary venue emits no travel_package_listing",
+          "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",
           "attraction_identity_mismatch" in codes_for(wrong_attraction))
     check("support-act appearance emits not_primary_attraction",

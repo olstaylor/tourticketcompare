@@ -49968,59 +49968,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435"
   },
   {
-    "id": "tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4",
-    "artist_slug": "five-finger-death-punch",
-    "artist_name": "Five Finger Death Punch",
-    "event_name": "Five Finger Death Punch | Premium Seats",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "AFAS Live Loge",
-    "datetime_iso": "2027-02-07T18:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1192592955",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1192592955",
-        "discovery_event_id": "Z698xZbpZ16vk3p3P4",
-        "url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16vk3p3P4",
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7",
     "artist_slug": "five-finger-death-punch",
     "artist_name": "Five Finger Death Punch",
@@ -68912,59 +68859,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento"
   },
   {
-    "id": "tm-tyla-2026-amsterdam-z698xzbpz1kf3e9o_",
-    "artist_slug": "tyla",
-    "artist_name": "Tyla",
-    "event_name": "Tyla | Premium Seats",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "AFAS Live Loge",
-    "datetime_iso": "2026-10-13T18:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "212097819",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/tyla-%7C-premium-seats-tickets/212097819?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/tyla-%7C-premium-seats-tickets/212097819?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "212097819",
-        "discovery_event_id": "Z698xZbpZ1kF3e9O_",
-        "url": "https://www.ticketmaster.nl/event/tyla-%7C-premium-seats-tickets/212097819?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ1kF3e9O_",
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6",
     "artist_slug": "luke-combs",
     "artist_name": "Luke Combs",
@@ -70426,59 +70320,6 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vk8v9xd",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-polyphia-2026-amsterdam-z698xzbpz16v49fppe",
-    "artist_slug": "polyphia",
-    "artist_name": "Polyphia",
-    "event_name": "Polyphia | Premium Seats",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "AFAS Live Loge",
-    "datetime_iso": "2026-12-08T19:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1557225582",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1557225582",
-        "discovery_event_id": "Z698xZbpZ16v49FPpe",
-        "url": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16v49FPpe",
-    "timezone": "Europe/Amsterdam",
     "status": "on-sale"
   },
   {
@@ -113360,60 +113201,6 @@
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v-xbFOs",
     "timezone": "Europe/Brussels",
     "status": "on-sale"
-  },
-  {
-    "id": "tm-passenger-2027-amsterdam-z698xzbpz1aub0gy",
-    "artist_slug": "passenger",
-    "artist_name": "Passenger",
-    "event_name": "Passenger | Premium Seats",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "AFAS Live Loge",
-    "datetime_iso": "2027-03-21T19:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "36624330",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "36624330",
-        "discovery_event_id": "Z698xZbpZ1AUb0GY",
-        "url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ1AUb0GY",
-    "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
   },
   {
     "id": "tm-passenger-2027-milano-zg9rmiynyzd6ea",

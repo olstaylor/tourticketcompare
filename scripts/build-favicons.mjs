@@ -6,6 +6,10 @@
 //   node scripts/build-favicons.mjs
 //
 // Needs the `sharp` dev dependency (npm ci).
+//
+// After changing the artwork, bump the ?v= on the icon <link>s in public/index.html
+// and functions/admin.js: Cloudflare's edge caches these files for a week and a
+// deploy does not purge it, so only a new URL reaches visitors straight away.
 
 import sharp from "sharp";
 import fs from "node:fs";

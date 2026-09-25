@@ -209,6 +209,23 @@ export function relatedPosts(posts, post, limit = 3) {
 }
 
 /**
+ * Published posts that name an artist in `related_artists`, newest first. The
+ * reverse of a post's "Artists mentioned" list, so the artist page links back
+ * to the posts written about it instead of leaving them reachable from /blog
+ * alone.
+ *
+ * @param {Array<object>} posts All published posts, as derivePosts returns them.
+ * @param {string} artistSlug
+ * @param {number} [limit]
+ * @returns {Array<object>}
+ */
+export function postsForArtist(posts, artistSlug, limit = 3) {
+  const wanted = text(artistSlug);
+  if (!wanted) return [];
+  return (posts || []).filter((post) => (post.relatedArtists || []).includes(wanted)).slice(0, limit);
+}
+
+/**
  * Sitemap/llms.txt entries for the whole blog surface: the index, every
  * indexable post, and every indexable tag page. Nothing noindex enters this
  * list, so the "no noindex page in the sitemap" rule holds by construction.

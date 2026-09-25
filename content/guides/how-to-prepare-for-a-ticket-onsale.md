@@ -26,6 +26,7 @@ The ticket site runs the onsale: stock, queue order, prices and fees. Here's a r
 - Set up your provider account in advance: confirmed email, current phone number for verification, a saved payment method, and your billing address.
 - For transfer-locked tickets, check that your account name and ID details match how you intend to enter the venue.
 - Note the onsale time in your own timezone so you are not early or late by an hour.
+- For tours tracked here, the [on-sale calendar](/on-sale) lists the public Ticketmaster onsale time for each date. Presales are not on it.
 
 The US Federal Trade Commission's advice on buying tickets to in-demand events covers the same ground: look for chances to buy before the public onsale, sign up for alerts from ticket sellers, artists and venues, ask your credit card company about promotions, and set up an account with the ticket seller beforehand so you are ready to buy as soon as tickets go on sale.
 

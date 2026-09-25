@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "11006444AF06B1D7",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027--concerts-pop/production/6652450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-22-2027/event/11006444AF06B1D7",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6652450,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027--concerts-pop/production/6652450",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "1100644D9B108469",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-vancouver-rogers-arena-1-23-2027--concerts-pop/production/6678903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
     "last_verified_at": null,
@@ -103,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6678903,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-vancouver-rogers-arena-1-23-2027--concerts-pop/production/6678903",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -142,7 +142,7 @@
     "ticketmaster_event_id": "110064466F6D29F3",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027--concerts-pop/production/6652458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-calgary-alberta-01-26-2027/event/110064466F6D29F3",
     "last_verified_at": null,
@@ -164,11 +164,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6652458,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027--concerts-pop/production/6652458",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -211,7 +211,7 @@
     "ticketmaster_event_id": "110064451AE7F95A",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-edmonton-rogers-place-1-27-2027--concerts-pop/production/6652467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-edmonton-alberta-01-27-2027/event/110064451AE7F95A",
     "last_verified_at": null,
@@ -233,11 +233,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6652467,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-edmonton-rogers-place-1-27-2027--concerts-pop/production/6652467",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -280,7 +280,7 @@
     "ticketmaster_event_id": "110064537DAB58F9",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-saskatoon-sasktel-centre-1-29-2027--concerts-pop/production/6693424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
     "last_verified_at": null,
@@ -302,11 +302,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6693424,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-saskatoon-sasktel-centre-1-29-2027--concerts-pop/production/6693424",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -341,7 +341,7 @@
     "ticketmaster_event_id": "1100644ABDD62163",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027--concerts-pop/production/6652472",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
     "last_verified_at": null,
@@ -363,11 +363,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6652472,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027--concerts-pop/production/6652472",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -410,7 +410,7 @@
     "ticketmaster_event_id": "1000644BCF79E2D8",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-hamilton-td-coliseum-2-2-2027--concerts-pop/production/6652474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
     "last_verified_at": null,
@@ -432,11 +432,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6652474,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-hamilton-td-coliseum-2-2-2027--concerts-pop/production/6652474",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -516,7 +516,7 @@
     "ticketmaster_event_id": "31006449B6D44DA0",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-montreal-bell-centre-2-5-2027--concerts-pop/production/6652478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
     "last_verified_at": null,
@@ -538,11 +538,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6652478,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-montreal-bell-centre-2-5-2027--concerts-pop/production/6652478",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -577,7 +577,7 @@
     "ticketmaster_event_id": "3100644B92204211",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-halifax-scotiabank-centre-2-7-2027--concerts-pop/production/6652480",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-halifax-nova-scotia-02-07-2027/event/3100644B92204211",
     "last_verified_at": null,
@@ -599,11 +599,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6652480,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-halifax-scotiabank-centre-2-7-2027--concerts-pop/production/6652480",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -638,7 +638,7 @@
     "ticketmaster_event_id": "1960579669",
     "ticketmaster_url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-madrid-movistar-arena---madrid-5-7-2027--concerts-pop/production/7599724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
     "last_verified_at": null,
@@ -660,11 +660,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599724,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-madrid-movistar-arena---madrid-5-7-2027--concerts-pop/production/7599724",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -854,7 +854,7 @@
     "ticketmaster_event_id": "22006536FD2084B0",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-orlando-kia-center-10-2-2027--concerts-pop/production/7599663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
     "last_verified_at": null,
@@ -876,11 +876,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599663,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-orlando-kia-center-10-2-2027--concerts-pop/production/7599663",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -916,7 +916,7 @@
     "ticketmaster_event_id": "2D0065359DD47ADC",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-raleigh-lenovo-center-10-4-2027--concerts-pop/production/7599665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
     "last_verified_at": null,
@@ -938,11 +938,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599665,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-raleigh-lenovo-center-10-4-2027--concerts-pop/production/7599665",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -978,7 +978,7 @@
     "ticketmaster_event_id": "15006532BF12D227",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-baltimore-cfg-bank-arena-10-6-2027--concerts-pop/production/7599667",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
     "last_verified_at": null,
@@ -1000,11 +1000,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599667,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-baltimore-cfg-bank-arena-10-6-2027--concerts-pop/production/7599667",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1040,7 +1040,7 @@
     "ticketmaster_event_id": "1D006532FBCAA9B8",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-uncasville-mohegan-sun-arena-ct-10-8-2027--concerts-pop/production/7599671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
     "last_verified_at": null,
@@ -1062,11 +1062,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599671,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-uncasville-mohegan-sun-arena-ct-10-8-2027--concerts-pop/production/7599671",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1226,7 +1226,7 @@
     "ticketmaster_event_id": "050065350AB1F627",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-columbus-value-city-arena-at-schottenstein-center-10-15-2027--concerts-pop/production/7599679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
     "last_verified_at": null,
@@ -1248,11 +1248,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599679,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-columbus-value-city-arena-at-schottenstein-center-10-15-2027--concerts-pop/production/7599679",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1288,7 +1288,7 @@
     "ticketmaster_event_id": "16006531DA59D328",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-pittsburgh-ppg-paints-arena-10-16-2027--concerts-pop/production/7599690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
     "last_verified_at": null,
@@ -1310,11 +1310,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599690,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-pittsburgh-ppg-paints-arena-10-16-2027--concerts-pop/production/7599690",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1412,7 +1412,7 @@
     "ticketmaster_event_id": "0C00652AE5AD2E75",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-fort-worth-dickies-arena-11-6-2027--concerts-pop/production/7599704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
     "last_verified_at": null,
@@ -1434,11 +1434,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599704,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-fort-worth-dickies-arena-11-6-2027--concerts-pop/production/7599704",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1474,7 +1474,7 @@
     "ticketmaster_event_id": "20006535C7C037E7",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-tulsa-bok-center-11-8-2027--concerts-pop/production/7599706",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
     "last_verified_at": null,
@@ -1496,11 +1496,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599706,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-tulsa-bok-center-11-8-2027--concerts-pop/production/7599706",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1536,7 +1536,7 @@
     "ticketmaster_event_id": "06006535EB9E9C11",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-omaha-chi-health-center-omaha-11-10-2027--concerts-pop/production/7599708",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
     "last_verified_at": null,
@@ -1558,11 +1558,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599708,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-omaha-chi-health-center-omaha-11-10-2027--concerts-pop/production/7599708",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1598,7 +1598,7 @@
     "ticketmaster_event_id": "07006535EF0E6E27",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-milwaukee-fiserv-forum-11-12-2027--concerts-pop/production/7599710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
     "last_verified_at": null,
@@ -1620,11 +1620,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599710,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-milwaukee-fiserv-forum-11-12-2027--concerts-pop/production/7599710",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1660,7 +1660,7 @@
     "ticketmaster_event_id": "060065360A7C997E",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-kansas-city-t-mobile-center-11-15-2027--concerts-pop/production/7599714",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
     "last_verified_at": "2026-09-25",
@@ -1682,11 +1682,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599714,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-kansas-city-t-mobile-center-11-15-2027--concerts-pop/production/7599714",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1722,7 +1722,7 @@
     "ticketmaster_event_id": "1E006531AF598E79",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-denver-ball-arena-11-17-2027--concerts-pop/production/7599716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
     "last_verified_at": null,
@@ -1744,11 +1744,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599716,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-denver-ball-arena-11-17-2027--concerts-pop/production/7599716",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1784,7 +1784,7 @@
     "ticketmaster_event_id": "0900653698966358",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-20-2027--concerts-pop/production/7599718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
     "last_verified_at": null,
@@ -1806,11 +1806,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599718,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-20-2027--concerts-pop/production/7599718",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

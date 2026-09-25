@@ -120,7 +120,7 @@
     "ticketmaster_event_id": "1108119575",
     "ticketmaster_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-munich-allianz-arena-7-6-2027--concerts-rock/production/7599469",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/oasis-live-27-tickets/1108119575?language=en-us",
     "last_verified_at": null,
@@ -142,11 +142,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599469,
+        "url": "https://www.vividseats.com/oasis-tickets-munich-allianz-arena-7-6-2027--concerts-rock/production/7599469",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -174,7 +174,7 @@
     "ticketmaster_event_id": "3500652A88FE1835",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-21-05-2027/event/3500652A88FE1835",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-21-2027--concerts-alternative/production/7553045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-21-05-2027/event/3500652A88FE1835",
     "last_verified_at": null,
@@ -196,11 +196,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553045,
+        "url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-21-2027--concerts-alternative/production/7553045",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -227,7 +227,7 @@
     "ticketmaster_event_id": "35006532CAE588E0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-23-05-2027/event/35006532CAE588E0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-23-2027--concerts-alternative/production/7553047",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-23-05-2027/event/35006532CAE588E0",
     "last_verified_at": null,
@@ -249,11 +249,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553047,
+        "url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-23-2027--concerts-alternative/production/7553047",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -280,7 +280,7 @@
     "ticketmaster_event_id": "35006532CB4C8962",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-25-05-2027/event/35006532CB4C8962",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-25-2027--concerts-alternative/production/7553051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-25-05-2027/event/35006532CB4C8962",
     "last_verified_at": null,
@@ -302,11 +302,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553051,
+        "url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-25-2027--concerts-alternative/production/7553051",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -333,7 +333,7 @@
     "ticketmaster_event_id": "35006532CB9589E3",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-28-05-2027/event/35006532CB9589E3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-28-2027--concerts-alternative/production/7553053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-28-05-2027/event/35006532CB9589E3",
     "last_verified_at": null,
@@ -355,11 +355,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553053,
+        "url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-28-2027--concerts-alternative/production/7553053",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -386,7 +386,7 @@
     "ticketmaster_event_id": "35006532CD2E8B98",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-29-05-2027/event/35006532CD2E8B98",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-29-2027--concerts-alternative/production/7553055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-29-05-2027/event/35006532CD2E8B98",
     "last_verified_at": null,
@@ -408,11 +408,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553055,
+        "url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-29-2027--concerts-alternative/production/7553055",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -439,7 +439,7 @@
     "ticketmaster_event_id": "3E00652AF20160D6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-04-06-2027/event/3E00652AF20160D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-4-2027--concerts-alternative/production/7553273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-04-06-2027/event/3E00652AF20160D6",
     "last_verified_at": null,
@@ -461,11 +461,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553273,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-4-2027--concerts-alternative/production/7553273",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -492,7 +492,7 @@
     "ticketmaster_event_id": "3E00652AF7E66404",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-06-06-2027/event/3E00652AF7E66404",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-6-2027--concerts-alternative/production/7553275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-06-06-2027/event/3E00652AF7E66404",
     "last_verified_at": null,
@@ -514,11 +514,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553275,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-6-2027--concerts-alternative/production/7553275",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -545,7 +545,7 @@
     "ticketmaster_event_id": "3E00652AFA37656D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-08-06-2027/event/3E00652AFA37656D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-8-2027--concerts-alternative/production/7553277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-08-06-2027/event/3E00652AFA37656D",
     "last_verified_at": null,
@@ -567,11 +567,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553277,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-8-2027--concerts-alternative/production/7553277",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -598,7 +598,7 @@
     "ticketmaster_event_id": "3E00652AFD3A6770",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-11-2027--concerts-alternative/production/7553281",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770",
     "last_verified_at": null,
@@ -620,11 +620,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553281,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-11-2027--concerts-alternative/production/7553281",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -651,7 +651,7 @@
     "ticketmaster_event_id": "3E00652AFEBB6866",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-12-2027--concerts-alternative/production/7553282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866",
     "last_verified_at": null,
@@ -673,11 +673,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553282,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-12-2027--concerts-alternative/production/7553282",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -704,7 +704,7 @@
     "ticketmaster_event_id": "3E00652A9A5C2B58",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-15-2027--concerts-alternative/production/7553285",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58",
     "last_verified_at": null,
@@ -726,11 +726,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553285,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-15-2027--concerts-alternative/production/7553285",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -757,7 +757,7 @@
     "ticketmaster_event_id": "3E00652AC11C4260",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-18-2027--concerts-alternative/production/7553289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260",
     "last_verified_at": null,
@@ -779,11 +779,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553289,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-18-2027--concerts-alternative/production/7553289",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -810,7 +810,7 @@
     "ticketmaster_event_id": "3E00652AE186559F",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-19-2027--concerts-alternative/production/7553291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F",
     "last_verified_at": null,
@@ -832,11 +832,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553291,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-19-2027--concerts-alternative/production/7553291",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -863,7 +863,7 @@
     "ticketmaster_event_id": "3E00652AE49757CC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-22-2027--concerts-alternative/production/7553293",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC",
     "last_verified_at": null,
@@ -885,11 +885,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553293,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-22-2027--concerts-alternative/production/7553293",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -916,7 +916,7 @@
     "ticketmaster_event_id": "3E00652AE6835929",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-25-2027--concerts-alternative/production/7553295",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929",
     "last_verified_at": null,
@@ -938,11 +938,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553295,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-25-2027--concerts-alternative/production/7553295",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -969,7 +969,7 @@
     "ticketmaster_event_id": "3E00652AEA965BC1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-26-06-2027/event/3E00652AEA965BC1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-26-2027--concerts-alternative/production/7553297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-26-06-2027/event/3E00652AEA965BC1",
     "last_verified_at": null,
@@ -991,11 +991,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553297,
+        "url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-26-2027--concerts-alternative/production/7553297",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -124299,5 +124299,323 @@
     "ticketmaster_discovery_event_id": "vv16vZkf4vVZA5C5kF",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-foxborough-vv1avzkftgkehnj-e",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-08-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006529BCAA6867",
+    "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-10-2027/event/01006529BCAA6867",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-10-2027/event/01006529BCAA6867",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006529BCAA6867",
+        "discovery_event_id": "vv1AvZkftGkeHnJ-E",
+        "url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-10-2027/event/01006529BCAA6867",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkftGkeHnJ-E",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-foxborough-vv1avzkfggke0ghpz",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-08-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006535A431B940",
+    "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-13-2027/event/01006535A431B940",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-13-2027/event/01006535A431B940",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006535A431B940",
+        "discovery_event_id": "vv1AvZkfgGke0GhPZ",
+        "url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-13-2027/event/01006535A431B940",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfgGke0GhPZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-foxborough-vv1avzkfggke08hpi",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-08-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006535A441B96C",
+    "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-14-2027/event/01006535A441B96C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-14-2027/event/01006535A441B96C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006535A441B96C",
+        "discovery_event_id": "vv1AvZkfgGke08hPi",
+        "url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-14-2027/event/01006535A441B96C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfgGke08hPi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-las-vegas-1kayvp7_ga25ajz",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2027-08-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065119F2C9700",
+    "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-20-2027/event/170065119F2C9700",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-20-2027/event/170065119F2C9700",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065119F2C9700",
+        "discovery_event_id": "1kAYvP7_GA25ajZ",
+        "url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-20-2027/event/170065119F2C9700",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP7_GA25ajZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2gaje",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2027-08-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065119F309702",
+    "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-21-2027/event/170065119F309702",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-21-2027/event/170065119F309702",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065119F309702",
+        "discovery_event_id": "1kAYvP7_GA2Gaje",
+        "url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-21-2027/event/170065119F309702",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP7_GA2Gaje",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk",
+    "artist_slug": "oasis",
+    "artist_name": "Oasis",
+    "event_name": "Oasis Live '27",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2027-08-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065119F359706",
+    "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-24-2027/event/170065119F359706",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-24-2027/event/170065119F359706",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065119F359706",
+        "discovery_event_id": "1kAYvP7_GA2u_jk",
+        "url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-24-2027/event/170065119F359706",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP7_GA2u_jk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

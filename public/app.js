@@ -3711,9 +3711,9 @@ function renderSimplePage(type) {
         "Request keys. A request key is a one-way hash of your IP address and user-agent. The same connection and browser always produce the same key, so it links records from one device across visits, not only within one, and it limits repeated form submissions. The raw IP address is not stored in these records."
       ]),
       policySection("Cookies and browser storage", [[
-        "The site uses Google Tag Manager and Google Analytics 4, which set cookies to measure visits under ",
+        "Two third-party tags set cookies, and neither loads unless you accept cookies in the banner shown on your first visit: Google Tag Manager, which runs Google Analytics 4 to measure visits under ",
         ["Google's privacy policy", "https://policies.google.com/privacy"],
-        ". Every page also loads the publisher tag of Impact, an affiliate network, which reports a page impression to Impact and may set its own cookies. TourTicketCompare sets no cookies of its own. It uses your browser's session storage to group the pages of one visit, which is cleared when the tab closes, and local storage to remember your last choice in the currency converter. After you click through to a ticket site, that site or its affiliate network may set its own cookies so a purchase can be credited."
+        ", and the publisher tag of Impact, an affiliate network, which reports a page impression to Impact and may set its own cookies. If you reject, neither loads. You can change your choice at any time with “Cookie settings” at the bottom of every page. TourTicketCompare sets no cookies of its own. It uses your browser's local storage to remember your cookie choice, session storage to group the pages of one visit, which is cleared when the tab closes, and local storage to remember your last choice in the currency converter. After you click through to a ticket site, that site or its affiliate network may set its own cookies so a purchase can be credited."
       ]]),
       policySection("How the information is used", [], [
         "To run the site and its forms, and to email you about the artist you asked about if you joined a date alert.",
@@ -3723,8 +3723,8 @@ function renderSimplePage(type) {
       ]),
       policySection("Who else handles it", [], [
         "Cloudflare hosts the site. It processes every request, including your IP address, to serve and protect the site, and stores the form and measurement records described above.",
-        "Google receives analytics data through Google Analytics.",
-        "Impact, an affiliate network, receives a page-impression request from every page through its publisher tag.",
+        "Google receives analytics data through Google Analytics, if you accept cookies.",
+        "Impact, an affiliate network, receives a page-impression request from each page you view through its publisher tag, if you accept cookies.",
         "Ticket sites receive your visit when you click a ticket button. TourTicketCompare does not sell tickets or take payments, and never sees your checkout, payment or account details. Each ticket site's own privacy notice and terms apply there."
       ]),
       policySection("How long it is kept", [[
@@ -3733,7 +3733,7 @@ function renderSimplePage(type) {
       policySection("Your choices and rights", [[
         "You don't need to give an email address to use the site. To have your email address removed, or to ask what the site holds about you, email ",
         helloEmail,
-        " from the address concerned. You can block or clear cookies and storage in your browser settings, and Google offers a ",
+        " from the address concerned. You can accept or reject cookies with “Cookie settings” at the bottom of every page, block or clear cookies and storage in your browser settings, and use Google's ",
         ["browser add-on to opt out of Google Analytics", "https://tools.google.com/dlpage/gaoptout"],
         ". If you're unhappy with how your information is handled, you can complain to your local data protection authority; in the UK, that is the ",
         ["Information Commissioner's Office", "https://ico.org.uk/make-a-complaint/"],

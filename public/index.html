@@ -1,24 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager: load after the initial page render so third-party
-         work cannot compete with the page's critical rendering path. Events
-         queued in dataLayer are retained until the container starts. -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];function load(){if(load.done)return;load.done=true;w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-}if(w.addEventListener)w.addEventListener('load',load,{once:true});else w.attachEvent('onload',load);
-})(window,document,'script','dataLayer','GTM-MZ42TPMM');</script>
-    <!-- End Google Tag Manager -->
-    <!-- Google tag bootstrap. Configure the GA4 destination before application
-         events enter the queue; GTM still owns the loader and page-view send.
+    <!-- Google tag bootstrap. Consent Mode defaults are denied before anything
+         else is queued. Configure the GA4 destination before application
+         events enter the queue; GTM owns the loader and page-view send, and
+         /consent.js loads it only after the visitor accepts cookies.
          Gated on the canonical host so a Cloudflare preview deployment or a
          local dev server never registers the production property and reports
          its own traffic as real. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied'});
       gtag('js', new Date());
       if (window.location.hostname === 'tourticketcompare.com') {
         gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': false});
@@ -68,18 +61,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="dns-prefetch" href="https://api.tourticketcompare.com" />
 
     <link rel="stylesheet" href="/styles.css?v=20260924d" />
-    <link rel="stylesheet" href="/ttc-shell.css?v=20260821a" />
+    <link rel="stylesheet" href="/ttc-shell.css?v=20260925a" />
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <!-- Google's snippet hides the frame with an inline style attribute; our CSP is
-         style-src 'self' (no unsafe-inline), so the hiding rule lives in styles.css
-         as .gtm-noscript instead. Behaviour is identical, the attribute is not. -->
-    <noscript><iframe class="gtm-noscript" title="Google Tag Manager"
-src="https://www.googletagmanager.com/ns.html?id=GTM-MZ42TPMM"
-height="0" width="0"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <a class="skip-link" href="#mainContent">Skip to content</a>
 
     <header class="ttc-hd">
@@ -123,6 +107,7 @@ height="0" width="0"></iframe></noscript>
           <a href="/affiliate-disclosure">Affiliate disclosure</a>
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
+          <button class="ttc-ft__consent" type="button" data-consent-open>Cookie settings</button>
         </nav>
         <p>
           TourTicketCompare is an independent, unofficial site — not affiliated with any artist, venue, promoter, or
@@ -155,8 +140,8 @@ height="0" width="0"></iframe></noscript>
   ]
 }
     </script>
-    <script src="/impact-publisher-tag.js?v=20260714a" defer></script>
+    <script src="/consent.js?v=20260925a" defer></script>
     <script src="/web-vitals.js?v=20260821a" defer></script>
-    <script src="/app.js?v=20260924v" defer></script>
+    <script src="/app.js?v=20260925a" defer></script>
   </body>
 </html>

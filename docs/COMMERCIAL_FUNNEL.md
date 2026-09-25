@@ -395,7 +395,9 @@ Also currently unmeasurable:
   (page type, artist slug, provider, CTA location, affiliate flag). No event id,
   city, venue, path, referrer or address is ever sent to GA4. GA4 cannot see the
   server-side outbound redirect at all, which is why first-party D1 remains
-  authoritative.
+  authoritative. Since 2026-09-25 GA4 (via GTM) loads only for visitors who
+  accept cookies (`public/consent.js`), so GA4 counts are a consenting subset;
+  the first-party beacons are not consent-gated and still see every visit.
 
 ## Deployment
 

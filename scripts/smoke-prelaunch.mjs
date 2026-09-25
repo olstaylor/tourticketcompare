@@ -64,12 +64,12 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260924v";
+const APP_ASSET_VERSION = "20260925a";
 const TTC_HOME_ASSET_VERSION = "20260924b";
 const TTC_HOME_JS_ASSET_VERSION = "20260924v";
-const TTC_SHELL_ASSET_VERSION = "20260821a";
+const TTC_SHELL_ASSET_VERSION = "20260925a";
 const SHELL_SCRIPT_ASSET_VERSION = "20260901b";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-Q30wDQV17e4Sw7Z8x8BcoikGk7p+X/bWhMr3O6oTA40=' 'sha256-kgQCJ07+PwbzPANIIBLqfYKC2xWyEIALdj/MfbxDUTc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -983,47 +983,65 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
 
 const indexHtml = await read("public/index.html");
 assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
-// The Google Tag Manager loader and Google tag bootstrap are the only bare
-// inline scripts; each one's CSP sha256 hash must stay in sync with its body or browsers
-// will refuse to run it.
+// The Google tag bootstrap is the only bare inline script, and its CSP sha256
+// hash must stay in sync with its body or browsers will refuse to run it.
+// Google Tag Manager is not in the page: /consent.js loads it only after the
+// visitor accepts cookies.
 {
   const { createHash } = await import("node:crypto");
   const inlineScripts = [...indexHtml.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
-  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag bootstrap)");
+  assert(inlineScripts.length === 1, "index.html should contain exactly one bare inline script (the Google tag bootstrap)");
+  const [bootstrap] = inlineScripts;
   assert(
-    inlineScripts.some((body) => body.includes("'script','dataLayer','GTM-MZ42TPMM'")),
-    "index.html should contain the Google Tag Manager container loader"
-  );
-  assert(
-    inlineScripts.some((body) => body.includes("dataLayer.push({'event': 'ttc_google_tag_init'})")),
+    bootstrap.includes("dataLayer.push({'event': 'ttc_google_tag_init'})"),
     "index.html should contain the GTM activation event"
   );
-  for (const body of inlineScripts) {
-    const inlineHash = createHash("sha256").update(body, "utf8").digest("base64");
-    assert(
-      EXPECTED_CSP.includes(`'sha256-${inlineHash}'`),
-      `CSP sha256 hash must match every inline snippet in index.html — expected 'sha256-${inlineHash}' in EXPECTED_CSP (update functions/[[path]].js, public/_headers, and EXPECTED_CSP together)`
-    );
-  }
+  assert(
+    bootstrap.indexOf("gtag('consent', 'default'") !== -1 &&
+      bootstrap.indexOf("gtag('consent', 'default'") < bootstrap.indexOf("gtag('js'") &&
+      /'analytics_storage': 'denied'/.test(bootstrap) &&
+      /'ad_storage': 'denied'/.test(bootstrap),
+    "the Google tag bootstrap must set Consent Mode defaults to denied before anything else is queued"
+  );
+  const inlineHash = createHash("sha256").update(bootstrap, "utf8").digest("base64");
+  assert(
+    EXPECTED_CSP.includes(`'sha256-${inlineHash}'`),
+    `CSP sha256 hash must match the inline bootstrap in index.html — expected 'sha256-${inlineHash}' in EXPECTED_CSP (update functions/[[path]].js, public/_headers, and EXPECTED_CSP together)`
+  );
 }
-// The GTM no-JavaScript frame must load from the container host, and must be hidden by a
-// stylesheet rule rather than the inline style attribute CSP style-src 'self' would block.
+// Cookie consent: no third-party tag that sets cookies is in the served page.
+// GTM (and the GA4 it runs) and the Impact publisher tag are loaded only by
+// /consent.js, and only after "Accept". There is no no-JavaScript GTM frame,
+// because a visitor without JavaScript can never be asked.
+assert(!indexHtml.includes("googletagmanager.com/gtm.js"), "index.html must not load Google Tag Manager before consent");
+assert(!indexHtml.includes("googletagmanager.com/ns.html"), "index.html must not include the no-JavaScript GTM frame, which would load without consent");
+assert(!indexHtml.includes("/impact-publisher-tag.js"), "index.html must not load the Impact publisher tag before consent");
+assert(indexHtml.includes('<script src="/consent.js?v=20260925a" defer></script>'), "index.html must load the consent manager");
 assert(
-  indexHtml.includes('src="https://www.googletagmanager.com/ns.html?id=GTM-MZ42TPMM"'),
-  "index.html must include the Google Tag Manager noscript frame"
+  indexHtml.indexOf("/consent.js?v=") < indexHtml.indexOf("/app.js?v="),
+  "the consent manager must run before the app bundle"
 );
-assert(
-  /<noscript><iframe class="gtm-noscript"/.test(indexHtml),
-  "the GTM noscript frame must be hidden via the .gtm-noscript stylesheet rule"
-);
-assert(
-  !/<noscript><iframe[^>]*\sstyle=/.test(indexHtml),
-  "the GTM noscript frame must not use an inline style attribute (blocked by style-src 'self')"
-);
-assert(
-  (await read("public/styles.css")).includes(".gtm-noscript"),
-  "public/styles.css must define the .gtm-noscript hiding rule"
-);
+assert(/<button[^>]*data-consent-open[^>]*>Cookie settings<\/button>/.test(indexHtml), "the footer must offer a Cookie settings control");
+{
+  const consentJs = await read("public/consent.js");
+  assert(consentJs.includes('var GTM_ID = "GTM-MZ42TPMM";'), "consent.js must load the site's GTM container");
+  assert(consentJs.includes("https://www.googletagmanager.com/gtm.js?id="), "consent.js must load GTM from its own host");
+  assert(consentJs.includes('var IMPACT_TAG_SRC = "/impact-publisher-tag.js?v=20260714a";'), "consent.js must load the account Publisher Tag loader after consent");
+  const loadBody = consentJs.slice(consentJs.indexOf("function loadTags()"), consentJs.indexOf("function clearTagCookies()"));
+  assert(loadBody.includes("gtm.js") && loadBody.includes("IMPACT_TAG_SRC"), "both cookie-setting tags load from loadTags() alone");
+  const initBody = consentJs.slice(consentJs.indexOf("function init()"));
+  assert(/if \(choice === true\) loadTags\(\);/.test(initBody), "tags load on page view only when the stored choice is an explicit accept");
+  assert(
+    consentJs.includes('button("Reject", false)') && consentJs.includes('button("Accept", true)'),
+    "the banner offers Reject and Accept"
+  );
+  assert(
+    (consentJs.match(/button button-secondary cookie-consent__button/g) || []).length === 1,
+    "Reject and Accept share one button style, so rejecting is as easy as accepting"
+  );
+  const bannerCopy = consentJs.match(/"TourTicketCompare would like[^"]*"/)?.[0] || "";
+  assert(bannerCopy && findFirstPersonPlural(bannerCopy).length === 0, "the banner copy follows the site voice");
+}
 assert(
   /<nav[^>]*id="primaryNavigation"[^>]*data-nav-links/.test(indexHtml) &&
     /<button[^>]*aria-controls="primaryNavigation"[^>]*data-nav-toggle/.test(indexHtml),
@@ -1035,12 +1053,8 @@ assert(
     shellJs.includes("event.preventDefault()") && shellJs.includes("mainContent.focus()"),
   "the skip link must move focus to the main landmark"
 );
-assert(
-  EXPECTED_CSP.includes("frame-src https://www.googletagmanager.com"),
-  "CSP must allow the Google Tag Manager noscript frame"
-);
+assert(!EXPECTED_CSP.includes("frame-src"), "CSP frames nothing: with no no-JavaScript GTM frame, frame-src falls back to default-src 'self'");
 assert(!indexHtml.includes("impact.js"), "index.html must not reference the removed Ticketmaster Impact Publisher Tag (/impact.js)");
-assert(indexHtml.includes('/impact-publisher-tag.js?v=20260714a'), "index.html must load the account Publisher Tag loader");
 const publisherTagLoader = await read("public/impact-publisher-tag.js");
 assert(publisherTagLoader.includes("https://utt.impactcdn.com/P-A3977745-d128-4905-97f4-b5b676ba4a171.js"), "Publisher Tag loader must use the account snippet from Impact Ad Tools");
 assert(publisherTagLoader.includes('impactStat("trackImpression")'), "Publisher Tag loader must request impression tracking");
@@ -1059,7 +1073,9 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
   assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow the account Publisher Tag loader`);
-  assert(text.includes('/impact-publisher-tag.js?v=20260714a'), `${pathname} must load the account Publisher Tag loader`);
+  assert(text.includes('<script src="/consent.js?v=20260925a" defer></script>'), `${pathname} must load the consent manager`);
+  assert(!text.includes("/impact-publisher-tag.js"), `${pathname} must not load the Impact publisher tag before consent`);
+  assert(!text.includes("googletagmanager.com/gtm.js"), `${pathname} must not load Google Tag Manager before consent`);
   // Every rendered route keeps the browser revalidating, so a deploy that bumps
   // a versioned asset URL in the shell reaches returning visitors immediately.
   // Content-only routes additionally offer shared caches a TTL; event-derived

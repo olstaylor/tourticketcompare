@@ -43,7 +43,7 @@ Marketplaces charge both sides of the sale:
 - **Buyer fees.** Service and order fees, taxes, delivery and currency conversion can all be added before you pay.
 - **Seller fees.** The seller usually receives less than the listed figure, which is part of why asking prices sit where they do.
 
-What matters to you is the total on the order screen, after every fee. Some marketplaces show fees from the start (Vivid Seats says it uses all-in pricing, so the cost including fees is visible once you start shopping), but taxes, delivery and other charges can still appear late in checkout, so take a listing all the way to that screen before you judge it. If the total goes past your budget, or the fee and delivery terms stay unclear, stop there.
+What matters to you is the total on the order screen, after every fee. Some marketplaces show fees from the start (Vivid Seats says it uses all-in pricing, so the cost including fees is visible once you start shopping, and SeatGeek says the price on its event page already includes all mandatory fees), but taxes, delivery and other charges can still appear late in checkout, so take a listing all the way to that screen before you judge it. If the total goes past your budget, or the fee and delivery terms stay unclear, stop there.
 
 On TourTicketCompare, the resale buttons for Vivid Seats, TicketNetwork and StubHub International show each site's lowest listed price for that date when the site's feed supplies one, with how long ago it was checked. That's a starting point for which listing to open. Fees are added on the ticket site.
 

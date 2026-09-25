@@ -15,7 +15,7 @@ sources:
     last_checked: 2026-09-21
 ---
 
-The only way to know whether a SeatGeek promo code works is to enter it at SeatGeek's checkout, on the order you actually want, and look at the total. Coupon sites and social posts list plenty of codes, but whether one does anything depends on your account, the event, your order total, where you are, and SeatGeek's terms at that moment. A code can be perfectly real and still take nothing off your basket.
+The only way to know whether a SeatGeek promo code works is to enter it at SeatGeek's checkout, on the order you actually want, and look at the total. Coupon sites and social posts list plenty of codes, but whether one does anything depends on your account, the event, your order total, where you are, and SeatGeek's terms at that moment. A code can be perfectly real and still take nothing off your basket. SeatGeek's help page on promo codes says it does not hand out codes on request; they typically come through partners, brand ambassadors, affiliates or special promotions, and account holders may also get offers by email.
 
 TourTicketCompare doesn't publish codes or promise discounts, and doesn't control SeatGeek's checkout. What follows is how codes generally work, why they often fail, and how to test one safely.
 
@@ -28,6 +28,8 @@ A promo code is a rule attached to an account or an order, not a fixed amount th
 - **Event, team, genre, or region limits**, so a music code may not touch a sports listing, or a US code may not apply abroad.
 - **Ticket-type exclusions**, where some categories or partner listings are not eligible.
 - **An expiry date and a single use** per account.
+
+SeatGeek's own help page lists the same kinds of condition: most of its codes are single-use, many work only on a first purchase, some need a minimum purchase amount, and some are limited to certain events or ticket types. Its help page on moving codes adds that a promo code or SeatGeek credit is tied to the account it was issued to, can't be transferred to another account, and can't be redeemed for cash.
 
 Because the rule is checked live, the only place you learn whether a code applies to your specific order is the checkout screen itself.
 
@@ -77,7 +79,7 @@ A code may be expired, limited to first-time buyers, tied to a minimum spend, al
 
 **Can I use more than one SeatGeek promo code?**
 
-SeatGeek says only one promo code can be used per purchase. If several codes are stored, check which eligible code is applied before paying.
+SeatGeek says only one promo code can be used per purchase. If several codes are saved to your account, it automatically applies the newest eligible one at checkout; you can remove it and choose a different code before placing the order.
 
 **Can a promo code be added after purchase?**
 

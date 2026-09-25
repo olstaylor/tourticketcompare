@@ -55,7 +55,7 @@ Roles vary by event and region. The listing label and provider terms for the exa
 
 ## How listed prices and fees differ
 
-Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required mandatory fees to be included in the upfront total for live-event tickets, including on resale platforms, but taxes, shipping, and optional extras may still appear separately. Current provider help pages say Ticketmaster includes required fees in its upfront price, SeatGeek includes mandatory fees while noting that taxes, delivery, and optional services may be separate, and Vivid Seats uses all-in pricing for its ticket listings before applicable tax.
+Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required mandatory fees to be included in the upfront total for live-event tickets, including on resale platforms, but taxes, shipping, and optional extras may still appear separately. Current provider help pages say Ticketmaster includes required fees in its upfront price, SeatGeek includes mandatory fees while noting that taxes, shipping, and optional services may be separate, and Vivid Seats uses all-in pricing for its ticket listings before applicable tax.
 
 Do not compare an old screenshot or an unqualified headline price with a current provider total. Check the same quantity and currency, then review the final order summary before payment. Provider display rules can differ outside the United States.
 
@@ -91,7 +91,7 @@ A lower price may be for a single ticket, a different section, an obstructed vie
 
 ## Delivery and buyer protections
 
-Check when and how each ticket will arrive: mobile transfer, delayed transfer, instant delivery, will-call, or post. Then read the provider's current protection terms and exclusions. SeatGeek and Vivid Seats each publish order-protection terms, but the exact remedy depends on the order and circumstances. Ticketmaster terms differ between primary and resale inventory.
+Check when and how each ticket will arrive: mobile transfer, delayed transfer, instant delivery, will-call, or post. Then read the provider's current protection terms and exclusions. SeatGeek and Vivid Seats each publish order-protection terms, but the exact remedy depends on the order and circumstances. Timing differs too: SeatGeek's delivery help page says some tickets are available straight after purchase while others are released closer to the event, often 24 to 48 hours before the start time, and that the delivery destination shown before checkout cannot be changed after purchase. Ticketmaster terms differ between primary and resale inventory.
 
 Use the primary-source links below for the current rules. TourTicketCompare does not administer orders, refunds, replacements, transfers, or event cancellations.
 

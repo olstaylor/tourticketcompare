@@ -91,7 +91,7 @@ Decide on that total, together with the ticket and delivery terms. A listed pric
 
 ## 5. Identify primary and resale tickets
 
-Ticketmaster sells primary tickets and also shows resale tickets; its help page on prices and fees says those are labelled as resale before you buy and priced by the reseller, sometimes above and sometimes below the original face value. SeatGeek runs a resale marketplace and handles primary ticketing for some partners. Vivid Seats is a resale marketplace: its help page says every price there is set independently by the reseller.
+Ticketmaster sells primary tickets and also shows resale tickets; its help page on prices and fees says those are labelled as resale before you buy and priced by the reseller, sometimes above and sometimes below the original face value. SeatGeek runs a resale marketplace and handles primary ticketing for some partners; its help page says listings there come from licensed sellers, other SeatGeek customers, integrated partners and sometimes a team's box office. Vivid Seats is a resale marketplace: its help page says every price there is set independently by the reseller.
 
 So the site's name doesn't tell you the ticket type. The listing label and order terms do. Primary and resale tickets for the same event can differ on transfer timing, refunds, who the seller is, and price.
 

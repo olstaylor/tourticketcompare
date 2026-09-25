@@ -3,6 +3,74 @@
   "source": "content/blog",
   "posts": [
     {
+      "slug": "bruno-mars-falcon-stadium-base-access",
+      "path": "/blog/bruno-mars-falcon-stadium-base-access",
+      "title": "Bruno Mars at Falcon Stadium: check entry before you travel",
+      "seoTitle": "Bruno Mars: Falcon Stadium entry | TourTicketCompare",
+      "description": "Bruno Mars plays Falcon Stadium inside the US Air Force Academy. Check the concert’s access instructions, identification rules and arrival plan.",
+      "summary": "The Falcon Stadium dates take place inside the United States Air Force Academy. Check the instructions for your concert before arranging travel: general visitor policy alone does not settle the entry arrangements for a special event.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "status": "published",
+      "author": "TourTicketCompare",
+      "tags": [
+        "tour-buying"
+      ],
+      "relatedGuides": [
+        "what-to-do-if-a-concert-is-postponed-or-cancelled",
+        "ticket-delivery-and-transfer-timing",
+        "concert-ticket-fees-explained"
+      ],
+      "relatedArtists": [
+        "bruno-mars",
+        "raye"
+      ],
+      "wordCount": 483,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Bruno Mars’ official tour page lists Falcon Stadium at the United States Air Force Academy on 26 and 27 September 2026. For these dates, your arrival plan needs to account for the installation as well as the stadium. A concert ticket identifies your show and admission category; check separately which access instructions apply to everyone travelling with you."
+        },
+        {
+          "type": "section",
+          "title": "Start with the instructions for your concert",
+          "content": "The Academy’s general visitor page describes sponsored passes, identification checks and screening. It also recognises special-event access arrangements. Those general rules are useful background, but they are not enough to tell every concertgoer which pass, gate or registration process applies on their date.\n\nRead the Academy’s concert information and the messages attached to your booking before you travel. If they do not explain your circumstances, ask the Academy’s Pass and Registration Office to confirm. Do not use a registration link for a different event, or assume that an ordinary visitor pass covers your concert.\n\nCheck for each person in your group whether advance registration is required, which original identification they need, and whether their citizenship or documents require an in-person visit. The Academy publishes separate instructions for non-U.S. citizens. Its published office hours have not always agreed between one section of the site and another, so confirm any appointment you need directly with the office rather than planning around a quoted opening time."
+        },
+        {
+          "type": "section",
+          "title": "Match the arrival plan to your ticket",
+          "content": "The Academy’s floor-seating guidance directs floor ticketholders through the South Gate and into the stadium at Gate 3, with wristband collection inside. It also gives separate instructions for rideshare arrivals. Read that guidance if you hold a floor ticket; do not assume the same route applies to every seating category.\n\nBefore leaving, keep the concert date, ticket category, parking or rideshare instructions and entry guidance together. If friends bought different ticket types, compare the instructions before agreeing a meeting point. Leave time for the checks described by the Academy and consult the latest event guidance for arrival times.\n\nThe concert has its own published bag policy too. Check its size limits and exceptions before packing, particularly if you need to carry medical items or supplies for an infant. A bag accepted at another venue may not meet this event’s rules."
+        },
+        {
+          "type": "section",
+          "title": "What the ticket comparison can tell you",
+          "content": "The [Bruno Mars page](/artists/bruno-mars) lists the verified dates with provider links checked for each event. Any displayed price is a provider’s listed-price snapshot, with its observation time; it does not include a promise about installation access, a particular seat or your final checkout total.\n\nOpen the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. The [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later."
+        }
+      ],
+      "sources": [
+        {
+          "label": "United States Air Force Academy — Getting On Base (official visitor policy)",
+          "url": "https://www.usafa.edu/visitors/getting-on-base/"
+        },
+        {
+          "label": "Bruno Mars official tour listing",
+          "url": "https://www.brunomars.com/tour"
+        },
+        {
+          "label": "Live Nation event listing — Bruno Mars, Falcon Stadium",
+          "url": "https://www.livenation.com/event/G5vzZ_ejS7nIg/bruno-mars-the-romantic-tour"
+        },
+        {
+          "label": "Air Force Academy Athletics — Bruno Mars bag policy",
+          "url": "https://goairforcefalcons.com/sports/2026/8/5/bag-policy-bruno-mars"
+        },
+        {
+          "label": "Air Force Academy Athletics — floor seating information",
+          "url": "https://goairforcefalcons.com/sports/2026/8/25/floor-seating-information"
+        }
+      ]
+    },
+    {
       "slug": "buying-tickets-for-a-concert-in-another-country",
       "path": "/blog/buying-tickets-for-a-concert-in-another-country",
       "title": "Buying tickets for a concert in another country",
@@ -11,7 +79,7 @@
       "summary": "Major tours now cross continents, and plenty of fans follow them. Buying for a show abroad adds a handful of checks that a home-town ticket never needs, from the time zone of the sale to the currency of the total and the rules that apply to resale where the show takes place.",
       "datePublished": "2026-09-25",
       "dateModified": "2026-09-25",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -27,11 +95,11 @@
         "karol-g",
         "bts"
       ],
-      "wordCount": 650,
+      "wordCount": 653,
       "sections": [
         {
           "type": "intro",
-          "content": "Plenty of the biggest tours on TourTicketCompare cross borders. [Harry Styles](/artists/harry-styles) has dates listed in the United States, Canada, Australia, Ireland, Spain and the UK; [Karol G](/artists/karol-g) in the United States and across Europe; [Oasis](/artists/oasis) in Scotland, England, Ireland and Germany; and [BTS](/artists/bts) in Australia. For some fans the nearest date, or the only one left, is in another country. Buying a ticket for that show works much like buying one at home, with a handful of extra checks that are easy to miss."
+          "content": "Plenty of the biggest tours on TourTicketCompare cross borders. [Harry Styles](/artists/harry-styles) has dates listed in the United States, Canada, Australia, Ireland, Spain and the UK; [Karol G](/artists/karol-g) in the United States and across Europe; [Oasis](/artists/oasis) in Scotland, England, Ireland, Germany, Spain and the Netherlands; and [BTS](/artists/bts) in Australia. For some fans the nearest date, or the only one left, is in another country. Buying a ticket for that show works much like buying one at home, with a handful of extra checks that are easy to miss."
         },
         {
           "type": "section",
@@ -76,6 +144,65 @@
       ]
     },
     {
+      "slug": "choosing-a-harry-styles-madison-square-garden-night",
+      "path": "/blog/choosing-a-harry-styles-madison-square-garden-night",
+      "title": "Choosing a Harry Styles night at Madison Square Garden",
+      "seoTitle": "Choosing a Harry Styles MSG night | TourTicketCompare",
+      "description": "Harry Styles’ 2026 MSG residency repeats the same venue across 30 nights. Check the exact date, ticket details and delivery terms before buying.",
+      "summary": "A residency breaks the habit most ticket buyers rely on. When the artist, the tour and the venue are identical across every listing, the date is the only thing distinguishing what you are about to buy — and it is the field people skim.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "status": "published",
+      "author": "TourTicketCompare",
+      "tags": [
+        "tour-buying"
+      ],
+      "relatedGuides": [
+        "how-to-read-a-ticket-listing",
+        "ticket-delivery-and-transfer-timing",
+        "primary-vs-resale-concert-tickets"
+      ],
+      "relatedArtists": [
+        "harry-styles"
+      ],
+      "wordCount": 638,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Most ticket buying leans on a shortcut nobody articulates: you recognise the city, you recognise the venue, and you assume that between them they have identified the show. A residency quietly removes that shortcut. Madison Square Garden announced Harry Styles' Together, Together run as 30 consecutive shows at the arena, every Wednesday, Friday and Saturday from 26 August to 31 October 2026. Every listing therefore carries the same artist, the same tour name and the same building. The date is doing all the work of telling one from another, and the date is the field people skim."
+        },
+        {
+          "type": "section",
+          "title": "The venue name is not an identifier here",
+          "content": "For a single-night stop, the artist and venue may be enough to identify the show. For this residency, they are not. A resale listing, a screenshot sent by a friend, a search result, an old browser tab — none of them are self-identifying, and two of them can look identical while pointing at nights weeks apart.\n\nThe practical version of this is short. Take the date from the card on the [Harry Styles page](/artists/harry-styles), open the ticket site through that date's own button, then check the date twice more: once on the provider's listing, once on the order summary before you pay. The order summary is the one that counts, because it is the last screen where a mistake is still free to fix.\n\nA distinctive listing title is still not a substitute for the event date. Check the full calendar date on the listing and order summary, even when the artist and building look familiar."
+        },
+        {
+          "type": "section",
+          "title": "What genuinely differs between the nights",
+          "content": "Less than people assume, which is worth saying plainly rather than manufacturing distinctions.\n\nTicketmaster's tour announcement says Jamie xx opens all Madison Square Garden dates, so the support billing is not a reason to pick one night over another. Doors, stage times and the venue's own entry rules are Madison Square Garden's to set and publish, and they are published per event rather than per residency — the venue's FAQs are the place to read them, not a third-party page.\n\nThe original sale schedule was staggered, but not by months. Ticketmaster lists general sale for the first twenty shows on 30 January 2026, split between two times, and for the final ten on 4 February. Those dates explain the original release structure; they do not establish today’s prices or availability. Compare the listings for the nights you can attend, including the ticket category, seat details, fees and delivery terms."
+        },
+        {
+          "type": "section",
+          "title": "Where the artist page can and cannot help",
+          "content": "The date board on the artist page carries the nights verified from the source, each with the ticket sites that have their own checked destination for that exact night. Where a figure appears next to a button, it is one provider's listed price for that one night, captured at the time shown beside it — per-date, never per-residency. That is the whole reason the site does not publish a \"prices for the Harry Styles residency\" number: there is no such thing, only 30 separate sets of listings that happen to share an address.\n\nTwo limits are worth stating. First, a night that is not on the artist page is a night that has not been verified, which is not the same as a night that does not exist — the venue's own announcement is the authority on the shape of the run. Second, nothing on the artist page describes a seat. Section, row, obstruction notes and delivery method live on the provider's listing, and for a building with as many seat categories as this one, the [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) is more useful than any figure.\n\nIf you take one thing from this: on a residency, treat the date as the identifier and everything else as decoration."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Madison Square Garden Entertainment — residency announcement",
+          "url": "https://www.msgentertainment.com/madison-square-garden-harry-styles-together-together-30-shows-between-august-26-october-31/"
+        },
+        {
+          "label": "Ticketmaster blog — Harry Styles 2026 dates and on-sale structure",
+          "url": "https://blog.ticketmaster.com/harry-styles-2026-tour-dates/"
+        },
+        {
+          "label": "Madison Square Garden venue FAQs",
+          "url": "https://www.msg.com/madison-square-garden/faqs"
+        }
+      ]
+    },
+    {
       "slug": "floor-or-seats-at-a-stadium-concert",
       "path": "/blog/floor-or-seats-at-a-stadium-concert",
       "title": "Floor or seats at a stadium concert: how to choose",
@@ -84,7 +211,7 @@
       "summary": "At a stadium show, the choice between the floor and a seat decides more than the view. It sets when you need to arrive, how long you stand, what an early-entry add-on is worth and how to read a resale listing. Here is how to weigh it before you compare prices.",
       "datePublished": "2026-09-25",
       "dateModified": "2026-09-25",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -152,7 +279,7 @@
       "summary": "Twenty new dates on Hilary Duff's lucky me tour, four in Europe and sixteen in the US, all go on public sale on Friday, October 2. Each opens at 10:00 in its own venue's time, so the sales are staggered by up to nine hours, and one Brussels hospitality listing opens a day earlier.",
       "datePublished": "2026-09-25",
       "dateModified": "2026-09-25",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -165,7 +292,7 @@
       "relatedArtists": [
         "hilary-duff"
       ],
-      "wordCount": 579,
+      "wordCount": 603,
       "sections": [
         {
           "type": "intro",
@@ -194,7 +321,7 @@
         {
           "type": "section",
           "title": "What the Hilary Duff page shows",
-          "content": "The [Hilary Duff page](/artists/hilary-duff) lists every tracked date. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Resale sites with a checked link for that exact date may still appear, and their listings can sit above face value. After the on-sale, the Ticketmaster link appears. TourTicketCompare doesn't sell tickets or run presales."
+          "content": "The [Hilary Duff page](/artists/hilary-duff) lists every tracked date. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Resale sites with a checked link for that exact date may still appear, and their listings can sit above face value. After the on-sale, the Ticketmaster link appears. TourTicketCompare doesn't sell tickets or run presales.\n\nThe [on-sale calendar](/on-sale) lists these dates, and other tours with a public on-sale coming up, by day in each venue's local time."
         }
       ],
       "sources": [
@@ -217,11 +344,11 @@
       "path": "/blog/metallica-m72-2027-stadium-dates-on-sale",
       "title": "Metallica's 2027 M72 stadium dates: resale listed first",
       "seoTitle": "Metallica 2027 M72 tickets: on-sale | TourTicketCompare",
-      "description": "Metallica's ten 2027 M72 stadium dates open at 10:00 local time on September 25. Resale sites listed all ten the day before. What to check.",
-      "summary": "Ten new North American stadium dates on Metallica's M72 World Tour go on public sale on Friday, September 25, each at 10:00 in the venue's time. Resale sites had listings up for all ten the day before, which is worth understanding before you buy.",
+      "description": "Metallica's ten 2027 M72 stadium dates opened at 10:00 local time on September 25. Resale sites listed all ten the day before. What to check.",
+      "summary": "Ten new North American stadium dates on Metallica's M72 World Tour went on public sale on Friday, September 25, each at 10:00 in the venue's time. Resale sites had listings up for all ten the day before, which is worth understanding before you buy.",
       "datePublished": "2026-09-25",
       "dateModified": "2026-09-25",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -234,11 +361,11 @@
       "relatedArtists": [
         "metallica"
       ],
-      "wordCount": 553,
+      "wordCount": 576,
       "sections": [
         {
           "type": "intro",
-          "content": "Ticketmaster lists ten new stadium dates on Metallica's M72 World Tour for May and June 2027, from Vancouver to Salt Lake City, with a public on-sale of Friday, September 25, 2026. Each opens at 10:00 in the venue's own time zone, so the sale rolls from the East Coast at 10:00 AM EDT to the West Coast three hours later."
+          "content": "Ticketmaster lists ten new stadium dates on Metallica's M72 World Tour for May and June 2027, from Vancouver to Salt Lake City, with a public on-sale of Friday, September 25, 2026. Each opened at 10:00 in the venue's own time zone, so the sale rolled from the East Coast at 10:00 AM EDT to the West Coast three hours later."
         },
         {
           "type": "section",
@@ -258,7 +385,7 @@
         {
           "type": "section",
           "title": "What the Metallica page shows",
-          "content": "The [Metallica page](/artists/metallica) lists every tracked date, including the Sphere residency and Mohegan Sun. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Where a resale price appears, it is that site's listed price when it was last checked, with the time shown. It isn't the face value or a final checkout total. TourTicketCompare doesn't sell tickets or run presales."
+          "content": "The [Metallica page](/artists/metallica) lists every tracked date, including the Sphere residency and Mohegan Sun. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Where a resale price appears, it is that site's listed price when it was last checked, with the time shown. It isn't the face value or a final checkout total. TourTicketCompare doesn't sell tickets or run presales.\n\nFor other tours with a public on-sale coming up, the [on-sale calendar](/on-sale) lists them by day, in each venue's local time."
         }
       ],
       "sources": [
@@ -341,142 +468,15 @@
       ]
     },
     {
-      "slug": "bruno-mars-falcon-stadium-base-access",
-      "path": "/blog/bruno-mars-falcon-stadium-base-access",
-      "title": "Bruno Mars at Falcon Stadium: check entry before you travel",
-      "seoTitle": "Bruno Mars: Falcon Stadium entry | TourTicketCompare",
-      "description": "Bruno Mars plays Falcon Stadium inside the US Air Force Academy. Check the concert’s access instructions, identification rules and arrival plan.",
-      "summary": "The Falcon Stadium dates take place inside the United States Air Force Academy. Check the instructions for your concert before arranging travel: general visitor policy alone does not settle the entry arrangements for a special event.",
-      "datePublished": "2026-09-07",
-      "dateModified": "2026-09-07",
-      "status": "draft",
-      "author": "TourTicketCompare",
-      "tags": [
-        "tour-buying"
-      ],
-      "relatedGuides": [
-        "what-to-do-if-a-concert-is-postponed-or-cancelled",
-        "ticket-delivery-and-transfer-timing",
-        "concert-ticket-fees-explained"
-      ],
-      "relatedArtists": [
-        "bruno-mars",
-        "raye"
-      ],
-      "wordCount": 483,
-      "sections": [
-        {
-          "type": "intro",
-          "content": "Bruno Mars’ official tour page lists Falcon Stadium at the United States Air Force Academy on 26 and 27 September 2026. For these dates, your arrival plan needs to account for the installation as well as the stadium. A concert ticket identifies your show and admission category; check separately which access instructions apply to everyone travelling with you."
-        },
-        {
-          "type": "section",
-          "title": "Start with the instructions for your concert",
-          "content": "The Academy’s general visitor page describes sponsored passes, identification checks and screening. It also recognises special-event access arrangements. Those general rules are useful background, but they are not enough to tell every concertgoer which pass, gate or registration process applies on their date.\n\nRead the Academy’s concert information and the messages attached to your booking before you travel. If they do not explain your circumstances, ask the Academy’s Pass and Registration Office to confirm. Do not use a registration link for a different event, or assume that an ordinary visitor pass covers your concert.\n\nCheck for each person in your group whether advance registration is required, which original identification they need, and whether their citizenship or documents require an in-person visit. The Academy publishes separate instructions for non-U.S. citizens. Its published office hours have not always agreed between one section of the site and another, so confirm any appointment you need directly with the office rather than planning around a quoted opening time."
-        },
-        {
-          "type": "section",
-          "title": "Match the arrival plan to your ticket",
-          "content": "The Academy’s floor-seating guidance directs floor ticketholders through the South Gate and into the stadium at Gate 3, with wristband collection inside. It also gives separate instructions for rideshare arrivals. Read that guidance if you hold a floor ticket; do not assume the same route applies to every seating category.\n\nBefore leaving, keep the concert date, ticket category, parking or rideshare instructions and entry guidance together. If friends bought different ticket types, compare the instructions before agreeing a meeting point. Leave time for the checks described by the Academy and consult the latest event guidance for arrival times.\n\nThe concert has its own published bag policy too. Check its size limits and exceptions before packing, particularly if you need to carry medical items or supplies for an infant. A bag accepted at another venue may not meet this event’s rules."
-        },
-        {
-          "type": "section",
-          "title": "What the ticket comparison can tell you",
-          "content": "The [Bruno Mars page](/artists/bruno-mars) lists the verified dates with provider links checked for each event. Any displayed price is a provider’s listed-price snapshot, with its observation time; it does not include a promise about installation access, a particular seat or your final checkout total.\n\nOpen the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. The [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later."
-        }
-      ],
-      "sources": [
-        {
-          "label": "United States Air Force Academy — Getting On Base (official visitor policy)",
-          "url": "https://www.usafa.edu/visitors/getting-on-base/"
-        },
-        {
-          "label": "Bruno Mars official tour listing",
-          "url": "https://www.brunomars.com/tour"
-        },
-        {
-          "label": "Live Nation event listing — Bruno Mars, Falcon Stadium",
-          "url": "https://www.livenation.com/event/G5vzZ_ejS7nIg/bruno-mars-the-romantic-tour"
-        },
-        {
-          "label": "Air Force Academy Athletics — Bruno Mars bag policy",
-          "url": "https://goairforcefalcons.com/sports/2026/8/5/bag-policy-bruno-mars"
-        },
-        {
-          "label": "Air Force Academy Athletics — floor seating information",
-          "url": "https://goairforcefalcons.com/sports/2026/8/25/floor-seating-information"
-        }
-      ]
-    },
-    {
-      "slug": "choosing-a-harry-styles-madison-square-garden-night",
-      "path": "/blog/choosing-a-harry-styles-madison-square-garden-night",
-      "title": "Choosing a Harry Styles night at Madison Square Garden",
-      "seoTitle": "Choosing a Harry Styles MSG night | TourTicketCompare",
-      "description": "Harry Styles’ 2026 MSG residency repeats the same venue across 30 nights. Check the exact date, ticket details and delivery terms before buying.",
-      "summary": "A residency breaks the habit most ticket buyers rely on. When the artist, the tour and the venue are identical across every listing, the date is the only thing distinguishing what you are about to buy — and it is the field people skim.",
-      "datePublished": "2026-09-07",
-      "dateModified": "2026-09-07",
-      "status": "draft",
-      "author": "TourTicketCompare",
-      "tags": [
-        "tour-buying"
-      ],
-      "relatedGuides": [
-        "how-to-read-a-ticket-listing",
-        "ticket-delivery-and-transfer-timing",
-        "primary-vs-resale-concert-tickets"
-      ],
-      "relatedArtists": [
-        "harry-styles"
-      ],
-      "wordCount": 638,
-      "sections": [
-        {
-          "type": "intro",
-          "content": "Most ticket buying leans on a shortcut nobody articulates: you recognise the city, you recognise the venue, and you assume that between them they have identified the show. A residency quietly removes that shortcut. Madison Square Garden announced Harry Styles' Together, Together run as 30 consecutive shows at the arena, every Wednesday, Friday and Saturday from 26 August to 31 October 2026. Every listing therefore carries the same artist, the same tour name and the same building. The date is doing all the work of telling one from another, and the date is the field people skim."
-        },
-        {
-          "type": "section",
-          "title": "The venue name is not an identifier here",
-          "content": "For a single-night stop, the artist and venue may be enough to identify the show. For this residency, they are not. A resale listing, a screenshot sent by a friend, a search result, an old browser tab — none of them are self-identifying, and two of them can look identical while pointing at nights weeks apart.\n\nThe practical version of this is short. Take the date from the card on the [Harry Styles page](/artists/harry-styles), open the ticket site through that date's own button, then check the date twice more: once on the provider's listing, once on the order summary before you pay. The order summary is the one that counts, because it is the last screen where a mistake is still free to fix.\n\nA distinctive listing title is still not a substitute for the event date. Check the full calendar date on the listing and order summary, even when the artist and building look familiar."
-        },
-        {
-          "type": "section",
-          "title": "What genuinely differs between the nights",
-          "content": "Less than people assume, which is worth saying plainly rather than manufacturing distinctions.\n\nTicketmaster's tour announcement says Jamie xx opens all Madison Square Garden dates, so the support billing is not a reason to pick one night over another. Doors, stage times and the venue's own entry rules are Madison Square Garden's to set and publish, and they are published per event rather than per residency — the venue's FAQs are the place to read them, not a third-party page.\n\nThe original sale schedule was staggered, but not by months. Ticketmaster lists general sale for the first twenty shows on 30 January 2026, split between two times, and for the final ten on 4 February. Those dates explain the original release structure; they do not establish today’s prices or availability. Compare the listings for the nights you can attend, including the ticket category, seat details, fees and delivery terms."
-        },
-        {
-          "type": "section",
-          "title": "Where the artist page can and cannot help",
-          "content": "The date board on the artist page carries the nights verified from the source, each with the ticket sites that have their own checked destination for that exact night. Where a figure appears next to a button, it is one provider's listed price for that one night, captured at the time shown beside it — per-date, never per-residency. That is the whole reason the site does not publish a \"prices for the Harry Styles residency\" number: there is no such thing, only 30 separate sets of listings that happen to share an address.\n\nTwo limits are worth stating. First, a night that is not on the artist page is a night that has not been verified, which is not the same as a night that does not exist — the venue's own announcement is the authority on the shape of the run. Second, nothing on the artist page describes a seat. Section, row, obstruction notes and delivery method live on the provider's listing, and for a building with as many seat categories as this one, the [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) is more useful than any figure.\n\nIf you take one thing from this: on a residency, treat the date as the identifier and everything else as decoration."
-        }
-      ],
-      "sources": [
-        {
-          "label": "Madison Square Garden Entertainment — residency announcement",
-          "url": "https://www.msgentertainment.com/madison-square-garden-harry-styles-together-together-30-shows-between-august-26-october-31/"
-        },
-        {
-          "label": "Ticketmaster blog — Harry Styles 2026 dates and on-sale structure",
-          "url": "https://blog.ticketmaster.com/harry-styles-2026-tour-dates/"
-        },
-        {
-          "label": "Madison Square Garden venue FAQs",
-          "url": "https://www.msg.com/madison-square-garden/faqs"
-        }
-      ]
-    },
-    {
       "slug": "olivia-rodrigo-unraveled-tour-ticket-types",
       "path": "/blog/olivia-rodrigo-unraveled-tour-ticket-types",
       "title": "Three kinds of Olivia Rodrigo ticket, and what each one means",
       "seoTitle": "Unraveled Tour ticket types explained | TourTicketCompare",
       "description": "Standard, VIP and Silver Star tickets are sold differently on The Unraveled Tour, and the differences follow the ticket onto the resale market.",
       "summary": "An Unraveled Tour ticket is not one product. The tour sells standard tickets, VIP packages and a request-based fixed-price ticket, and the rules attached to each — transferability, delivery timing, identity checks — decide what a second-hand listing is actually worth buying.",
-      "datePublished": "2026-09-07",
-      "dateModified": "2026-09-07",
-      "status": "draft",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -743,6 +743,11 @@
   ],
   "tags": [
     {
+      "slug": "tour-buying",
+      "label": "Tour Buying",
+      "postCount": 8
+    },
+    {
       "slug": "how-we-work",
       "label": "How the Site Works",
       "postCount": 4
@@ -756,11 +761,6 @@
       "slug": "transparency",
       "label": "Transparency",
       "postCount": 2
-    },
-    {
-      "slug": "tour-buying",
-      "label": "Tour Buying",
-      "postCount": 1
     }
   ]
 }

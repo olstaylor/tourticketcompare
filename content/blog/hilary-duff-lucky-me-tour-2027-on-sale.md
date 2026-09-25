@@ -4,7 +4,7 @@ seo_title: "Hilary Duff 2027 tour on-sale times"
 description: Hilary Duff's new 2027 lucky me tour dates go on public sale October 2 at 10:00 local time, which is a different moment in every time zone.
 summary: Twenty new dates on Hilary Duff's lucky me tour, four in Europe and sixteen in the US, all go on public sale on Friday, October 2. Each opens at 10:00 in its own venue's time, so the sales are staggered by up to nine hours, and one Brussels hospitality listing opens a day earlier.
 date: 2026-09-25
-status: draft
+status: published
 tags:
   - tour-buying
 related_artists:
@@ -62,3 +62,5 @@ The [on-sale preparation guide](/guides/how-to-prepare-for-a-ticket-onsale) has 
 ## What the Hilary Duff page shows
 
 The [Hilary Duff page](/artists/hilary-duff) lists every tracked date. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Resale sites with a checked link for that exact date may still appear, and their listings can sit above face value. After the on-sale, the Ticketmaster link appears. TourTicketCompare doesn't sell tickets or run presales.
+
+The [on-sale calendar](/on-sale) lists these dates, and other tours with a public on-sale coming up, by day in each venue's local time.

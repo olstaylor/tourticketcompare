@@ -2,8 +2,13 @@
 title: 'StubHub International: Why a US Show Opens stubhub.ie'
 h1: What is StubHub International, and why does it open stubhub.ie?
 description: Why a StubHub International button can open stubhub.ie for a US or UK show, how its price is shown here, and what to check about currency and terms.
-status: draft
+status: published
+date_published: 2026-09-25
 sources:
+  - name: What's the difference between StubHub North America and StubHub International?
+    publisher: StubHub UK Support
+    url: https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-what-s-the-difference-between-stubhub-north-america-and-stubhub-international-
+    last_checked: 2026-09-25
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
@@ -26,7 +31,7 @@ The address being Irish doesn't mean the tickets are for a different show. Each 
 
 ## StubHub International is not stubhub.com
 
-TourTicketCompare's StubHub International link and StubHub's US site are separate. The site doesn't link to stubhub.com, and a StubHub International button says nothing about what stubhub.com shows for the same date. Listings, prices and the currency on the two sites can differ.
+StubHub's own support site explains that stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland and much of Europe belong to StubHub International, a separately owned business, and accounts don't carry over between the two. TourTicketCompare's StubHub International link and StubHub's US site are separate. The site doesn't link to stubhub.com, and a StubHub International button says nothing about what stubhub.com shows for the same date. Listings, prices and the currency on the two sites can differ.
 
 If you'd rather use a StubHub site in your own country, you can go there directly. Check that you're on StubHub's real domain and compare the same things listed below.
 
@@ -78,7 +83,7 @@ TourTicketCompare earns a commission when you buy through its StubHub Internatio
 
 **Is stubhub.ie a real StubHub site?**
 
-Yes, it is one of StubHub's websites. Still check the exact domain before signing in or paying, because lookalike sites exist for every ticket brand.
+Yes. It is one of StubHub International's sites, which StubHub's support site describes as separate from stubhub.com. Still check the exact domain before signing in or paying, because lookalike sites exist for every ticket brand.
 
 **Why is a US concert on an Irish website?**
 
@@ -86,7 +91,7 @@ StubHub's international marketplace lists events worldwide, including US and Can
 
 **Is StubHub International the same as StubHub?**
 
-It's StubHub's international site, which is separate from stubhub.com. Listings, prices and currency can differ between them.
+It's StubHub's international marketplace, a separately owned business from StubHub North America (stubhub.com). An account on one doesn't carry over to the other. Listings, prices and currency can differ between them.
 
 **What currency will I pay in?**
 

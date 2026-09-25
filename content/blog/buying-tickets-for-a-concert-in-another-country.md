@@ -4,7 +4,7 @@ seo_title: "Concert tickets abroad: what to check"
 description: Following a tour to another country adds time zones, currency, local ticket sites and different resale rules. What to check before buying and booking travel.
 summary: Major tours now cross continents, and plenty of fans follow them. Buying for a show abroad adds a handful of checks that a home-town ticket never needs, from the time zone of the sale to the currency of the total and the rules that apply to resale where the show takes place.
 date: 2026-09-25
-status: draft
+status: published
 tags:
   - tour-buying
 related_artists:
@@ -23,7 +23,7 @@ sources:
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
 ---
 
-Plenty of the biggest tours on TourTicketCompare cross borders. [Harry Styles](/artists/harry-styles) has dates listed in the United States, Canada, Australia, Ireland, Spain and the UK; [Karol G](/artists/karol-g) in the United States and across Europe; [Oasis](/artists/oasis) in Scotland, England, Ireland and Germany; and [BTS](/artists/bts) in Australia. For some fans the nearest date, or the only one left, is in another country. Buying a ticket for that show works much like buying one at home, with a handful of extra checks that are easy to miss.
+Plenty of the biggest tours on TourTicketCompare cross borders. [Harry Styles](/artists/harry-styles) has dates listed in the United States, Canada, Australia, Ireland, Spain and the UK; [Karol G](/artists/karol-g) in the United States and across Europe; [Oasis](/artists/oasis) in Scotland, England, Ireland, Germany, Spain and the Netherlands; and [BTS](/artists/bts) in Australia. For some fans the nearest date, or the only one left, is in another country. Buying a ticket for that show works much like buying one at home, with a handful of extra checks that are easy to miss.
 
 ## Read every time in the right zone
 

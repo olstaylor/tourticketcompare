@@ -94,6 +94,10 @@
       "content_hash": "8f3244ca55b91e9b",
       "content_updated_at": "2026-09-25"
     },
+    "/guides/stubhub-international-explained": {
+      "content_hash": "980aa1286af5da2c",
+      "content_updated_at": "2026-09-25"
+    },
     "/": {
       "content_hash": "97c09823c7572686",
       "content_updated_at": "2026-09-25"
@@ -189,6 +193,9 @@
     },
     "/guides/seatgeek-vs-ticketmaster": {
       "date_published": "2026-07-13"
+    },
+    "/guides/stubhub-international-explained": {
+      "date_published": "2026-09-25"
     },
     "/guides/ticket-delivery-and-transfer-timing": {
       "date_published": "2026-06-11"

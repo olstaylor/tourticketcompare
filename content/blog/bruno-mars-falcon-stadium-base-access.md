@@ -3,8 +3,8 @@ title: Bruno Mars at Falcon Stadium: check entry before you travel
 seo_title: Bruno Mars: Falcon Stadium entry
 description: Bruno Mars plays Falcon Stadium inside the US Air Force Academy. Check the concert’s access instructions, identification rules and arrival plan.
 summary: The Falcon Stadium dates take place inside the United States Air Force Academy. Check the instructions for your concert before arranging travel: general visitor policy alone does not settle the entry arrangements for a special event.
-date: 2026-09-07
-status: draft
+date: 2026-09-25
+status: published
 tags:
   - tour-buying
 related_artists:

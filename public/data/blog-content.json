@@ -3,6 +3,215 @@
   "source": "content/blog",
   "posts": [
     {
+      "slug": "buying-tickets-for-a-concert-in-another-country",
+      "path": "/blog/buying-tickets-for-a-concert-in-another-country",
+      "title": "Buying tickets for a concert in another country",
+      "seoTitle": "Concert tickets abroad: what to check | TourTicketCompare",
+      "description": "Following a tour to another country adds time zones, currency, local ticket sites and different resale rules. What to check before buying and booking travel.",
+      "summary": "Major tours now cross continents, and plenty of fans follow them. Buying for a show abroad adds a handful of checks that a home-town ticket never needs, from the time zone of the sale to the currency of the total and the rules that apply to resale where the show takes place.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "status": "draft",
+      "author": "TourTicketCompare",
+      "tags": [
+        "tour-buying"
+      ],
+      "relatedGuides": [
+        "how-to-prepare-for-a-ticket-onsale",
+        "concert-ticket-fees-explained",
+        "what-to-do-if-a-concert-is-postponed-or-cancelled"
+      ],
+      "relatedArtists": [
+        "harry-styles",
+        "oasis",
+        "karol-g",
+        "bts"
+      ],
+      "wordCount": 650,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Plenty of the biggest tours on TourTicketCompare cross borders. [Harry Styles](/artists/harry-styles) has dates listed in the United States, Canada, Australia, Ireland, Spain and the UK; [Karol G](/artists/karol-g) in the United States and across Europe; [Oasis](/artists/oasis) in Scotland, England, Ireland and Germany; and [BTS](/artists/bts) in Australia. For some fans the nearest date, or the only one left, is in another country. Buying a ticket for that show works much like buying one at home, with a handful of extra checks that are easy to miss."
+        },
+        {
+          "type": "section",
+          "title": "Read every time in the right zone",
+          "content": "Two different clocks matter: the on-sale time and the show time. An on-sale announced for 10am usually means 10am where the venue is, not where you are. Convert it before the day, and check whether either country changes its clocks between now and then. The [onsale preparation guide](/guides/how-to-prepare-for-a-ticket-onsale) covers the rest of the routine.\n\nThe show date needs the same care once travel is involved. A late show that ends after midnight can matter for the last train, the hotel booking and the flight home."
+        },
+        {
+          "type": "section",
+          "title": "Know which ticket site covers that country",
+          "content": "Large ticket sites often run separate country sites, and an account on one does not always carry over to another. Before the sale, find out which site the venue or tour names for that country, create the account in advance if you need one, and confirm that it accepts your card and billing address. Mobile tickets can also depend on the ticket site's app for that region, so check that you can install and sign in to it.\n\nIf the ticket is transfer-locked or tied to a name, make sure the name on the order matches the identification you will carry. Some venues ask to see it at the gate."
+        },
+        {
+          "type": "section",
+          "title": "Compare totals in one currency",
+          "content": "A total in euros, pounds or Australian dollars is not comparable with one in US dollars until both are converted, and your card may add its own conversion charge on top. Compare final checkout totals for the same number of tickets, then work out what your card will actually charge. The [fees guide](/guides/concert-ticket-fees-explained) lists the charges that tend to appear late.\n\nFee rules differ by country as well. In the United States, the FTC's rule on unfair or deceptive fees requires mandatory fees to be included in the upfront price of live-event tickets, although taxes, shipping and optional add-ons can still be shown separately. Other countries set their own rules, so read the order summary rather than assuming the first price shown is the one you pay."
+        },
+        {
+          "type": "section",
+          "title": "Resale rules follow the venue, not you",
+          "content": "Resale rules are set where the event takes place. In the UK, for example, section 90 of the Consumer Rights Act 2015 requires a ticket resold through a secondary ticketing platform to come with the information needed to identify the seat or standing area, any restriction on who may use it, and its face value. That protection applies to UK events wherever the buyer lives. Other countries restrict resale differently, and some tours add their own terms, so read the terms attached to the specific ticket before buying it second-hand."
+        },
+        {
+          "type": "section",
+          "title": "Book travel you can change",
+          "content": "Tickets can arrive late, and shows can be rescheduled. Until the ticket is in your account and the date is settled, flexible or refundable travel is worth more than it would be for a local show. If a date moves, the [postponement and cancellation guide](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) explains what to check first."
+        },
+        {
+          "type": "section",
+          "title": "Using the artist pages from abroad",
+          "content": "Each artist page lists dates with a checked ticket link for that exact show, with the city and country shown on each date. Where a price appears, it is one provider's listed price in the currency that provider listed, with the time it was checked. Open the provider's page to confirm the currency, the fees and the final total before buying."
+        }
+      ],
+      "sources": [
+        {
+          "label": "UK Consumer Rights Act 2015, section 90 — information for resold tickets",
+          "url": "https://www.legislation.gov.uk/ukpga/2015/15/section/90"
+        },
+        {
+          "label": "US Federal Trade Commission — Rule on Unfair or Deceptive Fees, FAQs",
+          "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions"
+        }
+      ]
+    },
+    {
+      "slug": "floor-or-seats-at-a-stadium-concert",
+      "path": "/blog/floor-or-seats-at-a-stadium-concert",
+      "title": "Floor or seats at a stadium concert: how to choose",
+      "seoTitle": "Stadium concert: floor or seats? | TourTicketCompare",
+      "description": "A floor ticket and a seat at the same stadium show are different products. How to choose between them, and what to check on a listing before paying.",
+      "summary": "At a stadium show, the choice between the floor and a seat decides more than the view. It sets when you need to arrive, how long you stand, what an early-entry add-on is worth and how to read a resale listing. Here is how to weigh it before you compare prices.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "status": "draft",
+      "author": "TourTicketCompare",
+      "tags": [
+        "tour-buying"
+      ],
+      "relatedGuides": [
+        "how-to-read-a-ticket-listing",
+        "how-to-compare-concert-ticket-prices",
+        "ticket-delivery-and-transfer-timing"
+      ],
+      "relatedArtists": [
+        "oasis",
+        "bruno-mars",
+        "metallica",
+        "harry-styles"
+      ],
+      "wordCount": 679,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Most price comparisons for a stadium concert quietly assume the tickets being compared are the same kind of thing. They often are not. A floor ticket and a seat in the bowl on the same night are different products with different costs attached, and several of those costs never appear in the price. Deciding which one you want first makes every later comparison fairer."
+        },
+        {
+          "type": "section",
+          "title": "Three things \"floor\" can mean",
+          "content": "The word covers more than one arrangement, and the listing should tell you which.\n\n- **General admission standing.** You have a place on the floor, not a spot. Where you end up depends on when you arrive and how crowded the area is.\n- **Reserved floor seats.** Chairs are set out on the pitch or floor, each with a section, row and seat number, just like the bowl.\n- **Early-entry or package floor tickets.** A general admission ticket sold with earlier access. Ticketmaster's help page for The Unraveled Tour, for example, describes its GA Early Entry Experience as a general admission ticket with priority access to the floor, alongside early entry into the venue.\n\nIf a listing just says \"floor\" without a section, a row or the words \"general admission\", ask which it is before paying. The [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) covers the other labels worth checking."
+        },
+        {
+          "type": "section",
+          "title": "What the floor costs besides money",
+          "content": "A general admission floor ticket is paid for partly in time. A spot near the stage usually means arriving early and standing for the support act as well as the headliner. Packages that sell early entry exist precisely because floor position is decided by arrival order, which tells you how much the queue matters.\n\nThe floor can also come with its own entry process. At Falcon Stadium, the Air Force Academy's floor-seating guidance for the Bruno Mars shows sends floor ticketholders through a specific gate, with wristbands collected inside. That is typical of stadium shows: the floor is often managed separately from the bowl, so read the venue's instructions for your ticket type rather than a friend's.\n\nAccessibility is a separate question again. If you need step-free access, somewhere to sit, or space for a companion, check the venue's accessible seating arrangements directly; a standing floor ticket may not meet those needs."
+        },
+        {
+          "type": "section",
+          "title": "What a seat buys you",
+          "content": "A seat in the lower bowl or stands gives you a fixed place, a view that does not depend on the people in front of you, and freedom to arrive later. On a large stage the height can be an advantage, because you see the whole production and the screens instead of the backs of heads. The trade is distance from the stage, and on some layouts side-stage or partial-view seats that are priced lower for a reason. Listings that say \"limited view\" or \"side stage\" deserve a look at the venue's seating map before you decide."
+        },
+        {
+          "type": "section",
+          "title": "Compare like with like",
+          "content": "Once you know which product you want, compare only that product. A general admission floor listing is not a cheaper version of a reserved floor seat, and a side-stage seat is not a cheaper version of a centre one. Match the admission type, the section and the number of tickets, then compare final checkout totals rather than first displayed prices. The [price comparison guide](/guides/how-to-compare-concert-ticket-prices) walks through that step by step.\n\nDelivery matters more on the floor than it seems. Wristband and early-entry arrangements can depend on the ticket being in the right account on the day, so check when a resale ticket will actually arrive; the [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains the usual gaps."
+        },
+        {
+          "type": "section",
+          "title": "Where to start",
+          "content": "Stadium runs listed on TourTicketCompare include [Oasis](/artists/oasis) at Celtic Park, the Etihad Stadium and Knebworth, [Metallica](/artists/metallica) across North American stadiums, [Bruno Mars](/artists/bruno-mars) and [Harry Styles](/artists/harry-styles). Each artist page lists dates with a checked ticket link for that exact show. Where a price appears, it is one provider's listed price at the time shown, for whatever ticket that provider listed, so open the provider's page to confirm whether it is a floor or seated ticket before comparing."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ticketmaster Help — Olivia Rodrigo, The Unraveled Tour (GA Early Entry Experience)",
+          "url": "https://help.ticketmaster.com/hc/en-us/articles/46243763269649-Olivia-Rodrigo-The-Unraveled-Tour"
+        },
+        {
+          "label": "Air Force Academy Athletics — Bruno Mars floor seating information",
+          "url": "https://goairforcefalcons.com/sports/2026/8/25/floor-seating-information"
+        }
+      ]
+    },
+    {
+      "slug": "oasis-live-27-code-only-ticket-sale",
+      "path": "/blog/oasis-live-27-code-only-ticket-sale",
+      "title": "Oasis Live '27: what a code-only ticket sale changes",
+      "seoTitle": "Oasis Live '27 tickets: the code sale | TourTicketCompare",
+      "description": "Oasis Live '27 tickets go only to registered fans with a unique code. What that means for codes offered online, resale listings and choosing a night.",
+      "summary": "Oasis Live '27 is not sold the usual way. Registration has closed, selected fans receive a unique code for an assigned sale window, and there is no general sale. That changes how to read almost every ticket offer you will see for these dates.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "status": "published",
+      "author": "TourTicketCompare",
+      "tags": [
+        "tour-buying"
+      ],
+      "relatedGuides": [
+        "how-to-avoid-ticket-scams",
+        "primary-vs-resale-concert-tickets",
+        "how-to-read-a-ticket-listing"
+      ],
+      "relatedArtists": [
+        "oasis"
+      ],
+      "wordCount": 696,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "The official Oasis site says registration for Oasis Live '27 tickets is closed, and that selected registrants receive a unique code, with full details of how to buy, by email between 24 and 27 September 2026. Consequence reported that each code is non-transferable and tied to an assigned on-sale window, that sales begin on Friday 25 September at times that vary by city, and that there will be no general on-sale or other public pre-sale. Those few sentences change how nearly every ticket offer for these dates should be read."
+        },
+        {
+          "type": "section",
+          "title": "If you registered: trust the email, not the feed",
+          "content": "The code and the buying instructions arrive by email from the official process. Read that email for three things before your window opens: the city and date it covers, the start time, and the time zone that start time is written in. The tour runs from Glasgow to Manchester, mainland Europe, the United States, Slane and Knebworth, so an on-sale time quoted without a zone can easily be an hour, or many hours, away from your own.\n\nBecause reports describe the codes as non-transferable, anyone offering to sell or \"share\" an Oasis code is offering something the process says cannot be passed on. Treat that as a warning sign, not a shortcut. The same goes for messages asking you to \"confirm\" a code through a link that did not come from the official email. The [guide to avoiding ticket scams](/guides/how-to-avoid-ticket-scams) covers the payment and contact patterns worth refusing outright."
+        },
+        {
+          "type": "section",
+          "title": "If you did not get a code",
+          "content": "With no general sale reported, a fan without a code has no second official queue to join. Any ticket you are offered after that is a resale ticket, whatever the listing calls it. That is not automatically bad, but it is a different purchase from the one registered fans are making, and it is worth being deliberate about.\n\nTwo checks carry most of the weight. First, timing: a resale listing that appears before its seller could plausibly have bought a ticket deserves a direct question about what is actually being sold and when it will be delivered. Second, terms: the organiser's own ticket terms decide whether a resold ticket will scan, so read them before paying for one. The [official versus resale guide](/guides/primary-vs-resale-concert-tickets) sets out the general differences.\n\nFor the UK dates there is a helpful legal floor. Section 90 of the Consumer Rights Act 2015 requires that a ticket resold through a secondary ticketing platform for a UK event comes with the information needed to identify the seat or standing area, any restriction on who may use the ticket, and the face value, meaning the price stated on the ticket. NBC News reported that promoters said standard ticket prices for this tour are fixed. Together, those mean a UK resale listing should let you see how far its asking price sits above what the ticket originally cost."
+        },
+        {
+          "type": "section",
+          "title": "Pick the night before the price",
+          "content": "Several venues on this tour host long runs: eleven nights at the Etihad Stadium in Manchester, five at Celtic Park in Glasgow, and a series at Knebworth. When the artist, the tour and the stadium are identical across listings, the date is the only field separating one ticket from another, and it is the one people skim. Confirm the date on the listing, then again at checkout, then on the ticket itself once it reaches your account.\n\nStanding and seated tickets at the same stadium are different products too, even on the same night. The [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) explains how to confirm section, row and admission type before comparing prices."
+        },
+        {
+          "type": "section",
+          "title": "What the Oasis page shows",
+          "content": "The [Oasis page](/artists/oasis) lists the dates that have a checked ticket link for that exact show, so a date appears there once its link has been verified rather than when it is announced. Where a price appears, it is one provider's listed price at the time shown next to it. It is not the tour's face value, it is not a code-holder's price, and it is not a final checkout total. TourTicketCompare does not issue codes, run the registration or sell tickets."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oasis official site — Oasis Live '27 ticket information",
+          "url": "https://oasisinet.com/"
+        },
+        {
+          "label": "Consequence — Oasis announce 2027 tour dates and ticket registration",
+          "url": "https://consequence.net/2026/09/oasis-2027-tour-dates/"
+        },
+        {
+          "label": "NBC News — Oasis announce 38-date tour in 2027",
+          "url": "https://www.nbcnews.com/news/us-news/british-rock-band-oasis-announce-38-date-tour-2027-rcna597861"
+        },
+        {
+          "label": "UK Consumer Rights Act 2015, section 90 — information for resold tickets",
+          "url": "https://www.legislation.gov.uk/ukpga/2015/15/section/90"
+        }
+      ]
+    },
+    {
       "slug": "bruno-mars-falcon-stadium-base-access",
       "path": "/blog/bruno-mars-falcon-stadium-base-access",
       "title": "Bruno Mars at Falcon Stadium: check entry before you travel",
@@ -418,6 +627,11 @@
       "slug": "transparency",
       "label": "Transparency",
       "postCount": 2
+    },
+    {
+      "slug": "tour-buying",
+      "label": "Tour Buying",
+      "postCount": 1
     }
   ]
 }

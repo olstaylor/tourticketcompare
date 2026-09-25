@@ -3,87 +3,95 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "5184fd3263be20e1",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "07d3b86ac06cae8e",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
-      "content_hash": "13d41c4008ae9283",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "de240e8e591dd125",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-      "content_hash": "57aa3f304373e66a",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "c16f045de8f84f18",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/seatgeek-vs-ticketmaster": {
-      "content_hash": "74e8db31efd86cb7",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "57a54fd2080e8ccd",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/ticketnetwork-vs-ticketmaster": {
-      "content_hash": "81c59d1b1606a04a",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "d789518c88ebc074",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-      "content_hash": "6f86078a2df967c0",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "23f34c758b2c2145",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/when-is-the-best-time-to-buy-concert-tickets": {
-      "content_hash": "43471830d895a33d",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "a69a57ea180d7935",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/primary-vs-resale-concert-tickets": {
-      "content_hash": "77e25cdbaab7f283",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "64287cf497396ca4",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/how-to-avoid-ticket-scams": {
-      "content_hash": "a46010002bfbcdc2",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "e288085e3c35b261",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/why-ticket-prices-change": {
-      "content_hash": "3a09de50eb4894ae",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "5ee7502b302d63ec",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/ticketmaster-vs-stubhub": {
-      "content_hash": "24a247abbcb28532",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "7e45e5ddd171e5ca",
+      "content_updated_at": "2026-09-25"
     },
     "/guides/seatgeek-promo-code-guide": {
       "content_hash": "533daa45f1cdd8a5",
       "content_updated_at": "2026-09-24"
     },
     "/guides/concert-ticket-fees-explained": {
-      "content_hash": "1fde9f313cfc2ade",
-      "content_updated_at": "2026-09-24"
-    },
-    "/guides/ticket-delivery-and-transfer-timing": {
-      "content_hash": "a90b3f4f5c012b64",
-      "content_updated_at": "2026-09-24"
-    },
-    "/guides/how-resale-ticket-pricing-works": {
-      "content_hash": "770e6b0c63c54fd8",
-      "content_updated_at": "2026-09-24"
-    },
-    "/guides/how-to-prepare-for-a-ticket-onsale": {
-      "content_hash": "08aee931bb127900",
-      "content_updated_at": "2026-09-24"
-    },
-    "/guides/how-to-read-a-ticket-listing": {
-      "content_hash": "5afc24c28091508a",
-      "content_updated_at": "2026-09-24"
-    },
-    "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
-      "content_hash": "15ad79cb848797b2",
-      "content_updated_at": "2026-09-24"
-    },
-    "/guides/is-seatgeek-legit": {
-      "content_hash": "2b7b6a1fdf68a082",
+      "content_hash": "fe231993703fddd4",
       "content_updated_at": "2026-09-25"
     },
-    "/guides/is-vivid-seats-legit": {
-      "content_hash": "6fe9c8052b989c91",
+    "/guides/ticket-delivery-and-transfer-timing": {
+      "content_hash": "c60f3cb54cf755b4",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/how-resale-ticket-pricing-works": {
+      "content_hash": "d70d0e21280fdb87",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/how-to-prepare-for-a-ticket-onsale": {
+      "content_hash": "fc2ae20b6e5a4cde",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/how-to-read-a-ticket-listing": {
+      "content_hash": "f588654d4a3d1f5f",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
+      "content_hash": "3214a179be05e8d8",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/seatgeek-vs-stubhub": {
+      "content_hash": "a855ed083d05697f",
       "content_updated_at": "2026-09-25"
     },
     "/guides/vivid-seats-vs-seatgeek": {
-      "content_hash": "d88e856af1907a38",
+      "content_hash": "7ac1137beac76b65",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/vivid-seats-vs-stubhub": {
+      "content_hash": "e4d87fe170e6ae56",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/is-vivid-seats-legit": {
+      "content_hash": "211a6155f22f3878",
+      "content_updated_at": "2026-09-25"
+    },
+    "/guides/is-seatgeek-legit": {
+      "content_hash": "8f3244ca55b91e9b",
       "content_updated_at": "2026-09-25"
     },
     "/": {
@@ -176,6 +184,9 @@
     "/guides/seatgeek-promo-code-guide": {
       "date_published": "2026-06-11"
     },
+    "/guides/seatgeek-vs-stubhub": {
+      "date_published": "2026-09-25"
+    },
     "/guides/seatgeek-vs-ticketmaster": {
       "date_published": "2026-07-13"
     },
@@ -192,6 +203,9 @@
       "date_published": "2026-08-19"
     },
     "/guides/vivid-seats-vs-seatgeek": {
+      "date_published": "2026-09-25"
+    },
+    "/guides/vivid-seats-vs-stubhub": {
       "date_published": "2026-09-25"
     },
     "/guides/vivid-seats-vs-ticketmaster": {

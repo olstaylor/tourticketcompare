@@ -1,0 +1,1963 @@
+[
+  {
+    "id": "tm-malcolm-todd-2026-boston-vvg17z_g1xnurg",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-09-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064C2A28F6BF5",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-boston-massachusetts-09-26-2026/event/010064C2A28F6BF5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-boston-massachusetts-09-26-2026/event/010064C2A28F6BF5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064C2A28F6BF5",
+        "discovery_event_id": "vvG17Z_G1xNURg",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-boston-massachusetts-09-26-2026/event/010064C2A28F6BF5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_G1xNURg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-toronto-177zv0g6gcmrwkt",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2026-09-28T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064C3AEBFD4FF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/malcolm-todd-do-that-again-tour-toronto-ontario-09-28-2026/event/100064C3AEBFD4FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/malcolm-todd-do-that-again-tour-toronto-ontario-09-28-2026/event/100064C3AEBFD4FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064C3AEBFD4FF",
+        "discovery_event_id": "177Zv0G6GCmRWKT",
+        "url": "https://www.ticketmaster.ca/malcolm-todd-do-that-again-tour-toronto-ontario-09-28-2026/event/100064C3AEBFD4FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6GCmRWKT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-toronto-177zv0g6gcmycf1",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2026-09-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064C3AEC2D50A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/malcolm-todd-do-that-again-tour-toronto-ontario-09-29-2026/event/100064C3AEC2D50A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/malcolm-todd-do-that-again-tour-toronto-ontario-09-29-2026/event/100064C3AEC2D50A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064C3AEC2D50A",
+        "discovery_event_id": "177Zv0G6GCmYcf1",
+        "url": "https://www.ticketmaster.ca/malcolm-todd-do-that-again-tour-toronto-ontario-09-29-2026/event/100064C3AEC2D50A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6GCmYcf1",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-detroit-vvg1oz_g99edo3",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2026-10-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064C5D70BB812",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-detroit-michigan-10-01-2026/event/080064C5D70BB812",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-detroit-michigan-10-01-2026/event/080064C5D70BB812",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064C5D70BB812",
+        "discovery_event_id": "vvG1OZ_G99eDO3",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-detroit-michigan-10-01-2026/event/080064C5D70BB812",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_G99eDO3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-nashville-g5viz_g1jq0ud",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-10-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064C2A6764343",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-nashville-tennessee-10-03-2026/event/1B0064C2A6764343",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-nashville-tennessee-10-03-2026/event/1B0064C2A6764343",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064C2A6764343",
+        "discovery_event_id": "G5viZ_G1Jq0ud",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-nashville-tennessee-10-03-2026/event/1B0064C2A6764343",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_G1Jq0ud",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-maryland-heights-vvg1bz_gclzidq",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Maryland Heights",
+    "country": "United States Of America",
+    "venue": "Saint Louis Music Park",
+    "datetime_iso": "2026-10-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064C39FE280DD",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-maryland-heights-missouri-10-04-2026/event/060064C39FE280DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-maryland-heights-missouri-10-04-2026/event/060064C39FE280DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064C39FE280DD",
+        "discovery_event_id": "vvG1bZ_GCLzIdq",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-maryland-heights-missouri-10-04-2026/event/060064C39FE280DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_GCLzIdq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-chicago-vvg18z_gkurbfe",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour (MOVED TO THE SALT SHED OUTDOORS)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Outdoors (Fairgrounds)",
+    "datetime_iso": "2026-10-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064C4CD7BA202",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-06-2026/event/040064C4CD7BA202",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-06-2026/event/040064C4CD7BA202",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064C4CD7BA202",
+        "discovery_event_id": "vvG18Z_GKurBFe",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-06-2026/event/040064C4CD7BA202",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_GKurBFe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-chicago-vvg18z_g91pgfe",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour (MOVED TO THE SALT SHED OUTDOORS)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Outdoors (Fairgrounds)",
+    "datetime_iso": "2026-10-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064C5CA58C202",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-07-2026/event/040064C5CA58C202",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-07-2026/event/040064C5CA58C202",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064C5CA58C202",
+        "discovery_event_id": "vvG18Z_G91pGFe",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-07-2026/event/040064C5CA58C202",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_G91pGFe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-minneapolis-vvg1bz_gcw2bqa",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2026-10-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064C3B23FA749",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-minneapolis-minnesota-10-09-2026/event/060064C3B23FA749",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-minneapolis-minnesota-10-09-2026/event/060064C3B23FA749",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064C3B23FA749",
+        "discovery_event_id": "vvG1bZ_GCw2Bqa",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-minneapolis-minnesota-10-09-2026/event/060064C3B23FA749",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_GCw2Bqa",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-denver-z7r9jz1a7pobe",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2026-10-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PobE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PobE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PobE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PobE",
+        "discovery_event_id": "Z7r9jZ1A7PobE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PobE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PobE",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-denver-z7r9jz1a7pk4i",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2026-10-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PK4I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK4I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK4I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PK4I",
+        "discovery_event_id": "Z7r9jZ1A7PK4I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK4I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK4I",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-salt-lake-city-g5vzz_g2farap",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Union",
+    "datetime_iso": "2026-10-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064C3D426F256",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064C3D426F256",
+        "discovery_event_id": "G5vzZ_G2faRap",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_G2faRap",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3nanrd",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2026-10-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064C4A326A7BB",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-15-2026/event/0F0064C4A326A7BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-15-2026/event/0F0064C4A326A7BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064C4A326A7BB",
+        "discovery_event_id": "vvG1HZ_G3NanrD",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-15-2026/event/0F0064C4A326A7BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_G3NanrD",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3n1blo",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2026-10-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064C4A32BA7D1",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-16-2026/event/0F0064C4A32BA7D1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-16-2026/event/0F0064C4A32BA7D1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064C4A32BA7D1",
+        "discovery_event_id": "vvG1HZ_G3N1BLo",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-16-2026/event/0F0064C4A32BA7D1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_G3N1BLo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-vancouver-z7r9jz1a7p87i",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "PNE Forum",
+    "datetime_iso": "2026-10-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P87I",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7P87I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7P87I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P87I",
+        "discovery_event_id": "Z7r9jZ1A7P87I",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7P87I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P87I",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-portland-z7r9jz1a7p8vw",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Arlene Schnitzer Concert Hall",
+    "datetime_iso": "2026-10-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P8vw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8vw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8vw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P8vw",
+        "discovery_event_id": "Z7r9jZ1A7P8vw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8vw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8vw",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-oakland-g5vyz_gfhhyva",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Fox Theater - Oakland",
+    "datetime_iso": "2026-10-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064C23CF30D05",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-21-2026/event/1C0064C23CF30D05",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-21-2026/event/1C0064C23CF30D05",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064C23CF30D05",
+        "discovery_event_id": "G5vYZ_GFHHYVA",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-21-2026/event/1C0064C23CF30D05",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GFHHYVA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-oakland-g5vyz_gfww-6g",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Fox Theater - Oakland",
+    "datetime_iso": "2026-10-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064C23DF611F5",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-22-2026/event/1C0064C23DF611F5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-22-2026/event/1C0064C23DF611F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064C23DF611F5",
+        "discovery_event_id": "G5vYZ_GFWW-6g",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-22-2026/event/1C0064C23DF611F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GFWW-6g",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064C3ACB68843",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064C3ACB68843",
+        "discovery_event_id": "vvG1IZ_GCicI-d",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_GCicI-d",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-phoenix-17k8v0g6g538qi9",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-10-26T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064C2D241DB17",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064C2D241DB17",
+        "discovery_event_id": "17k8v0G6G538qi9",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G6G538qi9",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gcgtrwf",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2026-10-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064C3B5A6FC88",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064C3B5A6FC88",
+        "discovery_event_id": "vvG10Z_GCgtRwF",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GCgtRwF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064C591D293A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064C591D293A2",
+        "discovery_event_id": "vvG10Z_GpoVtCx",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GpoVtCx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gpomy2y",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064C591DF93F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-30-2026/event/090064C591DF93F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-30-2026/event/090064C591DF93F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064C591DF93F9",
+        "discovery_event_id": "vvG10Z_GpoMy2y",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-30-2026/event/090064C591DF93F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GpoMy2y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-stockholm-z698xzq2z1afq0g8",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "venue": "Fryshuset",
+    "datetime_iso": "2027-02-12T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "8764310",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/malcolm-todd-do-that-again-tour-tickets/8764310?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/malcolm-todd-do-that-again-tour-tickets/8764310?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "8764310",
+        "discovery_event_id": "Z698xZq2Z1AFq0G8",
+        "url": "https://www.ticketmaster.se/event/malcolm-todd-do-that-again-tour-tickets/8764310?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z1AFq0G8",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-forest-brussels-z698xzg2z1a3rzza",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-02-18T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "12780009",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/malcolm-todd-do-that-again-tour-tickets/12780009",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/malcolm-todd-do-that-again-tour-tickets/12780009",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "12780009",
+        "discovery_event_id": "Z698xZG2Z1A3rZZa",
+        "url": "https://www.ticketmaster.be/event/malcolm-todd-do-that-again-tour-tickets/12780009",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1A3rZZa",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-02-24T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180065239B051922",
+    "ticketmaster_url": "https://www.ticketmaster.ie/malcolm-todd-do-that-again-tour-dublin-24-02-2027/event/180065239B051922",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/malcolm-todd-do-that-again-tour-dublin-24-02-2027/event/180065239B051922",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180065239B051922",
+        "discovery_event_id": "1kkZvPFyGA5vo0x",
+        "url": "https://www.ticketmaster.ie/malcolm-todd-do-that-again-tour-dublin-24-02-2027/event/180065239B051922",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZvPFyGA5vo0x",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-glasgow-1adbz_3gknizpvr",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Barrowland Ballroom",
+    "datetime_iso": "2027-02-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600652AA8E1605E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600652AA8E1605E",
+        "discovery_event_id": "1AdbZ_3GknIzpvr",
+        "url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_3GknIzpvr",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-02-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652A9B4B2BE3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-birmingham-27-02-2027/event/3E00652A9B4B2BE3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-birmingham-27-02-2027/event/3E00652A9B4B2BE3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652A9B4B2BE3",
+        "discovery_event_id": "G5dzZ_3nh3wRN",
+        "url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-birmingham-27-02-2027/event/3E00652A9B4B2BE3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3nh3wRN",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2027-02-28T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600652AB4BD7243",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-manchester-28-02-2027/event/3600652AB4BD7243",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-manchester-28-02-2027/event/3600652AB4BD7243",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600652AB4BD7243",
+        "discovery_event_id": "1AdbZ_3GknVR9ad",
+        "url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-manchester-28-02-2027/event/3600652AB4BD7243",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_3GknVR9ad",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-london-g5dzz_3lpy7hq",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd: Do That Again Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-03-02T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652AD6E44F1A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-02-03-2027/event/3E00652AD6E44F1A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-02-03-2027/event/3E00652AD6E44F1A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652AD6E44F1A",
+        "discovery_event_id": "G5dzZ_3lpy7HQ",
+        "url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-02-03-2027/event/3E00652AD6E44F1A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3lpy7HQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-london-g5dzz_3rjik2s",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd - Do That Again Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-03-03T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652BE6A063F3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-03-03-2027/event/3E00652BE6A063F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-03-03-2027/event/3E00652BE6A063F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652BE6A063F3",
+        "discovery_event_id": "G5dzZ_3RJIk2S",
+        "url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-03-03-2027/event/3E00652BE6A063F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3RJIk2S",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-london-g5dzz_3rsuku2",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd - Do That Again Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-03-04T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652BF1D86D8F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-04-03-2027/event/3E00652BF1D86D8F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-04-03-2027/event/3E00652BF1D86D8F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652BF1D86D8F",
+        "discovery_event_id": "G5dzZ_3RsUkU2",
+        "url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-04-03-2027/event/3E00652BF1D86D8F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3RsUkU2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-brisbane-1akzkftgkduv9ih",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd - Do That Again Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2027-05-12T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006529CDD17A1B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-brisbane-12-05-2027/event/13006529CDD17A1B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-brisbane-12-05-2027/event/13006529CDD17A1B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006529CDD17A1B",
+        "discovery_event_id": "1AKZkftGkduV9Ih",
+        "url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-brisbane-12-05-2027/event/13006529CDD17A1B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkftGkduV9Ih",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-west-melbourne-1avgz_3gklkoff0",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd - Do That Again Tour",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2027-05-17T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652AD3448524",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-17-05-2027/event/1300652AD3448524",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-17-05-2027/event/1300652AD3448524",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652AD3448524",
+        "discovery_event_id": "1AvGZ_3GklKoFf0",
+        "url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-17-05-2027/event/1300652AD3448524",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GklKoFf0",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-west-melbourne-1avgz_3gkdbmub7",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd - Do That Again Tour",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2027-05-18T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652ED8BB6604",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-18-05-2027/event/1300652ED8BB6604",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-18-05-2027/event/1300652ED8BB6604",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652ED8BB6604",
+        "discovery_event_id": "1AvGZ_3GkDbmUb7",
+        "url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-18-05-2027/event/1300652ED8BB6604",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GkDbmUb7",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-mt-claremont-1avgz_3gkl3ubod",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd - Do That Again Tour",
+    "city": "Mt Claremont",
+    "country": "Australia",
+    "venue": "Perth HPC",
+    "datetime_iso": "2027-05-21T11:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652AD2358443",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-21-05-2027/event/1300652AD2358443",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-21-05-2027/event/1300652AD2358443",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652AD2358443",
+        "discovery_event_id": "1AvGZ_3Gkl3ubod",
+        "url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-21-05-2027/event/1300652AD2358443",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3Gkl3ubod",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-malcolm-todd-2027-mt-claremont-1avgz_3gkydesct",
+    "artist_slug": "malcolm-todd",
+    "artist_name": "Malcolm Todd",
+    "event_name": "Malcolm Todd - Do That Again Tour",
+    "city": "Mt Claremont",
+    "country": "Australia",
+    "venue": "Perth HPC",
+    "datetime_iso": "2027-05-22T11:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652E7B9F13A9",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-22-05-2027/event/1300652E7B9F13A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-22-05-2027/event/1300652E7B9F13A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652E7B9F13A9",
+        "discovery_event_id": "1AvGZ_3GkyDEsCt",
+        "url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-22-05-2027/event/1300652E7B9F13A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GkyDEsCt",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  }
+]

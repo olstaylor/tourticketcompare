@@ -1,98 +1,134 @@
 ---
-title: 'Vivid Seats vs StubHub: Fees, Delivery & Buyer Protection'
-h1: 'Vivid Seats vs StubHub: Which Should You Use?'
-description: Vivid Seats and StubHub are both resale marketplaces. Compare how listings are priced, fees, delivery timing and buyer protection before you buy.
-status: draft
+title: 'Vivid Seats vs StubHub: Fees, Guarantees, Delivery'
+h1: 'Vivid Seats vs StubHub: How Do They Compare?'
+description: Vivid Seats vs StubHub compared on seller pricing, upfront fees, buyer protection, cancelled and postponed shows, delivery and which site you're on.
+status: published
+date_published: 2026-09-25
 sources:
-  - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
-    publisher: US Federal Trade Commission
-    url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-09-21
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
-    last_checked: 2026-09-21
-  - name: Are there additional fees? How are fees determined?
-    publisher: Vivid Seats Customer Support
-    url: https://support.vividseats.com/support/solutions/articles/1000210524-are-there-additional-fees-how-are-fees-determined-
-    last_checked: 2026-09-21
+    last_checked: 2026-09-25
   - name: Vivid Seats order protection terms
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-
-    last_checked: 2026-09-21
-  - name: Estimated Delivery Date
+    last_checked: 2026-09-25
+  - name: Will I receive compensation if my event is rained out, postponed, or rescheduled?
     publisher: Vivid Seats Customer Support
-    url: https://support.vividseats.com/support/solutions/articles/1000213827-estimated-delivery-date
-    last_checked: 2026-09-21
+    url: https://support.vividseats.com/support/solutions/articles/1000210787-will-i-receive-compensation-if-my-event-is-rained-out-postponed-or-rescheduled-
+    last_checked: 2026-09-25
+  - name: How Vivid Seats Works
+    publisher: Vivid Seats
+    url: https://corporate.vividseats.com/how-vivid-seats-works/
+    last_checked: 2026-09-25
+  - name: FanProtect Guarantee Explained
+    publisher: StubHub Newsroom
+    url: https://newsroom.stubhub.com/2026/07/29/fanprotect-guarantee-explained/
+    last_checked: 2026-09-25
+  - name: What's the difference between StubHub North America and StubHub International?
+    publisher: StubHub UK Support
+    url: https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-what-s-the-difference-between-stubhub-north-america-and-stubhub-international-
+    last_checked: 2026-09-25
+  - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
+    publisher: US Federal Trade Commission
+    url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
+    last_checked: 2026-09-25
 ---
 
-**Short answer:** Vivid Seats and StubHub are both resale marketplaces, and neither is cheaper or safer for every show. On both, sellers list tickets they already hold and set their own prices within the marketplace's rules. Neither is usually the official seller for a concert. The differences that matter are in the listing: the seat, the delivery date, the complete total and the order terms.
-
-On TourTicketCompare, both buttons can carry a listed price when their feeds supply one, with how long ago it was checked. The StubHub link here is StubHub International, which opens StubHub's international site rather than stubhub.com, and its price may be in a different currency. The [StubHub International guide](/guides/stubhub-international-explained) explains why.
+**Short answer:** Vivid Seats and StubHub do the same basic job. Both are resale marketplaces where independent sellers set the price, and neither is the official seller for a concert. Both publish a buyer guarantee covering tickets that arrive late or do not get you in, and both refund in some form when a show is cancelled and not rescheduled. Which one is lower for your show depends on the individual listings, so compare the same seats at the full order total on both.
 
 ## Vivid Seats vs StubHub at a glance
 
 | Question | Vivid Seats | StubHub |
 |---|---|---|
-| Typical role | Resale marketplace | Resale marketplace |
-| Who sets the listed price? | Independent ticket reseller | The seller, within StubHub's rules |
-| Upfront price in the US | All-in ticket pricing that includes its service and delivery charges; government tax and optional extras can change the final amount | Read StubHub's current fee display for your order |
-| Order protection | Published Buyer Guarantee, subject to its terms and exclusions | Published buyer-protection, delivery, refund and dispute terms |
-| Link on TourTicketCompare | Vivid Seats event page, with a listed price where its feed supplies one | StubHub International event page, with a listed price where its feed supplies one |
+| What it is | Resale marketplace | Resale marketplace |
+| Who sets the price? | Independent resellers | Individual sellers |
+| Seller rules | Sellers apply and are approved before listing | Sellers must hold the tickets or be officially allocated them |
+| Protection name | Buyer Guarantee | FanProtect Guarantee |
+| Cancelled, not rescheduled | Refund or store credit, at Vivid Seats' discretion | Refund |
+| Postponed or rescheduled | Tickets valid for the new date | Tickets valid for the new date; not a FanProtect refund case |
 
-These are typical roles for a US buyer. Read the exact listing and the current terms.
+These are the terms each company publishes at the time of writing. The version shown at checkout is the one that governs your order.
 
-## How listings are priced
+## Two marketplaces, the same kind of listing
 
-Vivid Seats says its resellers set listing prices using factors such as supply, demand, seat location and how close the event is. StubHub works the same way: sellers set their prices, and a listing can change or disappear before you check out. A price on either site can sit above or below face value.
+Because both are resale marketplaces, a Vivid Seats listing and a StubHub listing for the same show are the same kind of product: a ticket someone already holds, offered at a price they chose. Vivid Seats says its prices are set independently by resellers, move with supply and demand, and can be above or below face value. StubHub describes the same model and adds two seller rules: no listing tickets the seller does not own, and no payment to the seller until after the event.
 
-Because both are resale, a price gap between them usually comes down to different seats, different quantities or a different moment, not one site charging more for the same ticket.
+Vivid Seats says every seller has to apply and be approved before listing, and marks its longest-standing sellers with a ribbon icon.
 
-## Fees, currency and the total
+You may well see similar seats on both at different prices. That gap is a difference between two listings, each priced by its own seller, not proof that one marketplace is always lower.
 
-US federal rules require live-event ticket sellers to include mandatory fees in the price they first show, with taxes, shipping and optional extras allowed to appear separately if disclosed before payment. Vivid Seats says its all-in ticket price includes its service charge and delivery charge. StubHub shows its fees and terms before you pay.
+## Is Vivid Seats cheaper than StubHub?
 
-If the StubHub International price is in a different currency, convert before you compare, and check whether your card will add a conversion charge. Then compare the order summary on each site, not the first figure. The [concert ticket fees guide](/guides/concert-ticket-fees-explained) has a checklist.
+There is no consistent answer. Each listing is priced by its own seller, and the order can flip between listings and over a single day.
 
-## Delivery and protection
+Fee display is more comparable than it used to be. In the US, the FTC's fee rule has required live-event ticket prices to include all mandatory fees upfront since 12 May 2025; taxes, shipping and optional extras can still be shown separately if they are disclosed before payment. Vivid Seats says it uses all-in pricing once you start shopping.
 
-Resale tickets on both usually arrive by transfer from the seller, often into a Ticketmaster account for a Ticketmaster-issued show. Vivid Seats explains that sellers may not receive tickets from the original issuer until closer to the event, so the estimated delivery date can be later than the purchase date. Read the delivery estimate on each listing before you pay.
+A like-for-like check:
 
-Vivid Seats publishes a Buyer Guarantee covering transaction security, delivery before the event, and ticket validity and authenticity, subject to its terms and exclusions. StubHub publishes its own buyer-protection, refund and dispute terms. Neither is a refund for any change of plans. Read the terms for your order on each site.
+- Same date, venue and event name.
+- Same section, row, quantity and ticket type.
+- The final order total in the same currency, including taxes and delivery.
+- The listed delivery method and timing.
+
+## Buyer protection
+
+**Vivid Seats' Buyer Guarantee** promises a secure transaction, delivery before the event, and valid, authentic tickets.
+
+**StubHub's FanProtect Guarantee** promises tickets that arrive in time and get you in, a comparable replacement or your money back if something goes wrong, and a refund if the event is cancelled and not rescheduled. StubHub says it tries to get you into the event first, with a refund as the backstop, and that FanProtect is part of every order rather than an add-on. It does not cover a change of plans, a postponed event or your travel costs.
+
+If a ticket fails at the gate on either site, record what happened, such as a photo or a screenshot, and contact the marketplace the same day.
+
+## Cancelled and postponed shows
+
+- **Cancelled and not rescheduled:** StubHub refunds. Vivid Seats compensates with a refund or store credit of the purchase price, including delivery fees but less possible restocking fees, at its discretion.
+- **Postponed or rescheduled:** both say your tickets remain valid for the new date. Vivid Seats adds that when the original ticket seller reissues tickets with new barcodes, it delivers the replacements to you.
+
+If you cannot make a new date, both marketplaces let you list the ticket for resale. See [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled).
+
+## Delivery
+
+On both sites, delivery depends on how the venue issues tickets. Vivid Seats emails an estimated delivery date once your order is confirmed, and an electronic transfer may mean accepting the tickets in another company's app. StubHub's on-time promise covers mobile transfers, PDFs and shipped tickets.
+
+## Check which StubHub site you're on
+
+StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to StubHub International, a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on.
 
 ## Which should you use?
 
-- **For an official onsale:** neither. Start with the seller named by the artist, venue or promoter.
-- **For resale:** compare the exact seat, quantity, delivery estimate and complete current total on each site, in one currency.
-- **If the seats don't match:** don't call the lower number a saving.
-
-TourTicketCompare earns a commission from some ticket links, including both Vivid Seats and StubHub International. That doesn't change which links appear, and the site never calls one marketplace better or cheaper in general.
+- **Before either:** check whether face-value tickets are still available from the official seller named by the artist or venue.
+- **For resale:** open the same date on both, match the seats and quantity, and compare the full order totals and delivery.
+- **If the totals are close:** choose on delivery timing and the terms you are more comfortable with.
 
 ## FAQ
 
-**Is Vivid Seats cheaper than StubHub?**
+**Is Vivid Seats the same as StubHub?**
 
-Not consistently. Both carry seller-priced resale, and the answer changes with the event, the seat and the moment you check. Compare complete current totals for matching tickets in one currency.
+No. They are separate companies running separate resale marketplaces, each with its own sellers, fees and buyer guarantee.
 
-**Are Vivid Seats and StubHub the same company?**
+**Which is cheaper, Vivid Seats or StubHub?**
 
-No. They are separate ticketing businesses with their own sellers, fees and terms.
+Neither, consistently. Prices are set by individual sellers on each site, so compare matching seats at the final order total at the same time.
 
-**Is StubHub safer than Vivid Seats?**
+**Why do similar seats cost different amounts on each site?**
 
-Both publish buyer-protection terms. Safety depends mostly on buying through the official site's own checkout and reading the terms for your order.
+Each listing is priced by its own seller, and the two sites charge their own fees. Compare the final order totals for matching seats rather than the first price shown.
 
-**Why are the two prices on this site in different currencies?**
+**Do Vivid Seats and StubHub guarantee my tickets?**
 
-The StubHub International link opens StubHub's international site, and its feed can report prices in a different currency from Vivid Seats. Convert before comparing.
+Both publish a buyer guarantee covering on-time delivery and valid tickets. StubHub offers a comparable replacement or refund if something goes wrong; read Vivid Seats' full guarantee terms for its remedies.
 
-**Why did my resale ticket arrive through Ticketmaster?**
+**What happens if my show is postponed?**
 
-If Ticketmaster issued the original ticket, the seller transfers it to your Ticketmaster account. The marketplace handles the order; Ticketmaster holds the ticket for entry.
+On both sites your tickets stay valid for the new date. A postponement is not a refund case under FanProtect, and Vivid Seats compensates only for events cancelled and not rescheduled.
+
+**Does TourTicketCompare sell Vivid Seats or StubHub tickets?**
+
+No. The site links to providers and explains how they differ; the order is between you and the marketplace.
 
 ## Related guides
 
-- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
 - [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)
 - [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)
-- [Vivid Seats vs SeatGeek](/guides/vivid-seats-vs-seatgeek)
+- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)
+- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)

@@ -1,126 +1,120 @@
 ---
-title: Is SeatGeek Legit? What to Check Before You Buy
-h1: Is SeatGeek legit and safe for concert tickets?
-description: SeatGeek is an established ticket marketplace and primary seller for some events. Here's what it covers, what it doesn't, and what to check before buying.
+title: Is SeatGeek Legit? Buyer Protection Explained
+h1: Is SeatGeek legit, and are its tickets real?
+description: Is SeatGeek legit? Who sells tickets on it, what its buyer protection covers and excludes, all-in fees, late delivery, and cancelled or postponed shows.
 status: published
 date_published: 2026-09-25
 sources:
   - name: Can I trust tickets sold on SeatGeek?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek
-    last_checked: 2026-09-21
+    last_checked: 2026-09-25
   - name: What is the secondary ticket market?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360012945394-What-is-the-secondary-ticket-market-
-    last_checked: 2026-09-21
-  - name: Does SeatGeek charge a fee to buy tickets?
+    last_checked: 2026-09-25
+  - name: Does SeatGeek charge a fee to buy tickets? (All-In Pricing Explained)
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets
-    last_checked: 2026-09-21
+    last_checked: 2026-09-25
   - name: How and when will my tickets be delivered?
     publisher: SeatGeek Help Center
     url: https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered
-    last_checked: 2026-09-21
-  - name: How to Spot Scams
-    publisher: SeatGeek Help Center
-    url: https://support.seatgeek.com/hc/en-us/articles/28222417389843-How-to-Spot-Scams
-    last_checked: 2026-09-21
-  - name: What is Deal Score?
-    publisher: SeatGeek Help Center
-    url: https://support.seatgeek.com/hc/en-us/articles/360007200954-What-is-Deal-Score
-    last_checked: 2026-09-21
-  - name: How do I use a SeatGeek promo code?
-    publisher: SeatGeek Help Center
-    url: https://support.seatgeek.com/hc/en-us/articles/360024576754-How-do-I-use-my-Promo-code-
-    last_checked: 2026-09-21
-  - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
+    last_checked: 2026-09-25
+  - name: What are the signs of a scam?
     publisher: US Federal Trade Commission
-    url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
-    last_checked: 2026-09-21
+    url: https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam
+    last_checked: 2026-09-25
 ---
 
-**Short answer:** Yes. SeatGeek is an established ticketing company, not a scam site. It runs a resale marketplace, and it is also the primary ticketing platform for some teams, venues and events. It publishes buyer-protection terms, and its help centre explains how it handles tickets sold on the site.
-
-"Legit" doesn't mean every listing suits you, though. Most SeatGeek concert listings are resale, priced by the seller, and they can cost more or less than face value. A legitimate site can still sell you a seat with a poor view, a transfer that arrives the day before the show, or a total higher than you expected. The useful question is whether this listing, on this order, is right for you.
+**Short answer:** yes, SeatGeek is a legitimate ticketing company. For some leagues and venues it is the official primary seller; for everything else it is a resale marketplace where fans and licensed sellers list tickets. Every order is backed by SeatGeek's Buyer Guarantee, which covers tickets that arrive late, do not get you in, or are not what you ordered. It does not cover a change of plans, and a postponed show is generally not refunded.
 
 ## What SeatGeek is
 
-SeatGeek plays two roles, and the listing label tells you which one you're dealing with.
+SeatGeek plays two roles. Its help centre says it is the primary ticketing platform for a number of leagues and venues, and a marketplace where people resell tickets they bought elsewhere. Tickets on SeatGeek come from licensed sellers, other SeatGeek customers, integrated partners and sometimes a team's own box office.
 
-- **Resale marketplace.** Fans and other eligible sellers list tickets they already hold. SeatGeek's explanation of the secondary market describes how this works. The seller sets the price within SeatGeek's rules.
-- **Primary ticketing platform.** Some teams, venues and events use SeatGeek to sell their original tickets. For those, SeatGeek is the official seller, the same way Ticketmaster is for many other shows.
+So one SeatGeek event page can mix different kinds of ticket. Check whether the listing you are looking at is primary or resale, because that changes who set the price and how it behaves.
 
-For most concerts, Ticketmaster or another company is the primary seller, and SeatGeek shows resale. Check the artist, venue or promoter's own page to see who is named for your show.
+## Are SeatGeek tickets real?
 
-## What SeatGeek covers
+SeatGeek's answer is that every order is backed by its Buyer Guarantee, which generally covers three things:
 
-SeatGeek publishes buyer-protection terms and answers, in its help centre, whether tickets sold on SeatGeek can be trusted. Read the current version before you buy, because the exact remedy depends on the order and its circumstances.
+- Your tickets are delivered in time for the event.
+- Your tickets give valid entry.
+- The tickets you receive match the tickets you ordered.
 
-What those terms don't do is make every problem refundable. A postponed or rescheduled show, a change of plans, or a seat you later decide you don't like are handled by the order terms and the organiser's decisions, not by a blanket promise. The [postponement and cancellation guide](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) explains how those outcomes differ.
+If one of those fails, SeatGeek says it may provide comparable or better replacement tickets or a refund, depending on the situation. It also says it monitors marketplace activity and may review sellers, listings, transfers and orders.
 
-## Fees and the total
+## What the Buyer Guarantee does not cover
 
-In the US, SeatGeek says mandatory fees are included in the price it first shows, with taxes, delivery and optional services able to appear separately. That matches the federal rule on live-event ticket fees, which lets taxes, shipping and optional extras be shown separately if they're disclosed before payment.
+SeatGeek lists what the guarantee generally excludes:
 
-So the first number is closer to the final total than it used to be, but it still isn't the final total. Check the order summary for tax, delivery and anything optional before you pay.
+- Buying the wrong tickets by mistake.
+- Not being able to go any more.
+- Lineup, performer or schedule changes that are not a cancellation.
+- Being refused entry for venue rules, age limits or behaviour.
+- Travel, hotel, parking and other costs around the event.
 
-SeatGeek's Deal Score is a separate thing. It rates a SeatGeek listing against other SeatGeek listings using factors such as historical prices, row location, expected sightline, quantity and seat type. A high score doesn't mean the ticket is cheaper than another site's option.
+Most complaints that SeatGeek "isn't legit" come from this list, a postponed show, or a resale price well above face value. None of those mean the tickets were fake.
 
-## Delivery
+## Cancelled and postponed shows
 
-Many SeatGeek resale tickets arrive by mobile transfer, and the ticket may sit in the system of the company that issued it. For a Ticketmaster-issued show, that often means accepting a transfer into a Ticketmaster account. SeatGeek's help centre explains how and when tickets are delivered.
+- **Cancelled and not rescheduled:** SeatGeek, at its discretion, refunds the purchase price to your original payment method or, subject to state law, issues a credit for a future purchase. It notifies eligible buyers with next steps.
+- **Postponed or rescheduled:** your tickets usually stay valid for the new date. If replacement tickets are needed, SeatGeek works to get them. It generally does not refund postponed or rescheduled events unless replacements are required or the law requires it. If you cannot go, you may be able to list the tickets on SeatGeek.
 
-A transfer that arrives close to the show isn't necessarily a problem. It becomes one if it misses the delivery date shown on the order. Read the delivery estimate before you buy, and contact SeatGeek through the order if that date passes. See [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing).
+See [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) for the general steps.
 
-## How to buy on SeatGeek safely
+## Why SeatGeek prices can be above face value
 
-Most SeatGeek problems start away from SeatGeek. SeatGeek publishes its own guide to spotting scams, and the basics are the same as for any ticket site:
+On resale listings the seller sets the price. SeatGeek's own explanation of the secondary market says resale prices move far more than box-office prices: tickets often drop below face value, but when box-office tickets are underpriced or hard to get, resale prices can be higher.
 
-- Go to SeatGeek's official app or website directly, not through a link in a message or an advert.
-- Pay only through SeatGeek's own checkout. A "seller" who offers a discount for paying by bank transfer or a payment app is asking you to leave SeatGeek's checkout, and that payment isn't a SeatGeek order.
-- Check the event name, date, venue and city on the listing.
-- Read the seat details, the ticket quantity and whether the seats are together.
-- Read the delivery method and the estimated delivery date.
-- Check the order summary for tax, delivery and optional extras.
-- Enter promo codes only at SeatGeek's checkout. SeatGeek says only one code can be used per purchase, and a code can't be added after an order is placed. The [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide) covers the rest.
+SeatGeek uses all-in pricing: the price on the event page includes all mandatory fees. Taxes, shipping and optional add-ons can still be added at checkout. Fees are generally not refundable except under the Buyer Guarantee.
 
-For the wider set of warning signs, see [how to avoid ticket scams](/guides/how-to-avoid-ticket-scams).
+## "My tickets haven't arrived yet"
 
-## How TourTicketCompare links to SeatGeek
+A late-looking delivery is often normal. SeatGeek says some tickets appear within minutes, but others are released closer to the event, often 24 to 48 hours before it starts. Some venues also require delivery through their own platform, such as AXS, so the tickets appear in that app rather than in SeatGeek. The delivery destination is shown before checkout and cannot be changed afterwards.
 
-SeatGeek is one of the ticket sites TourTicketCompare links to. A SeatGeek button only goes up once its destination has been checked against the right artist or event page. It never carries a price, because SeatGeek's feed returns no prices to this site.
+If the event is close and nothing has arrived, contact SeatGeek directly; late delivery is one of the things the Buyer Guarantee covers.
 
-TourTicketCompare earns a commission when you buy through its SeatGeek links. That doesn't change SeatGeek's terms or prices, and it doesn't decide which links appear. The site doesn't vet individual SeatGeek sellers, handle orders or administer SeatGeek's guarantees.
+## Staying on the real SeatGeek
+
+The risk is not SeatGeek itself but people pretending to be it or selling "SeatGeek tickets" privately. The FTC's warning signs apply: unexpected messages asking for money, pressure to act immediately, and requests to pay by cash, gift card, wire transfer, cryptocurrency or a payment app.
+
+- Buy only through SeatGeek's own site or app.
+- Do not pay a seller outside SeatGeek's checkout, whatever they say.
+- Ignore ads and messages offering SeatGeek tickets or promo codes from unfamiliar addresses.
+
+For more, see [how to avoid ticket scams](/guides/how-to-avoid-ticket-scams).
 
 ## FAQ
 
-**Is SeatGeek a scam?**
+**Is SeatGeek legit?**
 
-No. SeatGeek is an established ticketing company with published buyer-protection terms. Scams involving SeatGeek usually happen off the platform, such as fake sellers on social media or lookalike websites.
+Yes. SeatGeek is an established ticketing company: the primary seller for some leagues and venues, and a resale marketplace for other events. Orders are covered by its Buyer Guarantee.
 
-**Is SeatGeek safe to buy from?**
+**Are SeatGeek tickets real?**
 
-Buying through SeatGeek's official app or website and paying at its own checkout keeps you under its published protection terms. Read those terms, the delivery estimate and the order summary before paying.
+SeatGeek's Buyer Guarantee covers tickets that do not give valid entry, arrive too late, or are not the tickets you ordered, with a replacement or refund depending on the situation.
 
-**Is SeatGeek an official ticket seller?**
+**Does SeatGeek refund postponed events?**
 
-Sometimes. SeatGeek is the primary seller for some teams, venues and events. For most concerts it shows resale listings. The artist, venue or promoter page tells you who the official seller is.
+Generally not. Tickets usually stay valid for the new date, and SeatGeek refunds only where replacement tickets are needed or the law requires it. Events cancelled and not rescheduled are refunded or credited.
 
-**Why are SeatGeek tickets more than face value?**
+**Why are SeatGeek tickets more expensive than face value?**
 
-Most concert listings on SeatGeek are resale, and resellers set their own prices. A listing can be above or below the original price depending on demand and the seat.
+Many SeatGeek listings are resale, and resale sellers set their own prices. When official tickets are hard to get, resale prices can be above face value.
 
-**Will my SeatGeek ticket arrive through Ticketmaster?**
+**Why haven't my SeatGeek tickets arrived?**
 
-It may. If Ticketmaster issued the original ticket, the seller may transfer it to your Ticketmaster account. Follow the transfer instructions and use the email address on your order.
+Some tickets are released only 24 to 48 hours before the event, and some are delivered to the venue's own ticketing app. Contact SeatGeek if the event is close and nothing has arrived.
 
-**Is SeatGeek better than Ticketmaster?**
+**Is SeatGeek safer than buying from someone on social media?**
 
-Neither is better for every show. See [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) for how their roles differ.
+A SeatGeek order is covered by the Buyer Guarantee. A private sale paid by payment app, gift card or transfer has none of that protection.
 
 ## Related guides
 
-- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
 - [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)
-- [Vivid Seats vs SeatGeek](/guides/vivid-seats-vs-seatgeek)
-- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)
+- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)
+- [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)
+- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)

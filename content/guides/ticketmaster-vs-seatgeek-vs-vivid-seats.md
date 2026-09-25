@@ -55,7 +55,7 @@ Roles vary by event and region. The listing label and provider terms for the exa
 
 ## How listed prices and fees differ
 
-US federal rules require mandatory fees to be included in the upfront total for live-event tickets, but taxes, shipping, and optional extras may still appear separately. Current provider help pages say Ticketmaster includes required fees in its upfront price, SeatGeek includes mandatory fees while noting that taxes, delivery, and optional services may be separate, and Vivid Seats uses all-in pricing for its ticket listings before applicable tax.
+Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required mandatory fees to be included in the upfront total for live-event tickets, including on resale platforms, but taxes, shipping, and optional extras may still appear separately. Current provider help pages say Ticketmaster includes required fees in its upfront price, SeatGeek includes mandatory fees while noting that taxes, delivery, and optional services may be separate, and Vivid Seats uses all-in pricing for its ticket listings before applicable tax.
 
 Do not compare an old screenshot or an unqualified headline price with a current provider total. Check the same quantity and currency, then review the final order summary before payment. Provider display rules can differ outside the United States.
 

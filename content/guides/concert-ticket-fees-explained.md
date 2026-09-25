@@ -36,11 +36,13 @@ Ticket fees are not a single charge. Depending on the provider, the event, the t
 
 Not every order has every item, and sites name them differently. Expect more than one line on the final order summary.
 
+Ticketmaster's help page on prices and fees is one provider's own account of how these lines fit together. It says the face value is set by the event organiser, that its upfront price covers the face value and required fees but generally not taxes, that a facility charge is set by the venue and Ticketmaster keeps none of it, and that a delivery fee applies only if you choose a method such as mail or courier. Other sites describe their fees differently, so read each site's own order summary.
+
 ## Why the first price isn't the final total
 
 The price shown on a listing or a search result is often a starting figure rather than the amount charged. Fees can be presented at different stages of checkout depending on the provider and the market.
 
-- Some markets require providers to show an all-in price from the start; others allow fees to appear later in checkout.
+- In the United States, the Federal Trade Commission's Rule on Unfair or Deceptive Fees has applied to live-event tickets since May 12, 2025. Any business that advertises them, including resellers and third-party platforms, must show a total price that includes all mandatory fees, more prominently than other price figures. That total may still leave out taxes, government charges, shipping and optional extras, so the amount you pay can be higher. Rules differ in other countries.
 - Different ticket types for the same event can carry different fees, so two listings that look similar may not end at the same total.
 - Optional extras, such as certain delivery methods or add-ons, can change the figure when they are selected.
 
@@ -73,7 +75,7 @@ Before you pay:
 
 **Why is the checkout total higher than the listed price?**
 
-Providers can add service, order, facility, delivery, tax, or currency conversion charges during checkout. The listed price is often a starting figure, so read the final order summary before paying.
+Providers can add service, order, facility, delivery, tax, or currency conversion charges during checkout. The listed price is often a starting figure, so read the final order summary before paying. In the United States, the FTC's fee rule has required live-event ticket sellers to include mandatory fees in the advertised total since May 12, 2025, but taxes, shipping and optional extras can still be added on top.
 
 **Are ticket fees the same on every provider?**
 

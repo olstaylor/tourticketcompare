@@ -1105,6 +1105,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-passenger",
     redirectUrl: "https://seatgeek.com/passenger-tickets",
     verified: true
+  },
+  "sienna-spiro:ticketmaster": {
+    artistSlug: "sienna-spiro",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sienna-spiro",
+    redirectUrl: "https://www.ticketmaster.com/sienna-spiro-tickets/artist/3376314",
+    verified: true
+  },
+  "sienna-spiro:seatgeek": {
+    artistSlug: "sienna-spiro",
+    provider: "seatgeek",
+    linkId: "sg-artist-sienna-spiro",
+    redirectUrl: "https://seatgeek.com/sienna-spiro-tickets",
+    verified: true
+  },
+  "malcolm-todd:ticketmaster": {
+    artistSlug: "malcolm-todd",
+    provider: "ticketmaster",
+    linkId: "tm-artist-malcolm-todd",
+    redirectUrl: "https://www.ticketmaster.com/malcolm-todd-tickets/artist/3112165",
+    verified: true
+  },
+  "malcolm-todd:seatgeek": {
+    artistSlug: "malcolm-todd",
+    provider: "seatgeek",
+    linkId: "sg-artist-malcolm-todd",
+    redirectUrl: "https://seatgeek.com/malcolm-todd-tickets",
+    verified: true
+  },
+  "lizzy-mcalpine:ticketmaster": {
+    artistSlug: "lizzy-mcalpine",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lizzy-mcalpine",
+    redirectUrl: "https://www.ticketmaster.com/lizzy-mcalpine-tickets/artist/2782189",
+    verified: true
+  },
+  "lizzy-mcalpine:seatgeek": {
+    artistSlug: "lizzy-mcalpine",
+    provider: "seatgeek",
+    linkId: "sg-artist-lizzy-mcalpine",
+    redirectUrl: "https://seatgeek.com/lizzy-mcalpine-tickets",
+    verified: true
+  },
+  "the-interrupters:ticketmaster": {
+    artistSlug: "the-interrupters",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-interrupters",
+    redirectUrl: "https://www.ticketmaster.com/the-interrupters-tickets/artist/1860963",
+    verified: true
+  },
+  "the-interrupters:seatgeek": {
+    artistSlug: "the-interrupters",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-interrupters",
+    redirectUrl: "https://seatgeek.com/the-interrupters-tickets",
+    verified: true
+  },
+  "dinosaur-jr:ticketmaster": {
+    artistSlug: "dinosaur-jr",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dinosaur-jr",
+    redirectUrl: "https://www.ticketmaster.com/dinosaur-jr-tickets/artist/966351",
+    verified: true
+  },
+  "dinosaur-jr:seatgeek": {
+    artistSlug: "dinosaur-jr",
+    provider: "seatgeek",
+    linkId: "sg-artist-dinosaur-jr",
+    redirectUrl: "https://seatgeek.com/dinosaur-jr-tickets",
+    verified: true
   }
 };
 

@@ -27,6 +27,8 @@ The ticket site runs the onsale: stock, queue order, prices and fees. Here's a r
 - For transfer-locked tickets, check that your account name and ID details match how you intend to enter the venue.
 - Note the onsale time in your own timezone so you are not early or late by an hour.
 
+The US Federal Trade Commission's advice on buying tickets to in-demand events covers the same ground: look for chances to buy before the public onsale, sign up for alerts from ticket sellers, artists and venues, ask your credit card company about promotions, and set up an account with the ticket seller beforehand so you are ready to buy as soon as tickets go on sale.
+
 ## Understanding your presale options
 
 Presales can include artist fan-club, credit-card holder, venue, radio, and Verified Fan presales. Each has its own access window, code, and inventory pool. Eligibility, codes, and inventory are controlled by the provider; a code that is shared publicly online does not prove it currently works for your event. Check the artist's official announcement for which presales apply to your show and how to access them.
@@ -42,7 +44,9 @@ Presales can include artist fan-club, credit-card holder, venue, radio, and Veri
 
 ## If you miss out in the onsale
 
-Missing the initial onsale is common. Official resale on the original provider often opens later, sometimes at the original price. Verified resale marketplaces may list tickets too, but listing details and the final checkout total should be checked carefully. Avoid sellers on social media or messaging apps who ask for direct payment outside a verified platform.
+Missing the initial onsale is common. The FTC's advice is to check back, because promoters may release more tickets after the first sale or add another show. Part of the shortfall can be bots: in the United States, the Better Online Ticket Sales (BOTS) Act targets software used to get around ticket limits, and the FTC's 2021 alert describes settlements with three companies that circumvented Ticketmaster's security measures to buy thousands of tickets and resell them at a profit.
+
+Official resale on the original provider often opens later, sometimes at the original price. Verified resale marketplaces may list tickets too, but listing details and the final checkout total should be checked carefully. Avoid sellers on social media or messaging apps who ask for direct payment outside a verified platform.
 
 ## FAQ
 

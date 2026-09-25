@@ -58,6 +58,8 @@ If you want to weigh the two against each other, open the same event on each and
 - Delivery method and transfer timing.
 - Refund, cancellation, postponement, and buyer-protection terms.
 
+In the United States the fee display rules are the same for both. The FTC's Rule on Unfair or Deceptive Fees, in effect since May 12, 2025, covers any business that offers or advertises live-event tickets, including resellers and third-party platforms. Each must show a total price that includes all mandatory fees, and disclose any taxes, shipping or optional extras, along with the final amount, before asking for payment.
+
 The trap is assuming one platform is cheaper because of a headline price or because it was cheaper for a different show. Totals and availability are specific to the event and the seat, so only a like-for-like comparison tells you anything.
 
 ## Staying safe on both
@@ -72,7 +74,7 @@ It is an established resale marketplace, but you should still read its current b
 
 **Can I return a Ticketmaster ticket?**
 
-It depends on the event. Ticketmaster's refund, return, and transfer terms vary by show and order, so check the event-specific terms at checkout before you buy.
+It depends on the event. Ticketmaster's refund, return, and transfer terms vary by show and order, so check the event-specific terms at checkout before you buy. For third-party resale tickets sold on Ticketmaster, its help page says the sale is final unless the event is cancelled.
 
 **Why do StubHub and Ticketmaster totals differ for the same show?**
 
@@ -92,3 +94,5 @@ Your order is governed by the terms you accepted at checkout. TourTicketCompare 
 - [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)
 - [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
+- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)
+- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)

@@ -1171,7 +1171,16 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
 
   // Title: must match the route-specific expected value
   const actualTitle = extractTitle(text);
-  const expectedT = expectedTitle.get(pathname) || artist?.seo_title || `${artist?.name} Tickets | Options & Availability`;
+  // An artist title carries the venue-local year(s) of its upcoming dates when
+  // it has any (see artistPageTitle in functions/_route-metadata.js).
+  const artistYearLabel = artist
+    ? routeMetadataModule.yearRangeLabel(
+        events
+          .filter((ev) => normalizeSlug(ev?.artist_slug) === normalizeSlug(artist.slug) && Date.parse(ev?.datetime_iso) >= Date.now())
+          .map((ev) => routeMetadataModule.eventLocalYear(ev.datetime_iso, ev.timezone))
+      )
+    : "";
+  const expectedT = expectedTitle.get(pathname) || (artist ? routeMetadataModule.artistPageTitle(artist, artistYearLabel) : undefined);
   assert(actualTitle === expectedT, `${pathname} title should be "${expectedT}", got "${actualTitle}"`);
 
   if (functionBackedStaticRoutes.includes(pathname)) {

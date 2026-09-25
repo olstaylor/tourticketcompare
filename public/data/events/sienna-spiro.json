@@ -1,0 +1,1645 @@
+[
+  {
+    "id": "tm-sienna-spiro-2026-nashville-z7r9jz1a7pkok",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2026-10-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PKok",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKok",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKok",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PKok",
+        "discovery_event_id": "Z7r9jZ1A7PKok",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKok",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKok",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-washington-17a8v0g6gphxucm",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Lincoln Theatre",
+    "datetime_iso": "2026-10-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064C5BC88DB6E",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064C5BC88DB6E",
+        "discovery_event_id": "17A8v0G6GpHxucm",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6GpHxucm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-philadelphia-vvg1fz_gfaf9pc",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2026-10-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064C50521796D",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-philadelphia-pennsylvania-10-17-2026/event/020064C50521796D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-philadelphia-pennsylvania-10-17-2026/event/020064C50521796D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064C50521796D",
+        "discovery_event_id": "vvG1FZ_GfAF9Pc",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-philadelphia-pennsylvania-10-17-2026/event/020064C50521796D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_GfAF9Pc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-boston-vvg17z_gpsen49",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2026-10-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064C5B19EA557",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-boston-massachusetts-10-18-2026/event/010064C5B19EA557",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-boston-massachusetts-10-18-2026/event/010064C5B19EA557",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064C5B19EA557",
+        "discovery_event_id": "vvG17Z_GpsEn49",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-boston-massachusetts-10-18-2026/event/010064C5B19EA557",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GpsEn49",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-new-york-k7vgf_uedf3n_",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Manhattan Center Hammerstein Ballroom",
+    "datetime_iso": "2026-10-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064D0BB2128D9",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-new-york-new-york-10-20-2026/event/000064D0BB2128D9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-new-york-new-york-10-20-2026/event/000064D0BB2128D9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064D0BB2128D9",
+        "discovery_event_id": "k7vGF_ueDF3N_",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-new-york-new-york-10-20-2026/event/000064D0BB2128D9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_ueDF3N_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-brooklyn-k7vgf_gre9jk_",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2026-10-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064C7825E6199",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-brooklyn-new-york-10-21-2026/event/000064C7825E6199",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-brooklyn-new-york-10-21-2026/event/000064C7825E6199",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064C7825E6199",
+        "discovery_event_id": "k7vGF_Gre9Jk_",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-brooklyn-new-york-10-21-2026/event/000064C7825E6199",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_Gre9Jk_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "L'Olympia",
+    "datetime_iso": "2026-10-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064C58BAA45AA",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-montreal-quebec-10-23-2026/event/310064C58BAA45AA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-montreal-quebec-10-23-2026/event/310064C58BAA45AA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064C58BAA45AA",
+        "discovery_event_id": "17G8v0G6Gp5n0pn",
+        "url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-montreal-quebec-10-23-2026/event/310064C58BAA45AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G6Gp5n0pn",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-toronto-177zv0g6g9hzrkw",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2026-10-25T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064C5DB02F1B2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-toronto-ontario-10-25-2026/event/100064C5DB02F1B2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-toronto-ontario-10-25-2026/event/100064C5DB02F1B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064C5DB02F1B2",
+        "discovery_event_id": "177Zv0G6G9hZRkw",
+        "url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-toronto-ontario-10-25-2026/event/100064C5DB02F1B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6G9hZRkw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-chicago-z7r9jz1a7pxq8",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Riviera Theatre- IL",
+    "datetime_iso": "2026-10-28T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PxQ8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxQ8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxQ8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PxQ8",
+        "discovery_event_id": "Z7r9jZ1A7PxQ8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxQ8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxQ8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-minneapolis-z7r9jz1a7pko4",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro (18 and Over with Valid Government ID)",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2026-10-29T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PKO4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PKO4",
+        "discovery_event_id": "Z7r9jZ1A7PKO4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKO4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-englewood-z7r9jz1a7p-ji",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro (16 and Over)",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2026-10-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P-jI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-jI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-jI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P-jI",
+        "discovery_event_id": "Z7r9jZ1A7P-jI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-jI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-jI",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-seattle-z7r9jz1a7pxzs",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "The Showbox",
+    "datetime_iso": "2026-11-03T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PxZS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxZS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxZS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PxZS",
+        "discovery_event_id": "Z7r9jZ1A7PxZS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxZS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxZS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-vancouver-z7r9jz1a7pk0e",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Vogue Theatre-BC",
+    "datetime_iso": "2026-11-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PK0e",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7PK0e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7PK0e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PK0e",
+        "discovery_event_id": "Z7r9jZ1A7PK0e",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7PK0e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0e",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-vancouver-z7r9jz1a7pa4e",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Vogue Theatre-BC",
+    "datetime_iso": "2026-11-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pa4e",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pa4e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pa4e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pa4e",
+        "discovery_event_id": "Z7r9jZ1A7Pa4e",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pa4e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pa4e",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-portland-z7r9jz1a7p-q3",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "McMenamins Crystal Ballroom",
+    "datetime_iso": "2026-11-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P-q3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-q3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-q3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P-q3",
+        "discovery_event_id": "Z7r9jZ1A7P-q3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-q3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-q3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-san-francisco-g5vyz_gkw-ewe",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Castro Theatre",
+    "datetime_iso": "2026-11-10T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064C4FD867F42",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064C4FD867F42",
+        "discovery_event_id": "G5vYZ_GKW-EWe",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GKW-EWe",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2026-11-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064C5BDF81666",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064C5BDF81666",
+        "discovery_event_id": "vvG10Z_GpWXv_J",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GpWXv_J",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_udz2l-k",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre",
+    "datetime_iso": "2026-11-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064D0C03EB846",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064D0C03EB846",
+        "discovery_event_id": "vvG10Z_udZ2l-k",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_udZ2l-k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2027-01-19T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064C9CE214C00",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-19-01-2027/event/130064C9CE214C00",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-19-01-2027/event/130064C9CE214C00",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064C9CE214C00",
+        "discovery_event_id": "177Yv0G6GECFfYZ",
+        "url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-19-01-2027/event/130064C9CE214C00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6GECFfYZ",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-west-melbourne-177yv0g6gmjpde2",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2027-01-20T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064CBA65839CF",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-20-01-2027/event/130064CBA65839CF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-20-01-2027/event/130064CBA65839CF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064CBA65839CF",
+        "discovery_event_id": "177Yv0G6GmJpdE2",
+        "url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-20-01-2027/event/130064CBA65839CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6GmJpdE2",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-brisbane-177yv0g6gjxxnip",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-01-25T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064C9BEFA3A25",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-brisbane-25-01-2027/event/130064C9BEFA3A25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-brisbane-25-01-2027/event/130064C9BEFA3A25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064C9BEFA3A25",
+        "discovery_event_id": "177Yv0G6GJXXNIP",
+        "url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-brisbane-25-01-2027/event/130064C9BEFA3A25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6GJXXNIP",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "SIENNA SPIRO",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Edinburgh Corn Exchange",
+    "datetime_iso": "2027-02-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064C4A2AF43A9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-22-02-2027/event/3E0064C4A2AF43A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-22-02-2027/event/3E0064C4A2AF43A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064C4A2AF43A9",
+        "discovery_event_id": "G5dzZ_G3xlVCt",
+        "url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-22-02-2027/event/3E0064C4A2AF43A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_G3xlVCt",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "SIENNA SPIRO",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Edinburgh Corn Exchange",
+    "datetime_iso": "2027-02-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064C4A6FF476D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-23-02-2027/event/3E0064C4A6FF476D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-23-02-2027/event/3E0064C4A6FF476D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064C4A6FF476D",
+        "discovery_event_id": "G5dzZ_G3JTVqc",
+        "url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-23-02-2027/event/3E0064C4A6FF476D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_G3JTVqc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2027-03-01T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064C6E7D1D769",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-01-03-2027/event/360064C6E7D1D769",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-01-03-2027/event/360064C6E7D1D769",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064C6E7D1D769",
+        "discovery_event_id": "17uOv0G6GhEVqqt",
+        "url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-01-03-2027/event/360064C6E7D1D769",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6GhEVqqt",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2027-03-02T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064C8F09AC667",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-02-03-2027/event/360064C8F09AC667",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-02-03-2027/event/360064C8F09AC667",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064C8F09AC667",
+        "discovery_event_id": "17uOv0G6GNYJi_E",
+        "url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-02-03-2027/event/360064C8F09AC667",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6GNYJi_E",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "SIENNA SPIRO: My House Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-03-16T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "192877870",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/sienna-spiro-my-house-tour-tickets/192877870",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/sienna-spiro-my-house-tour-tickets/192877870",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "192877870",
+        "discovery_event_id": "Z698xZG2Z1kk3-M-Y",
+        "url": "https://www.ticketmaster.be/event/sienna-spiro-my-house-tour-tickets/192877870",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kk3-M-Y",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-berlin-z698xzc2z16v0n7t_u",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro - My House Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Tempodrom",
+    "datetime_iso": "2027-03-24T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1923129676",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/sienna-spiro-my-house-tour-tickets/1923129676?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/sienna-spiro-my-house-tour-tickets/1923129676?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1923129676",
+        "discovery_event_id": "Z698xZC2Z16v0N7t_U",
+        "url": "https://www.ticketmaster.de/event/sienna-spiro-my-house-tour-tickets/1923129676?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v0N7t_U",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-milano-zg9rmiynyzef6a",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "SIENNA SPIRO: My House Tour",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Fabrique",
+    "datetime_iso": "2027-03-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3podtgphpz4m",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/sienna-spiro-my-house-tour-milano-27-03-2027/event/3podtgphpz4m",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/sienna-spiro-my-house-tour-milano-27-03-2027/event/3podtgphpz4m",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3podtgphpz4m",
+        "discovery_event_id": "ZG9rmIYnyZeF6a",
+        "url": "https://www.ticketmaster.it/biglietti/sienna-spiro-my-house-tour-milano-27-03-2027/event/3podtgphpz4m",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZeF6a",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "SIENNA SPIRO: My House Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Paral·lel 62",
+    "datetime_iso": "2027-03-29T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2075107353",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/2075107353?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/2075107353?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2075107353",
+        "discovery_event_id": "Z698xZ2qZ16evg76uK",
+        "url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/2075107353?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16evg76uK",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "SIENNA SPIRO: My House Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "La Riviera",
+    "datetime_iso": "2027-03-30T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1571703352",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/1571703352?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/1571703352?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1571703352",
+        "discovery_event_id": "Z698xZ2qZ16v4sjdu3",
+        "url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/1571703352?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4sjdu3",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "SIENNA SPIRO",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Fairview Park",
+    "datetime_iso": "2027-06-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064C59D54A36A",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sienna-spiro-dublin-15-06-2027/event/180064C59D54A36A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sienna-spiro-dublin-15-06-2027/event/180064C59D54A36A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064C59D54A36A",
+        "discovery_event_id": "17kZv0G6Gpq41un",
+        "url": "https://www.ticketmaster.ie/sienna-spiro-dublin-15-06-2027/event/180064C59D54A36A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6Gpq41un",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

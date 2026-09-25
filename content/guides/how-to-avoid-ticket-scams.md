@@ -64,6 +64,8 @@ These are strong reasons to stop the purchase entirely:
 
 If you see any of these signs, do not send payment. Close the conversation and, where the platform allows it, report the listing or account.
 
+The payment-method warning matches the US Federal Trade Commission's own list of scam signs. Its guidance says not to pay anyone who contacts you out of the blue and insists on cash, a gift card, a wire transfer, cryptocurrency or a payment app, because money sent that way is hard to track and hard to get back. The same guidance names unexpected contact and pressure to hurry as signs of a scam.
+
 ## Pre-payment checklist
 
 Work through these checks before completing any ticket purchase, whether primary or resale.
@@ -104,7 +106,7 @@ Work through these checks before completing any ticket purchase, whether primary
 
 **At the venue entry:** If a ticket does not work, ask venue staff whether they can document the failed attempt. Then contact the ticket platform or your payment method through official channels.
 
-**Reporting:** Use the platform's built-in reporting tools and, where you believe fraud has occurred, consider reporting to the relevant consumer protection or law-enforcement body in your country.
+**Reporting:** Use the platform's built-in reporting tools and, where you believe fraud has occurred, consider reporting to the relevant consumer protection or law-enforcement body in your country. In the United States, the FTC takes reports at ReportFraud.ftc.gov.
 
 ## FAQ
 
@@ -114,7 +116,7 @@ A scam involves deliberate payment for a ticket that is invalid, non-transferabl
 
 **Why are screenshots and PDFs risky?**
 
-When a ticket is transferred through an official provider account, the original holder loses access and you become the authoritative holder. A screenshot, PDF or barcode image can be copied and sold to several buyers. Whoever scans it first gets in, and the rest are turned away. Only an official in-account transfer provides a clear record of ownership.
+When a ticket is transferred through an official provider account, the original holder loses access and you become the authoritative holder. A screenshot, PDF or barcode image can be copied and sold to several buyers. Whoever scans it first gets in, and the rest are turned away. Only an official in-account transfer provides a clear record of ownership. Ticketmaster's delivery help page, for example, states that its mobile tickets cannot be printed, emailed or presented as a screenshot, and that a transferred ticket can only be claimed by an account whose email address matches the one it was sent to.
 
 **Is meeting in person to collect a ticket safe?**
 

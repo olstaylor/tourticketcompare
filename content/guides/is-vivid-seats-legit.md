@@ -1,133 +1,123 @@
 ---
-title: Is Vivid Seats Legit? What to Check Before You Buy
-h1: Is Vivid Seats legit and safe for concert tickets?
-description: Vivid Seats is an established resale marketplace with a published Buyer Guarantee. Here's what it covers, what it doesn't, and what to check first.
+title: Is Vivid Seats Legit? What the Guarantee Covers
+h1: Is Vivid Seats legit, and is it safe to buy from?
+description: Is Vivid Seats legit? What it is, who sets its prices, what its published guarantee covers, cancelled and postponed events, and checks before buying.
 status: published
 date_published: 2026-09-25
 sources:
   - name: Vivid Seats order protection terms
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-
-    last_checked: 2026-09-21
-  - name: Vivid Seats order-protection terms
-    publisher: Vivid Seats
-    url: https://www.vividseats.com/guarantee
-    last_checked: 2026-09-21
+    last_checked: 2026-09-25
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
-    last_checked: 2026-09-21
-  - name: Are there additional fees? How are fees determined?
+    last_checked: 2026-09-25
+  - name: Will I receive compensation if my event is rained out, postponed, or rescheduled?
     publisher: Vivid Seats Customer Support
-    url: https://support.vividseats.com/support/solutions/articles/1000210524-are-there-additional-fees-how-are-fees-determined-
-    last_checked: 2026-09-21
-  - name: What is Electronic Transfer?
+    url: https://support.vividseats.com/support/solutions/articles/1000210787-will-i-receive-compensation-if-my-event-is-rained-out-postponed-or-rescheduled-
+    last_checked: 2026-09-25
+  - name: What do I do if my event is cancelled? How do I get my compensation?
     publisher: Vivid Seats Customer Support
-    url: https://support.vividseats.com/support/solutions/articles/11000005313-what-is-electronic-transfer-
-    last_checked: 2026-09-21
-  - name: Estimated Delivery Date
-    publisher: Vivid Seats Customer Support
-    url: https://support.vividseats.com/support/solutions/articles/1000213827-estimated-delivery-date
-    last_checked: 2026-09-21
-  - name: Vivid Seats Rewards
-    publisher: Vivid Seats Customer Support
-    url: https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards
-    last_checked: 2026-09-21
+    url: https://support.vividseats.com/support/solutions/articles/1000210801-what-do-i-do-if-my-event-is-cancelled-how-do-i-get-my-compensation-
+    last_checked: 2026-09-25
+  - name: How Vivid Seats Works
+    publisher: Vivid Seats
+    url: https://corporate.vividseats.com/how-vivid-seats-works/
+    last_checked: 2026-09-25
   - name: What are the signs of a scam?
     publisher: US Federal Trade Commission
     url: https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam
-    last_checked: 2026-09-21
+    last_checked: 2026-09-25
 ---
 
-**Short answer:** Yes. Vivid Seats is an established resale marketplace, not a scam site. Independent resellers list tickets there, and Vivid Seats publishes a Buyer Guarantee covering transaction security, delivery before the event, and ticket validity and authenticity, subject to its terms and exclusions.
-
-It is a resale site, though, and that shapes what you get. Prices are set by resellers and can be well above face value. Transfers can arrive close to the show. And the guarantee has conditions, so it isn't a refund for any change of plans. The useful question isn't whether Vivid Seats is real, but whether this listing, on this order, suits you.
+**Short answer:** yes, Vivid Seats is a real, established ticket resale marketplace, and every order carries its Buyer Guarantee. What "legit" does not mean is official. Vivid Seats is not the box office: the tickets on it are resold by independent sellers, at prices those sellers choose, which can be well above face value. Whether a Vivid Seats ticket is a good buy comes down to the listing, the total and the terms, not the brand.
 
 ## What Vivid Seats is
 
-Vivid Seats is a secondary marketplace. The tickets on it were bought earlier, usually from the official seller, and are now listed by someone else. Vivid Seats says those resellers set listing prices using factors such as supply, demand, seat location and how close the event is.
+Vivid Seats is a resale marketplace. It does not issue tickets for concerts itself; it connects buyers with sellers who already hold them. It describes itself as a marketplace of thousands of ticket sellers, and says every seller has to apply and be approved before listing, with its longest-standing sellers marked by a ribbon icon.
 
-It isn't the official seller for a concert. For an onsale or presale, start with the seller named by the artist, venue or promoter, which is often Ticketmaster. Vivid Seats is where you'd look once official tickets are gone or don't suit you. The [primary vs resale guide](/guides/primary-vs-resale-concert-tickets) explains the difference.
+That is why Vivid Seats can have tickets for a show after the official onsale has ended, and why its prices can differ from the price printed on the ticket.
 
-## What Vivid Seats' published protection terms cover
+## What Vivid Seats' published guarantee covers
 
-Vivid Seats publishes a Buyer Guarantee covering three things, subject to its current terms and exclusions:
+Vivid Seats says its guarantee promises three things:
 
-- **Transaction security** for orders placed through Vivid Seats.
-- **Delivery before the event.**
-- **Ticket validity and authenticity.**
+- Your transaction will be secure.
+- Your tickets will be delivered before the event.
+- The tickets will be valid and authentic.
 
-Read the current version before you buy, because the terms and exclusions decide what happens in a particular case. The guarantee isn't a promise that a postponed or rescheduled show produces a cash refund, and it doesn't cover changing your mind. Those outcomes follow the order terms and the organiser's decisions. The [postponement and cancellation guide](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) explains how they differ.
+The guarantee is about the ticket itself. It does not protect you from paying more than face value, from buying the wrong date, or from a change in your own plans. Read the full guarantee terms linked from the Vivid Seats help centre before relying on it for anything specific.
 
-## Fees and the total
+## Why prices can be above face value
 
-Vivid Seats says its all-in ticket price includes both its service charge and its delivery charge. Government tax and any optional extras you select can still change the amount you pay.
+Vivid Seats says every price on its site is set independently by the reseller listing it, based on demand for the event and where the seat is. Listed prices can change at any time, and can be higher or lower than the ticket's face value. It also says it uses all-in pricing, so fees are included in the price you see once you start shopping.
 
-That makes the first number more useful than an old-style headline price, but it isn't the final total. Check the order summary before paying, with the same number of tickets and the same currency you'd compare anywhere else. The [concert ticket fees guide](/guides/concert-ticket-fees-explained) walks through it.
+So a high price on Vivid Seats is usually a seller's asking price in a busy market, not a sign the site is a scam. It is still a reason to check whether the official seller has face-value tickets left before buying resale.
 
-Vivid Seats Rewards is a loyalty programme on top of that. Its current help page says eligible purchases earn stamps, and ten stamps can produce a Reward Credit based on the average eligible value of those tickets, excluding taxes, fees and processing costs. Credits follow the programme's current terms and can expire. A future credit doesn't make today's ticket a better deal.
+## Cancelled and postponed events
 
-## Why your ticket may arrive through Ticketmaster
+Cancellations and postponements are decided by the artist, venue or promoter, not by Vivid Seats. What Vivid Seats does after that:
 
-This is the part that worries people most, and it's normal. Buying on Vivid Seats doesn't mean your ticket lives in a Vivid Seats app. If Ticketmaster issued the original ticket, the reseller fulfils your order by transferring it to your Ticketmaster account, and you'll get an email asking you to accept it.
+- **Cancelled and not rescheduled:** compensation as a refund or store credit of the purchase price, including delivery fees but less possible restocking fees, at Vivid Seats' discretion. It emails you once it has confirmed the cancellation.
+- **Postponed or rescheduled:** your tickets are valid for the new date, and no compensation is due. If the original ticket seller reissues tickets with new barcodes, Vivid Seats delivers the new ones and tells you to discard the old ones.
 
-Vivid Seats explains that electronic transfer isn't always immediate. Sellers may not receive tickets from the original issuer until closer to the event, so the estimated delivery date can be later than the day you bought. A late transfer is only a problem if it misses that date. If it does, contact Vivid Seats through your order.
+That refund-or-credit wording matters. If you would want cash rather than credit, read the terms on your order before you buy. For the general steps, see [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled).
 
-Accept the transfer from a trusted email, check the event details, and add the ticket to the account or wallet the venue uses. A screenshot won't work for a ticket with a moving barcode. See [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing).
+## Why you might be asked to use another app
 
-## How to buy on Vivid Seats safely
+Venues decide how tickets are issued, and many use a ticketing platform's own app for entry. Vivid Seats says that because it works with many ticketing platforms, you might have to download another app to accept an electronic transfer. After your order is confirmed it emails an estimated delivery date.
 
-Most Vivid Seats problems start away from Vivid Seats: lookalike websites, sponsored search results that aren't the real site, or "sellers" on social media. The FTC's advice on scam warning signs applies to any ticket purchase.
+An instruction to accept tickets in the venue's app is normal. An instruction to pay someone outside Vivid Seats is not.
 
-- Go to Vivid Seats' official website or app directly, not through a link in a message.
-- Pay only through Vivid Seats' own checkout. Anyone asking for a bank transfer, gift card or payment app is asking you to leave the checkout, and that payment isn't a Vivid Seats order.
-- Check the event name, date, venue and city on the listing.
-- Read the section, row, ticket quantity and any view notes.
-- Read the delivery method and the estimated delivery date.
-- Check the order summary for tax and optional extras.
-- Keep the order confirmation and the transfer confirmation until after the show.
+## How to tell the real Vivid Seats from a scam
 
-For the full list of warning signs, see [how to avoid ticket scams](/guides/how-to-avoid-ticket-scams).
+The scams to worry about are imitations of a marketplace, not the marketplace itself. The FTC's warning signs apply directly: pressure to act immediately, and requests to pay by gift card, wire transfer, payment app or cryptocurrency.
 
-## How TourTicketCompare links to Vivid Seats
+- Type the address yourself, or use a link you trust, rather than following an ad or a message.
+- Pay only through the Vivid Seats checkout.
+- Do not move a purchase to direct messages, email or a payment app because a "seller" asks.
+- Keep your order confirmation and the delivery email.
 
-A Vivid Seats button on TourTicketCompare only goes up once it has been checked against the right event page. When the Vivid Seats feed supplies one, the button shows its lowest listed price for that date and how long ago it was checked. Prices are checked every few hours and drop off once they are 24 hours old. A listed price isn't the checkout total, and it doesn't mean the ticket is still there.
+For a fuller checklist, see [how to avoid ticket scams](/guides/how-to-avoid-ticket-scams).
 
-TourTicketCompare earns a commission when you buy through its Vivid Seats links. That doesn't change Vivid Seats' prices or terms, and it doesn't decide which links appear. The site doesn't vet individual resellers, handle orders or administer the Buyer Guarantee.
+## Before you buy on Vivid Seats
+
+- Confirm the artist, date, venue and city match the show you mean.
+- Check the section, row, quantity and any notes on the listing.
+- Look at the full order total, including taxes and delivery.
+- Note the delivery method and estimated delivery date.
+- Compare the same seats on another marketplace and with the official seller if you can.
 
 ## FAQ
 
-**Is Vivid Seats a scam?**
+**Is Vivid Seats legit?**
 
-No. Vivid Seats is an established resale marketplace with a published Buyer Guarantee. Scams that use its name usually happen off the platform, through fake sellers or lookalike websites.
+Yes. It is an established resale marketplace, and its Buyer Guarantee promises a secure transaction, delivery before the event, and valid, authentic tickets. It is not the official seller for concerts.
 
-**Is Vivid Seats safe to buy from?**
+**Are Vivid Seats tickets real?**
 
-Buying on Vivid Seats' official website or app and paying at its own checkout keeps your order under its published terms. Read the guarantee, the delivery estimate and the order summary before paying.
+Vivid Seats guarantees that tickets bought through it are valid and authentic. Sellers must be approved before they can list.
 
-**Why are Vivid Seats tickets more than face value?**
+**Why are Vivid Seats prices so high?**
 
-Vivid Seats is a resale marketplace, and resellers set their own prices based on supply, demand, seat location and timing. A listing can be above or below the original price.
+Resellers set every price on Vivid Seats based on demand and seat location, so prices can be above face value. Check whether the official seller still has tickets first.
 
-**Why did my Vivid Seats ticket come from Ticketmaster?**
+**Does Vivid Seats refund cancelled events?**
 
-The original ticket was issued by Ticketmaster, so the reseller transferred it to your Ticketmaster account. Vivid Seats is where you placed the order; Ticketmaster holds the ticket for entry.
+For an event cancelled and not rescheduled, Vivid Seats gives compensation as a refund or store credit of the purchase price, at its discretion. Postponed events keep their tickets for the new date.
 
-**Does Vivid Seats refund cancelled concerts?**
+**Is Vivid Seats the same as Ticketmaster?**
 
-Outcomes depend on the current order terms and whether the event is cancelled, postponed or rescheduled. Read the terms for your order and wait for the official event notice before assuming a refund.
+No. Ticketmaster is the official primary seller for many concerts; Vivid Seats is a resale marketplace. See [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).
 
-**Is Vivid Seats an official ticket seller?**
+**Does TourTicketCompare vet Vivid Seats sellers?**
 
-No. It's a resale marketplace. For an official onsale, use the seller named by the artist, venue or promoter.
-
-**Is Vivid Seats better than SeatGeek?**
-
-Neither is better for every show. See [Vivid Seats vs SeatGeek](/guides/vivid-seats-vs-seatgeek) for how they compare.
+No. The site checks that a link goes to the right event on Vivid Seats. The seller, the order and the guarantee are Vivid Seats' to handle.
 
 ## Related guides
 
-- [Is SeatGeek legit?](/guides/is-seatgeek-legit)
 - [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)
-- [Vivid Seats vs SeatGeek](/guides/vivid-seats-vs-seatgeek)
+- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)
+- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
 - [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)

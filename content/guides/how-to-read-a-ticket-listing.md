@@ -31,11 +31,11 @@ Providers may add short notes to a listing, such as limited view, obstructed vie
 
 ## Ticket type labels
 
-Listings often label whether a ticket is primary (originally issued by the venue or official platform), official resale, third-party resale, dynamically priced (provider-set premium pricing such as platinum), or part of a package. Each type has different rules for fees, transfers, refunds, and entry. The label is shown for a reason; read the linked terms before committing.
+Listings often label whether a ticket is primary (originally issued by the venue or official platform), official resale, third-party resale, dynamically priced (provider-set premium pricing such as platinum), or part of a package. Each type has different rules for fees, transfers, refunds, and entry. The label is shown for a reason; read the linked terms before committing. Third-party resale is a good example: Ticketmaster's help page on those tickets says they are transferred from the original ticket provider's app, so you need an account with that provider to receive them, and that the sales are final unless the event is cancelled.
 
 ## Delivery and transfer labels
 
-Common delivery indicators include mobile transfer, instant download, delayed delivery, shipped, and will-call. Each affects when and how you receive the ticket. Delayed delivery is common for major tours: the ticket is not sent until closer to the event date. Check that the timing fits your travel and entry plans, especially if you are flying in, buying as a gift, or attending with a group.
+Common delivery indicators include mobile transfer, instant download, delayed delivery, shipped, and will-call. Each affects when and how you receive the ticket. Delayed delivery is common for major tours: the ticket is not sent until closer to the event date. Check that the timing fits your travel and entry plans, especially if you are flying in, buying as a gift, or attending with a group. Ticketmaster's delivery help page shows how much the method changes things: resale orders can take up to 24 hours to appear in your account, mobile tickets cannot be printed, emailed or shown as a screenshot, and posted tickets are printed within seven days and should arrive within seven business days of printing, longer if the event organiser has set a delivery delay.
 
 ## Cross-checks before you buy
 

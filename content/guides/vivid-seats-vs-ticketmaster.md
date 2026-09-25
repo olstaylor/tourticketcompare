@@ -69,15 +69,15 @@ These are typical roles for a US audience. Inventory, display rules, and account
 
 A primary ticket is sold through a channel authorised by the event organiser. The organiser decides the original ticket types, onsale schedule, prices, and many event-specific conditions. Ticketmaster often operates that channel. It may also display resale tickets on an event page; those listings should be identified as resale and are priced by the reseller.
 
-Vivid Seats operates a resale marketplace. Its support material explains that ticket resellers set listing prices using factors such as supply, demand, seat location, and the timing of the event. A resale price can therefore differ from the ticket's original face value in either direction. That difference is not, by itself, evidence that the event details are wrong.
+Vivid Seats operates a resale marketplace. Its support material explains that all ticket prices are set independently by the resellers who list there, based on factors such as supply and demand for the specific event and seat location. A resale price can therefore differ from the ticket's original face value in either direction. That difference is not, by itself, evidence that the event details are wrong.
 
 Before comparing totals, identify what each side offers. Primary, premium, official resale, and marketplace resale tickets can carry different terms. If the ticket type or seat details do not match, do not treat the totals as like for like. The [primary versus resale ticket guide](/guides/primary-vs-resale-concert-tickets) explains these labels.
 
 ## All-in pricing, fees, taxes and optional charges
 
-US federal rules require live-event ticket sellers to display the total price including mandatory fees whenever a price is shown. The FTC's guidance also explains that taxes, shipping, and optional goods or services can be excluded from that upfront figure when the rule's conditions are met. This makes the first displayed number more useful, but it does not remove the need to read the final order summary.
+Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required live-event ticket sellers, including resellers and third-party platforms, to display the total price including mandatory fees whenever a price is shown. The FTC's guidance also explains that taxes, shipping, and optional goods or services can be excluded from that upfront figure when the rule's conditions are met. This makes the first displayed number more useful, but it does not remove the need to read the final order summary.
 
-Ticketmaster says ticket prices and fees are determined by event organisers, with mandatory fees included in the upfront price. Its help material distinguishes the ticket price from service charges, order-processing charges, taxes, and delivery choices that may apply in a particular transaction.
+Ticketmaster says ticket prices and fees are determined by event organisers, with mandatory fees included in the upfront price. Its help material distinguishes the face value from service fees, a venue-set facility charge that Ticketmaster says it keeps no part of, taxes, and a delivery fee charged only if you choose a method such as mail or courier.
 
 Vivid Seats says ticket resellers set the listing price. Its current fee guidance says its all-in ticket price includes both the service charge and delivery charge. Government tax and any optional selection can still affect the amount ultimately paid under the applicable checkout rules. Always compare complete current totals in the same currency and for the same number of tickets.
 
@@ -89,11 +89,13 @@ Buying on Vivid Seats does not necessarily mean the final ticket lives in a Vivi
 
 That hand-off is normal for many mobile-transfer orders: Vivid Seats is the marketplace where the order is placed, while Ticketmaster is the system that holds the event's digital ticket. The buyer may receive an email asking them to accept the transfer and may need to sign in or create an account using the same email address associated with the order.
 
+Vivid Seats' own help page on electronic transfer describes the same steps: a confirmation email from Vivid Seats, then a transfer email from a separate platform sent by the seller, and an account on that platform created or signed in to with the same email address used for the Vivid Seats order. Once transferred, the tickets are no longer in the seller's account.
+
 This does not turn the purchase into a direct Ticketmaster order. Questions about the sale, protection, or missing delivery begin with the order marketplace. The transfer platform controls acceptance and mobile entry; the marketplace controls the resale transaction. Keep both confirmations until after the event.
 
 ## Delivery timing and account requirements
 
-Electronic transfer is not always immediate. Vivid Seats explains that sellers may not receive tickets from the original issuer until closer to the event, and the estimated delivery date can therefore be later than the purchase date. A delayed transfer is different from a missed promised delivery, so read the listing's delivery estimate before paying.
+Electronic transfer is not always immediate. Vivid Seats defines a listing's estimated delivery date as the date the tickets are expected to be ready to send; tickets a seller has already marked as in-hand are likely to be sent shortly after the order, so the estimate for others can fall well after the purchase date. A delayed transfer is different from a missed promised delivery, so read the listing's delivery estimate before paying.
 
 When a transfer arrives, follow the acceptance link from a trusted message, verify the event details, and add the ticket to the account or mobile wallet required by the issuer. Do not rely on a screenshot if the ticket uses a moving barcode. Check whether every member of the group needs an account and whether the venue requires the provider's app at entry.
 
@@ -109,7 +111,7 @@ If an event is postponed, moved, or rescheduled, wait for the official event not
 
 ## Vivid Seats Rewards is a feature, not proof of value
 
-Vivid Seats Rewards is an app-based loyalty programme. Its current terms explain how eligible purchases can earn stamps and how a completed stamp sequence can create a Reward Credit. Eligibility, calculation, expiry, and redemption are governed by the programme's current rules.
+Vivid Seats Rewards is an app-based loyalty programme. Its current help page says each ticket bought earns one stamp, and ten stamps earn a Reward Credit worth the average value of those ten tickets, minus taxes and fees. Stamps and credits expire on a timetable that depends on your membership level, and they can't be transferred. Eligibility, calculation, expiry, and redemption are governed by the programme's current rules.
 
 Treat a potential reward as one feature of the transaction, not as evidence that the underlying ticket is better value. A future credit does not make two seats equivalent, remove delivery risk, or replace the need to compare today's complete totals. If rewards matter to you, check that the order qualifies, value the benefit conservatively, and confirm when any credit expires.
 
@@ -167,3 +169,5 @@ Use the authorised seller named by the artist, venue, promoter, or event organis
 - [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)
 - [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)
 - [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)
+- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
+- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)

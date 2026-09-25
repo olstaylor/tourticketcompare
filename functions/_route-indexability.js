@@ -49,6 +49,12 @@ export const VENUE_MIN_ARTISTS = 2;
 // see docs/ROUTE_INDEXABILITY_POLICY.md § Artist-city.
 export const ARTIST_CITY_MIN_SHOWS = 2;
 
+// The on-sale calendar (/on-sale) answers "what goes on sale soon". It lists
+// Ticketmaster public on-sale times already carried on reviewed events, so it
+// is only worth indexing while it lists more than one artist's run.
+export const ONSALE_CALENDAR_MIN_SHOWS = 3;
+export const ONSALE_CALENDAR_MIN_ARTISTS = 2;
+
 // ---------------------------------------------------------------------------
 // Event publishability
 // ---------------------------------------------------------------------------
@@ -169,6 +175,21 @@ export function cityGate(city) {
   else if (city.showCount < CITY_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
   if ((city?.artistCount || 0) < CITY_MIN_ARTISTS) reasons.push(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD);
   if (!(city?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
+  return { indexable: reasons.length === 0, reasons };
+}
+
+/**
+ * On-sale calendar gate. Counts the dates the page lists: upcoming public
+ * on-sales plus those that opened in the recent window.
+ *
+ * @param {{ showCount: number, artistCount: number }} calendar
+ * @returns {GateDecision}
+ */
+export function onsaleCalendarGate(calendar) {
+  const reasons = [];
+  if (!calendar?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
+  else if (calendar.showCount < ONSALE_CALENDAR_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
+  if ((calendar?.artistCount || 0) < ONSALE_CALENDAR_MIN_ARTISTS) reasons.push(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD);
   return { indexable: reasons.length === 0, reasons };
 }
 

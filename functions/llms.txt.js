@@ -4,6 +4,7 @@ import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
+import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -54,14 +55,15 @@ async function loadIndexableArtists(env) {
 async function loadIndexableLocations(env, indexableArtistSlugs = []) {
   try {
     const events = await loadJsonAsset(env, "/data/events.json");
-    if (!Array.isArray(events)) return { cities: [], venues: [], artistCities: [] };
+    if (!Array.isArray(events)) return { cities: [], venues: [], artistCities: [], onsale: null };
     return {
+      onsale: deriveOnsaleCalendar(events),
       cities: deriveCities(events).filter((city) => city.indexable),
       venues: deriveVenues(events).filter((venue) => venue.indexable),
       artistCities: deriveIndexableArtistCities(events, indexableArtistSlugs)
     };
   } catch (error) {
-    return { cities: [], venues: [], artistCities: [] };
+    return { cities: [], venues: [], artistCities: [], onsale: null };
   }
 }
 
@@ -153,7 +155,11 @@ Key facts:
 ## Comparison methodology
 
 - [Compare concert ticket prices](${origin}/compare-concert-ticket-prices): Browse exact-event comparisons and the checks to make before buying.
-- [How TourTicketCompare works](${origin}/how-it-works): Read the verification, source, and freshness rules.
+- [How TourTicketCompare works](${origin}/how-it-works): Read the verification, source, and freshness rules.${
+  locations.onsale?.indexable
+    ? `\n${linkLine(origin, "/on-sale", "Concert tickets going on sale", `Ticketmaster public on-sale times for ${locations.onsale.upcomingCount} tracked upcoming ${locations.onsale.upcomingCount === 1 ? "date" : "dates"}, plus dates that went on sale in the last week.`)}`
+    : ""
+}
 - [Editorial policy](${origin}/editorial-policy): See what the site publishes, withholds, and corrects.
 - [Affiliate disclosure](${origin}/affiliate-disclosure): Understand which links may earn commission and why that does not alter the verification standard.
 

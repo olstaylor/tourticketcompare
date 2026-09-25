@@ -113,7 +113,7 @@ export function routeType(pathname) {
   if (pathname === "/") return "home";
   if (/^\/artists\/[^/]+\/tickets\/[^/]+$/.test(pathname)) return "artist-city";
   if (/^\/artists\/[^/]+$/.test(pathname)) return "artist";
-  if (pathname === "/cities" || pathname === "/venues" || pathname === "/artists" || pathname === "/guides" || pathname === "/blog") return "index";
+  if (pathname === "/cities" || pathname === "/venues" || pathname === "/artists" || pathname === "/guides" || pathname === "/blog" || pathname === "/on-sale") return "index";
   if (pathname.startsWith("/cities/")) return "city";
   if (pathname.startsWith("/venues/")) return "venue";
   if (pathname.startsWith("/guides/")) return "guide";

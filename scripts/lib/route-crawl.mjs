@@ -188,7 +188,7 @@ export async function loadSiteFixture(root) {
   const blogPaths = [blogModule.BLOG_INDEX_PATH, ...blogPosts.map((post) => post.path), ...blogTags.map((tag) => tag.path)];
 
   const allPaths = [
-    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths, ...artistCityPaths, ...blogPaths])
+    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", "/on-sale", ...venuePaths, ...artistCityPaths, ...blogPaths])
   ];
 
   return {

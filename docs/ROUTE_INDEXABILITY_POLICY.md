@@ -125,6 +125,21 @@ The bar is one show lower than a city's because venue intent is narrower and
 venue inventory turns over faster. The destination requirement is identical and
 was added for the same reason.
 
+### On-sale calendar — `/on-sale`
+
+**Indexable when** it lists ≥ 3 dates across ≥ 2 distinct artists
+(`ONSALE_CALENDAR_MIN_SHOWS`, `ONSALE_CALENDAR_MIN_ARTISTS`, `onsaleCalendarGate`).
+A date is listed when its show is still ahead and its Ticketmaster
+`public_onsale_at` falls in the next 60 days or the last 7. An on-sale more than
+a year out is treated as Discovery's "to be announced" placeholder and never
+listed.
+
+The page adds one fact the artist pages already show, grouped by day, so its
+value is breadth: one artist's run is the artist page again. There is no
+destination requirement because the page links only to artist pages, never to
+a ticket site. Below the bar it renders `noindex,follow` and leaves the sitemap
+and `llms.txt`; it never 404s.
+
 ### Artist-city — `/artists/<artist>/tickets/<city>`
 
 This is where the policy makes its substantive change.

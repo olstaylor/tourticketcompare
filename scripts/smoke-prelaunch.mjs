@@ -4,8 +4,8 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { findFirstPersonPlural } from "./check-site-voice.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoutes = ["/", "/artists", "/cities", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
-const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact", "/privacy", "/terms"];
+const publicRoutes = ["/", "/artists", "/cities", "/on-sale", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
+const functionBackedStaticRoutes = ["/artists", "/cities", "/on-sale", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact", "/privacy", "/terms"];
 const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*", "/blog/*"];
 
 // Cache-Control on rendered HTML. Every route revalidates in the browser; only
@@ -33,6 +33,7 @@ const expectedH1 = new Map([
   ["/", "Compare ticket prices for the show you want."],
   ["/artists", "Tracked artists"],
   ["/cities", "Concerts by city"],
+  ["/on-sale", "Concert tickets going on sale"],
   ["/guides", "Ticket buying guides"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
   ["/blog", "TourTicketCompare blog"],
@@ -50,6 +51,7 @@ const expectedTitle = new Map([
   ["/", "Compare Concert Tickets & Tour Dates | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
+  ["/on-sale", "Concert Tickets Going On Sale Soon | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
@@ -88,6 +90,7 @@ Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Choose an artist, then pick the date you want to compare ticket prices for."],
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
+  ["/on-sale", "Presales aren't listed"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
   ["/blog", "what a price snapshot does and does not claim"],

@@ -133,7 +133,6 @@ function schemaBoardEvents(artistSlug) {
       return Number.isFinite(Date.parse(iso)) && Date.parse(iso) >= now;
     })
     .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso))
-    .slice(0, 6)
     .filter((event) => eventPublishable(event) && String(event?.venue || "").trim() && String(event?.city || "").trim());
 }
 
@@ -549,7 +548,9 @@ function expectedMusicEventCount(artistSlug) {
     }
     const node = carriers[0];
     const eventIso = String(event.dateTimeISO || event.datetime_iso || "").trim();
-    if (node.startDate !== eventIso) fail(`${label}: offers landed on startDate ${node.startDate}, expected ${eventIso}`);
+    // Same instant, not the same string: startDate is re-expressed in the
+    // venue's local offset, so a stored "…Z" instant renders as "…-04:00".
+    if (Date.parse(node.startDate) !== Date.parse(eventIso)) fail(`${label}: offers landed on startDate ${node.startDate}, expected ${eventIso}`);
     const offer = node.offers[0];
     const expectedUrl = `https://tourticketcompare.com/api/out?${new URLSearchParams({ showId: String(event.id), provider: laneSlug }).toString()}`;
     if (node.offers.length !== 1) fail(`${label}: ${node.offers.length} offers on the node, expected 1`);

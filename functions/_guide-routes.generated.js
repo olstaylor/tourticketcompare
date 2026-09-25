@@ -158,6 +158,30 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     datePublished: "2026-06-11",
     lastmod: "2026-09-24"
+  },
+  "/guides/is-seatgeek-legit": {
+    title: "Is SeatGeek Legit? What to Check Before You Buy",
+    h1: "Is SeatGeek legit and safe for concert tickets?",
+    description: "SeatGeek is an established ticket marketplace and primary seller for some events. Here's what it covers, what it doesn't, and what to check before buying.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
+  },
+  "/guides/is-vivid-seats-legit": {
+    title: "Is Vivid Seats Legit? What to Check Before You Buy",
+    h1: "Is Vivid Seats legit and safe for concert tickets?",
+    description: "Vivid Seats is an established resale marketplace with a published Buyer Guarantee. Here's what it covers, what it doesn't, and what to check first.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
+  },
+  "/guides/vivid-seats-vs-seatgeek": {
+    title: "Vivid Seats vs SeatGeek: Fees, Delivery & Buyer Protection",
+    h1: "Vivid Seats vs SeatGeek: Which Should You Use?",
+    description: "Vivid Seats and SeatGeek are both ticket marketplaces. Compare how they price listings, show fees, deliver tickets and protect orders before you buy.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
   }
 };
 

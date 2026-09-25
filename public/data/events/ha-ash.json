@@ -107,13 +107,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277079",
+        "url": "https://www.ticketnetwork.com/en/p/8277079",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPG3GA1gW8K",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277079/HaAsh-tickets-Thu-Apr-22-2027-Murat-Theatre-at-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277079/HaAsh-tickets-Thu-Apr-22-2027-Murat-Theatre-at-Old-National-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277079"
   },
   {
     "id": "tm-ha-ash-2027-rosemont-vv1fvzvpg_o4z7ueuv",
@@ -176,6 +184,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8278251",
+        "url": "https://www.ticketnetwork.com/en/p/8278251",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvZvPG_O4Z7ueuv",
@@ -183,7 +198,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278251/HaAsh-tickets-Fri-Apr-23-2027-Rosemont-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278251"
   },
   {
     "id": "tm-ha-ash-2027-denver-g5vzz_k1t3qaq",
@@ -246,6 +262,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277080",
+        "url": "https://www.ticketnetwork.com/en/p/8277080",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K1t3qaq",
@@ -253,7 +276,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277080/HaAsh-tickets-Sun-Apr-25-2027-Paramount-Theatre-Denver",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277080"
   },
   {
     "id": "tm-ha-ash-2027-seattle-vvg1hz_k1hjj1j",
@@ -316,6 +340,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277081",
+        "url": "https://www.ticketnetwork.com/en/p/8277081",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_K1HJj1J",
@@ -323,7 +354,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277081/HaAsh-tickets-Wed-Apr-28-2027-Paramount-Theatre-Seattle",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277081"
   },
   {
     "id": "tm-ha-ash-2027-inglewood-vvg1iz_3teyn4f",
@@ -379,13 +411,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277083",
+        "url": "https://www.ticketnetwork.com/en/p/8277083",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277083/HaAsh-tickets-Sun-May-2-2027-YouTube-Theater-at-Hollywood-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277083/HaAsh-tickets-Sun-May-2-2027-YouTube-Theater-at-Hollywood-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277083"
   },
   {
     "id": "tm-ha-ash-2027-san-jose-g5vyz_k6wigg_",
@@ -448,6 +488,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277082",
+        "url": "https://www.ticketnetwork.com/en/p/8277082",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6wiGg_",
@@ -455,7 +502,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277082/HaAsh-tickets-Thu-May-6-2027-San-Jose-Civic",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277082"
   },
   {
     "id": "tm-ha-ash-2027-phoenix-1a_zkfwgkdcnqcy",
@@ -518,6 +566,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277084",
+        "url": "https://www.ticketnetwork.com/en/p/8277084",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfwGkdCnQcY",
@@ -525,7 +580,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277084/HaAsh-tickets-Sat-May-8-2027-Arizona-Financial-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277084"
   },
   {
     "id": "tm-ha-ash-2027-el-paso-vvg1yz_kgeolu1",
@@ -588,6 +644,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277085",
+        "url": "https://www.ticketnetwork.com/en/p/8277085",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KGeOLU1",
@@ -595,7 +658,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277085/HaAsh-tickets-Wed-May-12-2027-El-Paso-County-Coliseum",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277085"
   },
   {
     "id": "tm-ha-ash-2027-irving-vvg1yz_k558xwt",
@@ -658,6 +722,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277086",
+        "url": "https://www.ticketnetwork.com/en/p/8277086",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K558XwT",
@@ -665,7 +736,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277086/HaAsh-tickets-Fri-May-14-2027-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277086"
   },
   {
     "id": "tm-ha-ash-2027-hidalgo-g5diz_kauvdks",
@@ -728,6 +800,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277087",
+        "url": "https://www.ticketnetwork.com/en/p/8277087",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KAuvDKs",
@@ -735,7 +814,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277087/HaAsh-tickets-Sat-May-15-2027-Payne-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277087"
   },
   {
     "id": "tm-ha-ash-2027-houston-g5diz_kkygldl",
@@ -798,6 +878,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277088",
+        "url": "https://www.ticketnetwork.com/en/p/8277088",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkYGlDl",
@@ -805,7 +892,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277088/HaAsh-tickets-Sun-May-16-2027-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277088"
   },
   {
     "id": "tm-ha-ash-2027-new-york-k7vgf_kc2qanb",
@@ -868,6 +956,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277089",
+        "url": "https://www.ticketnetwork.com/en/p/8277089",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KC2QANB",
@@ -875,7 +970,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277089/HaAsh-tickets-Wed-May-19-2027-United-Palace-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277089"
   },
   {
     "id": "tm-ha-ash-2027-atlanta-vvg1zz_k1bpf9p",
@@ -938,6 +1034,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277090",
+        "url": "https://www.ticketnetwork.com/en/p/8277090",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K1bPF9P",
@@ -945,7 +1048,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277090/HaAsh-tickets-Fri-May-21-2027-Coca-Cola-Roxy",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277090"
   },
   {
     "id": "tm-ha-ash-2027-miami-beach-vvg1vz_k1-dzg7",
@@ -1001,12 +1105,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277091",
+        "url": "https://www.ticketnetwork.com/en/p/8277091",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K1-Dzg7",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277091"
   }
 ]

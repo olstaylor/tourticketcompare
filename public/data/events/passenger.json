@@ -622,13 +622,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8265897",
+        "url": "https://www.ticketnetwork.com/en/p/8265897",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_2wG0-vu",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265897/Passenger-tickets-Fri-Sep-24-2027-O2-Academy-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768"
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265897"
   },
   {
     "id": "tm-passenger-2027-brighton-g5vhz_o5oziab",

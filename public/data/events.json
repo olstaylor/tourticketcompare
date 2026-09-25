@@ -41837,11 +41837,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7896545",
-        "url": "https://www.ticketnetwork.com/en/p/7896545",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7896545",
@@ -41861,7 +41861,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_aG0kdf4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896545",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896545/Karol-G-tickets-Thu-Sep-24-2026-Mercedes-Benz-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-atlanta-tickets-9-24-2026/event/107162165"
   },
@@ -108688,13 +108688,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7734988",
+        "url": "https://www.ticketnetwork.com/en/p/7734988",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZko7GkeRvl69",
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734988/Hilary-Duff-tickets-Fri-Jan-22-2027-Rogers-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148"
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7734988"
   },
   {
     "id": "tm-hilary-duff-2027-vancouver-1av7z_7gkuh7fot",
@@ -108750,12 +108758,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7745831",
+        "url": "https://www.ticketnetwork.com/en/p/7745831",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_7GkUh7Fot",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745831/Hilary-Duff-tickets-Sat-Jan-23-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745831/Hilary-Duff-tickets-Sat-Jan-23-2027-Rogers-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745831"
   },
   {
     "id": "tm-hilary-duff-2027-calgary-1k78v0ojga2h3es",
@@ -108818,13 +108834,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7734989",
+        "url": "https://www.ticketnetwork.com/en/p/7734989",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0oJGA2h3ES",
     "timezone": "America/Edmonton",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734989/Hilary-Duff-tickets-Tue-Jan-26-2027-Scotiabank-Saddledome",
-    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455"
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7734989"
   },
   {
     "id": "tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq",
@@ -108887,13 +108911,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7734990",
+        "url": "https://www.ticketnetwork.com/en/p/7734990",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0ooGA1yTPQ",
     "timezone": "America/Edmonton",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734990/Hilary-Duff-tickets-Wed-Jan-27-2027-Rogers-Place",
-    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454"
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7734990"
   },
   {
     "id": "tm-hilary-duff-2027-saskatoon-1k78v0fmgaungny",
@@ -108949,12 +108981,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7751988",
+        "url": "https://www.ticketnetwork.com/en/p/7751988",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78v0fMGAungNy",
     "timezone": "America/Swift_Current",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7751988/Hilary-Duff-tickets-Fri-Jan-29-2027-SaskTel-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7751988/Hilary-Duff-tickets-Fri-Jan-29-2027-SaskTel-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7751988"
   },
   {
     "id": "tm-hilary-duff-2027-winnipeg-1av7z_7gknwgxan",
@@ -109017,13 +109057,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7734991",
+        "url": "https://www.ticketnetwork.com/en/p/7734991",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_7GknWgxAN",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734991/Hilary-Duff-tickets-Sat-Jan-30-2027-Canada-Life-Centre",
-    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999"
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7734991"
   },
   {
     "id": "tm-hilary-duff-2027-hamilton-1avzz_7gkr2rr5b",
@@ -109185,12 +109233,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7734993",
+        "url": "https://www.ticketnetwork.com/en/p/7734993",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkoaGkeUg7UO",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734993/Hilary-Duff-tickets-Fri-Feb-5-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734993/Hilary-Duff-tickets-Fri-Feb-5-2027-Centre-Bell",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7734993"
   },
   {
     "id": "tm-hilary-duff-2027-halifax-1ad7z_7gkm3f7fo",
@@ -109246,12 +109302,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7734994",
+        "url": "https://www.ticketnetwork.com/en/p/7734994",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_7Gkm3F7Fo",
     "timezone": "America/Halifax",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734994/Hilary-Duff-tickets-Sun-Feb-7-2027-Scotiabank-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7734994/Hilary-Duff-tickets-Sun-Feb-7-2027-Scotiabank-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7734994"
   },
   {
     "id": "tm-hilary-duff-2027-madrid-z698xz2qz16vpo4y_t",
@@ -109523,13 +109587,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284544",
+        "url": "https://www.ticketnetwork.com/en/p/8284544",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfUGkdWFF3Y",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284544/Hilary-Duff-tickets-Sat-Oct-2-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284544/Hilary-Duff-tickets-Sat-Oct-2-2027-Kia-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284544"
   },
   {
     "id": "tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj",
@@ -109585,13 +109657,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284585",
+        "url": "https://www.ticketnetwork.com/en/p/8284585",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpqg6lj",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284585/Hilary-Duff-tickets-Mon-Oct-4-2027-Lenovo-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284585/Hilary-Duff-tickets-Mon-Oct-4-2027-Lenovo-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284585"
   },
   {
     "id": "tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe",
@@ -109647,13 +109727,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284545",
+        "url": "https://www.ticketnetwork.com/en/p/8284545",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkeT7cFE",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284545/Hilary-Duff-tickets-Wed-Oct-6-2027-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284545/Hilary-Duff-tickets-Wed-Oct-6-2027-CFG-Bank-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284545"
   },
   {
     "id": "tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz",
@@ -109709,13 +109797,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284546",
+        "url": "https://www.ticketnetwork.com/en/p/8284546",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_K5DwnJz",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284546/Hilary-Duff-tickets-Fri-Oct-8-2027-Mohegan-Sun-Arena-CT"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284546/Hilary-Duff-tickets-Fri-Oct-8-2027-Mohegan-Sun-Arena-CT",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284546"
   },
   {
     "id": "tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j",
@@ -109771,13 +109867,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284547",
+        "url": "https://www.ticketnetwork.com/en/p/8284547",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGkemPa0J",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284547/Hilary-Duff-tickets-Sat-Oct-9-2027-Giant-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284547/Hilary-Duff-tickets-Sat-Oct-9-2027-Giant-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284547"
   },
   {
     "id": "tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8",
@@ -109833,13 +109937,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284548",
+        "url": "https://www.ticketnetwork.com/en/p/8284548",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9lboi8",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284548/Hilary-Duff-tickets-Mon-Oct-11-2027-KeyBank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284548/Hilary-Duff-tickets-Mon-Oct-11-2027-KeyBank-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284548"
   },
   {
     "id": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
@@ -109895,13 +110007,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284550",
+        "url": "https://www.ticketnetwork.com/en/p/8284550",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPu8GA1iLbE",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284550/Hilary-Duff-tickets-Fri-Oct-15-2027-Value-City-Arena-at-The-Schottenstein-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284550/Hilary-Duff-tickets-Fri-Oct-15-2027-Value-City-Arena-at-The-Schottenstein-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284550"
   },
   {
     "id": "tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi",
@@ -109957,13 +110077,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284583",
+        "url": "https://www.ticketnetwork.com/en/p/8284583",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfsGkdQpqGI",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284583/Hilary-Duff-tickets-Sat-Oct-16-2027-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284583/Hilary-Duff-tickets-Sat-Oct-16-2027-PPG-Paints-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583"
   },
   {
     "id": "tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s",
@@ -110019,13 +110147,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284551",
+        "url": "https://www.ticketnetwork.com/en/p/8284551",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kh8LC6s",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284551/Hilary-Duff-tickets-Fri-Nov-5-2027-Frost-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284551/Hilary-Duff-tickets-Fri-Nov-5-2027-Frost-Bank-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284551"
   },
   {
     "id": "tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg",
@@ -110081,13 +110217,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284554",
+        "url": "https://www.ticketnetwork.com/en/p/8284554",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554"
   },
   {
     "id": "tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle",
@@ -110143,13 +110287,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284555",
+        "url": "https://www.ticketnetwork.com/en/p/8284555",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfgGkd6YdLE",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284555/Hilary-Duff-tickets-Mon-Nov-8-2027-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284555/Hilary-Duff-tickets-Mon-Nov-8-2027-BOK-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284555"
   },
   {
     "id": "tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo",
@@ -110205,13 +110357,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284567",
+        "url": "https://www.ticketnetwork.com/en/p/8284567",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfgGkdlEtYo",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284567/Hilary-Duff-tickets-Wed-Nov-10-2027-CHI-Health-Center-Omaha"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284567/Hilary-Duff-tickets-Wed-Nov-10-2027-CHI-Health-Center-Omaha",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284567"
   },
   {
     "id": "tm-hilary-duff-2027-milwaukee-vv1a6zkfggkdrdjze",
@@ -110267,13 +110427,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284568",
+        "url": "https://www.ticketnetwork.com/en/p/8284568",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfgGkdRdJzE",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284568/Hilary-Duff-tickets-Fri-Nov-12-2027-Fiserv-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284568/Hilary-Duff-tickets-Fri-Nov-12-2027-Fiserv-Forum",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284568"
   },
   {
     "id": "tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx",
@@ -110329,13 +110497,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284570",
+        "url": "https://www.ticketnetwork.com/en/p/8284570",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPuOGA1LaPX",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284570/Hilary-Duff-tickets-Mon-Nov-15-2027-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284570/Hilary-Duff-tickets-Mon-Nov-15-2027-T-Mobile-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284570"
   },
   {
     "id": "tm-hilary-duff-2027-denver-g5vzz_kkrpbyy",
@@ -110391,13 +110567,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284571",
+        "url": "https://www.ticketnetwork.com/en/p/8284571",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkRpbyy",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-02T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284571/Hilary-Duff-tickets-Wed-Nov-17-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284571/Hilary-Duff-tickets-Wed-Nov-17-2027-Ball-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284571"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv110z_kqbpjub",
@@ -110453,13 +110637,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284572",
+        "url": "https://www.ticketnetwork.com/en/p/8284572",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv110Z_KQbPJub",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284572"
   },
   {
     "id": "tm-josiah-queen-2027-tulsa-1aozkf0gkevkv5m",
@@ -110515,12 +110707,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255314",
+        "url": "https://www.ticketnetwork.com/en/p/8255314",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkf0GkeVkV5m",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255314"
   },
   {
     "id": "tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p",
@@ -110629,12 +110829,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255316",
+        "url": "https://www.ticketnetwork.com/en/p/8255316",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FfZ_3xppAZdu26",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255316"
   },
   {
     "id": "tm-josiah-queen-2027-grand-rapids-vv1afzkfngkeiofuw",
@@ -110683,11 +110891,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255317",
+        "url": "https://www.ticketnetwork.com/en/p/8255317",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfNGkeiofUw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255317"
   },
   {
     "id": "tm-josiah-queen-2027-toronto-1a8zkf-gkdrxwct",
@@ -110789,11 +111005,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255318",
+        "url": "https://www.ticketnetwork.com/en/p/8255318",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPFyGAuuCfI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255318"
   },
   {
     "id": "tm-josiah-queen-2027-hershey-vv1aezkf0gkdfm7yq",
@@ -110842,11 +111066,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255319",
+        "url": "https://www.ticketnetwork.com/en/p/8255319",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf0Gkdfm7yq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255319"
   },
   {
     "id": "tm-josiah-queen-2027-charlotte-g5evz_3r2npem",
@@ -110902,12 +111134,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255320",
+        "url": "https://www.ticketnetwork.com/en/p/8255320",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3r2NPEM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255320"
   },
   {
     "id": "tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz",
@@ -110956,11 +111196,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255321",
+        "url": "https://www.ticketnetwork.com/en/p/8255321",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3NNlVDZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255321"
   },
   {
     "id": "tm-josiah-queen-2027-hoffman-estates-vv1a7zkfigkdsnse_",
@@ -111009,11 +111257,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255322",
+        "url": "https://www.ticketnetwork.com/en/p/8255322",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfIGkdsnse_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255322"
   },
   {
     "id": "tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a",
@@ -111069,12 +111325,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255323",
+        "url": "https://www.ticketnetwork.com/en/p/8255323",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZkf00fZA5k85a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255323"
   },
   {
     "id": "tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne",
@@ -111123,11 +111387,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255324",
+        "url": "https://www.ticketnetwork.com/en/p/8255324",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_33LZbnE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255324"
   },
   {
     "id": "tm-josiah-queen-2027-glendale-1fk8vpavkaz7g1ee",
@@ -111183,12 +111455,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255325",
+        "url": "https://www.ticketnetwork.com/en/p/8255325",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8vPaVkaZ7G1ee",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255325"
   },
   {
     "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm",
@@ -111244,12 +111524,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8272507",
+        "url": "https://www.ticketnetwork.com/en/p/8272507",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272507"
   },
   {
     "id": "tm-josiah-queen-2027-cedar-park-g5diz_32hchtd",
@@ -111366,12 +111654,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255327",
+        "url": "https://www.ticketnetwork.com/en/p/8255327",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255327"
   },
   {
     "id": "tm-ha-ash-2027-toronto-1a8zkfwgkedyh_t",
@@ -111481,13 +111777,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277079",
+        "url": "https://www.ticketnetwork.com/en/p/8277079",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPG3GA1gW8K",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277079/HaAsh-tickets-Thu-Apr-22-2027-Murat-Theatre-at-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277079/HaAsh-tickets-Thu-Apr-22-2027-Murat-Theatre-at-Old-National-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277079"
   },
   {
     "id": "tm-ha-ash-2027-rosemont-vv1fvzvpg_o4z7ueuv",
@@ -111550,6 +111854,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8278251",
+        "url": "https://www.ticketnetwork.com/en/p/8278251",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvZvPG_O4Z7ueuv",
@@ -111557,7 +111868,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278251/HaAsh-tickets-Fri-Apr-23-2027-Rosemont-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278251"
   },
   {
     "id": "tm-ha-ash-2027-denver-g5vzz_k1t3qaq",
@@ -111620,6 +111932,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277080",
+        "url": "https://www.ticketnetwork.com/en/p/8277080",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K1t3qaq",
@@ -111627,7 +111946,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277080/HaAsh-tickets-Sun-Apr-25-2027-Paramount-Theatre-Denver",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277080"
   },
   {
     "id": "tm-ha-ash-2027-seattle-vvg1hz_k1hjj1j",
@@ -111690,6 +112010,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277081",
+        "url": "https://www.ticketnetwork.com/en/p/8277081",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_K1HJj1J",
@@ -111697,7 +112024,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277081/HaAsh-tickets-Wed-Apr-28-2027-Paramount-Theatre-Seattle",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277081"
   },
   {
     "id": "tm-ha-ash-2027-inglewood-vvg1iz_3teyn4f",
@@ -111753,13 +112081,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277083",
+        "url": "https://www.ticketnetwork.com/en/p/8277083",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277083/HaAsh-tickets-Sun-May-2-2027-YouTube-Theater-at-Hollywood-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277083/HaAsh-tickets-Sun-May-2-2027-YouTube-Theater-at-Hollywood-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277083"
   },
   {
     "id": "tm-ha-ash-2027-san-jose-g5vyz_k6wigg_",
@@ -111822,6 +112158,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277082",
+        "url": "https://www.ticketnetwork.com/en/p/8277082",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6wiGg_",
@@ -111829,7 +112172,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277082/HaAsh-tickets-Thu-May-6-2027-San-Jose-Civic",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277082"
   },
   {
     "id": "tm-ha-ash-2027-phoenix-1a_zkfwgkdcnqcy",
@@ -111892,6 +112236,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277084",
+        "url": "https://www.ticketnetwork.com/en/p/8277084",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfwGkdCnQcY",
@@ -111899,7 +112250,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277084/HaAsh-tickets-Sat-May-8-2027-Arizona-Financial-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277084"
   },
   {
     "id": "tm-ha-ash-2027-el-paso-vvg1yz_kgeolu1",
@@ -111962,6 +112314,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277085",
+        "url": "https://www.ticketnetwork.com/en/p/8277085",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KGeOLU1",
@@ -111969,7 +112328,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277085/HaAsh-tickets-Wed-May-12-2027-El-Paso-County-Coliseum",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277085"
   },
   {
     "id": "tm-ha-ash-2027-irving-vvg1yz_k558xwt",
@@ -112032,6 +112392,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277086",
+        "url": "https://www.ticketnetwork.com/en/p/8277086",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K558XwT",
@@ -112039,7 +112406,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277086/HaAsh-tickets-Fri-May-14-2027-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277086"
   },
   {
     "id": "tm-ha-ash-2027-hidalgo-g5diz_kauvdks",
@@ -112102,6 +112470,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277087",
+        "url": "https://www.ticketnetwork.com/en/p/8277087",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KAuvDKs",
@@ -112109,7 +112484,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277087/HaAsh-tickets-Sat-May-15-2027-Payne-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277087"
   },
   {
     "id": "tm-ha-ash-2027-houston-g5diz_kkygldl",
@@ -112172,6 +112548,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277088",
+        "url": "https://www.ticketnetwork.com/en/p/8277088",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkYGlDl",
@@ -112179,7 +112562,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277088/HaAsh-tickets-Sun-May-16-2027-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277088"
   },
   {
     "id": "tm-ha-ash-2027-new-york-k7vgf_kc2qanb",
@@ -112242,6 +112626,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277089",
+        "url": "https://www.ticketnetwork.com/en/p/8277089",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KC2QANB",
@@ -112249,7 +112640,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277089/HaAsh-tickets-Wed-May-19-2027-United-Palace-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277089"
   },
   {
     "id": "tm-ha-ash-2027-atlanta-vvg1zz_k1bpf9p",
@@ -112312,6 +112704,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277090",
+        "url": "https://www.ticketnetwork.com/en/p/8277090",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K1bPF9P",
@@ -112319,7 +112718,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277090/HaAsh-tickets-Fri-May-21-2027-Coca-Cola-Roxy",
-    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960"
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277090"
   },
   {
     "id": "tm-ha-ash-2027-miami-beach-vvg1vz_k1-dzg7",
@@ -112375,13 +112775,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277091",
+        "url": "https://www.ticketnetwork.com/en/p/8277091",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K1-Dzg7",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277091"
   },
   {
     "id": "tm-lukas-graham-2027-dallas-vvg1yz_kg_q-ih",
@@ -112437,13 +112845,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286278",
+        "url": "https://www.ticketnetwork.com/en/p/8286278",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KG_q-iH",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286278/Lukas-Graham-tickets-Tue-Mar-2-2027-The-Echo-Lounge-and-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286278/Lukas-Graham-tickets-Tue-Mar-2-2027-The-Echo-Lounge-and-Music-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286278"
   },
   {
     "id": "tm-lukas-graham-2027-atlanta-vvg1zz_kgj9z2e",
@@ -112499,13 +112915,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286279",
+        "url": "https://www.ticketnetwork.com/en/p/8286279",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KGj9z2e",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286279/Lukas-Graham-tickets-Thu-Mar-4-2027-Buckhead-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286279/Lukas-Graham-tickets-Thu-Mar-4-2027-Buckhead-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286279"
   },
   {
     "id": "tm-lukas-graham-2027-tampa-vvg1vz_kpwcutv",
@@ -112561,13 +112985,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286280",
+        "url": "https://www.ticketnetwork.com/en/p/8286280",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KpwcUtV",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286280"
   },
   {
     "id": "tm-lukas-graham-2027-charlotte-g5evz_kpbekzf",
@@ -112623,13 +113055,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286281",
+        "url": "https://www.ticketnetwork.com/en/p/8286281",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpbekzf",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286281"
   },
   {
     "id": "tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg",
@@ -112685,13 +113125,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286282",
+        "url": "https://www.ticketnetwork.com/en/p/8286282",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdU1_Zg",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286282"
   },
   {
     "id": "tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf",
@@ -112801,13 +113249,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286284",
+        "url": "https://www.ticketnetwork.com/en/p/8286284",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_K8xG7IhPb",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286284"
   },
   {
     "id": "tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5",
@@ -113025,13 +113481,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286290",
+        "url": "https://www.ticketnetwork.com/en/p/8286290",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPuvGAuq0Sn",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286290/Lukas-Graham-tickets-Thu-Apr-8-2027-Egyptian-Room-At-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286290/Lukas-Graham-tickets-Thu-Apr-8-2027-Egyptian-Room-At-Old-National-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286290"
   },
   {
     "id": "tm-lukas-graham-2027-minneapolis-vv11bz_kf-ovb0",
@@ -113141,13 +113605,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8286294",
+        "url": "https://www.ticketnetwork.com/en/p/8286294",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkegDi06",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286294"
   },
   {
     "id": "tm-passenger-2027-brussels-z698xzg2z16v-xbfos",
@@ -113772,13 +114244,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8265897",
+        "url": "https://www.ticketnetwork.com/en/p/8265897",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_2wG0-vu",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265897/Passenger-tickets-Fri-Sep-24-2027-O2-Academy-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768"
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265897"
   },
   {
     "id": "tm-passenger-2027-brighton-g5vhz_o5oziab",
@@ -114207,11 +114687,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264751",
+        "url": "https://www.ticketnetwork.com/en/p/8264751",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3GknFT-Og",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264751"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
@@ -114260,11 +114748,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264752",
+        "url": "https://www.ticketnetwork.com/en/p/8264752",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd1ybNO",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264752"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
@@ -114313,11 +114809,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264753",
+        "url": "https://www.ticketnetwork.com/en/p/8264753",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5KFPx",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264753"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5pben",
@@ -114419,11 +114923,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264755",
+        "url": "https://www.ticketnetwork.com/en/p/8264755",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkdu5Imb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264755"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
@@ -114472,11 +114984,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264756",
+        "url": "https://www.ticketnetwork.com/en/p/8264756",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lwZpdp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264756"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lmyj87",
@@ -114525,11 +115045,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264757",
+        "url": "https://www.ticketnetwork.com/en/p/8264757",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lMyJ87",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264757"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lbuu4c",
@@ -114578,11 +115106,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264758",
+        "url": "https://www.ticketnetwork.com/en/p/8264758",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lBuU4c",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264758"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwcjqy",
@@ -114684,11 +115220,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264760",
+        "url": "https://www.ticketnetwork.com/en/p/8264760",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lXmU-J",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264760"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3nq9ecb",
@@ -114737,11 +115281,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264761",
+        "url": "https://www.ticketnetwork.com/en/p/8264761",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3nQ9ecb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264761"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lv67ao",
@@ -114843,11 +115395,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264763",
+        "url": "https://www.ticketnetwork.com/en/p/8264763",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l--PpL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264763"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l0pglg",
@@ -114896,11 +115456,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264764",
+        "url": "https://www.ticketnetwork.com/en/p/8264764",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3l0PgLG",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264764"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3ljog0t",
@@ -115002,11 +115570,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264766",
+        "url": "https://www.ticketnetwork.com/en/p/8264766",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lnPPRv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264766"
   },
   {
     "id": "tm-oasis-2027-co-meath-1avoz_3gkrnpmuo",

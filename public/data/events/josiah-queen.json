@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255314",
+        "url": "https://www.ticketnetwork.com/en/p/8255314",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkf0GkeVkV5m",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255314"
   },
   {
     "id": "tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p",
@@ -167,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255316",
+        "url": "https://www.ticketnetwork.com/en/p/8255316",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FfZ_3xppAZdu26",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255316"
   },
   {
     "id": "tm-josiah-queen-2027-grand-rapids-vv1afzkfngkeiofuw",
@@ -221,11 +237,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255317",
+        "url": "https://www.ticketnetwork.com/en/p/8255317",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfNGkeiofUw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255317"
   },
   {
     "id": "tm-josiah-queen-2027-toronto-1a8zkf-gkdrxwct",
@@ -327,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255318",
+        "url": "https://www.ticketnetwork.com/en/p/8255318",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPFyGAuuCfI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255318"
   },
   {
     "id": "tm-josiah-queen-2027-hershey-vv1aezkf0gkdfm7yq",
@@ -380,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255319",
+        "url": "https://www.ticketnetwork.com/en/p/8255319",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf0Gkdfm7yq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255319"
   },
   {
     "id": "tm-josiah-queen-2027-charlotte-g5evz_3r2npem",
@@ -440,12 +480,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255320",
+        "url": "https://www.ticketnetwork.com/en/p/8255320",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3r2NPEM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255320"
   },
   {
     "id": "tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz",
@@ -494,11 +542,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255321",
+        "url": "https://www.ticketnetwork.com/en/p/8255321",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3NNlVDZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255321"
   },
   {
     "id": "tm-josiah-queen-2027-hoffman-estates-vv1a7zkfigkdsnse_",
@@ -547,11 +603,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255322",
+        "url": "https://www.ticketnetwork.com/en/p/8255322",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfIGkdsnse_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255322"
   },
   {
     "id": "tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a",
@@ -607,12 +671,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255323",
+        "url": "https://www.ticketnetwork.com/en/p/8255323",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZkf00fZA5k85a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255323"
   },
   {
     "id": "tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne",
@@ -661,11 +733,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255324",
+        "url": "https://www.ticketnetwork.com/en/p/8255324",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_33LZbnE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255324"
   },
   {
     "id": "tm-josiah-queen-2027-glendale-1fk8vpavkaz7g1ee",
@@ -721,12 +801,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255325",
+        "url": "https://www.ticketnetwork.com/en/p/8255325",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8vPaVkaZ7G1ee",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255325"
   },
   {
     "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm",
@@ -782,12 +870,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8272507",
+        "url": "https://www.ticketnetwork.com/en/p/8272507",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272507"
   },
   {
     "id": "tm-josiah-queen-2027-cedar-park-g5diz_32hchtd",
@@ -904,11 +1000,19 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255327",
+        "url": "https://www.ticketnetwork.com/en/p/8255327",
+        "verified": true,
+        "last_verified_at": "2026-09-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052"
+    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255327"
   }
 ]

@@ -152,7 +152,7 @@
       "summary": "Oasis Live '27 is not sold the usual way. Registration has closed, selected fans receive a unique code for an assigned sale window, and there is no general sale. That changes how to read almost every ticket offer you will see for these dates.",
       "datePublished": "2026-09-25",
       "dateModified": "2026-09-25",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -627,6 +627,11 @@
       "slug": "transparency",
       "label": "Transparency",
       "postCount": 2
+    },
+    {
+      "slug": "tour-buying",
+      "label": "Tour Buying",
+      "postCount": 1
     }
   ]
 }

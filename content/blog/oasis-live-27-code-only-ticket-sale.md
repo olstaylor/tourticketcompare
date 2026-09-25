@@ -4,7 +4,7 @@ seo_title: "Oasis Live '27 tickets: the code sale"
 description: Oasis Live '27 tickets go only to registered fans with a unique code. What that means for codes offered online, resale listings and choosing a night.
 summary: Oasis Live '27 is not sold the usual way. Registration has closed, selected fans receive a unique code for an assigned sale window, and there is no general sale. That changes how to read almost every ticket offer you will see for these dates.
 date: 2026-09-25
-status: draft
+status: published
 tags:
   - tour-buying
 related_artists:

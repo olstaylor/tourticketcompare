@@ -198,6 +198,14 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     datePublished: "2026-09-25",
     lastmod: "2026-09-25"
+  },
+  "/guides/stubhub-international-explained": {
+    title: "StubHub International: Why a US Show Opens stubhub.ie",
+    h1: "What is StubHub International, and why does it open stubhub.ie?",
+    description: "Why a StubHub International button can open stubhub.ie for a US or UK show, how its price is shown here, and what to check about currency and terms.",
+    fullContent: true,
+    datePublished: "2026-09-25",
+    lastmod: "2026-09-25"
   }
 };
 

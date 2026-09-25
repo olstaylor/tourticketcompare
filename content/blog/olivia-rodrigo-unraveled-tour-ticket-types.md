@@ -3,8 +3,8 @@ title: Three kinds of Olivia Rodrigo ticket, and what each one means
 seo_title: Unraveled Tour ticket types explained
 description: Standard, VIP and Silver Star tickets are sold differently on The Unraveled Tour, and the differences follow the ticket onto the resale market.
 summary: An Unraveled Tour ticket is not one product. The tour sells standard tickets, VIP packages and a request-based fixed-price ticket, and the rules attached to each — transferability, delivery timing, identity checks — decide what a second-hand listing is actually worth buying.
-date: 2026-09-07
-status: draft
+date: 2026-09-25
+status: published
 tags:
   - tour-buying
 related_artists:

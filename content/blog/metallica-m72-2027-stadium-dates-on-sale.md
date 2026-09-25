@@ -1,10 +1,10 @@
 ---
 title: "Metallica's 2027 M72 stadium dates: resale listed first"
 seo_title: "Metallica 2027 M72 tickets: on-sale"
-description: Metallica's ten 2027 M72 stadium dates open at 10:00 local time on September 25. Resale sites listed all ten the day before. What to check.
-summary: Ten new North American stadium dates on Metallica's M72 World Tour go on public sale on Friday, September 25, each at 10:00 in the venue's time. Resale sites had listings up for all ten the day before, which is worth understanding before you buy.
+description: Metallica's ten 2027 M72 stadium dates opened at 10:00 local time on September 25. Resale sites listed all ten the day before. What to check.
+summary: Ten new North American stadium dates on Metallica's M72 World Tour went on public sale on Friday, September 25, each at 10:00 in the venue's time. Resale sites had listings up for all ten the day before, which is worth understanding before you buy.
 date: 2026-09-25
-status: draft
+status: published
 tags:
   - tour-buying
 related_artists:
@@ -20,7 +20,7 @@ sources:
     url: https://www.ticketmaster.com/metallica-tickets/artist/735647
 ---
 
-Ticketmaster lists ten new stadium dates on Metallica's M72 World Tour for May and June 2027, from Vancouver to Salt Lake City, with a public on-sale of Friday, September 25, 2026. Each opens at 10:00 in the venue's own time zone, so the sale rolls from the East Coast at 10:00 AM EDT to the West Coast three hours later.
+Ticketmaster lists ten new stadium dates on Metallica's M72 World Tour for May and June 2027, from Vancouver to Salt Lake City, with a public on-sale of Friday, September 25, 2026. Each opened at 10:00 in the venue's own time zone, so the sale rolled from the East Coast at 10:00 AM EDT to the West Coast three hours later.
 
 ## The dates and their on-sale times
 
@@ -59,3 +59,5 @@ After each date's on-sale time, the Metallica page shows the Ticketmaster link f
 ## What the Metallica page shows
 
 The [Metallica page](/artists/metallica) lists every tracked date, including the Sphere residency and Mohegan Sun. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Where a resale price appears, it is that site's listed price when it was last checked, with the time shown. It isn't the face value or a final checkout total. TourTicketCompare doesn't sell tickets or run presales.
+
+For other tours with a public on-sale coming up, the [on-sale calendar](/on-sale) lists them by day, in each venue's local time.

@@ -33,7 +33,7 @@ Primary prices, resale prices and fees work differently, and mixing them up is o
 
 **Resale pricing** is set by individual sellers, under each marketplace's rules. A listing above the original price isn't fraud, but it does mean you may be paying more than the official price. Check whether primary tickets are still available before you buy resale.
 
-**Fees** are the most common reason a total ends up higher than expected. Service fees, order fees, facility charges, taxes and delivery are often added at checkout rather than included in the first price you see. A price that looks lower than another can end up as the higher total. Ticketmaster, for example, says its upfront price includes the face value and required fees but generally not taxes, and that a delivery fee is added only if you choose a method such as mail or courier.
+**Fees** are the most common reason a total ends up higher than expected. Service fees, order fees, facility charges, taxes and delivery are often added at checkout rather than included in the first price you see. A price that looks lower than another can end up as the higher total. Ticketmaster, for example, says its upfront price includes the face value and required fees but generally not taxes, and that a delivery fee is added only if you choose a method such as mail or courier. SeatGeek says its displayed price includes all mandatory fees, with taxes, shipping and optional add-ons possibly added at checkout.
 
 A primary ticket isn't automatically cheaper than resale once fees are added. Get to the final total on each site before you decide.
 

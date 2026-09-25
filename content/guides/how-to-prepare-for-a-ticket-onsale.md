@@ -31,13 +31,13 @@ The US Federal Trade Commission's advice on buying tickets to in-demand events c
 
 ## Understanding your presale options
 
-Presales can include artist fan-club, credit-card holder, venue, radio, and Verified Fan presales. Each has its own access window, code, and inventory pool. Eligibility, codes, and inventory are controlled by the provider; a code that is shared publicly online does not prove it currently works for your event. Check the artist's official announcement for which presales apply to your show and how to access them.
+Presales can include artist fan-club, credit-card holder, venue, radio, and Verified Fan presales. SeatGeek's help page on high-demand sales says access codes usually come directly from the promoter, venue, team, artist, credit card provider or membership group offering them, that SeatGeek generally does not hand them out itself, and that a code from a credit card company may require you to pay with that card. Each has its own access window, code, and inventory pool. Eligibility, codes, and inventory are controlled by the provider; a code that is shared publicly online does not prove it currently works for your event. Check the artist's official announcement for which presales apply to your show and how to access them.
 
 ## Your onsale-day routine
 
 - Use one device and one browser window. Multiple sessions can trigger anti-bot controls.
 - Use a stable internet connection where possible.
-- Open the provider's queue page a few minutes before the listed start time and do not refresh once you are in the queue.
+- Open the provider's queue page a few minutes before the listed start time and do not refresh once you are in the queue. SeatGeek's help page warns that refreshing may cost you your place.
 - Know two or three seating areas you would accept, in order, so you can choose quickly.
 - Read the listing details before confirming: section, row or area, quantity, delivery method, and the full checkout total including fees.
 - Complete checkout within the timer. Abandoned carts release inventory back into the queue.

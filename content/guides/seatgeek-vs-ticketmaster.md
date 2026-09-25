@@ -67,7 +67,7 @@ A Ticketmaster primary ticket and a SeatGeek resale ticket are different product
 
 Not consistently. The cheaper option depends on the exact event, ticket source, seat, quantity, time of comparison, and complete current total. A SeatGeek resale listing can be below or above a Ticketmaster primary, premium, or resale listing, and the available tickets may not be equivalent.
 
-Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required mandatory live-event ticket fees to be included in the upfront total, while taxes, shipping, and optional extras may still be treated separately. Ticketmaster and SeatGeek each publish current explanations of their price and fee displays; Ticketmaster's says its upfront price covers the face value and required fees, generally before taxes. Rules and displays can differ outside the United States.
+Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required mandatory live-event ticket fees to be included in the upfront total, while taxes, shipping, and optional extras may still be treated separately. Ticketmaster and SeatGeek each publish current explanations of their price and fee displays. Ticketmaster's says its upfront price covers the face value and required fees, generally before taxes. SeatGeek's says the price on its event page already includes all mandatory fees, which may be set by SeatGeek and/or the teams, venues, promoters and other partners involved; taxes, shipping and optional add-ons can be added at checkout. SeatGeek also says all sales are final and its fees are generally not refundable except under its Buyer Guarantee. Rules and displays can differ outside the United States.
 
 Compare the same ticket quantity and currency, then check the current order summary on both platforms, including taxes, delivery, add-ons and currency conversion. A lower first number is not evidence of a lower final total.
 
@@ -83,11 +83,13 @@ The reverse can happen too: Ticketmaster may have primary or resale inventory th
 
 SeatGeek says Deal Score evaluates listings using factors such as historical prices, row location, expected sightline, quantity, seat type, and other available tickets. It can help compare SeatGeek listings with one another. It is not a cross-platform price guarantee and does not prove that a SeatGeek ticket is cheaper than Ticketmaster's current option.
 
+SeatGeek scores listings from 1 to 10, and its help page says a higher score means more value for the price compared with the other SeatGeek listings for that event. A blue pin on its map means SeatGeek didn't have enough listing detail to calculate a score, which its help page says is not a sign the listing is a bad deal.
+
 Use Deal Score as one research signal, then match the section, row, quantity, ticket type, view notes, delivery method, and final amount payable across the two platforms.
 
 ## Is SeatGeek legit like Ticketmaster?
 
-SeatGeek is a ticketing platform and marketplace with published buyer-protection terms. Ticketmaster is a ticketing platform that handles primary and resale inventory under event-specific rules. A legitimate platform does not make every listing equivalent or right for every buyer.
+SeatGeek is a ticketing platform and marketplace with published buyer-protection terms. Its help page says tickets there are sold by licensed sellers, other SeatGeek customers, integrated partners and sometimes a team's box office, and that every order is backed by its Buyer Guarantee. The guarantee covers tickets arriving in time, giving valid entry and matching what you ordered, with comparable or better replacements or a refund if one of those fails. For an event cancelled and not rescheduled, SeatGeek says it will, at its discretion, refund the purchase price or, subject to state law, issue a credit; for a postponed or rescheduled event it generally does not refund. The guarantee excludes mistaken purchases, a change in your own plans, and lineup changes that aren't cancellations. Ticketmaster is a ticketing platform that handles primary and resale inventory under event-specific rules. A legitimate platform does not make every listing equivalent or right for every buyer.
 
 Use the exact official domains, avoid off-platform payment, confirm how the ticket will be delivered, and read the current protection, cancellation, postponement, transfer, and refund terms for the order. TourTicketCompare does not administer either platform's orders or guarantees.
 

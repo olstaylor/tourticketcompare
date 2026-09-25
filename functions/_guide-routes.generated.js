@@ -109,7 +109,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-09-24"
+    lastmod: "2026-09-25"
   },
   "/guides/concert-ticket-fees-explained": {
     title: "Concert Ticket Fees Explained | TourTicketCompare",

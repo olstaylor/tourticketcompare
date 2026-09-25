@@ -66,6 +66,8 @@ If you see any of these signs, do not send payment. Close the conversation and, 
 
 The payment-method warning matches the US Federal Trade Commission's own list of scam signs. Its guidance says not to pay anyone who contacts you out of the blue and insists on cash, a gift card, a wire transfer, cryptocurrency or a payment app, because money sent that way is hard to track and hard to get back. The same guidance names unexpected contact and pressure to hurry as signs of a scam.
 
+Ticket platforms say the same about themselves. SeatGeek's help page on spotting scams states that it will never send email from a domain other than @seatgeek.com, ask for payment by wire transfer, or require gift cards or money orders to buy, transfer or refund tickets. It also warns that its Buyer Guarantee cannot protect tickets bought outside SeatGeek, and that there is no reliable way to tell whether a physical or electronic ticket is valid just by looking at it.
+
 ## Pre-payment checklist
 
 Work through these checks before completing any ticket purchase, whether primary or resale.

@@ -41,7 +41,7 @@ Buying then makes most sense when you want certainty, need several seats togethe
 
 ## Waiting, and what resale really offers
 
-Waiting suits flexible plans, a tolerance for uncertainty, and a willingness to keep checking back. It isn't a reliable way to pay less. What waiting can bring is more supply: the US Federal Trade Commission's advice for sold-out events is to check back, because promoters may release more tickets after the first sale or add another show.
+Waiting suits flexible plans, a tolerance for uncertainty, and a willingness to keep checking back. It isn't a reliable way to pay less. What waiting can bring is more supply. SeatGeek's help page on high-demand sales notes that not all tickets are released at once: depending on the event, more may appear during a presale, the onsale, or the days leading up to the show, as the organiser, venue, promoter or seller decides. Likewise, the US Federal Trade Commission's advice for sold-out events is to check back, because promoters may release more tickets after the first sale or add another show.
 
 Resale listings move with seller decisions, demand, seat location, and how close the show is, and the direction is not predictable in advance. Hold off and you might find a better price; you might equally find fewer suitable seats, a tighter delivery window, or a higher total than the one you passed up. There is no pattern to lean on, only the listings actually in front of you.
 

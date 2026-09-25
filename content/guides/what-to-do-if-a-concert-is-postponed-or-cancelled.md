@@ -56,7 +56,7 @@ These words are often used loosely, so check exactly what the provider says.
 - Cancelled means the event is not going ahead. Whether and how a refund is handled depends on the provider and event terms, so check the provider's update directly.
 - Changed or moved events may involve a different venue, date, time, lineup, or delivery method. Even small changes can affect travel plans, so review the details carefully.
 
-Do not assume your ticket's status. Confirm it against the provider's official update.
+Do not assume your ticket's status. Confirm it against the provider's official update. Providers treat these as separate cases: Ticketmaster's Event Updates help section, for example, has separate articles for a cancelled event, a postponed event, and a rescheduled or moved event.
 
 ## Read the refund, transfer, and delivery rules
 
@@ -80,6 +80,8 @@ Resale tickets can add extra steps when an event changes. Buyer protections on r
 - Remember that a rescheduled date may or may not suit the original buyer, which can affect a resale ticket's value and validity.
 - If you are considering buying a resale ticket for an event that has already changed, confirm the current event details before you commit.
 
+Cancellation is often the one change resale terms do cover. Ticketmaster's help page on third-party resale tickets, for instance, says those sales are final unless the event is cancelled, and that for a cancelled event that is not rescheduled, buyers of physical hard-stock tickets must post the tickets back to Ticketmaster to be refunded.
+
 If you are unsure how official and resale tickets differ, the guide on [official tickets versus resale](/guides/primary-vs-resale-concert-tickets) explains the main differences.
 
 ## Watch for scam messages after a change
@@ -90,6 +92,8 @@ Event changes are a common moment for scams, because people are anxious and look
 - Do not send payments, ticket transfers, or personal details through chat apps, social media, or links from unverified messages.
 - Do not assume a message is official just because it uses an artist, venue, or provider name.
 - Use only the recognised checkout, account, and support flows of the provider you actually bought from.
+
+These are the signs the US Federal Trade Commission lists for any scam: contact you did not expect, pressure to hurry, and a demand to pay in a particular way, such as cash, a gift card, a wire transfer, cryptocurrency or a payment app.
 
 For more detail on spotting fraud, see the guide on [avoiding ticket scams](/guides/how-to-avoid-ticket-scams).
 

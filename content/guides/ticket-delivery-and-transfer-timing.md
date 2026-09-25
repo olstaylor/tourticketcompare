@@ -35,6 +35,8 @@ Most tickets reach buyers in one of a few ways, and each carries a different kin
 
 The method is usually shown on the listing or at checkout. If you cannot tell which one applies, treat that as a question to answer before paying, not after.
 
+Ticketmaster's help page on delivery options gives one provider's specifics. Its mobile tickets cannot be printed, emailed or shown as a screenshot. A transferred ticket can only be claimed by an account whose email address matches the one it was sent to. Will-call collection needs the card used to pay and a valid photo ID. Resale orders can take up to 24 hours to appear in your account. Other sites, and individual tours, set their own rules.
+
 ## Why tickets get held back
 
 A delayed or restricted delivery window is not automatically a warning sign. There are ordinary reasons a provider or seller holds a ticket back:
@@ -43,6 +45,8 @@ A delayed or restricted delivery window is not automatically a warning sign. The
 - **Locked transfer dates.** Some primary tickets cannot be transferred at all until a set date, even between friends.
 - **Resale fulfilment.** On a marketplace, the seller may not transfer until their own ticket clears, which can land close to the event.
 - **Event rules.** Paperless or named-entry tickets sometimes only become usable shortly before doors.
+
+Organisers can build the delay in themselves. Ticketmaster's delivery page says posted tickets are normally printed within seven days of purchase and should arrive within seven business days of printing, but can take longer when the event organiser has set a delivery delay on the event. Its help page on third-party resale adds that tickets originally sold by another company are transferred from that company's app, so you need an account there too.
 
 The problem is rarely the delay itself. It is a delay you did not expect, on a timeline that leaves no room to fix anything if the transfer fails.
 

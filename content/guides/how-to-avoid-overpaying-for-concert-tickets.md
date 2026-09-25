@@ -29,11 +29,11 @@ TourTicketCompare shows each ticket site's lowest listed price for a date where 
 
 Primary prices, resale prices and fees work differently, and mixing them up is one of the main ways people end up paying more than they meant to.
 
-**Primary pricing** is for tickets sold through the event's official channels. For some events, sites use demand-based pricing, where the price for certain categories changes with how fast seats sell. Sites that do this disclose it. It doesn't mean something has gone wrong with your purchase.
+**Primary pricing** is for tickets sold through the event's official channels. Ticketmaster's help page on prices and fees says the event organiser sets the face value and also decides how many tickets to sell and when they go on sale. For some events, sites use demand-based pricing, where the price for certain categories changes with how fast seats sell. Sites that do this disclose it. It doesn't mean something has gone wrong with your purchase.
 
 **Resale pricing** is set by individual sellers, under each marketplace's rules. A listing above the original price isn't fraud, but it does mean you may be paying more than the official price. Check whether primary tickets are still available before you buy resale.
 
-**Fees** are the most common reason a total ends up higher than expected. Service fees, order fees, facility charges, taxes and delivery are often added at checkout rather than included in the first price you see. A price that looks lower than another can end up as the higher total.
+**Fees** are the most common reason a total ends up higher than expected. Service fees, order fees, facility charges, taxes and delivery are often added at checkout rather than included in the first price you see. A price that looks lower than another can end up as the higher total. Ticketmaster, for example, says its upfront price includes the face value and required fees but generally not taxes, and that a delivery fee is added only if you choose a method such as mail or courier.
 
 A primary ticket isn't automatically cheaper than resale once fees are added. Get to the final total on each site before you decide.
 
@@ -41,7 +41,7 @@ A primary ticket isn't automatically cheaper than resale once fees are added. Ge
 
 To compare two options fairly, you need the same number from each: the total after the site has added every fee, tax, delivery charge and currency conversion.
 
-In some countries, ticket sites must show the full price, fees included, from the start. In others, the price grows as you go through checkout. You won't know which you're dealing with until you reach the order screen.
+In the United States, the Federal Trade Commission's fee rule has required live-event ticket sellers, including resellers, to show a total price with all mandatory fees since May 12, 2025. Taxes, government charges, shipping and optional extras can still be left out of that figure, as long as they are disclosed, with the final amount, before you are asked to pay. Other countries have their own rules, and in some the price grows as you go through checkout, so you won't know what's included until you reach the order screen.
 
 To avoid a surprise at checkout:
 
@@ -138,7 +138,7 @@ No. Dynamic or demand-based pricing is a disclosed feature some sites use for so
 
 **Why is my final total higher than the price I first saw?**
 
-Fees, taxes, delivery and currency conversion are often added at checkout rather than shown at the start. Some countries require the full amount upfront, others don't. Go to the final order screen before comparing.
+Fees, taxes, delivery and currency conversion are often added at checkout rather than shown at the start. In the United States, the FTC's fee rule has required mandatory fees to be in the advertised total since May 12, 2025, but taxes, shipping and optional extras can still be added later; other countries have their own rules. Go to the final order screen before comparing.
 
 **Is a primary ticket always cheaper than resale?**
 

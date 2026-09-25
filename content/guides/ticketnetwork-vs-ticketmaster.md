@@ -40,7 +40,7 @@ That difference decides what you should check, what protects you, and whether th
 | Who sets the price | Event organiser for primary; the reseller for resale | The individual seller, within marketplace rules |
 | Face value | Primary tickets are sold at the organiser's set price | Listings may be above face value, and the site says so |
 | Availability | Depends on the onsale and what remains | Depends entirely on what sellers have listed |
-| If the event is cancelled | Third-party resale orders are otherwise final, but cancellation has a refund route through the original provider | The published guarantee includes a full refund |
+| If the event is cancelled | Third-party resale orders are otherwise final, but cancellation has a refund route through the original provider | The published guarantee includes a full refund, excluding delivery fees |
 | If tickets do not arrive or fail at entry | Not set out on the resale help page cited here; read the terms attached to your specific order | The published guarantee covers arrival before the event and validity for entry |
 
 Neither column is the "safe" one by default. They carry different promises, and the right one depends on the event in front of you.
@@ -57,7 +57,7 @@ So "I bought it on Ticketmaster" does not by itself tell you which protections a
 
 TicketNetwork describes itself as connecting buyers to events where "all tickets are listed by professional ticket-selling companies & trusted ticket sellers." It is a marketplace layer: the sellers hold or expect to hold the tickets, and they set their own prices under the marketplace's rules. TicketNetwork's own pages carry the disclaimer that resale ticket prices may be above face value.
 
-What it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that your tickets "will arrive before the event" and "will be valid for entry." That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.
+What it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that "your tickets will arrive before the event" and that "all tickets are legitimate tickets, valid for entry." The same guarantee says you will receive the tickets you ordered or comparable alternatives, and that if an event is permanently cancelled TicketNetwork will coordinate a full refund of the order, excluding delivery fees. If a ticket fails at the door, it asks for evidence from the venue, such as a letter or an email from venue staff, so it can recover the refund from the seller. That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.
 
 Because listings are seller-set, availability and price on TicketNetwork move independently of whatever Ticketmaster is showing. A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag.
 
@@ -95,7 +95,7 @@ Read those as three different products, not two websites. If a guarantee matters
 
 **Is TicketNetwork legit?**
 
-TicketNetwork is an established resale marketplace with published guarantee terms covering ticket arrival and validity for entry. That doesn't make every listing the right buy; it means the platform stands behind delivery and entry. Check the specific listing, the total, and the current terms.
+TicketNetwork is an established resale marketplace: its parent company, TicketNetwork, Inc., says it was founded in 2002, and the marketplace publishes guarantee terms covering ticket arrival and validity for entry. That doesn't make every listing the right buy; it means the platform stands behind delivery and entry. Check the specific listing, the total, and the current terms.
 
 **Why does TicketNetwork have tickets when Ticketmaster is sold out?**
 

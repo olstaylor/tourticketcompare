@@ -59,13 +59,15 @@ These are typical roles, not universal rules. Read the listing label and the off
 
 Primary inventory comes through a channel authorised by the event organiser. Resale inventory appears after an original purchase and is priced by the seller under the marketplace's rules. Ticketmaster's current help content says its resale tickets are clearly labelled and can be listed above or below face value. SeatGeek's explanation of the secondary market says it is both the primary platform for some leagues and venues and a marketplace for resold tickets.
 
+Ticketmaster's help pages add two details about resale on its own site. Artists, teams and venues decide how and when tickets for their events may be resold there, and a ticket can be listed above or below face value depending on the event organiser's resale terms and local laws. Some artists cap resale prices; Ticketmaster calls these face value exchange tickets, labels them, and says it charges no resale fees on them.
+
 A Ticketmaster primary ticket and a SeatGeek resale ticket are different products even when the artist, date, and venue match. Ticket source, seat details, delivery timing, and seller-set pricing can all create a gap.
 
 ## Is SeatGeek cheaper than Ticketmaster?
 
 Not consistently. The cheaper option depends on the exact event, ticket source, seat, quantity, time of comparison, and complete current total. A SeatGeek resale listing can be below or above a Ticketmaster primary, premium, or resale listing, and the available tickets may not be equivalent.
 
-US rules require mandatory live-event ticket fees to be included in the upfront total, while taxes, shipping, and optional extras may still be treated separately. Ticketmaster and SeatGeek each publish current explanations of their price and fee displays. Rules and displays can differ outside the United States.
+Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required mandatory live-event ticket fees to be included in the upfront total, while taxes, shipping, and optional extras may still be treated separately. Ticketmaster and SeatGeek each publish current explanations of their price and fee displays; Ticketmaster's says its upfront price covers the face value and required fees, generally before taxes. Rules and displays can differ outside the United States.
 
 Compare the same ticket quantity and currency, then check the current order summary on both platforms, including taxes, delivery, add-ons and currency conversion. A lower first number is not evidence of a lower final total.
 

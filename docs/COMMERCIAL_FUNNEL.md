@@ -141,8 +141,13 @@ and writes nothing. The `email` and `user_agent` columns are never read, and
 `request_key` is only ever counted, never listed — the script fails its own
 self-test if a query breaks those rules.
 
-`npm run report:funnel` (the older provider/CTA-location report) still exists
-and is unchanged.
+`npm run report:funnel` (the older provider/CTA-location report) still exists.
+Since 2026-09-25 it also splits `provider_click` on dates that show the
+"Lowest listed" badge: `metadata.lowestListed` is `lowest` when the badged lane
+was clicked and `other` for any other lane on that date, and is absent on dates
+without a badge, so the split compares the badged lane only with its own
+neighbours. Like every `provider_click` figure it is intent, not an outbound
+count; the authoritative `/api/out` row does not carry it.
 
 `npm run report:web-vitals -- --days 28` is the separate read-only mobile
 performance report. It groups numeric TTFB, FCP, LCP, and LCP render delay by
@@ -392,7 +397,8 @@ Also currently unmeasurable:
   only, never a full URL.
 - GA4 receives a **mirror** of `artist_view`, `provider_cta_view`, the legacy
   `provider_click` intent as one `outbound_click` event, and `email_signup` with low-cardinality parameters only
-  (page type, artist slug, provider, CTA location, affiliate flag). No event id,
+  (page type, artist slug, provider, CTA location, affiliate flag, and
+  `lowest_listed` on clicks from a date showing the "Lowest listed" badge). No event id,
   city, venue, path, referrer or address is ever sent to GA4. GA4 cannot see the
   server-side outbound redirect at all, which is why first-party D1 remains
   authoritative.

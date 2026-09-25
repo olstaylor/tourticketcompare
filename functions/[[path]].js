@@ -4037,8 +4037,10 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"`;
   // "Lowest listed" marks the one lane lowestListedProvider picked; the card's
   // price note beneath already says these are listed prices, not totals.
+  // data-cta-lowest lets public/shell.js record, on provider_click, whether the
+  // click went to the badged lane or to another lane on a badged date.
   const lowest = Boolean(amount && analytics.lowest);
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${lowest ? " provider-cta-lowest" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span>${
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${lowest ? " provider-cta-lowest" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}${lowest ? ' data-cta-lowest="true"' : ""}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span>${
     lowest ? `<span class="provider-cta-badge">Lowest listed</span>` : ""
   }</a>`;
 }
@@ -5482,7 +5484,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20260924v" defer></script>',
-    '<script src="/shell.js?v=20260901b" defer></script>'
+    '<script src="/shell.js?v=20260925a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.

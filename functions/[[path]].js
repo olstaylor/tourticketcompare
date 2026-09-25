@@ -24,6 +24,7 @@ import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { publicOnsalePending } from "./_route-indexability.js";
+import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -394,6 +395,8 @@ async function loadJsonAsset(env, path, isValid, fallback) {
   }
 }
 
+const ONSALE_CALENDAR_PATH = "/on-sale";
+
 function normalizePath(pathname) {
   if (pathname !== "/" && pathname.endsWith("/")) return pathname.replace(/\/+$/, "");
   return pathname || "/";
@@ -495,6 +498,23 @@ async function routeForPath(pathname, env) {
         { name: "Blog", path: BLOG_INDEX_PATH },
         { name: post.title, path }
       ]
+    };
+  }
+
+  // On-sale calendar. Recomputed per request from the reviewed events, so a
+  // date moves from "going on sale" to "just went on sale" the moment its
+  // public on-sale passes, with no rebuild.
+  if (path === ONSALE_CALENDAR_PATH) {
+    const calendar = deriveOnsaleCalendar(await loadEvents(env));
+    return {
+      type: "onsale-calendar",
+      path,
+      indexable: calendar.indexable,
+      title: "Concert Tickets Going On Sale Soon | TourTicketCompare",
+      description:
+        "Upcoming public on-sale dates and times from Ticketmaster for tracked concert tours, plus dates that went on sale in the last week.",
+      calendar,
+      breadcrumb: [{ name: "On-sale calendar", path: ONSALE_CALENDAR_PATH }]
     };
   }
 
@@ -1259,6 +1279,40 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     });
     graph.push(faqPageSchema(comparisonHubFaqEntries()));
     graph.push(...comparisonHubItemListSchema(route, origin, catalog, events));
+  }
+  if (route.type === "onsale-calendar") {
+    const calendar = route.calendar || {};
+    const artists = [];
+    const seen = new Set();
+    for (const group of [...(calendar.upcoming || []), ...(calendar.recent || [])]) {
+      for (const artist of group.artists) {
+        if (seen.has(artist.artistSlug)) continue;
+        seen.add(artist.artistSlug);
+        artists.push(artist);
+      }
+    }
+    // Artist pages only: a pre-on-sale date never gets a MusicEvent node
+    // (publicOnsalePending), so this list carries none either.
+    graph.push({
+      "@type": "CollectionPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: artists.length,
+        itemListElement: artists.map((artist, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: artist.artistName,
+          url: `${origin}/artists/${slugify(artist.artistSlug)}`
+        }))
+      }
+    });
   }
   if (route.type === "cities-index") {
     const cities = route.cities || [];
@@ -3720,6 +3774,88 @@ function publicOnsaleLabel(event) {
   return `Public on-sale ${when} per Ticketmaster.`;
 }
 
+// The on-sale time for the calendar, in the venue's local zone, without the
+// date: the calendar already heads each block with the day.
+function onsaleTimeLabel(entry) {
+  const at = new Date(entry.onsaleAt);
+  try {
+    return at.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: entry.timezone || "UTC", timeZoneName: "short" });
+  } catch (error) {
+    return `${at.toISOString().slice(11, 16)} UTC`;
+  }
+}
+
+function onsaleDayHeading(day) {
+  const date = new Date(`${day}T12:00:00Z`);
+  if (!Number.isFinite(date.getTime())) return day;
+  return date.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+}
+
+function renderOnsaleDayGroups(groups) {
+  return groups
+    .map(
+      (group) =>
+        `<section class="nested-panel onsale-day" data-onsale-day="${escapeAttr(group.day)}"><h3>${escapeHtml(
+          onsaleDayHeading(group.day)
+        )}</h3>${group.artists
+          .map(
+            (artist) =>
+              `<h4>${anchor(artist.artistName, `/artists/${slugify(artist.artistSlug)}`, "text-link")} <span class="muted">${escapeHtml(
+                `· ${artist.shows.length} ${artist.shows.length === 1 ? "date" : "dates"}`
+              )}</span></h4><ul class="venue-show-list onsale-shows">${artist.shows
+                .map(
+                  (show) =>
+                    `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
+                      [show.city, show.venue].filter(Boolean).join(" · ")
+                    )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
+                )
+                .join("")}</ul>`
+          )
+          .join("")}</section>`
+    )
+    .join("");
+}
+
+export function renderOnsaleCalendarBody(route) {
+  const calendar = route.calendar || {};
+  const upcoming = calendar.upcoming || [];
+  const recent = calendar.recent || [];
+  const upcomingCount = calendar.upcomingCount || 0;
+  const recentCount = calendar.recentCount || 0;
+  const plural = (count, one, many) => `${count} ${count === 1 ? one : many}`;
+  const lead = `${plural(upcomingCount, "tracked date goes", "tracked dates go")} on public sale in the next ${ONSALE_LOOKAHEAD_DAYS} days, and ${plural(
+    recentCount,
+    "date",
+    "dates"
+  )} went on sale in the last ${ONSALE_RECENT_DAYS}. Times are Ticketmaster's public on-sale times, in each venue's local time.`;
+  const upcomingHtml = upcoming.length
+    ? renderOnsaleDayGroups(upcoming)
+    : `<p>No tracked date has a public on-sale in the next ${ONSALE_LOOKAHEAD_DAYS} days. New dates are added as tours are announced; ${anchor(
+        "browse artists",
+        "/artists",
+        "text-link"
+      )} to see what is already on sale.</p>`;
+  const recentHtml = recent.length
+    ? `<section aria-labelledby="onsaleRecentTitle"><h2 id="onsaleRecentTitle">Just went on sale</h2><p>Dates whose public on-sale opened in the last ${ONSALE_RECENT_DAYS} days. Their artist pages now carry the ticket links.</p>${renderOnsaleDayGroups(
+        recent
+      )}</section>`
+    : "";
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p><section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
+    "About this calendar",
+    `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales aren't listed</h3><p>Fan-club, card and venue presales usually open earlier and aren't tracked here. Check the artist's and venue's own announcements for those.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
+      "How to prepare for a ticket on-sale",
+      "/guides/how-to-prepare-for-a-ticket-onsale",
+      "mini-link"
+    )}${anchor("Primary vs resale concert tickets", "/guides/primary-vs-resale-concert-tickets", "mini-link")}</div></section>`
+  )}<div class="action-row">${anchor("Browse artists", "/artists", "button button-secondary")}${anchor(
+    "Browse cities",
+    "/cities",
+    "button button-secondary"
+  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+}
+
 function eventLinkPublishable(event) {
   if (publicOnsalePending(event)) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
@@ -5090,6 +5226,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Ticket buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
+  if (route.type === "onsale-calendar") return renderOnsaleCalendarBody(route);
+
   if (route.type === "cities-index") {
     const cities = Array.isArray(route.cities) ? route.cities : [];
     const leadingCity = cities[0];
@@ -5368,7 +5506,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "Browse cities",
     "/cities",
     "text-link"
-  )} or ${anchor("venues", "/venues", "text-link")}.</p></section><section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
+  )} or ${anchor("venues", "/venues", "text-link")}. Waiting for a sale? ${anchor("See what goes on sale next", ONSALE_CALENDAR_PATH, "text-link")}.</p></section><section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
     "All guides",
     "/guides",
     "text-link"

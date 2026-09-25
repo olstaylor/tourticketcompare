@@ -29,6 +29,7 @@
     "test:homepage-proposition": "node scripts/homepage-proposition.test.mjs",
     "test:renderer-assets": "node scripts/renderer-asset-cache.test.mjs",
     "test:location-pages": "node scripts/location-pages.test.mjs",
+    "test:onsale-calendar": "node scripts/onsale-calendar.test.mjs",
     "test:event-local-date": "node scripts/event-local-date.test.mjs",
     "audit:internal-links": "node scripts/audit-internal-links.mjs",
     "audit:indexable-surface": "node scripts/audit-indexable-surface.mjs",

@@ -4,6 +4,7 @@ import { deriveCities } from "./_cities.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { deriveIndexableBlogEntries } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
+import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -193,6 +194,23 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS) {
     changefreq: "monthly",
     priority: path === "/" ? "1.0" : "0.6"
   }));
+  // The on-sale calendar joins the pages segment only while its own gate
+  // passes, read from the same derivation the router uses. Its lastmod is the
+  // newer of the latest on-sale that has already opened (the page moves with
+  // the clock) and the newest artist verification, like the other
+  // data-derived index pages.
+  if (need.has("pages")) {
+    const events = await loadEvents(env).catch(() => null);
+    const calendar = Array.isArray(events) ? deriveOnsaleCalendar(events) : null;
+    if (calendar?.indexable) {
+      staticEntries.push({
+        path: "/on-sale",
+        lastmod: newestDate(calendar.lastOpenedDate, newestArtistLastmod),
+        changefreq: "daily",
+        priority: "0.6"
+      });
+    }
+  }
   const artistEntries = indexableArtists.map(({ slug, lastmod }) => ({
     path: `/artists/${slug}`,
     lastmod,

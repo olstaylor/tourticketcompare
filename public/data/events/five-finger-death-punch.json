@@ -1817,59 +1817,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435"
   },
   {
-    "id": "tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4",
-    "artist_slug": "five-finger-death-punch",
-    "artist_name": "Five Finger Death Punch",
-    "event_name": "Five Finger Death Punch | Premium Seats",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "AFAS Live Loge",
-    "datetime_iso": "2027-02-07T18:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1192592955",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1192592955",
-        "discovery_event_id": "Z698xZbpZ16vk3p3P4",
-        "url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16vk3p3P4",
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7",
     "artist_slug": "five-finger-death-punch",
     "artist_name": "Five Finger Death Punch",

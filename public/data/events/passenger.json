@@ -53,60 +53,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-passenger-2027-amsterdam-z698xzbpz1aub0gy",
-    "artist_slug": "passenger",
-    "artist_name": "Passenger",
-    "event_name": "Passenger | Premium Seats",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "AFAS Live Loge",
-    "datetime_iso": "2027-03-21T19:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "36624330",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "36624330",
-        "discovery_event_id": "Z698xZbpZ1AUb0GY",
-        "url": "https://www.ticketmaster.nl/event/passenger-%7C-premium-seats-tickets/36624330?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ1AUb0GY",
-    "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
-  },
-  {
     "id": "tm-passenger-2027-milano-zg9rmiynyzd6ea",
     "artist_slug": "passenger",
     "artist_name": "Passenger",

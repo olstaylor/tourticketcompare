@@ -21,6 +21,46 @@
       "local_date": "2026-09-27",
       "reason": "Duplicate of the human-verified Madrid residency event on the same date (Ticketmaster Spain storefront id 823196262); owner-reviewed 2026-07-30.",
       "deleted_at": "2026-07-30"
+    },
+    {
+      "artist_slug": "five-finger-death-punch",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ16vk3p3P4",
+      "ticketmaster_event_id": "1192592955",
+      "venue": "AFAS Live Loge",
+      "datetime_iso": "2027-02-07T18:00:00Z",
+      "timezone": "Europe/Amsterdam",
+      "reason": "Ticketmaster premium-seat/box upsell listing (\"Five Finger Death Punch | Premium Seats\" at AFAS Live Loge), not the concert itself; the recogniser now withholds these with travel_package_listing.",
+      "deleted_at": "2026-09-25"
+    },
+    {
+      "artist_slug": "tyla",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ1kF3e9O_",
+      "ticketmaster_event_id": "212097819",
+      "venue": "AFAS Live Loge",
+      "datetime_iso": "2026-10-13T18:00:00Z",
+      "timezone": "Europe/Amsterdam",
+      "reason": "Ticketmaster premium-seat/box upsell listing (\"Tyla | Premium Seats\" at AFAS Live Loge), not the concert itself; the recogniser now withholds these with travel_package_listing.",
+      "deleted_at": "2026-09-25"
+    },
+    {
+      "artist_slug": "polyphia",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ16v49FPpe",
+      "ticketmaster_event_id": "1557225582",
+      "venue": "AFAS Live Loge",
+      "datetime_iso": "2026-12-08T19:00:00Z",
+      "timezone": "Europe/Amsterdam",
+      "reason": "Ticketmaster premium-seat/box upsell listing (\"Polyphia | Premium Seats\" at AFAS Live Loge), not the concert itself; the recogniser now withholds these with travel_package_listing.",
+      "deleted_at": "2026-09-25"
+    },
+    {
+      "artist_slug": "passenger",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ1AUb0GY",
+      "ticketmaster_event_id": "36624330",
+      "venue": "AFAS Live Loge",
+      "datetime_iso": "2027-03-21T19:00:00Z",
+      "timezone": "Europe/Amsterdam",
+      "reason": "Ticketmaster premium-seat/box upsell listing (\"Passenger | Premium Seats\" at AFAS Live Loge), not the concert itself; the recogniser now withholds these with travel_package_listing.",
+      "deleted_at": "2026-09-25"
     }
   ]
 }

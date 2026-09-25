@@ -19,7 +19,7 @@
     "missing_storefront_event_id": "Resolved storefront URL has no /event/<id> path segment.",
     "destination_is_affiliate_wrapper": "Resolved destination is still an affiliate wrapper, not a storefront.",
     "placeholder_url": "URL matches a placeholder marker (localhost, example.com, ...).",
-    "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality upsell package.",
+    "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality/premium-seat upsell package.",
     "attraction_identity_mismatch": "Event attractions do not include the registry's verified attraction ID.",
     "not_primary_attraction": "Registry attraction is not the primary attraction (support act / festival lineup).",
     "duplicate_existing_event_id": "Same Ticketmaster event id as an existing events.json row.",

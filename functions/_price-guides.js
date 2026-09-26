@@ -89,7 +89,7 @@ export const PRICE_GUIDE_LAUNCH_MIN_SHOWS = 6;
 const DAY_MS = 24 * 60 * 60 * 1000;
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
-function linkVerifiedWithUrl(event, provider) {
+export function linkVerifiedWithUrl(event, provider) {
   const link = event?.provider_links?.[provider];
   return link?.verified === true && Boolean(String(link?.url || "").trim());
 }

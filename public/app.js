@@ -455,6 +455,7 @@ function clientPageType(pathname) {
     if (parts.length === 1) return "artists_index";
     if (parts.length === 2) return "artist";
     if (parts.length === 4 && parts[2] === "tickets") return "artist_city";
+    if (parts.length === 3 && parts[2] === "ticket-prices") return "artist_price_guide";
     if (parts.length === 3) return "artist_tour";
     return "other";
   }
@@ -4184,7 +4185,7 @@ async function render() {
     current.type !== "not-found" && pathArtistSlug ? findArtist(pathArtistSlug)?.slug || "" : "";
   const artistSlug =
     current.artist?.slug ||
-    (pageType === "artist" || pageType === "artist_city" || pageType === "artist_tour" ? resolvedPathArtist : "");
+    (pageType === "artist" || pageType === "artist_city" || pageType === "artist_price_guide" || pageType === "artist_tour" ? resolvedPathArtist : "");
 
   sendAnalytics("page_view", {
     routeType: current.type,

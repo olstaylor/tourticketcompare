@@ -1,0 +1,48 @@
+name: Price-guide candidates
+
+# Propose-only tour-launch queue for artist price guides
+# (/artists/<artist>/ticket-prices). Reads the committed event data, lists
+# indexable artists without a guide whose Ticketmaster public on-sales opened in
+# the last 30 days or open in the next 60 (scripts/propose-price-guides.mjs),
+# and rewrites the rolling `automation:price-guide-candidates` issue. Writes no
+# repository file and publishes nothing: approving a candidate is a human PR
+# adding its slug to PRICE_GUIDE_ARTISTS in functions/_price-guides.js.
+# 11:05 UTC runs after the morning ingestion lanes (03:00–07:00) have merged.
+
+on:
+  schedule:
+    - cron: '5 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: price-guide-candidates
+  cancel-in-progress: true
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Self-test
+        run: node scripts/propose-price-guides.mjs --self-test
+
+      - name: Update the price-guide candidates issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/propose-price-guides.mjs --issue
+
+      - name: Confirm no repository data changed
+        run: git diff --quiet || { echo 'a propose-only run changed tracked files' >&2; git --no-pager diff --stat; exit 1; }

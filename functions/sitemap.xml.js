@@ -5,6 +5,7 @@ import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { deriveIndexableBlogEntries } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
 import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
+import { deriveIndexablePriceGuides } from "./_price-guides.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -217,6 +218,24 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS) {
     changefreq: "weekly",
     priority: "0.8"
   }));
+  // Artist price guides live under /artists/, so they join the artists
+  // segment, gated on the same derivation the router uses. They inherit every
+  // artist-level noindex because only indexable artist pages are passed in.
+  if (need.has("artists") && indexableArtists.length) {
+    const events = await loadEvents(env).catch(() => null);
+    const guides = Array.isArray(events)
+      ? deriveIndexablePriceGuides(events, indexableArtists.map((artist) => artist.slug))
+      : [];
+    const artistLastmod = new Map(indexableArtists.map((artist) => [artist.slug, artist.lastmod]));
+    for (const guide of guides) {
+      artistEntries.push({
+        path: guide.path,
+        lastmod: newestDate(lastmodOf(guide.lastmod), artistLastmod.get(guide.artistSlug)),
+        changefreq: "daily",
+        priority: "0.7"
+      });
+    }
+  }
   // Artist-city landing pages, gated on the same derivation the router uses so
   // only combinations with qualifying upcoming inventory ever enter the sitemap.
   const artistCityEntries = (need.has("artist-cities") ? await loadIndexableArtistCities(env, indexableArtists.map((artist) => artist.slug)) : []).map(

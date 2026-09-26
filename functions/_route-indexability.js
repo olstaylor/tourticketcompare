@@ -55,6 +55,16 @@ export const ARTIST_CITY_MIN_SHOWS = 2;
 export const ONSALE_CALENDAR_MIN_SHOWS = 3;
 export const ONSALE_CALENDAR_MIN_ARTISTS = 2;
 
+// An artist price guide (/artists/<artist>/ticket-prices) answers "how much are
+// <artist> tickets". It only says something the artist page does not when it
+// covers a genuine run of dates in more than one city, and when enough of those
+// dates can carry a listed-price snapshot at all (verified provenance on a
+// snapshot lane). Below that it is the artist page with fewer buttons, so it
+// renders noindex,follow — see docs/ROUTE_INDEXABILITY_POLICY.md § Price guide.
+export const PRICE_GUIDE_MIN_SHOWS = 6;
+export const PRICE_GUIDE_MIN_CITIES = 2;
+export const PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS = 3;
+
 // ---------------------------------------------------------------------------
 // Event publishability
 // ---------------------------------------------------------------------------
@@ -154,7 +164,9 @@ export const EXCLUSION_REASONS = Object.freeze({
   BELOW_SHOW_THRESHOLD: "below_show_threshold",
   BELOW_ARTIST_THRESHOLD: "below_artist_threshold",
   NO_PUBLISHABLE_DESTINATION: "no_publishable_destination",
-  ARTIST_NOT_EDITORIALLY_INDEXABLE: "artist_not_editorially_indexable"
+  ARTIST_NOT_EDITORIALLY_INDEXABLE: "artist_not_editorially_indexable",
+  BELOW_CITY_THRESHOLD: "below_city_threshold",
+  BELOW_PRICE_COVERAGE_THRESHOLD: "below_price_coverage_threshold"
 });
 
 /**
@@ -190,6 +202,23 @@ export function onsaleCalendarGate(calendar) {
   if (!calendar?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
   else if (calendar.showCount < ONSALE_CALENDAR_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
   if ((calendar?.artistCount || 0) < ONSALE_CALENDAR_MIN_ARTISTS) reasons.push(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD);
+  return { indexable: reasons.length === 0, reasons };
+}
+
+/**
+ * Price-guide gate — the data-derived half. The caller applies the editorial
+ * half (registered guide, artist page itself indexable).
+ *
+ * @param {{ showCount: number, cityCount: number, publishableCount: number, snapshotReadyCount: number }} guide
+ * @returns {GateDecision}
+ */
+export function priceGuideGate(guide) {
+  const reasons = [];
+  if (!guide?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
+  else if (guide.showCount < PRICE_GUIDE_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
+  if ((guide?.cityCount || 0) < PRICE_GUIDE_MIN_CITIES) reasons.push(EXCLUSION_REASONS.BELOW_CITY_THRESHOLD);
+  if (!(guide?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
+  if ((guide?.snapshotReadyCount || 0) < PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD);
   return { indexable: reasons.length === 0, reasons };
 }
 

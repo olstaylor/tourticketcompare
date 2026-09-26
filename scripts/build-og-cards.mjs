@@ -279,6 +279,7 @@ async function collectCards() {
   const { deriveIndexableArtistCities } = await import(pathToFileURL(path.join(root, "functions/_artist-cities.js")));
   const { deriveIndexableBlogEntries } = await import(pathToFileURL(path.join(root, "functions/_blog.js")));
   const { GUIDE_ROUTES } = await import(pathToFileURL(path.join(root, "functions/_guide-routes.generated.js")));
+  const { deriveIndexablePriceGuides } = await import(pathToFileURL(path.join(root, "functions/_price-guides.js")));
 
   const indexableMeta = new Map(
     artistsMeta
@@ -328,6 +329,17 @@ async function collectCards() {
       eyebrow: "Tickets",
       headline: `${artistName} in ${artistCity.city}`,
       sub: `${artistCity.country} · Tracked dates and verified ticket links`
+    });
+  }
+
+  // Artist price guides. The card names the artist and the page's job only —
+  // never a price or a date count, which move with every snapshot.
+  for (const guide of deriveIndexablePriceGuides(events, [...indexableMeta.keys()])) {
+    cards.push({
+      path: guide.path,
+      eyebrow: "Ticket prices",
+      headline: nameBySlug.get(guide.artistSlug) || guide.artistSlug,
+      sub: "Resale prices by date and recent price moves"
     });
   }
 

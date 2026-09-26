@@ -2281,7 +2281,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvwAJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/metallica-tickets/raleigh-north-carolina-carter-finley-stadium-2027-06-02-6-pm/concert/18595092",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
@@ -2297,11 +2297,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18595092,
+        "url": "https://seatgeek.com/metallica-tickets/raleigh-north-carolina-carter-finley-stadium-2027-06-02-6-pm/concert/18595092",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2334,7 +2334,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvw0o",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/metallica-tickets/madison-wisconsin-camp-randall-stadium-2027-06-12-6-pm/concert/18595101",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
@@ -2350,11 +2350,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18595101,
+        "url": "https://seatgeek.com/metallica-tickets/madison-wisconsin-camp-randall-stadium-2027-06-12-6-pm/concert/18595101",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

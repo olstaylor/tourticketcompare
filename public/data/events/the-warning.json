@@ -481,7 +481,7 @@
         "event_id": 18593338,
         "url": "https://seatgeek.com/the-warning-tickets/san-francisco-california-the-warfield-2027-04-20-8-pm/concert/18593338",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -542,7 +542,7 @@
         "event_id": 18593342,
         "url": "https://seatgeek.com/the-warning-tickets/portland-oregon-roseland-theater-2027-04-22-8-pm/concert/18593342",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -672,7 +672,7 @@
         "event_id": 18590212,
         "url": "https://seatgeek.com/the-warning-tickets/vancouver-canada-vogue-theatre-bc-1-2027-04-25-7-pm/concert/18590212",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -916,7 +916,7 @@
         "event_id": 18593340,
         "url": "https://seatgeek.com/the-warning-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-04-8-pm/concert/18593340",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1409,7 +1409,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvtGx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2027-04-17-8-pm/concert/18590177",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
@@ -1425,11 +1425,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590177,
+        "url": "https://seatgeek.com/the-warning-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2027-04-17-8-pm/concert/18590177",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1462,7 +1462,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvtF4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/san-antonio-texas-boeing-center-at-tech-port-2027-04-30-8-pm/concert/18591754",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
@@ -1478,11 +1478,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591754,
+        "url": "https://seatgeek.com/the-warning-tickets/san-antonio-texas-boeing-center-at-tech-port-2027-04-30-8-pm/concert/18591754",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

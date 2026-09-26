@@ -1070,7 +1070,7 @@
         "event_id": 18492738,
         "url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1863,7 +1863,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZJa_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/san-francisco-california-brick-and-mortar-music-hall-2026-11-03-8-30-pm/concert/18492778",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
@@ -1879,11 +1879,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18492778,
+        "url": "https://seatgeek.com/missio-tickets/san-francisco-california-brick-and-mortar-music-hall-2026-11-03-8-30-pm/concert/18492778",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

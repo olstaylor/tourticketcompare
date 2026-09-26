@@ -11,7 +11,7 @@
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "Z7r9jZ1A706ep",
     "ticketmaster_url": "",
-    "seatgeek_url": "https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-25-7-pm/concert/18211661",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-hartford-peoplesbank-arena-9-25-2026--concerts-pop/production/6969238",
     "source_type": "ticketmaster",
     "source_url": "",
@@ -26,11 +26,11 @@
         "discovery_event_id": "Z7r9jZ1A706ep"
       },
       "seatgeek": {
-        "event_id": 18211661,
-        "url": "https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-25-7-pm/concert/18211661",
-        "verified": true,
-        "last_verified_at": "2026-09-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6969238,
@@ -106,7 +106,7 @@
         "event_id": 18211658,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-26-7-pm/concert/18211658",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1890,7 +1890,7 @@
         "event_id": 18208621,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1967,7 +1967,7 @@
         "event_id": 18208620,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2814,7 +2814,7 @@
         "event_id": 18211722,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2891,7 +2891,7 @@
         "event_id": 18211723,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

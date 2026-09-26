@@ -92,7 +92,7 @@ On both sites, delivery depends on how the venue issues tickets. Vivid Seats ema
 
 ## Check which StubHub site you're on
 
-StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to StubHub International, a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on.
+StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on.
 
 ## Which should you use?
 

@@ -94,7 +94,7 @@ Check the delivery method and expected timing on the listing before buying, espe
 
 ## StubHub in the US vs StubHub outside North America
 
-StubHub's own support site explains that stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to StubHub International, a separately owned business. Accounts do not carry over between the two. If you are buying for a show outside the US or Canada, check which StubHub site you are on and read that site's terms.
+StubHub's own support site explains that stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business. Accounts do not carry over between the two. If you are buying for a show outside the US or Canada, check which StubHub site you are on and read that site's terms.
 
 ## Which should you use?
 

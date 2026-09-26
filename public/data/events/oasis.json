@@ -1978,12 +1978,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667901",
+        "url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vrdZ-8b",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-09-26T06:00:00Z"
+    "public_onsale_at": "2026-09-26T06:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901"
   },
   {
     "id": "tm-oasis-2027-amsterdam-z698xzbpz1kodp337",
@@ -2046,6 +2054,13 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667902",
+        "url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kodP337",
@@ -2053,7 +2068,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-26T06:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264773",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264773/Oasis-tickets-Sat-Jul-17-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264773/Oasis-tickets-Sat-Jul-17-2027-Johan-Cruijff-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkftgkehnj-e",
@@ -2116,13 +2132,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666285",
+        "url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkeHnJ-E",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264685",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264685/Oasis-tickets-Tue-Aug-10-2027-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264685/Oasis-tickets-Tue-Aug-10-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke0ghpz",
@@ -2185,13 +2209,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666286",
+        "url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGke0GhPZ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264686",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264686/Oasis-tickets-Fri-Aug-13-2027-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264686/Oasis-tickets-Fri-Aug-13-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke08hpi",
@@ -2254,13 +2286,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666287",
+        "url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGke08hPi",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264687",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264687/Oasis-tickets-Sat-Aug-14-2027-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264687/Oasis-tickets-Sat-Aug-14-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga25ajz",
@@ -2323,13 +2363,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666288",
+        "url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA25ajZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264688",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264688/Oasis-tickets-Fri-Aug-20-2027-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264688/Oasis-tickets-Fri-Aug-20-2027-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2gaje",
@@ -2392,13 +2440,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666289",
+        "url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA2Gaje",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264689",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264689/Oasis-tickets-Sat-Aug-21-2027-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264689/Oasis-tickets-Sat-Aug-21-2027-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk",
@@ -2461,12 +2517,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666290",
+        "url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA2u_jk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264691",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264691/Oasis-tickets-Tue-Aug-24-2027-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264691/Oasis-tickets-Tue-Aug-24-2027-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290"
   }
 ]

@@ -2003,17 +2003,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085158",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-25-2026/event/107085158",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfA8Iap",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695877",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-25-2026/event/107085158"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435054e8262",
@@ -8143,11 +8143,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162649",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-25-2026/event/107162649",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "status": "on-sale",
@@ -8156,7 +8156,7 @@
     "timezone": "America/New_York",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-25-2026/event/107162649"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -20864,11 +20864,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957098",
-        "url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-25-2026/event/106957098",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177ZbwGkT1y3zd",
@@ -20877,7 +20877,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-25-2026/event/106957098"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-01006331f67e74d9",
@@ -31822,11 +31822,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107153108",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -31840,7 +31840,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -45062,11 +45062,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107158266",
-        "url": "https://www.stubhub.ie/teddy-swims-chicago-tickets-9-25-2026/event/107158266",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_FGkUXeURm",
@@ -45074,7 +45074,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883092",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883092/Teddy-Swims-tickets-Fri-Sep-25-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-chicago-tickets-9-25-2026/event/107158266"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-saint-paul-z7r9jz1a7xf0u",
@@ -98146,18 +98146,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107146088",
-        "url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-25-9-2026/event/107146088",
-        "verified": true,
-        "last_verified_at": "2026-09-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_aU0CejP",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902862",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-25-9-2026/event/107146088"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-death-cab-for-cutie-2026-london-g5dzz_1kfbxk8",
@@ -98215,18 +98215,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107148077",
-        "url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-26-9-2026/event/107148077",
-        "verified": true,
-        "last_verified_at": "2026-09-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1kfBxk8",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902863",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-london-troxy-26-9-2026/event/107148077"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-death-cab-for-cutie-2026-brussels-z698xzg2z1ayvwax",
@@ -100816,11 +100816,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668442",
+        "url": "https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_074bF",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442"
   },
   {
     "id": "tm-the-warning-2027-barcelona-z698xz2qz16vgvavjf",
@@ -116701,12 +116709,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667901",
+        "url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vrdZ-8b",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-09-26T06:00:00Z"
+    "public_onsale_at": "2026-09-26T06:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901"
   },
   {
     "id": "tm-oasis-2027-amsterdam-z698xzbpz1kodp337",
@@ -116769,6 +116785,13 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667902",
+        "url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kodP337",
@@ -116776,7 +116799,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-26T06:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264773",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264773/Oasis-tickets-Sat-Jul-17-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264773/Oasis-tickets-Sat-Jul-17-2027-Johan-Cruijff-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902"
   },
   {
     "id": "tm-sienna-spiro-2026-nashville-z7r9jz1a7pkok",
@@ -116839,13 +116863,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107382077",
+        "url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-10-13-2026/event/107382077",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKok",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038346",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-10-13-2026/event/107382077"
   },
   {
     "id": "tm-sienna-spiro-2026-washington-17a8v0g6gphxucm",
@@ -116908,13 +116940,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107383077",
+        "url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-10-16-2026/event/107383077",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpHxucm",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038339",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038339/Sienna-Spiro-tickets-Fri-Oct-16-2026-Lincoln-Theatre-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038339/Sienna-Spiro-tickets-Fri-Oct-16-2026-Lincoln-Theatre-DC",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-10-16-2026/event/107383077"
   },
   {
     "id": "tm-sienna-spiro-2026-philadelphia-vvg1fz_gfaf9pc",
@@ -117046,13 +117086,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107383079",
+        "url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-10-18-2026/event/107383079",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GpsEn49",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038341",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038341/Sienna-Spiro-tickets-Sun-Oct-18-2026-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038341/Sienna-Spiro-tickets-Sun-Oct-18-2026-Citizens-House-Of-Blues-Boston",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-10-18-2026/event/107383079"
   },
   {
     "id": "tm-sienna-spiro-2026-new-york-k7vgf_uedf3n_",
@@ -117168,13 +117216,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107383080",
+        "url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gre9Jk_",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038342",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038342/Sienna-Spiro-tickets-Wed-Oct-21-2026-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038342/Sienna-Spiro-tickets-Wed-Oct-21-2026-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080"
   },
   {
     "id": "tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn",
@@ -118176,13 +118232,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107433077",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-22-2-2027/event/107433077",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G3xlVCt",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056624",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056624/Sienna-Spiro-tickets-Mon-Feb-22-2027-Edinburgh-Corn-Exchange"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056624/Sienna-Spiro-tickets-Mon-Feb-22-2027-Edinburgh-Corn-Exchange",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-22-2-2027/event/107433077"
   },
   {
     "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc",
@@ -118245,13 +118309,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417236",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-23-2-2027/event/107417236",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G3JTVqc",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058895",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058895/Sienna-Spiro-tickets-Tue-Feb-23-2027-Edinburgh-Corn-Exchange"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058895/Sienna-Spiro-tickets-Tue-Feb-23-2027-Edinburgh-Corn-Exchange",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-23-2-2027/event/107417236"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt",
@@ -118314,13 +118386,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107432077",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-1-3-2027/event/107432077",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GhEVqqt",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090734",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090734/Sienna-Spiro-tickets-Mon-Mar-1-2027-O2-Apollo-Manchester"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090734/Sienna-Spiro-tickets-Mon-Mar-1-2027-O2-Apollo-Manchester",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-1-3-2027/event/107432077"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e",
@@ -118383,13 +118463,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417237",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-2-3-2027/event/107417237",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GNYJi_E",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057458",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057458/Sienna-Spiro-tickets-Tue-Mar-2-2027-O2-Apollo-Manchester"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057458/Sienna-Spiro-tickets-Tue-Mar-2-2027-O2-Apollo-Manchester",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-2-3-2027/event/107417237"
   },
   {
     "id": "tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y",
@@ -118505,13 +118593,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447255",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-berlin-tempodrom-24-3-2027/event/107447255",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v0N7t_U",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057456",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057456/Sienna-Spiro-tickets-Wed-Mar-24-2027-Tempodrom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057456/Sienna-Spiro-tickets-Wed-Mar-24-2027-Tempodrom",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-berlin-tempodrom-24-3-2027/event/107447255"
   },
   {
     "id": "tm-sienna-spiro-2027-milano-zg9rmiynyzef6a",
@@ -118627,13 +118723,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107356077",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-barcelona-sala-paral-lel-62-29-3-2027/event/107356077",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16evg76uK",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058056",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058056/Sienna-Spiro-tickets-Mon-Mar-29-2027-Main-Hall-At-Parallel-62"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058056/Sienna-Spiro-tickets-Mon-Mar-29-2027-Main-Hall-At-Parallel-62",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-barcelona-sala-paral-lel-62-29-3-2027/event/107356077"
   },
   {
     "id": "tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3",
@@ -118696,13 +118800,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107356078",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-madrid-la-riviera-30-3-2027/event/107356078",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4sjdu3",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058057",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058057/Sienna-Spiro-tickets-Tue-Mar-30-2027-La-Riviera-Spain"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058057/Sienna-Spiro-tickets-Tue-Mar-30-2027-La-Riviera-Spain",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-madrid-la-riviera-30-3-2027/event/107356078"
   },
   {
     "id": "tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un",
@@ -118818,13 +118930,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417989",
+        "url": "https://www.stubhub.ie/malcolm-todd-boston-tickets-9-26-2026/event/107417989",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_G1xNURg",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034332",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034332/Malcolm-Todd-tickets-Sat-Sep-26-2026-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034332/Malcolm-Todd-tickets-Sat-Sep-26-2026-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-boston-tickets-9-26-2026/event/107417989"
   },
   {
     "id": "tm-malcolm-todd-2026-toronto-177zv0g6gcmrwkt",
@@ -119858,13 +119978,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417990",
+        "url": "https://www.stubhub.ie/malcolm-todd-oakland-tickets-10-21-2026/event/107417990",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GFHHYVA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034390",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034390/Malcolm-Todd-tickets-Wed-Oct-21-2026-Fox-Theater-Oakland"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034390/Malcolm-Todd-tickets-Wed-Oct-21-2026-Fox-Theater-Oakland",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-oakland-tickets-10-21-2026/event/107417990"
   },
   {
     "id": "tm-malcolm-todd-2026-oakland-g5vyz_gfww-6g",
@@ -119927,13 +120055,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447652",
+        "url": "https://www.stubhub.ie/malcolm-todd-oakland-tickets-10-22-2026/event/107447652",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GFWW-6g",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038477",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038477/Malcolm-Todd-tickets-Thu-Oct-22-2026-Fox-Theater-Oakland"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038477/Malcolm-Todd-tickets-Thu-Oct-22-2026-Fox-Theater-Oakland",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-oakland-tickets-10-22-2026/event/107447652"
   },
   {
     "id": "tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d",
@@ -119996,13 +120132,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554708",
+        "url": "https://www.stubhub.ie/malcolm-todd-san-diego-tickets-10-24-2026/event/107554708",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GCicI-d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034309",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-san-diego-tickets-10-24-2026/event/107554708"
   },
   {
     "id": "tm-malcolm-todd-2026-phoenix-17k8v0g6g538qi9",
@@ -120134,13 +120278,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417991",
+        "url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-28-2026/event/107417991",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GCgtRwF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034349",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034349/Malcolm-Todd-tickets-Wed-Oct-28-2026-Greek-Theatre-Los-Angeles-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034349/Malcolm-Todd-tickets-Wed-Oct-28-2026-Greek-Theatre-Los-Angeles-CA",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-28-2026/event/107417991"
   },
   {
     "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx",
@@ -120203,13 +120355,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417992",
+        "url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-29-2026/event/107417992",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpoVtCx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038273",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038273/Malcolm-Todd-tickets-Thu-Oct-29-2026-Greek-Theatre-Los-Angeles-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038273/Malcolm-Todd-tickets-Thu-Oct-29-2026-Greek-Theatre-Los-Angeles-CA",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-29-2026/event/107417992"
   },
   {
     "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gpomy2y",
@@ -120272,13 +120432,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447653",
+        "url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-30-2026/event/107447653",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpoMy2y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038476",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038476/Malcolm-Todd-tickets-Fri-Oct-30-2026-Greek-Theatre-Los-Angeles-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038476/Malcolm-Todd-tickets-Fri-Oct-30-2026-Greek-Theatre-Los-Angeles-CA",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-30-2026/event/107447653"
   },
   {
     "id": "tm-malcolm-todd-2027-stockholm-z698xzq2z1afq0g8",
@@ -120553,13 +120721,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667996",
+        "url": "https://www.stubhub.ie/malcolm-todd-tickets-birmingham-o2-academy-birmingham-27-2-2027/event/107667996",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3nh3wRN",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265887",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265887/Malcolm-Todd-tickets-Sat-Feb-27-2027-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265887/Malcolm-Todd-tickets-Sat-Feb-27-2027-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-birmingham-o2-academy-birmingham-27-2-2027/event/107667996"
   },
   {
     "id": "tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad",
@@ -120608,11 +120784,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668009",
+        "url": "https://www.stubhub.ie/malcolm-todd-tickets-manchester-o2-apollo-manchester-28-2-2027/event/107668009",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_3GknVR9ad",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-manchester-o2-apollo-manchester-28-2-2027/event/107668009"
   },
   {
     "id": "tm-malcolm-todd-2027-london-g5dzz_3lpy7hq",
@@ -120661,11 +120845,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667988",
+        "url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-2-3-2027/event/107667988",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lpy7HQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-2-3-2027/event/107667988"
   },
   {
     "id": "tm-malcolm-todd-2027-london-g5dzz_3rjik2s",
@@ -120714,11 +120906,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668448",
+        "url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/event/107668448",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3RJIk2S",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/event/107668448"
   },
   {
     "id": "tm-malcolm-todd-2027-london-g5dzz_3rsuku2",
@@ -120767,11 +120967,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669504",
+        "url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-4-3-2027/event/107669504",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3RsUkU2",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-4-3-2027/event/107669504"
   },
   {
     "id": "tm-malcolm-todd-2027-brisbane-1akzkftgkduv9ih",
@@ -124037,13 +124245,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482701",
+        "url": "https://www.stubhub.ie/dinosaur-jr-las-vegas-tickets-10-9-2026/event/107482701",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6uJIQnhU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8097779",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8097779/Dinosaur-Jr-tickets-Fri-Oct-9-2026-Brooklyn-Bowl-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8097779/Dinosaur-Jr-tickets-Fri-Oct-9-2026-Brooklyn-Bowl-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/dinosaur-jr-las-vegas-tickets-10-9-2026/event/107482701"
   },
   {
     "id": "tm-dinosaur-jr-2026-tempe-17k8v0g6ujk40ss",
@@ -125705,13 +125921,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666285",
+        "url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkeHnJ-E",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264685",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264685/Oasis-tickets-Tue-Aug-10-2027-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264685/Oasis-tickets-Tue-Aug-10-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke0ghpz",
@@ -125774,13 +125998,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666286",
+        "url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGke0GhPZ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264686",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264686/Oasis-tickets-Fri-Aug-13-2027-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264686/Oasis-tickets-Fri-Aug-13-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke08hpi",
@@ -125843,13 +126075,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666287",
+        "url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGke08hPi",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264687",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264687/Oasis-tickets-Sat-Aug-14-2027-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264687/Oasis-tickets-Sat-Aug-14-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga25ajz",
@@ -125912,13 +126152,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666288",
+        "url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA25ajZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264688",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264688/Oasis-tickets-Fri-Aug-20-2027-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264688/Oasis-tickets-Fri-Aug-20-2027-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2gaje",
@@ -125981,13 +126229,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666289",
+        "url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA2Gaje",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264689",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264689/Oasis-tickets-Sat-Aug-21-2027-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264689/Oasis-tickets-Sat-Aug-21-2027-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk",
@@ -126050,13 +126306,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666290",
+        "url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA2u_jk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264691",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264691/Oasis-tickets-Tue-Aug-24-2027-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264691/Oasis-tickets-Tue-Aug-24-2027-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290"
   },
   {
     "id": "tm-harry-styles-2027-glendale-z7r9jz1aavp4_",
@@ -126112,12 +126376,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667646",
+        "url": "https://www.stubhub.ie/harry-styles-glendale-tickets-4-2-2027/event/107667646",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4_",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257669"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257669",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-glendale-tickets-4-2-2027/event/107667646"
   },
   {
     "id": "tm-harry-styles-2027-glendale-z7r9jz1aavp4b",
@@ -126173,12 +126445,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666027",
+        "url": "https://www.stubhub.ie/harry-styles-glendale-tickets-4-3-2027/event/107666027",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4b",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257670"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257670",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-glendale-tickets-4-3-2027/event/107666027"
   },
   {
     "id": "tm-charli-xcx-2026-las-vegas-z7r9jz1a7p8v-",
@@ -126241,13 +126521,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258884",
+        "url": "https://www.stubhub.ie/charli-xcx-las-vegas-tickets-10-23-2026/event/107258884",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8v-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034408",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034408/Charli-XCX-tickets-Fri-Oct-23-2026-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034408/Charli-XCX-tickets-Fri-Oct-23-2026-MGM-Grand-Garden-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-las-vegas-tickets-10-23-2026/event/107258884"
   },
   {
     "id": "tm-gracie-abrams-2027-glasgow-17uov0g65lvesak",
@@ -126310,13 +126598,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107255079",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-27-4-2027/event/107255079",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65lVEsAk",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002348",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002348/Gracie-Abrams-tickets-Tue-Apr-27-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002348/Gracie-Abrams-tickets-Tue-Apr-27-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-27-4-2027/event/107255079"
   },
   {
     "id": "tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq",
@@ -126379,13 +126675,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107288083",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-28-4-2027/event/107288083",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65Vd1fhq",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018186",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018186/Gracie-Abrams-tickets-Wed-Apr-28-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018186/Gracie-Abrams-tickets-Wed-Apr-28-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-28-4-2027/event/107288083"
   },
   {
     "id": "tm-niall-horan-2026-belfast-1adoz_kgkuhawcy",
@@ -126623,13 +126927,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969174",
+        "url": "https://www.stubhub.ie/doja-cat-las-vegas-tickets-10-31-2026/event/106969174",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4U",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457634",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457634/Doja-Cat-tickets-Sat-Oct-31-2026-T-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457634/Doja-Cat-tickets-Sat-Oct-31-2026-T-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-las-vegas-tickets-10-31-2026/event/106969174"
   },
   {
     "id": "tm-latto-2026-chicago-vv1a7zkfvgkdplqxd",
@@ -126798,13 +127110,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107120357",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-3-2026/event/107120357",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfu40",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758708",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758708/Metallica-tickets-Sat-Oct-3-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758708/Metallica-tickets-Sat-Oct-3-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-3-2026/event/107120357"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1avjz_agkns9qkh",
@@ -126920,13 +127240,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107132079",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775746",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775746/Metallica-tickets-Sat-Oct-10-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775746/Metallica-tickets-Sat-Oct-10-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",
@@ -127042,13 +127370,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121293",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4i",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758710",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758710/Metallica-tickets-Sat-Oct-17-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758710/Metallica-tickets-Sat-Oct-17-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
@@ -127164,13 +127500,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107126149",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-24-2026/event/107126149",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4g",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758712",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-24-2026/event/107126149"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6e",
@@ -127286,13 +127630,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107120358",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-31-2026/event/107120358",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759027",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759027/Metallica-tickets-Sat-Oct-31-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759027/Metallica-tickets-Sat-Oct-31-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-31-2026/event/107120358"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72a62",
@@ -127408,13 +127760,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107120666",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6y",
@@ -127477,13 +127837,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133094",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-27-2027/event/107133094",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785091",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785091/Metallica-tickets-Sat-Feb-27-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785091/Metallica-tickets-Sat-Feb-27-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-27-2027/event/107133094"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0butu",
@@ -127599,13 +127967,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133098",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-6-2027/event/107133098",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6W",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785869",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785869/Metallica-tickets-Sat-Mar-6-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785869/Metallica-tickets-Sat-Mar-6-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-6-2027/event/107133098"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0bqtz",
@@ -127721,13 +128097,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668969",
+        "url": "https://www.stubhub.ie/metallica-raleigh-tickets-6-2-2027/event/107668969",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwAJ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268626",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268626/Metallica-tickets-Wed-Jun-2-2027-Carter-Finley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268626/Metallica-tickets-Wed-Jun-2-2027-Carter-Finley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-raleigh-tickets-6-2-2027/event/107668969"
   },
   {
     "id": "tm-metallica-2027-madison-z7r9jz1aavw0o",
@@ -127790,13 +128174,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669957",
+        "url": "https://www.stubhub.ie/metallica-madison-tickets-6-12-2027/event/107669957",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw0o",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268634",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268634/Metallica-tickets-Sat-Jun-12-2027-Camp-Randall-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268634/Metallica-tickets-Sat-Jun-12-2027-Camp-Randall-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-madison-tickets-6-12-2027/event/107669957"
   },
   {
     "id": "tm-five-finger-death-punch-2026-huntsville-z7r9jz1a7ooob",
@@ -127913,12 +128305,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165490",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_aGkUC9oEs",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090424"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090424",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490"
   },
   {
     "id": "tm-blue-october-2026-san-antonio-z7r9jz1a7-vz7",
@@ -128891,13 +129291,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666054",
+        "url": "https://www.stubhub.ie/yuridia-brooklyn-tickets-3-27-2027/event/107666054",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_s",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252919",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252919/Yuridia-tickets-Sat-Mar-27-2027-Kings-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252919/Yuridia-tickets-Sat-Mar-27-2027-Kings-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-brooklyn-tickets-3-27-2027/event/107666054"
   },
   {
     "id": "tm-sylvan-esso-2026-asheville-z7r9jz1a7pajj",
@@ -129374,13 +129782,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669476",
+        "url": "https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271012",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271012/Hans-Zimmer-tickets-Thu-Apr-1-2027-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271012/Hans-Zimmer-tickets-Thu-Apr-1-2027-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9",
@@ -130221,12 +130637,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668670",
+        "url": "https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264654"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264654",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670"
   },
   {
     "id": "tm-the-warning-2027-san-antonio-z7r9jz1aavtf4",
@@ -130282,12 +130706,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668180",
+        "url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtF4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180"
   },
   {
     "id": "tm-ha-ash-2027-portland-z7r9jz1aavz-k",

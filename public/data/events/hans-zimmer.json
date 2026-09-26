@@ -2206,12 +2206,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669476",
+        "url": "https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271012",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271012/Hans-Zimmer-tickets-Thu-Apr-1-2027-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271012/Hans-Zimmer-tickets-Thu-Apr-1-2027-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476"
   }
 ]

@@ -61,11 +61,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162649",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-25-2026/event/107162649",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "status": "on-sale",
@@ -74,7 +74,7 @@
     "timezone": "America/New_York",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-25-2026/event/107162649"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",

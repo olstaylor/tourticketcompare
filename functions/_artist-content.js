@@ -235,14 +235,8 @@ export function artistSearchIntro(artist, status, options = {}) {
     );
   }
 
-  if (status.multiNightRuns.length === 1) {
-    const only = status.multiNightRuns[0];
-    sentences.push(`${only.count} of them are nights at ${only.venue}, so check which night you're buying.`);
-  } else if (status.multiNightRuns.length > 1) {
-    sentences.push(
-      `${status.multiNightRuns.length} venues host more than one night, so check the date before you buy.`
-    );
-  }
+  // Multi-night runs are not restated here (2026-09-25): every card in a run
+  // carries its own "Night 1 of 2" chip, directly under this sentence.
 
   if (status.showsWithoutCta > 0 && status.showsWithCta > 0) {
     sentences.push(
@@ -259,41 +253,6 @@ export function artistSearchIntro(artist, status, options = {}) {
   }
 
   return sentences.slice(0, 3).join(" ");
-}
-
-/**
- * The compact fact strip under the lead: the same countable facts as chips, so
- * the page answers "how many dates, where, when, and can I see a price" before
- * the reader has to scroll. Returns label/value pairs only.
- *
- * @param {ArtistBoardStatus} status
- * @param {{ formatDate?: (iso: string, timezone: string) => string }} [options]
- * @returns {{label: string, value: string}[]}
- */
-export function artistStatusFacts(status, options = {}) {
-  if (!status || !status.showCount) return [];
-  const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
-  // P10 (owner-approved 2026-09-24): the count, cities, countries and last date
-  // are all in the lead sentence directly above, so the strip keeps only what
-  // is worth scanning for: the next date and the checked-link coverage.
-  const facts = [];
-  const nextLabel = formatDate(status.next?.iso, status.next?.timezone);
-  if (nextLabel) {
-    facts.push({
-      label: status.showCount === 1 ? "Date" : "Next date",
-      value: status.next?.city ? `${nextLabel}, ${status.next.city}` : nextLabel
-    });
-  }
-  facts.push({
-    label: "Checked ticket links",
-    value:
-      status.showsWithoutCta > 0
-        ? `${status.showsWithCta} of ${plural(status.showCount, "date")}`
-        : status.showCount === 1
-          ? "This date"
-          : `All ${status.showCount} dates`
-  });
-  return facts;
 }
 
 /**
@@ -476,7 +435,6 @@ export function buildArtistContentModel(artist, shows, options = {}) {
   return {
     status,
     intro: artistSearchIntro(artist, status, options),
-    facts: artistStatusFacts(status, options),
     tours: deriveTourSummaries(shows),
     help: artistTicketHelp(),
     emptyBoard: artistEmptyBoardCopy(artist, options),

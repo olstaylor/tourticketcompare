@@ -271,10 +271,13 @@ assert(
   occurrences(cityPage.main, 'class="info-card show-card') === cityRecord.showCount,
   "city page renders one event card per upcoming source show"
 );
+// The performer is each card's heading: the page names the city and the group
+// heading names the venue, so "city · venue" is not repeated on every card.
 assert(
-  occurrences(cityPage.main, 'class="show-card-artist muted"') === cityRecord.showCount &&
-    cityPage.main.includes(`>${artistA.name}</p>`) &&
-    cityPage.main.includes(`>${artistB.name}</p>`),
+  occurrences(cityPage.main, 'class="show-card-title"') === cityRecord.showCount &&
+    cityPage.main.includes(`<h3 class="show-card-title">${artistA.name}</h3>`) &&
+    cityPage.main.includes(`<h3 class="show-card-title">${artistB.name}</h3>`) &&
+    !cityPage.main.includes('class="show-card-artist muted"'),
   "city cards identify the performer even when the event name adds nothing"
 );
 assert(
@@ -375,7 +378,7 @@ assert(
 assert(occurrences(venueText, "3 upcoming shows") === 1, "venue page states its show count exactly once");
 assert(occurrences(venueText, "2 artists") === 1, "venue page states its artist count exactly once");
 
-assert(venueText.includes(`Upcoming shows at ${MAIN_VENUE}`), "venue page keeps its schedule heading");
+assert(venueText.includes("Upcoming dates"), "venue page keeps its schedule heading");
 // The lead's span and the show cards below it are formatted by different code
 // paths; a UTC fallback in either would make the page contradict itself.
 assert(!venueText.includes("Fri, Sep 11, 2026"), "venue page uses no UTC date labels anywhere");
@@ -399,22 +402,25 @@ assert(
 );
 assert(venuePage.main.includes(`href="/cities/${CITY_SLUG}"`), "venue page links back to its city page");
 // P4 (owner-approved 2026-09-24): the one "How this site makes money" statement sits
-// next to the buttons on location pages too, not only in the footer.
+// next to the buttons on location pages too, not only in the footer — one line in
+// the date board's header, directly above the first date (2026-09-25).
 for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
   assert(
     page.main.includes("<strong>How this site makes money:</strong>") && page.main.includes('href="/affiliate-disclosure"'),
     `${label} page carries the how-this-site-makes-money disclosure with its link`
   );
   assert(page.main.includes("Dates re-checked against Ticketmaster daily"), `${label} page states the daily re-check (P8)`);
-  // 2026-09-25 (owner request): the summary and both disclosures sit under the
-  // date list, so the first date is the first thing below the heading.
+  // 2026-09-25 (owner request): the summary sentence and coverage note sit under
+  // the date list; only the one-line money statement stays above the dates.
   const listAt = page.main.indexOf("data-show-list");
   const notesAt = page.main.indexOf('class="location-page-notes"');
-  assert(listAt !== -1 && notesAt > listAt, `${label} page renders its summary and disclosures after the date list`);
-  assert(
-    page.main.indexOf("How this site makes money") > listAt && page.main.indexOf("Selected verified tour dates") > listAt,
-    `${label} page has no disclosure text between its heading and the date list`
-  );
+  const firstCardAt = page.main.indexOf('class="show-card', listAt);
+  assert(listAt !== -1 && notesAt > listAt, `${label} page renders its summary and coverage note after the date list`);
+  assert(page.main.indexOf("Selected verified tour dates") > listAt, `${label} page has no coverage note above the date list`);
+  const moneyAt = page.main.indexOf("How this site makes money");
+  assert(moneyAt > listAt && moneyAt < firstCardAt, `${label} page states how the site makes money in the board header, above the first date`);
+  assert(occurrences(page.main, "How this site makes money") === 1, `${label} page states how the site makes money once`);
+  assert(page.main.includes("<h2>Upcoming dates</h2>"), `${label} page's board heading does not repeat the page title`);
 }
 assert(venueText.includes("By TourTicketCompare"), "venue page carries the site byline");
 assert(!venuePage.main.includes('href="/about/ollie-taylor"'), "venue page byline does not link the creator page");

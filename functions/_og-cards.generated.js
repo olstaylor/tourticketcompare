@@ -273,6 +273,7 @@ export const OG_CARDS = {
   "/blog/how-a-ticket-link-gets-published": {"url":"/og/blog-how-a-ticket-link-gets-published.png","alt":"Blog: How a ticket link gets published on TourTicketCompare"},
   "/blog/metallica-m72-2027-stadium-dates-on-sale": {"url":"/og/blog-metallica-m72-2027-stadium-dates-on-sale.png","alt":"Blog: Metallica's 2027 M72 stadium dates: resale listed first"},
   "/blog/oasis-live-27-code-only-ticket-sale": {"url":"/og/blog-oasis-live-27-code-only-ticket-sale.png","alt":"Blog: Oasis Live '27: what a code-only ticket sale changes"},
+  "/blog/oasis-live-27-ticket-prices": {"url":"/og/blog-oasis-live-27-ticket-prices.png","alt":"Blog: Oasis Live '27 ticket prices: how to read what you see"},
   "/blog/olivia-rodrigo-unraveled-tour-ticket-types": {"url":"/og/blog-olivia-rodrigo-unraveled-tour-ticket-types.png","alt":"Blog: Three kinds of Olivia Rodrigo ticket, and what each one means"},
   "/blog/what-a-price-snapshot-actually-is": {"url":"/og/blog-what-a-price-snapshot-actually-is.png","alt":"Blog: What a price snapshot actually is (and what it is not)"},
   "/blog/why-a-price-here-disappears": {"url":"/og/blog-why-a-price-here-disappears.png","alt":"Blog: Why a price on this site disappears"},

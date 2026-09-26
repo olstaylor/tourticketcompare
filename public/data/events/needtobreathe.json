@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "tm-needtobreathe-2027-omaha-1aezz_kekbozdu2k",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Steelhouse Omaha",
+    "datetime_iso": "2027-02-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000653086611CE5",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-omaha-nebraska-02-18-2027/event/2000653086611CE5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-omaha-nebraska-02-18-2027/event/2000653086611CE5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000653086611CE5",
+        "discovery_event_id": "1aeZZ_KekboZdu2k",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-omaha-nebraska-02-18-2027/event/2000653086611CE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aeZZ_KekboZdu2k",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-waukee-1ae7z_3gktpcjjf",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Waukee",
+    "country": "United States Of America",
+    "venue": "Vibrant Music Hall",
+    "datetime_iso": "2027-02-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100652FD63A6714",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100652FD63A6714",
+        "discovery_event_id": "1Ae7Z_3GkTpCJjf",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_3GkTpCJjf",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-minneapolis-vv1akzkfwgkdmqcn1",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2027-02-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006532EE74EA8A",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006532EE74EA8A",
+        "discovery_event_id": "vv1AkZkfwGkdmqCn1",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfwGkdmqCn1",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-duluth-vv1kbz_kekg7rpco",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "DECC Symphony Hall",
+    "datetime_iso": "2027-02-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653093BD6B51",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653093BD6B51",
+        "discovery_event_id": "vv1kbZ_KeKG7Rpco",
+        "url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_KeKG7Rpco",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-madison-vv17jz_3gktprkgd",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "The Sylvee",
+    "datetime_iso": "2027-02-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700652FE5BC6303",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700652FE5BC6303",
+        "discovery_event_id": "vv17jZ_3GkTPRkGd",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_3GkTPRkGd",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-grand-rapids-vv1afzkfwgkd2p_kw",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2027-02-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006532CF9594F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006532CF9594F2",
+        "discovery_event_id": "vv1AFZkfwGkd2P_Kw",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfwGkd2P_Kw",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-cincinnati-1kaovpgtgauok5q",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Andrew J Brady Music Center",
+    "datetime_iso": "2027-02-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160065329D4462DA",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065329D4462DA",
+        "discovery_event_id": "1kAOvPGtGAuok5Q",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAOvPGtGAuok5Q",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-brooklyn-k7vgf_kxvnxba",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-03-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006538B4ABEE89",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006538B4ABEE89",
+        "discovery_event_id": "k7vGF_KxVnXBa",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KxVnXBa",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-boston-vv177z_3gkiozdvt",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652A1103BD3F",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652A1103BD3F",
+        "discovery_event_id": "vv177Z_3GkIoZDVT",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3GkIoZDVT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-washington-1a4zkfggkdjqhau",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-03-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006535DC69B176",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006535DC69B176",
+        "discovery_event_id": "1A4ZkfgGkdjQhAU",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfgGkdjQhAU",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-pittsburgh-1apzkfggkd9zzsh",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2027-03-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006535D7038C5B",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006535D7038C5B",
+        "discovery_event_id": "1ApZkfgGkd9Zzsh",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfgGkd9Zzsh",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-durham-g5evz_khc4kmz",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE - The Long Surrender Tour",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "DPAC",
+    "datetime_iso": "2027-03-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006536ED546BB8",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-durham-north-carolina-03-09-2027/event/2D006536ED546BB8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-durham-north-carolina-03-09-2027/event/2D006536ED546BB8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006536ED546BB8",
+        "discovery_event_id": "G5eVZ_Khc4kmz",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-durham-north-carolina-03-09-2027/event/2D006536ED546BB8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Khc4kmz",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-asheville-g5evz_kd9sqw9",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-03-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006530D7C5AF57",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006530D7C5AF57",
+        "discovery_event_id": "G5eVZ_Kd9sQW9",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kd9sQW9",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-chattanooga-g5viz_kepfq3l",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE - The Long Surrender Tour",
+    "city": "Chattanooga",
+    "country": "United States Of America",
+    "venue": "Soldiers and Sailors Memorial Auditorium",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065309621A49F",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065309621A49F",
+        "discovery_event_id": "G5viZ_KepFQ3L",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KepFQ3L",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-columbia-g5evz_kkuppj_",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE - The Long Surrender Tour",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Township Auditorium",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006531B6956999",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006531B6956999",
+        "discovery_event_id": "G5eVZ_KkUPpJ_",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KkUPpJ_",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-orlando-1axzkfggkdmxefx",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-03-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006535EE8A753E",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006535EE8A753E",
+        "discovery_event_id": "1AxZkfgGkdmxEfX",
+        "url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfgGkdmxEfX",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-memphis-g5viz_k1t4cqs",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "Satellite Music Hall",
+    "datetime_iso": "2027-03-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006532A956D773",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006532A956D773",
+        "discovery_event_id": "G5viZ_K1t4cqS",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K1t4cqS",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-memphis-g5viz_k1tpwrf",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "Satellite Music Hall",
+    "datetime_iso": "2027-03-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006532A95BD788",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006532A95BD788",
+        "discovery_event_id": "G5viZ_K1tpWrF",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K1tpWrF",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-new-orleans-g5viz_ocxa2ai",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "The Fillmore New Orleans",
+    "datetime_iso": "2027-03-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006513BE14F26C",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006513BE14F26C",
+        "discovery_event_id": "G5viZ_oCXA2ai",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_oCXA2ai",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-houston-g5diz_kkbawh-",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour!",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006531BA17D6E1",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006531BA17D6E1",
+        "discovery_event_id": "G5dIZ_KkBAWh-",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KkBAWh-",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  }
+]

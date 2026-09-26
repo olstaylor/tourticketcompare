@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "tm-tommy-emmanuel-2026-anchorage-z7r9jz1a7pdjf",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP",
+    "city": "Anchorage",
+    "country": "United States Of America",
+    "venue": "Discovery Theatre",
+    "datetime_iso": "2026-10-09T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PdJf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PdJf",
+        "discovery_event_id": "Z7r9jZ1A7PdJf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdJf",
+    "timezone": "America/Anchorage",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-kenai-vvg1hz_5wlthim",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Kenai",
+    "country": "United States Of America",
+    "venue": "Kenai Central High School Auditorium",
+    "datetime_iso": "2026-10-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064BCABFDBB2E",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064BCABFDBB2E",
+        "discovery_event_id": "vvG1HZ_5wlThim",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_5wlThim",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-fairbanks-vvg1hz_5i6wuhs",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Fairbanks",
+    "country": "United States Of America",
+    "venue": "Hering Auditorium",
+    "datetime_iso": "2026-10-12T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064BB07F76F31",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064BB07F76F31",
+        "discovery_event_id": "vvG1HZ_5i6WUHs",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_5i6WUHs",
+    "timezone": "America/Anchorage",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP -  Living In The Light Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Vicar Street",
+    "datetime_iso": "2026-11-02T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064749D35DD39",
+    "ticketmaster_url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064749D35DD39",
+        "discovery_event_id": "1kkZv0qaGAuuqVy",
+        "url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZv0qaGAuuqVy",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-charleston-g5evz_aboyxr9",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2026-12-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00649EA0C22797",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00649EA0C22797",
+        "discovery_event_id": "G5eVZ_aBOYxr9",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_aBOYxr9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Newberry",
+    "country": "United States Of America",
+    "venue": "Newberry Opera House",
+    "datetime_iso": "2026-12-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvS4z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvS4z",
+        "discovery_event_id": "Z7r9jZ1AAvS4z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS4z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-chattanooga-g5viz_au3swzr",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Chattanooga",
+    "country": "United States Of America",
+    "venue": "The Walker Theatre",
+    "datetime_iso": "2026-12-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00649D92C7D01E",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00649D92C7D01E",
+        "discovery_event_id": "G5viZ_aU3sWZr",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_aU3sWZr",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "Carolina Theatre - Durham",
+    "datetime_iso": "2026-12-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70F-w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70F-w",
+        "discovery_event_id": "Z7r9jZ1A70F-w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70F-w",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-charlotte-z7r9jz1a70f-s",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Knight Theater",
+    "datetime_iso": "2026-12-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70F-s",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70F-s",
+        "discovery_event_id": "Z7r9jZ1A70F-s",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70F-s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-atlanta-z7r9jz1a70b-i",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Variety Playhouse",
+    "datetime_iso": "2026-12-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70b-I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70b-I",
+        "discovery_event_id": "Z7r9jZ1A70b-I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-I",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-ponte-vedra-beach-z7r9jz1a70kze",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Ponte Vedra Beach",
+    "country": "United States Of America",
+    "venue": "Ponte Vedra Concert Hall",
+    "datetime_iso": "2026-12-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70KZe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70KZe",
+        "discovery_event_id": "Z7r9jZ1A70KZe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70KZe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-orlando-z7r9jz1a70b-e",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Plaza Live - Orlando",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70b-E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70b-E",
+        "discovery_event_id": "Z7r9jZ1A70b-E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-E",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-clearwater-z7r9jz1aav8__",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "Bilheimer Capitol Theatre",
+    "datetime_iso": "2026-12-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8__",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8__",
+        "discovery_event_id": "Z7r9jZ1AAv8__",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8__",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavs4y",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Sheldon Concert Hall",
+    "datetime_iso": "2027-01-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvS4y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvS4y",
+        "discovery_event_id": "Z7r9jZ1AAvS4y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS4y",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavspz",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Sheldon Concert Hall",
+    "datetime_iso": "2027-01-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpZ",
+        "discovery_event_id": "Z7r9jZ1AAvSpZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-des-moines-vv1kbz_3jvg7w7g3",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Hoyt Sherman Place",
+    "datetime_iso": "2027-01-24T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652981F44312",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652981F44312",
+        "discovery_event_id": "vv1kbZ_3JvG7W7G3",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_3JvG7W7G3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-madison-vv17jz_ogks7bgcu",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Barrymore Theatre",
+    "datetime_iso": "2027-01-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700651CC4EB538D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700651CC4EB538D",
+        "discovery_event_id": "vv17jZ_oGkS7BgCu",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_oGkS7BgCu",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-skokie-vv1a6zkfpgkegwg7a",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP",
+    "city": "Skokie",
+    "country": "United States Of America",
+    "venue": "George Van Dusen Theatre at North Shore Center",
+    "datetime_iso": "2027-01-26T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006525B5CB5105",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006525B5CB5105",
+        "discovery_event_id": "vv1A6ZkfPGkegwg7A",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfPGkegwg7A",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-champaign-z7r9jz1aavspv",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Champaign",
+    "country": "United States Of America",
+    "venue": "Virginia Theatre",
+    "datetime_iso": "2027-01-27T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpv",
+        "discovery_event_id": "Z7r9jZ1AAvSpv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-mckees-rocks-1apzkfngkd53yok",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "McKees Rocks",
+    "country": "United States Of America",
+    "venue": "Roxian Theatre Presented By Citizens",
+    "datetime_iso": "2027-01-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006523CB4B9813",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006523CB4B9813",
+        "discovery_event_id": "1ApZkfNGkd53yOK",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfNGkd53yOK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "St. Cecilia Music Center",
+    "datetime_iso": "2027-01-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpe",
+        "discovery_event_id": "Z7r9jZ1AAvSpe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-buffalo-z7r9jz1aavspd",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "Asbury Hall at Babeville",
+    "datetime_iso": "2027-02-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpd",
+        "discovery_event_id": "Z7r9jZ1AAvSpd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-rochester-z7r9jz1aavsp7",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Rochester",
+    "country": "United States Of America",
+    "venue": "Rose Marie and John Beston Hall",
+    "datetime_iso": "2027-02-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSp7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSp7",
+        "discovery_event_id": "Z7r9jZ1AAvSp7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSp7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-albany-z7r9jz1aavspa",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "Hart Theatre at The Egg",
+    "datetime_iso": "2027-02-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpA",
+        "discovery_event_id": "Z7r9jZ1AAvSpA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-derry-z7r9jz1aavspk",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Derry",
+    "country": "United States Of America",
+    "venue": "Tupelo Music Hall - NH",
+    "datetime_iso": "2027-02-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpk",
+        "discovery_event_id": "Z7r9jZ1AAvSpk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-fairfield-z7r9jz1aavsp6",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Fairfield",
+    "country": "United States Of America",
+    "venue": "SHU Community Theatre",
+    "datetime_iso": "2027-02-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSp6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSp6",
+        "discovery_event_id": "Z7r9jZ1AAvSp6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSp6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-charlottesville-z7r9jz1aavspf",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-02-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpF",
+        "discovery_event_id": "Z7r9jZ1AAvSpF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

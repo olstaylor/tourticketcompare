@@ -130858,5 +130858,5219 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278253",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278253/HaAsh-tickets-Sat-May-1-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+  },
+  {
+    "id": "tm-needtobreathe-2027-omaha-1aezz_kekbozdu2k",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Steelhouse Omaha",
+    "datetime_iso": "2027-02-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000653086611CE5",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-omaha-nebraska-02-18-2027/event/2000653086611CE5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-omaha-nebraska-02-18-2027/event/2000653086611CE5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000653086611CE5",
+        "discovery_event_id": "1aeZZ_KekboZdu2k",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-omaha-nebraska-02-18-2027/event/2000653086611CE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aeZZ_KekboZdu2k",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-waukee-1ae7z_3gktpcjjf",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Waukee",
+    "country": "United States Of America",
+    "venue": "Vibrant Music Hall",
+    "datetime_iso": "2027-02-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100652FD63A6714",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100652FD63A6714",
+        "discovery_event_id": "1Ae7Z_3GkTpCJjf",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_3GkTpCJjf",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-minneapolis-vv1akzkfwgkdmqcn1",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2027-02-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006532EE74EA8A",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006532EE74EA8A",
+        "discovery_event_id": "vv1AkZkfwGkdmqCn1",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfwGkdmqCn1",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-duluth-vv1kbz_kekg7rpco",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "DECC Symphony Hall",
+    "datetime_iso": "2027-02-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653093BD6B51",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653093BD6B51",
+        "discovery_event_id": "vv1kbZ_KeKG7Rpco",
+        "url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_KeKG7Rpco",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-madison-vv17jz_3gktprkgd",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "The Sylvee",
+    "datetime_iso": "2027-02-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700652FE5BC6303",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700652FE5BC6303",
+        "discovery_event_id": "vv17jZ_3GkTPRkGd",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_3GkTPRkGd",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-grand-rapids-vv1afzkfwgkd2p_kw",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2027-02-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006532CF9594F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006532CF9594F2",
+        "discovery_event_id": "vv1AFZkfwGkd2P_Kw",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfwGkd2P_Kw",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-cincinnati-1kaovpgtgauok5q",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Andrew J Brady Music Center",
+    "datetime_iso": "2027-02-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160065329D4462DA",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065329D4462DA",
+        "discovery_event_id": "1kAOvPGtGAuok5Q",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAOvPGtGAuok5Q",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-brooklyn-k7vgf_kxvnxba",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-03-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006538B4ABEE89",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006538B4ABEE89",
+        "discovery_event_id": "k7vGF_KxVnXBa",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KxVnXBa",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-boston-vv177z_3gkiozdvt",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652A1103BD3F",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652A1103BD3F",
+        "discovery_event_id": "vv177Z_3GkIoZDVT",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3GkIoZDVT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-washington-1a4zkfggkdjqhau",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-03-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006535DC69B176",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006535DC69B176",
+        "discovery_event_id": "1A4ZkfgGkdjQhAU",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfgGkdjQhAU",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-pittsburgh-1apzkfggkd9zzsh",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2027-03-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006535D7038C5B",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006535D7038C5B",
+        "discovery_event_id": "1ApZkfgGkd9Zzsh",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfgGkd9Zzsh",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-durham-g5evz_khc4kmz",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE - The Long Surrender Tour",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "DPAC",
+    "datetime_iso": "2027-03-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006536ED546BB8",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-durham-north-carolina-03-09-2027/event/2D006536ED546BB8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-durham-north-carolina-03-09-2027/event/2D006536ED546BB8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006536ED546BB8",
+        "discovery_event_id": "G5eVZ_Khc4kmz",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-durham-north-carolina-03-09-2027/event/2D006536ED546BB8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Khc4kmz",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-asheville-g5evz_kd9sqw9",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-03-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006530D7C5AF57",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006530D7C5AF57",
+        "discovery_event_id": "G5eVZ_Kd9sQW9",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kd9sQW9",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-chattanooga-g5viz_kepfq3l",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE - The Long Surrender Tour",
+    "city": "Chattanooga",
+    "country": "United States Of America",
+    "venue": "Soldiers and Sailors Memorial Auditorium",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065309621A49F",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065309621A49F",
+        "discovery_event_id": "G5viZ_KepFQ3L",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KepFQ3L",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-columbia-g5evz_kkuppj_",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE - The Long Surrender Tour",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Township Auditorium",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006531B6956999",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006531B6956999",
+        "discovery_event_id": "G5eVZ_KkUPpJ_",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KkUPpJ_",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-orlando-1axzkfggkdmxefx",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-03-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006535EE8A753E",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006535EE8A753E",
+        "discovery_event_id": "1AxZkfgGkdmxEfX",
+        "url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfgGkdmxEfX",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-memphis-g5viz_k1t4cqs",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "Satellite Music Hall",
+    "datetime_iso": "2027-03-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006532A956D773",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006532A956D773",
+        "discovery_event_id": "G5viZ_K1t4cqS",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K1t4cqS",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-memphis-g5viz_k1tpwrf",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "Satellite Music Hall",
+    "datetime_iso": "2027-03-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006532A95BD788",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006532A95BD788",
+        "discovery_event_id": "G5viZ_K1tpWrF",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K1tpWrF",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-new-orleans-g5viz_ocxa2ai",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "The Fillmore New Orleans",
+    "datetime_iso": "2027-03-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006513BE14F26C",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006513BE14F26C",
+        "discovery_event_id": "G5viZ_oCXA2ai",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_oCXA2ai",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-needtobreathe-2027-houston-g5diz_kkbawh-",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "NEEDTOBREATHE: The Long Surrender Tour!",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006531BA17D6E1",
+    "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006531BA17D6E1",
+        "discovery_event_id": "G5dIZ_KkBAWh-",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KkBAWh-",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-foy-vance-2026-edinburgh-1adbz_dgkdivmtc",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour - Celebrating \"The Wake\" And The Songs of \"If\"",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "The Queen's Hall",
+    "datetime_iso": "2026-10-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600643EE8D37FED",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600643EE8D37FED",
+        "discovery_event_id": "1AdbZ_dGkDIVMTc",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_dGkDIVMTc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-stirling-1auzkoegkew3ujs",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour - Celebrating \"The Wake\" And The Songs of \"If\"",
+    "city": "Stirling",
+    "country": "Great Britain",
+    "venue": "Stirling Albert Halls",
+    "datetime_iso": "2026-10-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006442BD4B69B3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-stirling-18-10-2026/event/36006442BD4B69B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-stirling-18-10-2026/event/36006442BD4B69B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006442BD4B69B3",
+        "discovery_event_id": "1AUZkoeGkeW3UJS",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-stirling-18-10-2026/event/36006442BD4B69B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkoeGkeW3UJS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-london-g5dzz_akto7o5",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance - World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2026-10-23T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006451BF44444B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006451BF44444B",
+        "discovery_event_id": "G5dzZ_AkTo7o5",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_AkTo7o5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-london-g5dzz_a5f7udr",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance - World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2026-10-24T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006452D4136EDE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006452D4136EDE",
+        "discovery_event_id": "G5dzZ_A5f7UDr",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_A5f7UDr",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-manchester-g5vhz_3kr3ers",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Albert Hall",
+    "datetime_iso": "2026-10-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065219E482BF3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-manchester-25-10-2026/event/1F0065219E482BF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-manchester-25-10-2026/event/1F0065219E482BF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065219E482BF3",
+        "discovery_event_id": "G5vHZ_3kr3eRS",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-manchester-25-10-2026/event/1F0065219E482BF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3kr3eRS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-wexford-1avoz_7gksprdxw",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Wexford",
+    "country": "Ireland",
+    "venue": "Wexford Spiegeltent Festival",
+    "datetime_iso": "2026-10-27T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800644CD6BC3FBD",
+    "ticketmaster_url": "https://www.ticketmaster.ie/foy-vance-wexford-27-10-2026/event/1800644CD6BC3FBD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/foy-vance-wexford-27-10-2026/event/1800644CD6BC3FBD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800644CD6BC3FBD",
+        "discovery_event_id": "1AvOZ_7GkSpRdXW",
+        "url": "https://www.ticketmaster.ie/foy-vance-wexford-27-10-2026/event/1800644CD6BC3FBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_7GkSpRdXW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-dublin-1abzko8gkdu8sqd",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Olympia Theatre",
+    "datetime_iso": "2026-10-29T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006450CD4316BB",
+    "ticketmaster_url": "https://www.ticketmaster.ie/foy-vance-world-tour-2026-2027-dublin-29-10-2026/event/18006450CD4316BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/foy-vance-world-tour-2026-2027-dublin-29-10-2026/event/18006450CD4316BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006450CD4316BB",
+        "discovery_event_id": "1AbZko8Gkdu8sQD",
+        "url": "https://www.ticketmaster.ie/foy-vance-world-tour-2026-2027-dublin-29-10-2026/event/18006450CD4316BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZko8Gkdu8sQD",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7-9fp",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "El Rey Theatre - Los Angeles",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-9fP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-9fP",
+        "discovery_event_id": "Z7r9jZ1A7-9fP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9fP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7--kd",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "El Rey Theatre - Los Angeles",
+    "datetime_iso": "2026-11-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7--kd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7--kd",
+        "discovery_event_id": "Z7r9jZ1A7--kd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-portland-z7r9jz1aavffz",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance w/ Bonnie Bishop",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Aladdin Theater",
+    "datetime_iso": "2026-11-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvFFZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvFFZ",
+        "discovery_event_id": "Z7r9jZ1AAvFFZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvFFZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-seattle-vvg1hz_7scn270",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2026-11-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00644CEDA8F124",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00644CEDA8F124",
+        "discovery_event_id": "vvG1HZ_7Scn270",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_7Scn270",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-spokane-g5vzz_akiabhz",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Spokane",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006451AC27A6F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006451AC27A6F8",
+        "discovery_event_id": "G5vzZ_AkiaBhz",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_AkiaBhz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-boise-g5vzz_akyqnb8",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Boise",
+    "datetime_iso": "2026-11-17T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006451B06AAE90",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006451B06AAE90",
+        "discovery_event_id": "G5vzZ_AkYQnB8",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_AkYQnB8",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-englewood-z7r9jz1a7--ke",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance (16 and Over)",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7--ke",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7--ke",
+        "discovery_event_id": "Z7r9jZ1A7--ke",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7--ke",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-brisbane-1akzkf_gkes7kkl",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance and The Paper Kites",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Tivoli",
+    "datetime_iso": "2027-01-30T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006519B31134DF",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/foy-vance-and-the-paper-kites-brisbane-30-01-2027/event/13006519B31134DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/foy-vance-and-the-paper-kites-brisbane-30-01-2027/event/13006519B31134DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006519B31134DF",
+        "discovery_event_id": "1AKZkf_GkeS7KKL",
+        "url": "https://www.ticketmaster.com.au/foy-vance-and-the-paper-kites-brisbane-30-01-2027/event/13006519B31134DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkf_GkeS7KKL",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-birmingham-1aezz_7gkwqcsov",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance: World Tour | 2026-2027",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Iron City",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000644C9D3B3801",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000644C9D3B3801",
+        "discovery_event_id": "1AeZZ_7GkwqCSOv",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_7GkwqCSOv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-atlanta-z7r9jz1a7--ka",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Variety Playhouse",
+    "datetime_iso": "2027-04-08T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7--kA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7--kA",
+        "discovery_event_id": "Z7r9jZ1A7--kA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-knoxville-g5viz_7w-hjuu",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Bijou Theatre",
+    "datetime_iso": "2027-04-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00644CA16DCDB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00644CA16DCDB6",
+        "discovery_event_id": "G5viZ_7w-hjUU",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_7w-hjUU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Memorial Hall - OH",
+    "datetime_iso": "2027-04-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-K1v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-K1v",
+        "discovery_event_id": "Z7r9jZ1A7-K1v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-K1v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-saint-paul-z7r9jz1a7jfgw",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Fitzgerald Theater",
+    "datetime_iso": "2027-04-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JfGw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JfGw",
+        "discovery_event_id": "Z7r9jZ1A7JfGw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JfGw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-toronto-1a8zkoogkd3hucs",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour 2026 & 2027",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2027-04-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006451D2F363B1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006451D2F363B1",
+        "discovery_event_id": "1A8ZkooGkd3HUCs",
+        "url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkooGkd3HUCs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-york-z7r9jz1a7pnjx",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "York",
+    "country": "United States Of America",
+    "venue": "Appell Center for the Performing Arts",
+    "datetime_iso": "2027-04-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PNjx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PNjx",
+        "discovery_event_id": "Z7r9jZ1A7PNjx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNjx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-boston-vv177z_7gksjyniw",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027: Celebrating \"The Wake\" and \"If\"",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "The Wilbur",
+    "datetime_iso": "2027-05-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100644CDCC23B32",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100644CDCC23B32",
+        "discovery_event_id": "vv177Z_7GkSjYNiw",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_7GkSjYNiw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2026-london-g5dzz_audfsuq",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Troxy",
+    "datetime_iso": "2026-10-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00649D8323135A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-lemonheads-london-02-10-2026/event/3E00649D8323135A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-lemonheads-london-02-10-2026/event/3E00649D8323135A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00649D8323135A",
+        "discovery_event_id": "G5dzZ_aUdFsuQ",
+        "url": "https://www.ticketmaster.co.uk/the-lemonheads-london-02-10-2026/event/3E00649D8323135A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_aUdFsuQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2026-birmingham-g5dzzbgmxafgo",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Institute Birmingham",
+    "datetime_iso": "2026-10-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00635DE2148311",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-lemonheads-birmingham-10-10-2026/event/3E00635DE2148311",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-lemonheads-birmingham-10-10-2026/event/3E00635DE2148311",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00635DE2148311",
+        "discovery_event_id": "G5dzZbgMxAFGo",
+        "url": "https://www.ticketmaster.co.uk/the-lemonheads-birmingham-10-10-2026/event/3E00635DE2148311",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZbgMxAFGo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-boston-vv177z_3gkn_hus-",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour (18+)",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Brighton Music Hall presented by Citizens",
+    "datetime_iso": "2027-02-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652A99F0DC61",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652A99F0DC61",
+        "discovery_event_id": "vv177Z_3Gkn_Hus-",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3Gkn_Hus-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-brooklyn-k7vgf_3rtiqkk",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000652BE9A1A186",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-brooklyn-new-york-02-11-2027/event/0000652BE9A1A186",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-brooklyn-new-york-02-11-2027/event/0000652BE9A1A186",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000652BE9A1A186",
+        "discovery_event_id": "k7vGF_3RtIQkk",
+        "url": "https://www.ticketmaster.com/the-lemonheads-brooklyn-new-york-02-11-2027/event/0000652BE9A1A186",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_3RtIQkk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-atlanta-vvg1zz_3rf_-sk",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Masquerade - Hell",
+    "datetime_iso": "2027-02-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00652BC8661CC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-atlanta-georgia-02-20-2027/event/0E00652BC8661CC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-atlanta-georgia-02-20-2027/event/0E00652BC8661CC6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00652BC8661CC6",
+        "discovery_event_id": "vvG1zZ_3RF_-Sk",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-atlanta-georgia-02-20-2027/event/0E00652BC8661CC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3RF_-Sk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-houston-g5diz_3mypste",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "White Oak Music Hall - Upstairs",
+    "datetime_iso": "2027-02-23T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00652BB95B1FC2",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00652BB95B1FC2",
+        "discovery_event_id": "G5dIZ_3mypsTe",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3mypsTe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-los-angeles-vv1ke8vp13ga5mfmw",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Teragram Ballroom",
+    "datetime_iso": "2027-03-05T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090065292BDC8BBD",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-los-angeles-california-03-04-2027/event/090065292BDC8BBD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-los-angeles-california-03-04-2027/event/090065292BDC8BBD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090065292BDC8BBD",
+        "discovery_event_id": "vv1ke8vP13GA5MFmW",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-los-angeles-california-03-04-2027/event/090065292BDC8BBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1ke8vP13GA5MFmW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-san-francisco-g5vyz_3niolho",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "August Hall",
+    "datetime_iso": "2027-03-08T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00652AAC82BF11",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-san-francisco-california-03-07-2027/event/1C00652AAC82BF11",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-san-francisco-california-03-07-2027/event/1C00652AAC82BF11",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00652AAC82BF11",
+        "discovery_event_id": "G5vYZ_3niOlHo",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-san-francisco-california-03-07-2027/event/1C00652AAC82BF11",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3niOlHo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-madison-vv17jz_3gkbfxvrj",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700652E94881BE6",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700652E94881BE6",
+        "discovery_event_id": "vv17jZ_3GkBfxvRJ",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_3GkBfxvRJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-detroit-vv17oz_3gklkn916",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-03-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800652AC6A97287",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-detroit-michigan-03-25-2027/event/0800652AC6A97287",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-detroit-michigan-03-25-2027/event/0800652AC6A97287",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800652AC6A97287",
+        "discovery_event_id": "vv17OZ_3Gklkn916",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-detroit-michigan-03-25-2027/event/0800652AC6A97287",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_3Gklkn916",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-cincinnati-1avbz_3gkmybpfp",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Ludlow Garage Cincinnati",
+    "datetime_iso": "2027-03-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600652BB0616516",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-cincinnati-ohio-03-26-2027/event/1600652BB0616516",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-cincinnati-ohio-03-26-2027/event/1600652BB0616516",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600652BB0616516",
+        "discovery_event_id": "1AvbZ_3GkmYbpfp",
+        "url": "https://www.ticketmaster.com/the-lemonheads-cincinnati-ohio-03-26-2027/event/1600652BB0616516",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_3GkmYbpfp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-anchorage-z7r9jz1a7pdjf",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP",
+    "city": "Anchorage",
+    "country": "United States Of America",
+    "venue": "Discovery Theatre",
+    "datetime_iso": "2026-10-09T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PdJf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PdJf",
+        "discovery_event_id": "Z7r9jZ1A7PdJf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdJf",
+    "timezone": "America/Anchorage",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-kenai-vvg1hz_5wlthim",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Kenai",
+    "country": "United States Of America",
+    "venue": "Kenai Central High School Auditorium",
+    "datetime_iso": "2026-10-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064BCABFDBB2E",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064BCABFDBB2E",
+        "discovery_event_id": "vvG1HZ_5wlThim",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_5wlThim",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-fairbanks-vvg1hz_5i6wuhs",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Fairbanks",
+    "country": "United States Of America",
+    "venue": "Hering Auditorium",
+    "datetime_iso": "2026-10-12T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064BB07F76F31",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064BB07F76F31",
+        "discovery_event_id": "vvG1HZ_5i6WUHs",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_5i6WUHs",
+    "timezone": "America/Anchorage",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP -  Living In The Light Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Vicar Street",
+    "datetime_iso": "2026-11-02T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064749D35DD39",
+    "ticketmaster_url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064749D35DD39",
+        "discovery_event_id": "1kkZv0qaGAuuqVy",
+        "url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZv0qaGAuuqVy",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-charleston-g5evz_aboyxr9",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2026-12-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00649EA0C22797",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00649EA0C22797",
+        "discovery_event_id": "G5eVZ_aBOYxr9",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_aBOYxr9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Newberry",
+    "country": "United States Of America",
+    "venue": "Newberry Opera House",
+    "datetime_iso": "2026-12-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvS4z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvS4z",
+        "discovery_event_id": "Z7r9jZ1AAvS4z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS4z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-chattanooga-g5viz_au3swzr",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Chattanooga",
+    "country": "United States Of America",
+    "venue": "The Walker Theatre",
+    "datetime_iso": "2026-12-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00649D92C7D01E",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00649D92C7D01E",
+        "discovery_event_id": "G5viZ_aU3sWZr",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_aU3sWZr",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "Carolina Theatre - Durham",
+    "datetime_iso": "2026-12-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70F-w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70F-w",
+        "discovery_event_id": "Z7r9jZ1A70F-w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70F-w",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-charlotte-z7r9jz1a70f-s",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Knight Theater",
+    "datetime_iso": "2026-12-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70F-s",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70F-s",
+        "discovery_event_id": "Z7r9jZ1A70F-s",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70F-s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-atlanta-z7r9jz1a70b-i",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Variety Playhouse",
+    "datetime_iso": "2026-12-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70b-I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70b-I",
+        "discovery_event_id": "Z7r9jZ1A70b-I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-I",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-ponte-vedra-beach-z7r9jz1a70kze",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Ponte Vedra Beach",
+    "country": "United States Of America",
+    "venue": "Ponte Vedra Concert Hall",
+    "datetime_iso": "2026-12-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70KZe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70KZe",
+        "discovery_event_id": "Z7r9jZ1A70KZe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70KZe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-orlando-z7r9jz1a70b-e",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Plaza Live - Orlando",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70b-E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70b-E",
+        "discovery_event_id": "Z7r9jZ1A70b-E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-E",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2026-clearwater-z7r9jz1aav8__",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Trey Hensley",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "Bilheimer Capitol Theatre",
+    "datetime_iso": "2026-12-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv8__",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv8__",
+        "discovery_event_id": "Z7r9jZ1AAv8__",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8__",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavs4y",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Sheldon Concert Hall",
+    "datetime_iso": "2027-01-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvS4y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvS4y",
+        "discovery_event_id": "Z7r9jZ1AAvS4y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS4y",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavspz",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Sheldon Concert Hall",
+    "datetime_iso": "2027-01-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpZ",
+        "discovery_event_id": "Z7r9jZ1AAvSpZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-des-moines-vv1kbz_3jvg7w7g3",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Hoyt Sherman Place",
+    "datetime_iso": "2027-01-24T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652981F44312",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652981F44312",
+        "discovery_event_id": "vv1kbZ_3JvG7W7G3",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_3JvG7W7G3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-madison-vv17jz_ogks7bgcu",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Barrymore Theatre",
+    "datetime_iso": "2027-01-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700651CC4EB538D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700651CC4EB538D",
+        "discovery_event_id": "vv17jZ_oGkS7BgCu",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_oGkS7BgCu",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-skokie-vv1a6zkfpgkegwg7a",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP",
+    "city": "Skokie",
+    "country": "United States Of America",
+    "venue": "George Van Dusen Theatre at North Shore Center",
+    "datetime_iso": "2027-01-26T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006525B5CB5105",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006525B5CB5105",
+        "discovery_event_id": "vv1A6ZkfPGkegwg7A",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfPGkegwg7A",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-champaign-z7r9jz1aavspv",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Champaign",
+    "country": "United States Of America",
+    "venue": "Virginia Theatre",
+    "datetime_iso": "2027-01-27T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpv",
+        "discovery_event_id": "Z7r9jZ1AAvSpv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-mckees-rocks-1apzkfngkd53yok",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "McKees Rocks",
+    "country": "United States Of America",
+    "venue": "Roxian Theatre Presented By Citizens",
+    "datetime_iso": "2027-01-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006523CB4B9813",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006523CB4B9813",
+        "discovery_event_id": "1ApZkfNGkd53yOK",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfNGkd53yOK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "St. Cecilia Music Center",
+    "datetime_iso": "2027-01-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpe",
+        "discovery_event_id": "Z7r9jZ1AAvSpe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-buffalo-z7r9jz1aavspd",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "Asbury Hall at Babeville",
+    "datetime_iso": "2027-02-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpd",
+        "discovery_event_id": "Z7r9jZ1AAvSpd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-rochester-z7r9jz1aavsp7",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Rochester",
+    "country": "United States Of America",
+    "venue": "Rose Marie and John Beston Hall",
+    "datetime_iso": "2027-02-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSp7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSp7",
+        "discovery_event_id": "Z7r9jZ1AAvSp7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSp7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-albany-z7r9jz1aavspa",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "Hart Theatre at The Egg",
+    "datetime_iso": "2027-02-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpA",
+        "discovery_event_id": "Z7r9jZ1AAvSpA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-derry-z7r9jz1aavspk",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Jack Schneider",
+    "city": "Derry",
+    "country": "United States Of America",
+    "venue": "Tupelo Music Hall - NH",
+    "datetime_iso": "2027-02-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpk",
+        "discovery_event_id": "Z7r9jZ1AAvSpk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-fairfield-z7r9jz1aavsp6",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Fairfield",
+    "country": "United States Of America",
+    "venue": "SHU Community Theatre",
+    "datetime_iso": "2027-02-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSp6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSp6",
+        "discovery_event_id": "Z7r9jZ1AAvSp6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSp6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-charlottesville-z7r9jz1aavspf",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-02-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSpF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSpF",
+        "discovery_event_id": "Z7r9jZ1AAvSpF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-dublin-1abzkfigkeweheg",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Green Room at The Academy",
+    "datetime_iso": "2027-02-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006528B29FC9CC",
+    "ticketmaster_url": "https://www.ticketmaster.ie/haiden-henderson-dublin-18-02-2027/event/18006528B29FC9CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/haiden-henderson-dublin-18-02-2027/event/18006528B29FC9CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006528B29FC9CC",
+        "discovery_event_id": "1AbZkfIGkewEHEG",
+        "url": "https://www.ticketmaster.ie/haiden-henderson-dublin-18-02-2027/event/18006528B29FC9CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfIGkewEHEG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-manchester-g5vhz_kduqskh",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Manchester Academy 2",
+    "datetime_iso": "2027-02-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006530CD6B31BC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-manchester-21-02-2027/event/1F006530CD6B31BC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-manchester-21-02-2027/event/1F006530CD6B31BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006530CD6B31BC",
+        "discovery_event_id": "G5vHZ_KduQSkH",
+        "url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-manchester-21-02-2027/event/1F006530CD6B31BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KduQSkH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-london-g5vhz_kew3xpo",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Electric Ballroom",
+    "datetime_iso": "2027-02-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006530BD4A2960",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-london-23-02-2027/event/1F006530BD4A2960",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-london-23-02-2027/event/1F006530BD4A2960",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006530BD4A2960",
+        "discovery_event_id": "G5vHZ_KeW3xPO",
+        "url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-london-23-02-2027/event/1F006530BD4A2960",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KeW3xPO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-cardiff-g5vhz_kdajwvp",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Tramshed",
+    "datetime_iso": "2027-02-24T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006530C5732D16",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-cardiff-24-02-2027/event/1F006530C5732D16",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-cardiff-24-02-2027/event/1F006530C5732D16",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006530C5732D16",
+        "discovery_event_id": "G5vHZ_KdAjwVp",
+        "url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-cardiff-24-02-2027/event/1F006530C5732D16",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KdAjwVp",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-birmingham-g5dzz_ke9h3b2",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Institute2 Birmingham",
+    "datetime_iso": "2027-02-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006530976D260F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-birmingham-25-02-2027/event/3E006530976D260F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-birmingham-25-02-2027/event/3E006530976D260F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006530976D260F",
+        "discovery_event_id": "G5dzZ_Ke9h3b2",
+        "url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-birmingham-25-02-2027/event/3E006530976D260F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_Ke9h3b2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-amsterdam-z698xzbpz16evufjub",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "datetime_iso": "2027-02-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2076226358",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/haiden-henderson-tickets/2076226358?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/haiden-henderson-tickets/2076226358?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2076226358",
+        "discovery_event_id": "Z698xZbpZ16evUFJub",
+        "url": "https://www.ticketmaster.nl/event/haiden-henderson-tickets/2076226358?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16evUFJub",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-madrid-z698xz2qz1kumofqp",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Independance Club",
+    "datetime_iso": "2027-03-22T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "377454765",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/haiden-henderson-the-dumblond-tour-tickets/377454765?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/haiden-henderson-the-dumblond-tour-tickets/377454765?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "377454765",
+        "discovery_event_id": "Z698xZ2qZ1kuMofqP",
+        "url": "https://www.ticketmaster.es/event/haiden-henderson-the-dumblond-tour-tickets/377454765?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kuMofqP",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-santa-ana-vv1aazkfwgkdn3e19",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Santa Ana",
+    "country": "United States Of America",
+    "venue": "Constellation Room",
+    "datetime_iso": "2027-04-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006532EA482297",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-santa-ana-california-04-05-2027/event/09006532EA482297",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-santa-ana-california-04-05-2027/event/09006532EA482297",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006532EA482297",
+        "discovery_event_id": "vv1AaZkfwGkdn3e19",
+        "url": "https://www.ticketmaster.com/haiden-henderson-santa-ana-california-04-05-2027/event/09006532EA482297",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkfwGkdn3e19",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-houston-g5diz_kdeuth4",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "The Bronze Peacock at House of Blues Houston",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006530C237F6D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-houston-texas-04-09-2027/event/3A006530C237F6D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-houston-texas-04-09-2027/event/3A006530C237F6D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006530C237F6D5",
+        "discovery_event_id": "G5dIZ_KdeuTh4",
+        "url": "https://www.ticketmaster.com/haiden-henderson-houston-texas-04-09-2027/event/3A006530C237F6D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KdeuTh4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-atlanta-vvg1zz_k5fswrb",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Masquerade - Hell",
+    "datetime_iso": "2027-04-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006532D4CF2BD8",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-atlanta-georgia-04-14-2027/event/0E006532D4CF2BD8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-atlanta-georgia-04-14-2027/event/0E006532D4CF2BD8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006532D4CF2BD8",
+        "discovery_event_id": "vvG1zZ_K5fSwRb",
+        "url": "https://www.ticketmaster.com/haiden-henderson-atlanta-georgia-04-14-2027/event/0E006532D4CF2BD8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_K5fSwRb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-charlotte-g5evz_k7koqsd",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Underground",
+    "datetime_iso": "2027-04-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065310645DC7B",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-charlotte-north-carolina-04-18-2027/event/2D0065310645DC7B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-charlotte-north-carolina-04-18-2027/event/2D0065310645DC7B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065310645DC7B",
+        "discovery_event_id": "G5eVZ_K7koqsD",
+        "url": "https://www.ticketmaster.com/haiden-henderson-charlotte-north-carolina-04-18-2027/event/2D0065310645DC7B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_K7koqsD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-washington-16vfz_kzng7lczd",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Atlantis",
+    "datetime_iso": "2027-04-20T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500653023AED03B",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-washington-district-of-columbia-04-20-2027/event/1500653023AED03B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-washington-district-of-columbia-04-20-2027/event/1500653023AED03B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500653023AED03B",
+        "discovery_event_id": "16vfZ_KZNG7lcZD",
+        "url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-washington-district-of-columbia-04-20-2027/event/1500653023AED03B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vfZ_KZNG7lcZD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-philadelphia-vv16ovpgt4oz75ua7",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Philadelphia",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065329551AC83",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-philadelphia-pennsylvania-04-22-2027/event/020065329551AC83",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-philadelphia-pennsylvania-04-22-2027/event/020065329551AC83",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065329551AC83",
+        "discovery_event_id": "vv16OvPGt4oZ75ua7",
+        "url": "https://www.ticketmaster.com/haiden-henderson-philadelphia-pennsylvania-04-22-2027/event/020065329551AC83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16OvPGt4oZ75ua7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-new-york-k7vgf_k9pms1b",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Irving Plaza Powered By Verizon 5G",
+    "datetime_iso": "2027-04-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006535E5BB12BA",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-new-york-new-york-04-23-2027/event/00006535E5BB12BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-new-york-new-york-04-23-2027/event/00006535E5BB12BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006535E5BB12BA",
+        "discovery_event_id": "k7vGF_K9Pms1B",
+        "url": "https://www.ticketmaster.com/haiden-henderson-new-york-new-york-04-23-2027/event/00006535E5BB12BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_K9Pms1B",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-boston-vv1avzkfygkegtmcp",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson: The Dumblond Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Big Night Live",
+    "datetime_iso": "2027-04-24T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006530B5A77396",
+    "ticketmaster_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-boston-massachusetts-04-24-2027/event/01006530B5A77396",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-boston-massachusetts-04-24-2027/event/01006530B5A77396",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006530B5A77396",
+        "discovery_event_id": "vv1AvZkfYGkegtMCp",
+        "url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-boston-massachusetts-04-24-2027/event/01006530B5A77396",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfYGkegtMCp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-toronto-1a8zkfggkd2jp9d",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Mod Club",
+    "datetime_iso": "2027-04-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006535CF7255FB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/haiden-henderson-toronto-ontario-04-26-2027/event/10006535CF7255FB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/haiden-henderson-toronto-ontario-04-26-2027/event/10006535CF7255FB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006535CF7255FB",
+        "discovery_event_id": "1A8ZkfgGkd2jP9D",
+        "url": "https://www.ticketmaster.ca/haiden-henderson-toronto-ontario-04-26-2027/event/10006535CF7255FB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfgGkd2jP9D",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "The Rave-Eagles Club",
+    "datetime_iso": "2027-05-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeeA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeA6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeeA6",
+        "discovery_event_id": "Z7r9jZ1AAeeA6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeA6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

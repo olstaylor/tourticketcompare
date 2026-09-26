@@ -59,7 +59,7 @@ So compare the order summary, not the first figure. On the StubHub page, check:
 - The section, row and any view notes.
 - The delivery method and the date the tickets should arrive.
 
-If you're weighing StubHub International against Vivid Seats or TicketNetwork for the same show, convert to one currency first, then compare complete totals.
+If you're weighing StubHub International against Vivid Seats or TicketNetwork for the same show, [convert to one currency](/currency-converter) first, then compare complete totals.
 
 ## Delivery and protection
 

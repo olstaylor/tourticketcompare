@@ -16,6 +16,7 @@ related_guides:
   - how-to-prepare-for-a-ticket-onsale
   - concert-ticket-fees-explained
   - what-to-do-if-a-concert-is-postponed-or-cancelled
+  - stubhub-international-explained
 sources:
   - label: UK Consumer Rights Act 2015, section 90 — information for resold tickets
     url: https://www.legislation.gov.uk/ukpga/2015/15/section/90
@@ -39,7 +40,7 @@ If the ticket is transfer-locked or tied to a name, make sure the name on the or
 
 ## Compare totals in one currency
 
-A total in euros, pounds or Australian dollars is not comparable with one in US dollars until both are converted, and your card may add its own conversion charge on top. Compare final checkout totals for the same number of tickets, then work out what your card will actually charge. The [fees guide](/guides/concert-ticket-fees-explained) lists the charges that tend to appear late.
+A total in euros, pounds or Australian dollars is not comparable with one in US dollars until both are converted (the [currency converter](/currency-converter) does this with reference rates), and your card may add its own conversion charge on top. Compare final checkout totals for the same number of tickets, then work out what your card will actually charge. The [fees guide](/guides/concert-ticket-fees-explained) lists the charges that tend to appear late.
 
 Fee rules differ by country as well. In the United States, the FTC's rule on unfair or deceptive fees requires mandatory fees to be included in the upfront price of live-event tickets, although taxes, shipping and optional add-ons can still be shown separately. Other countries set their own rules, so read the order summary rather than assuming the first price shown is the one you pay.
 

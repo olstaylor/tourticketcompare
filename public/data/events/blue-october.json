@@ -4096,5 +4096,111 @@
     "ticketmaster_discovery_event_id": "1Ae7Z_3GkIei5oX",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-san-antonio-z7r9jz1a7-vz7",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October- Foiled 20th Anniversary Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Boeing Center at Tech Port",
+    "datetime_iso": "2026-12-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-VZ7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-VZ7",
+        "discovery_event_id": "Z7r9jZ1A7-VZ7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-VZ7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-albuquerque-z7r9jz1a70pgn",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "Revel Entertainment Center",
+    "datetime_iso": "2027-02-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70pGN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70pGN",
+        "discovery_event_id": "Z7r9jZ1A70pGN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70pGN",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

@@ -1868,5 +1868,270 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271002",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271002/Hans-Zimmer-tickets-Sun-Apr-11-2027-Moda-Center-at-the-Rose-Quarter",
     "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-hartford-z7r9jz1aavvqk",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2027-02-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQk",
+        "discovery_event_id": "Z7r9jZ1AAvVQk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-kansas-city-z7r9jz1aavvq6",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQ6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQ6",
+        "discovery_event_id": "Z7r9jZ1AAvVQ6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-oklahoma-city-z7r9jz1aavvqf",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Paycom Center",
+    "datetime_iso": "2027-03-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQF",
+        "discovery_event_id": "Z7r9jZ1AAvVQF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-salt-lake-city-z7r9jz1aavvqa",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-03-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQa",
+        "discovery_event_id": "Z7r9jZ1AAvVQa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQa",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-los-angeles-z7r9jz1aavvq8",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-04-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQ8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQ8",
+        "discovery_event_id": "Z7r9jZ1AAvVQ8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ8",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

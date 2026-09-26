@@ -4768,5 +4768,111 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267110",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111"
+  },
+  {
+    "id": "tm-harry-styles-2027-glendale-z7r9jz1aavp4_",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles w/ Tinashe",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2027-04-03T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvP4_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvP4_",
+        "discovery_event_id": "Z7r9jZ1AAvP4_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4_",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-glendale-z7r9jz1aavp4b",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles w/ Tinashe",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2027-04-04T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvP4b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvP4b",
+        "discovery_event_id": "Z7r9jZ1AAvP4b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4b",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
   }
 ]

@@ -1892,5 +1892,111 @@
     "ticketmaster_discovery_event_id": "177Yv0G61DRwqFa",
     "timezone": "Australia/Brisbane",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-austin-z7r9jz1a70i8v",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2026-12-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70I8v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70I8v",
+        "discovery_event_id": "Z7r9jZ1A70I8v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8v",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-albuquerque-z7r9jz1a70i3o",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "Revel Entertainment Center",
+    "datetime_iso": "2026-12-16T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70I3o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70I3o",
+        "discovery_event_id": "Z7r9jZ1A70I3o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70I3o",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

@@ -2800,5 +2800,111 @@
     "ticketmaster_discovery_event_id": "vv1AkZkfbGkelyD6X",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Broadmoor World Arena",
+    "datetime_iso": "2026-11-22T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvNZ9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZ9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZ9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvNZ9",
+        "discovery_event_id": "Z7r9jZ1AAvNZ9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZ9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZ9",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Michelob Ultra Arena",
+    "datetime_iso": "2026-12-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvNZS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvNZS",
+        "discovery_event_id": "Z7r9jZ1AAvNZS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

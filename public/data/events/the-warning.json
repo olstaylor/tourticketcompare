@@ -1396,5 +1396,111 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653",
     "stubhub_international_url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674"
+  },
+  {
+    "id": "tm-the-warning-2027-las-vegas-z7r9jz1aavtgx",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Pearl Concert Theater at Palms Casino Resort",
+    "datetime_iso": "2027-04-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtGx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtGx",
+        "discovery_event_id": "Z7r9jZ1AAvtGx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-san-antonio-z7r9jz1aavtf4",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning- Everything's Falling World Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Boeing Center at Tech Port",
+    "datetime_iso": "2027-05-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtF4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtF4",
+        "discovery_event_id": "Z7r9jZ1AAvtF4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtF4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

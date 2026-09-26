@@ -3074,5 +3074,164 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902927",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7902927/Niall-Horan-tickets-Fri-Nov-13-2026-3Arena-Dublin"
+  },
+  {
+    "id": "tm-niall-horan-2026-belfast-1adoz_kgkuhawcy",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2026-11-15T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800646DBC2723B0",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-15-11-2026/event/3800646DBC2723B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-15-11-2026/event/3800646DBC2723B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800646DBC2723B0",
+        "discovery_event_id": "1AdOZ_kGkUHawCY",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-15-11-2026/event/3800646DBC2723B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_kGkUHawCY",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2026-11-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800647BBD741CBC",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-16-11-2026/event/3800647BBD741CBC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-16-11-2026/event/3800647BBD741CBC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800647BBD741CBC",
+        "discovery_event_id": "1AdOZ_6GkmWqvwH",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-16-11-2026/event/3800647BBD741CBC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_6GkmWqvwH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2027-hartford-z7r9jz1a709uz",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2027-04-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A709uz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A709uz",
+        "discovery_event_id": "Z7r9jZ1A709uz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A709uz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

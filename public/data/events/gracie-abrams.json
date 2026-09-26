@@ -4041,5 +4041,111 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018183",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018183/Gracie-Abrams-tickets-Tue-Apr-20-2027-3Arena-Dublin"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-glasgow-17uov0g65lvesak",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064BAF49F1146",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064BAF49F1146",
+        "discovery_event_id": "17uOv0G65lVEsAk",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G65lVEsAk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064BD032946DD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064BD032946DD",
+        "discovery_event_id": "17uOv0G65Vd1fhq",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G65Vd1fhq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

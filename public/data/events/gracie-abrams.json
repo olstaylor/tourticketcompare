@@ -4055,7 +4055,7 @@
     "ticketmaster_event_id": "360064BAF49F1146",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glasgow-ovo-hydro-4-27-2027--concerts-alternative/production/7095584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
     "last_verified_at": null,
@@ -4077,11 +4077,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095584,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-glasgow-ovo-hydro-4-27-2027--concerts-alternative/production/7095584",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4108,7 +4108,7 @@
     "ticketmaster_event_id": "360064BD032946DD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glasgow-ovo-hydro-4-28-2027--concerts-alternative/production/7095664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
     "last_verified_at": null,
@@ -4130,11 +4130,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095664,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-glasgow-ovo-hydro-4-28-2027--concerts-alternative/production/7095664",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

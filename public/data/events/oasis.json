@@ -1838,7 +1838,7 @@
     "ticketmaster_event_id": "471692885",
     "ticketmaster_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/471692885?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-barcelona-estadi-olimpic-lluis-companys-7-10-2027--concerts-alternative/production/7553335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/471692885?language=en-us",
     "last_verified_at": null,
@@ -1860,11 +1860,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553335,
+        "url": "https://www.vividseats.com/oasis-tickets-barcelona-estadi-olimpic-lluis-companys-7-10-2027--concerts-alternative/production/7553335",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1891,7 +1891,7 @@
     "ticketmaster_event_id": "78105577",
     "ticketmaster_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/78105577?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-barcelona-estadi-olimpic-lluis-companys-7-11-2027--concerts-alternative/production/7553333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/oasis-live-27-tickets/78105577?language=en-us",
     "last_verified_at": null,
@@ -1913,11 +1913,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553333,
+        "url": "https://www.vividseats.com/oasis-tickets-barcelona-estadi-olimpic-lluis-companys-7-11-2027--concerts-alternative/production/7553333",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2052,7 +2052,7 @@
     "ticketmaster_event_id": "01006529BCAA6867",
     "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-10-2027/event/01006529BCAA6867",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-10-2027--concerts-alternative/production/7553369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-10-2027/event/01006529BCAA6867",
     "last_verified_at": null,
@@ -2074,11 +2074,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553369,
+        "url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-10-2027--concerts-alternative/production/7553369",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2105,7 +2105,7 @@
     "ticketmaster_event_id": "01006535A431B940",
     "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-13-2027/event/01006535A431B940",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-13-2027--concerts-alternative/production/7553367",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-13-2027/event/01006535A431B940",
     "last_verified_at": null,
@@ -2127,11 +2127,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553367,
+        "url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-13-2027--concerts-alternative/production/7553367",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2158,7 +2158,7 @@
     "ticketmaster_event_id": "01006535A441B96C",
     "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-14-2027/event/01006535A441B96C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-14-2027--concerts-alternative/production/7553365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-14-2027/event/01006535A441B96C",
     "last_verified_at": null,
@@ -2180,11 +2180,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553365,
+        "url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-14-2027--concerts-alternative/production/7553365",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2211,7 +2211,7 @@
     "ticketmaster_event_id": "170065119F2C9700",
     "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-20-2027/event/170065119F2C9700",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-20-2027--concerts-alternative/production/7553373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-20-2027/event/170065119F2C9700",
     "last_verified_at": null,
@@ -2233,11 +2233,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553373,
+        "url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-20-2027--concerts-alternative/production/7553373",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2264,7 +2264,7 @@
     "ticketmaster_event_id": "170065119F309702",
     "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-21-2027/event/170065119F309702",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-21-2027--concerts-alternative/production/7553375",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-21-2027/event/170065119F309702",
     "last_verified_at": null,
@@ -2286,11 +2286,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553375,
+        "url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-21-2027--concerts-alternative/production/7553375",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2317,7 +2317,7 @@
     "ticketmaster_event_id": "170065119F359706",
     "ticketmaster_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-24-2027/event/170065119F359706",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-24-2027--concerts-alternative/production/7553379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-24-2027/event/170065119F359706",
     "last_verified_at": null,
@@ -2339,11 +2339,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553379,
+        "url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-24-2027--concerts-alternative/production/7553379",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -1906,7 +1906,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70I8v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-austin-austin-city-limits-live-at-the-moody-theater-12-9-2026--concerts-hard-rock/production/7052862",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
     "last_verified_at": null,
@@ -1928,11 +1928,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052862,
+        "url": "https://www.vividseats.com/beartooth-tickets-austin-austin-city-limits-live-at-the-moody-theater-12-9-2026--concerts-hard-rock/production/7052862",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1959,7 +1959,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70I3o",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-albuquerque-revel-entertainment-center-12-15-2026--concerts-hard-rock/production/7052893",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
     "last_verified_at": null,
@@ -1981,11 +1981,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052893,
+        "url": "https://www.vividseats.com/beartooth-tickets-albuquerque-revel-entertainment-center-12-15-2026--concerts-hard-rock/production/7052893",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

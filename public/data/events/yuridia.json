@@ -1262,7 +1262,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv-_t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-sugar-land-smart-financial-centre-3-11-2027/production/7530977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
     "last_verified_at": null,
@@ -1284,11 +1284,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7530977,
+        "url": "https://www.vividseats.com/yuridia-tickets-sugar-land-smart-financial-centre-3-11-2027/production/7530977",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1315,7 +1315,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv-_Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-edinburg-bert-ogden-arena-3-19-2027/production/7531048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
     "last_verified_at": null,
@@ -1337,11 +1337,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531048,
+        "url": "https://www.vividseats.com/yuridia-tickets-edinburg-bert-ogden-arena-3-19-2027/production/7531048",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1368,7 +1368,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv-_s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yuridia-tickets-brooklyn-kings-theatre-brooklyn-3-27-2027/production/7531072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
     "last_verified_at": null,
@@ -1390,11 +1390,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531072,
+        "url": "https://www.vividseats.com/yuridia-tickets-brooklyn-kings-theatre-brooklyn-3-27-2027/production/7531072",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064D9A86AA6F6",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-las-vegas-nevada-10-09-2026/event/170064D9A86AA6F6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-las-vegas-brooklyn-bowl---las-vegas-10-9-2026--concerts-rock/production/7234428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-las-vegas-nevada-10-09-2026/event/170064D9A86AA6F6",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234428,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-las-vegas-brooklyn-bowl---las-vegas-10-9-2026--concerts-rock/production/7234428",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "190064D993564C71",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-tempe-arizona-10-10-2026/event/190064D993564C71",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-tempe-marquee-theatre-10-10-2026--concerts-rock/production/7234430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-tempe-arizona-10-10-2026/event/190064D993564C71",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234430,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-tempe-marquee-theatre-10-10-2026--concerts-rock/production/7234430",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "090064DD848C3B38",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-anaheim-california-10-15-2026/event/090064DD848C3B38",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-anaheim-house-of-blues-anaheim-10-15-2026/production/7234166",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-anaheim-california-10-15-2026/event/090064DD848C3B38",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234166,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-anaheim-house-of-blues-anaheim-10-15-2026/production/7234166",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "090064D9F0893261",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-los-angeles-california-10-16-2026/event/090064D9F0893261",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-los-angeles-the-bellwether-10-16-2026--concerts-rock/production/7234551",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-los-angeles-california-10-16-2026/event/090064D9F0893261",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234551,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-los-angeles-the-bellwether-10-16-2026--concerts-rock/production/7234551",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1C0064DAEB6D2C42",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-san-francisco-california-10-18-2026/event/1C0064DAEB6D2C42",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-san-francisco-castro-theatre-10-18-2026/production/7233687",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-san-francisco-california-10-18-2026/event/1C0064DAEB6D2C42",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7233687,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-san-francisco-castro-theatre-10-18-2026/production/7233687",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZMfs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-menlo-park-the-guild-theatre-10-19-2026/production/7457212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7457212,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-menlo-park-the-guild-theatre-10-19-2026/production/7457212",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "1C0064D90375144A",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234800,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "0F0064DAD7A4DB59",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-23-2026/event/0F0064DAD7A4DB59",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-seattle-the-neptune-theatre-10-23-2026--concerts-rock/production/7234806",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-23-2026/event/0F0064DAD7A4DB59",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234806,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-seattle-the-neptune-theatre-10-23-2026--concerts-rock/production/7234806",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "0F0064DAD7A9DB62",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-24-2026/event/0F0064DAD7A9DB62",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-seattle-the-neptune-theatre-10-24-2026--concerts-rock/production/7234808",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-24-2026/event/0F0064DAD7A9DB62",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234808,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-seattle-the-neptune-theatre-10-24-2026--concerts-rock/production/7234808",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "3A0064D9A11E9F73",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-houston-house-of-blues-houston-11-4-2026/production/7234434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234434,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-houston-house-of-blues-houston-11-4-2026/production/7234434",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK1a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492601,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK1F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492603,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "15006515963C6A78",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-silver-spring-maryland-02-16-2027/event/15006515963C6A78",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-silver-spring-the-fillmore-silver-spring-2-16-2027--concerts-rock/production/7492607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-silver-spring-maryland-02-16-2027/event/15006515963C6A78",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492607,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-silver-spring-the-fillmore-silver-spring-2-16-2027--concerts-rock/production/7492607",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "1B006515D013A336",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-nashville-tennessee-02-26-2027/event/1B006515D013A336",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-nashville-brooklyn-bowl---nashville-2-26-2027/production/7491786",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-nashville-tennessee-02-26-2027/event/1B006515D013A336",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491786,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-nashville-brooklyn-bowl---nashville-2-26-2027/production/7491786",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1337,7 +1337,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAedOv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedOv",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-chicago-vic-theatre-3-5-2027--concerts-rock/production/7492664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedOv",
     "last_verified_at": null,
@@ -1359,11 +1359,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492664,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-chicago-vic-theatre-3-5-2027--concerts-rock/production/7492664",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1443,7 +1443,7 @@
     "ticketmaster_event_id": "01006515074ADA57",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-boston-citizens-house-of-blues-boston-3-13-2027/production/7491258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
     "last_verified_at": null,
@@ -1465,11 +1465,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7491258,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-boston-citizens-house-of-blues-boston-3-13-2027/production/7491258",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

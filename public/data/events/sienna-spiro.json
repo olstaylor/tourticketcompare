@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PKok",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKok",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-nashville-ryman-auditorium-10-13-2026--concerts-pop/production/7139264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKok",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139264,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-nashville-ryman-auditorium-10-13-2026--concerts-pop/production/7139264",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "150064C5BC88DB6E",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-lincoln-theatre-dc-10-16-2026--concerts-pop/production/7139270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139270,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-lincoln-theatre-dc-10-16-2026--concerts-pop/production/7139270",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "020064C50521796D",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-philadelphia-pennsylvania-10-17-2026/event/020064C50521796D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-philadelphia-the-fillmore-philadelphia-10-17-2026--concerts-pop/production/7139274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-philadelphia-pennsylvania-10-17-2026/event/020064C50521796D",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139274,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-philadelphia-the-fillmore-philadelphia-10-17-2026--concerts-pop/production/7139274",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "010064C5B19EA557",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-boston-massachusetts-10-18-2026/event/010064C5B19EA557",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-boston-citizens-house-of-blues-boston-10-18-2026--concerts-pop/production/7139278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-boston-massachusetts-10-18-2026/event/010064C5B19EA557",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139278,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-boston-citizens-house-of-blues-boston-10-18-2026--concerts-pop/production/7139278",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "000064D0BB2128D9",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-new-york-new-york-10-20-2026/event/000064D0BB2128D9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-manhattan-center-hammerstein-ballroom-10-20-2026--concerts-pop/production/7175299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-new-york-new-york-10-20-2026/event/000064D0BB2128D9",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7175299,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-manhattan-center-hammerstein-ballroom-10-20-2026--concerts-pop/production/7175299",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "000064C7825E6199",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-brooklyn-new-york-10-21-2026/event/000064C7825E6199",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-brooklyn-brooklyn-paramount-10-21-2026--concerts-pop/production/7139282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-brooklyn-new-york-10-21-2026/event/000064C7825E6199",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139282,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-brooklyn-brooklyn-paramount-10-21-2026--concerts-pop/production/7139282",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "100064C5DB02F1B2",
     "ticketmaster_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-toronto-ontario-10-25-2026/event/100064C5DB02F1B2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-toronto-history-toronto-10-25-2026--concerts-pop/production/7139286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-toronto-ontario-10-25-2026/event/100064C5DB02F1B2",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139286,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-toronto-history-toronto-10-25-2026--concerts-pop/production/7139286",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PxQ8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxQ8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-chicago-riviera-theatre---il-10-27-2026--concerts-pop/production/7139288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxQ8",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139288,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-chicago-riviera-theatre---il-10-27-2026--concerts-pop/production/7139288",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PKO4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139292,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P-jI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-jI",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-englewood-gothic-theatre-10-30-2026--concerts-pop/production/7139294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-jI",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139294,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-englewood-gothic-theatre-10-30-2026--concerts-pop/production/7139294",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PK0e",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7PK0e",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-4-2026/production/7139489",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7PK0e",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139489,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-4-2026/production/7139489",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pa4e",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pa4e",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-5-2026/production/7139491",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pa4e",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139491,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-5-2026/production/7139491",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P-q3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-q3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-portland-mcmenamins-crystal-ballroom-11-7-2026/production/7143026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-q3",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7143026,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-portland-mcmenamins-crystal-ballroom-11-7-2026/production/7143026",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "1C0064C4FD867F42",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-san-francisco-castro-theatre-11-9-2026/production/7139535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139535,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-san-francisco-castro-theatre-11-9-2026/production/7139535",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "090064C5BDF81666",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-the-wiltern-11-10-2026/production/7139420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7139420,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-the-wiltern-11-10-2026/production/7139420",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "090064D0C03EB846",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-orpheum-theatre---los-angeles-11-12-2026--concerts-pop/production/7175301",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7175301,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-orpheum-theatre---los-angeles-11-12-2026--concerts-pop/production/7175301",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "3E0064C4A2AF43A9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-22-02-2027/event/3E0064C4A2AF43A9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-2-22-2027--concerts-pop/production/7166302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-22-02-2027/event/3E0064C4A2AF43A9",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7166302,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-2-22-2027--concerts-pop/production/7166302",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "360064C6E7D1D769",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-01-03-2027/event/360064C6E7D1D769",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-1-2027--concerts-pop/production/7146243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-01-03-2027/event/360064C6E7D1D769",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7146243,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-1-2027--concerts-pop/production/7146243",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "360064C8F09AC667",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-02-03-2027/event/360064C8F09AC667",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-2-2027--concerts-pop/production/7175309",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-02-03-2027/event/360064C8F09AC667",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7175309,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-2-2027--concerts-pop/production/7175309",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1390,7 +1390,7 @@
     "ticketmaster_event_id": "1923129676",
     "ticketmaster_url": "https://www.ticketmaster.de/event/sienna-spiro-my-house-tour-tickets/1923129676?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-berlin-tempodrom-3-24-2027/production/7168401",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sienna-spiro-my-house-tour-tickets/1923129676?language=en-us",
     "last_verified_at": null,
@@ -1412,11 +1412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7168401,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-berlin-tempodrom-3-24-2027/production/7168401",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1549,7 +1549,7 @@
     "ticketmaster_event_id": "1571703352",
     "ticketmaster_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/1571703352?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-madrid-la-riviera-3-30-2027--concerts-pop/production/7168937",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/1571703352?language=en-us",
     "last_verified_at": null,
@@ -1571,11 +1571,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7168937,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-madrid-la-riviera-3-30-2027--concerts-pop/production/7168937",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

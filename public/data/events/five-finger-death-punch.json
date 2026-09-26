@@ -1935,7 +1935,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7OOob",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-huntsville-orion-amphitheater-10-7-2026/production/6517181",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
     "last_verified_at": null,
@@ -1957,11 +1957,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6517181,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-huntsville-orion-amphitheater-10-7-2026/production/6517181",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1988,7 +1988,7 @@
     "ticketmaster_event_id": "3600649D8E5D19F1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-glasgow-ovo-hydro-1-17-2027--concerts-hard-rock/production/6989766",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
     "last_verified_at": null,
@@ -2010,11 +2010,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6989766,
+        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-glasgow-ovo-hydro-1-17-2027--concerts-hard-rock/production/6989766",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

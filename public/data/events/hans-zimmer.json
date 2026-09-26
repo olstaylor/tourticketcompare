@@ -1882,7 +1882,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvVQk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-hartford-peoplesbank-arena-2-17-2027--concerts-classical/production/7570116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
     "last_verified_at": null,
@@ -1904,11 +1904,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570116,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-hartford-peoplesbank-arena-2-17-2027--concerts-classical/production/7570116",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1935,7 +1935,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvVQ6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-kansas-city-t-mobile-center-3-19-2027--concerts-classical/production/7570732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
     "last_verified_at": null,
@@ -1957,11 +1957,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570732,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-kansas-city-t-mobile-center-3-19-2027--concerts-classical/production/7570732",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1988,7 +1988,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvVQF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-oklahoma-city-paycom-center-3-21-2027--concerts-classical/production/7570730",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
     "last_verified_at": null,
@@ -2010,11 +2010,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570730,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-oklahoma-city-paycom-center-3-21-2027--concerts-classical/production/7570730",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2041,7 +2041,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvVQa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-salt-lake-city-delta-center-3-27-2027--concerts-classical/production/7570726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
     "last_verified_at": null,
@@ -2063,11 +2063,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570726,
+        "url": "https://www.vividseats.com/hans-zimmer-tickets-salt-lake-city-delta-center-3-27-2027--concerts-classical/production/7570726",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

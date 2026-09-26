@@ -4110,7 +4110,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-VZ7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-san-antonio-boeing-center-at-tech-port-12-12-2026--concerts-rock/production/6823275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
     "last_verified_at": null,
@@ -4132,11 +4132,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6823275,
+        "url": "https://www.vividseats.com/blue-october-tickets-san-antonio-boeing-center-at-tech-port-12-12-2026--concerts-rock/production/6823275",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4163,7 +4163,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70pGN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-albuquerque-revel-entertainment-center-2-4-2027/production/7023150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
     "last_verified_at": null,
@@ -4185,11 +4185,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7023150,
+        "url": "https://www.vividseats.com/blue-october-tickets-albuquerque-revel-entertainment-center-2-4-2027/production/7023150",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

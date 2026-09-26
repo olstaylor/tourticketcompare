@@ -2027,7 +2027,7 @@
         "event_id": 7477502,
         "url": "https://www.vividseats.com/trivium-tickets-glasgow-ovo-hydro-3-31-2027--concerts-rock/production/7477502",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2088,7 +2088,7 @@
         "event_id": 7477504,
         "url": "https://www.vividseats.com/trivium-tickets-manchester-co-op-live-4-2-2027--concerts-rock/production/7477504",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2165,7 +2165,7 @@
         "event_id": 7477506,
         "url": "https://www.vividseats.com/trivium-tickets-london-alexandra-palace-4-3-2027--concerts-rock/production/7477506",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2226,7 +2226,7 @@
         "event_id": 7477508,
         "url": "https://www.vividseats.com/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027--concerts-rock/production/7477508",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2315,7 +2315,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZdCo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trivium-tickets-san-antonio-boeing-center-at-tech-port-11-27-2026/production/7325671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
     "last_verified_at": null,
@@ -2337,11 +2337,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7325671,
+        "url": "https://www.vividseats.com/trivium-tickets-san-antonio-boeing-center-at-tech-port-11-27-2026/production/7325671",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2368,7 +2368,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7J_4J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trivium-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-12-3-2026--concerts-rock/production/7325346",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
     "last_verified_at": null,
@@ -2390,11 +2390,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7325346,
+        "url": "https://www.vividseats.com/trivium-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-12-3-2026--concerts-rock/production/7325346",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

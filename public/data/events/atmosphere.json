@@ -833,7 +833,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeZfw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-west-des-moines-val-air-ballroom-1-16-2027--concerts-rap-hip-hop/production/7588953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
     "last_verified_at": null,
@@ -855,11 +855,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7588953,
+        "url": "https://www.vividseats.com/atmosphere-tickets-west-des-moines-val-air-ballroom-1-16-2027--concerts-rap-hip-hop/production/7588953",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1045,7 +1045,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeZ4O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-minneapolis-first-avenue-2-7-2027--concerts-rap-hip-hop/production/7588961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
     "last_verified_at": null,
@@ -1067,11 +1067,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7588961,
+        "url": "https://www.vividseats.com/atmosphere-tickets-minneapolis-first-avenue-2-7-2027--concerts-rap-hip-hop/production/7588961",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

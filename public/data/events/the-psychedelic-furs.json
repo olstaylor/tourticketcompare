@@ -37,7 +37,7 @@
         "event_id": 7333970,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-riverside-fox-performing-arts-center-11-11-2026/production/7333970",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -98,7 +98,7 @@
         "event_id": 7557732,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-25-2027/production/7557732",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -204,7 +204,7 @@
         "event_id": 7558897,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-waukegan-genesee-theatre-4-1-2027--concerts-pop/production/7558897",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -265,7 +265,7 @@
         "event_id": 7565851,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-tallahassee-the-moon---fl-4-7-2027/production/7565851",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -371,7 +371,7 @@
         "event_id": 7558937,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-4-10-2027--concerts-pop/production/7558937",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -424,7 +424,7 @@
         "event_id": 7565248,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-asheville-harrahs-cherokee-center-asheville-4-17-2027/production/7565248",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -477,7 +477,7 @@
         "event_id": 7559237,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-norfolk-the-norva-4-20-2027/production/7559237",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -538,7 +538,7 @@
         "event_id": 7558977,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-baltimore-nevermore-hall-4-23-2027--concerts-pop/production/7558977",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -652,7 +652,7 @@
         "event_id": 7559009,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-4-27-2027--concerts-pop/production/7559009",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -713,7 +713,7 @@
         "event_id": 7559015,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-huntington-the-paramount-in-concert-with-northwell-4-28-2027--concerts-pop/production/7559015",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -766,7 +766,7 @@
         "event_id": 7559023,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-northfield-northfield-park-racino---center-stage-5-1-2027--concerts-pop/production/7559023",
         "verified": true,
-        "last_verified_at": "2026-09-23",
+        "last_verified_at": "2026-09-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -969,7 +969,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvPQ_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPQ_",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-nashville-ryman-auditorium-4-2-2027--concerts-pop/production/7558924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPQ_",
     "last_verified_at": null,
@@ -991,11 +991,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7558924,
+        "url": "https://www.vividseats.com/psychedelic-furs-tickets-nashville-ryman-auditorium-4-2-2027--concerts-pop/production/7558924",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

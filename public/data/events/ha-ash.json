@@ -1134,7 +1134,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvz-K",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haash-tickets-portland-keller-auditorium-4-29-2027/production/7587715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
     "last_verified_at": null,
@@ -1156,11 +1156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587715,
+        "url": "https://www.vividseats.com/haash-tickets-portland-keller-auditorium-4-29-2027/production/7587715",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -36,7 +36,8 @@ import {
   findTag as findBlogTag,
   postIndexable as blogPostIndexable,
   blogIndexIndexable,
-  relatedPosts as relatedBlogPosts
+  relatedPosts as relatedBlogPosts,
+  postsForArtist
 } from "./_blog.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
@@ -2769,6 +2770,16 @@ function renderLocationGuideLinks() {
   return LOCATION_GUIDE_LINKS.map(([label, path]) => anchor(label, path, "button button-secondary")).join("");
 }
 
+// The summary sentence, the selective-coverage note and the money statement sit
+// directly under the date list rather than above it (2026-09-25, owner request):
+// stacked between the heading and the first date they pushed the dates below the
+// fold on a phone. All three stay visible on the page, not collapsed.
+function renderLocationPageNotesHtml(summary, coverageNote) {
+  return `<section class="location-page-notes"><p>${escapeHtml(summary)}</p><p class="disclosure-note">${escapeHtml(
+    coverageNote
+  )}</p>${renderMoneyDisclosureHtml()}</section>`;
+}
+
 export function renderCityPageBody(route, events = [], options = {}) {
   const city = route.city;
   const yearLabel = cityYearLabel(city);
@@ -2797,9 +2808,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
   }
 
   return shell(
-    `<p class="lead">${escapeHtml(cityLeadSentence(city))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected verified tour dates — not a complete ${city.city} events calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
+    `<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
       city.city
     )}${yearLabel ? ` for ${escapeHtml(yearLabel)}` : ""}</h2></div>${renderCityShowGroups(
       city,
@@ -2818,7 +2827,10 @@ export function renderCityPageBody(route, events = [], options = {}) {
           city.artistSlugs
         )
       }
-    )}</section>${collapsedGroupHtml(
+    )}</section>${renderLocationPageNotesHtml(
+      cityLeadSentence(city),
+      `Selected verified tour dates — not a complete ${city.city} events calendar.`
+    )}${collapsedGroupHtml(
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
@@ -2856,9 +2868,7 @@ export function renderVenuePageBody(route, events = [], options = {}) {
   }
 
   return shell(
-    `<p class="lead">${escapeHtml(venueLeadSentence(venue))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected verified tour dates — not the full ${venue.venue} calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
+    `<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
       venue.venue
     )}</h2></div>${renderVenueShowGroups(
       venue,
@@ -2869,7 +2879,10 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       options.marketplaceAvailability || {},
       null,
       route.events || events
-    )}</section>${collapsedGroupHtml(
+    )}</section>${renderLocationPageNotesHtml(
+      venueLeadSentence(venue),
+      `Selected verified tour dates — not the full ${venue.venue} calendar.`
+    )}${collapsedGroupHtml(
       "Tips for buying and more venues",
       `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
         venue.venue
@@ -2924,6 +2937,53 @@ const GUIDE_CLUSTERS = [
     ]
   }
 ];
+
+// Ticket sites as they appear in guide slugs, most specific first so
+// "stubhub-international" is never read as StubHub US. A guide about one of
+// these sites links every other published guide about the same site, so a new
+// provider guide is not reachable from /guides alone. Derived from the slugs,
+// so it needs no upkeep as guides are added.
+const GUIDE_PROVIDER_NAMES = [
+  ["stubhub-international", "StubHub International"],
+  ["ticketmaster", "Ticketmaster"],
+  ["seatgeek", "SeatGeek"],
+  ["vivid-seats", "Vivid Seats"],
+  ["stubhub", "StubHub"],
+  ["ticketnetwork", "TicketNetwork"]
+];
+
+function guideProviders(path) {
+  let slug = `-${String(path || "").split("/").at(-1)}-`;
+  const found = [];
+  for (const [token, name] of GUIDE_PROVIDER_NAMES) {
+    if (!slug.includes(`-${token}-`)) continue;
+    found.push({ token, name });
+    slug = slug.replace(`-${token}-`, "--");
+  }
+  return found;
+}
+
+// Guides already linked from the body are left out: the block exists to add
+// the links the author's own "Related guides" list does not carry.
+function renderGuideProviderLinks(route, bodyHtml = "") {
+  const own = guideProviders(route.path);
+  if (!own.length) return "";
+  const tokens = new Set(own.map((provider) => provider.token));
+  const items = Object.keys(GUIDE_ROUTES)
+    .map((path, order) => ({ path, order, shared: guideProviders(path).filter((provider) => tokens.has(provider.token)).length }))
+    .filter((candidate) => candidate.shared > 0 && candidate.path !== route.path && !bodyHtml.includes(`href="${candidate.path}"`))
+    .sort((a, b) => b.shared - a.shared || a.order - b.order)
+    .slice(0, 6)
+    .map(({ path }) => {
+      const guide = GUIDE_ROUTES[path];
+      return `<li>${anchor(guide.h1 || guide.title.replace(" | TourTicketCompare", ""), path)}</li>`;
+    })
+    .join("");
+  if (!items) return "";
+  const names = own.map((provider) => provider.name);
+  const label = names.length === 1 ? names[0] : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+  return `<section class="nested-panel"><h2>More on ${escapeHtml(label)}</h2><ul class="guide-link-list">${items}</ul></section>`;
+}
 
 function guideCardHtml(path) {
   const guide = GUIDE_ROUTES[path];
@@ -5035,9 +5095,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
           artist.name
         )} ticket FAQ</h2>${artistFaqHtml}</section>`
       : "";
+    // Posts that list this artist in related_artists (attached by onRequest).
+    // Without it a post about one artist's tour is reachable from /blog only.
+    const artistBlogPosts = Array.isArray(route.artistBlogPosts) ? route.artistBlogPosts : [];
+    const artistBlogHtml = artistBlogPosts.length
+      ? `<section class="nested-panel"><h2>${escapeHtml(artist.name)} on the blog</h2>${renderBlogPostCards(artistBlogPosts)}</section>`
+      : "";
     const moreHtml = shows.length
-      ? collapsedGroupHtml(`About ${artist.name}, dates by city, and guides`, `${supportingHtml}${usefulLinksHtml}`)
-      : `${supportingHtml}${usefulLinksHtml}`;
+      ? collapsedGroupHtml(`About ${artist.name}, dates by city, and guides`, `${supportingHtml}${artistBlogHtml}${usefulLinksHtml}`)
+      : `${supportingHtml}${artistBlogHtml}${usefulLinksHtml}`;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${moreHtml}${faqHtml}</section></main>`;
@@ -5148,7 +5214,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideSources(
       guideContent[route.path]?.sources
     )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
@@ -6029,6 +6095,10 @@ export async function onRequest(context) {
     (route.path === "/" || route.path === "/guides") &&
     blogIndexIndexable(deriveBlogPosts(await loadBlogContent(env)));
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
+  if (route.type === "artist") {
+    const artistBlogPosts = postsForArtist(deriveBlogPosts(await loadBlogContent(env)), route.artist.slug);
+    if (artistBlogPosts.length) renderRoute = { ...renderRoute, artistBlogPosts };
+  }
   // Only when there is something to carry, so a route with no recorded history
   // is passed through exactly as before.
   if (priceLowSeries.size) renderRoute = { ...renderRoute, priceLowSeries };

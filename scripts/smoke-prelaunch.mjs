@@ -1313,6 +1313,37 @@ assert(
   "the creator page should carry the full Person node"
 );
 
+// Provider guides link the other published guides about the same ticket site,
+// minus any the body already links, so a new provider guide is not reachable
+// from /guides alone. Guides about no ticket site get no such block.
+const providerLinkedGuide = await routeResponse("/guides/is-vivid-seats-legit");
+assert(providerLinkedGuide.text.includes("<h2>More on Vivid Seats</h2>"), "a single-provider guide should render its More on <provider> block");
+assert(
+  providerLinkedGuide.text.includes('href="/guides/vivid-seats-vs-seatgeek"'),
+  "the More on Vivid Seats block should link a Vivid Seats guide the body does not"
+);
+const trioGuide = await routeResponse("/guides/ticketmaster-vs-seatgeek-vs-vivid-seats");
+assert(trioGuide.text.includes("<h2>More on Ticketmaster, SeatGeek and Vivid Seats</h2>"), "a multi-provider guide should name every provider in its block");
+const noProviderGuide = await routeResponse("/guides/how-to-avoid-ticket-scams");
+assert(!/<h2>More on /.test(noProviderGuide.text), "a guide about no ticket site should not render a More on <provider> block");
+
+// An artist named by published posts links them back (up to three, newest first).
+const smokeBlogContent = JSON.parse(await read("public/data/blog-content.json"));
+const postSlugsByArtist = new Map();
+for (const post of (smokeBlogContent.posts || []).filter((entry) => entry.status === "published")) {
+  for (const artistSlug of post.relatedArtists || []) {
+    postSlugsByArtist.set(artistSlug, [...(postSlugsByArtist.get(artistSlug) || []), post.slug]);
+  }
+}
+for (const [artistSlug, postSlugs] of postSlugsByArtist) {
+  const artistPage = await routeResponse(`/artists/${artistSlug}`);
+  const linked = postSlugs.filter((slug) => artistPage.text.includes(`href="/blog/${slug}"`)).length;
+  assert(
+    linked === Math.min(3, postSlugs.length),
+    `/artists/${artistSlug} links ${linked} of the ${postSlugs.length} published post(s) that name it`
+  );
+}
+
 const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
@@ -1859,6 +1890,7 @@ assert(!serverMorganWithSeatGeek.text.includes(TM_RECHECK_HIDDEN_COPY), "server-
 //    onto the new file immediately. Regression 2026-06-03: the suppression fix
 //    shipped but stale cached app.js kept re-hiding CTAs during hydration.
 const shellHtml = await read("public/index.html");
+assert(shellHtml.includes('<a href="/on-sale">On sale soon</a>'), "the site footer should link the on-sale calendar");
 const appScriptRef = shellHtml.match(/<script\s+src="\/app\.js[^"]*"/);
 assert(appScriptRef, "index.html must load /app.js");
 assert(/\/app\.js\?v=/.test(appScriptRef[0]), "index.html must load app.js with a ?v= cache-busting version so app.js-only fixes reach returning visitors without waiting for cache expiry");

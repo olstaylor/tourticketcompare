@@ -406,6 +406,15 @@ for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
     `${label} page carries the how-this-site-makes-money disclosure with its link`
   );
   assert(page.main.includes("Dates re-checked against Ticketmaster daily"), `${label} page states the daily re-check (P8)`);
+  // 2026-09-25 (owner request): the summary and both disclosures sit under the
+  // date list, so the first date is the first thing below the heading.
+  const listAt = page.main.indexOf("data-show-list");
+  const notesAt = page.main.indexOf('class="location-page-notes"');
+  assert(listAt !== -1 && notesAt > listAt, `${label} page renders its summary and disclosures after the date list`);
+  assert(
+    page.main.indexOf("How this site makes money") > listAt && page.main.indexOf("Selected verified tour dates") > listAt,
+    `${label} page has no disclosure text between its heading and the date list`
+  );
 }
 assert(venueText.includes("By TourTicketCompare"), "venue page carries the site byline");
 assert(!venuePage.main.includes('href="/about/ollie-taylor"'), "venue page byline does not link the creator page");

@@ -1881,7 +1881,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvVQk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/hartford-connecticut-peoplesbank-arena-2027-02-17-7-30-pm/concert/18601917",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
@@ -1897,11 +1897,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601917,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/hartford-connecticut-peoplesbank-arena-2027-02-17-7-30-pm/concert/18601917",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1934,7 +1934,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvVQ6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/kansas-city-missouri-t-mobile-center-2027-03-19-8-pm/concert/18601968",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
@@ -1950,11 +1950,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601968,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/kansas-city-missouri-t-mobile-center-2027-03-19-8-pm/concert/18601968",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1987,7 +1987,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvVQF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/oklahoma-city-oklahoma-paycom-center-2027-03-21-7-30-pm/concert/18601969",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
@@ -2003,11 +2003,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601969,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/oklahoma-city-oklahoma-paycom-center-2027-03-21-7-30-pm/concert/18601969",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2040,7 +2040,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvVQa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/salt-lake-city-utah-delta-center-1-2027-03-27-7-30-pm/concert/18415275",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
@@ -2056,11 +2056,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18415275,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/salt-lake-city-utah-delta-center-1-2027-03-27-7-30-pm/concert/18415275",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2093,7 +2093,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvVQ8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/los-angeles-california-crypto-com-arena-2027-04-01-7-30-pm/concert/18601970",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
@@ -2109,11 +2109,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601970,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/los-angeles-california-crypto-com-arena-2027-04-01-7-30-pm/concert/18601970",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

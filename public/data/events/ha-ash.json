@@ -1133,7 +1133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvz-K",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ha-ash-tickets/portland-oregon-keller-auditorium-2027-04-29-8-pm/concert/18608867",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
@@ -1149,11 +1149,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608867,
+        "url": "https://seatgeek.com/ha-ash-tickets/portland-oregon-keller-auditorium-2027-04-29-8-pm/concert/18608867",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1186,7 +1186,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvz-M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ha-ash-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-05-01-8-pm/concert/18608868",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
@@ -1202,11 +1202,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608868,
+        "url": "https://seatgeek.com/ha-ash-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-05-01-8-pm/concert/18608868",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

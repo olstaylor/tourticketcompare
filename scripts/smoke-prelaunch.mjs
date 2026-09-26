@@ -4091,6 +4091,19 @@ assert(
   /\| (Compare )?Prices at [^|]+$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
 );
+// Every rung keeps "<artist> <city> Tickets", so the ladder check above cannot
+// be satisfied by a title that lost the query it exists to match. The artist
+// name is read off the H1 ("<artist> Tickets in <city>") asserted above.
+const smokeArtistCityArtist = decodeHtmlEntities(
+  artistCityPage.text.match(/<h1[^>]*>([^<]*) Tickets in /)?.[1] || ""
+).trim();
+const smokeArtistCityName = smokeArtistCity.city.replace(/\s*\([^()]*\)\s*$/, "").trim();
+assert(
+  smokeArtistCityArtist &&
+    artistCityTitle.startsWith(`${smokeArtistCityArtist} ${smokeArtistCityName}`) &&
+    / Tickets\b/.test(artistCityTitle.slice(smokeArtistCityArtist.length + smokeArtistCityName.length + 1)),
+  `artist-city title should lead with "<artist> ${smokeArtistCityName} ... Tickets" (was "${artistCityTitle}")`
+);
 // A listed price moves faster than a search snippet refreshes, and route
 // metadata is also the CollectionPage JSON-LD description, so no live figure
 // may appear in either. The numeric answer is server-rendered in the body.

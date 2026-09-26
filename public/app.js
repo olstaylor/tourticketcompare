@@ -3250,7 +3250,11 @@ function renderArtist(artist) {
   const serverDescription = document.querySelector('meta[name="description"]')?.getAttribute("content") || "";
   // Same for the title: the server adds the board's year(s) to the house
   // template (artistPageTitle), which the catalog's raw seo_title does not have.
-  const serverTitle = document.title.trim();
+  // Kept only when it is this artist's title — every artistPageTitle output
+  // starts with the name — so an unrewritten shell or a server 404 title is
+  // never carried onto the artist page (or into og:/twitter:title).
+  const documentTitle = document.title.trim();
+  const serverTitle = artist.name && documentTitle.startsWith(`${artist.name} `) ? documentTitle : "";
   // Artist-page indexability is editorial. Future-date availability controls
   // the board and the index sections, but an empty artist page remains a valid
   // indexable destination with a truthful empty state. The one exception is an

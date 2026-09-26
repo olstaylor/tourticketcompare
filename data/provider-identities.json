@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-25",
+  "updated_at": "2026-09-26",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -865,6 +865,61 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-09-25 (sanctioned path D): SeatGeek performer 608 and Ticketmaster attraction K8vZ91716S0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "needtobreathe",
+      "ticketmaster_attraction_id": "K8vZ917G1G7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/needtobreathe-tickets/artist/1032338",
+      "seatgeek_performer_id": 1324,
+      "seatgeek_artist_url": "https://seatgeek.com/needtobreathe-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-26 (sanctioned path D): SeatGeek performer 1324 and Ticketmaster attraction K8vZ917G1G7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "foy-vance",
+      "ticketmaster_attraction_id": "K8vZ917Gk00",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/foy-vance-tickets/artist/35430",
+      "seatgeek_performer_id": 28850,
+      "seatgeek_artist_url": "https://seatgeek.com/foy-vance-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-26 (sanctioned path D): SeatGeek performer 28850 and Ticketmaster attraction K8vZ917Gk00 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-lemonheads",
+      "ticketmaster_attraction_id": "K8vZ917KRrV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-lemonheads-tickets/artist/2147279",
+      "seatgeek_performer_id": 1828,
+      "seatgeek_artist_url": "https://seatgeek.com/the-lemonheads-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-26 (sanctioned path D): SeatGeek performer 1828 and Ticketmaster attraction K8vZ917KRrV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "tommy-emmanuel",
+      "ticketmaster_attraction_id": "K8vZ9171Bvf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tommy-emmanuel-tickets/artist/736952",
+      "seatgeek_performer_id": 1921,
+      "seatgeek_artist_url": "https://seatgeek.com/tommy-emmanuel-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-26 (sanctioned path D): SeatGeek performer 1921 and Ticketmaster attraction K8vZ9171Bvf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "haiden-henderson",
+      "ticketmaster_attraction_id": "K8vZ917jUef",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/haiden-henderson-tickets/artist/3166056",
+      "seatgeek_performer_id": 1963247,
+      "seatgeek_artist_url": "https://seatgeek.com/haiden-henderson-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-09-26 (sanctioned path D): SeatGeek performer 1963247 and Ticketmaster attraction K8vZ917jUef captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

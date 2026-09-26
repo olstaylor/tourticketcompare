@@ -1175,6 +1175,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-dinosaur-jr",
     redirectUrl: "https://seatgeek.com/dinosaur-jr-tickets",
     verified: true
+  },
+  "needtobreathe:ticketmaster": {
+    artistSlug: "needtobreathe",
+    provider: "ticketmaster",
+    linkId: "tm-artist-needtobreathe",
+    redirectUrl: "https://www.ticketmaster.com/needtobreathe-tickets/artist/1032338",
+    verified: true
+  },
+  "needtobreathe:seatgeek": {
+    artistSlug: "needtobreathe",
+    provider: "seatgeek",
+    linkId: "sg-artist-needtobreathe",
+    redirectUrl: "https://seatgeek.com/needtobreathe-tickets",
+    verified: true
+  },
+  "foy-vance:ticketmaster": {
+    artistSlug: "foy-vance",
+    provider: "ticketmaster",
+    linkId: "tm-artist-foy-vance",
+    redirectUrl: "https://www.ticketmaster.com/foy-vance-tickets/artist/35430",
+    verified: true
+  },
+  "foy-vance:seatgeek": {
+    artistSlug: "foy-vance",
+    provider: "seatgeek",
+    linkId: "sg-artist-foy-vance",
+    redirectUrl: "https://seatgeek.com/foy-vance-tickets",
+    verified: true
+  },
+  "the-lemonheads:ticketmaster": {
+    artistSlug: "the-lemonheads",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-lemonheads",
+    redirectUrl: "https://www.ticketmaster.com/the-lemonheads-tickets/artist/2147279",
+    verified: true
+  },
+  "the-lemonheads:seatgeek": {
+    artistSlug: "the-lemonheads",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-lemonheads",
+    redirectUrl: "https://seatgeek.com/the-lemonheads-tickets",
+    verified: true
+  },
+  "tommy-emmanuel:ticketmaster": {
+    artistSlug: "tommy-emmanuel",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tommy-emmanuel",
+    redirectUrl: "https://www.ticketmaster.com/tommy-emmanuel-tickets/artist/736952",
+    verified: true
+  },
+  "tommy-emmanuel:seatgeek": {
+    artistSlug: "tommy-emmanuel",
+    provider: "seatgeek",
+    linkId: "sg-artist-tommy-emmanuel",
+    redirectUrl: "https://seatgeek.com/tommy-emmanuel-tickets",
+    verified: true
+  },
+  "haiden-henderson:ticketmaster": {
+    artistSlug: "haiden-henderson",
+    provider: "ticketmaster",
+    linkId: "tm-artist-haiden-henderson",
+    redirectUrl: "https://www.ticketmaster.com/haiden-henderson-tickets/artist/3166056",
+    verified: true
+  },
+  "haiden-henderson:seatgeek": {
+    artistSlug: "haiden-henderson",
+    provider: "seatgeek",
+    linkId: "sg-artist-haiden-henderson",
+    redirectUrl: "https://seatgeek.com/haiden-henderson-tickets",
+    verified: true
   }
 };
 

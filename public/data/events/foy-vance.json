@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "tm-foy-vance-2026-edinburgh-1adbz_dgkdivmtc",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour - Celebrating \"The Wake\" And The Songs of \"If\"",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "The Queen's Hall",
+    "datetime_iso": "2026-10-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600643EE8D37FED",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600643EE8D37FED",
+        "discovery_event_id": "1AdbZ_dGkDIVMTc",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_dGkDIVMTc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-stirling-1auzkoegkew3ujs",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour - Celebrating \"The Wake\" And The Songs of \"If\"",
+    "city": "Stirling",
+    "country": "Great Britain",
+    "venue": "Stirling Albert Halls",
+    "datetime_iso": "2026-10-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006442BD4B69B3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-stirling-18-10-2026/event/36006442BD4B69B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-stirling-18-10-2026/event/36006442BD4B69B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006442BD4B69B3",
+        "discovery_event_id": "1AUZkoeGkeW3UJS",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-stirling-18-10-2026/event/36006442BD4B69B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkoeGkeW3UJS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-london-g5dzz_akto7o5",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance - World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2026-10-23T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006451BF44444B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006451BF44444B",
+        "discovery_event_id": "G5dzZ_AkTo7o5",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_AkTo7o5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-london-g5dzz_a5f7udr",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance - World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2026-10-24T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006452D4136EDE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006452D4136EDE",
+        "discovery_event_id": "G5dzZ_A5f7UDr",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_A5f7UDr",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-manchester-g5vhz_3kr3ers",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Albert Hall",
+    "datetime_iso": "2026-10-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065219E482BF3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-manchester-25-10-2026/event/1F0065219E482BF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foy-vance-manchester-25-10-2026/event/1F0065219E482BF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065219E482BF3",
+        "discovery_event_id": "G5vHZ_3kr3eRS",
+        "url": "https://www.ticketmaster.co.uk/foy-vance-manchester-25-10-2026/event/1F0065219E482BF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3kr3eRS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-wexford-1avoz_7gksprdxw",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Wexford",
+    "country": "Ireland",
+    "venue": "Wexford Spiegeltent Festival",
+    "datetime_iso": "2026-10-27T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800644CD6BC3FBD",
+    "ticketmaster_url": "https://www.ticketmaster.ie/foy-vance-wexford-27-10-2026/event/1800644CD6BC3FBD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/foy-vance-wexford-27-10-2026/event/1800644CD6BC3FBD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800644CD6BC3FBD",
+        "discovery_event_id": "1AvOZ_7GkSpRdXW",
+        "url": "https://www.ticketmaster.ie/foy-vance-wexford-27-10-2026/event/1800644CD6BC3FBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_7GkSpRdXW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-dublin-1abzko8gkdu8sqd",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Olympia Theatre",
+    "datetime_iso": "2026-10-29T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006450CD4316BB",
+    "ticketmaster_url": "https://www.ticketmaster.ie/foy-vance-world-tour-2026-2027-dublin-29-10-2026/event/18006450CD4316BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/foy-vance-world-tour-2026-2027-dublin-29-10-2026/event/18006450CD4316BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006450CD4316BB",
+        "discovery_event_id": "1AbZko8Gkdu8sQD",
+        "url": "https://www.ticketmaster.ie/foy-vance-world-tour-2026-2027-dublin-29-10-2026/event/18006450CD4316BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZko8Gkdu8sQD",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7-9fp",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "El Rey Theatre - Los Angeles",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-9fP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-9fP",
+        "discovery_event_id": "Z7r9jZ1A7-9fP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9fP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7--kd",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "El Rey Theatre - Los Angeles",
+    "datetime_iso": "2026-11-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7--kd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7--kd",
+        "discovery_event_id": "Z7r9jZ1A7--kd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-portland-z7r9jz1aavffz",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance w/ Bonnie Bishop",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Aladdin Theater",
+    "datetime_iso": "2026-11-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvFFZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvFFZ",
+        "discovery_event_id": "Z7r9jZ1AAvFFZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvFFZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-seattle-vvg1hz_7scn270",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2026-11-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00644CEDA8F124",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00644CEDA8F124",
+        "discovery_event_id": "vvG1HZ_7Scn270",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_7Scn270",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-spokane-g5vzz_akiabhz",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Spokane",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006451AC27A6F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006451AC27A6F8",
+        "discovery_event_id": "G5vzZ_AkiaBhz",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_AkiaBhz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-boise-g5vzz_akyqnb8",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Boise",
+    "datetime_iso": "2026-11-17T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006451B06AAE90",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006451B06AAE90",
+        "discovery_event_id": "G5vzZ_AkYQnB8",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_AkYQnB8",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-englewood-z7r9jz1a7--ke",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance (16 and Over)",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7--ke",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7--ke",
+        "discovery_event_id": "Z7r9jZ1A7--ke",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7--ke",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-brisbane-1akzkf_gkes7kkl",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance and The Paper Kites",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Tivoli",
+    "datetime_iso": "2027-01-30T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006519B31134DF",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/foy-vance-and-the-paper-kites-brisbane-30-01-2027/event/13006519B31134DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/foy-vance-and-the-paper-kites-brisbane-30-01-2027/event/13006519B31134DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006519B31134DF",
+        "discovery_event_id": "1AKZkf_GkeS7KKL",
+        "url": "https://www.ticketmaster.com.au/foy-vance-and-the-paper-kites-brisbane-30-01-2027/event/13006519B31134DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkf_GkeS7KKL",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-birmingham-1aezz_7gkwqcsov",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance: World Tour | 2026-2027",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Iron City",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000644C9D3B3801",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000644C9D3B3801",
+        "discovery_event_id": "1AeZZ_7GkwqCSOv",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_7GkwqCSOv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-atlanta-z7r9jz1a7--ka",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Variety Playhouse",
+    "datetime_iso": "2027-04-08T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7--kA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7--kA",
+        "discovery_event_id": "Z7r9jZ1A7--kA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-knoxville-g5viz_7w-hjuu",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Bijou Theatre",
+    "datetime_iso": "2027-04-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00644CA16DCDB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00644CA16DCDB6",
+        "discovery_event_id": "G5viZ_7w-hjUU",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_7w-hjUU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Memorial Hall - OH",
+    "datetime_iso": "2027-04-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-K1v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-K1v",
+        "discovery_event_id": "Z7r9jZ1A7-K1v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-K1v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-saint-paul-z7r9jz1a7jfgw",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Fitzgerald Theater",
+    "datetime_iso": "2027-04-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JfGw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JfGw",
+        "discovery_event_id": "Z7r9jZ1A7JfGw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JfGw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-toronto-1a8zkoogkd3hucs",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour 2026 & 2027",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2027-04-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006451D2F363B1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006451D2F363B1",
+        "discovery_event_id": "1A8ZkooGkd3HUCs",
+        "url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkooGkd3HUCs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-york-z7r9jz1a7pnjx",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance",
+    "city": "York",
+    "country": "United States Of America",
+    "venue": "Appell Center for the Performing Arts",
+    "datetime_iso": "2027-04-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PNjx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PNjx",
+        "discovery_event_id": "Z7r9jZ1A7PNjx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNjx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2027-boston-vv177z_7gksjyniw",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance World Tour | 2026 & 2027: Celebrating \"The Wake\" and \"If\"",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "The Wilbur",
+    "datetime_iso": "2027-05-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100644CDCC23B32",
+    "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100644CDCC23B32",
+        "discovery_event_id": "vv177Z_7GkSjYNiw",
+        "url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_7GkSjYNiw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

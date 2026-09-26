@@ -1017,5 +1017,75 @@
     "last_verified_at": "2026-09-25",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-09-25"
+  },
+  {
+    "slug": "needtobreathe",
+    "name": "NEEDTOBREATHE",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-26"
+  },
+  {
+    "slug": "foy-vance",
+    "name": "Foy Vance",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-26"
+  },
+  {
+    "slug": "the-lemonheads",
+    "name": "The Lemonheads",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-26"
+  },
+  {
+    "slug": "tommy-emmanuel",
+    "name": "Tommy Emmanuel",
+    "short_description": "Jazz act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-26"
+  },
+  {
+    "slug": "haiden-henderson",
+    "name": "Haiden Henderson",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-09-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-09-26"
   }
 ]

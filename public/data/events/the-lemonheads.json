@@ -1,0 +1,585 @@
+[
+  {
+    "id": "tm-the-lemonheads-2026-london-g5dzz_audfsuq",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Troxy",
+    "datetime_iso": "2026-10-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00649D8323135A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-lemonheads-london-02-10-2026/event/3E00649D8323135A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-lemonheads-london-02-10-2026/event/3E00649D8323135A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00649D8323135A",
+        "discovery_event_id": "G5dzZ_aUdFsuQ",
+        "url": "https://www.ticketmaster.co.uk/the-lemonheads-london-02-10-2026/event/3E00649D8323135A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_aUdFsuQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2026-birmingham-g5dzzbgmxafgo",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Institute Birmingham",
+    "datetime_iso": "2026-10-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00635DE2148311",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-lemonheads-birmingham-10-10-2026/event/3E00635DE2148311",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-lemonheads-birmingham-10-10-2026/event/3E00635DE2148311",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00635DE2148311",
+        "discovery_event_id": "G5dzZbgMxAFGo",
+        "url": "https://www.ticketmaster.co.uk/the-lemonheads-birmingham-10-10-2026/event/3E00635DE2148311",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZbgMxAFGo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-boston-vv177z_3gkn_hus-",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour (18+)",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Brighton Music Hall presented by Citizens",
+    "datetime_iso": "2027-02-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652A99F0DC61",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652A99F0DC61",
+        "discovery_event_id": "vv177Z_3Gkn_Hus-",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3Gkn_Hus-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-brooklyn-k7vgf_3rtiqkk",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000652BE9A1A186",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-brooklyn-new-york-02-11-2027/event/0000652BE9A1A186",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-brooklyn-new-york-02-11-2027/event/0000652BE9A1A186",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000652BE9A1A186",
+        "discovery_event_id": "k7vGF_3RtIQkk",
+        "url": "https://www.ticketmaster.com/the-lemonheads-brooklyn-new-york-02-11-2027/event/0000652BE9A1A186",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_3RtIQkk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-atlanta-vvg1zz_3rf_-sk",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Masquerade - Hell",
+    "datetime_iso": "2027-02-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00652BC8661CC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-atlanta-georgia-02-20-2027/event/0E00652BC8661CC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-atlanta-georgia-02-20-2027/event/0E00652BC8661CC6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00652BC8661CC6",
+        "discovery_event_id": "vvG1zZ_3RF_-Sk",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-atlanta-georgia-02-20-2027/event/0E00652BC8661CC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3RF_-Sk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-houston-g5diz_3mypste",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "White Oak Music Hall - Upstairs",
+    "datetime_iso": "2027-02-23T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00652BB95B1FC2",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00652BB95B1FC2",
+        "discovery_event_id": "G5dIZ_3mypsTe",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3mypsTe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-los-angeles-vv1ke8vp13ga5mfmw",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Teragram Ballroom",
+    "datetime_iso": "2027-03-05T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090065292BDC8BBD",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-los-angeles-california-03-04-2027/event/090065292BDC8BBD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-los-angeles-california-03-04-2027/event/090065292BDC8BBD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090065292BDC8BBD",
+        "discovery_event_id": "vv1ke8vP13GA5MFmW",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-los-angeles-california-03-04-2027/event/090065292BDC8BBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1ke8vP13GA5MFmW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-san-francisco-g5vyz_3niolho",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "August Hall",
+    "datetime_iso": "2027-03-08T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00652AAC82BF11",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-san-francisco-california-03-07-2027/event/1C00652AAC82BF11",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-san-francisco-california-03-07-2027/event/1C00652AAC82BF11",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00652AAC82BF11",
+        "discovery_event_id": "G5vYZ_3niOlHo",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-san-francisco-california-03-07-2027/event/1C00652AAC82BF11",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3niOlHo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-madison-vv17jz_3gkbfxvrj",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700652E94881BE6",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700652E94881BE6",
+        "discovery_event_id": "vv17jZ_3GkBfxvRJ",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_3GkBfxvRJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-detroit-vv17oz_3gklkn916",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-03-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800652AC6A97287",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-detroit-michigan-03-25-2027/event/0800652AC6A97287",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-detroit-michigan-03-25-2027/event/0800652AC6A97287",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800652AC6A97287",
+        "discovery_event_id": "vv17OZ_3Gklkn916",
+        "url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-detroit-michigan-03-25-2027/event/0800652AC6A97287",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_3Gklkn916",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-cincinnati-1avbz_3gkmybpfp",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Ludlow Garage Cincinnati",
+    "datetime_iso": "2027-03-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600652BB0616516",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-cincinnati-ohio-03-26-2027/event/1600652BB0616516",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-lemonheads-cincinnati-ohio-03-26-2027/event/1600652BB0616516",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600652BB0616516",
+        "discovery_event_id": "1AvbZ_3GkmYbpfp",
+        "url": "https://www.ticketmaster.com/the-lemonheads-cincinnati-ohio-03-26-2027/event/1600652BB0616516",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_3GkmYbpfp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

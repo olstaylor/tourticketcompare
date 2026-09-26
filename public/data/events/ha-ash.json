@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/haash-no-me-hablen-de-amor-toronto-ontario-04-20-2027/event/10006532BBE7C67F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,8 +50,7 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfwGkeDyH_T",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-ha-ash-2027-indianapolis-vv1kv8vpg3ga1gw8k",
@@ -69,7 +68,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-indianapolis-murat-theatre-at-old-national-centre-4-22-2027/production/7588032",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -118,8 +117,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPG3GA1gW8K",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277079/HaAsh-tickets-Thu-Apr-22-2027-Murat-Theatre-at-Old-National-Centre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277079"
   },
@@ -139,7 +137,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-rosemont-rosemont-theatre-4-23-2027/production/7587686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -195,8 +193,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1FvZvPG_O4Z7ueuv",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278251/HaAsh-tickets-Fri-Apr-23-2027-Rosemont-Theatre",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278251"
@@ -217,7 +214,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-denver-paramount-theatre-denver-4-25-2027/production/7587495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,8 +270,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_K1t3qaq",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277080/HaAsh-tickets-Sun-Apr-25-2027-Paramount-Theatre-Denver",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277080"
@@ -295,7 +291,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-seattle-paramount-theatre-seattle-4-28-2027/production/7587501",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351,8 +347,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_K1HJj1J",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277081/HaAsh-tickets-Wed-Apr-28-2027-Paramount-Theatre-Seattle",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277081"
@@ -373,7 +368,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-inglewood-youtube-theater-5-2-2027/production/7587525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-inglewood-california-05-02-2027/event/0A00652FC2E6A548",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422,8 +417,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277083/HaAsh-tickets-Sun-May-2-2027-YouTube-Theater-at-Hollywood-Park",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277083"
   },
@@ -443,7 +437,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-san-jose-san-jose-civic-5-6-2027/production/7587521",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-san-jose-california-05-06-2027/event/1C006531F2B0CD59",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -499,8 +493,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6wiGg_",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277082/HaAsh-tickets-Thu-May-6-2027-San-Jose-Civic",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277082"
@@ -521,7 +514,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-phoenix-arizona-05-08-2027/event/19006532CEA9AB70",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -577,8 +570,7 @@
     },
     "ticketmaster_discovery_event_id": "1A_ZkfwGkdCnQcY",
     "timezone": "America/Phoenix",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277084/HaAsh-tickets-Sat-May-8-2027-Arizona-Financial-Theatre",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277084"
@@ -599,7 +591,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-el-paso-el-paso-county-coliseum-5-12-2027/production/7587638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-el-paso-texas-05-12-2027/event/0C0065330281FD8A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,8 +647,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KGeOLU1",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277085/HaAsh-tickets-Wed-May-12-2027-El-Paso-County-Coliseum",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277085"
@@ -677,7 +668,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-irving-pavilion-at-toyota-music-factory-5-14-2027/production/7587556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-irving-texas-05-14-2027/event/0C006532CB43ECBF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -733,8 +724,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K558XwT",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277086/HaAsh-tickets-Fri-May-14-2027-The-Pavilion-at-Toyota-Music-Factory",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277086"
@@ -755,7 +745,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-hidalgo-payne-arena-5-15-2027/production/7587572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-hidalgo-texas-05-15-2027/event/3A0065314D07B4F1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -811,8 +801,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KAuvDKs",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277087/HaAsh-tickets-Sat-May-15-2027-Payne-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277087"
@@ -833,7 +822,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-houston-texas-05-16-2027/event/3A006531B032BEEB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -889,8 +878,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkYGlDl",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277088/HaAsh-tickets-Sun-May-16-2027-713-Music-Hall",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277088"
@@ -911,7 +899,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-new-york-new-york-05-19-2027/event/000065338F6858FA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -967,8 +955,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_KC2QANB",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277089/HaAsh-tickets-Wed-May-19-2027-United-Palace-Theatre",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277089"
@@ -989,7 +976,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-atlanta-georgia-05-21-2027/event/0E006532989485E5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1045,8 +1032,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K1bPF9P",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277090/HaAsh-tickets-Fri-May-21-2027-Coca-Cola-Roxy",
     "stubhub_international_url": "https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277090"
@@ -1067,7 +1053,7 @@
     "vividseats_url": "https://www.vividseats.com/haash-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-5-22-2027/production/7587644",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-miami-beach-florida-05-22-2027/event/0D006532A1EF8D44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1116,8 +1102,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K1-Dzg7",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277091"
   }

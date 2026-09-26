@@ -665,7 +665,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-vancouver-bc-place-stadium-5-8-2027--concerts-hard-rock/production/7563478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -721,8 +721,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkD3wcU8",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268591",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268591/Metallica-tickets-Sat-May-8-2027-BC-Place-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657"
@@ -743,7 +742,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-diego-snapdragon-stadium-5-13-2027--concerts-hard-rock/production/7563504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -799,8 +798,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3RSxTwD",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268592",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268592/Metallica-tickets-Thu-May-13-2027-Snapdragon-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-san-diego-tickets-5-13-2027/event/107669480"
@@ -821,7 +819,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-el-paso-sun-bowl-stadium-5-18-2027--concerts-hard-rock/production/7563516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -877,8 +875,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3zjrN4D",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268593",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268593/Metallica-tickets-Tue-May-18-2027-Sun-Bowl-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513"
@@ -899,7 +896,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-antonio-alamodome-5-22-2027--concerts-hard-rock/production/7563518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -955,8 +952,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3MPIS-k",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268594",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268594/Metallica-tickets-Sat-May-22-2027-Alamodome",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512"
@@ -977,7 +973,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1026,8 +1022,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_om30aTL",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268595",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268595/Metallica-tickets-Wed-May-26-2027-Donald-W-Reynolds-Razorback-Stadium"
   },
@@ -1047,7 +1042,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-kansas-city-arrowhead-stadium-5-29-2027--concerts-hard-rock/production/7563528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1103,8 +1098,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkwEMFoK",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268597",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268597/Metallica-tickets-Sat-May-29-2027-Arrowhead-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967"
@@ -1125,7 +1119,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-indianapolis-lucas-oil-stadium-6-5-2027--concerts-hard-rock/production/7563544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1181,8 +1175,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkTr8LNi",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268598",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268598/Metallica-tickets-Sat-Jun-5-2027-Lucas-Oil-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-indianapolis-tickets-6-5-2027/event/107668970"
@@ -1203,7 +1196,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-orchard-park-highmark-stadium-6-8-2027--concerts-hard-rock/production/7563550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1259,8 +1252,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17GZ_3GkTmReUp",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268600",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268600/Metallica-tickets-Tue-Jun-8-2027-New-Highmark-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-orchard-park-tickets-6-8-2027/event/107668971"
@@ -1281,7 +1273,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-cleveland-huntington-bank-field-6-15-2027--concerts-hard-rock/production/7563446",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1337,8 +1329,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkDYwNGG",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268601/Metallica-tickets-Tue-Jun-15-2027-Huntington-Bank-Field",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973"
@@ -1359,7 +1350,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-salt-lake-city-rice-eccles-stadium-6-19-2027--concerts-hard-rock/production/7563558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1415,8 +1406,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3Hepr-9",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268602/Metallica-tickets-Sat-Jun-19-2027-Rice-Eccles-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972"

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-dallas-the-echo-lounge-and-music-hall-3-2-2027--concerts-pop/production/7600460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -64,8 +64,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KG_q-iH",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286278/Lukas-Graham-tickets-Tue-Mar-2-2027-The-Echo-Lounge-and-Music-Hall",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286278"
   },
@@ -85,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-atlanta-buckhead-theatre-3-4-2027--concerts-pop/production/7600468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -134,8 +133,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KGj9z2e",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286279/Lukas-Graham-tickets-Thu-Mar-4-2027-Buckhead-Theatre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286279"
   },
@@ -155,7 +153,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-tampa-the-ritz-theater---ybor-city-3-5-2027--concerts-pop/production/7600476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,8 +202,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KpwcUtV",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286280"
   },
@@ -225,7 +222,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-charlotte-the-fillmore-charlotte-3-7-2027/production/7600972",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274,8 +271,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpbekzf",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286281"
   },
@@ -295,7 +291,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-silver-spring-the-fillmore-silver-spring-3-9-2027--concerts-pop/production/7600510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -344,8 +340,7 @@
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdU1_Zg",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286282"
   },
@@ -365,7 +360,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400,8 +395,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_KQ-E_YF",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb",
@@ -419,7 +413,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-boston-citizens-house-of-blues-boston-4-2-2027--concerts-pop/production/7600525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -468,8 +462,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_K8xG7IhPb",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286284"
   },
@@ -489,7 +482,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-philadelphia-theatre-of-living-arts-4-3-2027--concerts-pop/production/7600529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -524,8 +517,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1aOvPuf-ZF9v5",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lukas-graham-2027-toronto-1f7zvpgxaoz786kf",
@@ -543,7 +535,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-toronto-the-danforth-music-hall-4-6-2027/production/7600952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -578,8 +570,7 @@
     },
     "ticketmaster_discovery_event_id": "1F7ZvPGxaOZ786kF",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lukas-graham-2027-detroit-vv1afzkfwgkddfuvd",
@@ -597,7 +588,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -632,8 +623,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkdDfuvd",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lukas-graham-2027-indianapolis-vv1kv8vpuvgauq0sn",
@@ -651,7 +641,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-8-2027--concerts-pop/production/7600581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -700,8 +690,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPuvGAuq0Sn",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286290/Lukas-Graham-tickets-Thu-Apr-8-2027-Egyptian-Room-At-Old-National-Centre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286290"
   },
@@ -721,7 +710,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-minneapolis-uptown-theater-minneapolis-4-10-2027--concerts-pop/production/7600599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -756,8 +745,7 @@
     },
     "ticketmaster_discovery_event_id": "vv11bZ_KF-OVb0",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lukas-graham-2027-chicago-vv1a7zkfugkegdi06",
@@ -775,7 +763,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-chicago-house-of-blues-chicago-4-11-2027--concerts-pop/production/7600614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -824,8 +812,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkegDi06",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286294"
   }

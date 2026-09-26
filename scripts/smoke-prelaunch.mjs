@@ -4081,14 +4081,14 @@ assert(
   "artist-city canonical should be self-referencing"
 );
 assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page should render the '[Artist] Tickets in [City]' H1");
-// The title leads with "| Prices & Dates" because it matches both halves of
-// what these pages are searched for ("<artist> <city> ticket prices" and
-// "<artist> <city> tickets") in one string that never changes. A long
-// artist/city pair can still fall through fitTitleToBudget's ladder, so the
-// whole ladder is accepted rather than only its head.
+// The title mirrors the query ("<artist> <city> tickets <year>") and then says
+// what the page does: "| Compare Prices at <venue>" for a single-venue run,
+// "| Compare Prices & Dates" otherwise. A long artist/city pair can still fall
+// through fitTitleToBudget's ladder, so the whole ladder is accepted rather
+// than only its head.
 const artistCityTitle = extractTitle(artistCityPage.text);
 assert(
-  /\| Prices & Dates$|\| Compare Prices$|\| Tickets$|Tickets in [^|]+$/.test(artistCityTitle),
+  /\| (Compare )?Prices at [^|]+$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
 );
 // A listed price moves faster than a search snippet refreshes, and route

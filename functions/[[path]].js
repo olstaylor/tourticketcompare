@@ -2353,20 +2353,40 @@ function artistCityVenueLabel(artistCity) {
 function artistCityTitle(artist, artistCity) {
   const label = artistCity.label;
   const shortLabel = withoutParentheticalQualifier(label);
-  // "Prices & Dates" leads because it is the one tail that matches both halves
-  // of what these pages are searched for — "<artist> <city> ticket prices" and
-  // "<artist> <city> tickets" — in a string that never changes. A live figure
-  // is deliberately absent: metadata is composed here, before any price is
-  // fetched, and route.description is emitted verbatim as the CollectionPage
-  // JSON-LD description (see routeSchema), which is not gated on indexability.
-  // A price there would be machine-readable redistribution outside the
-  // SCHEMA_OFFERS_ENABLED exception and invisible to validate-route-schema.mjs.
+  // Mirrors the query word for word — "<artist> <city> tickets <year>" — then
+  // says what the page does. The year(s) come only from the run's own upcoming
+  // dates, read in each venue's calendar exactly as the artist page reads them.
+  // A single-venue run names that venue ("at Etihad Stadium"), the one local
+  // fact that tells a searcher this is the page for their show; a multi-venue
+  // run falls back to "& Dates", never a list of venues. Shed order: the
+  // parenthetical city qualifier, then "Compare" (so the venue survives the
+  // 60-character budget — "Oasis Manchester Tickets 2027 | Compare Prices at
+  // Etihad Stadium" is 64), then the venue, then the tail, then the year.
+  //
+  // A live figure is deliberately absent: metadata is composed here, before any
+  // price is fetched, and route.description is emitted verbatim as the
+  // CollectionPage JSON-LD description (see routeSchema), which is not gated on
+  // indexability. A price there would be machine-readable redistribution
+  // outside the SCHEMA_OFFERS_ENABLED exception and invisible to
+  // validate-route-schema.mjs.
+  const year = yearRangeLabel(
+    (artistCity.shows || []).map((show) => eventLocalYear(show.datetime_iso, show.timezone))
+  );
+  const lead = (place) => `${artist.name} ${place} Tickets${year ? ` ${year}` : ""}`;
+  const venue = (artistCity.venues || []).length === 1 ? artistCity.venues[0] : "";
   return fitTitleToBudget([
-    `${artist.name} Tickets in ${label} | Prices & Dates`,
-    `${artist.name} Tickets in ${shortLabel} | Prices & Dates`,
-    `${artist.name} Tickets in ${shortLabel} | Compare Prices`,
-    `${artist.name} Tickets in ${shortLabel} | Tickets`,
-    `${artist.name} Tickets in ${shortLabel}`
+    ...(venue
+      ? [
+          `${lead(label)} | Compare Prices at ${venue}`,
+          `${lead(shortLabel)} | Compare Prices at ${venue}`,
+          `${lead(shortLabel)} | Prices at ${venue}`
+        ]
+      : []),
+    `${lead(label)} | Compare Prices & Dates`,
+    `${lead(shortLabel)} | Compare Prices & Dates`,
+    `${lead(shortLabel)} | Compare Prices`,
+    lead(shortLabel),
+    `${artist.name} ${shortLabel} Tickets`
   ]);
 }
 

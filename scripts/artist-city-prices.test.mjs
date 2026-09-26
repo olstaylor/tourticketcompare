@@ -446,7 +446,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 // ── metadata stays free of live numbers ─────────────────────────────────────
 {
   const page = await render(RUN_PATH);
-  assert(page.title.includes("Prices & Dates") || page.title.includes("Prices &amp; Dates"), "the title carries the stable price intent token");
+  assert(/\| (Compare )?Prices\b/.test(page.title), `the title carries the stable price intent token (was "${page.title}")`);
   assert(page.title.length <= 60, `the title stays within budget (was ${page.title.length})`);
   assert(!/\d+(\.\d+)?/.test(page.title.replace(/\d{4}/g, "")), "no live figure appears in the title");
   assert(

@@ -198,10 +198,16 @@ export function yearRangeLabel(years) {
  * 2027"), so an artist with upcoming dates gets the year(s) of those dates in
  * the title. The label comes only from dates on the board, so the title never
  * names a year the page does not show, and it rolls forward on its own as
- * dates pass. The site suffix goes before the year does.
+ * dates pass.
+ *
+ * The title says what the page does — "<Artist> Tickets <year> | Compare
+ * Prices & Tour Dates" — rather than carrying the site name: the query is
+ * "<artist> tickets <year>", and comparing checked ticket sites per date is
+ * the page's job. The tail is shed before the year or the name is.
  *
  * Only the house templates in catalog.json are rewritten; a hand-written
- * `seo_title` is left exactly as authored. No upcoming dates, no year.
+ * `seo_title` is left exactly as authored. No upcoming dates, no year, and no
+ * "Compare Prices" promise over an empty board: the authored title stands.
  *
  * @param {{ name?: string, seo_title?: string }} artist
  * @param {string} yearLabel From yearRangeLabel over the board's shows.
@@ -218,9 +224,10 @@ export function artistPageTitle(artist, yearLabel) {
   ];
   if (!name || !yearLabel || !houseTemplates.includes(authored)) return authored;
   return fitTitleToBudget([
-    `${name} Tickets & ${yearLabel} Tour Dates | TourTicketCompare`,
-    `${name} Tickets & ${yearLabel} Tour Dates`,
-    `${name} Tickets & ${yearLabel} Dates`,
+    `${name} Tickets ${yearLabel} | Compare Prices & Tour Dates`,
+    `${name} Tickets ${yearLabel} | Compare Prices & Dates`,
+    `${name} Tickets ${yearLabel} | Compare Prices`,
+    `${name} Tickets ${yearLabel}`,
     authored
   ]);
 }

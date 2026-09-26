@@ -341,6 +341,23 @@ const musicEventFor = (nodes, id) => nodes.find((node) => node?.["@type"] === "M
   for (const code of ["onsale", "offsale", ""]) {
     assert(!("ticketmaster_status_code" in discovery(code)), `a live Discovery '${code || "(none)"}' show carries no lifecycle key, so it never clears a stored hold when merged`);
   }
+
+  // Merging a live show over a persisted row (Codex, #1194): a stored hold is
+  // never lifted by live Discovery; a live hold still applies.
+  const persisted = (code) => showsModule.mapEventsToShows([{
+    ...SCHEDULED,
+    id: "fixture-merge",
+    ticketmaster_discovery_event_id: "Z7r9jZ1AAtest",
+    ...(code ? { ticketmaster_status_code: code } : {})
+  }])[0];
+  const merged = (storedCode, liveCode) => showsModule.mergeShows([persisted(storedCode)], [discovery(liveCode)]);
+  for (const [stored, live] of [["cancelled", "rescheduled"], ["cancelled", "onsale"], ["postponed", "rescheduled"], ["postponed", ""]]) {
+    const result = merged(stored, live);
+    assert(result.length === 1 && result[0].ticketmaster_status_code === stored && eventLifecycleHeld(result[0]),
+      `a stored '${stored}' survives a live '${live || "(none)"}' response (got ${result.map((show) => show.ticketmaster_status_code).join(",")})`);
+  }
+  assert(eventLifecycleHeld(merged("", "cancelled")[0]), "a live cancellation still holds an unheld persisted row");
+  assert(eventLifecycleHeld(merged("rescheduled", "postponed")[0]), "a live postponement holds a row stored as rescheduled");
 }
 
 // ─── rendered pages ─────────────────────────────────────────────────────────

@@ -345,7 +345,7 @@ function showIdentity(show) {
   return `${slugify(show?.artist_slug)}:${date}:${venue}:${city}`;
 }
 
-function mergeShows(localShows, discoveredShows) {
+export function mergeShows(localShows, discoveredShows) {
   const merged = new Map();
   for (const show of [...localShows, ...discoveredShows]) {
     const key = showIdentity(show);
@@ -370,7 +370,11 @@ function mergeShows(localShows, discoveredShows) {
       image_url: previous.image_url || show.image_url,
       venue: previous.venue || show.venue,
       city: previous.city || show.city,
-      country: previous.country || show.country
+      country: previous.country || show.country,
+      // A hold stored by the field-sync (which clears or replaces it only from
+      // a blocker-free record) is never lifted by live Discovery: a live
+      // `rescheduled` or on-sale response must not restore the links.
+      ...(eventLifecycleHeld(previous) ? { [TICKETMASTER_STATUS_FIELD]: previous[TICKETMASTER_STATUS_FIELD] } : {})
     });
   }
   return [...merged.values()].sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));

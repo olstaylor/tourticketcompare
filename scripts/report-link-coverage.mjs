@@ -414,6 +414,19 @@ function selfTest() {
   const heldAnalysis = analyse([{ ...base, id: "u-held", ticketmaster_status_code: "cancelled" }], allConfigured, new Map(), now);
   assert("a lifecycle-held upcoming event is reported as held, not as a zero-link failure",
     heldAnalysis.held.map((event) => event.id).join(",") === "u-held" && !heldAnalysis.zeroLink.some((row) => row.event.id === "u-held"));
+  {
+    // The human report names held dates even when nothing else is low-coverage.
+    const lines = [];
+    const log = console.log;
+    console.log = (...args) => lines.push(args.join(" "));
+    try {
+      printHuman(heldAnalysis, {});
+    } finally {
+      console.log = log;
+    }
+    const printed = lines.join("\n");
+    assert("held dates print even with no low-coverage date", printed.includes("u-held") && printed.includes("No non-held upcoming event"));
+  }
   assert("low coverage is the union of the two", analysis.lowCoverage.length === 2);
   assert("low coverage groups by artist", analysis.byArtist[0][0] === "ok-artist" && analysis.byArtist[0][1] === 2);
   assert("low coverage groups by country", analysis.byCountry[0][0] === "United States");
@@ -452,8 +465,15 @@ function printHuman(analysis, options) {
   console.log(`    2 links : ${distribution["2"]}`);
   console.log(`    3+ links: ${distribution["3+"]}`);
 
+  // Printed before the early return below, so held dates are always reported
+  // even when every other date has two or more links.
+  if (analysis.held.length) {
+    console.log(`\n  Held by a cancelled/postponed Ticketmaster status (links withheld on purpose, not a failure): ${analysis.held.length}`);
+    for (const event of analysis.held) console.log(`    ${event.id}  [${event.ticketmaster_status_code}]`);
+  }
+
   if (!analysis.lowCoverage.length) {
-    console.log("\nNo upcoming event has fewer than two publishable exact-event CTAs.");
+    console.log(`\nNo ${analysis.held.length ? "non-held " : ""}upcoming event has fewer than two publishable exact-event CTAs.`);
     return;
   }
 
@@ -464,11 +484,6 @@ function printHuman(analysis, options) {
   for (const [country, count] of analysis.byCountry) console.log(`    ${String(count).padStart(4)}  ${country}`);
   console.log("\n  by cause (an event can have more than one blocked lane):");
   for (const [cause, count] of analysis.byCause) console.log(`    ${String(count).padStart(4)}  ${CAUSE_LABELS[cause] || cause}`);
-
-  if (analysis.held.length) {
-    console.log(`\n  Held by a cancelled/postponed Ticketmaster status (links withheld on purpose, not a failure): ${analysis.held.length}`);
-    for (const event of analysis.held) console.log(`    ${event.id}  [${event.ticketmaster_status_code}]`);
-  }
 
   if (analysis.zeroLink.length) {
     console.log("\n  ZERO-LINK upcoming events:");

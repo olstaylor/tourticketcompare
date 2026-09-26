@@ -145,6 +145,9 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
   for (const show of upcoming) {
     const kind = classifyShow(show, now);
     counts[kind] += 1;
+    // A held date is counted and nothing else: its withheld prices are not a
+    // lane's pricing shortfall, so it stays out of the per-lane totals too.
+    if (kind === "held") continue;
     if (kind === "pre_onsale" && pricedLanes(show).length) preOnsalePriced += 1;
     for (const lane of mappedPriceLanes(show)) increment(laneMapped, lane.name);
     for (const lane of pricedLanes(show)) {
@@ -333,6 +336,7 @@ function selfTest() {
     const withHeld = analyse([...shows, cancelled], { now });
     assert.equal(withHeld.counts.held, 1);
     assert.equal(withHeld.coverage_share, report.coverage_share, "a held date does not move the coverage share");
+    assert.deepEqual(withHeld.lanes, report.lanes, "a held date does not enter the per-lane mapped or priced totals");
   }
   assert.equal(report.pre_onsale_priced, 1, "a priced pre-on-sale date is counted apart");
   assert.equal(classifyShow(shows[9], now), "pre_onsale", "a priced pre-on-sale date stays pre_onsale");

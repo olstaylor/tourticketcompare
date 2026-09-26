@@ -217,6 +217,7 @@ npm run test:event-local-date                 # shared venue-local date/instant 
                                               #   every provider matcher (in test:mvp)
 npm run test:event-pages                      # event identity: stable keys, future event paths (in test:mvp)
 npm run test:event-lifecycle                  # cancelled/postponed holds on every surface and /api/out (in test:mvp)
+npm run test:event-page                       # /events/* routing, noindex, lifecycle and parent-card parity (in test:mvp)
 npm run report:event-routes                   # read-only event identity/route diagnostic (not a test)
 npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
 npm run seatgeek:enrich:self-test             # SeatGeek enrichment scheduling + matching (in test:mvp)

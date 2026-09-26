@@ -1,12 +1,12 @@
 // @ts-check
-// Event identity and future event-route derivation. Foundation only.
+// Event identity and event-route derivation.
 //
-// Nothing imports this module at runtime yet: there is no /events/* route, no
-// sitemap entry, no internal link and no structured data for an individual
-// event. It exists so that when event pages are built, the router, sitemap and
-// audits all derive the same URL for the same show from one place — the same
-// reason functions/_artist-cities.js is shared. See docs/ARCHITECTURE.md →
-// "Event identity".
+// The router (functions/[[path]].js) serves /events/* from resolveEventRoute
+// below. Every event page is noindex,follow: there is no sitemap entry, no
+// llms.txt line, no parent-page link and no event structured data yet. The
+// router, and later the sitemap and audits, derive the same URL for the same
+// show from this one module — the same reason functions/_artist-cities.js is
+// shared. See docs/ARCHITECTURE.md → "Event identity".
 //
 // Identity vs readable slug
 // -------------------------
@@ -36,6 +36,8 @@ import { slugify } from "./_cities.js";
 import { INDEXABLE_ARTIST_STATUS } from "./_artist-indexability.js";
 import { eventLifecycle, eventLifecycleHeld, eventPublishable, eventStatusPublishable, publicOnsalePending } from "./_route-indexability.js";
 import { PRICE_GUIDE_SNAPSHOT_PROVIDERS, linkVerifiedWithUrl } from "./_price-guides.js";
+import { findArtistCity } from "./_artist-cities.js";
+import { citySlug } from "./_cities.js";
 
 export const EVENT_PATH_PREFIX = "/events/";
 
@@ -428,7 +430,10 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
   LOCAL_DATE_UNRESOLVED: "local_date_unresolved",
   MISSING_VENUE_OR_CITY: "missing_venue_or_city",
   LIFECYCLE_HELD: "lifecycle_held",
-  NO_PUBLISHABLE_DESTINATION: "no_publishable_destination"
+  NO_PUBLISHABLE_DESTINATION: "no_publishable_destination",
+  // Addressability only; never part of `reasons`, so `renderable` keeps its
+  // PR1 meaning.
+  NON_PERFORMANCE_LISTING: "non_performance_listing"
 });
 
 /**
@@ -441,9 +446,19 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
  * @property {string} path              Future canonical path, "" when none.
  * @property {string} lifecycle         EVENT_LIFECYCLE value from the stored Ticketmaster status.
  * @property {boolean} upcoming
- * @property {boolean} renderable
+ * @property {boolean} renderable       Addressable, upcoming and commercially live: every
+ *                                      condition below passed (the indexing preview reads this).
  * @property {string[]} reasons         Every failed structural condition.
  * @property {string[]} nonPerformance  Markers; reported, not a structural condition.
+ * @property {boolean} addressable      A genuine performance TTC can describe factually:
+ *                                      id, editorially indexable artist, venue-local date,
+ *                                      venue and city, and not a non-performance listing.
+ *                                      Says nothing about time or ticket links.
+ * @property {string[]} addressReasons  Every failed addressability condition.
+ * @property {boolean} held             Cancelled, postponed or unrecognised Ticketmaster status.
+ * @property {boolean} onsalePending    Ticketmaster's public on-sale is still ahead.
+ * @property {boolean} commerciallyLive Addressable, upcoming, not held, and eventPublishable:
+ *                                      ticket links may be shown.
  */
 
 /**
@@ -477,8 +492,23 @@ export function eventRouteState(event, options = {}) {
     reasons.push(EVENT_ROUTE_REASONS.MISSING_VENUE_OR_CITY);
   }
   // A held show fails eventPublishable too; it is reported as what it is.
-  if (eventLifecycleHeld(event)) reasons.push(EVENT_ROUTE_REASONS.LIFECYCLE_HELD);
-  else if (!eventPublishable(event, now)) reasons.push(EVENT_ROUTE_REASONS.NO_PUBLISHABLE_DESTINATION);
+  const held = eventLifecycleHeld(event);
+  const publishable = eventPublishable(event, now);
+  if (held) reasons.push(EVENT_ROUTE_REASONS.LIFECYCLE_HELD);
+  else if (!publishable) reasons.push(EVENT_ROUTE_REASONS.NO_PUBLISHABLE_DESTINATION);
+  const nonPerformance = nonPerformanceMarkers(event);
+  // Addressability is the structural subset of the reasons above, plus the
+  // non-performance check: whether this is a real show TTC can describe, as
+  // opposed to whether it can sell it today (commerciallyLive) or whether it
+  // should be indexed (not decided here).
+  const addressReasons = reasons.filter((reason) =>
+    reason === EVENT_ROUTE_REASONS.MISSING_ID ||
+    reason === EVENT_ROUTE_REASONS.ARTIST_NOT_EDITORIALLY_INDEXABLE ||
+    reason === EVENT_ROUTE_REASONS.LOCAL_DATE_UNRESOLVED ||
+    reason === EVENT_ROUTE_REASONS.MISSING_VENUE_OR_CITY
+  );
+  if (nonPerformance.length) addressReasons.push(EVENT_ROUTE_REASONS.NON_PERFORMANCE_LISTING);
+  const addressable = addressReasons.length === 0;
   return {
     id,
     key: eventKey(id),
@@ -490,7 +520,12 @@ export function eventRouteState(event, options = {}) {
     upcoming,
     renderable: reasons.length === 0,
     reasons,
-    nonPerformance: nonPerformanceMarkers(event)
+    nonPerformance,
+    addressable,
+    addressReasons,
+    held,
+    onsalePending: publicOnsalePending(event, now),
+    commerciallyLive: addressable && upcoming && !held && publishable
   };
 }
 
@@ -507,6 +542,88 @@ export function deriveEventRouteStates(events, artists, options = {}) {
   return (Array.isArray(events) ? events : []).map((event) =>
     eventRouteState(event, { ...options, artist: bySlug.get(slugify(event?.artist_slug)) })
   );
+}
+
+// ---------------------------------------------------------------------------
+// Route decision
+// ---------------------------------------------------------------------------
+
+export const EVENT_ROUTE_ACTION = Object.freeze({
+  RENDER: "render",
+  REDIRECT: "redirect",
+  NOT_FOUND: "not_found"
+});
+
+/**
+ * Where a visitor holding an event URL goes once the event page is not the
+ * answer: the artist's page for that city while it still renders (the
+ * artist-city router's own condition: an editorially indexable artist with a
+ * publishable upcoming show there), otherwise the artist page.
+ *
+ * @param {any[]} events
+ * @param {any} event
+ * @param {any} artist artists.json record.
+ * @param {number} now
+ * @returns {string}
+ */
+export function eventParentPath(events, event, artist, now) {
+  // The site's own slug, as the artist routes use it (not the accent-folded
+  // readable slug, which is decorative).
+  const artistSlug = slugify(event?.artist_slug);
+  const slug = citySlug(event?.city, event?.country);
+  if (artist?.indexing_status === INDEXABLE_ARTIST_STATUS && slug) {
+    const artistCity = findArtistCity(events, artistSlug, slug, { now });
+    if (artistCity?.hasPublishable) return `/artists/${artistSlug}/tickets/${artistCity.slug}`;
+  }
+  return `/artists/${artistSlug}`;
+}
+
+/**
+ * What the router does with an /events/* path. Pure: no I/O.
+ *
+ *   - Anything the PR1 resolver cannot resolve to exactly one event whose
+ *     artist matches the URL (malformed, unknown key, key collision, artist
+ *     mismatch, no resolvable local date) -> not found.
+ *   - A record that is not addressable (not a real show TTC can describe:
+ *     non-performance listing, artist not editorially indexable, no venue or
+ *     city) -> not found. The site does not generate pages for these.
+ *   - A past event -> 301 to its parent (eventParentPath). Expiry is decided
+ *     before the slug check so an out-of-date URL takes one hop, not two.
+ *   - An upcoming event reached by an out-of-date readable slug -> 301 to its
+ *     current canonical path. Only the key identifies the event.
+ *   - An upcoming event that is neither held, commercially live, nor waiting
+ *     for its public on-sale can lead nowhere -> 301 to its parent, the
+ *     convention an artist-city page with no publishable show already follows.
+ *   - Otherwise render: commercially live, lifecycle-held (the page states the
+ *     status and shows no ticket links), or pre-on-sale (the page states the
+ *     on-sale time). Held is a presentation state, never a reason to redirect
+ *     a future event.
+ *
+ * @param {any[]} events
+ * @param {any[]} artists artists.json records.
+ * @param {unknown} pathname Normalized request path.
+ * @param {{ now?: number }} [options]
+ * @returns {{ action: string, reason: string, location?: string, event?: any, artist?: any, state?: EventRouteState, canonicalPath?: string }}
+ */
+export function resolveEventRoute(events, artists, pathname, options = {}) {
+  const now = Number.isFinite(options.now) ? Number(options.now) : Date.now();
+  const resolved = resolveEventPath(events, pathname);
+  if (resolved.status !== EVENT_RESOLUTION.OK) return { action: EVENT_ROUTE_ACTION.NOT_FOUND, reason: resolved.status };
+  const event = resolved.event;
+  const artistSlug = slugify(event?.artist_slug);
+  const artist = (Array.isArray(artists) ? artists : []).find((record) => slugify(record?.slug) === artistSlug);
+  const state = eventRouteState(event, { artist, now });
+  if (!state.addressable) return { action: EVENT_ROUTE_ACTION.NOT_FOUND, reason: state.addressReasons[0] };
+  if (!state.upcoming) {
+    return { action: EVENT_ROUTE_ACTION.REDIRECT, reason: "past_event", location: eventParentPath(events, event, artist, now) };
+  }
+  if (!resolved.isCanonical) {
+    return { action: EVENT_ROUTE_ACTION.REDIRECT, reason: "stale_slug", location: resolved.canonicalPath };
+  }
+  if (!state.held && !state.commerciallyLive && !state.onsalePending) {
+    return { action: EVENT_ROUTE_ACTION.REDIRECT, reason: "no_destination", location: eventParentPath(events, event, artist, now) };
+  }
+  return { action: EVENT_ROUTE_ACTION.RENDER, reason: "", event, artist, state, canonicalPath: resolved.canonicalPath };
 }
 
 // ---------------------------------------------------------------------------

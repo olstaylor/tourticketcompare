@@ -289,7 +289,7 @@ A fix would fingerprint each trust route's *rendered output* against a fixed syn
 
 Intentionally not work until separately scoped and owner-approved. Unparking removes the scope freeze, not the verification rules.
 
-- **Tour / individual event landing pages.** No separate verified-content and canonical/indexing strategy. (City and venue aggregation pages are implemented — see "Recently completed".)
+- **Tour / individual event landing pages.** No separate verified-content and canonical/indexing strategy. (Fact correction 2026-09-26 by agent: individual event pages now exist as a noindex MVP — `/events/<slug>-<key>`, unlinked and out of every sitemap; their indexing and parent links are still undecided.) (City and venue aggregation pages are implemented — see "Recently completed".)
 - **Live inventory aggregation; "cheapest ticket" / "guaranteed availability" claims.** Approved provider lanes are timestamped listed-price snapshots, not live inventory or checkout-total guarantees.
 - **Provider expansion beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International.** Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.

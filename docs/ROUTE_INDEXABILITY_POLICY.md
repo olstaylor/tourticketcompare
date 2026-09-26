@@ -178,6 +178,20 @@ option, so it does not make the page more useful than the artist page.
 **Recovery is automatic.** The moment a second date in that city is verified,
 the page flips to `index,follow` and re-enters the sitemap on the next deploy.
 
+### Event — `/events/<slug>-<key>`
+
+**Never indexable yet.** Every event page is `noindex,follow` with a
+self-referencing canonical, absent from every sitemap and `llms.txt`, and not
+linked from any parent page. Indexing is a separate, deliberate decision;
+`previewEventIndexability` in `functions/_event-pages.js` only reports what a
+candidate policy would do (`npm run report:event-routes`).
+
+Which URLs serve, redirect or 404 is documented in `docs/ARCHITECTURE.md` →
+Event identity and event pages. The two rules that matter here: a past event
+301s to its artist-city page (or the artist page), so expired event URLs never
+accumulate; and a cancelled or postponed *future* event keeps its page, because
+lifecycle is presentation state, not expiry.
+
 ### Artist price guide — `/artists/<artist>/ticket-prices`
 
 The informational companion to the artist page: "<artist> ticket prices". The

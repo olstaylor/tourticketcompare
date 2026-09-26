@@ -24,6 +24,7 @@ export const PAGE_TYPES = Object.freeze([
   "artist_city",
   "artist_tour",
   "artist_price_guide",
+  "event",
   "cities_index",
   "city",
   "venues_index",
@@ -73,6 +74,8 @@ export function classifyPageType(pathname) {
     if (parts.length === 3) return "artist_tour";
     return "other";
   }
+  // /events/<slug>-<key>: one performance.
+  if (parts[0] === "events") return parts.length === 2 ? "event" : "other";
   if (parts[0] === "cities") return parts.length === 1 ? "cities_index" : parts.length === 2 ? "city" : "other";
   if (parts[0] === "venues") return parts.length === 1 ? "venues_index" : parts.length === 2 ? "venue" : "other";
   if (parts[0] === "guides") return parts.length === 1 ? "guides_index" : parts.length === 2 ? "guide" : "other";

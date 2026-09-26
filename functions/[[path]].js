@@ -36,6 +36,7 @@ import {
   priceGuideRouteDecision
 } from "./_price-guides.js";
 import { derivePriceMove, fetchEventPriceMoveSeries, PRICE_MOVE_WINDOW_DAYS } from "./_event-price-moves.js";
+import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, resolveEventRoute } from "./_event-pages.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -529,6 +530,21 @@ async function routeForPath(pathname, env) {
       calendar,
       breadcrumb: [{ name: "On-sale calendar", path: ONSALE_CALENDAR_PATH }]
     };
+  }
+
+  // Individual event pages: /events/<artist>-<venue>-<city>-<local date>-<key>.
+  // Every one is noindex,follow, absent from the sitemaps and llms.txt, and not
+  // yet linked from any other page. The decision — render, 301 (past event,
+  // out-of-date readable slug, nowhere to lead) or 404 — is resolveEventRoute
+  // in functions/_event-pages.js; only the stable key identifies the event.
+  if (path.startsWith(EVENT_PATH_PREFIX)) {
+    const [events, artistsMeta, catalog] = await Promise.all([loadEvents(env), loadArtistsMeta(env), loadCatalog(env)]);
+    const decision = resolveEventRoute(events, artistsMeta, path);
+    if (decision.action === EVENT_ROUTE_ACTION.REDIRECT) return { type: "redirect", location: decision.location };
+    if (decision.action !== EVENT_ROUTE_ACTION.RENDER) return null;
+    const artist = findArtist(catalog, slugify(decision.event.artist_slug));
+    if (!artist) return null;
+    return eventPageRoute(decision, artist, catalog, events);
   }
 
   if (path === "/cities" || path.startsWith("/cities/")) {
@@ -2569,6 +2585,36 @@ function artistCityFaqEntries(artist, artistCity) {
   return entries;
 }
 
+// The trailing recorded low for one date, as one phrase, or "". Shared by the
+// artist-city price answer and the event page. `deriveEventPriceLow` includes
+// the live snapshot among its candidates, so the low can never be above the
+// current lowest listed price; the two branches are "we have recorded it
+// lower" and "this is the lowest we recorded".
+function priceLowLabel(low, currentLowestPrice) {
+  if (!low) return "";
+  const lowAmount = formatServerPrice(low.price, low.currency);
+  const lowDate = formatObservationDate(low.observedAt);
+  if (!lowAmount || !lowDate) return "";
+  if (low.price < currentLowestPrice) return `${PRICE_LOW_WINDOW_DAYS}-day low ${lowAmount} · ${low.name}, ${lowDate}`;
+  // Only sayable when we actually hold observations. With no history the live
+  // price trivially "wins" its own comparison, and printing this for that case
+  // would claim a month of watching that never happened.
+  if (low.backedByHistory) return `Lowest recorded in ${PRICE_LOW_WINDOW_DAYS} days`;
+  return "";
+}
+
+// One recorded price move for one date and ticket site, as a sentence, or "".
+// Shared by the price guide and the event page.
+function priceMoveSentence(move) {
+  const from = formatServerPrice(move.from, move.currency);
+  const to = formatServerPrice(move.to, move.currency);
+  const delta = formatServerPrice(Math.abs(move.delta), move.currency);
+  const fromDate = formatObservationDate(move.fromObservedAt);
+  const changed = formatObservationDate(move.changedAt);
+  if (!from || !to || !delta || !fromDate) return "";
+  return `${move.name} ${move.direction} ${delta}: ${from} when recorded ${fromDate}, now ${to}${changed ? ` since ${changed}` : ""}.`;
+}
+
 // The page-level answer to the question these pages are actually searched for.
 // One row per tracked date, each carrying that date's own lowest eligible
 // listed-price snapshot, the provider offering it, and when it was captured.
@@ -2622,27 +2668,8 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // includes the live snapshot among its candidates, so this can never be
         // above the figure on the button directly above it; the two branches are
         // "we have recorded it lower" and "this is the lowest we recorded".
-        const low = priceLowByShowId.get(row.showId);
-        let lowLine = "";
-        if (low) {
-          const lowAmount = formatServerPrice(low.price, low.currency);
-          const lowDate = formatObservationDate(low.observedAt);
-          if (lowAmount && lowDate) {
-            if (low.price < row.lowest.price) {
-              lowLine = `<span class="price-answer-low muted">${escapeHtml(
-                `${PRICE_LOW_WINDOW_DAYS}-day low ${lowAmount} · ${low.name}, ${lowDate}`
-              )}</span>`;
-            } else if (low.backedByHistory) {
-              // Only sayable when we actually hold observations. With no history
-              // the live price trivially "wins" its own comparison, and printing
-              // this for that case would claim a month of watching that never
-              // happened.
-              lowLine = `<span class="price-answer-low muted">${escapeHtml(
-                `Lowest recorded in ${PRICE_LOW_WINDOW_DAYS} days`
-              )}</span>`;
-            }
-          }
-        }
+        const lowText = priceLowLabel(priceLowByShowId.get(row.showId), row.lowest.price);
+        const lowLine = lowText ? `<span class="price-answer-low muted">${escapeHtml(lowText)}</span>` : "";
         priceCell = `${button}<span class="price-answer-asof muted">${escapeHtml(
           age ? `${asOf}, ${age}` : asOf
         )}</span>${lowLine}`;
@@ -2834,15 +2861,9 @@ function renderPriceGuideMoves(artist, moves, pricedRowCount, guideShowsById) {
       const show = guideShowsById.get(move.showId) || {};
       const dateLabel = formatShowDateServer(show.datetime_iso, show.timezone);
       const where = [show.city, show.venue].filter(Boolean).join(", ");
-      const from = formatServerPrice(move.from, move.currency);
-      const to = formatServerPrice(move.to, move.currency);
-      const delta = formatServerPrice(Math.abs(move.delta), move.currency);
-      const fromDate = formatObservationDate(move.fromObservedAt);
-      const changed = formatObservationDate(move.changedAt);
-      if (!from || !to || !delta || !fromDate) return "";
-      return `<li><strong>${escapeHtml(`${dateLabel}${where ? ` · ${where}` : ""}`)}</strong>: ${escapeHtml(
-        `${move.name} ${move.direction} ${delta}: ${from} when recorded ${fromDate}, now ${to}${changed ? ` since ${changed}` : ""}.`
-      )}</li>`;
+      const sentence = priceMoveSentence(move);
+      if (!sentence) return "";
+      return `<li><strong>${escapeHtml(`${dateLabel}${where ? ` · ${where}` : ""}`)}</strong>: ${escapeHtml(sentence)}</li>`;
     })
     .filter(Boolean)
     .join("");
@@ -5273,6 +5294,161 @@ export function renderGuideProviderPair(route, events, env = {}) {
   return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>These are the next reviewed dates with a safe, event-specific link for both Ticketmaster and Vivid Seats. Open both and match the ticket details and checkout total yourself.</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
 }
 
+// Title and description for an event page. Composed before any price is
+// fetched, so neither can carry a live figure; a held date's never says
+// "tickets".
+function eventPageTitle(artistName, venue, city, dateLabel, lifecycle) {
+  const suffix =
+    lifecycle === EVENT_LIFECYCLE.CANCELLED ? " (Cancelled)" : lifecycle === EVENT_LIFECYCLE.POSTPONED ? " (Postponed)" : "";
+  const tickets = lifecycle === EVENT_LIFECYCLE.SCHEDULED || lifecycle === EVENT_LIFECYCLE.RESCHEDULED ? " Tickets" : "";
+  return fitTitleToBudget([
+    `${artistName} at ${venue}, ${city} — ${dateLabel}${suffix}${tickets} | TourTicketCompare`,
+    `${artistName} at ${venue}, ${city} — ${dateLabel}${suffix}${tickets}`,
+    `${artistName} at ${venue} — ${dateLabel}${suffix}${tickets}`,
+    `${artistName}, ${city} — ${dateLabel}${suffix}`
+  ]);
+}
+
+function eventPageDescription(artistName, venue, city, dateLabel, state) {
+  const what = `${artistName} at ${venue} in ${city} on ${dateLabel}`;
+  if (state.lifecycle === EVENT_LIFECYCLE.CANCELLED) return fitMetaDescription(`Ticketmaster lists ${what} as cancelled. No ticket links are shown for this date.`);
+  if (state.lifecycle === EVENT_LIFECYCLE.POSTPONED) return fitMetaDescription(`Ticketmaster lists ${what} as postponed. No ticket links are shown until it is back on sale.`);
+  if (state.held) return fitMetaDescription(`${what}. This date's Ticketmaster status is being checked, so no ticket links are shown.`);
+  if (!state.commerciallyLive) return fitMetaDescription(`${what}: when Ticketmaster's public on-sale opens, and ticket links once the date is on sale.`);
+  return fitMetaDescription(
+    `Checked ticket links for ${what}, with each ticket site's listed-price snapshot where one is available.`,
+    `Checked ticket links for ${what}.`
+  );
+}
+
+function eventPageRoute(decision, artist, catalog, events) {
+  const event = decision.event;
+  const state = decision.state;
+  const venue = String(event.venue || "").trim();
+  const city = String(event.city || "").trim();
+  const country = normalizeCountry(event.country);
+  const shortDate = formatShortDateServer(event.datetime_iso, event.timezone);
+  const locationSlug = citySlug(city, country);
+  const artistCity = findArtistCity(events, artist.slug, locationSlug);
+  const venueSlugValue = slugify(`${venue} ${city}`);
+  return {
+    type: "event",
+    path: decision.canonicalPath,
+    // Every event page is noindex,follow until event-page indexing is decided
+    // (docs/ROUTE_INDEXABILITY_POLICY.md); nothing here reads the preview.
+    indexable: false,
+    title: eventPageTitle(artist.name, venue, city, shortDate, state.lifecycle),
+    description: eventPageDescription(artist.name, venue, city, shortDate, state),
+    artist: { ...artist, indexing_status: decision.artist?.indexing_status || "" },
+    event,
+    eventState: state,
+    artistCityPath: artistCity?.hasPublishable ? `/artists/${artist.slug}/tickets/${artistCity.slug}` : "",
+    artistCityLabel: artistCity?.label || city,
+    cityPath: deriveCities(events).some((entry) => entry.indexable && entry.slug === locationSlug) ? `/cities/${locationSlug}` : "",
+    venuePath: deriveVenues(events).some((entry) => entry.indexable && entry.slug === venueSlugValue) ? `/venues/${venueSlugValue}` : "",
+    catalog,
+    events,
+    breadcrumb: [
+      { name: "Artists", path: "/artists" },
+      { name: artist.name, path: `/artists/${artist.slug}` },
+      ...(artistCity?.hasPublishable ? [{ name: `${artistCity.label} tickets`, path: `/artists/${artist.slug}/tickets/${artistCity.slug}` }] : []),
+      { name: `${venue}, ${shortDate}`, path: decision.canonicalPath }
+    ]
+  };
+}
+
+// The status line for the event facts, or "" for an ordinary on-sale date.
+// Each states only what Ticketmaster's stored status or on-sale time says.
+function eventStatusFact(show) {
+  const lifecycle = eventLifecycle(show);
+  if (lifecycle === EVENT_LIFECYCLE.CANCELLED) return "Cancelled, per Ticketmaster";
+  if (lifecycle === EVENT_LIFECYCLE.POSTPONED) return "Postponed, per Ticketmaster";
+  if (lifecycle === EVENT_LIFECYCLE.RESCHEDULED) return "Rescheduled, per Ticketmaster: the date above is the new one";
+  if (lifecycle === EVENT_LIFECYCLE.UNRECOGNISED) return "Being checked";
+  if (publicOnsalePending(show)) return publicOnsaleLabel(show);
+  return "";
+}
+
+// One event: the facts, the same show card every board renders (so the same
+// CTA gates, /api/out links, price snapshots and lifecycle hold), the recorded
+// low and latest move for the same date where there is one, and links back to
+// the artist's pages. No FAQ, no generated copy, no event structured data.
+function renderEventPageBody(route, events, env) {
+  const artist = route.artist;
+  const eventId = String(route.event.id || "").trim();
+  // The copy onRequest attached this event's price lanes to.
+  const raw = events.find((candidate) => String(candidate?.id || "").trim() === eventId) || route.event;
+  const show = enrichEventAsShow(raw);
+  const seatGeekAvailable = isSeatGeekConfigured(env);
+  const vividSeatsAvailable = isVividSeatsConfigured(env);
+  const marketplaceAvailability = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]));
+  const held = eventLifecycleHeld(show);
+  const ctaSpecs = held ? [] : serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
+  const cardHtml = renderShowCardServerHtml(show, seatGeekAvailable, true, vividSeatsAvailable, artist.name, marketplaceAvailability, artist.slug, {}, { includeCopyLink: false });
+
+  // Recorded prices: the same row the artist-city price answer builds for this
+  // date (deriveCityDatePrices over the card's own CTA specs), so the figures
+  // cannot disagree with the buttons. A held date has no row.
+  const row = deriveCityDatePrices([show], { ctaSpecsFor: () => ctaSpecs, wasChecked: pricesWereChecked }).rows[0];
+  const priceItems = [];
+  if (row?.lowest) {
+    const priceLowSeries = route.priceLowSeries instanceof Map ? route.priceLowSeries : new Map();
+    const priceMoveSeries = route.priceMoveSeries instanceof Map ? route.priceMoveSeries : new Map();
+    const amount = formatServerPrice(row.lowest.price, row.lowest.currency);
+    if (amount) {
+      const lowText = priceLowLabel(
+        priceLowSeries.size ? deriveEventPriceLow(row.lanes, (lane) => priceLowSeries.get(`${row.showId}|${lane.provider}`) || null) : null,
+        row.lowest.price
+      );
+      priceItems.push(`Lowest listed price now: ${amount} on ${row.lowest.name}${lowText ? ` · ${lowText}` : ""}`);
+    }
+    const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
+    const moveText = move ? priceMoveSentence(move) : "";
+    if (moveText) priceItems.push(`Latest recorded change: ${moveText}`);
+  }
+  const pricesHtml = priceItems.length
+    ? `<section class="nested-panel" aria-labelledby="eventPricesTitle"><h2 id="eventPricesTitle">Recorded prices for this date</h2><ul>${priceItems
+        .map((item) => `<li>${escapeHtml(item)}</li>`)
+        .join("")}</ul><p class="disclosure-note">Each figure is one ticket site's listed-price snapshot for this date, captured at the time shown — not live inventory, not availability, and not a final checkout total.</p></section>`
+    : "";
+
+  const dateLabel = formatShowDateServer(show.dateTimeISO, show.timezone);
+  const localTime = showLocalTimeServer(show.dateTimeISO, show.timezone);
+  const eventName = String(show.event_name || "").trim();
+  const verified = formatVerificationDate(show.last_verified_at);
+  const status = eventStatusFact(show);
+  const facts = [
+    ["Artist", anchor(artist.name, `/artists/${artist.slug}`, "text-link")],
+    eventName && eventName.toLowerCase() !== artist.name.toLowerCase() ? ["Listing", escapeHtml(eventName)] : null,
+    show.tour_name ? ["Tour", escapeHtml(show.tour_name)] : null,
+    ["Venue", escapeHtml(show.venue)],
+    ["City", escapeHtml([show.city, show.country].filter(Boolean).join(", "))],
+    ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],
+    localTime ? ["Start time", `${escapeHtml(localTime)} local time`] : null,
+    status ? ["Status", escapeHtml(status)] : null,
+    verified ? ["Event record checked", escapeHtml(verified)] : null
+  ].filter(Boolean);
+  const factsHtml = `<section class="nested-panel" aria-labelledby="eventFactsTitle"><h2 id="eventFactsTitle">Event details</h2><dl class="event-facts">${facts
+    .map(([term, value]) => `<dt>${escapeHtml(term)}</dt><dd>${value}</dd>`)
+    .join("")}</dl></section>`;
+
+  const links = [
+    route.artistCityPath ? anchor(`All ${artist.name} dates in ${route.artistCityLabel}`, route.artistCityPath, "mini-link") : "",
+    anchor(`All ${artist.name} tickets and dates`, `/artists/${artist.slug}`, "mini-link"),
+    route.venuePath ? anchor(`Concerts at ${show.venue}`, route.venuePath, "mini-link") : "",
+    route.cityPath ? anchor(`Concerts in ${show.city}`, route.cityPath, "mini-link") : ""
+  ].filter(Boolean);
+  const linksHtml = `<section class="nested-panel"><h2>More ${escapeHtml(artist.name)} dates</h2><div class="mini-link-grid">${links.join("")}</div></section>`;
+
+  const ticketsHeading = held ? "Ticket status" : "Ticket links for this date";
+  const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml() : "";
+  return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1><section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
+    ticketsHeading
+  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${linksHtml}</section></main>`;
+}
+
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
   if (route.path === "/privacy") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="privacyTitle">${renderBreadcrumbHtml(
@@ -5538,6 +5714,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   }
 
   if (route.type === "price-guide") return renderPriceGuideBody(route, events, env);
+
+  if (route.type === "event") return renderEventPageBody(route, events, env);
 
   if (route.type === "artist-city") {
     const artist = route.artist;
@@ -6470,7 +6648,7 @@ export async function onRequest(context) {
   let priceLowSeries = new Map();
   let priceMoveSeries = new Map();
   let renderEvents = events;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -6481,7 +6659,10 @@ export async function onRequest(context) {
     // Reads stay batched: fetchApprovedMarketplaceCachedRows chunks ids at 50, so
     // a board costs ceil(cards / 50) cache reads, not one per card.
     let priceCandidates;
-    if (route.type === "artist" || route.type === "price-guide") {
+    if (route.type === "event") {
+      // Exactly one card: this event.
+      priceCandidates = futureShowsForArtist([route.event], route.artist.slug);
+    } else if (route.type === "artist" || route.type === "price-guide") {
       priceCandidates = futureShowsForArtist(events, route.artist.slug);
     } else if (route.type === "artist-city") {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
@@ -6516,7 +6697,7 @@ export async function onRequest(context) {
     // the figure, and skipping it elsewhere keeps the extra read off every other
     // route. Two statements per 50 dates, and a failure degrades to no low
     // rather than to no page.
-    if (route.type === "artist-city" || route.type === "price-guide") {
+    if (route.type === "artist-city" || route.type === "price-guide" || route.type === "event") {
       priceLowSeries = await fetchEventPriceLowSeries(
         env?.DEMAND_DB || env?.DB,
         priceCandidates.map((show) => String(show?.id || "")),
@@ -6526,7 +6707,7 @@ export async function onRequest(context) {
     // The price guide's "how prices have moved" reads the newest change-points
     // of each series. One statement per 50 dates, price-guide only, and a
     // failure degrades to no moves rather than to no page.
-    if (route.type === "price-guide") {
+    if (route.type === "price-guide" || route.type === "event") {
       priceMoveSeries = await fetchEventPriceMoveSeries(
         env?.DEMAND_DB || env?.DB,
         priceCandidates.map((show) => String(show?.id || "")),

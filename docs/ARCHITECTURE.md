@@ -130,9 +130,20 @@ Artist-city landing pages (`/artists/<artist>/tickets/<city>`) target local inte
 
 **Indexing lifecycle.** A combination *renders* when the artist is `indexable_with_substantial_content` and the city has at least one upcoming publishable show; it is *indexable* (in the sitemap, `index,follow`) only with **at least two**. With a single date the page is the artist page filtered to one show card, so it renders 200 with a self-referencing canonical, keeps its inbound artist-page link, and is `noindex,follow`. A genuinely inactive combination — a city the artist has an event footprint in, but with no qualifying upcoming show now, or an under-review artist — selectively **301s to the artist hub** rather than leaving a misleading empty page. Any other slug (unknown artist, or a city the artist has never played) returns a real **404**, never a soft 404. Expired combinations therefore leave the index automatically as their dates pass. The router, sitemap, and internal-link audit all consume the one `functions/_artist-cities.js` derivation, so the indexable URL set cannot drift between them. Current counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
 
-## Event identity
+## Event identity and event pages
 
-There are no individual event pages. `functions/_event-pages.js` is the foundation they will be built on, and nothing at runtime imports it yet: no route serves `/events/*`, and no sitemap, `llms.txt` entry, internal link, robots rule or structured data refers to one. `npm run test:event-pages` asserts that.
+Individual event pages (`/events/<slug>-<key>`) are a **noindex MVP**: every one is `noindex,follow` with a self-referencing canonical, and none is in a sitemap or `llms.txt`, linked from another page, or described by event structured data. `npm run test:event-pages` asserts all of that; `npm run test:event-page` covers the page itself. The router serves them from `resolveEventRoute` in `functions/_event-pages.js`:
+
+| Request | Response |
+|---|---|
+| Unresolvable (malformed, unknown key, key collision, readable part naming another artist, no venue-local date) | 404 |
+| Not addressable: a non-performance listing, an artist that is not editorially indexable, no venue or city | 404 |
+| Past event, by any slug | 301 to its artist-city page while that page renders, else the artist page |
+| Upcoming event, out-of-date readable slug | 301 to the current canonical path |
+| Upcoming, not held, not publishable, not waiting for its public on-sale | 301 to its artist-city page while that page renders, else the artist page |
+| Otherwise | 200 — commercially live, lifecycle-held, or pre-on-sale |
+
+*Addressable* (a real performance TTC can describe), *commercially live* (upcoming, not held, `eventPublishable`: ticket links may show) and *indexable* (not decided; always false) are separate fields on `eventRouteState`. A cancelled or postponed future date is addressable and not commercially live: it keeps its page, stating the status, with no button or price. The page renders the one show card every board renders (`renderShowCardServerHtml`, same CTA gates, `/api/out` links and price snapshots), the same per-date row the artist-city price answer builds (`deriveCityDatePrices`) with its 30-day recorded low and latest recorded move, the event facts, and links back to the artist, artist-city, venue and city pages that render or are indexable. `onRequest` prices exactly this one event. Analytics records the page type `event`; buttons keep `ctaLocation=event_card`.
 
 - **Identity is the `events.json` `id`.** The D1 price cache, price history and price checks, `/api/out?showId=`, and the `#show-<id>` card anchors already key on it, and the nightly Ticketmaster field-sync rewrites date, venue and city in place without changing it. Provider ids and readable slugs are not identities.
 - **The stable key** is the id's 64-bit FNV-1a hash as 16 hex digits: synchronous, dependency-free and identical in Node and Workers. Published FNV vectors and real ids are pinned in the test, so changing the function fails the build. Two records sharing an id, or two ids sharing a key, resolve to nothing, and `assertUniqueEventKeys` fails the test.

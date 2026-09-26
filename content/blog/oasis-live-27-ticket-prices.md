@@ -48,7 +48,7 @@ For the Glasgow, Manchester and Knebworth dates, section 90 of the UK Consumer R
 
 Ireland goes further. Its Sale of Tickets Act 2021 prohibits selling a ticket above its original sale price for designated events and events at designated venues. Whether a particular show is covered depends on that designation, so for the Slane Castle dates, check the listing and the organiser's terms rather than assuming either way.
 
-The mainland European dates in Munich, Barcelona and Amsterdam fall under their own countries' rules, which this post does not cover. Everywhere, the organiser's ticket terms decide whether a resold ticket will get you in. The [official versus resale guide](/guides/primary-vs-resale-concert-tickets) sets out what to check before paying.
+The mainland European dates in Munich, Barcelona and Amsterdam, and the US dates in Foxborough and Las Vegas, fall under their own local rules, which this post does not cover. Everywhere, the organiser's ticket terms decide whether a resold ticket will get you in. The [official versus resale guide](/guides/primary-vs-resale-concert-tickets) sets out what to check before paying.
 
 ## What to take from a figure
 

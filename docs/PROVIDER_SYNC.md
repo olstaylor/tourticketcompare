@@ -15,7 +15,7 @@ This runbook describes how verified provider identities, event links, and provid
 
 ## Venue-local dates: one shared resolver
 
-Every provider event matcher answers the same two questions before it may match a listing to one of our events: what UTC instant is this show, and what calendar date is it *at the venue*. Both live in `scripts/lib/event-local-date.mjs`, which the SeatGeek enrichment/verification, Vivid Seats, and shared Impact marketplace matchers all import — there is no per-script copy.
+Every provider event matcher answers the same two questions before it may match a listing to one of our events: what UTC instant is this show, and what calendar date is it *at the venue*. Both live in `functions/_event-local-date.js`, re-exported as `scripts/lib/event-local-date.mjs`, which the SeatGeek enrichment/verification, Vivid Seats, and shared Impact marketplace matchers all import — there is no per-script copy.
 
 Resolution order, and what is deliberately refused:
 

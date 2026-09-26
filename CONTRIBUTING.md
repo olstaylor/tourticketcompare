@@ -125,8 +125,11 @@ Two things the lanes do **not** cover, because they are not in `test:mvp` at all
   multi-area change.
 - A script with a dedicated non-`self-test` test — `test:event-local-date` is
   the shared venue-local date resolver — sits in `test:quick`, not `test:units`.
-  Changing `scripts/lib/event-local-date.mjs` means running `test:quick` (or
-  that one command), not `test:units` alone. `test:mvp` itself must stay the complete suite: the sanctioned
+  Changing `functions/_event-local-date.js` (re-exported as
+  `scripts/lib/event-local-date.mjs`) means running `test:quick` (or that one
+  command), not `test:units` alone. `test:event-pages` (event identity and
+  future event paths, `functions/_event-pages.js`) sits there for the same
+  reason. `test:mvp` itself must stay the complete suite: the sanctioned
 auto-publish paths in
 [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) are gated on it passing
 in-job on exactly the proposed content.
@@ -212,6 +215,8 @@ npm run test:units       # ~20s — only the script unit tests (the *:self-test 
 ```bash
 npm run test:event-local-date                 # shared venue-local date/instant resolver used by
                                               #   every provider matcher (in test:mvp)
+npm run test:event-pages                      # event identity: stable keys, future event paths (in test:mvp)
+npm run report:event-routes                   # read-only event identity/route diagnostic (not a test)
 npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
 npm run seatgeek:enrich:self-test             # SeatGeek enrichment scheduling + matching (in test:mvp)
 npm run seatgeek:verify:self-test             # SeatGeek verification invariants (in test:mvp)

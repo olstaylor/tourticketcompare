@@ -43,6 +43,8 @@ functions/
   _price-guides.js           Artist price-guide registry, derivation and launch detection (/artists/<artist>/ticket-prices)
   _event-price-moves.js      Latest recorded per-date, per-provider price move for the price guide
   _route-indexability.js     Shared route-usefulness thresholds, publishability test, reasons
+  _event-local-date.js       Strict venue-local date/instant resolver (runtime + provider matchers)
+  _event-pages.js            Event identity: stable keys and future event paths (no route yet)
   _artist-indexability.js    Artist-page index/noindex gate (≥1 upcoming show)
   _artist-content.js         Data-derived editorial content model for artist pages
   _blog.js                   Blog derivation and indexability gates (posts, tags, related)
@@ -73,7 +75,7 @@ data/
   provider-identities.json   Human-verified provider identity registry
 
 scripts/                     Validation, sync, reporting, and automation tools
-  lib/event-local-date.mjs   Shared venue-local date/instant resolver (all provider matchers)
+  lib/event-local-date.mjs   Re-export of functions/_event-local-date.js (all provider matchers)
   lib/event-link-coverage.mjs  Offline mirror of the runtime event-CTA publishability gate
   lib/artist-filter.mjs      Shared exact `--artist` filter semantics
 .github/workflows/           Scheduled and manual automation
@@ -127,6 +129,16 @@ The on-sale calendar (`/on-sale`) is a server-rendered list of Ticketmaster publ
 Artist-city landing pages (`/artists/<artist>/tickets/<city>`) target local intent (`[Artist] tickets [City]`) and are a server-rendered aggregation derived purely from one artist's reviewed upcoming `events.json` records (`functions/_artist-cities.js`, shared with the sitemap, `llms.txt`, and internal-link audit). The four-segment path never collides with the two-segment tour route or the `/artists/<artist>/tickets` redirect. The city slug is the same `slugify("<city> <normalized-country>")` as `/cities/<slug>`, so country aliases merge and a same-named city in two countries stays two distinct pages (the visible label carries the country to keep titles/descriptions unique). The page reuses the artist show board — so CTAs, gated price snapshots, `/api/out` tracking, and analytics are identical to the main artist page — plus a data-derived at-a-glance summary rendered below the dates (the only place the page states its count, venue and date range), a local buying guide, the pricing explanation, artist-city FAQs, and internal links back to the artist hub, the shared `/cities` and `/venues` pages where those qualify, and the artist's other active cities. It emits `Place`, `CollectionPage`, `ItemList`, breadcrumb, an inline performer, and publishable-gated `MusicEvent` structured data mirroring visible content, and never invents local facts, prices, or availability.
 
 **Indexing lifecycle.** A combination *renders* when the artist is `indexable_with_substantial_content` and the city has at least one upcoming publishable show; it is *indexable* (in the sitemap, `index,follow`) only with **at least two**. With a single date the page is the artist page filtered to one show card, so it renders 200 with a self-referencing canonical, keeps its inbound artist-page link, and is `noindex,follow`. A genuinely inactive combination — a city the artist has an event footprint in, but with no qualifying upcoming show now, or an under-review artist — selectively **301s to the artist hub** rather than leaving a misleading empty page. Any other slug (unknown artist, or a city the artist has never played) returns a real **404**, never a soft 404. Expired combinations therefore leave the index automatically as their dates pass. The router, sitemap, and internal-link audit all consume the one `functions/_artist-cities.js` derivation, so the indexable URL set cannot drift between them. Current counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
+
+## Event identity
+
+There are no individual event pages. `functions/_event-pages.js` is the foundation they will be built on, and nothing at runtime imports it yet: no route serves `/events/*`, and no sitemap, `llms.txt` entry, internal link, robots rule or structured data refers to one. `npm run test:event-pages` asserts that.
+
+- **Identity is the `events.json` `id`.** The D1 price cache, price history and price checks, `/api/out?showId=`, and the `#show-<id>` card anchors already key on it, and the nightly Ticketmaster field-sync rewrites date, venue and city in place without changing it. Provider ids and readable slugs are not identities.
+- **The stable key** is the id's 64-bit FNV-1a hash as 16 hex digits: synchronous, dependency-free and identical in Node and Workers. Published FNV vectors and real ids are pinned in the test, so changing the function fails the build. Two records sharing an id, or two ids sharing a key, resolve to nothing, and `assertUniqueEventKeys` fails the test.
+- **The future path** is `/events/{artist}-{venue}-{city}-{venue-local date}-{key}`. Only the key identifies the event. The readable part is recomputed from the current record, so a venue rename, a city correction or a moved date changes the path but not the event it resolves to (`resolveEventPath` reports `isCanonical: false` with the current path). A path whose readable part does not start with the resolved event's own artist slug does not resolve.
+- **The date is the venue-local date** from the strict resolver in `functions/_event-local-date.js`. Slicing `datetime_iso` prints the UTC date, which is a day late for most evening shows in the Americas. An event whose local date cannot be resolved gets no path.
+- `eventRouteState` separates "the event exists" from "it could structurally carry a route" (editorially indexable artist, upcoming, local date resolved, venue and city present, `eventPublishable`). Preview-only indexability signals and the non-performance listing classifier, which mirrors the new-show recogniser's markers, are reported by `npm run report:event-routes`. They feed no gate.
 
 ## Artist price-guide layer
 

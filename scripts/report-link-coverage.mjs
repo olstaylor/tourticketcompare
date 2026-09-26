@@ -226,6 +226,22 @@ function sortedEntries(map) {
 }
 
 /**
+ * The --check all-clear line. Held dates are outside the invariant, so when any
+ * exist the claim is scoped to the non-held dates and the held count is named.
+ *
+ * @param {{ oneLink: any[], held: any[] }} analysis
+ */
+export function checkPassMessage(analysis) {
+  const scope = analysis.held.length ? "non-held upcoming event" : "upcoming event";
+  const heldNote = analysis.held.length
+    ? ` ${analysis.held.length} held by a cancelled/postponed status (links withheld on purpose).`
+    : "";
+  return analysis.oneLink.length
+    ? `OK (with ${analysis.oneLink.length} warning(s)): every ${scope} leads somewhere; ${analysis.oneLink.length} lead to a single provider.${heldNote}`
+    : `OK: every ${scope} has at least two publishable exact-event ticket links.${heldNote}`;
+}
+
+/**
  * Full coverage analysis over the event set.
  *
  * @param {any[]} events
@@ -427,6 +443,12 @@ function selfTest() {
     const printed = lines.join("\n");
     assert("held dates print even with no low-coverage date", printed.includes("u-held") && printed.includes("No non-held upcoming event"));
   }
+  assert("the --check all-clear is scoped to non-held dates when any are held",
+    /every non-held upcoming event has at least two/.test(checkPassMessage(heldAnalysis)) && /1 held by a cancelled\/postponed status/.test(checkPassMessage(heldAnalysis)));
+  assert("the --check warning line is scoped to non-held dates when any are held",
+    /every non-held upcoming event leads somewhere/.test(checkPassMessage({ oneLink: [{}], held: [{}] })));
+  assert("the --check all-clear is unchanged with no held dates",
+    checkPassMessage({ oneLink: [], held: [] }) === "OK: every upcoming event has at least two publishable exact-event ticket links.");
   assert("low coverage is the union of the two", analysis.lowCoverage.length === 2);
   assert("low coverage groups by artist", analysis.byArtist[0][0] === "ok-artist" && analysis.byArtist[0][1] === 2);
   assert("low coverage groups by country", analysis.byCountry[0][0] === "United States");
@@ -574,13 +596,7 @@ async function main() {
       console.error(`\nFAIL: ${analysis.zeroLink.length} upcoming event(s) have no publishable exact-event ticket link.`);
       return 1;
     }
-    if (!options.json) {
-      console.log(
-        analysis.oneLink.length
-          ? `\nOK (with ${analysis.oneLink.length} warning(s)): every upcoming event leads somewhere; ${analysis.oneLink.length} lead to a single provider.`
-          : "\nOK: every upcoming event has at least two publishable exact-event ticket links."
-      );
-    }
+    if (!options.json) console.log(`\n${checkPassMessage(analysis)}`);
   }
   return 0;
 }

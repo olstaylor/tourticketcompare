@@ -3177,8 +3177,11 @@ async function hydrateShowBoard(section, filters = {}) {
       .filter((show) => {
         if (!show || (artistSlug && slugify(show.artist_slug) !== artistSlug)) return false;
         const eventTime = Date.parse(show.datetime_iso || show.dateTimeISO || "");
-        // A not-yet-on-sale date stays on the board as a no-CTA card.
-        return Number.isFinite(eventTime) && eventTime >= now && (eventLinkPublishable(show) || publicOnsalePending(show));
+        // A not-yet-on-sale date stays on the board as a no-CTA card, and a
+        // cancelled or postponed date stays listed with its status, as on the
+        // server-rendered board.
+        return Number.isFinite(eventTime) && eventTime >= now
+          && (eventLinkPublishable(show) || publicOnsalePending(show) || eventLifecycleHeld(show));
       });
     const displayedFallbackShows = artistSlug ? fallbackShows : fallbackShows.slice(0, limit);
     if (!displayedFallbackShows.length) {

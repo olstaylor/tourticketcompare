@@ -186,9 +186,17 @@ function resolveArtistName(artistSlug, artists, allShows) {
   return titleCaseFromSlug(normalizedSlug);
 }
 
+// Only a hold travels from live Discovery. `rescheduled` lifts nothing but it
+// does tell the reader "this is the date Ticketmaster now lists", and live
+// Discovery skips the date and identity checks the nightly field-sync makes
+// before recording it (a localDate-only response gets a guessed 19:00Z start).
+// So a live `rescheduled` is dropped here, and only the validated field-sync
+// records it.
 function lifecycleFieldFromDiscovery(code) {
   const normalized = String(code || "").trim().toLowerCase();
-  return TICKETMASTER_LIFECYCLE_CODES.includes(normalized) ? { [TICKETMASTER_STATUS_FIELD]: normalized } : {};
+  if (!TICKETMASTER_LIFECYCLE_CODES.includes(normalized)) return {};
+  const field = { [TICKETMASTER_STATUS_FIELD]: normalized };
+  return eventLifecycleHeld(field) ? field : {};
 }
 
 function mapTicketmasterStatus(code) {
@@ -252,8 +260,8 @@ export function mapTicketmasterEventToShow(event, artistSlug, artistName) {
     status: mapTicketmasterStatus(event?.dates?.status?.code),
     // The same lifecycle field the field-sync stores on persisted rows, so a
     // cancelled or postponed show found by live Discovery is held by every
-    // gate too. Set only for a lifecycle code: merged over a persisted row,
-    // an absent key never clears that row's recorded hold.
+    // gate too. Set only for a hold code: merged over a persisted row, an
+    // absent key never clears that row's recorded hold.
     ...lifecycleFieldFromDiscovery(event?.dates?.status?.code),
     seatgeek_event_id: null,
     vividseats_event_id: null,

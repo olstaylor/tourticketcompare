@@ -337,8 +337,19 @@ const musicEventFor = (nodes, id) => nodes.find((node) => node?.["@type"] === "M
     assert(show.ticketmaster_status_code === code && eventLifecycleHeld(show), `a live Discovery '${code}' show is held`);
     assert(!coverage.providerEventPublishable(show, "ticketmaster"), `a live Discovery '${code}' show publishes no Ticketmaster link`);
   }
-  assert(discovery("rescheduled").ticketmaster_status_code === "rescheduled" && !eventLifecycleHeld(discovery("rescheduled")), "a live Discovery rescheduled show is labelled, not held");
-  for (const code of ["onsale", "offsale", ""]) {
+  // Codex (#1194, 650fcf9): a live `rescheduled` would print "this is the date
+  // Ticketmaster now lists" beside a date the field-sync never validated (a
+  // localDate-only response gets a guessed 19:00Z start). Only the field-sync
+  // records it.
+  const localDateOnly = showsModule.mapTicketmasterEventToShow({
+    id: "Z7r9jZ1AAtest",
+    name: ARTIST.name,
+    url: "https://www.ticketmaster.com/event/Z7r9jZ1AAtest",
+    dates: { status: { code: "rescheduled" }, start: { localDate: "2026-09-19" } },
+    _embedded: { venues: [{ name: "Fixture Arena", city: { name: "Springfield" }, country: { name: "United States" } }] }
+  }, ARTIST.slug, ARTIST.name);
+  assert(localDateOnly && !("ticketmaster_status_code" in localDateOnly), "a live localDate-only rescheduled show is not labelled rescheduled");
+  for (const code of ["rescheduled", "onsale", "offsale", ""]) {
     assert(!("ticketmaster_status_code" in discovery(code)), `a live Discovery '${code || "(none)"}' show carries no lifecycle key, so it never clears a stored hold when merged`);
   }
 
@@ -358,6 +369,23 @@ const musicEventFor = (nodes, id) => nodes.find((node) => node?.["@type"] === "M
   }
   assert(eventLifecycleHeld(merged("", "cancelled")[0]), "a live cancellation still holds an unheld persisted row");
   assert(eventLifecycleHeld(merged("rescheduled", "postponed")[0]), "a live postponement holds a row stored as rescheduled");
+  assert(!merged("", "rescheduled")[0].ticketmaster_status_code, "a live rescheduled response does not label an unheld persisted row");
+}
+
+// Codex (#1194, 650fcf9): the city and venue lead sentences take their date
+// span from the same non-held set as their counts. A live September date plus
+// a cancelled December date is one show "on" September, not "September to
+// December"; an all-held location states no span at all.
+{
+  const lateCancelled = { ...CANCELLED, id: "fixture-late-cancelled", datetime_iso: "2026-12-13T01:00:00Z" };
+  const lead = (html) => text(html).match(/\d+ upcoming shows? (?:in|at) [^.]*\./)?.[0] || "";
+  for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`]) {
+    const mixed = lead((await render(pathname, [SCHEDULED, lateCancelled])).html);
+    assert(/^1 upcoming show /.test(mixed) && / on /.test(mixed) && !/Dec/.test(mixed), `${pathname}: a held date outside the live span is not in the lead (got "${mixed}")`);
+    const { status, html } = await render(pathname, [CANCELLED, lateCancelled]);
+    const allHeld = lead(html);
+    assert(status !== 200 || (allHeld && !/ (?:on|from) /.test(allHeld)), `${pathname}: an all-held location states no date span (got "${allHeld}")`);
+  }
 }
 
 // ─── rendered pages ─────────────────────────────────────────────────────────
@@ -462,6 +490,9 @@ async function out(showId, provider) {
     assert(clientHeld(event) === eventLifecycleHeld(event), `public/app.js agrees with the server on '${code || "(none)"}'`);
   }
   assert(/function eventLinkPublishable\(event\) \{\n  if \(eventLifecycleHeld\(event\)\) return false;/.test(appJs), "public/app.js checks the hold in eventLinkPublishable");
+  // Codex (#1194, 650fcf9): the /api/shows-failure fallback filtered held rows
+  // out before they reached the lifecycle label, so it must keep them.
+  assert(/fallbackShows = [\s\S]{0,600}?\|\| eventLifecycleHeld\(show\)\)/.test(appJs), "public/app.js keeps held dates on the fallback board");
   // The client card states the same lifecycle line the server card does
   // (Codex, #1193: the fallback renderer used to print the generic
   // "No checked ticket link" line instead).

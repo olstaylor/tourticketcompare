@@ -137,13 +137,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290451",
+        "url": "https://www.ticketliquidator.com/tickets/8290451/Tyla-tickets-Fri-Oct-16-2026-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_29Jsxep",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-london-o2-academy-brixton-16-10-2026/event/107469145",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290451"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290451",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290451/Tyla-tickets-Fri-Oct-16-2026-O2-Academy-Brixton"
   },
   {
     "id": "tm-tyla-2026-glasgow-g5dzz_2ebyvny",

@@ -1923,12 +1923,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271018",
+        "url": "https://www.ticketliquidator.com/tickets/8271018/Hans-Zimmer-tickets-Wed-Feb-17-2027-PeoplesBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271018"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271018",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271018/Hans-Zimmer-tickets-Wed-Feb-17-2027-PeoplesBank-Arena"
   },
   {
     "id": "tm-hans-zimmer-2027-kansas-city-z7r9jz1aavvq6",
@@ -1984,12 +1992,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271016",
+        "url": "https://www.ticketliquidator.com/tickets/8271016/Hans-Zimmer-tickets-Fri-Mar-19-2027-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271016"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271016",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271016/Hans-Zimmer-tickets-Fri-Mar-19-2027-T-Mobile-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-oklahoma-city-z7r9jz1aavvqf",
@@ -2045,12 +2061,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271014",
+        "url": "https://www.ticketliquidator.com/tickets/8271014/Hans-Zimmer-tickets-Sun-Mar-21-2027-Paycom-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271014"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271014",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271014/Hans-Zimmer-tickets-Sun-Mar-21-2027-Paycom-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-salt-lake-city-z7r9jz1aavvqa",
@@ -2106,12 +2130,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8285031",
+        "url": "https://www.ticketliquidator.com/tickets/8285031/Hans-Zimmer-tickets-Sat-Mar-27-2027-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQa",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8285031"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8285031",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8285031/Hans-Zimmer-tickets-Sat-Mar-27-2027-Delta-Center"
   },
   {
     "id": "tm-hans-zimmer-2027-los-angeles-z7r9jz1aavvq8",
@@ -2167,11 +2199,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271012",
+        "url": "https://www.ticketliquidator.com/tickets/8271012/Hans-Zimmer-tickets-Thu-Apr-1-2027-Cryptocom-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271012"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271012/Hans-Zimmer-tickets-Thu-Apr-1-2027-Cryptocom-Arena"
   }
 ]

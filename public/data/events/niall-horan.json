@@ -208,11 +208,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7831769",
-        "url": "https://www.ticketliquidator.com/tickets/7831769/Niall-Horan-tickets-Fri-Sep-25-2026-Co-Op-Live",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkozGkdQEK4f",
@@ -220,7 +220,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831769/Niall-Horan-tickets-Fri-Sep-25-2026-Co-Op-Live"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-niall-horan-2026-glasgow-1auzkozgkeyxugy",
@@ -3235,11 +3235,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954214",
+        "url": "https://www.ticketliquidator.com/tickets/7954214/Niall-Horan-tickets-Tue-Apr-13-2027-PeoplesBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A709uz",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954214/Niall-Horan-tickets-Tue-Apr-13-2027-PeoplesBank-Arena"
   }
 ]

@@ -8,7 +8,6 @@
 
 import {
   artistSearchIntro,
-  artistStatusFacts,
   artistTicketHelp,
   artistEmptyBoardCopy,
   artistFaqEntries,
@@ -88,7 +87,7 @@ const bigIntro = artistSearchIntro({ name: "Harry Styles" }, bigStatus, options)
 assert(bigIntro.includes("5 upcoming dates in 3 cities and 3 countries"), "intro should state the tracked count");
 assert(bigIntro.includes("3 cities") && bigIntro.includes("3 countries"), "intro should state the geographic spread");
 assert(bigIntro.includes("2026-09-01") && bigIntro.includes("2026-09-15"), "intro should state the run's range");
-assert(bigIntro.includes("The O2"), "a single multi-night run should be named in the intro");
+assert(!bigIntro.includes("The O2"), "a multi-night run is shown by the cards' night chips, not restated in the intro");
 assertCopySafe(bigIntro, "large-board intro");
 
 // --- Single-date board ------------------------------------------------------
@@ -100,13 +99,6 @@ assert(oneIntro.startsWith("One upcoming Jelly Roll date is verified"), "a singl
 assert(oneIntro.includes("Weidner Field"), "a single date names its venue");
 assert(!/\d+ cities/.test(oneIntro), "a single date must not claim a city spread");
 assertCopySafe(oneIntro, "single-date intro");
-const oneFacts = artistStatusFacts(oneStatus, options);
-assert(oneFacts.some((fact) => fact.label === "Date"), "a single-date board labels the fact 'Date', not 'Next date'");
-assert(
-  oneFacts.find((fact) => fact.label === "Checked ticket links")?.value === "This date",
-  "a single-date board must not read 'All 1 dates'"
-);
-assert(!oneFacts.some((fact) => fact.label === "Cities"), "a one-city board should not show a Cities count");
 
 // --- Weak provider coverage -------------------------------------------------
 const weakStatus = deriveArtistBoardStatus([
@@ -117,10 +109,6 @@ const weakStatus = deriveArtistBoardStatus([
 const weakIntro = artistSearchIntro({ name: "Gracie Abrams" }, weakStatus, options);
 assert(weakIntro.includes("1 of the 3 have a checked ticket link"), "partial coverage must be stated, not hidden");
 assertCopySafe(weakIntro, "weak-coverage intro");
-assert(
-  artistStatusFacts(weakStatus, options).find((fact) => fact.label === "Checked ticket links")?.value === "1 of 3 dates",
-  "the fact strip should quantify partial link coverage"
-);
 
 const noCtaStatus = deriveArtistBoardStatus([
   show({ id: "d1", city: "Madrid", country: "Spain", venue: "Movistar Arena", dateTimeISO: "2026-11-01T19:00:00Z", ctaProviderCount: 0 }),
@@ -139,7 +127,6 @@ assert(emptyIntro === "No Latto dates yet.", "the never-dated intro states the p
 // so empty-board copy must never claim a person followed a link by hand.
 assert(!/ourselves|we've followed/i.test(emptyIntro), "the empty intro must not claim a manual link check");
 assertCopySafe(emptyIntro, "empty intro");
-assert(artistStatusFacts(emptyStatus, options).length === 0, "an empty board renders no fact strip");
 const emptyCopy = artistEmptyBoardCopy({ name: "Latto" }, { pastShowCount: 0 });
 assert(emptyCopy.heading === "No dates yet", "empty heading should not imply dates are pending");
 assert(emptyCopy.body.includes("When Ticketmaster lists a Latto date") && emptyCopy.compact === true, "never-dated copy names where dates come from, once (P11)");
@@ -248,12 +235,8 @@ assert(
 const model = buildArtistContentModel({ name: "Harry Styles", faq: authoredFaq }, bigBoard, options);
 assert(model.intro === bigIntro, "model intro should match artistSearchIntro");
 assert(model.status.showCount === 5, "model should carry the board status");
-assert(model.facts.length === 2 && model.facts.map((fact) => fact.label).join("|") === "Next date|Checked ticket links", "model should carry the two-card fact strip (P10)");
+assert(!("facts" in model), "model carries no fact strip: the lead states link coverage and the first card is the next date");
 assert(model.help && model.faq.length >= 2, "model should carry the shared help and the FAQ");
 assert(model.emptyBoard.heading === artistEmptyBoardCopy({ name: "Nobody" }).heading, "model should carry empty-board copy for the zero-date render");
-assert(
-  buildArtistContentModel({ name: "Nobody" }, [], options).facts.length === 0,
-  "an empty board yields no fact strip through the model"
-);
 
 console.log(`artist-content: ${passed} assertions passed`);

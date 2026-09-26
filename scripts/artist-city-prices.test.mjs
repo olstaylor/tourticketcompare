@@ -425,17 +425,18 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     /not when a price was captured/.test(body),
     "the panel distinguishes event-record verification from price capture time"
   );
-  const lead = text((page.main.match(/<p class="lead">([\s\S]*?)<\/p>/) || [])[1] || "");
+  const lead = text((page.main.match(/<p><strong>Short answer:<\/strong>([\s\S]*?)<\/p>/) || [])[1] || "");
   assert(lead.includes(`TourTicketCompare tracks 2 upcoming shows for ${ARTIST.name} in ${RUN_CITY}`), "the lead still states the count, which the table only implies");
   assert(!lead.includes("Fixture Arena"), "the lead drops the venue the table names in its own lead");
   assert(!/Sep 10, 2026 to/.test(lead), "the lead drops the date range the table states row by row");
   // Each show card naming its own venue is not duplication \u2014 a card is the one
   // place that fact belongs. What the compression removes is the copies in the
-  // lead and the panel, so the priced page must state the venue strictly fewer
-  // times than the same page with no table on it.
+  // summary, so the priced page must never state the venue more often than the
+  // same page with no table on it. (The unpriced page no longer carries a
+  // "Venues" card either, so the two can now be equal.)
   const unpricedBody = text((await render(RUN_PATH, { withDb: false })).main);
   assert(
-    occurrences(body, "Fixture Arena") < occurrences(unpricedBody, "Fixture Arena"),
+    occurrences(body, "Fixture Arena") <= occurrences(unpricedBody, "Fixture Arena"),
     `adding the table must reduce, not add to, the venue's repetitions (priced ${occurrences(
       body,
       "Fixture Arena"
@@ -497,12 +498,15 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!body.includes("How much are"), "with no eligible lane the question heading is not rendered");
   assert(!body.includes("Sites compared"), "with no eligible lane the table is not rendered");
   assert(!/price-answer-table/.test(page.main), "with no eligible lane no empty table frame is left behind");
-  assert(body.includes("At a glance:"), "the page falls back to exactly what it rendered before");
-  // The compression is tied to the table, so with no table every card returns.
-  for (const card of ["Next tracked date", "Tracked date range", "Venues", "Verification recency"]) {
-    assert(body.includes(card), `"${card}" returns when there is no table to restate`);
+  assert(body.includes("At a glance:"), "the page keeps its at-a-glance summary with no table");
+  // The card deck is gone with or without a table (2026-09-25): the summary
+  // sentence states the count, venue and range once, and the board's first
+  // card is the next date.
+  for (const card of ["Next tracked date", "Tracked date range", "Verification recency"]) {
+    assert(!body.includes(card), `"${card}" is not reprinted as a card`);
   }
-  const unpricedLead = text((page.main.match(/<p class="lead">([\s\S]*?)<\/p>/) || [])[1] || "");
+  assert(body.includes("most recent event record on this page was checked"), "the summary keeps the event-record verification date");
+  const unpricedLead = text((page.main.match(/<p><strong>Short answer:<\/strong>([\s\S]*?)<\/p>/) || [])[1] || "");
   assert(
     unpricedLead.includes("Fixture Arena") && /Sep 10, 2026 to/.test(unpricedLead),
     "the lead keeps the venue and date range when no table states them"

@@ -192,7 +192,9 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
     counts,
     pre_onsale_priced: preOnsalePriced,
     zero_price_sources: counts.unmapped + counts.seatgeek_only,
-    coverage_share: Number(coverageShare.toFixed(4)),
+    // null, not 0, when no mapped, on-sale date exists: the coverage gate then
+    // does not apply (an all-held payload), or the problem above names why.
+    coverage_share: denominator ? Number(coverageShare.toFixed(4)) : null,
     stale_share: Number(staleShare.toFixed(4)),
     displayed_prices: ages.length,
     max_age_hours: maxAgeHours == null ? null : Number(maxAgeHours.toFixed(1)),
@@ -208,6 +210,11 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
 
 const pct = (value) => `${(value * 100).toFixed(1)}%`;
 
+/** The coverage share as printed: "n/a" when no mapped, on-sale date exists. */
+export function coverageShareLabel(share) {
+  return share == null ? "n/a (no mapped, on-sale date)" : pct(share);
+}
+
 export function renderMarkdown(report, baseUrl = "") {
   const c = report.counts;
   const lines = [
@@ -222,7 +229,7 @@ export function renderMarkdown(report, baseUrl = "") {
     "|---:|---:|---:|---:|---:|---:|",
     `| ${report.upcoming} | ${c.priced} | ${c.pre_onsale} | ${c.mapped} | ${c.seatgeek_only} | ${c.unmapped} |`,
     "",
-    `- **Coverage of mapped, on-sale dates:** ${pct(report.coverage_share)} (gate ≥ ${pct(report.gates.min_share)}).`,
+    `- **Coverage of mapped, on-sale dates:** ${coverageShareLabel(report.coverage_share)} (gate ≥ ${pct(report.gates.min_share)}).`,
     `- **Pre-on-sale dates showing a resale price:** ${report.pre_onsale_priced} of ${c.pre_onsale} (reported only; not part of the gate).`,
     `- **Held (cancelled/postponed per Ticketmaster):** ${c.held}. Their prices are withheld on purpose; not part of the gate.`,
     `- **Dates with zero price sources:** ${report.zero_price_sources} (unmapped + SeatGeek-only). This is a mapping backlog, not a failure — it is not gated.`,
@@ -343,6 +350,10 @@ function selfTest() {
     const allHeld = analyse([cancelled, { ...shows[0], id: "held-2", ticketmaster_status_code: "postponed" }], { now });
     assert.equal(allHeld.ok, true, "a payload of only held dates is not a pricing blackout");
     assert.equal(allHeld.problems.length, 0);
+    assert.equal(allHeld.coverage_share, null, "an all-held payload has no coverage share, not 0%");
+    const allHeldMd = renderMarkdown(allHeld);
+    assert.match(allHeldMd, /Coverage of mapped, on-sale dates:\*\* n\/a/, "the issue prints n/a for an all-held payload");
+    assert.doesNotMatch(allHeldMd, /0\.0% \(gate/, "the issue never prints a 0% share beside OK");
     const unmappedOnly = analyse([shows[5]], { now });
     assert.equal(unmappedOnly.ok, false, "a payload with no mapped non-held date still fails");
   }

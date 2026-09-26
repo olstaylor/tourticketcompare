@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-tempe-arizona-03-19-2027/event/1900652992F7671A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,8 +50,7 @@
     },
     "ticketmaster_discovery_event_id": "16v0Z_3J3G7WUjQ",
     "timezone": "America/Phoenix",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-interrupters-2027-dallas-vvg1yz_k69fczg",
@@ -1023,7 +1022,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1058,8 +1057,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3nsybUv",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-interrupters-2027-los-angeles-vv1ke8vpgbgautgrg",
@@ -1077,7 +1075,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1112,8 +1110,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPGbGAuTgRG",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-interrupters-2027-anaheim-vv1fe8vpg33pz72fk7",
@@ -1131,7 +1128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-anaheim-california-05-02-2027/event/090065312496E753",
-    "last_verified_at": null,
+    "last_verified_at": "2026-09-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1166,7 +1163,6 @@
     },
     "ticketmaster_discovery_event_id": "vv1Fe8vPG33pZ72Fk7",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z"
+    "status": "on-sale"
   }
 ]

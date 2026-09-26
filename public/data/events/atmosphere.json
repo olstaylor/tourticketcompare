@@ -821,12 +821,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277979",
+        "url": "https://www.ticketliquidator.com/tickets/8277979/Atmosphere-tickets-Thu-Jan-14-2027-EPIC-Event-Center-WI",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvz-E",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277979"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277979",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277979/Atmosphere-tickets-Thu-Jan-14-2027-EPIC-Event-Center-WI"
   },
   {
     "id": "tm-atmosphere-2027-west-des-moines-z7r9jz1aaezfw",
@@ -882,12 +890,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277957",
+        "url": "https://www.ticketliquidator.com/tickets/8277957/Atmosphere-tickets-Sat-Jan-16-2027-Val-Air-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZfw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277957"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277957",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277957/Atmosphere-tickets-Sat-Jan-16-2027-Val-Air-Ballroom"
   },
   {
     "id": "tm-atmosphere-2027-omaha-z7r9jz1aaez39",
@@ -1102,11 +1118,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277958",
+        "url": "https://www.ticketliquidator.com/tickets/8277958/Atmosphere-tickets-Sun-Feb-7-2027-First-Avenue",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ4O",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277958"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277958",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277958/Atmosphere-tickets-Sun-Feb-7-2027-First-Avenue"
   }
 ]

@@ -323,13 +323,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287503",
+        "url": "https://www.ticketliquidator.com/tickets/8287503/Lizzy-McAlpine-tickets-Sat-May-1-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kko6pz2",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287503"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287503",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287503/Lizzy-McAlpine-tickets-Sat-May-1-2027-713-Music-Hall"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-durham-g5evz_klljeql",
@@ -439,13 +447,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287505",
+        "url": "https://www.ticketliquidator.com/tickets/8287505/Lizzy-McAlpine-tickets-Fri-May-7-2027-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfMGkdD0jD5",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287505"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287505",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287505/Lizzy-McAlpine-tickets-Fri-May-7-2027-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-indianapolis-vv1aazkfggkeu7rbe",
@@ -501,13 +517,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287506",
+        "url": "https://www.ticketliquidator.com/tickets/8287506/Lizzy-McAlpine-tickets-Sun-May-9-2027-Clowes-Memorial-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfgGkeU7rBe",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287506"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287506",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287506/Lizzy-McAlpine-tickets-Sun-May-9-2027-Clowes-Memorial-Hall"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlvc7g",
@@ -563,13 +587,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287507",
+        "url": "https://www.ticketliquidator.com/tickets/8287507/Lizzy-McAlpine-tickets-Wed-May-12-2027-State-Theatre-MN",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlVc7g",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287507"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287507",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287507/Lizzy-McAlpine-tickets-Wed-May-12-2027-State-Theatre-MN"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-saint-louis-vv1kvovpu_ga2r6bf",
@@ -679,13 +711,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287510",
+        "url": "https://www.ticketliquidator.com/tickets/8287510/Lizzy-McAlpine-tickets-Wed-Jun-16-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KqSM0Og",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287510"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287510",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287510/Lizzy-McAlpine-tickets-Wed-Jun-16-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
@@ -741,13 +781,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287512",
+        "url": "https://www.ticketliquidator.com/tickets/8287512/Lizzy-McAlpine-tickets-Fri-Jun-18-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZkfsGkdUbyXp",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287512"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287512",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287512/Lizzy-McAlpine-tickets-Fri-Jun-18-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bapr",
@@ -803,13 +851,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287513",
+        "url": "https://www.ticketliquidator.com/tickets/8287513/Lizzy-McAlpine-tickets-Sun-Jun-20-2027-Agganis-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPuzGA1baPr",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287513"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287513",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287513/Lizzy-McAlpine-tickets-Sun-Jun-20-2027-Agganis-Arena"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se",
@@ -865,13 +921,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287514",
+        "url": "https://www.ticketliquidator.com/tickets/8287514/Lizzy-McAlpine-tickets-Thu-Jun-24-2027-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_Kr8E3Se",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287514"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287514",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287514/Lizzy-McAlpine-tickets-Thu-Jun-24-2027-Madison-Square-Garden"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r",
@@ -927,13 +991,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287516",
+        "url": "https://www.ticketliquidator.com/tickets/8287516/Lizzy-McAlpine-tickets-Fri-Jun-25-2027-Merriweather-Post-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfMGkeJxp8r",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287516"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287516",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287516/Lizzy-McAlpine-tickets-Fri-Jun-25-2027-Merriweather-Post-Pavilion"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-toronto-1a8zkfwgke-nzw8",
@@ -1043,13 +1115,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287517",
+        "url": "https://www.ticketliquidator.com/tickets/8287517/Lizzy-McAlpine-tickets-Tue-Jun-29-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfgGkenM_SZ",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287517"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287517",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287517/Lizzy-McAlpine-tickets-Tue-Jun-29-2027-United-Center"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-austin-g5diz_k1qabc1",
@@ -1105,13 +1185,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287518",
+        "url": "https://www.ticketliquidator.com/tickets/8287518/Lizzy-McAlpine-tickets-Fri-Jul-2-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_K1qabC1",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287518"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287518",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287518/Lizzy-McAlpine-tickets-Fri-Jul-2-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-san-diego-vvg1iz_k_8qjmi",
@@ -1167,13 +1255,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287519",
+        "url": "https://www.ticketliquidator.com/tickets/8287519/Lizzy-McAlpine-tickets-Fri-Jul-9-2027-The-Rady-Shell-at-Jacobs-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_K_8QjMi",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287519"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287519",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287519/Lizzy-McAlpine-tickets-Fri-Jul-9-2027-The-Rady-Shell-at-Jacobs-Park"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l",
@@ -1229,13 +1325,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287520",
+        "url": "https://www.ticketliquidator.com/tickets/8287520/Lizzy-McAlpine-tickets-Sat-Jul-10-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfUGkdNwr6L",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287520"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287520",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287520/Lizzy-McAlpine-tickets-Sat-Jul-10-2027-The-Kia-Forum"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4",
@@ -1291,13 +1395,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287521",
+        "url": "https://www.ticketliquidator.com/tickets/8287521/Lizzy-McAlpine-tickets-Tue-Jul-13-2027-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6tphZ4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287521"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287521",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287521/Lizzy-McAlpine-tickets-Tue-Jul-13-2027-Chase-Center"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-portland-vvg1hz_kpe4n79",
@@ -1353,13 +1465,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287522",
+        "url": "https://www.ticketliquidator.com/tickets/8287522/Lizzy-McAlpine-tickets-Thu-Jul-15-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_Kpe4N79",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287522",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287522/Lizzy-McAlpine-tickets-Thu-Jul-15-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn",
@@ -1415,12 +1535,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287523",
+        "url": "https://www.ticketliquidator.com/tickets/8287523/Lizzy-McAlpine-tickets-Sat-Jul-17-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KF6I_hN",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287523",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287523/Lizzy-McAlpine-tickets-Sat-Jul-17-2027-Climate-Pledge-Arena"
   }
 ]

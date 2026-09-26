@@ -1905,11 +1905,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8200527",
+        "url": "https://www.ticketliquidator.com/tickets/8200527/Missio-tickets-Tue-Nov-3-2026-Brick-Mortar-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJa_",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200527"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200527",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200527/Missio-tickets-Tue-Nov-3-2026-Brick-Mortar-Music-Hall"
   }
 ]

@@ -2008,11 +2008,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980238",
+        "url": "https://www.ticketliquidator.com/tickets/7980238/Beartooth-tickets-Tue-Dec-15-2026-Revel-Entertainment-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I3o",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980238"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980238",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980238/Beartooth-tickets-Tue-Dec-15-2026-Revel-Entertainment-Center"
   }
 ]

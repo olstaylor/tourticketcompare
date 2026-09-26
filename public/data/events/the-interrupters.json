@@ -115,12 +115,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284360",
+        "url": "https://www.ticketliquidator.com/tickets/8284360/The-Interrupters-tickets-Tue-Mar-23-2027-House-Of-Blues-Dallas",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K69fCzG",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284360"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284360",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284360/The-Interrupters-tickets-Tue-Mar-23-2027-House-Of-Blues-Dallas"
   },
   {
     "id": "tm-the-interrupters-2027-houston-g5diz_3r-jkhd",
@@ -176,12 +184,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284361",
+        "url": "https://www.ticketliquidator.com/tickets/8284361/The-Interrupters-tickets-Wed-Mar-24-2027-House-Of-Blues-Houston",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3r-JkHD",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284361"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284361",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284361/The-Interrupters-tickets-Wed-Mar-24-2027-House-Of-Blues-Houston"
   },
   {
     "id": "tm-the-interrupters-2027-st-petersburg-vvg1vz_3xxt6_9",
@@ -351,12 +367,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284364",
+        "url": "https://www.ticketliquidator.com/tickets/8284364/The-Interrupters-tickets-Sun-Mar-28-2027-House-Of-Blues-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkDWDk5A",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284364"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284364",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284364/The-Interrupters-tickets-Sun-Mar-28-2027-House-Of-Blues-Orlando"
   },
   {
     "id": "tm-the-interrupters-2027-atlanta-vvg1zz_3dh5hjb",
@@ -465,12 +489,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284367",
+        "url": "https://www.ticketliquidator.com/tickets/8284367/The-Interrupters-tickets-Fri-Apr-2-2027-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_3GkBsS6TR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284367",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284367/The-Interrupters-tickets-Fri-Apr-2-2027-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-the-interrupters-2027-brooklyn-k7vgf_k6y5uwc",
@@ -526,12 +558,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284355",
+        "url": "https://www.ticketliquidator.com/tickets/8284355/The-Interrupters-tickets-Sun-Apr-4-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K6Y5uWc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284355"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284355/The-Interrupters-tickets-Sun-Apr-4-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-the-interrupters-2027-boston-vv1avzkftgkexzmrt",
@@ -587,12 +627,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284368",
+        "url": "https://www.ticketliquidator.com/tickets/8284368/The-Interrupters-tickets-Wed-Apr-7-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkexzmrt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284368"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284368",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284368/The-Interrupters-tickets-Wed-Apr-7-2027-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-the-interrupters-2027-montreal-1ad7z_3gkmrxjga",
@@ -815,12 +863,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284372",
+        "url": "https://www.ticketliquidator.com/tickets/8284372/The-Interrupters-tickets-Tue-Apr-13-2027-House-Of-Blues-Cleveland",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkluKmo_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284372",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284372/The-Interrupters-tickets-Tue-Apr-13-2027-House-Of-Blues-Cleveland"
   },
   {
     "id": "tm-the-interrupters-2027-mckees-rocks-1avbz_3gktimcny",
@@ -929,12 +985,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284374",
+        "url": "https://www.ticketliquidator.com/tickets/8284374/The-Interrupters-tickets-Fri-Apr-16-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfxGkeSF0Dw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284374"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284374/The-Interrupters-tickets-Fri-Apr-16-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-the-interrupters-2027-chicago-vv178z_ogkmzy5fz",
@@ -990,12 +1054,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284376",
+        "url": "https://www.ticketliquidator.com/tickets/8284376/The-Interrupters-tickets-Sat-Apr-17-2027-House-Of-Blues-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_oGkMZy5fZ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284376"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284376",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284376/The-Interrupters-tickets-Sat-Apr-17-2027-House-Of-Blues-Chicago"
   },
   {
     "id": "tm-the-interrupters-2027-saint-louis-vv17bz_3gkdzh1rc",
@@ -1104,12 +1176,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284379",
+        "url": "https://www.ticketliquidator.com/tickets/8284379/The-Interrupters-tickets-Wed-Apr-21-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkBzSymO",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284379"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284379",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284379/The-Interrupters-tickets-Wed-Apr-21-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus"
   },
   {
     "id": "tm-the-interrupters-2027-salt-lake-city-g5vzz_3nsybuv",
@@ -1289,12 +1369,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284387",
+        "url": "https://www.ticketliquidator.com/tickets/8284387/The-Interrupters-tickets-Sun-May-2-2027-House-Of-Blues-Anaheim",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1Fe8vPG33pZ72Fk7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-09-25T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284387"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284387",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284387/The-Interrupters-tickets-Sun-May-2-2027-House-Of-Blues-Anaheim"
   }
 ]

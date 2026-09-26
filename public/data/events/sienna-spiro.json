@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038346",
+        "url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKok",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038346"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038346",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium"
   },
   {
     "id": "tm-sienna-spiro-2026-washington-17a8v0g6gphxucm",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038339",
+        "url": "https://www.ticketliquidator.com/tickets/8038339/Sienna-Spiro-tickets-Fri-Oct-16-2026-Lincoln-Theatre-DC",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpHxucm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038339"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038339",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038339/Sienna-Spiro-tickets-Fri-Oct-16-2026-Lincoln-Theatre-DC"
   },
   {
     "id": "tm-sienna-spiro-2026-philadelphia-vvg1fz_gfaf9pc",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038340",
+        "url": "https://www.ticketliquidator.com/tickets/8038340/Sienna-Spiro-tickets-Sat-Oct-17-2026-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_GfAF9Pc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038340"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038340",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038340/Sienna-Spiro-tickets-Sat-Oct-17-2026-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-sienna-spiro-2026-boston-vvg17z_gpsen49",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038341",
+        "url": "https://www.ticketliquidator.com/tickets/8038341/Sienna-Spiro-tickets-Sun-Oct-18-2026-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GpsEn49",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038341"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038341",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038341/Sienna-Spiro-tickets-Sun-Oct-18-2026-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-sienna-spiro-2026-new-york-k7vgf_uedf3n_",
@@ -350,12 +382,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038342",
+        "url": "https://www.ticketliquidator.com/tickets/8038342/Sienna-Spiro-tickets-Wed-Oct-21-2026-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gre9Jk_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038342"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038342",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038342/Sienna-Spiro-tickets-Wed-Oct-21-2026-Brooklyn-Paramount"
   },
   {
     "id": "tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn",
@@ -517,12 +557,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038348",
+        "url": "https://www.ticketliquidator.com/tickets/8038348/Sienna-Spiro-tickets-Tue-Oct-27-2026-Riviera-Theatre-IL",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxQ8",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038348"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038348",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038348/Sienna-Spiro-tickets-Tue-Oct-27-2026-Riviera-Theatre-IL"
   },
   {
     "id": "tm-sienna-spiro-2026-minneapolis-z7r9jz1a7pko4",
@@ -578,12 +626,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038349",
+        "url": "https://www.ticketliquidator.com/tickets/8038349/Sienna-Spiro-tickets-Wed-Oct-28-2026-First-Avenue",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKO4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038349"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038349",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038349/Sienna-Spiro-tickets-Wed-Oct-28-2026-First-Avenue"
   },
   {
     "id": "tm-sienna-spiro-2026-englewood-z7r9jz1a7p-ji",
@@ -639,12 +695,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038350",
+        "url": "https://www.ticketliquidator.com/tickets/8038350/Sienna-Spiro-tickets-Fri-Oct-30-2026-Gothic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-jI",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038350"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038350",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038350/Sienna-Spiro-tickets-Fri-Oct-30-2026-Gothic-Theatre"
   },
   {
     "id": "tm-sienna-spiro-2026-seattle-z7r9jz1a7pxzs",
@@ -700,12 +764,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038352",
+        "url": "https://www.ticketliquidator.com/tickets/8038352/Sienna-Spiro-tickets-Mon-Nov-2-2026-The-Showbox",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxZS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038352"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038352",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038352/Sienna-Spiro-tickets-Mon-Nov-2-2026-The-Showbox"
   },
   {
     "id": "tm-sienna-spiro-2026-vancouver-z7r9jz1a7pk0e",
@@ -761,12 +833,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8047966",
+        "url": "https://www.ticketliquidator.com/tickets/8047966/Sienna-Spiro-tickets-Wed-Nov-4-2026-Vogue-Theatre-BC",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0e",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047966"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047966",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8047966/Sienna-Spiro-tickets-Wed-Nov-4-2026-Vogue-Theatre-BC"
   },
   {
     "id": "tm-sienna-spiro-2026-vancouver-z7r9jz1a7pa4e",
@@ -822,12 +902,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8047967",
+        "url": "https://www.ticketliquidator.com/tickets/8047967/Sienna-Spiro-tickets-Thu-Nov-5-2026-Vogue-Theatre-BC",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pa4e",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047967"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047967",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8047967/Sienna-Spiro-tickets-Thu-Nov-5-2026-Vogue-Theatre-BC"
   },
   {
     "id": "tm-sienna-spiro-2026-portland-z7r9jz1a7p-q3",
@@ -883,12 +971,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8047968",
+        "url": "https://www.ticketliquidator.com/tickets/8047968/Sienna-Spiro-tickets-Sat-Nov-7-2026-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-q3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047968"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047968",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8047968/Sienna-Spiro-tickets-Sat-Nov-7-2026-McMenamins-Crystal-Ballroom"
   },
   {
     "id": "tm-sienna-spiro-2026-san-francisco-g5vyz_gkw-ewe",
@@ -997,12 +1093,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8038344",
+        "url": "https://www.ticketliquidator.com/tickets/8038344/Sienna-Spiro-tickets-Tue-Nov-10-2026-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpWXv_J",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038344"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038344",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038344/Sienna-Spiro-tickets-Tue-Nov-10-2026-The-Wiltern"
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_udz2l-k",
@@ -1058,12 +1162,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8058397",
+        "url": "https://www.ticketliquidator.com/tickets/8058397/Sienna-Spiro-tickets-Thu-Nov-12-2026-Orpheum-Theatre-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_udZ2l-k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058397"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058397",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058397/Sienna-Spiro-tickets-Thu-Nov-12-2026-Orpheum-Theatre-Los-Angeles"
   },
   {
     "id": "tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz",
@@ -1278,12 +1390,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056624",
+        "url": "https://www.ticketliquidator.com/tickets/8056624/Sienna-Spiro-tickets-Mon-Feb-22-2027-Edinburgh-Corn-Exchange",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G3xlVCt",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056624"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056624",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056624/Sienna-Spiro-tickets-Mon-Feb-22-2027-Edinburgh-Corn-Exchange"
   },
   {
     "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc",
@@ -1339,12 +1459,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8058895",
+        "url": "https://www.ticketliquidator.com/tickets/8058895/Sienna-Spiro-tickets-Tue-Feb-23-2027-Edinburgh-Corn-Exchange",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G3JTVqc",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058895"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058895",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058895/Sienna-Spiro-tickets-Tue-Feb-23-2027-Edinburgh-Corn-Exchange"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt",
@@ -1400,12 +1528,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090734",
+        "url": "https://www.ticketliquidator.com/tickets/8090734/Sienna-Spiro-tickets-Mon-Mar-1-2027-O2-Apollo-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GhEVqqt",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090734"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090734",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090734/Sienna-Spiro-tickets-Mon-Mar-1-2027-O2-Apollo-Manchester"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e",
@@ -1461,12 +1597,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8057458",
+        "url": "https://www.ticketliquidator.com/tickets/8057458/Sienna-Spiro-tickets-Tue-Mar-2-2027-O2-Apollo-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GNYJi_E",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057458"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057458/Sienna-Spiro-tickets-Tue-Mar-2-2027-O2-Apollo-Manchester"
   },
   {
     "id": "tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y",
@@ -1575,12 +1719,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8057456",
+        "url": "https://www.ticketliquidator.com/tickets/8057456/Sienna-Spiro-tickets-Wed-Mar-24-2027-Tempodrom",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v0N7t_U",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057456"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057456",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057456/Sienna-Spiro-tickets-Wed-Mar-24-2027-Tempodrom"
   },
   {
     "id": "tm-sienna-spiro-2027-milano-zg9rmiynyzef6a",
@@ -1689,12 +1841,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8058056",
+        "url": "https://www.ticketliquidator.com/tickets/8058056/Sienna-Spiro-tickets-Mon-Mar-29-2027-Main-Hall-At-Parallel-62",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16evg76uK",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058056"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058056",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058056/Sienna-Spiro-tickets-Mon-Mar-29-2027-Main-Hall-At-Parallel-62"
   },
   {
     "id": "tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3",
@@ -1750,12 +1910,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8058057",
+        "url": "https://www.ticketliquidator.com/tickets/8058057/Sienna-Spiro-tickets-Tue-Mar-30-2027-La-Riviera-Spain",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4sjdu3",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058057"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058057",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058057/Sienna-Spiro-tickets-Tue-Mar-30-2027-La-Riviera-Spain"
   },
   {
     "id": "tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un",

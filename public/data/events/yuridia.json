@@ -1364,12 +1364,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252916",
+        "url": "https://www.ticketliquidator.com/tickets/8252916/Yuridia-tickets-Fri-Mar-19-2027-Bert-Ogden-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_Y",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252916"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252916",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252916/Yuridia-tickets-Fri-Mar-19-2027-Bert-Ogden-Arena"
   },
   {
     "id": "tm-yuridia-2027-brooklyn-z7r9jz1aav-_s",
@@ -1425,11 +1433,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252919",
+        "url": "https://www.ticketliquidator.com/tickets/8252919/Yuridia-tickets-Sat-Mar-27-2027-Kings-Theatre-NY",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_s",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252919"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252919",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252919/Yuridia-tickets-Sat-Mar-27-2027-Kings-Theatre-NY"
   }
 ]

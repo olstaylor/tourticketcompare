@@ -1528,12 +1528,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7758708",
+        "url": "https://www.ticketliquidator.com/tickets/7758708/Metallica-tickets-Sat-Oct-3-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfu40",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758708"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758708",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758708/Metallica-tickets-Sat-Oct-3-2026-Sphere"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1avjz_agkns9qkh",
@@ -1642,12 +1650,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7775746",
+        "url": "https://www.ticketliquidator.com/tickets/7775746/Metallica-tickets-Sat-Oct-10-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775746"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775746",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775746/Metallica-tickets-Sat-Oct-10-2026-Sphere"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",
@@ -1756,12 +1772,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7758710",
+        "url": "https://www.ticketliquidator.com/tickets/7758710/Metallica-tickets-Sat-Oct-17-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4i",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758710"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758710",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758710/Metallica-tickets-Sat-Oct-17-2026-Sphere"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
@@ -1870,12 +1894,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7758712",
+        "url": "https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4g",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758712"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758712",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6e",
@@ -1984,12 +2016,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7759027",
+        "url": "https://www.ticketliquidator.com/tickets/7759027/Metallica-tickets-Sat-Oct-31-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759027"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759027",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759027/Metallica-tickets-Sat-Oct-31-2026-Sphere"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72a62",
@@ -2098,12 +2138,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7775511",
+        "url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6y",
@@ -2159,12 +2207,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785091",
+        "url": "https://www.ticketliquidator.com/tickets/7785091/Metallica-tickets-Sat-Feb-27-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785091"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785091",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785091/Metallica-tickets-Sat-Feb-27-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0butu",
@@ -2273,12 +2329,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785869",
+        "url": "https://www.ticketliquidator.com/tickets/7785869/Metallica-tickets-Sat-Mar-6-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6W",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785869"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785869",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785869/Metallica-tickets-Sat-Mar-6-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0bqtz",
@@ -2387,12 +2451,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268626",
+        "url": "https://www.ticketliquidator.com/tickets/8268626/Metallica-tickets-Wed-Jun-2-2027-Carter-Finley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwAJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268626"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268626",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268626/Metallica-tickets-Wed-Jun-2-2027-Carter-Finley-Stadium"
   },
   {
     "id": "tm-metallica-2027-madison-z7r9jz1aavw0o",
@@ -2448,11 +2520,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268634",
+        "url": "https://www.ticketliquidator.com/tickets/8268634/Metallica-tickets-Sat-Jun-12-2027-Camp-Randall-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw0o",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268634"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268634",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268634/Metallica-tickets-Sat-Jun-12-2027-Camp-Randall-Stadium"
   }
 ]

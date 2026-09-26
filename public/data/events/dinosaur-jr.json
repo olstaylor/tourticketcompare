@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8097779",
+        "url": "https://www.ticketliquidator.com/tickets/8097779/Dinosaur-Jr-tickets-Fri-Oct-9-2026-Brooklyn-Bowl-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6uJIQnhU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8097779"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8097779",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8097779/Dinosaur-Jr-tickets-Fri-Oct-9-2026-Brooklyn-Bowl-Las-Vegas"
   },
   {
     "id": "tm-dinosaur-jr-2026-tempe-17k8v0g6ujk40ss",
@@ -236,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8099080",
+        "url": "https://www.ticketliquidator.com/tickets/8099080/Dinosaur-Jr-tickets-Thu-Oct-15-2026-House-Of-Blues-Anaheim",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uU7Ndiz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099080"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099080",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099080/Dinosaur-Jr-tickets-Thu-Oct-15-2026-House-Of-Blues-Anaheim"
   },
   {
     "id": "tm-dinosaur-jr-2026-los-angeles-vvg10z_ueyxka-",
@@ -525,12 +541,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8105619",
+        "url": "https://www.ticketliquidator.com/tickets/8105619/Dinosaur-Jr-tickets-Thu-Oct-22-2026-Revolution-Hall-Portland",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-M",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105619"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105619",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105619/Dinosaur-Jr-tickets-Thu-Oct-22-2026-Revolution-Hall-Portland"
   },
   {
     "id": "tm-dinosaur-jr-2026-seattle-vvg1hz_ul9tuc_",
@@ -814,12 +838,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8099101",
+        "url": "https://www.ticketliquidator.com/tickets/8099101/Dinosaur-Jr-tickets-Wed-Nov-4-2026-House-Of-Blues-Houston",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_uJ-6tWS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099101"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099101",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099101/Dinosaur-Jr-tickets-Wed-Nov-4-2026-House-Of-Blues-Houston"
   },
   {
     "id": "tm-dinosaur-jr-2026-austin-g5diz_usqkioq",
@@ -1156,12 +1188,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244704",
+        "url": "https://www.ticketliquidator.com/tickets/8244704/Dinosaur-Jr-tickets-Tue-Feb-16-2027-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "164Zkf4PNZAu65Fa",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244704"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244704",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244704/Dinosaur-Jr-tickets-Tue-Feb-16-2027-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-dinosaur-jr-2027-orlando-z7r9jz1aav8-u",
@@ -1323,12 +1363,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239819",
+        "url": "https://www.ticketliquidator.com/tickets/8239819/Dinosaur-Jr-tickets-Fri-Feb-26-2027-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_o987BGU",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239819"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239819",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239819/Dinosaur-Jr-tickets-Fri-Feb-26-2027-Brooklyn-Bowl-Nashville"
   },
   {
     "id": "tm-dinosaur-jr-2027-cincinnati-1kaovpaogacpo0v",
@@ -1604,11 +1652,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239627",
+        "url": "https://www.ticketliquidator.com/tickets/8239627/Dinosaur-Jr-tickets-Sat-Mar-13-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16vZkf4vVZA5C5kF",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239627"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239627",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239627/Dinosaur-Jr-tickets-Sat-Mar-13-2027-Citizens-House-Of-Blues-Boston"
   }
 ]

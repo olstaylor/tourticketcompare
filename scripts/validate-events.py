@@ -33,6 +33,12 @@ OWNER_ACCEPTED_BLANK_TOUR_NAME_IDS = {
 # runtime CTA/redirect eligibility comes from the stored destination and strict
 # URL validation. An absent key falls back to the legacy provider flag.
 ALLOWED_VERIFICATION_STATUSES = {"human_verified", "machine_high_confidence", "needs_recheck"}
+
+# Verbatim Ticketmaster Discovery `dates.status.code` values that
+# scripts/apply-tm-updates.mjs records on an event (ticketmaster_status_code).
+# Absent means a normal sale state. Anything else is rejected here, and the
+# runtime treats an unrecognised stored value as a hold (functions/_route-indexability.js).
+ALLOWED_TICKETMASTER_STATUS_CODES = {"cancelled", "canceled", "postponed", "rescheduled"}
 PLACEHOLDER_MARKERS = (
     "example.com",
     "localhost",
@@ -413,12 +419,21 @@ def run_self_test() -> int:
             "expect": "event[0].tour_name: required key (must be present; empty string allowed)",
         },
         {
+            "name": "unrecognised ticketmaster_status_code",
+            "mutate": lambda event: event.__setitem__("ticketmaster_status_code", "onsale"),
+            "expect": "event[0].ticketmaster_status_code: invalid 'onsale'",
+        },
+        {
             "name": "ticketmaster storefront id must remain in url",
             "mutate": lambda event: event.__setitem__("ticketmaster_event_id", "DISCOVERY123"),
             "expect": "ticketmaster_event_id 'DISCOVERY123' must match /event/ segment 'ABC123'",
         },
     ]
     positive_cases = [
+        {
+            "name": "recorded Ticketmaster lifecycle status",
+            "mutate": lambda event: event.__setitem__("ticketmaster_status_code", "cancelled"),
+        },
         {
             "name": "valid timestamp fields across artist event and provider",
             "mutate": lambda event: event["provider_links"]["ticketmaster"].__setitem__("last_verified_at", "2026-05-21"),
@@ -774,6 +789,13 @@ def main() -> int:
                 errors.append(f"{prefix}.public_onsale_at: must be an ISO datetime if present")
             elif (status or "").strip() != "announced":
                 errors.append(f"{prefix}.public_onsale_at: only allowed on an 'announced' event")
+
+        ticketmaster_status_code = event.get("ticketmaster_status_code")
+        if ticketmaster_status_code is not None and ticketmaster_status_code not in ALLOWED_TICKETMASTER_STATUS_CODES:
+            allowed = ", ".join(sorted(ALLOWED_TICKETMASTER_STATUS_CODES))
+            errors.append(
+                f"{prefix}.ticketmaster_status_code: invalid '{ticketmaster_status_code}' (allowed: {allowed}; omit the field for a normal sale state)"
+            )
 
         verification_status = event.get("verification_status")
         if verification_status is not None:

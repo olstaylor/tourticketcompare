@@ -26,7 +26,7 @@ import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artist
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
-import { publicOnsalePending } from "./_route-indexability.js";
+import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import {
   PRICE_GUIDE_SEGMENT,
@@ -1047,7 +1047,12 @@ function musicEventNode(show, origin, { displayName, performer, image, offers = 
     description: `${name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`,
     image: image || `${origin}/og-image.png`,
     startDate: venueLocalIso(show.dateTimeISO, show.timezone),
-    eventStatus: "https://schema.org/EventScheduled",
+    // Only publishable shows reach this node, so a held (cancelled/postponed)
+    // show never does. Rescheduled is stated only when Ticketmaster's own
+    // status says so; no previousStartDate, because the old date is not kept.
+    eventStatus: eventLifecycle(show) === EVENT_LIFECYCLE.RESCHEDULED
+      ? "https://schema.org/EventRescheduled"
+      : "https://schema.org/EventScheduled",
     // Every tracked show is an in-person concert at a named venue; there is no
     // streamed or hybrid lane, so this is a constant, not a per-event claim.
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
@@ -4003,6 +4008,8 @@ function enrichEventAsShow(ev) {
     venue: String(ev.venue || "").trim(),
     ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
     public_onsale_at: String(ev.public_onsale_at || "").trim(),
+    [TICKETMASTER_STATUS_FIELD]: String(ev[TICKETMASTER_STATUS_FIELD] || "").trim(),
+    lifecycle: eventLifecycle(ev),
     seatgeek_url: String(ev.seatgeek_url || "").trim(),
     vividseats_url: String(ev.vividseats_url || "").trim(),
     ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
@@ -4314,6 +4321,7 @@ export function renderOnsaleCalendarBody(route) {
 }
 
 function eventLinkPublishable(event) {
+  if (eventLifecycleHeld(event)) return false;
   if (publicOnsalePending(event)) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;
@@ -4326,6 +4334,9 @@ function eventLinkPublishable(event) {
 // validator; no manual status flip is required. Keep in sync with
 // providerEventPublishable in functions/api/out.js and public/app.js.
 function providerEventPublishable(event, provider) {
+  // A cancelled or postponed show publishes no lane at all (eventLifecycleHeld,
+  // shared with /api/out, /api/shows and the route gates).
+  if (eventLifecycleHeld(event)) return false;
   // Before the public on-sale only a resale lane verified for this exact event
   // publishes; Ticketmaster and the unverified fallbacks wait for the on-sale.
   if (publicOnsalePending(event)) return provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true;
@@ -4871,6 +4882,15 @@ function renderPriceHistoryPanelHtml(artistSlug, showId) {
 // per card — 116 KB on an 84-date board — for a form almost nobody opens.
 const PRICE_ALERT_INTEREST_TEMPLATE = `<template id="price-alert-interest-template"><form class="price-alert-interest" method="post" action="/api/signup" data-price-alert-interest="" data-event-id=""><p class="muted">Want an email if this price drops? Price emails aren't sent yet — leave an address to register interest and help decide whether alerts get built.</p><div class="price-alert-interest-row"><label class="sr-only" for="price-alert-email">Email address</label><input type="email" id="price-alert-email" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></template>`;
 
+// The line a held date shows in place of its ticket buttons. Each states only
+// what the stored Ticketmaster status says.
+function lifecycleHoldLabel(show) {
+  const lifecycle = eventLifecycle(show);
+  if (lifecycle === EVENT_LIFECYCLE.CANCELLED) return "Ticketmaster lists this date as cancelled, so no ticket links are shown for it.";
+  if (lifecycle === EVENT_LIFECYCLE.POSTPONED) return "Ticketmaster lists this date as postponed, so no ticket links are shown until it is back on sale.";
+  return "This date's Ticketmaster status is being checked, so no ticket links are shown for it.";
+}
+
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}, presentation = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
@@ -4879,6 +4899,10 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.</p>`;
+  } else if (eventLifecycleHeld(show)) {
+    // Checked before anything else that could print a button or a price: a
+    // cancelled or postponed date is still listed, but never as a live show.
+    ctaHtml = `<p class="disclosure-note" data-event-lifecycle="${escapeAttr(eventLifecycle(show))}">${escapeHtml(lifecycleHoldLabel(show))}</p>`;
   } else if (publicOnsalePending(show)) {
     // Verified resale lanes render with the on-sale time stated above them;
     // with none, the card keeps only that statement.
@@ -5001,7 +5025,11 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const runHtml = run
     ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue</p>`
     : "";
-  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}</div><div class="show-card-actions">${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
+  // Stated only on Ticketmaster's own word; the previous date is not known.
+  const rescheduledHtml = eventLifecycle(show) === EVENT_LIFECYCLE.RESCHEDULED
+    ? `<p class="show-card-sub muted" data-event-lifecycle="rescheduled">Rescheduled: this is the date Ticketmaster now lists.</p>`
+    : "";
+  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${rescheduledHtml}${runHtml}</div><div class="show-card-actions">${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the

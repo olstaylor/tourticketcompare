@@ -23,6 +23,8 @@
 // Nothing here is a policy decision of its own. When the runtime gate changes,
 // change it here in the same commit.
 
+import { eventLifecycleHeld } from "../../functions/_route-indexability.js";
+
 function clean(value, max = 2048) {
   return String(value ?? "").trim().slice(0, max);
 }
@@ -69,6 +71,7 @@ export function laneBySlug(slug) {
 
 /** Row-status gate — governs the Ticketmaster link. */
 export function eventLinkPublishable(event) {
+  if (eventLifecycleHeld(event)) return false;
   const destination = clean(event?.ticketmaster_url || event?.source_url);
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
@@ -76,6 +79,7 @@ export function eventLinkPublishable(event) {
 
 /** Per-provider gate. */
 export function providerEventPublishable(event, provider) {
+  if (eventLifecycleHeld(event)) return false;
   if (IMPACT_MARKETPLACE_SLUGS.includes(provider)) {
     return event?.provider_links?.[provider]?.verified === true;
   }

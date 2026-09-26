@@ -1,4 +1,5 @@
 import { VERIFIED_TICKET_LINKS } from "./out.js";
+import { eventLifecycleHeld, TICKETMASTER_STATUS_FIELD } from "../_route-indexability.js";
 import {
   impactMarketplacePriceDisplayEnabled,
   impactMarketplaceRuntimeConfig
@@ -119,6 +120,9 @@ export function mapEventsToShows(events) {
         status: event.status,
         // Hydrated cards must keep the not-yet-on-sale suppression and label.
         public_onsale_at: event.public_onsale_at || "",
+        // Lifecycle hold (cancelled/postponed): every gate below and in
+        // public/app.js withholds the date's ticket links while it is set.
+        [TICKETMASTER_STATUS_FIELD]: event[TICKETMASTER_STATUS_FIELD] || "",
         seatgeek_event_id: event.seatgeek_event_id,
         vividseats_event_id: event.vividseats_event_id,
         ticketmaster_event_id: event.ticketmaster_event_id,
@@ -695,6 +699,7 @@ function validVividSeatsEventUrl(value) {
 }
 
 function eventLinkPublishable(event) {
+  if (eventLifecycleHeld(event)) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
@@ -704,6 +709,7 @@ function eventLinkPublishable(event) {
 // in functions/api/out.js, functions/[[path]].js and public/app.js.
 
 function providerEventPublishable(event, provider) {
+  if (eventLifecycleHeld(event)) return false;
   if (IMPACT_MARKETPLACE_BY_SLUG[provider]) {
     return event?.provider_links?.[provider]?.verified === true;
   }
@@ -717,6 +723,9 @@ function providerEventPublishable(event, provider) {
 // provenance. An event-level verification status must never revive a cached
 // row after the provider match itself is revoked.
 function providerPriceEventVerified(event, provider) {
+  // A held (cancelled/postponed) date shows no price: a listed price implies
+  // something can be bought.
+  if (eventLifecycleHeld(event)) return false;
   return provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true;
 }
 
@@ -1170,7 +1179,7 @@ function decorateProviderResult(result, show, provider, env) {
     providerEventPublishable(show, key) &&
     validImpactMarketplaceEventUrl(show?.[marketplaceConfig.urlField], marketplaceConfig)
   );
-  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl || hasVerifiedMarketplaceEventUrl;
+  const canUseSafeEventRedirect = !eventLifecycleHeld(show) && (hasVerifiedTicketmasterEventUrl || hasVerifiedMarketplaceEventUrl);
   const actionUrl = canUseSafeEventRedirect ? buildAffiliateActionUrl(show, provider, directUrl) : null;
   const baseStatus = result?.status || "unavailable";
   const isApprovedProviderPriceSnapshot =

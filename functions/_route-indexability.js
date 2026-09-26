@@ -66,6 +66,64 @@ export const PRICE_GUIDE_MIN_CITIES = 2;
 export const PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS = 3;
 
 // ---------------------------------------------------------------------------
+// Event lifecycle (Ticketmaster status)
+// ---------------------------------------------------------------------------
+
+// `ticketmaster_status_code` carries the verbatim Discovery API
+// `dates.status.code` for an event whose Ticketmaster status is not a normal
+// sale state. The nightly field-sync (scripts/apply-tm-updates.mjs) writes it
+// from the event's own Discovery record and removes it when Ticketmaster
+// reports the event on sale again. Absent means nothing is known against the
+// event — the existing sale-state rules (`status`, `public_onsale_at`) apply
+// unchanged. It is a separate field from `status`, which is TTC's own sale
+// state and stays within its validated enum.
+export const TICKETMASTER_STATUS_FIELD = "ticketmaster_status_code";
+
+export const EVENT_LIFECYCLE = Object.freeze({
+  SCHEDULED: "scheduled",
+  CANCELLED: "cancelled",
+  POSTPONED: "postponed",
+  RESCHEDULED: "rescheduled",
+  UNRECOGNISED: "unrecognised"
+});
+
+/**
+ * The event's lifecycle as stored. Ticketmaster spells cancellation both ways.
+ * A stored value this module does not recognise is reported as such, and is
+ * treated as a hold below: an unknown status must fail closed, not open.
+ *
+ * @param {any} event
+ * @returns {string} One of EVENT_LIFECYCLE.
+ */
+export function eventLifecycle(event) {
+  const code = String(event?.[TICKETMASTER_STATUS_FIELD] ?? "").trim().toLowerCase();
+  if (!code || code === "onsale") return EVENT_LIFECYCLE.SCHEDULED;
+  if (code === "cancelled" || code === "canceled") return EVENT_LIFECYCLE.CANCELLED;
+  if (code === "postponed") return EVENT_LIFECYCLE.POSTPONED;
+  if (code === "rescheduled") return EVENT_LIFECYCLE.RESCHEDULED;
+  return EVENT_LIFECYCLE.UNRECOGNISED;
+}
+
+/**
+ * Must every ticket destination for this event be withheld? True for a
+ * cancelled or postponed show, and for any stored status this module does not
+ * recognise. A rescheduled show is not held: Ticketmaster has confirmed its
+ * new date, which the field-sync applies from the same record.
+ *
+ * Every CTA gate — the renderer's providerEventPublishable, /api/shows,
+ * /api/out, public/app.js and the offline mirror in
+ * scripts/lib/event-link-coverage.mjs — checks this first, so one stored value
+ * governs every surface.
+ *
+ * @param {any} event
+ * @returns {boolean}
+ */
+export function eventLifecycleHeld(event) {
+  const lifecycle = eventLifecycle(event);
+  return lifecycle !== EVENT_LIFECYCLE.SCHEDULED && lifecycle !== EVENT_LIFECYCLE.RESCHEDULED;
+}
+
+// ---------------------------------------------------------------------------
 // Event publishability
 // ---------------------------------------------------------------------------
 
@@ -117,6 +175,8 @@ export function eventPublishable(event, now = Date.now()) {
   // anywhere — the same rule the card renderer applies since 2026-09-24
   // (providerEventPublishable in [[path]].js) — so it is checked first, and
   // only the Ticketmaster fallback below waits for the on-sale.
+  // A cancelled or postponed show leads nowhere, whatever links it still has.
+  if (eventLifecycleHeld(event)) return false;
   const links = event?.provider_links && typeof event.provider_links === "object" ? event.provider_links : {};
   // A standalone verified resale destination is enough on its own — but only
   // when it actually has a stored URL to send the visitor to. `verified: true`
@@ -146,6 +206,7 @@ export function eventPublishable(event, now = Date.now()) {
  * @returns {boolean}
  */
 export function eventStatusPublishable(event, now = Date.now()) {
+  if (eventLifecycleHeld(event)) return false;
   if (publicOnsalePending(event, now)) return false;
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;

@@ -51,6 +51,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { eventLifecycleHeld } from "../functions/_route-indexability.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -80,6 +81,7 @@ function clean(value) {
 // functions/[[path]].js / public/app.js. Keep in sync with those — this is the
 // derivation under test, so it MUST match the runtime gate exactly.
 function eventLinkPublishable(event) {
+  if (eventLifecycleHeld(event)) return false;
   const destination = clean(event?.ticketmaster_url || event?.source_url);
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;

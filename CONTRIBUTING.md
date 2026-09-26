@@ -216,6 +216,7 @@ npm run test:units       # ~20s — only the script unit tests (the *:self-test 
 npm run test:event-local-date                 # shared venue-local date/instant resolver used by
                                               #   every provider matcher (in test:mvp)
 npm run test:event-pages                      # event identity: stable keys, future event paths (in test:mvp)
+npm run test:event-lifecycle                  # cancelled/postponed holds on every surface and /api/out (in test:mvp)
 npm run report:event-routes                   # read-only event identity/route diagnostic (not a test)
 npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
 npm run seatgeek:enrich:self-test             # SeatGeek enrichment scheduling + matching (in test:mvp)

@@ -1,6 +1,7 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
 import { isLikelyBot } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
+import { eventLifecycleHeld } from "../_route-indexability.js";
 import {
   classifyDestination,
   classifyDeviceCategory,
@@ -1416,6 +1417,9 @@ function eventLinkPublishable(event) {
 // validator. Keep in sync with providerEventPublishable in
 // functions/[[path]].js and public/app.js.
 function providerEventPublishable(event, provider) {
+  // A cancelled or postponed show (stored Ticketmaster status) redirects
+  // nowhere, so a hand-built showId URL cannot bypass the hold the page applies.
+  if (eventLifecycleHeld(event)) return false;
   if (["ticketnetwork", "ticket-liquidator", "stubhub-international"].includes(provider)) {
     return event?.provider_links?.[provider]?.verified === true;
   }

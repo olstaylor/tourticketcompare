@@ -1921,5 +1921,111 @@
     "ticketmaster_discovery_event_id": "1AvOZ_FGkBmO2ST",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-huntsville-z7r9jz1a7ooob",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Huntsville",
+    "country": "United States Of America",
+    "venue": "Orion Amphitheater",
+    "datetime_iso": "2026-10-07T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OOob",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OOob",
+        "discovery_event_id": "Z7r9jZ1A7OOob",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOob",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-01-17T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600649D8E5D19F1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600649D8E5D19F1",
+        "discovery_event_id": "1AdbZ_aGkUC9oEs",
+        "url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_aGkUC9oEs",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

@@ -1420,5 +1420,959 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268602/Metallica-tickets-Sat-Jun-19-2027-Rice-Eccles-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtkw4-",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-02T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF4FD561",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-01-2026/event/17006455FF4FD561",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-01-2026/event/17006455FF4FD561",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF4FD561",
+        "discovery_event_id": "1A9Zko4GkdTKW4-",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-01-2026/event/17006455FF4FD561",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTKW4-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfu40",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-04T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF50D564",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-03-2026/event/17006455FF50D564",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-03-2026/event/17006455FF50D564",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF50D564",
+        "discovery_event_id": "1A9Zko4GkdTfu40",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-03-2026/event/17006455FF50D564",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfu40",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1avjz_agkns9qkh",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-09T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700645AB15DD4DB",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-08-2026/event/1700645AB15DD4DB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-08-2026/event/1700645AB15DD4DB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700645AB15DD4DB",
+        "discovery_event_id": "1AvjZ_AGkns9qKh",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-08-2026/event/1700645AB15DD4DB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_AGkns9qKh",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1avjz_agknswc9w",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-11T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700645AB1CAD5FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-10-2026/event/1700645AB1CAD5FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-10-2026/event/1700645AB1CAD5FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700645AB1CAD5FD",
+        "discovery_event_id": "1AvjZ_AGknswc9W",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-10-2026/event/1700645AB1CAD5FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-16T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF51D56A",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF51D56A",
+        "discovery_event_id": "1A9Zko4GkdTfq4n",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4n",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4i",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-18T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF51D56C",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF51D56C",
+        "discovery_event_id": "1A9Zko4GkdTfq4i",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4i",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-23T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF52D572",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF52D572",
+        "discovery_event_id": "1A9Zko4GkdTfc4w",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4w",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-25T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF52D575",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF52D575",
+        "discovery_event_id": "1A9Zko4GkdTfc4g",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4g",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6e",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-30T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550781E861",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550781E861",
+        "discovery_event_id": "1FAYv048rvZ72a6e",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6e",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6k",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-01T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550781E865",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550781E865",
+        "discovery_event_id": "1FAYv048rvZ72a6k",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rez72a62",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-06T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550782E86E",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550782E86E",
+        "discovery_event_id": "1FAYv048reZ72a62",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rez72afa",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-08T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550782E874",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550782E874",
+        "discovery_event_id": "1FAYv048reZ72aFA",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6y",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-02-28T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A5E2E1F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A5E2E1F9",
+        "discovery_event_id": "1A9Zko-GkePzm6y",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gke0butu",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-03-05T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A4E8DFF6",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A4E8DFF6",
+        "discovery_event_id": "1A9Zko-Gke0BuTU",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTU",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6w",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-03-07T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A5E2E1FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A5E2E1FD",
+        "discovery_event_id": "1A9Zko-GkePzm6W",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6W",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gke0bqtz",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-03-12T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A4E9DFF8",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A4E9DFF8",
+        "discovery_event_id": "1A9Zko-Gke0BqTz",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-Gke0BqTz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-raleigh-z7r9jz1aavwaj",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Carter Finley Stadium",
+    "datetime_iso": "2027-06-02T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvwAJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvwAJ",
+        "discovery_event_id": "Z7r9jZ1AAvwAJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwAJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-madison-z7r9jz1aavw0o",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Camp Randall",
+    "datetime_iso": "2027-06-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvw0o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvw0o",
+        "discovery_event_id": "Z7r9jZ1AAvw0o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw0o",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

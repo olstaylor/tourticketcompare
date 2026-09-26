@@ -1303,5 +1303,58 @@
     "ticketmaster_discovery_event_id": "1AOZkfbGkdtjfO5",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-raleigh-g5evz_oemqprp",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2027-03-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006519F7756BD6",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-raleigh-north-carolina-03-10-2027/event/2D006519F7756BD6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-raleigh-north-carolina-03-10-2027/event/2D006519F7756BD6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006519F7756BD6",
+        "discovery_event_id": "G5eVZ_oEMqpRp",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-raleigh-north-carolina-03-10-2027/event/2D006519F7756BD6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_oEMqpRp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

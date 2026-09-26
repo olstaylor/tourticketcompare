@@ -1248,5 +1248,164 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276961",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276961/Yuridia-tickets-Wed-Mar-24-2027-Rosemont-Theatre"
+  },
+  {
+    "id": "tm-yuridia-2027-sugar-land-z7r9jz1aav-_t",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia",
+    "city": "Sugar Land",
+    "country": "United States Of America",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2027-03-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-_t",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-_t",
+        "discovery_event_id": "Z7r9jZ1AAv-_t",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_t",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-edinburg-z7r9jz1aav-_y",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Edinburg",
+    "country": "United States Of America",
+    "venue": "Bert Ogden Arena",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-_Y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-_Y",
+        "discovery_event_id": "Z7r9jZ1AAv-_Y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_Y",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-brooklyn-z7r9jz1aav-_s",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Kings Theatre",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-_s",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-_s",
+        "discovery_event_id": "Z7r9jZ1AAv-_s",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

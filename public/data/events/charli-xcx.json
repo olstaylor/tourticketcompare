@@ -1219,5 +1219,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267859",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267859/Brandi-Carlile-tickets-Mon-Feb-22-2027-Ziggo-Dome",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206"
+  },
+  {
+    "id": "tm-charli-xcx-2026-las-vegas-z7r9jz1a7p8v-",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Charli xcx: Music, Fashion, Film Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-10-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P8v-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8v-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8v-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P8v-",
+        "discovery_event_id": "Z7r9jZ1A7P8v-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8v-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8v-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

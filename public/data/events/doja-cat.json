@@ -2204,5 +2204,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457486",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457486/Doja-Cat-tickets-Tue-Dec-1-2026-Madison-Square-Garden"
+  },
+  {
+    "id": "tm-doja-cat-2026-las-vegas-z7r9jz1a7js4u",
+    "artist_slug": "doja-cat",
+    "artist_name": "Doja Cat",
+    "event_name": "Doja Cat",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2026-11-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7jS4U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7jS4U",
+        "discovery_event_id": "Z7r9jZ1A7jS4U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4U",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

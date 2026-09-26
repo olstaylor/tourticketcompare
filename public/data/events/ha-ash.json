@@ -1120,5 +1120,111 @@
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277091/HaAsh-tickets-Sat-May-22-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277091"
+  },
+  {
+    "id": "tm-ha-ash-2027-portland-z7r9jz1aavz-k",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Keller Auditorium",
+    "datetime_iso": "2027-04-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvz-K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvz-K",
+        "discovery_event_id": "Z7r9jZ1AAvz-K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvz-K",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ha-ash-2027-highland-z7r9jz1aavz-m",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-05-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvz-M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvz-M",
+        "discovery_event_id": "Z7r9jZ1AAvz-M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvz-M",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

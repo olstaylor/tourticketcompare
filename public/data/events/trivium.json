@@ -2301,5 +2301,111 @@
     "ticketmaster_discovery_event_id": "1AbZkffGkdvSQon",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-san-antonio-z7r9jz1aazdco",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium: Crown In The Grave",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Boeing Center at Tech Port",
+    "datetime_iso": "2026-11-28T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdCo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdCo",
+        "discovery_event_id": "Z7r9jZ1AAZdCo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdCo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-las-vegas-z7r9jz1a7j_4j",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Pearl Concert Theater at Palms Casino Resort",
+    "datetime_iso": "2026-12-04T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J_4J",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J_4J",
+        "discovery_event_id": "Z7r9jZ1A7J_4J",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J_4J",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

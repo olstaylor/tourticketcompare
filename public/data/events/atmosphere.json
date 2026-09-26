@@ -766,5 +766,323 @@
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z"
+  },
+  {
+    "id": "tm-atmosphere-2027-green-bay-z7r9jz1aavz-e",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Green Bay",
+    "country": "United States Of America",
+    "venue": "EPIC Event Center",
+    "datetime_iso": "2027-01-15T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvz-E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvz-E",
+        "discovery_event_id": "Z7r9jZ1AAvz-E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvz-E",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-west-des-moines-z7r9jz1aaezfw",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "West Des Moines",
+    "country": "United States Of America",
+    "venue": "Val Air Ballroom",
+    "datetime_iso": "2027-01-17T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZfw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZfw",
+        "discovery_event_id": "Z7r9jZ1AAeZfw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZfw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-omaha-z7r9jz1aaez39",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "The Admiral-NE",
+    "datetime_iso": "2027-01-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZ39",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ39",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ39",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZ39",
+        "discovery_event_id": "Z7r9jZ1AAeZ39",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ39",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ39",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-fort-collins-z7r9jz1aaezpv",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Fort Collins",
+    "country": "United States Of America",
+    "venue": "Aggie Theater",
+    "datetime_iso": "2027-01-20T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZPv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZPv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZPv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZPv",
+        "discovery_event_id": "Z7r9jZ1AAeZPv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZPv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZPv",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Grand Junction",
+    "country": "United States Of America",
+    "venue": "Mesa Theatre & Club",
+    "datetime_iso": "2027-01-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZfe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZfe",
+        "discovery_event_id": "Z7r9jZ1AAeZfe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZfe",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-minneapolis-z7r9jz1aaez4o",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2027-02-08T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZ4O",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZ4O",
+        "discovery_event_id": "Z7r9jZ1AAeZ4O",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ4O",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

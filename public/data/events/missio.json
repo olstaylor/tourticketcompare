@@ -1850,5 +1850,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200568/Missio-tickets-Sat-Apr-10-2027-Come-and-Take-It-Live",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200568"
+  },
+  {
+    "id": "tm-missio-2026-san-francisco-z7r9jz1aazja_",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio w/ Fifteen0eight",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Brick & Mortar Music Hall",
+    "datetime_iso": "2026-11-04T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZJa_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZJa_",
+        "discovery_event_id": "Z7r9jZ1AAZJa_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJa_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

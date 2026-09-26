@@ -124617,5 +124617,3662 @@
     "ticketmaster_discovery_event_id": "1kAYvP7_GA2u_jk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-glendale-z7r9jz1aavp4_",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles w/ Tinashe",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2027-04-03T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvP4_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvP4_",
+        "discovery_event_id": "Z7r9jZ1AAvP4_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4_",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2027-glendale-z7r9jz1aavp4b",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "Harry Styles w/ Tinashe",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2027-04-04T02:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvP4b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvP4b",
+        "discovery_event_id": "Z7r9jZ1AAvP4b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvP4b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvP4b",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2026-las-vegas-z7r9jz1a7p8v-",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "event_name": "Charli xcx: Music, Fashion, Film Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-10-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P8v-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8v-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8v-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P8v-",
+        "discovery_event_id": "Z7r9jZ1A7P8v-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8v-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8v-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-glasgow-17uov0g65lvesak",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064BAF49F1146",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064BAF49F1146",
+        "discovery_event_id": "17uOv0G65lVEsAk",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G65lVEsAk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064BD032946DD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064BD032946DD",
+        "discovery_event_id": "17uOv0G65Vd1fhq",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G65Vd1fhq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-belfast-1adoz_kgkuhawcy",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2026-11-15T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800646DBC2723B0",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-15-11-2026/event/3800646DBC2723B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-15-11-2026/event/3800646DBC2723B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800646DBC2723B0",
+        "discovery_event_id": "1AdOZ_kGkUHawCY",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-15-11-2026/event/3800646DBC2723B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_kGkUHawCY",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2026-11-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800647BBD741CBC",
+    "ticketmaster_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-16-11-2026/event/3800647BBD741CBC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-16-11-2026/event/3800647BBD741CBC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800647BBD741CBC",
+        "discovery_event_id": "1AdOZ_6GkmWqvwH",
+        "url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-16-11-2026/event/3800647BBD741CBC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_6GkmWqvwH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2027-hartford-z7r9jz1a709uz",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2027-04-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A709uz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A709uz",
+        "discovery_event_id": "Z7r9jZ1A709uz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A709uz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-doja-cat-2026-las-vegas-z7r9jz1a7js4u",
+    "artist_slug": "doja-cat",
+    "artist_name": "Doja Cat",
+    "event_name": "Doja Cat",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2026-11-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7jS4U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7jS4U",
+        "discovery_event_id": "Z7r9jZ1A7jS4U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4U",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-latto-2026-chicago-vv1a7zkfvgkdplqxd",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "event_name": "Latto VIP Upgrades (Event Ticket Not Included)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2026-10-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006501D67DD8BB",
+    "ticketmaster_url": "https://www.ticketmaster.com/latto-vip-upgrades-event-ticket-not-chicago-illinois-10-03-2026/event/04006501D67DD8BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/latto-vip-upgrades-event-ticket-not-chicago-illinois-10-03-2026/event/04006501D67DD8BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006501D67DD8BB",
+        "discovery_event_id": "vv1A7ZkfvGkdpLqxD",
+        "url": "https://www.ticketmaster.com/latto-vip-upgrades-event-ticket-not-chicago-illinois-10-03-2026/event/04006501D67DD8BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfvGkdpLqxD",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtkw4-",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-02T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF4FD561",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-01-2026/event/17006455FF4FD561",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-01-2026/event/17006455FF4FD561",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF4FD561",
+        "discovery_event_id": "1A9Zko4GkdTKW4-",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-01-2026/event/17006455FF4FD561",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTKW4-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfu40",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-04T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF50D564",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-03-2026/event/17006455FF50D564",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-03-2026/event/17006455FF50D564",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF50D564",
+        "discovery_event_id": "1A9Zko4GkdTfu40",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-03-2026/event/17006455FF50D564",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfu40",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1avjz_agkns9qkh",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-09T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700645AB15DD4DB",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-08-2026/event/1700645AB15DD4DB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-08-2026/event/1700645AB15DD4DB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700645AB15DD4DB",
+        "discovery_event_id": "1AvjZ_AGkns9qKh",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-08-2026/event/1700645AB15DD4DB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_AGkns9qKh",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1avjz_agknswc9w",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-11T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700645AB1CAD5FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-10-2026/event/1700645AB1CAD5FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-10-2026/event/1700645AB1CAD5FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700645AB1CAD5FD",
+        "discovery_event_id": "1AvjZ_AGknswc9W",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-10-2026/event/1700645AB1CAD5FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-16T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF51D56A",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF51D56A",
+        "discovery_event_id": "1A9Zko4GkdTfq4n",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4n",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4i",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-18T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF51D56C",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF51D56C",
+        "discovery_event_id": "1A9Zko4GkdTfq4i",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4i",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-23T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF52D572",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF52D572",
+        "discovery_event_id": "1A9Zko4GkdTfc4w",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4w",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-25T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006455FF52D575",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006455FF52D575",
+        "discovery_event_id": "1A9Zko4GkdTfc4g",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4g",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6e",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-10-30T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550781E861",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550781E861",
+        "discovery_event_id": "1FAYv048rvZ72a6e",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6e",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6k",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-01T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550781E865",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550781E865",
+        "discovery_event_id": "1FAYv048rvZ72a6k",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rez72a62",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-06T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550782E86E",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550782E86E",
+        "discovery_event_id": "1FAYv048reZ72a62",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2026-las-vegas-1fayv048rez72afa",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-08T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064550782E874",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064550782E874",
+        "discovery_event_id": "1FAYv048reZ72aFA",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6y",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-02-28T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A5E2E1F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A5E2E1F9",
+        "discovery_event_id": "1A9Zko-GkePzm6y",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gke0butu",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-03-05T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A4E8DFF6",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A4E8DFF6",
+        "discovery_event_id": "1A9Zko-Gke0BuTU",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTU",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6w",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-03-07T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A5E2E1FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A5E2E1FD",
+        "discovery_event_id": "1A9Zko-GkePzm6W",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6W",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-las-vegas-1a9zko-gke0bqtz",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica: Life Burns Faster",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-03-12T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006461A4E9DFF8",
+    "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006461A4E9DFF8",
+        "discovery_event_id": "1A9Zko-Gke0BqTz",
+        "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zko-Gke0BqTz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-raleigh-z7r9jz1aavwaj",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Carter Finley Stadium",
+    "datetime_iso": "2027-06-02T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvwAJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvwAJ",
+        "discovery_event_id": "Z7r9jZ1AAvwAJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwAJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-metallica-2027-madison-z7r9jz1aavw0o",
+    "artist_slug": "metallica",
+    "artist_name": "Metallica",
+    "event_name": "Metallica M72 World Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Camp Randall",
+    "datetime_iso": "2027-06-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvw0o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvw0o",
+        "discovery_event_id": "Z7r9jZ1AAvw0o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw0o",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2026-huntsville-z7r9jz1a7ooob",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Huntsville",
+    "country": "United States Of America",
+    "venue": "Orion Amphitheater",
+    "datetime_iso": "2026-10-07T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OOob",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OOob",
+        "discovery_event_id": "Z7r9jZ1A7OOob",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOob",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-01-17T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600649D8E5D19F1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600649D8E5D19F1",
+        "discovery_event_id": "1AdbZ_aGkUC9oEs",
+        "url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_aGkUC9oEs",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2026-san-antonio-z7r9jz1a7-vz7",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October- Foiled 20th Anniversary Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Boeing Center at Tech Port",
+    "datetime_iso": "2026-12-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-VZ7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-VZ7",
+        "discovery_event_id": "Z7r9jZ1A7-VZ7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-VZ7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-albuquerque-z7r9jz1a70pgn",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "Revel Entertainment Center",
+    "datetime_iso": "2027-02-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70pGN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70pGN",
+        "discovery_event_id": "Z7r9jZ1A70pGN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70pGN",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-san-antonio-z7r9jz1aazdco",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium: Crown In The Grave",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Boeing Center at Tech Port",
+    "datetime_iso": "2026-11-28T00:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdCo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdCo",
+        "discovery_event_id": "Z7r9jZ1AAZdCo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdCo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trivium-2026-las-vegas-z7r9jz1a7j_4j",
+    "artist_slug": "trivium",
+    "artist_name": "Trivium",
+    "event_name": "Trivium w/ In Flames",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Pearl Concert Theater at Palms Casino Resort",
+    "datetime_iso": "2026-12-04T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J_4J",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J_4J",
+        "discovery_event_id": "Z7r9jZ1A7J_4J",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J_4J",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-loveland-z7r9jz1a7-ojz",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Loveland",
+    "country": "United States Of America",
+    "venue": "Blue Arena at The Ranch Events Complex",
+    "datetime_iso": "2026-11-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-Ojz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Ojz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Ojz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-Ojz",
+        "discovery_event_id": "Z7r9jZ1A7-Ojz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Ojz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Ojz",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-austin-z7r9jz1a70i8v",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2026-12-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70I8v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70I8v",
+        "discovery_event_id": "Z7r9jZ1A70I8v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8v",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beartooth-2026-albuquerque-z7r9jz1a70i3o",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "Revel Entertainment Center",
+    "datetime_iso": "2026-12-16T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70I3o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70I3o",
+        "discovery_event_id": "Z7r9jZ1A70I3o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I3o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70I3o",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-raleigh-g5evz_oemqprp",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2027-03-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006519F7756BD6",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-raleigh-north-carolina-03-10-2027/event/2D006519F7756BD6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-raleigh-north-carolina-03-10-2027/event/2D006519F7756BD6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006519F7756BD6",
+        "discovery_event_id": "G5eVZ_oEMqpRp",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-raleigh-north-carolina-03-10-2027/event/2D006519F7756BD6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_oEMqpRp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-austin-z7r9jz1aav7f6",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-02-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv7F6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7F6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv7F6",
+        "discovery_event_id": "Z7r9jZ1AAv7F6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv7F6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-nashville-z7r9jz1aav7ff",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2027-02-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv7FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7FF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv7FF",
+        "discovery_event_id": "Z7r9jZ1AAv7FF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv7FF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stella-lefty-2027-nashville-z7r9jz1aavffx",
+    "artist_slug": "stella-lefty",
+    "artist_name": "Stella Lefty",
+    "event_name": "Stella Lefty: Long Way Home Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2027-02-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvFfx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFfx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFfx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvFfx",
+        "discovery_event_id": "Z7r9jZ1AAvFfx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFfx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvFfx",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-missio-2026-san-francisco-z7r9jz1aazja_",
+    "artist_slug": "missio",
+    "artist_name": "Missio",
+    "event_name": "Missio w/ Fifteen0eight",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Brick & Mortar Music Hall",
+    "datetime_iso": "2026-11-04T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZJa_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZJa_",
+        "discovery_event_id": "Z7r9jZ1AAZJa_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJa_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJa_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-sugar-land-z7r9jz1aav-_t",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia",
+    "city": "Sugar Land",
+    "country": "United States Of America",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2027-03-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-_t",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-_t",
+        "discovery_event_id": "Z7r9jZ1AAv-_t",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_t",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-edinburg-z7r9jz1aav-_y",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Edinburg",
+    "country": "United States Of America",
+    "venue": "Bert Ogden Arena",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-_Y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-_Y",
+        "discovery_event_id": "Z7r9jZ1AAv-_Y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_Y",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yuridia-2027-brooklyn-z7r9jz1aav-_s",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia - Cartas Sobre La Mesa Tour 2027",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Kings Theatre",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv-_s",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv-_s",
+        "discovery_event_id": "Z7r9jZ1AAv-_s",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-asheville-z7r9jz1a7pajj",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso (18+ Event)",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "The Orange Peel",
+    "datetime_iso": "2026-10-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PajJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PajJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PajJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PajJ",
+        "discovery_event_id": "Z7r9jZ1A7PajJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PajJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PajJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2026-asheville-z7r9jz1a7paje",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso (18+ Event)",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "The Orange Peel",
+    "datetime_iso": "2026-10-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PajE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PajE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PajE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PajE",
+        "discovery_event_id": "Z7r9jZ1A7PajE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PajE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PajE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-hartford-z7r9jz1aavvqk",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2027-02-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQk",
+        "discovery_event_id": "Z7r9jZ1AAvVQk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-kansas-city-z7r9jz1aavvq6",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQ6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQ6",
+        "discovery_event_id": "Z7r9jZ1AAvVQ6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-oklahoma-city-z7r9jz1aavvqf",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Paycom Center",
+    "datetime_iso": "2027-03-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQF",
+        "discovery_event_id": "Z7r9jZ1AAvVQF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-salt-lake-city-z7r9jz1aavvqa",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-03-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQa",
+        "discovery_event_id": "Z7r9jZ1AAvVQa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQa",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-zimmer-2027-los-angeles-z7r9jz1aavvq8",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-04-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVQ8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVQ8",
+        "discovery_event_id": "Z7r9jZ1AAvVQ8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVQ8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVQ8",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Broadmoor World Arena",
+    "datetime_iso": "2026-11-22T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvNZ9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZ9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZ9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvNZ9",
+        "discovery_event_id": "Z7r9jZ1AAvNZ9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZ9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZ9",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Michelob Ultra Arena",
+    "datetime_iso": "2026-12-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvNZS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvNZS",
+        "discovery_event_id": "Z7r9jZ1AAvNZS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavufx",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie w/ Swapmeet",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-03-15T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvUFx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUFx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUFx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvUFx",
+        "discovery_event_id": "Z7r9jZ1AAvUFx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUFx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUFx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavuf-",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie w/ Swapmeet",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-03-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvUF-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUF-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUF-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvUF-",
+        "discovery_event_id": "Z7r9jZ1AAvUF-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUF-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUF-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-saint-augustine-z7r9jz1aavgpy",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-03-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvgPy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgPy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgPy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvgPy",
+        "discovery_event_id": "Z7r9jZ1AAvgPy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgPy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvgPy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-new-orleans-z7r9jz1aavuv8",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie w/ Swapmeet",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Saenger Theatre-New Orleans",
+    "datetime_iso": "2027-03-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvUv8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUv8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUv8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvUv8",
+        "discovery_event_id": "Z7r9jZ1AAvUv8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUv8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUv8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-nashville-z7r9jz1aavpq_",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2027-04-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvPQ_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPQ_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPQ_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvPQ_",
+        "discovery_event_id": "Z7r9jZ1AAvPQ_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPQ_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPQ_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-green-bay-z7r9jz1aavz-e",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Green Bay",
+    "country": "United States Of America",
+    "venue": "EPIC Event Center",
+    "datetime_iso": "2027-01-15T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvz-E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvz-E",
+        "discovery_event_id": "Z7r9jZ1AAvz-E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvz-E",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-west-des-moines-z7r9jz1aaezfw",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "West Des Moines",
+    "country": "United States Of America",
+    "venue": "Val Air Ballroom",
+    "datetime_iso": "2027-01-17T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZfw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZfw",
+        "discovery_event_id": "Z7r9jZ1AAeZfw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZfw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-omaha-z7r9jz1aaez39",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere - The Winter Carnival Tour 2027",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "The Admiral-NE",
+    "datetime_iso": "2027-01-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZ39",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ39",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ39",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZ39",
+        "discovery_event_id": "Z7r9jZ1AAeZ39",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ39",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ39",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-fort-collins-z7r9jz1aaezpv",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Fort Collins",
+    "country": "United States Of America",
+    "venue": "Aggie Theater",
+    "datetime_iso": "2027-01-20T01:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZPv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZPv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZPv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZPv",
+        "discovery_event_id": "Z7r9jZ1AAeZPv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZPv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZPv",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Grand Junction",
+    "country": "United States Of America",
+    "venue": "Mesa Theatre & Club",
+    "datetime_iso": "2027-01-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZfe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZfe",
+        "discovery_event_id": "Z7r9jZ1AAeZfe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZfe",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-atmosphere-2027-minneapolis-z7r9jz1aaez4o",
+    "artist_slug": "atmosphere",
+    "artist_name": "Atmosphere",
+    "event_name": "Atmosphere w/ Souls of Mischief",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2027-02-08T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZ4O",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZ4O",
+        "discovery_event_id": "Z7r9jZ1AAeZ4O",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ4O",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-las-vegas-z7r9jz1aavtgx",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Pearl Concert Theater at Palms Casino Resort",
+    "datetime_iso": "2027-04-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtGx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtGx",
+        "discovery_event_id": "Z7r9jZ1AAvtGx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtGx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-san-antonio-z7r9jz1aavtf4",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning- Everything's Falling World Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Boeing Center at Tech Port",
+    "datetime_iso": "2027-05-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvtF4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvtF4",
+        "discovery_event_id": "Z7r9jZ1AAvtF4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtF4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ha-ash-2027-portland-z7r9jz1aavz-k",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash - No Me Hablen de Amor",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Keller Auditorium",
+    "datetime_iso": "2027-04-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvz-K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvz-K",
+        "discovery_event_id": "Z7r9jZ1AAvz-K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvz-K",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ha-ash-2027-highland-z7r9jz1aavz-m",
+    "artist_slug": "ha-ash",
+    "artist_name": "Ha*Ash",
+    "event_name": "Ha*Ash",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-05-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvz-M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvz-M",
+        "discovery_event_id": "Z7r9jZ1AAvz-M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvz-M",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

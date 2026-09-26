@@ -247,7 +247,7 @@ for (const city of cities) {
   const requiredCopy = [
     ">TourTicketCompare</a>",
     `Selected verified tour dates — not a complete ${city.city} events calendar.`,
-    `Upcoming concerts in ${city.city}`,
+    "Upcoming dates",
     `Compare tickets for a ${city.city} concert`
   ];
   for (const marker of requiredCopy) {
@@ -304,7 +304,7 @@ for (const venue of venues) {
   for (const marker of [
     ">TourTicketCompare</a>",
     `Selected verified tour dates — not the full ${venue.venue} calendar.`,
-    `Upcoming shows at ${venue.venue}`,
+    "Upcoming dates",
     `Getting tickets at ${venue.venue}`
   ]) {
     if (!mainText.includes(marker)) problems.push(`venue quality: ${path} is missing "${marker}"`);

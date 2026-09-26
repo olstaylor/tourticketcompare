@@ -284,9 +284,8 @@ These apply to city, venue, and artist-city pages together.
   and `scripts/artist-city-prices.test.mjs` asserts that a priced single-date
   page is still excluded from `deriveIndexableArtistCities`.
   The block renders nothing at all when no date has an eligible lane — no
-  heading, no empty table — and the lead and at-a-glance panel then keep their
-  full form, so the **body** of a page with no price data is what it rendered
-  before. Its **metadata is not**: `artistCityTitle` and `artistCityDescription`
+  heading, no empty table — and the at-a-glance summary then keeps its full
+  sentence (venue and date range included). Its **metadata is not**: `artistCityTitle` and `artistCityDescription`
   changed for every artist-city page, priced or not, because both are composed
   before any price is fetched and neither may carry a live figure (the
   description is emitted verbatim as the `CollectionPage` JSON-LD description).
@@ -301,12 +300,21 @@ These apply to city, venue, and artist-city pages together.
   no gate, and changes no route's indexability — the rules governing the figure
   itself are in `docs/PROVIDER_DATA_POLICY.md`. The same rule
   governs the rest of the page when the table renders: the table states every
-  tracked date and its venue, so the page lead drops the date range and venue
-  it would otherwise repeat, and the at-a-glance panel drops the three cards
-  ("Next tracked date", "Tracked date range", "Venues") that restate the
-  table's own rows — keeping its heading, its "Short answer:" lead-in and the
-  event-record verification date, which the table does not carry. Both fall
-  back to their unabridged form when no price renders.
+  tracked date and its venue, so the at-a-glance summary drops the date range
+  and venue it would otherwise repeat, keeping its heading, its "Short answer:"
+  lead-in and the event-record verification date, which the table does not
+  carry. It falls back to the unabridged sentence when no price renders.
+- **Dates before the summary on location pages.** City, venue and artist-city
+  pages go from the page title straight to the dates (after the price table,
+  where an artist-city page has one). The summary sentence and the
+  selective-coverage note render directly under the date list — visible, never
+  collapsed. The only copy between the title and the first date is the
+  one-line "How this site makes money" statement in the board header, beside
+  the buttons it describes. The artist-city page states its count, venue and
+  range once, in the at-a-glance "Short answer:"; the separate lead paragraph
+  and the "Next tracked date" / "Tracked date range" / "Venues" /
+  "Verification recency" card deck that restated it were removed on
+  2026-09-25.
 - **No templated buying checklist.** The "How to buy \<artist\> tickets in
   \<city\>" five-step list was byte-identical across every artist-city page and
   duplicated both the artist page's own buying guide and

@@ -67,8 +67,8 @@ sources:
 | `status` | no | `published` or `draft`. Defaults to `published`; the `/admin` editor and `npm run blog:new` default to `draft`. |
 | `tags` | no | Lowercase hyphenated slugs. |
 | `author` | no | Defaults to `TourTicketCompare`, and the build rejects any other value: bylines credit the site (see `docs/CONTENT_RULES.md` → Voice and Attribution). The BlogPosting `author` is the Organization node. |
-| `related_guides` | no | Guide slugs without the `/guides/` prefix. Must exist. |
-| `related_artists` | no | Artist slugs. Must exist in `public/data/artists.json`. |
+| `related_guides` | no | Guide slugs without the `/guides/` prefix. Must exist. Each guide named here also links back to the post, under "From the blog" (newest three posts per guide). |
+| `related_artists` | no | Artist slugs. Must exist in `public/data/artists.json`. Each artist named here also links back to the post from its artist page (newest three posts per artist). |
 | `sources` | no | `label` + https `url` pairs. Rendered as a Sources section and as schema citations. |
 
 ### Body
@@ -122,6 +122,10 @@ howto:
 | `howto` | no | `name`, `description`, and `steps` of `name`/`text`. Published as HowTo structured data, so only for a guide that genuinely walks through steps the page covers. |
 
 Body rules match the blog's: prose before the first heading becomes the intro, `##` opens a section, a single `#` is rejected, images are rejected, links must be site paths or https URLs. A published guide additionally needs a `## FAQ` section written as `**bold questions**` followed by plain answers — the router turns it into the page's FAQPage structured data.
+
+Guide links to `/guides/…`, `/artists/…` and `/blog/…` are resolved at build time. Any other site path must be in the fixed list `INTERNAL_LINK_EXACT` in `scripts/build-guide-content.mjs` (for example `/compare-concert-ticket-prices`, `/on-sale`, `/currency-converter`). Add a new top-level route there before a guide can link to it.
+
+A guide about a specific ticket site should carry the site's name in its slug (`ticketmaster`, `seatgeek`, `vivid-seats`, `stubhub`, `ticketnetwork` or `stubhub-international`). The router then lists it in the "More on <site>" block of every other guide about that site, and lists theirs on it. `docs/ARCHITECTURE.md` → Derived cross-links has the details.
 
 ### Dates and what they claim
 

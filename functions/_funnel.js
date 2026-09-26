@@ -23,6 +23,7 @@ export const PAGE_TYPES = Object.freeze([
   "artist",
   "artist_city",
   "artist_tour",
+  "artist_price_guide",
   "cities_index",
   "city",
   "venues_index",
@@ -67,6 +68,8 @@ export function classifyPageType(pathname) {
     // /artists/<artist>/tickets/<city> is the artist-city landing page; any
     // other three-segment form is an artist tour route.
     if (parts.length === 4 && parts[2] === "tickets") return "artist_city";
+    // /artists/<artist>/ticket-prices is the artist price guide.
+    if (parts.length === 3 && parts[2] === "ticket-prices") return "artist_price_guide";
     if (parts.length === 3) return "artist_tour";
     return "other";
   }
@@ -212,7 +215,10 @@ export const CTA_LOCATIONS = Object.freeze([
   // location rather than event_card because it is a distinct surface with a
   // distinct job — answering "how much" before the board is read — and the
   // point of adding it is to be able to report on that separately.
-  "artist_city_answer"
+  "artist_city_answer",
+  // The per-date price tables on an artist price guide
+  // (/artists/<artist>/ticket-prices), reported separately for the same reason.
+  "price_guide"
 ]);
 
 const CTA_LOCATION_SET = new Set(CTA_LOCATIONS);

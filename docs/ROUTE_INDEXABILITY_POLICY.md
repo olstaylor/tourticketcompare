@@ -178,6 +178,42 @@ option, so it does not make the page more useful than the artist page.
 **Recovery is automatic.** The moment a second date in that city is verified,
 the page flips to `index,follow` and re-enters the sitemap on the next deploy.
 
+### Artist price guide — `/artists/<artist>/ticket-prices`
+
+The informational companion to the artist page: "<artist> ticket prices". The
+artist page stays the transactional destination; the two link to each other
+near the top and split the topic by intent, not by duplicating it. One URL per
+artist, never one per tour or year — the year in the title is read off the
+upcoming dates, so the same URL carries from one tour to the next.
+
+**Exists only when approved.** A guide renders only for a slug in
+`PRICE_GUIDE_ARTISTS` (`functions/_price-guides.js`). Any other artist's path
+404s: the site does not generate pages it has not been asked to publish. Tour
+launches are *proposed* daily in the `automation:price-guide-candidates` issue
+(`price-guide-candidates.yml`); adding the slug is the approval.
+
+**Renders when** the guide is approved, the artist is
+`indexable_with_substantial_content`, and it has ≥ 1 publishable upcoming date.
+An approved guide that stops qualifying (between tours, or artist under review)
+**301s to the artist page** and renders again when the next run lands.
+
+**Indexable when** it has ≥ 6 upcoming dates (`PRICE_GUIDE_MIN_SHOWS`) in ≥ 2
+cities (`PRICE_GUIDE_MIN_CITIES`), ≥ 1 publishable, and ≥ 3 of them carry
+verified provenance on a listed-price snapshot lane
+(`PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS`, `priceGuideGate`) — **and** the artist
+page itself is indexable, so a guide never outranks its parent. The snapshot
+condition is static readiness, read from `events.json`, not whether D1 served a
+price on this render: indexability must not flap with the cache. Below the bar
+the page renders `noindex,follow` and leaves the sitemap and `llms.txt`. New
+exclusion codes: `below_city_threshold`, `below_price_coverage_threshold`.
+
+The guide prints no figure the site cannot source. It explains face value and
+prints none (no approved source), and every price is one date's own lowest
+listed snapshot with its provider and capture time. There is no tour-wide range
+or lowest-date claim: a minimum across different events is not covered by any
+provider grant (`docs/PROVIDER_DATA_POLICY.md`). It carries no FAQ and emits no
+`MusicEvent`, `Offer` or `FAQPage` — the artist page owns the event nodes.
+
 ### Blog — `/blog`, `/blog/<slug>`, `/blog/tags/<tag>`
 
 Blog posts are authored editorial rather than derived from event data, so the

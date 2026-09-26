@@ -29,6 +29,14 @@ import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } fr
 import { publicOnsalePending } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import {
+  PRICE_GUIDE_SEGMENT,
+  derivePriceGuide,
+  priceGuidePath,
+  priceGuideRegistered,
+  priceGuideRouteDecision
+} from "./_price-guides.js";
+import { derivePriceMove, fetchEventPriceMoveSeries, PRICE_MOVE_WINDOW_DAYS } from "./_event-price-moves.js";
+import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
   deriveTags as deriveBlogTags,
@@ -791,6 +799,60 @@ async function routeForPath(pathname, env) {
     return null;
   }
 
+  // Artist price guide: /artists/<artist>/ticket-prices. Matched before the
+  // two-segment tour route below, which it would otherwise fall into (no tour
+  // can carry this slug: catalog tour slugs are tour names). Lifecycle and the
+  // reasons for it live in functions/_price-guides.js; the indexing gate in
+  // functions/_route-indexability.js (docs/ROUTE_INDEXABILITY_POLICY.md).
+  const priceGuideMatch = path.match(new RegExp(`^/artists/([a-z0-9-]+)/${PRICE_GUIDE_SEGMENT}$`));
+  if (priceGuideMatch) {
+    const artist = findArtist(catalog, priceGuideMatch[1]);
+    if (!artist) return null;
+    const artistMetaRecord = artistsMeta.find((m) => slugify(m.slug) === priceGuideMatch[1]) || {};
+    const artistEditoriallyIndexable = artistMetaRecord.indexing_status === "indexable_with_substantial_content";
+    const artistEvents = await loadArtistEvents(env, artist.slug);
+    const guide = derivePriceGuide(artistEvents, artist.slug);
+    const decision = priceGuideRouteDecision(guide, {
+      registered: priceGuideRegistered(artist.slug),
+      artistEditoriallyIndexable
+    });
+    if (decision === "not_found") return null;
+    if (decision === "redirect") return { type: "redirect", location: `/artists/${artist.slug}` };
+    const yearLabel = yearRangeLabel(guide.shows.map((show) => eventLocalYear(show.datetime_iso, show.timezone)));
+    // Only the artist's indexable city runs are linked, as on artist-city pages.
+    const indexableCitySlugs = new Set(
+      deriveArtistCities(artistEvents, artist.slug)
+        .filter((artistCity) => artistCity.indexable)
+        .map((artistCity) => artistCity.slug)
+    );
+    // Editorial posts about this artist, the sourced place for what a price
+    // table cannot say (sale mechanics, face-value rules). Indexable ones only.
+    const relatedPosts = deriveBlogPosts(await loadBlogContent(env))
+      .filter((post) => post.relatedArtists.includes(artist.slug) && blogPostIndexable(post))
+      .slice(0, 4);
+    return {
+      type: "price-guide",
+      path,
+      // A child page never outranks its parent: every artist-level noindex
+      // (an auto-promoted artist below its date threshold included) applies here.
+      indexable: guide.indexable && artistPageIndexable(artistMetaRecord, artistEvents, artist.slug),
+      title: priceGuideTitle(artist, yearLabel),
+      description: priceGuideDescription(artist, guide, yearLabel),
+      artist: { ...artist, indexing_status: artistMetaRecord.indexing_status || "" },
+      guide,
+      yearLabel,
+      indexableCitySlugs,
+      relatedPosts,
+      catalog,
+      events: artistEvents,
+      breadcrumb: [
+        { name: "Artists", path: "/artists" },
+        { name: artist.name, path: `/artists/${artist.slug}` },
+        { name: "Ticket prices", path }
+      ]
+    };
+  }
+
   const tourMatch = path.match(/^\/artists\/([a-z0-9-]+)\/([a-z0-9-]+)$/);
   if (tourMatch) {
     const artist = findArtist(catalog, tourMatch[1]);
@@ -1289,6 +1351,29 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     });
     graph.push(faqPageSchema(comparisonHubFaqEntries()));
     graph.push(...comparisonHubItemListSchema(route, origin, catalog, events));
+  }
+  if (route.type === "price-guide" && route.guide) {
+    // A plain WebPage about the artist. No MusicEvent (the artist page owns
+    // those, and duplicating them here would split them across two URLs), no
+    // Offer and no FAQPage: the page's figures are snapshots with their own
+    // capture times, and none of them is repeated in structured data.
+    graph.push({
+      "@type": "WebPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      dateModified: route.guide.lastmod || undefined,
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      about: {
+        "@type": performerTypeForArtist(catalog, route.artist.slug),
+        name: route.artist.name,
+        url: `${origin}/artists/${route.artist.slug}`
+      },
+      relatedLink: [`${origin}/artists/${route.artist.slug}`]
+    });
   }
   if (route.type === "onsale-calendar") {
     const calendar = route.calendar || {};
@@ -2586,6 +2671,304 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   )}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
   }<th scope="col">Lowest listed price</th><th scope="col">Sites compared</th></tr></thead><tbody>${body}</tbody></table></div><p class="disclosure-note">Each figure is a provider-supplied listed-price snapshot for that exact date, captured at the time shown — not live inventory, not availability, and not a final checkout total. Fees, taxes, delivery and the final total are settled at the provider's checkout. Dates are listed in calendar order and are not ranked against each other.</p></section>`;
+}
+
+// ---------------------------------------------------------------------------
+// Artist price guide (/artists/<artist>/ticket-prices)
+// ---------------------------------------------------------------------------
+//
+// The informational companion to the artist page: what tickets cost, date by
+// date, and how those prices have moved. The rules it renders under are the
+// artist-city answer table's, not new ones (docs/PROVIDER_DATA_POLICY.md §
+// "Where a price may be rendered"):
+//
+//   * Every figure comes from deriveCityDatePrices over serverShowCtaSpecs, the
+//     function that decides what a ticket button prints. No second price gate.
+//   * Every figure is one date's own lowest listed snapshot, with its provider
+//     and capture time. Dates are listed in calendar order within each city and
+//     are never ranked against each other, so there is no "from <price>", no
+//     tour-wide range and no lowest-date claim — a minimum across different events
+//     is not covered by any provider grant.
+//   * Face value is explained, never printed: there is no approved source.
+//
+// Metadata carries no figure, for the same reason artistCityTitle gives: it is
+// composed before any price is fetched and is re-emitted as JSON-LD.
+
+function priceGuideTitle(artist, yearLabel) {
+  const year = yearLabel ? `${yearLabel} ` : "";
+  return fitTitleToBudget([
+    `${artist.name} ${year}Ticket Prices: Resale Prices & Tour Dates`,
+    `${artist.name} ${year}Ticket Prices: Resale & Tour Dates`,
+    `${artist.name} ${year}Ticket Prices & Tour Dates`,
+    `${artist.name} ${year}Ticket Prices`,
+    `${artist.name} Ticket Prices`
+  ]);
+}
+
+function priceGuideDescription(artist, guide, yearLabel) {
+  const scope = `${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${
+    guide.cityCount === 1 ? "city" : "cities"
+  }`;
+  const year = yearLabel ? ` ${yearLabel}` : "";
+  return fitMetaDescription(
+    `What ${artist.name}${year} tickets cost: where face value is sold, each date's latest listed resale price with the time it was checked, and recent price moves across ${scope}.`,
+    `What ${artist.name}${year} tickets cost: where face value is sold, each date's latest listed resale price and recent price moves across ${scope}.`,
+    `${artist.name}${year} ticket prices: face value, each date's latest listed resale price and recent price moves.`
+  );
+}
+
+function priceGuideDateRangeLabel(guide) {
+  const first = guide.shows[0];
+  const last = guide.shows.at(-1);
+  const firstLabel = formatShowDateServer(first?.datetime_iso, first?.timezone);
+  const lastLabel = formatShowDateServer(last?.datetime_iso, last?.timezone);
+  if (!firstLabel) return "";
+  return lastLabel && lastLabel !== firstLabel ? `${firstLabel} to ${lastLabel}` : firstLabel;
+}
+
+// One price cell, the same three states as the artist-city answer table:
+// priced (the figure is the tracked button), checked with nothing eligible, and
+// never checked (says nothing it cannot establish). The date's own ticket
+// options live on its card on the artist page, so the fallback links there.
+function priceGuidePriceCell(artist, row, low) {
+  const cardHref = `/artists/${artist.slug}#${showAnchorId({ id: row.showId })}`;
+  if (row.lowest) {
+    const amount = formatServerPrice(row.lowest.price, row.lowest.currency);
+    const asOf = formatServerSnapshotTime(row.lowest.fetchedAt);
+    const age = snapshotAgeLabel(row.lowest.fetchedAt);
+    const button = renderProviderCtaButtonHtml(row.lowest.name, row.lowest.href, amount, {
+      provider: row.lowest.provider,
+      artistSlug: artist.slug,
+      showId: row.showId,
+      ctaLocation: "price_guide"
+    });
+    let lowLine = "";
+    if (low) {
+      const lowAmount = formatServerPrice(low.price, low.currency);
+      const lowDate = formatObservationDate(low.observedAt);
+      if (lowAmount && lowDate && low.price < row.lowest.price) {
+        lowLine = `<span class="price-answer-low muted">${escapeHtml(
+          `${PRICE_LOW_WINDOW_DAYS}-day low ${lowAmount} · ${low.name}, ${lowDate}`
+        )}</span>`;
+      } else if (lowAmount && lowDate && low.backedByHistory) {
+        lowLine = `<span class="price-answer-low muted">${escapeHtml(`Lowest recorded in ${PRICE_LOW_WINDOW_DAYS} days`)}</span>`;
+      }
+    }
+    return `${button}<span class="price-answer-asof muted">${escapeHtml(age ? `${asOf}, ${age}` : asOf)}</span>${lowLine}`;
+  }
+  if (row.checked) {
+    return `<span class="muted">No listed-price snapshot right now.</span> ${anchor("See ticket options", cardHref, "text-link")}`;
+  }
+  return anchor("See ticket options", cardHref, "text-link");
+}
+
+function renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, indexableCitySlugs) {
+  return guide.cities
+    .map((city) => {
+      const singleVenue = city.venues.length === 1 ? city.venues[0] : "";
+      const rows = city.shows
+        .map((show) => {
+          const row = rowById.get(show.id);
+          if (!row) return "";
+          const dateLabel = formatShowDateServer(row.datetimeISO, row.timezone) || "Date to be confirmed";
+          const onsaleNote = show.onsalePending
+            ? `<span class="price-answer-low muted">${escapeHtml(
+                `Public on-sale ${formatServerSnapshotTime(show.public_onsale_at)} per Ticketmaster`
+              )}</span>`
+            : "";
+          const venueCell = singleVenue ? "" : `<td data-label="Venue">${escapeHtml(row.venue || "Venue confirmed on the date")}</td>`;
+          return `<tr><th scope="row">${escapeHtml(dateLabel)}${onsaleNote}</th>${venueCell}<td class="price-answer-price">${priceGuidePriceCell(
+            artist,
+            row,
+            lowByShowId.get(row.showId)
+          )}</td><td data-label="Sites compared">${row.lowest ? String(row.comparedCount) : "—"}</td></tr>`;
+        })
+        .join("");
+      if (!rows) return "";
+      const cityLink = indexableCitySlugs.has(city.slug)
+        ? ` ${anchor(`All ${artist.name} dates in ${city.city}`, `/artists/${artist.slug}/tickets/${city.slug}`, "text-link")}`
+        : "";
+      return `<h3>${escapeHtml(city.label)}${singleVenue ? ` · ${escapeHtml(singleVenue)}` : ""}</h3>${
+        cityLink ? `<p>${cityLink}</p>` : ""
+      }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest current listed price by date for ${escapeHtml(
+        artist.name
+      )} in ${escapeHtml(city.label)}</caption><thead><tr><th scope="col">Date</th>${
+        singleVenue ? "" : '<th scope="col">Venue</th>'
+      }<th scope="col">Lowest listed price</th><th scope="col">Sites compared</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    })
+    .join("");
+}
+
+// Latest recorded moves, newest change first. Ordered by when the price moved,
+// never by the price itself, and each line is one date on one provider.
+const PRICE_GUIDE_MOVES_SHOWN = 8;
+function renderPriceGuideMoves(artist, moves, pricedRowCount, guideShowsById) {
+  if (!pricedRowCount) return "";
+  const heading = `<h2 id="priceGuideMovesTitle">How ${escapeHtml(artist.name)} resale prices have moved</h2>`;
+  if (!moves.length) {
+    return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>No recorded change in the last ${PRICE_MOVE_WINDOW_DAYS} days for any of the prices shown above. Each figure is re-checked through the day and a new figure is recorded only when it changes.</p></section>`;
+  }
+  const down = moves.filter((move) => move.direction === "down").length;
+  const up = moves.length - down;
+  const summary = `${moves.length} of the ${pricedRowCount} ${
+    pricedRowCount === 1 ? "date" : "dates"
+  } showing a price have a recorded change in the last ${PRICE_MOVE_WINDOW_DAYS} days: ${down} lower and ${up} higher than that ticket site's previous recorded figure for the same date.`;
+  const items = [...moves]
+    .sort((a, b) => Date.parse(b.changedAt) - Date.parse(a.changedAt))
+    .slice(0, PRICE_GUIDE_MOVES_SHOWN)
+    .map((move) => {
+      const show = guideShowsById.get(move.showId) || {};
+      const dateLabel = formatShowDateServer(show.datetime_iso, show.timezone);
+      const where = [show.city, show.venue].filter(Boolean).join(", ");
+      const from = formatServerPrice(move.from, move.currency);
+      const to = formatServerPrice(move.to, move.currency);
+      const delta = formatServerPrice(Math.abs(move.delta), move.currency);
+      const fromDate = formatObservationDate(move.fromObservedAt);
+      const changed = formatObservationDate(move.changedAt);
+      if (!from || !to || !delta || !fromDate) return "";
+      return `<li><strong>${escapeHtml(`${dateLabel}${where ? ` · ${where}` : ""}`)}</strong>: ${escapeHtml(
+        `${move.name} ${move.direction} ${delta}: ${from} when recorded ${fromDate}, now ${to}${changed ? ` since ${changed}` : ""}.`
+      )}</li>`;
+    })
+    .filter(Boolean)
+    .join("");
+  return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>${escapeHtml(summary)}</p><ul>${items}</ul><p class="disclosure-note">Each change compares one ticket site's listed-price snapshots for one date, in one currency. Dates are never compared with each other.</p></section>`;
+}
+
+function renderPriceGuideBody(route, events, env) {
+  const artist = route.artist;
+  const guide = route.guide;
+  const seatGeekAvailable = isSeatGeekConfigured(env);
+  const vividSeatsAvailable = isVividSeatsConfigured(env);
+  const marketplaceAvailability = Object.fromEntries(
+    IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
+  );
+  const guideShowIds = new Set(guide.shows.map((show) => show.id));
+  const guideShowsById = new Map(guide.shows.map((show) => [show.id, show]));
+  const shows = futureShowsForArtist(events, artist.slug).filter((show) => guideShowIds.has(String(show.id || "")));
+  const specsById = new Map(
+    shows.map((show) => [show.id, serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability })])
+  );
+  const priceAnswer = deriveCityDatePrices(shows, {
+    ctaSpecsFor: (show) => specsById.get(show.id) || [],
+    wasChecked: pricesWereChecked
+  });
+  const rowById = new Map(priceAnswer.rows.map((row) => [row.showId, row]));
+
+  const priceLowSeries = route.priceLowSeries instanceof Map ? route.priceLowSeries : new Map();
+  const priceMoveSeries = route.priceMoveSeries instanceof Map ? route.priceMoveSeries : new Map();
+  const lowByShowId = new Map();
+  const moves = [];
+  for (const row of priceAnswer.rows) {
+    if (!row.lowest) continue;
+    if (priceLowSeries.size) {
+      const low = deriveEventPriceLow(row.lanes, (lane) => priceLowSeries.get(`${row.showId}|${lane.provider}`) || null);
+      if (low) lowByShowId.set(row.showId, low);
+    }
+    const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
+    if (move) moves.push({ ...move, showId: row.showId });
+  }
+
+  // Which ticket sites this page's own buttons lead to, counted from the specs
+  // the cards render. A count of linked dates, never an availability claim.
+  const linkCounts = new Map();
+  for (const specs of specsById.values()) {
+    for (const spec of specs) linkCounts.set(spec.name, (linkCounts.get(spec.name) || 0) + 1);
+  }
+  const range = priceGuideDateRangeLabel(guide);
+  const artistHref = `/artists/${artist.slug}`;
+  const checkedCount = priceAnswer.rows.filter((row) => row.checked).length;
+
+  const leadHtml = `<h1 id="priceGuideTitle">${escapeHtml(artist.name)} ticket prices${
+    route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
+  }</h1><p class="lead">${escapeHtml(
+    `TourTicketCompare tracks ${guide.showCount} upcoming ${artist.name} ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${
+      guide.cityCount === 1 ? "city" : "cities"
+    }${range ? ` (${range})` : ""}. This page covers what those tickets cost: where face value is sold, the lowest listed resale price for each date, and how those prices have moved.`
+  )} ${anchor(`To buy, go to the ${artist.name} tickets page`, artistHref, "text-link")}.</p>`;
+
+  const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
+  const cards = [
+    [
+      "Tracked dates",
+      `${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
+        range ? `, ${range}` : ""
+      }.`
+    ],
+    [
+      "Listed-price snapshots",
+      checkedCount
+        ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now.`
+        : "Shown for each date below where a ticket site supplies one."
+    ],
+    [
+      "Official sale",
+      guide.onsalePendingCount
+        ? `Ticketmaster's public on-sale for ${guide.onsalePendingCount} ${
+            guide.onsalePendingCount === 1 ? "date" : "dates"
+          } opens ${nextOnsale}.`
+        : "Each date's Ticketmaster link is on the artist page."
+    ]
+  ];
+  const glanceHtml = `<section class="nested-panel" aria-labelledby="priceGuideGlanceTitle"><h2 id="priceGuideGlanceTitle">At a glance</h2><div class="card-grid">${cards
+    .map(([title, body]) => `<article class="info-card"><h3>${escapeHtml(title)}</h3><p>${escapeHtml(body)}</p></article>`)
+    .join("")}</div></section>`;
+
+  const primaryGuide = GUIDE_ROUTES["/guides/primary-vs-resale-concert-tickets"] ? "/guides/primary-vs-resale-concert-tickets" : "";
+  const faceValueHtml = `<section class="nested-panel" aria-labelledby="priceGuideFaceTitle"><h2 id="priceGuideFaceTitle">Face value: the official ticket price</h2><p>${escapeHtml(
+    `Face value is the price the event organiser sets for tickets sold in the official sale. TourTicketCompare has no approved source for face-value prices, so this page doesn't print one: every figure below is a resale listing, which can sit above or below face value.`
+  )}</p><p>${escapeHtml(
+    guide.onsalePendingCount
+      ? `Ticketmaster lists a public on-sale time for ${guide.onsalePendingCount} of these dates, the next at ${nextOnsale}. Until then those dates show no Ticketmaster button, and any listing you see is resale.`
+      : `Where Ticketmaster sells a date, its link on the ${artist.name} page leads to that official sale, and the face value is shown there before checkout.`
+  )}</p>${
+    primaryGuide ? `<p>${anchor("Primary vs resale tickets: what the difference means for price", primaryGuide, "text-link")}</p>` : ""
+  }</section>`;
+
+  const tablesHtml = `<section class="nested-panel artist-city-price-answer" aria-labelledby="priceGuideDatesTitle"><h2 id="priceGuideDatesTitle">${escapeHtml(
+    artist.name
+  )} resale prices by date</h2><p>${escapeHtml(
+    `The lowest listed price currently on record for each tracked date, and the ticket site offering it, grouped by city. "Sites compared" counts the ticket sites with an eligible listed-price snapshot for that exact date. Dates are in calendar order and are not ranked against each other.`
+  )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}<p class="disclosure-note">Each figure is a provider-supplied listed-price snapshot for that exact date, captured at the time shown — not live inventory, not availability, and not a final checkout total. Fees, taxes, delivery and the final total are settled at the provider's checkout.</p></section>`;
+
+  const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
+
+  const linkItems = [...linkCounts.entries()]
+    .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)
+    .join("");
+  const whereHtml = linkItems
+    ? `<section class="nested-panel" aria-labelledby="priceGuideWhereTitle"><h2 id="priceGuideWhereTitle">Where ${escapeHtml(
+        artist.name
+      )} tickets are listed</h2><p>${escapeHtml(
+        "The ticket sites this site links to for these dates, each checked against the exact event. A link means the date is listed there, not that tickets are available."
+      )}</p><ul>${linkItems}</ul><div class="action-row">${anchor(
+        `Compare ${artist.name} tickets by date`,
+        artistHref,
+        "button button-primary"
+      )}</div>${renderMoneyDisclosureHtml()}</section>`
+    : "";
+
+  const cityLinks = guide.cities
+    .filter((city) => (route.indexableCitySlugs || new Set()).has(city.slug))
+    .map((city) => `<li>${anchor(`${artist.name} tickets in ${city.label}`, `/artists/${artist.slug}/tickets/${city.slug}`)}</li>`)
+    .join("");
+  const postLinks = (route.relatedPosts || []).map((post) => `<li>${anchor(post.title, post.path)}</li>`).join("");
+  const guideLinks = [
+    "/guides/how-resale-ticket-pricing-works",
+    "/guides/concert-ticket-fees-explained",
+    "/guides/why-ticket-prices-change",
+    "/guides/when-is-the-best-time-to-buy-concert-tickets"
+  ]
+    .filter((guidePath) => GUIDE_ROUTES[guidePath])
+    .map((guidePath) => `<li>${anchor(GUIDE_ROUTES[guidePath].h1 || GUIDE_ROUTES[guidePath].title, guidePath)}</li>`)
+    .join("");
+  const relatedHtml = `<section class="nested-panel" aria-labelledby="priceGuideRelatedTitle"><h2 id="priceGuideRelatedTitle">More on ${escapeHtml(
+    artist.name
+  )} tickets</h2><ul class="guide-link-list"><li>${anchor(`${artist.name} tickets and tour dates`, artistHref)}</li>${cityLinks}${postLinks}${guideLinks}</ul></section>`;
+
+  return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
+    route
+  )}${leadHtml}<p class="disclosure-note">Prices are set by each ticket site and change often. Every figure here is a timestamped listed-price snapshot for one verified date, not a final checkout total.</p>${glanceHtml}${faceValueHtml}${tablesHtml}${movesHtml}${whereHtml}${relatedHtml}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {
@@ -5017,9 +5400,26 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // dates. The fact strip that sat here (next date, link coverage) was removed
     // on 2026-09-25: the lead states the coverage and the first card is the next
     // date. Wrapped for hydration transplant so the client never recomputes it.
+    // The artist's price guide, when one is approved and currently renders.
+    // The two pages split one topic by intent — this page buys, the guide
+    // answers "how much" — so each links the other near the top.
+    const priceGuideLive =
+      shows.length > 0 &&
+      priceGuideRegistered(artist.slug) &&
+      priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
+        registered: priceGuideRegistered(artist.slug),
+        artistEditoriallyIndexable: isIndexableArtist
+      }) === "render";
+    const priceGuideLinkHtml = priceGuideLive
+      ? `<p class="price-guide-link">${anchor(
+          `${artist.name} ticket prices: resale prices by date, recent price moves and where face value is sold`,
+          priceGuidePath(artist.slug),
+          "text-link"
+        )}</p>`
+      : "";
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p></div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
@@ -5099,6 +5499,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${moreHtml}${faqHtml}</section></main>`;
   }
 
+  if (route.type === "price-guide") return renderPriceGuideBody(route, events, env);
+
   if (route.type === "artist-city") {
     const artist = route.artist;
     const artistCity = route.artistCity;
@@ -5155,6 +5557,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route.cityIndexable,
       route.indexableVenueSlugs
     );
+    // Link up to the artist's price guide when one renders; it carries this
+    // city's dates alongside every other city's, with their price moves.
+    const priceGuideHtml =
+      priceGuideRegistered(artist.slug) &&
+      priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
+        registered: priceGuideRegistered(artist.slug),
+        artistEditoriallyIndexable: true
+      }) === "render"
+        ? `<p class="price-guide-link">${anchor(
+            `${artist.name} ticket prices across every city, with recent price moves`,
+            priceGuidePath(artist.slug),
+            "text-link"
+          )}</p>`
+        : "";
     return `<main id="mainContent"><section class="content-page artist-city-page" aria-labelledby="artistCityTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistCityTitle">${escapeHtml(artist.name)} Tickets in ${escapeHtml(
@@ -5168,7 +5584,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       null,
       marketplaceAvailability,
       artist.slug
-    )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${relatedLinksHtml}${collapsedGroupHtml(
+    )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
       `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
@@ -5700,8 +6116,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20260925b" defer></script>',
-    '<script src="/shell.js?v=20260925a" defer></script>'
+    '<script src="/app.js?v=20260926a" defer></script>',
+    '<script src="/shell.js?v=20260926a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.
@@ -6011,11 +6427,12 @@ export async function onRequest(context) {
 
   const catalog = route.catalog || await loadCatalog(env);
   const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
-  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
+  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let priceLowSeries = new Map();
+  let priceMoveSeries = new Map();
   let renderEvents = events;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -6026,7 +6443,7 @@ export async function onRequest(context) {
     // Reads stay batched: fetchApprovedMarketplaceCachedRows chunks ids at 50, so
     // a board costs ceil(cards / 50) cache reads, not one per card.
     let priceCandidates;
-    if (route.type === "artist") {
+    if (route.type === "artist" || route.type === "price-guide") {
       priceCandidates = futureShowsForArtist(events, route.artist.slug);
     } else if (route.type === "artist-city") {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
@@ -6061,8 +6478,18 @@ export async function onRequest(context) {
     // the figure, and skipping it elsewhere keeps the extra read off every other
     // route. Two statements per 50 dates, and a failure degrades to no low
     // rather than to no page.
-    if (route.type === "artist-city") {
+    if (route.type === "artist-city" || route.type === "price-guide") {
       priceLowSeries = await fetchEventPriceLowSeries(
+        env?.DEMAND_DB || env?.DB,
+        priceCandidates.map((show) => String(show?.id || "")),
+        APPROVED_MARKETPLACE_PRICE_LANES
+      ).catch(() => new Map());
+    }
+    // The price guide's "how prices have moved" reads the newest change-points
+    // of each series. One statement per 50 dates, price-guide only, and a
+    // failure degrades to no moves rather than to no page.
+    if (route.type === "price-guide") {
+      priceMoveSeries = await fetchEventPriceMoveSeries(
         env?.DEMAND_DB || env?.DB,
         priceCandidates.map((show) => String(show?.id || "")),
         APPROVED_MARKETPLACE_PRICE_LANES
@@ -6090,6 +6517,7 @@ export async function onRequest(context) {
   // Only when there is something to carry, so a route with no recorded history
   // is passed through exactly as before.
   if (priceLowSeries.size) renderRoute = { ...renderRoute, priceLowSeries };
+  if (priceMoveSeries.size) renderRoute = { ...renderRoute, priceMoveSeries };
   const injected = injectRoute(html, renderRoute, url.origin, catalog, renderEvents, guideContent, env);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");

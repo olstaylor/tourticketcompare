@@ -68,6 +68,8 @@ export const STEPS = [
   { id: "test:event-price-low",                   lane: "units",  run: "npm run test:event-price-low" },
   { id: "test:location-pages",                    lane: "quick",  run: "npm run test:location-pages" },
   { id: "test:onsale-calendar",                   lane: "quick",  run: "npm run test:onsale-calendar" },
+  { id: "test:price-guides",                      lane: "quick",  run: "npm run test:price-guides" },
+  { id: "price-guides:propose:self-test",         lane: "units",  run: "node scripts/propose-price-guides.mjs --self-test" },
   { id: "test:route-indexability",                lane: "quick",  run: "npm run test:route-indexability" },
   { id: "test:route-metadata",                    lane: "quick",  run: "npm run test:route-metadata" },
   { id: "test:homepage-proposition",              lane: "quick",  run: "npm run test:homepage-proposition" },

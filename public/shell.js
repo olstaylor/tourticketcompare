@@ -70,7 +70,11 @@
   function pageType() {
     var parts = path.split("/").filter(Boolean);
     if (!parts.length) return "home";
-    if (parts[0] === "artists") return parts.length === 1 ? "artists_index" : parts[2] === "tickets" ? "artist_city" : "artist";
+    if (parts[0] === "artists") {
+      if (parts.length === 1) return "artists_index";
+      if (parts[2] === "tickets") return "artist_city";
+      return parts[2] === "ticket-prices" ? "artist_price_guide" : "artist";
+    }
     if (parts[0] === "cities") return parts.length === 1 ? "cities_index" : "city";
     if (parts[0] === "venues") return parts.length === 1 ? "venues_index" : "venue";
     if (parts[0] === "guides") return parts.length === 1 ? "guides_index" : "guide";

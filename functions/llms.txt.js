@@ -5,6 +5,7 @@ import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
 import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
+import { deriveIndexablePriceGuides } from "./_price-guides.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -55,15 +56,16 @@ async function loadIndexableArtists(env) {
 async function loadIndexableLocations(env, indexableArtistSlugs = []) {
   try {
     const events = await loadJsonAsset(env, "/data/events.json");
-    if (!Array.isArray(events)) return { cities: [], venues: [], artistCities: [], onsale: null };
+    if (!Array.isArray(events)) return { cities: [], venues: [], artistCities: [], priceGuides: [], onsale: null };
     return {
       onsale: deriveOnsaleCalendar(events),
       cities: deriveCities(events).filter((city) => city.indexable),
       venues: deriveVenues(events).filter((venue) => venue.indexable),
-      artistCities: deriveIndexableArtistCities(events, indexableArtistSlugs)
+      artistCities: deriveIndexableArtistCities(events, indexableArtistSlugs),
+      priceGuides: deriveIndexablePriceGuides(events, indexableArtistSlugs)
     };
   } catch (error) {
-    return { cities: [], venues: [], artistCities: [], onsale: null };
+    return { cities: [], venues: [], artistCities: [], priceGuides: [], onsale: null };
   }
 }
 
@@ -110,6 +112,14 @@ export async function onRequestGet({ request, env }) {
       entry.path,
       `${artistNameBySlug.get(entry.artistSlug) || entry.artistSlug} tickets in ${entry.label}`,
       `${entry.showCount} upcoming tracked ${entry.showCount === 1 ? "date" : "dates"} across ${entry.venueCount} ${entry.venueCount === 1 ? "venue" : "venues"}.`
+    )
+  );
+  const priceGuideLines = locations.priceGuides.map((guide) =>
+    linkLine(
+      origin,
+      guide.path,
+      `${artistNameBySlug.get(guide.artistSlug) || guide.artistSlug} ticket prices`,
+      `Where face value is sold, each date's lowest listed resale snapshot with its capture time, and recent price moves, for ${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}.`
     )
   );
   const cityLines = [
@@ -179,7 +189,11 @@ ${blogLines.join("\n")}
 
 ${artistLines.join("\n")}
 
-## Concerts by city
+${priceGuideLines.length ? `## Artist ticket prices
+
+${priceGuideLines.join("\n")}
+
+` : ""}## Concerts by city
 
 ${cityLines.join("\n")}
 

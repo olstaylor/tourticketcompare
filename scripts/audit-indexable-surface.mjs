@@ -112,6 +112,7 @@ const DAY_MS = 86400000;
 export function routeType(pathname) {
   if (pathname === "/") return "home";
   if (/^\/artists\/[^/]+\/tickets\/[^/]+$/.test(pathname)) return "artist-city";
+  if (/^\/artists\/[^/]+\/ticket-prices$/.test(pathname)) return "price-guide";
   if (/^\/artists\/[^/]+$/.test(pathname)) return "artist";
   if (pathname === "/cities" || pathname === "/venues" || pathname === "/artists" || pathname === "/guides" || pathname === "/blog" || pathname === "/on-sale") return "index";
   if (pathname.startsWith("/cities/")) return "city";
@@ -122,7 +123,7 @@ export function routeType(pathname) {
   return "static";
 }
 
-export const ROUTE_TYPE_ORDER = ["home", "index", "static", "guide", "blog-post", "blog-tag", "artist", "city", "venue", "artist-city"];
+export const ROUTE_TYPE_ORDER = ["home", "index", "static", "guide", "blog-post", "blog-tag", "artist", "city", "venue", "artist-city", "price-guide"];
 
 /**
  * Normalise a title into the template it was generated from, so two pages that
@@ -445,7 +446,7 @@ async function readJsonIfPresent(absolutePath) {
 const site = await loadSiteFixture(root);
 const {
   renderRoute,
-  modules: { citiesModule, venuesModule, artistCitiesModule, artistIndexabilityModule, policyModule },
+  modules: { citiesModule, venuesModule, artistCitiesModule, artistIndexabilityModule, policyModule, priceGuidesModule },
   data: { catalog, artistsMeta, events },
   indexableArtistSlugs: editoriallyIndexableSlugs,
   cities,
@@ -468,7 +469,7 @@ const now = Date.now();
  */
 function gateSurfaceAt(ts) {
   const indexable = new Set();
-  const rendered = { artist: 0, city: 0, venue: 0, "artist-city": 0 };
+  const rendered = { artist: 0, city: 0, venue: 0, "artist-city": 0, "price-guide": 0 };
 
   for (const artist of catalog.artists || []) {
     const slug = String(artist?.slug || "").trim();
@@ -490,6 +491,12 @@ function gateSurfaceAt(ts) {
   for (const entry of artistCitiesModule.deriveRenderedArtistCities(events, editoriallyIndexableSlugs, { now: ts })) {
     rendered["artist-city"] += 1;
     if (entry.indexable) indexable.add(entry.path);
+  }
+  // A guide is indexable only while its own gate and its artist page's pass.
+  for (const guide of priceGuidesModule.deriveRenderedPriceGuides(events, editoriallyIndexableSlugs, { now: ts })) {
+    rendered["price-guide"] += 1;
+    const meta = artistsMeta.find((record) => String(record?.slug || "").trim() === guide.artistSlug) || {};
+    if (guide.indexable && artistIndexabilityModule.artistPageIndexable(meta, events, guide.artistSlug, ts)) indexable.add(guide.path);
   }
   return { indexable, rendered };
 }
@@ -544,6 +551,15 @@ for (const entry of artistCities) {
     publishableCount: entry.publishableCount,
     exclusionReasons: entry.exclusionReasons,
     futureTimestamps: (group?.shows || []).map((show) => show.ts)
+  });
+}
+
+for (const guide of site.priceGuideEntries) {
+  evidence.set(guide.path, {
+    showCount: guide.showCount,
+    publishableCount: guide.publishableCount,
+    exclusionReasons: guide.reasons,
+    futureTimestamps: guide.shows.map((show) => show.ts)
   });
 }
 

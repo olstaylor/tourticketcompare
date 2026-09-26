@@ -170,6 +170,9 @@ export const WATCHED_LANES = [
   { file: "autopublish-health.yml", name: "Auto-publish health", cadence: "daily 09:00", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
   // Propose-only screen: writes an issue, runs no validation against main.
   { file: "roster-candidates.yml", name: "Roster candidates", cadence: "daily 10:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // Propose-only tour-launch queue for price guides: writes an issue, runs no
+  // validation against main.
+  { file: "price-guide-candidates.yml", name: "Price-guide candidates", cadence: "daily 11:05", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Auto-promote runs test:mvp before it writes, so it shares main's gate. It
   // ends green at its first step while AUTOPROMOTE_ENABLED is off.
   { file: "auto-promote.yml", name: "Auto-promote artists", cadence: "daily 10:45", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
@@ -717,8 +720,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "roster-candidates.yml", "site-health.yml"],
-    "the sensors, the digest, the roster screen, the price coverage report and the site health check, and only those, are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "roster-candidates.yml", "site-health.yml"],
+    "the sensors, the digest, the roster and price-guide screens, the price coverage report and the site health check, and only those, are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

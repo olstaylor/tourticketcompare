@@ -66,11 +66,11 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260925b";
+const APP_ASSET_VERSION = "20260926a";
 const TTC_HOME_ASSET_VERSION = "20260924b";
 const TTC_HOME_JS_ASSET_VERSION = "20260924v";
 const TTC_SHELL_ASSET_VERSION = "20260925a";
-const SHELL_SCRIPT_ASSET_VERSION = "20260925a";
+const SHELL_SCRIPT_ASSET_VERSION = "20260926a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";

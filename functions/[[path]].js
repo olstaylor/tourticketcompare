@@ -5405,6 +5405,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // answers "how much" — so each links the other near the top.
     const priceGuideLive =
       shows.length > 0 &&
+      priceGuideRegistered(artist.slug) &&
       priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
         registered: priceGuideRegistered(artist.slug),
         artistEditoriallyIndexable: isIndexableArtist
@@ -5559,6 +5560,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // Link up to the artist's price guide when one renders; it carries this
     // city's dates alongside every other city's, with their price moves.
     const priceGuideHtml =
+      priceGuideRegistered(artist.slug) &&
       priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
         registered: priceGuideRegistered(artist.slug),
         artistEditoriallyIndexable: true

@@ -293,6 +293,11 @@ These apply to city, venue, and artist-city pages together.
   list, and the page-level "most recently checked ..." paragraph all restated
   those same numbers further down; `scripts/audit-internal-links.mjs` now fails
   a location page that names its show count more than once.
+- **Held dates are not inventory.** A date whose stored Ticketmaster status
+  is cancelled or postponed (`eventLifecycleHeld`) stays listed with its
+  status, but no gate counts it: it is not publishable, and city and venue
+  show and artist counts, price guides and the auto-promoted artist count all
+  leave it out.
 - **Location page dates are local dates.** The city and venue derivations carry
   each event's `timezone` so a show is labelled with the day it happens, matching
   the show card on the artist page. Without it the renderer falls back to UTC,

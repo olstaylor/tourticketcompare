@@ -39,7 +39,7 @@
 //      figure belongs to one date, one provider and one capture time.
 
 import { slugify, normalizeCountry, citySlug } from "./_cities.js";
-import { eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
+import { eventLifecycleHeld, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
 
 // ---------------------------------------------------------------------------
 // Registry
@@ -144,6 +144,9 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
     const country = normalizeCountry(event.country);
     const id = String(event.id || "").trim();
     if (!id || !city || !Number.isFinite(ts) || ts < now) continue;
+    // A cancelled or postponed date has no price and is not upcoming
+    // inventory, so it is neither listed nor counted towards the gate.
+    if (eventLifecycleHeld(event)) continue;
     shows.push({
       id,
       city,

@@ -1,5 +1,5 @@
 import { VERIFIED_TICKET_LINKS } from "./out.js";
-import { eventLifecycleHeld, TICKETMASTER_STATUS_FIELD } from "../_route-indexability.js";
+import { eventLifecycleHeld, TICKETMASTER_LIFECYCLE_CODES, TICKETMASTER_STATUS_FIELD } from "../_route-indexability.js";
 import {
   impactMarketplacePriceDisplayEnabled,
   impactMarketplaceRuntimeConfig
@@ -186,6 +186,11 @@ function resolveArtistName(artistSlug, artists, allShows) {
   return titleCaseFromSlug(normalizedSlug);
 }
 
+function lifecycleFieldFromDiscovery(code) {
+  const normalized = String(code || "").trim().toLowerCase();
+  return TICKETMASTER_LIFECYCLE_CODES.includes(normalized) ? { [TICKETMASTER_STATUS_FIELD]: normalized } : {};
+}
+
 function mapTicketmasterStatus(code) {
   const normalized = String(code || "").toLowerCase();
   if (!normalized) return "announced";
@@ -208,7 +213,7 @@ function extractTicketmasterDateTime(event) {
   return Number.isFinite(Date.parse(fallbackIso)) ? fallbackIso : null;
 }
 
-function mapTicketmasterEventToShow(event, artistSlug, artistName) {
+export function mapTicketmasterEventToShow(event, artistSlug, artistName) {
   if (!event || typeof event !== "object") return null;
   const tmEventId = String(event.id || "").trim();
   if (!tmEventId) return null;
@@ -245,6 +250,11 @@ function mapTicketmasterEventToShow(event, artistSlug, artistName) {
     timezone: typeof event?.dates?.timezone === "string" ? event.dates.timezone : null,
     tour_name: "",
     status: mapTicketmasterStatus(event?.dates?.status?.code),
+    // The same lifecycle field the field-sync stores on persisted rows, so a
+    // cancelled or postponed show found by live Discovery is held by every
+    // gate too. Set only for a lifecycle code: merged over a persisted row,
+    // an absent key never clears that row's recorded hold.
+    ...lifecycleFieldFromDiscovery(event?.dates?.status?.code),
     seatgeek_event_id: null,
     vividseats_event_id: null,
     // Discovery returns its OWN id here, not the storefront id. Persisted rows

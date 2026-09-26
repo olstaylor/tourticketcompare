@@ -1721,6 +1721,15 @@ function eventLifecycleHeld(event) {
   return Boolean(code) && code !== "onsale" && code !== "rescheduled";
 }
 
+// The line a held date shows in place of its buttons. Keep in sync with
+// lifecycleHoldLabel in functions/[[path]].js.
+function lifecycleHoldLabel(event) {
+  const code = String((event && event.ticketmaster_status_code) || "").trim().toLowerCase();
+  if (code === "cancelled" || code === "canceled") return "Ticketmaster lists this date as cancelled, so no ticket links are shown for it.";
+  if (code === "postponed") return "Ticketmaster lists this date as postponed, so no ticket links are shown until it is back on sale.";
+  return "This date's Ticketmaster status is being checked, so no ticket links are shown for it.";
+}
+
 function eventLinkPublishable(event) {
   if (eventLifecycleHeld(event)) return false;
   if (publicOnsalePending(event)) return false;
@@ -2312,6 +2321,10 @@ function renderShowCard(show, options = {}) {
     runLine.append(chip, document.createTextNode(" at this venue"));
     body.append(runLine);
   }
+  // Keep in sync with rescheduledHtml in renderShowCardServerHtml.
+  if (String(show.ticketmaster_status_code || "").trim().toLowerCase() === "rescheduled") {
+    text(body, "p", "Rescheduled: this is the date Ticketmaster now lists.", "show-card-sub muted");
+  }
 
   if (options.reviewGated) {
     text(body, "p", "Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.", "disclosure-note");
@@ -2392,9 +2405,11 @@ function renderShowCard(show, options = {}) {
       text(
         body,
         "p",
-        publicOnsalePending(show)
-          ? publicOnsaleLabel(show)
-          : "No checked ticket link for this date yet.",
+        eventLifecycleHeld(show)
+          ? lifecycleHoldLabel(show)
+          : publicOnsalePending(show)
+            ? publicOnsaleLabel(show)
+            : "No checked ticket link for this date yet.",
         "disclosure-note"
       );
     }

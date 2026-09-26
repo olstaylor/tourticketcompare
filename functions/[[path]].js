@@ -2361,7 +2361,27 @@ function artistCityTitle(artist, artistCity) {
   // JSON-LD description (see routeSchema), which is not gated on indexability.
   // A price there would be machine-readable redistribution outside the
   // SCHEMA_OFFERS_ENABLED exception and invisible to validate-route-schema.mjs.
+  //
+  // A single-venue run leads with its venue, because the venue is often the
+  // name people search: "Oasis Knebworth tickets", not "Oasis Stevenage
+  // tickets". The venue string is the event record's own, and the city stays
+  // in the title unless the venue name already carries it. A venue too long
+  // for the budget falls through to the city-only ladder below.
+  const venues = artistCity.venues || [];
+  const venue = venues.length === 1 ? String(venues[0] || "").trim() : "";
+  const venueCandidates = [];
+  if (venue) {
+    if (venue.toLowerCase().includes(shortLabel.toLowerCase())) {
+      venueCandidates.push(`${artist.name} Tickets at ${venue} | Prices & Dates`);
+    } else {
+      venueCandidates.push(
+        `${artist.name} Tickets at ${venue}, ${label} | Prices & Dates`,
+        `${artist.name} Tickets at ${venue}, ${shortLabel} | Prices & Dates`
+      );
+    }
+  }
   return fitTitleToBudget([
+    ...venueCandidates,
     `${artist.name} Tickets in ${label} | Prices & Dates`,
     `${artist.name} Tickets in ${shortLabel} | Prices & Dates`,
     `${artist.name} Tickets in ${shortLabel} | Compare Prices`,

@@ -292,6 +292,102 @@ const musicEventFor = (nodes, id) => nodes.find((node) => node?.["@type"] === "M
   assert(rowIds.has(SCHEDULED.id) && rowIds.has(RESCHEDULED.id), "live dates keep their price rows");
 }
 
+// ─── held dates never count towards a route's thresholds (Codex, #1193) ─────
+
+{
+  const { deriveCities } = await load("functions/_cities.js");
+  const { deriveVenues } = await load("functions/_venues.js");
+  const { derivePriceGuide } = await load("functions/_price-guides.js");
+  const { countUpcomingShows } = await load("functions/_artist-indexability.js");
+
+  const city = deriveCities(EVENTS, { now: NOW_MS }).find((entry) => entry.slug === CITY_SLUG);
+  assert(city.showCount === LIVE.length + 1, `a city counts only its non-held dates (got ${city.showCount})`);
+  assert(city.shows.length === EVENTS.length, "held dates stay listed on the city page");
+
+  // The case from the review: one live date plus two held dates by a second
+  // artist used to clear the venue gate (3 shows, 2 artists, 1 publishable).
+  const otherArtist = artistsMeta.find((artist) => artist?.indexing_status === "indexable_with_substantial_content" && artist.slug !== ARTIST.slug);
+  const secondArtist = (event, id) => ({ ...event, id, artist_slug: otherArtist.slug, artist_name: otherArtist.name });
+  const venueCase = [SCHEDULED, secondArtist(CANCELLED, "other-cancelled"), secondArtist(POSTPONED, "other-postponed")];
+  const withoutHolds = venueCase.map(({ ticketmaster_status_code, ...event }) => event);
+  const venue = deriveVenues(venueCase, { now: NOW_MS })[0];
+  assert(deriveVenues(withoutHolds, { now: NOW_MS })[0].indexable, "the same venue is indexable when nothing is held");
+  assert(!venue.indexable && venue.showCount === 1 && venue.artistCount === 1, `held dates cannot keep a venue indexed (got ${venue.showCount} shows, ${venue.artistCount} artists)`);
+  assert(!deriveCities(venueCase, { now: NOW_MS })[0].indexable, "nor a city");
+
+  const guide = derivePriceGuide(EVENTS, ARTIST.slug, { now: NOW_MS });
+  const guideIds = new Set(guide.shows.map((show) => show.id));
+  assert(HELD.every((event) => !guideIds.has(event.id)) && guide.showCount === LIVE.length + 1, "a price guide neither lists nor counts held dates");
+
+  assert(countUpcomingShows(EVENTS, ARTIST.slug, NOW_MS) === LIVE.length + 1, "the auto-promoted artist threshold counts only non-held dates");
+}
+
+// ─── live Discovery shows carry the same field (Codex, #1193) ───────────────
+
+{
+  const discovery = (code) => showsModule.mapTicketmasterEventToShow({
+    id: "Z7r9jZ1AAtest",
+    name: ARTIST.name,
+    url: "https://www.ticketmaster.com/event/Z7r9jZ1AAtest",
+    dates: { status: { code }, start: { dateTime: "2026-09-20T01:00:00Z" }, timezone: "America/Chicago" },
+    _embedded: { venues: [{ name: "Fixture Arena", city: { name: "Springfield" }, country: { name: "United States" } }] }
+  }, ARTIST.slug, ARTIST.name);
+  for (const code of ["cancelled", "canceled", "postponed"]) {
+    const show = discovery(code);
+    assert(show.ticketmaster_status_code === code && eventLifecycleHeld(show), `a live Discovery '${code}' show is held`);
+    assert(!coverage.providerEventPublishable(show, "ticketmaster"), `a live Discovery '${code}' show publishes no Ticketmaster link`);
+  }
+  // Codex (#1194, 650fcf9): a live `rescheduled` would print "this is the date
+  // Ticketmaster now lists" beside a date the field-sync never validated (a
+  // localDate-only response gets a guessed 19:00Z start). Only the field-sync
+  // records it.
+  const localDateOnly = showsModule.mapTicketmasterEventToShow({
+    id: "Z7r9jZ1AAtest",
+    name: ARTIST.name,
+    url: "https://www.ticketmaster.com/event/Z7r9jZ1AAtest",
+    dates: { status: { code: "rescheduled" }, start: { localDate: "2026-09-19" } },
+    _embedded: { venues: [{ name: "Fixture Arena", city: { name: "Springfield" }, country: { name: "United States" } }] }
+  }, ARTIST.slug, ARTIST.name);
+  assert(localDateOnly && !("ticketmaster_status_code" in localDateOnly), "a live localDate-only rescheduled show is not labelled rescheduled");
+  for (const code of ["rescheduled", "onsale", "offsale", ""]) {
+    assert(!("ticketmaster_status_code" in discovery(code)), `a live Discovery '${code || "(none)"}' show carries no lifecycle key, so it never clears a stored hold when merged`);
+  }
+
+  // Merging a live show over a persisted row (Codex, #1194): a stored hold is
+  // never lifted by live Discovery; a live hold still applies.
+  const persisted = (code) => showsModule.mapEventsToShows([{
+    ...SCHEDULED,
+    id: "fixture-merge",
+    ticketmaster_discovery_event_id: "Z7r9jZ1AAtest",
+    ...(code ? { ticketmaster_status_code: code } : {})
+  }])[0];
+  const merged = (storedCode, liveCode) => showsModule.mergeShows([persisted(storedCode)], [discovery(liveCode)]);
+  for (const [stored, live] of [["cancelled", "rescheduled"], ["cancelled", "onsale"], ["postponed", "rescheduled"], ["postponed", ""]]) {
+    const result = merged(stored, live);
+    assert(result.length === 1 && result[0].ticketmaster_status_code === stored && eventLifecycleHeld(result[0]),
+      `a stored '${stored}' survives a live '${live || "(none)"}' response (got ${result.map((show) => show.ticketmaster_status_code).join(",")})`);
+  }
+  assert(eventLifecycleHeld(merged("", "cancelled")[0]), "a live cancellation still holds an unheld persisted row");
+  assert(eventLifecycleHeld(merged("rescheduled", "postponed")[0]), "a live postponement holds a row stored as rescheduled");
+  assert(!merged("", "rescheduled")[0].ticketmaster_status_code, "a live rescheduled response does not label an unheld persisted row");
+}
+
+// Codex (#1194, 650fcf9): the city and venue lead sentences take their date
+// span from the same non-held set as their counts. A live September date plus
+// a cancelled December date is one show "on" September, not "September to
+// December"; an all-held location states no span at all.
+{
+  const lateCancelled = { ...CANCELLED, id: "fixture-late-cancelled", datetime_iso: "2026-12-13T01:00:00Z" };
+  const lead = (html) => text(html).match(/\d+ upcoming shows? (?:in|at) [^.]*\./)?.[0] || "";
+  for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`]) {
+    const mixed = lead((await render(pathname, [SCHEDULED, lateCancelled])).html);
+    assert(/^1 upcoming show /.test(mixed) && / on /.test(mixed) && !/Dec/.test(mixed), `${pathname}: a held date outside the live span is not in the lead (got "${mixed}")`);
+    const { status, html } = await render(pathname, [CANCELLED, lateCancelled]);
+    const allHeld = lead(html);
+    assert(status !== 200 || (allHeld && !/ (?:on|from) /.test(allHeld)), `${pathname}: an all-held location states no date span (got "${allHeld}")`);
+  }
+}
+
 // ─── rendered pages ─────────────────────────────────────────────────────────
 
 const PAGES = [`/artists/${ARTIST.slug}`, `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`, `/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`];
@@ -394,6 +490,19 @@ async function out(showId, provider) {
     assert(clientHeld(event) === eventLifecycleHeld(event), `public/app.js agrees with the server on '${code || "(none)"}'`);
   }
   assert(/function eventLinkPublishable\(event\) \{\n  if \(eventLifecycleHeld\(event\)\) return false;/.test(appJs), "public/app.js checks the hold in eventLinkPublishable");
+  // Codex (#1194, 650fcf9): the /api/shows-failure fallback filtered held rows
+  // out before they reached the lifecycle label, so it must keep them.
+  assert(/fallbackShows = [\s\S]{0,600}?\|\| eventLifecycleHeld\(show\)\)/.test(appJs), "public/app.js keeps held dates on the fallback board");
+  // The client card states the same lifecycle line the server card does
+  // (Codex, #1193: the fallback renderer used to print the generic
+  // "No checked ticket link" line instead).
+  const labelSource = appJs.match(/function lifecycleHoldLabel\(event\) \{[\s\S]*?\n\}/)?.[0] || "";
+  const clientLabel = new Function(`${labelSource}; return lifecycleHoldLabel;`)();
+  const { html: boardHtml } = await render(`/artists/${ARTIST.slug}`);
+  for (const event of HELD) {
+    assert(text(card(boardHtml, event.id)).includes(clientLabel(event)), `public/app.js states the server's line for ${event.id}`);
+  }
+  assert(appJs.includes('"Rescheduled: this is the date Ticketmaster now lists."'), "public/app.js labels a rescheduled date like the server");
   assert(/function providerEventPublishable\(event, provider\) \{\n  if \(eventLifecycleHeld\(event\)\) return false;/.test(appJs), "public/app.js checks the hold in providerEventPublishable");
 }
 

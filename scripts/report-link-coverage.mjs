@@ -45,6 +45,7 @@ import {
   safeLaneUrl
 } from "./lib/event-link-coverage.mjs";
 import { resolveEventLocalDate, localDateSkipReason } from "./lib/event-local-date.mjs";
+import { eventLifecycleHeld } from "../functions/_route-indexability.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -225,6 +226,22 @@ function sortedEntries(map) {
 }
 
 /**
+ * The --check all-clear line. Held dates are outside the invariant, so when any
+ * exist the claim is scoped to the non-held dates and the held count is named.
+ *
+ * @param {{ oneLink: any[], held: any[] }} analysis
+ */
+export function checkPassMessage(analysis) {
+  const scope = analysis.held.length ? "non-held upcoming event" : "upcoming event";
+  const heldNote = analysis.held.length
+    ? ` ${analysis.held.length} held by a cancelled/postponed status (links withheld on purpose).`
+    : "";
+  return analysis.oneLink.length
+    ? `OK (with ${analysis.oneLink.length} warning(s)): every ${scope} leads somewhere; ${analysis.oneLink.length} lead to a single provider.${heldNote}`
+    : `OK: every ${scope} has at least two publishable exact-event ticket links.${heldNote}`;
+}
+
+/**
  * Full coverage analysis over the event set.
  *
  * @param {any[]} events
@@ -234,9 +251,14 @@ function sortedEntries(map) {
  */
 export function analyse(events, isConfigured, evidence = new Map(), now = Date.now()) {
   const upcoming = events.filter((event) => isUpcoming(event, now));
+  // A cancelled or postponed date has no link on purpose (eventLifecycleHeld):
+  // that is the hold working, not a coverage gap, so it is reported on its own
+  // and never counted as a zero-link failure.
+  const held = upcoming.filter((event) => eventLifecycleHeld(event));
   const distribution = { 0: 0, 1: 0, 2: 0, "3+": 0 };
   const rows = [];
   for (const event of upcoming) {
+    if (eventLifecycleHeld(event)) continue;
     const diagnosis = diagnoseEvent(event, isConfigured, evidence.get(String(event?.id)) || {});
     distribution[bucketFor(diagnosis.ctaCount)] += 1;
     rows.push({ event, ...diagnosis });
@@ -254,6 +276,7 @@ export function analyse(events, isConfigured, evidence = new Map(), now = Date.n
 
   return {
     upcoming: upcoming.length,
+    held,
     total: events.length,
     distribution,
     rows,
@@ -404,6 +427,28 @@ function selfTest() {
   assert("the distribution buckets 0/1/2", analysis.distribution["0"] === 1 && analysis.distribution["1"] === 1 && analysis.distribution["2"] === 1);
   assert("zero-link upcoming events are collected", analysis.zeroLink.map((row) => row.event.id).join(",") === "u-one");
   assert("one-link upcoming events are collected separately", analysis.oneLink.map((row) => row.event.id).join(",") === "u-zero");
+  const heldAnalysis = analyse([{ ...base, id: "u-held", ticketmaster_status_code: "cancelled" }], allConfigured, new Map(), now);
+  assert("a lifecycle-held upcoming event is reported as held, not as a zero-link failure",
+    heldAnalysis.held.map((event) => event.id).join(",") === "u-held" && !heldAnalysis.zeroLink.some((row) => row.event.id === "u-held"));
+  {
+    // The human report names held dates even when nothing else is low-coverage.
+    const lines = [];
+    const log = console.log;
+    console.log = (...args) => lines.push(args.join(" "));
+    try {
+      printHuman(heldAnalysis, {});
+    } finally {
+      console.log = log;
+    }
+    const printed = lines.join("\n");
+    assert("held dates print even with no low-coverage date", printed.includes("u-held") && printed.includes("No non-held upcoming event"));
+  }
+  assert("the --check all-clear is scoped to non-held dates when any are held",
+    /every non-held upcoming event has at least two/.test(checkPassMessage(heldAnalysis)) && /1 held by a cancelled\/postponed status/.test(checkPassMessage(heldAnalysis)));
+  assert("the --check warning line is scoped to non-held dates when any are held",
+    /every non-held upcoming event leads somewhere/.test(checkPassMessage({ oneLink: [{}], held: [{}] })));
+  assert("the --check all-clear is unchanged with no held dates",
+    checkPassMessage({ oneLink: [], held: [] }) === "OK: every upcoming event has at least two publishable exact-event ticket links.");
   assert("low coverage is the union of the two", analysis.lowCoverage.length === 2);
   assert("low coverage groups by artist", analysis.byArtist[0][0] === "ok-artist" && analysis.byArtist[0][1] === 2);
   assert("low coverage groups by country", analysis.byCountry[0][0] === "United States");
@@ -442,8 +487,15 @@ function printHuman(analysis, options) {
   console.log(`    2 links : ${distribution["2"]}`);
   console.log(`    3+ links: ${distribution["3+"]}`);
 
+  // Printed before the early return below, so held dates are always reported
+  // even when every other date has two or more links.
+  if (analysis.held.length) {
+    console.log(`\n  Held by a cancelled/postponed Ticketmaster status (links withheld on purpose, not a failure): ${analysis.held.length}`);
+    for (const event of analysis.held) console.log(`    ${event.id}  [${event.ticketmaster_status_code}]`);
+  }
+
   if (!analysis.lowCoverage.length) {
-    console.log("\nNo upcoming event has fewer than two publishable exact-event CTAs.");
+    console.log(`\nNo ${analysis.held.length ? "non-held " : ""}upcoming event has fewer than two publishable exact-event CTAs.`);
     return;
   }
 
@@ -521,6 +573,7 @@ async function main() {
       total: analysis.total,
       distribution: analysis.distribution,
       low_coverage: analysis.lowCoverage.length,
+      held: analysis.held.map((event) => ({ showId: event.id, artist: event.artist_slug, date: event.datetime_iso, status: event.ticketmaster_status_code })),
       by_artist: Object.fromEntries(analysis.byArtist),
       by_country: Object.fromEntries(analysis.byCountry),
       by_cause: Object.fromEntries(analysis.byCause),
@@ -543,13 +596,7 @@ async function main() {
       console.error(`\nFAIL: ${analysis.zeroLink.length} upcoming event(s) have no publishable exact-event ticket link.`);
       return 1;
     }
-    if (!options.json) {
-      console.log(
-        analysis.oneLink.length
-          ? `\nOK (with ${analysis.oneLink.length} warning(s)): every upcoming event leads somewhere; ${analysis.oneLink.length} lead to a single provider.`
-          : "\nOK: every upcoming event has at least two publishable exact-event ticket links."
-      );
-    }
+    if (!options.json) console.log(`\n${checkPassMessage(analysis)}`);
   }
   return 0;
 }

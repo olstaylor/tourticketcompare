@@ -631,11 +631,13 @@ function computeLifecycleChange(event, remote) {
 
 // One event's outcome, as a pure function of the local row and the Discovery
 // response (exists === true). The rules, in order:
-//   - Recording a status needs only the identity checks to pass: a hold must
-//     not wait for an unrelated ambiguity (a postponed show often has no
-//     confirmed start time) to be resolved.
-//   - Clearing a status, like every other field change, needs a record with
-//     no review blockers at all.
+//   - Recording a hold (cancelled/postponed) needs only the identity checks to
+//     pass: a hold must not wait for an unrelated ambiguity (a postponed show
+//     often has no confirmed start time) to be resolved.
+//   - Recording `rescheduled`, like clearing a status and every other field
+//     change, needs a record with no review blockers at all. A rescheduled
+//     date keeps its buttons and its card says "this is the date Ticketmaster
+//     now lists", which is only true once the new date itself has applied.
 //   - A recorded hold is also surfaced for review, because only a human
 //     decides whether the row is removed and tombstoned.
 function planEventSync(event, remote, discoveryId) {
@@ -644,7 +646,8 @@ function planEventSync(event, remote, discoveryId) {
   const lifecycleChange = computeLifecycleChange(event, remote);
   const identitySafe = !blockers.some((item) => item.kind === 'identity_mismatch');
   const applied = [];
-  if (lifecycleChange && (lifecycleChange.to === null ? blockers.length === 0 : identitySafe)) {
+  const recordsHold = Boolean(lifecycleChange) && HOLD_LIFECYCLE_CODES.has(lifecycleChange.to);
+  if (lifecycleChange && (recordsHold ? identitySafe : blockers.length === 0)) {
     applied.push(lifecycleChange);
   }
   if (!blockers.length) applied.push(...intendedChanges);
@@ -811,6 +814,9 @@ async function runSelfTest() {
   assert('a hold is recorded even when the start time is not confirmed',
     lifecycleOf(plan(clean_(), tba))?.to === 'postponed' && kinds(clean_(), tba).includes('ambiguous_api_response'));
   assert('a hold recorded past another blocker does not bump last_verified_at', !plan(clean_(), tba).stampVerified);
+  const tbaRescheduled = full('rescheduled', { dates: { status: { code: 'rescheduled' }, start: {}, timezone: 'America/New_York' } });
+  assert('rescheduled is not recorded while its new date is ambiguous',
+    !lifecycleOf(plan(clean_(), tbaRescheduled)) && kinds(clean_(), tbaRescheduled).includes('ambiguous_api_response'));
   const mismatched = full('cancelled', { name: 'Someone Else Entirely' });
   assert('an identity mismatch records nothing', !lifecycleOf(plan(clean_(), mismatched)));
   assert('an already-recorded status is not rewritten', !lifecycleOf(plan(clean_({ ticketmaster_status_code: 'cancelled' }), full('cancelled'))));

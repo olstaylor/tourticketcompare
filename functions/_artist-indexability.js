@@ -8,6 +8,8 @@
 // This module is the single source of truth for future-date state used by the
 // presentation layer.
 
+import { eventLifecycleHeld } from "./_route-indexability.js";
+
 export const INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content";
 
 // Local slug normaliser mirroring slugify() in functions/[[path]].js. Kept
@@ -38,18 +40,21 @@ function normalizeSlug(value) {
 // normalising every slug, and /artists and the homepage call them once per
 // artist: 80 artists x 1,700 events of regex work on every render.
 const TIMES_BY_EVENTS = new WeakMap();
-function eventTimesBySlug(events) {
-  let index = TIMES_BY_EVENTS.get(events);
+const LIVE_TIMES_BY_EVENTS = new WeakMap();
+function eventTimesBySlug(events, { excludeHeld = false } = {}) {
+  const memo = excludeHeld ? LIVE_TIMES_BY_EVENTS : TIMES_BY_EVENTS;
+  let index = memo.get(events);
   if (index) return index;
   index = new Map();
   for (const ev of events) {
     if (!ev || typeof ev !== "object") continue;
+    if (excludeHeld && eventLifecycleHeld(ev)) continue;
     const slug = normalizeSlug(ev.artist_slug);
     if (!slug) continue;
     if (!index.has(slug)) index.set(slug, []);
     index.get(slug).push(Date.parse(String(ev.datetime_iso || ev.dateTimeISO || "").trim()));
   }
-  TIMES_BY_EVENTS.set(events, index);
+  memo.set(events, index);
   return index;
 }
 
@@ -93,7 +98,8 @@ export const AUTO_PROMOTED_MIN_UPCOMING_SHOWS = 3;
 export function countUpcomingShows(events, artistSlug, now = Date.now()) {
   const slug = normalizeSlug(artistSlug);
   if (!slug || !Array.isArray(events)) return 0;
-  return (eventTimesBySlug(events).get(slug) || []).filter((ts) => Number.isFinite(ts) && ts >= now).length;
+  // A cancelled or postponed date is not upcoming inventory for the gate.
+  return (eventTimesBySlug(events, { excludeHeld: true }).get(slug) || []).filter((ts) => Number.isFinite(ts) && ts >= now).length;
 }
 
 /**

@@ -1,4 +1,4 @@
-import { venueGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
+import { venueGate, eventLifecycleHeld, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared venue derivation used by the HTML router ([[path]].js) and the sitemap
 // (sitemap.xml.js) so the two cannot drift. Venue pages are an aggregation layer
@@ -98,6 +98,7 @@ function deriveVenuesUncached(events, options = {}) {
       last_verified_at: String(event.last_verified_at || "").trim(),
       publishable: eventPublishable(event, now),
       statusPublishable: eventStatusPublishable(event, now),
+      held: eventLifecycleHeld(event),
       ts
     });
   }
@@ -105,7 +106,9 @@ function deriveVenuesUncached(events, options = {}) {
   const venues = [];
   for (const group of groups.values()) {
     const shows = group.shows.sort((a, b) => a.ts - b.ts);
-    const artistSlugs = [...new Set(shows.map((s) => s.artist_slug))];
+    // Held dates stay listed but are not upcoming inventory (see _cities.js).
+    const liveShows = shows.filter((show) => !show.held);
+    const artistSlugs = [...new Set(liveShows.map((s) => s.artist_slug))];
     const publishableCount = shows.filter((show) => show.publishable).length;
     // Shows that also clear the row-status gate, i.e. the ones that get a
     // MusicEvent node. Distinct from publishableCount by design.
@@ -117,7 +120,7 @@ function deriveVenuesUncached(events, options = {}) {
       country: mostFrequent(group.countryLabels),
       shows,
       artistSlugs,
-      showCount: shows.length,
+      showCount: liveShows.length,
       artistCount: artistSlugs.length,
       publishableCount,
       schemaEventCount,

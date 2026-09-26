@@ -1,5 +1,5 @@
 import { venueSlug } from "./_venues.js";
-import { cityGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
+import { cityGate, eventLifecycleHeld, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared city derivation used by the HTML router, sitemap, llms.txt, and
 // internal-link audit. City pages aggregate only upcoming records already
@@ -98,6 +98,7 @@ function deriveCitiesUncached(events, options = {}) {
       last_verified_at: String(event.last_verified_at || "").trim(),
       publishable: eventPublishable(event, now),
       statusPublishable: eventStatusPublishable(event, now),
+      held: eventLifecycleHeld(event),
       ts
     });
   }
@@ -105,8 +106,11 @@ function deriveCitiesUncached(events, options = {}) {
   const cities = [];
   for (const group of groups.values()) {
     const shows = group.shows.sort((a, b) => a.ts - b.ts || a.id.localeCompare(b.id));
-    const artistSlugs = [...new Set(shows.map((show) => show.artist_slug))];
-    const venueSlugs = [...new Set(shows.map((show) => show.venue_slug))];
+    // A cancelled or postponed date stays listed (its card states the status)
+    // but is not upcoming inventory: the counts, and so the gate, leave it out.
+    const liveShows = shows.filter((show) => !show.held);
+    const artistSlugs = [...new Set(liveShows.map((show) => show.artist_slug))];
+    const venueSlugs = [...new Set(liveShows.map((show) => show.venue_slug))];
     const publishableCount = shows.filter((show) => show.publishable).length;
     // Shows that also clear the row-status gate, i.e. the ones that get a
     // MusicEvent node. Distinct from publishableCount by design.
@@ -116,7 +120,7 @@ function deriveCitiesUncached(events, options = {}) {
       shows,
       artistSlugs,
       venueSlugs,
-      showCount: shows.length,
+      showCount: liveShows.length,
       artistCount: artistSlugs.length,
       venueCount: venueSlugs.length,
       publishableCount,

@@ -1879,8 +1879,16 @@ function cityVenueCountLabel(count) {
   return `${count} ${count === 1 ? "venue" : "venues"}`;
 }
 
+// A cancelled or postponed date keeps its card on a city or venue page but is
+// not upcoming inventory, so the summary span and years come from the same
+// non-held set as the counts. Artist-city shows carry no `held` flag and are
+// unaffected.
+function summaryShows(record) {
+  return (record?.shows || []).filter((show) => !show.held);
+}
+
 function cityYearLabel(city) {
-  const years = [...new Set((city?.shows || [])
+  const years = [...new Set(summaryShows(city)
     .map((show) => new Date(show.datetime_iso).getUTCFullYear())
     .filter(Number.isFinite))].sort((a, b) => a - b);
   if (!years.length) return "";
@@ -1900,8 +1908,9 @@ function cityMetaDescription(city, yearLabel) {
 }
 
 function cityDateRangeLabel(city) {
-  const first = city?.shows?.[0];
-  const last = city?.shows?.at(-1);
+  const shows = summaryShows(city);
+  const first = shows[0];
+  const last = shows.at(-1);
   const firstLabel = formatShowDateServer(first?.datetime_iso, first?.timezone);
   const lastLabel = formatShowDateServer(last?.datetime_iso, last?.timezone);
   if (!firstLabel) return "";
@@ -4883,7 +4892,8 @@ function renderPriceHistoryPanelHtml(artistSlug, showId) {
 const PRICE_ALERT_INTEREST_TEMPLATE = `<template id="price-alert-interest-template"><form class="price-alert-interest" method="post" action="/api/signup" data-price-alert-interest="" data-event-id=""><p class="muted">Want an email if this price drops? Price emails aren't sent yet — leave an address to register interest and help decide whether alerts get built.</p><div class="price-alert-interest-row"><label class="sr-only" for="price-alert-email">Email address</label><input type="email" id="price-alert-email" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></template>`;
 
 // The line a held date shows in place of its ticket buttons. Each states only
-// what the stored Ticketmaster status says.
+// what the stored Ticketmaster status says. Keep in sync with
+// lifecycleHoldLabel in public/app.js.
 function lifecycleHoldLabel(show) {
   const lifecycle = eventLifecycle(show);
   if (lifecycle === EVENT_LIFECYCLE.CANCELLED) return "Ticketmaster lists this date as cancelled, so no ticket links are shown for it.";

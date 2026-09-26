@@ -30,7 +30,7 @@
 
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
-import { analyse as analysePrices, fetchAllShows } from "./report-price-coverage.mjs";
+import { analyse as analysePrices, coverageShareLabel, fetchAllShows } from "./report-price-coverage.mjs";
 
 const ISSUE_LABEL = "automation:site-health";
 const ISSUE_TITLE = "Site health";
@@ -211,9 +211,13 @@ export function renderReport(report) {
   lines.push("", "### 4. Prices", "");
   if (report.prices) {
     lines.push(
-      report.prices.problems.length ? report.prices.problems.map((p) => `- ${p}`).join("\n") : "Coverage and freshness gates pass.",
+      report.prices.problems.length
+        ? report.prices.problems.map((p) => `- ${p}`).join("\n")
+        : report.prices.coverage_share == null
+          ? "Freshness gate passes; the coverage gate does not apply (no mapped, on-sale date)."
+          : "Coverage and freshness gates pass.",
       "",
-      `${report.prices.counts.priced} of ${report.prices.upcoming} upcoming dates priced; ${pct(report.prices.coverage_share)} of mapped, on-sale dates; ${pct(report.prices.stale_share)} of displayed prices older than 12h. Detail: the \`automation:price-coverage\` issue.`
+      `${report.prices.counts.priced} of ${report.prices.upcoming} upcoming dates priced; ${coverageShareLabel(report.prices.coverage_share)} of mapped, on-sale dates; ${pct(report.prices.stale_share)} of displayed prices older than 12h. Detail: the \`automation:price-coverage\` issue.`
     );
   } else lines.push(`- Price payload unreadable: ${report.price_error}`);
   lines.push("", "### 5. Other sensors with open findings", "");
@@ -352,6 +356,11 @@ async function selfTest() {
   assert.equal(report.ok, false);
   const md = renderReport(report);
   assert.match(md, /needs attention/);
+  // An all-held price payload has no coverage share: the report says the gate
+  // does not apply rather than printing 0% beside a pass (Codex, #1194).
+  const allHeldMd = renderReport({ ...report, prices: { ...report.prices, coverage_share: null, problems: [] } });
+  assert.match(allHeldMd, /coverage gate does not apply/);
+  assert.match(allHeldMd, /n\/a \(no mapped, on-sale date\) of mapped/);
   assert.match(md, /`\/gone` answers HTTP 404/);
 
   // A 503 that clears on retry is counted as transient, not as a failed page.

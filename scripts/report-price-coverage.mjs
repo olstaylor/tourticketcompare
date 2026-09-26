@@ -17,6 +17,8 @@
 // pure helpers, so it runs without `npm ci`.
 //
 // Classification of each upcoming date (first match wins):
+//   held          cancelled/postponed (or unrecognised) Ticketmaster status: its
+//                 prices are withheld on purpose, so it is outside the gate
 //   pre_onsale    Ticketmaster public on-sale still in the future; any resale
 //                 price it shows is counted separately (pre_onsale_priced) and
 //                 never enters the on-sale gate
@@ -36,7 +38,7 @@
 
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
-import { publicOnsalePending } from "../functions/_route-indexability.js";
+import { eventLifecycleHeld, publicOnsalePending } from "../functions/_route-indexability.js";
 import { laneBySlug, safeLaneUrl } from "./lib/event-link-coverage.mjs";
 
 // Lanes with a numeric price feed and display on. Mirrors LISTED_PRICE_PROVIDERS
@@ -119,6 +121,7 @@ function mappedPriceLanes(show) {
 }
 
 export function classifyShow(show, now = Date.now()) {
+  if (eventLifecycleHeld(show)) return "held";
   if (publicOnsalePending(show, now)) return "pre_onsale";
   if (pricedLanes(show).length) return "priced";
   if (mappedPriceLanes(show).length) return "mapped";
@@ -131,7 +134,7 @@ const sortedCounts = (map) => [...map.entries()].sort((a, b) => b[1] - a[1] || S
 
 export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE, maxStaleShare = DEFAULT_MAX_STALE_SHARE } = {}) {
   const upcoming = shows.filter((show) => Date.parse(String(show?.dateTimeISO || "")) > now);
-  const counts = { priced: 0, pre_onsale: 0, mapped: 0, seatgeek_only: 0, unmapped: 0 };
+  const counts = { priced: 0, pre_onsale: 0, mapped: 0, seatgeek_only: 0, unmapped: 0, held: 0 };
   let preOnsalePriced = 0;
   const zeroSourceByArtist = new Map();
   const zeroSourceByCountry = new Map();
@@ -142,6 +145,9 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
   for (const show of upcoming) {
     const kind = classifyShow(show, now);
     counts[kind] += 1;
+    // A held date is counted and nothing else: its withheld prices are not a
+    // lane's pricing shortfall, so it stays out of the per-lane totals too.
+    if (kind === "held") continue;
     if (kind === "pre_onsale" && pricedLanes(show).length) preOnsalePriced += 1;
     for (const lane of mappedPriceLanes(show)) increment(laneMapped, lane.name);
     for (const lane of pricedLanes(show)) {
@@ -170,8 +176,11 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
   const maxAgeHours = ages.length ? Math.max(...ages.map((entry) => entry.age)) : null;
   const problems = [];
   if (!upcoming.length) problems.push("the API returned no upcoming shows");
-  else if (!denominator) problems.push("no upcoming date is mapped on a price-supplying lane");
-  else if (coverageShare < minShare) {
+  // Held dates are outside the gate, so a payload of nothing but held dates
+  // has no gate-eligible date at all — not a pricing blackout.
+  else if (!denominator) {
+    if (upcoming.length > counts.held) problems.push("no upcoming date is mapped on a price-supplying lane");
+  } else if (coverageShare < minShare) {
     problems.push(`only ${(coverageShare * 100).toFixed(1)}% of on-sale dates mapped on a price lane show a price (gate ${(minShare * 100).toFixed(0)}%)`);
   }
   if (ages.length && staleShare > maxStaleShare) {
@@ -183,7 +192,9 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
     counts,
     pre_onsale_priced: preOnsalePriced,
     zero_price_sources: counts.unmapped + counts.seatgeek_only,
-    coverage_share: Number(coverageShare.toFixed(4)),
+    // null, not 0, when no mapped, on-sale date exists: the coverage gate then
+    // does not apply (an all-held payload), or the problem above names why.
+    coverage_share: denominator ? Number(coverageShare.toFixed(4)) : null,
     stale_share: Number(staleShare.toFixed(4)),
     displayed_prices: ages.length,
     max_age_hours: maxAgeHours == null ? null : Number(maxAgeHours.toFixed(1)),
@@ -199,6 +210,11 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
 
 const pct = (value) => `${(value * 100).toFixed(1)}%`;
 
+/** The coverage share as printed: "n/a" when no mapped, on-sale date exists. */
+export function coverageShareLabel(share) {
+  return share == null ? "n/a (no mapped, on-sale date)" : pct(share);
+}
+
 export function renderMarkdown(report, baseUrl = "") {
   const c = report.counts;
   const lines = [
@@ -213,8 +229,9 @@ export function renderMarkdown(report, baseUrl = "") {
     "|---:|---:|---:|---:|---:|---:|",
     `| ${report.upcoming} | ${c.priced} | ${c.pre_onsale} | ${c.mapped} | ${c.seatgeek_only} | ${c.unmapped} |`,
     "",
-    `- **Coverage of mapped, on-sale dates:** ${pct(report.coverage_share)} (gate ≥ ${pct(report.gates.min_share)}).`,
+    `- **Coverage of mapped, on-sale dates:** ${coverageShareLabel(report.coverage_share)} (gate ≥ ${pct(report.gates.min_share)}).`,
     `- **Pre-on-sale dates showing a resale price:** ${report.pre_onsale_priced} of ${c.pre_onsale} (reported only; not part of the gate).`,
+    `- **Held (cancelled/postponed per Ticketmaster):** ${c.held}. Their prices are withheld on purpose; not part of the gate.`,
     `- **Dates with zero price sources:** ${report.zero_price_sources} (unmapped + SeatGeek-only). This is a mapping backlog, not a failure — it is not gated.`,
     `- **Price age:** ${report.displayed_prices} displayed prices, ${pct(report.stale_share)} older than ${PRICE_STALE_AFTER_HOURS}h (gate ≤ ${pct(report.gates.max_stale_share)}), oldest ${report.max_age_hours ?? "n/a"}h.`,
     "",
@@ -320,7 +337,26 @@ function selfTest() {
   assert.equal(classifyShow(shows[8], now), "unmapped");
   const report = analyse(shows, { now });
   assert.equal(report.upcoming, 9, "past dates are excluded");
-  assert.deepEqual(report.counts, { priced: 2, pre_onsale: 2, mapped: 1, seatgeek_only: 1, unmapped: 3 });
+  assert.deepEqual(report.counts, { priced: 2, pre_onsale: 2, mapped: 1, seatgeek_only: 1, unmapped: 3, held: 0 });
+  {
+    // A cancelled date mapped on a price lane with no price is the hold
+    // working, not a coverage miss: it leaves the gate's denominator.
+    const cancelled = { ...shows[2], id: "held-1", ticketmaster_status_code: "cancelled" };
+    assert.equal(classifyShow(cancelled, now), "held");
+    const withHeld = analyse([...shows, cancelled], { now });
+    assert.equal(withHeld.counts.held, 1);
+    assert.equal(withHeld.coverage_share, report.coverage_share, "a held date does not move the coverage share");
+    assert.deepEqual(withHeld.lanes, report.lanes, "a held date does not enter the per-lane mapped or priced totals");
+    const allHeld = analyse([cancelled, { ...shows[0], id: "held-2", ticketmaster_status_code: "postponed" }], { now });
+    assert.equal(allHeld.ok, true, "a payload of only held dates is not a pricing blackout");
+    assert.equal(allHeld.problems.length, 0);
+    assert.equal(allHeld.coverage_share, null, "an all-held payload has no coverage share, not 0%");
+    const allHeldMd = renderMarkdown(allHeld);
+    assert.match(allHeldMd, /Coverage of mapped, on-sale dates:\*\* n\/a/, "the issue prints n/a for an all-held payload");
+    assert.doesNotMatch(allHeldMd, /0\.0% \(gate/, "the issue never prints a 0% share beside OK");
+    const unmappedOnly = analyse([shows[5]], { now });
+    assert.equal(unmappedOnly.ok, false, "a payload with no mapped non-held date still fails");
+  }
   assert.equal(report.pre_onsale_priced, 1, "a priced pre-on-sale date is counted apart");
   assert.equal(classifyShow(shows[9], now), "pre_onsale", "a priced pre-on-sale date stays pre_onsale");
   assert.equal(report.zero_price_sources, 4);

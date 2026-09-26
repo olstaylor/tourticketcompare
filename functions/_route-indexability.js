@@ -79,6 +79,10 @@ export const PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS = 3;
 // state and stays within its validated enum.
 export const TICKETMASTER_STATUS_FIELD = "ticketmaster_status_code";
 
+// The Discovery codes that are stored in that field — the same set the
+// field-sync records. `offsale` is not one: it proves nothing about the show.
+export const TICKETMASTER_LIFECYCLE_CODES = Object.freeze(["cancelled", "canceled", "postponed", "rescheduled"]);
+
 export const EVENT_LIFECYCLE = Object.freeze({
   SCHEDULED: "scheduled",
   CANCELLED: "cancelled",

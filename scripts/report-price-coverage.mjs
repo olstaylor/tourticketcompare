@@ -176,8 +176,11 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
   const maxAgeHours = ages.length ? Math.max(...ages.map((entry) => entry.age)) : null;
   const problems = [];
   if (!upcoming.length) problems.push("the API returned no upcoming shows");
-  else if (!denominator) problems.push("no upcoming date is mapped on a price-supplying lane");
-  else if (coverageShare < minShare) {
+  // Held dates are outside the gate, so a payload of nothing but held dates
+  // has no gate-eligible date at all — not a pricing blackout.
+  else if (!denominator) {
+    if (upcoming.length > counts.held) problems.push("no upcoming date is mapped on a price-supplying lane");
+  } else if (coverageShare < minShare) {
     problems.push(`only ${(coverageShare * 100).toFixed(1)}% of on-sale dates mapped on a price lane show a price (gate ${(minShare * 100).toFixed(0)}%)`);
   }
   if (ages.length && staleShare > maxStaleShare) {
@@ -337,6 +340,11 @@ function selfTest() {
     assert.equal(withHeld.counts.held, 1);
     assert.equal(withHeld.coverage_share, report.coverage_share, "a held date does not move the coverage share");
     assert.deepEqual(withHeld.lanes, report.lanes, "a held date does not enter the per-lane mapped or priced totals");
+    const allHeld = analyse([cancelled, { ...shows[0], id: "held-2", ticketmaster_status_code: "postponed" }], { now });
+    assert.equal(allHeld.ok, true, "a payload of only held dates is not a pricing blackout");
+    assert.equal(allHeld.problems.length, 0);
+    const unmappedOnly = analyse([shows[5]], { now });
+    assert.equal(unmappedOnly.ok, false, "a payload with no mapped non-held date still fails");
   }
   assert.equal(report.pre_onsale_priced, 1, "a priced pre-on-sale date is counted apart");
   assert.equal(classifyShow(shows[9], now), "pre_onsale", "a priced pre-on-sale date stays pre_onsale");

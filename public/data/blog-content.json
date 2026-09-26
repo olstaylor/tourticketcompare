@@ -87,7 +87,8 @@
       "relatedGuides": [
         "how-to-prepare-for-a-ticket-onsale",
         "concert-ticket-fees-explained",
-        "what-to-do-if-a-concert-is-postponed-or-cancelled"
+        "what-to-do-if-a-concert-is-postponed-or-cancelled",
+        "stubhub-international-explained"
       ],
       "relatedArtists": [
         "harry-styles",
@@ -95,7 +96,7 @@
         "karol-g",
         "bts"
       ],
-      "wordCount": 653,
+      "wordCount": 661,
       "sections": [
         {
           "type": "intro",
@@ -114,7 +115,7 @@
         {
           "type": "section",
           "title": "Compare totals in one currency",
-          "content": "A total in euros, pounds or Australian dollars is not comparable with one in US dollars until both are converted, and your card may add its own conversion charge on top. Compare final checkout totals for the same number of tickets, then work out what your card will actually charge. The [fees guide](/guides/concert-ticket-fees-explained) lists the charges that tend to appear late.\n\nFee rules differ by country as well. In the United States, the FTC's rule on unfair or deceptive fees requires mandatory fees to be included in the upfront price of live-event tickets, although taxes, shipping and optional add-ons can still be shown separately. Other countries set their own rules, so read the order summary rather than assuming the first price shown is the one you pay."
+          "content": "A total in euros, pounds or Australian dollars is not comparable with one in US dollars until both are converted (the [currency converter](/currency-converter) does this with reference rates), and your card may add its own conversion charge on top. Compare final checkout totals for the same number of tickets, then work out what your card will actually charge. The [fees guide](/guides/concert-ticket-fees-explained) lists the charges that tend to appear late.\n\nFee rules differ by country as well. In the United States, the FTC's rule on unfair or deceptive fees requires mandatory fees to be included in the upfront price of live-event tickets, although taxes, shipping and optional add-ons can still be shown separately. Other countries set their own rules, so read the order summary rather than assuming the first price shown is the one you pay."
         },
         {
           "type": "section",

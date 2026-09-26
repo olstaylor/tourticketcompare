@@ -235,14 +235,8 @@ export function artistSearchIntro(artist, status, options = {}) {
     );
   }
 
-  if (status.multiNightRuns.length === 1) {
-    const only = status.multiNightRuns[0];
-    sentences.push(`${only.count} of them are nights at ${only.venue}, so check which night you're buying.`);
-  } else if (status.multiNightRuns.length > 1) {
-    sentences.push(
-      `${status.multiNightRuns.length} venues host more than one night, so check the date before you buy.`
-    );
-  }
+  // Multi-night runs are not restated here (2026-09-25): every card in a run
+  // carries its own "Night 1 of 2" chip, directly under this sentence.
 
   if (status.showsWithoutCta > 0 && status.showsWithCta > 0) {
     sentences.push(
@@ -262,43 +256,10 @@ export function artistSearchIntro(artist, status, options = {}) {
 }
 
 /**
- * The compact fact strip under the lead: the same countable facts as chips, so
- * the page answers "how many dates, where, when, and can I see a price" before
- * the reader has to scroll. Returns label/value pairs only.
- *
- * @param {ArtistBoardStatus} status
- * @param {{ formatDate?: (iso: string, timezone: string) => string }} [options]
- * @returns {{label: string, value: string}[]}
- */
-export function artistStatusFacts(status, options = {}) {
-  if (!status || !status.showCount) return [];
-  const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
-  // P10 (owner-approved 2026-09-24): the count, cities, countries and last date
-  // are all in the lead sentence directly above, so the strip keeps only what
-  // is worth scanning for: the next date and the checked-link coverage.
-  const facts = [];
-  const nextLabel = formatDate(status.next?.iso, status.next?.timezone);
-  if (nextLabel) {
-    facts.push({
-      label: status.showCount === 1 ? "Date" : "Next date",
-      value: status.next?.city ? `${nextLabel}, ${status.next.city}` : nextLabel
-    });
-  }
-  facts.push({
-    label: "Checked ticket links",
-    value:
-      status.showsWithoutCta > 0
-        ? `${status.showsWithCta} of ${plural(status.showCount, "date")}`
-        : status.showCount === 1
-          ? "This date"
-          : `All ${status.showCount} dates`
-  });
-  return facts;
-}
-
-/**
- * Group upcoming publishable shows into per-tour summaries. Shows without a
- * verified tour name, or that do not pass the publishable gate, are excluded.
+ * Group the board's upcoming shows into per-tour summaries. Shows without a
+ * verified tour name are excluded. The link gate (`publishable`) is not applied:
+ * a date listed before its on-sale is still a date on the board, and counting
+ * only linkable dates here made the card disagree with the intro above it.
  *
  * @param {ArtistContentShow[]} shows
  * @returns {TourSummary[]}
@@ -306,7 +267,7 @@ export function artistStatusFacts(status, options = {}) {
 export function deriveTourSummaries(shows) {
   const groups = new Map();
   for (const show of Array.isArray(shows) ? shows : []) {
-    if (!show || show.publishable !== true) continue;
+    if (!show) continue;
     const name = cleanString(show.tour_name);
     const iso = cleanString(show.dateTimeISO);
     if (!name || !iso || !Number.isFinite(Date.parse(iso))) continue;
@@ -474,7 +435,6 @@ export function buildArtistContentModel(artist, shows, options = {}) {
   return {
     status,
     intro: artistSearchIntro(artist, status, options),
-    facts: artistStatusFacts(status, options),
     tours: deriveTourSummaries(shows),
     help: artistTicketHelp(),
     emptyBoard: artistEmptyBoardCopy(artist, options),

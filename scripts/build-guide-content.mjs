@@ -157,6 +157,7 @@ const INTERNAL_LINK_EXACT = new Set([
   "/guides",
   "/blog",
   "/compare-concert-ticket-prices",
+  "/on-sale",
   "/how-it-works",
   "/currency-converter",
   "/about",

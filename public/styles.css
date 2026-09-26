@@ -701,6 +701,25 @@ h3 {
   min-width: 0;
 }
 
+/* Paragraphs laid out by a grid take their spacing from the grid gap alone.
+   Their default 1em margins do not collapse inside a grid, so they used to add
+   to the gap: ~40px between a title and its lead, and ~48px between two
+   paragraphs of the same panel. */
+.content-page > p,
+.content-page > .guide-provenance > p,
+.nested-panel > p,
+.info-card > p,
+.provider-card > p,
+.artist-card > p,
+.provider-panel > p {
+  margin: 0;
+}
+
+.content-page > .guide-provenance {
+  display: grid;
+  gap: 6px;
+}
+
 .guide-page table {
   width: 100%;
   table-layout: fixed;
@@ -1446,35 +1465,6 @@ summary {
   font-size: 0.85rem;
 }
 
-/* Fact strip under the artist-page lead: the countable state of the board,
-   above the fold, before any prose. */
-.artist-fact-strip {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 10px 16px;
-  margin: 14px 0 0;
-  padding: 14px 16px;
-  border: 1px solid var(--line-strong);
-  border-radius: 14px;
-  background: var(--surface-soft, #fafafa);
-}
-
-.artist-fact dt {
-  margin: 0;
-  font-size: 0.72rem;
-  font-weight: 950;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.artist-fact dd {
-  margin: 2px 0 0;
-  font-size: 0.98rem;
-  font-weight: 850;
-  line-height: 1.3;
-}
-
 /* Consolidated location links: one panel with grouped lists, replacing the
    three separate keyword-headed link panels. */
 .artist-location-group + .artist-location-group {
@@ -1744,13 +1734,6 @@ summary {
     min-height: 44px;
     display: inline-flex;
     align-items: center;
-  }
-
-  /* Narrow screens: the comparison UI stays single-column and full-width, and
-     the fact strip drops to two columns rather than squeezing five. */
-  .artist-fact-strip {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    padding: 12px 14px;
   }
 
   .show-card-meta {
@@ -2469,8 +2452,46 @@ summary {
   font-size: 0.95rem;
 }
 
+.money-disclosure,
+.section-intro .money-disclosure,
 .show-board .money-disclosure {
   font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+/* The artist lead block is a wrapper for hydration; lay it out like the page
+   grid so the lead paragraph's default margins do not open a gap above the
+   dates. */
+[data-artist-lead] {
+  display: grid;
+  gap: 14px;
+}
+
+[data-artist-lead] > p {
+  margin: 0;
+}
+
+/* City and venue pages group their dates under a venue or artist heading.
+   The group is a heading, not a third nested box: the extra border and
+   padding cost the cards ~60px of width on a phone. */
+.city-page [data-show-group],
+.venue-page [data-show-group] {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* City and venue pages: summary and coverage note under the date list. */
+.location-page-notes {
+  display: grid;
+  gap: 8px;
+}
+
+.location-page-notes p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
 }
 
 .show-filter-extra {

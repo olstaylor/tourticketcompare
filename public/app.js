@@ -2073,7 +2073,7 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "when you buy through some of these buttons, the ticket site pays TourTicketCompare a commission. No fee is added on top. Sites that pay a commission are listed first; Ticketmaster, which doesn't, is listed last when its link is available.";
+  "sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.";
 function renderMoneyDisclosure() {
   const note = document.createElement("p");
   note.className = "disclosure-note money-disclosure";
@@ -2240,20 +2240,16 @@ function renderPriceHistoryContent(panel, wrap, data) {
   if (interest) panel.append(interest);
 }
 
-// One compact line above a card's provider buttons, saying exactly how many
-// checked ticket sites this date leads to. "Compare" is only true of two or
-// more — a single button is one site, not a comparison. No price wording: a
-// missing price is a separate matter, handled by renderShowCardPriceNotes.
-// Keep in sync with ctaCountLabel in functions/[[path]].js.
+// One compact line above a card's provider buttons, only when at least one
+// button shows a price, saying what that number is. No site count: the buttons
+// are the count. Keep in sync with ctaCountLabel in functions/[[path]].js.
 // `priced` is how many of the buttons show a price. "On each" only when all
 // of them do: SeatGeek and Ticketmaster never carry one, so on a mixed card it
 // reads "where shown".
 function showCtaCountLabel(count, priced = 0) {
-  if (count < 1) return "";
-  const sites = count === 1 ? "1 ticket site for this date" : `${count} ticket sites for this date`;
-  if (!priced) return sites;
-  if (count === 1) return `${sites} · lowest listed price`;
-  return `${sites} · ${priced >= count ? "lowest listed price on each" : "lowest listed price where shown"}`;
+  if (count < 1 || !priced) return "";
+  if (count === 1) return "Lowest listed price";
+  return priced >= count ? "Lowest listed price on each" : "Lowest listed price where shown";
 }
 
 function renderShowCard(show, options = {}) {
@@ -2388,7 +2384,7 @@ function renderShowCard(show, options = {}) {
         "p",
         publicOnsalePending(show)
           ? publicOnsaleLabel(show)
-          : "No checked ticket link is available for this date yet. It stays listed so the date itself is still visible.",
+          : "No checked ticket link for this date yet.",
         "disclosure-note"
       );
     }
@@ -3249,6 +3245,13 @@ function renderArtist(artist) {
   // description back on a page with no dates — including og:/twitter:.
   const hasServerDates = main.querySelectorAll("article.show-card[data-show-json]").length > 0;
   const serverDescription = document.querySelector('meta[name="description"]')?.getAttribute("content") || "";
+  // Same for the title: the server adds the board's year(s) to the house
+  // template (artistPageTitle), which the catalog's raw seo_title does not have.
+  // Kept only when it is this artist's title — every artistPageTitle output
+  // starts with the name — so an unrewritten shell or a server 404 title is
+  // never carried onto the artist page (or into og:/twitter:title).
+  const documentTitle = document.title.trim();
+  const serverTitle = artist.name && documentTitle.startsWith(`${artist.name} `) ? documentTitle : "";
   // Artist-page indexability is editorial. Future-date availability controls
   // the board and the index sections, but an empty artist page remains a valid
   // indexable destination with a truthful empty state. The one exception is an
@@ -3259,7 +3262,7 @@ function renderArtist(artist) {
   const shouldNoindex = isReviewRequired || (artist.promotion_source === "auto" && /noindex/i.test(serverRobots));
   setMeta(
     {
-      title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
+      title: serverTitle || artist.seo_title || `${artist.name} Tickets | Options & Availability`,
       description: hasServerDates
         ? artist.meta_description ||
           `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
@@ -3273,7 +3276,7 @@ function renderArtist(artist) {
   section.className = "content-page artist-page";
   section.setAttribute("aria-labelledby", "artistTitle");
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Artists", href: "/artists" }, { label: artist.name }]));
-  // The lead block (heading, data-grounded intro, fact strip) is derived from
+  // The lead block (heading and data-grounded intro) is derived from
   // the board on the server; transplant it rather than recomputing copy the
   // client cannot derive without the same annotated show data.
   const serverLead = transplantServerNode("[data-artist-lead]");
@@ -3294,7 +3297,7 @@ function renderArtist(artist) {
     "artistShowBoard",
     "Upcoming dates",
     serverShows.length
-      ? "Pick a date. Each button is a ticket site that sells it, with that site's lowest listed price when one is available. Prices are checked every few hours; the ticket site shows your final total."
+      ? ""
       : main.querySelector(".show-board .section-intro > p:not(.disclosure-note)")
         ? "Dates appear here once the source confirms them."
         : "",

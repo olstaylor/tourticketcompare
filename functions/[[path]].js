@@ -44,7 +44,9 @@ import {
   findTag as findBlogTag,
   postIndexable as blogPostIndexable,
   blogIndexIndexable,
-  relatedPosts as relatedBlogPosts
+  relatedPosts as relatedBlogPosts,
+  postsForArtist,
+  postsForGuide
 } from "./_blog.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
@@ -2029,7 +2031,7 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
             venueRuns,
             {
               includeCopyLink: false,
-              showArtistName: true,
+              titleArtist: true,
               supplementalHtml: detailsLink
             }
           );
@@ -2247,19 +2249,6 @@ function artistBoardModel(route, events, env) {
   return model;
 }
 
-// The fact strip under the lead: the countable state of this board, above the
-// fold, before any prose. Values come straight from artistStatusFacts.
-function renderArtistStatusFactsHtml(facts) {
-  if (!Array.isArray(facts) || !facts.length) return "";
-  const items = facts
-    .map(
-      (fact) =>
-        `<div class="artist-fact"><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`
-    )
-    .join("");
-  return `<dl class="artist-fact-strip" data-artist-facts>${items}</dl>`;
-}
-
 // The one shared help component (artistTicketHelp in _artist-content.js). It
 // replaced three overlapping blocks of the same generic advice that used to sit
 // on every artist page ("Before you buy", "How to buy <artist> tickets", "How
@@ -2432,26 +2421,51 @@ function artistCityVenueLabel(artistCity) {
   return `${venues[0]}, ${venues[1]}, and other venues`;
 }
 
-// The label carries ", Country" only when the city name is ambiguous across
-// countries, so that suffix is kept ahead of the "| Compare Prices" tail — a
+// Where the city name is ambiguous across countries (artistCity.label is then
+// "City, Country"), the title carries the country as "City (Country)" so the
+// phrase still reads as one query, and that qualifier is never shed — a
 // disambiguating country matters more to a searcher than the tail does.
 function artistCityTitle(artist, artistCity) {
-  const label = artistCity.label;
-  const shortLabel = withoutParentheticalQualifier(label);
-  // "Prices & Dates" leads because it is the one tail that matches both halves
-  // of what these pages are searched for — "<artist> <city> ticket prices" and
-  // "<artist> <city> tickets" — in a string that never changes. A live figure
-  // is deliberately absent: metadata is composed here, before any price is
-  // fetched, and route.description is emitted verbatim as the CollectionPage
-  // JSON-LD description (see routeSchema), which is not gated on indexability.
-  // A price there would be machine-readable redistribution outside the
-  // SCHEMA_OFFERS_ENABLED exception and invisible to validate-route-schema.mjs.
+  const city = String(artistCity.city || artistCity.label || "");
+  const countryQualifier = artistCity.label !== city && artistCity.country ? ` (${artistCity.country})` : "";
+  const place = `${city}${countryQualifier}`;
+  const shortPlace = `${withoutParentheticalQualifier(city)}${countryQualifier}`;
+  // Mirrors the query word for word — "<artist> <city> tickets <year>" — then
+  // says what the page does. The year(s) come only from the run's own upcoming
+  // dates, read in each venue's calendar exactly as the artist page reads them.
+  // A single-venue run names that venue ("at Etihad Stadium"), the one local
+  // fact that tells a searcher this is the page for their show; a multi-venue
+  // run falls back to "& Dates", never a list of venues. "Single venue" is
+  // venueCount, the same slug-based count the body uses, so the title and the
+  // page never disagree about it. Shed order: the city's own parenthetical
+  // qualifier ("Casalecchio di Reno (Bologna)"), then "Compare" (so the venue
+  // survives the 60-character budget — "Oasis Manchester Tickets 2027 | Compare
+  // Prices at Etihad Stadium" is 64), then the venue, then the tail, then the
+  // year. Once a qualifier is shed it stays shed.
+  //
+  // A live figure is deliberately absent: metadata is composed here, before any
+  // price is fetched, and route.description is emitted verbatim as the
+  // CollectionPage JSON-LD description (see routeSchema), which is not gated on
+  // indexability. A price there would be machine-readable redistribution
+  // outside the SCHEMA_OFFERS_ENABLED exception and invisible to
+  // validate-route-schema.mjs.
+  const year = yearRangeLabel(
+    (artistCity.shows || []).map((show) => eventLocalYear(show.datetime_iso, show.timezone))
+  );
+  const lead = (where) => `${artist.name} ${where} Tickets${year ? ` ${year}` : ""}`;
+  const venue = artistCity.venueCount === 1 ? String((artistCity.venues || [])[0] || "") : "";
   return fitTitleToBudget([
-    `${artist.name} Tickets in ${label} | Prices & Dates`,
-    `${artist.name} Tickets in ${shortLabel} | Prices & Dates`,
-    `${artist.name} Tickets in ${shortLabel} | Compare Prices`,
-    `${artist.name} Tickets in ${shortLabel} | Tickets`,
-    `${artist.name} Tickets in ${shortLabel}`
+    ...(venue
+      ? [
+          `${lead(place)} | Compare Prices at ${venue}`,
+          `${lead(shortPlace)} | Compare Prices at ${venue}`,
+          `${lead(shortPlace)} | Prices at ${venue}`
+        ]
+      : [`${lead(place)} | Compare Prices & Dates`]),
+    `${lead(shortPlace)} | Compare Prices & Dates`,
+    `${lead(shortPlace)} | Compare Prices`,
+    lead(shortPlace),
+    `${artist.name} ${shortPlace} Tickets`
   ]);
 }
 
@@ -2499,7 +2513,7 @@ function artistCityIntroSentence(artist, artistCity, { datesTabled = false } = {
   const pieces = [`TourTicketCompare tracks ${count} for ${artist.name} in ${artistCity.city}, ${artistCity.country}`];
   if (!datesTabled && venueLabel) pieces.push(`at ${venueLabel}`);
   if (!datesTabled && range) pieces.push(range);
-  return `${pieces.join(", ")}. Match the date you want, then compare checked ticket options before you buy.`;
+  return `${pieces.join(", ")}.`;
 }
 
 // Questions specific to this artist in this city. Only rendered on indexable
@@ -2982,47 +2996,32 @@ function artistCityShowIdSet(artistCity) {
 // render the unabridged variant; the compressed one is covered by
 // scripts/artist-city-prices.test.mjs.)
 function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false } = {}) {
-  const next = artistCity.shows[0];
-  const range = cityDateRangeLabel(artistCity);
   const checked = formatVerificationDate(artistCity.lastmod);
-  const venuesLabel = (artistCity.venues || []).join(", ") || "Shown on each date";
   const runNote = artistCity.multiNightSameVenue
     ? ` This is a multi-night run at the same venue.`
     : "";
   const heading = `<h2 id="artistCityAnswerTitle">At a glance: ${escapeHtml(
     artist.name
   )} in ${escapeHtml(artistCity.city)}</h2>`;
-
-  if (datesTabled) {
-    // Two dates are in play and a reader will conflate them if we let them:
-    // when the *event record* was last verified, and when each *price* was
-    // captured. The clarifier is only meaningful when there is a verification
-    // date to clarify, so it is tied to it rather than always appended.
-    const recency = checked
+  // Two dates are in play and a reader will conflate them if we let them:
+  // when the *event record* was last verified, and when each *price* was
+  // captured. The clarifier is only meaningful beside a price table.
+  const recency = checked
+    ? datesTabled
       ? `The most recent event record on this page was checked ${checked} — that is when the event itself was last verified, not when a price was captured; each figure above carries its own capture time.`
-      : `Each date above carries its own verification record, separate from the capture time shown with its price.`;
-    return `<section class="nested-panel" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong>${escapeHtml(
-      runNote
-    )} ${escapeHtml(
-      recency
-    )} Ticket options for each date are on its card below.</p></section>`;
-  }
-
-  return `<section class="nested-panel" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong> TourTicketCompare tracks ${escapeHtml(
-    cityShowCountLabel(artistCity.showCount)
-  )} for ${escapeHtml(artist.name)} in ${escapeHtml(artistCity.city)}, ${escapeHtml(
-    artistCity.country
-  )}, across ${escapeHtml(cityVenueCountLabel(artistCity.venueCount))}.${escapeHtml(
-    runNote
-  )}</p><div class="card-grid"><article class="info-card"><h3>Next tracked date</h3><p>${next ? `${escapeHtml(
-    formatShowDateServer(next.datetime_iso, next.timezone)
-  )} at ${escapeHtml(next.venue)}.` : "No upcoming reviewed date is available."}</p></article><article class="info-card"><h3>Tracked date range</h3><p>${escapeHtml(
-    range || "Shown in the schedule below."
-  )}</p></article><article class="info-card"><h3>Venues</h3><p>${escapeHtml(
-    venuesLabel
-  )}</p></article><article class="info-card"><h3>Verification recency</h3><p>${checked ? `Most recent event record checked ${escapeHtml(
-    checked
-  )}.` : "Each date carries its own verification record."}</p></article></div></section>`;
+      : `The most recent event record on this page was checked ${checked}.`
+    : `Each date carries its own verification record.`;
+  // One summary, below the dates (2026-09-25, owner request). It replaced a
+  // lead paragraph and a disclosure paragraph above the dates plus a deck of
+  // "Next tracked date" / "Tracked date range" / "Venues" / "Verification
+  // recency" cards, which between them stated the count, venue and range twice
+  // and put the first date a screen and a half down on a phone. The first card
+  // on the board is the next date; this sentence states the rest once.
+  return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong> ${escapeHtml(
+    artistCityIntroSentence(artist, artistCity, { datesTabled })
+  )}${escapeHtml(runNote)}</p><p class="disclosure-note">${escapeHtml(
+    `${recency} This is a selective list of reviewed dates, not a complete local calendar.`
+  )}</p></section>`;
 }
 
 // Links out from an artist-city page: the artist hub, the shared multi-artist
@@ -3086,7 +3085,8 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
                 group.name,
                 marketplaceAvailability,
                 group.slug,
-                venueRuns
+                venueRuns,
+                { titleArtist: true }
               )
             : "";
         })
@@ -3094,7 +3094,7 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
       return `<article class="nested-panel" data-show-group><h3>${anchor(
         `${group.name} at ${venue.venue}`,
         `/artists/${group.slug}`
-      )}</h3><div class="card-grid show-card-grid venue-show-cards" data-show-grid="true">${cards}</div>${anchor(
+      )}</h3><div class="card-grid show-card-grid venue-show-cards" data-show-grid="true">${cards}</div><p class="show-group-links">${anchor(
         `View all ${group.name} dates and ticket options`,
         `/artists/${group.slug}`,
         "text-link"
@@ -3102,7 +3102,7 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
         artistCityPaths.has(group.slug)
           ? ` · ${anchor(`${group.name} in ${venue.city}`, artistCityPaths.get(group.slug), "text-link")}`
           : ""
-      }</article>`;
+      }</p></article>`;
     })
     .join("");
 }
@@ -3130,6 +3130,17 @@ const LOCATION_GUIDE_LINKS = [
 
 function renderLocationGuideLinks() {
   return LOCATION_GUIDE_LINKS.map(([label, path]) => anchor(label, path, "button button-secondary")).join("");
+}
+
+// The summary sentence and the selective-coverage note sit directly under the
+// date list rather than above it (2026-09-25, owner request): stacked between
+// the heading and the first date they pushed the dates below the fold on a
+// phone. Both stay visible, not collapsed. The one-line money statement stays
+// above the dates, in the board header, beside the buttons it describes.
+function renderLocationPageNotesHtml(summary, coverageNote) {
+  return `<section class="location-page-notes"><p>${escapeHtml(summary)}</p><p class="disclosure-note">${escapeHtml(
+    coverageNote
+  )}</p></section>`;
 }
 
 export function renderCityPageBody(route, events = [], options = {}) {
@@ -3160,11 +3171,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
   }
 
   return shell(
-    `<p class="lead">${escapeHtml(cityLeadSentence(city))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected verified tour dates — not a complete ${city.city} events calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
-      city.city
-    )}${yearLabel ? ` for ${escapeHtml(yearLabel)}` : ""}</h2></div>${renderCityShowGroups(
+    `<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming dates</h2>${renderMoneyDisclosureHtml()}</div>${renderCityShowGroups(
       city,
       events,
       indexableArtistSlugs,
@@ -3181,7 +3188,10 @@ export function renderCityPageBody(route, events = [], options = {}) {
           city.artistSlugs
         )
       }
-    )}</section>${collapsedGroupHtml(
+    )}</section>${renderLocationPageNotesHtml(
+      cityLeadSentence(city),
+      `Selected verified tour dates — not a complete ${city.city} events calendar.`
+    )}${collapsedGroupHtml(
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
@@ -3219,11 +3229,7 @@ export function renderVenuePageBody(route, events = [], options = {}) {
   }
 
   return shell(
-    `<p class="lead">${escapeHtml(venueLeadSentence(venue))}</p><p class="disclosure-note">${escapeHtml(
-      `Selected verified tour dates — not the full ${venue.venue} calendar.`
-    )}</p>${renderMoneyDisclosureHtml()}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
-      venue.venue
-    )}</h2></div>${renderVenueShowGroups(
+    `<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming dates</h2>${renderMoneyDisclosureHtml()}</div>${renderVenueShowGroups(
       venue,
       events,
       indexableArtistSlugs,
@@ -3232,7 +3238,10 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       options.marketplaceAvailability || {},
       null,
       route.events || events
-    )}</section>${collapsedGroupHtml(
+    )}</section>${renderLocationPageNotesHtml(
+      venueLeadSentence(venue),
+      `Selected verified tour dates — not the full ${venue.venue} calendar.`
+    )}${collapsedGroupHtml(
       "Tips for buying and more venues",
       `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
         venue.venue
@@ -3287,6 +3296,63 @@ const GUIDE_CLUSTERS = [
     ]
   }
 ];
+
+// Ticket sites as they appear in guide slugs, most specific first so
+// "stubhub-international" is never read as StubHub US. A guide about one of
+// these sites links every other published guide about the same site, so a new
+// provider guide is not reachable from /guides alone. Derived from the slugs,
+// so it needs no upkeep as guides are added.
+const GUIDE_PROVIDER_NAMES = [
+  ["stubhub-international", "StubHub International"],
+  ["ticketmaster", "Ticketmaster"],
+  ["seatgeek", "SeatGeek"],
+  ["vivid-seats", "Vivid Seats"],
+  ["stubhub", "StubHub"],
+  ["ticketnetwork", "TicketNetwork"]
+];
+
+function guideProviders(path) {
+  let slug = `-${String(path || "").split("/").at(-1)}-`;
+  const found = [];
+  for (const [token, name] of GUIDE_PROVIDER_NAMES) {
+    if (!slug.includes(`-${token}-`)) continue;
+    found.push({ token, name });
+    slug = slug.replace(`-${token}-`, "--");
+  }
+  return found;
+}
+
+// Guides already linked from the body are left out: the block exists to add
+// the links the author's own "Related guides" list does not carry.
+function renderGuideProviderLinks(route, bodyHtml = "") {
+  const own = guideProviders(route.path);
+  if (!own.length) return "";
+  const tokens = new Set(own.map((provider) => provider.token));
+  const items = Object.keys(GUIDE_ROUTES)
+    .map((path, order) => ({ path, order, shared: guideProviders(path).filter((provider) => tokens.has(provider.token)).length }))
+    .filter((candidate) => candidate.shared > 0 && candidate.path !== route.path && !bodyHtml.includes(`href="${candidate.path}"`))
+    .sort((a, b) => b.shared - a.shared || a.order - b.order)
+    .slice(0, 6)
+    .map(({ path }) => {
+      const guide = GUIDE_ROUTES[path];
+      return `<li>${anchor(guide.h1 || guide.title.replace(" | TourTicketCompare", ""), path)}</li>`;
+    })
+    .join("");
+  if (!items) return "";
+  const names = own.map((provider) => provider.name);
+  const label = names.length === 1 ? names[0] : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+  return `<section class="nested-panel"><h2>More on ${escapeHtml(label)}</h2><ul class="guide-link-list">${items}</ul></section>`;
+}
+
+// Posts that list this guide in related_guides (attached by onRequest), minus
+// any the body already links. Titles only, to keep the guide page light.
+function renderGuideBlogLinks(route, bodyHtml = "") {
+  const items = (Array.isArray(route.guideBlogPosts) ? route.guideBlogPosts : [])
+    .filter((post) => !bodyHtml.includes(`href="${post.path}"`))
+    .map((post) => `<li>${anchor(post.title, post.path)}</li>`)
+    .join("");
+  return items ? `<section class="nested-panel"><h2>From the blog</h2><ul class="guide-link-list">${items}</ul></section>` : "";
+}
 
 function guideCardHtml(path) {
   const guide = GUIDE_ROUTES[path];
@@ -4764,27 +4830,25 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
   return specs;
 }
 
-// One compact line above a card's provider buttons, saying exactly how many
-// checked ticket sites this date leads to. It exists because the count is the
-// one thing the buttons alone do not state, and because "compare" is only true
-// of two or more: a single button is one site, not a comparison, and calling it
-// one was the site describing something it was not doing. It is deliberately
-// one short line and carries no price wording — missing prices are a separate
-// matter, handled by renderServerPriceNotes. Keep in sync with
-// showCtaCountLabel in public/app.js.
-// P1 (owner-approved 2026-09-24): says what the numbers on the buttons are,
-// and only when at least one button shows one. Keep in sync with
-// showCtaCountLabel in public/app.js.
-// `priced` is how many of the buttons show a price. "On each" only when all
-// of them do: SeatGeek and Ticketmaster never carry one, so on a mixed card it
-// reads "where shown".
+// One compact line above a card's provider buttons, rendered only when at
+// least one button shows a price, saying what that number is (P1,
+// owner-approved 2026-09-24). The site count that used to lead it ("1 ticket
+// site for this date") was dropped on 2026-09-25 (owner request): the buttons
+// directly under it are that count, and on the common one-button card the line
+// said nothing else. It never uses comparison wording. `priced` is how many of
+// the buttons show a price. "On each" only when all of them do: SeatGeek and
+// Ticketmaster never carry one, so on a mixed card it reads "where shown".
+// Keep in sync with showCtaCountLabel in public/app.js.
 function ctaCountLabel(count, priced = 0) {
-  if (count < 1) return "";
-  const sites = count === 1 ? "1 ticket site for this date" : `${count} ticket sites for this date`;
-  if (!priced) return sites;
-  if (count === 1) return `${sites} · lowest listed price`;
-  return `${sites} · ${priced >= count ? "lowest listed price on each" : "lowest listed price where shown"}`;
+  if (count < 1 || !priced) return "";
+  if (count === 1) return "Lowest listed price";
+  return priced >= count ? "Lowest listed price on each" : "Lowest listed price where shown";
 }
+
+const ctaCountLineHtml = (ctaSpecs) => {
+  const label = ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs));
+  return label ? `<p class="provider-cta-count muted">${escapeHtml(label)}</p>` : "";
+};
 
 const pricedCount = (ctaSpecs) => ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length;
 
@@ -4811,7 +4875,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
-  let ctaHtml = `<p class="disclosure-note">No checked ticket link is available for this date yet. It stays listed so the date itself is still visible.</p>`;
+  let ctaHtml = `<p class="disclosure-note">No checked ticket link for this date yet.</p>`;
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.</p>`;
@@ -4833,7 +4897,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         )
         .join("");
       const historyHtml = hasApprovedServerPriceSnapshot(show) ? renderPriceHistoryPanelHtml(artistSlug, show.id) : "";
-      ctaHtml = `${onsaleHtml}<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p><div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
+      ctaHtml = `${onsaleHtml}${ctaCountLineHtml(ctaSpecs)}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
     } else {
       ctaHtml = onsaleHtml;
     }
@@ -4856,7 +4920,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         .join("");
       // The buttons are the only outbound links on the card — there is no
       // second "compare" link to double-count a click through.
-      const countHtml = `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs)))}</p>`;
+      const countHtml = ctaCountLineHtml(ctaSpecs);
       const historyHtml = hasApprovedServerPriceSnapshot(show)
         ? renderPriceHistoryPanelHtml(artistSlug, show.id)
         : "";
@@ -4891,10 +4955,14 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   // name is already the page heading). The event name renders as a sub-line
   // only when it adds information beyond the artist name. Keep in sync with
   // renderShowCard in public/app.js.
+  // City and venue boards pass `titleArtist`: there the page names the city
+  // and the group heading names the venue, so "city · venue" on every card said
+  // nothing new and the artist, the thing that differs, is the heading instead.
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
   const eventName = String(show.event_name || "").trim();
-  const title = location || eventName || titleFallback;
-  const artistHtml = presentation.showArtistName === true && artistName
+  const titleArtist = presentation.titleArtist === true && Boolean(artistName);
+  const title = titleArtist ? artistName : location || eventName || titleFallback;
+  const artistHtml = !titleArtist && presentation.showArtistName === true && artistName
     ? `<p class="show-card-artist muted">${escapeHtml(artistName)}</p>`
     : "";
   const supplementalHtml = typeof presentation.supplementalHtml === "string" ? presentation.supplementalHtml : "";
@@ -4922,7 +4990,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(localTime)} local</time>`
         : `${escapeHtml(localTime)} local`
       : "",
-    show.country ? escapeHtml(show.country) : ""
+    show.country && !titleArtist ? escapeHtml(show.country) : ""
   ].filter(Boolean);
   const metaHtml = metaParts.length ? `<p class="show-card-meta">${metaParts.join(" · ")}</p>` : "";
   // Multi-night stands: the date badge and meta line above already show this
@@ -5041,10 +5109,12 @@ function renderShowBoardJumpHtml(shows) {
 // P4 (owner-approved 2026-09-24): one "How we make money" statement, the same
 // everywhere a page shows ticket buttons, replacing five phrasings. It states
 // the button order (serverShowCtaSpecs: affiliate lanes first, the unpaid
-// Ticketmaster link last) and makes no claim the site cannot check. Keep in
-// sync with MONEY_DISCLOSURE in public/app.js.
+// Ticketmaster link last) and makes no claim the site cannot check. Cut to one
+// line on 2026-09-25 (owner request) so it can sit directly above the dates
+// without pushing them down; the linked page carries the detail. Keep in sync
+// with MONEY_DISCLOSURE_TEXT in public/app.js.
 const MONEY_DISCLOSURE_TEXT =
-  "when you buy through some of these buttons, the ticket site pays TourTicketCompare a commission. No fee is added on top. Sites that pay a commission are listed first; Ticketmaster, which doesn't, is listed last when its link is available.";
+  "sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.";
 function renderMoneyDisclosureHtml() {
   return `<p class="disclosure-note money-disclosure"><strong>How this site makes money:</strong> ${escapeHtml(MONEY_DISCLOSURE_TEXT)} ${anchor(
     "Affiliate disclosure",
@@ -5065,11 +5135,11 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   // P3 (owner-approved 2026-09-24). "Reviewed" is gone: dates added by the
   // Ticketmaster lane are machine-matched, not reviewed by a person. P11: an
   // artist that has never had a date gets no intro — the empty box says it.
-  // Populated boards (2026-09-24, owner request): one short line. What the
-  // buttons and prices mean is covered by "How prices and links work here"
-  // further down, and the money statement below stays in full beside them.
+  // Populated boards (2026-09-25, owner request): no intro line. A card that
+  // shows a price labels it ("lowest listed price") and notes it is not the
+  // final total, so a board-wide sentence saying the same was repetition.
   const boardIntro = shows.length
-    ? `<p class="show-board-intro">Pick a date, then a ticket site. A price on a button is that site's lowest listed price; the site shows your final total.</p>`
+    ? ""
     : emptyCopy?.compact
       ? ""
       : `<p>Dates appear here once the source confirms them.</p>`;
@@ -5326,8 +5396,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const emptyStateProviderCta = emptyStateHref
       ? { name: PROVIDER_DISPLAY_NAMES[slugify(emptyStateLink.provider)] || emptyStateLink.provider, href: emptyStateHref }
       : null;
-    // Lead block: heading, the data-grounded intro, and the fact strip. Wrapped
-    // for hydration transplant so the client never recomputes this copy.
+    // Lead block: heading and the one data-grounded intro sentence, then the
+    // dates. The fact strip that sat here (next date, link coverage) was removed
+    // on 2026-09-25: the lead states the coverage and the first card is the next
+    // date. Wrapped for hydration transplant so the client never recomputes it.
     // The artist's price guide, when one is approved and currently renders.
     // The two pages split one topic by intent — this page buys, the guide
     // answers "how much" — so each links the other near the top.
@@ -5346,9 +5418,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       : "";
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${renderArtistStatusFactsHtml(
-      contentModel.facts
-    )}${priceGuideLinkHtml}</div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
@@ -5414,9 +5484,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
           artist.name
         )} ticket FAQ</h2>${artistFaqHtml}</section>`
       : "";
+    // Posts that list this artist in related_artists (attached by onRequest).
+    // Without it a post about one artist's tour is reachable from /blog only.
+    const artistBlogPosts = Array.isArray(route.artistBlogPosts) ? route.artistBlogPosts : [];
+    const artistBlogHtml = artistBlogPosts.length
+      ? `<section class="nested-panel"><h2>${escapeHtml(artist.name)} on the blog</h2>${renderBlogPostCards(artistBlogPosts)}</section>`
+      : "";
     const moreHtml = shows.length
-      ? collapsedGroupHtml(`About ${artist.name}, dates by city, and guides`, `${supportingHtml}${usefulLinksHtml}`)
-      : `${supportingHtml}${usefulLinksHtml}`;
+      ? collapsedGroupHtml(`About ${artist.name}, dates by city, and guides`, `${supportingHtml}${artistBlogHtml}${usefulLinksHtml}`)
+      : `${supportingHtml}${artistBlogHtml}${usefulLinksHtml}`;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${moreHtml}${faqHtml}</section></main>`;
@@ -5497,13 +5573,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="artistCityTitle">${escapeHtml(artist.name)} Tickets in ${escapeHtml(
       artistCity.label
-    )}</h1><p class="lead">${escapeHtml(
-      artistCityIntroSentence(artist, artistCity, { datesTabled })
-    )}</p><p class="disclosure-note">Prices and availability are set by the provider and can change. Any figure shown is a timestamped listed-price snapshot for a verified event, not a final checkout total. This is a selective list of reviewed dates, not a complete local calendar.</p>${priceAnswerHtml}${renderArtistCityAnswerSummary(
-      artist,
-      artistCity,
-      { datesTabled }
-    )}${renderShowBoardServerHtml(
+    )}</h1>${priceAnswerHtml}${renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
       true,
@@ -5512,7 +5582,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       null,
       marketplaceAvailability,
       artist.slug
-    )}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
+    )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
       `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
@@ -5542,7 +5612,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
       guideContent[route.path]?.sources
     )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
@@ -6084,8 +6154,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260924d" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260924d" />'
+      '<link rel="stylesheet" href="/styles.css?v=20260925a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260925a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924v" defer></script></body>');
@@ -6434,6 +6504,14 @@ export async function onRequest(context) {
     (route.path === "/" || route.path === "/guides") &&
     blogIndexIndexable(deriveBlogPosts(await loadBlogContent(env)));
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
+  if (route.type === "artist") {
+    const artistBlogPosts = postsForArtist(deriveBlogPosts(await loadBlogContent(env)), route.artist.slug);
+    if (artistBlogPosts.length) renderRoute = { ...renderRoute, artistBlogPosts };
+  }
+  if (route.type === "guide") {
+    const guideBlogPosts = postsForGuide(deriveBlogPosts(await loadBlogContent(env)), route.path.split("/").at(-1));
+    if (guideBlogPosts.length) renderRoute = { ...renderRoute, guideBlogPosts };
+  }
   // Only when there is something to carry, so a route with no recorded history
   // is passed through exactly as before.
   if (priceLowSeries.size) renderRoute = { ...renderRoute, priceLowSeries };

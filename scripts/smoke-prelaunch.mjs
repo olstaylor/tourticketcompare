@@ -4107,15 +4107,28 @@ assert(
   "artist-city canonical should be self-referencing"
 );
 assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page should render the '[Artist] Tickets in [City]' H1");
-// The title leads with "| Prices & Dates" because it matches both halves of
-// what these pages are searched for ("<artist> <city> ticket prices" and
-// "<artist> <city> tickets") in one string that never changes. A long
-// artist/city pair can still fall through fitTitleToBudget's ladder, so the
-// whole ladder is accepted rather than only its head.
+// The title mirrors the query ("<artist> <city> tickets <year>") and then says
+// what the page does: "| Compare Prices at <venue>" for a single-venue run,
+// "| Compare Prices & Dates" otherwise. A long artist/city pair can still fall
+// through fitTitleToBudget's ladder, so the whole ladder is accepted rather
+// than only its head.
 const artistCityTitle = extractTitle(artistCityPage.text);
 assert(
-  /\| Prices & Dates$|\| Compare Prices$|\| Tickets$|Tickets in [^|]+$/.test(artistCityTitle),
+  /\| (Compare )?Prices at [^|]+$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
+);
+// Every rung keeps "<artist> <city> Tickets", so the ladder check above cannot
+// be satisfied by a title that lost the query it exists to match. The artist
+// name is read off the H1 ("<artist> Tickets in <city>") asserted above.
+const smokeArtistCityArtist = decodeHtmlEntities(
+  artistCityPage.text.match(/<h1[^>]*>([^<]*) Tickets in /)?.[1] || ""
+).trim();
+const smokeArtistCityName = smokeArtistCity.city.replace(/\s*\([^()]*\)\s*$/, "").trim();
+assert(
+  smokeArtistCityArtist &&
+    artistCityTitle.startsWith(`${smokeArtistCityArtist} ${smokeArtistCityName}`) &&
+    / Tickets\b/.test(artistCityTitle.slice(smokeArtistCityArtist.length + smokeArtistCityName.length + 1)),
+  `artist-city title should lead with "<artist> ${smokeArtistCityName} ... Tickets" (was "${artistCityTitle}")`
 );
 // A listed price moves faster than a search snippet refreshes, and route
 // metadata is also the CollectionPage JSON-LD description, so no live figure

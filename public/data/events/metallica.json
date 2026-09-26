@@ -1521,11 +1521,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7758708",
+        "url": "https://www.ticketnetwork.com/en/p/7758708",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfu40",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758708"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1avjz_agkns9qkh",
@@ -1627,11 +1635,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775746",
+        "url": "https://www.ticketnetwork.com/en/p/7775746",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775746"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",
@@ -1733,11 +1749,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7758710",
+        "url": "https://www.ticketnetwork.com/en/p/7758710",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4i",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758710"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
@@ -1839,11 +1863,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7758712",
+        "url": "https://www.ticketnetwork.com/en/p/7758712",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4g",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758712"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6e",
@@ -1945,11 +1977,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7759027",
+        "url": "https://www.ticketnetwork.com/en/p/7759027",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6k",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759027"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72a62",
@@ -2051,11 +2091,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775511",
+        "url": "https://www.ticketnetwork.com/en/p/7775511",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6y",
@@ -2104,11 +2152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785091",
+        "url": "https://www.ticketnetwork.com/en/p/7785091",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6y",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785091"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0butu",
@@ -2210,11 +2266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785869",
+        "url": "https://www.ticketnetwork.com/en/p/7785869",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzm6W",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785869"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0bqtz",
@@ -2316,11 +2380,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268626",
+        "url": "https://www.ticketnetwork.com/en/p/8268626",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwAJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268626"
   },
   {
     "id": "tm-metallica-2027-madison-z7r9jz1aavw0o",
@@ -2369,10 +2441,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268634",
+        "url": "https://www.ticketnetwork.com/en/p/8268634",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvw0o",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268634"
   }
 ]

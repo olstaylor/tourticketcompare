@@ -1969,11 +1969,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676437",
+        "url": "https://www.ticketnetwork.com/en/p/7676437",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOob",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676437"
   },
   {
     "id": "tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes",
@@ -2022,10 +2030,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090424",
+        "url": "https://www.ticketnetwork.com/en/p/8090424",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_aGkUC9oEs",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090424"
   }
 ]

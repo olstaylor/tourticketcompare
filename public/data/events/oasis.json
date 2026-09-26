@@ -2032,12 +2032,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264773",
+        "url": "https://www.ticketnetwork.com/en/p/8264773",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kodP337",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-09-26T06:00:00Z"
+    "public_onsale_at": "2026-09-26T06:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264773"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkftgkehnj-e",
@@ -2086,11 +2094,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264685",
+        "url": "https://www.ticketnetwork.com/en/p/8264685",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkeHnJ-E",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264685"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke0ghpz",
@@ -2139,11 +2155,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264686",
+        "url": "https://www.ticketnetwork.com/en/p/8264686",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGke0GhPZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264686"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke08hpi",
@@ -2192,11 +2216,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264687",
+        "url": "https://www.ticketnetwork.com/en/p/8264687",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGke08hPi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264687"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga25ajz",
@@ -2245,11 +2277,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264688",
+        "url": "https://www.ticketnetwork.com/en/p/8264688",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA25ajZ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264688"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2gaje",
@@ -2298,11 +2338,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264689",
+        "url": "https://www.ticketnetwork.com/en/p/8264689",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA2Gaje",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264689"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk",
@@ -2351,10 +2399,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264691",
+        "url": "https://www.ticketnetwork.com/en/p/8264691",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7_GA2u_jk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264691"
   }
 ]

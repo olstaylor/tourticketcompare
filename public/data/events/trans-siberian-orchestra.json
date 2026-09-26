@@ -2901,10 +2901,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255067",
+        "url": "https://www.ticketnetwork.com/en/p/8255067",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255067"
   }
 ]

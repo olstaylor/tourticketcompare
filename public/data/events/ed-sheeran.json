@@ -1225,11 +1225,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7418593",
-        "url": "https://www.ticketnetwork.com/en/p/7418593",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7418593",
@@ -1250,7 +1250,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418593",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418593/Ed-Sheeran-tickets-Fri-Sep-25-2026-Gillette-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-25-2026/event/106957098"
   },
@@ -1302,11 +1302,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7418594",
-        "url": "https://www.ticketnetwork.com/en/p/7418594",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7418594",
@@ -1327,7 +1327,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418594",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418594/Ed-Sheeran-tickets-Sat-Sep-26-2026-Gillette-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-26-2026/event/106957100"
   },

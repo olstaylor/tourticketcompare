@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038346",
+        "url": "https://www.ticketnetwork.com/en/p/8038346",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKok",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038346"
   },
   {
     "id": "tm-sienna-spiro-2026-washington-17a8v0g6gphxucm",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038339",
+        "url": "https://www.ticketnetwork.com/en/p/8038339",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpHxucm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038339"
   },
   {
     "id": "tm-sienna-spiro-2026-philadelphia-vvg1fz_gfaf9pc",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038340",
+        "url": "https://www.ticketnetwork.com/en/p/8038340",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_GfAF9Pc",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038340"
   },
   {
     "id": "tm-sienna-spiro-2026-boston-vvg17z_gpsen49",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038341",
+        "url": "https://www.ticketnetwork.com/en/p/8038341",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GpsEn49",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038341"
   },
   {
     "id": "tm-sienna-spiro-2026-new-york-k7vgf_uedf3n_",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038342",
+        "url": "https://www.ticketnetwork.com/en/p/8038342",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gre9Jk_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038342"
   },
   {
     "id": "tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn",
@@ -470,11 +510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038348",
+        "url": "https://www.ticketnetwork.com/en/p/8038348",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxQ8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038348"
   },
   {
     "id": "tm-sienna-spiro-2026-minneapolis-z7r9jz1a7pko4",
@@ -523,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038349",
+        "url": "https://www.ticketnetwork.com/en/p/8038349",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKO4",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038349"
   },
   {
     "id": "tm-sienna-spiro-2026-englewood-z7r9jz1a7p-ji",
@@ -576,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038350",
+        "url": "https://www.ticketnetwork.com/en/p/8038350",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-jI",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038350"
   },
   {
     "id": "tm-sienna-spiro-2026-seattle-z7r9jz1a7pxzs",
@@ -629,11 +693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038352",
+        "url": "https://www.ticketnetwork.com/en/p/8038352",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxZS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038352"
   },
   {
     "id": "tm-sienna-spiro-2026-vancouver-z7r9jz1a7pk0e",
@@ -682,11 +754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8047966",
+        "url": "https://www.ticketnetwork.com/en/p/8047966",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0e",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047966"
   },
   {
     "id": "tm-sienna-spiro-2026-vancouver-z7r9jz1a7pa4e",
@@ -735,11 +815,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8047967",
+        "url": "https://www.ticketnetwork.com/en/p/8047967",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pa4e",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047967"
   },
   {
     "id": "tm-sienna-spiro-2026-portland-z7r9jz1a7p-q3",
@@ -788,11 +876,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8047968",
+        "url": "https://www.ticketnetwork.com/en/p/8047968",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-q3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047968"
   },
   {
     "id": "tm-sienna-spiro-2026-san-francisco-g5vyz_gkw-ewe",
@@ -894,11 +990,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038344",
+        "url": "https://www.ticketnetwork.com/en/p/8038344",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpWXv_J",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038344"
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_udz2l-k",
@@ -947,11 +1051,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8058397",
+        "url": "https://www.ticketnetwork.com/en/p/8058397",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_udZ2l-k",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058397"
   },
   {
     "id": "tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz",
@@ -1159,11 +1271,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056624",
+        "url": "https://www.ticketnetwork.com/en/p/8056624",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G3xlVCt",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056624"
   },
   {
     "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc",
@@ -1212,11 +1332,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8058895",
+        "url": "https://www.ticketnetwork.com/en/p/8058895",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G3JTVqc",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058895"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt",
@@ -1265,11 +1393,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090734",
+        "url": "https://www.ticketnetwork.com/en/p/8090734",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GhEVqqt",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090734"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e",
@@ -1318,11 +1454,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057458",
+        "url": "https://www.ticketnetwork.com/en/p/8057458",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GNYJi_E",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057458"
   },
   {
     "id": "tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y",
@@ -1424,11 +1568,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057456",
+        "url": "https://www.ticketnetwork.com/en/p/8057456",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v0N7t_U",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057456"
   },
   {
     "id": "tm-sienna-spiro-2027-milano-zg9rmiynyzef6a",
@@ -1530,11 +1682,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8058056",
+        "url": "https://www.ticketnetwork.com/en/p/8058056",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16evg76uK",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058056"
   },
   {
     "id": "tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3",
@@ -1583,11 +1743,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8058057",
+        "url": "https://www.ticketnetwork.com/en/p/8058057",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4sjdu3",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058057"
   },
   {
     "id": "tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un",

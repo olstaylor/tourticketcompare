@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034332",
+        "url": "https://www.ticketnetwork.com/en/p/8034332",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_G1xNURg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034332"
   },
   {
     "id": "tm-malcolm-todd-2026-toronto-177zv0g6gcmrwkt",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034376",
+        "url": "https://www.ticketnetwork.com/en/p/8034376",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_G99eDO3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034376"
   },
   {
     "id": "tm-malcolm-todd-2026-nashville-g5viz_g1jq0ud",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034329",
+        "url": "https://www.ticketnetwork.com/en/p/8034329",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_G1Jq0ud",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034329"
   },
   {
     "id": "tm-malcolm-todd-2026-maryland-heights-vvg1bz_gclzidq",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034305",
+        "url": "https://www.ticketnetwork.com/en/p/8034305",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GCLzIdq",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034305"
   },
   {
     "id": "tm-malcolm-todd-2026-chicago-vvg18z_gkurbfe",
@@ -470,11 +502,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034313",
+        "url": "https://www.ticketnetwork.com/en/p/8034313",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GCw2Bqa",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034313"
   },
   {
     "id": "tm-malcolm-todd-2026-denver-z7r9jz1a7pobe",
@@ -523,11 +563,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8035346",
+        "url": "https://www.ticketnetwork.com/en/p/8035346",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PobE",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8035346"
   },
   {
     "id": "tm-malcolm-todd-2026-denver-z7r9jz1a7pk4i",
@@ -576,11 +624,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038488",
+        "url": "https://www.ticketnetwork.com/en/p/8038488",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK4I",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038488"
   },
   {
     "id": "tm-malcolm-todd-2026-salt-lake-city-g5vzz_g2farap",
@@ -629,11 +685,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034336",
+        "url": "https://www.ticketnetwork.com/en/p/8034336",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_G2faRap",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034336"
   },
   {
     "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3nanrd",
@@ -682,11 +746,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034340",
+        "url": "https://www.ticketnetwork.com/en/p/8034340",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_G3NanrD",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034340"
   },
   {
     "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3n1blo",
@@ -735,11 +807,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038478",
+        "url": "https://www.ticketnetwork.com/en/p/8038478",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_G3N1BLo",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038478"
   },
   {
     "id": "tm-malcolm-todd-2026-vancouver-z7r9jz1a7p87i",
@@ -788,11 +868,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034393",
+        "url": "https://www.ticketnetwork.com/en/p/8034393",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P87I",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034393"
   },
   {
     "id": "tm-malcolm-todd-2026-portland-z7r9jz1a7p8vw",
@@ -841,11 +929,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034379",
+        "url": "https://www.ticketnetwork.com/en/p/8034379",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8vw",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034379"
   },
   {
     "id": "tm-malcolm-todd-2026-oakland-g5vyz_gfhhyva",
@@ -894,11 +990,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034390",
+        "url": "https://www.ticketnetwork.com/en/p/8034390",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GFHHYVA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034390"
   },
   {
     "id": "tm-malcolm-todd-2026-oakland-g5vyz_gfww-6g",
@@ -947,11 +1051,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038477",
+        "url": "https://www.ticketnetwork.com/en/p/8038477",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GFWW-6g",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038477"
   },
   {
     "id": "tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d",
@@ -1000,11 +1112,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034309",
+        "url": "https://www.ticketnetwork.com/en/p/8034309",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GCicI-d",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034309"
   },
   {
     "id": "tm-malcolm-todd-2026-phoenix-17k8v0g6g538qi9",
@@ -1053,11 +1173,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8035370",
+        "url": "https://www.ticketnetwork.com/en/p/8035370",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6G538qi9",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8035370"
   },
   {
     "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gcgtrwf",
@@ -1106,11 +1234,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034349",
+        "url": "https://www.ticketnetwork.com/en/p/8034349",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GCgtRwF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034349"
   },
   {
     "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx",
@@ -1159,11 +1295,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038273",
+        "url": "https://www.ticketnetwork.com/en/p/8038273",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpoVtCx",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038273"
   },
   {
     "id": "tm-malcolm-todd-2026-los-angeles-vvg10z_gpomy2y",
@@ -1212,11 +1356,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038476",
+        "url": "https://www.ticketnetwork.com/en/p/8038476",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpoMy2y",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038476"
   },
   {
     "id": "tm-malcolm-todd-2027-stockholm-z698xzq2z1afq0g8",
@@ -1477,11 +1629,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265887",
+        "url": "https://www.ticketnetwork.com/en/p/8265887",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3nh3wRN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265887"
   },
   {
     "id": "tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad",

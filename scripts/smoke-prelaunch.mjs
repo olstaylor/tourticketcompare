@@ -1335,6 +1335,19 @@ for (const post of (smokeBlogContent.posts || []).filter((entry) => entry.status
     postSlugsByArtist.set(artistSlug, [...(postSlugsByArtist.get(artistSlug) || []), post.slug]);
   }
 }
+// Guides named in a published post's related_guides link it back the same way,
+// unless the guide body already links that post.
+const postSlugsByGuide = new Map();
+for (const post of (smokeBlogContent.posts || []).filter((entry) => entry.status === "published")) {
+  for (const guideSlug of post.relatedGuides || []) {
+    postSlugsByGuide.set(guideSlug, [...(postSlugsByGuide.get(guideSlug) || []), post.slug]);
+  }
+}
+for (const [guideSlug, postSlugs] of postSlugsByGuide) {
+  const guidePage = await routeResponse(`/guides/${guideSlug}`);
+  const linked = postSlugs.filter((slug) => guidePage.text.includes(`href="/blog/${slug}"`)).length;
+  assert(linked >= Math.min(3, postSlugs.length), `/guides/${guideSlug} links ${linked} of the ${postSlugs.length} published post(s) that name it`);
+}
 for (const [artistSlug, postSlugs] of postSlugsByArtist) {
   const artistPage = await routeResponse(`/artists/${artistSlug}`);
   const linked = postSlugs.filter((slug) => artistPage.text.includes(`href="/blog/${slug}"`)).length;

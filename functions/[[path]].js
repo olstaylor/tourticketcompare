@@ -37,7 +37,8 @@ import {
   postIndexable as blogPostIndexable,
   blogIndexIndexable,
   relatedPosts as relatedBlogPosts,
-  postsForArtist
+  postsForArtist,
+  postsForGuide
 } from "./_blog.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
@@ -2965,6 +2966,16 @@ function renderGuideProviderLinks(route, bodyHtml = "") {
   return `<section class="nested-panel"><h2>More on ${escapeHtml(label)}</h2><ul class="guide-link-list">${items}</ul></section>`;
 }
 
+// Posts that list this guide in related_guides (attached by onRequest), minus
+// any the body already links. Titles only, to keep the guide page light.
+function renderGuideBlogLinks(route, bodyHtml = "") {
+  const items = (Array.isArray(route.guideBlogPosts) ? route.guideBlogPosts : [])
+    .filter((post) => !bodyHtml.includes(`href="${post.path}"`))
+    .map((post) => `<li>${anchor(post.title, post.path)}</li>`)
+    .join("");
+  return items ? `<section class="nested-panel"><h2>From the blog</h2><ul class="guide-link-list">${items}</ul></section>` : "";
+}
+
 function guideCardHtml(path) {
   const guide = GUIDE_ROUTES[path];
   if (!guide) return "";
@@ -5194,7 +5205,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
       guideContent[route.path]?.sources
     )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
@@ -6078,6 +6089,10 @@ export async function onRequest(context) {
   if (route.type === "artist") {
     const artistBlogPosts = postsForArtist(deriveBlogPosts(await loadBlogContent(env)), route.artist.slug);
     if (artistBlogPosts.length) renderRoute = { ...renderRoute, artistBlogPosts };
+  }
+  if (route.type === "guide") {
+    const guideBlogPosts = postsForGuide(deriveBlogPosts(await loadBlogContent(env)), route.path.split("/").at(-1));
+    if (guideBlogPosts.length) renderRoute = { ...renderRoute, guideBlogPosts };
   }
   // Only when there is something to carry, so a route with no recorded history
   // is passed through exactly as before.

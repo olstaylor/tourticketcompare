@@ -1713,7 +1713,16 @@ function publicOnsaleLabel(event) {
   return `Public on-sale ${when} per Ticketmaster.`;
 }
 
+// A stored Ticketmaster status of cancelled or postponed — or one not
+// recognised — withholds every ticket link for the date. Rescheduled does not.
+// Keep in sync with eventLifecycleHeld in functions/_route-indexability.js.
+function eventLifecycleHeld(event) {
+  const code = String((event && event.ticketmaster_status_code) || "").trim().toLowerCase();
+  return Boolean(code) && code !== "onsale" && code !== "rescheduled";
+}
+
 function eventLinkPublishable(event) {
+  if (eventLifecycleHeld(event)) return false;
   if (publicOnsalePending(event)) return false;
   const destination = String((event && (event.ticketmaster_url || event.source_url)) || "").trim();
   if (destination) return true;
@@ -1726,6 +1735,7 @@ function eventLinkPublishable(event) {
 // redirect validator. Keep in sync with providerEventPublishable in
 // functions/[[path]].js and functions/api/out.js.
 function providerEventPublishable(event, provider) {
+  if (eventLifecycleHeld(event)) return false;
   if (publicOnsalePending(event)) return false;
   if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
     return Boolean(event && event.provider_links && event.provider_links[provider] && event.provider_links[provider].verified === true);

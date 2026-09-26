@@ -16,6 +16,15 @@
 //         owner-approved 2026-07-07; NOT tour_name, which stays human-gated)
 //       * canonical Ticketmaster URL (refreshed so the /event/<id> slug and the
 //         out.js event-id match stay correct when a date moves)
+//       * lifecycle: the verbatim Discovery `dates.status.code` when it is
+//         cancelled/canceled, postponed or rescheduled, stored as
+//         `ticketmaster_status_code` and removed when Ticketmaster reports the
+//         event on sale again (owner-scoped 2026-09-26). A cancelled or
+//         postponed status withholds every ticket link for the date on every
+//         surface (eventLifecycleHeld in functions/_route-indexability.js).
+//         The hold is recorded whenever the event's identity checks pass,
+//         even if its date or venue data is ambiguous — withholding links is
+//         the safe direction. Clearing it needs a fully unambiguous record.
 //       * last_verified_at bump on touched events
 //
 // Explicitly NOT auto-applied (collected into a review report for a human /
@@ -23,7 +32,10 @@
 // representation):
 //       * brand-new shows               -> handled by the discovery/proposal PR flow
 //       * deleted events (404 / 410)     -> human confirms removal
-//       * cancelled / postponed status   -> no valid local status enum (#schema)
+//       * whether a cancelled/postponed row is removed and tombstoned
+//                                        -> human (the hold is automatic)
+//       * offsale without a future public on-sale, and any status code not
+//         listed above                   -> review-only; nothing is recorded
 //       * tour_name                      -> verification-gated (issue #172)
 //
 // The script never invents data: every applied value comes from the official
@@ -182,6 +194,15 @@ function datetimeGenuinelyChanged(localIso, remoteUtcIso, tz) {
 }
 
 const SAFE_AUTO_STATUS_CODES = new Set(['onsale']);
+// Discovery status codes recorded verbatim on the event as
+// `ticketmaster_status_code`. Cancelled and postponed hold the event's ticket
+// links everywhere; rescheduled does not (its new date comes from this same
+// record). Offsale is deliberately absent: it also covers dates not yet on
+// public sale and dates whose sale has simply closed, so it proves nothing
+// about the show and stays review-only.
+const LIFECYCLE_FIELD = 'ticketmaster_status_code';
+const RECORDED_LIFECYCLE_CODES = new Set(['cancelled', 'canceled', 'postponed', 'rescheduled']);
+const HOLD_LIFECYCLE_CODES = new Set(['cancelled', 'canceled', 'postponed']);
 
 function normalizeCountryName(value) {
   const raw = clean(value);
@@ -533,7 +554,11 @@ function computeReviewBlockers(event, remote) {
       [],
       'Confirm the event status manually before any local mutation.'
     ));
-  } else if (!SAFE_AUTO_STATUS_CODES.has(remoteStatus) && !pendingOnsaleStillOffsale(event, data)) {
+  } else if (
+    !SAFE_AUTO_STATUS_CODES.has(remoteStatus) &&
+    !RECORDED_LIFECYCLE_CODES.has(remoteStatus) &&
+    !pendingOnsaleStillOffsale(event, data)
+  ) {
     const kind = ['rescheduled', 'postponed', 'cancelled', 'canceled', 'offsale', 'unknown'].includes(remoteStatus)
       ? 'status'
       : 'unknown_status';
@@ -586,6 +611,66 @@ function computeReviewBlockers(event, remote) {
   }
 
   return blockers;
+}
+
+// The lifecycle change this Discovery record calls for, or null. Records a
+// recognised status verbatim (lower-cased); removes a stored one only when
+// Ticketmaster says the event is on sale again. Any other code — offsale,
+// empty, unrecognised — changes nothing.
+function computeLifecycleChange(event, remote) {
+  const data = remote?.data;
+  if (!data || typeof data !== 'object') return null;
+  const code = clean(data?.dates?.status?.code).toLowerCase();
+  const local = clean(event?.[LIFECYCLE_FIELD]).toLowerCase();
+  if (RECORDED_LIFECYCLE_CODES.has(code)) {
+    return code === local ? null : { field: LIFECYCLE_FIELD, from: local || null, to: code };
+  }
+  if (code === 'onsale' && local) return { field: LIFECYCLE_FIELD, from: local, to: null };
+  return null;
+}
+
+// One event's outcome, as a pure function of the local row and the Discovery
+// response (exists === true). The rules, in order:
+//   - Recording a status needs only the identity checks to pass: a hold must
+//     not wait for an unrelated ambiguity (a postponed show often has no
+//     confirmed start time) to be resolved.
+//   - Clearing a status, like every other field change, needs a record with
+//     no review blockers at all.
+//   - A recorded hold is also surfaced for review, because only a human
+//     decides whether the row is removed and tombstoned.
+function planEventSync(event, remote, discoveryId) {
+  const intendedChanges = computeIntendedUpdates(event, remote);
+  const blockers = attachIntendedChanges(computeReviewBlockers(event, remote), intendedChanges);
+  const lifecycleChange = computeLifecycleChange(event, remote);
+  const identitySafe = !blockers.some((item) => item.kind === 'identity_mismatch');
+  const applied = [];
+  if (lifecycleChange && (lifecycleChange.to === null ? blockers.length === 0 : identitySafe)) {
+    applied.push(lifecycleChange);
+  }
+  if (!blockers.length) applied.push(...intendedChanges);
+
+  const reviewItems = [...blockers];
+  const heldCode = applied.some((change) => change.field === LIFECYCLE_FIELD)
+    ? clean(applied.find((change) => change.field === LIFECYCLE_FIELD).to)
+    : clean(event?.[LIFECYCLE_FIELD]).toLowerCase();
+  if (HOLD_LIFECYCLE_CODES.has(heldCode)) {
+    reviewItems.push(reviewItem(
+      event,
+      discoveryId,
+      remote?.data,
+      'status',
+      `Ticketmaster status='${heldCode}' is recorded on the event, so every ticket link for it is withheld on every page and in /api/out.`,
+      [],
+      'Decide whether to remove the row (and add it to data/deleted-events.json with its id) by PR.'
+    ));
+  }
+  return {
+    applied,
+    reviewItems,
+    blocked: blockers.length > 0 && intendedChanges.length > 0,
+    // A hold recorded past other blockers is not a verified record.
+    stampVerified: applied.length > 0 && blockers.length === 0
+  };
 }
 
 function attachIntendedChanges(reviewItems, intendedChanges) {
@@ -700,6 +785,52 @@ async function runSelfTest() {
     discoveryVenueTimezone({ dates: { timezone: 'EST' } }) === '');
   assert('no timezone anywhere yields no change, never a guess',
     !fieldsOf(ev({ timezone: '' }), remote({ dates: { start: {} } })).includes('timezone'));
+
+  // Lifecycle (owner-scoped 2026-09-26): recorded from the event's own
+  // Discovery record, never inferred.
+  const clean_ = (o) => ({ id: 'tm-a-2026-x-x', artist_name: 'Artist', ticketmaster_discovery_event_id: 'Z7r9jZ1A706ep', datetime_iso: '2026-10-01T00:00:00Z',
+    timezone: 'America/New_York', venue: 'Hall', city: 'Town', country: 'United States', event_name: 'Artist', ticketmaster_url: '', ...o });
+  const full = (code, o = {}) => ({ data: { id: 'Z7r9jZ1A706ep', name: 'Artist', dates: { status: { code }, start: { dateTime: '2026-10-01T00:00:00Z' }, timezone: 'America/New_York' },
+    _embedded: { venues: [{ name: 'Hall', city: { name: 'Town' }, country: { name: 'United States' } }] }, ...o } });
+  const plan = (e, r) => planEventSync(e, r, 'Z7r9jZ1A706ep');
+  const lifecycleOf = (p) => p.applied.find((c) => c.field === 'ticketmaster_status_code');
+  assert('cancelled is recorded verbatim', lifecycleOf(plan(clean_(), full('cancelled')))?.to === 'cancelled');
+  assert('the "canceled" spelling is recorded as supplied', lifecycleOf(plan(clean_(), full('canceled')))?.to === 'canceled');
+  assert('postponed is recorded', lifecycleOf(plan(clean_(), full('postponed')))?.to === 'postponed');
+  assert('rescheduled is recorded', lifecycleOf(plan(clean_(), full('rescheduled')))?.to === 'rescheduled');
+  assert('a recorded status is no longer a review blocker', !plan(clean_(), full('cancelled')).blocked &&
+    !kinds(clean_(), full('postponed')).includes('status'));
+  assert('a cancelled event is still surfaced for a removal decision',
+    plan(clean_(), full('cancelled')).reviewItems.some((item) => item.kind === 'status'));
+  assert('a rescheduled event is not surfaced as a hold',
+    !plan(clean_(), full('rescheduled')).reviewItems.some((item) => item.kind === 'status'));
+  assert('a rescheduled event takes its new date from the same record',
+    plan(clean_(), full('rescheduled', { dates: { status: { code: 'rescheduled' }, start: { dateTime: '2026-11-15T00:00:00Z' }, timezone: 'America/New_York' } }))
+      .applied.some((c) => c.field === 'datetime_iso' && c.to === '2026-11-15T00:00:00Z'));
+  const tba = full('postponed', { dates: { status: { code: 'postponed' }, start: {}, timezone: 'America/New_York' } });
+  assert('a hold is recorded even when the start time is not confirmed',
+    lifecycleOf(plan(clean_(), tba))?.to === 'postponed' && kinds(clean_(), tba).includes('ambiguous_api_response'));
+  assert('a hold recorded past another blocker does not bump last_verified_at', !plan(clean_(), tba).stampVerified);
+  const mismatched = full('cancelled', { name: 'Someone Else Entirely' });
+  assert('an identity mismatch records nothing', !lifecycleOf(plan(clean_(), mismatched)));
+  assert('an already-recorded status is not rewritten', !lifecycleOf(plan(clean_({ ticketmaster_status_code: 'cancelled' }), full('cancelled'))));
+  assert('onsale clears a recorded status',
+    lifecycleOf(plan(clean_({ ticketmaster_status_code: 'postponed' }), full('onsale')))?.to === null);
+  assert('a clear waits for a fully unambiguous record',
+    !lifecycleOf(plan(clean_({ ticketmaster_status_code: 'postponed' }), full('onsale', { dates: { status: { code: 'onsale' }, start: {}, timezone: '' } }))));
+  assert('offsale records nothing and stays review-only',
+    !lifecycleOf(plan(clean_(), full('offsale'))) && kinds(clean_(), full('offsale')).includes('status'));
+  assert('an unrecognised status records nothing and stays review-only',
+    !lifecycleOf(plan(clean_(), full('paused'))) && kinds(clean_(), full('paused')).includes('unknown_status'));
+  assert('an empty status records nothing', !lifecycleOf(plan(clean_({ ticketmaster_status_code: 'cancelled' }), full(''))));
+  {
+    const row = clean_();
+    const p = plan(row, full('cancelled'));
+    applyChanges(row, p.applied);
+    assert('applying a hold never changes the event id', row.id === 'tm-a-2026-x-x' && row.ticketmaster_status_code === 'cancelled');
+    applyChanges(row, plan(row, full('onsale')).applied);
+    assert('clearing removes the field rather than blanking it', !('ticketmaster_status_code' in row) && row.id === 'tm-a-2026-x-x');
+  }
 
   // Throttle contract: a burst of 429s must not become a roster of hard errors
   // that vetoes the whole night's clean updates, while a deterministic answer
@@ -907,17 +1038,15 @@ async function main() {
         recommendedAction: 'Retry on the next run; do not commit any data changes from a run with errors.'
       });
     } else {
-      const intendedChanges = computeIntendedUpdates(event, result);
-      const blockers = attachIntendedChanges(computeReviewBlockers(event, result), intendedChanges);
-      if (blockers.length) {
-        reviewItems.push(...blockers);
-        if (intendedChanges.length) blockedUpdateIds.push(event.id);
-      } else if (intendedChanges.length) {
-        applyChanges(event, intendedChanges);
-        stampVerified(event);
+      const plan = planEventSync(event, result, id);
+      reviewItems.push(...plan.reviewItems);
+      if (plan.blocked) blockedUpdateIds.push(event.id);
+      if (plan.applied.length) {
+        applyChanges(event, plan.applied);
+        if (plan.stampVerified) stampVerified(event);
         updates.push({
           ...summarizeEvent(event, id, result.data),
-          changes: intendedChanges
+          changes: plan.applied
         });
       }
     }

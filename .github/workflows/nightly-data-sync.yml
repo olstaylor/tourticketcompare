@@ -6,9 +6,12 @@ name: Nightly data sync
 # Ticketmaster Discovery API for events that already exist in events.json, then
 # regenerates the partitions and publishes to main through an auto-merged PR
 # whose head has passed the required validation check (Cloudflare Pages
-# auto-deploys on merge). Anything that needs human judgement — brand-new shows,
-# deletions, cancellations, tour names — is NOT auto-published; it is surfaced
-# in the rolling "automation:data-sync" issue / handled by the discovery PR flow.
+# auto-deploys on merge). It also records a cancelled/postponed/rescheduled
+# Ticketmaster status as ticketmaster_status_code (a cancelled or postponed one
+# withholds the date's ticket links everywhere). Anything that needs human
+# judgement — brand-new shows, deletions, removing a cancelled row, tour names —
+# is NOT auto-published; it is surfaced in the rolling "automation:data-sync"
+# issue / handled by the discovery PR flow.
 #
 # The cron runs 30 min after daily-audit.yml (03:00 UTC) to avoid Ticketmaster
 # rate-limit collisions.
@@ -179,7 +182,7 @@ jobs:
           PR_TITLE="Nightly data sync: refresh tracked event dates/venues (${TODAY})" \
           PR_LABEL="automation:data-sync" \
           PR_AUTO_MERGE=true \
-          PR_BODY=$'## What this PR does\n- Applies lossless date/time and venue/city corrections from the Ticketmaster Discovery API to events that are already tracked in `public/data/events.json`, then regenerates the partitions and the homepage fallback.\n- Only events with zero review blockers of their own are updated; blocked and review-only rows are surfaced in the rolling `automation:data-sync` issue and left untouched here.\n\n## Explicit non-changes\n- No new shows, deletions, cancellations or `tour_name` edits — those stay human-gated.\n- No provider, price, redirect or affiliate logic.\n\n## Validation\n- `events:validate:prod`, `events:validate:partitions` and `npm run test:mvp` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
+          PR_BODY=$'## What this PR does\n- Applies lossless date/time and venue/city corrections from the Ticketmaster Discovery API to events that are already tracked in `public/data/events.json`, then regenerates the partitions and the homepage fallback.\n- Only events with zero review blockers of their own are updated; blocked and review-only rows are surfaced in the rolling `automation:data-sync` issue and left untouched here.\n\n## Explicit non-changes\n- Records a cancelled/postponed/rescheduled Ticketmaster status as `ticketmaster_status_code` (cancelled/postponed withhold every ticket link for that date). No new shows, deletions, row removals or `tour_name` edits — those stay human-gated.\n- No provider, price, redirect or affiliate logic.\n\n## Validation\n- `events:validate:prod`, `events:validate:partitions` and `npm run test:mvp` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
           node scripts/open-automation-pr.mjs
 
       - name: Post review issue (review-only blockers)

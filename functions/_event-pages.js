@@ -34,7 +34,7 @@
 import { resolveEventLocalDate } from "./_event-local-date.js";
 import { slugify } from "./_cities.js";
 import { INDEXABLE_ARTIST_STATUS } from "./_artist-indexability.js";
-import { eventPublishable, eventStatusPublishable, publicOnsalePending } from "./_route-indexability.js";
+import { eventLifecycle, eventLifecycleHeld, eventPublishable, eventStatusPublishable, publicOnsalePending } from "./_route-indexability.js";
 import { PRICE_GUIDE_SNAPSHOT_PROVIDERS, linkVerifiedWithUrl } from "./_price-guides.js";
 
 export const EVENT_PATH_PREFIX = "/events/";
@@ -427,6 +427,7 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
   NOT_UPCOMING: "not_upcoming",
   LOCAL_DATE_UNRESOLVED: "local_date_unresolved",
   MISSING_VENUE_OR_CITY: "missing_venue_or_city",
+  LIFECYCLE_HELD: "lifecycle_held",
   NO_PUBLISHABLE_DESTINATION: "no_publishable_destination"
 });
 
@@ -438,6 +439,7 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
  * @property {string} localDate         Venue-local YYYY-MM-DD, "" when unresolved.
  * @property {string} localDateReason   The resolver's reason code when unresolved.
  * @property {string} path              Future canonical path, "" when none.
+ * @property {string} lifecycle         EVENT_LIFECYCLE value from the stored Ticketmaster status.
  * @property {boolean} upcoming
  * @property {boolean} renderable
  * @property {string[]} reasons         Every failed structural condition.
@@ -448,8 +450,9 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
  * Could this record structurally carry a future event route? Mirrors the
  * artist-city render gate for one show: the artist is editorially indexable,
  * the show is upcoming (the same `Date.parse` test the boards use), its venue
- * and city are present, its venue-local date resolves, and it can lead
- * somewhere (`eventPublishable`, the "can this page lead anywhere?" test).
+ * and city are present, its venue-local date resolves, it is not held by a
+ * cancelled or postponed Ticketmaster status, and it can lead somewhere
+ * (`eventPublishable`, the "can this page lead anywhere?" test).
  *
  * This is not an indexing decision and nothing serves a route from it yet.
  *
@@ -473,7 +476,9 @@ export function eventRouteState(event, options = {}) {
   if (!String(event?.venue || "").trim() || !String(event?.city || "").trim()) {
     reasons.push(EVENT_ROUTE_REASONS.MISSING_VENUE_OR_CITY);
   }
-  if (!eventPublishable(event, now)) reasons.push(EVENT_ROUTE_REASONS.NO_PUBLISHABLE_DESTINATION);
+  // A held show fails eventPublishable too; it is reported as what it is.
+  if (eventLifecycleHeld(event)) reasons.push(EVENT_ROUTE_REASONS.LIFECYCLE_HELD);
+  else if (!eventPublishable(event, now)) reasons.push(EVENT_ROUTE_REASONS.NO_PUBLISHABLE_DESTINATION);
   return {
     id,
     key: eventKey(id),
@@ -481,6 +486,7 @@ export function eventRouteState(event, options = {}) {
     localDate: local.iso,
     localDateReason: local.reason,
     path: eventPath(event),
+    lifecycle: eventLifecycle(event),
     upcoming,
     renderable: reasons.length === 0,
     reasons,

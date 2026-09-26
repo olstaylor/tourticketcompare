@@ -1,4 +1,4 @@
-import { onsaleCalendarGate } from "./_route-indexability.js";
+import { onsaleCalendarGate, eventLifecycleHeld } from "./_route-indexability.js";
 
 // Shared on-sale calendar derivation for /on-sale, used by the HTML router,
 // the sitemap and llms.txt so all three agree on what the page lists and
@@ -85,6 +85,8 @@ export function deriveOnsaleCalendar(events, now = Date.now()) {
   const recent = [];
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || !trimmed(event.artist_slug)) continue;
+    // A cancelled or postponed show is not going on sale.
+    if (eventLifecycleHeld(event)) continue;
     const onsaleMs = Date.parse(trimmed(event.public_onsale_at));
     if (!Number.isFinite(onsaleMs)) continue;
     // The show itself must still be ahead; an on-sale for a past date is noise.

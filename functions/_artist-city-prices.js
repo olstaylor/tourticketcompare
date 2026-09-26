@@ -38,6 +38,8 @@
 // already render their gated badges on those pages, so withholding the same
 // figures from the answer table would be inconsistent as well as unhelpful.
 
+import { eventLifecycleHeld } from "./_route-indexability.js";
+
 /**
  * @typedef {Object} CityPriceLane
  * @property {string} provider   Provider slug, e.g. "vivid-seats".
@@ -91,6 +93,9 @@ export function deriveCityDatePrices(shows, { ctaSpecsFor, wasChecked } = /** @t
     const datetimeISO = String(show.dateTimeISO || show.datetime_iso || "").trim();
     const ts = Date.parse(datetimeISO);
     if (!showId || !Number.isFinite(ts)) continue;
+    // A cancelled or postponed date is not a ticket option: it gets no row,
+    // not a "no snapshot right now" row that implies it could still be bought.
+    if (eventLifecycleHeld(show)) continue;
 
     const lanes = eligibleLanes(ctaSpecsFor(show));
     // A row whose lanes disagree on currency cannot be compared and is not a

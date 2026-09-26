@@ -34,6 +34,7 @@
     "price-guides:propose": "node scripts/propose-price-guides.mjs",
     "test:event-local-date": "node scripts/event-local-date.test.mjs",
     "test:event-pages": "node scripts/event-pages.test.mjs",
+    "test:event-lifecycle": "node scripts/event-lifecycle.test.mjs",
     "audit:internal-links": "node scripts/audit-internal-links.mjs",
     "audit:indexable-surface": "node scripts/audit-indexable-surface.mjs",
     "audit:indexable-surface:check": "node scripts/audit-indexable-surface.mjs --check",

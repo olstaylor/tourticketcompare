@@ -76,6 +76,7 @@ export const STEPS = [
   { id: "test:renderer-assets",                   lane: "quick",  run: "npm run test:renderer-assets" },
   { id: "test:event-local-date",                  lane: "quick",  run: "npm run test:event-local-date" },
   { id: "test:event-pages",                       lane: "quick",  run: "npm run test:event-pages" },
+  { id: "test:event-lifecycle",                   lane: "quick",  run: "npm run test:event-lifecycle" },
   { id: "test:funnel-analytics",                  lane: "quick",  run: "npm run test:funnel-analytics" },
   { id: "report:commercial-funnel:self-test",     lane: "units",  run: "npm run report:commercial-funnel:self-test" },
   { id: "test:affiliate-attribution", lane: "units", run: "npm run test:affiliate-attribution" },

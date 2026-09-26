@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668442",
+        "url": "https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_074bF",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442"
   },
   {
     "id": "tm-the-warning-2027-barcelona-z698xz2qz16vgvavjf",
@@ -1451,12 +1459,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668670",
+        "url": "https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264654"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264654",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670"
   },
   {
     "id": "tm-the-warning-2027-san-antonio-z7r9jz1aavtf4",
@@ -1512,11 +1528,19 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668180",
+        "url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtF4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180"
   }
 ]

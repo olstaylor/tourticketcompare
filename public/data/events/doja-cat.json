@@ -2266,12 +2266,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969174",
+        "url": "https://www.stubhub.ie/doja-cat-las-vegas-tickets-10-31-2026/event/106969174",
+        "verified": true,
+        "last_verified_at": "2026-09-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4U",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457634",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457634/Doja-Cat-tickets-Sat-Oct-31-2026-T-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457634/Doja-Cat-tickets-Sat-Oct-31-2026-T-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-las-vegas-tickets-10-31-2026/event/106969174"
   }
 ]

@@ -506,12 +506,19 @@ async function out(showId, provider) {
   assert(/function providerEventPublishable\(event, provider\) \{\n  if \(eventLifecycleHeld\(event\)\) return false;/.test(appJs), "public/app.js checks the hold in providerEventPublishable");
 }
 
-// ─── still no event route ───────────────────────────────────────────────────
+// ─── event pages apply the same hold ────────────────────────────────────────
+// Until the noindex event-page MVP this asserted that /events/ was a 404. The
+// route now serves, so the lifecycle guarantee is asserted on it instead
+// (scripts/event-page.test.mjs covers the page itself).
 
 {
-  const path = eventPages.eventPath(SCHEDULED);
-  const { status } = await render(path);
-  assert(path.startsWith("/events/") && status === 404, "a derived /events/ path is still a 404");
+  const scheduled = await render(eventPages.eventPath(SCHEDULED));
+  assert(scheduled.status === 200 && outLinksFor(scheduled.html, SCHEDULED.id) > 0, "a scheduled event page renders with its buttons");
+  for (const event of [CANCELLED, POSTPONED, UNRECOGNISED]) {
+    const page = await render(eventPages.eventPath(event));
+    assert(page.status === 200, `${event.id}: a held future event keeps its page (got ${page.status})`);
+    assert(outLinksFor(page.html, event.id) === 0 && !/\$182|\$190|price-history/.test(page.html), `${event.id}: its event page shows no button, price or price history`);
+  }
 }
 
 console.log(`event-lifecycle: ${passed} checks passed`);

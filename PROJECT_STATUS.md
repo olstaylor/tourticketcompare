@@ -157,7 +157,8 @@ Full mechanism and contracts: `docs/ARCHITECTURE.md`. Deploy/config runbook: `do
 - `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`. `OUT_CLICK_ID_SUBID_ENABLED` is off (code default applies; affiliate URLs unchanged).
 - City, venue, and artist-city aggregation pages are live, gated by `docs/ROUTE_INDEXABILITY_POLICY.md`, and reflected in the route-surface figures above.
 - The blog (`/blog`), `/currency-converter`, and derived-content artist pages (`functions/_artist-content.js`) are live; the `/admin` browser editor is live on its own origin at `https://admin.tourticketcompare.com/admin` (GitHub sign-in; setup steps in `docs/BLOG.md`), and edits both blog posts and buying guides.
-- Not supported: live inventory/"cheapest" claims, tour or individual event landing pages, artist-level Vivid Seats CTAs, Ticketmaster affiliate tracking of any kind, `Event`/`MusicEvent` schema without verified event-level data, or conversion/revenue attribution (checkout happens off-site).
+- **Individual event pages (2026-09-26):** `/events/<slug>-<key>` serves a noindex,follow page per upcoming performance — not in any sitemap or `llms.txt`, not linked from parent pages, no event structured data. See `docs/ARCHITECTURE.md` → Event identity and event pages.
+- Not supported: live inventory/"cheapest" claims, tour landing pages, indexable individual event pages, artist-level Vivid Seats CTAs, Ticketmaster affiliate tracking of any kind, `Event`/`MusicEvent` schema without verified event-level data, or conversion/revenue attribution (checkout happens off-site).
 
 ## How to update this file
 

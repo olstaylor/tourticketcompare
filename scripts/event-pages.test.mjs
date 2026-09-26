@@ -383,23 +383,59 @@ const artists = JSON.parse(fs.readFileSync(path.join(ROOT, "public/data/artists.
   );
 }
 
-// ── Foundation only: nothing serves or lists an event route yet ─────────────
-// These assert this PR's scope. The PR that adds the route replaces them.
+// ── Event routes are live but never indexable, listed or linked ────────────
+// PR1 asserted that no event route existed. The noindex event-page MVP
+// replaced that with these: the route serves, and it stays out of every
+// discovery surface until indexing and parent links are separately decided.
 {
   const site = await loadSiteFixture(ROOT);
-  const sample = deriveEventRouteStates(events, artists).find((state) => state.renderable);
-  const rendered = await site.renderRoute(sample.path);
-  assert("a derived event path is still a real 404 on the live router", rendered.status === 404 && /noindex/.test(rendered.html));
+  const states = deriveEventRouteStates(events, artists);
+  const live = states.filter((state) => state.commerciallyLive);
+  // A spread of live events rather than all of them: the route sets
+  // `indexable: false` unconditionally, so a sample proves the served output.
+  const sample = live.filter((_, index) => index % Math.max(1, Math.floor(live.length / 25)) === 0).slice(0, 25);
+  let served = 0;
+  for (const state of sample) {
+    const rendered = await site.renderRoute(state.path);
+    const canonical = rendered.html.match(/<link rel="canonical" href="([^"]+)"/)?.[1] || "";
+    if (rendered.status === 200 && /<meta name="robots" content="noindex,follow"/.test(rendered.html) && canonical === `https://tourticketcompare.com${state.path}`) served += 1;
+    else assert(`${state.path} serves 200 noindex,follow with a self-canonical (got ${rendered.status}, canonical ${canonical})`, false);
+  }
+  assert(`a spread of ${sample.length} live event paths serve 200 noindex,follow with a self-canonical`, sample.length > 0 && served === sample.length);
+
   const sitemap = await site.modules.sitemapModule.onRequestGet({ request: new Request("https://tourticketcompare.com/sitemap.xml"), env: site.env });
   assert("the sitemap lists no /events/ URL", sitemap.status === 200 && !(await sitemap.text()).includes("/events/"));
+  for (const segment of ["pages", "artists", "artist-cities", "cities", "venues", "blog"]) {
+    const { onRequestGet: segmentHandler } = await import(`../functions/sitemaps/${segment}.xml.js`);
+    const body = await (await segmentHandler({ request: new Request(`https://tourticketcompare.com/sitemaps/${segment}.xml`), env: site.env })).text();
+    assert(`the ${segment} sitemap lists no /events/ URL`, body.length > 0 && !body.includes("/events/"));
+  }
   const { onRequestGet: llms } = await import("../functions/llms.txt.js");
   const llmsText = await (await llms({ request: new Request("https://tourticketcompare.com/llms.txt"), env: site.env })).text();
   assert("llms.txt lists no /events/ URL", llmsText.length > 0 && !llmsText.includes("/events/"));
+
+  // No parent page links to an event page yet: every artist page, and the
+  // first 20 rendered artist-city, city and venue pages.
+  const parents = [
+    ...site.paths.artistPaths,
+    ...site.paths.artistCityPaths.slice(0, 20),
+    ...site.paths.cityPaths.slice(0, 20),
+    ...site.paths.venuePaths.slice(0, 20),
+    "/", "/artists", "/on-sale", "/compare-concert-ticket-prices"
+  ];
+  const linking = [];
+  for (const parent of parents) {
+    const rendered = await site.renderRoute(parent);
+    if (/href="(?:https:\/\/tourticketcompare\.com)?\/events\//.test(rendered.html)) linking.push(parent);
+  }
+  assert(`no parent page links to an event page yet (${parents.length} checked${linking.length ? `; linking: ${linking.slice(0, 5).join(", ")}` : ""})`, linking.length === 0);
+
   const importers = fs
     .readdirSync(path.join(ROOT, "functions"), { recursive: true })
     .filter((file) => String(file).endsWith(".js") && !String(file).endsWith("_event-pages.js"))
-    .filter((file) => /(?:from|import)\s*\(?\s*["'][^"']*_event-pages\.js["']/.test(fs.readFileSync(path.join(ROOT, "functions", String(file)), "utf8")));
-  assert("no runtime module imports the event identity module yet", importers.length === 0);
+    .filter((file) => /(?:from|import)\s*\(?\s*["'][^"']*_event-pages\.js["']/.test(fs.readFileSync(path.join(ROOT, "functions", String(file)), "utf8")))
+    .map(String);
+  assert(`only the router imports the event identity module (got ${importers.join(", ") || "none"})`, importers.length === 1 && importers[0] === "[[path]].js");
 }
 
 let failed = 0;

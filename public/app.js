@@ -3244,6 +3244,13 @@ function renderArtist(artist) {
   // description back on a page with no dates — including og:/twitter:.
   const hasServerDates = main.querySelectorAll("article.show-card[data-show-json]").length > 0;
   const serverDescription = document.querySelector('meta[name="description"]')?.getAttribute("content") || "";
+  // Same for the title: the server adds the board's year(s) to the house
+  // template (artistPageTitle), which the catalog's raw seo_title does not have.
+  // Kept only when it is this artist's title — every artistPageTitle output
+  // starts with the name — so an unrewritten shell or a server 404 title is
+  // never carried onto the artist page (or into og:/twitter:title).
+  const documentTitle = document.title.trim();
+  const serverTitle = artist.name && documentTitle.startsWith(`${artist.name} `) ? documentTitle : "";
   // Artist-page indexability is editorial. Future-date availability controls
   // the board and the index sections, but an empty artist page remains a valid
   // indexable destination with a truthful empty state. The one exception is an
@@ -3254,7 +3261,7 @@ function renderArtist(artist) {
   const shouldNoindex = isReviewRequired || (artist.promotion_source === "auto" && /noindex/i.test(serverRobots));
   setMeta(
     {
-      title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
+      title: serverTitle || artist.seo_title || `${artist.name} Tickets | Options & Availability`,
       description: hasServerDates
         ? artist.meta_description ||
           `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`

@@ -447,22 +447,15 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 // ── metadata stays free of live numbers ─────────────────────────────────────
 {
   const page = await render(RUN_PATH);
-  assert(page.title.includes("Prices & Dates") || page.title.includes("Prices &amp; Dates"), "the title carries the stable price intent token");
+  assert(/\| (Compare )?Prices\b/.test(page.title), `the title carries the stable price intent token (was "${page.title}")`);
   assert(page.title.length <= 60, `the title stays within budget (was ${page.title.length})`);
-  // A single-venue run leads with the venue, because the venue is often the
-  // name searched ("Oasis Knebworth tickets"). The city stays beside it.
-  if (`${ARTIST.name} Tickets at ${VENUE}, ${RUN_CITY} | Prices & Dates`.length <= 60) {
-    assert(
-      page.title.includes(`Tickets at ${VENUE}, ${RUN_CITY}`),
-      `a single-venue run names its venue and city in the title (was "${page.title}")`
-    );
-  }
-  const multiPage = await render(`/artists/${ARTIST.slug}/tickets/${MULTI_CITY_SLUG}`);
+  // Strip only the year label the title template adds; any other digit run
+  // (a price, say) fails. The fixture venue name carries no digits.
   assert(
-    multiPage.title.includes(`Tickets in ${MULTI_CITY}`) && !/Tickets at /.test(multiPage.title),
-    `a multi-venue run keeps the city-only title (was "${multiPage.title}")`
+    !/\d/.test(page.title.replace(/\b\d{4}(?:–\d{4})?\b/g, "")),
+    `no live figure appears in the title (was "${page.title}")`
   );
-  assert(!/\d+(\.\d+)?/.test(page.title.replace(/\d{4}/g, "")), "no live figure appears in the title");
+  assert(!/[$£€]\s?\d/.test(page.title), "no currency figure appears in the title");
   assert(
     !/[$£€]\s?\d/.test(page.description),
     "no live figure appears in the meta description, which is also the CollectionPage JSON-LD description"

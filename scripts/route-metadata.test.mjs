@@ -168,12 +168,15 @@ assert(yearRangeLabel([2027, 2026, 2026, NaN]) === "2026–2027", "a span, dedup
 assert(yearRangeLabel([]) === "", "no years, no label");
 
 const bts = { name: "BTS", seo_title: "BTS Tickets & Tour Dates | TourTicketCompare" };
-assert(artistPageTitle(bts, "2027") === "BTS Tickets & 2027 Tour Dates | TourTicketCompare", "year goes into the house template");
+assert(
+  artistPageTitle(bts, "2027") === "BTS Tickets 2027 | Compare Prices & Tour Dates",
+  "the house template becomes the explicit tickets-year-compare title"
+);
 assert(artistPageTitle(bts, "") === bts.seo_title, "no upcoming dates keeps the authored title");
 const harry = { name: "Harry Styles", seo_title: "Harry Styles Tickets & Tour Dates | TourTicketCompare" };
 assert(
-  artistPageTitle(harry, "2026–2027") === "Harry Styles Tickets & 2026–2027 Tour Dates",
-  "the site suffix is shed before the year"
+  artistPageTitle(harry, "2026–2027") === "Harry Styles Tickets 2026–2027 | Compare Prices & Tour Dates",
+  "a two-year span still fits the full title"
 );
 const tso = { name: "Trans-Siberian Orchestra", seo_title: "Trans-Siberian Orchestra Tickets & Dates | TourTicketCompare" };
 assert(artistPageTitle(tso, "2026–2027").length <= TITLE_LENGTH_LIMIT, "a shortened house title stays in budget");
@@ -181,8 +184,13 @@ assert(artistPageTitle(tso, "2026–2027").includes("2026–2027"), "and still c
 const custom = { name: "Oasis", seo_title: "Oasis Live '25 Reunion Tickets | TourTicketCompare" };
 assert(artistPageTitle(custom, "2026") === custom.seo_title, "a hand-written title is never rewritten");
 assert(
-  artistPageTitle({ name: "Nobody" }, "2026") === "Nobody Tickets & 2026 Tour Dates | TourTicketCompare",
+  artistPageTitle({ name: "Nobody" }, "2026") === "Nobody Tickets 2026 | Compare Prices & Tour Dates",
   "a missing seo_title gets the year too"
+);
+const fivefdp = { name: "Five Finger Death Punch", seo_title: "Five Finger Death Punch Tickets & Tour Dates | TourTicketCompare" };
+assert(
+  artistPageTitle(fivefdp, "2026–2027") === "Five Finger Death Punch Tickets 2026–2027 | Compare Prices",
+  "the tail is shed before the year"
 );
 const longName = { name: "A Very Long Artist Name That Goes On And On", seo_title: "" };
 assert(artistPageTitle(longName, "2026–2027").length <= TITLE_LENGTH_LIMIT, "never over budget");

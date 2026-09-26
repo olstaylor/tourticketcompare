@@ -231,7 +231,7 @@ Constraints at every stage: the worker may not weaken a validator or a lane to m
 
 Closed on GitHub; kept as a short audit trail only. Full detail lives in the linked PRs and git history.
 
-- Single-venue artist-city titles lead with the venue ("Oasis Tickets at Knebworth, Stevenage"), plus the `oasis-live-27-ticket-prices` post, no face values (2026-09-26, PR #1176; owner-requested, recorded by agent)
+- `oasis-live-27-ticket-prices` post: what a resale price on an Oasis Live '27 date means, per-night markets, UK/Irish face-value rules, no face values (2026-09-26, PR #1176; owner-requested, recorded by agent). The single-venue artist-city title that names the venue landed separately in PR #1175
 - `events-index.json` consistency enforced in `validate-partitions.mjs` (ID multiset, indexed values, row order), plus homepage search result ordering fixed at source (2026-09-14)
 - Maintenance loop Stage 3 v1 — bounded repair worker for `generated_artifact_stale`, PR-only, human-merged (2026-09-12)
 - Maintenance loop Stage 2 — first `agent:ready` type, stale generated output (2026-09-11, PR #944)

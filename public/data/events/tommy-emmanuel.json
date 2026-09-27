@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PdJf",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/anchorage-alaska-alaska-center-for-the-performing-arts-discovery-theatre-2026-10-08-7-30-pm/concert/18283006",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdJf",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18283006,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/anchorage-alaska-alaska-center-for-the-performing-arts-discovery-theatre-2026-10-08-7-30-pm/concert/18283006",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -382,7 +382,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70F-w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/durham-north-carolina-carolina-theatre-durham-2026-12-06-8-pm/concert/18225197",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18225197,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/durham-north-carolina-carolina-theatre-durham-2026-12-06-8-pm/concert/18225197",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -435,7 +435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70F-s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/charlotte-north-carolina-knight-theater-at-levine-center-for-the-arts-2026-12-07-7-30-pm/concert/18225325",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18225325,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/charlotte-north-carolina-knight-theater-at-levine-center-for-the-arts-2026-12-07-7-30-pm/concert/18225325",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -488,7 +488,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70b-I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/atlanta-georgia-variety-playhouse-2026-12-09-8-pm/concert/18237606",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
@@ -504,11 +504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237606,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/atlanta-georgia-variety-playhouse-2026-12-09-8-pm/concert/18237606",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -541,7 +541,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70KZe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/ponte-vedra-beach-florida-ponte-vedra-concert-hall-2026-12-10-7-pm/concert/18237612",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
@@ -557,11 +557,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237612,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/ponte-vedra-beach-florida-ponte-vedra-concert-hall-2026-12-10-7-pm/concert/18237612",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -594,7 +594,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70b-E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/orlando-florida-the-plaza-live-2026-12-11-8-pm/concert/18237614",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237614,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/orlando-florida-the-plaza-live-2026-12-11-8-pm/concert/18237614",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -647,7 +647,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAv8__",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/clearwater-florida-bilheimer-capitol-theatre-2026-12-12-7-pm/concert/18237615",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
@@ -663,11 +663,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237615,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/clearwater-florida-bilheimer-capitol-theatre-2026-12-12-7-pm/concert/18237615",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

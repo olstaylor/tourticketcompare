@@ -1,4 +1,4 @@
-import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
+import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin, isIndexableOrigin } from "./_route-metadata.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveCities } from "./_cities.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
@@ -6,6 +6,7 @@ import { deriveIndexableBlogEntries } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
 import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
 import { deriveIndexablePriceGuides } from "./_price-guides.js";
+import { eventIndexingPilotFor } from "./[[path]].js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -160,20 +161,41 @@ async function loadIndexableArtists(env) {
   }
 }
 
+// Individual event pages in the active indexing pilot, and nothing else: the
+// same eventIndexingPilotFor answer the router's robots meta reads, so a URL is
+// listed exactly while its page renders index,follow. Never the eligible
+// population, and empty when the flag is off or the request is not on the
+// canonical host. lastmod is the event record's own last_verified_at, else the
+// artist's verification date (the fallback every location page uses), never
+// the date a shared renderer changed.
+async function loadIndexedEventPages(env, origin) {
+  try {
+    const pilot = await eventIndexingPilotFor(env, origin);
+    return pilot.indexed.map((member) => ({
+      path: member.path,
+      lastmod: lastmodOf(member.event?.last_verified_at),
+      artistSlug: String(member.event?.artist_slug || "").trim()
+    }));
+  } catch (error) {
+    return [];
+  }
+}
+
 // Sitemap segments, in /sitemap.xml order. Each is also served on its own at
 // /sitemaps/<segment>.xml and listed by /sitemap-index.xml, so Search Console
-// and Bing report coverage per page type (added 2026-09-24).
-export const SITEMAP_SEGMENTS = Object.freeze(["pages", "artists", "artist-cities", "cities", "venues", "blog"]);
+// and Bing report coverage per page type (added 2026-09-24). "events" holds
+// the event-indexing pilot only (2026-09-27).
+export const SITEMAP_SEGMENTS = Object.freeze(["pages", "artists", "artist-cities", "cities", "venues", "blog", "events"]);
 
 // `only` limits the work to the segments a request serves: /sitemaps/blog.xml
 // reads no event data at all, and /sitemaps/artists.xml derives no city or
 // venue. Segments not asked for come back empty.
-async function buildSegments(env, only = SITEMAP_SEGMENTS) {
+async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
   const need = new Set(only);
   const needArtists = need.has("pages") || need.has("artists") || need.has("artist-cities");
   const [indexableArtists, artistVerificationDates] = await Promise.all([
     needArtists ? loadIndexableArtists(env) : [],
-    need.has("artist-cities") || need.has("cities") || need.has("venues") ? loadArtistVerificationDates(env) : new Map()
+    need.has("artist-cities") || need.has("cities") || need.has("venues") || need.has("events") ? loadArtistVerificationDates(env) : new Map()
   ]);
   // Index pages are as fresh as the newest thing they list, which is a real
   // date rather than an assertion about their own copy. Their own content
@@ -285,33 +307,49 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS) {
     changefreq: entry.type === "blog-post" ? "monthly" : "weekly",
     priority: entry.type === "blog-post" ? "0.6" : "0.5"
   }));
+  const eventEntries = (need.has("events") ? await loadIndexedEventPages(env, origin) : []).map((entry) => ({
+    path: entry.path,
+    lastmod: newestDate(entry.lastmod) || artistFallbackLastmod(artistVerificationDates, [entry.artistSlug]),
+    changefreq: "daily",
+    priority: "0.6"
+  }));
   return {
     pages: need.has("pages") ? staticEntries : [],
     artists: need.has("artists") ? artistEntries : [],
     "artist-cities": artistCityEntries,
     cities: cityEntries,
     venues: venueEntries,
-    blog: blogEntries
+    blog: blogEntries,
+    events: [...new Map(eventEntries.map((entry) => [entry.path, entry])).values()]
   };
 }
 
-// The index and its six children are usually fetched back to back, so a full
+// The index and its children are usually fetched back to back, so a full
 // build is kept for the rest of the minute per assets binding (stable within a
 // Pages isolate, like the router's JSON asset cache). A child request reuses
-// it when present and otherwise builds only its own segment.
+// it when present and otherwise builds only its own segment. The events
+// segment depends on the request host (the pilot never activates off the
+// canonical host) and on the flag, so both are part of the memo key.
 const FULL_BUILD_MEMO = new WeakMap();
-export async function buildSitemapSegments(env, only = SITEMAP_SEGMENTS) {
+export async function buildSitemapSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
   const binding = env?.ASSETS;
   const minute = Math.floor(Date.now() / 60000);
+  const stamp = `${minute}|${isIndexableOrigin(origin)}|${String(env?.EVENT_PAGES_INDEXING ?? "")}`;
   const hit = binding && typeof binding === "object" ? FULL_BUILD_MEMO.get(binding) : null;
-  if (hit && hit.minute === minute) return hit.build;
+  if (hit && hit.stamp === stamp) return hit.build;
   const full = SITEMAP_SEGMENTS.every((segment) => only.includes(segment));
-  const build = buildSegments(env, only);
+  const build = buildSegments(env, only, origin);
   if (full && binding && typeof binding === "object") {
-    FULL_BUILD_MEMO.set(binding, { minute, build });
+    FULL_BUILD_MEMO.set(binding, { stamp, build });
     build.catch(() => FULL_BUILD_MEMO.delete(binding));
   }
   return build;
+}
+
+/** The request's own origin, before canonicalisation (for the host rule). */
+export function rawRequestOrigin(request) {
+  const requestUrl = new URL(request.url);
+  return `${requestUrl.protocol}//${requestUrl.host}`;
 }
 
 export function requestOrigin(request) {
@@ -361,7 +399,7 @@ export function segmentLastmod(entries) {
 // /sitemap.xml keeps serving every indexable URL in one urlset: IndexNow, the
 // site audits and any engine that already has it submitted read it as before.
 export async function onRequestGet({ request, env }) {
-  const segments = await buildSitemapSegments(env);
+  const segments = await buildSitemapSegments(env, SITEMAP_SEGMENTS, rawRequestOrigin(request));
   const entries = SITEMAP_SEGMENTS.flatMap((segment) => segments[segment]);
   return xmlResponse(renderUrlset(entries, requestOrigin(request)));
 }
@@ -369,7 +407,7 @@ export async function onRequestGet({ request, env }) {
 /** Handler for one /sitemaps/<segment>.xml file. */
 export function segmentHandler(segment) {
   return async function onRequestGet({ request, env }) {
-    const segments = await buildSitemapSegments(env, [segment]);
+    const segments = await buildSitemapSegments(env, [segment], rawRequestOrigin(request));
     return xmlResponse(renderUrlset(segments[segment] || [], requestOrigin(request)));
   };
 }
@@ -377,7 +415,7 @@ export function segmentHandler(segment) {
 /** Handler for /sitemap-index.xml: one <sitemap> per non-empty segment. */
 export async function sitemapIndexHandler({ request, env }) {
   const origin = requestOrigin(request);
-  const segments = await buildSitemapSegments(env);
+  const segments = await buildSitemapSegments(env, SITEMAP_SEGMENTS, rawRequestOrigin(request));
   const items = SITEMAP_SEGMENTS.filter((segment) => segments[segment].length)
     .map((segment) => {
       const lastmod = segmentLastmod(segments[segment]);

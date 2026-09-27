@@ -36,7 +36,8 @@ import {
   priceGuideRouteDecision
 } from "./_price-guides.js";
 import { derivePriceMove, fetchEventPriceMoveSeries, PRICE_MOVE_WINDOW_DAYS } from "./_event-price-moves.js";
-import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
+import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
+import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -366,6 +367,42 @@ async function loadArtistsMeta(env) {
   return loadJsonAsset(env, "/data/artists.json", Array.isArray, []);
 }
 
+const EVENT_INDEXING_PILOT_KEY_SET = new Set(EVENT_INDEXING_PILOT_KEYS);
+const NO_EVENT_INDEXING_PILOT = Object.freeze({ active: false, reason: "no_pilot_event", members: [], indexed: [], pathById: new Map() });
+
+/**
+ * The active event-indexing pilot for one request (deriveEventIndexingPilot in
+ * functions/_event-indexability.js): which frozen pilot events render
+ * index,follow now. The router, the events sitemap and llms.txt all call this,
+ * so robots, parent structured data and discovery never disagree. Evaluated
+ * over the full events.json (never an artist partition) with the router's own
+ * CTA gate as the lane source; `origin` is the request origin, so a preview or
+ * *.pages.dev host never activates it.
+ *
+ * @param {any} env
+ * @param {string} origin  The request's own origin (not the canonical one).
+ * @param {any[] | null} [candidates]  When given, records the route shows: a
+ *   route holding no pilot key skips the evaluation (and the full-file load).
+ */
+export async function eventIndexingPilotFor(env, origin, candidates = null) {
+  const hostIndexable = isIndexableOrigin(origin);
+  // Flag off or a non-canonical host: inactive, without loading anything.
+  if (!hostIndexable || !eventPagesIndexingEnabled(env)) return deriveEventIndexingPilot([], [], env, { hostIndexable });
+  if (Array.isArray(candidates) && !candidates.some((event) => EVENT_INDEXING_PILOT_KEY_SET.has(eventKey(event?.id)))) {
+    return NO_EVENT_INDEXING_PILOT;
+  }
+  const [events, artistsMeta] = await Promise.all([loadEvents(env), loadArtistsMeta(env)]);
+  return deriveEventIndexingPilot(events, artistsMeta, env, {
+    hostIndexable,
+    lanesFor: (event) => eventPublishableLaneSlugs(event, env)
+  });
+}
+
+// Route types whose render depends on the pilot: the event page itself
+// (robots) and the four parent boards that describe its performance in
+// structured data.
+const EVENT_INDEXING_PILOT_ROUTE_TYPES = new Set(["event", "artist", "artist-city", "city", "venue"]);
+
 async function loadGuideContent(env) {
   return loadJsonAsset(env, "/data/guides-content.json", (data) => data && typeof data === "object", {});
 }
@@ -533,7 +570,8 @@ async function routeForPath(pathname, env) {
   }
 
   // Individual event pages: /events/<artist>-<venue>-<city>-<local date>-<key>.
-  // Every one is noindex,follow and absent from the sitemaps and llms.txt; the
+  // Each is noindex,follow and absent from the sitemaps and llms.txt unless it
+  // is an active member of the frozen indexing pilot (onRequest); the
   // artist, artist-city, city and venue boards link each card to its page
   // ("Show details", eventPageLinker) only where this same decision renders
   // it. The decision — render, 301 (past event,
@@ -1058,13 +1096,15 @@ function ogCardUrl(route, origin) {
 // invariant holds identically on every page type. `performer` is a reference to
 // the page's Person/MusicGroup node on artist pages and an inline
 // Person/MusicGroup on venue/city pages, which aggregate multiple artists.
-function musicEventNode(show, origin, { displayName, performer, image, offers = [] }) {
+function musicEventNode(show, origin, { displayName, performer, image, offers = [], identity = null }) {
   const name = displayName || show.artist_name || show.artist_slug;
+  const { url, id } = identity || showSchemaIdentity(null, show, origin);
   const displayDate = formatShowDateServer(show.dateTimeISO, show.timezone);
   const address = { "@type": "PostalAddress", addressLocality: show.city };
   if (show.country) address.addressCountry = schemaCountry(show.country);
   return {
     "@type": "MusicEvent",
+    ...(id ? { "@id": id } : {}),
     name: show.event_name || `${name} — ${show.city}`,
     description: `${name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`,
     image: image || `${origin}/og-image.png`,
@@ -1080,9 +1120,23 @@ function musicEventNode(show, origin, { displayName, performer, image, offers = 
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     location: { "@type": "Place", name: show.venue, address },
     performer,
-    url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`,
+    url,
     ...(offers.length ? { offers } : {})
   };
+}
+
+// How a parent board's structured data identifies one performance: its
+// MusicEvent `url` and `@id`, and its ListItem `url`. An active indexing-pilot
+// event (route.indexedEventPaths, attached by onRequest from
+// deriveEventIndexingPilot) is identified by its own canonical event page —
+// the exact url and @id (page + #event) that page's MusicEvent carries — so
+// the site never describes one indexed performance under two identities. Every
+// other performance keeps its artist-page card anchor and no @id, as before.
+// Visible links and cards are untouched either way.
+function showSchemaIdentity(route, show, origin, artistSlug = show?.artist_slug) {
+  const eventPath = route?.indexedEventPaths?.get(String(show?.id || "").trim());
+  if (eventPath) return { url: `${origin}${eventPath}`, id: `${origin}${eventPath}#event` };
+  return { url: `${origin}/artists/${artistSlug}#${showAnchorId(show)}`, id: "" };
 }
 
 // schema.org recommends ISO 3166-1 alpha-2 for addressCountry, and the source
@@ -1136,8 +1190,9 @@ function venueLocalIso(iso, timezone) {
 // Structured data for an individual event page (/events/<slug>-<key>): the one
 // performance the page shows, identified by the page itself. It is built here
 // rather than through musicEventNode so the artist, artist-city, city and venue
-// nodes stay exactly as they were (they keep their #show-<id> urls until the
-// event-indexing rollout decides otherwise). Every value is one the page
+// nodes stay exactly as they were (they keep their #show-<id> urls, except for
+// an active indexing-pilot event, whose parent nodes carry this node's url and
+// @id: showSchemaIdentity). Every value is one the page
 // states: the H1's artist and venue, the facts' city and country, the
 // venue-local date and start time, and the Ticketmaster status line.
 // eventPageSchemaDecision (functions/_event-pages.js) decides whether there is
@@ -1233,7 +1288,8 @@ function musicEventsSchema(route, origin, events, env = {}) {
         displayName: route.artist.name,
         performer: { "@id": artistId },
         image: ogCardUrl(route, origin),
-        offers: offersEnabled ? musicEventOffersSchema(show, origin, env) : []
+        offers: offersEnabled ? musicEventOffersSchema(show, origin, env) : [],
+        identity: showSchemaIdentity(route, show, origin)
       })
     );
 }
@@ -1261,7 +1317,7 @@ function musicEventsSchemaForListing(route, listingShows, events, origin, catalo
       url: `${origin}/artists/${show.artist_slug}`
     };
     const offers = schemaOffersEnabledForArtist(env, show.artist_slug) ? musicEventOffersSchema(show, origin, env) : [];
-    nodes.push(musicEventNode(show, origin, { displayName: show.artist_name, performer, image, offers }));
+    nodes.push(musicEventNode(show, origin, { displayName: show.artist_name, performer, image, offers, identity: showSchemaIdentity(route, show, origin) }));
   }
   return nodes;
 }
@@ -1573,7 +1629,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
           "@type": "ListItem",
           position: index + 1,
           name: `${show.artist_name || show.artist_slug} at ${show.venue} — ${formatShowDateServer(show.datetime_iso, show.timezone)}`,
-          url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`
+          url: showSchemaIdentity(route, show, origin).url
         }))
       }
     });
@@ -1619,7 +1675,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
           "@type": "ListItem",
           position: index + 1,
           name: `${artist.name} at ${show.venue} — ${formatShowDateServer(show.datetime_iso, show.timezone)}`,
-          url: `${origin}/artists/${artist.slug}#${showAnchorId(show)}`
+          url: showSchemaIdentity(route, show, origin, artist.slug).url
         }))
       }
     });
@@ -1695,7 +1751,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
           "@type": "ListItem",
           position: index + 1,
           name: `${show.artist_name || show.artist_slug} — ${formatShowDateServer(show.datetime_iso, show.timezone)}`,
-          url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`
+          url: showSchemaIdentity(route, show, origin).url
         }))
       }
     });
@@ -4967,6 +5023,22 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
   return specs;
 }
 
+// The provider lanes whose button renders for one raw events.json record, as
+// its event page renders them: serverShowCtaSpecs itself, and nothing for a
+// held date. The event-indexing pilot counts these at runtime, so a pilot page
+// is judged on exactly the buttons it shows (scripts/lib/event-link-coverage.mjs
+// is the offline mirror the audits compare against the rendered page).
+export function eventPublishableLaneSlugs(event, env = {}) {
+  const show = enrichEventAsShow(event || {});
+  if (!show.id || eventLifecycleHeld(show)) return [];
+  const marketplaceAvailability = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]));
+  return serverShowCtaSpecs(show, {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability
+  }).map((spec) => spec.provider);
+}
+
 // One compact line above a card's provider buttons, rendered only when at
 // least one button shows a price, saying what that number is (P1,
 // owner-approved 2026-09-24). The site count that used to lead it ("1 ticket
@@ -5448,8 +5520,8 @@ function eventPageRoute(decision, artist, catalog, events) {
   return {
     type: "event",
     path: decision.canonicalPath,
-    // Every event page is noindex,follow until event-page indexing is decided
-    // (docs/ROUTE_INDEXABILITY_POLICY.md); nothing here reads the preview.
+    // noindex,follow unless onRequest finds this event in the active indexing
+    // pilot (eventIndexingPilotFor; docs/ROUTE_INDEXABILITY_POLICY.md → Event).
     indexable: false,
     title: eventPageTitle(artist.name, venue, city, shortDate, state.lifecycle),
     description: eventPageDescription(artist.name, venue, city, shortDate, state),
@@ -6863,6 +6935,17 @@ export async function onRequest(context) {
   // is passed through exactly as before.
   if (priceLowSeries.size) renderRoute = { ...renderRoute, priceLowSeries };
   if (priceMoveSeries.size) renderRoute = { ...renderRoute, priceMoveSeries };
+  // The event-indexing pilot: an event page renders index,follow only as an
+  // active pilot member, and a parent board identifies an active pilot
+  // performance by that page's url and @id. Every other route, and every
+  // non-pilot event, renders exactly as before.
+  if (EVENT_INDEXING_PILOT_ROUTE_TYPES.has(route.type)) {
+    const pilot = await eventIndexingPilotFor(env, url.origin, route.type === "event" ? [route.event] : events);
+    if (route.type === "event") {
+      renderRoute = { ...renderRoute, indexable: pilot.pathById.get(String(route.event?.id || "").trim()) === route.path };
+    }
+    if (pilot.pathById.size) renderRoute = { ...renderRoute, indexedEventPaths: pilot.pathById };
+  }
   const injected = injectRoute(html, renderRoute, url.origin, catalog, renderEvents, guideContent, env);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");

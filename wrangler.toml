@@ -35,6 +35,14 @@ TICKETMASTER_DISCOVERY_COUNTRY = ""
 # re-scope, set SCHEMA_OFFERS_PILOT_SLUGS (comma-separated slugs); set
 # SCHEMA_OFFERS_ENABLED = "false" to stop emitting at origin.
 SCHEMA_OFFERS_ENABLED = "true"
+# Event-page indexing pilot (docs/ROUTE_INDEXABILITY_POLICY.md → Event,
+# started 2026-09-27). "pilot" lets exactly the frozen EVENT_INDEXING_PILOT_KEYS
+# in functions/_event-indexability.js render index,follow and enter
+# /sitemaps/events.xml and llms.txt, each only while it stays eligible, and
+# only on the canonical host (Pages previews and *.pages.dev never activate
+# it). Any other value, or removing the line, is the rollback: every event page
+# is noindex,follow again on the next render.
+EVENT_PAGES_INDEXING = "pilot"
 
 # Optional D1 bindings for CLI-based deploys and local Pages dev.
 # Configure these in the Cloudflare dashboard for Git-connected Pages deploys.

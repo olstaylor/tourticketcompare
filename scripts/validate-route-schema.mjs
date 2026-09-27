@@ -650,7 +650,7 @@ function expectedMusicEventCount(artistSlug) {
   const ORIGIN = "https://tourticketcompare.com";
   const eventPagesModule = await import(pathToFileURL(path.join(root, "functions/_event-pages.js")));
   const { resolveEventLocalDate } = await import(pathToFileURL(path.join(root, "functions/_event-local-date.js")));
-  const { citySlug } = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
+  const { citySlug, slugify } = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
   const artistsMeta = JSON.parse(await fs.readFile(path.join(root, "public/data/artists.json"), "utf8"));
   const catalog = JSON.parse(await fs.readFile(path.join(root, "public/data/catalog.json"), "utf8"));
 
@@ -738,7 +738,7 @@ function expectedMusicEventCount(artistSlug) {
   }
 
   // Checks one served event page; returns its MusicEvent node (or null).
-  async function checkEventPage(event, artistName, envOverride, label) {
+  async function checkEventPage(event, artistName, envOverride, label, { indexable = false } = {}) {
     const pathname = eventPagesModule.eventPath(event);
     const response = await render(pathname, "tourticketcompare.com", envOverride);
     const html = await response.text();
@@ -748,7 +748,7 @@ function expectedMusicEventCount(artistSlug) {
     }
     assertApexHead(html, pathname);
     const page = visiblePage(html);
-    if (page.robots !== "noindex,follow") fail(`${label} ${pathname}: robots is "${page.robots}", expected noindex,follow`);
+    if (indexable ? !page.robots.startsWith("index,follow") : page.robots !== "noindex,follow") fail(`${label} ${pathname}: robots is "${page.robots}", expected ${indexable ? "index,follow" : "noindex,follow"}`);
     const graph = extractGraph(html, pathname);
     if (!graph) return null;
     const t = types(graph);
@@ -874,7 +874,9 @@ function expectedMusicEventCount(artistSlug) {
     if (!counts.served) fail("event pages: no served event page to check");
     ok(`${counts.served} served event page(s) checked: ${counts.withNode} emit one MusicEvent ${JSON.stringify(counts.byStatus)}, ${counts.served - counts.withNode} emit none ${JSON.stringify(counts.withoutNode)}; every node matches its visible page`);
 
-    // Indexing is untouched: no event URL in any sitemap segment or llms.txt.
+    // The validator's default env carries no EVENT_PAGES_INDEXING flag, so no
+    // event URL may appear in any sitemap segment or llms.txt (8c covers the
+    // pilot).
     const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
     const { onRequestGet: llmsGet } = await import(pathToFileURL(path.join(root, "functions/llms.txt.js")));
     const request = (p) => ({ request: new Request(`${ORIGIN}${p}`), env });
@@ -882,6 +884,56 @@ function expectedMusicEventCount(artistSlug) {
     for (const segment of sitemapModule.SITEMAP_SEGMENTS) bodies.push(await (await sitemapModule.segmentHandler(segment)(request(`/sitemaps/${segment}.xml`))).text());
     if (bodies.some((body) => body.includes("/events/"))) fail("event pages: an event URL appears in a sitemap or llms.txt");
     else ok(`event pages: absent from the sitemap index, all ${sitemapModule.SITEMAP_SEGMENTS.length} segments and llms.txt`);
+  }
+
+  // 8c. The indexing pilot as production renders it: wrangler.toml's
+  // EVENT_PAGES_INDEXING flag and every affiliate lane configured (stub
+  // credentials). Each active pilot page passes every 8a node check while
+  // rendering index,follow; its parent artist page describes it with the
+  // event page's own url and @id and is otherwise byte-identical to the same
+  // page with the flag off; the events sitemap lists exactly the active pilot.
+  {
+    const { wranglerVars } = await import(pathToFileURL(path.join(root, "scripts/lib/event-indexability-audit.mjs")));
+    const { eventIndexingPilotFor } = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
+    const stub = { IMPACT_SEATGEEK_ACCOUNT_SID: "v", IMPACT_SEATGEEK_AUTH_TOKEN: "v", IMPACT_SEATGEEK_CAMPAIGN_ID: "1", IMPACT_VIVIDSEATS_CAMPAIGN_ID: "2", IMPACT_ACCOUNT_SID: "v", IMPACT_AUTH_TOKEN: "v" };
+    const vars = wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8"));
+    const pilotEnv = { ...env, ...vars, ...stub };
+    const flagOffEnv = { ...env, ...vars, ...stub, EVENT_PAGES_INDEXING: "" };
+    const pilot = await eventIndexingPilotFor(pilotEnv, ORIGIN);
+    const nameBySlug = new Map((catalog.artists || []).map((artist) => [String(artist.slug), String(artist.name || artist.slug)]));
+    if (vars.EVENT_PAGES_INDEXING === "pilot" && !pilot.indexed.length) fail("event pilot: the flag is on but no pilot event is active");
+    const graphMusicEvents = async (pathname, envValue) => (extractGraph(await (await render(pathname, "tourticketcompare.com", envValue)).text(), pathname) || []).filter((node) => node["@type"] === "MusicEvent");
+    let parentsChecked = 0;
+    for (const member of pilot.indexed) {
+      const node = await checkEventPage(member.event, nameBySlug.get(String(member.event.artist_slug)) || "", pilotEnv, "pilot event page", { indexable: true });
+      if (!node) continue;
+      const artistPath = `/artists/${member.event.artist_slug}`;
+      const on = await graphMusicEvents(artistPath, pilotEnv);
+      const off = await graphMusicEvents(artistPath, flagOffEnv);
+      const aligned = on.filter((entry) => entry.url === node.url && entry["@id"] === node["@id"]);
+      if (on.length !== off.length) fail(`pilot parent ${artistPath}: ${on.length} MusicEvent node(s) with the pilot on, ${off.length} with it off`);
+      if (aligned.length !== 1) fail(`pilot parent ${artistPath}: ${aligned.length} node(s) identified as ${node["@id"]}, expected 1`);
+      const strip = (entry) => JSON.stringify({ ...entry, url: undefined, "@id": undefined });
+      const anchors = new Map(off.map((entry) => [entry.url, entry]));
+      for (const entry of on) {
+        if (entry["@id"]) {
+          const eventPath = new URL(entry.url).pathname;
+          const owner = pilot.indexed.find((candidate) => candidate.path === eventPath);
+          const before = owner ? anchors.get(`${ORIGIN}${artistPath}#show-${slugify(owner.id)}`) : null;
+          if (!owner || entry["@id"] !== `${entry.url}#event`) fail(`pilot parent ${artistPath}: node ${entry["@id"]} is not an active pilot event's page + #event`);
+          else if (!before || strip(before) !== strip(entry)) fail(`pilot parent ${artistPath}: the node for ${eventPath} changed beyond its url and @id`);
+        } else if (!off.some((candidate) => JSON.stringify(candidate) === JSON.stringify(entry))) {
+          fail(`pilot parent ${artistPath}: a non-pilot MusicEvent differs from the flag-off render`);
+        }
+      }
+      if (on.some((entry) => String(entry.url).includes("/events/") && !entry["@id"])) fail(`pilot parent ${artistPath}: an event-page url without its @id`);
+      parentsChecked += 1;
+    }
+    const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
+    const listed = [...(await (await sitemapModule.segmentHandler("events")({ request: new Request(`${ORIGIN}/sitemaps/events.xml`), env: pilotEnv })).text()).matchAll(/<loc>https:\/\/tourticketcompare\.com(\/events\/[^<]+)<\/loc>/g)].map((match) => match[1]);
+    const expected = pilot.indexed.map((member) => member.path);
+    if (JSON.stringify([...listed].sort()) !== JSON.stringify([...expected].sort())) fail(`event pilot: the events sitemap lists ${listed.length} URL(s), the active pilot is ${expected.length}`);
+    ok(`event pilot: ${pilot.indexed.length} active pilot page(s) render index,follow with valid MusicEvent nodes; ${parentsChecked} parent artist page(s) carry the event-page identity and are otherwise unchanged; the events sitemap lists exactly the active pilot`);
   }
 
   // 8b. Lifecycle, timing and commercial-safety fixtures on a real indexable

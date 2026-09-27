@@ -6,6 +6,8 @@ import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } fr
 import { artistPageIndexable } from "./_artist-indexability.js";
 import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
 import { deriveIndexablePriceGuides } from "./_price-guides.js";
+import { resolveEventLocalDate } from "./_event-local-date.js";
+import { eventIndexingPilotFor } from "./[[path]].js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -79,6 +81,28 @@ async function loadIndexableBlogPosts(env) {
   }
 }
 
+// Individual event pages are listed exactly while they are indexable: the
+// active members of the event-indexing pilot (eventIndexingPilotFor, the same
+// answer as their robots meta and the events sitemap). llms.txt lists every
+// indexable route type, so an indexed event page belongs here too, and a
+// noindex one never does. Empty (and the section omitted) when the flag is off
+// or the request is not on the canonical host.
+async function loadIndexedEventPages(env, requestOrigin, artistNameBySlug) {
+  try {
+    const pilot = await eventIndexingPilotFor(env, requestOrigin);
+    return pilot.indexed.map((member) => {
+      const event = member.event || {};
+      const artist = artistNameBySlug.get(String(event.artist_slug || "").trim()) || String(event.artist_name || "").trim() || String(event.artist_slug || "");
+      return {
+        path: member.path,
+        name: `${artist} at ${String(event.venue || "").trim()}, ${String(event.city || "").trim()} — ${resolveEventLocalDate(event).iso}`
+      };
+    });
+  } catch (error) {
+    return [];
+  }
+}
+
 function linkLine(origin, path, name, description) {
   const suffix = description ? `: ${description}` : "";
   return `- [${name}](${origin}${path})${suffix}`;
@@ -106,6 +130,10 @@ export async function onRequestGet({ request, env }) {
     linkLine(origin, `/artists/${artist.slug}`, artist.name, artist.description)
   );
   const artistNameBySlug = new Map(artists.map((artist) => [artist.slug, artist.name]));
+  const eventPages = await loadIndexedEventPages(env, `${requestUrl.protocol}//${requestUrl.host}`, artistNameBySlug);
+  const eventLines = eventPages.map((page) =>
+    linkLine(origin, page.path, page.name, "Checked ticket links for this one date, with each ticket site's listed-price snapshot where one is available.")
+  );
   const artistCityLines = locations.artistCities.map((entry) =>
     linkLine(
       origin,
@@ -204,7 +232,11 @@ ${venueLines.join("\n")}
 ## Artist tickets by city
 
 ${artistCityLines.length ? artistCityLines.join("\n") : "- No qualifying artist-city pages are currently active."}
+${eventLines.length ? `
+## Individual event pages
 
+${eventLines.join("\n")}
+` : ""}
 ## About the site
 
 ${trustLines.join("\n")}

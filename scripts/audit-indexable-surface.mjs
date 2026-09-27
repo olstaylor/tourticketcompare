@@ -938,15 +938,16 @@ function markdown() {
   const ev = summary.event_pages;
   lines.push(
     "",
-    "## Event pages — eligible for future indexing (none indexed)",
+    "## Event pages — eligibility and the frozen indexing pilot",
     "",
-    "Individual event pages are outside the indexable surface above. Eligible is the policy in `functions/_event-indexability.js`; indexable needs the rollout gate too (`EVENT_PAGES_INDEXING` and the pilot key list), which is off.",
+    "Individual event pages are outside the route-type surface above. Eligible is the policy in `functions/_event-indexability.js`; indexable additionally needs the rollout gate (`EVENT_PAGES_INDEXING=\"pilot\"`, the canonical host, and one of the 30 frozen pilot keys). The pilot is checked as an exact set: robots, sitemaps, `llms.txt` and parent structured data must all agree with it.",
     "",
     `- Served: ${ev.served} · rendered noindex,follow: ${ev.rendered_noindex} · rendered indexable: ${ev.rendered_indexable} · rollout-indexable: ${ev.rollout_indexable}`,
     `- Eligible: ${ev.eligible} (${ev.eligible_artists} artists) · ineligible: ${ev.ineligible}`,
     `- Exclusions (every failed condition): ${Object.entries(ev.excluded_by_reason).map(([reason, count]) => `\`${reason}\` ${count}`).join(", ") || "none"}`,
     `- Duplicate-ambiguity exclusions: ${ev.duplicate_excluded.length}${ev.duplicate_excluded.length ? ` (${ev.duplicate_excluded.join(", ")})` : ""}`,
-    `- Pilot keys: ${ev.pilot_keys}`
+    `- Pilot: ${ev.pilot_keys} keys · ${ev.pilot_indexed} active · events sitemap ${ev.sitemap_event_urls ?? "n/a"} URL(s) · ${ev.parent_nodes_aligned} parent node(s) on ${ev.parent_pages_checked} parent page(s) carry the event-page identity`,
+    `- Pilot members inactive today (never replaced): ${ev.pilot_dropped.length ? ev.pilot_dropped.map((member) => `\`${member.key}\` ${member.eligibility.join("+") || member.reason}`).join(", ") : "none"}`
   );
   lines.push("", "## Warnings (non-blocking)", "");
   lines.push(...(warnings.length ? warnings.map((entry) => `- ${entry}`) : ["- none"]));
@@ -1035,7 +1036,7 @@ if (CHECK_MODE) {
   await syncStatusFigures({ write: false });
   console.log(
     `indexable-surface: event pages ${summary.event_pages.served} served, ${summary.event_pages.rendered_noindex} noindex,follow, ` +
-      `${summary.event_pages.eligible} eligible for future indexing, ${summary.event_pages.rollout_indexable} indexed (pilot keys ${summary.event_pages.pilot_keys})`
+      `${summary.event_pages.eligible} eligible, ${summary.event_pages.rollout_indexable} indexed by the frozen pilot (pilot keys ${summary.event_pages.pilot_keys})`
   );
   console.log("indexable-surface: no orphans, no empty indexable routes, no duplicate titles, no structural change");
   process.exit(0);

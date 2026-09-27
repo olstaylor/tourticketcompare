@@ -457,7 +457,11 @@ for (const page of indexablePages) {
 // never in the sitemap, and reached through "Show details" on the artist,
 // artist-city, city and venue boards. These checks are about correctness —
 // every link lands on a page the router serves, and every served page can be
-// reached from a board that lists its date — not about indexing.
+// reached from a board that lists its date — not about indexing. The crawl's
+// env carries no wrangler.toml [vars], so the indexing pilot is off here and
+// every event page is noindex; the pilot's robots, sitemap and parent-identity
+// agreement is checked in a deployed-like env by
+// npm run audit:indexable-surface:check (scripts/lib/event-indexability-audit.mjs).
 const EVENT_PREFIX = eventPagesModule.EVENT_PATH_PREFIX;
 const servedEventPaths = new Set(eventPaths);
 const EVENT_PARENT_SURFACES = ["artist", "artist-city", "city", "venue"];

@@ -2,14 +2,15 @@
 //
 // Read-only diagnostic for the event identity foundation (functions/_event-pages.js).
 // Reports, for the current events.json: stable-key uniqueness, venue-local
-// date coverage, which events could structurally carry a future event route
-// and why the rest could not, the preview-only indexability signals, the
-// non-performance listings, and possible duplicate listings.
+// date coverage, what the live /events/* router does with each upcoming
+// event's canonical path (resolveEventRoute: render, 301 or 404, and why), the
+// preview-only indexability signals, the non-performance listings, and
+// possible duplicate listings.
 //
 // Every figure comes from functions/_event-pages.js; per-event publishable
 // destination lanes come from scripts/lib/event-link-coverage.mjs, the offline
-// mirror of the runtime CTA gate. Writes nothing and serves nothing — there is
-// no event route yet.
+// mirror of the runtime CTA gate. Writes nothing. Every served event page is
+// noindex,follow; the indexability figures below are a preview only.
 //
 // Usage:
 //   node scripts/report-event-routes.mjs          # human-readable summary
@@ -23,7 +24,9 @@ import {
   deriveEventRouteStates,
   eventIndexSignals,
   possibleDuplicateGroups,
-  previewEventIndexability
+  previewEventIndexability,
+  resolveEventRoute,
+  EVENT_ROUTE_ACTION
 } from "../functions/_event-pages.js";
 import { artistPageIndexable } from "../functions/_artist-indexability.js";
 import { providerConfiguredTest, publishableLaneSlugs } from "./lib/event-link-coverage.mjs";
@@ -47,6 +50,17 @@ const artistBySlug = new Map(artists.map((artist) => [artist.slug, artist]));
 const eventById = new Map(events.map((event) => [String(event.id).trim(), event]));
 const upcoming = states.filter((state) => state.upcoming);
 const renderable = states.filter((state) => state.renderable);
+
+// What the router does with each upcoming event's own canonical path — the
+// same decision a request would get, not a re-derivation of it. An event with
+// no path (no key or no venue-local date) cannot be requested at all.
+const decisions = upcoming.map((state) => {
+  if (!state.path) return { state, action: EVENT_ROUTE_ACTION.NOT_FOUND, reason: state.addressReasons[0] || "no_path" };
+  const decision = resolveEventRoute(events, artists, state.path, { now });
+  return { state, action: decision.action, reason: decision.reason };
+});
+const byAction = (action) => decisions.filter((entry) => entry.action === action);
+const served = byAction(EVENT_ROUTE_ACTION.RENDER);
 
 const preview = renderable.map((state) => {
   const event = eventById.get(state.id);
@@ -73,6 +87,14 @@ const report = {
   upcoming: upcoming.length,
   renderable: renderable.length,
   upcoming_not_renderable_by_reason: tally(upcoming.filter((state) => !state.renderable).flatMap((state) => state.reasons)),
+  routing: {
+    served_noindex: served.length,
+    served_commercially_live: served.filter((entry) => entry.state.commerciallyLive).length,
+    served_held: served.filter((entry) => entry.state.held).length,
+    served_pre_onsale: served.filter((entry) => !entry.state.held && !entry.state.commerciallyLive && entry.state.onsalePending).length,
+    redirect_by_reason: tally(byAction(EVENT_ROUTE_ACTION.REDIRECT).map((entry) => entry.reason)),
+    not_found_by_reason: tally(byAction(EVENT_ROUTE_ACTION.NOT_FOUND).map((entry) => entry.reason))
+  },
   preview_only_indexability: {
     would_qualify: preview.filter((entry) => entry.verdict.wouldQualify).length,
     excluded_by_reason: tally(preview.flatMap((entry) => entry.verdict.reasons)),
@@ -88,13 +110,18 @@ if (process.argv.includes("--json")) {
   console.log(JSON.stringify(report, null, 2));
 } else {
   const lines = [
-    `Event routes — ${report.generated_at} (read-only; no event route is served)`,
+    `Event routes — ${report.generated_at} (read-only; every served event page is noindex,follow)`,
     "",
     `Events: ${report.events}`,
     `Stable keys: ${report.keys.unique} unique · ${report.keys.collisions.length} collisions · ${report.keys.duplicate_ids.length} duplicate ids`,
     `Venue-local date: ${report.local_date.resolved} resolved · unresolved ${JSON.stringify(report.local_date.unresolved_by_reason)} · upcoming unresolved ${report.local_date.upcoming_unresolved.length}`,
     `Upcoming: ${report.upcoming} · structurally renderable: ${report.renderable}`,
     `Upcoming but not renderable, by reason: ${JSON.stringify(report.upcoming_not_renderable_by_reason)}`,
+    "",
+    "Live /events/* routing of each upcoming event's canonical path:",
+    `  served (200, noindex): ${report.routing.served_noindex} · commercially live ${report.routing.served_commercially_live} · held ${report.routing.served_held} · pre-on-sale ${report.routing.served_pre_onsale}`,
+    `  301 to parent, by reason: ${JSON.stringify(report.routing.redirect_by_reason)}`,
+    `  404, by reason: ${JSON.stringify(report.routing.not_found_by_reason)}`,
     "",
     "Preview only — not read by the router, sitemap, llms.txt or robots:",
     `  would qualify (≥2 publishable destinations, ≥1 snapshot-ready lane, artist page indexable, not a non-performance listing): ${report.preview_only_indexability.would_qualify} of ${report.renderable}`,

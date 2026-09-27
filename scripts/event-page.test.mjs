@@ -256,10 +256,14 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   // Recorded prices: the same figures the artist-city price answer states.
   const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
-  assert(/Lowest listed price now: \$182 on Vivid Seats/.test(prices), `the lowest current price matches the button (got ${prices.slice(0, 200)})`);
+  assert(/Lowest listed price: \$182 on Vivid Seats, as of 9 Aug 2026, 09:00 UTC/.test(prices), `the lowest listed price matches the button and states its capture time (got ${prices.slice(0, 200)})`);
+  assert(!/\bnow:/.test(prices), "a cached price is never labelled as current");
   assert(/30-day low \$150 · Vivid Seats/.test(prices), "the recorded 30-day low is stated");
   assert(text(parent.html).includes("30-day low $150 · Vivid Seats"), "the parent price answer states the same low");
   assert(/Latest recorded change: Vivid Seats down \$18: \$200 when recorded/.test(prices), "the latest recorded move is stated");
+
+  // public/shell.js reads this to credit the page view to the artist (Codex, #1195).
+  assert(page.html.includes(`data-page-artist="${ARTIST.slug}"`), "the event page names its artist for analytics");
 
   // Links back to existing pages only.
   assert(page.html.includes(`href="${ARTIST_CITY}"`) && page.html.includes(`href="/artists/${ARTIST.slug}"`), "the page links back to the artist-city and artist pages");

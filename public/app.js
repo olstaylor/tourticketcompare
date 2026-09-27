@@ -462,6 +462,7 @@ function clientPageType(pathname) {
   if (parts[0] === "cities") return parts.length === 1 ? "cities_index" : parts.length === 2 ? "city" : "other";
   if (parts[0] === "venues") return parts.length === 1 ? "venues_index" : parts.length === 2 ? "venue" : "other";
   if (parts[0] === "guides") return parts.length === 1 ? "guides_index" : parts.length === 2 ? "guide" : "other";
+  if (parts[0] === "events") return parts.length === 2 ? "event" : "other";
   return "other";
 }
 

@@ -21,6 +21,14 @@
 //   - every MusicEvent.image is the page's own og:image, which is the route's
 //     card from the generated OG_CARDS manifest (or the shared brand card when
 //     the route has none yet)
+//   - every served individual event page (noindex,follow, absent from every
+//     sitemap and llms.txt) carries exactly one MusicEvent — identified by its
+//     canonical URL, performed by the artist page's own entity, with venue,
+//     city, venue-local date and time, status, breadcrumbs and image matching
+//     the rendered page — or none where the gate withholds it; fixtures cover
+//     each lifecycle, UTC/local date splits, date-only and offset records,
+//     stale-slug and past-event redirects, and prove no offer, price or
+//     availability reaches an event page even with every offer flag on
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -623,6 +631,428 @@ function expectedMusicEventCount(artistSlug) {
       if (!badgePresent(html, "ticket-liquidator")) {
         fail("schema-offers non-allowlisted provider: expected the Ticket Liquidator badge to render (only the Offer should be withheld)");
       }
+    }
+  }
+}
+
+// 8. Individual event pages (/events/<slug>-<key>). Each served page is a
+// noindex,follow leaf whose structured data is exactly one MusicEvent for the
+// performance it shows — or none, when that performance may not be described
+// (the eventPageSchemaDecision rules below, mirrored independently here). Every
+// emitted property is checked against the rendered page: identity against the
+// canonical URL, performer against the artist page's own node, venue, city,
+// date, start time and status against the visible facts, breadcrumbs against
+// the visible trail, image against og:image. The node never carries an offer,
+// price or availability, under any flag: the schema-offers exception covers
+// the parent boards only. Parent-board nodes are left exactly as they were
+// (sections 7 and 6b-6c above still check them).
+{
+  const ORIGIN = "https://tourticketcompare.com";
+  const eventPagesModule = await import(pathToFileURL(path.join(root, "functions/_event-pages.js")));
+  const { resolveEventLocalDate } = await import(pathToFileURL(path.join(root, "functions/_event-local-date.js")));
+  const { citySlug } = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
+  const artistsMeta = JSON.parse(await fs.readFile(path.join(root, "public/data/artists.json"), "utf8"));
+  const catalog = JSON.parse(await fs.readFile(path.join(root, "public/data/catalog.json"), "utf8"));
+
+  // The only properties an event-page MusicEvent may carry. Anything else —
+  // offers, description, organizer, endDate, previousStartDate — is a claim
+  // the page does not make.
+  const EVENT_NODE_KEYS = ["@id", "@type", "eventAttendanceMode", "eventStatus", "image", "location", "name", "performer", "startDate", "url"].join(",");
+  const STATUS_URL = {
+    scheduled: "https://schema.org/EventScheduled",
+    rescheduled: "https://schema.org/EventRescheduled",
+    cancelled: "https://schema.org/EventCancelled",
+    postponed: "https://schema.org/EventPostponed"
+  };
+  // The visible status line for each lifecycle (eventStatusFact).
+  const VISIBLE_STATUS = {
+    cancelled: /^Cancelled, per Ticketmaster$/,
+    postponed: /^Postponed, per Ticketmaster$/,
+    rescheduled: /^Rescheduled, per Ticketmaster/,
+    unrecognised: /^Being checked$/
+  };
+
+  // Independent mirror of the stored-status reading (eventLifecycle).
+  function lifecycleOf(event) {
+    const code = String(event?.ticketmaster_status_code ?? "").trim().toLowerCase();
+    if (!code || code === "onsale") return "scheduled";
+    if (code === "cancelled" || code === "canceled") return "cancelled";
+    if (code === "postponed") return "postponed";
+    if (code === "rescheduled") return "rescheduled";
+    return "unrecognised";
+  }
+  // Which eventStatus the page's node must carry, or "" for no node: the
+  // parent boards' gate (eventPublishable above) for a live date, the
+  // Ticketmaster source alone for a cancelled or postponed one, never for an
+  // unrecognised status.
+  function expectedEventStatus(event) {
+    const lifecycle = lifecycleOf(event);
+    if (lifecycle === "unrecognised") return "";
+    if (lifecycle === "cancelled" || lifecycle === "postponed") {
+      const sourced = Boolean(String(event?.ticketmaster_url || event?.source_url || "").trim()) || event?.provider_links?.ticketmaster?.verified === true;
+      return sourced ? STATUS_URL[lifecycle] : "";
+    }
+    return eventPublishable(event) ? STATUS_URL[lifecycle] : "";
+  }
+
+  const decode = (value) => String(value || "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").trim();
+  function visiblePage(html) {
+    const facts = {};
+    const factsHtml = html.match(/<section[^>]*aria-labelledby="eventFactsTitle"[\s\S]*?<\/section>/)?.[0] || "";
+    for (const m of factsHtml.matchAll(/<dt>([\s\S]*?)<\/dt><dd>([\s\S]*?)<\/dd>/g)) facts[decode(m[1])] = m[2];
+    const nav = html.match(/<nav class="breadcrumbs"[\s\S]*?<\/nav>/)?.[0] || "";
+    const crumbs = [...nav.matchAll(/<li([^>]*)>([\s\S]*?)<\/li>/g)].map((m) => ({
+      href: m[2].match(/href="([^"]*)"/)?.[1] || "",
+      name: decode(m[2]),
+      current: /aria-current="page"/.test(m[1])
+    }));
+    return {
+      h1: decode(html.match(/<h1 id="eventTitle">([\s\S]*?)<\/h1>/)?.[1]),
+      facts,
+      crumbs,
+      robots: html.match(/<meta name="robots" content="([^"]*)"/)?.[1] || "",
+      ogImage: html.match(/<meta\s+property="og:image"\s+content="([^"]*)"/)?.[1] || ""
+    };
+  }
+  // The label formatShowDateServer prints for a YYYY-MM-DD calendar date.
+  const dateLabel = (ymd) =>
+    new Intl.DateTimeFormat("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${ymd}T12:00:00Z`));
+  const timeLabel = (hhmm) =>
+    new Intl.DateTimeFormat("en-US", { hour: "numeric", minute: "2-digit", timeZone: "UTC" }).format(new Date(`2000-01-01T${hhmm}:00Z`));
+
+  const statusCache = new Map();
+  async function statusOf(pathname, envOverride) {
+    const key = `${pathname}|${envOverride === env ? "real" : "fixture"}`;
+    if (!statusCache.has(key)) statusCache.set(key, (await render(pathname, "tourticketcompare.com", envOverride)).status);
+    return statusCache.get(key);
+  }
+  const artistNodeCache = new Map();
+  async function artistNode(slug, envOverride) {
+    const key = `${slug}|${envOverride === env ? "real" : "fixture"}`;
+    if (!artistNodeCache.has(key)) {
+      const html = await (await render(`/artists/${slug}`, "tourticketcompare.com", envOverride)).text();
+      const graph = extractGraph(html, `/artists/${slug}`) || [];
+      artistNodeCache.set(key, graph.find((node) => node["@id"] === `${ORIGIN}/artists/${slug}#artist`) || null);
+    }
+    return artistNodeCache.get(key);
+  }
+
+  // Checks one served event page; returns its MusicEvent node (or null).
+  async function checkEventPage(event, artistName, envOverride, label) {
+    const pathname = eventPagesModule.eventPath(event);
+    const response = await render(pathname, "tourticketcompare.com", envOverride);
+    const html = await response.text();
+    if (response.status !== 200) {
+      fail(`${label} ${pathname}: expected a served event page, got ${response.status}`);
+      return null;
+    }
+    assertApexHead(html, pathname);
+    const page = visiblePage(html);
+    if (page.robots !== "noindex,follow") fail(`${label} ${pathname}: robots is "${page.robots}", expected noindex,follow`);
+    const graph = extractGraph(html, pathname);
+    if (!graph) return null;
+    const t = types(graph);
+    if (!t.includes("Organization") || !t.includes("WebSite")) fail(`${label} ${pathname}: the site Organization/WebSite nodes are missing`);
+    for (const banned of ["Offer", "AggregateOffer", "FAQPage", "Review", "AggregateRating", "Product"]) {
+      if (t.includes(banned)) fail(`${label} ${pathname}: emits a ${banned} node`);
+    }
+    if (new Set(graph.map((node) => node["@id"]).filter(Boolean)).size !== graph.filter((node) => node["@id"]).length) {
+      fail(`${label} ${pathname}: two graph nodes share an @id`);
+    }
+
+    // Breadcrumbs: the structured trail is the visible trail, item for item,
+    // and every crumb but the page itself is a page that renders.
+    const breadcrumb = graph.find((node) => node["@type"] === "BreadcrumbList");
+    const trail = (breadcrumb?.itemListElement || []).map((item) => `${item.position}|${item.name}|${item.item}`);
+    const visibleTrail = page.crumbs.map((crumb, index) => `${index + 1}|${crumb.name}|${ORIGIN}${crumb.current ? pathname : crumb.href}`);
+    if (!breadcrumb || JSON.stringify(trail) !== JSON.stringify(visibleTrail)) {
+      fail(`${label} ${pathname}: BreadcrumbList does not match the visible breadcrumb\n    schema:  ${trail.join(" > ")}\n    visible: ${visibleTrail.join(" > ")}`);
+    }
+    if (!page.crumbs.at(-1)?.current) fail(`${label} ${pathname}: the visible breadcrumb does not end at the page`);
+    for (const crumb of page.crumbs.slice(0, -1)) {
+      if ((await statusOf(crumb.href, envOverride)) !== 200) fail(`${label} ${pathname}: breadcrumb ${crumb.href} does not render`);
+    }
+    // The artist-city crumb appears exactly when that page renders.
+    const artistCityPath = `/artists/${event.artist_slug}/tickets/${citySlug(event.city, event.country)}`;
+    const hasCityCrumb = page.crumbs.some((crumb) => crumb.href === artistCityPath);
+    if (!hasCityCrumb && (await statusOf(artistCityPath, envOverride)) === 200) {
+      fail(`${label} ${pathname}: ${artistCityPath} renders but the breadcrumb skips it`);
+    }
+
+    const nodes = graph.filter((node) => node["@type"] === "MusicEvent");
+    const localDate = resolveEventLocalDate(event).iso;
+    const visibleDate = decode(page.facts.Date);
+    const expectedStatus = visibleDate === dateLabel(localDate) ? expectedEventStatus(event) : "";
+    const lifecycle = lifecycleOf(event);
+    const statusLine = decode(page.facts.Status);
+    if (VISIBLE_STATUS[lifecycle] && !VISIBLE_STATUS[lifecycle].test(statusLine)) {
+      fail(`${label} ${pathname}: visible status "${statusLine}" does not state the ${lifecycle} lifecycle`);
+    }
+    if (!expectedStatus) {
+      if (nodes.length) fail(`${label} ${pathname}: ${nodes.length} MusicEvent node(s), expected none (${lifecycle}, schema gate not met)`);
+      return null;
+    }
+    if (nodes.length !== 1) {
+      fail(`${label} ${pathname}: ${nodes.length} MusicEvent node(s), expected exactly 1`);
+      return null;
+    }
+    const node = nodes[0];
+    const canonicalUrl = `${ORIGIN}${pathname}`;
+    const problems = [];
+    if (Object.keys(node).sort().join(",") !== EVENT_NODE_KEYS) problems.push(`properties are [${Object.keys(node).sort()}], expected [${EVENT_NODE_KEYS}]`);
+    if (node["@id"] !== `${canonicalUrl}#event`) problems.push(`@id ${node["@id"]} is not the canonical URL + #event`);
+    if (node.url !== canonicalUrl) problems.push(`url ${node.url} is not the canonical URL`);
+    if (node.eventStatus !== expectedStatus) problems.push(`eventStatus ${node.eventStatus}, expected ${expectedStatus}`);
+    const venue = String(event.venue || "").trim();
+    const city = String(event.city || "").trim();
+    if (node.name !== `${artistName} at ${venue}`) problems.push(`name "${node.name}" is not "${artistName} at ${venue}"`);
+    if (!page.h1.startsWith(`${node.name}, ${city} — `)) problems.push(`name "${node.name}" is not the visible H1 "${page.h1}"`);
+    if (node.location?.["@type"] !== "Place" || node.location?.name !== venue || decode(page.facts.Venue) !== venue) problems.push(`location name "${node.location?.name}" is not the visible venue "${decode(page.facts.Venue)}"`);
+    const address = node.location?.address || {};
+    const visibleCity = decode(page.facts.City);
+    if (address["@type"] !== "PostalAddress" || address.addressLocality !== city || !visibleCity.startsWith(city)) problems.push(`addressLocality "${address.addressLocality}" is not the visible city "${visibleCity}"`);
+    const visibleCountry = visibleCity.slice(city.length).replace(/^,\s*/, "");
+    if (Boolean(visibleCountry) !== Boolean(address.addressCountry)) problems.push(`addressCountry "${address.addressCountry || ""}" does not match the visible country "${visibleCountry}"`);
+    else if (address.addressCountry && !/^[A-Z]{2}$/.test(address.addressCountry) && address.addressCountry !== visibleCountry) problems.push(`addressCountry "${address.addressCountry}" is neither an ISO code nor the visible country`);
+    if (Object.keys(address).some((key) => !["@type", "addressLocality", "addressCountry"].includes(key))) problems.push("address carries a field TTC does not hold");
+    if (Object.keys(node.location || {}).some((key) => !["@type", "name", "address"].includes(key))) problems.push("location carries a field TTC does not hold");
+
+    // startDate: the venue-local date the path, H1 and facts carry; the
+    // instant the record stores; and a clock time only where the page prints one.
+    const startDate = String(node.startDate || "");
+    if (startDate.slice(0, 10) !== localDate || !pathname.includes(`-${localDate}-`)) problems.push(`startDate ${startDate} is not the venue-local date ${localDate}`);
+    if (visibleDate !== dateLabel(startDate.slice(0, 10))) problems.push(`startDate ${startDate} is not the visible date "${visibleDate}"`);
+    const visibleTime = decode(page.facts["Start time"]).replace(/ local time$/, "");
+    if (/T\d{2}:\d{2}/.test(startDate)) {
+      const raw = String(event.datetime_iso || "").trim();
+      if (/(Z|[+-]\d{2}:?\d{2})$/.test(raw)) {
+        if (!/[+-]\d{2}:\d{2}$/.test(startDate)) problems.push(`startDate ${startDate} carries no UTC offset`);
+        if (Date.parse(startDate) !== Date.parse(raw)) problems.push(`startDate ${startDate} is not the stored instant ${raw}`);
+      }
+      if (visibleTime !== timeLabel(startDate.slice(11, 16))) problems.push(`startDate time ${startDate.slice(11, 16)} is not the visible start time "${visibleTime}"`);
+    } else if (startDate !== localDate) {
+      problems.push(`startDate ${startDate} is neither a local date-time nor the local date`);
+    } else if (visibleTime) {
+      problems.push(`startDate is date-only but the page prints a start time "${visibleTime}"`);
+    }
+
+    // Performer: the artist page's own entity, by @id, with the same type.
+    const artistId = `${ORIGIN}/artists/${event.artist_slug}#artist`;
+    const performerNode = graph.find((entry) => entry["@id"] === artistId);
+    const canonicalArtist = await artistNode(event.artist_slug, envOverride);
+    if (node.performer?.["@id"] !== artistId || Object.keys(node.performer || {}).length !== 1) problems.push(`performer ${JSON.stringify(node.performer)} is not a reference to ${artistId}`);
+    if (!canonicalArtist) problems.push(`the artist page emits no node at ${artistId}`);
+    else if (performerNode?.["@type"] !== canonicalArtist["@type"] || performerNode?.name !== canonicalArtist.name) problems.push(`performer node ${JSON.stringify(performerNode)} disagrees with the artist page's ${canonicalArtist["@type"]} "${canonicalArtist.name}"`);
+    if (!page.facts.Artist?.includes(`href="/artists/${event.artist_slug}"`)) problems.push("the visible Artist fact does not link the artist page");
+
+    if (node.image !== page.ogImage || node.image !== `${ORIGIN}${OG_CARDS[pathname]?.url || "/og-image.png"}`) problems.push(`image ${node.image} is not the page's og:image ${page.ogImage}`);
+    if (/offer|price|availability|inventory/i.test(JSON.stringify(node))) problems.push("carries offer/price/availability data");
+    if (/\/api\/out/.test(JSON.stringify(graph))) problems.push("structured data links /api/out");
+    for (const problem of problems) fail(`${label} ${pathname}: MusicEvent ${problem}`);
+    return node;
+  }
+
+  // 8a. Every served event page on real data.
+  {
+    const nameBySlug = new Map((catalog.artists || []).map((artist) => [String(artist.slug), String(artist.name || artist.slug)]));
+    const counts = { served: 0, withNode: 0, byStatus: {}, withoutNode: {} };
+    for (const event of events) {
+      const pathname = eventPagesModule.eventPath(event);
+      if (!pathname) continue;
+      const decision = eventPagesModule.resolveEventRoute(events, artistsMeta, pathname);
+      if (decision.action !== eventPagesModule.EVENT_ROUTE_ACTION.RENDER) continue;
+      counts.served += 1;
+      const node = await checkEventPage(event, nameBySlug.get(String(event.artist_slug)) || "", env, "event page");
+      if (node) {
+        counts.withNode += 1;
+        counts.byStatus[node.eventStatus] = (counts.byStatus[node.eventStatus] || 0) + 1;
+      } else {
+        const reason = eventPagesModule.eventPageSchemaDecision(event).reason || "date_disagreement";
+        counts.withoutNode[reason] = (counts.withoutNode[reason] || 0) + 1;
+      }
+    }
+    if (!counts.served) fail("event pages: no served event page to check");
+    ok(`${counts.served} served event page(s) checked: ${counts.withNode} emit one MusicEvent ${JSON.stringify(counts.byStatus)}, ${counts.served - counts.withNode} emit none ${JSON.stringify(counts.withoutNode)}; every node matches its visible page`);
+
+    // Indexing is untouched: no event URL in any sitemap segment or llms.txt.
+    const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
+    const { onRequestGet: llmsGet } = await import(pathToFileURL(path.join(root, "functions/llms.txt.js")));
+    const request = (p) => ({ request: new Request(`${ORIGIN}${p}`), env });
+    const bodies = [await (await sitemapModule.onRequestGet(request("/sitemap.xml"))).text(), await (await llmsGet(request("/llms.txt"))).text()];
+    for (const segment of sitemapModule.SITEMAP_SEGMENTS) bodies.push(await (await sitemapModule.segmentHandler(segment)(request(`/sitemaps/${segment}.xml`))).text());
+    if (bodies.some((body) => body.includes("/events/"))) fail("event pages: an event URL appears in a sitemap or llms.txt");
+    else ok(`event pages: absent from the sitemap index, all ${sitemapModule.SITEMAP_SEGMENTS.length} segments and llms.txt`);
+  }
+
+  // 8b. Lifecycle, timing and commercial-safety fixtures on a real indexable
+  // artist, rendered with the schema-offers flag on, every marketplace lane
+  // configured and a fresh approved price row for every fixture date — the
+  // most permissive environment the site runs — so a withheld offer is
+  // withheld by the event-page rule, not by a missing flag.
+  {
+    const catalogSlugs = new Set((catalog.artists || []).map((artist) => String(artist.slug)));
+    const artist = artistsMeta.find((entry) => entry?.indexing_status === "indexable_with_substantial_content" && catalogSlugs.has(String(entry.slug)) && entry.promotion_source !== "auto");
+    const artistName = String((catalog.artists || []).find((entry) => entry.slug === artist.slug)?.name || artist.slug);
+    function fixture(id, iso, extra = {}, { ticketmaster = true, vivid = true } = {}) {
+      const tm = ticketmaster ? `https://www.ticketmaster.com/event/${id.toUpperCase()}` : "";
+      const numeric = String(Math.abs([...id].reduce((acc, ch) => acc * 31 + ch.charCodeAt(0), 7)) % 9000000 + 1000000);
+      const vs = `https://www.vividseats.com/fixture-springfield--concerts-pop/production/${numeric}`;
+      const record = {
+        id, artist_slug: artist.slug, artist_name: artistName, event_name: `${artistName}: Fixture Tour | Official Platinum`,
+        city: "Springfield", country: "United States", venue: "Fixture Arena", datetime_iso: iso, timezone: "America/Chicago",
+        status: "on-sale", ticketmaster_event_id: id.toUpperCase(), ticketmaster_url: tm, source_url: tm, source_type: "ticketmaster",
+        last_verified_at: "2026-08-01", verification_status: "human_verified", provider_links: {}, ...extra
+      };
+      if (tm) record.provider_links.ticketmaster = { event_id: id.toUpperCase(), url: tm, verified: true, last_verified_at: "2026-08-01" };
+      if (vivid) {
+        record.vividseats_url = vs;
+        record.provider_links["vivid-seats"] = { event_id: numeric, url: vs, verified: true, last_verified_at: "2026-08-01" };
+      }
+      return record;
+    }
+    const day = 24 * 60 * 60 * 1000;
+    // A venue-local 20:00 in Springfield (America/Chicago) is 01:00Z the next
+    // UTC day, so every fixture's UTC and local dates differ.
+    const at = (daysAhead, utcTime = "01:00:00") => `${new Date(Date.now() + daysAhead * day).toISOString().slice(0, 10)}T${utcTime}Z`;
+    const SCHEDULED = fixture("schema-fixture-scheduled", at(30));
+    const RESCHEDULED = fixture("schema-fixture-rescheduled", at(31), { ticketmaster_status_code: "rescheduled" });
+    const CANCELLED = fixture("schema-fixture-cancelled", at(32), { ticketmaster_status_code: "cancelled" });
+    const POSTPONED = fixture("schema-fixture-postponed", at(33), { ticketmaster_status_code: "postponed" });
+    const UNRECOGNISED = fixture("schema-fixture-unrecognised", at(34), { ticketmaster_status_code: "paused" });
+    const PRE_ONSALE = fixture("schema-fixture-pre-onsale", at(35), { status: "announced", public_onsale_at: new Date(Date.now() + 5 * day).toISOString() }, { vivid: false });
+    const RESALE_ONLY = fixture("schema-fixture-resale-only", at(36), {}, { ticketmaster: false });
+    // 00:00 venue-local (Phoenix keeps UTC-7 all year): a date-only record,
+    // which the page prints without a start time.
+    const MIDNIGHT = fixture("schema-fixture-midnight", at(37, "07:00:00"), { city: "Phoenix", venue: "Fixture Hall", timezone: "America/Phoenix" });
+    const OFFSET = fixture("schema-fixture-offset", `${at(38).slice(0, 10)}T19:30:00-05:00`);
+    // Stored offset (Chicago) and zone (Berlin) disagree about the date: the
+    // path says one day, the visible date another, so no node at all.
+    const DISAGREE = fixture("schema-fixture-disagree", `${at(39).slice(0, 10)}T20:30:00-05:00`, { timezone: "Europe/Berlin" });
+    const HELD_ELSEWHERE = fixture("schema-fixture-held-elsewhere", at(40), { ticketmaster_status_code: "cancelled", city: "Shelbyville", venue: "Shelby Hall" });
+    const DUSSELDORF = fixture("schema-fixture-dusseldorf", `${at(41).slice(0, 10)}T22:30:00Z`, { city: "Düsseldorf", country: "Germany", venue: "Merkur Spiel-Arena", timezone: "Europe/Berlin" });
+    const UPSELL = fixture("schema-fixture-upsell", at(42), { event_name: `${artistName} | Box seat in the Ticketmaster Suite` });
+    const PAST = fixture("schema-fixture-past", at(-3));
+    const FIXTURES = [SCHEDULED, RESCHEDULED, CANCELLED, POSTPONED, UNRECOGNISED, PRE_ONSALE, RESALE_ONLY, MIDNIGHT, OFFSET, DISAGREE, HELD_ELSEWHERE, DUSSELDORF, UPSELL, PAST];
+
+    const rows = FIXTURES.map((event) => ({
+      event_id: event.id, provider: "vivid-seats", low_price: 123.45, avg_price: null, high_price: null, currency: "USD", inventory_count: 7,
+      verified_at: new Date(Date.now() - 60 * 60 * 1000).toISOString(), expires_at: new Date(Date.now() + 60 * 60 * 1000).toISOString(),
+      source: "vividseats_impact_marketplace_api"
+    }));
+    const fixtureDb = {
+      prepare(sql) {
+        return {
+          bind(...params) {
+            const wanted = new Set(params.map(String));
+            return {
+              async all() { return { results: /provider_pricing_cache/.test(sql) ? rows.filter((row) => wanted.has(row.event_id)) : [] }; },
+              async first() { return null; },
+              async run() { return { success: true }; }
+            };
+          }
+        };
+      }
+    };
+    function fixtureEnv(fixtureEvents) {
+      const eventsJson = JSON.stringify(fixtureEvents);
+      return {
+        SCHEMA_OFFERS_ENABLED: "true",
+        IMPACT_SEATGEEK_ACCOUNT_SID: "fixture-account-sid",
+        IMPACT_SEATGEEK_AUTH_TOKEN: "fixture-auth-token",
+        IMPACT_VIVIDSEATS_CAMPAIGN_ID: "fixture-vividseats-campaign",
+        VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true",
+        DEMAND_DB: fixtureDb,
+        ASSETS: {
+          async fetch(input) {
+            const url = new URL(input instanceof Request ? input.url : input);
+            if (url.pathname === "/data/events.json") return new Response(eventsJson, { status: 200 });
+            // No artist partition: the artist board falls back to the fixture set.
+            if (url.pathname.startsWith("/data/events/")) return new Response("not found", { status: 404 });
+            return env.ASSETS.fetch(input);
+          }
+        }
+      };
+    }
+    const fenv = fixtureEnv(FIXTURES);
+    const check = (event, label) => checkEventPage(event, artistName, fenv, `event fixture ${label}`);
+    const jsonLdIn = (html) => /application\/ld\+json/.test(html);
+
+    const scheduled = await check(SCHEDULED, "scheduled");
+    if (scheduled?.eventStatus === STATUS_URL.scheduled && /-05:00$/.test(scheduled.startDate) && scheduled.startDate.startsWith(resolveEventLocalDate(SCHEDULED).iso) && !SCHEDULED.datetime_iso.startsWith(resolveEventLocalDate(SCHEDULED).iso)) {
+      ok(`event fixture scheduled: EventScheduled at the venue-local ${scheduled.startDate} (stored ${SCHEDULED.datetime_iso}, a UTC date one day later)`);
+    } else fail(`event fixture scheduled: expected EventScheduled at a venue-local -05:00 time, got ${JSON.stringify(scheduled)}`);
+    if (scheduled && /Official Platinum/.test(scheduled.name)) fail("event fixture scheduled: the provider listing title leaked into the name");
+
+    // The same fresh approved row renders a price on the page and an Offer on
+    // the parent artist board (exception C, unchanged), but never on the event node.
+    {
+      const html = await (await render(eventPagesModule.eventPath(SCHEDULED), "tourticketcompare.com", fenv)).text();
+      const parentGraph = extractGraph(await (await render(`/artists/${artist.slug}`, "tourticketcompare.com", fenv)).text(), `/artists/${artist.slug}`) || [];
+      const parentNode = parentGraph.find((node) => node["@type"] === "MusicEvent" && String(node.url).endsWith(`#show-${SCHEDULED.id}`));
+      if (!/\$123\.45/.test(html)) fail("event fixture scheduled: the visible price badge is missing, so the no-offer check proves nothing");
+      else if (!(parentNode?.offers?.length === 1)) fail("event fixture scheduled: the parent artist board no longer emits its gated Offer for the same row");
+      else if (scheduled && "offers" in scheduled) fail("event fixture scheduled: the event-page node carries offers");
+      else ok("event fixture scheduled: visible price and parent-board Offer present, event-page node carries no offers");
+      if (parentNode && (parentNode.url !== `${ORIGIN}/artists/${artist.slug}#show-${SCHEDULED.id}` || "@id" in parentNode)) fail("event fixture: the parent node's identity changed");
+    }
+
+    const rescheduled = await check(RESCHEDULED, "rescheduled");
+    if (rescheduled?.eventStatus === STATUS_URL.rescheduled && !("previousStartDate" in rescheduled)) ok("event fixture rescheduled: EventRescheduled at the current date, no previousStartDate");
+    else fail(`event fixture rescheduled: got ${JSON.stringify(rescheduled)}`);
+    {
+      // A date move changes the readable slug: the old URL 301s before any schema.
+      const moved = { ...RESCHEDULED, datetime_iso: at(45) };
+      const movedEnv = fixtureEnv(FIXTURES.map((event) => (event.id === RESCHEDULED.id ? moved : event)));
+      const oldPath = eventPagesModule.eventPath(RESCHEDULED);
+      const response = await render(oldPath, "tourticketcompare.com", movedEnv);
+      const body = await response.text();
+      if (response.status !== 301 || response.headers.get("location") !== `${ORIGIN}${eventPagesModule.eventPath(moved)}` || jsonLdIn(body)) {
+        fail(`event fixture rescheduled: the old slug answered ${response.status} → ${response.headers.get("location")}, expected a 301 to the new path with no JSON-LD`);
+      } else {
+        const node = await checkEventPage(moved, artistName, movedEnv, "event fixture moved");
+        if (node?.url === `${ORIGIN}${eventPagesModule.eventPath(moved)}` && node.startDate.startsWith(resolveEventLocalDate(moved).iso)) ok("event fixture rescheduled: the old slug 301s with no schema; the current URL describes the new date");
+        else fail(`event fixture moved: got ${JSON.stringify(node)}`);
+      }
+    }
+
+    for (const [event, status] of [[CANCELLED, STATUS_URL.cancelled], [POSTPONED, STATUS_URL.postponed], [HELD_ELSEWHERE, STATUS_URL.cancelled]]) {
+      const node = await check(event, event.id);
+      const html = await (await render(eventPagesModule.eventPath(event), "tourticketcompare.com", fenv)).text();
+      const main = html.slice(html.indexOf("<main"), html.indexOf("</main>"));
+      if (node?.eventStatus !== status) fail(`event fixture ${event.id}: expected ${status}, got ${JSON.stringify(node)}`);
+      else if (/\/api\/out|\$\d/.test(main) || /offer|price|availability/i.test(JSON.stringify(extractGraph(html, event.id).filter((entry) => entry["@type"] !== "Organization")))) fail(`event fixture ${event.id}: a held page exposes a ticket link, price, offer or availability`);
+      else ok(`event fixture ${event.id}: ${status.replace("https://schema.org/", "")}, with no ticket link, price, Offer or availability on page or in schema`);
+    }
+    {
+      const html = await (await render(eventPagesModule.eventPath(HELD_ELSEWHERE), "tourticketcompare.com", fenv)).text();
+      if (/\/tickets\/shelbyville/.test(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)?.[1] || "")) fail("event fixture held-elsewhere: the breadcrumb names an artist-city page that does not render");
+      else ok("event fixture held-elsewhere: no artist-city crumb where that page does not render");
+    }
+
+    for (const [event, label] of [[UNRECOGNISED, "unrecognised status"], [PRE_ONSALE, "pre-on-sale"], [RESALE_ONLY, "resale-only (no Ticketmaster source)"], [DISAGREE, "offset/zone date disagreement"]]) {
+      const response = await render(eventPagesModule.eventPath(event), "tourticketcompare.com", fenv);
+      const graph = extractGraph(await response.text(), event.id) || [];
+      await check(event, event.id);
+      if (response.status === 200 && !graph.some((node) => node["@type"] === "MusicEvent")) ok(`event fixture ${label}: page serves, no MusicEvent`);
+      else fail(`event fixture ${label}: expected a served page with no MusicEvent (got ${response.status})`);
+    }
+
+    const midnight = await check(MIDNIGHT, "midnight");
+    if (midnight?.startDate === resolveEventLocalDate(MIDNIGHT).iso) ok(`event fixture date-only: startDate ${midnight.startDate} states no time the page does not print`);
+    else fail(`event fixture date-only: expected a date-only startDate, got ${midnight?.startDate}`);
+    const offset = await check(OFFSET, "offset");
+    if (offset?.startDate === OFFSET.datetime_iso) ok(`event fixture numeric offset: startDate is the stored local time ${offset.startDate}`);
+    else fail(`event fixture numeric offset: got ${offset?.startDate}`);
+    const dusseldorf = await check(DUSSELDORF, "dusseldorf");
+    if (dusseldorf?.startDate === `${resolveEventLocalDate(DUSSELDORF).iso}T00:30:00+02:00` || dusseldorf?.startDate === `${resolveEventLocalDate(DUSSELDORF).iso}T23:30:00+01:00`) {
+      ok(`event fixture non-US zone: ${dusseldorf.location.address.addressLocality}, ${dusseldorf.location.address.addressCountry} at ${dusseldorf.startDate}`);
+    } else fail(`event fixture non-US zone: got ${JSON.stringify(dusseldorf)}`);
+
+    for (const [event, label, expected] of [[UPSELL, "non-performance listing", 404], [PAST, "past event", 301]]) {
+      const response = await render(eventPagesModule.eventPath(event), "tourticketcompare.com", fenv);
+      const body = await response.text();
+      if (response.status === expected && !/"MusicEvent"/.test(body)) ok(`event fixture ${label}: ${expected}, no event schema`);
+      else fail(`event fixture ${label}: got ${response.status}${/"MusicEvent"/.test(body) ? " with a MusicEvent" : ""}, expected ${expected} and no event schema`);
     }
   }
 }

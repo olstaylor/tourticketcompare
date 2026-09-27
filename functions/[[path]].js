@@ -36,7 +36,7 @@ import {
   priceGuideRouteDecision
 } from "./_price-guides.js";
 import { derivePriceMove, fetchEventPriceMoveSeries, PRICE_MOVE_WINDOW_DAYS } from "./_event-price-moves.js";
-import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventPageLinker, resolveEventRoute } from "./_event-pages.js";
+import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -1133,6 +1133,85 @@ function venueLocalIso(iso, timezone) {
   }
 }
 
+// Structured data for an individual event page (/events/<slug>-<key>): the one
+// performance the page shows, identified by the page itself. It is built here
+// rather than through musicEventNode so the artist, artist-city, city and venue
+// nodes stay exactly as they were (they keep their #show-<id> urls until the
+// event-indexing rollout decides otherwise). Every value is one the page
+// states: the H1's artist and venue, the facts' city and country, the
+// venue-local date and start time, and the Ticketmaster status line.
+// eventPageSchemaDecision (functions/_event-pages.js) decides whether there is
+// a node at all and which eventStatus it carries. There are no `offers` on
+// this node under any flag — SCHEMA_OFFERS_ENABLED covers the parent boards
+// only — and no description, organizer, endDate or previousStartDate: none is
+// a fact the page holds beyond what the other fields already say.
+function eventPageSchema(route, origin, catalog, now = Date.now()) {
+  const decision = eventPageSchemaDecision(route.event, { now });
+  if (!decision.eligible) return [];
+  const show = enrichEventAsShow(route.event);
+  const startDate = eventPageStartDate(show, route.eventState?.localDate);
+  if (!startDate || !show.venue || !show.city) return [];
+  const artist = route.artist;
+  const artistPath = `/artists/${artist.slug}`;
+  // The artist page's own Person/MusicGroup @id, referenced — never a second
+  // identity for the same artist.
+  const artistId = `${origin}${artistPath}#artist`;
+  const pageUrl = `${origin}${route.path}`;
+  const address = { "@type": "PostalAddress", addressLocality: show.city };
+  if (show.country) address.addressCountry = schemaCountry(show.country);
+  return [
+    { "@type": performerTypeForArtist(catalog, artist.slug), "@id": artistId, name: artist.name, url: `${origin}${artistPath}` },
+    {
+      "@type": "MusicEvent",
+      "@id": `${pageUrl}#event`,
+      url: pageUrl,
+      name: `${artist.name} at ${show.venue}`,
+      startDate,
+      eventStatus: decision.eventStatus,
+      // Every tracked show is an in-person concert at a named venue, as on the
+      // parent nodes.
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      location: { "@type": "Place", name: show.venue, address },
+      performer: { "@id": artistId },
+      // The page's own og:image (the shared brand card: event pages have no
+      // per-page card), as every MusicEvent.image on the site is.
+      image: ogCardUrl(route, origin)
+    }
+  ];
+}
+
+// startDate for an event page, or "" when it cannot be stated safely. The
+// venue-local form comes from venueLocalIso, the helper the parent nodes use.
+// Where the page prints no start time (a record whose venue-local time is
+// midnight is date-only; showLocalTimeServer), the node states the date alone
+// rather than claiming a midnight start. Either way its calendar date must be
+// the venue-local date the page's H1, facts and path carry (`localDate`, from
+// the strict resolver the router used); a record whose stored offset and zone
+// disagree gets no node.
+function eventPageStartDate(show, localDate) {
+  const date = String(localDate || "");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return "";
+  if (visibleDateIso(show.dateTimeISO, show.timezone) !== date) return "";
+  const startDate = showLocalTimeServer(show.dateTimeISO, show.timezone) ? venueLocalIso(show.dateTimeISO, show.timezone) : date;
+  return startDate.slice(0, 10) === date ? startDate : "";
+}
+
+// The calendar date formatShowDateServer prints for a stored datetime, as
+// YYYY-MM-DD (same venueDateParts resolution), or "".
+function visibleDateIso(iso, timezone) {
+  const parts = venueDateParts(iso, timezone);
+  if (!parts) return "";
+  try {
+    const lookup = {};
+    for (const part of dateFormatter({ year: "numeric", month: "2-digit", day: "2-digit" }, parts.timeZone).formatToParts(parts.date)) {
+      lookup[part.type] = part.value;
+    }
+    return lookup.year && lookup.month && lookup.day ? `${lookup.year}-${lookup.month}-${lookup.day}` : "";
+  } catch (error) {
+    return "";
+  }
+}
+
 // Mirror of artistSchema's Person/MusicGroup selection so venue/city inline
 // performers carry the same type the artist page uses.
 function performerTypeForArtist(catalog, artistSlug) {
@@ -1308,6 +1387,7 @@ function blogPostingSchema(route, origin) {
 function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}, env = {}) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
+  if (route.type === "event") graph.push(...eventPageSchema(route, origin, catalog));
   // The author page is the one route that carries a Person node.
   if (route.path === AUTHOR_PATH) graph.push(personSchema(origin));
   if (route.type === "artist") {
@@ -5406,7 +5486,8 @@ function eventStatusFact(show) {
 // One event: the facts, the same show card every board renders (so the same
 // CTA gates, /api/out links, price snapshots and lifecycle hold), the recorded
 // low and latest move for the same date where there is one, and links back to
-// the artist's pages. No FAQ, no generated copy, no event structured data.
+// the artist's pages. No FAQ and no generated copy; its structured data
+// (eventPageSchema) encodes only the facts rendered here.
 function renderEventPageBody(route, events, env) {
   const artist = route.artist;
   const eventId = String(route.event.id || "").trim();

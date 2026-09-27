@@ -3,8 +3,9 @@
 // Read-only diagnostic for the event identity foundation (functions/_event-pages.js).
 // Reports, for the current events.json: stable-key uniqueness, venue-local
 // date coverage, what the live /events/* router does with each upcoming
-// event's canonical path (resolveEventRoute: render, 301 or 404, and why), the
-// preview-only indexability signals, the non-performance listings, and
+// event's canonical path (resolveEventRoute: render, 301 or 404, and why),
+// which served pages may carry a MusicEvent node and with which status
+// (eventPageSchemaDecision), the preview-only indexability signals, the non-performance listings, and
 // possible duplicate listings.
 //
 // Every figure comes from functions/_event-pages.js; per-event publishable
@@ -23,6 +24,7 @@ import {
   buildEventKeyIndex,
   deriveEventRouteStates,
   eventIndexSignals,
+  eventPageSchemaDecision,
   possibleDuplicateGroups,
   previewEventIndexability,
   resolveEventRoute,
@@ -62,6 +64,11 @@ const decisions = upcoming.map((state) => {
 const byAction = (action) => decisions.filter((entry) => entry.action === action);
 const served = byAction(EVENT_ROUTE_ACTION.RENDER);
 
+// Structured data on each served page, by the module's decision. The renderer
+// additionally withholds the node when the stored offset and zone disagree on
+// the visible date; scripts/validate-route-schema.mjs counts the rendered nodes.
+const schema = served.map((entry) => eventPageSchemaDecision(eventById.get(entry.state.id), { now }));
+
 const preview = renderable.map((state) => {
   const event = eventById.get(state.id);
   const signals = eventIndexSignals(event, { publishableLanes: publishableLaneSlugs(event, isConfigured), now });
@@ -95,6 +102,11 @@ const report = {
     redirect_by_reason: tally(byAction(EVENT_ROUTE_ACTION.REDIRECT).map((entry) => entry.reason)),
     not_found_by_reason: tally(byAction(EVENT_ROUTE_ACTION.NOT_FOUND).map((entry) => entry.reason))
   },
+  structured_data: {
+    served_with_node: schema.filter((decision) => decision.eligible).length,
+    by_status: tally(schema.filter((decision) => decision.eligible).map((decision) => decision.eventStatus.replace("https://schema.org/", ""))),
+    served_without_node_by_reason: tally(schema.filter((decision) => !decision.eligible).map((decision) => decision.reason))
+  },
   preview_only_indexability: {
     would_qualify: preview.filter((entry) => entry.verdict.wouldQualify).length,
     excluded_by_reason: tally(preview.flatMap((entry) => entry.verdict.reasons)),
@@ -122,6 +134,9 @@ if (process.argv.includes("--json")) {
     `  served (200, noindex): ${report.routing.served_noindex} · commercially live ${report.routing.served_commercially_live} · held ${report.routing.served_held} · pre-on-sale ${report.routing.served_pre_onsale}`,
     `  301 to parent, by reason: ${JSON.stringify(report.routing.redirect_by_reason)}`,
     `  404, by reason: ${JSON.stringify(report.routing.not_found_by_reason)}`,
+    "",
+    "Structured data on served pages (noindex; not an indexing count):",
+    `  one MusicEvent: ${report.structured_data.served_with_node} ${JSON.stringify(report.structured_data.by_status)} · none, by reason: ${JSON.stringify(report.structured_data.served_without_node_by_reason)}`,
     "",
     "Preview only — not read by the router, sitemap, llms.txt or robots:",
     `  would qualify (≥2 publishable destinations, ≥1 snapshot-ready lane, artist page indexable, not a non-performance listing): ${report.preview_only_indexability.would_qualify} of ${report.renderable}`,

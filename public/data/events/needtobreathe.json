@@ -66,7 +66,7 @@
     "ticketmaster_event_id": "2100652FD63A6714",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-waukee-vibrant-music-hall-2-19-2027/production/7611476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-waukee-iowa-02-19-2027/event/2100652FD63A6714",
     "last_verified_at": null,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611476,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-waukee-vibrant-music-hall-2-19-2027/production/7611476",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -120,7 +120,7 @@
     "ticketmaster_event_id": "06006532EE74EA8A",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-minneapolis-armory---minneapolis-2-20-2027/production/7611470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-minneapolis-minnesota-02-20-2027/event/06006532EE74EA8A",
     "last_verified_at": null,
@@ -142,11 +142,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611470,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-minneapolis-armory---minneapolis-2-20-2027/production/7611470",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -174,7 +174,7 @@
     "ticketmaster_event_id": "0600653093BD6B51",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-duluth-decc-symphony-hall-2-21-2027/production/7611482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
     "last_verified_at": null,
@@ -196,11 +196,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611482,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-duluth-decc-symphony-hall-2-21-2027/production/7611482",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -228,7 +228,7 @@
     "ticketmaster_event_id": "0700652FE5BC6303",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-madison-the-sylvee-2-25-2027/production/7611480",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
     "last_verified_at": null,
@@ -250,11 +250,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611480,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-madison-the-sylvee-2-25-2027/production/7611480",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282,7 +282,7 @@
     "ticketmaster_event_id": "08006532CF9594F2",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-grand-rapids-glc-live-at-20-monroe-2-26-2027/production/7611486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
     "last_verified_at": null,
@@ -304,11 +304,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611486,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-grand-rapids-glc-live-at-20-monroe-2-26-2027/production/7611486",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -336,7 +336,7 @@
     "ticketmaster_event_id": "160065329D4462DA",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-cincinnati-andrew-j-brady-music-center-2-27-2027/production/7611488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-cincinnati-ohio-02-27-2027/event/160065329D4462DA",
     "last_verified_at": null,
@@ -358,11 +358,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611488,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-cincinnati-andrew-j-brady-music-center-2-27-2027/production/7611488",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -390,7 +390,7 @@
     "ticketmaster_event_id": "00006538B4ABEE89",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-brooklyn-brooklyn-paramount-3-4-2027/production/7611490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
     "last_verified_at": null,
@@ -412,11 +412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611490,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-brooklyn-brooklyn-paramount-3-4-2027/production/7611490",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -444,7 +444,7 @@
     "ticketmaster_event_id": "0100652A1103BD3F",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-boston-mgm-music-hall-at-fenway-3-5-2027/production/7611492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
     "last_verified_at": null,
@@ -466,11 +466,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611492,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-boston-mgm-music-hall-at-fenway-3-5-2027/production/7611492",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -498,7 +498,7 @@
     "ticketmaster_event_id": "15006535DC69B176",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-washington-dc-the-anthem-3-6-2027/production/7611494",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-washington-district-of-columbia-03-06-2027/event/15006535DC69B176",
     "last_verified_at": null,
@@ -520,11 +520,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611494,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-washington-dc-the-anthem-3-6-2027/production/7611494",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -552,7 +552,7 @@
     "ticketmaster_event_id": "16006535D7038C5B",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-pittsburgh-citizens-live-at-the-wylie-3-7-2027/production/7611496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-pittsburgh-pennsylvania-03-07-2027/event/16006535D7038C5B",
     "last_verified_at": null,
@@ -574,11 +574,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611496,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-pittsburgh-citizens-live-at-the-wylie-3-7-2027/production/7611496",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -660,7 +660,7 @@
     "ticketmaster_event_id": "2D006530D7C5AF57",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-asheville-harrahs-cherokee-center-asheville-3-11-2027/production/7611510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-asheville-north-carolina-03-11-2027/event/2D006530D7C5AF57",
     "last_verified_at": null,
@@ -682,11 +682,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611510,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-asheville-harrahs-cherokee-center-asheville-3-11-2027/production/7611510",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -714,7 +714,7 @@
     "ticketmaster_event_id": "1B0065309621A49F",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-chattanooga-soldiers-and-sailors-memorial-auditorium-3-12-2027/production/7611508",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chattanooga-tennessee-03-12-2027/event/1B0065309621A49F",
     "last_verified_at": null,
@@ -736,11 +736,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611508,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-chattanooga-soldiers-and-sailors-memorial-auditorium-3-12-2027/production/7611508",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -768,7 +768,7 @@
     "ticketmaster_event_id": "2D006531B6956999",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-columbia-township-auditorium-3-13-2027/production/7611518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
     "last_verified_at": null,
@@ -790,11 +790,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611518,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-columbia-township-auditorium-3-13-2027/production/7611518",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -822,7 +822,7 @@
     "ticketmaster_event_id": "22006535EE8A753E",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-orlando-hard-rock-live---orlando-3-14-2027/production/7611553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
     "last_verified_at": null,
@@ -844,11 +844,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611553,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-orlando-hard-rock-live---orlando-3-14-2027/production/7611553",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -876,7 +876,7 @@
     "ticketmaster_event_id": "1B006532A956D773",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-memphis-satellite-music-hall-3-17-2027/production/7611514",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
     "last_verified_at": null,
@@ -898,11 +898,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611514,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-memphis-satellite-music-hall-3-17-2027/production/7611514",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -930,7 +930,7 @@
     "ticketmaster_event_id": "1B006532A95BD788",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-memphis-satellite-music-hall-3-18-2027/production/7611516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
     "last_verified_at": null,
@@ -952,11 +952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611516,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-memphis-satellite-music-hall-3-18-2027/production/7611516",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -984,7 +984,7 @@
     "ticketmaster_event_id": "1B006513BE14F26C",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-new-orleans-fillmore-new-orleans-3-19-2027/production/7611578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
     "last_verified_at": null,
@@ -1006,11 +1006,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611578,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-new-orleans-fillmore-new-orleans-3-19-2027/production/7611578",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1038,7 +1038,7 @@
     "ticketmaster_event_id": "3A006531BA17D6E1",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-houston-713-music-hall-3-20-2027/production/7611498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-houston-texas-03-20-2027/event/3A006531BA17D6E1",
     "last_verified_at": null,
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611498,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-houston-713-music-hall-3-20-2027/production/7611498",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

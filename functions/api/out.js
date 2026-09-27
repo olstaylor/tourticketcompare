@@ -1246,6 +1246,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-haiden-henderson",
     redirectUrl: "https://seatgeek.com/haiden-henderson-tickets",
     verified: true
+  },
+  "dylan-scott:ticketmaster": {
+    artistSlug: "dylan-scott",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dylan-scott",
+    redirectUrl: "https://www.ticketmaster.com/dylan-scott-tickets/artist/2108264",
+    verified: true
+  },
+  "dylan-scott:seatgeek": {
+    artistSlug: "dylan-scott",
+    provider: "seatgeek",
+    linkId: "sg-artist-dylan-scott",
+    redirectUrl: "https://seatgeek.com/dylan-scott-tickets",
+    verified: true
+  },
+  "valley:ticketmaster": {
+    artistSlug: "valley",
+    provider: "ticketmaster",
+    linkId: "tm-artist-valley",
+    redirectUrl: "https://www.ticketmaster.com/valley-tickets/artist/2325710",
+    verified: true
+  },
+  "valley:seatgeek": {
+    artistSlug: "valley",
+    provider: "seatgeek",
+    linkId: "sg-artist-valley",
+    redirectUrl: "https://seatgeek.com/valley-tickets",
+    verified: true
+  },
+  "yacht-rock-revue:ticketmaster": {
+    artistSlug: "yacht-rock-revue",
+    provider: "ticketmaster",
+    linkId: "tm-artist-yacht-rock-revue",
+    redirectUrl: "https://www.ticketmaster.com/yacht-rock-revue-tickets/artist/1489501",
+    verified: true
+  },
+  "yacht-rock-revue:seatgeek": {
+    artistSlug: "yacht-rock-revue",
+    provider: "seatgeek",
+    linkId: "sg-artist-yacht-rock-revue",
+    redirectUrl: "https://seatgeek.com/yacht-rock-revue-tickets",
+    verified: true
+  },
+  "too-many-zooz:ticketmaster": {
+    artistSlug: "too-many-zooz",
+    provider: "ticketmaster",
+    linkId: "tm-artist-too-many-zooz",
+    redirectUrl: "https://www.ticketmaster.com/too-many-zooz-tickets/artist/2030532",
+    verified: true
+  },
+  "too-many-zooz:seatgeek": {
+    artistSlug: "too-many-zooz",
+    provider: "seatgeek",
+    linkId: "sg-artist-too-many-zooz",
+    redirectUrl: "https://seatgeek.com/too-many-zooz-tickets",
+    verified: true
+  },
+  "amble:ticketmaster": {
+    artistSlug: "amble",
+    provider: "ticketmaster",
+    linkId: "tm-artist-amble",
+    redirectUrl: "https://www.ticketmaster.com/amble-tickets/artist/3052592",
+    verified: true
+  },
+  "amble:seatgeek": {
+    artistSlug: "amble",
+    provider: "seatgeek",
+    linkId: "sg-artist-amble",
+    redirectUrl: "https://seatgeek.com/amble-tickets",
+    verified: true
   }
 };
 

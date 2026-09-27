@@ -1,0 +1,1966 @@
+[
+  {
+    "id": "tm-amble-2026-sheffield-g5vhz_5sagy5t",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Sheffield",
+    "country": "Great Britain",
+    "venue": "Octagon",
+    "datetime_iso": "2026-09-28T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064BCC53392FF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-sheffield-28-09-2026/event/1F0064BCC53392FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-sheffield-28-09-2026/event/1F0064BCC53392FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064BCC53392FF",
+        "discovery_event_id": "G5vHZ_5SAGy5T",
+        "url": "https://www.ticketmaster.co.uk/amble-sheffield-28-09-2026/event/1F0064BCC53392FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_5SAGy5T",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-glasgow-g5dzz_5s1tpu0",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2026-09-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064BCCAFE5364",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-glasgow-30-09-2026/event/3E0064BCCAFE5364",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-glasgow-30-09-2026/event/3E0064BCCAFE5364",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064BCCAFE5364",
+        "discovery_event_id": "G5dzZ_5S1TPu0",
+        "url": "https://www.ticketmaster.co.uk/amble-glasgow-30-09-2026/event/3E0064BCCAFE5364",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_5S1TPu0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-newcastle-upon-tyne-g5dzz_clsmpcl",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "O2 City Hall Newcastle",
+    "datetime_iso": "2026-10-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064E7F1BA539F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-newcastle-upon-tyne-02-10-2026/event/3E0064E7F1BA539F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-newcastle-upon-tyne-02-10-2026/event/3E0064E7F1BA539F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064E7F1BA539F",
+        "discovery_event_id": "G5dzZ_CLsmPCL",
+        "url": "https://www.ticketmaster.co.uk/amble-newcastle-upon-tyne-02-10-2026/event/3E0064E7F1BA539F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_CLsmPCL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-manchester-17uov0g65bdcgvp",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2026-10-03T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064B603B4CD25",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-manchester-03-10-2026/event/360064B603B4CD25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-manchester-03-10-2026/event/360064B603B4CD25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064B603B4CD25",
+        "discovery_event_id": "17uOv0G65bdcGVP",
+        "url": "https://www.ticketmaster.co.uk/amble-manchester-03-10-2026/event/360064B603B4CD25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G65bdcGVP",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-nottingham-g5vhz_5y-lcue",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Nottingham",
+    "country": "Great Britain",
+    "venue": "Rock City",
+    "datetime_iso": "2026-10-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064BC21ACE367",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-nottingham-05-10-2026/event/1F0064BC21ACE367",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-nottingham-05-10-2026/event/1F0064BC21ACE367",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064BC21ACE367",
+        "discovery_event_id": "G5vHZ_5Y-lCuE",
+        "url": "https://www.ticketmaster.co.uk/amble-nottingham-05-10-2026/event/1F0064BC21ACE367",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_5Y-lCuE",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-cardiff-g5vhz_5sqgbqz",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Cardiff University Students Union",
+    "datetime_iso": "2026-10-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064BCDD33A680",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-cardiff-06-10-2026/event/1F0064BCDD33A680",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-cardiff-06-10-2026/event/1F0064BCDD33A680",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064BCDD33A680",
+        "discovery_event_id": "G5vHZ_5SqGBQZ",
+        "url": "https://www.ticketmaster.co.uk/amble-cardiff-06-10-2026/event/1F0064BCDD33A680",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_5SqGBQZ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-london-g5dzz_5sz3vmk",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2026-10-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064BCC04B4B93",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-london-08-10-2026/event/3E0064BCC04B4B93",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-london-08-10-2026/event/3E0064BCC04B4B93",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064BCC04B4B93",
+        "discovery_event_id": "G5dzZ_5SZ3VmK",
+        "url": "https://www.ticketmaster.co.uk/amble-london-08-10-2026/event/3E0064BCC04B4B93",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_5SZ3VmK",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-los-angeles-vv170z_agkrleod6",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Belasco",
+    "datetime_iso": "2026-10-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900649BEB091EC7",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900649BEB091EC7",
+        "discovery_event_id": "vv170Z_aGkRleoD6",
+        "url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_aGkRleoD6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-san-francisco-g5vyz_gntwbu0",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Fillmore",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064CABFC98DA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-san-francisco-california-10-24-2026/event/1C0064CABFC98DA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-san-francisco-california-10-24-2026/event/1C0064CABFC98DA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064CABFC98DA4",
+        "discovery_event_id": "G5vYZ_GnTwbU0",
+        "url": "https://www.ticketmaster.com/amble-san-francisco-california-10-24-2026/event/1C0064CABFC98DA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GnTwbU0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-seattle-z7r9jz1a70p_0",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "The Showbox",
+    "datetime_iso": "2026-10-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70p_0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70p_0",
+        "discovery_event_id": "Z7r9jZ1A70p_0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-vancouver-1av7z_agkmsrf76",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Orpheum Theatre",
+    "datetime_iso": "2026-10-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100649BB3788107",
+    "ticketmaster_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100649BB3788107",
+        "discovery_event_id": "1Av7Z_aGkmSrF76",
+        "url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_aGkmSrF76",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-detroit-vv1afzk39gkeeybaa",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2026-11-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006497A7C3A145",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006497A7C3A145",
+        "discovery_event_id": "vv1AFZk39GkeEYBAA",
+        "url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk39GkeEYBAA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-toronto-1avzz_agki7dtkh",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2026-11-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000649A040E94FC",
+    "ticketmaster_url": "https://www.ticketmaster.ca/amble-toronto-ontario-11-02-2026/event/1000649A040E94FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/amble-toronto-ontario-11-02-2026/event/1000649A040E94FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000649A040E94FC",
+        "discovery_event_id": "1AvZZ_aGkI7dtKH",
+        "url": "https://www.ticketmaster.ca/amble-toronto-ontario-11-02-2026/event/1000649A040E94FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_aGkI7dtKH",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-ottawa-1ad7z_agkivxxic",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "The Bronson",
+    "datetime_iso": "2026-11-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100649A01FBEA2D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/amble-ottawa-ontario-11-03-2026/event/3100649A01FBEA2D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/amble-ottawa-ontario-11-03-2026/event/3100649A01FBEA2D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100649A01FBEA2D",
+        "discovery_event_id": "1Ad7Z_aGkIvXXIc",
+        "url": "https://www.ticketmaster.ca/amble-ottawa-ontario-11-03-2026/event/3100649A01FBEA2D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_aGkIvXXIc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-boston-vv177z_agkwhenya",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2026-11-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100649CBC0A3C05",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100649CBC0A3C05",
+        "discovery_event_id": "vv177Z_aGkwHeNYA",
+        "url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_aGkwHeNYA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-brooklyn-k7vgf_ad7j_qa",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2026-11-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000649EC4999749",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000649EC4999749",
+        "discovery_event_id": "k7vGF_aD7J_qa",
+        "url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_aD7J_qa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-philadelphia-vv17fz_agkycvjx3",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Theatre of Living Arts",
+    "datetime_iso": "2026-11-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200649C2D05CF92",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200649C2D05CF92",
+        "discovery_event_id": "vv17FZ_aGkYcvjX3",
+        "url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_aGkYcvjX3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-washington-1avfz_agkmvpzjt",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2026-11-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500649BB45B873F",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-washington-district-of-columbia-11-11-2026/event/1500649BB45B873F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-washington-district-of-columbia-11-11-2026/event/1500649BB45B873F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500649BB45B873F",
+        "discovery_event_id": "1AvfZ_aGkmVpzjT",
+        "url": "https://www.ticketmaster.com/amble-washington-district-of-columbia-11-11-2026/event/1500649BB45B873F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_aGkmVpzjT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-atlanta-z7r9jz1a70p_n",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Terminal West",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70p_N",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70p_N",
+        "discovery_event_id": "Z7r9jZ1A70p_N",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_N",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-nashville-g5viz_gnxglok",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Nashville",
+    "datetime_iso": "2026-11-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064CABED5F446",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064CABED5F446",
+        "discovery_event_id": "G5viZ_GnXgLok",
+        "url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_GnXgLok",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-new-orleans-g5viz_aeqhsnh",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "House of Blues New Orleans",
+    "datetime_iso": "2026-11-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006499DDF33ABC",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006499DDF33ABC",
+        "discovery_event_id": "G5viZ_aEqHSnH",
+        "url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_aEqHSnH",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-austin-g5diz_ahr-flp",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Emo's Austin",
+    "datetime_iso": "2026-11-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006496EF8487E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006496EF8487E5",
+        "discovery_event_id": "G5dIZ_ahR-FLP",
+        "url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_ahR-FLP",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-dallas-vvg1yz_161iqqj",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Echo Lounge & Music Hall",
+    "datetime_iso": "2026-11-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064A1CAA1A75C",
+    "ticketmaster_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064A1CAA1A75C",
+        "discovery_event_id": "vvG1YZ_161IQqj",
+        "url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_161IQqj",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-co-mayo-1abzkfugkd8h21y",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Mayo",
+    "country": "Ireland",
+    "venue": "TF Royal Theatre, Castlebar",
+    "datetime_iso": "2026-12-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006536D0F0F2B9",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-mayo-17-12-2026/event/18006536D0F0F2B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-mayo-17-12-2026/event/18006536D0F0F2B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006536D0F0F2B9",
+        "discovery_event_id": "1AbZkfUGkd8H21y",
+        "url": "https://www.ticketmaster.ie/amble-co-mayo-17-12-2026/event/18006536D0F0F2B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfUGkd8H21y",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-30T09:00:00Z"
+  },
+  {
+    "id": "tm-amble-2026-co-mayo-1abzkfugkd8hl5a",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Mayo",
+    "country": "Ireland",
+    "venue": "TF Royal Theatre, Castlebar",
+    "datetime_iso": "2026-12-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006536D0F1F2C5",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-mayo-18-12-2026/event/18006536D0F1F2C5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-mayo-18-12-2026/event/18006536D0F1F2C5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006536D0F1F2C5",
+        "discovery_event_id": "1AbZkfUGkd8HL5A",
+        "url": "https://www.ticketmaster.ie/amble-co-mayo-18-12-2026/event/18006536D0F1F2C5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfUGkd8HL5A",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-30T09:00:00Z"
+  },
+  {
+    "id": "tm-amble-2026-co-mayo-1abzkfugkd8hr56",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Mayo",
+    "country": "Ireland",
+    "venue": "TF Royal Theatre, Castlebar",
+    "datetime_iso": "2026-12-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006536D0F2F2C7",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-mayo-19-12-2026/event/18006536D0F2F2C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-mayo-19-12-2026/event/18006536D0F2F2C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006536D0F2F2C7",
+        "discovery_event_id": "1AbZkfUGkd8HR56",
+        "url": "https://www.ticketmaster.ie/amble-co-mayo-19-12-2026/event/18006536D0F2F2C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfUGkd8HR56",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-09-30T09:00:00Z"
+  },
+  {
+    "id": "tm-amble-2027-madrid-z698xz2qz1kozfaa3",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "AMBLE - EUROPE 2027",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Sala But",
+    "datetime_iso": "2027-02-09T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "440505152",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/440505152?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/440505152?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "440505152",
+        "discovery_event_id": "Z698xZ2qZ1koZfAA3",
+        "url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/440505152?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1koZfAA3",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-barcelona-z698xz2qz16vb40_3f",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "AMBLE - EUROPE 2027",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Sala Apolo",
+    "datetime_iso": "2027-02-10T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1615919488",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/1615919488?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/1615919488?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1615919488",
+        "discovery_event_id": "Z698xZ2qZ16vb40_3F",
+        "url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/1615919488?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vb40_3F",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-johanneshov-z698xzq2z16v73foub",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Johanneshov",
+    "country": "Sweden",
+    "venue": "Fållan",
+    "datetime_iso": "2027-02-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1112511358",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/amble-tickets/1112511358?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/amble-tickets/1112511358?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1112511358",
+        "discovery_event_id": "Z698xZq2Z16v73foub",
+        "url": "https://www.ticketmaster.se/event/amble-tickets/1112511358?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z16v73foub",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-amsterdam-z698xzbpz16vb-0aa8",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "datetime_iso": "2027-02-28T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1621909250",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/amble-tickets/1621909250?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/amble-tickets/1621909250?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1621909250",
+        "discovery_event_id": "Z698xZbpZ16vb-0aa8",
+        "url": "https://www.ticketmaster.nl/event/amble-tickets/1621909250?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vb-0aa8",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-amsterdam-z698xzbpz1kqkuae7",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "datetime_iso": "2027-03-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "753349084",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/amble-tickets/753349084?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/amble-tickets/753349084?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "753349084",
+        "discovery_event_id": "Z698xZbpZ1kqKuae7",
+        "url": "https://www.ticketmaster.nl/event/amble-tickets/753349084?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kqKuae7",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-belfast-17czv0g62qetzl-",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ormeau Park",
+    "datetime_iso": "2027-06-23T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "380064F682FC0AE1",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "380064F682FC0AE1",
+        "discovery_event_id": "17CZv0G62QeTZl-",
+        "url": "https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17CZv0G62QeTZl-",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-co-dublin-17kzv0g62mxw25r",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Dublin",
+    "country": "Ireland",
+    "venue": "Malahide Castle",
+    "datetime_iso": "2027-06-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064FBBEF4F2DE",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-dublin-24-06-2027/event/180064FBBEF4F2DE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-dublin-24-06-2027/event/180064FBBEF4F2DE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064FBBEF4F2DE",
+        "discovery_event_id": "17kZv0G62mXW25r",
+        "url": "https://www.ticketmaster.ie/amble-co-dublin-24-06-2027/event/180064FBBEF4F2DE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G62mXW25r",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-glasgow-17uov0g62brrf6b",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble - Love And All Its Wares",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Galvanizers Yard SWG3",
+    "datetime_iso": "2027-06-29T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064FE9EBD41FA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-glasgow-29-06-2027/event/360064FE9EBD41FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-glasgow-29-06-2027/event/360064FE9EBD41FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064FE9EBD41FA",
+        "discovery_event_id": "17uOv0G62BrRf6B",
+        "url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-glasgow-29-06-2027/event/360064FE9EBD41FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62BrRf6B",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-limerick-city-17kzv0g62sp3q8m",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Limerick City",
+    "country": "Ireland",
+    "venue": "Thomond Park Stadium",
+    "datetime_iso": "2027-07-03T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064FCE549D42E",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-limerick-city-03-07-2027/event/180064FCE549D42E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-limerick-city-03-07-2027/event/180064FCE549D42E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064FCE549D42E",
+        "discovery_event_id": "17kZv0G62SP3q8m",
+        "url": "https://www.ticketmaster.ie/amble-limerick-city-03-07-2027/event/180064FCE549D42E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G62SP3q8m",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-manchester-g5vhz_8upt3w4",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble - Love And All Its Wares",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Castlefield Bowl",
+    "datetime_iso": "2027-07-08T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00650D96FD2F55",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-manchester-08-07-2027/event/1F00650D96FD2F55",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-manchester-08-07-2027/event/1F00650D96FD2F55",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00650D96FD2F55",
+        "discovery_event_id": "G5vHZ_8UpT3W4",
+        "url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-manchester-08-07-2027/event/1F00650D96FD2F55",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_8UpT3W4",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-london-g5vhz_8sflgki",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble - Love And All Its Wares",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Alexandra Palace Park",
+    "datetime_iso": "2027-07-09T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00650CC87F51A8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-london-09-07-2027/event/1F00650CC87F51A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-london-09-07-2027/event/1F00650CC87F51A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00650CC87F51A8",
+        "discovery_event_id": "G5vHZ_8SFLgkI",
+        "url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-london-09-07-2027/event/1F00650CC87F51A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_8SFLgkI",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

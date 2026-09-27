@@ -189,6 +189,7 @@ Full setup steps: [DEPLOYMENT.md](DEPLOYMENT.md). Reference of the actual creden
 | `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` | Remote D1 writes from Actions | |
 | Local read-only Cloudflare CLI credential | Bounded live Pages Function error-tail diagnosis | Keep this separate from repository and Pages secrets. It must be least-privilege and sufficient only to read the selected production deployment and tail new error events; do not use a write-capable token or export request URLs. |
 | `OUT_CLICK_ID_SUBID_ENABLED` / `OUT_CLICK_ID_SUBID_PARAM` | `/api/out` | Repo-managed `[vars]` in `wrangler.toml`, not dashboard settings. Currently unset (off). |
+| `EVENT_PAGES_INDEXING` | Event-page robots, `/sitemaps/events.xml`, `llms.txt`, parent `MusicEvent` identity | Repo-managed `[vars]` in `wrangler.toml`: `"pilot"` activates the frozen 30-key pilot (`EVENT_INDEXING_PILOT_KEYS`) on the canonical host only — Pages previews get the value but never activate it. Removing the line is the rollback. Confirm in production from a pilot URL's robots meta, not from this table. |
 
 The obsolete `IMPACT_TICKETMASTER_*` secrets are unused — delete from the dashboard if still present (tracked in `BACKLOG.md`). Provider `*_PUBLIC_ENABLED` / `*_PRICE_DISPLAY_ENABLED` flags are independent kill switches; a flag never substitutes for rights, provenance, URL validation, or freshness. Confirm current activation via `/api/health`, not by inferring from secret names.
 

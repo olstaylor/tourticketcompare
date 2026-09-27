@@ -58,6 +58,7 @@ Do not modify without explicit task scope:
 - **`public/_routes.json`** — incorrect changes cause site-wide failures
 - **Impact credentials and affiliate tracking logic** (including `functions/api/impact/`)
 - **Cloudflare dashboard settings** (routes, bindings, secrets)
+- **The event-page indexing pilot** — `EVENT_INDEXING_PILOT_KEYS` (`functions/_event-indexability.js`), `data/event-indexing-pilot.json` and `EVENT_PAGES_INDEXING` in `wrangler.toml`. A frozen experiment cohort: never add, swap, replace or regenerate keys, or widen indexing beyond it, without explicit scope
 
 Named-shim trap: editing `functions/artists.js` etc. has **no effect** while `_middleware.js` is active — edit `[[path]].js` instead.
 

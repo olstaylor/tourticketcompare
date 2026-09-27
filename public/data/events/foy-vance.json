@@ -382,7 +382,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-9fP",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-06-8-pm/concert/18085658",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085658,
+        "url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-06-8-pm/concert/18085658",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -435,7 +435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7--kd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-07-8-pm/concert/18085660",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085660,
+        "url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-07-8-pm/concert/18085660",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -488,7 +488,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvFFZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/portland-oregon-aladdin-theater-2026-11-10-7-pm/concert/18085699",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
@@ -504,11 +504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085699,
+        "url": "https://seatgeek.com/foy-vance-tickets/portland-oregon-aladdin-theater-2026-11-10-7-pm/concert/18085699",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -700,7 +700,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7--ke",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/englewood-colorado-gothic-theatre-2026-11-21-7-pm/concert/18085728",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
@@ -716,11 +716,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085728,
+        "url": "https://seatgeek.com/foy-vance-tickets/englewood-colorado-gothic-theatre-2026-11-21-7-pm/concert/18085728",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -859,7 +859,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7--kA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/atlanta-georgia-variety-playhouse-2027-04-08-7-pm/concert/18085786",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
@@ -875,11 +875,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085786,
+        "url": "https://seatgeek.com/foy-vance-tickets/atlanta-georgia-variety-playhouse-2027-04-08-7-pm/concert/18085786",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1018,7 +1018,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7JfGw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/saint-paul-minnesota-fitzgerald-theater-2027-04-15-7-pm/concert/18085797",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
@@ -1034,11 +1034,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085797,
+        "url": "https://seatgeek.com/foy-vance-tickets/saint-paul-minnesota-fitzgerald-theater-2027-04-15-7-pm/concert/18085797",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1124,7 +1124,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PNjx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/york-pennsylvania-appell-center-for-the-performing-arts-capitol-theatre-2027-04-27-7-pm/concert/18387603",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
@@ -1140,11 +1140,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18387603,
+        "url": "https://seatgeek.com/foy-vance-tickets/york-pennsylvania-appell-center-for-the-performing-arts-capitol-theatre-2027-04-27-7-pm/concert/18387603",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

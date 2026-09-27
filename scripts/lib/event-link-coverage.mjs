@@ -23,7 +23,7 @@
 // Nothing here is a policy decision of its own. When the runtime gate changes,
 // change it here in the same commit.
 
-import { eventLifecycleHeld } from "../../functions/_route-indexability.js";
+import { eventLifecycleHeld, publicOnsalePending } from "../../functions/_route-indexability.js";
 
 function clean(value, max = 2048) {
   return String(value ?? "").trim().slice(0, max);
@@ -70,21 +70,25 @@ export function laneBySlug(slug) {
 // ---------------------------------------------------------------------------
 
 /** Row-status gate — governs the Ticketmaster link. */
-export function eventLinkPublishable(event) {
+export function eventLinkPublishable(event, now = Date.now()) {
   if (eventLifecycleHeld(event)) return false;
+  if (publicOnsalePending(event, now)) return false;
   const destination = clean(event?.ticketmaster_url || event?.source_url);
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
 /** Per-provider gate. */
-export function providerEventPublishable(event, provider) {
+export function providerEventPublishable(event, provider, now = Date.now()) {
   if (eventLifecycleHeld(event)) return false;
+  // Before the public on-sale only a resale lane verified for this exact event
+  // publishes; Ticketmaster and the unverified fallbacks wait for the on-sale.
+  if (publicOnsalePending(event, now)) return provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true;
   if (IMPACT_MARKETPLACE_SLUGS.includes(provider)) {
     return event?.provider_links?.[provider]?.verified === true;
   }
   if (provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true) return true;
-  return eventLinkPublishable(event);
+  return eventLinkPublishable(event, now);
 }
 
 // ---------------------------------------------------------------------------
@@ -186,12 +190,13 @@ export const LANE_BLOCKERS = Object.freeze({
  * @param {any} event Raw events.json record.
  * @param {object} lane One of PROVIDER_LANES.
  * @param {(slug: string) => boolean} isConfigured Runtime configuration test.
+ * @param {number} [now] Evaluation instant (the public on-sale gate).
  * @returns {{slug: string, name: string, publishes: boolean, blocker: string, url: string|null}}
  */
-export function evaluateLane(event, lane, isConfigured) {
+export function evaluateLane(event, lane, isConfigured, now = Date.now()) {
   const configured = isConfigured ? isConfigured(lane.slug) !== false : true;
   const url = safeLaneUrl(event, lane);
-  const publishable = providerEventPublishable(event, lane.slug);
+  const publishable = providerEventPublishable(event, lane.slug, now);
   if (!configured) {
     return { slug: lane.slug, name: lane.name, publishes: false, blocker: LANE_BLOCKERS.PROVIDER_NOT_CONFIGURED, url: null };
   }
@@ -211,18 +216,18 @@ export function evaluateLane(event, lane, isConfigured) {
  * Every provider lane evaluated for one event, in card display order.
  * @returns {Array<{slug:string,name:string,publishes:boolean,blocker:string,url:string|null}>}
  */
-export function evaluateEventLanes(event, isConfigured) {
-  return PROVIDER_LANES.map((lane) => evaluateLane(event, lane, isConfigured));
+export function evaluateEventLanes(event, isConfigured, now = Date.now()) {
+  return PROVIDER_LANES.map((lane) => evaluateLane(event, lane, isConfigured, now));
 }
 
 /** Slugs of the lanes whose button would render for this event. */
-export function publishableLaneSlugs(event, isConfigured) {
-  return evaluateEventLanes(event, isConfigured).filter((lane) => lane.publishes).map((lane) => lane.slug);
+export function publishableLaneSlugs(event, isConfigured, now = Date.now()) {
+  return evaluateEventLanes(event, isConfigured, now).filter((lane) => lane.publishes).map((lane) => lane.slug);
 }
 
 /** How many checked ticket sites this date currently leads to. */
-export function publishableCtaCount(event, isConfigured) {
-  return publishableLaneSlugs(event, isConfigured).length;
+export function publishableCtaCount(event, isConfigured, now = Date.now()) {
+  return publishableLaneSlugs(event, isConfigured, now).length;
 }
 
 // ---------------------------------------------------------------------------

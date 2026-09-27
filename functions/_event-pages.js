@@ -3,8 +3,10 @@
 //
 // The router (functions/[[path]].js) serves /events/* from resolveEventRoute
 // below. Every event page is noindex,follow: there is no sitemap entry and no
-// llms.txt line. Its structured data describes the one performance it shows
-// (eventPageSchemaDecision below decides whether it may). The artist, artist-city,
+// llms.txt line. Which pages would be strong enough to index is a separate
+// policy, functions/_event-indexability.js. Its structured data describes the
+// one performance it shows (eventPageSchemaDecision below decides whether it
+// may). The artist, artist-city,
 // city and venue boards link each card to its page ("Show details") through
 // eventPageLinkPath, which asks the same resolveEventRoute. The router, the
 // parent boards and the audits derive the same URL for the same show from this
@@ -46,7 +48,6 @@ import {
   eventTicketmasterSourced,
   publicOnsalePending
 } from "./_route-indexability.js";
-import { PRICE_GUIDE_SNAPSHOT_PROVIDERS, linkVerifiedWithUrl } from "./_price-guides.js";
 import { findArtistCity } from "./_artist-cities.js";
 import { citySlug } from "./_cities.js";
 
@@ -458,7 +459,7 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
  * @property {string} lifecycle         EVENT_LIFECYCLE value from the stored Ticketmaster status.
  * @property {boolean} upcoming
  * @property {boolean} renderable       Addressable, upcoming and commercially live: every
- *                                      condition below passed (the indexing preview reads this).
+ *                                      condition below passed.
  * @property {string[]} reasons         Every failed structural condition.
  * @property {string[]} nonPerformance  Markers; reported, not a structural condition.
  * @property {boolean} addressable      A genuine performance TTC can describe factually:
@@ -480,7 +481,8 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
  * cancelled or postponed Ticketmaster status, and it can lead somewhere
  * (`eventPublishable`, the "can this page lead anywhere?" test).
  *
- * This is not an indexing decision and nothing serves a route from it yet.
+ * This is not an indexing decision: that is eventIndexabilityDecision in
+ * functions/_event-indexability.js, which reads this state.
  *
  * @param {any} event
  * @param {{ artist?: any, now?: number }} [options] `artist` is the artists.json record.
@@ -752,91 +754,4 @@ export function eventPageLinker(events, artists, options = {}) {
     const event = byId.get(String(id ?? "").trim());
     return event ? eventPageLinkPath(list, artists, event, { now }) : "";
   };
-}
-
-// ---------------------------------------------------------------------------
-// Future indexability inputs (preview only)
-// ---------------------------------------------------------------------------
-
-// PREVIEW ONLY. Nothing in the router, sitemap, llms.txt or robots logic reads
-// these. They record the signals the event-page indexability policy is
-// expected to weigh, so the policy can be inspected against real data before
-// it is decided (docs/ROUTE_INDEXABILITY_POLICY.md remains the policy).
-export const PREVIEW_MIN_PUBLISHABLE_DESTINATIONS = 2;
-export const PREVIEW_MIN_SNAPSHOT_READY_LANES = 1;
-
-export const PREVIEW_REASONS = Object.freeze({
-  NOT_RENDERABLE: "not_renderable",
-  PARENT_ARTIST_NOT_INDEXABLE: "parent_artist_not_indexable",
-  BELOW_DESTINATION_THRESHOLD: "below_destination_threshold",
-  NO_SNAPSHOT_READY_LANE: "no_snapshot_ready_lane",
-  NON_PERFORMANCE_LISTING: "non_performance_listing"
-});
-
-/**
- * Static, data-derived signals for one record. The publishable destination
- * lanes are passed in by the caller (offline: scripts/lib/event-link-coverage.mjs,
- * the mirror of the runtime CTA gate) rather than recomputed here, so this
- * module does not become a third copy of the per-provider CTA rules.
- *
- * @param {any} event
- * @param {{ publishableLanes?: string[], now?: number }} [options]
- */
-export function eventIndexSignals(event, options = {}) {
-  const now = Number.isFinite(options.now) ? Number(options.now) : Date.now();
-  const lanes = Array.isArray(options.publishableLanes) ? options.publishableLanes : [];
-  return {
-    publishableDestinations: lanes.length,
-    snapshotReadyLanes: PRICE_GUIDE_SNAPSHOT_PROVIDERS.filter((provider) => linkVerifiedWithUrl(event, provider)),
-    schemaEligible: eventStatusPublishable(event, now),
-    onsalePending: publicOnsalePending(event, now),
-    verificationStatus: String(event?.verification_status || "")
-  };
-}
-
-/**
- * Would this record pass the candidate policy (≥2 publishable destinations and
- * ≥1 snapshot-ready price lane, on a renderable, performance, whose artist
- * page is itself indexable)? Lifecycle holds (cancelled/postponed) are not
- * representable in events.json yet and are therefore not evaluated.
- *
- * @param {EventRouteState} state
- * @param {ReturnType<typeof eventIndexSignals>} signals
- * @param {{ artistPageIndexable: boolean }} context
- * @returns {{ wouldQualify: boolean, reasons: string[] }}
- */
-export function previewEventIndexability(state, signals, context) {
-  const reasons = [];
-  if (!state.renderable) reasons.push(PREVIEW_REASONS.NOT_RENDERABLE);
-  if (!context.artistPageIndexable) reasons.push(PREVIEW_REASONS.PARENT_ARTIST_NOT_INDEXABLE);
-  if (signals.publishableDestinations < PREVIEW_MIN_PUBLISHABLE_DESTINATIONS) {
-    reasons.push(PREVIEW_REASONS.BELOW_DESTINATION_THRESHOLD);
-  }
-  if (signals.snapshotReadyLanes.length < PREVIEW_MIN_SNAPSHOT_READY_LANES) {
-    reasons.push(PREVIEW_REASONS.NO_SNAPSHOT_READY_LANE);
-  }
-  if (state.nonPerformance.length) reasons.push(PREVIEW_REASONS.NON_PERFORMANCE_LISTING);
-  return { wouldQualify: reasons.length === 0, reasons };
-}
-
-/**
- * Upcoming shows by one artist in one city on one venue-local date, when more
- * than one record carries them. Usually a duplicate listing (a second
- * storefront copy, a premium-seat product) rather than a matinee — reported
- * for review, never acted on.
- *
- * @param {EventRouteState[]} states
- * @param {any[]} events The records the states were derived from, same order.
- * @returns {Array<{ artistSlug: string, city: string, localDate: string, ids: string[] }>}
- */
-export function possibleDuplicateGroups(states, events) {
-  const groups = new Map();
-  states.forEach((state, index) => {
-    if (!state.upcoming || !state.localDate) return;
-    const city = eventSlugPart(events[index]?.city);
-    const group = `${state.artistSlug}|${city}|${state.localDate}`;
-    if (!groups.has(group)) groups.set(group, { artistSlug: state.artistSlug, city, localDate: state.localDate, ids: [] });
-    groups.get(group).ids.push(state.id);
-  });
-  return [...groups.values()].filter((group) => group.ids.length > 1);
 }

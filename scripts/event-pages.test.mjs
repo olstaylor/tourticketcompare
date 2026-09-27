@@ -2,7 +2,8 @@
 //
 // Tests for functions/_event-pages.js — event identity (stable key), readable
 // slug and future path derivation, key resolution, structural renderability,
-// the non-performance classifier and the preview-only indexability signals.
+// and the non-performance classifier. The indexability policy has its own
+// tests: scripts/event-indexability.test.mjs.
 //
 // Pure fixture checks first, then invariants over the real events.json, then
 // the discovery guarantees: the sitemaps and llms.txt list no /events/ URL,
@@ -23,14 +24,12 @@ import {
   EVENT_SCHEMA_STATUS,
   EVENT_SLUG_VENUE_MAX,
   EventKeyCollisionError,
-  PREVIEW_REASONS,
   RECOGNISER_PREMIUM_SEATS_NAME_RE,
   RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX,
   RECOGNISER_TRAVEL_PACKAGE_MARKERS,
   assertUniqueEventKeys,
   buildEventKeyIndex,
   deriveEventRouteStates,
-  eventIndexSignals,
   eventKey,
   eventPageSchemaDecision,
   eventPath,
@@ -42,8 +41,6 @@ import {
   indexEventsByKey,
   nonPerformanceMarkers,
   parseEventPath,
-  possibleDuplicateGroups,
-  previewEventIndexability,
   resolveEventPath,
   resolveEventRoute
 } from "../functions/_event-pages.js";
@@ -310,34 +307,6 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("loge venue suffix matches the recogniser", pySuffix === RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX);
 }
 
-// ── Preview-only indexability signals ───────────────────────────────────────
-{
-  const priced = show({ provider_links: { "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/1" } } });
-  const state = eventRouteState(priced, { artist: ARTIST, now: NOW });
-  const twoLanes = eventIndexSignals(priced, { publishableLanes: ["vivid-seats", "ticketmaster"], now: NOW });
-  assert("signals count the lanes supplied by the caller", twoLanes.publishableDestinations === 2);
-  assert("a verified Vivid Seats link is snapshot-ready", twoLanes.snapshotReadyLanes.join(",") === "vivid-seats");
-  assert("two lanes plus a snapshot-ready lane would qualify", previewEventIndexability(state, twoLanes, { artistPageIndexable: true }).wouldQualify);
-  const oneLane = eventIndexSignals(priced, { publishableLanes: ["vivid-seats"], now: NOW });
-  assert("one lane is below the preview threshold", previewEventIndexability(state, oneLane, { artistPageIndexable: true }).reasons.includes(PREVIEW_REASONS.BELOW_DESTINATION_THRESHOLD));
-  const seatgeekOnly = eventIndexSignals(show({ provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x" } } }), { publishableLanes: ["seatgeek", "ticketmaster"], now: NOW });
-  assert("SeatGeek is never snapshot-ready", seatgeekOnly.snapshotReadyLanes.length === 0);
-  assert("a noindex parent artist blocks the preview", previewEventIndexability(state, twoLanes, { artistPageIndexable: false }).reasons.includes(PREVIEW_REASONS.PARENT_ARTIST_NOT_INDEXABLE));
-  const upsell = eventRouteState({ ...priced, event_name: "X | Premium Seats" }, { artist: ARTIST, now: NOW });
-  assert("a non-performance listing never qualifies", previewEventIndexability(upsell, twoLanes, { artistPageIndexable: true }).reasons.includes(PREVIEW_REASONS.NON_PERFORMANCE_LISTING));
-}
-
-// ── Possible duplicate groups ───────────────────────────────────────────────
-{
-  const events = [
-    show({ id: "main", venue: "Ziggo Dome", city: "Amsterdam", datetime_iso: "2027-03-23T18:00:00Z", timezone: "Europe/Amsterdam" }),
-    show({ id: "club", venue: "Ziggo Dome Club", city: "Amsterdam", datetime_iso: "2027-03-23T19:01:00Z", timezone: "Europe/Amsterdam" }),
-    show({ id: "next", venue: "Ziggo Dome", city: "Amsterdam", datetime_iso: "2027-03-24T18:00:00Z", timezone: "Europe/Amsterdam" })
-  ];
-  const groups = possibleDuplicateGroups(deriveEventRouteStates(events, [ARTIST], { now: NOW }), events);
-  assert("same artist, city and local date is reported once", groups.length === 1 && groups[0].ids.join(",") === "main,club");
-}
-
 // ── Event-page structured data decision ─────────────────────────────────────
 {
   const NOW = Date.parse("2026-08-01T00:00:00Z");
@@ -488,7 +457,12 @@ const artists = JSON.parse(fs.readFileSync(path.join(ROOT, "public/data/artists.
     .filter((file) => String(file).endsWith(".js") && !String(file).endsWith("_event-pages.js"))
     .filter((file) => /(?:from|import)\s*\(?\s*["'][^"']*_event-pages\.js["']/.test(fs.readFileSync(path.join(ROOT, "functions", String(file)), "utf8")))
     .map(String);
-  assert(`only the router imports the event identity module (got ${importers.join(", ") || "none"})`, importers.length === 1 && importers[0] === "[[path]].js");
+  // The indexability policy (functions/_event-indexability.js) builds on the
+  // identity module; no sitemap, llms.txt or other surface imports either.
+  assert(
+    `only the router and the indexability policy import the event identity module (got ${importers.join(", ") || "none"})`,
+    importers.sort().join(",") === "[[path]].js,_event-indexability.js"
+  );
 }
 
 let failed = 0;

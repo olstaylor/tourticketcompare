@@ -45,7 +45,7 @@ import {
   safeLaneUrl
 } from "./lib/event-link-coverage.mjs";
 import { resolveEventLocalDate, localDateSkipReason } from "./lib/event-local-date.mjs";
-import { eventLifecycleHeld } from "../functions/_route-indexability.js";
+import { eventLifecycleHeld, publicOnsalePending } from "../functions/_route-indexability.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -164,10 +164,11 @@ async function loadProviderEvidence(dir = PROVIDER_REPORTS_DIR) {
  * @param {any} event Raw events.json record.
  * @param {(slug: string) => boolean} isConfigured
  * @param {Record<string,string>} evidence Provider-run evidence for this event.
+ * @param {number} [now] Evaluation instant (the public on-sale gate).
  * @returns {{ctaCount: number, publishing: string[], blocked: Array<{provider: string, cause: string, detail: string}>}}
  */
-export function diagnoseEvent(event, isConfigured, evidence = {}) {
-  const lanes = evaluateEventLanes(event, isConfigured);
+export function diagnoseEvent(event, isConfigured, evidence = {}, now = Date.now()) {
+  const lanes = evaluateEventLanes(event, isConfigured, now);
   const localDate = resolveEventLocalDate(event);
   const timeDataDetail = localDate.iso ? "" : localDateSkipReason(localDate.reason);
   const publishing = lanes.filter((lane) => lane.publishes).map((lane) => lane.slug);
@@ -233,9 +234,11 @@ function sortedEntries(map) {
  */
 export function checkPassMessage(analysis) {
   const scope = analysis.held.length ? "non-held upcoming event" : "upcoming event";
-  const heldNote = analysis.held.length
+  const heldNote = (analysis.held.length
     ? ` ${analysis.held.length} held by a cancelled/postponed status (links withheld on purpose).`
-    : "";
+    : "") + (analysis.awaitingOnsale?.length
+    ? ` ${analysis.awaitingOnsale.length} awaiting Ticketmaster's public on-sale with no resale link yet.`
+    : "");
   return analysis.oneLink.length
     ? `OK (with ${analysis.oneLink.length} warning(s)): every ${scope} leads somewhere; ${analysis.oneLink.length} lead to a single provider.${heldNote}`
     : `OK: every ${scope} has at least two publishable exact-event ticket links.${heldNote}`;
@@ -259,7 +262,7 @@ export function analyse(events, isConfigured, evidence = new Map(), now = Date.n
   const rows = [];
   for (const event of upcoming) {
     if (eventLifecycleHeld(event)) continue;
-    const diagnosis = diagnoseEvent(event, isConfigured, evidence.get(String(event?.id)) || {});
+    const diagnosis = diagnoseEvent(event, isConfigured, evidence.get(String(event?.id)) || {}, now);
     distribution[bucketFor(diagnosis.ctaCount)] += 1;
     rows.push({ event, ...diagnosis });
   }
@@ -274,13 +277,20 @@ export function analyse(events, isConfigured, evidence = new Map(), now = Date.n
     for (const cause of new Set(row.blocked.map((blocker) => blocker.cause))) tally(byCause, cause);
   }
 
+  // Before Ticketmaster's public on-sale only a verified resale lane publishes
+  // (the renderer's providerEventPublishable), so a date with none shows its
+  // on-sale time instead of a button. That is the on-sale gate working, and it
+  // clears itself when the sale opens: reported on its own, like a hold.
+  const awaitingOnsale = rows.filter((row) => row.ctaCount === 0 && publicOnsalePending(row.event, now)).map((row) => row.event);
+
   return {
     upcoming: upcoming.length,
     held,
+    awaitingOnsale,
     total: events.length,
     distribution,
     rows,
-    zeroLink: rows.filter((row) => row.ctaCount === 0),
+    zeroLink: rows.filter((row) => row.ctaCount === 0 && !publicOnsalePending(row.event, now)),
     oneLink: rows.filter((row) => row.ctaCount === 1),
     lowCoverage: low,
     byArtist: sortedEntries(byArtist),
@@ -447,6 +457,11 @@ function selfTest() {
     /every non-held upcoming event has at least two/.test(checkPassMessage(heldAnalysis)) && /1 held by a cancelled\/postponed status/.test(checkPassMessage(heldAnalysis)));
   assert("the --check warning line is scoped to non-held dates when any are held",
     /every non-held upcoming event leads somewhere/.test(checkPassMessage({ oneLink: [{}], held: [{}] })));
+  const pendingAnalysis = analyse([{ ...base, id: "u-pending", public_onsale_at: "2099-01-01T15:00:00Z" }], allConfigured, new Map(), now);
+  assert("a pre-on-sale date with no resale link is awaiting its on-sale, not a zero-link failure",
+    pendingAnalysis.awaitingOnsale.map((event) => event.id).join(",") === "u-pending" && pendingAnalysis.zeroLink.length === 0 && pendingAnalysis.distribution["0"] === 1);
+  assert("a pre-on-sale date publishes no Ticketmaster link (the renderer's on-sale gate)",
+    diagnoseEvent({ ...base, public_onsale_at: "2099-01-01T15:00:00Z" }, allConfigured, {}, now).ctaCount === 0);
   assert("the --check all-clear is unchanged with no held dates",
     checkPassMessage({ oneLink: [], held: [] }) === "OK: every upcoming event has at least two publishable exact-event ticket links.");
   assert("low coverage is the union of the two", analysis.lowCoverage.length === 2);
@@ -482,7 +497,7 @@ function printHuman(analysis, options) {
   console.log("Exact-event ticket-link coverage (mirrors the show-card CTA gate)\n");
   console.log(`  upcoming events: ${analysis.upcoming} of ${analysis.total} reviewed records`);
   console.log(`  publishable exact-event CTAs per upcoming event:`);
-  console.log(`    0 links : ${distribution["0"]}   ${distribution["0"] ? "← FAIL: these dates lead nowhere" : ""}`);
+  console.log(`    0 links : ${distribution["0"]}   ${analysis.zeroLink.length ? "← FAIL: these dates lead nowhere" : distribution["0"] ? "(all awaiting the public on-sale)" : ""}`);
   console.log(`    1 link  : ${distribution["1"]}   ${distribution["1"] ? "← warning: a single provider is not a comparison" : ""}`);
   console.log(`    2 links : ${distribution["2"]}`);
   console.log(`    3+ links: ${distribution["3+"]}`);
@@ -492,6 +507,9 @@ function printHuman(analysis, options) {
   if (analysis.held.length) {
     console.log(`\n  Held by a cancelled/postponed Ticketmaster status (links withheld on purpose, not a failure): ${analysis.held.length}`);
     for (const event of analysis.held) console.log(`    ${event.id}  [${event.ticketmaster_status_code}]`);
+  }
+  if (analysis.awaitingOnsale.length) {
+    console.log(`\n  Awaiting Ticketmaster's public on-sale, no resale link yet (the card shows the on-sale time, not a failure): ${analysis.awaitingOnsale.length}`);
   }
 
   if (!analysis.lowCoverage.length) {
@@ -574,6 +592,7 @@ async function main() {
       distribution: analysis.distribution,
       low_coverage: analysis.lowCoverage.length,
       held: analysis.held.map((event) => ({ showId: event.id, artist: event.artist_slug, date: event.datetime_iso, status: event.ticketmaster_status_code })),
+      awaiting_onsale: analysis.awaitingOnsale.map((event) => ({ showId: event.id, artist: event.artist_slug, date: event.datetime_iso, public_onsale_at: event.public_onsale_at })),
       by_artist: Object.fromEntries(analysis.byArtist),
       by_country: Object.fromEntries(analysis.byCountry),
       by_cause: Object.fromEntries(analysis.byCause),

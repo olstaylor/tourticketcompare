@@ -1339,6 +1339,14 @@ summary {
   color: var(--accent-dark);
 }
 
+/* "Show details": the date's own page. Secondary to the ticket buttons, so it
+   sits in the small text-link row beside "Copy link to this date", in the
+   link colour rather than the muted one because it navigates. */
+.show-card .show-details-link {
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .show-card .disclosure-note {
   font-size: 0.8rem;
 }
@@ -1730,7 +1738,8 @@ summary {
     justify-items: stretch;
   }
 
-  .show-card .copy-show-link {
+  .show-card .copy-show-link,
+  .show-card .show-details-link {
     min-height: 44px;
     display: inline-flex;
     align-items: center;
@@ -1941,7 +1950,8 @@ summary {
   line-height: 1.35;
 }
 
-.show-card .copy-show-link {
+.show-card .copy-show-link,
+.show-card .show-details-link {
   width: fit-content;
   font-size: 0.76rem;
 }
@@ -2422,6 +2432,7 @@ summary {
 }
 
 .show-card-actions > .copy-show-link,
+.show-card-actions > .show-details-link,
 .show-card-actions > .price-history {
   flex: 0 1 auto;
 }

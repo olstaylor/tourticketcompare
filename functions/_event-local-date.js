@@ -74,10 +74,25 @@ export function eventTimeZone(event) {
   return zone.includes("/") ? zone : "";
 }
 
+// Building an Intl.DateTimeFormat is the expensive part of a resolution, and
+// the parent boards resolve every card's date several times per render (its
+// event path and its route state). One formatter per zone and shape, kept for
+// the isolate's life; a zone the runtime rejects throws before it is cached,
+// exactly as it did uncached.
+const FORMATTERS = new Map();
+function zoneFormatter(shape, timeZone, options) {
+  const cacheKey = `${shape}|${timeZone}`;
+  let formatter = FORMATTERS.get(cacheKey);
+  if (!formatter) {
+    formatter = new Intl.DateTimeFormat(shape === "offset" ? "en-US" : "en-CA", { timeZone, ...options });
+    FORMATTERS.set(cacheKey, formatter);
+  }
+  return formatter;
+}
+
 /** UTC offset of an IANA zone at a given instant, in ms. */
 function tzOffsetMs(timeZone, date) {
-  const parts = new Intl.DateTimeFormat("en-US", {
-    timeZone,
+  const parts = zoneFormatter("offset", timeZone, {
     hourCycle: "h23",
     year: "numeric", month: "2-digit", day: "2-digit",
     hour: "2-digit", minute: "2-digit", second: "2-digit"
@@ -143,8 +158,8 @@ export function resolveEventLocalDate(event) {
     const instant = eventInstantMs(event);
     if (instant === null) return unresolved(LOCAL_DATE_REASONS.MALFORMED_DATETIME);
     try {
-      const parts = new Intl.DateTimeFormat("en-CA", {
-        timeZone, year: "numeric", month: "2-digit", day: "2-digit"
+      const parts = zoneFormatter("date", timeZone, {
+        year: "numeric", month: "2-digit", day: "2-digit"
       }).formatToParts(new Date(instant));
       const lookup = Object.fromEntries(parts.map((part) => [part.type, part.value]));
       const year = Number(lookup.year);

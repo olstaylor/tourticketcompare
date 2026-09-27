@@ -5,8 +5,8 @@
 // the non-performance classifier and the preview-only indexability signals.
 //
 // Pure fixture checks first, then invariants over the real events.json, then
-// the foundation-only guarantees: nothing in the live router, sitemap or
-// llms.txt serves or lists an /events/ URL yet.
+// the discovery guarantees: the sitemaps and llms.txt list no /events/ URL,
+// and only the parent boards link one, at a path the router serves.
 //
 // Usage: node scripts/event-pages.test.mjs
 
@@ -17,6 +17,7 @@ import {
   EVENT_KEY_LENGTH,
   EVENT_PATH_PREFIX,
   EVENT_RESOLUTION,
+  EVENT_ROUTE_ACTION,
   EVENT_ROUTE_REASONS,
   EVENT_SLUG_VENUE_MAX,
   EventKeyCollisionError,
@@ -40,7 +41,8 @@ import {
   parseEventPath,
   possibleDuplicateGroups,
   previewEventIndexability,
-  resolveEventPath
+  resolveEventPath,
+  resolveEventRoute
 } from "../functions/_event-pages.js";
 import * as runtimeLocalDate from "../functions/_event-local-date.js";
 import * as scriptsLocalDate from "./lib/event-local-date.mjs";
@@ -383,10 +385,11 @@ const artists = JSON.parse(fs.readFileSync(path.join(ROOT, "public/data/artists.
   );
 }
 
-// ── Event routes are live but never indexable, listed or linked ────────────
+// ── Event routes are live, linked from parent boards, never indexed ────────
 // PR1 asserted that no event route existed. The noindex event-page MVP
-// replaced that with these: the route serves, and it stays out of every
-// discovery surface until indexing and parent links are separately decided.
+// replaced that with these: the route serves, and it stays out of the
+// sitemaps and llms.txt until indexing is separately decided. Parent boards
+// link it; nothing else does.
 {
   const site = await loadSiteFixture(ROOT);
   const states = deriveEventRouteStates(events, artists);
@@ -414,21 +417,38 @@ const artists = JSON.parse(fs.readFileSync(path.join(ROOT, "public/data/artists.
   const llmsText = await (await llms({ request: new Request("https://tourticketcompare.com/llms.txt"), env: site.env })).text();
   assert("llms.txt lists no /events/ URL", llmsText.length > 0 && !llmsText.includes("/events/"));
 
-  // No parent page links to an event page yet: every artist page, and the
-  // first 20 rendered artist-city, city and venue pages.
+  // Parent boards link event pages ("Show details"), and only pages the
+  // router serves at their canonical path; no other surface links them. Every
+  // artist page, and the first 20 rendered artist-city, city and venue pages;
+  // scripts/audit-internal-links.mjs checks every page and every card.
+  const servedPaths = new Set(
+    states
+      .filter((state) => state.upcoming && state.path)
+      .filter((state) => resolveEventRoute(events, artists, state.path).action === EVENT_ROUTE_ACTION.RENDER)
+      .map((state) => state.path)
+  );
   const parents = [
     ...site.paths.artistPaths,
     ...site.paths.artistCityPaths.slice(0, 20),
     ...site.paths.cityPaths.slice(0, 20),
-    ...site.paths.venuePaths.slice(0, 20),
-    "/", "/artists", "/on-sale", "/compare-concert-ticket-prices"
+    ...site.paths.venuePaths.slice(0, 20)
   ];
-  const linking = [];
+  const eventLinksIn = (html) => [...html.matchAll(/href="(?:https:\/\/tourticketcompare\.com)?(\/events\/[^"#?]*)/g)].map((match) => match[1]);
+  const unserved = [];
+  let parentLinks = 0;
   for (const parent of parents) {
-    const rendered = await site.renderRoute(parent);
-    if (/href="(?:https:\/\/tourticketcompare\.com)?\/events\//.test(rendered.html)) linking.push(parent);
+    const links = eventLinksIn((await site.renderRoute(parent)).html);
+    parentLinks += links.length;
+    unserved.push(...links.filter((link) => !servedPaths.has(link)).map((link) => `${parent} -> ${link}`));
   }
-  assert(`no parent page links to an event page yet (${parents.length} checked${linking.length ? `; linking: ${linking.slice(0, 5).join(", ")}` : ""})`, linking.length === 0);
+  assert(`parent boards link event pages (${parentLinks} links on ${parents.length} pages)`, parentLinks > 0);
+  assert(`every parent event link is a served canonical path${unserved.length ? ` (not: ${unserved.slice(0, 3).join("; ")})` : ""}`, unserved.length === 0);
+  const nonParents = ["/", "/artists", "/on-sale", "/compare-concert-ticket-prices", "/cities", "/venues"];
+  const linking = [];
+  for (const page of nonParents) {
+    if (eventLinksIn((await site.renderRoute(page)).html).length) linking.push(page);
+  }
+  assert(`no homepage, index or hub links an event page (${linking.join(", ") || "none"})`, linking.length === 0);
 
   const importers = fs
     .readdirSync(path.join(ROOT, "functions"), { recursive: true })

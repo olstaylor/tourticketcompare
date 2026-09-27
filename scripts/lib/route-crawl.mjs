@@ -116,7 +116,7 @@ export async function loadSiteFixture(root) {
   const read = (relativePath) => fs.readFile(path.join(root, relativePath), "utf8");
   const load = async (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
 
-  const [middlewareModule, sitemapModule, routeMetadataModule, venuesModule, citiesModule, artistCitiesModule, artistIndexabilityModule, policyModule, blogModule, priceGuidesModule] =
+  const [middlewareModule, sitemapModule, routeMetadataModule, venuesModule, citiesModule, artistCitiesModule, artistIndexabilityModule, policyModule, blogModule, priceGuidesModule, eventPagesModule] =
     await Promise.all([
       load("functions/_middleware.js"),
       load("functions/sitemap.xml.js"),
@@ -127,7 +127,8 @@ export async function loadSiteFixture(root) {
       load("functions/_artist-indexability.js"),
       load("functions/_route-indexability.js"),
       load("functions/_blog.js"),
-      load("functions/_price-guides.js")
+      load("functions/_price-guides.js"),
+      load("functions/_event-pages.js")
     ]);
 
   const catalog = JSON.parse(await read("public/data/catalog.json"));
@@ -195,6 +196,18 @@ export async function loadSiteFixture(root) {
     ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", "/on-sale", ...venuePaths, ...artistCityPaths, ...priceGuidePaths, ...blogPaths])
   ];
 
+  // Every event page the router serves (200, noindex,follow): each upcoming
+  // event's canonical path that resolveEventRoute renders. Kept out of
+  // allPaths — the indexable-surface audit tracks the indexable surface over
+  // time, and these are a noindex leaf. scripts/audit-internal-links.mjs
+  // crawls them to check the parent-board links into them.
+  const now = Date.now();
+  const eventPaths = eventPagesModule
+    .deriveEventRouteStates(events, artistsMeta, { now })
+    .filter((state) => state.upcoming && state.path)
+    .filter((state) => eventPagesModule.resolveEventRoute(events, artistsMeta, state.path, { now }).action === eventPagesModule.EVENT_ROUTE_ACTION.RENDER)
+    .map((state) => state.path);
+
   return {
     root,
     read,
@@ -210,7 +223,8 @@ export async function loadSiteFixture(root) {
       artistIndexabilityModule,
       policyModule,
       blogModule,
-      priceGuidesModule
+      priceGuidesModule,
+      eventPagesModule
     },
     data: { catalog, artistsMeta, events, guideContent, blogContent },
     indexableArtistSlugs,
@@ -220,7 +234,7 @@ export async function loadSiteFixture(root) {
     blogPosts,
     blogTags,
     priceGuideEntries,
-    paths: { staticPaths, guidePaths, artistPaths, cityPaths, venuePaths, artistCityPaths, priceGuidePaths, blogPaths, allPaths }
+    paths: { staticPaths, guidePaths, artistPaths, cityPaths, venuePaths, artistCityPaths, priceGuidePaths, blogPaths, allPaths, eventPaths }
   };
 }
 

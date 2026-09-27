@@ -36,7 +36,7 @@ import {
   priceGuideRouteDecision
 } from "./_price-guides.js";
 import { derivePriceMove, fetchEventPriceMoveSeries, PRICE_MOVE_WINDOW_DAYS } from "./_event-price-moves.js";
-import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, resolveEventRoute } from "./_event-pages.js";
+import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventPageLinker, resolveEventRoute } from "./_event-pages.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -533,8 +533,10 @@ async function routeForPath(pathname, env) {
   }
 
   // Individual event pages: /events/<artist>-<venue>-<city>-<local date>-<key>.
-  // Every one is noindex,follow, absent from the sitemaps and llms.txt, and not
-  // yet linked from any other page. The decision — render, 301 (past event,
+  // Every one is noindex,follow and absent from the sitemaps and llms.txt; the
+  // artist, artist-city, city and venue boards link each card to its page
+  // ("Show details", eventPageLinker) only where this same decision renders
+  // it. The decision — render, 301 (past event,
   // out-of-date readable slug, nowhere to lead) or 404 — is resolveEventRoute
   // in functions/_event-pages.js; only the stable key identifies the event.
   if (path.startsWith(EVENT_PATH_PREFIX)) {
@@ -633,6 +635,9 @@ async function routeForPath(pathname, env) {
       linkableArtistSlugs: artistsMeta
         .filter((artist) => artistPageIndexable(artist, cityEvents))
         .map((artist) => slugify(artist?.slug)),
+      // The event router's artist records, so each card links its event page
+      // on exactly the router's terms (eventPageLinker).
+      artistsMeta,
       breadcrumb: [
         { name: "Cities", path: "/cities" },
         { name: `${city.city}, ${city.country}`, path }
@@ -682,6 +687,7 @@ async function routeForPath(pathname, env) {
       description: venueMetaDescription(venue),
       venue,
       events: venueEvents,
+      artistsMeta,
       indexableArtistSlugs: artistsMeta
         .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
         .map((artist) => slugify(artist?.slug)),
@@ -2045,10 +2051,18 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
           if (!fullShow) return "";
           const artistLabel = show.artist_name || show.artist_slug;
           const artistCityPath = options.artistCityPaths?.get(show.artist_slug);
+          const eventPagePath = options.eventPageLinkFor ? options.eventPageLinkFor(show.id) : "";
+          // With the date's own page linked as "Show details", the artist-page
+          // link (still deep-linked to this date's card) is named for what it
+          // adds, all of the artist's dates, so the card has one "details" link.
           const detailsLink = artistCityPath
             ? anchor(`All ${artistLabel} dates in ${city.city}`, artistCityPath, "text-link")
             : (options.linkableArtistSlugs || indexableArtistSlugs).has(show.artist_slug)
-              ? anchor(`View ${artistLabel} date details`, `/artists/${show.artist_slug}#${showAnchorId(show)}`, "text-link")
+              ? anchor(
+                  eventPagePath ? `All ${artistLabel} dates` : `View ${artistLabel} date details`,
+                  `/artists/${show.artist_slug}#${showAnchorId(show)}`,
+                  "text-link"
+                )
               : "";
           return renderShowCardServerHtml(
             fullShow,
@@ -2062,7 +2076,7 @@ function renderCityShowGroups(city, events = [], indexableArtistSlugs = new Set(
             {
               includeCopyLink: false,
               titleArtist: true,
-              supplementalHtml: detailsLink
+              supplementalHtml: `${showDetailsLinkHtml(eventPagePath, fullShow, artistLabel)}${detailsLink}`
             }
           );
         })
@@ -3095,7 +3109,7 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
   return parts.join("");
 }
 
-function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}, linkableArtistSlugs = null, cachedEvents = null) {
+function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}, linkableArtistSlugs = null, cachedEvents = null, eventPageLinkFor = null) {
   const venueRuns = venueRunIndex(venue.shows);
   const artistCityPaths = venue.city
     ? indexableArtistCityPaths(cachedEvents || events, citySlug(venue.city, venue.country), linkableArtistSlugs || indexableArtistSlugs, venue.artistSlugs)
@@ -3121,7 +3135,7 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
                 marketplaceAvailability,
                 group.slug,
                 venueRuns,
-                { titleArtist: true }
+                { titleArtist: true, supplementalHtml: showDetailsLinkHtml(eventPageLinkFor ? eventPageLinkFor(show.id) : "", fullShow, group.name) }
               )
             : "";
         })
@@ -3214,6 +3228,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       {
         ...options,
         ...(route.linkableArtistSlugs ? { linkableArtistSlugs: new Set(route.linkableArtistSlugs) } : {}),
+        eventPageLinkFor: route.artistsMeta ? eventPageLinker(route.events || events, route.artistsMeta) : null,
         // route.events is the isolate's cached events array; `events` here is
         // the per-request copy with prices attached, which would defeat the memo.
         artistCityPaths: indexableArtistCityPaths(
@@ -3272,7 +3287,8 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       options.vividSeatsAvailable === true,
       options.marketplaceAvailability || {},
       null,
-      route.events || events
+      route.events || events,
+      route.artistsMeta ? eventPageLinker(route.events || events, route.artistsMeta) : null
     )}</section>${renderLocationPageNotesHtml(
       venueLeadSentence(venue),
       `Selected verified tour dates — not the full ${venue.venue} calendar.`
@@ -5182,10 +5198,28 @@ function renderMoneyDisclosureHtml() {
   )}</p>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "", pastShows = [], emptyCopy = null) {
+// "Show details": a parent board's link to the date's own page, passed into the
+// card's supplemental slot. The path comes from eventPageLinker (only a page
+// the event router serves, at its canonical path). A secondary text link after
+// the ticket buttons and price notes, never in place of them: every date stays
+// comparable on the board without opening its page. The hidden suffix names
+// the date for screen-reader link lists, where every card's link reads alike.
+function showDetailsLinkHtml(eventPagePath, show, artistName = "") {
+  if (!eventPagePath) return "";
+  const label = [artistName, showLocationServer(show), formatShowDateServer(show.dateTimeISO, show.timezone)].filter(Boolean).join(", ");
+  return `<a class="text-link show-details-link" href="${escapeAttr(eventPagePath)}" data-event-page-link>Show details<span class="sr-only">: ${escapeHtml(label)}</span></a>`;
+}
+
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "", pastShows = [], emptyCopy = null, eventPageLinkFor = null) {
   const venueRuns = venueRunIndex(shows);
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns)).join("")
+    ? shows
+        .map((show) =>
+          renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns, {
+            supplementalHtml: showDetailsLinkHtml(eventPageLinkFor ? eventPageLinkFor(show.id) : "", show)
+          })
+        )
+        .join("")
     : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug, pastShows, emptyCopy);
   // The month jump list and the filter bar (public/artist-board.js) explain
   // themselves; the "Find your date" heading and instructions above them were
@@ -5649,7 +5683,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       marketplaceAvailability,
       artist.slug,
       pastShows,
-      contentModel.emptyBoard
+      contentModel.emptyBoard,
+      // route.events is the isolate's cached partition, so the key index the
+      // router's decision builds is reused across requests.
+      eventPageLinker(route.events || events, [artist])
     );
     const providerPanelHtml = shows.length
       ? renderProviderFallback(catalog, artist, "artist_page", providerAvailability)
@@ -5804,7 +5841,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       vividSeatsAvailable,
       null,
       marketplaceAvailability,
-      artist.slug
+      artist.slug,
+      [],
+      null,
+      eventPageLinker(route.events || events, [artist])
     )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
       `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
@@ -6377,8 +6417,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260925a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260925a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20260927a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260927a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924v" defer></script></body>');

@@ -181,8 +181,11 @@ the page flips to `index,follow` and re-enters the sitemap on the next deploy.
 ### Event — `/events/<slug>-<key>`
 
 **Never indexable yet.** Every event page is `noindex,follow` with a
-self-referencing canonical, absent from every sitemap and `llms.txt`, and not
-linked from any parent page. Indexing is a separate, deliberate decision;
+self-referencing canonical and absent from every sitemap and `llms.txt`. The
+artist, artist-city, city and venue boards link each served date's page
+("Show details") so the noindex signal can be crawled; that is navigation, not
+an indexing step, and the internal-link audit never counts an event page as an
+orphan for being noindex. Indexing is a separate, deliberate decision;
 `previewEventIndexability` in `functions/_event-pages.js` only reports what a
 candidate policy would do (`npm run report:event-routes`).
 

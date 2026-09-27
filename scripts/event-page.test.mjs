@@ -377,6 +377,137 @@ for (const event of HELD) {
   assert(collided.status === 404, "a key held by two records fails closed");
 }
 
+// ─── parent boards link each date to its page ───────────────────────────────
+//
+// "Show details" on the artist, artist-city, city and venue cards: only to a
+// page the router serves (200), always the event's current canonical path, and
+// always beside — never instead of — the date's ticket buttons.
+
+const CITY_PATH = `/cities/${CITY_SLUG}`;
+const VENUE_PATH = "/venues/fixture-arena-springfield";
+const PARENTS = [`/artists/${ARTIST.slug}`, ARTIST_CITY, CITY_PATH, VENUE_PATH];
+const detailsLinks = (html) => [...mainOf(html).matchAll(/<a class="text-link show-details-link" href="([^"]+)"/g)].map((m) => m[1]);
+const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-details-link" href="([^"]+)"/)?.[1] || "";
+{
+  const pages = new Map();
+  for (const parent of PARENTS) {
+    const page = await render(parent);
+    assert(page.status === 200, `${parent} renders (got ${page.status})`);
+    pages.set(parent, page);
+  }
+  const served = [PRICED, STALE, RESCHEDULED, ...HELD, PENDING_BARE];
+  for (const [parent, page] of pages) {
+    for (const event of served) {
+      const eventCard = card(page.html, event.id);
+      assert(Boolean(eventCard), `${parent}: ${event.id} has a card`);
+      assert(detailsLinkOf(eventCard) === pathOf(event), `${parent}: ${event.id} links its canonical event page (got "${detailsLinkOf(eventCard)}")`);
+      assert(/>Show details<span class="sr-only">/.test(eventCard), `${parent}: the link reads "Show details"`);
+      // The fragment anchor stays the card's id, whatever else links to it.
+      assert(eventCard.includes(`id="show-${event.id}"`), `${parent}: ${event.id} keeps its #show- anchor`);
+    }
+    for (const event of [UPSELL, NO_DESTINATION]) {
+      const eventCard = card(page.html, event.id);
+      if (eventCard) assert(!detailsLinkOf(eventCard), `${parent}: ${event.id} (no page of its own) gets no event link`);
+    }
+    // Only real, served paths: every link is one of the served events' own
+    // (the artist board also carries the Düsseldorf date).
+    const expected = parent === `/artists/${ARTIST.slug}` ? [...served, DUSSELDORF] : served;
+    const links = detailsLinks(page.html);
+    assert(links.length === expected.length, `${parent}: one event link per served date (got ${links.length})`);
+    assert(links.every((link) => expected.some((event) => pathOf(event) === link)), `${parent}: every event link is a served event's canonical path`);
+  }
+
+  // The link sits after the buttons and price notes, is plain navigation
+  // (no /api/out, no CTA tracking), and leaves the buttons as they were: the
+  // card's buttons still equal the event page's, which the parity check above
+  // pins to the pre-link card.
+  const artistCity = pages.get(ARTIST_CITY);
+  const pricedCard = card(artistCity.html, PRICED.id);
+  const linkAt = pricedCard.indexOf("show-details-link");
+  assert(linkAt > pricedCard.lastIndexOf("/api/out?") && linkAt > pricedCard.indexOf("provider-cta-notes"), "Show details follows the ticket buttons and price notes");
+  assert(!/show-details-link[^>]*data-cta-/.test(pricedCard) && !/show-details-link" href="\/api\//.test(pricedCard), "Show details is not a CTA");
+  assert(buttons(pricedCard).length >= 4 && buttons(pricedCard).some((b) => /\$182/.test(b)), "the priced card keeps every ticket button and its price inline");
+  assert(text(artistCity.html).includes("30-day low $150 · Vivid Seats"), "the artist-city price answer still compares the dates inline");
+  const eventPage = await render(pathOf(PRICED));
+  assert(JSON.stringify(buttons(pricedCard)) === JSON.stringify(buttons(card(eventPage.html, PRICED.id))), "parent and event cards still carry identical buttons");
+  for (const parent of PARENTS) {
+    const page = pages.get(parent);
+    for (const event of [PRICED, STALE, RESCHEDULED]) {
+      assert(outLinks(page.html, event.id) >= 4, `${parent}: ${event.id} keeps its ticket buttons beside Show details`);
+    }
+  }
+
+  // Held dates link to the page that states their status; still no buttons.
+  for (const event of HELD) {
+    const heldCard = card(artistCity.html, event.id);
+    assert(detailsLinkOf(heldCard) === pathOf(event) && outLinks(heldCard, event.id) === 0 && !/\$\d/.test(heldCard), `${event.id}: linked, with no ticket button or price`);
+  }
+
+  // The artist board keeps its fragment deep links and copy-link action.
+  const artistPage = pages.get(`/artists/${ARTIST.slug}`);
+  const artistCard = card(artistPage.html, PRICED.id);
+  assert(artistCard.includes(`data-copy-show-link="show-${PRICED.id}"`) && artistCard.includes(`href="#show-${PRICED.id}"`), "the copy-link action still targets the card's #show- anchor");
+
+  // City cards: one "details" link. The artist-page link keeps its fragment
+  // and is named for what it adds.
+  const cityCard = card(pages.get(CITY_PATH).html, PRICED.id);
+  assert((text(cityCard).match(/details/gi) || []).length === 1, "a city card carries a single details link");
+  // A single-date city has no indexable artist-city page, so its card keeps the
+  // artist-page link, deep-linked to the date, now named "All <artist> dates".
+  const { citySlug } = await load("functions/_cities.js");
+  const single = await render(`/cities/${citySlug(DUSSELDORF.city, DUSSELDORF.country)}`);
+  const singleCard = card(single.html, DUSSELDORF.id);
+  assert(single.status === 200 && detailsLinkOf(singleCard) === pathOf(DUSSELDORF), "a single-date city card links its event page");
+  assert(singleCard.includes(`href="/artists/${ARTIST.slug}#show-${DUSSELDORF.id}">All ${ARTIST.name} dates</a>`), "and keeps its artist-page deep link, renamed");
+  assert((text(singleCard).match(/details/gi) || []).length === 1, "with a single details link");
+
+  // Every link any parent emits renders 200 and is noindex,follow.
+  for (const link of new Set([...pages.values()].flatMap((page) => detailsLinks(page.html)))) {
+    const target = await render(link);
+    assert(target.status === 200 && robots(target.html) === "noindex,follow", `${link} serves 200 noindex,follow (got ${target.status})`);
+  }
+
+  // Structured data does not point at event pages yet (the event-schema change is separate).
+  for (const [parent, page] of pages) {
+    const jsonLd = [...page.html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("");
+    assert(!jsonLd.includes("/events/"), `${parent}: no structured data references an event page`);
+  }
+}
+{
+  // A shell artist's dates have no page, so their cards link nowhere.
+  const shellPage = await render(`/artists/${shellArtist.slug}`);
+  const shellCard = card(shellPage.html, SHELL.id);
+  assert(!shellCard || !detailsLinkOf(shellCard), "a review_required artist's card has no event link");
+
+  // The linker is the router's decision: no link for a past date (301), a date
+  // with nowhere to lead (301), a non-performance listing or a shell (404).
+  const link = eventPages.eventPageLinker(EVENTS, artistsMeta);
+  for (const event of [PAST_HERE, PAST_CANCELLED, NO_DESTINATION, UPSELL, SHELL]) {
+    assert(link(event.id) === "", `${event.id}: no event link`);
+  }
+  assert(link(PRICED.id) === pathOf(PRICED) && link(CANCELLED.id) === pathOf(CANCELLED), "a live or held date links its canonical path");
+  assert(link("no-such-id") === "", "an unknown id links nowhere");
+  assert(eventPages.eventPageLinkPath(EVENTS, [], PRICED) === "", "without the artist's record, no link (the router would 404)");
+
+  // After a venue rename the board emits the current path, never the old one.
+  const moved = { ...PRICED, venue: "Fixture Stadium" };
+  const events = EVENTS.map((event) => (event.id === PRICED.id ? moved : event));
+  const movedBoard = await render(ARTIST_CITY, events);
+  const movedLink = detailsLinkOf(card(movedBoard.html, PRICED.id));
+  assert(movedLink === pathOf(moved) && movedLink !== pathOf(PRICED), `a renamed venue's card links the current slug (got ${movedLink})`);
+  const followed = await render(movedLink, events);
+  assert(followed.status === 200, "and that path serves 200");
+}
+{
+  // Indexing is unchanged: no event URL in the sitemap or llms.txt.
+  const { onRequestGet: sitemapGet } = await load("functions/sitemap.xml.js");
+  const { onRequestGet: llmsGet } = await load("functions/llms.txt.js");
+  const sitemap = await (await sitemapGet({ request: new Request(`${ORIGIN}/sitemap.xml`), env: env(EVENTS) })).text();
+  const llms = await (await llmsGet({ request: new Request(`${ORIGIN}/llms.txt`), env: env(EVENTS) })).text();
+  assert(sitemap.includes("<urlset") && !sitemap.includes("/events/"), "the sitemap lists no event page");
+  assert(llms.length > 0 && !llms.includes("/events/"), "llms.txt lists no event page");
+}
+
 // ─── analytics page type ────────────────────────────────────────────────────
 
 assert(classifyPageType(pathOf(PRICED)) === "event", "analytics classifies an event page as its own page type");

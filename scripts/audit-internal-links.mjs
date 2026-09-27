@@ -12,6 +12,9 @@
 //   - orphan or weakly linked indexable pages
 //   - JSON-LD structured-data types
 //   - sitemap inclusion vs indexability
+//   - event pages (a noindex,follow leaf): every parent-board link lands on a
+//     served canonical event page, every served event page is linked from the
+//     boards that list its date, and event pages link back to live parents
 //
 // Usage:
 //   node scripts/audit-internal-links.mjs            # write report to reports/internal-links/
@@ -46,12 +49,12 @@ const site = await loadSiteFixture(root);
 const {
   renderRoute,
   env,
-  modules: { sitemapModule, routeMetadataModule, policyModule },
-  data: { guideContent },
+  modules: { sitemapModule, routeMetadataModule, policyModule, eventPagesModule },
+  data: { guideContent, events },
   cities,
   venues,
   artistCityEntries,
-  paths: { guidePaths, allPaths }
+  paths: { guidePaths, allPaths, eventPaths }
 } = site;
 
 const robotsTxt = await site.read("public/robots.txt");
@@ -59,7 +62,9 @@ const staticHeaders = await site.read("public/_headers");
 
 // ---------- crawl ----------
 
-const pages = computeInboundLinks(await crawlRoutes(allPaths, renderRoute));
+// Event pages are crawled too, so links into them are counted and checked
+// (see "event pages" below); they are noindex and never counted as orphans.
+const pages = computeInboundLinks(await crawlRoutes([...allPaths, ...eventPaths], renderRoute));
 
 const problems = [];
 
@@ -445,6 +450,111 @@ for (const page of indexablePages) {
   }
 }
 
+// ---------- event pages ----------
+
+// Event pages are a deliberate noindex,follow leaf (docs/ROUTE_INDEXABILITY_POLICY.md
+// → "Event pages"): not indexable, so never an orphan under the rule above and
+// never in the sitemap, and reached through "Show details" on the artist,
+// artist-city, city and venue boards. These checks are about correctness —
+// every link lands on a page the router serves, and every served page can be
+// reached from a board that lists its date — not about indexing.
+const EVENT_PREFIX = eventPagesModule.EVENT_PATH_PREFIX;
+const servedEventPaths = new Set(eventPaths);
+const EVENT_PARENT_SURFACES = ["artist", "artist-city", "city", "venue"];
+function surfaceOf(pathname) {
+  if (/^\/artists\/[a-z0-9-]+$/.test(pathname)) return "artist";
+  if (/^\/artists\/[a-z0-9-]+\/tickets\/[a-z0-9-]+$/.test(pathname)) return "artist-city";
+  if (/^\/cities\/[a-z0-9-]+$/.test(pathname)) return "city";
+  if (/^\/venues\/[a-z0-9-]+$/.test(pathname)) return "venue";
+  if (pathname.startsWith(EVENT_PREFIX)) return "event";
+  return "other";
+}
+// id -> the event page a card for that id must link ("" = must not link).
+const servedPathById = new Map();
+for (const eventPath of eventPaths) {
+  const resolved = eventPagesModule.resolveEventPath(events, eventPath);
+  servedPathById.set(String(resolved.event?.id || "").trim(), eventPath);
+}
+const eventLinkStatus = new Map();
+async function statusOfEventLink(target) {
+  if (!eventLinkStatus.has(target)) {
+    const page = pages.get(target);
+    eventLinkStatus.set(target, page ? { status: page.status, location: page.location } : await renderRoute(target));
+  }
+  return eventLinkStatus.get(target);
+}
+
+for (const page of rendered) {
+  const surface = surfaceOf(page.path);
+  for (const target of new Set(page.allLinks.filter((href) => href.startsWith(EVENT_PREFIX)))) {
+    if (!EVENT_PARENT_SURFACES.includes(surface)) {
+      problems.push(`event link: ${page.path} (${surface}) links event page ${target}; only artist, artist-city, city and venue boards link event pages`);
+    }
+    if (servedEventPaths.has(target)) {
+      const resolved = eventPagesModule.resolveEventPath(events, target);
+      if (eventPagesModule.nonPerformanceMarkers(resolved.event).length) {
+        problems.push(`event link: ${page.path} links ${target}, a non-performance listing`);
+      }
+      continue;
+    }
+    // Not a served canonical page: a stale readable slug (301), a past or
+    // destination-less date (301), or an unknown or non-performance key (404).
+    const { status, location } = await statusOfEventLink(target);
+    problems.push(`event link: ${page.path} links ${target}, which is not a served canonical event page (${status}${location ? ` → ${location}` : ""})`);
+  }
+  // Card contract on the parent boards: a card links its date's page exactly
+  // when the router serves it, and only at its canonical path.
+  if (!EVENT_PARENT_SURFACES.includes(surface)) continue;
+  for (const match of page.mainHtml.matchAll(/<article class="info-card show-card[^"]*"[^>]*\sdata-event-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)) {
+    const id = decodeEntities(match[1]);
+    const linked = decodeEntities(match[2].match(/<a class="text-link show-details-link" href="([^"]+)"/)?.[1] || "");
+    const expected = servedPathById.get(id) || "";
+    if (linked !== expected) {
+      problems.push(
+        expected
+          ? `event link: ${page.path} card ${id} ${linked ? `links ${linked}` : "has no Show details link"}; expected ${expected}`
+          : `event link: ${page.path} card ${id} links ${linked}, but the router serves no page for it`
+      );
+    }
+  }
+}
+
+const eventLinkCoverage = { served: eventPaths.length, linked: 0, unlinked: [], by_surface: Object.fromEntries(EVENT_PARENT_SURFACES.map((surface) => [surface, 0])) };
+for (const eventPath of eventPaths) {
+  const page = pages.get(eventPath);
+  if (!page || page.status !== 200) {
+    problems.push(`event page: ${eventPath} is served by the router but rendered ${page?.status ?? "nothing"} in the crawl`);
+    continue;
+  }
+  if (page.robots !== "noindex,follow") problems.push(`event page: ${eventPath} robots is "${page.robots}", expected noindex,follow`);
+  if (sitemapPaths.has(eventPath)) problems.push(`event page: ${eventPath} is in the sitemap`);
+  const surfaces = new Set(page.inboundContextual.map(surfaceOf).filter((surface) => EVENT_PARENT_SURFACES.includes(surface)));
+  for (const surface of surfaces) eventLinkCoverage.by_surface[surface] += 1;
+  if (surfaces.size) eventLinkCoverage.linked += 1;
+  else eventLinkCoverage.unlinked.push(eventPath);
+  // Its own artist board lists every upcoming date, so it always links here.
+  const resolved = eventPagesModule.resolveEventPath(events, eventPath);
+  const artistPath = `/artists/${resolved.event?.artist_slug}`;
+  if (!page.inboundContextual.includes(artistPath)) {
+    problems.push(`event page: ${eventPath} is not linked from its artist page ${artistPath}`);
+  }
+  // Event -> parent links must land on pages that render.
+  for (const target of new Set(page.contextualLinks)) {
+    if (target.startsWith(EVENT_PREFIX)) {
+      problems.push(`event page: ${eventPath} links another event page ${target}`);
+      continue;
+    }
+    if (!["artist", "artist-city", "city", "venue"].includes(surfaceOf(target))) continue;
+    const parent = pages.get(target);
+    if (!parent || parent.status !== 200) {
+      problems.push(`event page: ${eventPath} links ${target}, which ${parent ? `returns ${parent.status}` : "is not a rendered route"}`);
+    }
+  }
+}
+for (const eventPath of eventLinkCoverage.unlinked) {
+  problems.push(`event page: ${eventPath} is served but no artist, artist-city, city or venue board links it`);
+}
+
 // ---------- output ----------
 
 const summary = {
@@ -456,8 +566,11 @@ const summary = {
     indexable: indexablePages.length,
     noindex: rendered.length - indexablePages.length,
     sitemap_entries: sitemapPaths.size,
+    event_pages_served: eventLinkCoverage.served,
+    event_pages_linked: eventLinkCoverage.linked,
     problems: problems.length
   },
+  event_page_links: eventLinkCoverage,
   problems,
   pages: [...pages.values()].map((page) => ({
     path: page.path,
@@ -485,7 +598,8 @@ if (CHECK_MODE) {
   }
   console.log(
     `internal-link audit passed: ${summary.totals.routes_crawled} routes, ${summary.totals.indexable} indexable, ` +
-      `${summary.totals.noindex} noindex, ${summary.totals.sitemap_entries} sitemap entries, 0 problems`
+      `${summary.totals.noindex} noindex, ${summary.totals.sitemap_entries} sitemap entries, ` +
+      `${eventLinkCoverage.linked}/${eventLinkCoverage.served} event pages linked (${EVENT_PARENT_SURFACES.map((surface) => `${surface} ${eventLinkCoverage.by_surface[surface]}`).join(", ")}), 0 problems`
   );
   process.exit(0);
 }

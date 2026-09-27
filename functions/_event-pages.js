@@ -3,10 +3,12 @@
 //
 // The router (functions/[[path]].js) serves /events/* from resolveEventRoute
 // below. Every event page is noindex,follow: there is no sitemap entry, no
-// llms.txt line, no parent-page link and no event structured data yet. The
-// router, and later the sitemap and audits, derive the same URL for the same
-// show from this one module — the same reason functions/_artist-cities.js is
-// shared. See docs/ARCHITECTURE.md → "Event identity".
+// llms.txt line and no event structured data yet. The artist, artist-city,
+// city and venue boards link each card to its page ("Show details") through
+// eventPageLinkPath, which asks the same resolveEventRoute. The router, the
+// parent boards and the audits derive the same URL for the same show from this
+// one module — the same reason functions/_artist-cities.js is shared. See
+// docs/ARCHITECTURE.md → "Event identity".
 //
 // Identity vs readable slug
 // -------------------------
@@ -624,6 +626,68 @@ export function resolveEventRoute(events, artists, pathname, options = {}) {
     return { action: EVENT_ROUTE_ACTION.REDIRECT, reason: "no_destination", location: eventParentPath(events, event, artist, now) };
   }
   return { action: EVENT_ROUTE_ACTION.RENDER, reason: "", event, artist, state, canonicalPath: resolved.canonicalPath };
+}
+
+// ---------------------------------------------------------------------------
+// Parent-surface links
+// ---------------------------------------------------------------------------
+
+/**
+ * The event page a parent board's show card links to ("Show details"), or ""
+ * when the card must not link. The answer is the router's own: the event's
+ * canonical path, and only when resolveEventRoute would render it (200). A
+ * parent therefore never links a non-performance listing, a record with no
+ * path, a past event or a date with nowhere to lead (both 301), or an
+ * out-of-date readable slug. A cancelled or postponed future date does link:
+ * its page states the status and shows no ticket links.
+ *
+ * `events` is whatever array the parent page itself was built from. An artist
+ * page reads only that artist's partition, so a key collision with another
+ * artist's event would go unseen here while the router (all events) refused
+ * it; assertUniqueEventKeys in CI keeps that from ever reaching a deploy, and
+ * scripts/audit-internal-links.mjs renders every emitted link.
+ *
+ * @param {any[]} events
+ * @param {any[]} artists artists.json records (slug and indexing_status are read).
+ * @param {any} event Raw events.json record.
+ * @param {{ now?: number }} [options]
+ * @returns {string}
+ */
+export function eventPageLinkPath(events, artists, event, options = {}) {
+  const path = eventPath(event);
+  if (!path) return "";
+  const decision = resolveEventRoute(events, artists, path, options);
+  return decision.action === EVENT_ROUTE_ACTION.RENDER && decision.canonicalPath === path ? path : "";
+}
+
+const EVENTS_BY_ID_MEMO = new WeakMap();
+
+/**
+ * Event id -> event page link for one parent render. The boards render an
+ * enriched show that drops fields the path is derived from, so the link is
+ * looked up by id from the raw records instead.
+ *
+ * @param {any[]} events
+ * @param {any[]} artists
+ * @param {{ now?: number }} [options]
+ * @returns {(id: unknown) => string}
+ */
+export function eventPageLinker(events, artists, options = {}) {
+  const list = Array.isArray(events) ? events : [];
+  const now = Number.isFinite(options.now) ? Number(options.now) : Date.now();
+  let byId = EVENTS_BY_ID_MEMO.get(list);
+  if (!byId) {
+    byId = new Map();
+    for (const event of list) {
+      const id = String(event?.id ?? "").trim();
+      if (id && !byId.has(id)) byId.set(id, event);
+    }
+    EVENTS_BY_ID_MEMO.set(list, byId);
+  }
+  return (id) => {
+    const event = byId.get(String(id ?? "").trim());
+    return event ? eventPageLinkPath(list, artists, event, { now }) : "";
+  };
 }
 
 // ---------------------------------------------------------------------------

@@ -1316,11 +1316,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957100",
-        "url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-26-2026/event/106957100",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkGsGkdULEK_",
@@ -1329,7 +1329,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-26-2026/event/106957100"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1",

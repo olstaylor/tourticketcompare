@@ -277,11 +277,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107168137",
-        "url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xF0U",
@@ -289,7 +289,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-detroit-vv17oz_fgktec1td",

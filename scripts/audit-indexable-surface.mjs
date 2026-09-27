@@ -74,6 +74,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { loadSiteFixture, crawlRoutes, computeInboundLinks } from "./lib/route-crawl.mjs";
+import { auditEventIndexability } from "./lib/event-indexability-audit.mjs";
 import {
   checkSurface,
   applySurfaceWrites,
@@ -762,6 +763,16 @@ for (const duplicate of duplicateTitles) {
 }
 for (const change of structuralChanges) problems.push(`structural change: ${change}`);
 
+// Event pages: eligibility for future indexing. Reported beside the surface,
+// never inside it — the counts above (and the baseline) are the indexed
+// surface, which event eligibility does not change. The checks catch robots or
+// a sitemap switching before the pilot, a policy-eligible page that is
+// malformed, and the policy's lane count drifting from the buttons the page
+// renders. See scripts/lib/event-indexability-audit.mjs.
+const eventAudit = await auditEventIndexability(site, { root, now });
+for (const problem of eventAudit.problems) problems.push(`event pages: ${problem}`);
+for (const warning of eventAudit.warnings) warnings.push(`event pages: ${warning}`);
+
 const totalIndexable = indexablePages.length;
 const baselineIndexable = baseline?.totals
   ? Object.values(baseline.totals).reduce((sum, bucket) => sum + bucket.indexable, 0)
@@ -810,6 +821,7 @@ const summary = {
   duplicate_titles: duplicateTitles,
   title_patterns: titlePatterns,
   traffic: trafficSection,
+  event_pages: eventAudit.summary,
   baseline_comparison: baseline?.totals
     ? { baseline_generated_at: baseline.generated_at || "", changes: changeRows }
     : { baseline_generated_at: null, changes: [], note: "no stored baseline; run --write-baseline to anchor one" },
@@ -923,6 +935,19 @@ function markdown() {
       "**Clock** is what the calendar alone accounts for: the same gates re-run over the same event data at the baseline's timestamp versus now. **Residual** is everything left over — a code, gate, or data change. `inventory-decay` / `inventory-growth` are expected. `structural` (residual loss beyond tolerance) fails `--check`; `unexplained-growth` only warns, because an artist batch or a big discovery run produces it legitimately."
     );
   }
+  const ev = summary.event_pages;
+  lines.push(
+    "",
+    "## Event pages — eligible for future indexing (none indexed)",
+    "",
+    "Individual event pages are outside the indexable surface above. Eligible is the policy in `functions/_event-indexability.js`; indexable needs the rollout gate too (`EVENT_PAGES_INDEXING` and the pilot key list), which is off.",
+    "",
+    `- Served: ${ev.served} · rendered noindex,follow: ${ev.rendered_noindex} · rendered indexable: ${ev.rendered_indexable} · rollout-indexable: ${ev.rollout_indexable}`,
+    `- Eligible: ${ev.eligible} (${ev.eligible_artists} artists) · ineligible: ${ev.ineligible}`,
+    `- Exclusions (every failed condition): ${Object.entries(ev.excluded_by_reason).map(([reason, count]) => `\`${reason}\` ${count}`).join(", ") || "none"}`,
+    `- Duplicate-ambiguity exclusions: ${ev.duplicate_excluded.length}${ev.duplicate_excluded.length ? ` (${ev.duplicate_excluded.join(", ")})` : ""}`,
+    `- Pilot keys: ${ev.pilot_keys}`
+  );
   lines.push("", "## Warnings (non-blocking)", "");
   lines.push(...(warnings.length ? warnings.map((entry) => `- ${entry}`) : ["- none"]));
   lines.push("", "## Problems", "");
@@ -1008,6 +1033,10 @@ if (CHECK_MODE) {
     process.exit(1);
   }
   await syncStatusFigures({ write: false });
+  console.log(
+    `indexable-surface: event pages ${summary.event_pages.served} served, ${summary.event_pages.rendered_noindex} noindex,follow, ` +
+      `${summary.event_pages.eligible} eligible for future indexing, ${summary.event_pages.rollout_indexable} indexed (pilot keys ${summary.event_pages.pilot_keys})`
+  );
   console.log("indexable-surface: no orphans, no empty indexable routes, no duplicate titles, no structural change");
   process.exit(0);
 }

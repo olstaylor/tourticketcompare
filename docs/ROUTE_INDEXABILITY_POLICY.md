@@ -185,9 +185,116 @@ self-referencing canonical and absent from every sitemap and `llms.txt`. The
 artist, artist-city, city and venue boards link each served date's page
 ("Show details") so the noindex signal can be crawled; that is navigation, not
 an indexing step, and the internal-link audit never counts an event page as an
-orphan for being noindex. Indexing is a separate, deliberate decision;
-`previewEventIndexability` in `functions/_event-pages.js` only reports what a
-candidate policy would do (`npm run report:event-routes`).
+orphan for being noindex.
+
+Four states are kept apart, and only the first three exist today:
+
+| State | Meaning | Decided by |
+|---|---|---|
+| Addressable | The canonical path serves 200: a genuine performance TTC can describe | `resolveEventRoute` (`functions/_event-pages.js`) |
+| Commercially live | Ticket links may be shown today | `eventRouteState().commerciallyLive` |
+| **Eligible for indexing** | Strong and safe enough that it *could* be indexed | `eventIndexabilityDecision` (`functions/_event-indexability.js`) |
+| **Actually indexable** | Renders `index,follow` and is in a sitemap | eligible **and** the rollout gate `eventPageIndexingDecision` — off |
+
+An event page can be eligible and still `noindex`: eligibility is a standing,
+explainable verdict; indexing is a separate, deliberate rollout.
+
+**Eligible when** every condition holds (a page that fails any is listed under
+each reason it fails):
+
+| Condition | Reason code when it fails | Why it exists |
+|---|---|---|
+| Canonical path serves 200 | `not_addressable` | A 404 or a 301 is never a page to index |
+| Parent artist page is itself indexable (`artistPageIndexable`) | `artist_not_indexable` | An event page never outranks an artist TTC has not approved, or an auto-promoted artist below its own bar |
+| Upcoming | `not_upcoming` | A past event 301s; listed for completeness |
+| Not held: cancelled, postponed or an unrecognised Ticketmaster status | `lifecycle_held` | The page shows no ticket link; a rescheduled date (validated new date) is not held and may qualify |
+| Commercially live | `not_commercially_live` | Not held but nothing to click yet (pre-on-sale, no resale link) |
+| A genuine performance, not an upsell listing | `non_performance` | Premium seats, boxes, packages are not the concert |
+| The page carries a valid `MusicEvent` (`eventPageSchemaDecision`) | `no_event_schema` | An indexed event page should be the canonical, machine-readable description of one performance. This excludes a pre-on-sale date and a resale-only record, exactly as the parent boards' schema does |
+| ≥ 2 publishable ticket destinations (`EVENT_MIN_PUBLISHABLE_DESTINATIONS`) | `below_destination_threshold` | The page's reason to exist beside its artist page is a comparison for exactly this date; one destination (in practice: Ticketmaster alone) is the parent card restated |
+| ≥ 1 snapshot-ready lane (`EVENT_MIN_SNAPSHOT_READY_LANES`) | `no_snapshot_ready_lane` | The event page's other unique content is this date's listed-price snapshot, recorded low and price move, which only a snapshot lane can ever supply |
+| No duplicate ambiguity | `duplicate_ambiguity` | TTC must be able to say this row *is* the performance, not one of two rows for it |
+
+Codes are stable: `npm run report:event-routes` and the audit group by them,
+so add a code rather than renaming one.
+
+**Stable signals only.** Eligibility is built from canonical data — the route,
+lifecycle, `events.json` provider provenance, the CTA gate's publishable lanes
+(offline: `scripts/lib/event-link-coverage.mjs`, the mirror of
+`serverShowCtaSpecs`, never a second copy of the rules) and repo
+configuration. It never reads D1, a cached price or a live API. *Snapshot-ready*
+means the event has a **publishable** lane among the owner-approved price lanes
+(`PRICE_GUIDE_SNAPSHOT_PROVIDERS`: Vivid Seats, TicketNetwork, StubHub
+International) with **verified provenance and a stored URL for this exact
+event** — structurally able to carry a TTC-approved listed-price snapshot. It
+does not mean a fresh numeric price is cached right now. An expired cache row, a
+failed provider call or D1 being unavailable cannot flip a page in or out of the
+index; losing provenance, a lifecycle change or losing canonical provider
+coverage can, and should. The two time-dependent conditions (upcoming, the
+public on-sale) change only as the calendar passes a stored instant.
+
+**Decisions taken with the data (2026-09-27, 1,719 served pages).** Measured
+policies, each adding one condition to the last: minimal (served, artist
+indexable, not held, performance, ≥ 1 destination) 1,687; + ≥ 2 destinations
+1,377; + snapshot lane 1,346; + valid `MusicEvent` 1,309; + no duplicate
+ambiguity 1,302 (75.7% of served pages, 66 of 73 artists) — the rule above.
+
+- *≥ 2 destinations* removes 310 pages, 307 of them Ticketmaster-only. Kept.
+- *Snapshot lane* removes 31 more, every one SeatGeek + Ticketmaster (one also
+  Ticket Liquidator): two real destinations, but no price the page could ever
+  show. Kept, because a price snapshot is what the event page adds over its
+  parent card.
+- *Valid `MusicEvent`* removes 37 more: 32 pre-on-sale dates with live resale
+  links (each qualifies on its own the moment its stored public on-sale passes)
+  and 5 resale-only records with no Ticketmaster source. Kept: an indexed event
+  page that cannot describe its own event is a weak page to put in front of
+  Google.
+- *No duplicate ambiguity* removes 7 more.
+- *≥ 3 destinations* was not adopted: it would drop 148 strong two-lane pages
+  (mostly Vivid Seats + Ticketmaster, a common international shape) for no
+  safety gain.
+
+**Duplicate ambiguity.** `deriveEventDuplicateGroups` finds two kinds of group
+and classifies each; no row is ever merged, rewritten or deleted:
+
+| Group | Classification | Effect |
+|---|---|---|
+| Same artist, city, venue-local date; every other row a non-performance listing | `non_performance_variant` | None: the concert row is unambiguous |
+| Same date; an extra row named `<the concert's name> \| …` (a hospitality or lounge add-on the classifier does not name) | `add_on_variant` | The add-on row is excluded; the concert row is not |
+| Same date; rows share a start instant or a provider listing | `same_performance` | Every row excluded |
+| Same date and venue, start times ≥ 3 hours apart, nothing shared | `distinct_performances` | None: a matinee and an evening show |
+| Same date, anything else | `ambiguous` | Every row excluded |
+| Rows on different dates claiming one verified provider listing id | `shared_provider_listing` | Every row excluded: at least one is mapped to the wrong night |
+
+**Artist-city relationship** is reported, never a gate. A date whose
+artist-city page is `noindex` (single date) is where the event page adds most:
+it is the precise leaf while the thin city page stays out of the index.
+
+**Rollout (designed, off).** `eventPageIndexingDecision(decision, env)` is
+indexable only when the page is eligible **and** `EVENT_PAGES_INDEXING` is
+`"pilot"` **and** the event's stable key (16 hex digits, never the readable
+slug, which follows venue renames) is in `EVENT_INDEXING_PILOT_KEYS`. A pilot
+key is necessary, not sufficient: a pilot event that is cancelled, loses a
+destination or passes drops out on its own. Today the flag is unset
+(`wrangler.toml` does not carry it), the list is empty, and the router
+hard-codes `noindex,follow`; `npm run test:event-indexability` pins all three.
+Starting the pilot means: wiring the gate into the router's robots meta, the
+sitemap and `llms.txt` in one change; adding the flag to `wrangler.toml`
+`[vars]`; and adding keys. Unsetting the flag is the rollback.
+
+**Before the first event URL is exposed** the parent boards' `MusicEvent`
+nodes need to point at it. Every eligible date is already described by 1–4
+`MusicEvent` nodes on indexable parent pages (artist, artist-city, city, venue),
+each with `url` `/artists/<slug>#show-<id>`, no `@id`, the listing title as
+`name`, and `offers` where the schema-offers exception applies. An indexed event
+page would add a second description of the same performance under a different
+URL and name, with no offers — so Google would be free to treat the artist-page
+anchor as the event's landing page. The parent node for an event whose page is
+*actually indexable* should carry the event page's canonical URL as its `url`,
+gated by the same `eventPageIndexingDecision` so it moves in lock-step with
+robots and the sitemap. That belongs with the pilot, before any key is added —
+not before: pointing parent nodes at `noindex` pages would change thousands of
+nodes for no benefit.
 
 **Structured data ahead of indexing.** Each served event page carries one
 `MusicEvent` for the performance it shows (or none, where it may not be
@@ -478,7 +585,13 @@ routes by type, indexable and non-indexable totals, exclusion reasons, routes
 about to lose indexability, indexable routes with zero internal links,
 duplicate and near-duplicate title patterns, routes with no future events,
 routes with traffic but no provider clicks, and the change against the stored
-baseline.
+baseline. A separate section covers individual event pages, which are outside
+that surface: it renders every served event page and fails `--check` if a
+page's robots or any sitemap/`llms.txt` entry disagrees with the rollout gate
+(today: any event page not `noindex,follow`, any event URL listed), if an
+eligible page is malformed, or if its rendered buttons differ from the lanes
+the policy counted. Those counts never enter the baseline — eligibility is not
+indexing — so they need no re-anchor.
 
 | Command | Purpose |
 |---|---|
@@ -556,3 +669,9 @@ report as unavailable rather than inventing numbers.
    the policy fails there.
 4. Run `npm run roster:forecast` to see the projected surface at +30/60/90 days.
 5. Re-anchor the baseline and commit it in the same change.
+
+For the event-page policy, edit the constant in
+`functions/_event-indexability.js` and the Event table above, then run
+`npm run test:event-indexability` and `npm run report:event-routes` to see what
+moved. There is no baseline to re-anchor until event pages are actually
+indexed.

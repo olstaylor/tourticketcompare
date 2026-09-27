@@ -128,8 +128,8 @@ Two things the lanes do **not** cover, because they are not in `test:mvp` at all
   Changing `functions/_event-local-date.js` (re-exported as
   `scripts/lib/event-local-date.mjs`) means running `test:quick` (or that one
   command), not `test:units` alone. `test:event-pages` (event identity and
-  future event paths, `functions/_event-pages.js`) sits there for the same
-  reason. `test:mvp` itself must stay the complete suite: the sanctioned
+  future event paths, `functions/_event-pages.js`) and `test:event-indexability`
+  (`functions/_event-indexability.js`) sit there for the same reason. `test:mvp` itself must stay the complete suite: the sanctioned
 auto-publish paths in
 [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) are gated on it passing
 in-job on exactly the proposed content.
@@ -220,7 +220,8 @@ npm run test:event-local-date                 # shared venue-local date/instant 
 npm run test:event-pages                      # event identity: stable keys, future event paths (in test:mvp)
 npm run test:event-lifecycle                  # cancelled/postponed holds on every surface and /api/out (in test:mvp)
 npm run test:event-page                       # /events/* routing, noindex, lifecycle and parent-card parity and "Show details" links (in test:mvp)
-npm run report:event-routes                   # read-only event identity/route diagnostic (not a test)
+npm run test:event-indexability               # event-page indexability policy, duplicates, pilot gate; nothing indexed (in test:mvp)
+npm run report:event-routes                   # read-only event route + indexability diagnostic; --json (not a test)
 npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
 npm run seatgeek:enrich:self-test             # SeatGeek enrichment scheduling + matching (in test:mvp)
 npm run seatgeek:verify:self-test             # SeatGeek verification invariants (in test:mvp)

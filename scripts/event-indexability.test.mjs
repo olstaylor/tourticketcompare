@@ -425,6 +425,91 @@ Date.now = realNow;
   assert("real data: no eligible event holds a pilot key yet", eligible.every((decision) => eventPageIndexingDecision(decision, { EVENT_PAGES_INDEXING: "pilot" }).reason === ROLLOUT.NOT_IN_PILOT));
 }
 
+// ─── pre-pilot data integrity (2026-09-27 cleanup) ──────────────────────────
+//
+// The four problem groups PR6's diagnostic found, and the invariants that stop
+// each class coming back. The invariants run over whatever events.json holds,
+// so an automated sync PR that reintroduces one fails here, in-job.
+{
+  const { urlDateConflicts, eventLocalDate } = await load("scripts/sync-impact-marketplace-events.mjs");
+  const events = readJson("public/data/events.json");
+  const tombstones = readJson("data/deleted-events.json").deleted_events;
+  const byId = new Map(events.map((event) => [String(event.id), event]));
+  const groups = policy.deriveEventDuplicateGroups(events);
+  const unresolved = new Set([D.SAME_PERFORMANCE, D.AMBIGUOUS, D.SHARED_PROVIDER_LISTING]);
+  // Kept rows are checked until their show has passed (past rows may be pruned).
+  const keptOrPast = (id, iso) => byId.has(id) || Date.now() > Date.parse(iso);
+
+  // Policy unchanged.
+  assert(
+    "integrity: the eligibility thresholds are unchanged (≥2 destinations, ≥1 snapshot lane, 3h matinee gap)",
+    policy.EVENT_MIN_PUBLISHABLE_DESTINATIONS === 2 && policy.EVENT_MIN_SNAPSHOT_READY_LANES === 1 &&
+      policy.EVENT_DISTINCT_PERFORMANCE_MIN_GAP_MS === 3 * 60 * 60 * 1000
+  );
+  assert(
+    "integrity: the eligibility reason vocabulary is unchanged",
+    JSON.stringify(Object.values(R)) === JSON.stringify(["not_addressable", "artist_not_indexable", "not_upcoming", "lifecycle_held", "not_commercially_live", "non_performance", "no_event_schema", "below_destination_threshold", "no_snapshot_ready_lane", "duplicate_ambiguity"])
+  );
+
+  // Wrong-night provider links (Bruno Mars, Sydney).
+  const conflicting = events.flatMap((event) =>
+    Object.entries(event.provider_links || {})
+      .filter(([, link]) => link?.verified === true && link.url && urlDateConflicts(link.url, eventLocalDate(event)))
+      .map(([lane]) => `${event.id}:${lane}`)
+  );
+  assert(`integrity: no verified provider URL names a different night than its event (${conflicting.join(", ") || "none"})`, conflicting.length === 0);
+  const shared = groups.filter((group) => group.classification === D.SHARED_PROVIDER_LISTING).map((group) => group.key);
+  assert(`integrity: no provider listing is held by two performances (${shared.join(", ") || "none"})`, shared.length === 0);
+  const WRONG_NIGHT = {
+    "tm-bruno-mars-2027-sydney-olympic-park-1aefz_o3ezszduv6": "2027-03-04T06:00:00Z",
+    "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7": "2027-03-08T06:00:00Z"
+  };
+  assert(
+    "integrity: the Sydney 4 and 8 March rows carry no TicketNetwork/Ticket Liquidator link for the following night",
+    Object.entries(WRONG_NIGHT).every(([id, iso]) => keptOrPast(id, iso) && (!byId.has(id) ||
+      ["ticketnetwork", "ticket-liquidator"].every((lane) => byId.get(id).provider_links?.[lane]?.verified !== true)))
+  );
+
+  // Duplicates (Shakira, Madrid; Missio, Cleveland) and the add-on (Hilary Duff, Brussels).
+  const REMOVED = {
+    "tm-shakira-2026-madrid-z7r9jz1aazaza": { canonical: "tm-shakira-2026-madrid-z698xz2qz16v4mzjas", key: "35bdc8ff51c46c04", iso: "2026-10-03T18:30:00Z" },
+    "tm-missio-2027-cleveland-z7r9jz1aaztf7": { canonical: "tm-missio-2027-cleveland-vv17fz_8gkl63cwa", key: "6daff6a36d02b4c4", iso: "2027-01-18T00:00:00Z" },
+    "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p": { canonical: "tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k", key: "845a12e54eaffe2a", iso: "2027-05-16T16:30:00Z" }
+  };
+  for (const [removed, { canonical, key, iso }] of Object.entries(REMOVED)) {
+    const tombstone = tombstones.find((entry) => entry.id === removed);
+    assert(`integrity: ${removed} is gone and tombstoned with its Ticketmaster ids`, !byId.has(removed) && tombstone?.ticketmaster_event_id && tombstone?.ticketmaster_discovery_event_id);
+    assert(`integrity: its URL key ${eventPages.eventKey(removed)} resolves to no page`, resolveNothing(events, eventPages.eventKey(removed)));
+    assert(`integrity: retained ${canonical} keeps its id and key ${key}`, keptOrPast(canonical, iso) && eventPages.eventKey(canonical) === key);
+  }
+  const missio = byId.get("tm-missio-2027-cleveland-vv17fz_8gkl63cwa");
+  assert(
+    "integrity: the retained Missio row carries the duplicate's verified SeatGeek listing for the same show",
+    !missio || (missio.provider_links?.seatgeek?.verified === true && String(missio.provider_links.seatgeek.event_id) === "18492738" && missio.seatgeek_url === missio.provider_links.seatgeek.url)
+  );
+  const sameDay = (artist, city, date) => groups.filter((group) => group.key === `${artist}|${city}|${date}`);
+  assert("integrity: Shakira Madrid 2026-10-03 has one row, so no duplicate group", sameDay("shakira", "madrid", "2026-10-03").length === 0);
+  assert("integrity: Missio Cleveland 2027-01-17 has one row, so no duplicate group", sameDay("missio", "cleveland", "2027-01-17").length === 0);
+  assert("integrity: Hilary Duff Brussels 2027-05-16 has only the concert row", sameDay("hilary-duff", "forest-brussels", "2027-05-16").length === 0);
+
+  // A tombstoned row never reappears, under its own id or its Ticketmaster ids.
+  const guarded = new Set(tombstones.flatMap((entry) => [entry.id, entry.ticketmaster_event_id, entry.ticketmaster_discovery_event_id]).filter(Boolean).map((value) => String(value).toUpperCase()));
+  const reappeared = events.filter((event) => [event.id, event.ticketmaster_event_id, event.ticketmaster_discovery_event_id].some((value) => value && guarded.has(String(value).toUpperCase()))).map((event) => event.id);
+  assert(`integrity: no tombstoned event is back in events.json (${reappeared.join(", ") || "none"})`, reappeared.length === 0);
+
+  // The duplicate diagnostic's remaining ambiguities are exactly the known ones.
+  // Only groups touching an upcoming row can put a page in front of anyone.
+  const { eventInstantMs } = await load("functions/_event-local-date.js");
+  const touchesUpcoming = (group) => group.ids.some((id) => (eventInstantMs(byId.get(id)) ?? Infinity) > Date.now());
+  const EXPECTED_UNRESOLVED = [];
+  const remaining = groups.filter((group) => unresolved.has(group.classification) && touchesUpcoming(group)).map((group) => `${group.classification}:${group.key}`).sort();
+  assert(`integrity: unresolved duplicate groups match the reviewed list (${remaining.join(", ") || "none"})`, JSON.stringify(remaining) === JSON.stringify(EXPECTED_UNRESOLVED));
+}
+
+function resolveNothing(events, key) {
+  return eventPages.resolveEventRoute(events, artistsMeta, `/events/removed-row-${key}`, { now: Date.now() }).action === "not_found";
+}
+
 // The audit (scripts/lib/event-indexability-audit.mjs) catches each regression
 // it exists for. Stub renders stand in for a broken router; the real ones are
 // exercised by npm run audit:indexable-surface:check.

@@ -88,6 +88,10 @@ TRAVEL_PACKAGE_MARKERS = ("travel", "hotel", "package", "parking", "shuttle", "h
 # is never withheld.
 PREMIUM_SEATS_NAME_RE = re.compile(r"\|\s*premium seats\b", re.IGNORECASE)
 PREMIUM_SEATS_VENUE_SUFFIX = " loge"
+# The German storefront's form of the same product: "| Box seat", "| Box-Seat"
+# or "| Logen-Seat" (Loge = box). Name segment only, so "Box Seat Records" is
+# never withheld. Mirrors BOX_SEAT_NAME_RE in functions/_event-pages.js.
+BOX_SEAT_NAME_RE = re.compile(r"\|\s*(?:box|logen)[\s-]?seat\b", re.IGNORECASE)
 
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
 AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
@@ -125,6 +129,8 @@ WITHHOLD_REASON_CODES = {
     "duplicate_within_batch": "Same venue and venue-local date as an earlier row in this same fetch.",
     "tombstoned_event_id": "Matches an owner-deleted (tombstoned) row by Ticketmaster event id.",
     "tombstoned_venue_date": "Matches an owner-deleted (tombstoned) row by venue and venue-local date.",
+    "duplicate_start_instant": "Same city and exact start instant as an existing events.json row or an earlier row in this same fetch (one performance listed twice under different venue names).",
+    "add_on_listing": "Name is another listing's name in the same city on the same venue-local date plus a \"| ...\" suffix: an add-on product sold alongside that show, not admission to it.",
 }
 
 
@@ -401,6 +407,65 @@ def event_local_date(datetime_iso, tz_name=""):
     return value[:10]
 
 
+def start_instant(datetime_iso, tz_name=""):
+    """The exact start instant as a UTC ISO string, or "" when it cannot be known.
+
+    A naive datetime is venue-local time and needs the row's IANA timezone;
+    without one the instant is unknown and no duplicate is claimed from it.
+    """
+    value = str(datetime_iso or "").strip()
+    if not value or "T" not in value:
+        return ""
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            if not tz_name:
+                return ""
+            parsed = parsed.replace(tzinfo=ZoneInfo(tz_name))
+        return parsed.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except (ValueError, KeyError, OSError):
+        return ""
+
+
+def normalized_listing_name(name):
+    return re.sub(r"\s+", " ", str(name or "").strip().lower())
+
+
+def start_instant_key(instant, city):
+    """Same-show key: exact start instant in one city. City matters: an act
+    with two touring companies (Trans-Siberian Orchestra) can start two
+    different shows at the same instant in two cities."""
+    city = normalized_listing_name(city)
+    return f"{instant}|{city}" if instant and city else ""
+
+
+def add_on_parent_key(local_date, city, name):
+    """Key for "a listing named <name> exists in <city> on <local_date>" (add-on detection)."""
+    date = str(local_date or "").strip()[:10]
+    city = normalized_listing_name(city)
+    normalized = normalized_listing_name(name)
+    return f"{date}|{city}|{normalized}" if date and city and normalized else ""
+
+
+def add_on_parent(name, local_date, city, parent_keys):
+    """The other listing this one is an add-on to, or "".
+
+    An add-on is named "<that listing's full name> | <product>" on the same
+    venue-local date (e.g. "<Tour name> | Premium Bistronomy Experience" at a
+    hospitality lounge beside the concert). Every "|" boundary is tried, so a
+    tour name that itself contains "|" is matched as a whole.
+    """
+    normalized = normalized_listing_name(name)
+    for index, char in enumerate(normalized):
+        if char != "|":
+            continue
+        prefix = normalized[:index].strip()
+        key = add_on_parent_key(local_date, city, prefix)
+        if prefix and key in parent_keys:
+            return prefix
+    return ""
+
+
 def parse_tombstones(data):
     """Turn a loaded tombstone registry into per-slug dedup sets (pure; no I/O).
 
@@ -482,7 +547,9 @@ def pending_public_onsale(tm_event, status_code, now_iso):
 
 def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids,
                    existing_venue_keys, batch_venue_keys, now_iso,
-                   tombstoned_event_ids=frozenset(), tombstoned_venue_keys=frozenset()):
+                   tombstoned_event_ids=frozenset(), tombstoned_venue_keys=frozenset(),
+                   existing_start_instants=frozenset(), batch_start_instants=None,
+                   add_on_parent_keys=frozenset()):
     """Classify one TM Discovery event row. Returns a report row dict.
 
     Pure function: no I/O, no network. A row with any withhold reason is
@@ -577,6 +644,8 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         travel_hits.append("| premium seats")
     if venue_name.lower().endswith(PREMIUM_SEATS_VENUE_SUFFIX):
         travel_hits.append("loge venue")
+    if BOX_SEAT_NAME_RE.search(event_name):
+        travel_hits.append("| box seat")
     if travel_hits:
         withhold(
             "travel_package_listing",
@@ -615,7 +684,27 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     # deriving it from the datetime + event timezone for defensive coverage.
     start_local_date = ((tm_event.get("dates") or {}).get("start") or {}).get("localDate") or ""
     local_date = str(start_local_date).strip() or event_local_date(datetime_iso, timezone)
+    parent = add_on_parent(event_name, local_date, city, add_on_parent_keys)
+    if parent:
+        withhold(
+            "add_on_listing",
+            f"add-on product sold alongside '{parent}' on {local_date[:10]} (name adds a '| ...' suffix), not the concert itself",
+        )
     venue_key = venue_date_key(venue_name, local_date)
+    # Two Discovery records for one show can differ in venue name and id (a
+    # storefront listing and a Discovery-only copy): the exact start instant
+    # still gives them away. Checked only when no id/venue-date rule already
+    # recognised the row, so a re-seen row is not counted twice.
+    instant = start_instant_key(start_instant(datetime_iso, timezone), city) if has_exact_time else ""
+    batch_instants = batch_start_instants if batch_start_instants is not None else set()
+    already_duplicate = bool(duplicate_ids & (existing_event_ids | tombstoned_event_ids)) or (
+        bool(venue_key) and venue_key in (existing_venue_keys | tombstoned_venue_keys | batch_venue_keys)
+    )
+    if instant and not already_duplicate and (instant in existing_start_instants or instant in batch_instants):
+        withhold(
+            "duplicate_start_instant",
+            f"same city and exact start instant ({instant}) as an existing or earlier-fetched row — one performance listed twice",
+        )
     if venue_key:
         if venue_key in existing_venue_keys:
             withhold(
@@ -634,6 +723,8 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
             # A withheld sibling (e.g. a "Ticket + Hotel Packages" listing that
             # Discovery returns first) must not shadow the real show listing.
             batch_venue_keys.add(venue_key)
+    if instant and not codes:
+        batch_instants.add(instant)
 
     return {
         "ticketmaster_discovery_event_id": event_id,
@@ -765,7 +856,33 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
         key = venue_date_key(e.get("venue"), local_date)
         if key:
             existing_venue_keys.add(key)
+    existing_start_instants = set()
+    for e in existing:
+        instant = start_instant_key(start_instant(e.get("datetime_iso"), (e.get("timezone") or "").strip()), e.get("city"))
+        if instant:
+            existing_start_instants.add(instant)
+    # Every listing name this artist has on each venue-local date — already
+    # published or in this fetch — so an add-on is recognised whichever of the
+    # pair Discovery returns first.
+    add_on_parent_keys = set()
+    for e in existing:
+        key = add_on_parent_key(
+            event_local_date(e.get("datetime_iso"), (e.get("timezone") or "").strip()), e.get("city"), e.get("event_name")
+        )
+        if key:
+            add_on_parent_keys.add(key)
+    for tm_event in tm_events:
+        start = (tm_event.get("dates") or {}).get("start") or {}
+        fetched_date = (start.get("localDate") or "").strip() or event_local_date(
+            parse_event_datetime(tm_event)[0], discovery_venue_timezone(tm_event)
+        )
+        venues = (tm_event.get("_embedded") or {}).get("venues") or [{}]
+        fetched_city = ((venues[0].get("city") or {}).get("name") or "").strip()
+        key = add_on_parent_key(fetched_date, fetched_city, tm_event.get("name"))
+        if key:
+            add_on_parent_keys.add(key)
     batch_venue_keys = set()
+    batch_start_instants = set()
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     for tm_event in tm_events:
@@ -779,6 +896,9 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
             now_iso=now_iso,
             tombstoned_event_ids=tombstoned_event_ids,
             tombstoned_venue_keys=tombstoned_venue_keys,
+            existing_start_instants=existing_start_instants,
+            batch_start_instants=batch_start_instants,
+            add_on_parent_keys=frozenset(add_on_parent_keys),
         )
         report["rows"].append(row)
 
@@ -1258,6 +1378,12 @@ def self_test():
     check("premium-seats listing emits travel_package_listing", "travel_package_listing" in codes_for(
         make_event(name="Passenger | Premium Seats")))
     check("loge venue emits travel_package_listing", "travel_package_listing" in codes_for(loge_venue))
+    for box_name in ("Teddy Swims - The UGLY Tour | Box-Seat", "SABATON: The Legendary Tour Part 2 | Logen-Seat",
+                     "Don Omar | Box seat in the Ticketmaster Suite"):
+        check(f"box-seat listing '{box_name}' emits travel_package_listing",
+              "travel_package_listing" in codes_for(make_event(name=box_name)))
+    check("'Box Seat' outside a name segment is not withheld",
+          "travel_package_listing" not in codes_for(make_event(name="Box Seat Records Showcase")))
     check("plain concert at an ordinary venue emits no travel_package_listing",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",
@@ -1280,6 +1406,64 @@ def self_test():
           "tombstoned_event_id" in codes_for(make_event(), tomb_ids={"VV001"}))
     check("tombstoned venue/date emits tombstoned_venue_date",
           "tombstoned_venue_date" in codes_for(make_event(id="VV005"), tomb_keys={"the o2|2027-06-01"}))
+    # One show, two Discovery records: a storefront listing and a Discovery-only
+    # copy with a different venue name. The exact start instant catches it.
+    def classify_with(event, **kwargs):
+        return classify_event(
+            event, attraction_id="K8vZ917Kvt7", allowed_hosts=allowed_hosts,
+            existing_event_ids=kwargs.pop("existing_ids", set()), existing_venue_keys=kwargs.pop("existing_keys", set()),
+            batch_venue_keys=kwargs.pop("batch", set()), now_iso="2026-06-10T00:00:00Z", **kwargs,
+        )["withheld_reason_codes"]
+
+    renamed_venue = make_event(id="VV010")
+    renamed_venue["_embedded"]["venues"][0]["name"] = "O2 Arena London"
+    check("same instant as an existing row (other venue name, other id) emits duplicate_start_instant",
+          classify_with(renamed_venue, existing_start_instants={"2027-06-01T19:00:00Z|london"}) == ["duplicate_start_instant"])
+    check("a different start instant is not a duplicate",
+          classify_with(renamed_venue, existing_start_instants={"2027-06-02T19:00:00Z|london"}) == [])
+    check("the same instant in another city is another show (two touring companies)",
+          classify_with(renamed_venue, existing_start_instants={"2027-06-01T19:00:00Z|manchester"}) == [])
+    instants = set()
+    classify_with(make_event(), batch_start_instants=instants)
+    check("in-batch same instant under another venue name emits duplicate_start_instant",
+          classify_with(renamed_venue, batch_start_instants=instants) == ["duplicate_start_instant"])
+    check("a re-seen existing row is counted once, as its id duplicate",
+          classify_with(make_event(), existing_ids={"VV001"}, existing_start_instants={"2027-06-01T19:00:00Z|london"})
+          == ["duplicate_existing_event_id"])
+    check("start_instant converts a naive venue-local time with its timezone",
+          start_instant("2026-10-03T20:30:00", "Europe/Madrid") == "2026-10-03T18:30:00Z")
+    check("start_instant refuses a naive time without a timezone", start_instant("2026-10-03T20:30:00") == "")
+    check("start_instant normalises an offset", start_instant("2026-10-03T20:30:00+02:00") == "2026-10-03T18:30:00Z")
+
+    # An add-on product named "<the show's name> | <product>" on the same date.
+    parents = {add_on_parent_key("2027-06-01", "London", "RAYE: The Tour")}
+    add_on = make_event(id="VV011", name="RAYE: The Tour | Premium Bistronomy Experience")
+    add_on["_embedded"]["venues"][0]["name"] = "Legacy Lounge (The O2)"
+    check("add-on named after a same-date listing emits add_on_listing",
+          classify_with(add_on, add_on_parent_keys=parents) == ["add_on_listing"])
+    check("the show itself is not an add-on",
+          classify_with(make_event(id="VV012", name="RAYE: The Tour"), add_on_parent_keys=parents) == [])
+    check("an add-on-shaped name on another date is not withheld",
+          classify_with(add_on, add_on_parent_keys={add_on_parent_key("2027-06-02", "London", "RAYE: The Tour")}) == [])
+    check("an add-on-shaped name in another city on that date is another show, not an add-on",
+          classify_with(add_on, add_on_parent_keys={add_on_parent_key("2027-06-01", "Manchester", "RAYE: The Tour")}) == [])
+    check("a tour name containing '|' is not an add-on of an unrelated listing",
+          add_on_parent("Foy Vance World Tour | 2026 & 2027", "2027-06-01", "London", parents) == "")
+
+    # The real registry: every tombstoned Ticketmaster id stays guarded, so a
+    # removed duplicate or add-on cannot be re-proposed as a new event.
+    real_registry = load_json(TOMBSTONES_PATH)
+    real_tombstones = parse_tombstones(real_registry)
+    unguarded = [
+        entry.get("id") or entry.get("ticketmaster_event_id")
+        for entry in real_registry.get("deleted_events", [])
+        for id_value in (entry.get("ticketmaster_discovery_event_id"), entry.get("ticketmaster_event_id"))
+        if isinstance(id_value, str) and id_value.strip()
+        and id_value.strip().upper() not in real_tombstones.get(entry.get("artist_slug"), {}).get("ids", frozenset())
+    ]
+    check(f"real tombstone registry guards every tombstoned Ticketmaster id ({len(real_registry.get('deleted_events', []))} entries)",
+          unguarded == [])
+
     check("affiliate wrapper without a destination emits wrapper_missing_destination",
           "wrapper_missing_destination" in codes_for(make_event(url="https://ticketmaster.evyy.net/c/1/2/3")))
     check("non-HTTPS destination emits url_not_https", "url_not_https" in codes_for(

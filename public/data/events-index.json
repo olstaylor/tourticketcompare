@@ -7292,18 +7292,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-shakira-2026-madrid-z7r9jz1aazaza",
-    "artist_slug": "shakira",
-    "artist_name": "Shakira",
-    "country": "Spain",
-    "city": "Madrid",
-    "venue": "Shakira Stadium",
-    "datetime_iso": "2026-10-03T18:30:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa",
     "artist_slug": "niall-horan",
     "artist_name": "Niall Horan",
@@ -13924,18 +13912,6 @@
     "venue": "Fine Line Music Cafe",
     "datetime_iso": "2027-01-16T02:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-missio-2027-cleveland-z7r9jz1aaztf7",
-    "artist_slug": "missio",
-    "artist_name": "Missio",
-    "country": "United States Of America",
-    "city": "Cleveland",
-    "venue": "House of Blues Cleveland",
-    "datetime_iso": "2027-01-18T00:00:00Z",
-    "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -21004,18 +20980,6 @@
     "venue": "The Depot",
     "datetime_iso": "2027-01-31T01:00:00Z",
     "timezone": "America/Denver",
-    "tour_name": "",
-    "status": "announced"
-  },
-  {
-    "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p",
-    "artist_slug": "hilary-duff",
-    "artist_name": "Hilary Duff",
-    "country": "Belgium",
-    "city": "Forest (Brussels)",
-    "venue": "Legacy Lounge (Forest National)",
-    "datetime_iso": "2027-05-16T18:00:00Z",
-    "timezone": "Europe/Brussels",
     "tour_name": "",
     "status": "announced"
   },

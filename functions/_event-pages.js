@@ -404,11 +404,13 @@ export const RECOGNISER_TRAVEL_PACKAGE_MARKERS = Object.freeze(["travel", "hotel
 export const RECOGNISER_PREMIUM_SEATS_NAME_RE = /\|\s*premium seats\b/i;
 export const RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX = " loge";
 // Two additions, each as narrow as the recogniser's own: a "| Box seat" name
-// segment is the German storefront's form of "| Premium Seats" (owner
-// precedent: premium-seat and box upsells are tombstoned as "not the concert
-// itself"), and a listing that says the event ticket is not included is by its
-// own words not admission to the concert.
-export const BOX_SEAT_NAME_RE = /\|\s*box seat\b/i;
+// segment (also written "| Box-Seat", or "| Logen-Seat" — Loge is German for
+// box) is the German storefront's form of "| Premium Seats" (owner precedent:
+// premium-seat and box upsells are tombstoned as "not the concert itself"), and
+// a listing that says the event ticket is not included is by its own words not
+// admission to the concert. The recogniser withholds the box-seat forms too
+// (BOX_SEAT_NAME_RE there; scripts/event-pages.test.mjs keeps the two equal).
+export const BOX_SEAT_NAME_RE = /\|\s*(?:box|logen)[\s-]?seat\b/i;
 export const TICKET_NOT_INCLUDED_RE = /\bticket not included\b/i;
 
 /**

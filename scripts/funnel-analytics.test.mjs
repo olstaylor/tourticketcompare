@@ -143,6 +143,8 @@ await test("page type covers every route class the site serves", () => {
     "/compare-concert-ticket-prices": "compare_hub",
     "/currency-converter": "currency_converter",
     "/about": "trust",
+    "/events/harry-styles-madison-square-garden-new-york-2026-10-14-85b43f3678adb716": "event",
+    "/events/a/b": "other",
     "/nonsense/deep/path": "other"
   };
   for (const [path, expected] of Object.entries(cases)) {
@@ -173,7 +175,7 @@ await test("client page-type classifier agrees with the server", async () => {
     "/artists/harry-styles/together-together", "/cities", "/cities/london-united-kingdom", "/venues",
     "/venues/wembley-stadium", "/guides", "/guides/how-to-avoid-ticket-scams",
     "/compare-concert-ticket-prices", "/currency-converter", "/about", "/contact", "/nonsense/deep/path",
-    "/artists/harry-styles/"
+    "/artists/harry-styles/", "/events/harry-styles-madison-square-garden-new-york-2026-10-14-85b43f3678adb716", "/events/a/b"
   ];
   for (const path of paths) {
     assert.equal(clientPageType(path), classifyPageType(path), `client and server disagree on ${path}`);
@@ -926,6 +928,56 @@ await test("every funnel report query is read-only and free of personal columns"
 });
 
 // ── "Lowest listed" badge clicks ────────────────────────────────────────────
+
+// Runs public/shell.js for one page load and returns the beacons and GA4
+// mirrors it sends. `pageArtist` stands in for the event page's
+// data-page-artist marker.
+async function shellPageLoad(pathname, pageArtist = "") {
+  const { runInNewContext } = await import("node:vm");
+  const source = await readFile(new URL("../public/shell.js", import.meta.url), "utf8");
+  const beacons = [];
+  const ga4 = [];
+  const marker = pageArtist ? { getAttribute: (name) => (name === "data-page-artist" ? pageArtist : null) } : null;
+  const document = {
+    querySelector: (selector) => (selector === "[data-page-artist]" ? marker : null),
+    querySelectorAll: () => [],
+    getElementById: () => null,
+    referrer: "",
+    addEventListener: () => {}
+  };
+  const window = {
+    location: { pathname, search: "", hostname: "tourticketcompare.com" },
+    setTimeout: () => 0,
+    gtag: (_kind, name, params) => ga4.push({ name, params })
+  };
+  runInNewContext(source, {
+    window, document,
+    navigator: { sendBeacon: (_url, body) => { beacons.push(JSON.parse(body)); return true; } },
+    sessionStorage: { getItem: () => null, setItem: () => {} },
+    URL, URLSearchParams, Set, Map, Object, Array, JSON, String, Number
+  });
+  return { beacons, ga4 };
+}
+
+// Codex (#1195): the SSR shell has its own page-type copy and took the artist
+// only from /artists/ paths, so an event page was labelled "other" in GA4 and
+// its views counted for no artist while its clicks counted for one.
+await test("the shell labels an event page and credits its artist", async () => {
+  const eventPath = "/events/harry-styles-madison-square-garden-new-york-2026-10-14-85b43f3678adb716";
+  const { beacons, ga4 } = await shellPageLoad(eventPath, "harry-styles");
+  const view = beacons.find((beacon) => beacon.eventName === "page_view");
+  assert.equal(view.metadata.pageType, classifyPageType(eventPath), "the shell and the server agree on the event page type");
+  assert.equal(view.artistSlug, "harry-styles", "the event page view carries its artist");
+  assert.ok(beacons.some((beacon) => beacon.eventName === "artist_view" && beacon.artistSlug === "harry-styles"), "an event page emits artist_view");
+  // The params object comes from the vm realm, so compare it as JSON.
+  assert.equal(JSON.stringify(ga4.find((entry) => entry.name === "artist_view")?.params), JSON.stringify({ page_type: "event", artist_slug: "harry-styles" }), "GA4 mirrors the event page type");
+  // Unchanged elsewhere: the path still decides on artist routes, and a page
+  // without the marker names no artist.
+  assert.equal((await shellPageLoad("/artists/harry-styles", "someone-else")).beacons[0].artistSlug, "harry-styles");
+  const plain = await shellPageLoad("/cities/london-united-kingdom");
+  assert.equal(plain.beacons[0].artistSlug, "");
+  assert.ok(!plain.beacons.some((beacon) => beacon.eventName === "artist_view"));
+});
 
 await test("lowestListed survives the metadata sanitiser", () => {
   assert.deepEqual(sanitizeMetadata({ lowestListed: "lowest", ctaLocation: "event_card" }), { lowestListed: "lowest", ctaLocation: "event_card" });

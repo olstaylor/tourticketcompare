@@ -5400,7 +5400,12 @@ function renderEventPageBody(route, events, env) {
         priceLowSeries.size ? deriveEventPriceLow(row.lanes, (lane) => priceLowSeries.get(`${row.showId}|${lane.provider}`) || null) : null,
         row.lowest.price
       );
-      priceItems.push(`Lowest listed price now: ${amount} on ${row.lowest.name}${lowText ? ` · ${lowText}` : ""}`);
+      // Stated with its capture time, as every other snapshot surface does: a
+      // cached figure is never presented as "now".
+      const asOf = formatServerSnapshotTime(row.lowest.fetchedAt);
+      const age = snapshotAgeLabel(row.lowest.fetchedAt);
+      const when = asOf ? `, as of ${asOf}${age ? ` (${age})` : ""}` : "";
+      priceItems.push(`Lowest listed price: ${amount} on ${row.lowest.name}${when}${lowText ? ` · ${lowText}` : ""}`);
     }
     const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
     const moveText = move ? priceMoveSentence(move) : "";
@@ -5442,7 +5447,7 @@ function renderEventPageBody(route, events, env) {
 
   const ticketsHeading = held ? "Ticket status" : "Ticket links for this date";
   const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml() : "";
-  return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle">${renderBreadcrumbHtml(
+  return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle" data-page-artist="${escapeAttr(artist.slug)}">${renderBreadcrumbHtml(
     route
   )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1><section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading

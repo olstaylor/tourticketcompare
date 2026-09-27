@@ -38,7 +38,12 @@
   var path = window.location.pathname;
   var guideMatch = /^\/guides\/([a-z0-9-]+)$/.exec(path);
   var artistMatch = /^\/artists\/([a-z0-9-]+)(?:\/|$)/.exec(path);
-  var artistSlug = artistMatch ? artistMatch[1] : "";
+  // An event page (/events/...) names its artist in the markup, not the path,
+  // so its views count towards that artist like any artist page's.
+  var pageArtist = document.querySelector("[data-page-artist]");
+  var artistSlug = artistMatch
+    ? artistMatch[1]
+    : pageArtist ? String(pageArtist.getAttribute("data-page-artist") || "").trim() : "";
   var sessionKey = "ttc:funnel-session";
   var funnelSession = null;
   var entry = true;
@@ -78,6 +83,7 @@
     if (parts[0] === "cities") return parts.length === 1 ? "cities_index" : "city";
     if (parts[0] === "venues") return parts.length === 1 ? "venues_index" : "venue";
     if (parts[0] === "guides") return parts.length === 1 ? "guides_index" : "guide";
+    if (parts[0] === "events") return parts.length === 2 ? "event" : "other";
     return "other";
   }
 

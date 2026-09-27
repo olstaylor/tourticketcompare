@@ -8213,11 +8213,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921648",
-        "url": "https://www.ticketliquidator.com/tickets/7921648/Olivia-Rodrigo-tickets-Sat-Sep-26-2026-PeoplesBank-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162650",
@@ -8232,7 +8232,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70677",
     "timezone": "America/New_York",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921648/Olivia-Rodrigo-tickets-Sat-Sep-26-2026-PeoplesBank-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-26-2026/event/107162650"
   },
   {
@@ -43306,11 +43306,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7511942",
-        "url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106999130",
@@ -43324,7 +43324,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130"
   },
   {
@@ -45132,11 +45132,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883093",
-        "url": "https://www.ticketliquidator.com/tickets/7883093/Teddy-Swims-tickets-Sat-Sep-26-2026-Grand-Casino-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107168137",
@@ -45150,7 +45150,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883093/Teddy-Swims-tickets-Sat-Sep-26-2026-Grand-Casino-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137"
   },
   {
@@ -50718,11 +50718,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976476",
-        "url": "https://www.ticketliquidator.com/tickets/7976476/Don-Omar-tickets-Sat-Sep-26-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107189120",
@@ -50736,7 +50736,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976476/Don-Omar-tickets-Sat-Sep-26-2026-TD-Garden",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-boston-tickets-9-26-2026/event/107189120"
   },
   {
@@ -118925,11 +118925,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034332",
-        "url": "https://www.ticketliquidator.com/tickets/8034332/Malcolm-Todd-tickets-Sat-Sep-26-2026-MGM-Music-Hall-at-Fenway-Park",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107417989",
@@ -118943,7 +118943,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034332/Malcolm-Todd-tickets-Sat-Sep-26-2026-MGM-Music-Hall-at-Fenway-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-boston-tickets-9-26-2026/event/107417989"
   },
   {
@@ -130913,13 +130913,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290910",
+        "url": "https://www.ticketliquidator.com/tickets/8290910/Needtobreathe-tickets-Thu-Feb-18-2027-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_KekboZdu2k",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290910"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290910",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290910/Needtobreathe-tickets-Thu-Feb-18-2027-Steelhouse-Omaha"
   },
   {
     "id": "tm-needtobreathe-2027-waukee-1ae7z_3gktpcjjf",
@@ -130975,13 +130983,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290913",
+        "url": "https://www.ticketliquidator.com/tickets/8290913/Needtobreathe-tickets-Fri-Feb-19-2027-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3GkTpCJjf",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290913"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290913",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290913/Needtobreathe-tickets-Fri-Feb-19-2027-Vibrant-Music-Hall"
   },
   {
     "id": "tm-needtobreathe-2027-minneapolis-vv1akzkfwgkdmqcn1",
@@ -131037,13 +131053,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290989",
+        "url": "https://www.ticketliquidator.com/tickets/8290989/Needtobreathe-tickets-Sat-Feb-20-2027-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfwGkdmqCn1",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290989"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290989",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290989/Needtobreathe-tickets-Sat-Feb-20-2027-The-Armory-Minneapolis"
   },
   {
     "id": "tm-needtobreathe-2027-duluth-vv1kbz_kekg7rpco",
@@ -131153,13 +131177,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290918",
+        "url": "https://www.ticketliquidator.com/tickets/8290918/Needtobreathe-tickets-Thu-Feb-25-2027-The-Sylvee-WI",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_3GkTPRkGd",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290918"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290918",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290918/Needtobreathe-tickets-Thu-Feb-25-2027-The-Sylvee-WI"
   },
   {
     "id": "tm-needtobreathe-2027-grand-rapids-vv1afzkfwgkd2p_kw",
@@ -131215,13 +131247,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290924",
+        "url": "https://www.ticketliquidator.com/tickets/8290924/Needtobreathe-tickets-Fri-Feb-26-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkd2P_Kw",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290924"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290924",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290924/Needtobreathe-tickets-Fri-Feb-26-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-needtobreathe-2027-cincinnati-1kaovpgtgauok5q",
@@ -131331,13 +131371,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290990",
+        "url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KxVnXBa",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290990"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290990",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-needtobreathe-2027-boston-vv177z_3gkiozdvt",
@@ -131393,13 +131441,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290991",
+        "url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkIoZDVT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290991"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290991",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-needtobreathe-2027-washington-1a4zkfggkdjqhau",
@@ -131455,13 +131511,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290993",
+        "url": "https://www.ticketliquidator.com/tickets/8290993/Needtobreathe-tickets-Sat-Mar-6-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfgGkdjQhAU",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290993"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290993/Needtobreathe-tickets-Sat-Mar-6-2027-The-Anthem-DC"
   },
   {
     "id": "tm-needtobreathe-2027-pittsburgh-1apzkfggkd9zzsh",
@@ -131517,13 +131581,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290994",
+        "url": "https://www.ticketliquidator.com/tickets/8290994/Needtobreathe-tickets-Sun-Mar-7-2027-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfgGkd9Zzsh",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290994"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290994",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290994/Needtobreathe-tickets-Sun-Mar-7-2027-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-needtobreathe-2027-durham-g5evz_khc4kmz",
@@ -131687,13 +131759,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290982",
+        "url": "https://www.ticketliquidator.com/tickets/8290982/Needtobreathe-tickets-Fri-Mar-12-2027-Soldiers-Sailors-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KepFQ3L",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290982"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290982/Needtobreathe-tickets-Fri-Mar-12-2027-Soldiers-Sailors-Memorial-Auditorium"
   },
   {
     "id": "tm-needtobreathe-2027-columbia-g5evz_kkuppj_",
@@ -131749,13 +131829,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290983",
+        "url": "https://www.ticketliquidator.com/tickets/8290983/Needtobreathe-tickets-Sat-Mar-13-2027-Township-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KkUPpJ_",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290983"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290983/Needtobreathe-tickets-Sat-Mar-13-2027-Township-Auditorium"
   },
   {
     "id": "tm-needtobreathe-2027-orlando-1axzkfggkdmxefx",
@@ -131811,13 +131899,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290984",
+        "url": "https://www.ticketliquidator.com/tickets/8290984/Needtobreathe-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfgGkdmxEfX",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290984"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290984",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290984/Needtobreathe-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-needtobreathe-2027-memphis-g5viz_k1t4cqs",
@@ -131873,13 +131969,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290985",
+        "url": "https://www.ticketliquidator.com/tickets/8290985/Needtobreathe-tickets-Wed-Mar-17-2027-Satellite-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K1t4cqS",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290985/Needtobreathe-tickets-Wed-Mar-17-2027-Satellite-Music-Hall"
   },
   {
     "id": "tm-needtobreathe-2027-memphis-g5viz_k1tpwrf",
@@ -131935,13 +132039,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290986",
+        "url": "https://www.ticketliquidator.com/tickets/8290986/Needtobreathe-tickets-Thu-Mar-18-2027-Satellite-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K1tpWrF",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290986"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290986",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290986/Needtobreathe-tickets-Thu-Mar-18-2027-Satellite-Music-Hall"
   },
   {
     "id": "tm-needtobreathe-2027-new-orleans-g5viz_ocxa2ai",
@@ -131997,13 +132109,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290987",
+        "url": "https://www.ticketliquidator.com/tickets/8290987/Needtobreathe-tickets-Fri-Mar-19-2027-The-Fillmore-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oCXA2ai",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290987"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290987",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290987/Needtobreathe-tickets-Fri-Mar-19-2027-The-Fillmore-New-Orleans"
   },
   {
     "id": "tm-needtobreathe-2027-houston-g5diz_kkbawh-",
@@ -132059,13 +132179,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290988",
+        "url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkBAWh-",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290988"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290988",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall"
   },
   {
     "id": "tm-foy-vance-2026-edinburgh-1adbz_dgkdivmtc",
@@ -132121,12 +132249,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7818795",
+        "url": "https://www.ticketliquidator.com/tickets/7818795/Foy-Vance-tickets-Sat-Oct-17-2026-The-Queens-Hall-Edinburgh",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_dGkDIVMTc",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7818795"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7818795",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7818795/Foy-Vance-tickets-Sat-Oct-17-2026-The-Queens-Hall-Edinburgh"
   },
   {
     "id": "tm-foy-vance-2026-stirling-1auzkoegkew3ujs",
@@ -132182,12 +132318,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7802654",
+        "url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkoeGkeW3UJS",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7802654"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7802654",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls"
   },
   {
     "id": "tm-foy-vance-2026-london-g5dzz_akto7o5",
@@ -132508,12 +132652,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748033",
+        "url": "https://www.ticketliquidator.com/tickets/7748033/Foy-Vance-tickets-Fri-Nov-6-2026-El-Rey-Theatre-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9fP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748033"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748033",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748033/Foy-Vance-tickets-Fri-Nov-6-2026-El-Rey-Theatre-Los-Angeles"
   },
   {
     "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7--kd",
@@ -132569,12 +132721,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748034",
+        "url": "https://www.ticketliquidator.com/tickets/7748034/Foy-Vance-tickets-Sat-Nov-7-2026-El-Rey-Theatre-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748034"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748034",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748034/Foy-Vance-tickets-Sat-Nov-7-2026-El-Rey-Theatre-Los-Angeles"
   },
   {
     "id": "tm-foy-vance-2026-portland-z7r9jz1aavffz",
@@ -132630,12 +132790,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746920",
+        "url": "https://www.ticketliquidator.com/tickets/7746920/Foy-Vance-tickets-Tue-Nov-10-2026-Aladdin-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvFFZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746920"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746920",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746920/Foy-Vance-tickets-Tue-Nov-10-2026-Aladdin-Theater"
   },
   {
     "id": "tm-foy-vance-2026-seattle-vvg1hz_7scn270",
@@ -132691,12 +132859,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746768",
+        "url": "https://www.ticketliquidator.com/tickets/7746768/Foy-Vance-tickets-Fri-Nov-13-2026-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_7Scn270",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746768/Foy-Vance-tickets-Fri-Nov-13-2026-The-Neptune-Theatre"
   },
   {
     "id": "tm-foy-vance-2026-spokane-g5vzz_akiabhz",
@@ -132752,12 +132928,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748036",
+        "url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AkiaBhz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748036"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748036",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-foy-vance-2026-boise-g5vzz_akyqnb8",
@@ -132866,12 +133050,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748041",
+        "url": "https://www.ticketliquidator.com/tickets/7748041/Foy-Vance-tickets-Sat-Nov-21-2026-Gothic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--ke",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748041"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748041",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748041/Foy-Vance-tickets-Sat-Nov-21-2026-Gothic-Theatre"
   },
   {
     "id": "tm-foy-vance-2027-brisbane-1akzkf_gkes7kkl",
@@ -132980,12 +133172,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748047",
+        "url": "https://www.ticketliquidator.com/tickets/7748047/Foy-Vance-tickets-Wed-Apr-7-2027-Iron-City-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_7GkwqCSOv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748047"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748047",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748047/Foy-Vance-tickets-Wed-Apr-7-2027-Iron-City-Birmingham"
   },
   {
     "id": "tm-foy-vance-2027-atlanta-z7r9jz1a7--ka",
@@ -133041,12 +133241,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748048",
+        "url": "https://www.ticketliquidator.com/tickets/7748048/Foy-Vance-tickets-Thu-Apr-8-2027-Variety-Playhouse",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748048"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748048",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748048/Foy-Vance-tickets-Thu-Apr-8-2027-Variety-Playhouse"
   },
   {
     "id": "tm-foy-vance-2027-knoxville-g5viz_7w-hjuu",
@@ -133102,12 +133310,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748050",
+        "url": "https://www.ticketliquidator.com/tickets/7748050/Foy-Vance-tickets-Sat-Apr-10-2027-Bijou-Theatre-TN",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_7w-hjUU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748050"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748050",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748050/Foy-Vance-tickets-Sat-Apr-10-2027-Bijou-Theatre-TN"
   },
   {
     "id": "tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v",
@@ -133216,12 +133432,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748052",
+        "url": "https://www.ticketliquidator.com/tickets/7748052/Foy-Vance-tickets-Thu-Apr-15-2027-Fitzgerald-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JfGw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748052"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748052",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748052/Foy-Vance-tickets-Thu-Apr-15-2027-Fitzgerald-Theater"
   },
   {
     "id": "tm-foy-vance-2027-toronto-1a8zkoogkd3hucs",
@@ -133330,12 +133554,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748060",
+        "url": "https://www.ticketliquidator.com/tickets/7748060/Foy-Vance-tickets-Tue-Apr-27-2027-Capitol-Theatre-at-Appell-Center-for-the-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNjx",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748060"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748060",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748060/Foy-Vance-tickets-Tue-Apr-27-2027-Capitol-Theatre-at-Appell-Center-for-the-Performing-Arts"
   },
   {
     "id": "tm-foy-vance-2027-boston-vv177z_7gksjyniw",
@@ -133603,12 +133835,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266203",
+        "url": "https://www.ticketliquidator.com/tickets/8266203/The-Lemonheads-tickets-Thu-Feb-11-2027-Brooklyn-Bowl-NY",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3RtIQkk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266203"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266203",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266203/The-Lemonheads-tickets-Thu-Feb-11-2027-Brooklyn-Bowl-NY"
   },
   {
     "id": "tm-the-lemonheads-2027-atlanta-vvg1zz_3rf_-sk",
@@ -133900,12 +134140,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266231",
+        "url": "https://www.ticketliquidator.com/tickets/8266231/The-Lemonheads-tickets-Fri-Mar-19-2027-Majestic-Theatre-Madison",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_3GkBfxvRJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266231"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266231",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266231/The-Lemonheads-tickets-Fri-Mar-19-2027-Majestic-Theatre-Madison"
   },
   {
     "id": "tm-the-lemonheads-2027-detroit-vv17oz_3gklkn916",
@@ -134067,12 +134315,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8259348",
+        "url": "https://www.ticketliquidator.com/tickets/8259348/Tommy-Emmanuel-tickets-Thu-Oct-8-2026-Discovery-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdJf",
     "timezone": "America/Anchorage",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259348"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259348",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259348/Tommy-Emmanuel-tickets-Thu-Oct-8-2026-Discovery-Theatre"
   },
   {
     "id": "tm-tommy-emmanuel-2026-kenai-vvg1hz_5wlthim",
@@ -134181,12 +134437,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8079700",
+        "url": "https://www.ticketliquidator.com/tickets/8079700/Tommy-Emmanuel-tickets-Sun-Oct-11-2026-Hering-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5i6WUHs",
     "timezone": "America/Anchorage",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8079700"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8079700",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8079700/Tommy-Emmanuel-tickets-Sun-Oct-11-2026-Hering-Auditorium"
   },
   {
     "id": "tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy",
@@ -134348,12 +134612,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7942280",
+        "url": "https://www.ticketliquidator.com/tickets/7942280/Tommy-Emmanuel-tickets-Fri-Dec-4-2026-Newberry-Opera-House",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS4z",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942280/Tommy-Emmanuel-tickets-Fri-Dec-4-2026-Newberry-Opera-House"
   },
   {
     "id": "tm-tommy-emmanuel-2026-chattanooga-g5viz_au3swzr",
@@ -134462,12 +134734,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7942282",
+        "url": "https://www.ticketliquidator.com/tickets/7942282/Tommy-Emmanuel-tickets-Sun-Dec-6-2026-Carolina-Theatre-Durham",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70F-w",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942282"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942282",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942282/Tommy-Emmanuel-tickets-Sun-Dec-6-2026-Carolina-Theatre-Durham"
   },
   {
     "id": "tm-tommy-emmanuel-2026-charlotte-z7r9jz1a70f-s",
@@ -134576,12 +134856,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7941629",
+        "url": "https://www.ticketliquidator.com/tickets/7941629/Tommy-Emmanuel-tickets-Wed-Dec-9-2026-Variety-Playhouse",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-I",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941629"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941629",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941629/Tommy-Emmanuel-tickets-Wed-Dec-9-2026-Variety-Playhouse"
   },
   {
     "id": "tm-tommy-emmanuel-2026-ponte-vedra-beach-z7r9jz1a70kze",
@@ -134637,12 +134925,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7941593",
+        "url": "https://www.ticketliquidator.com/tickets/7941593/Tommy-Emmanuel-tickets-Thu-Dec-10-2026-Ponte-Vedra-Concert-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70KZe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941593"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941593",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941593/Tommy-Emmanuel-tickets-Thu-Dec-10-2026-Ponte-Vedra-Concert-Hall"
   },
   {
     "id": "tm-tommy-emmanuel-2026-orlando-z7r9jz1a70b-e",
@@ -134751,12 +135047,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7942284",
+        "url": "https://www.ticketliquidator.com/tickets/7942284/Tommy-Emmanuel-tickets-Sat-Dec-12-2026-Nancy-and-David-Bilheimer-Capitol-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8__",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942284/Tommy-Emmanuel-tickets-Sat-Dec-12-2026-Nancy-and-David-Bilheimer-Capitol-Theatre"
   },
   {
     "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavs4y",
@@ -134918,12 +135222,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267993",
+        "url": "https://www.ticketliquidator.com/tickets/8267993/Tommy-Emmanuel-tickets-Sat-Jan-23-2027-Hoyt-Sherman-Place-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_3JvG7W7G3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267993"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267993/Tommy-Emmanuel-tickets-Sat-Jan-23-2027-Hoyt-Sherman-Place-Theater"
   },
   {
     "id": "tm-tommy-emmanuel-2027-madison-vv17jz_ogks7bgcu",
@@ -134979,12 +135291,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267996",
+        "url": "https://www.ticketliquidator.com/tickets/8267996/Tommy-Emmanuel-tickets-Sun-Jan-24-2027-Barrymore-Theatre-Madison",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_oGkS7BgCu",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267996"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267996",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267996/Tommy-Emmanuel-tickets-Sun-Jan-24-2027-Barrymore-Theatre-Madison"
   },
   {
     "id": "tm-tommy-emmanuel-2027-skokie-vv1a6zkfpgkegwg7a",
@@ -135040,12 +135360,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268004",
+        "url": "https://www.ticketliquidator.com/tickets/8268004/Tommy-Emmanuel-tickets-Mon-Jan-25-2027-George-Van-Dusen-Theatre-At-North-Shore-Center-For-The-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfPGkegwg7A",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268004"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268004",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268004/Tommy-Emmanuel-tickets-Mon-Jan-25-2027-George-Van-Dusen-Theatre-At-North-Shore-Center-For-The-Performing-Arts"
   },
   {
     "id": "tm-tommy-emmanuel-2027-champaign-z7r9jz1aavspv",
@@ -135101,12 +135429,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268012",
+        "url": "https://www.ticketliquidator.com/tickets/8268012/Tommy-Emmanuel-tickets-Tue-Jan-26-2027-Virginia-Theatre-Il",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268012"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268012/Tommy-Emmanuel-tickets-Tue-Jan-26-2027-Virginia-Theatre-Il"
   },
   {
     "id": "tm-tommy-emmanuel-2027-mckees-rocks-1apzkfngkd53yok",
@@ -135268,12 +135604,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266792",
+        "url": "https://www.ticketliquidator.com/tickets/8266792/Tommy-Emmanuel-tickets-Sun-Jan-31-2027-Asbury-Hall-at-Babeville",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266792"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266792",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266792/Tommy-Emmanuel-tickets-Sun-Jan-31-2027-Asbury-Hall-at-Babeville"
   },
   {
     "id": "tm-tommy-emmanuel-2027-rochester-z7r9jz1aavsp7",
@@ -135382,12 +135726,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268041",
+        "url": "https://www.ticketliquidator.com/tickets/8268041/Tommy-Emmanuel-tickets-Wed-Feb-3-2027-Hart-Theatre-At-The-Egg",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268041"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268041",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268041/Tommy-Emmanuel-tickets-Wed-Feb-3-2027-Hart-Theatre-At-The-Egg"
   },
   {
     "id": "tm-tommy-emmanuel-2027-derry-z7r9jz1aavspk",
@@ -135496,12 +135848,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268049",
+        "url": "https://www.ticketliquidator.com/tickets/8268049/Tommy-Emmanuel-tickets-Fri-Feb-5-2027-SHU-Community-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSp6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268049"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268049",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268049/Tommy-Emmanuel-tickets-Fri-Feb-5-2027-SHU-Community-Theatre"
   },
   {
     "id": "tm-tommy-emmanuel-2027-charlottesville-z7r9jz1aavspf",
@@ -135981,12 +136341,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284317",
+        "url": "https://www.ticketliquidator.com/tickets/8284317/Haiden-Henderson-tickets-Mon-Apr-5-2027-Constellation-Room-at-The-Observatory-Santa-Ana",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfwGkdn3e19",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284317"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284317",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284317/Haiden-Henderson-tickets-Mon-Apr-5-2027-Constellation-Room-at-The-Observatory-Santa-Ana"
   },
   {
     "id": "tm-haiden-henderson-2027-houston-g5diz_kdeuth4",
@@ -136042,12 +136410,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284319",
+        "url": "https://www.ticketliquidator.com/tickets/8284319/Haiden-Henderson-tickets-Fri-Apr-9-2027-Bronze-Peacock-At-The-House-Of-Blues-Houston",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KdeuTh4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284319"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284319",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284319/Haiden-Henderson-tickets-Fri-Apr-9-2027-Bronze-Peacock-At-The-House-Of-Blues-Houston"
   },
   {
     "id": "tm-haiden-henderson-2027-atlanta-vvg1zz_k5fswrb",
@@ -136156,12 +136532,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284324",
+        "url": "https://www.ticketliquidator.com/tickets/8284324/Haiden-Henderson-tickets-Sun-Apr-18-2027-The-Underground-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K7koqsD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284324"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284324",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284324/Haiden-Henderson-tickets-Sun-Apr-18-2027-The-Underground-Charlotte"
   },
   {
     "id": "tm-haiden-henderson-2027-washington-16vfz_kzng7lczd",
@@ -136217,12 +136601,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284325",
+        "url": "https://www.ticketliquidator.com/tickets/8284325/Haiden-Henderson-tickets-Tue-Apr-20-2027-The-Atlantis",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_KZNG7lcZD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284325"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284325",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284325/Haiden-Henderson-tickets-Tue-Apr-20-2027-The-Atlantis"
   },
   {
     "id": "tm-haiden-henderson-2027-philadelphia-vv16ovpgt4oz75ua7",
@@ -136384,12 +136776,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284328",
+        "url": "https://www.ticketliquidator.com/tickets/8284328/Haiden-Henderson-tickets-Sat-Apr-24-2027-Big-Night-Live",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfYGkegtMCp",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284328"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284328",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284328/Haiden-Henderson-tickets-Sat-Apr-24-2027-Big-Night-Live"
   },
   {
     "id": "tm-haiden-henderson-2027-toronto-1a8zkfggkd2jp9d",

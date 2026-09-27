@@ -323,11 +323,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7511942",
-        "url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106999130",
@@ -341,7 +341,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130"
   },
   {

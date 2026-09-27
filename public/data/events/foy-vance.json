@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7818795",
+        "url": "https://www.ticketliquidator.com/tickets/7818795/Foy-Vance-tickets-Sat-Oct-17-2026-The-Queens-Hall-Edinburgh",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_dGkDIVMTc",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7818795"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7818795",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7818795/Foy-Vance-tickets-Sat-Oct-17-2026-The-Queens-Hall-Edinburgh"
   },
   {
     "id": "tm-foy-vance-2026-stirling-1auzkoegkew3ujs",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7802654",
+        "url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkoeGkeW3UJS",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7802654"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7802654",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls"
   },
   {
     "id": "tm-foy-vance-2026-london-g5dzz_akto7o5",
@@ -440,12 +456,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748033",
+        "url": "https://www.ticketliquidator.com/tickets/7748033/Foy-Vance-tickets-Fri-Nov-6-2026-El-Rey-Theatre-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9fP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748033"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748033",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748033/Foy-Vance-tickets-Fri-Nov-6-2026-El-Rey-Theatre-Los-Angeles"
   },
   {
     "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7--kd",
@@ -501,12 +525,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748034",
+        "url": "https://www.ticketliquidator.com/tickets/7748034/Foy-Vance-tickets-Sat-Nov-7-2026-El-Rey-Theatre-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748034"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748034",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748034/Foy-Vance-tickets-Sat-Nov-7-2026-El-Rey-Theatre-Los-Angeles"
   },
   {
     "id": "tm-foy-vance-2026-portland-z7r9jz1aavffz",
@@ -562,12 +594,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746920",
+        "url": "https://www.ticketliquidator.com/tickets/7746920/Foy-Vance-tickets-Tue-Nov-10-2026-Aladdin-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvFFZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746920"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746920",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746920/Foy-Vance-tickets-Tue-Nov-10-2026-Aladdin-Theater"
   },
   {
     "id": "tm-foy-vance-2026-seattle-vvg1hz_7scn270",
@@ -623,12 +663,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746768",
+        "url": "https://www.ticketliquidator.com/tickets/7746768/Foy-Vance-tickets-Fri-Nov-13-2026-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_7Scn270",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746768/Foy-Vance-tickets-Fri-Nov-13-2026-The-Neptune-Theatre"
   },
   {
     "id": "tm-foy-vance-2026-spokane-g5vzz_akiabhz",
@@ -684,12 +732,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748036",
+        "url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AkiaBhz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748036"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748036",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-foy-vance-2026-boise-g5vzz_akyqnb8",
@@ -798,12 +854,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748041",
+        "url": "https://www.ticketliquidator.com/tickets/7748041/Foy-Vance-tickets-Sat-Nov-21-2026-Gothic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--ke",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748041"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748041",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748041/Foy-Vance-tickets-Sat-Nov-21-2026-Gothic-Theatre"
   },
   {
     "id": "tm-foy-vance-2027-brisbane-1akzkf_gkes7kkl",
@@ -912,12 +976,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748047",
+        "url": "https://www.ticketliquidator.com/tickets/7748047/Foy-Vance-tickets-Wed-Apr-7-2027-Iron-City-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_7GkwqCSOv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748047"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748047",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748047/Foy-Vance-tickets-Wed-Apr-7-2027-Iron-City-Birmingham"
   },
   {
     "id": "tm-foy-vance-2027-atlanta-z7r9jz1a7--ka",
@@ -973,12 +1045,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748048",
+        "url": "https://www.ticketliquidator.com/tickets/7748048/Foy-Vance-tickets-Thu-Apr-8-2027-Variety-Playhouse",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748048"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748048",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748048/Foy-Vance-tickets-Thu-Apr-8-2027-Variety-Playhouse"
   },
   {
     "id": "tm-foy-vance-2027-knoxville-g5viz_7w-hjuu",
@@ -1034,12 +1114,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748050",
+        "url": "https://www.ticketliquidator.com/tickets/7748050/Foy-Vance-tickets-Sat-Apr-10-2027-Bijou-Theatre-TN",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_7w-hjUU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748050"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748050",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748050/Foy-Vance-tickets-Sat-Apr-10-2027-Bijou-Theatre-TN"
   },
   {
     "id": "tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v",
@@ -1148,12 +1236,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748052",
+        "url": "https://www.ticketliquidator.com/tickets/7748052/Foy-Vance-tickets-Thu-Apr-15-2027-Fitzgerald-Theater",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JfGw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748052"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748052",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748052/Foy-Vance-tickets-Thu-Apr-15-2027-Fitzgerald-Theater"
   },
   {
     "id": "tm-foy-vance-2027-toronto-1a8zkoogkd3hucs",
@@ -1262,12 +1358,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748060",
+        "url": "https://www.ticketliquidator.com/tickets/7748060/Foy-Vance-tickets-Tue-Apr-27-2027-Capitol-Theatre-at-Appell-Center-for-the-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNjx",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748060"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748060",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748060/Foy-Vance-tickets-Tue-Apr-27-2027-Capitol-Theatre-at-Appell-Center-for-the-Performing-Arts"
   },
   {
     "id": "tm-foy-vance-2027-boston-vv177z_7gksjyniw",

@@ -40868,59 +40868,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-shakira-2026-madrid-z7r9jz1aazaza",
-    "artist_slug": "shakira",
-    "artist_name": "Shakira",
-    "event_name": "Shakira",
-    "city": "Madrid",
-    "country": "Spain",
-    "venue": "Shakira Stadium",
-    "datetime_iso": "2026-10-03T18:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "Z7r9jZ1AAZAZa",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAZa",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAZa",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1AAZAZa",
-        "discovery_event_id": "Z7r9jZ1AAZAZa",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAZa",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZAZa",
-    "timezone": "America/New_York",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa",
     "artist_slug": "niall-horan",
     "artist_name": "Niall Horan",
@@ -78177,75 +78124,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200549"
   },
   {
-    "id": "tm-missio-2027-cleveland-z7r9jz1aaztf7",
-    "artist_slug": "missio",
-    "artist_name": "Missio",
-    "event_name": "Missio",
-    "city": "Cleveland",
-    "country": "United States Of America",
-    "venue": "House of Blues Cleveland",
-    "datetime_iso": "2027-01-18T00:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "Z7r9jZ1AAZtF7",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
-    "seatgeek_url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
-    "vividseats_url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1AAZtF7",
-        "discovery_event_id": "Z7r9jZ1AAZtF7",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 18492738,
-        "url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 7424860,
-        "url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
-        "verified": true,
-        "last_verified_at": "2026-09-25",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticket-liquidator": {
-        "event_id": "8200550",
-        "url": "https://www.ticketliquidator.com/tickets/8200550/Missio-tickets-Sun-Jan-17-2027-Cambridge-Room-At-The-House-Of-Blues-Cleveland",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
-      },
-      "ticketnetwork": {
-        "event_id": "8200550",
-        "url": "https://www.ticketnetwork.com/en/p/8200550",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZtF7",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200550/Missio-tickets-Sun-Jan-17-2027-Cambridge-Room-At-The-House-Of-Blues-Cleveland",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200550"
-  },
-  {
     "id": "tm-missio-2027-cleveland-vv17fz_8gkl63cwa",
     "artist_slug": "missio",
     "artist_name": "Missio",
@@ -78257,7 +78135,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0500650AC74ADF45",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
@@ -78273,11 +78151,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18492738,
+        "url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7424860,
@@ -88314,25 +88192,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8264032",
-        "url": "https://www.ticketnetwork.com/en/p/8264032",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8264032",
-        "url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o3eZsZduv6",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264032",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld",
@@ -88452,25 +88330,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8264033",
-        "url": "https://www.ticketnetwork.com/en/p/8264033",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8264033",
-        "url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknaxvi7",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik",
@@ -116501,60 +116379,6 @@
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-09-25T16:00:00Z"
-  },
-  {
-    "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p",
-    "artist_slug": "hilary-duff",
-    "artist_name": "Hilary Duff",
-    "event_name": "Hilary Duff: the lucky me tour | be•at Premium Bistronomy Experience",
-    "city": "Forest (Brussels)",
-    "country": "Belgium",
-    "venue": "Legacy Lounge (Forest National)",
-    "datetime_iso": "2027-05-16T18:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "491872565",
-    "ticketmaster_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "491872565",
-        "discovery_event_id": "Z698xZG2Z1k3o-w4P",
-        "url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-%7C-beat-premium-bistronomy-experience-tickets/491872565",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZG2Z1k3o-w4P",
-    "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-10-01T08:00:00Z"
   },
   {
     "id": "tm-oasis-2027-barcelona-z698xz2qz1kosq3xa",

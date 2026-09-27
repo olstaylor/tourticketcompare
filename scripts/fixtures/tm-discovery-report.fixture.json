@@ -26,7 +26,9 @@
     "duplicate_existing_venue_date": "Same venue and venue-local date as an existing events.json row.",
     "duplicate_within_batch": "Same venue and venue-local date as an earlier row in this same fetch.",
     "tombstoned_event_id": "Matches an owner-deleted (tombstoned) row by Ticketmaster event id.",
-    "tombstoned_venue_date": "Matches an owner-deleted (tombstoned) row by venue and venue-local date."
+    "tombstoned_venue_date": "Matches an owner-deleted (tombstoned) row by venue and venue-local date.",
+    "duplicate_start_instant": "Same city and exact start instant as an existing events.json row or an earlier row in this same fetch (one performance listed twice under different venue names).",
+    "add_on_listing": "Name is another listing's name in the same city on the same venue-local date plus a \"| ...\" suffix: an add-on product sold alongside that show, not admission to it."
   },
   "artists": [
     {

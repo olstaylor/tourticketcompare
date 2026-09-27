@@ -134,12 +134,45 @@ function dateMatches(text, date) {
   return signatures.some((signature) => normalized.includes(` ${normalizeText(signature)} `));
 }
 
+// The performance dates a provider URL states unambiguously in its own path:
+// a month-name date ("Fri-Mar-5-2027", "5-March-2027") or an ISO date
+// ("2027-03-05"). Numeric day/month forms ("7-10-2026") are skipped — their
+// order differs between storefronts, so they prove nothing either way.
+const URL_MONTHS = ["jan(?:uary)?", "feb(?:ruary)?", "mar(?:ch)?", "apr(?:il)?", "may", "june?", "july?", "aug(?:ust)?", "sep(?:t(?:ember)?)?", "oct(?:ober)?", "nov(?:ember)?", "dec(?:ember)?"];
+const URL_MONTH_RE = new RegExp(`(?:^|[^a-z])(${URL_MONTHS.join("|")})[-_ ](\\d{1,2})[-_ ](\\d{4})(?!\\d)`, "gi");
+const URL_DAY_MONTH_RE = new RegExp(`(?:^|[^0-9])(\\d{1,2})[-_ ](${URL_MONTHS.join("|")})[-_ ](\\d{4})(?!\\d)`, "gi");
+const URL_ISO_RE = /(?:^|[^0-9])(\d{4})-(\d{2})-(\d{2})(?!\d)/g;
+
+function monthIndex(name) {
+  return URL_MONTHS.findIndex((pattern) => new RegExp(`^(?:${pattern})$`, "i").test(name)) + 1;
+}
+
+function urlStatedDates(url) {
+  let pathname = "";
+  try { pathname = decodeURIComponent(new URL(url).pathname); } catch { return []; }
+  const dates = [];
+  for (const match of pathname.matchAll(URL_MONTH_RE)) dates.push({ year: Number(match[3]), month: monthIndex(match[1]), day: Number(match[2]) });
+  for (const match of pathname.matchAll(URL_DAY_MONTH_RE)) dates.push({ year: Number(match[3]), month: monthIndex(match[2]), day: Number(match[1]) });
+  for (const match of pathname.matchAll(URL_ISO_RE)) dates.push({ year: Number(match[1]), month: Number(match[2]), day: Number(match[3]) });
+  return dates.filter((date) => date.month >= 1 && date.month <= 12 && date.day >= 1 && date.day <= 31);
+}
+
+// A listing's own URL naming a different night outranks any date found
+// elsewhere in the catalog item: the item text also carries catalog stamps
+// (LaunchDate, ExpirationDate, ...) that can spell the previous day, which is
+// how a Fri 5 Mar listing once matched a Thu 4 Mar performance.
+function urlDateConflicts(url, date) {
+  if (!date) return false;
+  return urlStatedDates(url).some((stated) => stated.year !== date.year || stated.month !== date.month || stated.day !== date.day);
+}
+
 function evaluateCandidate(event, artistName, candidate) {
   const reasons = [];
   const text = candidate?.searchableText || "";
   if (!candidate?.normalizedUrl) reasons.push("invalid provider event URL");
   if (!containsNormalized(text, artistName)) reasons.push("artist name mismatch");
   if (!dateMatches(text, eventLocalDate(event))) reasons.push("venue-local date mismatch");
+  else if (urlDateConflicts(candidate?.normalizedUrl, eventLocalDate(event))) reasons.push("provider URL names a different date");
   if (!cityMatches(text, event?.city)) reasons.push("city mismatch");
   if (!venueMatches(text, event?.venue)) reasons.push("venue mismatch");
   return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "" };
@@ -217,6 +250,24 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
   return { candidates, complete: false, stopReason: "pagination_cap" };
 }
 
+// Listing ids that pass the exact-event checks for performances on more than
+// one venue-local date (a stored link that still passes counts for its row).
+function listingsMatchingSeveralDates(evaluations) {
+  const datesByListing = new Map();
+  for (const { event, passing, storedCandidate } of evaluations) {
+    const date = eventLocalDate(event);
+    if (!date) continue;
+    const key = `${date.year}-${date.month}-${date.day}`;
+    const listings = passing.map((candidate) => candidate.externalId);
+    if (storedCandidate?.ok) listings.push(storedCandidate.externalId);
+    for (const listing of new Set(listings.filter(Boolean))) {
+      if (!datesByListing.has(listing)) datesByListing.set(listing, new Set());
+      datesByListing.get(listing).add(key);
+    }
+  }
+  return new Set([...datesByListing].filter(([, dates]) => dates.size > 1).map(([listing]) => listing));
+}
+
 function enrichTicketLiquidatorCandidates(candidates, ticketNetworkCandidates) {
   const referenceById = new Map(ticketNetworkCandidates.map((candidate) => [candidate.externalId, candidate]));
   return candidates.map((candidate) => {
@@ -278,16 +329,25 @@ async function run(options, deps = {}) {
         };
       }
     }
-    for (const event of artistEvents) {
+    const evaluations = artistEvents.map((event) => {
       const link = event?.provider_links?.[config.linkKey] || {};
       const storedUrl = normalizeProviderUrl(config, event?.[config.urlField]);
       const storedId = clean(link?.event_id, 255);
       const passing = catalog.candidates.map((candidate) => ({ candidate, evaluated: evaluateCandidate(event, artistName, candidate) })).filter((row) => row.evaluated.ok).map((row) => ({ ...row.evaluated, ...row.candidate }));
       const exactStored = catalog.candidates.find((candidate) => (storedId && candidate.externalId === storedId) || (storedUrl && candidate.normalizedUrl === storedUrl));
       const storedCandidate = exactStored ? { ...evaluateCandidate(event, artistName, exactStored), ...exactStored } : null;
-      const outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete });
+      return { event, link, storedUrl, storedId, passing, storedCandidate };
+    });
+    const ambiguous = listingsMatchingSeveralDates(evaluations);
+    for (const { event, link, storedUrl, storedId, passing, storedCandidate } of evaluations) {
+      let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete });
+      // One listing is one performance. If it passes for performances on
+      // different nights, nothing says which night it is: it is not written to
+      // any of them. A link already stored and verified is left as it is.
+      const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action));
+      if (ambiguousListing) outcome = { action: "conflict", candidate: null };
       const applied = options.apply && applyOutcome(event, config, outcome, (deps.now || new Date()).toISOString().slice(0, 10));
-      results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "" });
+      results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", ...(ambiguousListing ? { ambiguous_listing: true } : {}) });
     }
   }
   if (authFailure) {
@@ -432,7 +492,50 @@ async function selfTest() {
   });
   assert.equal(dry.added, 1);
   assert.equal(dry.changed, 0);
-  return 44;
+
+  // Wrong-night guard. Two consecutive stadium nights; the catalog item for
+  // the second night also carries a stamp one day earlier (as a catalog
+  // Launch/Expiration date can), so its text "matches" both nights.
+  const night = (id, day, links = {}) => ({
+    id, artist_slug: "stadium-act", datetime_iso: `2027-03-0${day}T06:00:00Z`, timezone: "Australia/Sydney",
+    city: "Sydney Olympic Park", venue: "Accor Stadium", provider_links: links
+  });
+  const itemText = "Stadium Act Accor Stadium Sydney Olympic Park 2027-03-05T17:00:00 2027-03-04T22:00:00";
+  const tn = { externalId: "9000001", normalizedUrl: "https://www.ticketnetwork.com/en/p/9000001", searchableText: itemText };
+  const tl = { externalId: "9000001", normalizedUrl: "https://www.ticketliquidator.com/tickets/9000001/Stadium-Act-tickets-Fri-Mar-5-2027-Accor-Stadium", searchableText: itemText };
+  // 1. A listing whose own URL names another night is rejected.
+  assert.deepEqual(evaluateCandidate(night("n4", 4), "Stadium Act", tl).reasons, ["provider URL names a different date"]);
+  // 2. The same listing on its own night passes.
+  assert.equal(evaluateCandidate(night("n5", 5), "Stadium Act", tl).ok, true);
+  assert.deepEqual(urlStatedDates("https://x.example/tickets/1/Act-5-March-2027-Hall"), [{ year: 2027, month: 3, day: 5 }]);
+  assert.deepEqual(urlStatedDates("https://x.example/raye-2027-07-09-7-pm/concert/1"), [{ year: 2027, month: 7, day: 9 }]);
+  assert.deepEqual(urlStatedDates("https://x.example/bruno-mars-tickets-7-10-2026/event/1"), []);
+  assert.deepEqual(urlStatedDates("https://x.example/tickets/1/Bruno-Mars-tickets-Accor"), []);
+  const nightData = (events) => [events, [{ slug: "stadium-act", name: "Stadium Act" }], [{ slug: "stadium-act", review_status: "verified" }]];
+  const runWith = (provider, events, candidates) => run({ provider, artist: "", limit: null, maxApiCalls: null, delayMs: 0, apply: false, json: false }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: nightData(events),
+    async fetchCatalog() { return { candidates, complete: true, stopReason: "" }; }
+  });
+  const actions = (summary) => Object.fromEntries(summary.results.map((row) => [row.event_id, row.action]));
+  // 3. A URL without a date (TicketNetwork) cannot verify one listing against
+  // two nights: neither night gets it.
+  const fresh = await runWith("ticketnetwork", [night("n4", 4), night("n5", 5)], [tn]);
+  assert.deepEqual(actions(fresh), { n4: "conflict", n5: "conflict" });
+  assert.equal(fresh.results.every((row) => row.ambiguous_listing === true), true);
+  // 9. After the wrong-night link is removed, the sync cannot restore it: the
+  // right night keeps its verified link and the wrong night is not re-added.
+  const held = { event_id: "9000001", url: tn.normalizedUrl, verified: true, last_verified_at: "2026-09-15", availability_status: "listed" };
+  const corrected = await runWith("ticketnetwork", [night("n4", 4), { ...night("n5", 5, { ticketnetwork: held }), ticketnetwork_url: tn.normalizedUrl }], [tn]);
+  assert.deepEqual(actions(corrected), { n4: "conflict", n5: "none" });
+  // ...and a Ticket Liquidator link already stored on the wrong night is
+  // unverified by the next complete catalog run, while the right night keeps its own.
+  const tlHeld = { ...held, url: tl.normalizedUrl };
+  const wrongStored = await runWith("ticket-liquidator", [
+    { ...night("n4", 4, { "ticket-liquidator": tlHeld }), ticketliquidator_url: tl.normalizedUrl },
+    { ...night("n5", 5, { "ticket-liquidator": tlHeld }), ticketliquidator_url: tl.normalizedUrl }
+  ], [tl]);
+  assert.deepEqual(actions(wrongStored), { n4: "unverify", n5: "none" });
+  return 54;
 }
 
 async function main() {
@@ -446,4 +549,4 @@ async function main() {
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });
 
-export { applyOutcome, dateMatches, decideOutcome, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, parseArgs, run, selectEvents };
+export { applyOutcome, dateMatches, decideOutcome, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, listingsMatchingSeveralDates, parseArgs, run, selectEvents, urlDateConflicts, urlStatedDates };

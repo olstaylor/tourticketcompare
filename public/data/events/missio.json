@@ -1040,75 +1040,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200549"
   },
   {
-    "id": "tm-missio-2027-cleveland-z7r9jz1aaztf7",
-    "artist_slug": "missio",
-    "artist_name": "Missio",
-    "event_name": "Missio",
-    "city": "Cleveland",
-    "country": "United States Of America",
-    "venue": "House of Blues Cleveland",
-    "datetime_iso": "2027-01-18T00:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "Z7r9jZ1AAZtF7",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
-    "seatgeek_url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
-    "vividseats_url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1AAZtF7",
-        "discovery_event_id": "Z7r9jZ1AAZtF7",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtF7",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 18492738,
-        "url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 7424860,
-        "url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
-        "verified": true,
-        "last_verified_at": "2026-09-25",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticket-liquidator": {
-        "event_id": "8200550",
-        "url": "https://www.ticketliquidator.com/tickets/8200550/Missio-tickets-Sun-Jan-17-2027-Cambridge-Room-At-The-House-Of-Blues-Cleveland",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
-      },
-      "ticketnetwork": {
-        "event_id": "8200550",
-        "url": "https://www.ticketnetwork.com/en/p/8200550",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZtF7",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200550/Missio-tickets-Sun-Jan-17-2027-Cambridge-Room-At-The-House-Of-Blues-Cleveland",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200550"
-  },
-  {
     "id": "tm-missio-2027-cleveland-vv17fz_8gkl63cwa",
     "artist_slug": "missio",
     "artist_name": "Missio",
@@ -1120,7 +1051,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0500650AC74ADF45",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
@@ -1136,11 +1067,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18492738,
+        "url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7424860,

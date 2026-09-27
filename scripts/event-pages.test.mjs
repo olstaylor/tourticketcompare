@@ -23,6 +23,7 @@ import {
   EVENT_SCHEMA_REASONS,
   EVENT_SCHEMA_STATUS,
   EVENT_SLUG_VENUE_MAX,
+  BOX_SEAT_NAME_RE,
   EventKeyCollisionError,
   RECOGNISER_PREMIUM_SEATS_NAME_RE,
   RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX,
@@ -287,6 +288,8 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("a Loge venue is flagged (recogniser marker)", flagged({ venue: "AFAS Live Loge" }));
   assert("a travel package in the URL is flagged (recogniser haystack)", flagged({ ticketmaster_url: "https://www.ticketmaster.com/raye-hotel-package/event/X" }));
   assert("\"| Box seat in the Ticketmaster Suite\" is flagged", flagged({ event_name: "Five Finger Death Punch | Box seat in the Ticketmaster Suite" }));
+  assert("\"| Box-Seat\" is flagged", flagged({ event_name: "Teddy Swims - The UGLY Tour | Box-Seat" }));
+  assert("\"| Logen-Seat\" (German: box seat) is flagged", flagged({ event_name: "SABATON: The Legendary Tour Part 2 | Logen-Seat" }));
   assert("\"(Event Ticket Not Included)\" is flagged", flagged({ event_name: "Latto VIP Upgrades (Event Ticket Not Included)" }));
   assert("a plain concert is not flagged", !flagged({}));
   assert("a Lounge venue is not flagged", !flagged({ venue: "The Rebel Lounge" }));
@@ -305,6 +308,8 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("premium-seats pattern matches the recogniser", pyRe === RECOGNISER_PREMIUM_SEATS_NAME_RE.source && RECOGNISER_PREMIUM_SEATS_NAME_RE.flags === "i");
   const pySuffix = python.match(/^PREMIUM_SEATS_VENUE_SUFFIX = "([^"]*)"/m)?.[1];
   assert("loge venue suffix matches the recogniser", pySuffix === RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX);
+  const pyBox = python.match(/^BOX_SEAT_NAME_RE = re\.compile\(r"([^"]+)", re\.IGNORECASE\)/m)?.[1] || "";
+  assert("box-seat pattern matches the recogniser", pyBox === BOX_SEAT_NAME_RE.source && BOX_SEAT_NAME_RE.flags === "i");
 }
 
 // ── Event-page structured data decision ─────────────────────────────────────

@@ -65,6 +65,8 @@ export const DUPLICATE_REASON_CODES = new Set([
   "duplicate_existing_event_id",
   "duplicate_existing_venue_date",
   "duplicate_within_batch",
+  // The same show under another Discovery id and venue name (same start instant).
+  "duplicate_start_instant",
   "duplicate_existing_event_row",
   "duplicate_batch_event_id",
 ]);

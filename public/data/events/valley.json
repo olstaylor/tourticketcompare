@@ -1,0 +1,1857 @@
+[
+  {
+    "id": "tm-valley-2027-quebec-z7r9jz1aavzfi",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley",
+    "city": "Quebec",
+    "country": "Canada",
+    "venue": "Grizzly Fuzz",
+    "datetime_iso": "2027-02-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfI",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfI",
+        "discovery_event_id": "Z7r9jZ1AAvzfI",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-montreal-1ad7z_3gkblokhd",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Le Studio TD",
+    "datetime_iso": "2027-02-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652EAB806F3B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652EAB806F3B",
+        "discovery_event_id": "1Ad7Z_3GkBlOkHD",
+        "url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GkBlOkHD",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-ottawa-1ad7z_3gkv11nuz",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "The Bronson",
+    "datetime_iso": "2027-02-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652D0A2AA378",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652D0A2AA378",
+        "discovery_event_id": "1Ad7Z_3GkV11nuz",
+        "url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GkV11nuz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-waterloo-z7r9jz1aavzft",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley w/ The HITS - Band",
+    "city": "Waterloo",
+    "country": "Canada",
+    "venue": "Maxwell's Concerts and Events",
+    "datetime_iso": "2027-02-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzft",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzft",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzft",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzft",
+        "discovery_event_id": "Z7r9jZ1AAvzft",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzft",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzft",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-london-1avzz_3gktpgnuv",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley",
+    "city": "London",
+    "country": "Canada",
+    "venue": "LONDON MUSIC HALL",
+    "datetime_iso": "2027-02-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652FD632ADB4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652FD632ADB4",
+        "discovery_event_id": "1AvZZ_3GkTpGnUV",
+        "url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkTpGnUV",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-chicago-z7r9jz1aavzfy",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley w/ Moody Joody",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Park West",
+    "datetime_iso": "2027-02-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfY",
+        "discovery_event_id": "Z7r9jZ1AAvzfY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-minneapolis-z7r9jz1aavzfs",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley w/ Moody Joody",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Fine Line Music Cafe",
+    "datetime_iso": "2027-02-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfs",
+        "discovery_event_id": "Z7r9jZ1AAvzfs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-winnipeg-1av7z_3gkbokkjd",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "PARK THEATRE",
+    "datetime_iso": "2027-02-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652E91186703",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652E91186703",
+        "discovery_event_id": "1Av7Z_3GkBokkjd",
+        "url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkBokkjd",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-regina-z7r9jz1aavzfw",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley w/ The HITS - Band",
+    "city": "Regina",
+    "country": "Canada",
+    "venue": "Casino Regina",
+    "datetime_iso": "2027-02-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfw",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfw",
+        "discovery_event_id": "Z7r9jZ1AAvzfw",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfw",
+    "timezone": "America/Regina",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-edmonton-1av7z_3gkbxlimr",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Midway Music Hall",
+    "datetime_iso": "2027-02-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652EA2AE8DDE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652EA2AE8DDE",
+        "discovery_event_id": "1Av7Z_3GkBxlIMr",
+        "url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkBxlIMr",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-calgary-1av7z_3gkb3cpp6",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "The Palace Theatre",
+    "datetime_iso": "2027-02-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652E92396947",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652E92396947",
+        "discovery_event_id": "1Av7Z_3GkB3CpP6",
+        "url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkB3CpP6",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-victoria-z7r9jz1aavgoz",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley (19+ Event)",
+    "city": "Victoria",
+    "country": "Canada",
+    "venue": "Capital Ballroom",
+    "datetime_iso": "2027-02-24T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvgoz",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvgoz",
+        "discovery_event_id": "Z7r9jZ1AAvgoz",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvgoz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-vancouver-1av7z_3gkb3hpv9",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-02-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652E92F16D17",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652E92F16D17",
+        "discovery_event_id": "1Av7Z_3GkB3HpV9",
+        "url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkB3HpV9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-seattle-vvg1hz_3nsltnp",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2027-02-27T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652AB1AE98D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652AB1AE98D6",
+        "discovery_event_id": "vvG1HZ_3nsltNp",
+        "url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3nsltNp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-portland-z7r9jz1aavzfs",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley w/ Moody Joody",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Wonder Ballroom",
+    "datetime_iso": "2027-02-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfS",
+        "discovery_event_id": "Z7r9jZ1AAvzfS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-san-francisco-z7r9jz1aavzfv",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley w/ Moody Joody",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Independent",
+    "datetime_iso": "2027-03-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfV",
+        "discovery_event_id": "Z7r9jZ1AAvzfV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-los-angeles-vv1aazkf-gkdqrhdg",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley Do You Need to Be Entertained Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Bellwether",
+    "datetime_iso": "2027-03-03T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006521DDBFCEF5",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006521DDBFCEF5",
+        "discovery_event_id": "vv1AaZkf-GkdqRHDg",
+        "url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkf-GkdqRHDg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-phoenix-z7r9jz1aavzfg",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley (16+ Event)",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Crescent Ballroom",
+    "datetime_iso": "2027-03-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfg",
+        "discovery_event_id": "Z7r9jZ1AAvzfg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfg",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-salt-lake-city-g5vzz_3bnvu2b",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need to Be Entertained Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Depot",
+    "datetime_iso": "2027-03-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00652EA3D363D8",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00652EA3D363D8",
+        "discovery_event_id": "G5vzZ_3BNVU2b",
+        "url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_3BNVU2b",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-denver-z7r9jz1aavzfu",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley (16+ Event)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Bluebird Theatre",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfU",
+        "discovery_event_id": "Z7r9jZ1AAvzfU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfU",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-saint-louis-vv16kzkfipkzaga2f7",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need to Be Entertained Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Delmar Hall",
+    "datetime_iso": "2027-03-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006528946B8E73",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-saint-louis-missouri-03-09-2027/event/06006528946B8E73",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-saint-louis-missouri-03-09-2027/event/06006528946B8E73",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006528946B8E73",
+        "discovery_event_id": "vv16kZkfIPkZAGa2F7",
+        "url": "https://www.ticketmaster.com/valley-do-you-need-to-be-saint-louis-missouri-03-09-2027/event/06006528946B8E73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16kZkfIPkZAGa2F7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-nashville-g5viz_3rrquu4",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Nashville",
+    "datetime_iso": "2027-03-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00652BDE776355",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00652BDE776355",
+        "discovery_event_id": "G5viZ_3RrqUu4",
+        "url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3RrqUu4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-atlanta-vvg1zz_32aklli",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Masquerade - Hell",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006523C519F7E8",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006523C519F7E8",
+        "discovery_event_id": "vvG1zZ_32AkLLI",
+        "url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_32AkLLI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-charlotte-g5evz_3nrncxj",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Underground",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00652A9E8EDFA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00652A9E8EDFA6",
+        "discovery_event_id": "G5eVZ_3nrNcXJ",
+        "url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3nrNcXJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-washington-16vfz_333g7mktl",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need to Be Entertained Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2027-03-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500652492B86FDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500652492B86FDF",
+        "discovery_event_id": "16vfZ_333G7mkTL",
+        "url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vfZ_333G7mkTL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-philadelphia-vv1aezkfygkdw6utw",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Philadelphia",
+    "datetime_iso": "2027-03-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006530F21CDFF2",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006530F21CDFF2",
+        "discovery_event_id": "vv1AeZkfYGkdw6uTw",
+        "url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfYGkdw6uTw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-new-york-z7r9jz1aavzfm",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley (16+ Event)",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Webster Hall",
+    "datetime_iso": "2027-03-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzfM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzfM",
+        "discovery_event_id": "Z7r9jZ1AAvzfM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-boston-vv177z_3gkmvpndn",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley: DYNTBE? The Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Paradise Rock Club presented by Citizens",
+    "datetime_iso": "2027-03-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100652BB45A30E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100652BB45A30E3",
+        "discovery_event_id": "vv177Z_3GkmVpNdN",
+        "url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_3GkmVpNdN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-toronto-1avzz_3gkdexa9o",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? The Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652EE7F895D1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652EE7F895D1",
+        "discovery_event_id": "1AvZZ_3GkDEXa9o",
+        "url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkDEXa9o",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-amsterdam-z698xzbpz1kuzjpzo",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "datetime_iso": "2027-05-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "340716011",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/valley-tickets/340716011?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/valley-tickets/340716011?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "340716011",
+        "discovery_event_id": "Z698xZbpZ1kuZjpZo",
+        "url": "https://www.ticketmaster.nl/event/valley-tickets/340716011?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kuZjpZo",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-bristol-g5vhz_3zkbafq",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley: Do You Need To Be Entertained? the Tour",
+    "city": "Bristol",
+    "country": "Great Britain",
+    "venue": "Thekla",
+    "datetime_iso": "2027-05-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00652E06E8551D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-bristol-10-05-2027/event/1F00652E06E8551D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-bristol-10-05-2027/event/1F00652E06E8551D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00652E06E8551D",
+        "discovery_event_id": "G5vHZ_3zkBAfq",
+        "url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-bristol-10-05-2027/event/1F00652E06E8551D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3zkBAfq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-birmingham-g5dzz_36osp2q",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? the Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Institute2 Birmingham",
+    "datetime_iso": "2027-05-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006521D1CE53DD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-birmingham-11-05-2027/event/3E006521D1CE53DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-birmingham-11-05-2027/event/3E006521D1CE53DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006521D1CE53DD",
+        "discovery_event_id": "G5dzZ_36oSP2q",
+        "url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-birmingham-11-05-2027/event/3E006521D1CE53DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_36oSP2q",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-manchester-g5vhz_ohdx77o",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley: Do You Need To Be Entertained? the Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Manchester Club Academy",
+    "datetime_iso": "2027-05-12T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651F3B884120",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-manchester-12-05-2027/event/1F00651F3B884120",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-manchester-12-05-2027/event/1F00651F3B884120",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651F3B884120",
+        "discovery_event_id": "G5vHZ_oHDx77O",
+        "url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-manchester-12-05-2027/event/1F00651F3B884120",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_oHDx77O",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-london-g5dzz_3vpsj3z",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley - Do You Need To Be Entertained? the Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2027-05-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652D16C664B8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652D16C664B8",
+        "discovery_event_id": "G5dzZ_3VpsJ3z",
+        "url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3VpsJ3z",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-valley-2027-leeds-1adfz_3gkihrzjf",
+    "artist_slug": "valley",
+    "artist_name": "Valley",
+    "event_name": "Valley: Do You Need To Be Entertained? the Tour",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Brudenell Social Club",
+    "datetime_iso": "2027-05-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652A3CBC0988",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-leeds-16-05-2027/event/3500652A3CBC0988",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-leeds-16-05-2027/event/3500652A3CBC0988",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652A3CBC0988",
+        "discovery_event_id": "1AdfZ_3GkIHRZJF",
+        "url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-leeds-16-05-2027/event/3500652A3CBC0988",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_3GkIHRZJF",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

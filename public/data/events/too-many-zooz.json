@@ -1,0 +1,320 @@
+[
+  {
+    "id": "tm-too-many-zooz-2026-brooklyn-k7vgf_opjosbe",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000065159C471E82",
+    "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000065159C471E82",
+        "discovery_event_id": "k7vGF_opjosBe",
+        "url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_opjosBe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-wroclaw-z698xzqpz1kcapprk",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Audio Lipstick Tour",
+    "city": "Wroclaw",
+    "country": "Poland",
+    "venue": "Zaklęte Rewiry",
+    "datetime_iso": "2027-02-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "385965793",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/too-many-zooz-audio-lipstick-tour-tickets/385965793?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/too-many-zooz-audio-lipstick-tour-tickets/385965793?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "385965793",
+        "discovery_event_id": "Z698xZQpZ1kCAPPrK",
+        "url": "https://www.ticketmaster.pl/event/too-many-zooz-audio-lipstick-tour-tickets/385965793?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1kCAPPrK",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-denver-g5vzz_kkf1pnr",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Audio Lipstick Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Summit Music Hall",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006531942A5AAF",
+    "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006531942A5AAF",
+        "discovery_event_id": "G5vzZ_Kkf1PnR",
+        "url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_Kkf1PnR",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-houston-g5diz_kf4niru",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Audio Lipstick Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "White Oak Music Hall - Downstairs",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006532158EC7B6",
+    "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006532158EC7B6",
+        "discovery_event_id": "G5dIZ_KF4NirU",
+        "url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KF4NirU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-tucson-z7r9jz1aavmvf",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "La Rosa",
+    "datetime_iso": "2027-05-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvMvf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMvf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMvf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvMvf",
+        "discovery_event_id": "Z7r9jZ1AAvMvf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMvf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvMvf",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-seattle-vvg1hz_3tamn7s",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Audio Lipstick Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2027-05-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652FC9DEA131",
+    "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-seattle-washington-05-14-2027/event/0F00652FC9DEA131",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-seattle-washington-05-14-2027/event/0F00652FC9DEA131",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652FC9DEA131",
+        "discovery_event_id": "vvG1HZ_3TaMn7s",
+        "url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-seattle-washington-05-14-2027/event/0F00652FC9DEA131",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3TaMn7s",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

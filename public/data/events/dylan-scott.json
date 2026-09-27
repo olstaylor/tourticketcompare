@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "tm-dylan-scott-2026-dallas-z7r9jz1aavsep",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott (16 and under with legal guardian)",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Bomb Factory",
+    "datetime_iso": "2026-10-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSep",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSep",
+        "discovery_event_id": "Z7r9jZ1AAvSep",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSep",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "The Rave-Eagles Club",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSe9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSe9",
+        "discovery_event_id": "Z7r9jZ1AAvSe9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSe9",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2026-westbury-k7vgf_oh3fr0h",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Westbury",
+    "country": "United States Of America",
+    "venue": "Flagstar at Westbury Music Fair",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006516D252F91B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-westbury-new-york-11-06-2026/event/00006516D252F91B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-westbury-new-york-11-06-2026/event/00006516D252F91B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006516D252F91B",
+        "discovery_event_id": "k7vGF_oh3fR0h",
+        "url": "https://www.ticketmaster.com/dylan-scott-westbury-new-york-11-06-2026/event/00006516D252F91B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_oh3fR0h",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-detroit-vv1afzkfigkddz4or",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-01-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006528C301581E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006528C301581E",
+        "discovery_event_id": "vv1AFZkfIGkddZ4Or",
+        "url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfIGkddZ4Or",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-grand-rapids-vv1afzkfigker90br",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2027-01-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006528AF5E461E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006528AF5E461E",
+        "discovery_event_id": "vv1AFZkfIGkeR90br",
+        "url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfIGkeR90br",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-waukee-1ae7z_3gkl2epqo",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Waukee",
+    "country": "United States Of America",
+    "venue": "Vibrant Music Hall",
+    "datetime_iso": "2027-01-24T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100652ACF9E5751",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-waukee-iowa-01-23-2027/event/2100652ACF9E5751",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-waukee-iowa-01-23-2027/event/2100652ACF9E5751",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100652ACF9E5751",
+        "discovery_event_id": "1Ae7Z_3Gkl2EPqo",
+        "url": "https://www.ticketmaster.com/dylan-scott-waukee-iowa-01-23-2027/event/2100652ACF9E5751",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl2EPqo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-sioux-falls-vv17bz_3gkbn6kzm",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Sioux Falls",
+    "country": "United States Of America",
+    "venue": "Sanford Pentagon",
+    "datetime_iso": "2027-01-29T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652EA31C6E37",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-sioux-falls-south-dakota-01-28-2027/event/0600652EA31C6E37",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-sioux-falls-south-dakota-01-28-2027/event/0600652EA31C6E37",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652EA31C6E37",
+        "discovery_event_id": "vv17bZ_3GkBN6kzM",
+        "url": "https://www.ticketmaster.com/dylan-scott-sioux-falls-south-dakota-01-28-2027/event/0600652EA31C6E37",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GkBN6kzM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-bismarck-z7r9jz1aavseb",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Bismarck",
+    "country": "United States Of America",
+    "venue": "Bismarck Event Center",
+    "datetime_iso": "2027-01-30T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSeb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSeb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSeb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSeb",
+        "discovery_event_id": "Z7r9jZ1AAvSeb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSeb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSeb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-rochester-vv17bz_3gklxuys_",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Rochester",
+    "country": "United States Of America",
+    "venue": "Mayo Civic Center Auditorium",
+    "datetime_iso": "2027-01-31T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652AE2370CD9",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-rochester-minnesota-01-30-2027/event/0600652AE2370CD9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-rochester-minnesota-01-30-2027/event/0600652AE2370CD9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652AE2370CD9",
+        "discovery_event_id": "vv17bZ_3GklxuYS_",
+        "url": "https://www.ticketmaster.com/dylan-scott-rochester-minnesota-01-30-2027/event/0600652AE2370CD9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GklxuYS_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-philadelphia-vv17fz_3gklnt6ea",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2027-02-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200652AE3A47089",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-philadelphia-pennsylvania-02-04-2027/event/0200652AE3A47089",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-philadelphia-pennsylvania-02-04-2027/event/0200652AE3A47089",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200652AE3A47089",
+        "discovery_event_id": "vv17FZ_3GklNt6ea",
+        "url": "https://www.ticketmaster.com/dylan-scott-philadelphia-pennsylvania-02-04-2027/event/0200652AE3A47089",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_3GklNt6ea",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-wallingford-g5vvz_3ekjcji",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott Dear Big City Tour",
+    "city": "Wallingford",
+    "country": "United States Of America",
+    "venue": "Toyota Oakdale Theatre",
+    "datetime_iso": "2027-02-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006529C69AD728",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006529C69AD728",
+        "discovery_event_id": "G5vVZ_3EkJcjI",
+        "url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_3EkJcjI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-boston-vv1avzkftgkeyygcg",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-02-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006529B9C35B4C",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006529B9C35B4C",
+        "discovery_event_id": "vv1AvZkftGkeyYgcG",
+        "url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkftGkeyYgcG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-denver-z7r9jz1aavse_",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott (16+ Event)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2027-02-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSe_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSe_",
+        "discovery_event_id": "Z7r9jZ1AAvSe_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSe_",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-omaha-1aezz_3gknwydtt",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Steelhouse Omaha",
+    "datetime_iso": "2027-02-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000652AB2E43FFF",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-omaha-nebraska-02-19-2027/event/2000652AB2E43FFF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-omaha-nebraska-02-19-2027/event/2000652AB2E43FFF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000652AB2E43FFF",
+        "discovery_event_id": "1AeZZ_3GknwydTT",
+        "url": "https://www.ticketmaster.com/dylan-scott-omaha-nebraska-02-19-2027/event/2000652AB2E43FFF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_3GknwydTT",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-park-city-vv17bz_3gkmnbnzl",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Park City",
+    "country": "United States Of America",
+    "venue": "Heartland Credit Union Arena",
+    "datetime_iso": "2027-02-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652BAAEAA01F",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652BAAEAA01F",
+        "discovery_event_id": "vv17bZ_3GkmnBnZL",
+        "url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GkmnBnZL",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-albuquerque-g5vzz_3mo5e82",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "Kiva Auditorium at the Albuquerque Convention Center",
+    "datetime_iso": "2027-02-26T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00652BA02E740F",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00652BA02E740F",
+        "discovery_event_id": "G5vzZ_3mO5E82",
+        "url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_3mO5E82",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-prescott-valley-1av0z_3gkmlgghm",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Prescott Valley",
+    "country": "United States Of America",
+    "venue": "Findlay Toyota Center",
+    "datetime_iso": "2027-02-27T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900652B9F335F2E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-prescott-valley-arizona-02-26-2027/event/1900652B9F335F2E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-prescott-valley-arizona-02-26-2027/event/1900652B9F335F2E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900652B9F335F2E",
+        "discovery_event_id": "1Av0Z_3GkmLGgHm",
+        "url": "https://www.ticketmaster.com/dylan-scott-prescott-valley-arizona-02-26-2027/event/1900652B9F335F2E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_3GkmLGgHm",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-chandler-1av0z_3gkshqv4x",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Chandler",
+    "country": "United States Of America",
+    "venue": "Gila River Resorts & Casinos - Wild Horse Pass",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900652CFC68157E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900652CFC68157E",
+        "discovery_event_id": "1Av0Z_3GkSHQv4X",
+        "url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_3GkSHQv4X",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-kennewick-vvg1hz_3ngdpch",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Kennewick",
+    "country": "United States Of America",
+    "venue": "Toyota Center Kennewick",
+    "datetime_iso": "2027-03-05T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652A8CEE53BC",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652A8CEE53BC",
+        "discovery_event_id": "vvG1HZ_3nGDPCH",
+        "url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3nGDPCH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-spokane-z7r9jz1aavsvm",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott w/ Graham Barham",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "First Interstate Center for the Arts",
+    "datetime_iso": "2027-03-06T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSvM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSvM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSvM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSvM",
+        "discovery_event_id": "Z7r9jZ1AAvSvM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSvM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSvM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-scott-2027-wenatchee-z7r9jz1aavs7z",
+    "artist_slug": "dylan-scott",
+    "artist_name": "Dylan Scott",
+    "event_name": "Dylan Scott",
+    "city": "Wenatchee",
+    "country": "United States Of America",
+    "venue": "Town Toyota Center - Wenatchee",
+    "datetime_iso": "2027-03-07T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvS7Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS7Z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS7Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvS7Z",
+        "discovery_event_id": "Z7r9jZ1AAvS7Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS7Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS7Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

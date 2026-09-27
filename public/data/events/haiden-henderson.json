@@ -424,12 +424,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284317",
+        "url": "https://www.ticketliquidator.com/tickets/8284317/Haiden-Henderson-tickets-Mon-Apr-5-2027-Constellation-Room-at-The-Observatory-Santa-Ana",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfwGkdn3e19",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284317"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284317",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284317/Haiden-Henderson-tickets-Mon-Apr-5-2027-Constellation-Room-at-The-Observatory-Santa-Ana"
   },
   {
     "id": "tm-haiden-henderson-2027-houston-g5diz_kdeuth4",
@@ -485,12 +493,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284319",
+        "url": "https://www.ticketliquidator.com/tickets/8284319/Haiden-Henderson-tickets-Fri-Apr-9-2027-Bronze-Peacock-At-The-House-Of-Blues-Houston",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KdeuTh4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284319"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284319",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284319/Haiden-Henderson-tickets-Fri-Apr-9-2027-Bronze-Peacock-At-The-House-Of-Blues-Houston"
   },
   {
     "id": "tm-haiden-henderson-2027-atlanta-vvg1zz_k5fswrb",
@@ -599,12 +615,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284324",
+        "url": "https://www.ticketliquidator.com/tickets/8284324/Haiden-Henderson-tickets-Sun-Apr-18-2027-The-Underground-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K7koqsD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284324"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284324",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284324/Haiden-Henderson-tickets-Sun-Apr-18-2027-The-Underground-Charlotte"
   },
   {
     "id": "tm-haiden-henderson-2027-washington-16vfz_kzng7lczd",
@@ -660,12 +684,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284325",
+        "url": "https://www.ticketliquidator.com/tickets/8284325/Haiden-Henderson-tickets-Tue-Apr-20-2027-The-Atlantis",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_KZNG7lcZD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284325"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284325",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284325/Haiden-Henderson-tickets-Tue-Apr-20-2027-The-Atlantis"
   },
   {
     "id": "tm-haiden-henderson-2027-philadelphia-vv16ovpgt4oz75ua7",
@@ -827,12 +859,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284328",
+        "url": "https://www.ticketliquidator.com/tickets/8284328/Haiden-Henderson-tickets-Sat-Apr-24-2027-Big-Night-Live",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfYGkegtMCp",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284328"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284328",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284328/Haiden-Henderson-tickets-Sat-Apr-24-2027-Big-Night-Live"
   },
   {
     "id": "tm-haiden-henderson-2027-toronto-1a8zkfggkd2jp9d",

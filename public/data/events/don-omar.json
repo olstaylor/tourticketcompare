@@ -108,11 +108,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976476",
-        "url": "https://www.ticketliquidator.com/tickets/7976476/Don-Omar-tickets-Sat-Sep-26-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107189120",
@@ -126,7 +126,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976476/Don-Omar-tickets-Sat-Sep-26-2026-TD-Garden",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-boston-tickets-9-26-2026/event/107189120"
   },
   {

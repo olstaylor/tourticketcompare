@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290910",
+        "url": "https://www.ticketliquidator.com/tickets/8290910/Needtobreathe-tickets-Thu-Feb-18-2027-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_KekboZdu2k",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290910"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290910",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290910/Needtobreathe-tickets-Thu-Feb-18-2027-Steelhouse-Omaha"
   },
   {
     "id": "tm-needtobreathe-2027-waukee-1ae7z_3gktpcjjf",
@@ -115,13 +123,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290913",
+        "url": "https://www.ticketliquidator.com/tickets/8290913/Needtobreathe-tickets-Fri-Feb-19-2027-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3GkTpCJjf",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290913"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290913",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290913/Needtobreathe-tickets-Fri-Feb-19-2027-Vibrant-Music-Hall"
   },
   {
     "id": "tm-needtobreathe-2027-minneapolis-vv1akzkfwgkdmqcn1",
@@ -177,13 +193,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290989",
+        "url": "https://www.ticketliquidator.com/tickets/8290989/Needtobreathe-tickets-Sat-Feb-20-2027-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfwGkdmqCn1",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290989"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290989",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290989/Needtobreathe-tickets-Sat-Feb-20-2027-The-Armory-Minneapolis"
   },
   {
     "id": "tm-needtobreathe-2027-duluth-vv1kbz_kekg7rpco",
@@ -293,13 +317,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290918",
+        "url": "https://www.ticketliquidator.com/tickets/8290918/Needtobreathe-tickets-Thu-Feb-25-2027-The-Sylvee-WI",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_3GkTPRkGd",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290918"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290918",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290918/Needtobreathe-tickets-Thu-Feb-25-2027-The-Sylvee-WI"
   },
   {
     "id": "tm-needtobreathe-2027-grand-rapids-vv1afzkfwgkd2p_kw",
@@ -355,13 +387,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290924",
+        "url": "https://www.ticketliquidator.com/tickets/8290924/Needtobreathe-tickets-Fri-Feb-26-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkd2P_Kw",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290924"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290924",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290924/Needtobreathe-tickets-Fri-Feb-26-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-needtobreathe-2027-cincinnati-1kaovpgtgauok5q",
@@ -471,13 +511,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290990",
+        "url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KxVnXBa",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290990"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290990",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-needtobreathe-2027-boston-vv177z_3gkiozdvt",
@@ -533,13 +581,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290991",
+        "url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkIoZDVT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290991"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290991",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-needtobreathe-2027-washington-1a4zkfggkdjqhau",
@@ -595,13 +651,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290993",
+        "url": "https://www.ticketliquidator.com/tickets/8290993/Needtobreathe-tickets-Sat-Mar-6-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfgGkdjQhAU",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290993"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290993/Needtobreathe-tickets-Sat-Mar-6-2027-The-Anthem-DC"
   },
   {
     "id": "tm-needtobreathe-2027-pittsburgh-1apzkfggkd9zzsh",
@@ -657,13 +721,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290994",
+        "url": "https://www.ticketliquidator.com/tickets/8290994/Needtobreathe-tickets-Sun-Mar-7-2027-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfgGkd9Zzsh",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290994"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290994",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290994/Needtobreathe-tickets-Sun-Mar-7-2027-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-needtobreathe-2027-durham-g5evz_khc4kmz",
@@ -827,13 +899,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290982",
+        "url": "https://www.ticketliquidator.com/tickets/8290982/Needtobreathe-tickets-Fri-Mar-12-2027-Soldiers-Sailors-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KepFQ3L",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290982"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290982/Needtobreathe-tickets-Fri-Mar-12-2027-Soldiers-Sailors-Memorial-Auditorium"
   },
   {
     "id": "tm-needtobreathe-2027-columbia-g5evz_kkuppj_",
@@ -889,13 +969,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290983",
+        "url": "https://www.ticketliquidator.com/tickets/8290983/Needtobreathe-tickets-Sat-Mar-13-2027-Township-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KkUPpJ_",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290983"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290983/Needtobreathe-tickets-Sat-Mar-13-2027-Township-Auditorium"
   },
   {
     "id": "tm-needtobreathe-2027-orlando-1axzkfggkdmxefx",
@@ -951,13 +1039,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290984",
+        "url": "https://www.ticketliquidator.com/tickets/8290984/Needtobreathe-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfgGkdmxEfX",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290984"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290984",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290984/Needtobreathe-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-needtobreathe-2027-memphis-g5viz_k1t4cqs",
@@ -1013,13 +1109,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290985",
+        "url": "https://www.ticketliquidator.com/tickets/8290985/Needtobreathe-tickets-Wed-Mar-17-2027-Satellite-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K1t4cqS",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290985/Needtobreathe-tickets-Wed-Mar-17-2027-Satellite-Music-Hall"
   },
   {
     "id": "tm-needtobreathe-2027-memphis-g5viz_k1tpwrf",
@@ -1075,13 +1179,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290986",
+        "url": "https://www.ticketliquidator.com/tickets/8290986/Needtobreathe-tickets-Thu-Mar-18-2027-Satellite-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K1tpWrF",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290986"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290986",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290986/Needtobreathe-tickets-Thu-Mar-18-2027-Satellite-Music-Hall"
   },
   {
     "id": "tm-needtobreathe-2027-new-orleans-g5viz_ocxa2ai",
@@ -1137,13 +1249,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290987",
+        "url": "https://www.ticketliquidator.com/tickets/8290987/Needtobreathe-tickets-Fri-Mar-19-2027-The-Fillmore-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oCXA2ai",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290987"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290987",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290987/Needtobreathe-tickets-Fri-Mar-19-2027-The-Fillmore-New-Orleans"
   },
   {
     "id": "tm-needtobreathe-2027-houston-g5diz_kkbawh-",
@@ -1199,12 +1319,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290988",
+        "url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkBAWh-",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290988"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290988",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall"
   }
 ]

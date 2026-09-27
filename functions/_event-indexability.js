@@ -470,7 +470,8 @@ export function eventArtistCityRelation(events, event, options = {}) {
 // ---------------------------------------------------------------------------
 
 // The environment variable that turns event-page indexing on, and the one
-// value that does. Any other value — including absent — is off. It is a
+// value that does, compared exactly. Any other value — including absent,
+// "PILOT" or " pilot " — is off. It is a
 // non-secret flag, repo-managed in wrangler.toml [vars] like every other flag.
 // Removing it (or setting anything but "pilot") is the rollback: the next
 // render is noindex,follow again, the events sitemap empties and parent
@@ -536,14 +537,16 @@ export const EVENT_INDEXING_ROLLOUT_REASONS = Object.freeze({
 });
 
 /**
- * Is the rollout flag set to "pilot"? The cheap first check: every caller
- * that would otherwise load or evaluate anything asks this first.
+ * Is the rollout flag set to exactly "pilot"? No trimming or case folding:
+ * "PILOT", " pilot " and every other near-miss are off, so a typo or a
+ * half-done rollback fails closed. The cheap first check: every caller that
+ * would otherwise load or evaluate anything asks this first.
  *
  * @param {Record<string, unknown> | null | undefined} env
  * @returns {boolean}
  */
 export function eventPagesIndexingEnabled(env) {
-  return String(env?.[EVENT_PAGES_INDEXING_ENV] ?? "").trim().toLowerCase() === EVENT_PAGES_INDEXING_PILOT;
+  return env?.[EVENT_PAGES_INDEXING_ENV] === EVENT_PAGES_INDEXING_PILOT;
 }
 const pilotFlagOn = eventPagesIndexingEnabled;
 

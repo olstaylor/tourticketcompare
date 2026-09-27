@@ -383,15 +383,22 @@ const NO_EVENT_INDEXING_PILOT = Object.freeze({ active: false, reason: "no_pilot
  * @param {string} origin  The request's own origin (not the canonical one).
  * @param {any[] | null} [candidates]  When given, records the route shows: a
  *   route holding no pilot key skips the evaluation (and the full-file load).
+ * @param {{ events?: any[], artists?: any[] }} [loaded]  The full events.json and
+ *   artists.json when the caller has already parsed them.
  */
-export async function eventIndexingPilotFor(env, origin, candidates = null) {
+export async function eventIndexingPilotFor(env, origin, candidates = null, loaded = {}) {
   const hostIndexable = isIndexableOrigin(origin);
   // Flag off or a non-canonical host: inactive, without loading anything.
   if (!hostIndexable || !eventPagesIndexingEnabled(env)) return deriveEventIndexingPilot([], [], env, { hostIndexable });
   if (Array.isArray(candidates) && !candidates.some((event) => EVENT_INDEXING_PILOT_KEY_SET.has(eventKey(event?.id)))) {
     return NO_EVENT_INDEXING_PILOT;
   }
-  const [events, artistsMeta] = await Promise.all([loadEvents(env), loadArtistsMeta(env)]);
+  // The sitemap and llms.txt pass the files they already parsed, so a cold
+  // discovery request parses the multi-megabyte events.json once, not twice.
+  const [events, artistsMeta] = await Promise.all([
+    Array.isArray(loaded.events) ? loaded.events : loadEvents(env),
+    Array.isArray(loaded.artists) ? loaded.artists : loadArtistsMeta(env)
+  ]);
   return deriveEventIndexingPilot(events, artistsMeta, env, {
     hostIndexable,
     lanesFor: (event) => eventPublishableLaneSlugs(event, env)

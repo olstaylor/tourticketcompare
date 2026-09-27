@@ -15,7 +15,18 @@ import { eventIndexingPilotFor } from "./[[path]].js";
 // the site actually renders.
 
 
-async function loadJsonAsset(env, pathname) {
+// Each file is fetched and parsed once per request: events.json is several
+// megabytes and three sections of this document read it.
+const assetsByEnv = new WeakMap();
+function loadJsonAsset(env, pathname) {
+  if (!env || typeof env !== "object") return fetchJsonAsset(env, pathname);
+  if (!assetsByEnv.has(env)) assetsByEnv.set(env, new Map());
+  const cache = assetsByEnv.get(env);
+  if (!cache.has(pathname)) cache.set(pathname, fetchJsonAsset(env, pathname).catch(() => null));
+  return cache.get(pathname);
+}
+
+async function fetchJsonAsset(env, pathname) {
   const response = await env?.ASSETS?.fetch(new Request(`https://assets.local${pathname}`));
   if (!response?.ok) return null;
   return response.json();
@@ -89,7 +100,8 @@ async function loadIndexableBlogPosts(env) {
 // or the request is not on the canonical host.
 async function loadIndexedEventPages(env, requestOrigin, artistNameBySlug) {
   try {
-    const pilot = await eventIndexingPilotFor(env, requestOrigin);
+    const [events, artists] = await Promise.all([loadJsonAsset(env, "/data/events.json"), loadJsonAsset(env, "/data/artists.json")]);
+    const pilot = await eventIndexingPilotFor(env, requestOrigin, null, { events, artists });
     return pilot.indexed.map((member) => {
       const event = member.event || {};
       const artist = artistNameBySlug.get(String(event.artist_slug || "").trim()) || String(event.artist_name || "").trim() || String(event.artist_slug || "");

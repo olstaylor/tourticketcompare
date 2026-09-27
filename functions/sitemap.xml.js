@@ -170,7 +170,8 @@ async function loadIndexableArtists(env) {
 // the date a shared renderer changed.
 async function loadIndexedEventPages(env, origin) {
   try {
-    const pilot = await eventIndexingPilotFor(env, origin);
+    const [events, artists] = await Promise.all([loadEvents(env), loadJsonAsset(env, "/data/artists.json")]);
+    const pilot = await eventIndexingPilotFor(env, origin, null, { events, artists });
     return pilot.indexed.map((member) => ({
       path: member.path,
       lastmod: lastmodOf(member.event?.last_verified_at),

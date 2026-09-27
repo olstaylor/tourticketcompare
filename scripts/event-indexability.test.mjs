@@ -290,7 +290,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
   const ineligible = decide(EVENTS, ONE_LANE);
   const on = { EVENT_PAGES_INDEXING: "pilot" };
   assert("rollout: nothing is indexable with the flag unset", eventPageIndexingDecision(eligible, {}, { pilotKeys: [eligible.key] }).reason === ROLLOUT.INDEXING_OFF);
-  assert("rollout: any value but \"pilot\" is off", ["true", "1", "all", "", "pilot,all", "pilots", "on"].every((value) => !eventPageIndexingDecision(eligible, { EVENT_PAGES_INDEXING: value }, { pilotKeys: [eligible.key] }).indexable));
+  assert("rollout: any value but \"pilot\" is off", ["true", "1", "all", "", "pilot,all", "pilots", "on", "PILOT", "Pilot", " pilot ", "pilot\n", "pilot "].every((value) => !eventPageIndexingDecision(eligible, { EVENT_PAGES_INDEXING: value }, { pilotKeys: [eligible.key] }).indexable));
   assert("rollout: the flag alone indexes nothing without the key", eventPageIndexingDecision(eligible, on, { pilotKeys: [] }).reason === ROLLOUT.NOT_IN_PILOT);
   assert("rollout: a pilot key never overrides the policy", eventPageIndexingDecision(ineligible, on, { pilotKeys: [ineligible.key] }).reason === ROLLOUT.NOT_ELIGIBLE);
   assert("rollout: eligible AND pilot flag AND stable key listed -> indexable", eventPageIndexingDecision(eligible, on, { pilotKeys: [eligible.key] }).indexable);
@@ -311,7 +311,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
   assert("pilot: a key naming no event fails closed", active.members.find((member) => member.key === "ffffffffffffffff")?.reason === ROLLOUT.UNKNOWN_KEY);
   assert("pilot: inactive off the canonical host (previews, *.pages.dev)", derive(on, { hostIndexable: false }).reason === ROLLOUT.HOST_NOT_INDEXABLE && derive(on, { hostIndexable: false }).indexed.length === 0);
   assert("pilot: inactive when the host rule is not stated", policy.deriveEventIndexingPilot(EVENTS, artistsMeta, on, { lanesFor: (event) => lanesOf(event), now: NOW, pilotKeys: [eligible.key] }).indexed.length === 0);
-  assert("pilot: inactive with the flag absent or malformed", [{}, { EVENT_PAGES_INDEXING: "all" }, { EVENT_PAGES_INDEXING: "" }, null].every((envValue) => derive(envValue).reason === ROLLOUT.INDEXING_OFF));
+  assert("pilot: inactive with the flag absent or malformed (exact match only)", [{}, { EVENT_PAGES_INDEXING: "all" }, { EVENT_PAGES_INDEXING: "" }, { EVENT_PAGES_INDEXING: "PILOT" }, { EVENT_PAGES_INDEXING: " pilot " }, { EVENT_PAGES_INDEXING: true }, null].every((envValue) => derive(envValue).reason === ROLLOUT.INDEXING_OFF));
   assert("pilot: no lane source fails every threshold", policy.deriveEventIndexingPilot(EVENTS, artistsMeta, on, { hostIndexable: true, now: NOW, pilotKeys: [eligible.key] }).indexed.length === 0);
   assert("pilot: an empty events file indexes nothing", policy.deriveEventIndexingPilot([], artistsMeta, on, { hostIndexable: true, lanesFor: () => ALL_LANES, now: NOW }).indexed.length === 0);
   assert("pilot: only pilot keys are evaluated, so the indexed set never exceeds the list", derive(on, { pilotKeys: [eligible.key] }).indexed.length === 1 && decide(EVENTS, MULTI_A).eligible);
@@ -465,7 +465,7 @@ const eventUrls = (body) => [...String(body).matchAll(/https:\/\/tourticketcompa
   assert("P1. eligible + pilot flag + allowlisted key -> index,follow", pilotPage.status === 200 && robotsOf(pilotPage.html).startsWith("index,follow") && decide(ALL, PILOT).eligible);
   assert("P2. eligible + pilot flag + not allowlisted -> noindex,follow", robotsOf((await render(eventPages.eventPath(STRONG), on)).html) === "noindex,follow" && decide(ALL, STRONG).eligible);
   assert("P3. eligible pilot key + flag absent -> noindex,follow", robotsOf((await render(P, off)).html) === "noindex,follow");
-  for (const value of ["all", "true", "", "index"]) {
+  for (const value of ["all", "true", "", "index", "PILOT", " pilot "]) {
     assert(`P4. eligible pilot key + flag "${value}" -> noindex,follow`, robotsOf((await render(P, env(ALL, { EVENT_PAGES_INDEXING: value }))).html) === "noindex,follow");
   }
   assert("P5. an allowlisted key whose event is ineligible -> noindex,follow", robotsOf((await render(eventPages.eventPath(PILOT_THIN), on)).html) === "noindex,follow" && !decide(ALL, PILOT_THIN).eligible);

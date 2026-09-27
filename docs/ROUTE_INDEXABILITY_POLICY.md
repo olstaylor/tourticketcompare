@@ -278,8 +278,9 @@ it is the precise leaf while the thin city page stays out of the index.
 
 1. it is eligible now (`eventIndexabilityDecision`, the rule above, counted on
    the router's own CTA gate — `eventPublishableLaneSlugs`);
-2. `EVENT_PAGES_INDEXING` is exactly `"pilot"` (repo-managed in
-   `wrangler.toml` `[vars]`; any other value or none is off);
+2. `EVENT_PAGES_INDEXING` is exactly `"pilot"` — compared as written, so
+   `"PILOT"` or `" pilot "` is off (repo-managed in `wrangler.toml` `[vars]`;
+   any other value or none is off);
 3. its stable key (16 hex digits, never the readable slug) is one of the 30 in
    `EVENT_INDEXING_PILOT_KEYS`;
 4. the request is on the canonical host (`isIndexableOrigin`). Cloudflare

@@ -2072,17 +2072,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085159",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-26-2026/event/107085159",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAKIax",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695878",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-26-2026/event/107085159"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505768283",
@@ -8220,11 +8220,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162650",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-26-2026/event/107162650",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "status": "on-sale",
@@ -8233,7 +8233,7 @@
     "timezone": "America/New_York",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-26-2026/event/107162650"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -20941,11 +20941,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957100",
-        "url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-26-2026/event/106957100",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkGsGkdULEK_",
@@ -20954,7 +20954,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-26-2026/event/106957100"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1",
@@ -43313,11 +43313,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106999130",
-        "url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkufGkd3CMyl",
@@ -43325,7 +43325,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-foo-fighters-2026-uncasville-g5vvz_unjqq1q",
@@ -45139,11 +45139,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107168137",
-        "url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xF0U",
@@ -45151,7 +45151,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-detroit-vv17oz_fgktec1td",
@@ -50725,11 +50725,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107189120",
-        "url": "https://www.stubhub.ie/don-omar-boston-tickets-9-26-2026/event/107189120",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1wjhcnw",
@@ -50737,7 +50737,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-boston-tickets-9-26-2026/event/107189120"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-hartford-z7r9jz1a70eoa",
@@ -118932,11 +118932,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107417989",
-        "url": "https://www.stubhub.ie/malcolm-todd-boston-tickets-9-26-2026/event/107417989",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_G1xNURg",
@@ -118944,7 +118944,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-boston-tickets-9-26-2026/event/107417989"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-toronto-177zv0g6gcmrwkt",
@@ -132486,11 +132486,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107122087",
+        "url": "https://www.stubhub.ie/foy-vance-tickets-manchester-albert-hall-manchester-25-10-2026/event/107122087",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3kr3eRS",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/foy-vance-tickets-manchester-albert-hall-manchester-25-10-2026/event/107122087"
   },
   {
     "id": "tm-foy-vance-2026-wexford-1avoz_7gksprdxw",
@@ -133669,11 +133677,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162285",
+        "url": "https://www.stubhub.ie/the-lemonheads-tickets-london-troxy-2-10-2026/event/107162285",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_aUdFsuQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-lemonheads-tickets-london-troxy-2-10-2026/event/107162285"
   },
   {
     "id": "tm-the-lemonheads-2026-birmingham-g5dzzbgmxafgo",
@@ -133722,11 +133738,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107009211",
+        "url": "https://www.stubhub.ie/the-lemonheads-tickets-birmingham-o2-institute-birmingham-10-10-2026/event/107009211",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgMxAFGo",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-lemonheads-tickets-birmingham-o2-institute-birmingham-10-10-2026/event/107009211"
   },
   {
     "id": "tm-the-lemonheads-2027-boston-vv177z_3gkn_hus-",
@@ -133842,13 +133866,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668936",
+        "url": "https://www.stubhub.ie/the-lemonheads-brooklyn-tickets-2-11-2027/event/107668936",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3RtIQkk",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266203",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266203/The-Lemonheads-tickets-Thu-Feb-11-2027-Brooklyn-Bowl-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266203/The-Lemonheads-tickets-Thu-Feb-11-2027-Brooklyn-Bowl-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/the-lemonheads-brooklyn-tickets-2-11-2027/event/107668936"
   },
   {
     "id": "tm-the-lemonheads-2027-atlanta-vvg1zz_3rf_-sk",

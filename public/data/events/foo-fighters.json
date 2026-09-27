@@ -330,11 +330,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106999130",
-        "url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkufGkd3CMyl",
@@ -342,7 +342,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-foo-fighters-2026-uncasville-g5vvz_unjqq1q",

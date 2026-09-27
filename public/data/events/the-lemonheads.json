@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162285",
+        "url": "https://www.stubhub.ie/the-lemonheads-tickets-london-troxy-2-10-2026/event/107162285",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_aUdFsuQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-lemonheads-tickets-london-troxy-2-10-2026/event/107162285"
   },
   {
     "id": "tm-the-lemonheads-2026-birmingham-g5dzzbgmxafgo",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107009211",
+        "url": "https://www.stubhub.ie/the-lemonheads-tickets-birmingham-o2-institute-birmingham-10-10-2026/event/107009211",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgMxAFGo",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-lemonheads-tickets-birmingham-o2-institute-birmingham-10-10-2026/event/107009211"
   },
   {
     "id": "tm-the-lemonheads-2027-boston-vv177z_3gkn_hus-",
@@ -219,13 +235,21 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668936",
+        "url": "https://www.stubhub.ie/the-lemonheads-brooklyn-tickets-2-11-2027/event/107668936",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3RtIQkk",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266203",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266203/The-Lemonheads-tickets-Thu-Feb-11-2027-Brooklyn-Bowl-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266203/The-Lemonheads-tickets-Thu-Feb-11-2027-Brooklyn-Bowl-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/the-lemonheads-brooklyn-tickets-2-11-2027/event/107668936"
   },
   {
     "id": "tm-the-lemonheads-2027-atlanta-vvg1zz_3rf_-sk",

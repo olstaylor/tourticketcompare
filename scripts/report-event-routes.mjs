@@ -16,9 +16,9 @@
 // Every figure comes from functions/_event-pages.js and
 // functions/_event-indexability.js; per-event publishable destination lanes
 // come from scripts/lib/event-link-coverage.mjs, the offline mirror of the
-// runtime CTA gate. Writes nothing. Eligible is not indexed: every served
-// event page is noindex,follow until the rollout gate
-// (eventPageIndexingDecision) is switched on for a pilot.
+// runtime CTA gate. Writes nothing. Eligible is not indexed: a served event
+// page is index,follow only as an active member of the frozen indexing pilot
+// (the rollout gate eventPageIndexingDecision with the wrangler.toml flag).
 //
 // Usage:
 //   node scripts/report-event-routes.mjs          # human-readable summary
@@ -217,7 +217,7 @@ if (process.argv.includes("--json")) {
 } else {
   const ix = report.indexability;
   const lines = [
-    `Event routes — ${report.generated_at} (read-only; every served event page is noindex,follow)`,
+    `Event routes — ${report.generated_at} (read-only; every served event page is noindex,follow except active indexing-pilot members)`,
     "",
     `Events: ${report.events}`,
     `Stable keys: ${report.keys.unique} unique · ${report.keys.collisions.length} collisions · ${report.keys.duplicate_ids.length} duplicate ids`,
@@ -226,11 +226,11 @@ if (process.argv.includes("--json")) {
     `Upcoming but not renderable, by reason: ${JSON.stringify(report.upcoming_not_renderable_by_reason)}`,
     "",
     "Live /events/* routing of each upcoming event's canonical path:",
-    `  served (200, noindex): ${report.routing.served_noindex} · commercially live ${report.routing.served_commercially_live} · held ${report.routing.served_held} · pre-on-sale ${report.routing.served_pre_onsale}`,
+    `  served (200): ${report.routing.served_noindex} · commercially live ${report.routing.served_commercially_live} · held ${report.routing.served_held} · pre-on-sale ${report.routing.served_pre_onsale}`,
     `  301 to parent, by reason: ${JSON.stringify(report.routing.redirect_by_reason)}`,
     `  404, by reason: ${JSON.stringify(report.routing.not_found_by_reason)}`,
     "",
-    "Structured data on served pages (noindex; not an indexing count):",
+    "Structured data on served pages (not an indexing count):",
     `  one MusicEvent: ${report.structured_data.served_with_node} ${JSON.stringify(report.structured_data.by_status)} · none, by reason: ${JSON.stringify(report.structured_data.served_without_node_by_reason)}`,
     "",
     "Indexability policy (functions/_event-indexability.js) — eligible, not indexed:",

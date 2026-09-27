@@ -220,7 +220,8 @@ npm run test:event-local-date                 # shared venue-local date/instant 
 npm run test:event-pages                      # event identity: stable keys, future event paths (in test:mvp)
 npm run test:event-lifecycle                  # cancelled/postponed holds on every surface and /api/out (in test:mvp)
 npm run test:event-page                       # /events/* routing, noindex, lifecycle and parent-card parity and "Show details" links (in test:mvp)
-npm run test:event-indexability               # event-page indexability policy, duplicates, pilot gate; nothing indexed (in test:mvp)
+npm run test:event-indexability               # event-page indexability policy, duplicates, and the frozen 30-key indexing pilot:
+                                              #   robots, events sitemap, llms.txt, parent MusicEvent identity, the real cohort (in test:mvp)
 npm run report:event-routes                   # read-only event route + indexability diagnostic; --json (not a test)
 npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
 npm run seatgeek:enrich:self-test             # SeatGeek enrichment scheduling + matching (in test:mvp)

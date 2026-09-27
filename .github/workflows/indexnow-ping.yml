@@ -45,6 +45,9 @@ on:
       - 'functions/_venues.js'
       - 'functions/_artist-cities.js'
       - 'functions/_artist-indexability.js'
+      # The event-page indexing pilot: its keys and policy, and the flag.
+      - 'functions/_event-indexability.js'
+      - 'wrangler.toml'
   workflow_dispatch:
     inputs:
       dry_run:

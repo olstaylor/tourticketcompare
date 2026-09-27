@@ -180,21 +180,24 @@ the page flips to `index,follow` and re-enters the sitemap on the next deploy.
 
 ### Event — `/events/<slug>-<key>`
 
-**Never indexable yet.** Every event page is `noindex,follow` with a
-self-referencing canonical and absent from every sitemap and `llms.txt`. The
-artist, artist-city, city and venue boards link each served date's page
-("Show details") so the noindex signal can be crawled; that is navigation, not
-an indexing step, and the internal-link audit never counts an event page as an
-orphan for being noindex.
+**A frozen 30-page pilot is indexable; nothing else is.** Every event page
+has a self-referencing canonical. It renders `noindex,follow` and is absent
+from every sitemap and `llms.txt` unless it is an *active pilot member* (below):
+one of the 30 stable keys frozen on 2026-09-27, eligible right now, on the
+canonical host with `EVENT_PAGES_INDEXING="pilot"`. The artist, artist-city,
+city and venue boards link each served date's page ("Show details") exactly as
+before — pilot and non-pilot alike, with no extra links to pilot pages — so the
+experiment measures the existing architecture; the internal-link audit never
+counts an event page as an orphan for being noindex.
 
-Four states are kept apart, and only the first three exist today:
+Four states are kept apart:
 
 | State | Meaning | Decided by |
 |---|---|---|
 | Addressable | The canonical path serves 200: a genuine performance TTC can describe | `resolveEventRoute` (`functions/_event-pages.js`) |
 | Commercially live | Ticket links may be shown today | `eventRouteState().commerciallyLive` |
 | **Eligible for indexing** | Strong and safe enough that it *could* be indexed | `eventIndexabilityDecision` (`functions/_event-indexability.js`) |
-| **Actually indexable** | Renders `index,follow` and is in a sitemap | eligible **and** the rollout gate `eventPageIndexingDecision` — off |
+| **Actually indexable** | Renders `index,follow` and is in a sitemap | eligible **and** the rollout gate — the active pilot, `deriveEventIndexingPilot` |
 
 An event page can be eligible and still `noindex`: eligibility is a standing,
 explainable verdict; indexing is a separate, deliberate rollout.
@@ -270,39 +273,91 @@ and classifies each; no row is ever merged, rewritten or deleted:
 artist-city page is `noindex` (single date) is where the event page adds most:
 it is the precise leaf while the thin city page stays out of the index.
 
-**Rollout (designed, off).** `eventPageIndexingDecision(decision, env)` is
-indexable only when the page is eligible **and** `EVENT_PAGES_INDEXING` is
-`"pilot"` **and** the event's stable key (16 hex digits, never the readable
-slug, which follows venue renames) is in `EVENT_INDEXING_PILOT_KEYS`. A pilot
-key is necessary, not sufficient: a pilot event that is cancelled, loses a
-destination or passes drops out on its own. Today the flag is unset
-(`wrangler.toml` does not carry it), the list is empty, and the router
-hard-codes `noindex,follow`; `npm run test:event-indexability` pins all three.
-Starting the pilot means: wiring the gate into the router's robots meta, the
-sitemap and `llms.txt` in one change; adding the flag to `wrangler.toml`
-`[vars]`; and adding keys. Unsetting the flag is the rollback.
+**Rollout: the frozen pilot (2026-09-27).** An event page renders
+`index,follow` (the site's indexable robots string) only when **all** hold:
 
-**Before the first event URL is exposed** the parent boards' `MusicEvent`
-nodes need to point at it. Every eligible date is already described by 1–4
-`MusicEvent` nodes on indexable parent pages (artist, artist-city, city, venue),
-each with `url` `/artists/<slug>#show-<id>`, no `@id`, the listing title as
-`name`, and `offers` where the schema-offers exception applies. An indexed event
-page would add a second description of the same performance under a different
-URL and name, with no offers — so Google would be free to treat the artist-page
-anchor as the event's landing page. The parent node for an event whose page is
-*actually indexable* should carry the event page's canonical URL as its `url`,
-gated by the same `eventPageIndexingDecision` so it moves in lock-step with
-robots and the sitemap. That belongs with the pilot, before any key is added —
-not before: pointing parent nodes at `noindex` pages would change thousands of
-nodes for no benefit.
+1. it is eligible now (`eventIndexabilityDecision`, the rule above, counted on
+   the router's own CTA gate — `eventPublishableLaneSlugs`);
+2. `EVENT_PAGES_INDEXING` is exactly `"pilot"` — compared as written, so
+   `"PILOT"` or `" pilot "` is off (repo-managed in `wrangler.toml` `[vars]`;
+   any other value or none is off);
+3. its stable key (16 hex digits, never the readable slug) is one of the 30 in
+   `EVENT_INDEXING_PILOT_KEYS`;
+4. the request is on the canonical host (`isIndexableOrigin`). Cloudflare
+   Pages previews receive the same `[vars]`, but a `*.pages.dev` host never
+   activates the pilot: every event page there stays `noindex,follow`, the
+   events sitemap is empty and parent nodes keep `#show-<id>`.
+
+Everything else is `noindex,follow` — fail closed on an unknown or malformed
+flag, a missing list, a key naming no single event, an eligible page that is
+not a pilot key, and a pilot key whose event is no longer eligible.
+`deriveEventIndexingPilot` (`functions/_event-indexability.js`) is the one
+answer; the router reads it (as `eventIndexingPilotFor`) for the event page's
+robots and the parent boards' structured data, and `/sitemaps/events.xml`,
+`/sitemap.xml` and `llms.txt` read the same function, so the four cannot
+disagree. Only the 30 keys are ever evaluated, so the indexed set can shrink
+but never grow past the cohort.
+
+**The cohort is an experiment, not a queue.** The 30 keys and the facts they
+were chosen on are recorded in `data/event-indexing-pilot.json` (selection
+rules, composition, and per member: key, event id, canonical path, artist,
+venue, city, country, local date, single- or multi-date city, destination
+lanes, snapshot-lane count). `npm run test:event-indexability` pins the list to
+that record. A member that is cancelled, postponed, passes, loses coverage or
+becomes ambiguous drops out of indexing and discovery on the next render and
+is **never replaced**; it stays in the record so the original cohort can be
+reconstructed. Growing, shrinking or swapping the cohort is a new, reviewed
+experiment, not maintenance. No automation may set the flag or touch the list.
+
+**Discovery.** `/sitemaps/events.xml` (a segment of `/sitemap-index.xml`, and
+part of `/sitemap.xml`) lists exactly the active pilot, once each; its
+`lastmod` is the event record's own `last_verified_at`, else the artist's
+verification date — never the date shared renderer code changed. The index
+lists the segment only while it is non-empty. `llms.txt` lists every indexable
+route type, so it lists the active pilot too, under "Individual event pages",
+and a noindex event page never.
+
+**Parent structured-data identity.** For an active pilot member only, every
+parent board that describes the performance — the artist, artist-city, city
+and venue pages, `MusicEvent` and `ListItem` alike — identifies it by its event
+page: `url` the canonical event URL and `@id` `<canonical event URL>#event`,
+exactly the event page's own node (`showSchemaIdentity` in
+`functions/[[path]].js`). Nothing else on the node changes (name, dates,
+location, performer, and `offers` where the schema-offers exception applies).
+Every other performance keeps `/artists/<slug>#show-<id>` and no `@id`, and a
+pilot member that drops out returns to it on the next render. Visible cards,
+links, anchors and CTAs are unchanged. The event page's own node still carries
+no `offers`.
+
+**Venue address.** Event data holds the venue name, city and country but not
+street address, region or postcode, so `PostalAddress` carries
+`addressLocality` and `addressCountry` only. The pilot does not wait for, guess
+or scrape the rest; richer addresses are a separate follow-up (`BACKLOG.md`).
+
+**Checks.** `npm run audit:indexable-surface:check` renders every served event
+page and parent boards of the active pilot and fails on any page whose robots
+disagree with the active pilot, an indexed page that is not a pilot key or not
+eligible, more indexed pages than keys, a sitemap or `llms.txt` whose event
+URLs are not exactly the active pilot (or repeat one), or a parent that keeps
+`#show-<id>`, splits `url` and `@id`, or gives a non-pilot performance an
+event-page identity. The pilot is tracked there as an exact set, not in the
+route-type totals and baseline, whose tolerance-based comparison is built for
+calendar decay. `scripts/validate-route-schema.mjs` (section 8c) validates
+every active pilot page's node and its parent artist page's nodes against the
+flag-off render.
+
+**Rollback.** Remove `EVENT_PAGES_INDEXING` from `wrangler.toml` (or set any
+other value): on the next render every event page is `noindex,follow`, the
+events sitemap empties and parent nodes return to `#show-<id>`.
 
 **Structured data ahead of indexing.** Each served event page carries one
 `MusicEvent` for the performance it shows (or none, where it may not be
 described: a pre-on-sale or resale-only date, as on the parent boards, or an
 unrecognised Ticketmaster status). This is a deliberate exception to
 "structured data follows indexability" below: it lets the event schema be
-validated before any event page is exposed for indexing. It adds no sitemap,
-`llms.txt` or robots change, and its node never carries an offer. Shape and
+validated before any event page is exposed for indexing. Its node never
+carries an offer; robots, sitemap and `llms.txt` exposure follow the pilot
+rule above. Shape and
 gate: `docs/ARCHITECTURE.md` → Event-page structured data.
 
 Which URLs serve, redirect or 404 is documented in `docs/ARCHITECTURE.md` →

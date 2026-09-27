@@ -27,6 +27,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { wranglerVars } from "./lib/event-indexability-audit.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC_DIR = path.join(ROOT, "public");
@@ -99,9 +100,21 @@ export function changedUrls(current, baseline) {
  * Derive the sitemap from this checkout by running the real
  * functions/sitemap.xml.js against a filesystem-backed ASSETS stub, so the
  * deploy check compares production against the code and data actually merged.
+ * The env mirrors production's repo-managed [vars] (wrangler.toml, including
+ * EVENT_PAGES_INDEXING) plus stub affiliate credentials, so the events
+ * segment — the active indexing pilot, which counts affiliate lanes — is
+ * derived as production serves it. The stubs are never real values and
+ * nothing here calls a provider.
  */
 export async function deriveExpectedEntries() {
   const env = {
+    ...wranglerVars(fs.readFileSync(path.join(PUBLIC_DIR, "..", "wrangler.toml"), "utf8")),
+    IMPACT_SEATGEEK_ACCOUNT_SID: "indexnow-stub",
+    IMPACT_SEATGEEK_AUTH_TOKEN: "indexnow-stub",
+    IMPACT_SEATGEEK_CAMPAIGN_ID: "1",
+    IMPACT_VIVIDSEATS_CAMPAIGN_ID: "2",
+    IMPACT_ACCOUNT_SID: "indexnow-stub",
+    IMPACT_AUTH_TOKEN: "indexnow-stub",
     ASSETS: {
       async fetch(request) {
         const pathname = new URL(request.url).pathname;
@@ -167,6 +180,9 @@ async function runSelfTest() {
   check("local derivation is same-origin", [...expected.keys()].every((url) => url.startsWith(ORIGIN)));
   check("local derivation includes the homepage", expected.has(`${ORIGIN}/`));
   check("local derivation carries lastmod values", [...expected.values()].every((value) => /^\d{4}-\d{2}-\d{2}$/.test(value)));
+  const { EVENT_INDEXING_PILOT_KEYS } = await import("../functions/_event-indexability.js");
+  const eventUrls = [...expected.keys()].filter((url) => url.startsWith(`${ORIGIN}/events/`));
+  check("local derivation lists only indexing-pilot event pages", eventUrls.length <= EVENT_INDEXING_PILOT_KEYS.length && eventUrls.every((url) => EVENT_INDEXING_PILOT_KEYS.includes(url.slice(-16))));
 
   if (failures.length) {
     console.error(`indexnow-ping self-test failed:\n- ${failures.join("\n- ")}`);

@@ -4,10 +4,12 @@
 //
 // This module is the one answer to that question. The indexing diagnostic
 // (scripts/report-event-routes.mjs), the indexable-surface audit and its tests
-// read eventIndexabilityDecision below; the router, the sitemaps and llms.txt
-// will read eventPageIndexingDecision (the rollout gate) when the indexing
-// pilot starts. None of them may restate the policy. It is documented in
-// docs/ROUTE_INDEXABILITY_POLICY.md → "Event"; change both together.
+// read eventIndexabilityDecision below; the router's robots meta and parent
+// MusicEvent identity, the events sitemap and llms.txt read the active pilot
+// (deriveEventIndexingPilot, built on the rollout gate
+// eventPageIndexingDecision). None of them may restate the policy. It is
+// documented in docs/ROUTE_INDEXABILITY_POLICY.md → "Event"; change both
+// together.
 //
 // Four different questions, never to be conflated:
 //
@@ -19,9 +21,9 @@
 //                         strong and safe enough that it *could* be indexed.
 //   4. Indexable          the page actually renders index,follow and is listed
 //                         in a sitemap. Eligible AND the rollout allows it
-//                         (eventPageIndexingDecision). Nothing is indexable yet:
-//                         the rollout flag is off and the pilot list is empty,
-//                         and the router still hard-codes noindex,follow.
+//                         (eventPageIndexingDecision): the flag is "pilot", the
+//                         request is on the canonical host, and the stable key
+//                         is one of the 30 frozen EVENT_INDEXING_PILOT_KEYS.
 //
 // Design rules:
 //
@@ -46,6 +48,7 @@
 
 import {
   EVENT_ROUTE_ACTION,
+  buildEventKeyIndex,
   eventKey,
   eventPageSchemaDecision,
   eventPath,
@@ -463,36 +466,95 @@ export function eventArtistCityRelation(events, event, options = {}) {
 }
 
 // ---------------------------------------------------------------------------
-// Rollout (designed for the indexing pilot; off)
+// Rollout: the frozen indexing pilot
 // ---------------------------------------------------------------------------
 
 // The environment variable that turns event-page indexing on, and the one
-// value that does. Any other value — including absent — is off. It is a
-// non-secret flag, so it belongs in wrangler.toml [vars] when the pilot starts;
-// it is not set anywhere today. Unsetting it is the rollback: the next render
-// is noindex,follow again and the sitemap drops the URLs.
+// value that does, compared exactly. Any other value — including absent,
+// "PILOT" or " pilot " — is off. It is a
+// non-secret flag, repo-managed in wrangler.toml [vars] like every other flag.
+// Removing it (or setting anything but "pilot") is the rollback: the next
+// render is noindex,follow again, the events sitemap empties and parent
+// MusicEvent nodes return to their #show-<id> urls.
 export const EVENT_PAGES_INDEXING_ENV = "EVENT_PAGES_INDEXING";
 export const EVENT_PAGES_INDEXING_PILOT = "pilot";
 
-// Stable event keys (eventKey, 16 hex digits) allowed to be indexed while the
-// flag is "pilot". Keys, not readable slugs: the readable part of an event URL
-// follows the record (a venue rename changes it), the key never does. A key
-// here is necessary, not sufficient — its event must still be eligible on
-// every request, so a pilot event that is cancelled, loses a destination or
-// passes drops out on its own. Empty: no event page is indexable.
-export const EVENT_INDEXING_PILOT_KEYS = Object.freeze(/** @type {string[]} */ ([]));
+// The indexing pilot cohort: 30 stable event keys (eventKey, 16 hex digits),
+// frozen on 2026-09-27 and recorded with their selection facts in
+// data/event-indexing-pilot.json. Keys, not readable slugs: the readable part
+// of an event URL follows the record (a venue rename changes it), the key
+// never does.
+//
+// This is an experiment cohort, not a queue. A key here is necessary, not
+// sufficient — its event must still be eligible on every request, so a pilot
+// event that is cancelled, postponed, loses a destination, becomes ambiguous
+// or passes drops back to noindex on its own. Nothing replaces it: never add,
+// swap or regenerate a key to keep the count at 30, because that changes the
+// cohort being measured. npm run test:event-indexability pins the list to the
+// record.
+export const EVENT_INDEXING_PILOT_KEYS = Object.freeze(/** @type {string[]} */ ([
+  "c436513406e7f2da", // Olivia Rodrigo · Palau Sant Jordi, Barcelona · 2027-05-01
+  "72af8cbd1cd8d3d8", // Gracie Abrams · 3Arena, Dublin · 2027-04-19
+  "d73ff903727f20f4", // Harry Styles · Accor Stadium, Sydney Olympic Park · 2026-12-13
+  "e6e1faddff7976d5", // Oasis · Celtic Park, Glasgow · 2027-05-21
+  "ea513c3d1839644c", // Teddy Swims · Co-op Live, Manchester · 2027-04-16
+  "5e3215d7a36ec741", // Metallica · Sphere, Las Vegas · 2027-01-30
+  "610c635a5559f3f9", // Blue October · 713 Music Hall, Houston · 2026-12-20
+  "ead9d829437edbb7", // John Summit · Oakland Arena, Oakland · 2026-12-05
+  "63a3d0ac045b3f21", // Yuridia · YouTube Theater, Inglewood · 2027-02-20
+  "a42166f660ea6209", // Andrea Bocelli · Madison Square Garden, New York · 2026-12-17
+  "e39ddcc1ba2ad1f5", // Stella Lefty · History Toronto, Toronto · 2027-01-13
+  "9876efbfe96058d8", // Charli xcx · OVO Hydro, Glasgow · 2027-02-15
+  "a70cd786f82a70d4", // Five Finger Death Punch · bp pulse LIVE, Birmingham · 2027-01-22
+  "2bc3fb2dfa45fc5d", // Doja Cat · Centre Bell, Montreal · 2026-11-27
+  "4c425ff88e7af37e", // Pentatonix · TD Coliseum, Hamilton · 2026-11-22
+  "1b05de0de9e664c0", // Hans Zimmer · Rogers Arena, Vancouver · 2027-04-08
+  "2d87c7c05e96d0d2", // Niall Horan · Little Caesars Arena, Detroit · 2027-03-19
+  "c4f64b18ec718de4", // Luke Combs · Ford Field, Detroit · 2027-04-17
+  "1d2c4b83096cde36", // Kenny Chesney · Raymond James Stadium, Tampa · 2027-04-24
+  "7b10d67b330286fb", // Trans-Siberian Orchestra · Legacy Arena at the BJCC, Birmingham · 2026-12-16
+  "3cf8970ff8acddc1", // Don Omar · Golden 1 Center, Sacramento · 2027-02-05
+  "579f35575a62d3bd", // Trivium · The Fillmore Charlotte, Charlotte · 2026-12-19
+  "672f3eb3e9201475", // TobyMac · Benchmark International Arena, Tampa · 2027-02-04
+  "58744f821a109f9f", // Sylvan Esso · Paramount Theatre, Seattle · 2027-02-19
+  "6e93ba2f732c3f15", // Beartooth · Hollywood Palladium, Hollywood · 2026-12-18
+  "470d8f4792c6b314", // Tyla · YouTube Theater, Inglewood · 2026-12-16
+  "1cb4e113d803bfe0", // Sombr · Prudential Center, Newark · 2026-11-21
+  "acfa386138dd4901", // Death Cab for Cutie · Hard Rock Live Orlando, Orlando · 2027-03-20
+  "6e6a78cb4fd634e3", // The Interrupters · House of Blues Dallas, Dallas · 2027-03-23
+  "d64a9bd109f76856" // Michelle Branch · House of Blues Houston, Houston · 2027-03-07
+]));
 
 export const EVENT_INDEXING_ROLLOUT_REASONS = Object.freeze({
   NOT_ELIGIBLE: "not_eligible",
   INDEXING_OFF: "indexing_off",
-  NOT_IN_PILOT: "not_in_pilot"
+  NOT_IN_PILOT: "not_in_pilot",
+  // The request is not on the canonical production host (a *.pages.dev
+  // preview or production alias): the pilot never activates there.
+  HOST_NOT_INDEXABLE: "host_not_indexable",
+  // A pilot key that names no single event (unknown, or a key collision).
+  UNKNOWN_KEY: "unknown_key"
 });
+
+/**
+ * Is the rollout flag set to exactly "pilot"? No trimming or case folding:
+ * "PILOT", " pilot " and every other near-miss are off, so a typo or a
+ * half-done rollback fails closed. The cheap first check: every caller that
+ * would otherwise load or evaluate anything asks this first.
+ *
+ * @param {Record<string, unknown> | null | undefined} env
+ * @returns {boolean}
+ */
+export function eventPagesIndexingEnabled(env) {
+  return env?.[EVENT_PAGES_INDEXING_ENV] === EVENT_PAGES_INDEXING_PILOT;
+}
+const pilotFlagOn = eventPagesIndexingEnabled;
 
 /**
  * Should this event page actually render index,follow and be listed in a
  * sitemap? Eligible by policy AND the flag is "pilot" AND its stable key is on
- * the pilot list. Nothing calls this for robots or sitemaps yet: the router
- * hard-codes noindex,follow until the pilot is deliberately started.
+ * the pilot list. Per decision; the router, sitemaps and llms.txt call it
+ * through deriveEventIndexingPilot, which adds the host rule.
  *
  * @param {EventIndexabilityDecision} decision
  * @param {Record<string, unknown> | null | undefined} env
@@ -502,10 +564,75 @@ export const EVENT_INDEXING_ROLLOUT_REASONS = Object.freeze({
 export function eventPageIndexingDecision(decision, env, options = {}) {
   const R = EVENT_INDEXING_ROLLOUT_REASONS;
   if (!decision?.eligible) return { indexable: false, reason: R.NOT_ELIGIBLE };
-  if (String(env?.[EVENT_PAGES_INDEXING_ENV] ?? "").trim().toLowerCase() !== EVENT_PAGES_INDEXING_PILOT) {
-    return { indexable: false, reason: R.INDEXING_OFF };
-  }
+  if (!pilotFlagOn(env)) return { indexable: false, reason: R.INDEXING_OFF };
   const keys = options.pilotKeys || EVENT_INDEXING_PILOT_KEYS;
   if (!decision.key || !keys.includes(decision.key)) return { indexable: false, reason: R.NOT_IN_PILOT };
   return { indexable: true, reason: "" };
+}
+
+/**
+ * @typedef {Object} EventIndexingPilotMember
+ * @property {string} key
+ * @property {string} id       "" for an unknown key.
+ * @property {string} path     Canonical event path, "" when none.
+ * @property {boolean} indexable
+ * @property {string} reason   EVENT_INDEXING_ROLLOUT_REASONS, "" when indexable.
+ * @property {EventIndexabilityDecision | null} decision
+ * @property {any} event
+ */
+
+/**
+ * @typedef {Object} EventIndexingPilot
+ * @property {boolean} active   The flag is "pilot" and the host may be indexed.
+ * @property {string} reason    Why it is inactive, "" when active.
+ * @property {EventIndexingPilotMember[]} members  One per pilot key, in list order (empty when inactive).
+ * @property {EventIndexingPilotMember[]} indexed  The members that render index,follow now.
+ * @property {Map<string, string>} pathById  Event id -> canonical path, indexed members only.
+ */
+
+/**
+ * The active indexing pilot: which of the frozen pilot events render
+ * index,follow right now. The one runtime answer — the router's robots meta,
+ * the parent boards' MusicEvent identity, the events sitemap and llms.txt all
+ * read it, so they cannot disagree about which event URLs are indexed.
+ *
+ * Fails closed at every step: the host must be the canonical production host
+ * (`hostIndexable` true, from isIndexableOrigin — never true on *.pages.dev
+ * previews), the flag must be exactly "pilot", each key must name exactly one
+ * event, and that event must pass eventIndexabilityDecision now. Only the
+ * pilot keys are evaluated, never the whole eligible population, so the
+ * indexed set can shrink but never grow past the cohort.
+ *
+ * @param {any[]} events   Every events.json record — the full file, never an artist partition.
+ * @param {any[]} artists  artists.json records.
+ * @param {Record<string, unknown> | null | undefined} env
+ * @param {{ hostIndexable?: boolean, lanesFor?: (event: any) => string[], now?: number, pilotKeys?: readonly string[] }} [options]
+ *   `lanesFor` returns the provider lanes whose button renders for an event
+ *   (the router's CTA gate); missing means none, which fails every threshold.
+ * @returns {EventIndexingPilot}
+ */
+export function deriveEventIndexingPilot(events, artists, env, options = {}) {
+  const R = EVENT_INDEXING_ROLLOUT_REASONS;
+  const inactive = (reason) => ({ active: false, reason, members: [], indexed: [], pathById: new Map() });
+  if (options.hostIndexable !== true) return inactive(R.HOST_NOT_INDEXABLE);
+  if (!pilotFlagOn(env)) return inactive(R.INDEXING_OFF);
+  const pilotKeys = options.pilotKeys || EVENT_INDEXING_PILOT_KEYS;
+  const now = Number.isFinite(options.now) ? Number(options.now) : Date.now();
+  const lanesFor = typeof options.lanesFor === "function" ? options.lanesFor : () => [];
+  const list = Array.isArray(events) ? events : [];
+  const byKey = buildEventKeyIndex(list).byKey;
+  /** @type {EventIndexingPilotMember[]} */
+  const members = [];
+  for (const key of new Set(pilotKeys)) {
+    const event = byKey.get(key);
+    if (!event) {
+      members.push({ key, id: "", path: "", indexable: false, reason: R.UNKNOWN_KEY, decision: null, event: null });
+      continue;
+    }
+    const decision = eventIndexabilityDecision(list, artists, event, { publishableLanes: lanesFor(event), now });
+    const rollout = eventPageIndexingDecision(decision, env, { pilotKeys });
+    members.push({ key, id: decision.id, path: decision.path, indexable: rollout.indexable, reason: rollout.reason, decision, event });
+  }
+  const indexed = members.filter((member) => member.indexable && member.path);
+  return { active: true, reason: "", members, indexed, pathById: new Map(indexed.map((member) => [member.id, member.path])) };
 }

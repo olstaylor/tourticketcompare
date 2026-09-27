@@ -285,11 +285,17 @@ Verdict (2026-08-25): **accepted as-is for now.** The behaviour is conservative 
 
 A fix would fingerprint each trust route's *rendered output* against a fixed synthetic catalog/events fixture, so data churn still cannot move a date but an output-neutral refactor no longer does either. Not scoped: it is a redesign of a protected generator, it changes the freshness semantics of every tracked route at once, and it needs a migration plan for the recorded hashes in `data/content-provenance.json` (every hash changes on cutover, which would advance all 28 dates unless the existing published dates are carried across deliberately).
 
+### Venue PostalAddress enrichment for event structured data (2026-09-27, agent-authored)
+
+Event data holds each venue's name, city and country, but not consistently its street address, region/state or postcode, so every `MusicEvent` `PostalAddress` (event pages and parent boards) carries `addressLocality` and `addressCountry` only. Google's event guidelines recommend a full address. The event-page indexing pilot deliberately does not wait for this, guess addresses or scrape them.
+
+A fix would need a verified source for venue addresses (e.g. Ticketmaster Discovery venue records already fetched for the event, or an owner-reviewed venue registry beside `data/provider-identities.json`), one venue identity to hang it on, and the schema validator extended to check each added field against it. Not scoped: it is a new data pipeline, not a rendering change.
+
 ## Explicitly parked
 
 Intentionally not work until separately scoped and owner-approved. Unparking removes the scope freeze, not the verification rules.
 
-- **Tour / individual event landing pages.** No separate verified-content and canonical/indexing strategy. (Fact correction 2026-09-26 by agent: individual event pages now exist as a noindex MVP — `/events/<slug>-<key>`, out of every sitemap; since 2026-09-27 linked from the artist, artist-city, city and venue boards. Their indexing is still undecided.) (City and venue aggregation pages are implemented — see "Recently completed".)
+- **Tour / individual event landing pages.** No separate verified-content and canonical/indexing strategy. (Fact correction 2026-09-26 by agent: individual event pages now exist as a noindex MVP — `/events/<slug>-<key>`, out of every sitemap; since 2026-09-27 linked from the artist, artist-city, city and venue boards. Their indexing is still undecided.) (Fact correction 2026-09-27 by agent: a frozen 30-page indexing pilot is implemented — see `docs/ROUTE_INDEXABILITY_POLICY.md` → Event and `data/event-indexing-pilot.json`; every other event page stays noindex and wider rollout is not scoped.) (City and venue aggregation pages are implemented — see "Recently completed".)
 - **Live inventory aggregation; "cheapest ticket" / "guaranteed availability" claims.** Approved provider lanes are timestamped listed-price snapshots, not live inventory or checkout-total guarantees.
 - **Provider expansion beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International.** Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.

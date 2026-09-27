@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 //
 // Tests for the event-page indexability policy (functions/_event-indexability.js):
-// which individual event pages are eligible for future indexing, why every
-// other page is not, the duplicate-ambiguity rule, the pilot rollout gate — and
-// that nothing is actually indexed yet. Eligibility must follow canonical data
-// (lifecycle, provider provenance, the route) and never cached prices or D1.
+// which individual event pages are eligible for indexing, why every other page
+// is not, the duplicate-ambiguity rule, the rollout gate, and the frozen
+// 30-key indexing pilot — that exactly its active members render index,follow,
+// enter the events sitemap and llms.txt and are identified by their event page
+// on the parent boards, and that nothing else changes. Eligibility must follow
+// canonical data (lifecycle, provider provenance, the route) and never cached
+// prices or D1.
 //
 // Fixture decisions first, then rendered pages through the real middleware
 // (robots, sitemaps, llms.txt, parent structured data), then invariants over
@@ -22,6 +25,7 @@ const checks = [];
 const assert = (label, pass) => checks.push({ label, pass: !!pass });
 const load = (relative) => import(pathToFileURL(path.join(ROOT, relative)));
 const readJson = (relative) => JSON.parse(fs.readFileSync(path.join(ROOT, relative), "utf8"));
+const { slugify } = await import(pathToFileURL(path.join(ROOT, "functions/_cities.js")));
 
 // The router reads the wall clock; pin it so fixture dates stay upcoming.
 const NOW = Date.parse("2026-08-09T12:00:00Z");
@@ -280,13 +284,13 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
   assert("   and across record order", EVENTS.every((event) => JSON.stringify(decide([...EVENTS].reverse(), event)) === JSON.stringify(decide(EVENTS, event))));
 }
 
-// Rollout gate (designed for the pilot; off in this PR).
+// Rollout gate and the frozen pilot list.
 {
   const eligible = decide(EVENTS, STRONG);
   const ineligible = decide(EVENTS, ONE_LANE);
   const on = { EVENT_PAGES_INDEXING: "pilot" };
   assert("rollout: nothing is indexable with the flag unset", eventPageIndexingDecision(eligible, {}, { pilotKeys: [eligible.key] }).reason === ROLLOUT.INDEXING_OFF);
-  assert("rollout: any value but \"pilot\" is off", ["true", "1", "all", ""].every((value) => !eventPageIndexingDecision(eligible, { EVENT_PAGES_INDEXING: value }, { pilotKeys: [eligible.key] }).indexable));
+  assert("rollout: any value but \"pilot\" is off", ["true", "1", "all", "", "pilot,all", "pilots", "on", "PILOT", "Pilot", " pilot ", "pilot\n", "pilot "].every((value) => !eventPageIndexingDecision(eligible, { EVENT_PAGES_INDEXING: value }, { pilotKeys: [eligible.key] }).indexable));
   assert("rollout: the flag alone indexes nothing without the key", eventPageIndexingDecision(eligible, on, { pilotKeys: [] }).reason === ROLLOUT.NOT_IN_PILOT);
   assert("rollout: a pilot key never overrides the policy", eventPageIndexingDecision(ineligible, on, { pilotKeys: [ineligible.key] }).reason === ROLLOUT.NOT_ELIGIBLE);
   assert("rollout: eligible AND pilot flag AND stable key listed -> indexable", eventPageIndexingDecision(eligible, on, { pilotKeys: [eligible.key] }).indexable);
@@ -296,19 +300,43 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
     "rollout: the key survives a venue rename (keys, not readable slugs)",
     renamedDecision.path !== eligible.path && eventPageIndexingDecision(renamedDecision, on, { pilotKeys: [eligible.key] }).indexable
   );
-  assert("rollout: the repo pilot list is empty in this PR", policy.EVENT_INDEXING_PILOT_KEYS.length === 0 && Object.isFrozen(policy.EVENT_INDEXING_PILOT_KEYS));
-  assert("rollout: production uses the repo list, so the flag alone indexes nothing", eventPageIndexingDecision(eligible, on).reason === ROLLOUT.NOT_IN_PILOT);
+  assert("rollout: production uses the repo list, so an eligible non-pilot event is not indexable", eventPageIndexingDecision(eligible, on).reason === ROLLOUT.NOT_IN_PILOT);
+
+  // deriveEventIndexingPilot: the one runtime answer, fail-closed at each step.
+  const derive = (envValue, options = {}) => policy.deriveEventIndexingPilot(EVENTS, artistsMeta, envValue, { hostIndexable: true, lanesFor: (event) => lanesOf(event), now: NOW, pilotKeys: [eligible.key, ineligible.key, "ffffffffffffffff"], ...options });
+  const active = derive(on);
+  assert("pilot: active on the canonical host with the flag, one member per key", active.active && active.members.length === 3);
+  assert("pilot: only the eligible pilot key is indexed", active.indexed.length === 1 && active.pathById.get(STRONG.id) === eligible.path);
+  assert("pilot: an ineligible pilot key is listed but not indexed", active.members.find((member) => member.key === ineligible.key)?.reason === ROLLOUT.NOT_ELIGIBLE);
+  assert("pilot: a key naming no event fails closed", active.members.find((member) => member.key === "ffffffffffffffff")?.reason === ROLLOUT.UNKNOWN_KEY);
+  assert("pilot: inactive off the canonical host (previews, *.pages.dev)", derive(on, { hostIndexable: false }).reason === ROLLOUT.HOST_NOT_INDEXABLE && derive(on, { hostIndexable: false }).indexed.length === 0);
+  assert("pilot: inactive when the host rule is not stated", policy.deriveEventIndexingPilot(EVENTS, artistsMeta, on, { lanesFor: (event) => lanesOf(event), now: NOW, pilotKeys: [eligible.key] }).indexed.length === 0);
+  assert("pilot: inactive with the flag absent or malformed (exact match only)", [{}, { EVENT_PAGES_INDEXING: "all" }, { EVENT_PAGES_INDEXING: "" }, { EVENT_PAGES_INDEXING: "PILOT" }, { EVENT_PAGES_INDEXING: " pilot " }, { EVENT_PAGES_INDEXING: true }, null].every((envValue) => derive(envValue).reason === ROLLOUT.INDEXING_OFF));
+  assert("pilot: no lane source fails every threshold", policy.deriveEventIndexingPilot(EVENTS, artistsMeta, on, { hostIndexable: true, now: NOW, pilotKeys: [eligible.key] }).indexed.length === 0);
+  assert("pilot: an empty events file indexes nothing", policy.deriveEventIndexingPilot([], artistsMeta, on, { hostIndexable: true, lanesFor: () => ALL_LANES, now: NOW }).indexed.length === 0);
+  assert("pilot: only pilot keys are evaluated, so the indexed set never exceeds the list", derive(on, { pilotKeys: [eligible.key] }).indexed.length === 1 && decide(EVENTS, MULTI_A).eligible);
+
+  // The frozen cohort: 30 unique stable keys, pinned to the experiment record.
+  const keys = policy.EVENT_INDEXING_PILOT_KEYS;
+  const record = readJson("data/event-indexing-pilot.json");
+  assert("pilot list: exactly 30 unique 16-hex stable keys, frozen", keys.length === 30 && new Set(keys).size === 30 && keys.every((key) => /^[0-9a-f]{16}$/.test(key)) && Object.isFrozen(keys));
+  assert("pilot list: identical, in order, to data/event-indexing-pilot.json", JSON.stringify(record.members.map((member) => member.key)) === JSON.stringify([...keys]));
+  assert("pilot record: every member's key is eventKey(event_id) and ends its canonical path", record.members.every((member) => eventPages.eventKey(member.event_id) === member.key && member.canonical_path.endsWith(`-${member.key}`)));
+  assert("pilot record: 30 artists, 11 multi-date and 19 single-date cities", new Set(record.members.map((member) => member.artist_slug)).size === 30 && record.members.filter((member) => member.artist_city === "multi_date").length === 11 && record.members.filter((member) => member.artist_city === "single_date").length === 19);
+  assert("pilot record: every member was selected with ≥2 destinations and ≥1 snapshot lane", record.members.every((member) => member.destinations >= 2 && member.snapshot_ready_lanes >= 1 && member.destination_lanes.length === member.destinations));
+  assert("pilot record: selected on 2026-09-27 from the stated main", record.selected_on === "2026-09-27" && record.selected_from.main_sha === "596bacef4c6eb3a48519d484e5372500b3359db2");
+
   const wrangler = fs.readFileSync(path.join(ROOT, "wrangler.toml"), "utf8");
-  assert("rollout: wrangler.toml does not set EVENT_PAGES_INDEXING", !/^\s*EVENT_PAGES_INDEXING\s*=/m.test(wrangler));
+  assert("rollout: wrangler.toml [vars] sets EVENT_PAGES_INDEXING = \"pilot\" (repo-managed, not dashboard-only)", /^EVENT_PAGES_INDEXING = "pilot"$/m.test(wrangler) && (await load("scripts/lib/event-indexability-audit.mjs")).wranglerVars(wrangler).EVENT_PAGES_INDEXING === "pilot");
   const importers = fs
     .readdirSync(path.join(ROOT, "functions"), { recursive: true })
     .filter((file) => String(file).endsWith(".js"))
     .filter((file) => /_event-indexability\.js["']/.test(fs.readFileSync(path.join(ROOT, "functions", String(file)), "utf8")))
     .map(String);
-  assert(`rollout: no runtime code reads the policy yet (got ${importers.join(", ") || "none"})`, importers.length === 0);
+  assert(`rollout: only the router reads the policy at runtime; the sitemaps and llms.txt go through its eventIndexingPilotFor (got ${importers.join(", ") || "none"})`, importers.join(",") === "[[path]].js");
   const router = fs.readFileSync(path.join(ROOT, "functions/[[path]].js"), "utf8");
   const eventRoute = router.slice(router.indexOf("function eventPageRoute("), router.indexOf("function eventStatusFact("));
-  assert("rollout: the router's event route still hard-codes indexable: false", /\n\s*indexable: false,\n/.test(eventRoute));
+  assert("rollout: the router's event route defaults to indexable: false (only the active pilot lifts it)", /\n\s*indexable: false,\n/.test(eventRoute));
 }
 
 // Offline CTA mirror: the pre-on-sale branch the renderer applies.
@@ -319,7 +347,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
   assert("mirror: an unverified fallback waits for the on-sale", !coverage.providerEventPublishable(unverified, "vivid-seats", NOW));
 }
 
-// ─── rendered pages: nothing is indexed (23–27) ─────────────────────────────
+// ─── rendered pages: flag off, not in the pilot (23–27) ─────────────────────
 
 const ASSET_FILES = ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json", "data/provider-configs.json"];
 const assets = new Map();
@@ -357,11 +385,36 @@ async function render(pathname, envValue) {
 const robotsOf = (html) => (html.match(/<meta name="robots" content="([^"]*)"/) || [])[1] || "";
 const jsonLdOf = (html) => [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => match[1]).join("\n");
 
+async function renderAt(origin, pathname, envValue) {
+  const response = await middleware.onRequest({ request: new Request(`${origin}${pathname}`), env: envValue, next: () => new Response("static", { status: 200 }) });
+  return { status: response.status, location: response.headers.get("location") || "", html: await response.text() };
+}
+const canonicalOf = (html) => (html.match(/<link rel="canonical" href="([^"]*)"/) || [])[1] || "";
+const graphOf = (html) => [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap((match) => {
+  const data = JSON.parse(match[1]);
+  return Array.isArray(data?.["@graph"]) ? data["@graph"] : [data];
+});
+const mainOf = (html) => (html.match(/<main id="mainContent">([\s\S]*?)<\/main>/) || [])[1] || "";
+async function discovery(envValue, origin = ORIGIN) {
+  const docs = {};
+  const sitemap = await load("functions/sitemap.xml.js");
+  docs["sitemap.xml"] = await (await sitemap.onRequestGet({ request: new Request(`${origin}/sitemap.xml`), env: envValue })).text();
+  docs["sitemap-index.xml"] = await (await (await load("functions/sitemap-index.xml.js")).onRequestGet({ request: new Request(`${origin}/sitemap-index.xml`), env: envValue })).text();
+  for (const segment of sitemap.SITEMAP_SEGMENTS) {
+    const { onRequestGet } = await load(`functions/sitemaps/${segment}.xml.js`);
+    docs[`sitemaps/${segment}.xml`] = await (await onRequestGet({ request: new Request(`${origin}/sitemaps/${segment}.xml`), env: envValue })).text();
+  }
+  docs["llms.txt"] = await (await (await load("functions/llms.txt.js")).onRequestGet({ request: new Request(`${origin}/llms.txt`), env: envValue })).text();
+  return docs;
+}
+const eventUrls = (body) => [...String(body).matchAll(/https:\/\/tourticketcompare\.com(\/events\/[a-z0-9-]+)/g)].map((match) => match[1]);
+
 {
-  // Even with the pilot flag set and an eligible page, nothing changes: the
-  // router does not read the policy in this PR. A D1 that throws changes nothing either.
+  // None of the fixture's events holds a pilot key, so with the flag off,
+  // malformed, or on, every served page stays noindex,follow and nothing is
+  // discoverable. A D1 that throws changes nothing either.
   const brokenDb = { prepare() { throw new Error("D1 unavailable"); } };
-  const envs = [["no flag", env(EVENTS)], ["flag set to pilot", env(EVENTS, { EVENT_PAGES_INDEXING: "pilot" })], ["D1 throwing", env(EVENTS, { DEMAND_DB: brokenDb })]];
+  const envs = [["no flag", env(EVENTS)], ["flag malformed", env(EVENTS, { EVENT_PAGES_INDEXING: "all" })], ["flag pilot, no pilot key", env(EVENTS, { EVENT_PAGES_INDEXING: "pilot" })], ["D1 throwing", env(EVENTS, { DEMAND_DB: brokenDb, EVENT_PAGES_INDEXING: "pilot" })]];
   const served = EVENTS.filter((event) => decide(EVENTS, event).inputs.routeAction === "render");
   assert("fixture serves eligible and ineligible pages", served.some((event) => decide(EVENTS, event).eligible) && served.some((event) => !decide(EVENTS, event).eligible));
   for (const [label, envValue] of envs) {
@@ -371,16 +424,9 @@ const jsonLdOf = (html) => [...html.matchAll(/<script type="application\/ld\+jso
       robots.push(page.status === 200 ? robotsOf(page.html) : `status ${page.status}`);
     }
     assert(`23. every served event page renders noindex,follow (${label})`, robots.every((value) => value === "noindex,follow"));
-    const { onRequestGet: sitemapIndex } = await load("functions/sitemap.xml.js");
-    const bodies = [await (await sitemapIndex({ request: new Request(`${ORIGIN}/sitemap.xml`), env: envValue })).text()];
-    for (const segment of ["pages", "artists", "artist-cities", "cities", "venues", "blog"]) {
-      const { onRequestGet } = await load(`functions/sitemaps/${segment}.xml.js`);
-      bodies.push(await (await onRequestGet({ request: new Request(`${ORIGIN}/sitemaps/${segment}.xml`), env: envValue })).text());
-    }
-    assert(`24. no sitemap document lists an event URL (${label})`, bodies.every((body) => body.length > 0 && !body.includes("/events/")));
-    const { onRequestGet: llms } = await load("functions/llms.txt.js");
-    const llmsText = await (await llms({ request: new Request(`${ORIGIN}/llms.txt`), env: envValue })).text();
-    assert(`25. llms.txt lists no event URL (${label})`, llmsText.length > 0 && !llmsText.includes("/events/"));
+    const docs = await discovery(envValue);
+    assert(`24. no sitemap document lists an event URL (${label})`, Object.entries(docs).filter(([name]) => name !== "llms.txt").every(([, body]) => body.length > 0 && !body.includes("/events/")) && !docs["sitemap-index.xml"].includes("sitemaps/events.xml"));
+    assert(`25. llms.txt lists no event URL (${label})`, docs["llms.txt"].length > 0 && !docs["llms.txt"].includes("/events/"));
   }
   // 26–27. Parent pages: event links are the router's served paths only; their
   // structured data keeps its #show-<id> identities and references no event page.
@@ -389,7 +435,115 @@ const jsonLdOf = (html) => [...html.matchAll(/<script type="application\/ld\+jso
   const expected = EVENTS.filter((event) => eventPages.eventPageLinkPath(EVENTS, artistsMeta, event) !== "").map((event) => eventPages.eventPath(event)).sort();
   assert("26. the parent board links exactly the served event pages", parent.status === 200 && JSON.stringify(links) === JSON.stringify(expected));
   const jsonLd = jsonLdOf(parent.html);
-  assert("27. parent structured data is unchanged: #show-<id> urls, no event-page identity", jsonLd.includes(`/artists/${ARTIST.slug}#show-`) && !jsonLd.includes("/events/") && !jsonLd.includes("#event\""));
+  assert("27. non-pilot parent structured data is unchanged: #show-<id> urls, no event-page identity", jsonLd.includes(`/artists/${ARTIST.slug}#show-`) && !jsonLd.includes("/events/") && !jsonLd.includes("#event\""));
+}
+
+// ─── rendered pages: the pilot (P1–P33) ─────────────────────────────────────
+//
+// Fixture rows built on real pilot event ids: the stable key is a hash of the
+// id alone, so each row holds a key from EVENT_INDEXING_PILOT_KEYS while every
+// other field is fixture data. Rendered through the real middleware.
+{
+  const pilotIds = readJson("data/event-indexing-pilot.json").members.map((member) => member.event_id);
+  const PILOT = fixtureEvent(pilotIds[0], "2026-09-27T01:00:00Z", { city: "Pilotville", venue: "Pilot Arena" });
+  const PILOT_MULTI = fixtureEvent(pilotIds[1], "2026-09-14T01:00:00Z", { city: "Shelbyville", venue: "Shelby Hall" });
+  const PILOT_CANCELLED = fixtureEvent(pilotIds[2], "2026-09-28T01:00:00Z", { city: "Cancelburg", venue: "Cancel Hall", ticketmaster_status_code: "cancelled" });
+  const PILOT_POSTPONED = fixtureEvent(pilotIds[3], "2026-09-29T01:00:00Z", { city: "Postponia", venue: "Postpone Hall", ticketmaster_status_code: "postponed" });
+  const PILOT_THIN = fixtureEvent(pilotIds[4], "2026-09-30T01:00:00Z", { city: "Thinton", venue: "Thin Hall" }, { lanes: [] });
+  const PILOT_UPSELL = fixtureEvent(pilotIds[5], "2026-10-01T01:00:00Z", { city: "Upsellia", venue: "Upsell Hall", event_name: `${ARTIST.name} | Premium Seats` });
+  const PILOT_DUP = fixtureEvent(pilotIds[6], "2026-10-02T01:00:00Z", { city: "Twinsburg", venue: "Twin Hall" });
+  const TWIN = fixtureEvent("fixture-twin-listing", "2026-10-02T01:00:00Z", { city: "Twinsburg", venue: "Twin Hall" });
+  const pilotRows = [PILOT, PILOT_MULTI, PILOT_CANCELLED, PILOT_POSTPONED, PILOT_THIN, PILOT_UPSELL];
+  const ALL = [...EVENTS, ...pilotRows];
+  const keyOf = (event) => eventPages.eventKey(event.id);
+  assert("P0. the fixture's pilot rows hold real pilot keys", [...pilotRows, PILOT_DUP].every((event) => policy.EVENT_INDEXING_PILOT_KEYS.includes(keyOf(event))) && !policy.EVENT_INDEXING_PILOT_KEYS.includes(keyOf(STRONG)));
+  const on = env(ALL, { EVENT_PAGES_INDEXING: "pilot" });
+  const off = env(ALL);
+  const P = eventPages.eventPath(PILOT);
+
+  const pilotPage = await render(P, on);
+  assert("P1. eligible + pilot flag + allowlisted key -> index,follow", pilotPage.status === 200 && robotsOf(pilotPage.html).startsWith("index,follow") && decide(ALL, PILOT).eligible);
+  assert("P2. eligible + pilot flag + not allowlisted -> noindex,follow", robotsOf((await render(eventPages.eventPath(STRONG), on)).html) === "noindex,follow" && decide(ALL, STRONG).eligible);
+  assert("P3. eligible pilot key + flag absent -> noindex,follow", robotsOf((await render(P, off)).html) === "noindex,follow");
+  for (const value of ["all", "true", "", "index", "PILOT", " pilot "]) {
+    assert(`P4. eligible pilot key + flag "${value}" -> noindex,follow`, robotsOf((await render(P, env(ALL, { EVENT_PAGES_INDEXING: value }))).html) === "noindex,follow");
+  }
+  assert("P5. an allowlisted key whose event is ineligible -> noindex,follow", robotsOf((await render(eventPages.eventPath(PILOT_THIN), on)).html) === "noindex,follow" && !decide(ALL, PILOT_THIN).eligible);
+  const cancelledPage = await render(eventPages.eventPath(PILOT_CANCELLED), on);
+  const postponedPage = await render(eventPages.eventPath(PILOT_POSTPONED), on);
+  assert("P6. a cancelled pilot event keeps its page but renders noindex,follow", cancelledPage.status === 200 && robotsOf(cancelledPage.html) === "noindex,follow");
+  assert("P7. a postponed pilot event keeps its page but renders noindex,follow", postponedPage.status === 200 && robotsOf(postponedPage.html) === "noindex,follow");
+  const withDup = [...ALL, PILOT_DUP, TWIN];
+  assert("P8a. the duplicate fixture is eligible before its twin lands", decide([...ALL, PILOT_DUP], PILOT_DUP).eligible && robotsOf((await render(eventPages.eventPath(PILOT_DUP), env([...ALL, PILOT_DUP], { EVENT_PAGES_INDEXING: "pilot" }))).html).startsWith("index"));
+  const dupPage = await render(eventPages.eventPath(PILOT_DUP), env(withDup, { EVENT_PAGES_INDEXING: "pilot" }));
+  assert("P8. duplicate ambiguity introduced -> the pilot event renders noindex,follow", robotsOf(dupPage.html) === "noindex,follow" && decide(withDup, PILOT_DUP).reasons.includes(R.DUPLICATE_AMBIGUITY));
+  const lostCoverage = ALL.map((event) => (event.id === PILOT.id ? { ...PILOT, provider_links: { ticketmaster: PILOT.provider_links.ticketmaster }, seatgeek_url: "", vividseats_url: "", ticketnetwork_url: "", stubhub_international_url: "" } : event));
+  const lostPage = await render(P, env(lostCoverage, { EVENT_PAGES_INDEXING: "pilot" }));
+  assert("P9. provider coverage falling below the threshold -> noindex,follow", lostPage.status === 200 && robotsOf(lostPage.html) === "noindex,follow");
+  assert("P10. a pilot key on a non-performance listing follows normal route rules (404)", (await render(eventPages.eventPath(PILOT_UPSELL), on)).status === 404);
+  assert("P11. the active pilot page is self-canonical", canonicalOf(pilotPage.html) === `${ORIGIN}${P}`);
+  const stale = `/events/${ARTIST.slug}-old-arena-pilotville-2026-09-26-${keyOf(PILOT)}`;
+  const staleResponse = await renderAt(ORIGIN, stale, on);
+  assert("P12. a stale readable slug still 301s to the canonical event URL", staleResponse.status === 301 && new URL(staleResponse.location).pathname === P);
+
+  const docs = await discovery(on);
+  const eventsXml = eventUrls(docs["sitemaps/events.xml"]);
+  assert("P13. the active pilot event is in the events sitemap and /sitemap.xml", eventsXml.includes(P) && eventUrls(docs["sitemap.xml"]).includes(P));
+  assert("P14. an eligible non-pilot event is in no sitemap or llms.txt", !Object.values(docs).some((body) => body.includes(eventPages.eventPath(STRONG))));
+  const ineligiblePilotPaths = [PILOT_CANCELLED, PILOT_POSTPONED, PILOT_THIN, PILOT_UPSELL].map((event) => eventPages.eventPath(event));
+  assert("P15. ineligible pilot events (cancelled, postponed, thin, upsell) are in no sitemap or llms.txt", ineligiblePilotPaths.every((eventPath) => !Object.values(docs).some((body) => body.includes(eventPath))));
+  assert("P16. no sitemap lists an event URL twice", eventsXml.length === new Set(eventsXml).size && eventUrls(docs["sitemap.xml"]).length === new Set(eventUrls(docs["sitemap.xml"])).size);
+  const activePaths = [P, eventPages.eventPath(PILOT_MULTI)].sort();
+  assert("P16b. the events sitemap is exactly the active pilot", JSON.stringify([...eventsXml].sort()) === JSON.stringify(activePaths));
+  assert("P16c. no other sitemap segment lists an event URL; the index lists the events segment", Object.entries(docs).filter(([name]) => name.startsWith("sitemaps/") && name !== "sitemaps/events.xml").every(([, body]) => !body.includes("/events/")) && docs["sitemap-index.xml"].includes(`${ORIGIN}/sitemaps/events.xml`));
+  assert("P29. the sitemap's event count equals the active pilot count", eventsXml.length === activePaths.length && eventUrls(docs["sitemap.xml"]).length === activePaths.length);
+  assert("P30. llms.txt lists exactly the active pilot, each once, under its own heading", JSON.stringify(eventUrls(docs["llms.txt"]).sort()) === JSON.stringify(activePaths) && docs["llms.txt"].includes("## Individual event pages"));
+  const offDocs = await discovery(off);
+  assert("P30b. with the flag off the events segment is empty and unlisted, and llms.txt has no event section", !offDocs["sitemaps/events.xml"].includes("<url>") && !offDocs["sitemap-index.xml"].includes("sitemaps/events.xml") && !offDocs["llms.txt"].includes("## Individual event pages"));
+
+  // Preview / *.pages.dev: the flag arrives from wrangler.toml, but the pilot
+  // never activates off the canonical host.
+  const PREVIEW = "https://0123abcd.tourticketcompare.pages.dev";
+  const previewPage = await renderAt(PREVIEW, P, on);
+  const previewDocs = await discovery(on, PREVIEW);
+  const previewParent = await renderAt(PREVIEW, `/artists/${ARTIST.slug}`, on);
+  assert("P31. on a preview host the pilot page renders noindex,follow", previewPage.status === 200 && robotsOf(previewPage.html) === "noindex,follow");
+  assert("P32. on a preview host no sitemap or llms.txt lists an event URL", Object.values(previewDocs).every((body) => !body.includes("/events/")));
+  assert("P33. on a preview host parent structured data keeps every #show-<id> identity", previewParent.status === 200 && !jsonLdOf(previewParent.html).includes("/events/"));
+
+  // Parent structured data (P17–P23).
+  const canonical = `${ORIGIN}${P}`;
+  const eventNode = graphOf(pilotPage.html).filter((node) => node["@type"] === "MusicEvent");
+  assert("P23. the event page still emits exactly one MusicEvent and no Offers", eventNode.length === 1 && eventNode[0]["@id"] === `${canonical}#event` && eventNode[0].url === canonical && !("offers" in eventNode[0]) && !jsonLdOf(pilotPage.html).includes('"Offer"'));
+  const artistOn = await render(`/artists/${ARTIST.slug}`, on);
+  const artistOff = await render(`/artists/${ARTIST.slug}`, off);
+  const nodesOn = graphOf(artistOn.html).filter((node) => node["@type"] === "MusicEvent");
+  const nodesOff = graphOf(artistOff.html).filter((node) => node["@type"] === "MusicEvent");
+  const pilotNode = nodesOn.find((node) => node.url === canonical);
+  const pilotNodeOff = nodesOff.find((node) => node.url === `${ORIGIN}/artists/${ARTIST.slug}#show-${PILOT.id}`);
+  assert("P17. the artist page's MusicEvent for the pilot event uses its canonical event URL", Boolean(pilotNode) && !jsonLdOf(artistOn.html).includes(`#show-${PILOT.id}"`));
+  assert("P18. its @id is the event page's @id (page + #event)", pilotNode?.["@id"] === eventNode[0]["@id"]);
+  const strip = (node) => JSON.stringify({ ...node, url: undefined, "@id": undefined });
+  assert("P22. the pilot node keeps every other field, offers included (identity only)", Boolean(pilotNodeOff) && strip(pilotNode) === strip(pilotNodeOff));
+  const multiCanonical = `${ORIGIN}${eventPages.eventPath(PILOT_MULTI)}`;
+  const isPilotNode = (node) => [canonical, multiCanonical, pilotNodeOff?.url, `${ORIGIN}/artists/${ARTIST.slug}#show-${PILOT_MULTI.id}`].includes(node.url);
+  const others = (nodes) => nodes.filter((node) => !isPilotNode(node)).map((node) => JSON.stringify(node));
+  assert("P20. every non-pilot MusicEvent on the artist page is byte-identical with the pilot on and off", others(nodesOn).length > 0 && JSON.stringify(others(nodesOn)) === JSON.stringify(others(nodesOff)) && nodesOn.filter((node) => node["@id"]).length === 2 && nodesOff.every((node) => !node["@id"]));
+  assert("P21. the parent's visible page (cards, links, CTAs) is identical with the pilot on and off", mainOf(artistOn.html).length > 0 && mainOf(artistOn.html) === mainOf(artistOff.html));
+  // Across parent surfaces: the multi-date pilot event on the artist page and
+  // its indexable artist-city page (ListItem included) carries one identity.
+  const cityPage = await render(`/artists/${ARTIST.slug}/tickets/shelbyville-united-states`, on);
+  const cityGraph = graphOf(cityPage.html);
+  const cityNode = cityGraph.find((node) => node["@type"] === "MusicEvent" && node.url === multiCanonical);
+  const listItems = cityGraph.flatMap((node) => node?.mainEntity?.itemListElement || node?.itemListElement || []);
+  const multiArtistNode = nodesOn.find((node) => node.url === multiCanonical);
+  assert("P19. one identity across parent surfaces: artist page and artist-city page (MusicEvent and ListItem)", cityPage.status === 200 && robotsOf(cityPage.html).startsWith("index") && cityNode?.["@id"] === `${multiCanonical}#event` && multiArtistNode?.["@id"] === cityNode?.["@id"] && listItems.some((item) => item.url === multiCanonical) && !jsonLdOf(cityPage.html).includes(`#show-${PILOT_MULTI.id}"`));
+  const multiPage = await render(eventPages.eventPath(PILOT_MULTI), on);
+  assert("P19b. and it is the @id the multi-date event's own page carries", graphOf(multiPage.html).find((node) => node["@type"] === "MusicEvent")?.["@id"] === cityNode?.["@id"]);
+  const parentJsonLd = jsonLdOf(artistOn.html);
+  assert("P6b. a held or thin pilot event's parent node never takes the event-page identity", [PILOT_CANCELLED, PILOT_POSTPONED, PILOT_THIN].every((event) => !parentJsonLd.includes(eventPages.eventPath(event))));
+  const lostParent = await render(`/artists/${ARTIST.slug}`, env(lostCoverage, { EVENT_PAGES_INDEXING: "pilot" }));
+  assert("P9b. a pilot event that loses coverage returns to its #show-<id> parent identity and leaves discovery", !jsonLdOf(lostParent.html).includes(P) && !Object.values(await discovery(env(lostCoverage, { EVENT_PAGES_INDEXING: "pilot" }))).some((body) => body.includes(P)));
 }
 
 // ─── real data invariants ───────────────────────────────────────────────────
@@ -422,7 +576,12 @@ Date.now = realNow;
       group.ids.filter((id) => !group.evidence.nonPerformanceIds.includes(id)).every((id) => byId.get(id)?.reasons.includes(R.DUPLICATE_AMBIGUITY))
     )
   );
-  assert("real data: no eligible event holds a pilot key yet", eligible.every((decision) => eventPageIndexingDecision(decision, { EVENT_PAGES_INDEXING: "pilot" }).reason === ROLLOUT.NOT_IN_PILOT));
+  const pilotKeys = new Set(policy.EVENT_INDEXING_PILOT_KEYS);
+  assert(
+    "real data: with the flag on, an eligible event is indexable exactly when its key is a pilot key",
+    eligible.every((decision) => eventPageIndexingDecision(decision, { EVENT_PAGES_INDEXING: "pilot" }).indexable === pilotKeys.has(decision.key))
+  );
+  assert("real data: every pilot key names exactly one event", policy.EVENT_INDEXING_PILOT_KEYS.every((key) => eventPages.buildEventKeyIndex(events).byKey.has(key)));
 }
 
 // ─── pre-pilot data integrity (2026-09-27 cleanup) ──────────────────────────
@@ -532,19 +691,146 @@ function resolveNothing(events, key) {
   const clean = [{ name: "sitemap.xml", body: "<urlset></urlset>" }];
   const run = (render, documents = clean, pilotKeys) =>
     auditEventIndexability(site, { root: ROOT, now, render: async (pathname) => render(pathname), documents: async () => documents, pilotKeys });
-  const baseline = await run(good);
+  // The pre-pilot cases run with an empty pilot list: every page noindex.
+  const noPilot = [];
+  const baseline = await run(good, clean, noPilot);
   assert(`audit: a well-formed noindex site has no problems (${baseline.problems.length})`, baseline.problems.length === 0 && baseline.summary.rendered_noindex === baseline.summary.served);
-  const indexed = await run((pathname) => ({ ...good(pathname), html: good(pathname).html.replace("noindex,follow", "index,follow") }));
-  assert("audit: robots switching to index before the pilot is a problem", indexed.problems.some((problem) => problem.includes('robots "index,follow"')));
+  const indexed = await run((pathname) => ({ ...good(pathname), html: good(pathname).html.replace("noindex,follow", "index,follow") }), clean, noPilot);
+  assert("audit: robots switching to index outside the pilot is a problem", indexed.problems.some((problem) => problem.includes('robots "index,follow"')));
   const anyEvent = [...BUTTONS.keys()].find(Boolean);
-  const leaked = await run(good, [{ name: "sitemaps/artists.xml", body: `<loc>${ORIGIN}${anyEvent}</loc>` }, { name: "llms.txt", body: `- ${ORIGIN}${anyEvent}` }]);
-  assert("audit: an event URL in a sitemap or llms.txt before the pilot is a problem", leaked.problems.filter((problem) => problem.includes("the rollout does not index")).length === 2);
-  const malformed = await run((pathname) => ({ ...good(pathname), html: good(pathname).html.replace(/<script[\s\S]*?<\/script>/, "") }));
+  const leaked = await run(good, [{ name: "sitemaps/artists.xml", body: `<loc>${ORIGIN}${anyEvent}</loc>` }, { name: "llms.txt", body: `- ${ORIGIN}${anyEvent}` }], noPilot);
+  assert("audit: an event URL in a sitemap or llms.txt outside the pilot is a problem", leaked.problems.filter((problem) => problem.includes("the rollout does not index")).length === 2);
+  const malformed = await run((pathname) => ({ ...good(pathname), html: good(pathname).html.replace(/<script[\s\S]*?<\/script>/, "") }), clean, noPilot);
   assert("audit: an eligible page without its MusicEvent is a problem", malformed.problems.some((problem) => problem.includes("0 MusicEvent node(s)")));
-  const drift = await run((pathname) => ({ ...good(pathname), html: good(pathname).html.replace(/<a class="provider-cta" data-cta-provider="ticketmaster">/, "") }));
+  const drift = await run((pathname) => ({ ...good(pathname), html: good(pathname).html.replace(/<a class="provider-cta" data-cta-provider="ticketmaster">/, "") }), clean, noPilot);
   assert("audit: rendered buttons drifting from the counted lanes is a problem", drift.problems.some((problem) => problem.includes("the CTA mirror has drifted")));
   const typo = await run(good, clean, ["0000000000000000"]);
   assert("audit: a pilot key that resolves to no event is a problem", typo.problems.some((problem) => problem.includes("pilot key 0000000000000000")));
+
+  // With one active pilot key: a well-formed pilot site, then each mutation
+  // the audit exists to catch.
+  const policyDecisions = policy.deriveEventIndexability(events, site.data.artistsMeta, { lanesFor: (event) => coverage.publishableLaneSlugs(event, isConfigured, now), now });
+  const pilotDecision = policyDecisions.find((decision) => decision.eligible && policy.EVENT_INDEXING_PILOT_KEYS.includes(decision.key));
+  const otherEligible = policyDecisions.find((decision) => decision.eligible && !policy.EVENT_INDEXING_PILOT_KEYS.includes(decision.key));
+  const ineligibleServed = policyDecisions.find((decision) => !decision.eligible && decision.inputs.routeAction === "render");
+  const pilotEvent = events.find((event) => String(event.id).trim() === pilotDecision.id);
+  const artistPath = `/artists/${pilotEvent.artist_slug}`;
+  const pilotUrl = `${ORIGIN}${pilotDecision.path}`;
+  const parentGraph = (nodes) => `<script type="application/ld+json">${JSON.stringify({ "@graph": nodes })}</script>`;
+  const alignedNode = { "@type": "MusicEvent", "@id": `${pilotUrl}#event`, url: pilotUrl };
+  const pilotSite = (overrides = {}) => (pathname) => {
+    if (overrides[pathname]) return overrides[pathname];
+    if (pathname === pilotDecision.path) {
+      const page = good(pathname);
+      return { ...page, html: page.html.replace("noindex,follow", "index,follow,max-image-preview:large").replace('<main id="mainContent">', `<main id="mainContent"><a href="${artistPath}">artist</a>`) };
+    }
+    if (pathname === artistPath) return { status: 200, html: parentGraph([alignedNode, { "@type": "MusicEvent", url: `${ORIGIN}${artistPath}#show-other` }]) };
+    return good(pathname);
+  };
+  const listed = (paths) => [
+    { name: "sitemaps/events.xml", body: paths.map((listedPath) => `<loc>${ORIGIN}${listedPath}</loc>`).join("") },
+    { name: "sitemap.xml", body: paths.map((listedPath) => `<loc>${ORIGIN}${listedPath}</loc>`).join("") },
+    { name: "llms.txt", body: paths.map((listedPath) => `- (${ORIGIN}${listedPath})`).join("\n") }
+  ];
+  const onePilot = [pilotDecision.key];
+  const okPilot = await run(pilotSite(), listed([pilotDecision.path]), onePilot);
+  assert(`audit: a well-formed pilot site has no problems (${okPilot.problems.join(" | ") || "none"})`, okPilot.problems.length === 0 && okPilot.summary.rendered_indexable === 1 && okPilot.summary.pilot_indexed === 1 && okPilot.summary.parent_nodes_aligned === 1);
+  const allEligible = await run((pathname) => (policyDecisions.some((decision) => decision.eligible && decision.path === pathname) ? pilotSite({})(pilotDecision.path) : pilotSite()(pathname)), listed([pilotDecision.path]), onePilot);
+  assert("audit mutation: indexing every eligible page instead of the pilot is caught", allEligible.problems.some((problem) => problem.includes("is not a pilot key")) && allEligible.problems.some((problem) => problem.includes("more than the 1 pilot keys")));
+  const oneNonPilot = await run(pilotSite({ [otherEligible.path]: { ...good(otherEligible.path), html: good(otherEligible.path).html.replace("noindex,follow", "index,follow") } }), listed([pilotDecision.path]), onePilot);
+  assert("audit mutation: one non-pilot page switching to index,follow is caught", oneNonPilot.problems.some((problem) => problem.includes(otherEligible.path) && problem.includes("not a pilot key")));
+  const heldIndexed = await run(pilotSite({ [ineligibleServed.path]: { ...good(ineligibleServed.path), html: good(ineligibleServed.path).html.replace("noindex,follow", "index,follow") } }), listed([pilotDecision.path]), [...onePilot, ineligibleServed.key]);
+  assert("audit mutation: an allowlisted page left indexable while ineligible is caught", heldIndexed.problems.some((problem) => problem.includes(ineligibleServed.path) && problem.includes("is not eligible")));
+  const leakAll = await run(pilotSite(), listed(policyDecisions.filter((decision) => decision.eligible).map((decision) => decision.path)), onePilot);
+  assert("audit mutation: every eligible event leaking into the sitemap is caught", leakAll.problems.some((problem) => problem.startsWith("sitemaps/events.xml lists") && problem.includes("the rollout does not index")));
+  const missing = await run(pilotSite(), listed([]), onePilot);
+  assert("audit mutation: an active pilot event missing from the sitemap and llms.txt is caught", missing.problems.filter((problem) => problem.includes("omits 1 active pilot")).length === 3);
+  const doubled = await run(pilotSite(), listed([pilotDecision.path, pilotDecision.path]), onePilot);
+  assert("audit mutation: a pilot URL listed twice is caught", doubled.problems.some((problem) => problem.includes("more than once")));
+  const oldIdentity = await run(pilotSite({ [artistPath]: { status: 200, html: parentGraph([{ "@type": "MusicEvent", url: `${ORIGIN}${artistPath}#show-${slugify(pilotDecision.id)}` }]) } }), listed([pilotDecision.path]), onePilot);
+  assert("audit mutation: a parent keeping the #show-<id> identity for a pilot event is caught", oldIdentity.problems.some((problem) => problem.includes("anchor in structured data")) && oldIdentity.problems.some((problem) => problem.includes("expected exactly 1")));
+  const otherId = await run(pilotSite({ [artistPath]: { status: 200, html: parentGraph([{ ...alignedNode, "@id": `${pilotUrl}#performance` }]) } }), listed([pilotDecision.path]), onePilot);
+  assert("audit mutation: a parent @id different from the event page's is caught", otherId.problems.some((problem) => problem.includes("url and @id that disagree")));
+  const strayId = await run(pilotSite({ [artistPath]: { status: 200, html: parentGraph([alignedNode, { "@type": "MusicEvent", "@id": `${ORIGIN}${otherEligible.path}#event`, url: `${ORIGIN}${otherEligible.path}` }]) } }), listed([pilotDecision.path]), onePilot);
+  assert("audit mutation: a non-pilot parent node taking an event-page identity is caught", strayId.problems.some((problem) => problem.includes(`identifies ${otherEligible.path} by its event page`)));
+}
+
+// Real data: the frozen cohort today, through the real renderer in a
+// deployed-like environment (wrangler.toml [vars], stub affiliate credentials,
+// the canonical host). A pilot event that has since become ineligible must be
+// noindex and undiscoverable; one that is active must be a sound page.
+{
+  const { loadSiteFixture } = await load("scripts/lib/route-crawl.mjs");
+  const { wranglerVars, renderedCtaProviders } = await load("scripts/lib/event-indexability-audit.mjs");
+  const { urlDateConflicts, eventLocalDate } = await load("scripts/sync-impact-marketplace-events.mjs");
+  const { resolveEventLocalDate } = await load("functions/_event-local-date.js");
+  const router = await load("functions/[[path]].js");
+  const site = await loadSiteFixture(ROOT);
+  const now = Date.now();
+  const stub = { IMPACT_SEATGEEK_ACCOUNT_SID: "t", IMPACT_SEATGEEK_AUTH_TOKEN: "t", IMPACT_SEATGEEK_CAMPAIGN_ID: "1", IMPACT_VIVIDSEATS_CAMPAIGN_ID: "2", IMPACT_ACCOUNT_SID: "t", IMPACT_AUTH_TOKEN: "t" };
+  const deployed = { ...site.env, ...wranglerVars(fs.readFileSync(path.join(ROOT, "wrangler.toml"), "utf8")), ...stub };
+  const { events } = site.data;
+  const isConfigured = coverage.providerConfiguredTest(catalog);
+  const runtime = await router.eventIndexingPilotFor(deployed, ORIGIN);
+  const offline = policy.deriveEventIndexingPilot(events, site.data.artistsMeta, deployed, { hostIndexable: true, lanesFor: (event) => coverage.publishableLaneSlugs(event, isConfigured, now), now });
+  const runtimePaths = runtime.indexed.map((member) => member.path);
+  assert(`cohort: the router's active pilot equals the offline derivation (${runtimePaths.length} active of 30)`, runtime.active && JSON.stringify(runtimePaths) === JSON.stringify(offline.indexed.map((member) => member.path)));
+  const dropped = runtime.members.filter((member) => !member.indexable);
+  if (dropped.length) console.log(`note: ${dropped.length} pilot key(s) inactive today: ${dropped.map((member) => `${member.key} (${member.decision?.reasons.join("+") || member.reason})`).join(", ")}`);
+  const renderReal = async (pathname, origin = ORIGIN) => {
+    const response = await site.modules.middlewareModule.onRequest({ request: new Request(`${origin}${pathname}`), env: deployed, next: () => new Response("static", { status: 200 }) });
+    return { status: response.status, html: await response.text() };
+  };
+  const MON = { Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06", Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12" };
+  const h1Date = (html) => {
+    const match = ((html.match(/<h1 id="eventTitle">([\s\S]*?)<\/h1>/) || [])[1] || "").match(/([A-Z][a-z]{2}) (\d{1,2}), (\d{4})/);
+    return match ? `${match[3]}-${MON[match[1]]}-${match[2].padStart(2, "0")}` : "";
+  };
+  const failures = [];
+  for (const member of runtime.members) {
+    if (!member.path) {
+      failures.push(`${member.key}: no path`);
+      continue;
+    }
+    const page = await renderReal(member.path);
+    const robots = robotsOf(page.html);
+    if (!member.indexable) {
+      if (page.status === 200 && robots !== "noindex,follow") failures.push(`${member.path}: inactive but renders ${robots}`);
+      continue;
+    }
+    const nodes = graphOf(page.html).filter((node) => node["@type"] === "MusicEvent");
+    const localDate = member.decision.path.match(/-(\d{4}-\d{2}-\d{2})-[0-9a-f]{16}$/)?.[1];
+    const buttons = renderedCtaProviders(page.html);
+    const conflicts = Object.entries(member.event.provider_links || {}).filter(([, link]) => link?.verified === true && link.url && urlDateConflicts(link.url, eventLocalDate(member.event)));
+    if (page.status !== 200) failures.push(`${member.path}: status ${page.status}`);
+    if (!robots.startsWith("index,follow")) failures.push(`${member.path}: robots ${robots}`);
+    if (canonicalOf(page.html) !== `${ORIGIN}${member.path}`) failures.push(`${member.path}: canonical ${canonicalOf(page.html)}`);
+    if (nodes.length !== 1 || nodes[0]["@id"] !== `${ORIGIN}${member.path}#event` || "offers" in nodes[0]) failures.push(`${member.path}: ${nodes.length} MusicEvent(s)`);
+    if (!(localDate && nodes[0]?.startDate?.slice(0, 10) === localDate && h1Date(page.html) === localDate && resolveEventLocalDate(member.event).iso === localDate)) failures.push(`${member.path}: route/H1/startDate/record dates disagree`);
+    if ([...buttons].sort().join(",") !== [...member.decision.inputs.publishableLanes].sort().join(",")) failures.push(`${member.path}: CTAs [${buttons}] vs policy [${member.decision.inputs.publishableLanes}]`);
+    if (member.decision.inputs.destinationCount < 2 || member.decision.inputs.snapshotReadyLanes.length < 1) failures.push(`${member.path}: below threshold`);
+    if (conflicts.length) failures.push(`${member.path}: provider URL names another night (${conflicts.map(([lane]) => lane).join(", ")})`);
+    if (member.decision.inputs.duplicateGroups.length) failures.push(`${member.path}: duplicate-ambiguous`);
+    if (!member.decision.inputs.artistPageIndexable) failures.push(`${member.path}: parent artist not indexable`);
+  }
+  assert(`cohort: every active pilot page is 200, index,follow, self-canonical, one MusicEvent without offers, one local date, CTA parity, date-safe provider links (${failures.join(" | ") || "all"})`, failures.length === 0);
+  const docs = await discovery(deployed);
+  const listedPaths = eventUrls(docs["sitemaps/events.xml"]);
+  assert(`cohort: the events sitemap is exactly the active pilot (${listedPaths.length})`, JSON.stringify([...listedPaths].sort()) === JSON.stringify([...runtimePaths].sort()) && listedPaths.length === new Set(listedPaths).size);
+  assert("cohort: /sitemap.xml and llms.txt list exactly the active pilot", JSON.stringify(eventUrls(docs["sitemap.xml"]).sort()) === JSON.stringify([...runtimePaths].sort()) && JSON.stringify(eventUrls(docs["llms.txt"]).sort()) === JSON.stringify([...runtimePaths].sort()));
+  // Non-selected pages: a spread across the eligible population (the audit
+  // renders every served page; this keeps a fast in-test guard).
+  const nonPilot = policy.deriveEventIndexability(events, site.data.artistsMeta, { lanesFor: (event) => coverage.publishableLaneSlugs(event, isConfigured, now), now })
+    .filter((decision) => decision.eligible && !policy.EVENT_INDEXING_PILOT_KEYS.includes(decision.key));
+  const sample = nonPilot.filter((_, index) => index % Math.max(1, Math.floor(nonPilot.length / 40)) === 0);
+  const leaks = [];
+  for (const decision of sample) {
+    const page = await renderReal(decision.path);
+    if (page.status !== 200 || robotsOf(page.html) !== "noindex,follow") leaks.push(`${decision.path} (${page.status} ${robotsOf(page.html)})`);
+  }
+  assert(`cohort: eligible non-pilot pages stay noindex,follow (${sample.length} sampled of ${nonPilot.length}${leaks.length ? `; ${leaks.join(", ")}` : ""})`, sample.length >= 30 && leaks.length === 0);
+  const preview = await renderReal(runtimePaths[0] || "/", "https://preview.tourticketcompare.pages.dev");
+  assert("cohort: the same deployed config on a *.pages.dev host renders the pilot page noindex,follow", robotsOf(preview.html) === "noindex,follow");
 }
 
 let failed = 0;

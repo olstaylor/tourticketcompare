@@ -417,11 +417,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284317",
+        "url": "https://www.ticketnetwork.com/en/p/8284317",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfwGkdn3e19",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284317"
   },
   {
     "id": "tm-haiden-henderson-2027-houston-g5diz_kdeuth4",
@@ -470,11 +478,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284319",
+        "url": "https://www.ticketnetwork.com/en/p/8284319",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KdeuTh4",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284319"
   },
   {
     "id": "tm-haiden-henderson-2027-atlanta-vvg1zz_k5fswrb",
@@ -576,11 +592,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284324",
+        "url": "https://www.ticketnetwork.com/en/p/8284324",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K7koqsD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284324"
   },
   {
     "id": "tm-haiden-henderson-2027-washington-16vfz_kzng7lczd",
@@ -629,11 +653,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284325",
+        "url": "https://www.ticketnetwork.com/en/p/8284325",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_KZNG7lcZD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284325"
   },
   {
     "id": "tm-haiden-henderson-2027-philadelphia-vv16ovpgt4oz75ua7",
@@ -788,11 +820,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284328",
+        "url": "https://www.ticketnetwork.com/en/p/8284328",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfYGkegtMCp",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284328"
   },
   {
     "id": "tm-haiden-henderson-2027-toronto-1a8zkfggkd2jp9d",

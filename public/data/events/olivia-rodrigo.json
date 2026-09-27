@@ -124,11 +124,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921648",
-        "url": "https://www.ticketnetwork.com/en/p/7921648",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921648",
@@ -149,7 +149,7 @@
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70677",
     "timezone": "America/New_York",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921648",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921648/Olivia-Rodrigo-tickets-Sat-Sep-26-2026-PeoplesBank-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-hartford-tickets-9-26-2026/event/107162650"
   },

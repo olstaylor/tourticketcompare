@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259348",
+        "url": "https://www.ticketnetwork.com/en/p/8259348",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdJf",
     "timezone": "America/Anchorage",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259348"
   },
   {
     "id": "tm-tommy-emmanuel-2026-kenai-vvg1hz_5wlthim",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8079700",
+        "url": "https://www.ticketnetwork.com/en/p/8079700",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5i6WUHs",
     "timezone": "America/Anchorage",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8079700"
   },
   {
     "id": "tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy",
@@ -311,11 +327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7942280",
+        "url": "https://www.ticketnetwork.com/en/p/7942280",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS4z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942280"
   },
   {
     "id": "tm-tommy-emmanuel-2026-chattanooga-g5viz_au3swzr",
@@ -417,11 +441,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7942282",
+        "url": "https://www.ticketnetwork.com/en/p/7942282",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70F-w",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942282"
   },
   {
     "id": "tm-tommy-emmanuel-2026-charlotte-z7r9jz1a70f-s",
@@ -523,11 +555,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7941629",
+        "url": "https://www.ticketnetwork.com/en/p/7941629",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-I",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941629"
   },
   {
     "id": "tm-tommy-emmanuel-2026-ponte-vedra-beach-z7r9jz1a70kze",
@@ -576,11 +616,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7941593",
+        "url": "https://www.ticketnetwork.com/en/p/7941593",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70KZe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941593"
   },
   {
     "id": "tm-tommy-emmanuel-2026-orlando-z7r9jz1a70b-e",
@@ -682,11 +730,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7942284",
+        "url": "https://www.ticketnetwork.com/en/p/7942284",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8__",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942284"
   },
   {
     "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavs4y",
@@ -841,11 +897,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267993",
+        "url": "https://www.ticketnetwork.com/en/p/8267993",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_3JvG7W7G3",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267993"
   },
   {
     "id": "tm-tommy-emmanuel-2027-madison-vv17jz_ogks7bgcu",
@@ -894,11 +958,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267996",
+        "url": "https://www.ticketnetwork.com/en/p/8267996",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_oGkS7BgCu",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267996"
   },
   {
     "id": "tm-tommy-emmanuel-2027-skokie-vv1a6zkfpgkegwg7a",
@@ -947,11 +1019,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268004",
+        "url": "https://www.ticketnetwork.com/en/p/8268004",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfPGkegwg7A",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268004"
   },
   {
     "id": "tm-tommy-emmanuel-2027-champaign-z7r9jz1aavspv",
@@ -1000,11 +1080,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268012",
+        "url": "https://www.ticketnetwork.com/en/p/8268012",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268012"
   },
   {
     "id": "tm-tommy-emmanuel-2027-mckees-rocks-1apzkfngkd53yok",
@@ -1159,11 +1247,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266792",
+        "url": "https://www.ticketnetwork.com/en/p/8266792",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266792"
   },
   {
     "id": "tm-tommy-emmanuel-2027-rochester-z7r9jz1aavsp7",
@@ -1265,11 +1361,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268041",
+        "url": "https://www.ticketnetwork.com/en/p/8268041",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268041"
   },
   {
     "id": "tm-tommy-emmanuel-2027-derry-z7r9jz1aavspk",
@@ -1371,11 +1475,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268049",
+        "url": "https://www.ticketnetwork.com/en/p/8268049",
+        "verified": true,
+        "last_verified_at": "2026-09-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSp6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268049"
   },
   {
     "id": "tm-tommy-emmanuel-2027-charlottesville-z7r9jz1aavspf",
